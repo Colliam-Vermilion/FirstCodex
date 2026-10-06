@@ -1,55 +1,59 @@
-# AD主动供氧文献库：最终交付
+# AD主动供氧文献库：现行统一交付
 
-检索日期与截止日期：2026-10-06；发表范围：2012-01-01至检索当天。以最后核验的 download_review_20261006 数据为准。本次只整理交付文件，不重新检索或改变筛选决定。原始及中间交付仍可通过Git历史查阅。
+检索日期/截止日期：2026-10-06；发表范围2012-01-01至当日。本版完成全部80条范围重新复核，沿用400个稳定ID，不新增重复版本目录。逐篇筛选与阅读全文、范围分类与全文获取分别记录。
 
-## 最终数量
+## 当前数量
 
-|分类|数量|分类RIS|
-|---|---:|---|
-|1 直接向AD反应器或内部循环供氧|120|category1_direct_ad.ris|
-|2 向厌氧水解/产酸阶段供氧|38|category2_hydrolysis_acidogenesis.ris|
-|3 独立好氧/微好氧预处理|35|category3_independent_pretreatment.ris|
-|4 综述|40|category4_reviews.ris|
-|5 排除（保留审计）|87|category5_excluded_audit.ris|
-|6 仍待确认|80|category6_pending_fulltext.ris|
-|合计|400|六个分类文件的互斥并集|
+|范围类别|所有文献类型|期刊文献（分类RIS）|
+|---|---:|---:|
+|1 AD反应器/内部循环供氧|145|139|
+|2 厌氧水解/产酸供氧|41|40|
+|3 AD前好氧/微好氧预处理|42|39|
+|4 综述|42|42|
+|5 排除|102|95|
+|6 真正仍待范围判断|28|24|
+|合计|400|379|
 
-已确认原始研究193条（1–3类）。待确认80条 = 尚需获取论文全文77条 + 已有正文但仍未决3条（R04700、R08127、R10372）。83条下载对象中，3条完成分类更新，80条仍未决；6条取得完整正文，包括一次重复下载、4篇新期刊全文和1份学位论文。海报或会议摘要不计为论文全文。
+期刊原始研究218条（139+40+39）；另保留5条学位论文/学生报告和16条会议、海报、专利等非期刊资料。类别1–3共228条范围记录，包括3条学位/报告和7条会议/海报资料，不能把228全部称期刊原始研究。
 
-## 文件导航
+80条本轮复核：52条完成分类，28条保留具体疑点。完成者仅题名24、摘要22、用户已核摘要摘述+题名1、定向全文4、研究海报1。48条已分类但未获论文全文另列为可选资料提取，**不是范围筛选任务**。R01349的供氧位置采用用户已核读摘要的摘述，独立原摘要仍未取得，该限制明确保留。
 
-### final_results/：唯一最终数据版本
+## 最终文件与EndNote导入
 
-- [Excel](final_results/ad_oxygen_download_review_20261006.xlsx)：400条、65列；保留完整检索日志、引文种子、早期排除审计及阶段复核工作表。
-- [UTF-8 CSV](final_results/ad_oxygen_download_review_utf8.csv)：与Excel“文献库”逐单元格一致。
-- 六个category1–category6分类RIS：与400条记录逐篇对应、互斥无遗漏。
-- [confirmed_original_research.ris](final_results/confirmed_original_research.ris)：合并1–3类的193条，属于**替代导入方案**，不是新增文献。
+- [Excel](final_results/ad_oxygen_download_review_20261006.xlsx)：400条83列；包括80篇复核对照、28条真正待判范围、48条已分类缺全文、学位/报告及下载状态83等工作表。
+- [UTF-8 CSV](final_results/ad_oxygen_download_review_utf8.csv)：与Excel文献库一致；旧字段与前轮证据保留，追加本轮字段。
+- final_results/六个category1–category6 RIS：**只含期刊文献**，对应上表右列。
+- [theses_and_student_reports.ris](final_results/theses_and_student_reports.ris)：5条学位/FYP记录，单列不混入期刊研究。
+- [other_nonjournal_records.ris](final_results/other_nonjournal_records.ris)：16条会议、海报及专利，KW保留范围分类。
+- [confirmed_original_research.ris](final_results/confirmed_original_research.ris)：218条期刊原始研究，**替代期刊类别1、2、3的导入**，不能同时导入两套。
 
-EndNote：File → Import → File；筛选器Reference Manager (RIS)，Text Translation选Unicode (UTF-8)。选择分类1、2、3分别导入，**或**仅导入合并confirmed_original_research.ris，不能两套同时导入。综述、候选可另导入对应文件；排除RIS只供审计，不属于已纳入库。若为完整审计导入全部六类，则不要再导入合并文件。保留稳定记录ID供更新匹配。相同题名但不同DOI的版本疑点继续保留标记，不擅自合并。
+前八个分类文件互斥、合计400条，无遗漏。若导入全审计库，选六类期刊RIS+学位报告RIS+其他非期刊RIS，不再导入合并文件。若只建已纳入期刊库，选合并218条并另导入42条综述。排除和候选仅用于审计/候选组。此前旧RIS请保留另库或按稳定ID更新，勿与本版直接重复批量导入。
 
-### manual_review/：人工处理
+EndNote：File → Import → File，Import Option选Reference Manager (RIS)，Text Translation选Unicode (UTF-8)。作者分别AU，学位THES、FYP报告RPRT、会议/海报CONF、专利PAT；不把摘要/海报当正式期刊文章。
 
-- [77条完整待下载清单CSV](manual_review/manual_download_needed_utf8.csv)及[逐篇说明](manual_review/manual_download_needed_zh.md)：原ID、题名、DOI、官方HKUST/Fudan入口、下载失败原因及全文核查问题。
-- [已有正文的3条CSV](manual_review/already_obtained_pending_3_utf8.csv)及[具体疑点与下一步](manual_review/already_obtained_pending_3_zh.md)。
-- [83条最终下载状态](manual_review/download_status_83_utf8.csv)：版本、来源、文件路径、哈希、身份核验、失败信息及处理决定。运行环境中的PDF路径不是GitHub下载链接；PDF未提交。
-- [80条人工复核工作流](manual_review/remaining_review_workflow_80_utf8.csv)：逐篇判定标准、章节定位和待填写证据字段。
+## 人工处理导航
 
-机构入口需本人官方登录及MFA；当前云环境未认证，不能据此断言订阅不足。未获全文不作为排除理由。缺少剂量参数不阻碍已明确符合范围的研究纳入。
+- [28条真正待判范围CSV](manual_review/scope_pending_utf8.csv)和[逐条疑点/官方入口](manual_review/scope_pending_zh.md)：只保留影响类别的信息；优先看摘要，必要时Methods/图，不强制整篇通读。
+- [48条已分类但缺论文全文](manual_review/classified_missing_fulltext_utf8.csv)：可选补参数/效果量，无需重复筛选；海报/会议摘要不要求找不存在的期刊全文。
+- [80条全文可获取性审查](manual_review/fulltext_access_audit_80_utf8.csv)：实际访问入口/响应、开放或限制证据与本地文件信息，分开于范围分类。
+- [83条最终下载状态](manual_review/download_status_83_utf8.csv)：保留此前获取处理记录，更新当前范围决定及R03155新获109页正文。
+- [学位和学生报告表](manual_review/theses_and_student_reports_utf8.csv)及[机构、可获取性和期刊关联说明](manual_review/theses_and_student_reports_zh.md)。
 
-### methods/：各阶段方法与必要审计
+PDF只留运行环境，路径不是GitHub下载链接。R00888出版社网页/PDF入口已定位但遭本环境代理CONNECT403；R04605官方开放博士PDF入口存在，但存储重定向遭代理阻断。不称“无法免费获取”。学校订阅权限未认证，使用清单官方入口自行登录/MFA；没有提交任何账户配置、凭据或会话数据。
 
-- [01检索方法](methods/01_search_methods_zh.md)：完整检索式、日期、来源、分页、引文追溯、去重、筛选标准及局限。
-- [02原224条复核方法](methods/02_review_224_methods_zh.md)：首批15条流程、补摘要、筛选与阶段数量。
-- [03证据依据澄清](methods/03_evidence_clarification_zh.md)：逐篇筛选与全文阅读区别、14篇实际定向阅读、1份海报，以及当时83条疑点。
-- [04全文下载及复核方法](methods/04_download_review_methods_zh.md)：首批5条、合法获取路线、6份正文核查、访问失败分流及最终数量。
-- audit/保存搜索日志110条、引文种子28条、224条筛选与实际证据依据、14篇定向全文定位、海报审计、15条筛选流程审计、3条分类变更、各阶段数量和最终400条结构化元数据。它们是方法证据，不是替代最终库。
-- [整理验证报告](methods/audit/cleanup_validation.json)：删除前迁移核验、Excel/CSV/RIS一致性和数量。
+## 方法与审计
 
-历史方法文档原文保留，并明确标注阶段快照；旧文件名是历史叙述，不代表仍存在的交付目录。历史方法若提及运行脚本、响应缓存或复现包，不表示本目录包含这些运行文件；完整查询已保存在方法、搜索日志及Excel中。原始版本可在清理前提交af86f8c303c4b0a385f7a07f6fa23184ecdf55e1查阅。
+- methods/01–04：完整保留检索、224条初次复核、14篇实际定向阅读/海报澄清、83篇下载复核各阶段方法；其旧数量/文件名为明确标注的历史快照，不是当前目录导航。
+- [05方法修正与五例校准](methods/05_scope_reassessment_correction_zh.md)：本轮范围标准纠正、证据层级、正文实际读页和访问局限。
+- [80篇复核对照](methods/audit/scope_reassessment_80_utf8.csv)：原类别/理由/证据、新分类、作者陈述/推断、全文状态、是否需用户处理。
+- audit/继续保留110条搜索日志、28个引文种子、224条审计、14篇阅读定位、海报与流程试验、阶段统计；final_record_metadata.json是唯一现行400条结构化元数据，包含80篇evidence_history，历史版本通过Git追溯。
+- [本轮汇总](methods/audit/scope_reassessment_summary.json)及[当前格式验证](methods/audit/final_validation.json)。cleanup_validation.json只记录上一轮目录清理时的检查，哈希不是本轮新数据的哈希。
 
-本轮未新增ZIP，删除全部旧ZIP、重复数据版本与测试交付。保留15条筛选流程审计及工作簿首批5条记录，它们属于正式方法验证证据，不是附件连通性测试文件。结果不承诺绝对找齐；来源索引、术语匹配、引文覆盖及全文访问均有局限。
+剩余28条中，12条已有完整摘要但仍缺关键方法信息，优先定向查Methods/流程图；16条优先补完整摘要或出版物类型，其中R11773不必先找全文。新摘要若明确回答疑点即可分类，不将28条都当成阅读全文任务。
 
-## 保留文件完整清单
+没有增加ZIP或重复交付目录。来源覆盖、题名/摘要信息量和全文访问仍有限，不承诺绝对完整；全文未获不是排除理由。
+
+## 完整保留文件清单
 
 - [README.md](README.md)
 - [final_results/ad_oxygen_download_review_20261006.xlsx](final_results/ad_oxygen_download_review_20261006.xlsx)
@@ -61,23 +65,32 @@ EndNote：File → Import → File；筛选器Reference Manager (RIS)，Text Tra
 - [final_results/category5_excluded_audit.ris](final_results/category5_excluded_audit.ris)
 - [final_results/category6_pending_fulltext.ris](final_results/category6_pending_fulltext.ris)
 - [final_results/confirmed_original_research.ris](final_results/confirmed_original_research.ris)
-- [manual_review/already_obtained_pending_3_utf8.csv](manual_review/already_obtained_pending_3_utf8.csv)
-- [manual_review/already_obtained_pending_3_zh.md](manual_review/already_obtained_pending_3_zh.md)
+- [final_results/other_nonjournal_records.ris](final_results/other_nonjournal_records.ris)
+- [final_results/theses_and_student_reports.ris](final_results/theses_and_student_reports.ris)
+- [manual_review/classified_missing_fulltext_utf8.csv](manual_review/classified_missing_fulltext_utf8.csv)
 - [manual_review/download_status_83_utf8.csv](manual_review/download_status_83_utf8.csv)
-- [manual_review/manual_download_needed_utf8.csv](manual_review/manual_download_needed_utf8.csv)
-- [manual_review/manual_download_needed_zh.md](manual_review/manual_download_needed_zh.md)
-- [manual_review/remaining_review_workflow_80_utf8.csv](manual_review/remaining_review_workflow_80_utf8.csv)
+- [manual_review/fulltext_access_audit_80_utf8.csv](manual_review/fulltext_access_audit_80_utf8.csv)
+- [manual_review/scope_pending_utf8.csv](manual_review/scope_pending_utf8.csv)
+- [manual_review/scope_pending_zh.md](manual_review/scope_pending_zh.md)
+- [manual_review/theses_and_student_reports_utf8.csv](manual_review/theses_and_student_reports_utf8.csv)
+- [manual_review/theses_and_student_reports_zh.md](manual_review/theses_and_student_reports_zh.md)
 - [methods/01_search_methods_zh.md](methods/01_search_methods_zh.md)
 - [methods/02_review_224_methods_zh.md](methods/02_review_224_methods_zh.md)
 - [methods/03_evidence_clarification_zh.md](methods/03_evidence_clarification_zh.md)
 - [methods/04_download_review_methods_zh.md](methods/04_download_review_methods_zh.md)
+- [methods/05_scope_reassessment_correction_zh.md](methods/05_scope_reassessment_correction_zh.md)
 - [methods/audit/actual_evidence_basis_224_utf8.csv](methods/audit/actual_evidence_basis_224_utf8.csv)
 - [methods/audit/citation_seeds_utf8.csv](methods/audit/citation_seeds_utf8.csv)
 - [methods/audit/classification_changes.json](methods/audit/classification_changes.json)
 - [methods/audit/cleanup_validation.json](methods/audit/cleanup_validation.json)
 - [methods/audit/final_record_metadata.json](methods/audit/final_record_metadata.json)
+- [methods/audit/final_validation.json](methods/audit/final_validation.json)
 - [methods/audit/research_poster_1_utf8.csv](methods/audit/research_poster_1_utf8.csv)
 - [methods/audit/review_audit_224_utf8.csv](methods/audit/review_audit_224_utf8.csv)
+- [methods/audit/scope_reassessment_80_utf8.csv](methods/audit/scope_reassessment_80_utf8.csv)
+- [methods/audit/scope_reassessment_changes_80.json](methods/audit/scope_reassessment_changes_80.json)
+- [methods/audit/scope_reassessment_decisions_80.json](methods/audit/scope_reassessment_decisions_80.json)
+- [methods/audit/scope_reassessment_summary.json](methods/audit/scope_reassessment_summary.json)
 - [methods/audit/screening_pilot_15_audit_utf8.csv](methods/audit/screening_pilot_15_audit_utf8.csv)
 - [methods/audit/search_log_utf8.csv](methods/audit/search_log_utf8.csv)
 - [methods/audit/stage_summaries.json](methods/audit/stage_summaries.json)
