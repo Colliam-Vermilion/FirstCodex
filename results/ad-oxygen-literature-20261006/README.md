@@ -1,58 +1,58 @@
 # AD主动供氧文献库：现行统一交付
 
-更新：2026-10-07，完成综述追溯58条漏收原因审计和15组补充检索。确认新增30篇（28原研究＋2综述），现行**505条、107列**。原475条完整记录及53个人工分类不改动；库内范围待确认0，本轮另外58条证据不足线索在主库外单列，不混入确认数量。
+更新：2026-10-07。复用完整旧检索并执行5组过程桥接查询，新增905条来源记录；确认新增49条文献（27篇期刊原始研究、13篇学位论文、4篇会议资料、5篇综述/综述章节）。现行**554条、107列**，原505条及53个人工判断逐值不变。此次没有获取或阅读原文全文。
 
 |类别|所有类型|期刊文献|
 |---|---:|---:|
-|1 AD反应器/内部循环供氧|191|181|
-|2 专门厌氧水解/产酸供氧|56|55|
-|3 独立预处理（相关研究）|85|82|
-|4 综述性来源|45|45|
+|1 AD反应器/内部循环供氧|208|187|
+|2 专门厌氧水解/产酸供氧|57|56|
+|3 独立预处理（相关研究）|111|102|
+|4 综述性来源|50|48|
 |5 排除，仅查重/审计|128|118|
-|6 范围待确认|0|0|
-|合计|505|481|
+|6 库内范围待确认|0|0|
+|合计|554|511|
 
-已确认期刊原始研究318；学位/学生报告6、其他非期刊18分别列出。类别5仅用于查重和审计，不进入下游纳入分析。类别4含R07033综述性技术说明；R11773沿用原人工综述判断，独立类型核验未完成。R13890为非生物湿式空气氧化预处理。
+已确认期刊原始研究345；学位/学生报告19、其他非期刊24另列。类别5不用于纳入分析。主库外98条具体范围疑点候选、4条范围明确但元数据待核验资料**不计入554条**。全池尚有10107个身份未处理（其中宽词9633）；不能称全部筛尽。新增文献数量不是独立实验数量，学位/会议关联另记。
 
-## 文件导航
+## 本轮文件导航
 
-- [漏收原因与改进检索方法](methods/10_omission_analysis_and_supplement_search_zh.md)、[58篇逐项原因](methods/audit/omission_reasons_58_utf8.csv)、[关键词表](methods/audit/supplement_keywords_utf8.csv)、[15组完整执行查询及数量](methods/audit/supplement_search_log_utf8.csv)。
-- [本轮新增30篇](methods/audit/supplement_confirmed_new_utf8.csv)、[新增增量RIS](final_results/supplement_confirmed_new.ris)：已在全量分类内，增量是替代导入，不要重复导入。
-- [补充检索58条具体疑点](manual_review/supplement_evidence_insufficient_utf8.csv)、[218条定向处理](methods/audit/supplement_targeted_screening_218_utf8.csv)、[46条版本/非期刊关联线索](methods/audit/supplement_version_and_gray_leads_utf8.csv)。线索尚未并入主库，不作为默认需用户下载全文任务；下一步先补摘要/引用语境，分类与获取继续分开。
-- [全部10263条查重记录](methods/audit/supplement_dedup_all_returns_utf8.csv)、[验证统计及限制](methods/audit/supplement_search_validation_summary.json)、[新增已分类缺全文资料提取表](manual_review/supplement_classified_missing_fulltext_utf8.csv)。9873条宽词池尚未逐篇筛尽；不能称全文复核或检索饱和。
+- [继续检索与筛选方法](methods/11_continued_search_and_screening_zh.md)、[5组完整查询/分页](methods/audit/continuation_search_log_utf8.csv)、[互斥统计及限制](methods/audit/continuation_search_validation_summary.json)。旧15组已完整，复用不重复执行。
+- [新增49条文献表](methods/audit/continuation_confirmed_new_utf8.csv)、[49条增量RIS](final_results/continuation_confirmed_new.ris)、[元数据核验与限制](methods/audit/continuation_metadata_verification_utf8.csv)。已含在全量中，增量RIS是替代导入。
+- [453行逐项筛选审计](methods/audit/continuation_targeted_screening_utf8.csv)、[旧58候选处理对照](methods/audit/continuation_prior58_resolution_utf8.csv)。旧58中12明确排除，46仍缺分类关键事实，不以缺全文/参数保留待确认。
+- [10894身份完整去重/状态表](methods/audit/continuation_dedup_all_returns_utf8.csv)、[11168行逐输入匹配](methods/audit/continuation_dedup_input_matching_utf8.csv)。3对同PMID无DOI身份别名已核对，主库既有记录不删除；库内排除也查重。
+- [98条主库外范围候选](manual_review/continuation_scope_candidates_utf8.csv)、[版本及范围明确的元数据待核验表](methods/audit/continuation_versions_and_metadata_utf8.csv)、[学位/会议与期刊关联线索](methods/audit/continuation_study_version_links_utf8.csv)。不是默认用户全文下载任务，先核对具体疑点。
+- [10107条未处理返回及完整摘要](manual_review/continuation_unprocessed_returns_utf8.csv)：按稳定线索ID继续筛选，保留来源/查询，不视为排除或已完成。
+- [新增已分类但缺全文](manual_review/continuation_classified_missing_fulltext_utf8.csv)：不要求重复范围筛选。[1998原研究/2020再版关联](manual_review/continuation_early_republished_utf8.csv)不计入当前新增研究。
+- [最终Excel](final_results/ad_oxygen_download_review_20261006.xlsx)、[UTF-8总CSV](final_results/ad_oxygen_download_review_utf8.csv)与[唯一统一ZIP](ad_oxygen_literature_final.zip)：同一554记录。XLSX保留历史证据表，新增本轮筛选/查询/候选/旧58处理表。
 
-- [最终Excel](final_results/ad_oxygen_download_review_20261006.xlsx)及[UTF-8 CSV](final_results/ad_oxygen_download_review_utf8.csv)：同一505条记录。Excel新增“36人工分类同步”表，原36复核表作为历史证据保留。
-- [本次36条同步对照表](methods/audit/pending36_manual_sync_utf8.csv)：每个原ID、现行ID、J/K原值、采用列、原/新分类、全文状态及别名匹配说明。
-- [附件原件](methods/manual_classification_pending36_20261007_original.csv)：保留原字节，实际GB18030编码，虽然原文件名含utf8；Excel可按GB18030/简体中文打开。更新后的总库及对照表采用UTF-8 BOM，RIS为UTF-8。
-- [本次同步方法及核验](methods/09_pending36_manual_sync_zh.md)、[同步统计](methods/audit/pending36_manual_sync_summary.json)。原人工28案例表与原附件均保留。
-- [现行范围待确认清单](manual_review/scope_pending_utf8.csv)：0条，保留表头。没有把K空白当作未分类或排除。
-- [追溯新增确认58篇](final_results/new_from_review_chase_utf8.csv)及[已分类但缺全文的资料提取表](manual_review/new_classified_missing_fulltext_utf8.csv)：不要求再次范围筛选；获取状态与人工分类独立。
-- [原36自动复核及证据](methods/audit/pending36_scope_reaudit_utf8.csv)、[原方法审计](methods/08_pending36_reaudit_zh.md)、[人工28案例对应](methods/audit/manual28_candidate_comparisons_utf8.csv)、[重复ID映射](methods/audit/record_id_aliases_utf8.csv)。这些是历史阶段证据，不代表现行待确认数量。
-- [43篇综述追溯](methods/audit/review_reference_tracking_43_utf8.csv)、[5044条引用匹配](methods/audit/reference_matching_utf8.csv)、[28篇仍缺完整引用列表](manual_review/reviews_missing_complete_references_utf8.csv)。
-- [早期相关45条](manual_review/early_related_references_utf8.csv)：不计入2012-01-01至2026-10-07主库。新综述线索19篇尚未追溯。
-- [唯一最终ZIP](ad_oxygen_literature_final.zip)：所有现行交付文件，不含ZIP自身或论文PDF。
+## 历史方法与审计
 
-## 分类权限与全文状态
+methods/01–11依次保留检索、224筛选、阅读层级、83下载、80复核、人工同步、43综述追溯、36复核、36人工同步、漏收原因与15补检、此次继续检索的方法。
 
-第09轮同步用户明确分类，第10轮仅筛选新的补充线索，不重判既有记录。K优先；K空白沿用J；两列无明确值才保留待确认。原28条人工记录不改动，原自动判断/疑点/证据保留于总库“人工同步前”字段、原36复核表及canonical evidence_history。附件只有分类标签，未附新增逐篇理由，不据此编造阅读经历、曝气参数或新的实验事实。
+- [58篇漏收原因](methods/audit/omission_reasons_58_utf8.csv)、[关键词表](methods/audit/supplement_keywords_utf8.csv)、[旧15查询](methods/audit/supplement_search_log_utf8.csv)、[第10轮方法](methods/10_omission_analysis_and_supplement_search_zh.md)。
+- [旧218处理快照](methods/audit/supplement_targeted_screening_218_utf8.csv)、[旧58候选快照](manual_review/supplement_evidence_insufficient_utf8.csv)及[旧10263行返回快照](methods/audit/supplement_dedup_all_returns_utf8.csv)均为历史，不代表现行候选状态；当前看第11轮表。
+- [第10轮新增30篇](methods/audit/supplement_confirmed_new_utf8.csv)/[增量RIS](final_results/supplement_confirmed_new.ris)、[追溯新增58篇](final_results/new_from_review_chase_utf8.csv)/[增量RIS](final_results/new_from_review_chase.ris)：同样已含全量，不重复导入。
+- [人工36同步对照](methods/audit/pending36_manual_sync_utf8.csv)、[原件](methods/manual_classification_pending36_20261007_original.csv)、[人工28案例](methods/audit/manual28_candidate_comparisons_utf8.csv)、[重复ID映射](methods/audit/record_id_aliases_utf8.csv)。附件原字节保留，其中36附件实际GB18030，原文件名utf8不能代替编码核验。
+- [43综述追溯](methods/audit/review_reference_tracking_43_utf8.csv)、[5044引文匹配](methods/audit/reference_matching_utf8.csv)、[28篇缺完整引用](manual_review/reviews_missing_complete_references_utf8.csv)、[早期45历史文献](manual_review/early_related_references_utf8.csv)。原43综述完整15、部分27、未取得1；201条未解析引用、未追溯新综述仍有覆盖缺口。
+- [库内范围待确认](manual_review/scope_pending_utf8.csv)：0行，不包含主库外98候选；[下载83记录](manual_review/download_status_83_utf8.csv)与以前人工获取清单保持原获取证据，分类同步没有改动获取状态。
 
-原475条记录的全文获取状态、来源、路径与既有获取证据均保持不变。新增30条未取得正文，分类依据逐篇列明。零待确认表示范围已判定，不表示全部取得全文。R13871本次按用户category1归类，仍为学位论文、未取得全文；不混入期刊原始研究数量。原5thesis及1student-report结构不变。
+## 分类与全文状态
 
-## EndNote导入
+原505完整对象及CSV行不改写，包含排除和所有人工判断。K人工优先、K空沿用J的既有结论不更动。新增按主动氧/空气、位置与阶段分类；独立沼气净化/终端消化后处理排除，内部供氧脱硫纳入，AD前或阶段间有氧预处理单列。全文可获取性独立，未下载不能判无免费全文；此次未称摘要筛选为全文复核。
 
-六期刊分类RIS分别181、55、82、45、118、0条；学位/报告RIS6、其他非期刊RIS18。八个分区互斥覆盖505条。新增补检RIS30和追溯RIS58都是替代增量，不与全量重复导入。空的类别6 RIS表示无现行待确认记录。期刊原始研究合并RIS318是期刊类别1–3的替代导入；追溯新增RIS58为替代增量，包含已在全量分区内的论文，**不要重复导入**。旧库已合并R13854至R01238，别名保留在RIS N1及审计中。
+学位与学生报告单列；本轮13学位正式授予年未独立核验时主表留空，RIS PY采用索引年份并在N1说明来源限制。新会议和书章不混入期刊研究数。中文作者缩略名及CrossRef疑机构作者项逐项标记，未编造缺失字段。R07033沿用原综述技术说明，R11773保留原人工综述分类；类型独立核验仍见旧审计。
 
-EndNote：File → Import → File；Import Option选择Reference Manager (RIS)，Text Translation选择Unicode (UTF-8)。作者分别AU记录，期刊JOUR、学位THES、报告RPRT、会议CONF、未知GEN。
+## EndNote导入与替代方案
 
-## 方法与局限
+全量可使用六个期刊分类RIS（187、56、102、48、118、0）+学位/报告RIS19+其他非期刊RIS24：**八分区互斥覆盖554条**。类别5只用于审计，进行下游纳入分析可跳过。期刊原始研究合并RIS345是期刊类别1–3的替代方案；新增49、此前30、追溯58增量RIS也都是替代导入，**不要与全量重复导入**。其他非期刊RIS含会议、专利与2新综述章节；依据KW类别筛选。
 
-methods/01–10保留原检索、筛选、下载、证据与人工同步方法；07、08的数量是阶段快照，10及主库为现行。原43综述完整引用列表15、部分27、未取得1；引用5044条。201条未解析完整题名及未追溯的新综述仍有漏检风险。第09轮仅人工同步；第10轮执行补充检索，但新增2篇综述参考文献尚未追溯，宽词池尚未筛尽。
+EndNote：File → Import → File；Import Option选择Reference Manager (RIS)，Text Translation选择Unicode (UTF-8)。作者逐个AU，JOUR期刊、THES学位、RPRT报告、CONF会议、CHAP书章、GEN未知。保留ID/N1和KW分类。
 
-[验证报告](methods/audit/final_validation.json)核验505唯一ID、DOI、分类分区、Excel/CSV逐值、36匹配、原28完整记录及全文状态不变、附件原字节、ZIP逐字节一致。不提交配置、凭据、PDF或浏览器数据。
+## 完整性和继续处理
 
+完整查询不等于完整筛选。13574累计来源返回（含2书目）进入11168行复用/新输入，10894去重身份；原库266、新增49、排除319、范围候选98、版本/身份51、范围明确元数据待核验4、未处理10107，互斥合计一致。后续先按未处理表检查完整题名/摘要，必要时补语境或Methods，按全库（含排除）查重，保留人工判断，避免复跑完整查询。
 
-
-
+[当前验证报告](methods/audit/final_validation.json)核验554唯一ID/DOI、原505与53人工记录不变、Excel/CSV逐值、8RIS分区、增量、候选不混库、统一ZIP逐字节一致。新增检索日期上限为2026-10-07，未声称找齐全部文献。只提交结果、方法与审计，不提交PDF、运行日志、配置、凭据或浏览器数据。
 
 ## 保留文件清单
 
@@ -67,12 +67,17 @@ methods/01–10保留原检索、筛选、下载、证据与人工同步方法�
 - [final_results/category5_excluded_audit.ris](final_results/category5_excluded_audit.ris)
 - [final_results/category6_pending_fulltext.ris](final_results/category6_pending_fulltext.ris)
 - [final_results/confirmed_original_research.ris](final_results/confirmed_original_research.ris)
+- [final_results/continuation_confirmed_new.ris](final_results/continuation_confirmed_new.ris)
 - [final_results/new_from_review_chase.ris](final_results/new_from_review_chase.ris)
 - [final_results/new_from_review_chase_utf8.csv](final_results/new_from_review_chase_utf8.csv)
 - [final_results/other_nonjournal_records.ris](final_results/other_nonjournal_records.ris)
 - [final_results/supplement_confirmed_new.ris](final_results/supplement_confirmed_new.ris)
 - [final_results/theses_and_student_reports.ris](final_results/theses_and_student_reports.ris)
 - [manual_review/classified_missing_fulltext_utf8.csv](manual_review/classified_missing_fulltext_utf8.csv)
+- [manual_review/continuation_classified_missing_fulltext_utf8.csv](manual_review/continuation_classified_missing_fulltext_utf8.csv)
+- [manual_review/continuation_early_republished_utf8.csv](manual_review/continuation_early_republished_utf8.csv)
+- [manual_review/continuation_scope_candidates_utf8.csv](manual_review/continuation_scope_candidates_utf8.csv)
+- [manual_review/continuation_unprocessed_returns_utf8.csv](manual_review/continuation_unprocessed_returns_utf8.csv)
 - [manual_review/download_status_83_utf8.csv](manual_review/download_status_83_utf8.csv)
 - [manual_review/early_related_references_utf8.csv](manual_review/early_related_references_utf8.csv)
 - [manual_review/fulltext_access_audit_80_utf8.csv](manual_review/fulltext_access_audit_80_utf8.csv)
@@ -95,11 +100,25 @@ methods/01–10保留原检索、筛选、下载、证据与人工同步方法�
 - [methods/08_pending36_reaudit_zh.md](methods/08_pending36_reaudit_zh.md)
 - [methods/09_pending36_manual_sync_zh.md](methods/09_pending36_manual_sync_zh.md)
 - [methods/10_omission_analysis_and_supplement_search_zh.md](methods/10_omission_analysis_and_supplement_search_zh.md)
+- [methods/11_continued_search_and_screening_zh.md](methods/11_continued_search_and_screening_zh.md)
 - [methods/audit/actual_evidence_basis_224_utf8.csv](methods/audit/actual_evidence_basis_224_utf8.csv)
 - [methods/audit/additional_review_leads_utf8.csv](methods/audit/additional_review_leads_utf8.csv)
 - [methods/audit/citation_seeds_utf8.csv](methods/audit/citation_seeds_utf8.csv)
 - [methods/audit/classification_changes.json](methods/audit/classification_changes.json)
 - [methods/audit/cleanup_validation.json](methods/audit/cleanup_validation.json)
+- [methods/audit/continuation_confirmed_new_utf8.csv](methods/audit/continuation_confirmed_new_utf8.csv)
+- [methods/audit/continuation_cowpea_version_identity.json](methods/audit/continuation_cowpea_version_identity.json)
+- [methods/audit/continuation_dedup_all_returns_utf8.csv](methods/audit/continuation_dedup_all_returns_utf8.csv)
+- [methods/audit/continuation_dedup_input_matching_utf8.csv](methods/audit/continuation_dedup_input_matching_utf8.csv)
+- [methods/audit/continuation_early_reprint_identity.json](methods/audit/continuation_early_reprint_identity.json)
+- [methods/audit/continuation_metadata_verification_utf8.csv](methods/audit/continuation_metadata_verification_utf8.csv)
+- [methods/audit/continuation_primary_identity_checks_utf8.csv](methods/audit/continuation_primary_identity_checks_utf8.csv)
+- [methods/audit/continuation_prior58_resolution_utf8.csv](methods/audit/continuation_prior58_resolution_utf8.csv)
+- [methods/audit/continuation_search_log_utf8.csv](methods/audit/continuation_search_log_utf8.csv)
+- [methods/audit/continuation_search_validation_summary.json](methods/audit/continuation_search_validation_summary.json)
+- [methods/audit/continuation_study_version_links_utf8.csv](methods/audit/continuation_study_version_links_utf8.csv)
+- [methods/audit/continuation_targeted_screening_utf8.csv](methods/audit/continuation_targeted_screening_utf8.csv)
+- [methods/audit/continuation_versions_and_metadata_utf8.csv](methods/audit/continuation_versions_and_metadata_utf8.csv)
 - [methods/audit/final_record_metadata.json](methods/audit/final_record_metadata.json)
 - [methods/audit/final_validation.json](methods/audit/final_validation.json)
 - [methods/audit/initial_pattern_replay_cases.json](methods/audit/initial_pattern_replay_cases.json)

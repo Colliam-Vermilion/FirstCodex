@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-07",
+  "original_master": 505,
+  "original_manual_records_preserved": 53,
+  "original_candidates_actual": 58,
+  "original_wide_actual": 9873,
+  "reused_pool_rows": 10263,
+  "reused_unique_after_pmid_identity": 10260,
+  "pmid_duplicate_aliases": {
+    "C11-10096": "C11-00429",
+    "C11-10093": "C11-00435",
+    "C11-10092": "C11-00907"
+  },
+  "wide_unique_after_pmid_identity": 9872,
+  "new_queries": 5,
+  "new_source_returns": 905,
+  "reused_raw_standard_returns": 12667,
+  "reused_book_records": 2,
+  "combined_raw_standard_source_returns": 13572,
+  "combined_raw_including_books": 13574,
+  "pipeline_rows": 11168,
+  "deduplicated_pool": 10894,
+  "new_query_unique_beyond_reused_pool": 634,
+  "in_original_master": 266,
+  "focus_records_including_aliases": 453,
+  "focus_unique_records": 450,
+  "focus_states": {
+    "范围已确认；元数据/类型待核验（主库外）": 4,
+    "明确排除（仅审计，未新增主库）": 274,
+    "版本/非独立资料关联（主库外）": 17,
+    "证据不足候选（主库外）": 98,
+    "确认新增": 49,
+    "未处理：已读完整题名，摘要尚未核查": 1,
+    "未处理：仅定位/题名初看，未完成范围筛选": 7,
+    "重复身份别名（不新增）": 3
+  },
+  "ledger_states": {
+    "已在原库（保留ID与分类）": 266,
+    "此前版本/非期刊身份线索（本轮复用）": 34,
+    "确认新增": 49,
+    "范围已确认；元数据/类型待核验（主库外）": 4,
+    "明确排除（仅审计，未新增主库）": 274,
+    "未处理（保存待后续逐篇筛选）": 10099,
+    "版本/非独立资料关联（主库外）": 17,
+    "此前已排除（本轮复用）": 45,
+    "证据不足候选（主库外）": 98,
+    "未处理：仅定位/题名初看，未完成范围筛选": 7,
+    "未处理：已读完整题名，摘要尚未核查": 1
+  },
+  "confirmed_new": 49,
+  "new_categories": {
+    "3": 26,
+    "1": 17,
+    "4": 5,
+    "2": 1
+  },
+  "new_journal_originals": 27,
+  "new_reviews": 5,
+  "new_theses": 13,
+  "new_conference": 4,
+  "new_review_chapters": 2,
+  "excluded_pool_total": 319,
+  "scope_candidates_outside_master": 98,
+  "metadata_scope_confirmed_outside_master": 4,
+  "unprocessed": 10107,
+  "wide_screened_or_other_disposed": 239,
+  "wide_remaining": 9633,
+  "prior58_resolution_states": {
+    "明确排除（仅审计，未新增主库）": 12,
+    "证据不足候选（主库外）": 46
+  },
+  "final_records": 554,
+  "categories": {
+    "1": 208,
+    "2": 57,
+    "3": 111,
+    "4": 50,
+    "5": 128,
+    "6": 0
+  },
+  "journal_categories": {
+    "1": 187,
+    "2": 56,
+    "3": 102,
+    "4": 48,
+    "5": 118,
+    "6": 0
+  },
+  "journal_originals": 345,
+  "gray_records": 19,
+  "other_nonjournal": 24,
+  "ris_counts": {
+    "category1_direct_ad.ris": 187,
+    "category2_hydrolysis_acidogenesis.ris": 56,
+    "category3_independent_pretreatment.ris": 102,
+    "category4_reviews.ris": 48,
+    "category5_excluded_audit.ris": 118,
+    "category6_pending_fulltext.ris": 0,
+    "theses_and_student_reports.ris": 19,
+    "other_nonjournal_records.ris": 24,
+    "confirmed_original_research.ris": 345,
+    "continuation_confirmed_new.ris": 49
+  },
+  "primary_fulltexts_read_this_round": 0,
+  "limits": [
+    "尚未筛选的宽词返回保留完整摘要及来源，不能声称全部筛尽",
+    "新增综述参考文献尚未追溯",
+    "OpenAlex C11报告数727/实际726差异未能定位到具体文献",
+    "CrossRef模糊检索结果不构成穷尽覆盖，旧15组查询仅复用，不重复",
+    "题名/摘要判断与全文获取独立，未使用机构认证或付费凭据",
+    "未搜索WoS/Scopus/Embase/CNKI全文；作者关键词未另行抓取"
+  ],
+  "manual_identity_aliases": {
+    "C11-10373": "C11-10368"
+  }
+}
