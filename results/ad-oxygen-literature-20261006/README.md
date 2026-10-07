@@ -1,49 +1,49 @@
-# AD主动供氧文献库：统一最终交付
+# AD主动供氧文献库：现行统一交付
 
-更新：2026-10-07，43条综述引文追溯；时间范围2012-01-01至2026-10-07。原400条和28条人工最终判断完整保留；新增40篇确认研究、36篇候选，现行476条。
-
-## 当前数量
+更新：2026-10-07，完成新增36候选逐篇证据复核及方法审计。原28条人工分类保持不变。原候选11篇完成分类，1条重复R13854并入已有R01238，24篇仍有具体范围疑点。现行**475条去重记录、107列**，原400个ID全部保留；R13854别名和原证据可追溯。
 
 |类别|所有类型|期刊文献|
 |---|---:|---:|
-|1 AD反应器/内部循环供氧|174|165|
-|2 厌氧水解/产酸供氧|51|50|
-|3 独立预处理|61|58|
+|1 AD反应器/内部循环供氧|176|167|
+|2 专门厌氧水解/产酸供氧|54|53|
+|3 独立预处理（相关研究）|64|61|
 |4 综述性来源|43|43|
-|5 排除，仅查重审计|111|102|
-|6 待确认|36|33|
-|合计|476|451|
+|5 排除，仅查重/审计|114|105|
+|6 真正待确认|24|22|
+|合计|475|451|
 
-已纳入期刊原始研究273条；学位/学生报告5条、其他非期刊20条单列。类别4含R07033综述性技术说明，并非标准综述；R11773遵循用户人工分类，独立类型证据仍缺失。类别5不进入下游纳入分析，但保留查重及审计。
+已确认期刊原始研究281；学位/学生报告6、其他非期刊18单列。类别4含R07033综述性技术说明；R11773沿用人工综述判断、独立类型核验未完成。类别3中R13890为非生物湿式空气氧化前处理，属性已注明，不混称生物微曝气。
 
-## 追溯覆盖及文件导航
+## 文件导航
 
-43篇中15篇有完整参考文献、27篇只有部分引用元数据、1篇未取得；实际取得5044条引用。完整列表不等于阅读全文或全部被引文献已筛清。201条引用缺完整解析题名等缺口见逐篇审计；未把不能访问的综述记为完成。
+- [最终Excel](final_results/ad_oxygen_download_review_20261006.xlsx)及[UTF-8 CSV](final_results/ad_oxygen_download_review_utf8.csv)：同一475条主库。Excel含36篇逐项复核、人工案例28对应及历史审计。
+- **[36篇复核对照与原/新证据](methods/audit/pending36_scope_reaudit_utf8.csv)**：保留全部36个原ID，包括合并条目；题名、摘要、二手语境、理由、缺失信息、人工案例和是否仍需用户处理逐项提供。
+- [本轮实际方法审计及5个问题的回答](methods/08_pending36_reaudit_zh.md)、[人工28条案例对应](methods/audit/manual28_candidate_comparisons_utf8.csv)、[重复ID映射](methods/audit/record_id_aliases_utf8.csv)、[来源获取审计](methods/audit/pending36_evidence_access_utf8.csv)。
+- [真正待确认24条](manual_review/scope_pending_utf8.csv)：真菌底物处理有氧操作12、气泡气源/用途5、位置/系统/干预性质7。只需列明的关键一段/图，不要求阅读全文；缺DOI、剂量或全文本身不是待确认理由。
+- [追溯新增确认48篇](final_results/new_from_review_chase_utf8.csv)及[其中缺全文的资料提取表](manual_review/new_classified_missing_fulltext_utf8.csv)：已分类，不需重复范围筛选。
+- [43篇综述追溯](methods/audit/review_reference_tracking_43_utf8.csv)、[5044条引用匹配](methods/audit/reference_matching_utf8.csv)、[28篇仍缺完整引用列表](manual_review/reviews_missing_complete_references_utf8.csv)。
+- [早期相关45条](manual_review/early_related_references_utf8.csv)：43条研究线索、2条综述线索，不计入2012-01-01至2026-10-07主库。新综述线索19篇尚未追溯。
+- [唯一最终ZIP](ad_oxygen_literature_final.zip)：现行交付文件，逐字节核验，不含ZIP自身/PDF。
 
-- [最终Excel](final_results/ad_oxygen_download_review_20261006.xlsx)：476条101列；新增追溯43、引用匹配5044、新研究40、早期45和候选36工作表。文件名保留以保持原链接。
-- [UTF-8 CSV](final_results/ad_oxygen_download_review_utf8.csv)：与Excel文献库逐值一致。
-- [逐篇综述追溯](methods/audit/review_reference_tracking_43_utf8.csv)、[引用匹配](methods/audit/reference_matching_utf8.csv)、[逐项候选判断](methods/audit/reference_candidate_decisions_utf8.csv)。
-- [新增确认40篇](final_results/new_from_review_chase_utf8.csv)及[新增RIS](final_results/new_from_review_chase.ris)。
-- [早期相关45条](manual_review/early_related_references_utf8.csv)：43条研究线索、2条综述线索，不计入当前时间范围。
-- [真正待确认36条](manual_review/scope_pending_utf8.csv)及[具体问题表](manual_review/review_chase_pending_utf8.csv)：均为本轮新增候选，未恢复已完成人工判断的旧记录。
-- [综述来源及访问失败审计](methods/audit/review_source_access_audit_utf8.csv)、[版本/同研究关系](methods/audit/study_version_relationships_utf8.csv)、[未继续追溯的新综述19条](methods/audit/additional_review_leads_utf8.csv)。
-- [28篇缺完整参考文献及机构访问入口](manual_review/reviews_missing_complete_references_utf8.csv)：27篇部分覆盖、1篇无列表，仍需后续补齐。
-- [本轮方法与局限](methods/07_review_reference_chase_zh.md)。methods/01–06保留历次检索式、日期、筛选/下载方法及数量；历史审计数量不是现行数量。
-- [统一ZIP](ad_oxygen_literature_final.zip)：唯一压缩包，与现行目录一致，不含自身或PDF。
+原43综述完整参考文献15、部分27、未取得1；取得完整列表不等于阅读全文。201条未解析完整题名、部分引用覆盖及未追溯新综述仍有漏检风险。
+
+## 证据与全文状态
+
+本轮可读研究摘要25篇：原18、外部补6、重复匹配复用1；检查已有二手语境11篇，原论文PDF定向核查2篇。R13871原“摘要”是58字符版权声明，已从现行摘要清除，旧文本保留审计；文献类型由White Rose索引补为学位论文。
+
+本轮仅R13839和R01238（由重复R13854定位）实际取得正式PDF后更新全文获取状态，其余分类变化不改变获取状态。R13839供气在分解舱之后的排放过滤舱，按Methods/图2排除。R13878根据明确二手氧释放AD语境纳入，不强制原文剂量。作者摘要、二手陈述与推断分别标明；不声称阅读全文。
+
+用户原表仅“结果”列标签，没有逐篇文字理由；同步前自动理由未冒称为人工理由。28条结论、旧证据及原始人工表完整保留。此前80/224/83审计、76缺全文表为历史阶段范围，不是全库获取数量。PDF只保存在运行环境，路径不是GitHub附件。
 
 ## EndNote导入
 
-六类期刊RIS条数为165、50、58、43、102、33；加学位报告5及其他非期刊20，互斥覆盖476条。期刊类别1–3合并[confirmed_original_research.ris](final_results/confirmed_original_research.ris)273条，是类别1–3的替代导入方案，不能同时导入。新增RIS40条为增量替代文件，已经包含在全量分类RIS内；不要与全量重复导入。类别6证据不足，不混入已确认研究。学位报告及会议等非期刊资料分别保留文献类型。
+六期刊分类RIS分别167、53、61、43、105、22；学位/报告RIS6、其他非期刊RIS18。八个分区互斥覆盖475条；待确认24=期刊22+学位1+未知类型1，后两条在相应非期刊RIS中；类别5不用于下游纳入分析。期刊原始研究合并RIS281是期刊类别1–3的替代导入；追溯新增RIS48也是替代增量（包含1条会议），已经在全量分类中，**不要重复导入**。旧库合并/移除R13854并更新R01238，ID别名在RIS N1及审计中保留。
 
-EndNote：File → Import → File；Import Option选Reference Manager (RIS)，Text Translation选Unicode (UTF-8)。作者逐条AU。旧库需按稳定ID更新，避免批量重复导入。
+EndNote：File → Import → File；Import Option选Reference Manager (RIS)，Text Translation选Unicode (UTF-8)。作者逐AU，学位THES、报告RPRT、会议CONF、其他未知GEN保留正确类型。
 
-## 全文状态与人工审计
+## 方法与验证
 
-范围分类与全文获取分开。原28条人工结论为最终判断，其原始表、同步记录及原证据保留，获取状态不变。新增确认不代表已下载或阅读全文。[新研究已分类缺全文](manual_review/new_classified_missing_fulltext_utf8.csv)用于可选参数提取，不需重复范围筛选。
-
-此前[80条获取性审查](manual_review/fulltext_access_audit_80_utf8.csv)、[83条下载记录](manual_review/download_status_83_utf8.csv)、[76条已分类缺全文](manual_review/classified_missing_fulltext_utf8.csv)是原阶段范围，不代表现行全库缺全文总数。用户人工判断不会因自动下载失败而撤销。PDF保存在运行环境，路径不是GitHub附件；不提交配置、账户、凭据或浏览器会话。
-
-final_record_metadata.json为现行结构化主库；evidence_history、manual_classification及来源综述引用保持可追溯。[现行验证](methods/audit/final_validation.json)检查ID、类别、格式一致性及原人工记录保留。参考文献部分覆盖、未解析引用与新综述尚未追溯仍构成漏检风险。
+methods/01–08保留检索式、日期、范围标准、阶段数量、证据实际阅读范围、获取失败及方法局限。07的476条/40新增/36候选是阶段快照；08及主库为现行。[验证报告](methods/audit/final_validation.json)检查475个唯一ID、原400/人工28、Excel/CSV逐值、RIS分区、重复别名与ZIP一致。无配置、凭据、PDF或会话数据提交。
 
 ## 保留文件清单
 
@@ -80,6 +80,7 @@ final_record_metadata.json为现行结构化主库；evidence_history、manual_c
 - [methods/05_scope_reassessment_correction_zh.md](methods/05_scope_reassessment_correction_zh.md)
 - [methods/06_manual_classification_sync_zh.md](methods/06_manual_classification_sync_zh.md)
 - [methods/07_review_reference_chase_zh.md](methods/07_review_reference_chase_zh.md)
+- [methods/08_pending36_reaudit_zh.md](methods/08_pending36_reaudit_zh.md)
 - [methods/audit/actual_evidence_basis_224_utf8.csv](methods/audit/actual_evidence_basis_224_utf8.csv)
 - [methods/audit/additional_review_leads_utf8.csv](methods/audit/additional_review_leads_utf8.csv)
 - [methods/audit/citation_seeds_utf8.csv](methods/audit/citation_seeds_utf8.csv)
@@ -87,9 +88,14 @@ final_record_metadata.json为现行结构化主库；evidence_history、manual_c
 - [methods/audit/cleanup_validation.json](methods/audit/cleanup_validation.json)
 - [methods/audit/final_record_metadata.json](methods/audit/final_record_metadata.json)
 - [methods/audit/final_validation.json](methods/audit/final_validation.json)
+- [methods/audit/manual28_candidate_comparisons_utf8.csv](methods/audit/manual28_candidate_comparisons_utf8.csv)
 - [methods/audit/manual_classification_conflicts_utf8.csv](methods/audit/manual_classification_conflicts_utf8.csv)
 - [methods/audit/manual_classification_sync_20261007_utf8.csv](methods/audit/manual_classification_sync_20261007_utf8.csv)
 - [methods/audit/manual_classification_sync_summary.json](methods/audit/manual_classification_sync_summary.json)
+- [methods/audit/pending36_evidence_access_utf8.csv](methods/audit/pending36_evidence_access_utf8.csv)
+- [methods/audit/pending36_reaudit_summary.json](methods/audit/pending36_reaudit_summary.json)
+- [methods/audit/pending36_scope_reaudit_utf8.csv](methods/audit/pending36_scope_reaudit_utf8.csv)
+- [methods/audit/record_id_aliases_utf8.csv](methods/audit/record_id_aliases_utf8.csv)
 - [methods/audit/reference_candidate_decisions_utf8.csv](methods/audit/reference_candidate_decisions_utf8.csv)
 - [methods/audit/reference_matching_utf8.csv](methods/audit/reference_matching_utf8.csv)
 - [methods/audit/research_poster_1_utf8.csv](methods/audit/research_poster_1_utf8.csv)
