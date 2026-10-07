@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-07",
+  "EuropePMC": [
+    {
+      "doi": "10.1016/j.jece.2022.107769",
+      "query": "DOI:10.1016/j.jece.2022.107769",
+      "status": 200,
+      "hitCount": 0
+    },
+    {
+      "doi": "10.1016/j.psep.2020.08.014",
+      "query": "DOI:10.1016/j.psep.2020.08.014",
+      "status": 200,
+      "hitCount": 0
+    }
+  ],
+  "SemanticScholar": [
+    {
+      "doi": "10.1016/j.jece.2022.107769",
+      "status": 404,
+      "error": "Paper with id DOI:10.1016/j.jece.2022.107769 not found"
+    },
+    {
+      "doi": "10.1016/j.psep.2020.08.014",
+      "status": 200,
+      "record": {
+        "paperId": "c26e7dca344afcda605dbb367333e0e9aa75674a",
+        "title": "Can microaeration boost the biotransformation of parabens in high-rate anaerobic systems?",
+        "openAccessPdf": {
+          "url": "",
+          "status": "CLOSED",
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.psep.2020.08.014?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.psep.2020.08.014, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2492926788",
+            "name": "José Gilmar da Silva Do Nascimento"
+          },
+          {
+            "authorId": "2498493427",
+            "name": "Maria Helena Mendonça de Araújo"
+          },
+          {
+            "authorId": "2254456056",
+            "name": "A. D. dos Santos"
+          },
+          {
+            "authorId": "2483286554",
+            "name": "Marcos Erick Rodrigues da Silva"
+          },
+          {
+            "authorId": "11686265",
+            "name": "P. Firmino"
+          }
+        ],
+        "abstract": "Abstract The main objective of the present study was to demonstrate microaeration as an effective strategy to boost the biotransformation of four parabens (methylparaben, ethylparaben, propylparaben, and butylparaben) in an upflow anaerobic sludge blanket reactor operated at a short hydraulic retention time (8 h). Moreover, the effect of different airflow rates (1-4 mL·min-1) was also assessed from an engineering and microbiological perspective. Low mean removal efficiencies (REs) (14-20%) were achieved under anaerobic conditions. However, the addition of only 1 mL air·min-1 (0.027 L O2·L-1 feed) remarkably boosted the biotransformation of parabens, ensuring mean REs above 85% for all compounds. In contrast, the increase in the airflow rate had a minor impact on the process, and an apparent saturation in the removal capacity was observed, noticeably from 2 to 4 mL air·min-1. The reactor presented high stability throughout the experiment, and microaeration did not impair the organic matter removal and methanogenesis. However, high airflow rates can dilute biogas, compromising its use as a fuel in combined heat and power units. The microaerobic conditions increased both richness and diversity of the reactor’s microbiota, likely favoring the growth of oxygenase-producing microorganisms, which may have played a role in the biotransformation of parabens. Finally, the high REs of parabens reached in the microaerated reactor, a more cost-effective technology, are comparable to those found in high-cost wastewater treatment systems, such as activated sludge and its variants."
+      }
+    }
+  ],
+  "publisher_failure": {
+    "doi": "10.1016/j.jece.2022.107769",
+    "hosts": [
+      "linkinghub.elsevier.com",
+      "www.sciencedirect.com",
+      "api.elsevier.com"
+    ],
+    "error": "ProxyError: Tunnel connection failed: 403 Forbidden",
+    "scope": "公开入口访问；未绕过访问控制；不能推断订阅状态"
+  },
+  "removed_provisional_ID": "R13918",
+  "ID_not_reused": true
+}

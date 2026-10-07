@@ -1,0 +1,63 @@
+{
+  "code_sha256": {
+    "merge_screen.py": "3ca4d1db56a18c81fa38911caef105ae62f44c5b5ca0660870104849f95fa8cc",
+    "classify.py": "c508df350d0ef2b52cd14d846992e8e2369e9c99737bcd1b38a160dc54b50118"
+  },
+  "actual_cases": [
+    {
+      "ID": "R13868",
+      "初始负向模式": "wine ",
+      "实际题名": "Effect of microaerophilic treatment on swine wastewater (SWW) treatment: Engineering and microbiological aspects",
+      "实际匹配文本": "wine ",
+      "匹配位置": [
+        40,
+        45
+      ],
+      "来源代码": "classify.py unrelated；逐篇排除理由见omission_reasons_58_utf8.csv"
+    },
+    {
+      "ID": "R13880",
+      "初始负向模式": "wine ",
+      "实际题名": "Alleviation of ammonia inhibition via nano-bubble water supplementation during anaerobic digestion of ammonia-rich swine manure: Buffering capacity promotion and methane production enhancement",
+      "实际匹配文本": "wine ",
+      "匹配位置": [
+        116,
+        121
+      ],
+      "来源代码": "classify.py unrelated；逐篇排除理由见omission_reasons_58_utf8.csv"
+    },
+    {
+      "ID": "R13887",
+      "初始负向模式": "wine ",
+      "实际题名": "Enhanced solubilization of solid organics and methane production by anaerobic digestion of swine manure under nano-bubble water addition",
+      "实际匹配文本": "wine ",
+      "匹配位置": [
+        92,
+        97
+      ],
+      "来源代码": "classify.py unrelated；逐篇排除理由见omission_reasons_58_utf8.csv"
+    },
+    {
+      "ID": "R13893",
+      "初始负向模式": "wine ",
+      "实际题名": "Alleviation of volatile fatty acids inhibition in anaerobic digestion of swine manure with nano-bubble water supplementation",
+      "实际匹配文本": "wine ",
+      "匹配位置": [
+        74,
+        79
+      ],
+      "来源代码": "classify.py unrelated；逐篇排除理由见omission_reasons_58_utf8.csv"
+    },
+    {
+      "ID": "R13820",
+      "初始负向模式": "gasification",
+      "实际题名": "Oxygen-limited aeration for relieving the impact of phenolic compounds in anaerobic treatment of coal gasification wastewater",
+      "实际匹配文本": "gasification",
+      "匹配位置": [
+        102,
+        114
+      ],
+      "来源代码": "classify.py unrelated；逐篇排除理由见omission_reasons_58_utf8.csv"
+    }
+  ]
+}

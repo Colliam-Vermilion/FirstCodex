@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-07",
+  "queries": 15,
+  "all_queries_cursor_or_ID_exhausted": true,
+  "results_raw_records": 12667,
+  "additional_book_records": 2,
+  "unique_results": 10263,
+  "matched_existing475": 170,
+  "matched_excluded_retained": 18,
+  "targeted_screening": 218,
+  "targeted_decision_counts": {
+    "相关非期刊/身份版本待核验": 25,
+    "确认新增": 30,
+    "未收录且不符合当前研究范围": 73,
+    "证据不足候选（未并入主库）": 58,
+    "预印本/数据/非独立版本线索": 21,
+    "背景/未完成范围判定线索": 11
+  },
+  "new_confirmed": 30,
+  "new_original_research": 28,
+  "new_reviews": 2,
+  "separate_evidence_insufficient": 58,
+  "separate_version_gray_leads": 46,
+  "unreviewed_broad_pool": 9873,
+  "all_existing_manual53_unchanged": true,
+  "limitations": [
+    "宽词发现池未逐篇筛尽；不得将218条定向核查或30新增当成检索饱和",
+    "未检索付费Scopus/WoS/Embase或CNKI/万方",
+    "新增2综述参考文献本轮尚未追溯",
+    "无强制全文；明确题名/摘要足够时分类，具体阶段/气体机制不明者单列",
+    "OpenAlex动态分页报告数和实际可相差；按DOI/题名查重，不机械用初始count截断",
+    "未成功全文读取PMC10880661，XML只返回front，不能称读取Methods"
+  ]
+}
