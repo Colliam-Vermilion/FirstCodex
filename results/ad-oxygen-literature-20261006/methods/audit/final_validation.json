@@ -1,131 +1,118 @@
 {
-  "验证日期": "2026-10-06（Asia/Shanghai）",
-  "总记录": 400,
-  "稳定ID与順序保留": true,
-  "仅80篇范围更改_其他320范围不变": true,
-  "80篇前轮review_fields完整保存": true,
-  "Excel_CSV逐单元格一致": true,
-  "Excel工作表": {
+  "date": "2026-10-07",
+  "records": 400,
+  "columns": 91,
+  "categories": {
+    "1 直接向 AD 反应器或内部循环系统供氧": 157,
+    "2 向厌氧水解或产酸阶段供氧": 43,
+    "3 独立好氧或微好氧预处理": 46,
+    "4 综述": 43,
+    "5 排除": 111
+  },
+  "sheets": {
     "统计与说明": {
-      "行数含表头": 27,
-      "列数": 4
+      "rows": 27,
+      "columns": 4
     },
     "文献库": {
-      "行数含表头": 401,
-      "列数": 83
+      "rows": 401,
+      "columns": 91
     },
     "检索日志": {
-      "行数含表头": 111,
-      "列数": 12
+      "rows": 111,
+      "columns": 12
     },
     "引文种子": {
-      "行数含表头": 29,
-      "列数": 7
+      "rows": 29,
+      "columns": 7
     },
     "候选排除审计": {
-      "行数含表头": 684,
-      "列数": 6
+      "rows": 684,
+      "columns": 6
     },
     "复核224": {
-      "行数含表头": 225,
-      "列数": 83
+      "rows": 225,
+      "columns": 91
     },
     "首批下载5": {
-      "行数含表头": 6,
-      "列数": 83
+      "rows": 6,
+      "columns": 91
     },
     "80篇复核对照": {
-      "行数含表头": 81,
-      "列数": 25
+      "rows": 81,
+      "columns": 25
     },
-    "真正待判范围28": {
-      "行数含表头": 29,
-      "列数": 25
+    "人工待确认": {
+      "rows": 1,
+      "columns": 25
     },
-    "已分类缺全文48": {
-      "行数含表头": 49,
-      "列数": 25
+    "已分类缺全文76": {
+      "rows": 77,
+      "columns": 25
     },
     "学位与学生报告5": {
-      "行数含表头": 6,
-      "列数": 83
+      "rows": 6,
+      "columns": 91
+    },
+    "人工分类同步": {
+      "rows": 29,
+      "columns": 13
     },
     "下载状态83": {
-      "行数含表头": 84,
-      "列数": 33
+      "rows": 84,
+      "columns": 33
     }
   },
-  "RIS条数": {
-    "theses_and_student_reports.ris": 5,
-    "category5_excluded_audit.ris": 95,
-    "category4_reviews.ris": 42,
-    "category6_pending_fulltext.ris": 24,
-    "category1_direct_ad.ris": 139,
-    "category2_hydrolysis_acidogenesis.ris": 40,
+  "ris_counts": {
+    "category1_direct_ad.ris": 149,
+    "category2_hydrolysis_acidogenesis.ris": 42,
+    "category3_independent_pretreatment.ris": 43,
+    "category4_reviews.ris": 43,
+    "category5_excluded_audit.ris": 102,
+    "category6_pending_fulltext.ris": 0,
+    "confirmed_original_research.ris": 234,
     "other_nonjournal_records.ris": 16,
-    "confirmed_original_research.ris": 218,
-    "category3_independent_pretreatment.ris": 39
+    "theses_and_student_reports.ris": 5
   },
-  "八个RIS互斥覆盖400": true,
-  "合并RIS218为期刊1至3替代方案": true,
-  "题名_DOI_年份_全部作者一致": true,
-  "新证据原句定位验证": {
-    "R00028": "原题名/摘要或实际PDF文本可定位",
-    "R01133": "原题名/摘要或实际PDF文本可定位",
-    "R01349": "原题名/摘要或实际PDF文本可定位",
-    "R01853": "原题名/摘要或实际PDF文本可定位",
-    "R02498": "原题名/摘要或实际PDF文本可定位",
-    "R03155": "原题名/摘要或实际PDF文本可定位",
-    "R03587": "原题名/摘要或实际PDF文本可定位",
-    "R03853": "原题名/摘要或实际PDF文本可定位",
-    "R03972": "原题名/摘要或实际PDF文本可定位",
-    "R05473": "原题名/摘要或实际PDF文本可定位",
-    "R05543": "原题名/摘要或实际PDF文本可定位",
-    "R05545": "原题名/摘要或实际PDF文本可定位",
-    "R06681": "原题名/摘要或实际PDF文本可定位",
-    "R07039": "原题名/摘要或实际PDF文本可定位",
-    "R07479": "原题名/摘要或实际PDF文本可定位",
-    "R07494": "原题名/摘要或实际PDF文本可定位",
-    "R08127": "原题名/摘要或实际PDF文本可定位",
-    "R08685": "原题名/摘要或实际PDF文本可定位",
-    "R09148": "原题名/摘要或实际PDF文本可定位",
-    "R09762": "原题名/摘要或实际PDF文本可定位",
-    "R10050": "原题名/摘要或实际PDF文本可定位",
-    "R10097": "原题名/摘要或实际PDF文本可定位",
-    "R10372": "原题名/摘要或实际PDF文本可定位",
-    "R11056": "原题名/摘要或实际PDF文本可定位",
-    "R11845": "原题名/摘要或实际PDF文本可定位",
-    "R12129": "原题名/摘要或实际PDF文本可定位",
-    "R12837": "原题名/摘要或实际PDF文本可定位"
-  },
-  "本轮复核": 80,
-  "范围已分类": 52,
-  "范围仍未决": 28,
-  "已分类未获论文全文": 48,
-  "下载状态": 83,
-  "配置凭据PDF_ZIP未进入交付": true,
-  "当前文件sha256": {
-    "final_results/ad_oxygen_download_review_20261006.xlsx": "f5f11e62a2bd827a4d2d3151fd9f3c8148525bceb100fc7422abf2034ac734f0",
-    "final_results/ad_oxygen_download_review_utf8.csv": "f2af64c774933a51673b3bd39056ea3ee68e5ee868ce0627d3c9a2f3903319e4",
-    "final_results/category1_direct_ad.ris": "eb60409ff577578a9736e3e1fd3a7ae07a8ba9bcf1e02dc8144739777a20fb12",
-    "final_results/category2_hydrolysis_acidogenesis.ris": "ea24108510d310e7017894888249212ceb5245a0de23740c6ee3bcec36cdfe9e",
-    "final_results/category3_independent_pretreatment.ris": "7bbfb520e2af1cd978b416c91f42ca613397a7034aad1a522befdc54a414a116",
-    "final_results/category4_reviews.ris": "ed19c476db71ead59592ce94414fe761ae4d224f85133f66df6786d810b1862f",
-    "final_results/category5_excluded_audit.ris": "978b3b3d6a1c0b4342e9492243a3fbfd78a43694f2a19c700dc190718f995f86",
-    "final_results/category6_pending_fulltext.ris": "32c8710920b88a87a7aab56b08680d64b2d0d7262210c8772a6ee9ff3f76ca62",
-    "final_results/confirmed_original_research.ris": "15acb341c2958101b405a92c80f36789fc49dfc6eb2f89310db0faf39a7e6c05",
-    "final_results/other_nonjournal_records.ris": "7e72a73f8d6330314aaf140a7ee21ccaf0a11bd11246d2f60745eee40b566de6",
-    "final_results/theses_and_student_reports.ris": "8bd8d129d4b2fff18ae765c81f9960c84631a84fd7c4f006dfe3e3ed002926aa",
-    "manual_review/classified_missing_fulltext_utf8.csv": "5b36ce745637cc6a6a9756484e65a6c5227a430dfb3a242a4b590a99ccdcf914",
-    "manual_review/download_status_83_utf8.csv": "dd4266d7b0f197a3ce85e99fcf445724e5deab3676d0d273ee72aa9bd6117aa9",
-    "manual_review/fulltext_access_audit_80_utf8.csv": "72b86e4bb2dc26a8846520499ea2011b7024716f5c2c345be36207e53fbbcad3",
-    "manual_review/scope_pending_utf8.csv": "9962f09300859cabaf3b85a32f0ddb15c17df429fe4a906960f2443d3f533fd7",
-    "manual_review/theses_and_student_reports_utf8.csv": "cd6b58a8ea42976b4082e77857c49e35d14adc0c9aeaa53c7abb38d26ecf5ab3",
+  "csv_xlsx_exact_values_match": true,
+  "disjoint_ris_ids_exactly_match_400": true,
+  "all_fulltext_acquisition_fields_unchanged": true,
+  "old_metadata_and_evidence_retained": true,
+  "raw_manual_attachment_byte_preserved": true,
+  "pending": 0,
+  "files_sha256": {
+    "README.md": "912072e72abf61cdb5a4c3a0b6a0fe23f0e1e5e3f3ea91194a6c4cdd04c90f44",
+    "final_results/ad_oxygen_download_review_20261006.xlsx": "1d46c3227fb990d9ce4aabee3e710bca435b64dda7d6ea4e2f5db0af04ad74cd",
+    "final_results/ad_oxygen_download_review_utf8.csv": "5de5079a7439d01518f7d7ce8581d2cda6c8b3422f0bc6f3ad85e43c4752f5b9",
+    "final_results/category1_direct_ad.ris": "59f2bfc05b656081b861757e6b2003d437dd762858464bbc2fefcafc71742e04",
+    "final_results/category2_hydrolysis_acidogenesis.ris": "6bf0c223593226ff043a799d469b5e17d874f12050c03826c86a48d1ab18851a",
+    "final_results/category3_independent_pretreatment.ris": "e24c86d342bd9c86c4d5af57a4366dc2f2a92c272ab2d2a9b30b9fd43e0ff7d3",
+    "final_results/category4_reviews.ris": "5cb91880671fd9fdb2e3294c05f25566636df18752644c11beb9c7f410b17228",
+    "final_results/category5_excluded_audit.ris": "b06ace6e37912231e641ac6d5bd1f6f82c573586ce4897f692483ae12b0aaccf",
+    "final_results/category6_pending_fulltext.ris": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "final_results/confirmed_original_research.ris": "f611fdb5e00f481edbcb8cb96bd397e4bb6172f3f5be123b8a8423cc15b90bdc",
+    "final_results/other_nonjournal_records.ris": "9d0deb7a60e43eae36367d645200473e8f001faedf2f3d247c014f4825922a8e",
+    "final_results/theses_and_student_reports.ris": "35a454b82a9214cfb95d53deb3dbe6289478ee1fee1571461c0227a8f75a8bef",
+    "manual_review/classified_missing_fulltext_utf8.csv": "04a776f5608bfc740f0dfa11199e9c64f2fee01838cac94f7c549367563f82db",
+    "manual_review/download_status_83_utf8.csv": "44e33002281e58e510c21196584de29905822ef12dbfb1272d7758c1805ce961",
+    "manual_review/fulltext_access_audit_80_utf8.csv": "a1c858cfa0d5da920d6dc52660c930c780f8611b13ae8d9ef4b9a90da8f21ddc",
+    "manual_review/scope_pending_utf8.csv": "ca87340846538345719e3389ae2b23131c1481787090ea5bcb7c1a183e72e4ac",
+    "manual_review/scope_pending_zh.md": "595ebb55c3d7d4e9e14e1c7b37e10b9e562dec975f83109f4db14f5613421f13",
+    "manual_review/theses_and_student_reports_utf8.csv": "4a2281168afa06c61962a2b6a7d1c1e2fdf98e1fb77de2a4245d56d040941642",
+    "manual_review/theses_and_student_reports_zh.md": "04d3c522b1b3eb2117393abfab9b6c0145be43eec949cb710a86c2935c04e5e1",
+    "methods/01_search_methods_zh.md": "5ec29f714898d8c74ffae160bc2eb316a8b07ac36d6d9a99d196820951411f6c",
+    "methods/02_review_224_methods_zh.md": "0048f8208072e95ca4372c1d0a33f1bc5ea2752b7073f43a15b206f3a6b58f51",
+    "methods/03_evidence_clarification_zh.md": "144d4fdbdfde965ba1aa918368540353835b33c024a4138382c2000ed55525da",
+    "methods/04_download_review_methods_zh.md": "c91ae55243efe0acc3c7c6033d9eb05953f7cda0a5f5d53145db6a98fe30d45b",
+    "methods/05_scope_reassessment_correction_zh.md": "e5c0792cbd2bda8c3c71279e4f9289f5eafd55cf07381a633eb73fc34641dc13",
+    "methods/06_manual_classification_sync_zh.md": "96b55cb9ce7b32c1ccfee14363de7061e877e0a343917a09df2f6f77c90d1fea",
     "methods/audit/actual_evidence_basis_224_utf8.csv": "984a473ff91a11f8e13a741f7a7d25c956388b4d29e2dfe979ed7120de253e11",
     "methods/audit/citation_seeds_utf8.csv": "5c91871a5b56f939bc4a951bfd9446cb6797aee3aa2c8f285e2bdb4c0c79c3eb",
     "methods/audit/classification_changes.json": "9f9a20e5a1e7c9af3b89042197a3b573abe2e10784d88c8401952464f4c599cd",
     "methods/audit/cleanup_validation.json": "50b78dc8a2f11929629f9deb111f4c2a8cc65753de7df28289e7026277d2b13c",
-    "methods/audit/final_record_metadata.json": "81b37c60f5f4958fed1b97416e144aa7359a4e26ee5aac6997f2de601f0e9f5c",
+    "methods/audit/final_record_metadata.json": "585d46d76398ece891950c8b2a21ce3e755d68de217b1a8942fc59c40988e9ab",
+    "methods/audit/manual_classification_sync_20261007_utf8.csv": "997a5bed5a50a18f27513da74208041dd8fa566b67b83c86e329893ec30eaa23",
+    "methods/audit/manual_classification_sync_summary.json": "83b530695cb34a32391ad04d0a66648d9ecef8d92a80a529116a7d531c418443",
     "methods/audit/research_poster_1_utf8.csv": "8decf77b2a169edda35c72802ea45f41e98645d0a7024462ad307575693faa98",
     "methods/audit/review_audit_224_utf8.csv": "5e13d0624fe6f39f0e0099446df4a82b8ace79e014b586d41a6170f20fc06a72",
     "methods/audit/scope_reassessment_80_utf8.csv": "66f530e989ce00c6ea4bcd82fa23ef3f3b70c282ddfb4d97b21f83b0aa0a6bc2",
@@ -135,6 +122,8 @@
     "methods/audit/screening_pilot_15_audit_utf8.csv": "5ab66351cd02628c1523eb87d0515fc3115caddcb658e0cc6c883df33581c3b0",
     "methods/audit/search_log_utf8.csv": "7ea13708c3c0d1b403cba7d0c63efa6af335c6b5b898371ef93115c580eec43e",
     "methods/audit/stage_summaries.json": "ba1c44c3db558e7d5ad5ff2042724b920c5adbef3df8791d9eeaa7b7fc30ff93",
-    "methods/audit/targeted_fulltext_14_utf8.csv": "ad200a800bf0ad26368fb159c1e4351fcae10163a73acde6dd67dd6c2950b261"
-  }
+    "methods/audit/targeted_fulltext_14_utf8.csv": "ad200a800bf0ad26368fb159c1e4351fcae10163a73acde6dd67dd6c2950b261",
+    "methods/manual_classification_20261007_original.csv": "527e09d9fcffe05ecb9affbe1a2668c450864b58766e54c8ed3d0f60b90ab1e2"
+  },
+  "zip_policy": "Generated after this validation, excludes itself; CRC and every archived byte compared with final local files before commit."
 }

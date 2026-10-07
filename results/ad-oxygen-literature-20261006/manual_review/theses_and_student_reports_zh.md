@@ -32,7 +32,7 @@
 ## R04605 — Characteristics of Ultra-Fine Bubble Water and Its Effects on Anaerobic Digestion of Waste Activated Sludge
 
 - 类型/机构：博士学位论文；University of Tsukuba；PhD in Environmental Studies，2019-09-25
-- 范围：6 仍待确认
+- 范围：1 直接向 AD 反应器或内部循环系统供氧（用户2026-10-07人工最终分类）
 - DOI：10.15068/00158028
 - 全文：筑波官方博士论文明确open access且PDF入口存在；重定向nrjjxl1nnwb4.compat.objectstorage.ap-tokyo-1.oraclecloud.com遭CONNECT 403；开放正文尚未下载
 - 关联核验：尚未核实与具体期刊文章的实验对应关系；不因同题或同作者推定相同。

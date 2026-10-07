@@ -1,59 +1,60 @@
 # AD主动供氧文献库：现行统一交付
 
-检索日期/截止日期：2026-10-06；发表范围2012-01-01至当日。本版完成全部80条范围重新复核，沿用400个稳定ID，不新增重复版本目录。逐篇筛选与阅读全文、范围分类与全文获取分别记录。
+检索日期及截止日期：2026-10-06；发表范围2012-01-01至当日。当前更新：2026-10-07用户人工分类同步，保留400个稳定记录ID，未重新检索或自动筛选。
 
 ## 当前数量
 
-|范围类别|所有文献类型|期刊文献（分类RIS）|
+类别：1 AD反应器/内部循环供氧；2 厌氧水解/产酸供氧；3 独立好氧/微好氧预处理；4 综述；5 排除；6 仍待确认。
+
+|类别|所有文献类型|期刊文献|
 |---|---:|---:|
-|1 AD反应器/内部循环供氧|145|139|
-|2 厌氧水解/产酸供氧|41|40|
-|3 AD前好氧/微好氧预处理|42|39|
-|4 综述|42|42|
-|5 排除|102|95|
-|6 真正仍待范围判断|28|24|
+|1|157|149|
+|2|43|42|
+|3|46|43|
+|4|43|43|
+|5|111|102|
+|6|0|0|
 |合计|400|379|
 
-期刊原始研究218条（139+40+39）；另保留5条学位论文/学生报告和16条会议、海报、专利等非期刊资料。类别1–3共228条范围记录，包括3条学位/报告和7条会议/海报资料，不能把228全部称期刊原始研究。
+期刊原始研究234条（149+42+43）。学位/学生报告5条、其他会议/海报/专利等16条单列；类别1–3所有类型共246条，不能全部称期刊原始研究。
 
-80条本轮复核：52条完成分类，28条保留具体疑点。完成者仅题名24、摘要22、用户已核摘要摘述+题名1、定向全文4、研究海报1。48条已分类但未获论文全文另列为可选资料提取，**不是范围筛选任务**。R01349的供氧位置采用用户已核读摘要的摘述，独立原摘要仍未取得，该限制明确保留。
+用户附件最后一列“结果”28条全部同步，空白0、异常0。人工判断优先，原判断和证据保留；全文获取状态不变。当前待范围判断0条。此前80条中76条已分类但尚未获论文全文，列为可选资料提取/追溯，包含排除及非期刊资料，不需要重复筛选。该76不是全库缺全文总数。
 
-## 最终文件与EndNote导入
+## 最终文件及EndNote
 
-- [Excel](final_results/ad_oxygen_download_review_20261006.xlsx)：400条83列；包括80篇复核对照、28条真正待判范围、48条已分类缺全文、学位/报告及下载状态83等工作表。
-- [UTF-8 CSV](final_results/ad_oxygen_download_review_utf8.csv)：与Excel文献库一致；旧字段与前轮证据保留，追加本轮字段。
-- final_results/六个category1–category6 RIS：**只含期刊文献**，对应上表右列。
-- [theses_and_student_reports.ris](final_results/theses_and_student_reports.ris)：5条学位/FYP记录，单列不混入期刊研究。
-- [other_nonjournal_records.ris](final_results/other_nonjournal_records.ris)：16条会议、海报及专利，KW保留范围分类。
-- [confirmed_original_research.ris](final_results/confirmed_original_research.ris)：218条期刊原始研究，**替代期刊类别1、2、3的导入**，不能同时导入两套。
+- [Excel](final_results/ad_oxygen_download_review_20261006.xlsx)：400条91列；包括人工同步28条、历史80篇复核对照、当前人工待确认、已分类缺全文76条、学位/报告及下载状态83条。
+- [UTF-8 CSV](final_results/ad_oxygen_download_review_utf8.csv)：与Excel文献库逐值一致；追加人工分类及同步前判断字段。
+- 六个category1–category6 RIS只含期刊，分别149、42、43、43、102、0条。category6为空，无需导入。
+- [学位/学生报告RIS](final_results/theses_and_student_reports.ris)：5条。
+- [其他非期刊RIS](final_results/other_nonjournal_records.ris)：16条。
+- [期刊原始研究合并RIS](final_results/confirmed_original_research.ris)：234条，**替代期刊类别1–3的导入，不同时导入两套**。
+- [统一最终ZIP](ad_oxygen_literature_final.zip)：包括本目录所有现行交付文件，不含ZIP自身及PDF。此前整理版本没有ZIP，本轮仅生成此一个。
 
-前八个分类文件互斥、合计400条，无遗漏。若导入全审计库，选六类期刊RIS+学位报告RIS+其他非期刊RIS，不再导入合并文件。若只建已纳入期刊库，选合并218条并另导入42条综述。排除和候选仅用于审计/候选组。此前旧RIS请保留另库或按稳定ID更新，勿与本版直接重复批量导入。
+全审计库可导入六类期刊RIS+学位报告RIS+其他非期刊RIS，互斥合计400条；不要再导入合并文件。若只建已纳入期刊库，导入合并234条及综述43条。旧库请按稳定ID更新，避免重复批量导入。EndNote：File → Import → File，Import Option选Reference Manager (RIS)，Text Translation选Unicode (UTF-8)。AU逐作者；THES学位、RPRT学生报告、CONF会议/海报、PAT专利。
 
-EndNote：File → Import → File，Import Option选Reference Manager (RIS)，Text Translation选Unicode (UTF-8)。作者分别AU，学位THES、FYP报告RPRT、会议/海报CONF、专利PAT；不把摘要/海报当正式期刊文章。
+## 人工处理及全文状态
 
-## 人工处理导航
+- [当前待确认CSV](manual_review/scope_pending_utf8.csv)及[说明](manual_review/scope_pending_zh.md)：0条，仅表头；人工已分类记录全部移出。
+- [76条已分类缺全文](manual_review/classified_missing_fulltext_utf8.csv)：可选资料补充，不是筛选任务；已排除记录不要求下载，海报/摘要不应强求不存在的期刊全文。
+- [80条全文可获取性审查](manual_review/fulltext_access_audit_80_utf8.csv)：范围类别更新，获取状态、访问记录保留。
+- [83条下载状态](manual_review/download_status_83_utf8.csv)：只更新范围相关字段；失败原因、来源、PDF路径、版本、页数等不变。
+- [学位/学生报告表](manual_review/theses_and_student_reports_utf8.csv)及[说明](manual_review/theses_and_student_reports_zh.md)。
 
-- [28条真正待判范围CSV](manual_review/scope_pending_utf8.csv)和[逐条疑点/官方入口](manual_review/scope_pending_zh.md)：只保留影响类别的信息；优先看摘要，必要时Methods/图，不强制整篇通读。
-- [48条已分类但缺论文全文](manual_review/classified_missing_fulltext_utf8.csv)：可选补参数/效果量，无需重复筛选；海报/会议摘要不要求找不存在的期刊全文。
-- [80条全文可获取性审查](manual_review/fulltext_access_audit_80_utf8.csv)：实际访问入口/响应、开放或限制证据与本地文件信息，分开于范围分类。
-- [83条最终下载状态](manual_review/download_status_83_utf8.csv)：保留此前获取处理记录，更新当前范围决定及R03155新获109页正文。
-- [学位和学生报告表](manual_review/theses_and_student_reports_utf8.csv)及[机构、可获取性和期刊关联说明](manual_review/theses_and_student_reports_zh.md)。
+人工分类不代表已下载或阅读全文。PDF仅在运行环境中，路径不是GitHub下载链接。原网络代理、机构访问未认证等限制保留，不因人工分类而改成“已获得全文”。没有提交账户配置、密码、令牌或浏览器会话。
 
-PDF只留运行环境，路径不是GitHub下载链接。R00888出版社网页/PDF入口已定位但遭本环境代理CONNECT403；R04605官方开放博士PDF入口存在，但存储重定向遭代理阻断。不称“无法免费获取”。学校订阅权限未认证，使用清单官方入口自行登录/MFA；没有提交任何账户配置、凭据或会话数据。
+## 方法及审计
 
-## 方法与审计
+methods/01–05完整保留检索式、检索日期、筛选标准、阶段数量、实际证据阅读范围、下载及复核方法和局限；历史数量为对应阶段快照，不是当前数量。
 
-- methods/01–04：完整保留检索、224条初次复核、14篇实际定向阅读/海报澄清、83篇下载复核各阶段方法；其旧数量/文件名为明确标注的历史快照，不是当前目录导航。
-- [05方法修正与五例校准](methods/05_scope_reassessment_correction_zh.md)：本轮范围标准纠正、证据层级、正文实际读页和访问局限。
-- [80篇复核对照](methods/audit/scope_reassessment_80_utf8.csv)：原类别/理由/证据、新分类、作者陈述/推断、全文状态、是否需用户处理。
-- audit/继续保留110条搜索日志、28个引文种子、224条审计、14篇阅读定位、海报与流程试验、阶段统计；final_record_metadata.json是唯一现行400条结构化元数据，包含80篇evidence_history，历史版本通过Git追溯。
-- [本轮汇总](methods/audit/scope_reassessment_summary.json)及[当前格式验证](methods/audit/final_validation.json)。cleanup_validation.json只记录上一轮目录清理时的检查，哈希不是本轮新数据的哈希。
+- [06人工同步方法](methods/06_manual_classification_sync_zh.md)
+- [原始人工表（原GB18030字节）](methods/manual_classification_20261007_original.csv)
+- [逐条同步对照（UTF-8）](methods/audit/manual_classification_sync_20261007_utf8.csv)
+- [人工同步汇总](methods/audit/manual_classification_sync_summary.json)
+- [现行验证](methods/audit/final_validation.json)
 
-剩余28条中，12条已有完整摘要但仍缺关键方法信息，优先定向查Methods/流程图；16条优先补完整摘要或出版物类型，其中R11773不必先找全文。新摘要若明确回答疑点即可分类，不将28条都当成阅读全文任务。
+final_record_metadata.json为唯一现行400条结构化数据，含前轮evidence_history及人工同步前完整记录。scope_reassessment_80、scope_reassessment_summary、cleanup_validation及其他审计保留原阶段信息，不能据其旧数量判断现行库。未新增原文证据，不承诺文献绝对找齐。
 
-没有增加ZIP或重复交付目录。来源覆盖、题名/摘要信息量和全文访问仍有限，不承诺绝对完整；全文未获不是排除理由。
-
-## 完整保留文件清单
+## 保留文件清单
 
 - [README.md](README.md)
 - [final_results/ad_oxygen_download_review_20261006.xlsx](final_results/ad_oxygen_download_review_20261006.xlsx)
@@ -79,12 +80,15 @@ PDF只留运行环境，路径不是GitHub下载链接。R00888出版社网页/P
 - [methods/03_evidence_clarification_zh.md](methods/03_evidence_clarification_zh.md)
 - [methods/04_download_review_methods_zh.md](methods/04_download_review_methods_zh.md)
 - [methods/05_scope_reassessment_correction_zh.md](methods/05_scope_reassessment_correction_zh.md)
+- [methods/06_manual_classification_sync_zh.md](methods/06_manual_classification_sync_zh.md)
 - [methods/audit/actual_evidence_basis_224_utf8.csv](methods/audit/actual_evidence_basis_224_utf8.csv)
 - [methods/audit/citation_seeds_utf8.csv](methods/audit/citation_seeds_utf8.csv)
 - [methods/audit/classification_changes.json](methods/audit/classification_changes.json)
 - [methods/audit/cleanup_validation.json](methods/audit/cleanup_validation.json)
 - [methods/audit/final_record_metadata.json](methods/audit/final_record_metadata.json)
 - [methods/audit/final_validation.json](methods/audit/final_validation.json)
+- [methods/audit/manual_classification_sync_20261007_utf8.csv](methods/audit/manual_classification_sync_20261007_utf8.csv)
+- [methods/audit/manual_classification_sync_summary.json](methods/audit/manual_classification_sync_summary.json)
 - [methods/audit/research_poster_1_utf8.csv](methods/audit/research_poster_1_utf8.csv)
 - [methods/audit/review_audit_224_utf8.csv](methods/audit/review_audit_224_utf8.csv)
 - [methods/audit/scope_reassessment_80_utf8.csv](methods/audit/scope_reassessment_80_utf8.csv)
@@ -95,3 +99,5 @@ PDF只留运行环境，路径不是GitHub下载链接。R00888出版社网页/P
 - [methods/audit/search_log_utf8.csv](methods/audit/search_log_utf8.csv)
 - [methods/audit/stage_summaries.json](methods/audit/stage_summaries.json)
 - [methods/audit/targeted_fulltext_14_utf8.csv](methods/audit/targeted_fulltext_14_utf8.csv)
+- [methods/manual_classification_20261007_original.csv](methods/manual_classification_20261007_original.csv)
+- [ad_oxygen_literature_final.zip](ad_oxygen_literature_final.zip)
