@@ -6,36 +6,36 @@
   "no_reference_list": 1,
   "reference_entries": 5044,
   "original_records": 400,
-  "new_confirmed_research": 48,
-  "new_pending": 24,
+  "new_confirmed_research": 58,
+  "new_pending": 0,
   "final_records": 475,
   "categories": {
-    "1": 176,
+    "1": 185,
     "2": 54,
-    "3": 64,
+    "3": 65,
     "4": 43,
-    "5": 114,
-    "6": 24
+    "5": 128,
+    "6": 0
   },
   "journal_categories": {
-    "1": 167,
+    "1": 175,
     "2": 53,
-    "3": 61,
+    "3": 62,
     "4": 43,
-    "5": 105,
-    "6": 22
+    "5": 118,
+    "6": 0
   },
   "ris_counts": {
-    "category1_direct_ad.ris": 167,
+    "category1_direct_ad.ris": 175,
     "category2_hydrolysis_acidogenesis.ris": 53,
-    "category3_independent_pretreatment.ris": 61,
+    "category3_independent_pretreatment.ris": 62,
     "category4_reviews.ris": 43,
-    "category5_excluded_audit.ris": 105,
-    "category6_pending_fulltext.ris": 22,
+    "category5_excluded_audit.ris": 118,
+    "category6_pending_fulltext.ris": 0,
     "theses_and_student_reports.ris": 6,
     "other_nonjournal_records.ris": 18,
-    "confirmed_original_research.ris": 281,
-    "new_from_review_chase.ris": 48
+    "confirmed_original_research.ris": 290,
+    "new_from_review_chase.ris": 58
   },
   "early_related": 45,
   "early_related_unique_keys": 45,
@@ -54,10 +54,11 @@
     "证据不足（背景或待补充范围证据）": 2693,
     "早期相关文献（单列）": 186,
     "已收录且纳入": 592,
-    "证据不足（新增候选）": 33,
+    "已收录且纳入（用户人工分类）": 16,
     "未收录且符合范围（本轮新增）": 122,
     "补充综述线索（单列）": 31,
-    "已收录但排除": 8,
+    "已收录但排除（用户人工分类）": 18,
+    "已收录但排除": 7,
     "已收录且纳入（原候选R13854重复合并）": 1
   },
   "initial_final_records": 476,
@@ -81,5 +82,37 @@
     ],
     "primary_fulltexts_retrieved": 2,
     "original_manual_28_unchanged": true
+  },
+  "manual36_sync": {
+    "date": "2026-10-07",
+    "attachment_encoding": "GB18030",
+    "J_column": "新分类",
+    "K_column": "人工分类",
+    "input_records": 36,
+    "K_selected": 25,
+    "J_fallback": 11,
+    "still_pending_in_attachment": 0,
+    "scope_changes": 24,
+    "duplicate_alias_matches": 1,
+    "anomalies": [],
+    "final_records": 475,
+    "categories": {
+      "1": 185,
+      "2": 54,
+      "3": 65,
+      "4": 43,
+      "5": 128,
+      "6": 0
+    },
+    "journal_categories": {
+      "1": 175,
+      "2": 53,
+      "3": 62,
+      "4": 43,
+      "5": 118,
+      "6": 0
+    },
+    "original_manual28_unchanged": true,
+    "all_acquisition_fields_unchanged": true
   }
 }
