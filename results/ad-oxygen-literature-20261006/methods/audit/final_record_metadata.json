@@ -580,6 +580,36 @@
           "机构访问状态": ""
         },
         "scope_unchanged": true
+      },
+      {
+        "round": "post_publication_pilot5_20261012",
+        "previous_scansci_acquisition": {
+          "date": "2026-10-12",
+          "status": "失败",
+          "verified_fulltext": false,
+          "source": "none",
+          "bound_source_url": "",
+          "recorded_pdf_candidates": [],
+          "identity_checks": {
+            "title_verified": null,
+            "authors_verified": null,
+            "doi_verified": null,
+            "doi_printed_in_pdf": null,
+            "doi_requirement": null,
+            "year_verified": null,
+            "version": null,
+            "pages": null,
+            "sha256": null,
+            "body_chars_before_references": null,
+            "body_heading_types": null,
+            "external_identity_evidence": null
+          },
+          "evidence_level": "逐来源尝试；未将HTTP200/有效PDF头/海报等同全文成功",
+          "failure_reason": "观察到Codex代理CONNECT拦截：Tunnel connection failed: 403 Forbidden；目标来源HTTP429限流；按Retry-After/冷却处理；历史工具会话未继承代理导致解析失败；会话适配后已重试；已尝试合法来源和已保存入口，尚未找到通过核验的全文；机构权益未验证",
+          "institutional_authentication": "未执行；无交互界面；未验证HKUST订阅"
+        },
+        "scope_unchanged": true,
+        "new_PDF_verified": false
       }
     ],
     "scansci_acquisition": {
@@ -603,9 +633,47 @@
         "body_heading_types": null,
         "external_identity_evidence": null
       },
-      "evidence_level": "逐来源尝试；未将HTTP200/有效PDF头/海报等同全文成功",
-      "failure_reason": "观察到Codex代理CONNECT拦截：Tunnel connection failed: 403 Forbidden；目标来源HTTP429限流；按Retry-After/冷却处理；历史工具会话未继承代理导致解析失败；会话适配后已重试；已尝试合法来源和已保存入口，尚未找到通过核验的全文；机构权益未验证",
-      "institutional_authentication": "未执行；无交互界面；未验证HKUST订阅"
+      "evidence_level": "发布后5篇实际ScanSci合法下载+公开仓储入口+出版商明确PDF链接定向请求；未将HTML200/OA标签等同PDF",
+      "failure_reason": "历史第12轮：观察到Codex代理CONNECT拦截：Tunnel connection failed: 403 Forbidden；目标来源HTTP429限流；按Retry-After/冷却处理；历史工具会话未继承代理导致解析失败；会话适配后已重试；已尝试合法来源和已保存入口，尚未找到通过核验的全文；机构权益未验证；最新发布后复测：本轮无CONNECT拒绝；Springer文章页200；PDF入口返回200但重定向为HTML订阅预览，页面明示log in via an institution；Unpaywall/WUR称有仓储OA位置，但WUR页未发现直接PDF；尚未找到可用公开全文。Semantic Scholar曾429。",
+      "institutional_authentication": "未执行；无交互界面；未验证HKUST订阅",
+      "latest_retest": {
+        "date": "2026-10-12",
+        "CONNECT_denials": 0,
+        "publisher": {
+          "http": 200,
+          "final_url": "https://link.springer.com/article/10.1007/s00253-011-3529-3",
+          "challenge": false,
+          "content_type": "text/html; charset=utf-8"
+        },
+        "OA_metadata": {
+          "doi_match": true,
+          "title": "Molecular analysis of the biomass of a fluidized bed reactor treating synthetic vinasse at anaerobic and micro-aerobic conditions",
+          "is_oa": true,
+          "locations": [
+            {
+              "endpoint_id": "0a26303df1172c2974a",
+              "evidence": "deprecated",
+              "host_type": "repository",
+              "is_best": true,
+              "license": null,
+              "oa_date": "2011-08-22",
+              "pmh_id": "oai:library.wur.nl:wurpubs/423576",
+              "repository_institution": null,
+              "updated": "deprecated",
+              "url": "https://research.wur.nl/en/publications/molecular-analysis-of-the-biomass-of-a-fluidized-bed-reactor-trea",
+              "url_for_landing_page": "https://research.wur.nl/en/publications/molecular-analysis-of-the-biomass-of-a-fluidized-bed-reactor-trea",
+              "url_for_pdf": null,
+              "version": "acceptedVersion"
+            }
+          ]
+        },
+        "PDF_verified": false,
+        "evidence_files": [
+          "methods/audit/scansci_postpublication_pilot5_results.json",
+          "methods/audit/scansci_postpublication_access_events.json",
+          "methods/audit/scansci_postpublication_publisher_pdf_checks.json"
+        ]
+      }
     }
   },
   {
@@ -830,6 +898,36 @@
           "机构访问状态": ""
         },
         "scope_unchanged": true
+      },
+      {
+        "round": "post_publication_pilot5_20261012",
+        "previous_scansci_acquisition": {
+          "date": "2026-10-12",
+          "status": "失败",
+          "verified_fulltext": false,
+          "source": "none",
+          "bound_source_url": "",
+          "recorded_pdf_candidates": [],
+          "identity_checks": {
+            "title_verified": null,
+            "authors_verified": null,
+            "doi_verified": null,
+            "doi_printed_in_pdf": null,
+            "doi_requirement": null,
+            "year_verified": null,
+            "version": null,
+            "pages": null,
+            "sha256": null,
+            "body_chars_before_references": null,
+            "body_heading_types": null,
+            "external_identity_evidence": null
+          },
+          "evidence_level": "逐来源尝试；未将HTTP200/有效PDF头/海报等同全文成功",
+          "failure_reason": "观察到Codex代理CONNECT拦截：Tunnel connection failed: 403 Forbidden；目标来源HTTP429限流；按Retry-After/冷却处理；部分目标返回HTTP403；未仅凭状态推断订阅不足；历史工具会话未继承代理导致解析失败；会话适配后已重试；已尝试合法来源和已保存入口，尚未找到通过核验的全文；机构权益未验证",
+          "institutional_authentication": "未执行；无交互界面；未验证HKUST订阅"
+        },
+        "scope_unchanged": true,
+        "new_PDF_verified": false
       }
     ],
     "scansci_acquisition": {
@@ -853,9 +951,31 @@
         "body_heading_types": null,
         "external_identity_evidence": null
       },
-      "evidence_level": "逐来源尝试；未将HTTP200/有效PDF头/海报等同全文成功",
-      "failure_reason": "观察到Codex代理CONNECT拦截：Tunnel connection failed: 403 Forbidden；目标来源HTTP429限流；按Retry-After/冷却处理；部分目标返回HTTP403；未仅凭状态推断订阅不足；历史工具会话未继承代理导致解析失败；会话适配后已重试；已尝试合法来源和已保存入口，尚未找到通过核验的全文；机构权益未验证",
-      "institutional_authentication": "未执行；无交互界面；未验证HKUST订阅"
+      "evidence_level": "发布后5篇实际ScanSci合法下载+公开仓储入口+出版商明确PDF链接定向请求；未将HTML200/OA标签等同PDF",
+      "failure_reason": "历史第12轮：观察到Codex代理CONNECT拦截：Tunnel connection failed: 403 Forbidden；目标来源HTTP429限流；按Retry-After/冷却处理；部分目标返回HTTP403；未仅凭状态推断订阅不足；历史工具会话未继承代理导致解析失败；会话适配后已重试；已尝试合法来源和已保存入口，尚未找到通过核验的全文；机构权益未验证；最新发布后复测：本轮无CONNECT拒绝；IWA文章页403，正文Just a moment...挑战页；Unpaywall未给OA位置；ScanSci未取得PDF，不能据此认定无公开全文或需要订阅。",
+      "institutional_authentication": "未执行；无交互界面；未验证HKUST订阅",
+      "latest_retest": {
+        "date": "2026-10-12",
+        "CONNECT_denials": 0,
+        "publisher": {
+          "http": 403,
+          "final_url": "https://iwaponline.com/wst/article/65/8/1368/14418/Robustness-of-the-microaerobic-removal-of-hydrogen",
+          "challenge": true,
+          "content_type": "text/html; charset=UTF-8"
+        },
+        "OA_metadata": {
+          "doi_match": true,
+          "title": "Robustness of the microaerobic removal of hydrogen sulfide from biogas",
+          "is_oa": false,
+          "locations": []
+        },
+        "PDF_verified": false,
+        "evidence_files": [
+          "methods/audit/scansci_postpublication_pilot5_results.json",
+          "methods/audit/scansci_postpublication_access_events.json",
+          "methods/audit/scansci_postpublication_publisher_pdf_checks.json"
+        ]
+      }
     }
   },
   {
@@ -1114,6 +1234,36 @@
           "机构访问状态": ""
         },
         "scope_unchanged": true
+      },
+      {
+        "round": "post_publication_pilot5_20261012",
+        "previous_scansci_acquisition": {
+          "date": "2026-10-12",
+          "status": "失败",
+          "verified_fulltext": false,
+          "source": "none",
+          "bound_source_url": "",
+          "recorded_pdf_candidates": [],
+          "identity_checks": {
+            "title_verified": null,
+            "authors_verified": null,
+            "doi_verified": null,
+            "doi_printed_in_pdf": null,
+            "doi_requirement": null,
+            "year_verified": null,
+            "version": null,
+            "pages": null,
+            "sha256": null,
+            "body_chars_before_references": null,
+            "body_heading_types": null,
+            "external_identity_evidence": null
+          },
+          "evidence_level": "逐来源尝试；未将HTTP200/有效PDF头/海报等同全文成功",
+          "failure_reason": "观察到Codex代理CONNECT拦截：Tunnel connection failed: 403 Forbidden；目标来源HTTP429限流；按Retry-After/冷却处理；部分目标返回HTTP403；未仅凭状态推断订阅不足；历史工具会话未继承代理导致解析失败；会话适配后已重试；已尝试合法来源和已保存入口，尚未找到通过核验的全文；机构权益未验证",
+          "institutional_authentication": "未执行；无交互界面；未验证HKUST订阅"
+        },
+        "scope_unchanged": true,
+        "new_PDF_verified": false
       }
     ],
     "scansci_acquisition": {
@@ -1137,9 +1287,31 @@
         "body_heading_types": null,
         "external_identity_evidence": null
       },
-      "evidence_level": "逐来源尝试；未将HTTP200/有效PDF头/海报等同全文成功",
-      "failure_reason": "观察到Codex代理CONNECT拦截：Tunnel connection failed: 403 Forbidden；目标来源HTTP429限流；按Retry-After/冷却处理；部分目标返回HTTP403；未仅凭状态推断订阅不足；历史工具会话未继承代理导致解析失败；会话适配后已重试；已尝试合法来源和已保存入口，尚未找到通过核验的全文；机构权益未验证",
-      "institutional_authentication": "未执行；无交互界面；未验证HKUST订阅"
+      "evidence_level": "发布后5篇实际ScanSci合法下载+公开仓储入口+出版商明确PDF链接定向请求；未将HTML200/OA标签等同PDF",
+      "failure_reason": "历史第12轮：观察到Codex代理CONNECT拦截：Tunnel connection failed: 403 Forbidden；目标来源HTTP429限流；按Retry-After/冷却处理；部分目标返回HTTP403；未仅凭状态推断订阅不足；历史工具会话未继承代理导致解析失败；会话适配后已重试；已尝试合法来源和已保存入口，尚未找到通过核验的全文；机构权益未验证；最新发布后复测：本轮无CONNECT拒绝；IWA文章页403，正文Just a moment...挑战页；Unpaywall未给OA位置；ScanSci未取得PDF；Semantic Scholar曾429，不能据此认定需要订阅。",
+      "institutional_authentication": "未执行；无交互界面；未验证HKUST订阅",
+      "latest_retest": {
+        "date": "2026-10-12",
+        "CONNECT_denials": 0,
+        "publisher": {
+          "http": 403,
+          "final_url": "https://iwaponline.com/wst/article/66/10/2258/14622/The-role-of-the-headspace-in-hydrogen-sulfide",
+          "challenge": true,
+          "content_type": "text/html; charset=UTF-8"
+        },
+        "OA_metadata": {
+          "doi_match": true,
+          "title": "The role of the headspace in hydrogen sulfide removal during microaerobic digestion of sludge",
+          "is_oa": false,
+          "locations": []
+        },
+        "PDF_verified": false,
+        "evidence_files": [
+          "methods/audit/scansci_postpublication_pilot5_results.json",
+          "methods/audit/scansci_postpublication_access_events.json",
+          "methods/audit/scansci_postpublication_publisher_pdf_checks.json"
+        ]
+      }
     }
   },
   {
@@ -1591,6 +1763,36 @@
           "机构访问状态": ""
         },
         "scope_unchanged": true
+      },
+      {
+        "round": "post_publication_pilot5_20261012",
+        "previous_scansci_acquisition": {
+          "date": "2026-10-12",
+          "status": "失败",
+          "verified_fulltext": false,
+          "source": "none",
+          "bound_source_url": "",
+          "recorded_pdf_candidates": [],
+          "identity_checks": {
+            "title_verified": null,
+            "authors_verified": null,
+            "doi_verified": null,
+            "doi_printed_in_pdf": null,
+            "doi_requirement": null,
+            "year_verified": null,
+            "version": null,
+            "pages": null,
+            "sha256": null,
+            "body_chars_before_references": null,
+            "body_heading_types": null,
+            "external_identity_evidence": null
+          },
+          "evidence_level": "逐来源尝试；未将HTTP200/有效PDF头/海报等同全文成功",
+          "failure_reason": "观察到Codex代理CONNECT拦截：Tunnel connection failed: 403 Forbidden；目标来源HTTP429限流；按Retry-After/冷却处理；历史工具会话未继承代理导致解析失败；会话适配后已重试；已尝试合法来源和已保存入口，尚未找到通过核验的全文；机构权益未验证",
+          "institutional_authentication": "未执行；无交互界面；未验证HKUST订阅"
+        },
+        "scope_unchanged": true,
+        "new_PDF_verified": false
       }
     ],
     "scansci_acquisition": {
@@ -1614,9 +1816,31 @@
         "body_heading_types": null,
         "external_identity_evidence": null
       },
-      "evidence_level": "逐来源尝试；未将HTTP200/有效PDF头/海报等同全文成功",
-      "failure_reason": "观察到Codex代理CONNECT拦截：Tunnel connection failed: 403 Forbidden；目标来源HTTP429限流；按Retry-After/冷却处理；历史工具会话未继承代理导致解析失败；会话适配后已重试；已尝试合法来源和已保存入口，尚未找到通过核验的全文；机构权益未验证",
-      "institutional_authentication": "未执行；无交互界面；未验证HKUST订阅"
+      "evidence_level": "发布后5篇实际ScanSci合法下载+公开仓储入口+出版商明确PDF链接定向请求；未将HTML200/OA标签等同PDF",
+      "failure_reason": "历史第12轮：观察到Codex代理CONNECT拦截：Tunnel connection failed: 403 Forbidden；目标来源HTTP429限流；按Retry-After/冷却处理；历史工具会话未继承代理导致解析失败；会话适配后已重试；已尝试合法来源和已保存入口，尚未找到通过核验的全文；机构权益未验证；最新发布后复测：本轮无CONNECT拒绝；Springer文章页200；PDF入口返回200但重定向为HTML订阅预览，页面明示log in via an institution；Unpaywall未给OA位置；没有通过核验的PDF。Semantic Scholar处于429冷却未发送。",
+      "institutional_authentication": "未执行；无交互界面；未验证HKUST订阅",
+      "latest_retest": {
+        "date": "2026-10-12",
+        "CONNECT_denials": 0,
+        "publisher": {
+          "http": 200,
+          "final_url": "https://link.springer.com/article/10.1007/s00449-012-0798-x",
+          "challenge": false,
+          "content_type": "text/html; charset=utf-8"
+        },
+        "OA_metadata": {
+          "doi_match": true,
+          "title": "Effect of micro-aeration on anaerobic digestion of primary sludge under septic tank conditions",
+          "is_oa": false,
+          "locations": []
+        },
+        "PDF_verified": false,
+        "evidence_files": [
+          "methods/audit/scansci_postpublication_pilot5_results.json",
+          "methods/audit/scansci_postpublication_access_events.json",
+          "methods/audit/scansci_postpublication_publisher_pdf_checks.json"
+        ]
+      }
     }
   },
   {
@@ -151584,6 +151808,36 @@
           "机构访问状态": ""
         },
         "scope_unchanged": true
+      },
+      {
+        "round": "post_publication_pilot5_20261012",
+        "previous_scansci_acquisition": {
+          "date": "2026-10-12",
+          "status": "失败",
+          "verified_fulltext": false,
+          "source": "none",
+          "bound_source_url": "",
+          "recorded_pdf_candidates": [],
+          "identity_checks": {
+            "title_verified": null,
+            "authors_verified": null,
+            "doi_verified": null,
+            "doi_printed_in_pdf": null,
+            "doi_requirement": null,
+            "year_verified": null,
+            "version": null,
+            "pages": null,
+            "sha256": null,
+            "body_chars_before_references": null,
+            "body_heading_types": null,
+            "external_identity_evidence": null
+          },
+          "evidence_level": "逐来源尝试；未将HTTP200/有效PDF头/海报等同全文成功",
+          "failure_reason": "观察到Codex代理CONNECT拦截：Tunnel connection failed: 403 Forbidden；部分目标返回HTTP403；未仅凭状态推断订阅不足；已尝试合法来源和已保存入口，尚未找到通过核验的全文；机构权益未验证",
+          "institutional_authentication": "未执行；无交互界面；未验证HKUST订阅"
+        },
+        "scope_unchanged": true,
+        "new_PDF_verified": false
       }
     ],
     "scansci_acquisition": {
@@ -151607,9 +151861,47 @@
         "body_heading_types": null,
         "external_identity_evidence": null
       },
-      "evidence_level": "逐来源尝试；未将HTTP200/有效PDF头/海报等同全文成功",
-      "failure_reason": "观察到Codex代理CONNECT拦截：Tunnel connection failed: 403 Forbidden；部分目标返回HTTP403；未仅凭状态推断订阅不足；已尝试合法来源和已保存入口，尚未找到通过核验的全文；机构权益未验证",
-      "institutional_authentication": "未执行；无交互界面；未验证HKUST订阅"
+      "evidence_level": "发布后5篇实际ScanSci合法下载+公开仓储入口+出版商明确PDF链接定向请求；未将HTML200/OA标签等同PDF",
+      "failure_reason": "历史第12轮：观察到Codex代理CONNECT拦截：Tunnel connection failed: 403 Forbidden；部分目标返回HTTP403；未仅凭状态推断订阅不足；已尝试合法来源和已保存入口，尚未找到通过核验的全文；机构权益未验证；最新发布后复测：本轮无CONNECT拒绝；scientific.net返回403，正文Your request was blocked.，仅短正文不能确定拒绝层；Unpaywall标OA但只给落地页；未找到可用PDF。Semantic Scholar曾429。",
+      "institutional_authentication": "未执行；无交互界面；未验证HKUST订阅",
+      "latest_retest": {
+        "date": "2026-10-12",
+        "CONNECT_denials": 0,
+        "publisher": {
+          "http": 403,
+          "final_url": "https://www.scientific.net/AMR.550-553.522",
+          "challenge": true,
+          "content_type": "text/plain"
+        },
+        "OA_metadata": {
+          "doi_match": true,
+          "title": "Production of High Calorific Biogas from Organic Wastewater and Enhancement of Anaerobic Digestion",
+          "is_oa": true,
+          "locations": [
+            {
+              "endpoint_id": null,
+              "evidence": "deprecated",
+              "host_type": "publisher",
+              "is_best": true,
+              "license": "cc-by",
+              "oa_date": "2012-07-01",
+              "pmh_id": null,
+              "repository_institution": null,
+              "updated": "deprecated",
+              "url": "https://doi.org/10.4028/www.scientific.net/amr.550-553.522",
+              "url_for_landing_page": "https://doi.org/10.4028/www.scientific.net/amr.550-553.522",
+              "url_for_pdf": null,
+              "version": "publishedVersion"
+            }
+          ]
+        },
+        "PDF_verified": false,
+        "evidence_files": [
+          "methods/audit/scansci_postpublication_pilot5_results.json",
+          "methods/audit/scansci_postpublication_access_events.json",
+          "methods/audit/scansci_postpublication_publisher_pdf_checks.json"
+        ]
+      }
     }
   },
   {

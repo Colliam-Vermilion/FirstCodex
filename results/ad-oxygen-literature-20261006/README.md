@@ -1,3 +1,14 @@
+# 第14轮：发布后实际联网与5篇下载复测（2026-10-12）
+
+配置接口已读到新的已发布版本，但实际Elsevier API/跳转/出版商三域仍CONNECT403；原5篇本轮均无CONNECT错误，只有2篇Springer文章预览可访问，IWA/Scientific.net仍拒绝/挑战。实际PDF成功0，未扩大剩余365条；已核验全文仍56份。总库554及全部人工分类不变。
+
+- [逐篇五步结果及下一步](manual_review/scansci_postpublication_pilot5_status_utf8.csv)
+- [本轮有明确出版商机构登录证据的2篇](manual_review/scansci_pilot5_institution_access_utf8.csv)，其余3篇不归因为订阅
+- [完整方法、重连/新任务能否解决的证据边界](methods/14_postpublication_pilot5_retest_zh.md)
+- [真实访问错误/429实录](methods/audit/scansci_postpublication_access_events.json)、[Springer PDF入口200实际是HTML的证据](methods/audit/scansci_postpublication_publisher_pdf_checks.json)
+
+以下第13/12轮为历史阶段说明；网络现状以第14轮实际请求为准。
+
 # 第13轮访问诊断与Windows机构工作流（2026-10-12）
 
 现行总库和人工分类保持554条、类别1–6为208/57/111/50/128/0；已核验PDF仍56份。本轮仅5条历史失败+1条OA控制及来源端点小批复测，没有重跑370条。

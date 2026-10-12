@@ -50,5 +50,25 @@
   "pdf_storage": "current environment local files; not uploaded/published durable storage",
   "bound_source_url_count": 26,
   "source_url_limit": "SDK returns provider names, not always exact winning PDF URL; candidate links are labeled, never presented as bound provenance",
-  "body_validation_limit": "all pages parsed, document structure/body/references and identity/version checks; not full scientific reading or scope reassessment"
+  "body_validation_limit": "all pages parsed, document structure/body/references and identity/version checks; not full scientific reading or scope reassessment",
+  "latest_postpublication_retest": {
+    "date": "2026-10-12",
+    "tested_IDs": [
+      "R00313",
+      "R00363",
+      "R00379",
+      "R00430",
+      "R00651"
+    ],
+    "completed": 5,
+    "new_verified_PDFs": 0,
+    "existing_verified_PDFs_SHA_pass": 56,
+    "newly_retested_connect_denials": 0,
+    "independent_Elsevier_environment_probes_CONNECT_denied": 3,
+    "publication_configuration_version_changed": true,
+    "entire_remaining_queue_not_rerun": true,
+    "older_unpaywall_config_and_obstacle_flags_are_historical_round12": true,
+    "unpaywall_contact_configured_now": true,
+    "evidence": "methods/audit/scansci_postpublication_delivery_validation.json"
+  }
 }
