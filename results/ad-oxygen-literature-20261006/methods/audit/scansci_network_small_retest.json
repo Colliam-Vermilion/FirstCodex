@@ -1,0 +1,79 @@
+[
+  {
+    "label": "OpenAIRE",
+    "url": "https://api.openaire.eu/search/publications?doi=10.2166/wst.2012.013",
+    "date": "2026-10-12",
+    "http": 200,
+    "final_url": "https://api.openaire.eu/search/publications?doi=10.2166/wst.2012.013",
+    "content_type": "application/xml;charset=UTF-8",
+    "retry_after": "",
+    "response_excerpt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<response>\n\t  <header>\n\t\t    <query>(oaftype exact result) and (resulttypeid exact publication) and ((pidclassid exact \"doi\" and pid exact \"10.2166/wst.2012.013\"))</query>\n\t\t\t\t  <locale>en_US</locale>\t\n\t\t\t\t\t<size>10</size>\n\t\t\t   <page>1</page>\n\t\t\t   <total>1</total>\n\t\t\t\t\t\t\t<fields>\n\t\t\t\t\t\t\t</fields>\n\t\t\t</header>\n\t  <results>\n\t\t\t\t\t\t\t\t\t\t<result xmlns:dri=\"http://www.driver-reposito"
+  },
+  {
+    "label": "CORE",
+    "url": "https://api.core.ac.uk/v3/works/search?q=doi:10.2166/wst.2012.013",
+    "date": "2026-10-12",
+    "http": 404,
+    "final_url": "https://api.core.ac.uk/v3/works/search?q=doi:10.2166/wst.2012.013",
+    "content_type": "text/html; charset=UTF-8",
+    "retry_after": "",
+    "response_excerpt": "{\"message\":\"No route found for \\u0022GET https:\\/\\/api.core.ac.uk\\/v3\\/works\\/search\\u0022\"}"
+  },
+  {
+    "label": "Elsevier（未配置key，不测试机构权限）",
+    "url": "https://api.elsevier.com/content/article/doi/10.1016/j.wasman.2022.09.035",
+    "date": "2026-10-12",
+    "error_type": "ProxyError",
+    "error": "HTTPSConnectionPool(host='api.elsevier.com', port=443): Max retries exceeded with url: /content/article/doi/10.1016/j.wasman.2022.09.035 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+  },
+  {
+    "label": "R00313",
+    "url": "https://research.wur.nl/en/publications/molecular-analysis-of-the-biomass-of-a-fluidized-bed-reactor-trea",
+    "date": "2026-10-12",
+    "http": 200,
+    "final_url": "https://research.wur.nl/en/publications/molecular-analysis-of-the-biomass-of-a-fluidized-bed-reactor-trea/",
+    "content_type": "text/html;charset=UTF-8",
+    "retry_after": "",
+    "response_excerpt": "\n\n\n\n<!DOCTYPE html>\n<html lang=\"en\" class=\"nexus-font-support\">\n\n\n<head>\n    <meta charset=\"utf-8\"/>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"/>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/>\n    <meta name=\"google\" content=\"nositelinkssearchbox\"/>\n    <meta name=\"tdm-reservation\" content=\"0\">\n    <title>\n        Molecular analysis of the biomass of a fluidized bed reactor tr"
+  },
+  {
+    "label": "R00363",
+    "url": "https://doi.org/10.4028/www.scientific.net/amr.550-553.522",
+    "date": "2026-10-12",
+    "http": 403,
+    "final_url": "https://www.scientific.net/AMR.550-553.522",
+    "content_type": "text/plain",
+    "retry_after": "",
+    "response_excerpt": "Your request was blocked."
+  },
+  {
+    "label": "R00379",
+    "url": "https://doi.org/10.2166/wst.2012.013",
+    "date": "2026-10-12",
+    "http": 403,
+    "final_url": "https://iwaponline.com/wst/article/65/8/1368/14418/Robustness-of-the-microaerobic-removal-of-hydrogen",
+    "content_type": "text/html; charset=UTF-8",
+    "retry_after": "",
+    "response_excerpt": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-YC46RxQI08g4c"
+  },
+  {
+    "label": "R00430",
+    "url": "https://doi.org/10.2166/wst.2012.457",
+    "date": "2026-10-12",
+    "http": 403,
+    "final_url": "https://iwaponline.com/wst/article/66/10/2258/14622/The-role-of-the-headspace-in-hydrogen-sulfide",
+    "content_type": "text/html; charset=UTF-8",
+    "retry_after": "",
+    "response_excerpt": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-RTFhemqkm87vN"
+  },
+  {
+    "label": "R00651",
+    "url": "https://doi.org/10.1007/s00449-012-0798-x",
+    "date": "2026-10-12",
+    "http": 200,
+    "final_url": "https://link.springer.com/article/10.1007/s00449-012-0798-x",
+    "content_type": "text/html; charset=utf-8",
+    "retry_after": "",
+    "response_excerpt": "<!DOCTYPE html>\n<html lang=\"en\" class=\"no-js\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n        <meta name=\"applicable-device\" content=\"pc,mobile\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n        \n        \n        \n            <meta name=\"robots\" content=\"max-image-preview:large\">\n            <meta name=\"access\" conten"
+  }
+]

@@ -1,3 +1,16 @@
+# 第13轮访问诊断与Windows机构工作流（2026-10-12）
+
+现行总库和人工分类保持554条、类别1–6为208/57/111/50/128/0；已核验PDF仍56份。本轮仅5条历史失败+1条OA控制及来源端点小批复测，没有重跑370条。
+
+- [完整诊断、白名单设置、Windows同版本安装/HKUST登录MFA/Elsevier API/按ID回同步](methods/13_scansci_diagnosis_windows_zh.md)
+- [370条非互斥障碍矩阵](methods/audit/scansci_obstacle_matrix_utf8.csv)、[统计](methods/audit/scansci_obstacle_statistics.json)、[403归因证据](methods/audit/scansci_http403_signature_audit.json)、[实际域名/重定向与复测状态](methods/audit/scansci_required_domains_utf8.csv)
+- [Unpaywall小批真实结果](methods/audit/scansci_unpaywall_small_retest.json)、[题名DOI核验](methods/audit/scansci_unpaywall_identity_validation.json)、[实际MCP读邮箱核验（不含邮箱值）](methods/audit/scansci_mcp_email_check.json)、[入口复测](methods/audit/scansci_network_small_retest.json)、[来源端点复测](methods/audit/scansci_endpoint_retest.json)
+- [Windows完整ID队列](manual_review/windows_remaining_fulltext_queue_utf8.csv)、[仅DOI自动队列](manual_review/windows_doi_download_queue_utf8.csv)、[5篇测试](manual_review/windows_pilot5_queue_utf8.csv)、[无DOI手工队列](manual_review/windows_no_doi_manual_queue_utf8.csv)、[回填模板](manual_review/windows_local_status_template_utf8.csv)。队列跳过现有56全文，不按输出顺序匹配。
+
+Unpaywall授权邮箱已配置到仓库外，6个DOI均返回真实匹配记录；这不是新增PDF成功。串行+5–12秒延迟现已启用，包括1.18.0必需的fixed_request_delay_enabled。Elsevier API/跳转/出版商仍CONNECT403，IWA为挑战页，不能混为同一问题。白名单/联系人/可复现设置已保存草稿，requires_publish=true；当前接口不能确认已发布的运行策略，需要用户在环境设置检查保存、发布和实例传播。云端没有供本人完成登录的交互浏览器，HKUST只配置重写模板并保持通道关闭，未认证。
+
+以下第12轮内容为当时的获取记录；其中“邮箱未配”等是历史状态，现状以第13轮为准。
+
 # AD主动供氧文献库：现行统一交付
 
 更新：2026-10-12，完成ScanSci PDF1.18.0安装、实际MCP下载及5篇验证，再处理全部类别1–4的426条。**复用13、新下载43，共56份通过全文身份/结构/版本核验；370未获核验全文，未处理0。**370含369未取回记录及1研究海报，未将海报计论文全文。当前环境没有完成HKUST机构认证。

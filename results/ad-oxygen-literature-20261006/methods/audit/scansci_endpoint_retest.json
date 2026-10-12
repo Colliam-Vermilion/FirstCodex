@@ -1,0 +1,64 @@
+[
+  {
+    "label": "CORE corrected installed endpoint",
+    "url": "https://api.core.ac.uk/v3/search/works?q=doi%3A10.2166%2Fwst.2012.013&limit=5",
+    "http": 200,
+    "final_url": "https://api.core.ac.uk/v3/search/works/?q=doi%3A10.2166%2Fwst.2012.013&limit=5",
+    "retry_after": "",
+    "response_excerpt": "{\"totalHits\":0,\"limit\":5,\"offset\":0,\"results\":[],\"searchId\":\"7d52ea810fd8a281e8d7f71d291e969a\"}",
+    "server": "envoy",
+    "proxy_diagnostic_header_names": []
+  },
+  {
+    "label": "Semantic Scholar rate limit",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007%2Fs00253-011-3529-3?fields=title,openAccessPdf",
+    "http": 200,
+    "final_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007%2Fs00253-011-3529-3?fields=title,openAccessPdf",
+    "retry_after": "",
+    "response_excerpt": "{\"paperId\": \"b0116a8ada33227661fc5f0e5d726324d59cf59f\", \"title\": \"Molecular analysis of the biomass of a fluidized bed reactor treating synthetic vinasse at anaerobic and micro-aerobic conditions\", \"openAccessPdf\": {\"url\": \"https://research.wur.nl/en/publications/molecular-analysis-of-the-biomass-of-a-fluidized-bed-reactor-trea\", \"status\": \"GREEN\", \"license\": null}}\n",
+    "server": "envoy",
+    "proxy_diagnostic_header_names": []
+  },
+  {
+    "label": "Elsevier DOI redirect",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S0960852413008523",
+    "error_type": "ProxyError",
+    "error": "HTTPSConnectionPool(host='linkinghub.elsevier.com', port=443): Max retries exceeded with url: /retrieve/pii/S0960852413008523 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+  },
+  {
+    "label": "Elsevier publisher",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0960852413008523",
+    "error_type": "ProxyError",
+    "error": "HTTPSConnectionPool(host='www.sciencedirect.com', port=443): Max retries exceeded with url: /science/article/pii/S0960852413008523 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+  },
+  {
+    "label": "Wiley API",
+    "url": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fjctb.4795",
+    "http": 400,
+    "final_url": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fjctb.4795",
+    "retry_after": "",
+    "response_excerpt": "",
+    "server": "envoy",
+    "proxy_diagnostic_header_names": []
+  },
+  {
+    "label": "repository",
+    "url": "https://uvadoc.uva.es/",
+    "http": 503,
+    "final_url": "https://uvadoc.uva.es/",
+    "retry_after": "",
+    "response_excerpt": "upstream connect error or disconnect/reset before headers. reset reason: connection timeout",
+    "server": "envoy",
+    "proxy_diagnostic_header_names": []
+  },
+  {
+    "label": "repository",
+    "url": "https://digital.csic.es/",
+    "http": 200,
+    "final_url": "https://digital.csic.es/",
+    "retry_after": "",
+    "response_excerpt": "<!doctype html><html lang=\"en\"><head><title>Making sure you&#39;re not a bot!</title><link rel=\"stylesheet\" href=\"/.within.website/x/xess/xess.min.css?cachebuster=1.25.0\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><meta name=\"robots\" content=\"noindex,nofollow\"><style>\n        body,\n        html {\n            height: 100%;\n            display: flex;\n  ",
+    "server": "envoy",
+    "proxy_diagnostic_header_names": []
+  }
+]

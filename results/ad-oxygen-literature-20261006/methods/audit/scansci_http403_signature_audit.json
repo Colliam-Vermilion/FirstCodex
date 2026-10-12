@@ -1,0 +1,40 @@
+{
+  "distinct_IDs_per_403_response_signature": {
+    "目标/CDN挑战页Just a moment": 65,
+    "云/网关拒绝正文Domain forbidden（非CONNECT，目标归因未确认）": 58,
+    "归因不明确的403": 16
+  },
+  "examples": {
+    "目标/CDN挑战页Just a moment": {
+      "原记录ID": "R00379",
+      "请求URL（移除凭据参数）": "http://iwaponline.com/wst/article-pdf/65/8/1368/442732/1368.pdf",
+      "最终URL（已观察）": "https://iwaponline.com/wst/article-pdf/65/8/1368/442732/1368.pdf",
+      "HTTP状态（空表示无响应）": "403",
+      "错误类型": "",
+      "具体错误/响应摘录": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" ",
+      "判定": "目标HTTP响应；拒绝原因不能只凭状态判断",
+      "Retry-After": ""
+    },
+    "云/网关拒绝正文Domain forbidden（非CONNECT，目标归因未确认）": {
+      "原记录ID": "R00735",
+      "请求URL（移除凭据参数）": "https://doi.org/10.13031/trans.56.9869",
+      "最终URL（已观察）": "http://elibrary.asabe.org/abstract.asp?aid=44112&t=3&dabs=Y",
+      "HTTP状态（空表示无响应）": "403",
+      "错误类型": "",
+      "具体错误/响应摘录": "Domain forbidden",
+      "判定": "目标HTTP响应；拒绝原因不能只凭状态判断",
+      "Retry-After": ""
+    },
+    "归因不明确的403": {
+      "原记录ID": "R01414",
+      "请求URL（移除凭据参数）": "https://figshare.com/articles/journal_contribution/Oxidation_reduction_potential_as_a_parameter_to_regulate_micro-oxygen_injection_into_anaerobic_digester_for_reducing_hydrogen_sulphide_concentration_in_biogas/27753780",
+      "最终URL（已观察）": "https://figshare.com/articles/journal_contribution/Oxidation_reduction_potential_as_a_parameter_to_regulate_micro-oxygen_injection_into_anaerobic_digester_for_reducing_hydrogen_sulphide_concentration_in_biogas/27753780",
+      "HTTP状态（空表示无响应）": "403",
+      "错误类型": "",
+      "具体错误/响应摘录": "<html>\n<head><title>403 Forbidden</title></head>\n<body>\n<center><h1>403 Forbidden</h1></center>\n</body>\n</html>\n<!-- a padding to disable MSIE and Chrome friendly error page -->\n<!-- a padding to disable MSIE and Chrome friendly error page -->\n<!-- a p",
+      "判定": "目标HTTP响应；拒绝原因不能只凭状态判断",
+      "Retry-After": ""
+    }
+  },
+  "note": "签名类别也可重叠。Domain forbidden说明网络/网关拒绝，不能全部当出版商拒绝；无服务器头时不能确定是哪一层网关。"
+}
