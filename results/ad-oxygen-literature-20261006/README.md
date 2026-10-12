@@ -1,6 +1,23 @@
 # AD主动供氧文献库：现行统一交付
 
-更新：2026-10-07。复用完整旧检索并执行5组过程桥接查询，新增905条来源记录；确认新增49条文献（27篇期刊原始研究、13篇学位论文、4篇会议资料、5篇综述/综述章节）。现行**554条、107列**，原505条及53个人工判断逐值不变。此次没有获取或阅读原文全文。
+更新：2026-10-12，完成ScanSci PDF1.18.0安装、实际MCP下载及5篇验证，再处理全部类别1–4的426条。**复用13、新下载43，共56份通过全文身份/结构/版本核验；370未获核验全文，未处理0。**370含369未取回记录及1研究海报，未将海报计论文全文。当前环境没有完成HKUST机构认证。
+
+主库仍为554条，现110列；分类数量1–6仍为208、57、111、50、128、0。所有原范围判断及53人工结果不改。类别5的128条跳过；库外98候选未自动扩大为下载任务。下载未处理0不等于旧10107宽词身份筛选已完成。
+
+- [全文下载方法、验证与取回限制](methods/12_scansci_pdf_download_zh.md)、[下载统计](methods/audit/scansci_download_summary.json)。
+- [426条逐篇获取清单](manual_review/scansci_download_status_utf8.csv)、[56有效PDF校验清单](methods/audit/scansci_verified_pdf_manifest_utf8.csv)、[370未获全文记录](manual_review/scansci_need_fulltext_utf8.csv)、[首批5验证](methods/audit/scansci_pilot5_utf8.csv)、[真实访问证据](methods/audit/scansci_access_evidence_utf8.csv)。
+- [最终Excel](final_results/ad_oxygen_download_review_20261006.xlsx)、[UTF-8总CSV](final_results/ad_oxygen_download_review_utf8.csv)、[唯一统一结果ZIP](ad_oxygen_literature_final.zip)：不含论文PDF。全量RIS仅追加获取备注，范围分区和书目信息不改。
+- [本地PDF分包及SHA](methods/audit/scansci_local_pdf_packages_utf8.csv)：文件仅在运行环境，不是下载附件。[从原来源重取/本地核验脚本](methods/retrieve_verified_fulltexts.py)：Python标准库，SHA一致才接受文件。26份URL有明确实际/历史绑定，其余30份标明来源名和候选链接，未猜测下载地址。
+
+**PDF保存不等于已交付。**当前没有附件上传工具，PDF和分包未上传外部持久存储；跨任务保留需要在环境设置保存/发布当前快照，草稿已保存但尚未发布。可在自己的电脑运行上述脚本重取已验证版本，或通过平台支持的文件导出/经授权私有存储取回分包，再--verify-only校验。不把云端本地路径描述为下载链接。
+
+运行环境仅HTTP公开下载可用；无供本人完成登录/MFA的交互浏览器。Unpaywall可选联系邮箱请在环境设置SCANSCI_CONTACT_EMAIL填写，启动适配写入仓库外工具配置；没有编造邮箱/API key或假定HKUST订阅已可用。部分来源代理CONNECT403/429造成覆盖限制；联网新增域名仍需发布草稿生效。技能/MCP已注册且PythonMCP客户端实际可调用，当前聊天工具列表可能需要重开会话。
+
+以下保留检索及人工分类的历史方法；旧获取清单和旧增量RIS获取备注为阶段证据，现行取回状态看第12轮426表与文献库。
+
+# 第11轮检索结果及历史说明（获取状态以第12轮为准）
+
+更新：2026-10-07。复用完整旧检索并执行5组过程桥接查询，新增905条来源记录；确认新增49条文献（27篇期刊原始研究、13篇学位论文、4篇会议资料、5篇综述/综述章节）。现行**554条、110列（原107列＋3获取审计列）**，原505条及53个人工判断逐值不变。此次没有获取或阅读原文全文。
 
 |类别|所有类型|期刊文献|
 |---|---:|---:|
@@ -54,6 +71,7 @@ EndNote：File → Import → File；Import Option选择Reference Manager (RIS)�
 
 [当前验证报告](methods/audit/final_validation.json)核验554唯一ID/DOI、原505与53人工记录不变、Excel/CSV逐值、8RIS分区、增量、候选不混库、统一ZIP逐字节一致。新增检索日期上限为2026-10-07，未声称找齐全部文献。只提交结果、方法与审计，不提交PDF、运行日志、配置、凭据或浏览器数据。
 
+
 ## 保留文件清单
 
 - [README.md](README.md)
@@ -84,6 +102,8 @@ EndNote：File → Import → File；Import Option选择Reference Manager (RIS)�
 - [manual_review/new_classified_missing_fulltext_utf8.csv](manual_review/new_classified_missing_fulltext_utf8.csv)
 - [manual_review/review_chase_pending_utf8.csv](manual_review/review_chase_pending_utf8.csv)
 - [manual_review/reviews_missing_complete_references_utf8.csv](manual_review/reviews_missing_complete_references_utf8.csv)
+- [manual_review/scansci_download_status_utf8.csv](manual_review/scansci_download_status_utf8.csv)
+- [manual_review/scansci_need_fulltext_utf8.csv](manual_review/scansci_need_fulltext_utf8.csv)
 - [manual_review/scope_pending_utf8.csv](manual_review/scope_pending_utf8.csv)
 - [manual_review/scope_pending_zh.md](manual_review/scope_pending_zh.md)
 - [manual_review/supplement_classified_missing_fulltext_utf8.csv](manual_review/supplement_classified_missing_fulltext_utf8.csv)
@@ -101,6 +121,7 @@ EndNote：File → Import → File；Import Option选择Reference Manager (RIS)�
 - [methods/09_pending36_manual_sync_zh.md](methods/09_pending36_manual_sync_zh.md)
 - [methods/10_omission_analysis_and_supplement_search_zh.md](methods/10_omission_analysis_and_supplement_search_zh.md)
 - [methods/11_continued_search_and_screening_zh.md](methods/11_continued_search_and_screening_zh.md)
+- [methods/12_scansci_pdf_download_zh.md](methods/12_scansci_pdf_download_zh.md)
 - [methods/audit/actual_evidence_basis_224_utf8.csv](methods/audit/actual_evidence_basis_224_utf8.csv)
 - [methods/audit/additional_review_leads_utf8.csv](methods/audit/additional_review_leads_utf8.csv)
 - [methods/audit/citation_seeds_utf8.csv](methods/audit/citation_seeds_utf8.csv)
@@ -142,6 +163,12 @@ EndNote：File → Import → File；Import Option选择Reference Manager (RIS)�
 - [methods/audit/review_reference_chase_summary.json](methods/audit/review_reference_chase_summary.json)
 - [methods/audit/review_reference_tracking_43_utf8.csv](methods/audit/review_reference_tracking_43_utf8.csv)
 - [methods/audit/review_source_access_audit_utf8.csv](methods/audit/review_source_access_audit_utf8.csv)
+- [methods/audit/scansci_access_evidence_utf8.csv](methods/audit/scansci_access_evidence_utf8.csv)
+- [methods/audit/scansci_download_identity_queue_utf8.csv](methods/audit/scansci_download_identity_queue_utf8.csv)
+- [methods/audit/scansci_download_summary.json](methods/audit/scansci_download_summary.json)
+- [methods/audit/scansci_local_pdf_packages_utf8.csv](methods/audit/scansci_local_pdf_packages_utf8.csv)
+- [methods/audit/scansci_pilot5_utf8.csv](methods/audit/scansci_pilot5_utf8.csv)
+- [methods/audit/scansci_verified_pdf_manifest_utf8.csv](methods/audit/scansci_verified_pdf_manifest_utf8.csv)
 - [methods/audit/scope_reassessment_80_utf8.csv](methods/audit/scope_reassessment_80_utf8.csv)
 - [methods/audit/scope_reassessment_changes_80.json](methods/audit/scope_reassessment_changes_80.json)
 - [methods/audit/scope_reassessment_decisions_80.json](methods/audit/scope_reassessment_decisions_80.json)
@@ -163,3 +190,4 @@ EndNote：File → Import → File；Import Option选择Reference Manager (RIS)�
 - [methods/audit/targeted_fulltext_14_utf8.csv](methods/audit/targeted_fulltext_14_utf8.csv)
 - [methods/manual_classification_20261007_original.csv](methods/manual_classification_20261007_original.csv)
 - [methods/manual_classification_pending36_20261007_original.csv](methods/manual_classification_pending36_20261007_original.csv)
+- [methods/retrieve_verified_fulltexts.py](methods/retrieve_verified_fulltexts.py)
