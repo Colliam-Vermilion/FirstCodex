@@ -1,3 +1,13 @@
+# 第15轮：其他公开渠道继续获取（2026-10-12）
+
+已用既有公开PDF对照验证实际下载；370条未获全文继续分来源处理，保留已有56。新增35份独立PDF（35条记录），现有核验全文91条，尚未取得335条，未处理0。总库554、全部人工判断及范围数量不改。某个来源受阻没有停止其他来源。
+
+- [新增全文清单](manual_review/scansci_new_verified_fulltexts_utf8.csv)、[现行426下载状态](manual_review/scansci_download_status_utf8.csv)、[当前仍未取得全文](manual_review/scansci_need_fulltext_utf8.csv)
+- [本人机构登录](manual_review/scansci_action_institution_utf8.csv)、[本人浏览器](manual_review/scansci_action_browser_utf8.csv)、[平台网络修复](manual_review/scansci_action_network_utf8.csv)：可重叠，只列仍待获取记录
+- [本轮方法、WUR具体全文路径、保存/取回限制](methods/15_sourcewise_public_fulltext_zh.md)、[370条逐篇状态](methods/audit/scansci_sourcewise_record_status_utf8.csv)
+
+以下第14轮及更早内容为历史；其“不扩大队列”判断已纠正，当前获取状态以第15轮为准。PDF没有自动上传Git，唯一ZIP只含表格/RIS/方法与审计。
+
 # 第14轮：发布后实际联网与5篇下载复测（2026-10-12）
 
 配置接口已读到新的已发布版本，但实际Elsevier API/跳转/出版商三域仍CONNECT403；原5篇本轮均无CONNECT错误，只有2篇Springer文章预览可访问，IWA/Scientific.net仍拒绝/挑战。实际PDF成功0，未扩大剩余365条；已核验全文仍56份。总库554及全部人工分类不变。
