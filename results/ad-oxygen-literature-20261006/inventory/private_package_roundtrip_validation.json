@@ -1,0 +1,77 @@
+{
+  "audit_time_Asia_Shanghai": "2026-10-15T20:56:50.175457+08:00",
+  "package_sha256": "a9f94130e1c856a0a9e16a7b21e2388feb0ba17cb899fcdbae4c93d2650822ee",
+  "package_bytes": 177922246,
+  "package_members_independently_hydrated": 1553,
+  "transport": "rclone local filesystem backend into new empty directory; not an external cloud service",
+  "original_download_directory_used_to_fill_missing_bytes": false,
+  "originals_actually_read": 135,
+  "github_existing_originals_reused": 54,
+  "private_originals_from_package": 81,
+  "all_original_SHA_and_sizes_pass": true,
+  "all_extracted_files_SHA_pass": 907,
+  "search_chunks": 54387,
+  "indexed_record_ids": 93,
+  "actual_source_trace_checks": [
+    {
+      "kind": "Excel",
+      "record_id": "R03161",
+      "location": {
+        "type": "excel_row",
+        "sheet": "Figure 5 data",
+        "row": 2,
+        "cells": [
+          "D2"
+        ]
+      },
+      "actual_original_value_matches": true
+    },
+    {
+      "kind": "PDF",
+      "record_id": "R03161",
+      "location": {
+        "type": "pdf_block",
+        "pdf_page": 1,
+        "pdf_page_label": "",
+        "block": 1,
+        "bbox_points": [
+          200.0124969482422,
+          94.96708679199219,
+          537.312744140625,
+          172.4866943359375
+        ]
+      },
+      "actual_original_block_matches": true
+    },
+    {
+      "kind": "Word",
+      "record_id": "R06325",
+      "location": {
+        "type": "word_table_cell",
+        "table": 1,
+        "row": 1,
+        "column": 1,
+        "section_heading": "Supplementary Tables"
+      },
+      "actual_original_cell_matches": true
+    },
+    {
+      "kind": "JATS_XML_only_ID",
+      "record_id": "R03477",
+      "location": {
+        "type": "jats_table_cell",
+        "xpath": "/article/body[1]/sec[2]/sec[3]/sec[1]/table-wrap[1]/table[1]",
+        "table": 1,
+        "row": 1,
+        "column": 1,
+        "colspan": "1",
+        "rowspan": "1",
+        "section_heading": "Alkali pretreatment"
+      },
+      "actual_original_cell_matches": true
+    }
+  ],
+  "external_cloud_upload_performed": false,
+  "new_cloud_task_actually_run": false,
+  "private_service_connection_still_required": true
+}

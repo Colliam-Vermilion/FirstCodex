@@ -1,3 +1,21 @@
+# 第18轮：文件审计、统一标准与全文检索（2026-10-15）
+
+以远端提交 `0c5fd5b93ae89e5db723df8a1caeb0b3d278c53e` 和实际文件为基准。554条、分类208/57/111/50/128/0及53条人工判断不改，不重新检索或范围分类。
+
+当前主选正文89个ID（80历史SHA相同、2历史另字节副本、7新增）；另外保留R11596一份同文不同字节版本，所以实际正文PDF共90份、仍是89个ID。历史91原字节缺11。官方SI12、ZIP派生6；另17个JATS全文XML及10个仓储传输包为来源证据，不混作PDF或官方SI。统一清单135个不同SHA对象，约302.15 MB；原有original_files的54个持久对象全部保留并复核，没有退回样例。
+
+已实际解析全部可解析现有文件：54,387检索片段、229份自动结构化表格、907个解析文件和SQLite全文索引；可回到ID/源SHA/PDF页、XML章节XPath、Word段落/表格、Excel工作表/单元格。53页OCR增加文字，7页无新增文字，模型及图像视觉内容明确未索引。全文文字索引覆盖93个ID，含4个缺PDF但已有XML的ID，不等于93篇PDF已取得。
+
+- [文件审计和统一标准](methods/18_file_audit_and_fulltext_standard_zh.md)、[统一汇总Excel](inventory/unified_library_inventory.xlsx)
+- [论文状态554](inventory/papers_utf8.csv)、[原件/来源135统一清单](inventory/assets_utf8.csv)、[解析文件清单](inventory/extracted_files_utf8.csv)、[实际文件SHA核查](inventory/current_inventory_sha_verification.json)
+- [真实目录及来源映射示例](papers/R03161/metadata.json)、[现有Git原件](original_files/README.md)、[图引用/传输包映射](inventory/source_media_map.json)
+- [Windows下载、全部SI、解析和回填流程](windows/README_zh.md)、[337缺PDF队列](windows/main_records337_utf8.csv)、[SI426核查队列](windows/supplementary_review426_utf8.csv)
+- [全量私有存储方案及需用户连接的步骤](methods/19_private_storage_and_return_zh.md)、[私有包准备回执](inventory/private_package_preparation.json)、[包独立还原测试](inventory/private_package_roundtrip_validation.json)
+
+本轮只新增3个允许共享ID（R03161/R06325/R09236）的58个解析样例，包含正文与Excel/Word附件；没有独立CSV、视频或代码研究样例。完整907文件解析、索引及81个未入Git原件/来源对象已准备私有交付包，外部存储尚未连接，不能称全量已备份。GitHub保留已验证54原件；后续存储连接不能成为暂停审计和工具交付的理由。
+
+以下恢复轮次及更早段落为历史快照；本轮统一当前状态以inventory及papers为准，旧总表/人工附件保持原字节。
+
 # 新环境恢复与继续获取（2026-10-15，现行）
 
 源提交 `ec0cba326b45075e9a902a2aa850c78948198813` 的554条总库、53条人工结果及方法/脚本已恢复。类别1–6仍为208/57/111/50/128/0，原110列逐值保留，追加12个当前状态字段，共122列。本轮没有重新文献检索或范围分类，128条排除记录跳过。

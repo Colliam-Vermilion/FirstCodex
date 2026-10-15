@@ -7,3 +7,5 @@
 取回方式：GitHub结果分支打开文件选择Download raw file；或对结果分支选择Code → Download ZIP。`ad_oxygen_literature_final.zip`只是表格/方法/审计包，**不含此目录二进制原件**；GitHub整个分支ZIP才包含已提交文件。
 
 独立克隆或解压结果分支后，从项目目录运行 `python methods/verify_current_original_files.py`，逐个核对54个文件的SHA及大小。远端独立读回证据见 [readback审计](../methods/audit/current_remote_original_readback_20261015.json)。读回验证不依赖本机下载目录，不把清单本身当作PDF备份。
+
+本轮（第18轮）对上述54个对象逐个SHA复核并复用已完成远端读回，全部维持正式持久保存状态；它们不是仅供演示的小样本。统一papers结构通过metadata/manifest引用这些实际路径，不另复制原件。本轮新增解析样例见papers/R03161、R06325、R09236；全量解析与尚未入Git对象另用授权私有存储，详见第18/19轮方法。
