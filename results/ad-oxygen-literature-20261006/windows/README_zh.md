@@ -28,6 +28,8 @@ R03477/R09804/R11844/R05213已有XML文字但尚无PDF，仍在337内。337是�
 
 实际文件先入`intake/<ID>/main`，保留`.part`和ETag/Last-Modified。只有带一致验证器的HTTP Range才拼接，服务器忽略Range则重新接收完整对象，核对Content-Length/Content-Range和SHA。每来源间隔至少6秒，429暂停并保存Retry-After，401/403暂停该主机；其他来源继续。重复运行跳过同SHA完整候选和已登记原件。失败默认不重试；**仅在网络/来源确有变化后**使用`-RetryFailed`。主文件有待审候选时先审核，不为同ID盲目下其他版本。
 
+默认下载上限100 MiB，超限保留URL/大小及待处理状态，不写成无附件。确认是本文实际大附件后可用下载器`--max-mib`提高上限，或本人浏览器下载；大ZIP经人工审阅后登记可设置`--max-expanded-mib`，原包始终保留。外部测序数据库不因提高附件阈值而自动下载。
+
 工具会拒绝HTML/登录/挑战、无效PDF及坏ZIP/OOXML；`downloaded_pending_review`不是全文核验通过。若候选身份错误，保留证据后：
 
 ```powershell

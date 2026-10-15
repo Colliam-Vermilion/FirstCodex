@@ -19,8 +19,10 @@ EXTERNAL=re.compile(r'(?:^|\.)(?:ncbi\.nlm\.nih\.gov|ebi\.ac\.uk|sra\.ebi\.ac\.u
 TYPES=re.compile(r'\.(?:pdf|docx?|xlsx?|xlsm|csv|tsv|txt|zip|7z|rar|tar|gz|bz2|png|jpe?g|tiff?|bmp|gif|svg|mp4|mov|avi|mkv|wmv|webm|r|py|m|ipynb|fasta|fastq|fa|fq|skp)(?:$|[?#])',re.I)
 
 
-def validate_file(path,role):
-    path=Path(path);head=path.read_bytes()[:8192];low=head.lstrip().lower()
+def validate_file(path,role,max_expanded_mib=500):
+    path=Path(path)
+    with path.open('rb') as stream:head=stream.read(8192)
+    low=head.lstrip().lower()
     if low.startswith((b'<!doctype html',b'<html')) or b'<title>just a moment' in low or b'<title>sign in' in low:raise ValueError('HTML/login/challenge is not an attachment')
     ext=path.suffix.lower();fmt=ext.lstrip('.')
     if role=='evidence_xml':
@@ -38,7 +40,7 @@ def validate_file(path,role):
         return {'format':'pdf','pages':len(doc),'pdf_repaired':bool(doc.is_repaired),'validation':'all PDF pages parse; identity/version require explicit review'}
     if ext in ['.docx','.xlsx','.xlsm','.pptx','.zip']:
         with zipfile.ZipFile(path) as z:
-            if sum(m.file_size for m in z.infolist())>500*1024*1024:raise ValueError('Archive expansion exceeds 500 MiB review limit')
+            if sum(m.file_size for m in z.infolist())>max_expanded_mib*1024*1024:raise ValueError('Archive expansion exceeds configured review limit; retain original and review before raising the limit')
             if z.testzip() is not None:raise ValueError('Archive CRC mismatch')
             required={'.docx':'word/document.xml','.xlsx':'xl/workbook.xml','.xlsm':'xl/workbook.xml','.pptx':'ppt/presentation.xml'}.get(ext)
             if required and required not in z.namelist():raise ValueError('Wrong OOXML structure')
@@ -72,7 +74,7 @@ def register(args):
     if not args.reviewed or not args.evidence:raise ValueError('Explicit --reviewed and --evidence required; download alone is not verification')
     if args.role=='main' and args.version not in BODY_VERSIONS:raise ValueError('Explicit complete-body version required')
     if args.role!='main' and not args.association_reviewed:raise ValueError('Confirm this is the target paper’s attachment with --association-reviewed')
-    source=args.file.resolve();check=validate_file(source,args.role);digest=sha(source);filename=source.name
+    source=args.file.resolve();check=validate_file(source,args.role,getattr(args,'max_expanded_mib',500));digest=sha(source);filename=source.name
     # A stable digest suffix prevents two versions or same-named attachments overwriting.
     folder='main' if args.role=='main' else 'supplementary' if args.role=='supplementary' else 'evidence'
     canonical=f'papers/{args.id}/{folder}/{digest[:12]}_{safe_name(filename)}'
@@ -252,7 +254,7 @@ def si_review(args):
 def main():
     ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--project',type=Path,default=Path(__file__).resolve().parents[2]);ap.add_argument('--root',type=Path,required=True);sub=ap.add_subparsers(dest='action',required=True)
     d=sub.add_parser('download');d.add_argument('--queue',type=Path,required=True);d.add_argument('--delay',type=float,default=6);d.add_argument('--max-mib',type=int,default=100);d.add_argument('--retry-failed',action='store_true')
-    r=sub.add_parser('register');r.add_argument('--id',required=True);r.add_argument('--role',choices=['main','supplementary','evidence_xml','transport_archive'],required=True);r.add_argument('--file',type=Path,required=True);r.add_argument('--version',choices=BODY_VERSIONS);r.add_argument('--url');r.add_argument('--reviewed',action='store_true');r.add_argument('--association-reviewed',action='store_true');r.add_argument('--evidence',required=True)
+    r=sub.add_parser('register');r.add_argument('--id',required=True);r.add_argument('--role',choices=['main','supplementary','evidence_xml','transport_archive'],required=True);r.add_argument('--file',type=Path,required=True);r.add_argument('--version',choices=BODY_VERSIONS);r.add_argument('--url');r.add_argument('--reviewed',action='store_true');r.add_argument('--association-reviewed',action='store_true');r.add_argument('--evidence',required=True);r.add_argument('--max-expanded-mib',type=int,default=500)
     rej=sub.add_parser('reject');rej.add_argument('--id',required=True);rej.add_argument('--file',type=Path,required=True);rej.add_argument('--evidence',required=True)
     s=sub.add_parser('discover-si');s.add_argument('--id',required=True);s.add_argument('--url',required=True)
     st=sub.add_parser('si-status');st.add_argument('--id',required=True);st.add_argument('--status',choices=SI_STATES,required=True);st.add_argument('--publisher-checked',action='store_true');st.add_argument('--repository-checked',action='store_true');st.add_argument('--evidence',required=True);st.add_argument('--url',action='append')
