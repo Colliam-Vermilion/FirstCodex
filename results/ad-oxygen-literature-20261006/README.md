@@ -10,6 +10,7 @@
 - [论文状态554](inventory/papers_utf8.csv)、[原件/来源135统一清单](inventory/assets_utf8.csv)、[解析文件清单](inventory/extracted_files_utf8.csv)、[实际文件SHA核查](inventory/current_inventory_sha_verification.json)
 - [真实目录及来源映射示例](papers/R03161/metadata.json)、[现有Git原件](original_files/README.md)、[图引用/传输包映射](inventory/source_media_map.json)
 - [Windows下载、全部SI、解析和回填流程](windows/README_zh.md)、[337缺PDF队列](windows/main_records337_utf8.csv)、[SI426核查队列](windows/supplementary_review426_utf8.csv)
+- [Git原件及样例独立读回凭证](inventory/github_delivery_readback.json)（54原件＋58解析文件全SHA通过）
 - [全量私有存储方案及需用户连接的步骤](methods/19_private_storage_and_return_zh.md)、[私有包准备回执](inventory/private_package_preparation.json)、[包独立还原测试](inventory/private_package_roundtrip_validation.json)
 
 本轮只新增3个允许共享ID（R03161/R06325/R09236）的58个解析样例，包含正文与Excel/Word附件；没有独立CSV、视频或代码研究样例。完整907文件解析、索引及81个未入Git原件/来源对象已准备私有交付包，外部存储尚未连接，不能称全量已备份。GitHub保留已验证54原件；后续存储连接不能成为暂停审计和工具交付的理由。
