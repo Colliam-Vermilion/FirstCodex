@@ -1,16 +1,24 @@
-# 新环境恢复（2026-10-15，当前状态）
+# 新环境恢复与继续获取（2026-10-15，现行）
 
-从远端提交 `ec0cba326b45075e9a902a2aa850c78948198813` 恢复554条总库及53条人工结果，类别1–6为208/57/111/50/128/0。不重新文献检索或范围分类；主表原110列保留，新增8列当前原件状态。
+源提交 `ec0cba326b45075e9a902a2aa850c78948198813` 的554条总库、53条人工结果及方法/脚本已恢复。类别1–6仍为208/57/111/50/128/0，原110列逐值保留，追加12个当前状态字段，共122列。本轮没有重新文献检索或范围分类，128条排除记录跳过。
 
-历史91份原件初查全部不可访问；现已定向恢复并核验5份，历史SHA均相同，另86份仍在恢复队列。335既有未获全文另列。3份CCBY正文及R09236的1个官方SI ZIP、解包Excel已放入`original_files/`，准备远端提交后独立取回；R01238/R07903目前仅本机，NTUA学位稿503。SI包含实际Excel，不将not_found当作无附件。
+当前已核验正文89篇：80篇与历史原件SHA完全相同、2篇历史ID取得已核验不同字节版本、7篇原未获全文现已取得。历史91的原SHA不覆盖，11份历史字节尚缺，其中9个ID当前仍无正文。当前缺全文337篇＝原未获队列剩328篇＋历史当前无正文9篇。
 
-- [恢复方法、工具与保存取回说明](methods/16_environment_recovery_zh.md)、[原件及许可](original_files/README.md)
-- [现行426下载表](manual_review/scansci_download_status_utf8.csv)、[91历史恢复队列](manual_review/historical91_original_recovery_queue_utf8.csv)、[335既有未获](manual_review/scansci_need_fulltext_utf8.csv)
-- [独立SI状态426](manual_review/supplementary_material_status_utf8.csv)、[当前原件清单](methods/audit/current_original_files_manifest_utf8.csv)、[独立字节核验脚本](methods/verify_current_original_files.py)
-- [初次5篇请求](methods/audit/environment_recovery_pilot5_20261015.json)、[网络变化后真实复测](methods/audit/environment_recovery_pilot5_second_attempts_20261015.json)、[正文与SI核验A](methods/audit/environment_recovery_pilot_identity_si_a_20261015.json)、[核验B](methods/audit/environment_recovery_pilot_identity_si_b_20261015.json)
-- [网络127域](methods/network_allowed_domains_20261015.txt)、[当前汇总](methods/audit/environment_recovery_summary_20261015.json)、[源提交基线](methods/audit/environment_recovery_baseline_20261015.json)
+补充材料已核验10篇的12个官方附件（PDF3、DOCX4、XLSX2、ZIP3）；6个解包派生文件另列，包括5个Excel及1个SketchUp模型，不重复计官方附件。未取得或入口受阻不写“无SI”。
 
-初次API/来源CONNECT403后，Crossref、MDPI CDN、OSTI和AIDIC现已有真实200；部分文章页403/PMC挑战/NTUA503仍单列。配置草稿保存不代表发布或全部网络生效。必须完成样本远端原件读回后再批量；环境发布不作为文件备份。以下第15轮及更早为历史，不能用历史成功状态跳过当前无原件记录。
+- [现行方法、结果和交付边界](methods/17_current_retrieval_and_delivery_zh.md)、[恢复/工具方法](methods/16_environment_recovery_zh.md)
+- [当前426篇简表](manual_review/current_environment_acquisition426_utf8.csv)、[当前缺正文337篇](manual_review/current_environment_need_fulltext_utf8.csv)、[原未获现剩328篇](manual_review/scansci_need_fulltext_utf8.csv)、[91历史恢复队列](manual_review/historical91_original_recovery_queue_utf8.csv)
+- [最终Excel](final_results/ad_oxygen_download_review_20261006.xlsx)、[554条总CSV](final_results/ad_oxygen_download_review_utf8.csv)、[SI426状态](manual_review/supplementary_material_status_utf8.csv)
+- [可取回原件目录及许可](original_files/README.md)、[实际持久对象清单](methods/audit/current_original_files_manifest_utf8.csv)、[全部当前正文及本机/持久区分](methods/audit/current_local_verified_body_files_utf8.csv)、[SI及派生件清单](methods/audit/current_supplementary_files_manifest_utf8.csv)
+- [独立远端原件读回证据](methods/audit/current_remote_original_readback_20261015.json)、[当前统计](methods/audit/environment_recovery_summary_20261015.json)、[域名137项](methods/network_allowed_domains_20261015.txt)
+
+40份明确CC BY/CC0正文、9个许可允许的官方SI及5个派生Excel保存真实字节到结果分支 `original_files/`。其余49份正文、3个官方SI及1个模型派生件目前仅在本机；尚需用户指定的私有持久存储，不能称已交付或已备份。GitHub可逐文件下载原件，或对该结果分支选择 Download ZIP；`ad_oxygen_literature_final.zip` 现为**表格/方法/审计包，不含论文和SI二进制原件**，请勿混淆两个ZIP。
+
+小样本3篇正文＋官方SI及派生件已于提交 `e822732c4efbd199e2828e3cf255e3cd27c4511b` 从独立Git对象库远端取回、SHA一致，之后才启动批量。全部可发布原件的最终读回状态以上述审计为准。新云任务本身的冷启动尚未实测。
+
+Nature固定 `b543e8b998eb2df1fd44641cc8b262c638c2b442`、ScanSci PDF1.18.0及实际stdio MCP已验证。Crossref/Unpaywall及部分出版商/仓储真实成功；CONNECT拦截、出版商挑战、NTUA503/EBI500和机构限制分别保留，不称全部网络恢复。137域、安装/启动说明已保存配置草稿，**需要在环境设置审阅、保存并发布**；草稿不等于当前策略已应用，环境发布不作为原件备份。
+
+以下第15轮及更早段落均为历史记录；当时的数量、目录和下载/交付结论仅代表当时，不覆盖本页及第17轮当前状态。
 
 # 第15轮：其他公开渠道继续获取（2026-10-12）
 

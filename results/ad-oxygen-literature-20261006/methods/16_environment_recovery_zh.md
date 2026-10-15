@@ -1,31 +1,14 @@
-# 新环境恢复与下载门槛（2026-10-15）
+# 新环境恢复与工具核实（2026-10-15）
 
-最新进展：初次CONNECT403之后，独立复测Crossref和原PDF来源已实际返回200。5份历史正文重新取回并核验，3份明确CC BY4.0正文及R09236官方SI ZIP、解包Excel已放入结果目录。远端持久取回验证待完成；其余来源仍有403/挑战/NTUA503，不能由局部成功推断全部可用。以下初查和首次请求失败作为历史证据保留。
+本文件记恢复基线及工具适配；后续获取和交付以[第17轮](17_current_retrieval_and_delivery_zh.md)及当前汇总为准。
 
-本轮只恢复既有项目和获取工具，不执行主题文献检索、引文扩展或范围重分类。
+## 实际远端基线
 
-## 远端基线及成果
+恢复源 `Colliam-Vermilion/FirstCodex` 结果分支 `results/ad-oxygen-literature-20261006` 的完整提交 `ec0cba326b45075e9a902a2aa850c78948198813`（2026-10-12）。源CSV/JSON554条，原CSV110列，554唯一ID、509非空唯一DOI；类别1–6为208/57/111/50/128/0。53条人工结果（28＋25条K）和另11条J回退全部保留。获取仅426条类别1–4，跳过排除128，不运行新检索和重分类。
 
-从 `Colliam-Vermilion/FirstCodex` 结果分支
-`results/ad-oxygen-literature-20261006` 获取实际最新提交
-`ec0cba326b45075e9a902a2aa850c78948198813`（2026-10-12）。不使用旧对话数量替代文件。
+源历史清单91个ID/不同SHA，原未获335。主表97个非空SHA不能当97篇成功。初查源仓库和可见历史0篇PDF/Word；91旧路径和5个旧分包均不存在。旧统一ZIP161成员只有表格/RIS/方法/审计，不是原件备份。基线证据在 `audit/environment_recovery_baseline_20261015.json`。
 
-- 总CSV及JSON均554条；原CSV110列、554唯一ID，509个非空且唯一DOI。
-- 实际类别1–6：208/57/111/50/128/0；获取目标426，排除128条跳过。
-- 53条人工结果保留（原28条＋pending36的25条K人工值）；pending36另11条J回退同样保留。
-- 历史全文核验清单91条、91个不同SHA；既有未获全文335条。
-- 主表97个非空SHA不能直接当成成功数，其中6个来自其他历史字段，详见基线审计。
-- 初查原件：源提交仓库0 PDF/Word，历史91个文件路径及5个分包均不存在；可见Git历史未补入原件。
-- 旧统一ZIP161成员逐字节对应结果表、方法及审计，0篇PDF。`supplement_*`指补检审计，不是论文补充附件。
-
-原110列及全部旧JSON字段原样保留。现行CSV/XLSX追加8个“新环境/当前原件”字段，共118列；旧获取成功、页数、路径和SHA仍作为历史保留，不能当当前持有文件。
-
-新增独立清单：
-
-- `manual_review/historical91_original_recovery_queue_utf8.csv`：历史成功91篇，初始全部“当前原件不可访问，尚未核验”；现已恢复5份，86份仍不可访问。不凭历史成功跳过，也不未经检查整批重下。
-- `manual_review/scansci_download_status_utf8.csv`：426条，旧获取字段保留，新增当前状态；91恢复＋335既有未得，互斥覆盖。
-- `manual_review/supplementary_material_status_utf8.csv`：426条单独SI状态。PDF、Word、Excel、CSV、ZIP及其他实际附件均在范围内；没有独立附件不等于没有SI。
-- `methods/audit/current_original_files_manifest_utf8.csv`：当前实际原件字节清单：3份CCBY正文、1个官方SI ZIP及1个解包派生Excel（派生件不重复计官方附件）。
+保留全部原110列和旧JSON字段、人工附件、RIS及历史91清单；追加12个当前状态字段共122列。旧获取字段为历史，不代表当前持有。历史恢复队列初始“当前原件不可访问，尚未核验”，后按实际字节更新，旧SHA不覆盖。最新当前状态看独立426简表；89篇当前正文不能替代历史91原件计数。
 
 ## 工具恢复和旧修复核实
 
@@ -69,64 +52,12 @@ Nature下载器的SI能力须单独注意：旧版bare DOI加 `--si` 在正文�
 同题名覆写和宽泛licence误判OA的旧问题，通过按原ID分目录、独立核验来源/身份/版次避免，
 不修改书目信息或范围分类；未直接复制旧临时路径或旧虚拟环境。
 
-## 网络迁移及真实下载
+## 网络及恢复门槛
 
-新环境只读配置起初为restricted，只有package_managers预设、自定义域名为空。
-从旧75域表、91清单实际/候选来源及必要API/附件CDN复用127个域名；
-保留新环境预设，不照搬旧草稿169的数量，也不添加已知误提取的机构主页、数据集、
-localhost或不明IP。WUR具体全文跳转 `library.wur.nl` 保留。
+新环境最初restricted、package_managers预设保留，自定义域为空。先从旧清单及实际来源恢复127域，再根据实际遇到的来源增加9域及GitHub可见性核查api.github.com，共137。依据表在 `audit/environment_recovery_network_domains_utf8.csv`，完整可填写列表在 `network_allowed_domains_20261015.txt`。工具只能保存草稿，不能实时应用或发布；当前策略版本及后续成功的因果不能从草稿推断。
 
-通过支持接口保存网络草稿，返回 `status=saved`、`requires_publish=true`。
-**保存草稿未应用当前运行网络；此接口没有实时应用或发布能力。**
-完整可填写清单为 `methods/network_allowed_domains_20261015.txt`，逐域依据见
-`methods/audit/environment_recovery_network_domains_utf8.csv`。
+首次7项API/来源及5篇PDF均CONNECT403。网络观察变化后真实复测，R03564/R01238/R07903/R09236及R04477的正文核验通过、SHA均与历史相同；R03155的NTUA503保持失败。正式版/接受稿分别记录，不把HTML、预览或海报计全文。R09236从EuropePMC取得官方SI ZIP，官方MD5/大小及派生Excel五张表通过。
 
-用户操作：在当前环境设置的Internet access/网络访问中保留restricted及已有规则，
-审阅并保存本次域名与安装/启动配置，然后发布环境；运行实例更新/重连后，再复测受影响请求。
-不要更换成旧环境代理地址，不索取学校密码，不认为新API key能解除CONNECT层拦截。
-机构订阅需要本人可操作的官方登录/MFA，未完成时单列，不能归因为“没有免费全文”。
+提交 `e822732c4efbd199e2828e3cf255e3cd27c4511b` 的3篇CC BY正文及SI原件，从新的独立裸Git库通过远端HTTPS取回，按ID/SHA核验同字节；证据 `audit/environment_recovery_remote_original_readback_20261015.json`。门槛通过后才继续335原未获及历史缺件队列；不是在首次失败后盲目批量。最终批次证据及实际持久数量见第17轮。
 
-初次7项单条/入口验证（Crossref、OpenAlex、Unpaywall、PMC、MDPI、PDF CDN、OSTI）全部
-`Tunnel connection failed: 403 Forbidden`，未收到目标服务HTTP响应。
-
-先从历史成功来源选5篇真实下载：
-
-|ID|实际历史/候选来源|本轮结果|
-|---|---|---|
-|R03564|MDPI PDF CDN|CONNECT403，0文件|
-|R01238|AIDIC正式PDF|CONNECT403，0文件|
-|R03155|NTUA学位仓储|CONNECT403，0文件|
-|R07903|OSTI作者接受稿|CONNECT403，0文件|
-|R09236|MDPI正式PDF入口|CONNECT403，0文件|
-
-请求的精确URL及错误在 `methods/audit/environment_recovery_pilot5_20261015.json`。
-首次请求没有文件可核验。后续网络变化后重测，R03564/R01238/R07903/R09236及补测R04477共5份正文核验通过，SHA均与历史一致；R03155仍503。R09236经EuropePMC全文XML及supplementaryFiles取得1个官方ZIP（与官方MD5/大小一致），内含Sample key.xlsx五张工作表。其他样本入口状态单列，不写成“无SI”。
-同主机已明确CONNECT阻断后不反复请求；没有扩大到335/91的批量。
-
-## 原件保存、用户下载与独立读回
-
-初查无原件；后续已在`/workspace/library-files/ad-oxygen-fulltexts`恢复5份正文。
-其中R03564/R04477/R09236三份明确CCBY正文及R09236的原始SI ZIP、派生Excel已放到
-`original_files/`准备提交结果分支，持久取回以独立远端读回审计为准。
-R01238和R07903仅在当前机器，未完成外部备份；本机目录不是用户下载链接。
-统一ZIP此后会包含原件目录；每次以实际ZIP成员和SHA为准，不能把旧统一ZIP当原件备份。
-不能把“能从出版商再下载”冒充已备份原文件。
-
-后续必须先取得3–5篇，通过题名、作者、DOI/年份、正文结构及版本核对；
-再将原件字节及SI附件保存到用户可取回的持久对象，记录大小/SHA、版本、实际URL和下载方式。
-可提交到该结果分支的小样本原件必须明确其可共享版本；其他原件应使用本人授权的私有文件存储。
-本轮仅把明确CCBY4.0样本提交授权结果分支，不将未知可见性的GitHub仓库当私有原件库。
-只有从持久对象重新取回相同字节、以独立进程/任务核对SHA后，才允许写“持久取回通过”。
-
-`methods/verify_current_original_files.py`供独立取得原件后核验交付清单：空清单时退出2（初查已实际验证），有文件时必须逐个核验SHA及大小；
-明确返回 `original_bytes_available=false`，不会将零文件当验证通过。
-旧 `retrieve_verified_fulltexts.py`保留，可按历史SHA从原URL重取；它不是备份恢复或云端附件下载。
-
-尚未通过小样本和持久取回门槛，因此本轮批量未启动。网络生效后先恢复此门槛，
-再按最新335未得队列和独立91恢复队列分来源继续；正文/SI分开，保留ID和历史SHA。
-来源内串行，普通页面至少3秒、已配置ScanSci5–12秒；429按Retry-After冷却，
-单个来源拦截不停止其他可用来源。身份或SHA不同须重新核验，不能直接替换历史记录。
-
-本轮独立不变性检查：原CSV110列、全部旧JSON字段、人工附件及分类逐值保持；
-CSV118列与XLSX主库逐值一致。历史核验清单不改，首次恢复基线原件数0；后续样本当前正文5份，正式SI附件1个，派生Excel另列。
-检查证据为 `methods/audit/environment_recovery_validation_20261015.json`。
+环境设置步骤：保留现有restricted规则和预设，审阅本次137域、安装/启动说明及仓库提交，保存并发布；实例更新后只复测受影响来源。API key、代理、CA和机构会话按新实例实际绑定核查。学校登录/MFA由本人官方界面完成，不索取密码。邮箱值仅在仓库外私有配置及环境变量要求中，Git不保存值。
