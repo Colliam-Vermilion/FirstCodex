@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-15",
+  "configuration_observed": {
+    "network_type": "restricted",
+    "custom_egress_rules": [],
+    "presets": [
+      "package_managers"
+    ],
+    "draft_id": null,
+    "saved_historical_draft_not_applied": true
+  },
+  "observed_tests": [
+    {
+      "label": "Crossref",
+      "host": "api.crossref.org",
+      "at_utc": "2026-10-15T03:00:24Z",
+      "result": "URLError: Tunnel connection failed: 403 Forbidden",
+      "http_response_received_from_service": false
+    },
+    {
+      "label": "OpenAlex",
+      "host": "api.openalex.org",
+      "at_utc": "2026-10-15T03:00:26Z",
+      "result": "URLError: Tunnel connection failed: 403 Forbidden",
+      "http_response_received_from_service": false
+    },
+    {
+      "label": "Unpaywall",
+      "host": "api.unpaywall.org",
+      "at_utc": "2026-10-15T03:00:28Z",
+      "result": "URLError: Tunnel connection failed: 403 Forbidden",
+      "http_response_received_from_service": false
+    },
+    {
+      "label": "PMC_article",
+      "host": "pmc.ncbi.nlm.nih.gov",
+      "at_utc": "2026-10-15T03:00:30Z",
+      "result": "URLError: Tunnel connection failed: 403 Forbidden",
+      "http_response_received_from_service": false
+    },
+    {
+      "label": "MDPI_article",
+      "host": "www.mdpi.com",
+      "at_utc": "2026-10-15T03:00:32Z",
+      "result": "URLError: Tunnel connection failed: 403 Forbidden",
+      "http_response_received_from_service": false
+    },
+    {
+      "label": "MDPI_PDF_prefix",
+      "host": "mdpi-res.com",
+      "at_utc": "2026-10-15T03:00:34Z",
+      "result": "URLError: Tunnel connection failed: 403 Forbidden",
+      "http_response_received_from_service": false
+    },
+    {
+      "label": "OSTI_record",
+      "host": "www.osti.gov",
+      "at_utc": "2026-10-15T03:00:36Z",
+      "result": "URLError: Tunnel connection failed: 403 Forbidden",
+      "http_response_received_from_service": false
+    }
+  ],
+  "method": "Python urllib with existing platform HTTPS proxy and trusted CA, sequential 2-second inter-request delay; known DOI or known article/record only; no literature search.",
+  "read_only_network_result": "All 7 probes failed during HTTPS CONNECT before any service HTTP response. No key/session insufficiency can be concluded.",
+  "download_test_summary_from_parent": [
+    {
+      "record_id": "R03564",
+      "host": "mdpi-res.com",
+      "result": "CONNECT 403",
+      "evidence_origin": "root agent actual sample download tests reported to network auditor"
+    },
+    {
+      "record_id": "R01238",
+      "host": "www.aidic.it",
+      "result": "CONNECT 403",
+      "evidence_origin": "root agent actual sample download tests reported to network auditor"
+    },
+    {
+      "record_id": "R03155",
+      "host": "dspace.lib.ntua.gr",
+      "result": "CONNECT 403",
+      "evidence_origin": "root agent actual sample download tests reported to network auditor"
+    },
+    {
+      "record_id": "R07903",
+      "host": "www.osti.gov",
+      "result": "CONNECT 403",
+      "evidence_origin": "root agent actual sample download tests reported to network auditor"
+    },
+    {
+      "record_id": "R09236",
+      "host": "www.mdpi.com",
+      "result": "CONNECT 403",
+      "evidence_origin": "root agent actual sample download tests reported to network auditor"
+    }
+  ]
+}

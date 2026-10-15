@@ -1,3 +1,17 @@
+# 新环境恢复（2026-10-15，当前状态）
+
+从远端提交 `ec0cba326b45075e9a902a2aa850c78948198813` 恢复554条总库及53条人工结果，类别1–6为208/57/111/50/128/0。不重新文献检索或范围分类；主表原110列保留，新增8列当前原件状态。
+
+历史91份原件初查全部不可访问；现已定向恢复并核验5份，历史SHA均相同，另86份仍在恢复队列。335既有未获全文另列。3份CCBY正文及R09236的1个官方SI ZIP、解包Excel已放入`original_files/`，准备远端提交后独立取回；R01238/R07903目前仅本机，NTUA学位稿503。SI包含实际Excel，不将not_found当作无附件。
+
+- [恢复方法、工具与保存取回说明](methods/16_environment_recovery_zh.md)、[原件及许可](original_files/README.md)
+- [现行426下载表](manual_review/scansci_download_status_utf8.csv)、[91历史恢复队列](manual_review/historical91_original_recovery_queue_utf8.csv)、[335既有未获](manual_review/scansci_need_fulltext_utf8.csv)
+- [独立SI状态426](manual_review/supplementary_material_status_utf8.csv)、[当前原件清单](methods/audit/current_original_files_manifest_utf8.csv)、[独立字节核验脚本](methods/verify_current_original_files.py)
+- [初次5篇请求](methods/audit/environment_recovery_pilot5_20261015.json)、[网络变化后真实复测](methods/audit/environment_recovery_pilot5_second_attempts_20261015.json)、[正文与SI核验A](methods/audit/environment_recovery_pilot_identity_si_a_20261015.json)、[核验B](methods/audit/environment_recovery_pilot_identity_si_b_20261015.json)
+- [网络127域](methods/network_allowed_domains_20261015.txt)、[当前汇总](methods/audit/environment_recovery_summary_20261015.json)、[源提交基线](methods/audit/environment_recovery_baseline_20261015.json)
+
+初次API/来源CONNECT403后，Crossref、MDPI CDN、OSTI和AIDIC现已有真实200；部分文章页403/PMC挑战/NTUA503仍单列。配置草稿保存不代表发布或全部网络生效。必须完成样本远端原件读回后再批量；环境发布不作为文件备份。以下第15轮及更早为历史，不能用历史成功状态跳过当前无原件记录。
+
 # 第15轮：其他公开渠道继续获取（2026-10-12）
 
 已用既有公开PDF对照验证实际下载；370条未获全文继续分来源处理，保留已有56。新增35份独立PDF（35条记录），现有核验全文91条，尚未取得335条，未处理0。总库554、全部人工判断及范围数量不改。某个来源受阻没有停止其他来源。

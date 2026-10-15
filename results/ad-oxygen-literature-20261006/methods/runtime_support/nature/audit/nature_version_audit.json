@@ -1,0 +1,229 @@
+{
+  "audit_date_utc": "2026-10-15T03:08:17.806974+00:00",
+  "scope": "Static, read-only source audit; no network requests, no source changes, no installation or runtime claims.",
+  "repository_url": "https://github.com/Yuan1z0825/nature-skills",
+  "checkout": "/workspace/tools/nature-skills",
+  "requested_short_sha": "b543e8b",
+  "resolved_base_sha": "b543e8b998eb2df1fd44641cc8b262c638c2b442",
+  "compared_remote_head_sha": "19be8d45e0d5233aa44be6d4572e655b9914ff54",
+  "directories": [
+    {
+      "name": "nature-academic-search",
+      "manifest_version": "2.0.0",
+      "base_tracked_files": 48,
+      "head_tracked_files": 53,
+      "base_missing_files": [],
+      "base_content_mismatches": [],
+      "reference_checks": {
+        "markdown_links": 31,
+        "manifest_paths": 23,
+        "relative_js_imports": 0
+      },
+      "missing_references": []
+    },
+    {
+      "name": "nature-downloader",
+      "manifest_version": "2.1.0",
+      "base_tracked_files": 67,
+      "head_tracked_files": 68,
+      "base_missing_files": [],
+      "base_content_mismatches": [],
+      "reference_checks": {
+        "markdown_links": 3,
+        "manifest_paths": 12,
+        "relative_js_imports": 60
+      },
+      "missing_references": []
+    },
+    {
+      "name": "nature-shared",
+      "manifest_version": "1.6.0",
+      "base_tracked_files": 21,
+      "head_tracked_files": 21,
+      "base_missing_files": [],
+      "base_content_mismatches": [],
+      "reference_checks": {
+        "markdown_links": 0,
+        "manifest_paths": 15,
+        "relative_js_imports": 0
+      },
+      "missing_references": []
+    }
+  ],
+  "changes": [
+    {
+      "path": "skills/nature-academic-search/mcp-server/academic_search_server.py",
+      "added_lines": 9,
+      "removed_lines": 8
+    },
+    {
+      "path": "skills/nature-academic-search/mcp-server/sources/arxiv.py",
+      "added_lines": 5,
+      "removed_lines": 0
+    },
+    {
+      "path": "skills/nature-academic-search/mcp-server/sources/crossref.py",
+      "added_lines": 4,
+      "removed_lines": 1
+    },
+    {
+      "path": "skills/nature-academic-search/mcp-server/sources/pubmed.py",
+      "added_lines": 2,
+      "removed_lines": 1
+    },
+    {
+      "path": "skills/nature-academic-search/mcp-server/sources/scopus.py",
+      "added_lines": 2,
+      "removed_lines": 1
+    },
+    {
+      "path": "skills/nature-academic-search/mcp-server/tests/test_arxiv_error_entries.py",
+      "added_lines": 48,
+      "removed_lines": 0
+    },
+    {
+      "path": "skills/nature-academic-search/mcp-server/tests/test_citation_errors.py",
+      "added_lines": 49,
+      "removed_lines": 0
+    },
+    {
+      "path": "skills/nature-academic-search/mcp-server/tests/test_pubmed_parsing.py",
+      "added_lines": 25,
+      "removed_lines": 0
+    },
+    {
+      "path": "skills/nature-academic-search/mcp-server/tests/test_scopus_empty_result.py",
+      "added_lines": 29,
+      "removed_lines": 0
+    },
+    {
+      "path": "skills/nature-academic-search/mcp-server/tests/test_script_converters.py",
+      "added_lines": 72,
+      "removed_lines": 0
+    },
+    {
+      "path": "skills/nature-academic-search/scripts/converters.py",
+      "added_lines": 11,
+      "removed_lines": 2
+    },
+    {
+      "path": "skills/nature-academic-search/scripts/format-converter.py",
+      "added_lines": 10,
+      "removed_lines": 6
+    },
+    {
+      "path": "skills/nature-downloader/scripts/lib/direct-download.mjs",
+      "added_lines": 20,
+      "removed_lines": 6
+    },
+    {
+      "path": "skills/nature-downloader/scripts/lib/open-access-provider.mjs",
+      "added_lines": 10,
+      "removed_lines": 2
+    },
+    {
+      "path": "skills/nature-downloader/tests/unit/direct-download-collision.test.mjs",
+      "added_lines": 39,
+      "removed_lines": 0
+    },
+    {
+      "path": "skills/nature-downloader/tests/unit/open-access-provider.test.mjs",
+      "added_lines": 32,
+      "removed_lines": 0
+    },
+    {
+      "path": "skills/nature-shared/scripts/check_consistency.py",
+      "added_lines": 2,
+      "removed_lines": 3
+    },
+    {
+      "path": "skills/nature-shared/tests/test_check_consistency.py",
+      "added_lines": 21,
+      "removed_lines": 0
+    }
+  ],
+  "change_totals": {
+    "files": 18,
+    "added_lines": 390,
+    "removed_lines": 30
+  },
+  "intervening_skill_commits": [
+    {
+      "sha": "e605b35611ab2849af46d0cf7831aefdcf85be07",
+      "title": "fix(nature-academic-search): make --retry 0 still try once in format-converter"
+    },
+    {
+      "sha": "afb69116b612d1ce2d7c133f8797480bf2b0a39e",
+      "title": "fix(nature-academic-search): skip arXiv error entries instead of returning a paper"
+    },
+    {
+      "sha": "4e4b4bdf5e4d114403491c0cbe3d4e100b6153f2",
+      "title": "fix(nature-academic-search): ignore Scopus \"Result set was empty\" entries"
+    },
+    {
+      "sha": "17df687d15dd4505055765d73bfaba0711662244",
+      "title": "fix(nature-downloader): require an open licence before calling an article OA"
+    },
+    {
+      "sha": "38473626a043a74a564a9ad08c538977c56d8c42",
+      "title": "fix(nature-downloader): do not overwrite a saved paper that has the same title"
+    },
+    {
+      "sha": "cfe9e5c2b95633aee4677c69fd4be524f5e96dd5",
+      "title": "fix(nature-academic-search): six converter and citation bugs (#254)"
+    },
+    {
+      "sha": "e25620c4eb9544b83f2fc45c3255c83a2532a7cc",
+      "title": "fix: consistency-checker and Crossref date bugs (#253)"
+    },
+    {
+      "sha": "322d404b7964ee148081616b69e3d5e8798a2284",
+      "title": "fix: AttibuteError by adding annotations"
+    }
+  ],
+  "version_recommendation": {
+    "default": "Keep the requested b543e8b full directories for reproducible restoration; they are complete and unchanged. Treat current upstream fixes as documented limitations or an explicit later upgrade, rather than silently moving versions.",
+    "downloader_base_limitations": [
+      "saveFullTextResponse can overwrite a different paper with the same sanitized title; isolate outputs by original record ID/source attempt. HEAD adds content-SHA-aware unique filenames.",
+      "Any nonempty Crossref licence string can count as OA in base; do not treat the downloader OA label as proof of an open licence. HEAD only accepts Creative Commons/open licence patterns."
+    ],
+    "academic_base_limitations": [
+      "Missing future annotations in arxiv module can trigger an import/type-evaluation error on some Python versions; HEAD adds from __future__ import annotations.",
+      "HEAD fixes PubMed mixed-markup title truncation, Crossref unavailable citation status, empty/error result handling for arXiv/Scopus, citation defaults, MEDLINE author format, converter urlopen import, and --retry 0 behaviour. None requires a new topical literature search."
+    ],
+    "shared_changes": [
+      "HEAD improves whole-manuscript number matching and distinguishes millimolar mM from length mm. No direct impact on full-text restoration."
+    ]
+  },
+  "supporting_information": {
+    "base_and_head_batch_script_identical": true,
+    "bare_doi_si": "Successful OA/publisher API main text is followed by attachSupportingInformation -> ensureBrowser -> downloadSiForDoi -> CDP navigation and DOM scan. A missing CDP yields si.fetch_failed while preserving main-text success.",
+    "direct_url_si": "Non-CNKI --pdf-url uses HTTP fetch without CDP and unconditionally sets SI not_found with reason that the PDF URL does not identify an SI landing page. It does not inspect the publisher landing page or attachments; this is unassessed, not evidence of absence.",
+    "browserless_si_capability": "Bundled production SI scanning/fetch defaults use CDP; no native HTTP landing-page SI workflow is implemented. selectSupportingInformationLinks is pure and can classify independently collected links, but scanPage and fetchAnyToFile use browser context.",
+    "file_types": "WoS clean-bundle selector covers PDF/ZIP/Word/Excel/CSV/TSV/TXT/audio/video and preserves attachment filenames/MIME extensions. Ordinary DOI downloadSi uses generic browser fetchAnyToFile, not a PDF-only saver.",
+    "coverage_limitations": [
+      "WoS clean-bundle helper only used when topic + exact title + SI flags are present; ordinary DOI SI path uses a simpler URL regex.",
+      "WoS helper excludes external GitHub/Zenodo/Figshare/Dryad/OSF repositories; those legitimate attachments need a separate authorised source workflow.",
+      "No browserless SI absence claim should be made from direct URL si.not_found."
+    ],
+    "evidence": [
+      "skills/nature-downloader/scripts/batch_download.mjs:395",
+      "skills/nature-downloader/scripts/batch_download.mjs:424",
+      "skills/nature-downloader/scripts/batch_download.mjs:457",
+      "skills/nature-downloader/scripts/batch_download.mjs:691",
+      "skills/nature-downloader/scripts/batch_download.mjs:720",
+      "skills/nature-downloader/scripts/lib/wos-supporting-information.mjs:8",
+      "skills/nature-downloader/scripts/lib/wos-supporting-information.mjs:90"
+    ]
+  },
+  "old_node_proxy_record": {
+    "records": [
+      "results/ad-oxygen-literature-20261006/methods/02_review_224_methods_zh.md:19",
+      "results/ad-oxygen-literature-20261006/methods/04_download_review_methods_zh.md:9"
+    ],
+    "observed_historical_instruction": "Node 24.19 with NODE_USE_ENV_PROXY=1, not a source patch in the saved method records.",
+    "interpretation": "NODE_USE_ENV_PROXY controls current Node global HTTP(S) fetch proxy use; it does not create the separate localhost web-access CDP service. --proxy points at that CDP service, not the outbound HTTP(S) network proxy.",
+    "migration": "Use only current injected proxy variables and preserve local bypass/NO_PROXY and TLS verification. Check Node version supports the flag before enabling it. Do not copy old proxy URLs, temporary paths, virtualenvs or assume CDP is available.",
+    "network_validation": "Not performed in this static subtask; parent runtime tests determine whether the flag is currently necessary."
+  }
+}

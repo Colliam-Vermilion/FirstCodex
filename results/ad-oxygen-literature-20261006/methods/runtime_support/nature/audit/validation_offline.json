@@ -1,0 +1,60 @@
+{
+  "checked_at_utc": "2026-10-15T03:11:56.846229+00:00",
+  "source_commit": "b543e8b998eb2df1fd44641cc8b262c638c2b442",
+  "full_directories": {
+    "nature-academic-search": 48,
+    "nature-downloader": 67,
+    "nature-shared": 21
+  },
+  "dependencies": {
+    "mcp": "1.29.0",
+    "requests": "2.34.2",
+    "toml": "0.10.2",
+    "lxml": "5.4.0",
+    "pybliometrics": "4.4.1",
+    "defusedxml": "0.7.1",
+    "pdfplumber": "0.11.9",
+    "pypdf": "6.10.0",
+    "PyYAML": "6.0.3",
+    "jsonschema": "4.26.0"
+  },
+  "node_version": "v24.19.0",
+  "credential_variable_presence": {
+    "NCBI_API_KEY": false,
+    "ELSEVIER_API_KEY": false,
+    "SPRINGER_API_KEY": false,
+    "IEEE_API_KEY": false
+  },
+  "tls_verification_disabled": false,
+  "proxy_inherited": true,
+  "ca_variables_present": {
+    "REQUESTS_CA_BUNDLE": true,
+    "SSL_CERT_FILE": true,
+    "NODE_EXTRA_CA_CERTS": true
+  },
+  "chat_tool_registration": "not registered in current chat; directly tested with MCP SDK stdio client",
+  "exact_doi_fetch": {
+    "state": "not_requested"
+  },
+  "mcp_initialized": true,
+  "mcp_tool_count": 16,
+  "mcp_tools": [
+    "get_citation",
+    "get_paper_by_id",
+    "get_sciencedirect_article_metadata",
+    "get_scopus_abstract",
+    "get_scopus_affiliation",
+    "get_scopus_author",
+    "get_scopus_citation_overview",
+    "get_scopus_plumx_metrics",
+    "get_scopus_serial_title",
+    "lookup_mesh",
+    "search_papers",
+    "search_sciencedirect",
+    "search_scopus",
+    "search_scopus_affiliations",
+    "search_scopus_authors",
+    "search_scopus_serial_titles"
+  ],
+  "offline_input_validation_passed": true
+}

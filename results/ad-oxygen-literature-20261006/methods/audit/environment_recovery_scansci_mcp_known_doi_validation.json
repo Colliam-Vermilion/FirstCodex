@@ -1,0 +1,46 @@
+{
+  "tool": "scansci_pdf_prepare_queue",
+  "exact_doi": "10.3390/en10020258",
+  "schema_inspected": {
+    "properties": {
+      "action": {
+        "default": "verify",
+        "title": "Action",
+        "type": "string"
+      },
+      "candidates_json": {
+        "default": "",
+        "title": "Candidates Json",
+        "type": "string"
+      },
+      "query": {
+        "default": "",
+        "title": "Query",
+        "type": "string"
+      },
+      "limit": {
+        "default": 10,
+        "title": "Limit",
+        "type": "integer"
+      },
+      "depth": {
+        "default": "standard",
+        "title": "Depth",
+        "type": "string"
+      }
+    },
+    "type": "object",
+    "title": "scansci_pdf_prepare_queueArguments"
+  },
+  "action": "resolve_oa",
+  "candidate_count": 1,
+  "calls": 1,
+  "isError": false,
+  "response": [
+    {
+      "error": "'scansci-find' not found on PATH. Install ScanSci Find: pip install scansci-find (https://github.com/Rimagination/scansci-find). Alternatively use the local fallbacks: search / verify / resolve-oa / build-queue."
+    }
+  ],
+  "is_theme_search": false,
+  "is_citation_expansion": false
+}
