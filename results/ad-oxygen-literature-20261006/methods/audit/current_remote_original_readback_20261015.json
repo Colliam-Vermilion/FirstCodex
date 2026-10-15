@@ -1,8 +1,503 @@
 {
-  "stage": "before final bulk push",
-  "all_original_bytes_readback_verified": false,
-  "planned_files": 54,
-  "sample_gate_already_verified": true,
-  "sample_gate_commit": "e822732c4efbd199e2828e3cf255e3cd27c4511b",
-  "final_result_pending": true
+  "date": "2026-10-15",
+  "remote_commit": "b8b23f81f23b7a0bc77dde4140e61b5218b519d2",
+  "remote_ref": "refs/heads/results/ad-oxygen-literature-20261006",
+  "source": "fresh empty independent bare Git database fetched over existing HTTPS authentication",
+  "source_workspace_original_files_read_for_proof": false,
+  "fresh_cloud_task_actually_executed": false,
+  "independent_fresh_git_fetch_tested": true,
+  "manifest_files": 54,
+  "body_files": 40,
+  "official_SI_files": 9,
+  "derived_files": 5,
+  "all_original_bytes_readback_verified": true,
+  "total_bytes": 111258208,
+  "checks": [
+    {
+      "id": "R03564",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
+      "bytes": 2779683,
+      "sha256": "2f2d17a0a7254275b5799c7fcd7ba57973ca0b4c3ec6b9eaf4fcfe65bf7f66d9",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf"
+    },
+    {
+      "id": "R04477",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R04477_2019_Aeration_to_Improve_Biogas_Production_by_Recalcitrant_Feedstock.pdf",
+      "bytes": 1304041,
+      "sha256": "dc52821c42ce84765057b8c1aba951d40c1eb338df462600a5aaadc8659d073d",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R04477_2019_Aeration_to_Improve_Biogas_Production_by_Recalcitrant_Feedstock.pdf"
+    },
+    {
+      "id": "R09236",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
+      "bytes": 1700220,
+      "sha256": "7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf"
+    },
+    {
+      "id": "R03161",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R03161_2017_Effect_of_liquid_surface_area_on_hydrogen_sulfide_oxidation.pdf",
+      "bytes": 7919798,
+      "sha256": "ea90043284b5a305ea2567b3fd65909a17585eeb08bfccd84be2c51df7c90453",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R03161_2017_Effect_of_liquid_surface_area_on_hydrogen_sulfide_oxidation.pdf"
+    },
+    {
+      "id": "R05472",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R05472_2020_Comparing_Hydrogen_Sulfide_Removal_Efficiency_in_a_Field-Scale_Digester.pdf",
+      "bytes": 1084634,
+      "sha256": "a81227cda8f65dc0a1784d367c05e5848d87660afd9c7b9c1cb20770f1aa37b0",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R05472_2020_Comparing_Hydrogen_Sulfide_Removal_Efficiency_in_a_Field-Scale_Digester.pdf"
+    },
+    {
+      "id": "R05638",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R05638_2020_Evaluation_of_Microaeration_and_Sound_to_Increase_Biogas_Production.pdf",
+      "bytes": 996682,
+      "sha256": "2e07cb1c3931c0d4d88c61cf971e78bfd0532db3272897384c770dd2e7f13660",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R05638_2020_Evaluation_of_Microaeration_and_Sound_to_Increase_Biogas_Production.pdf"
+    },
+    {
+      "id": "R05839",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R05839_2020_Micro-Oxygenation_in_Upflow_Anaerobic_Sludge_Bed_UASB_Reactors_Using.pdf",
+      "bytes": 1392358,
+      "sha256": "c5e85aec12eac24037c926dbe78fdaade958dc8b41a7bf64fbbcb1b463fe8585",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R05839_2020_Micro-Oxygenation_in_Upflow_Anaerobic_Sludge_Bed_UASB_Reactors_Using.pdf"
+    },
+    {
+      "id": "R06895",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R06895_2021_Microaerobic_Digestion_of_Low-Biodegradable_Sewage_Sludge_Effect_of_Air.pdf",
+      "bytes": 1339849,
+      "sha256": "cb9c36d70f316c5f81204159fa19c89a3402a6b62a01e34d1a85d3e5c55c94b2",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R06895_2021_Microaerobic_Digestion_of_Low-Biodegradable_Sewage_Sludge_Effect_of_Air.pdf"
+    },
+    {
+      "id": "R07455",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R07455_2022_Analysis_of_Biogas_Component_Production_during_Anaerobic_Digestion_of.pdf",
+      "bytes": 11272493,
+      "sha256": "789dcf37303b566b8a55345e94e04ea76e617d87cea956e5b22823e04359b55e",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R07455_2022_Analysis_of_Biogas_Component_Production_during_Anaerobic_Digestion_of.pdf"
+    },
+    {
+      "id": "R07908",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R07908_2022_Improving_Anaerobic_Digestion_of_Brewery_and_Distillery_Spent_Grains.pdf",
+      "bytes": 959128,
+      "sha256": "508bae4b9d86cb53fd905fe1ae4e5455f1eb6c23e8e4099ec488d6843b0c9b86",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R07908_2022_Improving_Anaerobic_Digestion_of_Brewery_and_Distillery_Spent_Grains.pdf"
+    },
+    {
+      "id": "R11596",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R11596_2025_Facultative_anaerobic_bacteria_enable_syntrophic_fatty_acids_degradation_under.pdf",
+      "bytes": 1659399,
+      "sha256": "6ace8d3f881b69f89d0ae229006f32c4664a53b59a06544dbd1c5a3bcd42c82e",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R11596_2025_Facultative_anaerobic_bacteria_enable_syntrophic_fatty_acids_degradation_under.pdf"
+    },
+    {
+      "id": "R12279",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R12279_2025_Sustainable_management_of_simulated_coffee_processing_wastewater_using_micro-aeration.pdf",
+      "bytes": 1856349,
+      "sha256": "a4024be5139d5819b2d5741864c0012abe9d7d5c7f118b832f1256473bb4b672",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R12279_2025_Sustainable_management_of_simulated_coffee_processing_wastewater_using_micro-aeration.pdf"
+    },
+    {
+      "id": "R12384",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R12384_2025_Toxicity_and_biodegradation_of_two_different_hydrothermal_liquefaction_process.pdf",
+      "bytes": 6419337,
+      "sha256": "1e948fa711216475e59f2aa9f4bfc93db00e1013c1ec1d2f8a70661e341e7633",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R12384_2025_Toxicity_and_biodegradation_of_two_different_hydrothermal_liquefaction_process.pdf"
+    },
+    {
+      "id": "R12985",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
+      "bytes": 3394736,
+      "sha256": "f42e1cfc61ed462e54cdbb54d555f5f6230676c933caeed18744e15e9f7e1420",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf"
+    },
+    {
+      "id": "R13282",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R13282_2026_Microaeration_for_Enhancement_of_Methane_Productivity_from_Cassava_Wastewater.pdf",
+      "bytes": 2825466,
+      "sha256": "93cadfa778095a0ec79a6ee1d1b45cbba28d25c6fafc477ddfbce06f6d8faa31",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R13282_2026_Microaeration_for_Enhancement_of_Methane_Productivity_from_Cassava_Wastewater.pdf"
+    },
+    {
+      "id": "R06034",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
+      "bytes": 3172841,
+      "sha256": "3418fe158b2a101741a3c5d52fa30ad793a0f720b62c8d8bf855ea8b7cf648d9",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf"
+    },
+    {
+      "id": "R06196",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R06196_2020_Two_Phase_Anaerobic_Digestion_System_of_Municipal_Solid_Waste.pdf",
+      "bytes": 1937275,
+      "sha256": "9fbe84ed551302456df5cffb337d34d87bf1e2b6545d4932814c7d7a518f3c1f",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R06196_2020_Two_Phase_Anaerobic_Digestion_System_of_Municipal_Solid_Waste.pdf"
+    },
+    {
+      "id": "R07952",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R07952_2022_Intermittent_Microaeration_Technology_to_Enhance_the_Carbon_Source_Release.pdf",
+      "bytes": 3246463,
+      "sha256": "f934152c4b018bedada50e6fd06a3d81ff026bbe989e5ad05d93cdbb14706a5e",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R07952_2022_Intermittent_Microaeration_Technology_to_Enhance_the_Carbon_Source_Release.pdf"
+    },
+    {
+      "id": "R10377",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R10377_2024_Influence_of_micro-aeration_in_the_production_of_volatile_fatty.pdf",
+      "bytes": 3109250,
+      "sha256": "5a2aa4d61f4753eb4586d1b515635a8a3bc57529cd7897f92d9203e185d7a99a",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R10377_2024_Influence_of_micro-aeration_in_the_production_of_volatile_fatty.pdf"
+    },
+    {
+      "id": "R13283",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R13283_2026_Microaeration_of_Upflow_Anaerobic_Sludge_Blanket_reactor_using_desorption.pdf",
+      "bytes": 2556959,
+      "sha256": "0cb5643aac5b794ec0871e11f6405bc83ff88527445cc36be1ec51b9e9b7c075",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R13283_2026_Microaeration_of_Upflow_Anaerobic_Sludge_Blanket_reactor_using_desorption.pdf"
+    },
+    {
+      "id": "R06325",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R06325_2021_Anaerobic_and_Microaerobic_Pretreatment_for_Improving_Methane_Production_From.pdf",
+      "bytes": 4357871,
+      "sha256": "884c1fc31e96ef3809b9e85f9d4a63d4db7c42a9d44b812980e276293b9cf504",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R06325_2021_Anaerobic_and_Microaerobic_Pretreatment_for_Improving_Methane_Production_From.pdf"
+    },
+    {
+      "id": "R08016",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R08016_2022_Micro-Aerobic_Pre-Treatment_vs_Thermal_Pre-Treatment_of_Waste_Activated_Sludge.pdf",
+      "bytes": 1843426,
+      "sha256": "50ed49bc2c646167efb9fd14f44c6ac482f1e8581341292393f406414575960f",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R08016_2022_Micro-Aerobic_Pre-Treatment_vs_Thermal_Pre-Treatment_of_Waste_Activated_Sludge.pdf"
+    },
+    {
+      "id": "R06744",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R06744_2021_High-Solid_Anaerobic_Digestion_Reviewing_Strategies_for_Increasing_Reactor_Performance.pdf",
+      "bytes": 1035022,
+      "sha256": "f0e1e40d3fdab8162d417143395852a9c41327d667f8f0d7b057faaf6c100943",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R06744_2021_High-Solid_Anaerobic_Digestion_Reviewing_Strategies_for_Increasing_Reactor_Performance.pdf"
+    },
+    {
+      "id": "R08380",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R08380_2022_The_Measurement_Application_and_Effect_of_Oxygen_in_Microbial.pdf",
+      "bytes": 2495950,
+      "sha256": "a702e1d8d857a6ff39b15c42b3df247f0b05da9b52c2558213255f59405ed012",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R08380_2022_The_Measurement_Application_and_Effect_of_Oxygen_in_Microbial.pdf"
+    },
+    {
+      "id": "R08554",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R08554_2023_ANALYSIS_AND_EVALUATION_OF_THE_BIOGAS_PURIFICATION_TECHNOLOGIES_FROM.pdf",
+      "bytes": 324942,
+      "sha256": "430c90e71cfcd49a91e3490cf50c66322fa2bc58a76d82b0047f4c0e12fbb220",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R08554_2023_ANALYSIS_AND_EVALUATION_OF_THE_BIOGAS_PURIFICATION_TECHNOLOGIES_FROM.pdf"
+    },
+    {
+      "id": "R09682",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R09682_2024_A_Comprehensive_Review_of_the_Strategies_to_Improve_Anaerobic.pdf",
+      "bytes": 4516270,
+      "sha256": "b986126ef47edf9a964cf985ed174746641036ea2ca15614105d60aa13db7728",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R09682_2024_A_Comprehensive_Review_of_the_Strategies_to_Improve_Anaerobic.pdf"
+    },
+    {
+      "id": "R11503",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R11503_2025_Enhancing_Anaerobic_Digestion_of_Agricultural_By-Products_Insights_and_Future.pdf",
+      "bytes": 784955,
+      "sha256": "1cad4ffe56ebb806280511e4770d29928058e4a2c988f8aea2e3deef4e4b8cf8",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R11503_2025_Enhancing_Anaerobic_Digestion_of_Agricultural_By-Products_Insights_and_Future.pdf"
+    },
+    {
+      "id": "R04796",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R04796_2019_Evaluation_of_Hydrogen_Sulfide_Scrubbing_Systems_for_Anaerobic_Digesters.pdf",
+      "bytes": 2549419,
+      "sha256": "6844f12fe56c174d2250e0a88bba570a3c94fd37dec91d66d805c2cec1c2c013",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R04796_2019_Evaluation_of_Hydrogen_Sulfide_Scrubbing_Systems_for_Anaerobic_Digesters.pdf"
+    },
+    {
+      "id": "R09585",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
+      "bytes": 630302,
+      "sha256": "b16e44cb7a1232c0d5c4e649c9957432f6e0c3a0474be6459e74f83d4c1945d3",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf"
+    },
+    {
+      "id": "R10372",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R10372_2024_Influence_of_Aeration_Introduction_of_Probiotics_and_Supply_of.pdf",
+      "bytes": 2316842,
+      "sha256": "750f30a55be12e7a028a6cb5c5cc309fae4a6ef18e8bc09baab8e4ca66c28a63",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R10372_2024_Influence_of_Aeration_Introduction_of_Probiotics_and_Supply_of.pdf"
+    },
+    {
+      "id": "R11606",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R11606_2025_Food_Waste_Anaerobic_Digestion_Under_High_Organic_Loading_Rate.pdf",
+      "bytes": 2010812,
+      "sha256": "db6e9b90ba74622ec43b2b56060487aaf22452e436907332f4ede63c830a6175",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R11606_2025_Food_Waste_Anaerobic_Digestion_Under_High_Organic_Loading_Rate.pdf"
+    },
+    {
+      "id": "R13844",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R13844_2020_Influence_of_Aerobic_Pretreatment_of_Poultry_Manure_on_the.pdf",
+      "bytes": 859038,
+      "sha256": "7b0ea11b84bfa14df037e8e4dbe7d1e5db43d485e254371fecb50b966bd05227",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R13844_2020_Influence_of_Aerobic_Pretreatment_of_Poultry_Manure_on_the.pdf"
+    },
+    {
+      "id": "R13895",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R13895_2019_Enhancement_of_anaerobic_batch_digestion_of_spineless_cacti_Opuntia.pdf",
+      "bytes": 636279,
+      "sha256": "106f8aa2d37135c544b98765172520c01f8c032b4e231457a402b0de5e519d8a",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R13895_2019_Enhancement_of_anaerobic_batch_digestion_of_spineless_cacti_Opuntia.pdf"
+    },
+    {
+      "id": "R13901",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R13901_2019_Effect_of_Aerobic_Hydrolysis_on_Anaerobic_Fermentation_Characteristics_of.pdf",
+      "bytes": 1649318,
+      "sha256": "391926b6cc0c70edf30d8142cd7b817eef261c853f7037f0a3be6f3d556f2772",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R13901_2019_Effect_of_Aerobic_Hydrolysis_on_Anaerobic_Fermentation_Characteristics_of.pdf"
+    },
+    {
+      "id": "R13902",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R13902_2022_Investigating_the_Effects_of_Aerobic_Hydrolysis_on_Scum_Layer.pdf",
+      "bytes": 4639078,
+      "sha256": "48b83d115db6ba9713989e72cbf774fefd20506b20269ff5221cfd8839dcc8ce",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R13902_2022_Investigating_the_Effects_of_Aerobic_Hydrolysis_on_Scum_Layer.pdf"
+    },
+    {
+      "id": "R13910",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R13910_2020_Effects_of_Ammonia_Stripping_and_Other_Physico-Chemical_Pretreatments_on.pdf",
+      "bytes": 6602157,
+      "sha256": "4d03064db78537361c322da6076eaf111bcd95864ca0ce5acfb98ad2f9c1fa40",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R13910_2020_Effects_of_Ammonia_Stripping_and_Other_Physico-Chemical_Pretreatments_on.pdf"
+    },
+    {
+      "id": "R13921",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R13921_2025_Optimizing_Anaerobic_Acidogenesis_Synergistic_Effects_of_Thermal_Pretreatment_of.pdf",
+      "bytes": 3327431,
+      "sha256": "151f154636afa1e3f70f0087a3fbe0a87cf69a03c60e49ac774df5bf777c987d",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R13921_2025_Optimizing_Anaerobic_Acidogenesis_Synergistic_Effects_of_Thermal_Pretreatment_of.pdf"
+    },
+    {
+      "id": "R13935",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R13935_2024_Enhancement_of_Fermentation_Performance_in_the_Anaerobic_Co-Digestion_of.pdf",
+      "bytes": 2725887,
+      "sha256": "036bc6df1562131d9ce1ece13e143a47f116d76d7520c915fa4c5ad9db28b42d",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R13935_2024_Enhancement_of_Fermentation_Performance_in_the_Anaerobic_Co-Digestion_of.pdf"
+    },
+    {
+      "id": "R13965",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R13965_2023_Investigating_the_Anaerobic_Digestion_of_Water_Hyacinth_Eichhornia_crassipes.pdf",
+      "bytes": 1878597,
+      "sha256": "4b881bf9f0bde719ab880f31ae27bd40ec2c16c3c617fdbce370a42fb2165405",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R13965_2023_Investigating_the_Anaerobic_Digestion_of_Water_Hyacinth_Eichhornia_crassipes.pdf"
+    },
+    {
+      "id": "R10086",
+      "role": "正文",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/fulltext/R10086_2024_Effect_of_micro-aeration_on_syntrophic_and_methanogenic_activity_in__20261015_21edae5d714c.pdf",
+      "bytes": 985902,
+      "sha256": "21edae5d714c52e25084de82ff68cd25d4701e624a3e74f18532b67f84573d37",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/fulltext/R10086_2024_Effect_of_micro-aeration_on_syntrophic_and_methanogenic_activity_in__20261015_21edae5d714c.pdf"
+    },
+    {
+      "id": "R03161",
+      "role": "SI原始附件",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/supplementary/R03161/pone.0185738.s001.xlsx",
+      "bytes": 18038,
+      "sha256": "d7cc276f64fa4c14cae6112225870bf2a5daabbfd3ed1243c5cebba459e320f9",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/supplementary/R03161/pone.0185738.s001.xlsx"
+    },
+    {
+      "id": "R08877",
+      "role": "SI原始附件",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/supplementary/R08877/ew3c00544_si_001.pdf",
+      "bytes": 296723,
+      "sha256": "54c68cdd7a64c260a084eb8cc9cd9849207b8e09b99db8af3152606cdd3a1f28",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/supplementary/R08877/ew3c00544_si_001.pdf"
+    },
+    {
+      "id": "R09236",
+      "role": "SI原始附件",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/supplementary/R09236/microorganisms-11-02349-s001.zip",
+      "bytes": 127719,
+      "sha256": "17102352b095b0fc97e7455ed7edc91ce96d20181b5c1194d69fc2336d7ad5fa",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/supplementary/R09236/microorganisms-11-02349-s001.zip"
+    },
+    {
+      "id": "R09236",
+      "role": "SI解包派生文件",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/supplementary/R09236/Sample key.xlsx",
+      "bytes": 133957,
+      "sha256": "fba7c733404cac1e2af50d0ff766db4c46dbf54098136e36f80d71f5ccbaaad5",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/supplementary/R09236/Sample%20key.xlsx"
+    },
+    {
+      "id": "R10086",
+      "role": "SI原始附件",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/supplementary/R10086/253_2023_12969_MOESM1_ESM.pdf",
+      "bytes": 552207,
+      "sha256": "dcdb70eb931fe44e27ae8b8b293b0815d1f623402cb43c296c6a3b568338a2fb",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/supplementary/R10086/253_2023_12969_MOESM1_ESM.pdf"
+    },
+    {
+      "id": "R12985",
+      "role": "SI原始附件",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/antibiotics-15-00153-s001.zip",
+      "bytes": 240699,
+      "sha256": "1ce50822c9eab57d4c6dd71388959b4e8d53a98108db5c1ec1c481164ce5fcea",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/antibiotics-15-00153-s001.zip"
+    },
+    {
+      "id": "R12985",
+      "role": "SI解包派生文件",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S3- ARGs detected.xlsx",
+      "bytes": 22225,
+      "sha256": "3591be2bdae6839fb4e7c255178242754358e42f9506e1c43e155534f1e27f8c",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary%20Table%20S3-%20ARGs%20detected.xlsx"
+    },
+    {
+      "id": "R12985",
+      "role": "SI解包派生文件",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S4-Summary Table for ARG classes.xlsx",
+      "bytes": 43818,
+      "sha256": "99672ebb9aaa605bbfdbd485ae7eaf7c5863075aa63643472ffe22706e5698f4",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary%20Table%20S4-Summary%20Table%20for%20ARG%20classes.xlsx"
+    },
+    {
+      "id": "R12985",
+      "role": "SI解包派生文件",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S1-full data.xlsx",
+      "bytes": 174932,
+      "sha256": "612fbb636cffef9883f1d1e6b2fe6a43da622b2d645418e110a33aec836bb3de",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary%20Table%20S1-full%20data.xlsx"
+    },
+    {
+      "id": "R12985",
+      "role": "SI解包派生文件",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S2-origin species for ARG alignments.xlsx",
+      "bytes": 20081,
+      "sha256": "566b622e9e41dce192aa4e95ba6109b96510adfe331bb094e244b364b1e2e15d",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary%20Table%20S2-origin%20species%20for%20ARG%20alignments.xlsx"
+    },
+    {
+      "id": "R06325",
+      "role": "SI原始附件",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/supplementary/R06325/Data_Sheet_1.docx",
+      "bytes": 685663,
+      "sha256": "60c80a9d02b6781ad5f23a1201771d6830ad428fa791cdc8eb6745e8def01ed5",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/supplementary/R06325/Data_Sheet_1.docx"
+    },
+    {
+      "id": "R06325",
+      "role": "SI原始附件",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/supplementary/R06325/Table_1.XLSX",
+      "bytes": 15760,
+      "sha256": "2ff3d2f5d4062e8466bed8e6d69f7f3c85d20668a21a1c98f5748c3f47d8fd1e",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/supplementary/R06325/Table_1.XLSX"
+    },
+    {
+      "id": "R11844",
+      "role": "SI原始附件",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/supplementary/R11844/253_2025_13519_MOESM1_ESM.pdf",
+      "bytes": 305065,
+      "sha256": "0e990b462bd09df283e7669b5396f957ccb8c2695ff7b2026c1acf32e3e35e01",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/supplementary/R11844/253_2025_13519_MOESM1_ESM.pdf"
+    },
+    {
+      "id": "R05213",
+      "role": "SI原始附件",
+      "repository_path": "results/ad-oxygen-literature-20261006/original_files/supplementary/R05213/13068_2019_1611_MOESM1_ESM.docx",
+      "bytes": 1524862,
+      "sha256": "2a8184a309e3362192b49457a6cae5f0da5f682d39e48fee2b3dcbfc67a87853",
+      "verified": true,
+      "download_page": "https://github.com/Colliam-Vermilion/FirstCodex/blob/b8b23f81f23b7a0bc77dde4140e61b5218b519d2/results/ad-oxygen-literature-20261006/original_files/supplementary/R05213/13068_2019_1611_MOESM1_ESM.docx"
+    }
+  ]
 }
