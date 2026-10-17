@@ -114,13 +114,22 @@ def supplementary():
                 name=pis.get('name',Path(urlsplit(href).path).name).strip()
                 if not urlsplit(href).scheme and re.search(r'\.[A-Za-z0-9]{1,8}$',name):
                     declarations.append({'filename':name,'href':href,'expected_size':pis.get('size','').strip(),'expected_md5':pis.get('md5','').strip()})
-                elif urlsplit(href).scheme in ['http','https']:record['external_data_links'].append({'url':href,'size_bytes':None,'size_status':'not supplied; no bulk database download','downloaded':False})
+                elif urlsplit(href).scheme in ['http','https']:
+                    if re.search(r'\.(pdf|docx?|xlsx?|csv|tsv|png|jpe?g|tiff?|mp4|avi|mov|webm|zip|r|py|txt)$',urlsplit(href).path,re.I):
+                        declarations.append({'filename':name,'href':href,'direct_url':href,'expected_size':pis.get('size','').strip(),'expected_md5':pis.get('md5','').strip()})
+                    else:record['external_data_links'].append({'url':href,'size_bytes':None,'size_status':'not supplied; no bulk database download','downloaded':False})
         unique={x['filename']:x for x in declarations};record['declared_attachments']=list(unique.values())
         if unique:
             existing=[a for a in r.load(r.ASSETS,[]) if a['record_id']==id and a['role']=='supplementary' and r.present(a)]
             needed=[x for name,x in unique.items() if not any(a['original_filename']==name and (not x['expected_size'].isdigit() or int(x['expected_size'])==int(a['size_bytes'])) for a in existing)]
             bundleurl='https://www.ebi.ac.uk/europepmc/webservices/rest/'+pmc+'/supplementaryFiles'
-            bundle=r.fetch_bytes(bundleurl,paused,last,events,id) if needed else None
+            direct=[x for x in needed if x.get('direct_url')]
+            for x in direct:
+                content=r.fetch_bytes(x['direct_url'],paused,last,events,id)
+                if content and not content.lstrip().lower().startswith((b'<html',b'<!doctype')):
+                    a=store(id,'supplementary',x['filename'],content,x['direct_url'],'Official supplementary-material link in verified JATS',{'source_xml_url':xmlurl})
+                    record['official_files'].append({'asset_id':a['asset_id'],'sha256':a['sha256'],'size_bytes':a['size_bytes'],'path':a['source_repo_path']})
+            bundle=r.fetch_bytes(bundleurl,paused,last,events,id) if any(not x.get('direct_url') for x in needed) else None
             if bundle:
                 try:
                     with zipfile.ZipFile(io.BytesIO(bundle)) as archive:
