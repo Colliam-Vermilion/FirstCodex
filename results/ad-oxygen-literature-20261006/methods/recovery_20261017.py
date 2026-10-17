@@ -158,6 +158,9 @@ def audit():
             'explicit_no_attachments_in_complete_JATS':'已检查身份匹配的完整JATS，明确未声明附件',
             'explicit_no_attachments_on_article_page':'目标文章页明确声明无补充材料',
             'external_data_links_only':'完整JATS仅列外部数据链接；未自动下载数据库',
+            'checked_no_file_links_found_coverage_unconfirmed':'已检查身份匹配的文章页，未发现明确附件直链；不能判无附件',
+            'identity_review_required':'入口响应未完成目标文章身份匹配；未计为无附件',
+            'not_checked':'尚未完成附件入口检查（例如既有入口仅为正文PDF）',
             'access_failed':'访问失败；不能据此判无附件','partial_or_access_failed':'部分附件已下载，其余访问失败或未取得'}.get(checked.get('status'))
         row.update({'核查日期':'2026-10-17','附件数量':str(len(aa)),'当前附件保存位置':'; '.join(a['source_repo_path'] for a in aa),
             '附件SHA256':'; '.join(a['sha256'] for a in aa),
