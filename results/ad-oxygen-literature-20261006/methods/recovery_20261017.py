@@ -75,6 +75,7 @@ def audit():
     # Update current paper states only; original scope fields remain untouched.
     current=readcsv(ROOT/'manual_review/current_environment_acquisition426_utf8.csv')
     attempts=load(RUN/'retrieval_results.json',{})
+    si_checks=load(RUN/'supplementary_check.json',{})
     rows_by_id={r['原记录ID']:r for r in current}
     byid=collections.defaultdict(list)
     for a in assets:byid[a['record_id']].append(a)
@@ -88,8 +89,9 @@ def audit():
         status='downloaded_verified' if body else 'historical_acquired_current_original_not_restored' if historical else 'not_downloaded'
         m.update(main_status=status,assets=aa,recovery_checked_at_utc=now(),supplementary_official_count=len(official))
         m['recovery_original_status_preserved_in']='inventory/recovery_20261017/baseline_papers.json'
-        m['supplementary_status']='downloaded' if official else 'historical_acquired_current_original_not_restored' if any(a['role']=='supplementary' for a in aa) else 'not_checked'
-        m['supplementary_coverage_complete']=False
+        checked=si_checks.get(id,{})
+        m['supplementary_status']=checked.get('status') or ('downloaded' if official else 'historical_acquired_current_original_not_restored' if any(a['role']=='supplementary' for a in aa) else 'not_checked')
+        m['supplementary_coverage_complete']=checked.get('status') in ['downloaded','explicit_no_attachments_in_complete_JATS','external_data_links_only']
         save(ROOT/'papers'/id/'metadata.json',m)
         if id not in rows_by_id:continue
         row=rows_by_id[id];main_ok+=bool(body)
@@ -119,9 +121,14 @@ def audit():
     sirows=readcsv(ROOT/'manual_review/supplementary_material_status_utf8.csv')
     for row in sirows:
         aa=[a for a in byid[row['原记录ID']] if a['role']=='supplementary' and present(a)]
+        checked=si_checks.get(row['原记录ID'],{})
+        detail={'downloaded':'已下载全部JATS明确列出的本地附件；外部数据单列',
+            'explicit_no_attachments_in_complete_JATS':'已检查身份匹配的完整JATS，明确未声明附件',
+            'external_data_links_only':'完整JATS仅列外部数据链接；未自动下载数据库',
+            'access_failed':'访问失败；不能据此判无附件','partial_or_access_failed':'部分附件已下载，其余访问失败或未取得'}.get(checked.get('status'))
         row.update({'核查日期':'2026-10-17','附件数量':str(len(aa)),'当前附件保存位置':'; '.join(a['source_repo_path'] for a in aa),
             '附件SHA256':'; '.join(a['sha256'] for a in aa),
-            '补充材料获取状态':'已下载；全附件覆盖尚未确认' if aa else '尚未检查或历史附件未恢复',
+            '补充材料获取状态':detail or ('已下载；全附件覆盖尚未确认' if aa else '尚未检查或历史附件未恢复'),
             '附件持久化状态':'Git原件已恢复；独立核验见recovery清单' if aa else '当前无附件原件；不判无附件',
             '附件用户下载入口':'; '.join(a['source_repo_path'] for a in aa)})
     writecsv(ROOT/'manual_review/supplementary_material_status_utf8.csv',sirows)
@@ -284,10 +291,10 @@ def remote_verify():
     expected+=readcsv(RUN/'parsed_files_utf8.csv') if (RUN/'parsed_files_utf8.csv').exists() else []
     # Include pre-existing parsed samples and any acquired unverified files.
     known={r['relative_path'] for r in expected}
-    for parent in [ROOT/'papers',ROOT/'original_files/unverified_candidates']:
+    for parent in [ROOT/'papers',ROOT/'original_files']:
         for p in parent.rglob('*'):
-            if p.is_file() and ('/extracted/' in str(p) or 'unverified_candidates' in str(p)) and str(p.relative_to(ROOT)) not in known:
-                expected.append({'relative_path':str(p.relative_to(ROOT)),'sha256':sha(p.read_bytes()),'size_bytes':p.stat().st_size,'role':'derived_parse'})
+            if p.is_file() and ('/extracted/' in str(p) or ('/original_files/' in str(p) and p.suffix.lower() in ['.pdf','.zip','.doc','.docx','.xls','.xlsx','.csv','.xml','.html','.jpg','.png','.mp4','.mov','.r','.py'])) and str(p.relative_to(ROOT)) not in known:
+                expected.append({'relative_path':str(p.relative_to(ROOT)),'sha256':sha(p.read_bytes()),'size_bytes':p.stat().st_size,'role':'derived_parse' if '/extracted/' in str(p) else 'acquired_candidate'})
     prefix=str(ROOT.relative_to(REPO))
     for row in expected:
         rel=row['relative_path'];cmd=['git','--git-dir',str(bare),'show',commit+':'+prefix+'/'+rel]
