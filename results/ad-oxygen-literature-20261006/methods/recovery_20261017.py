@@ -357,6 +357,7 @@ def remote_verify(persist=True):
     if not bare.exists():subprocess.run(['git','init','--bare',str(bare)],check=True,stdout=subprocess.DEVNULL)
     subprocess.run(['git','--git-dir',str(bare),'fetch','--depth=1','https://github.com/Colliam-Vermilion/FirstCodex.git',BRANCH],check=True)
     commit=subprocess.check_output(['git','--git-dir',str(bare),'rev-parse','FETCH_HEAD'],text=True).strip()
+    subprocess.run(['git','--git-dir',str(bare),'update-ref','refs/heads/verified-readback-cache',commit],check=True)
     checks=[]
     expected=[]
     for a in load(ASSETS,[]):
