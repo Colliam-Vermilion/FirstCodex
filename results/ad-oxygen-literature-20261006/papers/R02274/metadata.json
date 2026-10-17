@@ -7,7 +7,7 @@
   "preferred_main_asset_id": "R02274.main.4c7da8384f1f6e3d",
   "included_for_download": true,
   "main_status": "downloaded_verified",
-  "supplementary_status": "not_checked",
+  "supplementary_status": "checked_no_file_links_found_coverage_unconfirmed",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -59,9 +59,33 @@
       "historical_sha256": "4c7da8384f1f6e3d8bd2681eab23bdb95e3057009cf4c7ec7aacc7cdb9eaf43d",
       "archive_parent_asset_id": "",
       "parsing_status": "historical_only_current_original_missing",
-      "recovery_checked_at_utc": "2026-10-17T09:23:15.931988+00:00",
+      "recovery_checked_at_utc": "2026-10-17T09:23:39.753556+00:00",
       "availability": "present_sha_verified",
       "storage_status": "git_remote_verified_20261017"
+    },
+    {
+      "record_id": "R02274",
+      "asset_id": "R02274.evidence_html.635d598c2639050d",
+      "role": "evidence_html",
+      "official_attachment": false,
+      "original_filename": "publisher_article_page_20261017.html",
+      "canonical_path": "original_files/source_evidence/R02274/publisher_article_page_20261017.html",
+      "source_local_path": "",
+      "historical_sha256": "",
+      "archive_parent_asset_id": "",
+      "parsing_status": "pending",
+      "preferred_for_record": false,
+      "source_repo_path": "original_files/source_evidence/R02274/publisher_article_page_20261017.html",
+      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R02274/publisher_article_page_20261017.html",
+      "format": "html",
+      "size_bytes": 196847,
+      "sha256": "635d598c2639050d4522f3ef58cf92a3779f03833561ca384b83cf19a01a5ead",
+      "availability": "present_sha_verified",
+      "storage_status": "local_acquired_pending_remote_readback",
+      "source_url": "http://www.scielo.br/j/bjce/a/Fsb5BG69HCqpVRTqkxS4stm/?lang=en",
+      "version": "Article HTML with anonymous server session identifiers removed",
+      "license_evidence": "Private authorized research backup; source license not inferred",
+      "recovery_checked_at_utc": "2026-10-17T09:23:39.774467+00:00"
     }
   ],
   "version_history": [
@@ -72,6 +96,6 @@
     }
   ],
   "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
-  "recovery_checked_at_utc": "2026-10-17T09:23:16.284007+00:00",
+  "recovery_checked_at_utc": "2026-10-17T09:23:40.160154+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json"
 }

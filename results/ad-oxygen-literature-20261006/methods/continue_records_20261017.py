@@ -11,6 +11,29 @@ from urllib.parse import urlsplit, urljoin
 from bs4 import BeautifulSoup
 import recovery_20261017 as r
 from continue_known_fulltexts import Retriever, Links, normalized
+import continue_known_fulltexts as upstream_retrieval
+
+_OriginalLinks=Links
+class ArticleLinks(_OriginalLinks):
+    """Recognize OJS galley/embedded PDFs and exclude journal navigation PDFs."""
+    def handle_starttag(self,tag,attrs):
+        super().handle_starttag(tag,attrs)
+        attributes=dict(attrs)
+        if tag=='a':self._current_anchor_attributes=attributes
+        if tag in ['iframe','embed','object']:
+            href=attributes.get('src') or attributes.get('data','')
+            if href and (attributes.get('type')=='application/pdf' or re.search(r'\.pdf(?:[?#]|$)|/article/download/',href,re.I)):
+                self.pdf.append(urljoin(self.base,href))
+    def handle_endtag(self,tag):
+        if tag=='a' and self.a:
+            href,title=self.a;label=' '.join(self.text);attributes=getattr(self,'_current_anchor_attributes',{})
+            if (re.fullmatch(r'\s*(?:Download\s+)?(?:Full\s*Text\s*)?PDF(?:\s*\([^)]*\))?\s*',label,re.I) or 'pdf' in attributes.get('class','').lower()) and not re.search(r'supplement|supporting|mmc\d|moesm|_si_|_s00\d',href+' '+title+' '+label,re.I):
+                self.pdf.append(urljoin(self.base,href))
+        super().handle_endtag(tag)
+        self.pdf=[u for u in self.pdf if not re.search(r'media[- _]?pack|media[- _]?kit|journal[- _]?catalog|citationstylelanguage|_issn\.pdf|index_copernicus|SJIF_\d|naas_\d|ugc_care|Master_Journal_List|EBSCOhost_Research_Databases|dgrsdt|author.?guideline|brochure',u,re.I)]
+
+Links=ArticleLinks
+upstream_retrieval.Links=ArticleLinks
 
 class BoundedRetriever(Retriever):
     def event(self,event):
@@ -221,6 +244,8 @@ def publisher_supplements():
     ready();report=r.load(r.RUN/'supplementary_check.json',{})
     out=r.ROOT/'original_files/publisher_checks_20261017';out.mkdir(parents=True,exist_ok=True)
     worker=BoundedRetriever(r.ROOT,out,'publisher_SI',workers=1)
+    historical={x['原记录ID']:x for x in rows('methods/audit/scansci_verified_pdf_manifest_utf8.csv')}
+    body_candidates=r.load(r.RUN/'publisher_main_candidates.json',{})
     for h,v in r.load(r.RUN/'batch_downloads.json',{}).get('paused_hosts',{}).items():worker.blocked[h]='Earlier source failure: '+v
     count=0;checkpoint=time.monotonic()
     suffixes=r'\.(pdf|docx?|xlsx?|csv|tsv|zip|gz|txt|png|jpe?g|tiff?|gif|svg|mp4|avi|mov|mpe?g|webm|r|py|m|c|cpp|fasta|xml|pptx?)$'
@@ -245,6 +270,29 @@ def publisher_supplements():
                 identity=normalized(row['完整题名']) in normalized(title)
                 record['publisher_title_identity_match']=identity
                 if identity:
+                    # An article galley can be extensionless (OJS /view/id/id).
+                    # Check a bounded PDF path while examining this same article;
+                    # preserve new-byte candidates until actual PDF review.
+                    if meta.get('main_status')!='downloaded_verified':
+                        todo=list(dict.fromkeys(parser.pdf));seen=set()
+                        while todo and len(seen)<4:
+                            link=todo.pop(0)
+                            if link in seen:continue
+                            seen.add(link);candidate=worker.get(id,link)
+                            if not candidate:continue
+                            content,actualpdf,pdftype=candidate
+                            if content.lstrip().startswith(b'%PDF'):
+                                check=worker.pdf_check(content,row,historical.get(id))
+                                if check.get('verified'):
+                                    store(id,'main',historical[id]['PDF文件名'],content,actualpdf,check.get('version',''))
+                                    break
+                                dest=r.ROOT/'original_files/continuation_20261017/publisher_pdf_candidates'/id/(r.sha(content)+'.pdf')
+                                dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(content)
+                                item={**check,'record_id':id,'path':str(dest),'source_url':actualpdf,'article_identity_page':actual,'scope_changed':False}
+                                if not any(x['sha256']==item['sha256'] for x in body_candidates.setdefault(id,[])):body_candidates[id].append(item)
+                                r.save(r.RUN/'publisher_main_candidates.json',body_candidates)
+                            elif 'html' in pdftype:
+                                embedded=Links(actualpdf);embedded.feed(content.decode('utf-8','replace'));todo=embedded.pdf+todo
                     # Retain the checked article page as source evidence.
                     safe_html=re.sub(r';(?:jsessionid|phpsessid)=[^/?#;\s"\'<>]*','',html,flags=re.I).encode('utf-8')
                     store(id,'evidence_html','publisher_article_page_20261017.html',safe_html,actual,'Article HTML with anonymous server session identifiers removed')
