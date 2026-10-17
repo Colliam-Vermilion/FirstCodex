@@ -67,7 +67,7 @@
         "full_output_is_not_yet_cloud_backup": true,
         "sample_repo_directory": ""
       },
-      "recovery_checked_at_utc": "2026-10-17T11:42:59.503757+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:47:11.190214+00:00"
     },
     {
       "record_id": "R13955",
@@ -79,7 +79,7 @@
       "source_local_path": "",
       "historical_sha256": "",
       "archive_parent_asset_id": "",
-      "parsing_status": "pending",
+      "parsing_status": "parsed",
       "preferred_for_record": false,
       "source_repo_path": "original_files/fulltext/R13955_2017_Biogas_Production_from_Lignocellulosic_Biomass_Impact_of_pre-treatment_co-digestion_7549e1025985.pdf",
       "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R13955_2017_Biogas_Production_from_Lignocellulosic_Biomass_Impact_of_pre-treatment_co-digestion_7549e1025985.pdf",
@@ -104,7 +104,19 @@
         "difference_from_old_bytes_not_fully_known": true,
         "version": "University-published doctoral thesis / publisher PDF (repository cover explicitly states Version of Record)"
       },
-      "recovery_checked_at_utc": "2026-10-17T11:42:59.693667+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:47:11.397066+00:00",
+      "extraction_20261017": {
+        "status": "parsed",
+        "search_chunks": 1555,
+        "table_count": 2,
+        "ocr_pages": 0,
+        "ocr_pending_pages": [],
+        "limitations": [
+          "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
+          "OCR language=eng; OCR values, symbols and units require checking against source page."
+        ],
+        "errors": []
+      }
     },
     {
       "record_id": "R13955",
@@ -130,7 +142,7 @@
       "historical_sha256": "6714f79deccd703d9c74784b27ea4770f9095bfad44e0579a4f5de2990ae711f",
       "archive_parent_asset_id": "",
       "parsing_status": "historical_only_current_original_missing",
-      "recovery_checked_at_utc": "2026-10-17T11:42:59.702497+00:00",
+      "recovery_checked_at_utc": "2026-10-17T11:47:11.405078+00:00",
       "availability": "historical_acquired_current_original_not_restored",
       "storage_status": "historical_only_original_missing"
     },
@@ -144,7 +156,7 @@
       "source_local_path": "",
       "historical_sha256": "",
       "archive_parent_asset_id": "",
-      "parsing_status": "pending",
+      "parsing_status": "parsed",
       "preferred_for_record": true,
       "source_repo_path": "original_files/fulltext/R13955_2017_Biogas_Production_Thesis__20261017_variant_536763265cdc.pdf",
       "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R13955_2017_Biogas_Production_Thesis__20261017_variant_536763265cdc.pdf",
@@ -167,7 +179,19 @@
         "text_equal_to_verified_sha256": "82d3dd4c7af3e63a708ab83da8c0b4011affe749fea236491c93f91ec4cd59c9",
         "byte_versions_not_conflated": true
       },
-      "recovery_checked_at_utc": "2026-10-17T11:42:59.715101+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:47:11.419092+00:00",
+      "extraction_20261017": {
+        "status": "parsed",
+        "search_chunks": 1555,
+        "table_count": 2,
+        "ocr_pages": 0,
+        "ocr_pending_pages": [],
+        "limitations": [
+          "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
+          "OCR language=eng; OCR values, symbols and units require checking against source page."
+        ],
+        "errors": []
+      }
     },
     {
       "record_id": "R13955",
@@ -179,7 +203,7 @@
       "source_local_path": "",
       "historical_sha256": "",
       "archive_parent_asset_id": "",
-      "parsing_status": "pending",
+      "parsing_status": "retained_not_content_indexed",
       "preferred_for_record": false,
       "source_repo_path": "original_files/source_evidence/R13955/publisher_article_page_20261017.html",
       "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R13955/publisher_article_page_20261017.html",
@@ -191,7 +215,18 @@
       "source_url": "https://lup.lub.lu.se/search/publication/78523a6a-191c-4d90-8ae2-e13974d1fd0e",
       "version": "Article HTML with anonymous server session identifiers removed",
       "license_evidence": "Private authorized research backup; source license not inferred",
-      "recovery_checked_at_utc": "2026-10-17T11:42:59.737663+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:47:11.437572+00:00",
+      "extraction_20261017": {
+        "status": "retained_not_content_indexed",
+        "search_chunks": 0,
+        "table_count": 0,
+        "ocr_pages": 0,
+        "ocr_pending_pages": [],
+        "limitations": [
+          "Original retained; no supported content parser for this format. Images/video/models are not claimed searchable."
+        ],
+        "errors": []
+      }
     }
   ],
   "version_history": [
@@ -207,7 +242,7 @@
     }
   ],
   "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
-  "recovery_checked_at_utc": "2026-10-17T11:43:00.110459+00:00",
+  "recovery_checked_at_utc": "2026-10-17T11:47:11.847431+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
     "R13955.main.82d3dd4c7af3e63a",

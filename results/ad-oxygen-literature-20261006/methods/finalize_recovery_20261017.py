@@ -1,5 +1,5 @@
 """Reconcile actual extraction files, protect prior decisions, and report delivery."""
-import collections, json, sqlite3
+import collections, json, sqlite3, re
 from urllib.parse import urlsplit
 from pathlib import Path
 import recovery_20261017 as r
@@ -23,8 +23,11 @@ def finalize():
         id=event.get('record_id') or event.get('id')
         if id:eventmap[id].append(event)
     continuation=r.load(r.ROOT/'original_files/continuation_20261017/existing_included_results.json',{})
+    known_urls={x['record_id']:x['known_urls'] for x in r.load(r.RUN/'continuation_tasks.json',[])}
+    source_checks=r.load(r.RUN/'supplementary_check.json',{})
     rejected={x['sha256'] for x in r.load(r.RUN/'rejected_non_target_files.json',[])}
     labels={'pending_identity':'已取得PDF候选，身份/版本待核验','wrong_PDF':'实际返回出版商目录/宣传资料，不是目标正文',
+        'source_paused_after_prior_failure':'同一来源此前被拦截或限流，本记录依策略暂停请求；不伪称已观察到本篇HTTP响应',
         'proxy_CONNECT_403':'代理CONNECT403，未到达出版商；不据此判订阅','rate_limited':'HTTP429；本来源暂停自动重试',
         'HTTP403_or_challenge':'来源HTTP403/挑战；未推定学校订阅权限','authentication_required':'HTTP401/登录要求，未完成本人官方浏览器认证',
         'upstream_server_error':'来源5xx/仓储服务错误','timeout':'请求/读取超时','broken_or_expired_link':'现有链接404/410或过期',
@@ -35,9 +38,15 @@ def finalize():
         candidates=continuation.get(id,{}).get('unverified_candidates',[])
         if any(c['sha256'] not in rejected and not any(a['record_id']==id and a['sha256']==c['sha256'] and r.present(a) for a in assets) for c in candidates):categories.add('pending_identity')
         if any(c['sha256'] in rejected for c in candidates):categories.add('wrong_PDF')
+        check=source_checks.get(id,{})
+        paused_reason=check.get('reason','') if check.get('source_request_skipped_due_to_known_publisher_pause') else ''
+        if paused_reason or any(e.get('skipped') for e in ev):categories.add('source_paused_after_prior_failure')
         for event in ev:
             code=event.get('http',event.get('http_status'));error=event.get('error','');skip=event.get('skipped','')
-            if 'CONNECT403' in str(error) or 'CONNECT_403' in str(error) or 'CONNECT403' in skip:categories.add('proxy_CONNECT_403')
+            if code is None:
+                match=re.search(r'HTTP[_ ]?(\d{3})',str(error))
+                if match:code=int(match.group(1))
+            if 'CONNECT403' in (str(error)+' '+skip).replace('_',''):categories.add('proxy_CONNECT_403')
             if code==429 or 'Retry-After' in skip:categories.add('rate_limited')
             if code==403:categories.add('HTTP403_or_challenge')
             if code==401 or '/login' in urlsplit(event.get('url','')).path.lower() or '/login' in urlsplit(event.get('redirect','')).path.lower():categories.add('authentication_required')
@@ -47,11 +56,14 @@ def finalize():
             if code==200:categories.add('HTML_no_verified_PDF')
         if not categories:categories.add('no_current_file_link')
         ordered=[k for k in labels if k in categories]
+        urls=list(dict.fromkeys([e['url'] for e in ev if e.get('url')]+known_urls.get(id,[])))
         failures.append({'record_id':id,'title':row['完整题名'],'doi':row['DOI（原库不改）'],'main_original_status':row['当前原件状态'],
             'primary_observation_not_unique_cause':ordered[0],'observed_reasons':'；'.join(labels[k] for k in ordered),
             'actual_request_events':sum(not e.get('skipped') for e in ev),
-            'source_hosts':'; '.join(sorted({urlsplit(e.get('url','')).hostname or '' for e in ev if e.get('url')})),
-            'source_urls_json':json.dumps(list(dict.fromkeys(e['url'] for e in ev if e.get('url'))),ensure_ascii=False),
+            'source_hosts':'; '.join(sorted({urlsplit(u).hostname or '' for u in urls})),
+            'source_urls_json':json.dumps([r.safe_url(u) for u in urls],ensure_ascii=False),
+            'publisher_source_pause_evidence':paused_reason,
+            'same_host_policy_skip_is_not_a_new_HTTP_response':True,
             'public_fulltext_absence_not_inferred':True})
     r.writecsv(r.RUN/'remaining_main_failure_matrix_utf8.csv',failures)
     before=r.ROOT/'inventory/extracted_files.json'

@@ -116,3 +116,48 @@ DOI或学位出版信息及正文，自动命中引用文献不能证明身份�
 冷启动验证是不同事件。新环境发布由用户在环境设置完成；Git原件备份不依赖发布快照。
 本轮未把未来新任务冷启动称为实测完成。当前正文、SI、缺件和远端核验数量以最新
 `inventory/recovery_20261017/` 回执为准，不以本文中的阶段性数量推断完成。
+
+## 已执行的后续恢复和完整解析
+
+`targeted_repository_followups_20261017.py` 只跟随既有目标文章公开的下载表单、
+同一Cranfield原始文件包和Chulalongkorn条目API。R09240的31页出版版已核验，
+两篇2015年硕士论文R13968、R13969的封面、批准页、目录及章节I–V和参考文献/
+附录核对完毕。各7份原PDF、合计117/87页构成完整正文，保留原分章方式，
+不把封面单独宣称完整论文。每份的顺序、大小、SHA和来源见资产清单与
+`multipart_identity_reviews_20261017.json`。`register_reviewed_multipart_20261017.py`
+只注册已有明确核验决定及全部原件齐备的组，默认不自动判断新PDF身份。
+
+R07238的mmc1.docx已通过保存的准确PII和完整JATS声明文件名，从官方出版商CDN
+重取，49526字节及SHA与历史一致，Word容器校验通过。可重复脚本为
+`recover_declared_attachment_20261017.py`。该条目的两个官方附件均已恢复。
+同一ZIP中的g a.skp与旧派生文件34855493字节、SHA一致，保留在官方ZIP中，
+不另外生成重复原件。10个旧传输ZIP只保留历史记录，全部对应官方附件已单独保存。
+
+完整解析使用独立、锁定依赖的第三个环境，实际运行：
+
+```bash
+cd /workspace/FirstCodex
+P=results/ad-oxygen-literature-20261006
+export PYTHONDONTWRITEBYTECODE=1
+/workspace/tools/corpus-runtime/venv/bin/python "$P/methods/corpus/extract_search.py" extract \
+  --project "/workspace/FirstCodex/$P" --root "/workspace/FirstCodex/$P" --ocr --workers 2
+/workspace/tools/scansci-pdf-runtime/venv/bin/python "$P/methods/finalize_recovery_20261017.py"
+/workspace/tools/scansci-pdf-runtime/venv/bin/python "$P/methods/recovery_20261017.py" audit
+/workspace/tools/scansci-pdf-runtime/venv/bin/python "$P/methods/recovery_20261017.py" sync
+```
+
+解析原件与来源SHA绑定，保留PDF页/块坐标、Word段落、Excel工作表/单元格及JATS
+段落位置。实际处理3025页PDF、53页英文OCR，生成60327条文本块和243张表格。
+OCR和表格是未逐数值复核的派生结果；保留原件供核对。58份HTML仅保留来源证据，
+不宣称已提取其正文；3份官方ZIP建立成员/SHA目录，不执行代码或复制整组原件。
+`search.sqlite`为本地全文索引，数据库完整性及FTS查询均另行校验；这不是新的外部检索。
+
+附件入口中误匹配的18个参考文献/分享/全站导航链接已从当前外部数据列表移出，
+原记录及纠正理由保留。`curate_supplementary_evidence_20261017.py` 从已取得正文
+中核验5处数据提交声明（4个不同项目），只请求ENA公开FASTQ字节数清单，
+记录数据集链接、披露大小和来源页/段落，不下载测序数据库。
+项目合计大小可能大于论文实际使用的子集，清单明确标注这种范围限制。
+
+不要运行旧 `corpus/finalize_inventory.py` 的3样例发布策略覆盖本轮全量授权备份。
+最终交付汇总、逐ID失败矩阵和独立读回清单位于 `inventory/recovery_20261017/`；
+未取得的正文与尚未查明的附件，不能解释为不存在或学校肯定无订阅。

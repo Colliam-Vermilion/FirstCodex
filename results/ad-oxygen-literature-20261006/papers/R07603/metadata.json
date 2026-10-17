@@ -45,7 +45,7 @@
       "source_local_path": "",
       "historical_sha256": "",
       "archive_parent_asset_id": "",
-      "parsing_status": "pending",
+      "parsing_status": "retained_not_content_indexed",
       "preferred_for_record": false,
       "source_repo_path": "original_files/source_evidence/R07603/publisher_article_page_20261017.html",
       "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R07603/publisher_article_page_20261017.html",
@@ -57,12 +57,23 @@
       "source_url": "https://elibrary.asabe.org/abstract.asp?JID=5&AID=53367&CID=hou2022&T=1",
       "version": "Article HTML with anonymous server session identifiers removed",
       "license_evidence": "Private authorized research backup; source license not inferred",
-      "recovery_checked_at_utc": "2026-10-17T11:42:59.732424+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:47:11.432938+00:00",
+      "extraction_20261017": {
+        "status": "retained_not_content_indexed",
+        "search_chunks": 0,
+        "table_count": 0,
+        "ocr_pages": 0,
+        "ocr_pending_pages": [],
+        "limitations": [
+          "Original retained; no supported content parser for this format. Images/video/models are not claimed searchable."
+        ],
+        "errors": []
+      }
     }
   ],
   "version_history": [],
   "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
-  "recovery_checked_at_utc": "2026-10-17T11:43:00.035406+00:00",
+  "recovery_checked_at_utc": "2026-10-17T11:47:11.774414+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [],
   "current_main_multipart_groups": [],
