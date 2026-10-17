@@ -1,0 +1,700 @@
+
+[PDF page 1]
+1
+Eng Sanit Ambient | v. 31, Suppl. 1 e031S110, 2026
+Supplement: Advances in Anaerobic Digestion for Energy Transition and Decarbonization
+1Universidade Federal do Ceará, Department of Hydraulic and Environmental Engineering – Fortaleza (CE), Brazil.
+*Corresponding author: andre23@ufc.br
+Conflicts of interest: the authors declare no conflicts of interest.
+Funding: none.
+Received on: 12/20/2025 – Accepted on: 03/01/2026
+Editors: André Bezerra dos Santos 
+, Renato Carrhá Leitão 
+Scientific Paper
+Redox mediators and microaeration:  
+overcoming linear alkylbenzene sulfonate 
+recalcitrance in anaerobic reactors
+Maurício Guimarães de Oliveira1
+, Vicente Elício Porfiro Sales Gonçalves da Silva1
+,  
+Steven Renato Ferreira Vasconcelos1
+, Paulo Igor Milen Firmino1
+, André Bezerra dos Santos1*
+ABSTRACT
+Contaminants of emerging concern, such as linear alkylbenzene sulfonate (LAS), pose persistent challenges to anaerobic wastewater treatment systems due 
+to their recalcitrance and inhibitory effects on microbial consortia. Strategies based on redox mediators and controlled microaeration have been proposed 
+to enhance anaerobic degradation pathways and mitigate surfactant toxicity. This study aimed to evaluate the combined effects of anthraquinone-2-
+sulfonate (AQS) and microaeration on LAS removal, biogas production, and metabolic responses in upflow anaerobic sludge blanket (UASB) reactors. 
+Three operational conditions were assessed over 45 days each: a traditional UASB reactor, a UASB reactor supplemented with AQS, and a microaerated 
+UASB reactor with AQS. Methane production remained similar between the conventional UASB (2.0 ± 0.2 L·day⁻¹) and UASB + AQS (1.9 ± 0.3 L·day⁻¹), with 
+methane fractions of 67.2 ± 2.7% and 67.6 ± 2.7%, respectively. Microaeration markedly increased methane generation (5.6 ± 0.7 L·day⁻¹), though methane 
+purity decreased to 33.5 ± 4.3% due to biogas dilution. LAS removal improved from 34.9 ± 14.4% in the traditional UASB to 65.6 ± 4.2% with AQS and to 76.5 
+± 1.7% under microaeration combined with AQS. Overall, the integrated use of AQS and microaeration promoted a more favorable redox balance in the 
+reactors, resulting in faster LAS degradation kinetics, improved system stability, and maintenance of methane production. These findings demonstrate the 
+potential of combined microaeration and redox-mediator strategies to improve the treatment of surfactant-rich wastewaters while enabling energy recovery.
+Keywords: UASB reactor; redox mediator; syntrophic interactions; recalcitrant compounds; biotransformation. 
+ INTRODUCTION
+The growing presence of contaminants of emerging concern in wastewater treat-
+ment plants and receiving water bodies has heightened environmental and pub-
+lic health concerns worldwide. Even at trace levels, many of these compounds 
+exhibit environmental persistence, resistance to conventional treatment, and 
+significant ecotoxicological potential. Within this broad group, surfactants 
+stand out for their widespread use in household and industrial formulations. 
+Linear alkylbenzene sulfonate (LAS), the most widely produced anionic sur-
+factant, is extensively applied in detergents, cleaning agents, and personal care 
+products (Terreros-Mecalco et al., 2024). Although LAS is generally regarded 
+as biodegradable, the heterogeneity of its commercial formulations, which com-
+prise mixtures of homologues and positional isomers, complicates its toxicity 
+assessment and hampers predictions of its environmental behavior (Motteran, 
+Varesche and Lara-Martin, 2022).
+In tropical and subtropical regions, anaerobic technologies such as upflow 
+anaerobic sludge blanket (UASB) reactors are preferred for domestic wastewater 
+treatment due to their low energy requirements and biogas production capacity. 
+However, LAS removal in anaerobic systems remains inconsistent. Reported 
+efficiencies range from 30 to 91%, strongly influenced by operational condi-
+tions including electron acceptor availability, hydraulic retention time (HRT), 
+and co-substrate addition (Costa et al., 2024). 
+Limited performance is typically attributed to two main mechanisms: 
+(i)	 the formation of insoluble complexes that reduce LAS bioavailability and 
+(ii)	 the inhibitory effect of LAS on anaerobic microbial communities (Terreros-
+Mecalco et al., 2024). 
+These limitations have been demonstrated in several studies. For instance, 
+Granatto et al. (2019) observed average removals of 60 ± 30% in an expanded 
+https://doi.org/10.1590/S1413-4152031S110
+
+
+[PDF page 2]
+2
+Eng Sanit Ambient | v. 31, Suppl. 1 e031S110, 2026
+Supplement: Advances in Anaerobic Digestion for Energy Transition and Decarbonization
+Oliveira, M.G. et al.
+granular sludge bed reactor treating domestic sewage at influent LAS concen-
+trations of 7.4 ± 3.8 mg.L⁻¹ and an HRT of 36 ± 3 hours. Similarly, Carosia et al. 
+(2014) reported an average removal of 48 ± 10% in an anaerobic fluidized-bed 
+reactor using sand as the support material and soap powder as the LAS source 
+at an HRT of 15 hours. A recurrent finding in these studies is the initial high 
+removal associated with biomass washout, which leads to instability and long-
+term efficiency losses. These observations reinforce the need for strategies that 
+enhance biomass retention and mitigate LAS toxicity.
+Aerobic processes are generally more efficient for LAS biodegradation. 
+However, their application is often constrained by high energy requirements for 
+oxygen transfer and by operational challenges such as excessive foaming (Liu 
+et al., 2018; Zhang et al., 2023). In this context, microaeration has emerged as 
+a promising alternative, offering a compromise between strictly anaerobic and 
+fully aerobic conditions. By supplying limited oxygen, microaeration stimulates 
+facultative and microaerophilic microorganisms, facilitates partial oxidation of 
+recalcitrant compounds, and enhances subsequent anaerobic degradation steps 
+without compromising methanogenesis (Li et al., 2024). Studies have demon-
+strated that microaeration can improve the treatment of various xenobiotics, 
+including BTEX compounds (Siqueira et al., 2018), pharmaceuticals (Buakaew 
+and Ratanatamskul, 2024), and steroid hormones (Nascimento et al., 2021), 
+highlighting its versatility and potential in complex wastewater matrices.
+In parallel, redox mediators have attracted attention as a means of accelerat-
+ing anaerobic biotransformation pathways. Quinone-based compounds such as 
+anthraquinone-2-sulfonate (AQS) and anthraquinone-2,6-disulfonate (AQDS), 
+as well as naturally occurring substances like humic acids and vitamin-derived 
+molecules (e.g., riboflavin), can act as electron shuttles that enhance reductive 
+reactions (Nascimento et al., 2021). While effective, the continuous addition 
+of soluble mediators increases operational costs, prompting research into their 
+immobilization on solid supports, such as ferric oxides, activated carbon, or 
+biochar, as a more sustainable strategy (Zhang et al., 2020). Evidence support-
+ing their use includes findings by Lu et al. (2021), who reported a 15% increase 
+in the removal of the azo dye RR X–3B in upflow anaerobic reactors supple-
+mented with AQS immobilized in polyurethane foam, and He et al. (2017), who 
+observed approximately 50% enhancement in sulfamethoxazole removal at only 
+10 μM AQDS in powder form in anaerobic batch systems.
+Taken together, the literature suggests that integrating microaeration with 
+redox mediator supplementation can overcome important limitations associ-
+ated with LAS degradation in anaerobic systems. By improving pollutant bio-
+availability, mitigating toxicity, and promoting more efficient electron transfer, 
+these strategies have the potential not only to enhance LAS removal but also to 
+increase process stability and support sustained biogas generation. Given this, 
+the present study investigates the combined effects of controlled microaeration 
+and AQS supplementation on LAS removal in UASB reactors treating effluents 
+enriched with surfactants, elucidating the underlying mechanisms and exam-
+ining their implications for biogas production dynamics.
+MATERIALS AND METHODS
+Experimental set-up
+The experiment was conducted evaluating three different conditions in lab-
+oratory-scale UASB reactors with a useful volume of 3.5 L. In both situations, 
+the systems were inoculated with 1.6 L of anaerobic sludge from a wastewater 
+treatment plant in the city of Fortaleza, Brazil, which presented 50 ± 3 g·L⁻¹ of 
+total solids (TS), 28 ± 1 g·L⁻¹ of total volatile solids (TVS), and 23 ± 1 g·L⁻¹ of 
+total fixed solids (TFS). The experiments were carried out with an HRT of 8 
+hours and an ambient temperature of approximately 28°C. A low HRT, typically 
+6 to 8 hours, is characteristic of UASB reactor design for domestic wastewater 
+treatment under tropical conditions. The reactors differed only in the presence 
+of microaeration and/or the addition of a redox mediator:
+•	
+Conventional UASB reactor without AQS;
+•	
+Conventional UASB reactor supplemented with AQS;
+•	
+Microaerated UASB reactor (referred to as UMSB – Upflow Microaerobic 
+Sludge Blanket) supplemented with AQS.
+Each condition was evaluated for 45 days. Microaeration was applied by 
+injecting synthetic air (80% N2:20% O2, White Martins, Brazil) from the bot-
+tom of the reactor, using a mass flow controller  (GFC17, Cole-Parmer, USA). 
+The applied dose corresponded to 0.2 L O2 /L feed.d, equivalent to 1.5 mL air/
+min. For reactors with AQS, the influent synthetic wastewater was supplemented 
+with anthraquinone-2-sulfonate (AQS, 98%, Sigma-Aldrich, USA) as redox 
+mediator in powder form. Feeding was carried out using two peristaltic pumps 
+(MasterFlex L/S 7522-30, Cole-Parmer, USA) at a flow rate of 6.8 mL/min.
+The synthetic wastewater contained sodium dodecylbenzenesulfonate 
+(LAS; technical-grade sodium dodecylbenzenesulfonate, Sigma-Aldrich, USA; 
+Product No. 289957, CAS 25155-30-0) at 15 mg·L⁻¹. According to the manu-
+facturer, this compound is supplied as a technical mixture that may contain 
+positional isomers of the phenyl group along the alkyl chain, as well as homo-
+logues with different chain lengths and minor branched structures. The exact 
+distribution of these isomers is not specified by the supplier. The medium 
+also contained sucrose at 1 g COD·L⁻¹, a basal nutrient medium (macro- and 
+micronutrients) prepared according to Firmino et al. (2010), and sodium 
+bicarbonate at 1 g·L⁻¹ to maintain the pH around 7.0. All reagents were used 
+without further purification.
+Analytical Methods
+Standard methods (APHA; AWWA and WEF, 2012) were used to deter-
+mine chemical oxygen demand (COD), pH, acidity, total alkalinity, total sus-
+pended solids (TSS), and total solids (TS). The composition of the biogas 
+(CH4, CO2, H2, and H2S) was analyzed by gas chromatography with barrier dis-
+charge ionization detection (GC-BID, 2010 Plus, Shimadzu, Japan), equipped 
+with a GS-GASPRO column (60 m × 0.32 mm, Agilent, USA). Helium was used 
+as carrier gas at 2 mL·min⁻¹. The operating conditions were: oven at 50°C, injec-
+tor at 100°C, and detector at 250 °C, with a total run time of 9 min. O2 and N2 
+were quantified using a gas chromatograph with a thermal conductivity detector 
+(GC-TCD, GC-17A, Shimadzu, Japan), fitted with a Mol Sieve 5A PLOT column 
+(30 m × 0.32 mm ID, Restek, USA). Analyses were performed with helium as 
+the carrier gas at 7 mL·min⁻¹ in splitless mode, with oven, injector, and detec-
+tor temperatures of 35, 40, and 230°C, respectively, and a run time of 5 min.
+LAS concentrations were quantified by high-performance liquid chro-
+matography (HPLC, Shimadzu system: CBM-20A, SPD-20A, CTO-20A, SIL-
+20A, and LC-20AT) equipped with a reversed-phase C18 column (Shimadzu). 
+The mobile phase consisted of water with 5 mmol·L⁻¹ ammonium acetate (sol-
+vent A) and acetonitrile (solvent B), at a flow rate of 1 mL·min⁻¹. The sample 
+
+
+[PDF page 3]
+3
+Eng Sanit Ambient | v. 31, Suppl. 1 e031S110, 2026
+Supplement: Advances in Anaerobic Digestion for Energy Transition and Decarbonization
+Redox mediators and microaeration: overcoming linear alkylbenzene sulfonate recalcitrance in anaerobic reactors
+injection volume was 50 μL, the column was thermostated at 40°C, and detection 
+was at 230 nm. A gradient elution was applied: initial 45% solvent B, increased 
+to 60% after 5 min, maintained until 20 min, followed by a return to 45% after 
+1 min, which was sustained for 6 min.
+Statistical Analysis
+Data were analyzed using the Mann-Whitney and Kruskal-Wallis non-
+parametric tests, which do not assume specific data distributions. A 5% sig-
+nificance level was adopted to compare reactor performance across different 
+experimental periods.
+RESULTS AND DISCUSSION
+Operational Parameters and Removal of Organic Matter
+The operational stability observed across all reactors establishes a consis-
+tent baseline for interpreting performance differences among the evaluated 
+conditions (Figure 1). The pH remained statistically similar across systems 
+(7.5 ± 0.4; p = 0.14), indicating that neither the addition of AQS nor the intro-
+duction of microaeration caused shifts that could alter the anaerobic environ-
+ment’s acid–base equilibrium.
+This stability is reinforced by the acidity/alkalinity ratios, which remained 
+low and statistically indistinguishable, 0.6 ± 0.1 for both the traditional UASB 
+and the microaerated UASB with AQS, and 0.5 ± 0.1 for the UASB containing 
+only AQS (p > 0.1). Ratios in this range are characteristic of reactors with ade-
+quate alkalinity reserves and effective conversion of intermediates, particularly 
+volatile fatty acids (VFAs). Since VFAs are central intermediates in the anaero-
+bic degradation cascade, their accumulation is typically the earliest indicator 
+of metabolic imbalance (Li et al., 2024). Therefore, the consistently low acidity/
+TA values across all systems indicate that VFA production and consumption 
+remained well-coupled, with no signs of overloading or inhibition. This stable 
+fermentative–methanogenic relationship ensures that any observed differences 
+in COD removal arise not from operational disturbances but from the specific 
+effects of AQS and microaeration.
+Within this stable operational backdrop, the improvements in COD removal 
+directly reflect the contribution of these two intensification strategies. The addi-
+tion of AQS to the traditional UASB system increased COD removal to 86.5 
+± 4.3% (p = 0.04), demonstrating that the mediator effectively facilitated the 
+anaerobic conversion of organic matter. AQS accelerates the progression of sub-
+strates through the anaerobic metabolic stages by reducing kinetic limitations 
+associated with electron transfer. This allows fermentative and methanogenic 
+processes to operate more seamlessly, minimizing the buildup of intermedi-
+ates and promoting a more complete transformation of influent organics into 
+end products. In practical terms, the system becomes more reactive and effi-
+cient, reflected in the statistically significant increase in COD removal relative 
+to the conventional UASB.
+When microaeration is combined with AQS, COD removal increases 
+further to 92.3 ± 3.8% (p < 0.001). The improvement is consistent with 
+the known effects of low-level oxygen dosing in anaerobic systems, which 
+can stimulate key steps in the degradation pathway without compromis-
+ing methanogenesis. At controlled levels, microaeration tends to promote 
+faster oxidation of readily biodegradable substrates by facultative microor-
+ganisms, reducing the pool of intermediate compounds and improving the 
+overall metabolic flow toward methane formation (Nascimento et al., 2021; 
+Siqueira et al., 2018). Furthermore, microaeration supports a more dynamic 
+redox environment, which complements the action of AQS. The combined 
+effect is a more efficient degradation process, reflected in the highest COD 
+removal among the three conditions.
+Methane and Biogas Production
+The volumetric production of biogas was monitored over 45 days of operation 
+under the three configurations evaluated (Figures 2, 3 and 4). Biogas production 
+remained similar between the traditional UASB and the UASB supplemented 
+with AQS (Figures 2 and 3), indicating that the redox mediator did not affect 
+overall gas production under strictly anaerobic conditions.
+The electron-shuttling behavior of AQS can explain this stability. Under anaer-
+obic conditions, AQS is readily reduced by microbial metabolism; however, its 
+function as a redox mediator depends on its ability to subsequently transfer 
+these electrons to an appropriate electron acceptor. When such an acceptor is 
+available, the reduced mediator donates its electrons, returns to the oxidized 
+quinone form, and continues the catalytic cycle. When no suitable acceptor is 
+Figure 1 – Operational parameters and organic matter removal in traditional 
+UASB, UASB with AQS, and microaerated UASB with AQS systems. Caption: TA 
+- total alkalinity.
+Figure 2 – Biogas and methane production in a traditional UASB system over 45 
+days of operation.
+
+
+[PDF page 4]
+4
+Eng Sanit Ambient | v. 31, Suppl. 1 e031S110, 2026
+Supplement: Advances in Anaerobic Digestion for Energy Transition and Decarbonization
+Oliveira, M.G. et al.
+activity may shift toward oxidative pathways and biomass synthesis, potentially 
+leading to higher gas production, as reported by Buarque et al. (2019). It should 
+also be noted that injecting air introduces nitrogen into the system, which may 
+contribute to the measured increase in total biogas volume.
+Focusing on methane, the traditional UASB and the UASB with AQS 
+showed virtually identical behavior, with average productions of 2.0 ± 0.2 
+and 1.9 ± 0.3 L·day⁻¹ and stable methane concentrations of 67.2 ± 2.7% and 
+67.6 ± 2.7% (p = 0.026). This consistency reinforces that, under strictly anaer-
+obic conditions, methanogenesis remains the dominant terminal pathway 
+and governs electron flow. As reported by Nascimento et al. (2021) and Li 
+et al. (2022), redox mediators exert limited influence when substrate biode-
+gradability is high, and methanogenesis is not rate-limiting. However, under 
+microaeration, methane dynamics changed substantially. The microaerated 
+UASB with AQS produced 5.6 ± 0.7 L·day⁻¹ of methane, approximately three 
+times the yield of the strictly anaerobic reactors, showing that methanogen-
+esis remained active despite oxygen dosing. However, methane concentration 
+dropped sharply to 33.5 ± 4.3%. This reduction in methane purity is primar-
+ily driven by gas dilution. Most of the oxygen that is not fully consumed is 
+incorporated into the reactor’s biogas stream, along with atmospheric N2 
+and other gases introduced during aeration. As a result, there is substantial 
+methane dilution. This mechanism is consistent with Oliveira et al. (2021), 
+who observed strong methane dilution in microaerated UASB systems due 
+to carryover of atmospheric gases to the biogas. Although partial oxidation 
+of organic matter under microaerobic conditions does generate additional 
+CO2, its contribution to dilution is comparatively minor given the low oxy-
+gen doses typically applied (Buarque et al., 2019).
+Thus, the simultaneous increase in methane volume and decrease in meth-
+ane fraction reflect a predictable dilution effect, not inhibition of methanogen-
+esis. A portion of the substrate may have been diverted to microaerobic oxida-
+tion. At the same time, the remaining carbon remained available for methane 
+formation, which explains higher volumetric production while simultaneously 
+reducing methane purity, without indicating process instability. Overall, these 
+results confirm that AQS does not influence methane generation under strictly 
+anaerobic conditions. In contrast, microaeration boosts biogas and methane 
+production but inevitably lowers methane purity by entraining unconsumed 
+oxygen and atmospheric gases. Fine control of oxygen dosing may help opti-
+mize this trade-off in future applications.
+LAS Removal
+As shown in Figure 5, LAS removal was significantly improved by the addi-
+tion of AQS and further enhanced under microaeration. The average removal 
+efficiencies were 34.9 ± 14.4% (traditional UASB), 65.6 ± 4.2% (UASB + AQS), 
+and 76.5 ± 1.7% (microaerated UASB). During the first few days of operation, 
+all systems showed similar LAS removal rates, averaging approximately 79 ± 
+1%, with no statistically significant differences (p > 0.05). This initial perfor-
+mance can be attributed to the greater functional diversity of the newly estab-
+lished anaerobic microbiota, which had not yet been subjected to the selective 
+pressure imposed by sulfonated compounds. At this stage, the results suggest 
+a probable lower accumulation of toxic intermediates and the absence of pro-
+longed stress conditions, which may have favored the activity of microbial con-
+sortia involved in the partial degradation of xenobiotic compounds, as previ-
+ously reported (Oliveira et al., 2026).
+Figure 3 – Biogas and methane production in a UASB system with AQS over 45 
+days of operation.
+Figure 4 – Biogas and methane production in the microaerated UASB (USMB) 
+system with AQS over 45 days of operation.
+present, the reduced AQS retains the electrons, temporarily competing with 
+methanogenesis (Nascimento et al., 2021; Zhang et al., 2020). In principle, 
+this competition can reduce the available electron flow to methanogens and 
+thereby influence biogas formation. However, in the present work, the AQS 
+concentration was intentionally kept very low. At such low levels, even when 
+the mediator accumulates in its reduced form and retains electrons, the abso-
+lute amount involved is too small to produce a measurable shift in bulk elec-
+tron partitioning or to generate detectable changes in biogas volume. If higher 
+concentrations of AQS had been employed, this competition would be much 
+more pronounced, and measurable impacts on methane yield and biogas for-
+mation would be expected. 
+In contrast, microaeration substantially increased total biogas produc-
+tion (Figure 4). This increase may be partly due to the introduction of oxygen, 
+which can stimulate partial aerobic oxidation, enhance substrate turnover, and 
+increase CO₂ production. Under microaerobic conditions, some metabolic 
+
+
+[PDF page 5]
+5
+Eng Sanit Ambient | v. 31, Suppl. 1 e031S110, 2026
+Supplement: Advances in Anaerobic Digestion for Energy Transition and Decarbonization
+Redox mediators and microaeration: overcoming linear alkylbenzene sulfonate recalcitrance in anaerobic reactors
+The high initial LAS removals observed in all systems may be associated 
+with the activity of secondary or non-specific metabolic pathways. Among these, 
+the role of non-specific oxidoreductases is particularly relevant. As highlighted 
+by Zhou et al. (2022) and Costa et al. (2024), these enzymes can contribute 
+to the biodegradation of surfactants such as LAS, catalyzing broad-spectrum 
+oxidation-reduction reactions. Although not highly selective, these reactions 
+can effectively initiate the breakdown of both the aromatic ring and the ali-
+phatic chain of LAS. 
+During continuous operation, the traditional UASB system exhibited greater 
+instability in LAS removal, characterized by sharp fluctuations and a progres-
+sive decline in efficiency. This instability can be attributed to the metabolic 
+limitations of a strictly anaerobic environment when challenged with recalci-
+trant sulfonated compounds. 
+Similarly, Li et al. (2021) reported that UASB reactors achieved high initial 
+removal efficiencies of sodium dodecylbenzenesulfonate (a common LAS ana-
+log), with values ​close to 80% during the first days of operation, which progres-
+sively declined to less than 20% after 120 days, reflecting a loss of non-specific 
+enzymatic activity and selective pressure over time.
+In the absence of oxygen, LAS degradation relies exclusively on anaer-
+obic pathways, which are generally less efficient and often unable to cleave 
+the sulfonated aromatic ring, due to the lack of mono- and dioxygenases, 
+aerobic enzymes involved in aromatic ring opening (Corada-Fernández, 
+González-Mazo and Lara-Martín, 2018). As a result, toxic intermediates 
+can accumulate, and metabolic pathways can be disrupted, further com-
+promising degradation. Furthermore, the lack of oxygen prevents the estab-
+lishment of ecological niches for facultative or microaerophilic microorgan-
+isms, whose partial oxidative activity could complement surfactant degra-
+dation and stabilize system performance (Castro, Azevedo and Souza, 2023; 
+Nascimento et al., 2021).
+Over time, however, a clear enhancement in LAS removal became 
+evident with the addition of AQS. In the strictly anaerobic configuration, 
+LAS removal nearly doubled compared to the control, reflecting the medi-
+ator’s specific chemical functionality rather than a generic improvement 
+in reactor performance. AQS, an anthraquinone derivative, functions as 
+an extracellular electron shuttle capable of cycling between oxidized and 
+reduced forms. In its oxidized quinone state, it accepts electrons released 
+by fermentative and syntrophic bacteria, thereby facilitating the thermo-
+dynamically demanding reductive steps required to initiate LAS degrada-
+tion, particularly desulfonation and the partial reduction of the aromatic 
+ring. Once reduced to its anthrahydroquinone form, AQS can subsequently 
+transfer these electrons to available terminal electron acceptors (e.g., Fe(III), 
+nitrate, or other oxidized redox-active species), indirectly supporting 
+downstream anaerobic pathways, including methanogenesis, when suitable 
+acceptors are present.
+As mentioned earlier, because the AQS concentration used in this study 
+was intentionally low, the reduced mediator did not accumulate to a level that 
+would significantly divert electrons away from methanogenic routes. Instead, 
+AQS operated primarily as a catalytic redox conduit, temporarily storing elec-
+trons and releasing them back into the system as soon as suitable electron 
+acceptors — such as dissolved oxygen under microaerobic conditions, carbon 
+dioxide in methanogenic pathways, or other oxidized intermediates present 
+in the medium — became available. This cycling may have contributed to the 
+early transformation of LAS and to the improved removal observed during the 
+initial operational period. However, the underlying mechanisms could not be 
+directly verified in this study. 
+In particular, the formation of more readily biodegradable intermediates was 
+not assessed, and adsorption of LAS onto anaerobic biomass cannot be excluded 
+as a contributing pathway. Therefore, the observed behavior may be associated 
+with the redox-mediating properties of quinone derivatives reported in previ-
+ous studies, which have been shown to enhance the degradation of structurally 
+complex contaminants under anaerobic conditions, including LAS (Cui et al., 
+2022; Song et al., 2020). Future studies tracking degradation intermediates and 
+quantifying sorption onto sludge would be necessary to clarify the relative con-
+tribution of these mechanisms.
+For example, Li et al. (2021) achieved approximately 99% removal of anti-
+mony (Sb) from sulfurous industrial effluents using AQS as a redox media-
+tor, while Nascimento et al. (2021) reported an increase in antibiotic removal 
+from 6% to 75% with quinone-based mediators. Similarly, Tang et al. (2024) 
+observed improved denitrification rates under comparable conditions. AQS 
+is highly stable and can reversibly switch between its oxidized (quinone) and 
+reduced (hydroquinone) states, enabling redox reactions in situations where 
+microorganisms face limitations in direct electron transfer (Ren et al., 2022). 
+During LAS degradation, this property facilitates both desulfonation and par-
+tial aromatic ring cleavage, generating metabolites more accessible to anaero-
+bic and facultative aerobic pathways (Corada-Fernández, González-Mazo, and 
+Lara-Martín, 2018; Cui et al., 2022).
+However, even with AQS, LAS removal under strictly anaerobic condi-
+tions remained significantly lower than in microaerated systems (p = 0.017). 
+This result highlights the fundamental limitation of anoxic environments: 
+although redox mediators can accelerate electron transfer and facilitate par-
+tial LAS transformation, key reactions, such as desulfonation and aromatic 
+ring cleavage, remain strongly dependent on molecular oxygen. Similar results 
+were reported by Nascimento et al. (2021), who observed improved pollut-
+ant removal in UASB reactors combining AQS with microaeration. However, 
+the authors emphasized that, from a technical standpoint, biogas dilution and 
+potential cost implications should be considered when implementing such 
+strategies on a large scale.
+Figure 5 – LAS removal efficiency of reactors during the experiment.
+
+
+[PDF page 6]
+6
+Eng Sanit Ambient | v. 31, Suppl. 1 e031S110, 2026
+Supplement: Advances in Anaerobic Digestion for Energy Transition and Decarbonization
+Oliveira, M.G. et al.
+Therefore, it is worth highlighting the greater efficiency of LAS removal 
+resulting from the combined effect of AQS and microaeration. It is note-
+worthy that the system subjected to microaeration, in addition to achiev-
+ing significantly higher LAS removals (p < 0.001), was also more stable 
+throughout the experimental period. These findings reinforce the role of 
+redox mediators in accelerating LAS degradation and highlight microaera-
+tion as a promising complementary strategy to increase surfactant removal 
+in UASB systems. Low oxygen concentrations likely promoted partial oxi-
+dation of LAS, reducing its recalcitrance and facilitating subsequent anaer-
+obic degradation. Furthermore, the addition of the redox mediator AQS 
+further increased LAS removal in both anaerobic and microaerated sys-
+tems, highlighting its role in accelerating electron transfer and overcoming 
+kinetic limitations in the biodegradation pathway. The combined strategy, 
+however, proved more effective, with the microaerated reactor with AQS 
+achieving an average LAS removal of 77 ± 1%, significantly higher than that 
+observed in the anaerobic reactor with AQS supplementation alone (65 ± 4%) 
+(p < 0.001). These results also indicate that the combined application of 
+microaeration and AQS was associated with improved LAS degradation 
+efficiency and greater process stability.
+The AQS mechanism discussed herein becomes particularly relevant when 
+considering the synergistic effect of microaeration and AQS supplementation. 
+The simultaneous presence of low oxygen concentrations and an extracellu-
+lar redox mediator created a more versatile redox environment. Under these 
+conditions, oxygen-dependent enzymes (e.g., monooxygenases) and electron-
+transfer processes mediated by the redox mediator may have acted in parallel, 
+thereby favoring complementary metabolic pathways. This synergy likely con-
+tributed to more efficient LAS degradation and prevented the accumulation of 
+refractory or toxic intermediates. In summary, the absence of microaeration 
+prevents the formation of intermediate redox zones that would otherwise facili-
+tate partial oxidation and desulfonation of LAS. Even in the presence of AQS, 
+electron transfer pathways alone are insufficient to achieve efficient mineral-
+ization of the compound. 
+Microaeration has consistently enhanced the removal of diverse recalci-
+trant pollutants. For benzene, toluene, ethylbenzene, and xylenes (BTEX) com-
+pounds, microaeration rates of 0.5–2.0 mL air·min⁻¹ increased overall removal 
+to above 83%, with benzene elimination rising by approximately 30% relative 
+to anaerobic conditions (Siqueira et al., 2018). In the case of pharmaceuti-
+cals, applying microaeration in an Anaerobic Biofilm Blanket – Membrane 
+Bioreactor system increased antibiotic degradation to 78% for ciprofloxacin 
+and 88–91% for sulfamethoxazole, clearly surpassing the non-aerated reac-
+tor (Buakaew and Ratanatamskul, 2024). For dyes, microaeration enabled 
+the complete removal of aromatic amines from DB22 dye in a UASB reactor, 
+resulting in an effluent that was 16 times less toxic than that from the anaero-
+bic control (Carvalho et al., 2020). Similarly, for hormones and pharmaceu-
+ticals, an airflow of 4 mL·min⁻¹ increased removal to 90–94%, compared to 
+less than 30% under strictly anaerobic operation (Nascimento et al., 2021). 
+Microaeration is also widely applied for hydrogen sulfide oxidation in biogas 
+treatment (Khadir et al., 2025).
+Thus, while AQS is a valuable tool for enhancing anaerobic biodegrada-
+tion, its effectiveness is limited without a more favorable redox environment. 
+The persistence of LAS in strictly anaerobic systems underscores the need for 
+integrated strategies, such as combining microaeration with redox mediator 
+supplementation, to enhance the treatment of recalcitrant anionic surfactants 
+in UASB reactors.
+CONCLUSION
+This study demonstrated that operating UASB reactors under controlled micro-
+aeration, combined with the addition of the redox mediator AQS, improved LAS 
+removal at low HRTs while preserving the functional stability of the anaerobic 
+process. Under these conditions, higher LAS elimination and COD removal 
+were achieved, along with sustained methane generation, although methane 
+purity decreased due to the expected dilution from air injection.
+The improved performance may be related to complementary biochem-
+ical processes reported in the literature. Quinone-type compounds such as 
+AQS can participate in reversible redox cycling, facilitating electron transfer 
+processes that may support the transformation of recalcitrant compounds. At 
+the same time, limited oxygen supply via microaeration may enable oxida-
+tive reactions to occur alongside anaerobic metabolism without suppressing 
+methanogenic activity. Under such conditions, oxygen-dependent reactions 
+and redox-mediated electron transfer may have contributed simultaneously 
+to LAS transformation.
+Although the specific transformation pathways were not directly assessed, 
+the results indicate that the combined use of microaeration and redox media-
+tor supplementation represents a promising operational strategy for improv-
+ing the removal of surfactants such as LAS in anaerobic systems operating at 
+reduced HRTs. Further studies integrating molecular and metabolite analyses 
+may help clarify the microbial processes involved and support the optimiza-
+tion of this approach for the treatment of complex wastewater contaminants.
+ACKNOWLEDGMENTS
+This work was supported by the following Brazilian institutions: Higher 
+Education Personnel Improvement Coordination (CAPES), National Council 
+for Scientific and Technological Development (CNPq), National Institute of 
+Science and Technology in Sustainable Sewage Treatment Stations (INCT 
+Sustainable ETEs), and Ceará Foundation to Support Scientific and Technological 
+Development (FUNCAP).
+AUTHOR’S CONTRIBUTIONS
+Oliveira, M.G.: Conceptualization, Data curation, Formal analysis, 
+Investigation, Methodology, Writing – original draft, Writing – review & 
+editing. Silva, V.E.P.S.G.: Conceptualization, Investigation, Methodology, 
+Writing – original draft, Writing – review & editing. Vasconcelos, S.R.F.: 
+Conceptualization, Formal analysis, Investigation. Firmino, P.I.M.: Writing 
+– review & editing. Santos, A.B.: Conceptualization, Funding acquisition, 
+Project administration, Resources, Supervision, Writing – original draft, 
+Writing – review & editing.
+DATA AVAILABILITY STATEMENT 
+ The datasets generated and/or analyzed during the current study are available 
+from the corresponding author upon reasonable request.
+
+
+[PDF page 7]
+7
+Eng Sanit Ambient | v. 31, Suppl. 1 e031S110, 2026
+Supplement: Advances in Anaerobic Digestion for Energy Transition and Decarbonization
+Redox mediators and microaeration: overcoming linear alkylbenzene sulfonate recalcitrance in anaerobic reactors
+AMERICAN PUBLIC HEALTH ASSOCIATION – APHA; AMERICAN WATER 
+WORKS ASSOCIATION – AWWA; WATER ENVIRONMENT FEDERATION – 
+WEF. Standard Methods for the Examination of Water and Waste Water. 
+22. ed. Washington: APHA, AWWA, WEF, 2012.
+BUAKAEW, Tanissorn; RATANATAMSKUL, Chavalit. Unveiling the influence 
+of microaeration and sludge recirculation on the enhancement of 
+pharmaceutical removal and microbial community change of the novel 
+anaerobic baffled biofilm - membrane bioreactor in treating building 
+wastewater. Science of the Total Environment, v. 927, 172420, 2024. https://
+doi.org/10.1016/J.SCITOTENV.2024.172420 
+BUARQUE, Patrícia Marques Carneiro; LIMA, Ricardo Bruno Pinheiro de; 
+VIDAL, Carla Bastos; BUARQUE, Hugo Leonardo de Brito; FIRMINO, Paulo 
+Igor Milen; SANTOS, André Bezerra dos. Enhanced removal of emerging 
+micropollutants by applying microaeration to an anaerobic reactor. 
+Engenharia Sanitaria e Ambiental, v. 24, p. 667-673, 2019. https://doi.
+org/10.1590/S1413-4152201920190030
+CAROSIA, Mariana Fronja; OKADA, Dagoberto Yukio; SAKAMOTO, Isabel 
+Kimiko; SILVA, Edson Luiz; VARESCHE, Maria Bernadete Amâncio. Microbial 
+characterization and degradation of linear alkylbenzene sulfonate in 
+an anaerobic reactor treating wastewater containing soap powder. 
+Bioresource Technology, v. 167, p. 316-323, 2014. https://doi.org/10.1016/J.
+BIORTECH.2014.06.002 
+CARVALHO, José Roberto Santo; AMARAL, Fernanda Magalhães; 
+FLORÊNCIO, Lourdinha; KATO, Mario Takayuki; DELFORNO, Tiago Palladino; 
+GAVAZZA, Sávia. Microaerated UASB reactor treating textile wastewater: The 
+core microbiome and removal of azo dye Direct Black 22. Chemosphere, v. 
+242, 125157, 2020. https://doi.org/10.1016/J.CHEMOSPHERE.2019.125157 
+CASTRO, Iacy Maria Pereira; AZEVEDO, Lariza dos Santos; SOUZA, C.L. 
+Evaluation of microaeration strategies in the digestion zone of UASB 
+reactors as an alternative for biogas desulfurization. Environmental 
+Technology, v. 44, p. 431-445, 2023. https://doi.org/10.1080/09593330.202
+1.1974574
+CORADA-FERNÁNDEZ, Carmen; GONZÁLEZ-MAZO, Eduardo; LARA-
+MARTÍN, Pablo Antonio. Evaluation of the anaerobic biodegradation of 
+linear alkylbenzene sulfonates (LAS) using OECD 308 water/sediment 
+systems. Journal of Hazardous Materials, v. 360, p. 24-31, 2018. https://doi.
+org/10.1016/J.JHAZMAT.2018.07.087
+COSTA, Joelithon; SILVA, Luiz Galdino; VERAS, Shrylane; GAVAZZA, Savia; 
+FLORÊNCIO, Lourdinha; MOTTERAN, Fabricio; KATO, Mario. Use of nitrate, 
+sulphate, and iron (III) as electron acceptors to improve the anaerobic 
+degradation of linear alkylbenzene sulfonate: effects on removal potential 
+and microbiota diversification. Environmental Science and Pollution 
+Research, v. 32, n. 28, p. 16640-16655, 2024. https://doi.org/10.1007/s11356-
+024-33158-4
+CUI, Xiaocai; REN, Qingqing; ZHANG, Jie; ZHOU, Yun. Removal kinetics 
+of linear alkylbenzene sulfonate in a batch-operated oxygen-based 
+membrane biofilm reactor treating greywater: Quantitative differentiation 
+of adsorption and biodegradation. Science of the Total Environment, v. 
+806, 150523, 2022. https://doi.org/10.1016/J.SCITOTENV.2021.150523 
+FIRMINO, Paulo Igor Milen; SILVA, Marcos Erick Rodrigues da; CERVANTES, 
+Francisco Javier; SANTOS, André Bezerra dos. Colour removal of dyes from 
+synthetic and real textile wastewaters in one- and two-stage anaerobic 
+systems. Bioresource Technology, v. 101, n. 20, p. 7773-7779, 2010. https://
+doi.org/10.1016/J.BIORTECH.2010.05.050 
+GRANATTO, Caroline Fabiane; MACEDO, Thaís Zaninetti; GEROSA, Leonardo 
+Emerick; SAKAMOTO, Isabel Kimiko; SILVA, Edson Luiz; VARESCHE, Maria 
+Bernadete Amâncio. Scale-up evaluation of anaerobic degradation of linear 
+alkylbenzene sulfonate from sanitary sewage in expanded granular sludge 
+bed reactor. International Biodeterioration & Biodegradation, v. 138, p. 23-
+32, 2019. https://doi.org/10.1016/J.IBIOD.2018.12.010 
+HE, Kai; YIN, Qidong; LIU, Aike; ECHIGO, Shinya; ITOH, Sadahiko; WU, 
+Guangxue. Enhanced anaerobic degradation of amide pharmaceuticals 
+by dosing ferroferric oxide or anthraquinone-2, 6-disulfonate. Jounal of 
+Water Process Engineering, v. 18, p. 192-197, 2017. https://doi.org/10.1016/J.
+JWPE.2017.06.018
+KHADIR, Ali; NAKHLA, George; KARKI, Renisha; RASKIN, Lutgarde; MULLER, 
+Christopher; GUEVARRA, Karla; SUMMERS, Amanda; PIERCE, Laurie; 
+SHAHBAZ, Parisa; BELL, Kati; SKERLOS, Steven; BRONSTAD, Embrey. Micro-
+aeration for hydrogen sulfide reduction in full-scale anaerobic digesters 
+with limited headspace: Performance and sulfide reduction kinetics. 
+Process Safety and Environmental Protection, v. 196, 106911, 2025. https://
+doi.org/10.1016/J.PSEP.2025.106911 
+LI, Qi; HUANG, Manhong; SHU, Shihu; CHEN, Xiaoguang; GAO, Naiyun; 
+ZHU, Yanping. Quinone-mediated Sb removal from sulfate-rich wastewater 
+by anaerobic granular sludge: Performance and mechanisms. Science 
+of the Total Environment, v. 838, 156217, 2022. https://doi.org/10.1016/J.
+SCITOTENV.2022.156217 
+LI, Ruijie; ZHOU, Mengmeng; HE, Shilong; PAN, Tingting; LIU, Jing; ZHU, 
+Jiabao. Deciphering the effect of sodium dodecylbenzene sulfonate on 
+up-flow anaerobic sludge blanket treatment of synthetic sulfate-containing 
+wastewater. Frontiers of Environmental Science & Engineering, v. 15, n. 91, 
+p. 1-12, 2021. https://doi.org/10.1007/s11783-020-1385-z 
+LI, Xiaoyong; WANG, Zhi; HE, Yun; WANG, Yuzhong; WANG, Shilei; 
+ZHENG, Zehui; WANG, Songtao; XU, Jingliang; CAI, Yafan; YING, Hanjie. A 
+Comprehensive Review of the Strategies to Improve Anaerobic Digestion: 
+Their Mechanism and Digestion Performance. Methane, v. 3, n. 2, p. 227-
+256, 2024. https://doi.org/10.3390/METHANE3020014
+LIU, Zhuolin; ZHOU, Chen; ONTIVEROS-VALENCIA, Aura; LUO, Yi-Hao; LONG, 
+Min; XU, Hua; RITTMANN, Bruce. Accurate O2 delivery enabled benzene 
+biodegradation through aerobic activation followed by denitrification-
+coupled mineralization. Biotechnology and Bioengineering, v. 115, p. 1988-
+1999, 2018. https://doi.org/10.1002/BIT.26712 
+LU, Hong; WANG, Jiaojiao; HUANG, Liping; WANG, Xiaolei; ZHOU, Jiti; 
+WANG, Jing. Effect of immobilized anthraquinone-2-sulfonate on antibiotic 
+resistance genes and microbial community in biofilms of anaerobic 
+reactors. Journal of Environmental Management, v. 282, 111967, 2021. 
+https://doi.org/10.1016/J.JENVMAN.2021.111967
+MOTTERAN, Fabricio; VARESCHE, Maria Bernadete Amâncio; LARA-
+MARTIN, Pablo. Assessment of the aerobic and anaerobic biodegradation 
+of contaminants of emerging concern in sludge using batch reactors. 
+Environmental Science and Pollution Research, v. 29, p. 84946-84961, 
+2022. https://doi.org/10.1007/S11356-022-21819-1
+REFERENCES
+
+
+[PDF page 8]
+8
+Eng Sanit Ambient | v. 31, Suppl. 1 e031S110, 2026
+Supplement: Advances in Anaerobic Digestion for Energy Transition and Decarbonization
+Oliveira, M.G. et al.
+NASCIMENTO, José Gilmar da Silva do; ARAÚJO, Maria Helena Peres de; 
+SANTOS, André Bezerra dos; SILVA, Marcos Erick Rodrigues da; FIRMINO, 
+Paulo Igor Milen. Redox mediator, microaeration, and nitrate addition as 
+engineering approaches to enhance the biotransformation of antibiotics in 
+anaerobic reactors. Journal of Hazardous Materials, v. 403, 123932, 2021. 
+https://doi.org/10.1016/J.JHAZMAT.2020.123932
+OLIVEIRA, Maurício Guimarães de; SILVA, Vicente Elício Porfiro Sales 
+Gonçalves da; VASCONCELOS, Steven Renato Ferreira; SANTOS, André 
+Bezerra dos. Redox mediators and microaeration boosting the linear 
+alkylbenzene sulfonate removal. Chemosphere, v. 397, 144878, 2026. 
+https://doi.org/10.1016/j.chemosphere.2026.144878 
+OLIVEIRA, Maurício Guimarães de; MOURÃO, José Macos Marques; SILVA, 
+Francisco Schiavon Souza; SANTOS, André Bezerra dos; PEREIRA, Erlon 
+Lopes. Effect of microaerophilic treatment on swine wastewater (SWW) 
+treatment: Engineering and microbiological aspects. Journal of Environmental 
+Management, v. 299, 113598, 2021. https://doi.org/10.1016/J.JENVMAN.2021.113598 
+REN, Zhijun; MA, Peiyu; LV, Longyi; ZHANG, Guangming; LI, Weiguang; 
+PENGFEI, Wang; LIU, Xiaoyang; GAO, Wenfang. Application of exogenous 
+redox mediators in anaerobic biological wastewater treatment: A critical 
+review. Journal of Cleaner Production, v. 372, 133527, 2022. https://doi.
+org/10.1016/J.JCLEPRO.2022.133527 
+SIQUEIRA, João Paulo Silva; PEREIRA, Andrey; DUTRA, Amanda Maria; 
+FIRMINO, Paulo Igor Milen; SANTOS, André Bezerra dos. Process 
+bioengineering applied to BTEX degradation in microaerobic treatment 
+systems. Journal of Environmental Management, v. 223, p. 426-432, 2018. 
+https://doi.org/10.1016/J.JENVMAN.2018.06.066
+SONG, Yu-Hang; XU, Qing-Tao; HE, Tao; WANG, Zi-Yang; YU, Lei. Efficient 
+Biodegradation of Azo Dyes Catalyzed by the Anthraquinone-2-sulfonate 
+and Reduced Graphene Oxide Nanocomposite. ACS Omega, v. 5, n. 33, p. 
+21137-21144, 2020. https://doi.org/10.1021/acsomega.0C02837
+TANG, Meizhen; MA, Shiqiang; YAO, Shumin; LU, Fei; YANG, Yuewei. 
+Enhanced denitrification performance and extracellular electron transfer 
+for eletrotrophic bio-cathode mediated by anthraquinone-2, 6-disulfonate 
+(AQDS) at low temperature. International Journl of Hydrogen Energy, v. 
+84, p. 215-223, 2024. https://doi.org/10.1016/J.IJHYDENE.2024.08.213 
+TERREROS-MECALCO, Jesús; VELAZQUEZ-GARDUÑO, Gisela; VELARDE, 
+Enrique Daniel Archundia; RUIZ, Pedro Enrique Hernández. Effect of lactose 
+as a co-substrate in the biodegradation of an anionic surfactant “LAS” by 
+anaerobic digestion. Biocatalysis And Agricultural Biotechnology, v. 60, 
+103282, 2024. https://doi.org/10.1016/J.BCAB.2024.103282 
+ZHANG, Lingyue; TANG, Chu; LI, Mingchun; WANG, Huijing; ZHANG, Sijia; 
+WANG, Jianchao; DONG, Xinwei; FANG, Ding; BAI, Hao; SUN, Yue; YUE, 
+Dongbei. Identification of key surfactant in municipal solid waste leachate 
+foaming and its influence mechanism. Water Research, v. 231, n. 19, 119487, 
+2023. https://doi.org/10.1016/J.WATRES.2022.119487
+ZHANG, Yu; ZHANG, Zhengzhe; LIU, Weiguo; CHEN, Yinguang. New 
+applications of quinone redox mediators: Modifying nature-derived 
+materials for anaerobic biotransformation process. Science of the 
+Total Environment, v. 744, 140652, 2020. https://doi.org/10.1016/J.
+SCITOTENV.2020.140652 
+ZHOU, Yun; LI, Ran; GUO, Bing; XIA, Siqing; LIU, Yang; RITTMANN, 
+Bruce. The influent COD/N ratio controlled the linear alkylbenzene 
+sulfonate biodegradation and extracellular polymeric substances 
+accumulation in an oxygen-based membrane biofilm reactor. Journal 
+of Hazardous Materials, v. 422, 126862, 2022. https://doi.org/10.1016/J.
+JHAZMAT.2021.126862
+© 2026 Associação Brasileira de Engenharia Sanitária e Ambiental 
+This is an open access article distributed under the terms of the Creative Commons license.
