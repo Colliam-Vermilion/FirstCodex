@@ -1,0 +1,946 @@
+
+[PDF page 1]
+Citation: Simbayi, T.M.; Rashama, C.;
+Awosusi, A.A.; Nkuna, R.; Christian,
+R.; Matambo, T.S. Investigating the
+Anaerobic Digestion of Water
+Hyacinth (Eichhornia crassipes)
+Sourced from Hartbeespoort Dam in
+South Africa. Fermentation 2023, 9,
+685. https://doi.org/10.3390/
+fermentation9070685
+Academic Editor: Thaddeus Ezeji
+Received: 21 May 2023
+Revised: 2 July 2023
+Accepted: 18 July 2023
+Published: 20 July 2023
+Copyright:
+© 2023 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed
+under
+the
+terms
+and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+fermentation
+Article
+Investigating the Anaerobic Digestion of Water Hyacinth
+(Eichhornia crassipes) Sourced from Hartbeespoort Dam
+in South Africa
+Trevor M. Simbayi 1, Charles Rashama 1,2,3,*, Ayo A. Awosusi 3
+, Rosina Nkuna 1,3, Riann Christian 2
+and Tonderayi S. Matambo 1,3
+1
+Institute for the Development of Energy for African Sustainability (IDEAS), 5th Floor, PhaPha Building,
+Cnr Pioneer and Christian De Wet Roads, Private Bag X6, Florida 1710, South Africa;
+choonzola@gmail.com (T.M.S.); rosinamafokane@gmail.com (R.N.); matamts@unisa.ac.za (T.S.M.)
+2
+Department of Life and Consumer Sciences, University of South Africa’s College of Agriculture and
+Environmental Studies, Cnr Pioneer and Christian De Wet Roads, Private Bag X6, Florida 1710, South Africa;
+chrisr@unisa.ac.za
+3
+Centre of Competence in Environmental Biotechnology, University of South Africa’s College of Agriculture
+and Environmental Studies, Cnr Pioneer and Christian De Wet Roads, Private Bag X6,
+Florida 1710, South Africa; a.a.awosusi@gmail.com
+*
+Correspondence: c.rashama@gmail.com; Tel.: +27-11-670-9049
+Abstract: The biodegradability of water hyacinth for biogas and biofertilizer production was stud-
+ied under mesophilic conditions. The effects of water hyacinth pretreatments were also included
+in this investigation. It was found that water hyacinth has a low biodegradability of 27% when
+monodigested, while in a 3:1 ratio with cow manure, the biodegradability increases to 46%. At this
+elevated biodegradability, the water hyacinth biomethane potential was 185 LCH4/kgVS, while that
+of cow manure was 216 LCH4/kgVS. The Gompertz kinetic model had superior parameters than
+the logistic model for most of the water hyacinth–cow manure combined substrate digestion. Based
+on the Gompertz model, the lag phase and daily maximum methane production rate were 5.5 days
+and 22.9 mL/day, respectively, for the 3:1 codigestion (R2 of 0.99). These values were 6.7 days and
+15.2 mL/day, respectively, in the case of water hyacinth monodigestion (R2 = 0.996). The dominant
+microbial species detected in the digestates were Bacteroidetes and Proteobacteria. A few microbial
+species were indigenous to water hyacinth, but more diverse consortia, which are key to efﬁcient
+substrate biodegradation, came from cow manure. The digestate contained ammonium nitrogen
+at 68 mg/kg with phosphorous and potassium at 73 and 424 mg/kg, respectively. Nitrogen was
+lower but phosphorous and potassium were comparable to previously studied digestates of other
+substrates. Only water hyacinth pretreated by aerobic composting was proven to unlock a higher
+methane yield that matched the 3:1 codigestion with cow manure. Other pretreatments induced
+better biodegradation performance than that observed in untreated water hyacinth but these im-
+provements were not as good as that of the 3:1 codigestion scheme. It was concluded that water
+hyacinth sourced from the Hartbeespoort Dam could be treated by anaerobic digestion to recover
+biogas and biofertilizer. However, more experiments are required to fully understand and harness
+the optimisation opportunities available in applying this technology to manage water hyacinths.
+Keywords: water hyacinth; cow manure; codigestion; biomethane potential; biofertilizer manure
+1. Introduction
+Water hyacinth (WH) infestation on water bodies is an expanding global challenge that
+threatens the availability of fresh water for domestic and industrial uses as well as disturbs
+biodiversity in these water bodies [1]. One of the interventions widely investigated for
+managing this rapidly growing biomass is anaerobic digestion (AD) for biogas production.
+However, there are still technological and site-speciﬁc knowledge gaps that are yet to be
+Fermentation 2023, 9, 685. https://doi.org/10.3390/fermentation9070685
+https://www.mdpi.com/journal/fermentation
+
+
+[PDF page 2]
+Fermentation 2023, 9, 685
+2 of 13
+closed for widespread commercial adoption of AD in water hyacinth management [2]. The
+methane component of biogas infers the gas combustibility attributes and the subsequent
+use of biogas as an energy carrier gas. The substrate’s capacity to produce biomethane
+under anaerobic conditions is called its biomethane potential (BMP). Among the current
+challenges surrounding the AD of water hyacinth are the wide variations of BMPs reported
+in literature ranging from 75 to 360 L/kgTS [3]. A number of investigations on the effects
+of pretreatments on water hyacinth’s BMP have been conducted and there is no agreement
+between the published BMP results. Biogas production increases of 143% and 23% in
+separate studies of water hyacinth digestions after biological pretreatments have been
+reported [4,5]. Codigestion has also been extensively studied as a strategy for improving
+water hyacinth biomethanation. The selection of an appropriate cosubstrate is important to
+realize the beneﬁts of this strategy. Cow manure (CM) is the most popular AD substrate
+because it is a rich source of methanogens as well as due to its availability in huge quantities
+in most places. It is therefore a popular cosubstrate for many codigestion studies and
+industrial AD practices. Ali et al. (2022) [6] studied different CM:WH codigestions and
+reported that a 1:1 ratio gave the highest biogas and methane production increases of
+111.3% and 173.6%, respectively. Other ratios gave increases in gas production, but the
+increases were not as high as those achieved with the 1:1 ratio. These ﬁndings by Ali et al.
+(2022) were in sharp contrast to those reported by Dolle and Hughes (2020) [7], where a
+WH:CM ratio of 3:1 gave the highest BMP and the 1:1 ratio produced the poorest gas yield
+results. Other water hyacinth pretreatments to improve biomethanation, such as steam
+explosion, ionic liquid pretreatment, acid or alkali hydrolysis, and microwave irradiation,
+have also been applied to other lignocellulosic biomass pretreatments for bioenergy and
+biofuel recovery. Unfortunately, most of these strategies are either still at the conceptual,
+laboratory, and pilot stages or are not viable from a techno-economic standpoint, and hence
+they are not yet widely commercialized [8,9].
+It is widely agreed among researchers across the globe that in AD studies, the sub-
+strate’s BMP is proportional to its volatile matter content, which is a function of the sub-
+strate’s organic elemental (CHNO) analysis [10]. There are several methods of estimating a
+substrate’s BMP based on its elemental analysis results [11]. One common calculation ap-
+proach is the Buswell equation, which gives a theoretically determined BMP. The theoretical
+BMP results are in most cases overstated because, in such calculations, 100% organic matter
+degradation to biogas is assumed, which in real AD systems is impracticable as some of
+the organics are diverted towards cell growth while others are locked up in lignocellulosic
+structures and hence are not available for degradation. The standard BMP determination
+method is to set up experimental AD equipment, incubate the substrate under conducive
+AD conditions, and then measure the methane gas produced from a known initial amount
+of volatile solids (VS) in the substrate. The incubation runs until daily gas production
+becomes insigniﬁcant (less than 1% of accumulated volume) [12].
+Hartbeesport Dam in South Africa is currently heavily polluted with water hyacinth,
+which can be harvested for biogas recovery while cleaning this important water resource.
+Based on the dam coverage, which can sometimes reach as high as 80% [13], and a conserva-
+tive yield of 20 tonnes DM/ha/year, despite the literature reports of a wide yield range of
+20–230 tonnes DM/ha/year [14,15], the Hartbeespoort Dam, which covers approximately
+2000 ha, has the potential to produce at least 32,000 tonnes DM of water hyacinth per year.
+Unfortunately, there are limited data in the literature on the biogas producing capacity,
+patterns, and/or AD problems associated with this biomass. The only data that may be
+available are limited to a narrow scope of study at a laboratory scale with limitations for use
+in optimizing commercial scale operations [2]. Given the variability in BMPs reported for
+water hyacinth sourced from different places, including inconsistent results from pretreated
+water hyacinth or codigestion systems, it is prudent to perform independent BMP assays
+for the water hyacinth sourced speciﬁcally from the Hartbeespoort Dam. The results from
+this study are so speciﬁc to this substrate that they can be used to inform strategies for
+implementing the AD of this speciﬁc biomass. In addition to tracking the BMP for water
+
+
+[PDF page 3]
+Fermentation 2023, 9, 685
+3 of 13
+hyacinth, understanding the microbial proﬁles in the digesters as well as the digestate’s
+biofertilizer quality will also yield important information for both optimization and better
+resource recovery [16–18]. The current study therefore seeks to unpack knowledge about
+the Hartbeespoort Dam’s water hyacinth biomethanation potential and evaluate the re-
+sulting digestate (potential biofertilizer) attributes. The original contribution of this study
+is in the collection of all the biomethanation performance data (BMP, codigestion effects,
+pretreatment effects, kinetics, digestate quality, and microbial proﬁles) from a single sub-
+strate source. This facilitates process optimization on a site-speciﬁc biomass. The data on
+WH biomethanation currently available in the literature complicates optimization because
+AD aspects have been investigated in isolation and/or substrates sourced from different
+sources have been investigated for similar AD performance aspects.
+2. Materials and Methods
+2.1. Materials and Preparation
+Water hyacinth was harvested from Coves Estate East Hartbeespoort Dam (25◦44′51′′
+S 27◦52′1′′ E) in the North West Province of South Africa. Figure 1 shows the Hartbeespoort
+Dam with approximately 50% of its surface covered with water hyacinth at the time of
+sampling, although in the 1990s, the whole dam surface was clear with no cover at all.
+Three different locations on the dam that were accessible to the researchers were considered
+for sampling and the three samples were blended into a single composite sample at the
+laboratory prior to further processing. Samples were collected in 5 L sealed containers and
+transported to the University of South Africa (UNISA), Florida Science campus. The water
+hyacinths were rinsed under running water to remove any foreign loose materials such as
+soil. The cleaned water hyacinth was knife-chopped and then reduced further in size to
+2 mm, which was achieved through maceration in a blender. The ﬁnal water hyacinth pulp
+was preserved at 4 ◦C until further use. Proximate and ultimate analyses were performed
+on the water hyacinth according to the APHA/AWWA/WEF (2012) methods. This was
+followed by performing biomethane potential (BMP) tests. Portions of the water hyacinth
+were subjected to different pretreatments prior to BMP testing for the water hyacinth’s
+anaerobic degradability. The ﬁve pretreatments investigated were aerobic decomposition
+(DA), oven drying (OD), autoclave drying (AC), sun drying (SD), and microwave heating
+(MW) as described by different researchers [19–21]. The pretreatments were chosen on the
+basis of the non-usage of expensive and toxic chemicals.
+Figure 1. The current extent of water hyacinth cover over the Hartbeespoort Dam (picture taken by
+the authors).
+
+
+[PDF page 4]
+Fermentation 2023, 9, 685
+4 of 13
+All tests were performed within 5 days of sample collection. Fresh cow manure was
+used as both inoculum and cosubstrate in the experiments. Cow manure was collected
+from a nearby farm in Muldersdrift (26.0330 S 27.850 E). Analytical grade chemicals used
+in the analysis were sourced from Merck Chemicals (Merck Group, Darmstadt, Germany).
+2.2. Experimental Set-Up for Biomethane Potential Assays
+The volatile solids for water hyacinth and CM were determined based on the method
+in [22]. Using the setup shown in Figure 2, three differently formulated substrates were
+tested for biomethane potential (BMP) based on the volatile solids in the CM and water
+hyacinth. The BMP testing methods were adapted from the procedures outlined by Sel-
+vankumar et al. (2017) [23]. The substrates and reactors were allocated codes as follows:
+R1 (CM only), R2 (WH only), R3 (WH and CM in the ratio 1:1), R4 (WH and CM in the
+ratio 2:1), and R5 (WH and CM in the ratio 3:1). Reactors (50 mL) were used with a reaction
+volume of 40 mL and a headspace of 10 mL. Each reactor contained 3 g total VS for the total
+substrate. In each reactor, 6 g VS of CM was added as inoculum with any excess above the
+6 g in the codigestion reactors being considered as a cosubstrate. As a result, an I/S ratio of
+2 was maintained across all reactors. Experiments were performed in triplicate. The gas
+produced was collected and measured in inverted measuring cylinders (Figure 2). Before
+recording, the collected volumes were corrected to normal volumes (NmL) at standard
+temperature and pressure (STP) conditions. In addition, the endogenous gas production
+from the inoculum was also subtracted from the ﬁnal reported values.
+Figure 2. Schematic of the BMP testing experimental setup. R1 (CM only), R2 (WH only), R3
+(1WH:1CM), R4 (2WH:1CM), and R5 (3WH:1CM). Drawing by the authors.
+2.3. Analytical Methods and Data Analysis
+2.3.1. Proximate and Ultimate Analyses
+The water hyacinth and cow manure were subjected to proximate and ultimate analy-
+ses at the University of South Africa Chemical Engineering and IDEAS laboratory. Standard
+APHA 2540 E and G methods were used in these analyses [22]. The organic elemental
+(CHNS) analysis was carried out at the University of Johannesburg Chemistry Department
+laboratory. The British standard method for elemental analysis, EN15104:2011 was followed
+and a Thermo Scientiﬁc unit model Flash 2000 was employed for this analysis.
+2.3.2. Biogas Analysis
+During the batch laboratory AD experiments, biogas composition was monitored
+using a gas chromatography Agilent 7890B system (Agilent Technologies, Santa Clara, CA,
+USA). The gas chromatography (GC) consisted of a front thermal conductivity detector
+(TCD) and a back ﬂame ionizing detector (FID) with an Agilent J&W GC column (CP-Sil
+SCB, length 25 m and diameter 0.15 mm). The FID was operated at 250 ◦C with helium
+used as carrier gas ﬂowing at 25 mL/min. The heating program started with an oven
+temperature of 80 ◦C being held for 4.5 min, thereafter rising in 20 ◦C increments targeting
+
+
+[PDF page 5]
+Fermentation 2023, 9, 685
+5 of 13
+a maximum temperature of 250 ◦C. The calibration standard gas mixture was supplied by
+Afrox South Africa and consisted of 5% nitrogen, 30% carbon dioxide, and 65% methane.
+2.3.3. Biomethane Potential Analysis
+Buswell’s approach was used to determine the biomethane potential (BMP). This
+approach assumes 100% substrate degradation in the stoichiometric ratios represented
+by Reaction (R1). Methane amounts can be calculated using Equation (1) for an organic
+compound model with the empirical formula CaHbOcNdSe [24].
+CaHbOcNdSe + 1/4(4a −b −2c + 3d + 2e)H2O →1/8(4a −b + 2c + 3d + 2e)CO2 + 1/8(4a + b −2c −3d −2e)CH4 + dNH3 + eH2S
+(R1)
+tBMP =
+
+
+
+
+
+
+a
+2 + b
+8 −c
+4 −3d
+8 −e
+4
+
+22400
+12a + b + 16c + 14d + 32e
+
+
+
+
+
+(1)
+where tBMP is the theoretical biomethane potential.
+To get the actual or practical BMP from the BMP assay experiments, the BMP of the
+water hyacinth in the combined feed was obtained by subtracting the BMP contribution
+of cow manure which was added as inoculum in the tests. The practical BMP and the
+theoretical biomethane (tBMP) of water hyacinth were used in computing the substrate’s
+biodegradability (BD) using Equation (2).
+BD = BMP
+tBMP × 100%
+(2)
+Substrate and inoculum characterisation tests were carried out in triplicate. The results
+were averaged and reported as means plus/minus standard deviations. These averages
+were used in the computations of theoretical and practical BMPs. The BMP testing data
+were ﬁtted to the logistic and modiﬁed Gompertz models, which are the most popular
+kinetic models for anaerobic digestion for biomethane production [25,26]. Equations (3)
+and (4) were used in the Gompertz and logistic modelling respectively.
+B = B∞.exp
+
+−exp
+ Rm.e
+B∞(λ −t) + 1
+
+(3)
+B =
+B∞
+n
+1 + exp
+h 4Rm. (λ−t)
+B∞
++ 2
+io
+(4)
+where
+B = Cumulative biomethane potential (mL/gVS);
+B∞= Substrate ﬁnal biomethane potential (mL/gVS);
+Rm = Maximum speciﬁc methane production rates (mL/day);
+λ = lag phase period (time before methane production starts) (days);
+e = the mathematical constant (2.718282).
+2.3.4. Microbial Analysis
+Microbial proﬁling within the digesters was carried out using DNA extraction, puriﬁ-
+cation, ampliﬁcation, and sequencing as outlined by [27]. Brieﬂy, the DNeasy PowerSoil
+kit (QIAGEN, Hilden, Germany) was used while ampliﬁcation used the polymerase chain
+reaction that targeted the 16S rRNA gene. The puriﬁcation of PCR products employed the
+DNA Clean & Concentrator Kit (ZYMO RESEARCH, Irvin, CA, USA). Sequencing was per-
+formed on the Illumina platform. The sequenced DNA data were analysed using FastQC
+software version 0.11.5 (Babraham Institute, Babraham, UK) and trimmed to eliminate
+reads with an average quality score (Phred Q score) lower than 20 using the same software.
+The resultant quality-ﬁltered forward reads were subjected to further bioinformatics on
+the Quantitative Insights into Microbial Ecology (version 2) (QIIME2) software. In this
+
+
+[PDF page 6]
+Fermentation 2023, 9, 685
+6 of 13
+analysis, the Deblur denoiser was used to obtain amplicon sequence variants (ASVs) and
+these ASVs were further binned into operational taxonomic units (OTUs) at 97% similarity
+using the “open reference”. The SILVA version 132 database trained using the QIIME2
+feature-classiﬁer plugin was used for the OUT classiﬁcations. The OUT count tables were
+further sub-sampled (rareﬁed) to even depths of 5228 sequences, before computing the
+alpha and beta diversities (in QIIME2). The OUT table was analysed further using the
+R-studio software version 1.1.463, microbiome Analyst tool and STAMP. The R packages
+used included vegan, ape, labdsy, and ggplot.
+3. Results and Discussion
+3.1. Substrate and Inoculum Characteristics
+The physicochemical properties of water hyacinth and CM are presented in Table 1.
+The lower total solid (TS) and CHN values of water hyacinth with respect to CM indi-
+cate that the biomethanation of WH may produce less biogas than that of CM. The water
+hyacinth C/N ratio was suboptimal at 12.44 compared to the recommended optimum
+(20–30) for methane-producing microorganisms as reported in other studies [28,29]. The
+nutritional composition of WH also reﬂects a low content of protein, and no fats were
+present. Generally, proteins and fats degrade more rapidly, yielding more methane than
+their lignocellulosic counterparts [11]. Naturally, carbohydrates are more oxygenated than
+fats and this oxygen takes up the space of carbon which is the source of methane [30]. While
+these inferences emanating from substrate characterization may be made regarding the
+expected biomethanation performance of water hyacinth, the extent of actual impacts on
+physicochemical properties is only conﬁrmed through biomethane potential assays. The
+properties of CM in terms of C/N ratio as well as the content of degradables are more
+favourable towards higher and faster methane production than those of water hyacinth.
+Theoretical biomethane potential calculations assume 100% organic elemental conversions
+to methane and carbon dioxide. However, such an approach to BMP calculation in sit-
+uations where the C/N ratio is not within the generally recommended ranges and the
+nutritional balances are also biased in favour of slow or non-degradables causes signiﬁcant
+estimation errors. In the present study, the ratio of degradables to total VS is lower at
+2 for water hyacinth than for CM, which is at 4. This indicates that BMPs for water hy-
+acinth are better determined through the standard BMP tests than through the theoretical
+estimation routes.
+Table 1. Water hyacinth and cow manure physicochemical properties. (mean values ± SD).
+Parameter
+Units
+WH
+CM
+Moisture content
+% of TS
+95 ± 2.3
+83 ± 3
+Volatile solids (VS)
+% of TS
+88 ± 2
+77 ± 1.6
+Carbon (C)
+% of TS
+31 ± 1
+48 ± 1
+Hydrogen (H)
+% of TS
+19 ± 0.7
+7 ± 0.8
+Nitrogen (N)
+% of TS
+3 ± 1
+3 ± 0.6
+C:N
+% of TS
+10
+16
+Protein
+% of TS
+1.76 ± 0.12
+2.3 ± 0.09
+Fats
+% of TS
+0
+0.75 ± 0.01
+Cellulose
+% of TS
+0.98 ± 0.03
+3.34 ± 0.02
+Hemicellulose
+% of TS
+1.33 ± 0.02
+4.21 ± 0.04
+Lignin
+% of TS
+0.6 ± 0.01
+2.55 ± 0.02
+Degradables:VS
+%
+2
+4
+pH
+-
+6 ± 0.1
+7.8 ± 0.1
+3.2. Water Hyacinth Biomethanation and Codigestion
+3.2.1. Biomethane Potential Tests
+The cumulative biomethane produced from water hyacinth biomethanation over the
+experimental period as described in this study is shown in Figure 3. The experimental
+data were ﬁtted to the two most common kinetic models, the modiﬁed Gompertz model
+
+
+[PDF page 7]
+Fermentation 2023, 9, 685
+7 of 13
+and the logistic model to derive kinetic parameters for water hyacinth biomethanation.
+The kinetic modelling results are displayed in Table 2. The cow manure monodigestion
+produced a total methane volume of 620 mL, which equates to a BMP of 216 L/kgVS.
+Among the codigested (WH:CM) substrates, the ratios of 3:1 and 2:1 obtained an equal
+BMP of 185 L/kgVS. These results corroborate with those of Dolle and Hughes (2020) who
+also found that the ratio of 3:1 (WH:CM) produced more gas than the other ratios in the
+codigestion of water hyacinth roots and plants with CM. The ratio of 1:1 in the current
+study gave the lowest BMP of 131 L/kgVS, although this is 19% higher than that of water
+hyacinth monodigestion, which produced 110 L/kgVS. These results clearly demonstrate
+the beneﬁts of codigesting the Hartbeespoort water hyacinth as opposed to monodigestion.
+The theoretical biomethane potential values of CM and water hyacinth calculated using
+the Buswell method were 397 and 406 L/kgVS, respectively. These values combined with
+experimental BMPs achieved in the current study indicate biodegradabilities (BD) of 55%
+and 46% for monodigestions of CM and water hyacinth, respectively. These BD values for
+CM and water hyacinth indicate that there is a large error introduced in estimating the BMP
+from the Buswell formula of water hyacinth compared to applying the same estimation
+methods on CW. The margin of error could be higher in water hyacinth calculations because
+of the high content of lignocellulosics in water hyacinth, which reduces the bioavailability
+of degradables.
+3.2.2. Biomethanation Kinetic Studies
+The biomethanation experimental data were ﬁtted to the two most popular kinetic
+models for anaerobic digestion systems. The reported R2 values indicate a better ﬁt with
+the Gompertz than with the logistic model (Table 2). These ﬁndings corroborate those of
+Paritosh et al. (2018) and Sunwanee and Chairat (2017), and here the Gompertz model
+also gave a better ﬁt than the logistic model. Additionally, the model parameters are more
+realistic in the Gompertz model where the ultimate methane yield values, production
+rates, and phase lag are close to those that can be read from the graphs (Figure 3). The
+corresponding values in the logistic model diverge signiﬁcantly. It may be concluded that
+plant-based substrate biomethanation is better modelled by the Gompertz model.
+ 
+700
+600
+500
+400
+300
+200
+100
+0
+0
+5
+10
+15
+20
+30
+35
+40
+45
+50
+Cumulative Biomethane  (mL)
+25
+Days
+R1 (1WH:1CM)
+R2 (2WH:1CM)
+R3 (3WH:1CM)
+R4 (CM)
+R5 (WH)
+Figure 3. Cumulative biomethane production from BMP assays of WH and CM during mono- and
+codigestions. Reported gas volumes were normalized to STP conditions.
+
+
+[PDF page 8]
+Fermentation 2023, 9, 685
+8 of 13
+Table 2. Kinetic modelling parameters for water hyacinth biomethanation.
+Kinetic Model
+Parameter
+R1
+R2
+R3
+R4
+R5
+Modiﬁed Gompertz
+B∞(mLCH4)
+549.47
+622.81
+526.05
+690.53
+501.56
+Rm (mL/day)
+18.23
+21.11
+22.75
+22.90
+15.34
+λ (days)
+5.24
+5.15
+5.28
+5.47
+6.68
+R2
+0.995
+0.990
+0.986
+0.990
+0.996
+Logistic
+B∞(mLCH4)
+1377.81
+1860.23
+1763.66
+1907.55
+1333.72
+Rm (mL/day)
+60.77
+69.06
+67.46
+73.34
+51.51
+λ (days)
+23.99
+27.56
+26.36
+26.72
+28.31
+R2
+0.987
+0.985
+0.987
+0.983
+0.995
+3.3. Effects of Pretreatment Methods on Water Hyacinth
+The biomethanation results of differently pretreated water hyacinths are reported
+in Figure 4. As displayed in Figure 4, the highest methane yield from pretreated wa-
+ter hyacinth was achieved in the case of aerobic decomposition followed by the oven-
+dried substrate. Aerobic decomposition resulted in higher water hyacinth biomethane
+potentials (294 L/kgVS) compared to the optimal 3:1 ratio (WH:CM) codigestion scenario
+(185 L/kgVS). The oven-dried substrate had a BMP of 217 L/kgVS that was also well
+above the 3:1 codigestion scheme. However, all other pretreatments could not push BMPs
+higher to match or exceed that of the 3:1 codigestion. The BMPs for microwave-dried,
+sun-dried, and autoclave-dried water hyacinth were in the range that matched a 1:1 codi-
+gestion. Though these results were higher than the BMPs for untreated water hyacinth, the
+extra effort and cost of drying equipment and activities for achieving this in the case of
+microwave, autoclave, and sun drying operations may not justify the small improvements
+in BMP registered in these cases. It can also be assumed that the low improvements in
+BMP in the three last pretreatments are a result of the destruction of previously identiﬁed
+microorganisms that are indigenous to water hyacinth roots. Methanogens are known to
+be sensitive to oxygen and may therefore have been exposed to air during the pretreat-
+ment process. Combining a 3:1 codigestion with previously aerobically decomposed water
+hyacinth may be the best biomethanation strategy for water hyacinth sourced from the
+Hartbeespoort Dam.
+ 
+1000
+900
+800
+700
+600
+500
+400
+300
+200
+100
+0
+Ave Volume (ml)
+DA
+882
+OD
+651
+AC
+538
+SD
+512
+MW
+506
+C1
+401
+C2
+373
+Cumulative Biomethane  (mL)
+Figure 4. Cumulative biomethane production from the BMP tests of pretreated WH:CM mixtures at
+a 3:1 ratio. Pretreatments were as follows: C1 and C2 are controls with untreated substrates; aerobic
+decomposition (DA); oven drying (OD); autoclave (AC); sun drying (SD); microwave (MW). Gas
+volumes were normalized to STP conditions.
+
+
+[PDF page 9]
+Fermentation 2023, 9, 685
+9 of 13
+3.4. Digester Microbial Dynamics
+The microbial species’ diversity and abundances in the digesters at the end of the
+incubation period are shown in Figure 5a (phylum level) and Figure 5b (genus level).
+It was evident that the CM:WH digestate contained more diverse microbial consortia
+arising from both the CM and the water hyacinth. Separately, water hyacinth contained
+indigenous microorganisms predominantly comprised of Bacteroidetes and Proteobacteria,
+while low quantities of Firmicutes, Episilonbacteraeota, and Tenericutes were identiﬁed.
+Bacteroidetes promote cellulose hydrolysis and are thus ideal for highly lignocellulosic
+substrates [31]. Proteobacteria have diverse metabolic functions. Firmicutes, Proteobacteria,
+and Bacteroidetes are typically the dominant players for the majority of substrates [32,33].
+As a result, a low quantity of Firmicutes in water hyacinth may indicate a need for bioaug-
+mentation or supplementation through an inoculum to facilitate efﬁcient biodegradation.
+On the other hand, CM has more diverse and abundant microbial consortia, comprising
+all species found in water hyacinth except Tenericutes. In addition to these, CM also
+showed a high relative abundance of Spirochaetes and low quantities of Fibrobacteres and
+Actinobacteria. Actinobacteria participate in acidogenesis while Chloroﬂexi, which are
+present in both substrates, are responsible for hydrolysis [6]. The combined feed digestates
+in which water hyacinth was inoculated with CM contained almost all of the microbial
+species initially detected separately in CM and water hyacinth, though no Episilonbacteria
+could be found in these combined feed digestates. The relative abundances for all species
+in the combined feed digestates shifted from those in the separate substrates. The relative
+abundance of Spirochaetes decreased signiﬁcantly in the combined substrate digestate
+when compared to the levels detected in CM. This phylum is rarely mentioned or detected
+in high abundance in most digester studies, indicating that their role may not be so sig-
+niﬁcant in anaerobic digestion [33,34]. The combined feed digestate also witnessed the
+emergence of a new species, planctomycetes, which had not been detected in either CM or
+water hyacinth. The Firmicutes from both CM and water hyacinth survived the combined
+feed digester conditions and maintained a visible relative abundance in the digesters. This
+also applies to the Proteobacteria and Bacteroidetes. This is a typical trend that has been
+observed in many digesters, indicating that these phyla are central to the biogas-producing
+processes in the digesters [32,33]. The Actinobacteria were introduced into the combined
+feed digester through CM, and though they survived, their abundance was quite low in
+the digestates. When the analysis zoomed in to the genus level, it was discovered that
+the combined feed of water hyacinth and CM digestates had a more diverse culture. This
+could imply that the combined feed digester conditions were more conducive to microbial
+proliferation, allowing other species that were dormant in the separate monodigestions
+to be revived and thrive in the codigestion environment. Normally, this is attributed to a
+balanced C/N ratio as well as conducive pH/alkalinity controls introduced by codigestion.
+The majority of microbial species originated from the cow stomach, which is already an
+anaerobic environment, hence its use as an inoculum and the consequent improvement in
+the BMP of water hyacinth. To have a better insight into the microbial dynamics involved
+in WH digestion, and hence be able to optimize processes based on this information, it
+is recommended that samples for microbial analysis be taken at more points along the
+incubation duration. Other omics science tools should also be incorporated into the study
+in future.
+
+
+[PDF page 10]
+Fermentation 2023, 9, 685
+10 of 13
+ 
+R2
+R3
+R4
+R5
+(a) 
+100%
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+R1
+Relative Abundance at phylum level (%)
+Bacteria;__
+Verrucomicrobia
+Tenericutes
+Spirochaetes
+Proteobacteria
+Planctomycetes
+Hydrogenedentes
+Firmicutes
+Fibrobacteres
+Epsilonbacteraeota
+Chloroflexi
+Acidobacteria
+BRC1
+Actinobacteria
+ 
+R3
+R4
+R5
+(b) 
+100%
+80%
+60%
+40%
+20%
+0%
+R1
+R2
+Relative Abundance at Genus level (%)
+Microbacterium
+Propionibacteriaceae
+Actinobacteria
+Actinobacteria
+BRC1
+Bacteroidaceae_Bacteroides
+uncultured
+Marinilabiliaceae
+Paludibacter
+Rikenellaceae_uncultured
+Macellibacteroides
+Bacteroidales
+Chitinophagaceae_uncultured
+Flavobacterium
+Sphingobacteriaceae
+Bacteroidia
+Leptolinea
+Anaerolineaceae
+Arcobacter
+Sulfurospirillum
+Campylobacterales
+possible family 01
+Bacillus
+Christensenellaceae R-7 group
+Christensenellaceae_uncultured
+Christensenellaceae
+Clostridiaceae 1
+Hydrogenispora
+Anaerosporobacter
+Lachnospiraceae
+Peptostreptococcaceae
+Caproiciproducens
+Ruminococcaceae
+Clostridiales
+Erysipelotrichaceae UCG-004
+Phycisphaeraceae
+Planctomycetes
+Azospirillum
+Caulobacteraceae
+Beijerinckiaceae
+Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium
+Rhizobiales
+Rhodospirillaceae
+Rhodospirillales
+Alphaproteobacteria
+Desulfovibrio
+Geobacter
+Anaeromyxobacter
+Sandaracinaceae_uncultured
+Hydrogenophaga
+Burkholderiaceae
+Thiobacillus
+Propionivibrio
+Rhodocyclaceae
+Acinetobacter
+Pseudomonas
+Thermomonas
+Xanthomonadaceae
+Sphaerochaeta
+Treponema 2
+Lacunisphaera
+Bacteria_
+Figure 5. Microbial proﬁles in reactors at the end of the substrate incubation period. (a) Phylum level.
+(b) Genus level.
+3.5. Digestate Potential as Biofertilizer
+The resulting digestates from both mono and codigestion of water hyacinth were
+combined and analysed for potential use as biofertilizers by analysing the nitrogen (N)
+as ammonium nitrogen, phosphorous (P), and potassium (K) content. The result was as
+follows: 68, 73, and 424 mg/kg for nitrogen, phosphorous, and potassium, respectively. Al-
+though the nitrogen assay of the digestate in this study was generally low compared to that
+detected in other digestates from independent studies, which ranged above 2100 mg/kg,
+the P and K levels are comparable [35,36]. The anomaly picked in nitrogen content can
+actually depend on many factors, including the levels of that nutrient in the dam water. The
+
+
+[PDF page 11]
+Fermentation 2023, 9, 685
+11 of 13
+process conditions and microbial proﬁles existing in the laboratory scale digesters also affect
+the extent of nutrient release from the substrate into the solution. These laboratory-scale
+conditions may not be the same as real-life digester conditions. However, based on the
+NPK results obtained in this study, it can be concluded that water hyacinth digestates can
+be used for soil conditioning depending on the nutritional demands of crops to be grown as
+well as compliance with other digestate quality assessments, including pathogenicity, heavy
+metal toxicity potential, etc. [37]. A full characterization of the digestates to understand
+these other parameters, including impacts on soil water holding capacity, soil aeration,
+germination tests, and soil organic content, needs to be carried out in future investiga-
+tions. These detailed digestate assessments shall be performed in pilot-scale studies as
+this research advances towards commercialization. Apart from the digestate being used as
+agricultural fertilizer, other non-conventional applications exist, including growing media
+for microbes, algae, and plants (biopesticides, biopolymers, and bioplastics), production
+of briquettes/pellets, and producing bioelectricity through microbial fuel cells [38]. The
+choice of application depends on market forces and technological improvements required
+on the digestate before it is marketed [36].
+4. Conclusions
+This study demonstrated that water hyacinths found in the Hartbeespoort Dam are
+capable of producing reasonable amounts of biogas for possible commercial exploitation.
+The NPK assays of water hyacinth digestate are high enough to promote its use as a
+biofertilizer. The slightly lower biogas yields of water hyacinth compared to those of
+conventional substrates is a characteristic of most water hyacinths sourced from different
+areas. Biomethanation can be improved by codigesting with CM. The codigestion increases
+the C/N ratio towards the optimal level of 25 as well as enriches the slurry’s microbial di-
+versity and abundance for improved organics degradation efﬁciency and rates. Depending
+on the techno-economic evaluation results, additional biomethanation improvements in
+water hyacinth can be derived from other pretreatments as well, with the most promis-
+ing and probably cost-effective method being aerobic decomposition. We recommended
+further investigations be carried out before scaling up water hyacinth biomethanation
+to commercial levels. These investigations need to unlock more information regarding
+the microbial proﬁling of the slurry throughout the AD period rather than just at the
+end of the incubation period. Other cosubstrates in addition to CM may also be worth
+investigating. The quality of digestates pertaining to toxicity from heavy metals and
+pathogens should also be ascertained. Another exciting component of water hyacinth
+biomethanation worth studying is the tracking of metabolites during AD. This will al-
+low for subsequent application of metabolomics as well as proteomics science tools in
+identifying any optimisation opportunities.
+Author Contributions: The study conception and methodology were developed by T.M.S. and T.S.M.
+as well as A.A.A. The manuscript draft was prepared by C.R., with review and editing by R.C.
+Data analysis was performed by R.N. All authors have read and agreed to the published version of
+the manuscript.
+Funding: This work was ﬁnancially supported by the Department of Science and Innovation South
+Africa (DSI) and the Technology Innovation Agency (TIA) grant number 2022/FUN252/AA awarded
+to Prof. T. Matambo. Additional funding was sourced from the National Research Foundation (NRF)
+of South Africa (NRF Grant Number: 138093).
+Institutional Review Board Statement: The study was conducted in accordance with the Declara-
+tion of Helsinki, and approved by the UNISA’s College of Science, Engineering and Technology
+(CSET) Ethics Review Committee and approved on 30 August 2021. The approval reference is
+2021/CSET/SOE/048.
+Conﬂicts of Interest: The six authors speciﬁed are part of the work by consent and participation and
+there are no conﬂicts of interest whatsoever.
+
+
+[PDF page 12]
+Fermentation 2023, 9, 685
+12 of 13
+References
+1.
+Yan, S.H.; Song, W.; Guo, J.Y. Advances in Management and Utilization of Invasive Water Hyacinth (Eichhornia crassipes) in
+Acquatic Ecosystems—A Review. Crit. Rev. Biotechnol. 2017, 37, 218–228. [CrossRef] [PubMed]
+2.
+Ilo, O.P.; Simatele, M.D.; Nkomo, S.L.; Mkhize, N.M.; Prabhu, N.G. Methodological Approaches to Optimising Anaerobic
+Digestion of Water Hyacinth for Energy Efﬁciency in South Africa. Sustainability 2021, 13, 6746. [CrossRef]
+3.
+Adelodun, A.A.; Olajire, T.M.; Ojo, O.M. Biogas Generation from Codigestion Waste Systems: The Role of Water Hyacinth. In
+Sustainable Rural Development Perspective and Global Challenges; Orhan, Ö., Ed.; IntechOpen: London, UK, 2022.
+4.
+Ali, N.; Chaudhary, B.L.; Panwar, N.L. The Fungal Pre-Treatment of Maize Cob Heart and Water Hyacinth for Enhanced
+Bioremediation. Int. J. Green Energy 2014, 11, 40–49. [CrossRef]
+5.
+Barua, V.B.; Goud, V.V.; Kalamdhad, A.S. Microbial Pre-Treatment of Water Hyacinth for Enhanced Hydrolysis Followed by
+Biogas Production. Renew. Energy 2018, 126, 21–29. [CrossRef]
+6.
+Ali, S.S.; Elsamahy, T.; Abdelfattah, A.; Mustafa, A.M.; Khalil, M.A.; Mastropetros, S.G.; Kornaros, M.; Sun, J.; Azab, M. Exploring
+the Potential of Anaerobic Codigestion of Water Hyacinth and Cattle Dung for Enhanced Bioremediation and Techno-Economic
+Feasibility. Fuel 2022, 329, 125397. [CrossRef]
+7.
+Dolle, K.; Hughes, T. Biogas Production from Anaerobic Codigestion of Water Hyacinth (Eichhornia crassipes) and Cow. J. Energy
+Res. Rev. 2020, 5, 49–60. [CrossRef]
+8.
+Ofoefule, A.U.; Uzodinma, E.O.; Onukwuli, O.D. Comparative Study of the Effect of Different Pretreatment Methods on Biogas
+Yield from Water Hyacinth (Eichhornia crassipes). Int. J. Phys. Sci. 2009, 4, 535–539.
+9.
+Abraham, A.; Mathew, A.K.; Park, H.; Choi, O.; Sindhu, R.; Parameswaran, B.; Pandey, A.; Park, J.H.; Sang, B.-I. Pretreatment
+Strategies for Enhanced Biogas Production from Lignocellulosic Biomass. Bioresour. Technol. 2020, 301, 122725. [CrossRef]
+10.
+Panigrahi, S.; Dubey, B.K. A Critical Review on Operating Parameters and Strategies to Improve the Biogas Yield from Anaerobic
+Digestion of Organic Fraction of Municipal Solid Waste. Renew. Energy 2019, 143, 779–797. [CrossRef]
+11.
+Rashama, C.; Ijoma, G.N.; Matambo, T.S. Appraising Different Models for Predicting Biomethane Potential: The Case of Avocado
+Oil Processing by-Products. J. Mater. Cycles Waste Manag. 2020, 23, 409–415. [CrossRef]
+12.
+Holliger, C.; Alves, M.; Andrade, D.; Angelidaki, I.; Astals, S.; Baier, U.; Bougrier, C.; Buf, P.; Carballa, M.; De Wilde, V.; et al.
+Towards a Standardization of Biomethane Potential Tests. Water Sci. Technol. 2016, 74, 2515–2522. [CrossRef] [PubMed]
+13.
+Auchterlonie, J.; Eden, C.L.; Sheridan, C. The Phytoremediation Potential of Water Hyacinth: A Case Study from Hartbeespoort
+Dam, South Africa. S. Afr. J. Chem. Eng. 2021, 37, 31–36. [CrossRef]
+14.
+Tham, H.T. Water hyacinth (Eichhornia crassipes)—Biomass Production, Ensilability and Feeding Value to Growing Cattle. Ph.D.
+Thesis, Swedish University of Agricultural Sciences, Uppsala, Sweden, 2012.
+15.
+Lareo, L.; Bressani, R. Possible Utilization of the Water Hyacinth in Nutrition and Industry. Food Nutr. Bull. 1982, 4, 1–6. [CrossRef]
+16.
+Hashemi, S.; Hashemi, S.E.; Lien, K.M.; Lamb, J.J. Molecular Microbial Community Analysis as an Analysis Tool for Optimal
+Biogas Production. Microorganisms 2021, 9, 1162. [CrossRef] [PubMed]
+17.
+Mirmohamadsadeghi, S.; Karimi, K.; Azarbaijani, R.; Parsa Yeganeh, L.; Angelidaki, I.; Nizami, A.S.; Bhat, R.; Dashora, K.;
+Vijay, V.K.; Aghbashlo, M.; et al. Pretreatment of Lignocelluloses for Enhanced Biogas Production: A Review on Inﬂuencing
+Mechanisms and the Importance of Microbial Diversity. Renew. Sustain. Energy Rev. 2021, 135, 110173. [CrossRef]
+18.
+Czekała, W.; Jasi´nski, T.; Grzelak, M.; Witaszek, K.; Dach, J. Biogas Plant Operation: Digestate as the Valuable Product. Energies
+2022, 15, 8275. [CrossRef]
+19.
+Ansari, F.A.; Wahal, S.; Gupta, S.K.; Rawat, I.; Bux, F. A Comparative Study on Biochemical Methane Potential of Algal Substrates:
+Implications of Biomass Pre-Treatment and Product Extraction. Bioresour. Technol. 2017, 234, 320–326. [CrossRef]
+20.
+Rodriguez, C.; Alaswad, A.; Benyounis, K.Y.; Olabi, A.G. Pretreatment Techniques Used in Biogas Production from Grass. Renew.
+Sustain. Energy Rev. 2017, 68, 1193–1204. [CrossRef]
+21.
+Wagner, A.O.; Lackner, N.; Mutschlechner, M.; Prem, E.M.; Markt, R.; Illmer, P. Biological Pretreatment Strategies for Second-
+Generation Lignocellulosic Resources to Enhance Biogas Production. Energies 2018, 11, 1797. [CrossRef]
+22.
+APHA/AWWA/WEF. Standard Methods for the Examination of Water and Wastewater; Standard Methods; American Public Health
+Association, American Waterworks Association, Water Environment Federation: Washington, DC, USA, 2012; pp. 1–541.
+23.
+Selvankumar, T.; Sudhakar, C.; Govindaraju, M.; Selvam, K.; Aroulmoji, V.; Sivakumar, N.; Govarthanan, M. Process Optimization
+of Biogas Energy Production from Cow Dung with Alkali Pre-Treated Coffee Pulp. 3 Biotech 2017, 7, 254. [CrossRef]
+24.
+Jingura, R.M.; Kamusoko, R. Methods for Determination of Biomethane Potential of Feedstocks: A Review. Biofuel Res. J. 2017, 14,
+573–586. [CrossRef]
+25.
+Paritosh, K.; Mathur, S.; Pareek, N.; Vivekanand, V. Feasibility Study of Waste (d) Potential: Co-Digestion of Organic Wastes,
+Synergistic Effect and Kinetics of Biogas Production. Int. J. Environ. Sci. Technol. 2018, 15, 1009–1018. [CrossRef]
+26.
+Sunwanee, J.; Chairat, S. Kinetic Model of Biogas Production from Co-Digestion of Thai Rice Noodle Wastewater (Khanomjeen)
+with Chicken Manure. Energy Procedia 2017, 138, 386–392.
+27.
+Ijoma, G.N.; Nkuna, R.; Mutungwazi, A.; Rashama, C.; Matambo, T.S. Applying PICRUSt and 16S RRNA Functional Charac-
+terisation to Predicting Co-Digestion Strategies of Various Animal Manures for Biogas Production. Sci. Rep. 2021, 11, 19913.
+[CrossRef]
+28.
+Zahan, Z.; Othman, M.Z.; Muster, T.H. Anaerobic Digestion/Co-Digestion Kinetic Potentials of Different Agro-Industrial Wastes:
+A Comparative Batch Study for C/N Optimisation. Waste Manag. 2018, 71, 663–674. [CrossRef] [PubMed]
+
+
+[PDF page 13]
+Fermentation 2023, 9, 685
+13 of 13
+29.
+Xiao, Y.; Zan, F.; Zhang, W.; Hao, T. Alleviating Nutrient Imbalance of Low Carbon-to-Nitrogen Ratio Food Waste in Anaerobic
+Digestion by Controlling the Inoculum-to-Substrate Ratio. Bioresour. Technol. 2022, 346, 126342. [CrossRef]
+30.
+Lüttge, U. Fat-Carbohydrate-Protein: Storage in Plant Seeds. Lipid Technol. 2013, 25, 79–81. [CrossRef]
+31.
+Ransom-Jones, E.; Jones, D.L.; McCarthy, A.J.; McDonald, J.E. The Fibrobacteres: An Important Phylum of Cellulose-Degrading
+Bacteria. Microb. Ecol. 2012, 63, 267–281. [CrossRef]
+32.
+Yang, Y.; Yu, K.; Xia, Y.; Lau, F.T.K.; Tang, D.T.W.; Fung, W.C.; Fang, H.H.P.; Zhang, T. Metagenomic Analysis of Sludge From
+Full-scale Anaerobic Digesters Operated in Municipal Wastewater Treatment Plants. Environ. Biotechnol. 2014, 98, 5709–5718.
+[CrossRef]
+33.
+Nelson, M.C.; Morrison, M.; Yu, Z. A Meta-analysis of the Microbial Diversity Observed in Anaerobic Digesters. Bioresour. Technol.
+2011, 102, 3730–3739. [CrossRef]
+34.
+Chouari, R.; Le Paslier, D.; Daegelen, P.; Ginestet, P.; Weissenbach, J.; Sghir, A. Novel Predominant Archaeal and Bacterial Groups
+Revealed by Molecular Analysis of an Anaerobic Sludge Digester. Environ. Microbiol. 2005, 7, 1104–1115. [CrossRef] [PubMed]
+35.
+Ba¸stabak, B.; Koçar, G. A Review of the Biogas Digestate in Agricultural Framework. J. Mater. Cycles Waste Manag. 2020, 22,
+1318–1327. [CrossRef]
+36.
+Malhotra, M.; Aboudi, K.; Pisharody, L.; Singh, A.; Banu, J.R.; Bhatia, S.K.; Varjani, S.; Kumar, S.; González-Fernández, C.; Kumar,
+S.; et al. Bioreﬁnery of Anaerobic Digestate in a Circular Bioeconomy: Opportunities, Challenges and Perspectives. Renew. Sustain.
+Energy Rev. 2022, 166, 112642. [CrossRef]
+37.
+Foster, P.; Prasad, M. Development of Quality Standards for Compost and Digestate in Ireland; Environmental Protection Agency:
+Wexford, Ireland, 2021.
+38.
+Monlau, F.; Sambusiti, C.; Ficara, E.; Aboulkas, A.; Barakat, A.; Carrère, H. New Opportunities for Agricultural Digestate
+Valorization: Current Situation and Perspectives. Energy Environ. Sci. 2015, 8, 2600–2621. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

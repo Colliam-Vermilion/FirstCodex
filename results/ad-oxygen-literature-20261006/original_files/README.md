@@ -1,3 +1,7 @@
+# 2026-10-17 私有仓库原件恢复与继续备份
+
+本轮用户已明确授权将当前私有仓库允许保存的全部取得正文、补充材料和解析结果上传。本目录新增文件按历史ID/SHA复核，版本、来源和备份状态见 `../inventory/assets_utf8.csv` 和 `../inventory/recovery_20261017/backup_manifest_utf8.csv`。未恢复对象不称已备份，不添加含相同原件的整包ZIP。以下为历史交付说明。
+
 # 已保存的可共享原件
 
 此目录保存实际文件字节：40份自身明确CC BY/CC0的正文、9个官方补充附件、5个解包派生Excel，共54对象。作者、题名、DOI、原下载URL、许可链接及SHA见 [ATTRIBUTION_utf8.csv](ATTRIBUTION_utf8.csv) 和 [持久原件清单](../methods/audit/current_original_files_manifest_utf8.csv)。正文按原ID和原文件名组织；不同历史字节的R10086文件加当前日期/SHA，不覆盖旧SHA。

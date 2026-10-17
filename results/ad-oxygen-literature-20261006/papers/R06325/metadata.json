@@ -7,7 +7,7 @@
   "preferred_main_asset_id": "R06325.main.884c1fc31e96ef38",
   "included_for_download": true,
   "main_status": "downloaded_verified",
-  "supplementary_status": "downloaded_partial",
+  "supplementary_status": "downloaded",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 2,
   "supplementary_previous_detail": {
@@ -75,7 +75,8 @@
         "sample_repo_directory": "papers/R06325/extracted/R06325.main.884c1fc31e96ef38",
         "sample_git_readback_commit": "abacce2d56ef0795ef59827d3a8cdc0e6c6a5fea",
         "sample_storage_status": "git_remote_SHA_readback_verified"
-      }
+      },
+      "recovery_checked_at_utc": "2026-10-17T08:28:38.702164+00:00"
     },
     {
       "preferred_for_record": false,
@@ -110,7 +111,8 @@
         "sample_repo_directory": "papers/R06325/extracted/R06325.supplementary.60c80a9d02b6781a",
         "sample_git_readback_commit": "abacce2d56ef0795ef59827d3a8cdc0e6c6a5fea",
         "sample_storage_status": "git_remote_SHA_readback_verified"
-      }
+      },
+      "recovery_checked_at_utc": "2026-10-17T08:28:38.733803+00:00"
     },
     {
       "preferred_for_record": false,
@@ -145,7 +147,8 @@
         "sample_repo_directory": "papers/R06325/extracted/R06325.supplementary.2ff3d2f5d4062e84",
         "sample_git_readback_commit": "abacce2d56ef0795ef59827d3a8cdc0e6c6a5fea",
         "sample_storage_status": "git_remote_SHA_readback_verified"
-      }
+      },
+      "recovery_checked_at_utc": "2026-10-17T08:28:38.733863+00:00"
     },
     {
       "record_id": "R06325",
@@ -156,12 +159,12 @@
       "canonical_path": "papers/R06325/evidence/645deb707d37_PMC8290346_fullText.xml",
       "source_repo_path": "",
       "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R06325/evidence/PMC8290346_fullText.xml",
-      "resolved_source_path": "/workspace/library-files/ad-oxygen-supplements/R06325/evidence/PMC8290346_fullText.xml",
+      "resolved_source_path": "",
       "format": "xml",
       "size_bytes": 160509,
       "sha256": "645deb707d3790b518690b7413885823461bb57a3dfa5bb587202d8f16dda296",
-      "availability": "present_sha_verified",
-      "storage_status": "local_only_not_backed_up",
+      "availability": "historical_acquired_current_original_not_restored",
+      "storage_status": "historical_only_original_missing",
       "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8290346/fullTextXML",
       "source_xml_url": "",
       "version": "repository_JATS_fulltext_representation_not_PDF",
@@ -178,7 +181,8 @@
         "ocr_pending_pages": [],
         "full_output_is_not_yet_cloud_backup": true,
         "sample_repo_directory": ""
-      }
+      },
+      "recovery_checked_at_utc": "2026-10-17T08:28:38.736019+00:00"
     },
     {
       "record_id": "R06325",
@@ -189,12 +193,12 @@
       "canonical_path": "papers/R06325/evidence/6eb4ef126661_PMC8290346_supplementaryFiles.zip",
       "source_repo_path": "",
       "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R06325/transport/PMC8290346_supplementaryFiles.zip",
-      "resolved_source_path": "/workspace/library-files/ad-oxygen-supplements/R06325/transport/PMC8290346_supplementaryFiles.zip",
+      "resolved_source_path": "",
       "format": "zip",
       "size_bytes": 1730580,
       "sha256": "6eb4ef126661714ae89bde97acdddac2c2a582864ca26ff9af569cfe609a4226",
-      "availability": "present_sha_verified",
-      "storage_status": "local_only_not_backed_up",
+      "availability": "historical_acquired_current_original_not_restored",
+      "storage_status": "historical_only_original_missing",
       "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8290346/supplementaryFiles",
       "source_xml_url": "",
       "version": "repository_generated_transport_not_official_SI",
@@ -211,7 +215,8 @@
         "ocr_pending_pages": [],
         "full_output_is_not_yet_cloud_backup": true,
         "sample_repo_directory": ""
-      }
+      },
+      "recovery_checked_at_utc": "2026-10-17T08:28:38.736023+00:00"
     }
   ],
   "version_history": [
@@ -226,5 +231,7 @@
       "status": "current_verified_preferred_bytes"
     }
   ],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory"
+  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "recovery_checked_at_utc": "2026-10-17T08:28:38.759589+00:00",
+  "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json"
 }

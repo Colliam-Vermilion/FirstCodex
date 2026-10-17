@@ -1,3 +1,15 @@
+# 新环境恢复与原件续传（2026-10-17，当前状态）
+
+从远端结果分支提交 `bac51bfccceae13a91745322ed5793260e30a85c` 恢复。554条及全部人工分类保留，类别1–4下载范围426条；没有重新检索或分类。远端实际恢复40正文＋9官方SI＋5派生件，历史“89/91”不作当前原件数量。
+
+本轮按ID/SHA重新获取3篇正文 R01238、R03455、R02454，已解析全部页并确认与历史核验原件同字节。正在上传并独立从远端读回。当前43篇正文、缺383篇；旧环境遗失对象一律标为“历史已获取，当前原件未恢复”，历史SHA不覆盖。
+
+- [本轮状态](inventory/recovery_20261017/status.json)、[历史缺件重取队列](inventory/recovery_20261017/historical_reacquisition_queue_utf8.csv)
+- [原件统一清单](inventory/assets_utf8.csv)、[当前426篇获取清单](manual_review/current_environment_acquisition426_utf8.csv)、[当前缺正文](manual_review/current_environment_need_fulltext_utf8.csv)
+- [安装/依赖恢复脚本](methods/runtime_support/recover_20261017.sh)、[恢复/下载/解析/远端核验脚本](methods/recovery_20261017.py)
+
+以下段落、旧ZIP、旧总数及未备份说明均为历史；当前以本节和20261017恢复清单为准。新的原件与解析结果直接存入本私有仓库结果分支；不依赖旧环境或外部存储。
+
 # 第18轮：文件审计、统一标准与全文检索（2026-10-15）
 
 以远端提交 `0c5fd5b93ae89e5db723df8a1caeb0b3d278c53e` 和实际文件为基准。554条、分类208/57/111/50/128/0及53条人工判断不改，不重新检索或范围分类。

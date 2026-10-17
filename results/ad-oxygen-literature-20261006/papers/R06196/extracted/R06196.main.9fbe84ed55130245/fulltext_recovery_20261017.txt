@@ -1,0 +1,976 @@
+
+[PDF page 1]
+energies
+Article
+Two Phase Anaerobic Digestion System of Municipal
+Solid Waste by Utilizing Microaeration and Granular
+Activated Carbon
+Fernando Canul Bacab 1, Elda España Gamboa 2
+, Juan Enrique Ruiz Espinoza 3,
+Rosa M Leal-Bautista 4, Raúl Tapia Tussell 1
+, Jorge Domínguez Maldonado 1,
+Blondy Canto Canché 5
+and Liliana Alzate-Gaviria 1,*
+1
+Renewable Energy Unit, Yucatan Center for Scientiﬁc Research, Mérida 97203, Mexico;
+fernando.canul@itsmotul.edu.mx (F.C.B.); rtapia@cicy.mx (R.T.T.); joe2@cicy.mx (J.D.M.)
+2
+Renewable Energy Department, Higher Technological Institute of Motul, Motul 97205, Mexico;
+elda.espana@itsmotul.edu.mx
+3
+Faculty of Chemical Engineering, Autonomous University of Yucatan, Periférico Norte, Km. 33.5, Tablaje
+Catastral 13615, Col. Chuburná de Hidalgo Inn, C.P. Mérida 97203, Mexico; juan.ruiz@correo.uady.mx
+4
+Water Research Unit, Yucatan Center for Scientiﬁc Research, Cancún Q. Roo 77524, Mexico; rleal@cicy.mx
+5
+Biotechnology Unit, Yucatán Center for Scientiﬁc Research (CICY), Mérida 97203, Mexico;
+cantocanche@cicy.mx
+*
+Correspondence: Lag@cicy.mx
+Received: 20 November 2019; Accepted: 26 January 2020; Published: 19 February 2020
+
+
+Abstract: In an anaerobic digestion (AD) process, the hydrolysis phase is often limited when substrates
+with high concentrations of solids are used. We hypothesized that applying micro-aeration in the
+hydrolysis phase and the application of granular activated carbon (GAC) in the methanogenesis
+phase could make the AD process more eﬃcient. A packed bed reactor (PBR) coupled with an
+up-ﬂow anaerobic sludge blanket (UASB) was conducted, and its eﬀects on methane generation
+were evaluated. The micro-aeration rate applied in PBR was 254 L-air/kg-Total solids (TS)-d was
+compared with a control reactor. Micro-aeration showed that it reduced the hydrolysis time and
+increased the organic matter solubilization as chemical oxygen demand (COD) increasing 200%,
+with a volatile fatty acids (VFAs) increment higher than 300%, compared to the control reactor
+(without aeration). Our ﬁndings revealed that the implementations of microaeration and GAC in the
+two-phase AD system could enhance methane production by reducing hydrolysis time, increasing
+solid waste solubilization.
+Keywords: Organic fraction of municipal solid waste; anaerobic digestion; micro-aeration; granular
+activated carbon; coupled reactors
+1. Introduction
+By 2012, municipal solid waste (MSW) was generated worldwide around 1300 million tons per
+day, and it tends to grow in 2025 up to 2200 million tons per day [1]. In 2015, Mexico alone produced
+up to 53.1 million tons of MSW per day, which is 61.2% increased compared to the amount generated
+in 2003 [2].
+There are many factors causing this increment such as urban and industrial growth,
+technological development, and change in consumer patterns of the population [2]. Inadequate disposition
+of MSW promotes decomposition of the organic matter, producing unpleasant odors, and harmful fauna.
+Moreover, the leachates infiltrate pollutants into the soil and groundwater, which represents a spreading
+potential of the contamination problem. Thus, it is necessary to look for alternatives for mitigation and
+final disposal to avoid environmental contamination and repercussions in ecosystems and public health.
+Energies 2020, 13, 933; doi:10.3390/en13040933
+www.mdpi.com/journal/energies
+
+
+[PDF page 2]
+Energies 2020, 13, 933
+2 of 19
+Anaerobic digestion (AD) would be a remarkable way to recycle MSW to a constituent of natural
+gas, likes methane. AD process is conducted in a closed system, for instance, a packed bed reactor
+(PBR) coupled with an up-flow anaerobic sludge blanket (UASB). This PBR-UASB is a technically and
+economically feasible apparatus, offering a significant reduction of degradable organic matters in the
+garbage and reasonably high methane yield. Likewise, the leachate from UASB provides the moisture, seed,
+and nutrients required for the rapid conversion of solid wastes and the removal of inhibitors in PBR [3].
+AD process consists of four phases: hydrolysis, acidogenesis, acetogenesis, and methanogenesis.
+The hydrolysis phase is considered a limitation when substrates with high concentrations of solids are
+used [4]. The AD has been divided into two phases (hydrolytic and methanogenic) with the intention of
+giving speciﬁc conditions to hydrolytic, acetogenic, and methanogenic bacteria, avoiding accumulation
+of volatile fatty acids (VFAs), as well the variations due to high organic loads and pH control [5].
+Nguyen and Khanal [6] supplied air at a rate of 3.2 to 30 L-air/kg-Total solids (TS)-d during
+15 seconds per minute [6], and found the increased production of volatile fatty acids (VFAs).
+Many studies applied microaeration in organic fraction municipal solid waste [5,7], resulting in
+the increased methane yields up to 27% and the increased solubilities of carbohydrates and proteins
+(38–64%) [7]. Application of intermittent microaeration in sewage and sludge treatments could
+accelerate the rates of anaerobic hydrolysis [8]. In other studies, applying microaeration in AD
+processes with the control of oxide-reduction potential (ORP) oﬀered the optimal conditions (−100 to
+−200 mV with an airﬂow of 274 L-air/kg-TS-d) for carrying out hydrolysis, supporting by the improved
+production of VFAs up to 0.79 g chemical oxygen demand (COD)/g volatile solid (VS) [7,9,10].
+Another strategy to enhance the eﬃciency in AD process for MSW is the use of granular activated
+carbon (GAC) in the methanogenesis phase, in which GAC could improve electron transfer between
+microbial species that are the key players in this phase [10]. This ﬁnding has shown that direct
+interspecies electron transfer (DIET) within the syntrophic microbial community could accelerate
+the bioconversion of several reduced organic matters to methane. DIET is considered an alternative
+pathway of interspecies hydrogen transfer that can be inhibited by thermodynamic problems and
+subsequently causes the accumulation of propionate [11,12].
+Hitherto, the dual application using both microaeration and GAC to optimize the AD process of
+MSW for methane production is still unknown. With this reason, we aim to investigate the impacts of
+microaeration and GAC on the two-phase AD system conducted with PBR-UASB. The microaeration
+was applied in the hydrolysis phase held in PBR, and GAC was added into UASB to improve the
+methanogenesis. The solubility of organic matters and the methane yield were measured as the criteria
+to unveil the eﬀects of either microaeration or GAC.
+2. Materials and Methods
+2.1. OFMSW and Inoculum
+Organic fraction of municipal solid waste was selected and collected in the municipal market
+of Motul, Yucatan, Mexico. The following composition was used: potato 12%, carrot 5.6%, pea 2.6%,
+apple 9.8%, banana 7%, cabbage 10.2%, onion 6%, cauliﬂower 2%, orange 9.8%, tomato 4%, meat
+4.4%, cooked pasta%, cooked rice 4.6% tortilla 7%, and 3.3% paper. This OFMSW (Organic Fraction
+Municipal Solid Waste) was stored at 4 ◦C until use [13]. The inoculum consisted of a native mixed
+microbial consortium, containing 30 g/L of deep soil, 300 g/L of cattle manure, 150 g/L of pig manure,
+1.5 g/L of commercial Na2CO3, and 1 L of tap water was used according to Poggi-Varaldo et al. [14].
+2.2. Reactors
+The experiment was performed in batch mode, with a coupled system of two reactors as shown in
+Figure 1 (PBR and UASB) in the mesophilic range (38 ◦C).
+
+
+[PDF page 3]
+Energies 2020, 13, 933
+3 of 19
+Figure 1. Layout of experiments for the coupling of reactors; (a) packed bed reactor with micro-aereation,
+(b) upﬂow anaerobic sludge blanket, (c) Coupling Packed Bed Reactor with micro-aereation and upﬂow
+anaerobic sludge blanket with direct interspecies electrons transfer.
+Figure 1 Layout of experiments for the coupling of reactors; (a) packed bed reactor with
+micro-aereation, (b) upﬂow anaerobic sludge blanket, (c) coupling packed bed reactor with
+micro-aereation, and upﬂow anaerobic sludge blanket with direct interspecies electrons transfer.
+2.2.1. PBR
+The PBR was made of acrylic with a 14.5 cm inner diameter, and 26.4 cm height, having a useful
+volume of 1.5 L. As bioﬁlm support, PVC rings 1 cm long and 1.22 cm in diameter were used to improve
+the leachate’s ﬂow [5]. For the collection of the leachate, an acrylic perforated plate was placed 5 cm
+
+
+[PDF page 4]
+Energies 2020, 13, 933
+4 of 19
+from the bottom of the reactor and covered with a metal mesh. OFMSW was placed in layers with
+PVC rings. A total of 0.5 kg OFMSW with a total solids (TS) content of 20.67 ± 1.9% with volatile solids
+(VS) content of 98.7 ± 0.06% was used as substrate. In addition, 4.6% TS and 58.2% VS/TS as inoculum
+and 1 L of tap water were added. The leachate was recirculated from the collected bottom to the upper
+part, with a ﬂow of 70 mL/min, using a Milton Roy diaphragm pump. The experiment was maintained
+until the VFAs reached maximum concentration and were consumed at values close to 100 mg/L.
+Micro-aeration (PBRMICRO-AERATION) was applied using a total ﬂow of 254 L-air/kg-TS-d, the air
+was supplied for periods of 15 minutes every 2 hours per day according with to the work carried out
+by Xu et al. [5,9]. The experiment was maintained until the VFAs reached maximum concentration and
+were consumed at values close to 500 mg/L.
+2.2.2. UASB
+A UASB reactor was built of PVC with a 10.2 cm inner diameter pipeline and 120 cm length having
+a useful volume of 9 L. To start up the UASB, a mixture of synthetic wastewater and inoculum in a
+ratio of 1:1 was used. The composition of the synthetic wastewater was 4 g/L sucrose, 1 g/L ammonium
+chloride, 0.2 g/L potassium phosphate, and 1 g/L sodium bicarbonate, as mentioned by Poggi-Varaldo
+et al. [14]. The reactor operated with an ascending ﬂow velocity of 0.5 m/h according to Latif et al. [15],
+a pH range of 6.8–7.4, at mesophilic temperatures (38 ± 1 ◦C), which was maintained with a bath
+temperature circulator Wisecircu. For UASB acclimatization, the organic loading rate started with
+0.5 kg COD/m3 d; this was increased until the reactor collapsed. In this way, the organic loading rate
+was determined when the following control tasks were established in the UASB: COD removal up to
+50%, VFAs 1.5 g/L, methane content in the biogas ≥50%, a range of 0.7–0.9 in the alpha index and
+0.2–0.4 for the buﬀer index [16]. The following parameters: COD, alkalinity, VFAs, NT, pH, biogas
+volume, and methane percentage were monitored every day. Likewise, once the reactor was collapsed
+due to the accumulation of VFAs; organic load rate was reduced and UASB function was restored.
+Later granular carbon content was added in 2 bags of metal mesh, one at 45 cm and the other 80 cm
+from the bottom, each with 180 gr of granular activated carbon at diﬀerent heights inside the reactor,
+to improve electron inter-species transfer according to Dang et al. [17]
+2.2.3. Coupling of the PBRMICRO-AERATION and UASB Reactors
+Three coupling experiments were carried out with the same control parameters, once the systems
+reach acclimatization, as shown in Figure 1c. The time in which the micro-aerated packed bed reactor
+(PBRMICRO-AERATION) reached maximum COD was used as a reference coupling with the UASB reactor.
+In each feed to the UASB, the volume of the hydrolytic eﬄuent was calculated in order to maintain an
+organic loading rate of 2 kg COD/m3 d. The UASB reactor was considered stable when it reached this
+organic loading rate, the ratio between bicarbonated alkalinity and total alkalinity (alpha index) was
+maintained in a range of 0.7–1; the ratio between alkalinity due to VFAs and total alkalinity (buﬀer
+index) between 0.2–0.4 [18], and the methane content in the higher biogas at 50%. Similarly, a variation
+lower than 10% for these criteria was established during ﬁve consecutive days [19]. The experiments
+were carried out until the leachate of both reactors had the same COD concentrations according to the
+report by Cirne et al. [20], they indicated the experiment had ﬁnished.
+2.3. Analytical Methods
+The produced volume of gas was measured by displacement of water [21,22], the percentage of
+methane (CH4) and carbon dioxide (CO2) in biogas were measured using a gas chromatograph (Clarus
+500-Perkin Elmer) equipped with thermal conductivity detector (TCD) and Elite-Molesieve packed
+column (30 m long, 0.53 mm internal diameter, and 0.25 µm ﬁlm thickness). Ultra high purity Nitrogen
+was used as carrier gas; the temperature program was 35, 50, and 200 ◦C for the injector, the furnace,
+and detector, in an isothermal run.
+
+
+[PDF page 5]
+Energies 2020, 13, 933
+5 of 19
+The pH was determined with a pH electrode Hach-HQ29, Oxidation-Reduction Potential (ORP)
+was determined by a redox potential sensor (Extech RE300, Nashua NH USA). Chemical oxygen
+demand (COD, HACH-Method 8000), total nitrogen (TN) (Total Kjeldahl Nitrogen TKN HACH-Method
+10072), total phosphorus (PO43−, HACH-Method 8119), total sulfate (SO42−HACH-Method 8051),
+and total organic carbon (TOC, HACH-Method 10129) were determined in a colorimeter (Hach
+DR1900). Total alkalinity and VFAs were measured by titration with 0.1 N sulfuric acid according to
+Purser et al. [23] and protein content was determined by multiplying the TKN by a factor of 6.25 [5].
+Humidity percentage, total solids (TS), and volatile solids (VS) in the substrate were determined
+according to the manual of standard methods [24]. Total carbon (TC) and nitrogen (N) were analyzed
+using a CHN elemental Thermo Scientiﬁc Flash 2000 CHNS/O Organic Elemental Analyzer; Thermo
+Scientiﬁc Flash 2000 Software: EAGER Xperience.
+2.4. Enzymatic Activity
+Carboxymethyl cellulase (CMCase) activity was monitored as reported by Zhu et al. [25], wherein
+one unit of enzyme activity was deﬁned as the amount of enzyme that releases 1 µg of glucose
+equivalent per min−1 [26]. This determination was made to evaluate the micro-aeration eﬀect on the
+enzymatic activity, to monitor the lignocellulosic biomass degradation [25] 0.5 mL of sample was used,
+with 1.5 mL of CMCase at 0.5% w/v diluted in citrate buﬀer and incubated at 50 ◦C for 30 minutes.
+After incubation 0.5 mL of sample was taken, 1.5 mL of 3.5-Dinitrosalicylic acid (DNS) was added,
+and boiled for 5 minutes in a water bath, which was allowed to cool down to room temperature and
+later read by a Jenway 6405 spectrophotometer at 550 nanometers. The evolution of the cellulase was
+monitored throughout all experiments.
+2.5. Statistical Analysis
+Physicochemical parameters were performed in duplicated and their results were expressed as
+mean ± standard deviation (SD) using the Statistica 9 software.
+3. Results
+3.1. OFMSW Characterization and Inoculum
+Table 1 shows the characterization and OFMSW percentages of components. Moisture content
+was 79.3 ± 0.7% and total solids 20.7 ± 0.7%, which 99.4 ± 0.0% corresponds to volatile solids from
+total solids (VS 209.6 g per kg OFMSW), thus, indicating the biodegradable organic matter content
+that can be transformed into biogas. Wang et al. [27] worked with food waste in anaerobic digestion
+obtained values of 24% TS and 23% VS, which were similar to those obtained in this work [27]. As for
+TS content in the OFMSW used in this work, more than 99% correspond to VS, therefore, it represents
+the organic components that can theoretically be oxidized forming methane, carbon dioxide, and water;
+thus, be used in biodegradation process.
+Table 1. Physical-chemical characteristics of OFMSW.
+Wang et al., 2014
+Foster Carneiro et al., 2015
+Dong et al., 2008
+Present Study
+Humidity %
+76
+81
+81.6
+79.3 ± 0.7
+Ph
+6.1
+7.9
+5.3
+6.9 ± 0.5
+TS %
+24
+19
+18.4
+20.7 ± 0.7
+FS %
+1
+8
+7
+0.1± 0.004
+VS %
+23
+11
+11.4
+20.5 ± 0.7
+VS/TS%
+96.2
+58
+61.9
+99.4 ± 0.0
+Total Phosphorus %
+−
+0.83
+0.2
+3.7 ± 0.5
+Protein %
+11
+26.89
+14.35
+12.3 ±. 3.1
+TKN %
+1.8
+4.31
+2.3
+1.9 ± 0.5
+TS; Total Solids, FS; Fixed Solids, VS; Volatile Solids, TKN; Total Kjeldahl Nitrogen.
+
+
+[PDF page 6]
+Energies 2020, 13, 933
+6 of 19
+OFMSW pH had an average of 6.9 ± 0.5, this value is similar to that reported by Forster-Carneiro
+et al. [28] (pH 7.5), but diﬀerent from that reported by Garcia-Peña et al. [29] (pH 4.2). This variation
+in pH may be due to the state of putrefaction or the state of maturity of the residues [29], as well
+as the proportion of fruits and vegetables, since they are easily degradable residues, they can favor
+the accumulation of VFAs and lower the pH, which leads to a deﬁcient anaerobic digestion in the
+methanogenic phase [3]. With respect to nutrients, the total amount of phosphorus in the OFMSW
+was 37 ± 0.5 g/kg, it is higher than that reported by Campuzano and González-Martínez [30],
+who performed an analysis at a global level found results of 13 g/kg phosphorus and Alibardi and
+Cossu [4], who obtained 4.8 g/kg in OFMSW. Therefore, it is not necessary to add nutrient during the
+process, because C/N ratio was 24.5 ± 5.5/1 within the optimal ratio (20/1–30/1) in anaerobic digestion [3].
+With respect to the pH measured in the diﬀerent preparations of the OFMSW, variations were found,
+including the same preparation (pH 6.4), these variations were due to the time during which it was
+stored. Although it was kept at low temperature, and the enzymatic activity was carried out at a lower
+speed; that it caused a decrease in pH, which was observed from the obtained the measurements.
+In addition, the stage in which the residues of fruits and vegetables are found at the time of collection,
+either in an advanced state of maturity or lack of development, it inﬂuences the pH value, therefor the
+acidic pH values correspond to the fermentation phase. Moreover, it is important to consider these
+variables for control process. Regarding the physicochemical characteristics of the inoculum we found
+4.62 ± 0.1% TS, 2.1 ± 0.1% VS, 1,652 mg/L alkalinity, and neutral pH, which indicates that it can supply
+buﬀer capacity in the process.
+3.2. PBR
+Figure 2a shows the COD and the enzymatic activity of CMCase in PBR control reactor. The organic
+matter solubilization started on the ﬁrst day of the experiment, as shown in Figure 2a, the initial
+COD value was 6375 mg/L. On day 4, this parameter was 10,800 mg/L and the highest value in the
+leachate was 11,800 mg/L reached on day 7. However, after day 12, the COD concentration decreased
+to 7000 mg/L, reaching 3500 mg/L on day 18, and maintaining this tendency to decrease until the
+end of the experiment. In a period of 18 days the COD decreased 6800 mg/L, which is a shorter
+time than reported by Dogan et al. [31], who reported a time of 40 days for COD reduction using
+OFMSW as substrate. These results indicated that COD maximum rate of solubilization takes place in
+the ﬁrst 10 days, as mentioned by Jiang et al. [32], who with food waste obtained a maximum COD
+concentration at 80 hours after the AD process had started. With respect to the CMCase enzymatic
+activity, from day 1 to 5, the concentration recorded was 2 µg/mL min. On day 6, the concentration
+increased to 3.18 µg/mL min on day 12, similar values were reported by Zhu, Li, Hao, He, and Shao [25],
+using vegetable wastes.
+Figure 2 Packed bed reactor control reactor or with micro-aereation (a) chemical oxygen demand
+and enzymatic activity, (b) volatile fatty acids and pH, (c) oxide-reduction potential.
+The enzymatic activity of CMCase has an important function in the degradation of the cellulose to
+carbohydrates, therefore inﬂuencing the eﬃciency of the hydrolytic phase. Carrying out a comparative
+analysis of the results obtained in the control and registered in the literature, the highest solubility of
+the organic matter measured as COD was observed 7 days after the start the test and reached stability
+on day 18. Therefore, the process had greater operational eﬃciency by reducing treatment time to
+18 days and costs would decrease. However, the enzymatic activity behaved similarly to that recorded
+by Zhu, Li, Hao, He, and Shao [25] with a slight increase on day 10 and decrease on day 17, therefore,
+cellulose degradation was very low.
+Figure 2b, shows VFAs and pH during the experiment. In this test, the initial concentration of
+VFAs was 91 mg/L, increasing from day 1 to 6 until reaching a maximum value of 2850 mg/L with a pH
+of 5.9 on day 6. Jiang et al. [32] mentioned that hydrolysis condition occurred in a range of 5 to 6 pH
+units. From day 7 to 15, the concentration of VFAs decreased to 600 mg/L, on day 20 a value of 300 mg/L
+with a pH of 7.7 caused by the decrease in VFAs, indicating that the reactor had changed to another
+
+
+[PDF page 7]
+Energies 2020, 13, 933
+7 of 19
+phase. However, the work done by Angelidaki et al. [33], using OFMSW, indicated that the highest
+concentration of VFAs was 3500 mg/L on day 28 by using DA in a single stage, which represented a
+time greater than the one required in this work to reach the highest concentration of VFAs.
+The eﬃciency of an anaerobic digestion process depends on pH control in all its phases, to allow
+microorganisms to perform their metabolic activities, otherwise, it can cause problems in these
+processes [34]. The pH has a direct relation with the VFAs. Throughout the ﬁrst 5 days of the
+experiment, a decrease in pH was observed in the hydrolytic reactor, caused by an increase in
+VFAs, reaching pH value of 5.7. This transformation was previously described by Cysneiros et
+al. [35], the decrease in pH is the result of the conversion of macromolecules from the substrate into
+acidic metabolites such as acetic, butyric, pyruvic, and capric, among others [36], when these acids
+transformed into acetate are consumed by methanogenic microorganisms. In this sense, an optimal
+pH control was not applied in the PBR to establish the ideal conditions as mentioned above. As for
+the pH results obtained in the test, no values below 5.5 were found, however, variations of 5.8 to
+7 pH were found in the ﬁrst 10 days. Therefore, the pH values and the concentration of recorded
+VFAs determined that it was the time in which the hydrolysis was carried out. Although the VFAs
+registered a maximum concentration of 2850 mg/L, which was lower than that of Angelidaki, Chen,
+Cui, Kaparaju, and Ellegaard [33] who obtained a concentration of 3500 mg/L in 28 days and Dogan et
+al. [31] who reported 3200 mg/L in 16 days, we considered that the test performed is more eﬃcient
+because the maximum concentration was reached at 6 days.
+As shown in Figure 2c, the ORP initially had a value of −60 mV and gradually decreased to
+−310 mV on day 5. Xu, Selvam, and W.C.Wong [5], performed ORP tests on diﬀerent times (days),
+described similar behavior and mentioned situations where the ORP gradually decreased to −120 mV.
+Similarly, Zhu, Li, Hao, He, and Shao [25], performed tests in which they measured the behavior of the
+ORP, describing variations in the ﬁrst 5 days; these authors also mentioned that the value of the ORP
+is function of pH. As shown in Figure 2c, the highest variation of the ORP occurred during the ﬁrst
+7 days. The ORP varies from −300 to −370 from day 6 to day 25. In a review of diﬀerent investigations,
+developed by Guang et al. [37], described the importance of the diﬀerent ORP intervals and their
+impact on gene expression, protein biosynthesis and control strategies for higher eﬃcient production
+of by-products of interest. Zhu, Li, Hao, He, and Shao [25], performed a recirculation of the leachate
+from the methanogenic reactor every 5 days, indicated that the ORP values vary periodically thus,
+its tendency and eﬀect during the tests cannot be predicted.
+
+
+[PDF page 8]
+Energies 2020, 13, 933
+8 of 19
+ 
+Figure 2.
+Packed bed reactor control reactor or with micro-aereation (a) chemical oxygen
+demand and enzymatic activity, (b) volatile fatty acids and pH, (c) oxide-reduction potential.
+*Carboxymethyl cellulose.
+3.3. PBRMICRO-AERATION
+As shown Figure 2a, the system started with a COD of 6000 mg/L. During the ﬁrst 5 days,
+it increased to a maximum value of 25,600 mg/L, which represents an increase of more than 100%
+compared to the PBR control.
+Afterwards, the COD decreased to 21,850 mg/L on day 10, from day 11 to day 22 decreased to
+8550 mg/L, until reaching 5350 mg/L COD on day 25. This increase in COD was attributed to the
+presence of supplied oxygen, which favored the development of facultative microorganisms resulting
+in an increase in the secretion of external enzymes by bacteria under microaerobic conditions [25].
+These secreted external enzymes increased the solubilization of the solid particles of the substrate
+resulting in an increase in the rate of hydrolysis of organic matter, which was noticeably higher
+compared to the control PBR reactor. The increase in COD was caused by the solubilization of the
+solid particles from the substrate, resulting in an increase in the rate of hydrolysis of organic matter [5].
+These results indicated that hydrolysis occurred through the ﬁrst days (5 days), as was mentioned by
+
+
+[PDF page 9]
+Energies 2020, 13, 933
+9 of 19
+Xu, Selvam, and W.C.Wong [5], who found values of 61.3 g/L of COD in the second and third days
+using a micro-aeration rate of 258 L-air/kg-TS-day. However, in their tests they used 1 kg of substrate
+with a TS content of 38%, VS of 97.1%, and 0.2 kg of wood chips, which represents a greater amount of
+organic matter and lignocellulosic waste, therefore a higher COD concentration.
+The hydrolytic eﬃciency in the reactor was correlated with changes in CMCase activity in the
+OFMSW, which reﬂects the coordination mechanism of multiple enzymes produced by microorganisms
+that degrade complex lignocellulosic matter. Thus, with micro-aeration the enzymatic activity increases,
+as shown in Figure 2a, the exponential increase in CMCase enzyme activity was observed from day
+3, reaching a maximum value of 17.5 µg/mL per min on day 10. However, a decrease was observed
+on day 11, where the concentration decreased to 13 µg/mL min, and on day 20 declined to 2.7 µg/mL
+min. During the micro-aeration, the increase in enzymatic activity indicated a higher concentration of
+CMCase in the hydrolysis of cellulose contained in vegetable waste compared with the PBR control
+reactor. The enzymatic activity lasted until day 15, further favoring the solubilization of the more
+complex solid particles contained in the substrate, which manifested itself as an inability to realize
+your metabolic needs under certain environmental conditions. Similar behavior was described by
+Zhu, Li, Hao, He, and Shao [25], who observed an increase in the enzymatic activity of CMCase with
+micro-aeration on day 5. This conﬁrms that facultative microorganisms found favorable conditions to
+secrete enzymes that degrade complex materials. Similar results were reported by Charles et al. [38],
+they used micro-aeration as pretreatment, achieving an increase in the enzymatic activity of cellulase
+during the ﬁrst 5 days. These values indicated that the micro-aeration applied to the hydrolysis in
+the PBR had a positive eﬀect on the enzymatic activity of the cellulase, causing greater degradation
+of the macromolecules and reﬂecting an increase in COD in the ﬁrst 5 days. Therefore, this enzyme
+is highly speciﬁc for depolymerize cellulose into glucose and other monosaccharides [39]. Lynd et
+al. [40] described the mechanism of action of the enzyme cellulase and mention that to break the β-1,
+4 glycoside bonds of cellulose, requires acid hydrolysis using a proton donor and a nucleophile or
+one base. Likewise, Dollhofer et al. [41] describes that anaerobic microorganisms lack the enzymatic
+capacity to catabolize lignin, for this reason, the presence of oxygen favors the reaction to break aromatic
+rings of the cellulose, which does not occur in a completely oxygen free environment. This study
+demonstrated that when comparing the results obtained in the PBRMICRO-AERATION, a greater enzymatic
+activity is observed in comparison with the PBR control. In the PBRMICRO-AERATION, the conditions
+were given for cellulose to have a higher degradation (acidic and medium), which was favored by
+the addition of oxygen in the process. As can be seen in Figure 2a, there is greater activity on days
+9–11, comparing this behavior with what by Zhang and Lynd [42] describe, they mention that cellulose
+hydrolysis is carried out slowly and in a longer time. Therefore, we consider that the behavior of the
+CMCase in PBRMICRO-AERATION was likely due to the mechanism by which the reactions are carried out.
+At the beginning of the test, the endogluconase star being into contact with lignocellulosic materials
+to initially break the cellulose chains, releasing oligosaccharides. Subsequently, the exo-gluconase
+enzyme attacks the ends of the chains releasing cellobiose and ﬁnally the enzyme β-glucosidase reacts
+with the cellobiose to form glucose. Due to the link structure of the lignocellulosic biomass, these
+transformations are carried out in an enhanced manner, therefore, the hydrolysis phase time increases,
+making it more eﬃcient.
+Figure 2b shows the VFAs concentration and pH values during the experiment. The initial VFAs
+concentration on day zero was 516 mg/L, subsequently on days 2 and 3 an increase was recorded
+continuously until day 5, wherein the maximum VFAs value of 8800 mg/L was recorded. This increase
+was due to the transformation of macromolecules to reducing sugars and these to VFAs, which
+caused the pH decrease to 5.4 [29]. The VFAs concentration applying micro-aeration was higher
+compared to other studies. Agdag and Sponza [43] obtained a VFAs production of 6000 mg/L by
+using OFMS as substrate, similarly, Sarkar and Mohan [36] obtained maximum values of VFAs of
+5087 mg/L by applying micro-aeration at the OFMSW. In this work, the VFAs production was greater
+than the PBR control reactor by 300%, which is evidence that micro-aeration favored hydrolysis and
+
+
+[PDF page 10]
+Energies 2020, 13, 933
+10 of 19
+the production of organic acids during the ﬁrst 5 days and on day 10, the concentration decreased to
+7100 mg/L. After this time, on day 25 the VFAs decreased reaching similar value to the initial one of
+1500 mg/L. The micro-aeration was applied for 25 days in the reactor. On the other hand, although the
+energy consumption is low, it could be further optimized using the micro-aeration for a shorter time.
+The maximum concentration of VFAs was found during the ﬁrst 5 days and the enzymatic activity
+lasted until 10 days after the start of the test in the micro-aerated reactors. Therefore, the micro-aeration
+can be improved, reducing the operating time in the hydrolytic reactor, using micro-aeration only in
+the ﬁrst 15 days, and in turn, saving energy [5].
+As shown in Figure 2b, the pH had an inverse relationship with VFAs. At the beginning, the pH
+value was 6.11, on days 2 and 3 values of 5.61 and 5.4 were recorded. This decrease in pH is caused
+by conversion of macromolecules into VFAs, which when transformed into acetate and consumed
+by the methanogens, it leads to an increase in pH. During the biodegradation of the waste, the pH
+showed variations, on day 10 the pH was 5.88, which showed that PBRMICRO-AERATION was still in the
+hydrolysis stage. On day 12, there was slight increase reaching a pH value 6, maintaining this trend
+until reaching 6.5 on day 18, and on day 25, the pH increased to 7.06. Xu et al. [44], who reported similar
+behavior with food waste, found a pH decrease of up to 4 on day 5 and 6 caused by the accumulation
+of VFAs when the experiment began and then an increase to 6 on day 8. Likewise Cysneiros, J.Banks,
+Heaven, and G.Karatzas [35], who studied the hydraulic ﬂow eﬀect and pH control on the VFAs
+production and described pH drops up to 4, therefore, it was necessary to add a buﬀer solution.
+In this case, we had pH conditions inside the reactor for hydrolysis to take place, therefore, no reagent
+was added.
+The ORP values are observed in Figure 2c. At the beginning of the experiment, on day 0, the ORP
+had a value of −25 mV, but on the ﬁrst day, the ORP decreased to −185 mV, and from day 2 to day 9,
+the ORP varies from −167 to −215 mV, and ﬁnally decreased to −352 mV on day 20. At the beginning
+the ORP decreases; this was attributed to the production of metabolite such as hydrogen, lactate, VFAs
+among others, as mentioned by Nguyen and Khanal [6] and Liu et al. [45], who mentioned that during
+the hydrophilic phase, reduced compounds are generated promoting the decrease in ORP to negative
+values of up to −420 mV. On the other hand, the addition of oxygen due to micro-aeration in the AD
+system modiﬁed ORP values (reduction in reducing power) due to oxygen consumption by reducing
+metabolites, as mentioned by Xu, Selvam, and W.C.Wong [5].
+In addition, changes in redox potential caused changes in the nutrition and physiology of
+microorganisms, which in turn inﬂuences the redox state of essential nutrients such as phosphorus
+and nitrogen facilitating their absorption by microorganisms. In this test, the addition of air results in
+an increase of ORP (decrease in reducing power) due to oxygen consumption by reducing metabolites,
+in addition, the micro-aeration rate of 254 L-air/kg-TS-day maintained a range of −150 to −215 mV
+inside the PBRMICRO-AERATION, this range is considered suitable for hydrolytic microorganisms [9].
+At this ORP range, microorganisms such as ﬁrmicutes, proteobacteria, and bacteriodes were developed,
+ﬁnding the conditions to perform their metabolic activities, thus we assume that they found the
+conditions in the environment required for their development. Therefore, the production of VFAs
+was improved, which was veriﬁed with the PBR control by obtaining a higher yield in the ﬁrst 5 days
+without the addition of chemical reagent to regulate the pH or that inhibits methanogenic activity.
+The range of −150 to −215 mV is considered within a microaerobic zone [6], where degradation of the
+substrate is promoted and transformed into by-products such as volatile fatty acids, among others.
+3.4. UASB (Acclimatization)
+UASB reactor acclimatization was done by adding a mixture of 50% inoculum and 50% synthetic
+wastewater in volume (ratio 1:1), see Figure 3. VFAs, total alkalinity (data not shown), and pH
+measurements were carried out to verify the behavior of the alpha and buﬀer indexes, as described by
+Martín-González, Font, and Vicent [18], these authors mentioned the importance of alkalinity when
+the VFAs overcome bicarbonated, the system undergoes pH drops, therefore methane production
+
+
+[PDF page 11]
+Energies 2020, 13, 933
+11 of 19
+decreases. On the other hand, Jun et al. [46] mentioned that alkalinity is necessary to maintain a pH
+range of 6.8–7.2 at OFMSW, which is the range where the biological activity of methanogenic bacteria
+is carried out and the lack of bicarbonate alkalinity allows VFAs accumulation, as well as a decrease in
+methane production.
+Figure 3. Upﬂow anaerobic sludge blanket acclimatization: (a) organic loading rate and chemical
+oxygen demand removal, (b) alpha and buﬀer indices, (c) volatile fatty acids and pH.
+The acclimatization phase allowed to establish the organic loading rate in the reactor, which
+was gradually increased from 0.5, 1, 1.5, 2, 3, 4, and 6 as kg COD/m3 d until the reactor collapsed.
+Ahring [47], mentioned that substrates with moderate concentrations of TS (12%), require using
+organic load rates of less than 5 kg COD/m3d in order to avoid imbalances in the process. In our
+study, the TS concentration in the OFMSW was 20.7 ± 0.7%, therefore, was necessary to determine
+the operational load of the UASB considering the characteristics of the substrate. The COD removal
+results are shown in Figure 3a. In the beginning, a 0.5 kg COD/m3d load was established with rising
+removal up to 60%, later, it was increased to 1.5 kg COD/m3d, remained for 20 days with a removal of
+70% to 80%. Therefore, loading organic rate continued to increase in the UASB reactor until it reached
+6 kg COD/m3d, where remained for 25 days more, with variable removals until ﬁnally collapsing on
+day 125.
+From day 1 to day 80 of the start of the test, the alpha index showed variations in a range of 0.8 to
+0.97, and buﬀer index of 0.05 to 0.2. During this time, the UASB presented an imbalance, the alpha
+index decreased to 0.3, the buﬀer index increased to 0.7 (Figure 3b), and the methane in the biogas
+registered a decrease of up to 30%. In order to stabilize the process, on day 125 the organic load was
+reduced to 4.5 kg COD/m3d during 40 days, subsequently it was reduced to 3 kg COD/m3d for a period
+of 40 days without the reactor reaching stability. Gao et al. [48], who used OFMSW as a substrate,
+evaluated the eﬀect of the increased organic load, described that greater than 2.5 gVS/Ld (equivalent to
+COD 3 g/Ld) causes VFA accumulation and generates an imbalance between the acidogenesis and
+methanogenesis phases in microbial community. From day 1 to 80, the amount of VFAs was maintained
+at 200 mg/L (Figure 3c); the COD removal was greater than 50% and the methane in the biogas was
+70%. On day 104, the organic load was increased to 6 kg COD/m3d and maintained until day 124.
+During the 20 days when the organic load was maintained at 6 kg COD/m3d, the reactor presented
+instability, showed a decrease in pH and accumulation of VFAs. Therefore, inhibition of methanogenic
+microorganisms caused an increase in VFAs concentration to 13,000 mg/L (Figure 3c).
+
+
+[PDF page 12]
+Energies 2020, 13, 933
+12 of 19
+Figure 3. Upﬂow anaerobic sludge blanket acclimatization: (a) organic loading rate and chemical
+oxygen demand removal, (b) alpha and buﬀer indices, (c) volatile fatty acids and pH.
+To correct the accumulation of VFAs, decrease in pH and decrease in the percentage of methane in
+biogas, on day 200 the organic loading rate was reduced to 2 kg COD/m3d. Two stainless steel mesh
+bags with granular activated carbon were placed inside the reactor [49]. Dang et al. [17], who studied
+the DIET using diﬀerent types of carbon in OFMSW to improve the methanogenic phase, in their
+studies have revealed the enrichment of microorganisms such as Sporanaerobacter and Methanosarcin
+present on the carbon surface. These results and the known ability of Sporanaerobacter species to
+transfer electrons suggest that they can participate in direct electronic transfer between species with
+methanesarcin, when an inorganic conductor is used as an electron transfer mediator. Therefore, the use
+of GAC inside the UASB reactor favors recovery and stability in a shorter time when existing VFA
+accumulates. In addition, the use of DIET between species increased the amount of methane in the
+biogas and decreased the VFAs concentration.
+After making these modiﬁcations, the total alkalinity was determined, and it was observed that
+the alpha and buﬀer indexes returned to the values within the operating range (alpha 0.7–0.9 and buﬀer
+0.2–0.4). After the coal addition in the reactor, the stabilization time required was 13 days, from day 200,
+the UASB reactor reached balance with 2 kg COD/m3 d organic loading rate, and reaching a removal up
+
+
+[PDF page 13]
+Energies 2020, 13, 933
+13 of 19
+to 70% removal, an ascending ﬂow velocity of 0.5 m/h, taking as reference Latif et al. [15]. In addition,
+the biomass was prevented from reaching the top of the reactor and is favorable for the development
+of mesophilic granules. The alpha index had an average of 0.9, buﬀer index 0.2, COD removal more
+than 50%, and VFA less than 2000 mg/L, therefore, we considered that the microorganisms adapted to
+medium characteristics, thus achieving the start and stabilization of the UASB again.
+During the time in which the reactor presented acid-base imbalance due to the increase in the
+organic loading rate, washing of the biomass was observed in bulky granules. This condition negatively
+aﬀected the retention of sludge inside the reactor. Several authors, Ahring [47], indicated that for
+substrates with high TS concentrations (greater than 12%), and Parawira et al. [50], the maximum
+organic load that a UASB reactor supported was 6 kg COD/m3d. In order to make methanogenic
+activity more eﬃcient, DIET was used in the UASB, therefore, we consider that mutual interaction
+(syntrophic) between hydrolytic bacteria and methanogenic archaea was favored, and the conversion
+of reduced organic compounds from short chain to methane was accelerated. The addition of a
+no-biological conductive material such as GAC favored electron transfer. The GAC apart from serving
+as a support for the microorganisms had the capacity to absorb toxic compounds and increase the pH;
+therefore, it favored the conditions of the medium and increased methanogenic activity [12].
+3.5. Coupling Reactors (PBRMICRO-AERATION and UASBDIET)
+Coupling reactors operations were determined by maximum COD concentration, and an amount
+of VFAs t in the micro-aerated packed bed reactor (PBRMICRO-AERATION). The coupling experiment
+ended at 14 days when both reactors obtained similar results for COD, VFAs, and pH, as mentioned by
+Cirne et al. [20], in which they used energy crops as raw material in a two-phase system; they described
+that the coupling time of both reactors ends when their leachates register similar values.
+Figure 4 illustrates the proﬁles of the parameters determined to evaluate the behavior of the
+system. In Figure 4a, COD behavior is observed in the PBRMICRO-AERATION; on day 5 its maximum
+concentration of 24,750 mg/L was found, therefore, we decided to couple the reactors at that time,
+due to the evidence recorded in previous tests, where the maximum concentration of COD was
+found at this time. To determine the amount of leachate from the PBRMICRO-AERATION to feed the
+UASB per day, the useful volume of the methanogenic reactor and the organic load per day were
+considered as the total mass to be added. This mass was divided by the COD concentration of the
+PBRMICRO-AERATION leachate expressed in g/L, resulting in the amount to be dosed in liters per day.
+In order to maintain a constant organic load rate (2 kg COD/m3d) in the UASB and due to COD
+variations in the PBRMICRO-AERATION, each feeding requires its own calculation. The record of the
+maximum COD concentration on day 5 was observed in other works, as reported by Xu et al. [5], with
+OFMSW, where they described that the highest organic matter solubilization occurred in the ﬁrst 5 days
+in a PBRMICRO-AERATION. In the same way, Stabnikova et al. [51] using OFMSW also obtained COD
+concentrations close to 18,000 mg/L over a period of time of 6 days. However, these authors mentioned
+the use of greater amounts of substrate, in order to avoid acid stress and increase the solubility of
+organic matter; moreover, they described the addition of basic chemicals to the acidogenic reactor
+and the replacement of a proportion of hydrolytic leachates with methanogenic eﬄuents. In our test,
+no means were used to regulate the pH, the experiments were carried out according to the surrounding
+conditions and in 5 days the highest COD concentrations were recorded in the PBRMICRO-AERATION.
+In consequence, the solubilization of the OFMSW is more eﬃcient. Subsequently, on day 13 there was
+a COD decrease of up to 5500 mg/L, where it remained unchanged until the end of the experiment.
+This decrease was due to consumption of VFAs by methanogenic microorganisms for the generation of
+biogas in UASB reactor.
+
+
+[PDF page 14]
+Energies 2020, 13, 933
+14 of 19
+Figure 4. Coupling reactors with 2 kg COD/m3d of organic load rate: packed bed reactor with
+micro-aereation and upﬂow anaerobic sludge blanket with direct interspecies electrons transfer.
+(a) chemical oxygen demand, (b) partial alkalinity, (c) pH, (d) volatile fatty acids and (e) mL of methane
+and percentage of methane.
+In Figure 4b, the behavior of bicarbonate alkalinity before and after the coupling reactors is
+illustrated. In the PBRMICRO-AERATION reactor, it shows an initial concentration of 716 mgCaCO3/L,
+later in the following days, a decrease was shown until a zero, caused by the VFAs formation in
+the ﬁrst 5 days, since bicarbonate alkalinity consumption caused a decrease in pH before coupling.
+These results were similar to those reported by Martín-González, Font, and Vicent [18], in OFMSW,
+who conducted an analysis of the imbalance that occurs in the reactors due to the VFAs accumulation
+and mention that this process occurs when bicarbonate alkalinity is consumed by the acidity generated
+within the system and produced a decrease in pH. In the same way, Li et al. [52] carried out an analysis
+with diﬀerent control parameters to monitor failures in an AD process in OFMSW. They mention the
+importance of total alkalinity control, the bicarbonate alkalinity, and total alkalinity (AP/AT) ratio,
+
+
+[PDF page 15]
+Energies 2020, 13, 933
+15 of 19
+which is an early warning parameter on the equilibrium of the buﬀer capacity of the system, and even
+reﬂects the metabolism of the AD system [18].
+After coupling reactors, the PBRMICRO-AERATION recorded an increase in the bicarbonate alkalinity
+concentration until reaching a maximum average value of 15,475 mg CaCO3/L. On day 13, and reaching
+16,600 mg CaCO3/L on day 14, with a concentration similar of the UASB reactor at that time.
+This alkalinity increases within PBRMICRO-AERATION due to the exchange of leachate between both
+reactors as mentioned by España-Gamboa et al. [22], who described that the recirculation eﬄuent from
+a methanogenic reactor in a two-phase process increases the alkalinity in the acidogenic reactor.
+Figure 4c shows the pH behavior over time within PBRMICRO-AERATION–UASBDIET reactors, at the
+beginning of the experiment, the hydrogen potential decreased in the ﬁrst 4 days to 5.03. This value
+was within the range in which hydrolysis is properly performed, similar results were obtained by
+Wang et al. [27] in their work carried out with OFMSW using diﬀerent inoculum types. They evaluated
+the pH eﬀect and the production of VFAs, their results indicated that the range of the highest acidity
+concentrations was reached at pH of 5 to 6, in a time of 20 days. In the same way, Jiang et al. [32],
+evaluated the pH eﬀect on OFMSW, they described that the higher VFAs productions was reached at
+pH 6. After coupling reactors, the pH increase was gradually rising to 8.12 on 12 days; this increase
+was due to the leachate recirculation from PBRMICRO-AERATION to UASB reactor, and from the UASB
+to the hydrolytic reactor, because eﬄuent from UASB reactor contained high bicarbonate alkalinity,
+with an average of 18,000 mg CaCO3/L. Therefore, a high buﬀer capacity caused an increase in pH
+due to the neutralization by VFAs, as mentioned by Xu, Selvam, and W.C.Wong [5], who worked with
+kitchen waste and which they mentioned that the bicarbonate alkalinity is consumed by the acidity.
+Therefore, when you have the alkalinity concentration required to neutralize the VFAs, it acts as a
+buﬀer solution, therefore, the system does not show imbalance and the concentration did not increase.
+Eﬄuent from UASB reactor remained pH constant, with a maximum value of 8.2, which reﬂects the
+buﬀer capacity despite the concentration of VFAs in the leachate from PBRMICRO-AERATE. After 11 days
+similar pH values (8.05) were reached in both reactors, and in the next 2 days, the variations decreased.
+Figure 4d shows the behavior of VFAs over time. At the beginning of the experiment, VFAs concentration
+was 85.13 mg/L, and on day 5, the PBRMICRO-AERATION reached a maximum concentration of 7146 mg/L
+indicating that it was the optimal time to couple both reactors. After coupling of both reactors,
+a reduction in the VFAs concentration was observed, mainly in the PBRMICRO-AERATION, see Figure 4d;
+and reached minimum values of 350 mg/L on day 14, which is a lower time than that described by
+Michele et al. [53]. In their work with OFMSW, they required more than 20 days to consume the
+VFAs and stabilize the waste. As observed in Figure 4d, the high VFAs concentration coming from
+the PBRMICRO-AERATION reactor did not cause any troubles to UASB reactor and maintained similar
+concentrations from day 1 to 14. This stability presented by UASB reactor was due to acclimatization
+during the start-up and in which the microorganisms were adapted to the process conditions.
+In Figure 4e the methane production proﬁle of the UASB is shown before and after coupling.
+The generation was 4520 mL/d on average, with a percentage of methane in the biogas of 90% and
+a constant organic loading rate of 2 kg of COD/m3d. This same load rate was maintained during
+the time of the experiment.
+After the coupling of PBRMICRO-AERATION-UASB reactors, methane
+generation decreased continuously from day 5 until day 13, with a minimum volume of 800 mL per day.
+Despite the concentration of 5500 mg/L of COD recorded in the PBRMICRO-AERATION, this result is due
+to residues of recalcitrant materials such as; seed particles, fruit or vegetable husks, and lignocellulosic
+materials found in the OFMSW, which were not readily biodegradable, therefore, did not favor
+methane production. In a review by Li et al. [54], where diﬀerent treatments and substrates were used,
+they mentioned that wastes with high solid concentrations require pre-treatment to increase their
+biodegradation and transformation into methane. In the same way, Shahriari et al. [55], who worked
+with FORSU, used diﬀerent percentages of leachate recirculation in BMP tests. They describe how the
+high COD concentration in the leachate is due to the accumulation of recalcitrant or less biodegradable
+material, therefore, inﬂuences the production of methane, however, they only described accumulation
+
+
+[PDF page 16]
+Energies 2020, 13, 933
+16 of 19
+of biogas production up to 550 mL in 14 days. Due to the similarity in the concentrations of the VFAs,
+COD, bicarbonate alkalinity, and pH in both reactors on day 14, they were disconnected. After the
+biodegradation process, the hydrolytic reactors were emptied and the amount of TS and VS were
+determined, reporting the removal results of TS and VS 67.5 ± 4 and 69.4 ± 3. Forster-Carneiro, Pérez,
+and Romero [28], who used OFMSW substrate, reported a reduction of TS of 34.7% and VS of 44.2% in
+a time of 60 days, in the same way, Fantozzi and Buratti [56], who also worked with OFMSW, registered
+a VS reduction of 55% in a time of 39 days. Therefore, we consider that in our study the removal
+eﬃciency was more eﬃcient.
+The methane yield after coupling was 400.2 LCH4/kgVS removed, and with a biogas methane
+content of up to 90%. Forster-Carneiro, Pérez, and Romero [28], who conducted ss in one phase tests
+using OFMSW as substrate, recorded yields of 0.18 LCH4/gVS, Similarly Angelidaki et al. [33],
+those who worked with OFMSW in a phase of an AD process reported a methane yield of
+320 LCH4/kgVS. In another work using OFMSW in a single phase conducted by Nguyen et al. [57],
+they reported a methane yield of 260 LCH4/kg VS. According to these comparisons, the methane yield
+of 400.2 LCH4/kgVS removed that was obtained in 2 phases was higher compared to a single phase
+and the OFMSW degradation through the AD system in two phases is more eﬃcient than that of
+one phase. Finally, as shown in Figure 4, the behavior of pH, acid-base balance, the concentration of
+VFAs in values below 1500 mg/L and the percentage of methane in the biogas in a range of 80 to 90%.
+The application of DIET in the methanogenic phase helped to reestablish the UASB after intoxication,
+in this sense, during the coupling in the PBRMICRO-AERATION balance was reached, without aﬀecting
+the consumption of the VFAs present in the hydrolytic reactor.
+4. Conclusions
+The application of micro-aeration and GAC in a two-phase anaerobic digestion process
+PBRMICRO-AERATION and UASB can be an alternative to be used in the biodegradation of substrates
+with high concentrations of solids, such as OFMSW. In addition, solubilization of organic matter is
+favored and it reduces the stabilization time of the UASB reactors when methanogenic microorganisms
+suﬀer from VFAs accumulation poisoning. The micro-aeration (254 L-air/kg-TS-day) increased the
+hydrolysis rate, which was favored by the development of facultative microorganisms, reﬂecting in the
+increase of the enzymatic activity since the concentration of CMCase was 3 times higher compared to
+the control reactor. Therefore, in the PBRMICRO-AERATION, the COD concentration was 200% higher
+compared to the control and the formation of VFAs was greater than 250% due to solubilization of
+the organic matter in the leachate, which caused a reduction in the time of coupling with the UASB.
+The application of GAC (DIET process) to the methanogenic phase favored the activity of methanogenic
+microorganisms by increasing the production of biogas by 10% with a methane content of up to 90%,
+in addition, the methane yield was 400.2 ± 57 LCH4/ kgVS, which is higher compared to the reported
+literature and with a TS reduction of 67.5 ± 4%, thus, the stabilization time of the OFMSW was around
+12 days.
+Author Contributions: All authors contributed equally to all the sections of this work. Writing—original draft
+preparation. Conceptualization and writing—review and editing, F.C.B., E.E.G., and L.A.-G.; methodology, J.E.R.E.
+and R.M.L.-B.; supervision, R.T.T., J.D.M., and B.C.C. All authors have read and agreed to the published version of
+the manuscript.
+Funding: The research received no external funding.
+Conﬂicts of Interest: The authors declare that they have no conﬂict of interest.
+
+
+[PDF page 17]
+Energies 2020, 13, 933
+17 of 19
+Abbreviations
+OFMSW
+Organic Fraction Municipal Solid Waste
+AD
+Anaerobic digestion
+GAC
+Granular activated carbon
+DIET
+Direct interspecies electrons transfer
+PBR
+Packed Bed Reactor
+UASB
+Upﬂow anaerobic Sludge Blanket
+COD
+Chemical Oxygen Demand
+VS
+Volatile Solids
+TS
+Total Solids
+References
+1.
+Hoornweg, D.; Bhada-Tata, P. Waste generation. In What a Waste. A Global Review of Solid Waste Management;
+Urban Development Series; World Bank: Washington, DC, USA, 2012; pp. 1–5.
+2.
+SEMARNAT.
+Informe
+de
+la
+Situación
+del
+Medio
+Ambiente
+en
+México.
+2015,
+pp.
+1–498.
+Available online: https://apps1.semarnat.gob.mx:8443/dgeia/informe15/tema/pdf/Informe15_completo.pdf
+(accessed on 19 February 2020).
+3.
+Siddharth, J.; Shivani, J.; Wolf, T.; Lee, J.; Wah-Tong, Y. A comprehensive review on operating parameters
+and diﬀerent pretreatment methodologies for anaerobic digestion of municipal solid waste. Renew. Sustain.
+Energy Rev. 2015, 52, 142–154.
+4.
+Alibardi, L.; Cossu, R. Composition Variability of The Organic Fraction of Municipal Solid Waste and Eﬀects
+on Hydrogen and Methane Production Potentials. Waste Manag. 2015, 36, 147–155. [CrossRef] [PubMed]
+5.
+Xu, S.; Selvam, A.; Wong, J.W.C. Optimization of micro-aeration intensity in acidogenic reactor of a two-phase
+anaerobic digester treating food waste. Waste Manag. 2014, 34, 363–369. [CrossRef] [PubMed]
+6.
+Nguyen, D.; Khanal, S.K. A little breath of fresh air into an anaerobic system: How microaeration facilitates
+anaerobic digestion process. Biotech. Advan. 2018, 36, 1971–1983. [CrossRef] [PubMed]
+7.
+Lim, J.W.; Jing-Yuan, W. Enhanced hydrolysis and methane yield by applying microaeration pretreatment to
+the anaerobic co-digestion of brown water and food waste. Waste Manag. 2013, 33, 813–819. [CrossRef]
+8.
+Jensen, T.R.; Milone, T.L.; Petersen, G.; Andersen, H.R. Accelerated anaerobic hydrolysis rates under a
+combination of intermittent aeration and anaerobic conditions. Water Sci. Technol. 2017, 75, 1944–1951.
+[CrossRef]
+9.
+Yin, J.; Yu, X.; Zhang, Y.; Shen, D.; Wang, M.; Long, Y.; Chen, T. Enhancement of acidogenic fermentation for
+volatile fatty acid production from food waste: Eﬀect of redox potential and inoculum. Bioresour. Technol.
+2016, 216, 996–1003. [CrossRef]
+10.
+Barua, S.; Dhar, B.R. Advances towards understanding and engineering direct interspecies electron transfer
+in anaerobic digestion. Bioresour. Technol. 2017, 244, 698–707. [CrossRef]
+11.
+Stams, A.J.M.; Plugge, C.M. Electron transfer in syntrophic communities of anaerobic bacteria and archaea.
+Nat. Rev. Microbiol. 2009, 7, 568–577. [CrossRef]
+12.
+Valero, D.; Alzate-Gaviria, L.; Montes, J.A.; Rico, C. Inﬂuence of a Conductive Material and Diﬀerent
+Anaerobic Inocula| on Biochemical Methane Potential of Substrates from Alcoholic Beverage Production.
+Waste Biomass Valori. 2019. [CrossRef]
+13.
+Zhang, R.; El-Mashad, H.M.; Hartman, K.; Wang, F.; Liu, G.; Choate, C.; Gamble, P. Characterization of food
+waste as feedstock for anaerobic digestion. Bioresour. Technol. 2007, 98, 929–935. [CrossRef] [PubMed]
+14.
+Poggi-Varaldo,
+H.M.;
+Alzate-Gaviria,
+L.M.;
+Pérez-Hernández,
+A.;
+Nevarez-Morillón,
+V.G.;
+Rinderknecht-Seijas, N. A side-by-side comparison of two systems of sequencing coupled reactors for
+anaerobic digestion of the organic fraction of municipal solid waste. Waste Manag. Resear. 2005, 23, 270–280.
+[CrossRef] [PubMed]
+15.
+Latif, M.A.; Ghufran, R.; Wahid, Z.A.; Ahmad, A. Integrated application of upﬂow anaerobic sludge blanket
+reactor for the treatment of wastewaters. Water Res. 2011, 45, 4683–4699. [CrossRef] [PubMed]
+16.
+Milquez-Sanabria, H.; Blanco-Cocom, L.; Alzate-Gaviria, L. A fast linear predictive adaptive model of packed
+bed coupled with UASB reactor treating onion waste to produce biofuel. Microb. Cell Fact. 2016, 15, 167.
+[CrossRef] [PubMed]
+
+
+[PDF page 18]
+Energies 2020, 13, 933
+18 of 19
+17.
+Dang, Y.; Holmes, D.E.; Zhao, Z.; Woodard, T.L.; Zhang, Y.; Sun, D.; Li-Ying, W.; Nevin, K.P.; Lovley, D.R.
+Enhancing anaerobic digestion of complex organic waste with carbon-based conductive materials.
+Bioresour. Technol. 2016, 220, 516–522. [CrossRef]
+18.
+Martín-González, L.; Font, X.; Vicent, T. Alkalinity ratios to identify process imbalances in anaerobic digesters
+treating source-sorted organic fraction of municipal wastes. Biochem. Eng. J. 2013, 76, 1–5. [CrossRef]
+19.
+Azbar, N.; Ursillo, P.; Speece, R.E. Eﬀect of Process Conﬁguration and Substrate Complexity on The
+Performance of Anaerobic Processes. Water Res. 2000, 35, 817–829.
+20.
+Cirne, D.G.; Lehtoma, A.; Bjornsson, L.; Blackall, L.L. Hydrolysis and microbial community analyses in
+two-stage anaerobic digestion of energy crops. J. Appl. Microbiol. 2007, 103, 516–527. [CrossRef]
+21.
+Pezzolla, D.; Maria, F.D.; Zadra, C.; Massaccesi, L.; Sordi, A.; Gigliotti, G. Optimization of solid-state
+anaerobic digestion through the percolate recirculation. Biomass Bioener. 2017, 96, 112–118. [CrossRef]
+22.
+España-Gamboa, E.; Domínguez-Maldonado, J.A.; Tapia-Tussell, R.; Chale-Canul, J.S.; Alzate-Gaviria, L.
+Corn industrial wastewater (nejayote): A promising substrate in Mexico for methane production in a coupled
+system (APCR-UASB). Environ. Sci. Pollut. Res. 2018, 25, 712–722. [CrossRef]
+23.
+Purser, B.J.J.; Thai, S.M.; Fritz, T.; Esteves, S.R.; Dindale, R.M.; Guwy, A.J. An improved titration model
+reducing over estimation of total volatile fatty acids in anaerobic digestion of energy crop, animal slurry and
+food waste. Water Res. 2014, 61, 62–70.
+24.
+APHA. Standard Methods for the Examination of Water Wastewater, 21st ed.; APHA: Washington, DC, USA, 2005.
+25.
+Zhu, M.; Li, F.L.; Hao, P.; He, P.J.; Shao, L.M. Regulating the hydrolysis of organic wastes by micro-aeration
+and eﬄuent recirculation. Waste Manag. 2009, 29, 2042–2050. [CrossRef] [PubMed]
+26.
+Zhang, B.; Zhang, B.; He, P.-J.; Lü, F.; Li-Ming, S.; Wang, P. Extracellular enzyme activities during regulated
+hydrolysis of high-solid organic wastes. Water Res. 2007, 41, 4468–4478. [CrossRef] [PubMed]
+27.
+Wang, K.; Yin, J.; Shen, D.; Li, N. Anaerobic digestion of food waste for volatile fatty acids (VFAs) production
+with diﬀerent types of inoculum: Eﬀect of pH. Bioresour. Technol. 2014, 161, 395–401. [CrossRef] [PubMed]
+28.
+Forster-Carneiro, T.; Pérez, M.; Romero, L.I. Thermophilic anaerobic digestion of source-sorted organic
+fraction of municipal solid waste. Bioresour. Technol. 2008, 99, 6763–6770. [CrossRef]
+29.
+Garcia-Peña, E.I.; Parameswaran, P.; Kang, D.W.; Canul-Chan, M.; Krajmalnik-Brown, R. Anaerobic digestion
+and co-digestion processes of vegetable and fruit residues: Process and microbial ecology. Bioresour. Technol.
+2011, 102, 9447–9455. [CrossRef]
+30.
+Campuzano, R.; González-Martínez, S. Characteristics of the organic fraction of municipal solid waste and
+methane production: A review. Waste Manag. 2016, 54, 3–12. [CrossRef]
+31.
+Dogan, E.; Dunaev, T.; Erguder, T.H.; Demirer, G.N. Performance of leaching bed reactor converting the
+organic fraction of municipal solid waste to organic acids and alcohols. Chemosphere 2009, 74, 797–803.
+[CrossRef]
+32.
+Jiang, J.; Zhang, Y.; Li, K.; Wang, Q.; Gong, C.; Li, M. Volatile fatty acid production from food waste: Eﬀects
+of pH, temperature, and organic loading rate. Bioresour. Technol. 2013, 143, 525–530. [CrossRef]
+33.
+Angelidaki, I.; Chen, X.; Cui, J.; Kaparaju, P.; Ellegaard, L. Thermophilic anaerobic digestion of source-sorted
+organic fraction of household municipal solid waste: Start-up procedure for continuously stirred tank reactor.
+Water Res. 2006, 40, 2671–2678. [CrossRef]
+34.
+Raposo, F.; Rubia, M.A.D.L.; Fernández-Cegrí, V.; Borja, R. Anaerobic Digestion of Solid Organic Substrates
+in Batch Mode: An Overview Relating to Methane Yields and Experimental Procedures. Renew. Sustain.
+Energy Rev. 2011, 16, 861–877. [CrossRef]
+35.
+Cysneiros, D.; Banks, C.J.; Heaven, S.; Karatzas, K.A.G. The eﬀect of pH control and hydraulic ﬂush on
+hydrolysis and Volatile Fatty Acids (VFA) production and proﬁle in anaerobic leach bed reactors digesting a
+high solids content substrate. Bioresour. Technol. 2012, 123, 263–271. [CrossRef] [PubMed]
+36.
+Sarkar, O.; Mohan, S.V. Pre-aeration of food waste to augment acidogenic process at higher organic load:
+Valorizing biohydrogen, volatile fatty acids and biohythane. Bioresour. Technol. 2017, 242, 68–76. [CrossRef]
+[PubMed]
+37.
+Guang, L.C.; Xue, C.; Yen-Han, L.; Feng-Wu, B. Redox potential control and applications in microaerobic and
+anaerobic fermentations. Biotechnol. Advan. 2013, 31, 257–265.
+38.
+Charles, W.; Walker, L.; Cord-Ruwisch, R. Eﬀect of pre-aeration and inoculum on the start-up of batch
+thermophilic anaerobic digestion of municipal solid waste.
+Bioresour.
+Technol.
+2009, 100, 2329–2335.
+[CrossRef]
+
+
+[PDF page 19]
+Energies 2020, 13, 933
+19 of 19
+39.
+Behera, S.S.; Ray, B.R.C. Solid State Fermentation for Production of Microbial Cellulases: Recent Advances
+and Improvement Strategies. Int. J. Biol. Macromol. 2016, 86, 656–669. [CrossRef]
+40.
+Lynd, L.R.; Weimer, P.J.; Zyl, W.H.V.; Pretorius, I.S. Microbial Cellulose Utilization: Fundamentals and
+Biotechnology. Microbiol. Mol. Biol. Rev. 2002, 66, 506–577. [CrossRef]
+41.
+Dollhofer, V.; Podmirseg, S.M.; Callaghan, T.M.; Griﬃth, G.W.; Fliegerová, K. Anaerobic Fungi and Their
+Potential for Biogas Production. Biogas Sci. Technol. 2015, 200, 41–61.
+42.
+Zhang, Y.-H.P.; Lynd, L.R. Toward an Aggregated Understanding of Enzymatic Hydrolysis of Cellulose:
+Noncomplexed cellulase Systems. Wiley InterSci. 2004, 88, 1–28. [CrossRef]
+43.
+Agdag, O.N.; Sponza, D.T. Eﬀect of Aeration on the Performance of a Simulated Landﬁlling Reactor
+Stabilizing Municipal Solid Wastes. J. Environ. Sci. Health 2012, 39, 1–20.
+44.
+Xu, Z.; Zhao, M.; Miao, H.; Huang, Z.; Gao, S.; Ruan, W. In situ volatile fatty acids inﬂuence biogas generation
+from kitchen wastes by anaerobic digestion. Bioresour. Technol. 2014, 163, 186–192. [CrossRef] [PubMed]
+45.
+Liu, R.; Liang, L.; Jiang, M.; Ma, J.; Chen, K.; Honghua, J.; Wei, P.; Ouyang, P. Eﬀects of redox potential control
+on succinic acid production by engineered Escherichia coli under anaerobic conditions. Process Biochem. 2014,
+49, 740–744. [CrossRef]
+46.
+Jun, D.; Yong-Sheng, Z.; Mei, H.; Wei-Hong, Z. Inlfuence of alkalinity on the stabilitatión of municipal solid
+waste in anaerobic simulated boreactor. J. Hazard. Mater. 2009, 163, 217–722. [CrossRef]
+47.
+Ahring, B.K. Perspectives for Anaerobic Digestion.
+In Biomethanation I. Advances in Biochemical
+Engineering/Biotechnology; Ahring, B.K., Scheper, T., Eds.; Springer: Berlin/Heidelberg, Germany, 2003;
+Volume 81, pp. 1–30.
+48.
+Gao, Y.; Kong, X.; Xing, T.; Sun, Y.; Zhang, Y.; Luo, X.; Sun, Y. Digestion Performance and Microbial Metabolic
+Mechanism in Thermophilic and Mesophilic Anaerobic Digesters Exposed to Elevated Loadings of Organic
+Fraction of Municipal Solid Waste. Energies 2018, 11, 952. [CrossRef]
+49.
+Park, J.-H.; Kang, H.-J.; Park, K.-H.; Park, H.-D. Direct interspecies electron transfer via conductive materials:
+A perspective for anaerobic digestion applications. Bioresour. Technol. 2018, 254, 300–311. [CrossRef]
+50.
+Parawira, W.; Murto, M.; Zvauya, R.; Mattiasson, B. Comparative performance of a UASB reactor and
+an anaerobic packed-bed reactor when treating potato waste leachate. Renew. Energy 2006, 31, 893–903.
+[CrossRef]
+51.
+Stabnikova, O.; Xue-Yan, L.; Jing-Yuan, W. Anaerobic digestion of food waste in a hybrid anaerobic
+solid–liquid system with leachate recirculation in an acidogenic reactor. Biochem. Eng. J. 2008, 41, 198–201.
+[CrossRef]
+52.
+Li, L.; He, Q.; Wei, Y.; He, Q.; Peng, X. Early warning indicators for monitoring the process failure of anaerobic
+digestion system of food waste. Bioresour. Technol. 2014, 17, 491–494. [CrossRef]
+53.
+Michele, P.; Giuliana, D.I.; Carlo, M.; Sergio, S.; Fabrizio, A. Optimization of solid state anaerobic digestion of
+the OFMSW by digestate recirculation: A new approach. Waste Manag. 2015, 35, 111–118. [CrossRef]
+54.
+Li, Y.; Chen, Y.; Wuc, J. Enhancement of methane production in anaerobic digestion process: A review.
+App. Energy 2019, 240, 120–137. [CrossRef]
+55.
+Shahriari, H.; Warith, M.; Hamoda, M.; Kennedy, K. Eﬀect of leachate recirculation on mesophilic anaerobic
+digestion of food waste. Waste Manag. 2012, 32, 400–403. [CrossRef] [PubMed]
+56.
+Fantozzi, F.; Buratti, C. Anaerobic digestion of mechanically treated OFMSW: Experimental data on
+biogas/methane production and residues characterization.
+Bioresour.
+Technol.
+2011, 102, 8885–8892.
+[CrossRef] [PubMed]
+57.
+Nguyen, P.H.L.; Kuruparan, P.; Visvanathan, C. Anaerobic digestion of municipal solid waste as a treatment
+prior to land Wll. Bioresour. Technol. 2007, 98, 380–387. [CrossRef] [PubMed]
+© 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).

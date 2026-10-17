@@ -6,8 +6,8 @@
   "category_unchanged": "4 综述",
   "preferred_main_asset_id": "R10894.main.f9caf3b730e23f0d",
   "included_for_download": true,
-  "main_status": "downloaded_verified",
-  "supplementary_status": "access_failed",
+  "main_status": "historical_acquired_current_original_not_restored",
+  "supplementary_status": "not_checked",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -52,12 +52,12 @@
       "canonical_path": "papers/R10894/main/f9caf3b730e2_R10894_2024_The_effects_of_different_pretreatment_technologies_on_microbial_community.pdf",
       "source_repo_path": "",
       "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R10894_2024_The_effects_of_different_pretreatment_technologies_on_microbial_community.pdf",
-      "resolved_source_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R10894_2024_The_effects_of_different_pretreatment_technologies_on_microbial_community.pdf",
+      "resolved_source_path": "",
       "format": "pdf",
       "size_bytes": 2030435,
       "sha256": "f9caf3b730e23f0d9d31d71069935c39e162415bbdac53ee97821305a81be9d2",
-      "availability": "present_sha_verified",
-      "storage_status": "local_only_not_backed_up",
+      "availability": "historical_acquired_current_original_not_restored",
+      "storage_status": "historical_only_original_missing",
       "source_url": "https://europepmc.org/api/getPdf?pmcid=PMC11499478",
       "source_xml_url": "",
       "version": "出版版本（原页出版信息）",
@@ -73,7 +73,8 @@
         "ocr_pending_pages": [],
         "full_output_is_not_yet_cloud_backup": true,
         "sample_repo_directory": ""
-      }
+      },
+      "recovery_checked_at_utc": "2026-10-17T08:28:38.708703+00:00"
     }
   ],
   "version_history": [
@@ -88,5 +89,7 @@
       "status": "current_verified_preferred_bytes"
     }
   ],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory"
+  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "recovery_checked_at_utc": "2026-10-17T08:28:38.807121+00:00",
+  "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json"
 }

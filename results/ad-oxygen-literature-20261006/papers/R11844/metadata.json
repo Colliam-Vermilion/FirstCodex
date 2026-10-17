@@ -7,7 +7,7 @@
   "preferred_main_asset_id": null,
   "included_for_download": true,
   "main_status": "not_downloaded",
-  "supplementary_status": "downloaded_partial",
+  "supplementary_status": "downloaded",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 1,
   "supplementary_previous_detail": {
@@ -73,7 +73,8 @@
         "ocr_pending_pages": [],
         "full_output_is_not_yet_cloud_backup": true,
         "sample_repo_directory": ""
-      }
+      },
+      "recovery_checked_at_utc": "2026-10-17T08:28:38.734469+00:00"
     },
     {
       "record_id": "R11844",
@@ -84,12 +85,12 @@
       "canonical_path": "papers/R11844/evidence/9c39d5f64ac0_PMC12125087_fullText.xml",
       "source_repo_path": "",
       "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R11844/evidence/PMC12125087_fullText.xml",
-      "resolved_source_path": "/workspace/library-files/ad-oxygen-supplements/R11844/evidence/PMC12125087_fullText.xml",
+      "resolved_source_path": "",
       "format": "xml",
       "size_bytes": 256247,
       "sha256": "9c39d5f64ac01253c8bb4866ce3974997765b2d47e37641f3717e99e0d7f1f61",
-      "availability": "present_sha_verified",
-      "storage_status": "local_only_not_backed_up",
+      "availability": "historical_acquired_current_original_not_restored",
+      "storage_status": "historical_only_original_missing",
       "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12125087/fullTextXML",
       "source_xml_url": "",
       "version": "repository_JATS_fulltext_representation_not_PDF",
@@ -106,7 +107,8 @@
         "ocr_pending_pages": [],
         "full_output_is_not_yet_cloud_backup": true,
         "sample_repo_directory": ""
-      }
+      },
+      "recovery_checked_at_utc": "2026-10-17T08:28:38.736046+00:00"
     },
     {
       "record_id": "R11844",
@@ -117,12 +119,12 @@
       "canonical_path": "papers/R11844/evidence/60ef29cf0a55_PMC12125087_supplementaryFiles.zip",
       "source_repo_path": "",
       "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R11844/transport/PMC12125087_supplementaryFiles.zip",
-      "resolved_source_path": "/workspace/library-files/ad-oxygen-supplements/R11844/transport/PMC12125087_supplementaryFiles.zip",
+      "resolved_source_path": "",
       "format": "zip",
       "size_bytes": 521862,
       "sha256": "60ef29cf0a557bf44838f4a3f45e2dbf1b1a2001547f5c0b976b48cc64c1b6d9",
-      "availability": "present_sha_verified",
-      "storage_status": "local_only_not_backed_up",
+      "availability": "historical_acquired_current_original_not_restored",
+      "storage_status": "historical_only_original_missing",
       "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12125087/supplementaryFiles",
       "source_xml_url": "",
       "version": "repository_generated_transport_not_official_SI",
@@ -139,7 +141,8 @@
         "ocr_pending_pages": [],
         "full_output_is_not_yet_cloud_backup": true,
         "sample_repo_directory": ""
-      }
+      },
+      "recovery_checked_at_utc": "2026-10-17T08:28:38.736049+00:00"
     }
   ],
   "version_history": [
@@ -149,5 +152,7 @@
       "source": "immutable historical91 manifest"
     }
   ],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory"
+  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "recovery_checked_at_utc": "2026-10-17T08:28:38.896138+00:00",
+  "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json"
 }

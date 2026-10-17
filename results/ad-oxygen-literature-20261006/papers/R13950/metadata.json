@@ -6,7 +6,7 @@
   "category_unchanged": "3 独立好氧或微好氧预处理",
   "preferred_main_asset_id": "R13950.main.2bf9b46c448685b9",
   "included_for_download": true,
-  "main_status": "downloaded_verified",
+  "main_status": "historical_acquired_current_original_not_restored",
   "supplementary_status": "not_checked",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
@@ -45,12 +45,12 @@
       "canonical_path": "papers/R13950/main/2bf9b46c4486_R13950_2019_Enhancement_of_hydrogen_and_methane_production_through_anaerobic_digestion.pdf",
       "source_repo_path": "",
       "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R13950_2019_Enhancement_of_hydrogen_and_methane_production_through_anaerobic_digestion.pdf",
-      "resolved_source_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R13950_2019_Enhancement_of_hydrogen_and_methane_production_through_anaerobic_digestion.pdf",
+      "resolved_source_path": "",
       "format": "pdf",
       "size_bytes": 3508852,
       "sha256": "2bf9b46c448685b9e66f4064245c5840dc28ded79ee4d613ddd9efeb4805812e",
-      "availability": "present_sha_verified",
-      "storage_status": "local_only_not_backed_up",
+      "availability": "historical_acquired_current_original_not_restored",
+      "storage_status": "historical_only_original_missing",
       "source_url": "https://www.research.unipd.it/bitstream/11577/3425227/1/Thesis_Razieh_Rafieenia.pdf",
       "source_xml_url": "",
       "version": "学位/机构存档原稿",
@@ -66,7 +66,8 @@
         "ocr_pending_pages": [],
         "full_output_is_not_yet_cloud_backup": true,
         "sample_repo_directory": ""
-      }
+      },
+      "recovery_checked_at_utc": "2026-10-17T08:28:38.729067+00:00"
     }
   ],
   "version_history": [
@@ -81,5 +82,7 @@
       "status": "current_verified_preferred_bytes"
     }
   ],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory"
+  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "recovery_checked_at_utc": "2026-10-17T08:28:38.965819+00:00",
+  "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json"
 }

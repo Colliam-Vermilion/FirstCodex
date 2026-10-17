@@ -1,0 +1,806 @@
+
+[PDF page 1]
+energies
+Article
+Comparing Hydrogen Sulﬁde Removal Eﬃciency in a
+Field-Scale Digester Using Microaeration and
+Iron Filters
+Joanna K. Huertas 1
+, Lawrence Quipuzco 1, Amro Hassanein 2
+and Stephanie Lansing 2,*
+1
+Academic Department of Environmental Engineering, National Agrarian University La Molina,
+Lima 15024, Peru; 20121049@lamolina.edu.pe (J.K.H.); lquipuzco@lamolina.edu.pe (L.Q.)
+2
+Department of Environmental Science and Technology, University of Maryland, 1429 Animal Sci./Ag
+Engineering Bldg., College Park, MD 20742, USA; ahassane@umd.edu
+*
+Correspondence: slansing@umd.edu
+Received: 13 August 2020; Accepted: 11 September 2020; Published: 14 September 2020
+
+
+Abstract: Biological desulfurization of biogas from a ﬁeld-scale anaerobic digester in Peru was tested
+using air injection (microaeration) in separate duplicate vessels and chemical desulfurization using
+duplicate iron ﬁlters to compare hydrogen sulﬁde (H2S) reduction, feasibility, and cost. Microaeration
+was tested after biogas retention times of 2 and 4 h after a single injection of ambient air at 2 L/min.
+The microaeration vessels contained digester sludge to seed sulfur-oxidizing bacteria and facilitate
+H2S removal. The average H2S removal eﬃciency using iron ﬁlters was 32.91%, with a maximum of
+70.21%. The average H2S removal eﬃciency by iron ﬁlters was signiﬁcantly lower than microaeration
+after 2 and 4 h retention times (91.5% and 99.8%, respectively). The longer retention time (4 h) resulted
+in a higher average removal eﬃciency (99.8%) compared to 2 h (91.5%). The sulfur concentration
+in the microaeration treatment vessel was 493% higher after 50 days of treatments, indicating that
+the bacterial community present in the liquid phase of the vessels eﬀectively sequestered the sulfur
+compounds from the biogas. The H2S removal cost for microaeration (2 h: $29/m3 H2S removed; and
+4 h: $27/m3 H2S removed) was an order of magnitude lower than for the iron ﬁlter ($382/m3 H2S
+removed). In the small-scale anaerobic digestion system in Peru, microaeration was more eﬃcient
+and cost eﬀective for desulfurizing the biogas than the use of iron ﬁlters.
+Keywords: desulfurization; anaerobic digestion; biogas; sulfur-oxidizing bacteria; H2S
+1. Introduction
+Anaerobic digestion (AD) reduces organic pollution while creating renewable energy in the
+form of methane (CH4)-enriched biogas. However, the hydrogen sulﬁde (H2S) concentration in
+biogas can be high, ranging from 100 to 30,000 ppm [1,2]. Sulfate-rich feedstocks, such as swine
+manure, can produce biogas with high H2S concentrations, which aﬀects the use of the biogas after
+digestion [3]. H2S is originated by the microbial breakdown of organic material during the anaerobic
+digestion [4]. The presence of H2S in biogas can corrode biogas system components (pipes, compressors,
+gas storage tanks, engine generator sets (EGS) for electricity production, and boilers) through the
+formation of corrosive sulfuric acid when water vapor is present [5,6]. The presence of H2S can
+compromise the functions of EGS, produce odor prior to biogas utilization, and is toxic at high
+concentrations [7]. In addition, H2S contaminants in advanced energy conversion equipment, such as
+fuel cells, can permanently foul the equipment [8]. According to the US Occupational Safety and
+Health Administration (OSHA), 0.01–1.5 ppm H2S is the odor threshold (characteristic rotten egg
+smell), while 2–5 ppm H2S may cause nausea and headaches, and 1000–2000 ppm H2S can cause death,
+depending on the length of exposure.
+Energies 2020, 13, 4793; doi:10.3390/en13184793
+www.mdpi.com/journal/energies
+
+
+[PDF page 2]
+Energies 2020, 13, 4793
+2 of 14
+Biogas puriﬁcation has been researched in recent years to protect health and biogas utilization
+equipment [9]. While biogas desulfurization can be achieved using multiple methods, generally,
+H2S removal methods can be divided into two groups: physical-chemical removal and biological
+removal using sulfur-oxidizing bacteria (SOB) [10]. Physical-chemical methods include adsorption,
+absorption, scrubbing, membrane separation, and precipitation, where chemicals are used to either
+bind and capture sulfur prior to H2S formation or capture the H2S molecule after formation [11].
+The iron sponge process was implemented during the 19th century for H2S removal and has been in
+use in Europe and the United States for over 100 years [12]. In Peru and areas with other low-cost
+digestion systems, a simple iron ﬁltration system consists of a tank, usually a cylindrical tank or pipe,
+containing iron oxide in the form of iron sponges located between the digester and biogas utilization
+system [13]. The chemical bond between sulfur in the biogas and iron oxide occurs within an iron ﬁlter
+system at ambient temperature. Alkaline conditions are needed, with a pH value greater than 7.5 [5].
+Shelford et al. (2019) asserted that for each kg of iron oxide (Fe2O3) present in the system, 0.56 kg of
+sulﬁde can be removed from the biogas as elemental sulfur, as shown below in Equation (1). Iron oxide
+can be regenerated by adding air (O2), which prolongs the life of the media, as shown in Equation (2) [5].
+However, after each regeneration, the ﬁlters lose approximately 30% of their eﬀectiveness due to the
+obstruction by elemental sulfur, which reduces the volume of biogas that can be treated between ﬁlter
+changes [5,14]. Saturated iron sponge material (when H2S is no longer removed and/or when the wood
+bark has deteriorated) can be burned (where permitted), landﬁlled, or spread on agricultural land [5].
+Formation of iron sulﬁde: Fe2O3 + 3H2S →Fe2S3 + 3H2O
+(1)
+Regeneration and formation of elemental sulfur: Fe2S3 + 3/2O2 →Fe2O3 + 3S
+(2)
+There are varying operational and maintenance costs associated with iron ﬁlter systems. Generally,
+physical-chemical removal methods have higher costs due to chemical acquisition, energy use associated
+with the regeneration of saturated materials, and disposal of secondary pollutants produced [15].
+For example, the cost of using iron ﬁlters for H2S removal (without regeneration) have been shown to
+vary from $2.93/d for 3000 ppm H2S removed at a 13.42 m3/h biogas production rate from the manure
+of 100 lactating cows, to $117.77/d for 3000 ppm H2S removed at a 536.89 m3/h biogas production rate
+from the manure of 4000 lactating cows [5]. When the adsorbent materials are saturated, the materials
+must be properly disposed of, which poses health and environmental risks [16]. The cost of iron ﬁlter
+use and disposal will vary based on the cost of the fresh material, revenue for any sulfur extracted,
+disposal costs of processed adsorbent, and transportation distance [17].
+Schiavon et al. (2017) determined that a commercial reagent powder containing Fe-EDTA resulted
+in a high H2S removal eﬃciency (99%), forming elemental sulfur through absorption [18]. Metallic
+wastes rich in Fe or metallic waste products, such as mining wastes or ﬂy ash from thermo-electrical
+plants, have also been proposed as sulﬁde removal materials [19]. A recent study showed that corn
+stover and maple biochar impregnated with Fe added into an anaerobic digester signiﬁcantly reduced
+H2S production by up to 93.3% without aﬀecting CH4 production [20]. Electrochemically-assisted
+scrubbing and stripping of H2S has also been shown [21]. However, many of these H2S removal
+techniques may not be available for small-scale digester operators due to the high costs and the need
+for specialized knowledge and access to equipment and absorbent materials [15], which reinforces the
+need for low-cost and easy-to-operate H2S removal techniques for small-scale digester operators.
+Biological-based H2S removal methods include biotrickling ﬁlters (BTF), bioﬁltration, bioscrubbers,
+and air injection [10,22]. Bio-desulfurization is based on the inoculation of microorganisms, mainly
+from the families of Thiobacillus, Thiomonas, Paracoccus, Acidithiobacillus, Sulfurimonas or Halothiobacillus,
+which oxidize H2S to elemental sulfur, sulfate, or thiosulfate through bacterial activity [9,16,23].
+Biological-based methods have some advantages over the physical-chemical techniques, such as less
+intensive operational conditions, and thus, lower operational costs, energy consumption, and emissions
+of secondary pollutants [24,25]. Biological-based techniques can be divided into two categories: internal
+
+
+[PDF page 3]
+Energies 2020, 13, 4793
+3 of 14
+and external desulfurization [20]. An internal desulfurization system applies microaerobic conditions
+directly into the anaerobic digester headspace.
+External desulfurization includes bioscrubbers,
+biotrickling ﬁlters (BTF), bioﬁltration, and external microaeration, where the micro-aerated environment
+is separate from the digestion environment, with H2S removal occurring in a separate biogas vessel
+between the digester and the biogas utilization equipment [26].
+According to Wu et al. (2020), BTF is currently the most widely used method for cost-eﬀective H2S
+removal [25]. It has been suggested that the biological process should be monitored and controlled to
+reduce issues, such as bed clogging [27]. Additionally, with high H2S concentrations in the biogas,
+a nitrate source may be needed to support high biological growth rates [24,25]. Using a BTF system,
+Zhang et al. (2020) obtained more than 95% H2S removal, and Dupnock and Deshusses (2020) showed
+more than 97% H2S removal from biogas [10,12]. Wu et al. (2020) showed 100% removal of H2S using
+a slightly alkaline BTF with polypropylene rings as the packing material and air injection to provide
+the O2 used as the electron acceptor [25]. Khanongnuch et al. (2019a, 2019b) used Thiobacillus sp. as a
+sulfur-oxidizing and nitrate-reducing bacterium in a BTF to achieve >99% H2S removal from a gas
+stream while simultaneously removing NO3- [28,29].
+While bioﬁltration is less common than BTF, bioﬁltration has also been shown to be eﬀective for
+H2S removal [27]. A biogas upgrading system based on the microalgae Chlorella sorokiniana provided
+100% H2S removal, with oxidation of H2S to sulfate [30]. Haosagul et al. (2020) showed 100% H2S
+removal using a bioscrubber with Pseudomonas, Leucobacter, Thioalkalimicrobium, and Brevundimonas
+present [31]. Enrichment of SOB inoculum using Na2S has been shown to increase H2S removal by
+stabilizing and increasing the pH. Cheng et al. (2018) found a stable H2S removal, up to 95%, when a
+pH of 7.5 to 8.2 was maintained in the sludge [32].
+Microaeration consists of dosing very small amounts of oxygen into an anaerobic digester,
+converting H2S to elemental sulfur, sulfate or thiosulfate [33]. Microaeration has shown a great
+potential for H2S removal due to lower costs, yet there are still challenges that need to be addressed,
+such as the need for periodic maintenance to avoid clogging problems in the microaeration pump,
+and the contamination with N2 with air injection [34]. Large-scale digesters have shown from 80 to
+100% H2S reduction using microaeration [6].
+Alternative H2S reduction methods have also been investigated. Adding gummy vitamin waste
+to dairy manure digesters reduced the H2S content in the biogas by 66 to 83% [7]. Waste-derived
+adsorbent materials (wood-derived biochar, sludge-derived activated carbon, and activated ash) were
+used for H2S removal, with the activated ash having the highest H2S removal eﬃciency (3.2 mg H2S/g
+of adsorption capacity) and the sludge-derived activated carbon having the lowest eﬃciency (2.2 mg
+H2S/g of adsorption capacity) [35]. While biochar impregnated with Fe had 100% H2S reduction in
+diary manure digesters, and unmodiﬁed biochar resulted in 90.5% H2S removal [20].
+Farmers in rural Latin America operate over 1100 small-scale agricultural digesters compared
+to over 350 in the US and over 1100 in Europe [36,37]. Many small farmers in Latin America use
+digesters to manage their manure. In Peru, the most common technique to remove H2S is ﬁltration
+using iron chips or iron sponges, which is used in ecological education centers, such as Casa Blanca
+in Pachacamac, Peru. Microaeration has been applied mainly in large-scale digesters. Most small
+farmers in Latin America have not used microaeration to remove H2S from biogas and rely on iron
+ﬁltration. This study aims to demonstrate how microaeration compares to iron ﬁltration in terms of H2S
+removal eﬃciency and cost for small-scale digesters. This research compared two low-cost techniques:
+traditional iron ﬁlters used in Latin America and microaeration in removing H2S from biogas produced
+in a ﬁeld-scale digester in Peru. The objectives of this research were to (1) test the eﬃciency of duplicate
+microaeration vessels using two retention times to reduce H2S from biogas, (2) compare the eﬃciency
+of microaeration to the use of iron ﬁlters in duplicate, and (3) conduct a cost analysis based on the
+quantity of H2S removed. The results can be used to understand how eﬃciency, cost, and accessibility
+aﬀect H2S removal techniques used by thousands of small-scale anaerobic digester operators.
+
+
+[PDF page 4]
+Energies 2020, 13, 4793
+4 of 14
+2. Materials and Methods
+2.1. Digestion Reactor
+A ﬁeld-scale digestion system using the Taiwanese-model was constructed using high density
+polyethylene (HDPE) at the Model Centre for Solid Waste Treatment (CEMTRAR) in La Molina,
+Lima, Perú. The reactor capacity was 8.5 m3, with a 6.37 m3 liquid volume and a 2.13 m3 biogas
+headspace (Figure 1). The reactor was loaded daily with swine manure from the Porcine Experimental
+Unit at La Molina National Agrarian University (UNALM) in Lima, Peru, using an average organic
+loading rate of 1.13 kg VS/m3 d. The manure had 31.6% total solids (TS), with 0.73% sulfur (S).
+During the study, the temperature and pH of the eﬄuent were measured daily, with an average
+temperature of 21 ± 2 ◦C in the digester (ambient temperature conditions), an average pH of 7.44, and an
+average retention time of 50 days. Analyses of the liquid manure entering the digester were conducted
+by the UNALM Laboratory for the Analysis of Water, Soils, Plants and Fertilizers. These analyses
+included percentage of carbon, using the modiﬁed Walkley and Black method [38], oxidizing organic
+carbon with potassium dichromate, and percentage of nitrogen according to the Kjeldahl method [39].
+The TS (total solids) and VS (volatile solids) of the swine manure were measured according to Standard
+Methods [40], and the pH using the electrometric procedure according to US EPA Method 9045D.
+The percentage of sulfur was measured using a turbidimetric method using barium chloride, and
+percentage of sodium using atomic absorption spectrophotometry, according to Method 3111 [41].
+The digester had operated for seven years prior to this experiment, with no speciﬁc desulfurization
+method utilized during prior operation.
+Figure 1. Schematic design of duplicate treatments for the desulfurization of biogas using iron ﬁltration
+and microaeration.
+Upon exiting the digester and before entering the biogas storage vessels, the untreated
+biogas was analyzed for CH4, CO2, O2, H2, and H2S using a Multitec 545 gas analyzer (Sewerin,
+Gütersloh, Germany). The biogas was stored in four separate biogas vessels, with two vessels storing
+the biogas after duplicate microaeration injection, and two vessels storing the treated biogas after
+passing through the duplicate iron ﬁlters. The composition of the treated biogas in each vessel was
+analyzed daily using the Multitec 545 gas analyzer. The biogas production rate was measured with
+
+
+[PDF page 5]
+Energies 2020, 13, 4793
+5 of 14
+a ﬂowmeter (Pa 2-25l Flow Meter, Barry Century, Beijing, China) once a day while the digester was
+loaded with manure.
+2.2. Micro-Aeration
+Biogas microaeration was conducted using duplicate biogas vessels composed of a thick Low
+Density Polyethylene (LDPE) (0.208 m3 each). The biogas holding vessels were loaded and unloaded
+daily to renew the biogas and simulate daily use of the biogas. After each vessel was loaded with
+biogas, ambient air was pumped into the headspace of the biogas vessels for approximately one
+minute using an air pump (Venus AP 208, Shanghai, China), with a minimum and maximum ﬂow
+rate of 2 and 3 L/min, respectively. Approximately 2.08 L of air were injected daily (1% of the vessel
+volume). Measurements were taken daily at 2 and 4 h after the single air injection to test the eﬀect of
+two retention times on the biological oxidation process.
+Each microaeration vessel was inoculated with SOB using 10 L of sludge from the anaerobic
+digester outlet. This sludge was characterized after the end of the experiment for total S and sulfate.
+The microaeration treatment experiment began over three stages. Initially, microaeration tests were
+conducted before inoculum introduction. Inoculum was then introduced and a start-up period of
+3 days was given for adaption before the microaeration treatment began. The monitoring period was
+50 days from 28 June to 16 August 2018.
+2.3. Sulfur-Oxidizing Bacteria (SOB) Observation and Isolation
+The SOB observation and isolation technique was based on the methodology from the Open
+and Distance National University [42] in Bogotá, Colombia. The H2S-oxidizing microorganisms
+were grown using 1 mL of sludge from each microaeration vessel inoculated separately in tubes
+consisting of an incubated culture medium at 37 ◦C. The criteria for identifying SOB-positive tubes
+were (1) visualization of the turbidity of the medium, (2) microscopic veriﬁcation of the growth of
+the microorganism in the medium liquid using an optical microscope, and (3) observation of the
+presence of colonies in the solids. Due to the high bacterial density in the tubes, isolates were taken
+and incubated in a solid medium to obtain pure cultures. Finally, a Gram stain was used to identify the
+phenotypic characteristics of the isolated SOB colonies in the digester eﬄuent samples and replicate
+microaeration vessels using a 100x microscope with a stereoscope.
+2.4. Iron Filter
+Two 0.979 L iron ﬁlters were built using two PVC tubes (0.1108 m × 0.1016 m) ﬁlled with iron
+sponge (domestic material used for scrubbing pots and pans), which was composed of iron oxide
+(Fe2O3). Prior to use, the iron sponge substrate was immersed in HCl and NaOH solutions to oxidize
+the material. The biogas from the digester passed through one of the two duplicate iron ﬁlters
+positioned inside a biogas conveyance hose. The scrubbed biogas then entered the connecting duplicate
+biogas vessels.
+The ﬁlter substrate (iron sponge) was renewed every 10 days during the 50 day experiment.
+The quantity of the ﬁlter material needed for the total H2S removal was based on the average of the
+biogas production rate (0.5 L/min) measured prior to the experiment and average H2S concentration
+in the biogas (3000 ppm). The calculations were based on Equations (1) and (2) above and previous
+research that showed the H2S absorption limit of iron sponge is 56% (0.56 kg H2S/kg Fe2O3), resulting
+in 7.45 g of Fe2O3 needed for H2S removal [5,43,44]. The amount of Fe ﬁlter used in each PVC pipe
+was 8.94 g Fe2O3, resulting in 20% more ﬁlter added than the theoretical need.
+2.5. Statistical Methods
+Statistical analysis, including ANOVA and multiple regression was performed using Minitab 18,
+with signiﬁcance deﬁned at alpha of 0.05. A non-parametric Kruskal–Wallis test using the percentage
+
+
+[PDF page 6]
+Energies 2020, 13, 4793
+6 of 14
+removal of H2S was performed, with the levels based on applied treatment technology (iron ﬁlter or
+microaeration) and retention time (2 or 4 h), as the samples were independent of each other.
+3. Results and Discussion
+3.1. Digester pH and Temperature and Initial H2S Concentration
+There was no signiﬁcant correlation between the pH of the digester and the initial (pre-treatment)
+H2S concentration in the biogas (p-value = 0.178). The digester pH started high (8.14) at the beginning
+of the 50 day experiment, with an average of 7.44 and a range of 6.91 to 8.33 over the 50 days, with 4 of
+32 data points < 7. The pH values did not correspond with the H2S concentration from the digester,
+which started low (2300 ppm H2S), increased to a maximum of 4000 ppm, but remained <3500 ppm
+after Day 33 and <3000 ppm from Days 48–50. The variation in the H2S concentration was more
+likely inﬂuenced by the inﬂuent S concentration and bacterial community than the pH value in the
+digester. According to Krayzelova et al. (2015), the concentration of H2S can increase when the pH
+decreases [23], inﬂuencing the distribution of sulfur in the liquid and gas phases.
+The temperature of the digester was kept in the lower portion of the mesophilic temperature
+range (15–35 ◦C), ranging from 17.8 to 29.9 ◦C during the 50 day experiment. There was no signiﬁcant
+correlation between the temperature of the digester and the initial (pre-treatment) H2S concentration in
+the biogas (p-value = 0.703). The digester and the biogas holding vessels were maintained at ambient
+temperature, with some ﬂuctuations between day and night temperatures.
+3.2. Biological Desulfurization Using Microaeration
+Prior to inoculation of the biogas vessels with SOB, a microaeration environment was maintained
+through injecting ambient air into the empty biogas vessels, with a H2S removal eﬃciency ranging
+from 29.4 to 72.1%, with an average of 55.2 ± 7.1%. Without the relevant bacteria in the inoculum,
+the sulfur could only be oxidized through reacting with the O2 in the air. According to van der Zee et al.
+(2007), this process is not as eﬃcient as bacterial oxidation [45].
+The 10 L of sludge added for microaeration was based on the study of Ramos et al. (2013) [46],
+which suggested a volumetric ratio of 1:10 inoculum to desulfurization unit volume. During the three
+day inoculum stabilization period, the H2S reduction eﬃciency increased from 59.8% on Day 2 to 74.9%
+on Day 3. By Day 4, 100% H2S removal was achieved, indicating that a bacterial adjustment period of
+three days was needed for optimal removal eﬃciency. The replicate average of the H2S removal 2 h
+after air injection was 91.5 ± 1.87%, increasing to 99.8 ± 0.04% after 4 h (Figure 2), with 4 h having a
+signiﬁcantly higher H2S removal eﬃciency than 2 h (p-value < 0.001). In ﬁve of the 50 days, eﬃciencies
+of 100% were achieved for 2 and 4 h. Adding up to 3% air in the microaeration reactor completely
+removed the H2S content (around 4000 ppm) in the biogas for these ﬁve days. The H2S removal
+eﬃciency was signiﬁcantly aﬀected by the initial H2S concentration (p-value = 0.026). The duplicate
+microaeration treatments were not signiﬁcantly diﬀerent during the 50 day experiment (p-values = 0.995
+for 2 h retention time and 0.308 for 4 h retention time).
+Similar results were obtained by Ramos et al. (2013), with high removal eﬃciencies obtained at a
+maximum H2S content of 0.35% v/v (3500 ppm) [46]. Krayzelova et al. (2015) also found residence
+time (RT) to be a key factor in microaeration, with eﬃciencies > 97% H2S removal commonly achieved
+with a RT > 5 h [23]. According to Schneider et al. (2002), 88% H2S removal eﬃciency was found with
+a residence time of 2.5 h, while it was less than 40% if the time was <1.25 h [47]. Ramos et al. (2014)
+had a 2.5 h RT [48], with 88% H2S removal, and Köchermann et al. (2015) achieved 99% H2S removal
+in 4.0–5.5 h [49]. Montalvo et al. (2020) demonstrated H2S removal exceeding 90% in most cases with
+similar RTs (2.8–4.8 h), while maintaining ﬂammable biogas concentrations [19].
+
+
+[PDF page 7]
+Energies 2020, 13, 4793
+7 of 14
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+4500
+1
+5
+8
+13
+16
+21
+26
+33
+36
+41
+49
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+H2S (ppm)
+Days
+H2S Removal Efficiency (%)
+Initial H2S (ppmv)
+H2S removal efficiency with iron filters (%)
+H2S removal efficiency with microaeration with 2h residence time (%)
+H2S removal efficiency with microaeration with 4h residence time (%)
+Initial H2S (ppmv)
+H2S removal efficiency with an iron filter (%)
+H2S removal efficiency using microaeration with a 2h residence time (%) 
+H2S removal efficiency using microaeration with a 4h residence time (%)  
+Figure 2. Relationship between initial H2S (ppm) and H2S removal eﬃciency (%) using iron ﬁlter and
+microaeration treatments, with gas analysis at 2 h and 4 h after initial air injection for microaeration.
+The CH4 and CO2 concentrations in the microaeration vessels decreased with ambient air injection
+due to the presence of nitrogen gas (N2) in ambient air diluting the biogas [27,33] (Figure 3). When there
+was 3% residual O2 in the biogas after microaeration, more than 3000 ppm of H2S was removed,
+indicating that the air injection was higher than the rate needed for H2S removal. When the O2 level
+was <3%, the CH4 concentration values were not signiﬁcantly diﬀerent before and after microaeration
+(p-value = 0.58). When the O2 concentration in the biogas after microaeration was >3%, the CH4
+was signiﬁcantly lower after treatment (p-value = 0.004). The average CH4 concentration prior to
+microaeration was 56.6%, which is equivalent to 22,555 kJ/m3 of biogas. Two hours after microaeration,
+the average CH4 concentration decreased to 53.8% (21,404 kJ/m3 of biogas), decreasing to 52.8% CH4
+(20,982 kJ/m3 of biogas) 4 h after microaeration. In Mulbry et al. (2017), there was no apparent trend
+between aeration and percentage of CH4 with O2 concentrations ≤1% [33]. Díaz et al. (2011) showed
+that the concentrations of CO2 and CH4 remained stable during microaeration with O2 direct (not the
+air injection) [50]. According to Köchermann et al. (2015), lower O2 concentrations would be expected
+at higher concentrations of H2S [51]. Giordano et al. (2019) achieved nearly 100% H2S reduction in a
+full-scale thermophilic digester using microaerobic conditions with residual oxygen ranging from 0.2
+to 2.0% O2 [52].
+There was no signiﬁcant relationship between the microaeration vessel temperature and H2S
+removal eﬃciency (p-value = 0.323). Ramos et al. (2013) showed higher H2S removal eﬃciencies
+with higher temperatures, concluding that temperature does aﬀect the process [46]. According to
+de Arespacochaga et al. (2014), increasing the temperature from 10 to 30 ◦C increased H2S removal
+eﬃciency, with the highest H2S removal using the bacterial consortium at 35 ◦C [8]. However, in our
+ﬁeld-based study, the reactor temperature was based on ambient air temperature, and thus it ﬂuctuated
+throughout the day and across days, resulting in no clear relationship.
+
+
+[PDF page 8]
+Energies 2020, 13, 4793
+8 of 14
+12Microareation (2h)
+Microareation (4h)
+Iron filter
+without Treatment
+0
+2
+4
+6
+8
+10
+12
+1
+3
+6
+8
+12
+14
+16
+20
+22
+26
+28
+34
+36
+40
+47
+49
+O2 (%)
+Days
+0
+5
+10
+15
+20
+25
+30
+35
+40
+1
+3
+6
+8
+12
+14
+16
+20
+22
+26
+28
+34
+36
+40
+47
+49
+CO2 (%)
+Days
+0
+10
+20
+30
+40
+50
+60
+70
+1
+3
+6
+8
+12
+14
+16
+20
+22
+26
+28
+34
+36
+40
+47
+49
+CH4 (%)
+Days
+A
+B
+C
+Microaeration (2h)
+Microaeration (4h)
+Iron Filter
+Without treatment
+Figure 3. The concentrations of O2 (A), CH4 (B), and CO2 (C) in the biogas over 50 days showing
+concentrations pre-treatment, with iron ﬁlter H2S removal and microaeration.
+Sulﬁde Oxidation during Microaeration
+The microaeration inoculum source added to the biogas reactors had an initial elemental
+sulfur (S) concentration of 259 mg/L and a sulfate concentration of 771 mg/L. At the end of the
+
+
+[PDF page 9]
+Energies 2020, 13, 4793
+9 of 14
+experiment, the microaeration biomass had an elemental sulfur concentration of 1536 mg/L, and a
+sulfate concentration of 4606 mg/L. The inﬂuent (164 L/day) contained 42,347 mg sulfur and 126,059 mg
+sulfate, while the eﬄuent contained 251,136 mg sulfur and 753,081 mg sulfate (Figure 4), a 493% and
+497% increase in concentration, respectively. The average daily H2S removed was 4.52 mg/L after a 4 h
+retention, and 1.49 mg/L after the iron ﬁlter (Figure 4). At the end of the experiment, neither sulfate
+nor sulfur clusters were visualized, but the results showed a large increase in elemental sulfur and
+sulfate in the microaeration biomass, indicating that H2S in the biogas was oxidized by SOB in greater
+amounts than the amount of sulfur that settled in the biomass.
+Figure 4. Schematic diagram of the sulfur mass balance.
+Sulﬁde oxidation with O2 during microaeration can form polysulﬁdes (S2-n), which are protonated
+to form elemental sulfur [45,53,54], and can then form more oxidized species of sulfur, such as thiosulfate,
+sulfate, and sulﬁte [45,54,55]. Ramos et al. (2013) observed precipitated sulfur in the sludge near
+the liquid surface. This observation was not seen in this study, possibly due to the length of time:
+50 days in our study compared to their 91 day study [46]. Mahdy et al. (2020) showed slight sulfate
+accumulation (<330 mg L−1) inside the microaerated digesters and higher sulfate concentrations in the
+eﬄuents of microaerated digesters than in the control [56].
+At the end of the study, the sludges from the digester and microaeration vessels were examined
+to enumerate and characterize the SOB bacteria. There were >11 × 104 MPN/g of bacteria in the
+fresh sludge added to each of the microaeration vessels. The bacteria in the microaeration biomass
+from one of the vessels included wavy-edged, creamy-surfaced, white-colored, and irregular-shaped
+bacteria, while the other vessel included whole-edged, creamy-surfaced, irregular-shaped, and
+translucent-colored bacteria. In one microaeration vessel, the bacteria average size was 0.85 mm and
+they were Gram-negative, with short and thick coccobacilli, characteristics that are consistent with
+Thiobacillus sulfooxidans. The second microaeration vessel had bacteria that were 2.73 mm and included
+short and thick coccobacilli, which could also have been in the Thiobacillus group, but this is not
+conclusive [42]. Hurtado and Salamanca (2017) analyzed the phenotypic characteristics of oxidizing
+strains of sulfur bacteria and described the characteristics as 5 mm diameter, long and thin bacilli and
+Gram-negative, which is generally consistent with the bacteria found in the digester eﬄuent inside
+both microaeration vessels.
+
+
+[PDF page 10]
+Energies 2020, 13, 4793
+10 of 14
+3.3. Desulfurization Using the Iron Filter System
+The average H2S removal eﬃciency using iron ﬁlters was 32.91%, with a maximum of 70.21%
+and a minimum of 13.39% (Figure 2). H2S removal eﬃciency by iron ﬁlters was signiﬁcantly lower
+than for microaeration (p-value < 0.001). While McKinsey (2003) indicated theoretical eﬃciencies
+of up to 85% (0.56 kg H2S/kg Fe2O3) in batch mode, the maximum H2S removal eﬃciency was
+reached on the ﬁrst day of this experiment, with signiﬁcant reductions in H2S removal eﬃciency
+over time (p-value < 0.001) [44]. The H2S eﬃciency was signiﬁcantly aﬀected by the pre-treatment
+H2S concentration (p-value = 0.026), with decreases in removal eﬃciency with higher pre-scrubber
+H2S concentration. Figueroa (2019) [57] stated that an iron ﬁlter can remove approximately 50% of
+H2S and is the most common method utilized in countries like Peru, where small-scale digesters are
+prevalent. Neither CH4 nor CO2 were aﬀected by the iron ﬁlter, with no signiﬁcant diﬀerences between
+CH4 (p-value = 0.119) and CO2 (p-value = 0.986) concentrations before and after iron ﬁlter treatment.
+In addition, no relationship was determined between the temperature of the digester and the H2S
+removal eﬃciency when using the iron ﬁlter (p-value = 0.301).
+3.4. Economic Analysis of Low-Cost H2S Removal Technologies
+Operational costs, infrastructure costs (packing material, equipment, pumps, iron ﬁlters, and
+piping), energy costs, and maintenance costs were evaluated. The energy cost to run the microaeration
+pump was $0.26/year for microaeration with an air retention time of 4 h based on $0.07kWh−1 (ENEL
+Peruvian company website). There were no energy costs for the iron ﬁlters. The construction and
+material cost for iron ﬁlters ($31.0/year) was higher than for microaeration ($6.5/year). After 4 h,
+microaeration removed 0.25 m3 H2S/year, which was much more eﬃcient than using iron ﬁlters (0.06 m3
+H2S removed/year). The operational costs were $27/m3 H2S removed/year for 4 h microaeration and
+$382/m3 H2S removed/year for iron ﬁlters. The operational cost of iron ﬁlters was higher due to adding
+new iron material 36 times/year due to the material wear, lost eﬃciency, and oxidation.
+Iron shavings or sponges can be periodically regenerated by exposing the chips to 8% O2, but this
+process is highly exothermic and should be carefully monitored [58]. Moreover, it has been shown that
+the regeneration eﬃciency decreases each time, with substrate replacement needed once saturation
+occurs [58]. In addition, each time the substrate is discarded and replaced, waste is generated,
+which must be disposed of properly. Moreover, a higher biogas generation rate will have a higher
+material cost and disposal cost due to higher replacement needs [58]. The microaeration technique
+has several advantages over iron ﬁlters, including simplicity, cost, and achieving an eﬃciency of up
+to 100%. In addition, it does not generate toxic waste nor are chemical reagents needed to use this
+technique. Microaeration can be conducted directly inside the anaerobic reactor or in a separate reactor.
+With either method, elemental sulfur can be produced and deposited on the walls of the digester or
+microaeration reactor. These sulfur deposits may need to be removed, if built up over time, but can be
+used as a fertilizer. Reduction in the percentage of CH4 in the biogas does occur due to the N2 dilution
+with air injection [59].
+A previous study [60] reported a cost of $0.015/m3 biogas for biological treatment using an
+industrial-scale biotrickling ﬁlter, and $0.027/m3 biogas with FeCl3 chemical oxidation treatment,
+which are both lower than our study ($0.09/m3 biogas for microaeration and $0.41/m3 biogas for
+iron ﬁlter) using small-scale systems [61,62]. Active carbon use had higher costs ($0.13/m3 biogas)
+for removing H2S [10]. Microaeration appears to be cost competitive compared to market available,
+large-scale, H2S removal technologies for use in small-scale systems in countries such as Peru, and was
+shown to be more eﬃcient than using iron ﬁlters.
+4. Conclusions
+The introduction of small amounts of ambient air (1–3%) into biogas storage allowed for the
+removal of more than 3000 ppm H2S daily from the produced biogas, often reaching a H2S concentration
+
+
+[PDF page 11]
+Energies 2020, 13, 4793
+11 of 14
+lower than the detection level (1 ppm). Microaeration H2S removal also remained stable during the 50
+day experiment, while the iron ﬁlter treatment eﬃciency decreased over time. Eﬃciencies of 100%
+H2S removal were achieved with the microaeration method, while a maximum eﬃciency of only
+70.2% was obtained with the iron ﬁlter system, decreasing to 13.4% H2S removal eﬃciency after 50
+days. The costs for the desulfurization process using the iron ﬁlter system ($382/m3 H2S removed) in
+small-scale digesters in Peru were higher than for the microaeration method ($27/m3 H2S removed),
+yet most small-scale digester operators continue to use iron ﬁlter systems in Peru. This study should
+help illustrate the quantiﬁable beneﬁts of microaeration for H2S removal compared to iron ﬁlters.
+Author Contributions: Conceptualization, J.K.H. and L.Q.; methodology, J.K.H. and L.Q.; formal analysis, J.K.H.,
+L.Q., A.H., and S.L.; investigation, J.K.H. and L.Q.; resources, J.K.H., L.Q., and S.L.; data curation, J.K.H., L.Q.,
+A.H., and S.L.; writing—original draft preparation, J.K.H.; writing—review and editing, J.K.H., A.H., and S.L.;
+visualization, J.K.H. and A.H.; supervision, S.L.; funding acquisition, J.K.H. All authors have read and agreed to
+the published version of the manuscript.
+Funding: This research was funded by SNV Netherlands Development Organisation and the FondeCYT
+scholarship fund.
+Acknowledgments: We want to thank Andreas Lemmer for the technical support in the experimental part and
+his valuable discussion.
+Conﬂicts of Interest: The authors declare no conﬂict of interest. The funders had no role in the design of the
+study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to
+publish the results.
+References
+1.
+Arif, S.; Liaquat, R.; Adil, M. Applications of materials as additives in anaerobic digestion technology. Renew.
+Sustain. Energy Rev. 2018, 97, 354–366. [CrossRef]
+2.
+Schieder, D.; Quicker, P.; Schneider, R.; Winter, H.; Prechtl, S.; Faulstich, M. Microbiological removal of
+hydrogen sulﬁde from biogas by means of a separate bioﬁlter system: Experience with technical operation.
+Water Sci. Technol. 2003, 48, 209–212. [CrossRef]
+3.
+Nägele, H.J.; Steinbrenner, J.; Hermanns, G.; Holstein, V.; Haag, N.L.; Oechsner, H. Innovative additives for
+chemical desulphurisation in biogas processes: A comparative study on iron compound products. Biochem.
+Eng. J. 2017. [CrossRef]
+4.
+Wu, J.; Liu, D.; Zhou, W.; Liu, Q.; Huang, Y. High-Temperature H2S Removal from IGCC Coarse Gas; Springer:
+Berlin/Heidelberg, Germany, 2018; ISBN 9811068178.
+5.
+Shelford, T.; Gooch, C.; Choudhury, A.; Lansing, S. A Technical Reference Guide for Dairy-Derived Biogas
+Production, Treatment, and Utilization. 2019. Available online: https://go.umd.edu/FarmerBiogasHandbook
+(accessed on 13 September 2020).
+6.
+Choudhury, A.; Shelford, T.; Felton, G.; Gooch, C.; Lansing, S. Evaluation of hydrogen sulﬁde scrubbing
+systems for anaerobic digesters on two U.S. dairy farms. Energies 2019, 12, 4605. [CrossRef]
+7.
+Choudhury, A.; Lansing, S. Methane and hydrogen sulﬁde production from Co-digestion of gummy waste
+with a food waste, grease waste, and dairy manure mixture. Energies 2019, 12, 4464. [CrossRef]
+8.
+de Arespacochaga, N.; Valderrama, C.; Mesa, C.; Bouchy, L.; Cortina, J.L. Biogas biological desulphurisation
+under extremely acidic conditions for energetic valorisation in Solid Oxide Fuel Cells. Chem. Eng. J. 2014.
+[CrossRef]
+9.
+Awe, O.W.; Zhao, Y.; Nzihou, A.; Minh, D.P.; Lyczko, N. A review of biogas utilisation, puriﬁcation and
+upgrading technologies. Waste Biomass Valorization 2017. [CrossRef]
+10.
+Allegue, L.B.; Hinge, J. Biogas upgrading evaluation of methods for H2S removal. Danish Technol. Inst. 2014.
+[CrossRef]
+11.
+Hassanein, A.; Lansing, S.; Tikekar, R. Impact of metal nanoparticles on biogas production from poultry litter.
+Bioresour. Technol. 2019. [CrossRef]
+12.
+Speight, J.G. Natural Gas: A Basic Handbook; Gulf Professional Publishing: Houston, TX, USA, 2018; ISBN
+9780128095706.
+
+
+[PDF page 12]
+Energies 2020, 13, 4793
+12 of 14
+13.
+Sifuentes, G.; de Dios, J. Empleo y Puriﬁcación del Biogás Producido en Unitrar. Use and Puriﬁcation of the
+Biogas Produced in UNITRAR. 2003. Available online: https://alicia.concytec.gob.pe/vuﬁnd/Record/UUNI_
+69c27d0927f487a5461d296441b87ed2/Description#tabnav (accessed on 13 September 2020).
+14.
+Dupnock, T.L.; Deshusses, M.A. Biological Co-treatment of H2S and reduction of CO2 to methane in an
+anoxic biological trickling ﬁlter upgrading biogas. Chemosphere 2020, 256, 127078. [CrossRef]
+15.
+Kulkarni, M.B.; Ghanegaonkar, P.M. Hydrogen sulﬁde removal from biogas using chemical absorption
+technique in packed column reactors. Glob. J. Environ. Sci. Manag. 2019. [CrossRef]
+16.
+Zhang, Y.; Oshita, K.; Kusakabe, T.; Takaoka, M.; Kawasaki, Y.; Minami, D.; Tanaka, T. Simultaneous removal
+of siloxanes and H2S from biogas using an aerobic biotrickling ﬁlter. J. Hazard. Mater. 2020. [CrossRef]
+[PubMed]
+17.
+Raabe, T.; Mehne, M.; Rasser, H.; Krause, H.; Kureti, S. Study on iron-based adsorbents for alternating
+removal of H2S and O2 from natural gas and biogas. Chem. Eng. J. 2019. [CrossRef]
+18.
+Schiavon Maia, D.C.; Niklevicz, R.R.; Arioli, R.; Frare, L.M.; Arroyo, P.A.; Gimenes, M.L.; Pereira, N.C.
+Removal of H2S and CO2 from biogas in bench scale and the pilot scale using a regenerable Fe-EDTA solution.
+Renew. Energy 2017. [CrossRef]
+19.
+Montalvo, S.; Huiliñir, C.; Borja, R.; Castillo, A.; Pereda, I. Anaerobic digestion of wastewater rich in sulfate
+and sulﬁde: Eﬀects of metallic waste addition and micro-aeration on process performance and methane
+production. J. Environ. Sci. Heal. Part A Toxic/Hazard. Subst. Environ. Eng. 2019. [CrossRef] [PubMed]
+20.
+Choudhury, A.; Lansing, S. Biochar addition with Fe impregnation to reduce H2S production from anaerobic
+digestion. Bioresour. Technol. 2020. [CrossRef]
+21.
+Verbeeck, K.; De Vrieze, J.; Biesemans, M.; Rabaey, K. Membrane electrolysis-assisted CO2 and H2S extraction
+as innovative pretreatment method for biological biogas upgrading. Chem. Eng. J. 2019. [CrossRef]
+22.
+Nishimura, S.; Yoda, M. Removal of hydrogen sulﬁde from an anaerobic biogas using a big-scrubber. Water
+Sci. Technol. 1997, 36, 349–356. [CrossRef]
+23.
+Krayzelova, L.; Bartacek, J.; Díaz, I.; Jeison, D.; Volcke, E.I.P.; Jenicek, P. Microaeration for hydrogen sulﬁde
+removal during anaerobic treatment: A review. Rev. Environ. Sci. Biotechnol. 2015. [CrossRef]
+24.
+Cano, P.I.; Brito, J.; Almenglo, F.; Ramírez, M.; Gómez, J.M.; Cantero, D. Inﬂuence of trickling liquid velocity,
+low molar ratio of nitrogen/sulfur and gas-liquid ﬂow pattern in anoxic biotrickling ﬁlters for biogas
+desulfurization. Biochem. Eng. J. 2019. [CrossRef]
+25.
+Wu, J.; Jiang, X.; Jin, Z.; Yang, S.; Zhang, J. The performance and microbial community in a slightly alkaline
+biotrickling ﬁlter for the removal of high concentration H2S from biogas. Chemosphere 2020. [CrossRef]
+26.
+Ángeles Torres, R.; Marín, D.; Rodero, M.d.R.; Pascual, C.; González-Sanchez, A.; de Godos Crespo, I.;
+Lebrero, R.; Torre, R.M. Biogas treatment for H2S, CO2, and other contaminants removal. In From Bioﬁltration
+to Promising Options in Gaseous Fluxes Biotreatment; Elsevier: Amsterdam, The Netherlands, 2020. [CrossRef]
+27.
+Vikrant, K.; Kailasa, S.K.; Tsang, D.C.W.; Lee, S.S.; Kumar, P.; Giri, B.S.; Singh, R.S.; Kim, K.H. Bioﬁltration of
+hydrogen sulﬁde: Trends and challenges. J. Clean. Prod. 2018. [CrossRef]
+28.
+Khanongnuch, R.; Di Capua, F.; Lakaniemi, A.M.; Rene, E.R.; Lens, P.N.L. Transient–state operation of an
+anoxic biotrickling ﬁlter for H2S removal. J. Hazard. Mater. 2019. [CrossRef]
+29.
+Khanongnuch, R.; Di Capua, F.; Lakaniemi, A.M.; Rene, E.R.; Lens, P.N.L. H2S removal and microbial
+community composition in an anoxic biotrickling ﬁlter under autotrophic and mixotrophic conditions. J.
+Hazard. Mater. 2019. [CrossRef] [PubMed]
+30.
+Meier, L.; Stará, D.; Bartacek, J.; Jeison, D. Removal of H2S by a continuous microalgae-based photosynthetic
+biogas upgrading process. Process. Saf. Environ. Prot. 2018. [CrossRef]
+31.
+Haosagul, S.; Prommeenate, P.; Hobbs, G.; Pisutpaisal, N. Sulﬁde-oxidizing bacteria community in full-scale
+bioscrubber treating H2S in biogas from swine anaerobic digester. Renew. Energy 2020. [CrossRef]
+32.
+Cheng, Y.; Yuan, T.; Deng, Y.; Lin, C.; Zhou, J.; Lei, Z.; Shimizu, K.; Zhang, Z. Use of sulfur-oxidizing bacteria
+enriched from sewage sludge to biologically remove H2S from biogas at an industrial-scale biogas plant.
+Bioresour. Technol. Reports 2018. [CrossRef]
+33.
+Mulbry, W.; Lansing, S.; Coker, A.C. Microaeration reduces hydrogen sulﬁde in biogas. Biocycle 2017, 58,
+57–59.
+34.
+Khoshnevisan, B.; Tsapekos, P.; Alfaro, N.; Díaz, I.; Fdz-Polanco, M.; Raﬁee, S.; Angelidaki, I. A review on
+prospects and challenges of biological H2S removal from biogas with focus on biotrickling ﬁltration and
+microaerobic desulfurization. Biofuel Res. J. 2017. [CrossRef]
+
+
+[PDF page 13]
+Energies 2020, 13, 4793
+13 of 14
+35.
+Zhu, H.L.; Papurello, D.; Gandiglio, M.; Lanzini, A.; Akpinar, I.; Shearing, P.R.; Manos, G.; Brett, D.J.L.;
+Zhang, Y.S. Study of H2S removal capability from simulated biogas by using waste-derived adsorbent
+materials. Processes 2020, 8, 1030. [CrossRef]
+36.
+Scarlat, N.; Dallemand, J.F.; Fahl, F. Biogas: Developments and perspectives in Europe. Renew. Energy 2018.
+[CrossRef]
+37.
+Hjort-Gregersen, K. Market Overview Micro Scale Digesters; AgroTEch A/S: Aarhus, Denmark, 2015.
+38.
+Matus, F.J.; Escudey, M.; Förster, J.E.; Gutiérrez, M.; Chang, A.C. Is the Walkley–Black method suitable for
+organic carbon determination in Chilean volcanic soils? Commun. Soil Sci. Plant Anal. 2009, 40, 1862–1872.
+[CrossRef]
+39.
+Kjeldahl, C. A new method for the determination of nitrogen in organic matter. Z. Anal. Chem. 1883, 22,
+366–382. [CrossRef]
+40.
+American Public Health Association (APHA). Standard Methods for the Examination of Water and Wastewater,
+21st ed.; APHA: Washington, DC, USA, 2005; ISBN 0875532357.
+41.
+Association, A.P.H.; Association, A.W.W.; Federation, W.P.C.; Federation, W.E. Standard Methods for the
+Examination of Water and Wastewater; American Public Health Association: Washington DC, USA, 1915;
+Volume 2, ISBN 8755-3546.
+42.
+Hurtado, A.; Salamanca, J. Búsqueda de bacterias oxidadoras de ácido sulfhídrico para su potencial uso en la
+producción de biogás de alta pureza. Rev. Investig. Agrar. Ambient. 2017, 9, 295–304. [CrossRef]
+43.
+Kohl, A.L.; Nielsen, R. Gas Puriﬁcation; Elsevier: Amsterdam, The Netherlands, 1997; ISBN 0080507204.
+44.
+Zicari, S.M. Removal of Hydrogen Sulﬁde from Biogas Using Cow-Manure Compost. Ph.D. Thesis, Cornell
+University, New York, NY, USA, 2003.
+45.
+van der Zee, F.P.; Villaverde, S.; García, P.A.; Fdz.-Polanco, F. Sulﬁde removal by moderate oxygenation of
+anaerobic sludge environments. Bioresour. Technol. 2007. [CrossRef]
+46.
+Ramos, I.; Pérez, R.; Fdz-Polanco, M. Microaerobic desulphurisation unit: A new biological system for the
+removal of H2S from biogas. Bioresour. Technol. 2013. [CrossRef]
+47.
+Schneider, R.; Quicker, P.; Anzer, T.; Prechtl, S.; Faulstich, M. Grundlegende Untersuchungen zur
+eﬀektiven, Kostengünstigen Entfernung von Schwefelwasserstoﬀaus Biogas–Biogasanlagen:
+Anforderungen
+zur Luftreinhaltung; Bayerisches Landesamt für Umweltschutz: Augsburg, Germany, 2002; pp. 25–41.
+Available online: http://www.link-infos.de/Natur-Links-Energie-Biogas-Biogasanlagen-Anforderungen-
+Luftreinhaltung.pdf (accessed on 13 September 2020).
+48.
+Ramos, I.; Peña, M.; Fdz-Polanco, M. Where does the removal of H2S from biogas occur in microaerobic
+reactors? Bioresour. Technol. 2014. [CrossRef]
+49.
+Köchermann, J.; Schneider, J.; Matthischke, S.; Rönsch, S. Sorptive H2S removal by impregnated activated
+carbons for the production of SNG. Fuel Process. Technol. 2015. [CrossRef]
+50.
+Díaz, I.; Lopes, A.C.; Pérez, S.I.; Fdz-Polanco, M. Determination of the optimal rate for the microaerobic
+treatment of several H2S concentrations in biogas from sludge digesters. Water Sci. Technol. 2011. [CrossRef]
+51.
+Klok, J.B.M.; de Graaﬀ, M.; van den Bosch, P.L.F.; Boelee, N.C.; Keesman, K.J.; Janssen, A.J.H. A physiologically
+based kinetic model for bacterial sulﬁde oxidation. Water Res. 2013. [CrossRef]
+52.
+Giordano, A.; Di Capua, F.; Esposito, G.; Pirozzi, F. Long-term biogas desulfurization under diﬀerent
+microaerobic conditions in full-scale thermophilic digesters co-digesting high-solid sewage sludge. Int.
+Biodeterior. Biodegrad. 2019. [CrossRef]
+53.
+Brune, D.C. Isolation and characterization of sulfur globule proteins from chromatium vinosum and
+Thiocapsa roseopersicina. Arch. Microbiol. 1995. [CrossRef] [PubMed]
+54.
+Steudel, R. Mechanism for the formation of elemental sulfur from aqueous sulﬁde in chemical and
+microbiological desulfurization processes. Ind. Eng. Chem. Res. 1996. [CrossRef]
+55.
+Schlegel, H.G. General Microbiology, 7th ed.; Cambridge University Press: Cambridge, UK, 1993.
+56.
+Mahdy, A.; Song, Y.; Salama, A.; Qiao, W.; Dong, R. Simultaneous H2S mitigation and methanization
+enhancement of chicken manure through the introduction of the micro-aeration approach. Chemosphere 2020.
+[CrossRef]
+57.
+Fernández, M. Desulfuración de Biogás en Condiciones Anóxicas Mediante Bioﬁltración. Ph.D. Thesis,
+Universidad de Cádiz, Cádiz, Spain, 2011.
+
+
+[PDF page 14]
+Energies 2020, 13, 4793
+14 of 14
+58.
+McCollam, S.W. Viability for Oxidation of H2S Gas Using Low Concentration Solutions of H2O2 Peroxide in
+Applications for Biogas Puriﬁcation. Master’s Thesis, University of Louisville, Kentucky, KY, USA, 2009.
+Available online: https://ir.library.louisville.edu/etd/937/ (accessed on 13 September 2020).
+59.
+Pokorna-Krayzelova, L.; Bartacek, J.; Vejmelkova, D.; Alvarez, A.A.; Slukova, P.; Prochazka, J.; Volcke, E.I.P.;
+Jenicek, P. The use of a silicone-based biomembrane for microaerobic H2S removal from biogas. Sep. Purif.
+Technol. 2017. [CrossRef]
+60.
+Tomàs, M.; Fortuny, M.; Lao, C.; Gabriel, D.; Lafuente, J.; Gamisans, X. Technical and economical study of a
+full-scale biotrickling ﬁlter for H2S removal from biogas. Water Pract. Technol. 2009. [CrossRef]
+61.
+Thompson, K.A.; Shimabuku, K.K.; Kearns, J.P.; Knappe, D.R.U.; Summers, R.S.; Cook, S.M. Environmental
+comparison of biochar and activated carbon for tertiary wastewater treatment. Environ. Sci. Technol. 2016.
+[CrossRef] [PubMed]
+62.
+Surra, E.; Costa Nogueira, M.; Bernardo, M.; Lapa, N.; Esteves, I.; Fonseca, I. New adsorbents from maize
+cob wastes and anaerobic digestate for H2S removal from biogas. Waste Manag. 2019. [CrossRef]
+© 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).
