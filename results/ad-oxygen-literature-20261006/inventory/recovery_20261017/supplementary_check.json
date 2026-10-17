@@ -130,7 +130,7 @@
   },
   "R07238": {
     "record_id": "R07238",
-    "checked_at_utc": "2026-10-17T08:50:39.706490+00:00",
+    "checked_at_utc": "2026-10-17T09:33:11.290095+00:00",
     "article_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/fullTextXML",
     "official_files": [],
     "external_data_links": [],
@@ -148,7 +148,11 @@
         "expected_md5": ""
       }
     ],
-    "status": "partial_or_access_failed"
+    "status": "access_failed",
+    "publisher_checked_this_run": true,
+    "publisher_url": "https://doi.org/10.1016/j.ultsonch.2021.105531",
+    "reason": "CONNECT403",
+    "source_request_skipped_due_to_known_publisher_pause": true
   },
   "R03477": {
     "record_id": "R03477",
@@ -1737,5 +1741,51 @@
     "status": "access_failed",
     "reason": "CONNECT403",
     "source_request_skipped_due_to_known_publisher_pause": true
+  },
+  "R07641": {
+    "record_id": "R07641",
+    "official_files": [],
+    "external_data_links": [],
+    "publisher_checked_this_run": true,
+    "publisher_url": "https://doi.org/10.1002/bbb.2414",
+    "checked_at_utc": "2026-10-17T09:33:11.292108+00:00",
+    "status": "access_failed",
+    "reason": "Entry unavailable or source cooldown",
+    "source_request_skipped_due_to_known_publisher_pause": false
+  },
+  "R08016": {
+    "record_id": "R08016",
+    "official_files": [],
+    "external_data_links": [],
+    "publisher_checked_this_run": true,
+    "publisher_url": "https://doi.org/10.3390/fermentation8100565",
+    "checked_at_utc": "2026-10-17T09:33:11.366136+00:00",
+    "publisher_title_identity_match": true,
+    "publisher_supplement_landing_pages": [],
+    "publisher_declared_file_links": [],
+    "publisher_failed_file_links": [],
+    "status": "checked_no_file_links_found_coverage_unconfirmed"
+  },
+  "R10673": {
+    "record_id": "R10673",
+    "official_files": [],
+    "external_data_links": [],
+    "publisher_checked_this_run": true,
+    "publisher_url": "https://doi.org/10.1016/j.biortech.2023.130092",
+    "checked_at_utc": "2026-10-17T09:33:15.434398+00:00",
+    "status": "access_failed",
+    "reason": "CONNECT403",
+    "source_request_skipped_due_to_known_publisher_pause": true
+  },
+  "R11094": {
+    "record_id": "R11094",
+    "official_files": [],
+    "external_data_links": [],
+    "publisher_checked_this_run": true,
+    "publisher_url": "https://doi.org/10.1093/femsle/fnaf001",
+    "checked_at_utc": "2026-10-17T09:33:15.435922+00:00",
+    "status": "access_failed",
+    "reason": "Entry unavailable or source cooldown",
+    "source_request_skipped_due_to_known_publisher_pause": false
   }
 }
