@@ -4,13 +4,25 @@ No keyword searches or classification. Preserve every acquired candidate; an
 automated metadata heuristic cannot register a new PDF as verified. Originals
 are backed up every five processed records or ten minutes, whichever is first.
 """
-import argparse, collections, csv, hashlib, io, json, re, time, unicodedata, zipfile
+import argparse, collections, csv, hashlib, io, json, re, time, unicodedata, zipfile, signal
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urlsplit, urljoin
 from bs4 import BeautifulSoup
 import recovery_20261017 as r
 from continue_known_fulltexts import Retriever, Links, normalized
+
+class BoundedRetriever(Retriever):
+    def event(self,event):
+        clean={k:r.safe_url(v) if k in ['url','redirect','final_url'] and isinstance(v,str) else re.sub(r';(?:jsessionid|phpsessid)=[^/?#;\s"\'<>]*','',v,flags=re.I) if isinstance(v,str) else v for k,v in event.items()}
+        return super().event(clean)
+    def get(self,id,url):
+        def deadline(signum,frame):raise TimeoutError('Per-request wall time exceeded')
+        previous=signal.signal(signal.SIGALRM,deadline);signal.alarm(60)
+        try:
+            response=super().get(id,url)
+            return (response[0],r.safe_url(response[1]),response[2]) if response else None
+        finally:signal.alarm(0);signal.signal(signal.SIGALRM,previous)
 
 def rows(name):return r.readcsv(r.ROOT/name)
 def ready():
@@ -29,7 +41,7 @@ def store(id,role,name,data,url,version='',extra=None):
         'original_filename':name,'canonical_path':'','source_local_path':'','historical_sha256':'','archive_parent_asset_id':'','parsing_status':'pending'}
     a.update(preferred_for_record=role=='main',source_repo_path=str(path.relative_to(r.ROOT)),resolved_source_path=str(path),
         format=path.suffix.lstrip('.').lower(),size_bytes=len(data),sha256=digest,availability='present_sha_verified',
-        storage_status='local_acquired_pending_remote_readback',source_url=url,version=version,
+        storage_status='local_acquired_pending_remote_readback',source_url=r.safe_url(url),version=version,
         license_evidence=a.get('license_evidence','Private authorized research backup; source license not inferred'))
     if extra:a.update(extra)
     if role=='main':
@@ -39,11 +51,20 @@ def store(id,role,name,data,url,version='',extra=None):
     r.save(r.ASSETS,assets);return a
 
 def checkpt(message):
-    r.audit();r.parse_files();r.sync(message)
+    # Full library refresh after acquired assets change. Failure-only checkpoints
+    # persist the source ledger without rewriting every workbook and PDF parse.
+    si_state=r.RUN/'supplementary_check.json'
+    def signature():return r.sha(r.ASSETS.read_bytes()+(si_state.read_bytes() if si_state.exists() else b''))
+    current_signature=signature()
+    old=r.load(r.RUN/'last_full_refresh.json',{})
+    if old.get('asset_signature')!=current_signature:
+        r.audit();r.parse_files()
+    r.sync(message)
+    r.save(r.RUN/'last_full_refresh.json',{'asset_signature':signature(),'time_utc':r.now()})
 
 def known():
     ready();out=r.ROOT/'original_files/continuation_20261017';out.mkdir(parents=True,exist_ok=True)
-    worker=Retriever(r.ROOT,out,'existing_included',workers=1)
+    worker=BoundedRetriever(r.ROOT,out,'existing_included',workers=1)
     prior_pause=r.load(r.RUN/'batch_downloads.json',{}).get('paused_hosts',{})
     worker.blocked.update({h:'Paused after earlier source failure in this recovery pass: '+v for h,v in prior_pause.items()})
     previous=r.load(r.ROOT/'methods/audit/scansci_sourcewise_results.json',{})
@@ -158,7 +179,7 @@ def supplementary():
 def publisher_supplements():
     ready();report=r.load(r.RUN/'supplementary_check.json',{})
     out=r.ROOT/'original_files/publisher_checks_20261017';out.mkdir(parents=True,exist_ok=True)
-    worker=Retriever(r.ROOT,out,'publisher_SI',workers=1)
+    worker=BoundedRetriever(r.ROOT,out,'publisher_SI',workers=1)
     for h,v in r.load(r.RUN/'batch_downloads.json',{}).get('paused_hosts',{}).items():worker.blocked[h]='Earlier source failure: '+v
     count=0;checkpoint=time.monotonic()
     suffixes=r'\.(pdf|docx?|xlsx?|csv|tsv|zip|gz|txt|png|jpe?g|tiff?|gif|svg|mp4|avi|mov|mpe?g|webm|r|py|m|c|cpp|fasta|xml|pptx?)$'
@@ -182,7 +203,8 @@ def publisher_supplements():
                 record['publisher_title_identity_match']=identity
                 if identity:
                     # Retain the checked article page as source evidence.
-                    store(id,'evidence_html','publisher_article_page_20261017.html',data,actual,'Publisher/repository article HTML')
+                    safe_html=re.sub(r';(?:jsessionid|phpsessid)=[^/?#;\s"\'<>]*','',html,flags=re.I).encode('utf-8')
+                    store(id,'evidence_html','publisher_article_page_20261017.html',safe_html,actual,'Article HTML with anonymous server session identifiers removed')
                     soup=BeautifulSoup(html,'html.parser');links=[]
                     for anchor in soup.find_all('a',href=True):
                         href=urljoin(actual,anchor['href']);label=(anchor.get_text(' ',strip=True)+' '+anchor.get('title','')+' '+href).lower()

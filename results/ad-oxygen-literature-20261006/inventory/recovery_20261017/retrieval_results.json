@@ -1,6 +1,6 @@
 {
   "R07903": {
-    "time_utc": "2026-10-17T08:29:21.392175+00:00",
+    "time_utc": "2026-10-17T08:42:36.046669+00:00",
     "status": "access_failed",
     "reason": "HTTP_429",
     "url": "https://www.osti.gov/servlets/purl/2386935"
@@ -156,10 +156,19 @@
     "asset_id": "R04889.main.860a0532503787f8"
   },
   "R01212": {
-    "time_utc": "2026-10-17T08:30:10.930878+00:00",
-    "status": "access_failed",
-    "reason": "HTTP_503",
-    "url": "https://www.eeer.org/upload/eer-19-1-59-9.pdf"
+    "time_utc": "2026-10-17T08:42:47.666090+00:00",
+    "status": "downloaded_verified",
+    "checks": {
+      "historical_sha_match": true,
+      "bytes": 773976,
+      "sha256": "ef235fcb491d474970838cf59cfd36efaf9a37c84ddd225c06788beb77d497e3",
+      "pages": 8,
+      "all_pages_parsed": true,
+      "text_chars": 37158,
+      "identity": "previously verified exact source bytes plus current all-page parsing"
+    },
+    "url": "https://www.eeer.org/upload/eer-19-1-59-9.pdf",
+    "asset_id": "R01212.main.ef235fcb491d4749"
   },
   "R05542": {
     "time_utc": "2026-10-17T08:30:12.454272+00:00",
@@ -192,30 +201,21 @@
     "asset_id": "R06611.main.b8eb8afdada2a2d0"
   },
   "R07238": {
-    "time_utc": "2026-10-17T08:40:37.801378+00:00",
-    "status": "downloaded_verified",
-    "checks": {
-      "historical_sha_match": true,
-      "bytes": 14286928,
-      "sha256": "f346f9bdcc964013ecb7c4282d6b30f1ab334e035d98adcc653de1447fbe9a9a"
-    },
-    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/supplementaryFiles",
-    "asset_id": "R07238.supplementary.f346f9bdcc964013"
+    "time_utc": "2026-10-17T08:43:32.912532+00:00",
+    "status": "access_failed",
+    "reason": "TimeoutError",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/supplementaryFiles"
   },
   "R08646": {
-    "time_utc": "2026-10-17T08:30:56.787707+00:00",
+    "time_utc": "2026-10-17T08:44:35.413392+00:00",
     "status": "downloaded_verified",
     "checks": {
       "historical_sha_match": true,
-      "bytes": 3009960,
-      "sha256": "7df5523334e7d1bb513d2a3deb5b018c0c9b2a3ea9e49b7ff8f09a1fe853cd96",
-      "pages": 18,
-      "all_pages_parsed": true,
-      "text_chars": 106973,
-      "identity": "previously verified exact source bytes plus current all-page parsing"
+      "bytes": 42279,
+      "sha256": "cfda7e29b12b97846343963f9f3b64e784bc79644fb1ee1ca31170be78d75327"
     },
-    "url": "https://europepmc.org/api/getPdf?pmcid=PMC10559078",
-    "asset_id": "R08646.main.7df5523334e7d1bb"
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10559078/supplementaryFiles",
+    "asset_id": "R08646.supplementary.cfda7e29b12b9784"
   },
   "R10894": {
     "time_utc": "2026-10-17T08:31:04.572942+00:00",
@@ -428,10 +428,19 @@
     "asset_id": "R13871.main.aeab3126b6e68775"
   },
   "R13877": {
-    "time_utc": "2026-10-17T08:35:40.555622+00:00",
-    "status": "access_failed",
-    "reason": "HTTP_429",
-    "url": "https://escholarship.org/content/qt5572k7rw/qt5572k7rw.pdf"
+    "time_utc": "2026-10-17T08:42:48.336383+00:00",
+    "status": "downloaded_verified",
+    "checks": {
+      "historical_sha_match": true,
+      "bytes": 522402,
+      "sha256": "04a76adc76fa947250861c95c93759c590dd3e02d7f80dc23ce0abedccb74510",
+      "pages": 26,
+      "all_pages_parsed": true,
+      "text_chars": 47938,
+      "identity": "previously verified exact source bytes plus current all-page parsing"
+    },
+    "url": "https://escholarship.org/content/qt5572k7rw/qt5572k7rw.pdf",
+    "asset_id": "R13877.main.04a76adc76fa9472"
   },
   "R13862": {
     "time_utc": "2026-10-17T08:35:42.883758+00:00",
@@ -479,10 +488,19 @@
     "asset_id": "R13903.main.2cd9e7b409250e7b"
   },
   "R13931": {
-    "time_utc": "2026-10-17T08:35:51.909398+00:00",
-    "status": "access_failed",
-    "reason": "HTTP_503",
-    "url": "https://www.eeer.org/upload/eer-2020-470.pdf"
+    "time_utc": "2026-10-17T08:42:56.556827+00:00",
+    "status": "downloaded_verified",
+    "checks": {
+      "historical_sha_match": true,
+      "bytes": 1324593,
+      "sha256": "6e898a403edac7b3ae15ad88cf75788898cd84ea377b2572f7bab40d9c126f8c",
+      "pages": 9,
+      "all_pages_parsed": true,
+      "text_chars": 44498,
+      "identity": "previously verified exact source bytes plus current all-page parsing"
+    },
+    "url": "https://www.eeer.org/upload/eer-2020-470.pdf",
+    "asset_id": "R13931.main.6e898a403edac7b3"
   },
   "R13945": {
     "time_utc": "2026-10-17T08:35:52.995414+00:00",
@@ -545,7 +563,7 @@
     "asset_id": "R13967.main.5e9f84dbaf01dd19"
   },
   "R13972": {
-    "time_utc": "2026-10-17T08:36:39.905173+00:00",
+    "time_utc": "2026-10-17T08:42:56.557633+00:00",
     "status": "access_failed",
     "reason": "HTTP_429",
     "url": "https://www.osti.gov/servlets/purl/2386939"
@@ -671,14 +689,14 @@
     "asset_id": "R13956.main.fedaffcdf5be81e2"
   },
   "R13955": {
-    "time_utc": "2026-10-17T08:38:50.533910+00:00",
+    "time_utc": "2026-10-17T08:43:07.528212+00:00",
     "status": "candidate_not_verified",
     "reason": "historical_SHA_mismatch",
     "checks": {
       "historical_sha_match": false,
       "bytes": 14662119,
-      "sha256": "82d3dd4c7af3e63a708ab83da8c0b4011affe749fea236491c93f91ec4cd59c9",
-      "candidate_path": "original_files/unverified_candidates/R13955/82d3dd4c7af3e63a.pdf",
+      "sha256": "536763265cdc087f2b0941e5305f33d2b98cc70ec29c58af4e238d1801b5fdce",
+      "candidate_path": "original_files/unverified_candidates/R13955/536763265cdc087f.pdf",
       "manual_identity_review_required": true
     },
     "url": "https://lup.lub.lu.se/search/files/30364253/Thesis_Chao_Li_150_dpi.pdf"
@@ -697,5 +715,57 @@
     },
     "url": "https://repositorium.uminho.pt/server/api/core/bitstreams/7262c516-6b14-4001-a173-517d1187c8d9/content",
     "asset_id": "R11596.main.0b2e2d98dffd5449"
+  },
+  "R03477": {
+    "time_utc": "2026-10-17T08:43:00.464402+00:00",
+    "status": "access_failed",
+    "reason": "proxy_CONNECT_403",
+    "url": "https://link.springer.com/content/pdf/10.1186/s13568-017-0375-4.pdf"
+  },
+  "R09804": {
+    "time_utc": "2026-10-17T08:43:00.465317+00:00",
+    "status": "access_failed",
+    "reason": "proxy_CONNECT_403",
+    "url": "https://link.springer.com/content/pdf/10.1186/s40643-024-00756-6.pdf"
+  },
+  "R11844": {
+    "time_utc": "2026-10-17T08:43:00.465918+00:00",
+    "status": "access_failed",
+    "reason": "proxy_CONNECT_403",
+    "url": "https://link.springer.com/content/pdf/10.1007/s00253-025-13519-w.pdf"
+  },
+  "R03155": {
+    "time_utc": "2026-10-17T08:43:05.960004+00:00",
+    "status": "access_failed",
+    "reason": "HTTP_503",
+    "url": "https://dspace.lib.ntua.gr/xmlui/bitstream/handle/123456789/44237/Msc.%20Thesis_Aristotle_Vasileiou%20THE.pdf?sequence=1&isAllowed=y"
+  },
+  "R06036": {
+    "time_utc": "2026-10-17T08:43:05.960951+00:00",
+    "status": "access_failed",
+    "reason": "proxy_CONNECT_403",
+    "url": "https://link.springer.com/content/pdf/10.1007/s42452-020-03247-3.pdf"
+  },
+  "R09240": {
+    "time_utc": "2026-10-17T08:43:07.474016+00:00",
+    "status": "candidate_not_verified",
+    "reason": "historical_SHA_mismatch",
+    "checks": {
+      "historical_sha_match": false,
+      "bytes": 200683,
+      "sha256": "6ac54c3e7798d71375a0a4544693238a647c7669c0fc28133b6ea28d42dce085"
+    },
+    "url": "https://technology.matthey.com/docserver/fulltext/jmtr/67/4/Zimmerman_16a_Imp.pdf?expires=1791804248&id=id&accname=guest&checksum=934385598F9DDA2349B917F1B50C4858"
+  },
+  "R03161": {
+    "time_utc": "2026-10-17T08:44:41.713512+00:00",
+    "status": "downloaded_verified",
+    "checks": {
+      "historical_sha_match": true,
+      "bytes": 59018,
+      "sha256": "466f3a1e78e8b0f148b1f28f97b61f7134c61488c837c5c5a26ef7316cebc1e9"
+    },
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5627928/fullTextXML",
+    "asset_id": "R03161.evidence_xml.466f3a1e78e8b0f1"
   }
 }

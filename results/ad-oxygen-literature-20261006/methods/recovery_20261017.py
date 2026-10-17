@@ -19,6 +19,12 @@ RUN=ROOT/'inventory/recovery_20261017'
 ASSETS=ROOT/'inventory/assets.json'
 
 def now():return datetime.now(timezone.utc).isoformat()
+def safe_url(url):
+    url=re.sub(r';(?:jsessionid|phpsessid)=[^/?#;]*','',url,flags=re.I)
+    parsed=urllib.parse.urlsplit(url)
+    sensitive={'access_token','api_key','apikey','authorization','password','session','sessionid','token'}
+    query=[(k,v) for k,v in urllib.parse.parse_qsl(parsed.query,keep_blank_values=True) if k.lower() not in sensitive]
+    return urllib.parse.urlunsplit((parsed.scheme,parsed.netloc,parsed.path,urllib.parse.urlencode(query),parsed.fragment))
 def sha(data):return hashlib.sha256(data).hexdigest()
 def load(path,default=None):return json.loads(path.read_text()) if path.is_file() else default
 def save(path,data):
@@ -257,7 +263,7 @@ def fetch_bytes(url,paused,last,events,id):
     host=urllib.parse.urlsplit(url).hostname
     if host in paused:return None
     time.sleep(max(0,5-(time.monotonic()-last.get(host,0))))
-    event={'record_id':id,'url':url,'time_utc':now()}
+    event={'record_id':id,'url':safe_url(url),'time_utc':now()}
     def deadline(signum,frame):raise TimeoutError('Per-request wall time exceeded')
     previous_handler=signal.signal(signal.SIGALRM,deadline)
     signal.alarm(60)
@@ -265,7 +271,7 @@ def fetch_bytes(url,paused,last,events,id):
         with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Existing-record literature recovery (polite, 5s per host)'}),timeout=25) as response:
             data=response.read(50*1024*1024+1)
             if len(data)>50*1024*1024:raise ValueError('over 50 MiB; review size/storage before download')
-            event.update(http=response.status,bytes=len(data),content_type=response.headers.get('content-type'),final_url=response.url)
+            event.update(http=response.status,bytes=len(data),content_type=response.headers.get('content-type'),final_url=safe_url(response.url))
             return data
     except Exception as e:
         message=str(e)
@@ -354,8 +360,17 @@ def remote_verify(persist=True):
             if p.is_file() and ('/extracted/' in str(p) or ('/original_files/' in str(p) and p.suffix.lower() in ['.pdf','.zip','.doc','.docx','.xls','.xlsx','.csv','.xml','.html','.jpg','.png','.mp4','.mov','.r','.py'])) and str(p.relative_to(ROOT)) not in known:
                 expected.append({'relative_path':str(p.relative_to(ROOT)),'sha256':sha(p.read_bytes()),'size_bytes':p.stat().st_size,'role':'derived_parse' if '/extracted/' in str(p) else 'acquired_candidate'})
     prefix=str(ROOT.relative_to(REPO))
+    tree=subprocess.check_output(['git','--git-dir',str(bare),'ls-tree','-r','-z','--format=%(objectname) %(path)',commit])
+    blobids={entry.decode().split(' ',1)[1]:entry.decode().split(' ',1)[0] for entry in tree.split(b'\0') if entry}
+    previous={x['relative_path']:x for x in load(RUN/'remote_readback.json',{}).get('checks',[])}
     for row in expected:
         rel=row['relative_path'];cmd=['git','--git-dir',str(bare),'show',commit+':'+prefix+'/'+rel]
+        oid=blobids.get(prefix+'/'+rel);old=previous.get(rel,{})
+        if oid and oid==old.get('remote_blob_oid') and old.get('backed_up') and old.get('sha256')==row['sha256'] and int(old['size_bytes'])==int(row['size_bytes']):
+            checks.append({**row,'size_bytes':int(row['size_bytes']),'remote_commit':commit,'remote_blob_oid':oid,
+                'sha_size_match':True,'readable':True,'backed_up':True,'independent_readback_this_batch':False,
+                'unchanged_git_object_already_read_back':True,'readback_source_commit':old.get('readback_source_commit',old['remote_commit'])})
+            continue
         p=subprocess.run(cmd,stdout=subprocess.PIPE,stderr=subprocess.DEVNULL)
         ok=p.returncode==0 and sha(p.stdout)==row['sha256'] and len(p.stdout)==int(row['size_bytes'])
         readable=True
@@ -368,7 +383,8 @@ def remote_verify(persist=True):
             try:
                 with zipfile.ZipFile(io.BytesIO(p.stdout)) as z:readable=z.testzip() is None
             except Exception:readable=False
-        checks.append({**row,'size_bytes':int(row['size_bytes']),'remote_commit':commit,'sha_size_match':ok,'readable':readable,'backed_up':bool(ok and readable)})
+        checks.append({**row,'size_bytes':int(row['size_bytes']),'remote_commit':commit,'remote_blob_oid':oid,
+            'sha_size_match':ok,'readable':readable,'backed_up':bool(ok and readable),'independent_readback_this_batch':True,'readback_source_commit':commit})
     originals=[r for r in checks if r.get('role') in ['main','supplementary','derived','evidence_xml']]
     report={'time_utc':now(),'remote_commit':commit,'independent_git_database':str(bare),'uses_local_alternates':False,
         'verified_files':sum(r['backed_up'] for r in checks),'files':len(checks),

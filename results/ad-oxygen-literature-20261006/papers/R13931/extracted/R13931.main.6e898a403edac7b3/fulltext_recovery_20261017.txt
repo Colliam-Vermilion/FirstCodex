@@ -1,0 +1,885 @@
+
+[PDF page 1]
+1
+1. Introduction
+Leachate is currently the most technical drawback and the challenge 
+of wastes landfilling worldwide. The commonly used technologies 
+present serious technical problems due to the harmful character 
+of landfill leachates and their high chemical oxygen demand, low 
+biodegradability, high ammonium ions content and acidity, as well 
+as too high salt contents [1-4]. 
+Coupled and multistage treatment is often needed due to a lack 
+of efficient single treatment that could meet legal discharge require-
+ments [1, 5-8]. Coupled processes based on various combinations, 
+particularly nitrification-denitrification, ultrafiltration, nano-
+filtration, and reverse osmosis are the major full scale used tech-
+nologies [9-12]. 
+Due to economic and technical problems, much more attention 
+is being recently accorded to biological treatments [13-17], partic-
+ularly the anaerobic treatments that could allow simultaneously 
+high treatment performance and energy recovery [10, 18, 19]. 
+Although the post-treatment process remained always unavoidable 
+to eliminate salts and inorganic compounds, the anaerobic based 
+technologies are currently very attractive, particularly as pretreat-
+ment and additional landfill on-site energy recovery option at the 
+same time [20]. Recent research findings showed that microbial 
+electrochemical system and the supplementation of granular carbon 
+are a promising methods for enhancing anaerobic digestion (AD) 
+performance and biogas production [21-23]. 
+Anaerobic biodegradation of leachate is similar to the anaerobic 
+processes occurring inside municipal waste landfills and many 
+works showed that landfill leachates are nutrient-rich effluents 
+with methane production potential close to that of many other 
+easy biodegradable effluents such as food wastes leachates and 
+wastewater sewage sludge [24-28]. The methane yield depends 
+on wastes characteristic and digestion conditions, in general, the 
+yield of fresh leachate, food waste and raw sludge vary usually 
+from 0.28 to 0.38, 0.082 to 0.521 and 0.09 to 0.43 L CH4/g VS 
+respectively [29, 30]. Young leachates are commonly highly bio-
+degradable compounds and were reported to be more suitable 
+for anaerobic digestion than the old one [31, 32]. By using either 
+anaerobic membrane reactors, completely stirred tank reactors 
+(CSTR) and up-flow anaerobic sludge blanket reactor (UASB), 
+Environ. Eng. Res. 2022; 27(1): 200470
+pISSN 1226-1025
+https://doi.org/10.4491/eer.2020.470
+eISSN 2005-968X
+Research
+Biogas recovery from fresh landfill leachates by using a coupled 
+air stripping-up follow anaerobic sludge blanket (UASB) process
+Abd-essamad MOUJANNI†, Imane QARRAEY, Aaziz OUATMANE
+Agroressource, Bioenergy and Environment Team, Sciences and Technology Faculty, Sultane Moulay Slimane University, Box 523 Beni Mellal, Morocco
+ABSTRACT
+The present study focuses on fresh leachates treatment using anaerobic digestion. To overcome the unsuitable raw characteristics, appropriate 
+pretreatment conditions were identified based on Batch tests. A subsequently optimized pretreatment-anaerobic two stages UASB coupled treatment 
+was studied. The performance of the overall coupled treatment was assessed by monitoring volatile fatty acids (VFA), COD and ammonium 
+removal, and biogas performance. Results showed that combining acidity correction to short aeration gives a synergetic effect and allowed appropriate 
+anaerobic start-up conditions. Under continuous aerobic pretreatment-UASB digestion, significant removal of NH+
+4 (75.87%), COD (19.14%), and 
+VFA (20.3%) were achieved during the aeration step resulting in the total abatement of 88.66%, 83.6% and 70.39% for NH+
+4, COD, and VFA, 
+respectively. The process allowed good biogas performance up to 2,470 mL biogas/L and 123 mL CH4/gCOD removed, with gradual improvement 
+from the first to the second UASB reactor. Inlet COD and VFA feeding rate seemed to be the main key parameters with 45.37 g COD/L.d and 
+18.43 g VFA/L.d as a critical threshold. Therefore, the anaerobic digestion of high COD leachates is highly feasible and the aerobic–anaerobic 
+coupled treatment is a promising technical scenario that deserves further studies.
+Keywords: Aeration pretreatment, Batch test, Methane, Municipal fresh wastes leachates, UASB
+This is an Open Access article distributed under the terms 
+of the Creative Commons Attribution Non-Commercial License 
+(http://creativecommons.org/licenses/by-nc/3.0/) which per-
+mits unrestricted non-commercial use, distribution, and reproduction in any 
+medium, provided the original work is properly cited.
+Copyright © 2022 Korean Society of Environmental Engineers
+Received August 14, 2020  Accepted December 10, 2020
+† Corresponding author
+E-mail: moujanni01@gmail.com
+Tel: +212649182764   Fax: +212523485201
+ORCID: 0000-0002-6483-7470
+
+
+[PDF page 2]
+Abd-essamad MOUJANNI et al.
+2
+it was reported that anaerobic treatment is the promising way 
+that could reduce significantly the dissolved organic content of 
+raw leachate and allows both technical and economic advantage 
+regarding the overall treatment cost [3, 33-35]. According to many 
+anaerobic UASB fresh leachates treatment, COD removal rate 
+up to 86.3% was always recorded and biogas production rate 
+varies from 0.27 to 0.35 L/g COD removed, with very high CH4 
+content [36]. 
+Even though anaerobic UASB reactors are still of limited use 
+at full scale, the main advantages of UASB technology are associated 
+to its suitability to achieve good performance within large organic 
+feeding range that could cover most landfill leachate’s character-
+istics as confirmed through many lab-scale studies [37, 38]. The 
+simplicity of UASB technology and its convenience to achieve 
+good energy performance under different climatic conditions, as 
+confirmed by most full-scale sewage sludge UASB reactors and 
+wastewaters treatment plants [39-41] make UASB technology very 
+attractive.
+With the new perspective of using the anaerobic process for 
+both treatments and energy recovery purposes, the overall composi-
+tion of landfill leachate is however of great concern. Many leachates 
+constituents are potential inhibitors of anaerobic bacteria and 
+this limit the feasibility and convenience of anaerobic treatment. 
+Volatile fatty acids, ammonia and acidity are usually present at 
+high concentrations that could compromise anaerobic leachate 
+treatment as reported in the literature [42-44]. For young leachates 
+such as those of most developing countries, anaerobic treatment 
+could be a challenging alternative as the anaerobic process may 
+need various pretreatments. Up today, few works have been con-
+secrated to fresh (before dumping) waste leachates recovery and 
+no work was done regarding anaerobic recovery of Moroccan 
+municipal solid wastes leachates. In previous work, we confirmed 
+that codigestion of similar fresh leachates with wastewater is 
+feasible and could be a potential alternative for an eventual central-
+ized treatment at biogas recovery-based wastewater plants in 
+Morocco [45].
+For most Moroccans cities, huge quantities of fresh leachates 
+are daily produced during waste collection and transport, partic-
+ularly during the warm season. Those leachates are usually 
+mixed with landfill leachates, and treated by their recycling 
+or solar evaporation. Fresh wastes leachates are however 
+COD-rich effluents and are easily biodegradable, with interesting 
+biogas recovery potential even though their acidity makes them 
+incompatible with anaerobic digestion. Therefore, landfill 
+on-site energy recovery is an attractive technical scenario for 
+both treatment purpose and optimization of existing landfill 
+biogas recovery installations.
+The present research focuses on this perspective and evaluates 
+the suitability of Moroccans fresh municipal wastes leachates 
+to anaerobic digestion using UASB based treatment. Optimal 
+starting digestion conditions were assessed through preliminary 
+aeration based pretreatment under Batch conditions. Thereafter, 
+the performance of an optimized coupled aeration-UASB process 
+was investigated and assessed based on COD, ammonium, and 
+VFA removal rate and biogas and methane specific yields 
+monitoring.
+2. Materials and Methods
+2.1. Leachates Sampling and Origin 
+The used leachates in this study were collected before waste dump-
+ing from separate waste collector vehicles at the entrance of the 
+Béni Mellal sanitary landfill (Morocco). The landfill site covers 
+approximately 200,000 m2 and receives about 160 tons of municipal 
+solid wastes per day with an amount of daily fresh leachates pro-
+duction estimated to 20-60 m3, depending on the season. After 
+bulk mixing and two days ambient temperature decantation, the 
+decanted mineral sludge was discarded and the supernatant was 
+sieved to 1 mm to remove suspended material and then stored 
+at 4°C until use. The main characteristic of the prepared fresh leach-
+ates is reported in Table 1. The inoculum was collected from the 
+existing anaerobic digestion wastewaters plant of Khouribga city 
+(Morocco). The fresh leachate composition showed a relatively high 
+level of COD (53.49 ± 1.81 g O2/L) ammonium (852.17 ± 25 mg/L) 
+and acidic pH (4.85 ± 0.52). Likewise, the inoculum was charac-
+terized by a neutral pH (7.5) and total volatile solid content of 
+0.179% (dry basis). It was kept at lab ambient temperature with 
+manual intermittent stirring and was used as-is for all AD tests.
+Table 1. Characteristics of Fresh Leachate from Béni Mellal City Sanitary 
+Landfill
+Parameters
+Average value
+Standard deviation
+Temperature
+32.000
+4.00
+pH
+4.850
+0.52
+Conductivity (mS/cm)
+25.690
+1.32
+VS (g/L)
+38.000
+0.80
+COD (gO2/L)
+53.490
+1.81
+NTK (g/L) 
+2.960
+85.00
+VFA (g (acetic acid)/L)
+23.020
+0.75
+Ammonium (mg/L)
+852.170
+25.00
+Cd (mg/L)
+0.019
+0.004
+Pb (mg/L)
+0.330
+0.14
+Cu (mg/L)
+1.560
+0.01
+Zn (mg/L)
+6.500
+1.45
+Fe (mg/L)
+4.510
+1.50
+2.2. Aerobic Pretreatment
+To determine appropriate pretreatments conditions that could allow 
+anaerobic digestion, to be consequently applied as a pretreatment 
+before UASB treatment, a preliminary experiment was carried out 
+using Batch tests. Pretreatments were based on both the fundamental 
+main starting conditions of AD (organic loading rate, ammonium 
+content and Acidity) commonly  reported in literature [46] and 
+according to recent pretreatment investigations finding that recom-
+mended air striping and acidity correction among other parameters 
+[47]. The objective was to identify appropriate start-up conditions 
+while using non-diluted leachates. Applied pretreatments were 
+consequently limited to acidity correction, 48 h air stripping as 
+
+
+[PDF page 3]
+Environmental Engineering Research 27(1) 200470
+3
+recommended by other auteurs [47-49], and their combination as 
+illustrated in Table 2. A test containing only inoculum and distilled 
+water was conducted under the same conditions and was used 
+as control pretreatment.
+The used Batch reactors were 1.5 L total volume of and 1.3 L 
+working volume and were equipped with a gas-tight bag for biogas 
+accumulation. After the pretreatment step, each reactor was in-
+oculated by 100 mL of inoculum and bubbled by nitrogen N2 for 
+5 mn and then maintained at mesophilic temperature (37 ± 2°C) 
+using a water lab bath. The produced biogas was measured every 
+3 days interval by the water displacement method. For a better 
+description of biogas production kinetic, cumulative biogas data 
+were fitted to Modified Gompertz equation [50-52] using Eq. (l)
+(1)
+Where, P is the cumulative biogas, A is the maximum biogas 
+production potential (mL biogas. g-1 VS removed);  is the specific 
+rate constant (mL biogas. g-1 VS removed. d-1); and  is the lag 
+time (d). The three parameters (A,  and ) were estimated by 
+curve fitting using the MATLAB program.
+2.3. UASB Digestion Based Treatment
+UASB treatment process was based on Batch pretreatment results 
+and consisted of acidity correction-air stripping pretreatment that 
+was coupled to two steps UASB reactors (UASBR1 and UASBR2) 
+in a continuous coupled process as described in Fig. 1. UASB 
+was chosen due to its convenience to support high organic loading 
+and the possibility of leachates treatment without additional dilu-
+tion pretreatment need.
+Pretreatment step was done using 10 L capacity Pilote Aerobic 
+Reactor (model SGI) that allows continuous feeding of the UASB 
+step by pretreated leachates (continuous control of pH correction, 
+air stripping flow and temperature). UASB treatment step was com-
+posed of two circulars PVC reactors having 78 cm height and 7 cm 
+diameter offering a total volume of 3 L each one, with conic 
+Fig. 1. Coupled air stripping and UASB continuous process setup under 
+mesophic temperature conditions.
+separators to improve liquid/biogas separation and prevent sludge 
+washing-out. The two UASB reactors were initially inoculated with 
+100 mL of inoculum and were first operated at Batch mode for 
+one month start-up period and then at continuous mode at a hydraul-
+ic retention time (HRT) of 24 h for additional 20 d until anaerobic 
+steady-state conditions achievement. Therefore, HRT was increased 
+to 36 h and then decreased to 24 h and 12 h while keeping digestion 
+for one month period for each HRT. Organic loadings were kept 
+within Batch tests range and the resulting up-flow velocity was 
+at low values discarding biomass washing risk (Table 3). UASB 
+digestion step was operated at mesophilic conditions 37 ± 2°C 
+using water bath dispositive. During the overall AD period, biogas 
+was determined by water displacement method and leachates were 
+sampled by syringe twice a week at the following steps: raw fresh 
+leachates, pretreated leachates, UASB-R1 treated leachates and 
+UASB-R2 treated leachates (outlet effluents) as shown in Fig. 1. 
+The performance of the whole anaerobic-aerobic process was as-
+sessed by monitoring COD, ammonium and VFA removals and 
+through volumetric biogas yield and composition.
+Table 2. Batch Pretreatments Conditions and Gompertz Model Kinetic Obtained for Different Pretreatments Tests under Mesophilic Temperature
+Conditions 
+Reactor code
+Anaerobic sludge inoculation*
+pH correction to 7.5 (KOH 0.1 N)
+Air stripping (48 h)
+R0 (Blanc Reactor) 
++
+–
+–
+RpH 
++
+–
++
+RO2
++
++
+–
+RpH+O2 
++
++
++
+Kinetic parameters associated with the Gompertz model
+r2
+A (mL/gVS)
+μ (mL/gVS.d)
+λ (d)
+R0 (Blanc Reactor)
+ND
+ND
+ND
+ND
+RO2 
+0.9978
+29.21
+1.08
+24.59
+RpH
+0.9976
+11.65
+0.69
+33.73
+RpH+O2
+0.9998
+108.77
+3.99
+19.45
+*inoculum from anaerobic wastewaters Plan of Khouribga city, Morocco
++: Yes , –: No, ND: not determined
+
+
+[PDF page 4]
+Abd-essamad MOUJANNI et al.
+4
+2.4. Analytical Methods 
+All the analytical analysis were done according to standard methods 
+[53, 54]. Total nitrogen and ammonium concentration were de-
+termined by classical digestion and Kjeldahl distillation and 
+titration. COD and VFA were measured using the titrimetric and 
+titration methods respectively. Volatiles solid content was de-
+termined after samples overnight ignition at 550°C, and heavy 
+metals concentrations were determined on ash by Inductively 
+Coupled Plasma Atomic Emission Spectroscopy (CP-AES CP 
+Optima 8300DV). Volumetric determination of biogas was done 
+using lab water displacement column that allowed biogas yield 
+at normal atmospheric pressure (1atm). Biogas composition was 
+done using portable Biogas Multitec ® 540 gas analyzer for CH4, 
+CO2, O2 and H2S free moisture determination. Biogas volumes 
+were determined at lab temperature and converted to standard 
+conditions (273.15 K and 1 atm) using the ideal gas law (PV = 
+nRT).
+3. Results and Discussion 
+3.1. Leachates Composition and Characteristics 
+During the warm season, biodegradation of household waste is 
+generally fast and lead to the production of important volumes 
+of fresh leachates during waste collection and transport in most 
+Moroccan cities. To investigate the suitability of these effluents 
+to anaerobic recovery, samples were analyzed and the main parame-
+ters are listed in Table 1. The studied leachates were characterized 
+by very low pH (4.85) and high volatile fatty acids contents (23.02 
+± 0.75 g/L). Concentrations of COD (53.49 ± 1.81 g/L) and total 
+nitrogen and ammonium (852.17 ± 25 mg/L) were also relatively 
+high, compared to that of common landfill leachates [6] including 
+Moroccans landfills leachates [55]. The ratio COD/NTK was also 
+close to 17 and was within the optimal range (16 to 30) for bacteria 
+growth [56]. Metallic ions, heavy metals and electrical conductivity 
+showed values at non-limiting ranges. The overall composition 
+was characteristic of leachates from biowaste being at advanced 
+hydrolysis stage.  
+From a biological treatment point of view, it is clear that both 
+COD content and ammonium and total nitrogen content were suit-
+able for anaerobic recovery treatments [57] and may lead to im-
+portant biogas recovery. However, the acidity character of these 
+leachates was a major constraint to anaerobic treatment. Besides, 
+the high biodegradability of these effluents and their high COD 
+and VFA should generally be taken with precaution as this may 
+lead to fast acids accumulation and subsequent inhibition of meth-
+anogenic archaea [57, 58]. 
+3.2. Aerobic Pretreatment 
+Young and fresh leachates are commonly unsuitable to anaerobic 
+digestion unless subjected to the dilution that needs important 
+quantities of waters and produces at the same time huge volumes 
+of effluents.  To overcome this problem, while using non-diluted 
+fresh leachates, a pretreatment test based on acidity correction 
+and aerobic treatment was investigated. The obtained results are 
+reported in Fig. 2. Control reactor containing the only 100 mL 
+of inoculum has produced negligible biogas (data not shown) and 
+this was obviously attributed to its low organic carbon content. 
+Untreated leachates (Reactor R0) were also highly acid and this 
+was unfavorable and inhibits totally the anaerobic digestion process. 
+a
+b
+Fig. 2. Batch daily biogas production (a) and cumulative production 
+simulated by the Modified Gompertz model (b) as a function 
+of different pretreatment under mesophilic temperature conditions.
+Table 3. Principal Geometrical Characteristics and Operational Parameters of UASB Reactors as a Function of Different HRT 
+Times (d)
+HRT (h)
+Flow rate (L/h)
+Up flow velocity (m/h)
+Average OLR (g COD/L.d)
+UASB-R1
+UASB-R2
+1-30
+36
+0.0833
+0.0139
+27.28 ± 1.30
+12.32 ± 1.36
+30-60
+24
+0.1250
+0.0208
+45.37 ± 1.12
+17.72 ± 1.44
+60-90
+12
+0.2500
+0.0417
+86.93 ± 1.92
+49.20 ± 1.89
+
+
+[PDF page 5]
+Environmental Engineering Research 27(1) 200470
+5
+On the opposite, pH correction and air stripping, pretreatments 
+had shown a significant positive effect and allowed leachates to 
+undergo anaerobic digestion. Without pH correction, it was noticed 
+that entering the anaerobic process took longer with the shortest 
+period of biogas production. On the contrary, acidity correction 
+without aeration gives relatively high biogas yield and short acclima-
+tion period at the same time. The highest biogas yield was however 
+achieved when leachates were submitted to the combination of 
+the two pretreatments (Reactor RpH+O2). 
+Plots of cumulative recorded biogas yields and potential accord-
+ing to the Gompertz model confirmed normal biogas production 
+kinetic with highly significant correlation coefficient (R2 = 0,999) 
+between experimental and predicted data (Fig. 2 and Table 2). 
+Data comparison showed an obvious synergetic effect in case of 
+a combination of acidity correction and air stripping with the max-
+imum biogas potential and maximum daily rate of 108 mL/g VS 
+and 4 mL/g VS.d, respectively. These results agree with various 
+aerobic pretreatment studies for which air stripping induce positive 
+effect due to either ammonia removal or acidity buffer improvement, 
+particularly trough VFA biodegradation [49, 59, 60]. According 
+to the recent work of [47], it seems that ammonium removal during 
+air stripping may also improve the C/N ratio and makes leachates 
+highly biodegradable and suitable for anaerobic bacteria growth. 
+Other authors showed that air stripping stimulates biological con-
+sumption of easy biodegradable compounds and contribute to COD 
+and BOD removal which improves in turn AD and biogas production 
+[61]. Interestingly, the present study showed that aeration had 
+also a meaningful effect since biogas production was possible with-
+out acidity correction. A similar effect was reported by [59] for 
+which intermittent aeration in hybrid bioreactor decreased sig-
+nificantly VFA and increased the pH of leachates to neutral values 
+within 10 weeks, resulting in biogas production stimulation, without 
+acidity correction. It seems that when the pretreatment is limited 
+to aeration, biological acids consumption may be longer but could 
+effectively enhance pH and improve in turn both biodegradation  
+process and anaerobic start-up digestion. The aeration effect was 
+at the same time strongly improved by prior acidity correction. 
+Accordingly, considering the whole physico-chemical composition 
+of the used leachates, it is more likely that the obtained synergetic 
+effect could be associated to the involvement of various parameters 
+including acidity improvement, VFA, COD and ammonium bio-
+degradation, with reciprocal positive effects.
+3.3. UASB Based Treatment 
+The batch study showed that acidity correction and 48h air stripping 
+pretreatment makes anaerobic digestion of acids and COD-rich 
+leachates feasible and improves considerably methane yield and 
+production lag time. The suitability of this pretreatment to leachates 
+recovery was tested through its application at the head of a two-re-
+actor UASB continuous process. The performance of the proposed 
+treatment was assessed taking into account both the anaerobic 
+and aerobic steps and specific effects. 
+3.3.1. VFA, COD and ammonium overall abatement performance 
+Results of VFA and COD monitoring and removal rates as a function 
+of the treatment steps and applied HRT are reported in Fig. 3. 
+The coupled aerobic-anaerobic process showed good overall organic 
+carbon abatement performance with total removal rate in the range 
+of 64 to 70.39% and 72.42 to 83.6% for VFA and COD, respectively. 
+Treatment steps comparison showed that the contribution of the 
+a
+b
+c
+Fig. 3. VFA (a), COD (b) and Ammonium (c) evolution as a function 
+of treatment step and HR under mesophilic temperature 
+conditions.
+
+
+[PDF page 6]
+Abd-essamad MOUJANNI et al.
+6
+aerobic pretreatment to total abatement was significant. Leachates 
+inlet concentrations were reduced at the aerobic step from an average 
+value of 53.49 ± 1.81 g COD/L and 23.02 ± 0.75 g VFA/L to 43.25 
+± 1.97 g COD/L and 18.33 ± 0.61 g VFA/L, respectively. Based 
+on the whole monitoring period (90 d), achieved removal rates 
+at pretreatment step were close to 20.3% ± 2.62 for VFA and 19.14% 
+± 2.37for COD. 
+Ammonium performance removal supported COD and VFA re-
+sults and showed high and stable abatement performance with 
+removal rate that was in the range of 86 to 88.66% (Fig. 3). Contrary 
+to COD and VFA, most ammonium removals were achieved during 
+the aeration pretreatment step resulting in concentration reduction 
+from 852.17 ± 25 to 204.93 ± 20 mg/L and removal rate of 75.95 
+± 2.19%. These results agree with Batch tests findings and con-
+clusions and confirmed that aerobic pretreatment had a positive 
+effect on organic acids metabolism and COD and ammonium bio-
+logical consumption. Although few works had been consecrated 
+to aerobic pretreatment effect regarding leachates anaerobic recov-
+ery, our results agree with most recent available researches as 
+cited above at Batch paragraph. The strong achieved ammonium 
+removal rate may be attributed to intense nitrification and microbial 
+assimilation of ammonium. Similarly, COD and VFA loss at aeration 
+step suggest that a significant proportion of dissolved organic carbon 
+consisted of easy biodegradable compounds. Similar results were 
+reported by [49, 51] for which the application of 2 to 5 days aerobic 
+pretreatment to food waste enhanced both VFA and COD loss and 
+this improved the biochemical methane potential. They stated that 
+aerobic pretreatment stimulates hydrolysis and anticipate thereafter 
+biogas production via shortening the methanogenesis phase. For 
+the present study, it seems that anaerobic pretreatment improved 
+the acidity buffer of leachates while it contributes to significant 
+organic load abatement at the same time.
+Monitoring data showed that the removal process continues 
+at higher rates during the anaerobic UASB step, resulting in sig-
+nificant overall removals performances. Depending on HRT and 
+UASB stage, recorded removal rates were in the range of 42.9% 
+± 3.2 to 49.8% ± 2.3, 53.4% ± 0.013 to 67.5% ± 2.3 and 9.5% 
+± 0.82 to 14.3% ± 2 for VFA, COD and ammonium, respectively. 
+The highest removal values were achieved at 24 h and 36 h HRT 
+followed by 12h HRT. Reactors inlet and outlet concentrations 
+comparison showed that using two UASB stages was advantageous 
+in a sense that up to 20.89% and 19.91% of COD and VFA was 
+removed at the second reactor. Based on total removal, the recorded 
+values were highly significant and were within the common removal 
+range that is usually reported in the literature [57].
+3.3.2. Biogas recovery and performance 
+Results of Biogas yield and composition are reported in Fig. 4. 
+The produced biogas had a high and relatively stable methane 
+rate that varied in a narrow range (68 to 79%) irrespective of HRT 
+and UASB stage. Volumetric biogas yields results showed that 
+the highest yields were recorded at 36 h and 24 h HRT and that 
+decreasing HRT to 12 h had a negative effect. In terms of methane 
+yield, the recorded volumes corresponded to 1.84 ± 0.18, 1.87 
+± 0.1 and 0.22 ± 0.006 L CH4/L of treated leachates and 0.123 
+± 0.004, 0.112 ± 0.003 and 0.015 ± 0.001 L CH4/gCOD removed 
+for 36 h, 24 h and 12 h HRT, respectively. Under favorable conditions 
+which were achieved with 24 h and 36 h HRT, total methane 
+production represents 32 to 35% of the theoretical value of 0.35 L 
+CH4/g COD removed [63]. Compared to similar UASB fresh leachates 
+digestion [57], the recorded biogas had similar to high methane 
+rate but relatively low methane volumetric yield. Likewise, the 
+OLR used is very low (3-16 kgCOD/m3.d) compared to our study 
+and the biogas yields obtained vary between 0.2 to 0.4 m3/kg COD 
+removed. The pretreatment had a positive effect and makes anaerobic 
+digestion significant but it seems that the digestion process was 
+still close to overloading condition, resulting in moderate methane 
+yield. 
+For a better understanding of the anaerobic digestion process, 
+methane yields to removed COD ratios were correlated to the main 
+inlet parameters (COD, VFA and ammonium).  No significant corre-
+lation was found (data not shown) for ammonium and this was 
+attributed to the fact that inlet concentrations varied between 
+118-412 mg/L.d that is totally not limiting range [64]. However, 
+it was observed that the performance of the UASB digestion step 
+was negatively correlated with inlet COD and VFA feeding rates 
+(Fig. 5). Increasing inlet COD feeding load over 45.37 g/L.d and 
+VFA over 18.43 g VFA/L.d, that accompanied HRT decreases to 
+a
+b
+Fig. 4. Daily biogas production (a) and Average biogas composition 
+(b) as function of HRT and UASB steps under mesophilic temper-
+ature conditions.
+
+
+[PDF page 7]
+Environmental Engineering Research 27(1) 200470
+7
+a
+b
+Fig. 5. UASB reactors performance in term of methane to removed 
+COD ratio as a function of COD (a) and VFA (b) feeding rate 
+for the three applied HRT (36 h, 24 h and 12 h).
+12h, reduced considerably the performance of the process. It was 
+clear that shortening HRT makes the digestion process close to 
+the critical overloading range and resulted in poor performance. 
+On the opposite, decreasing organic feeding rate, associated with 
+HRT increase, had a strong linear positive correlation with the 
+performance of the digestion. At the same time, reactors comparison 
+revealed that COD and VFA loss at the first reactor, due to biological 
+consumption, correlated positively with methane recovery perform-
+ance increase from the first to the second reactors. Within favorable 
+feeding rate range, the calculated correlation coefficient between 
+Reactor 1 and 2 were highly significant and were in the range 
+of 0.91-0.99 and 0.90-0.98 for COD and VFA respectively (Fig. 
+5). Therefore, both HRT and UASB stage results agree with the 
+fact that organic feeding rate was the main parameters determining 
+the anaerobic digestion performance. These results agree with most 
+UASB anaerobic digestion studies for which COD is major and 
+key parameters which become usually limiting factors at values 
+closes to 32 g/L.d [57, 65]. Similarly, the VFA critical threshold 
+was reported to vary within a large range depending on digestion 
+conditions and waste characteristics[66-68]. For landfill leachates 
+and food leachates, optimal AD performances were usually recorded 
+at low values. Commonly, AD became severely stressed with VFA 
+rising to 20 g/L [69] and this is in good agreement with our results.  
+It should be highlighted at the same time that qualitative VFA 
+change may also occur with more methane precursor synthesis 
+during the first UASB step, resulting in higher performance at 
+the second step. Additional UASB stage is consequently a valuable 
+option since it may surely improve both biogas yield and COD 
+removal rate. Identification of optimal UASB stage is however still 
+needed and represents a promising research perspective.
+4. Conclusions
+Fresh leachates are a potential source of additional biogas recovery 
+in landfills. These effluents are however highly acid and present 
+high COD load who makes them not suitable to anaerobic digestion. 
+The present study concludes to the fact that acidity correction 
+and short aeration pretreatment improve considerably start-up anae-
+robic digestion conditions trough significant VFA (20.3%), COD 
+(19.14%) and ammonium (75.87%) reduction, and makes anaerobic 
+recovery of COD-rich leachates highly feasible. When the aerobic 
+pretreatment was coupled to the UASB process, the overall treatment 
+achieved significant abatement up to 88.66%, 83.6%, and 70.39% 
+for NH+
+4, COD, and VFA, respectively. Significant and stable biogas 
+production up to 2,470 mL biogas/L and 123 mL CH4/g COD removed, 
+was also possible at the lab scale. The success of the treatment 
+was depending directly on inlet organic load with a critical threshold 
+at 45.37 g COD/L.d and 18.43 g VFA/L.d. Coupling aerobic pretreat-
+ment to anaerobic multistage UASB may, therefore, be an interesting 
+treatment that could contribute to enhancing significantly biogas 
+production in the case of mots Moroccans landfills. At real scale, 
+caution should, however, be taken since the COD and organic 
+load of leachates may present significant seasonal variations and 
+may, therefore, enhance considerably overloading risk and digestion 
+failure. Consequently, deeply investigations to improve both the 
+aerobic and anaerobic stage are still recommended in order to 
+meet real conditions constraints.
+Acknowledgments
+This work was supported by official grant of University Sultan 
+Moulay Slimane, Morocco. Authors are grateful to Casa Technique 
+Company for allowing leachate collection and sampling and 
+Cheriffien Office of Phosphate OCP for providing sludge inoculum.
+Author Contributions
+A.M. (Ph.D. student) conducted all the experiments works and 
+wrote the manuscript. I.Q. (Ph.D. student) revised the manuscript. 
+A.O. (Professor) wrote and revised the manuscript.
+References
+1. Peng Y. Perspectives on technology for landfill leachate 
+treatment. Arab. J. Chem. 2017;10:S2567-S2574.
+
+
+[PDF page 8]
+Abd-essamad MOUJANNI et al.
+8
+2. Sil A, Kumar S. Landfill Leachate Treatment. In: Current 
+Developments in Biotechnology and Bioengineering. Elsevier; 
+2017. p. 391-406. 
+3. Govahi S, Karimi-Jashni A, Derakhshan M. Treatability of land-
+fill leachate by combined upflow anaerobic sludge blanket re-
+actor and aerated lagoon. Int. J. Environ. Sci. Technol. 
+2012;9:145-151.
+4. Renou S, Givaudan JG, Poulain S, Dirassouyan F, Moulin P. 
+Landfill leachate treatment: Review and opportunity. J. Hazard. 
+Mater. 2008;150:468-493.
+5. Ai J, Wu X, Wang Y, Zhang D, Zhang H. Treatment of landfill 
+leachate with combined biological and chemical processes: 
+changes in the dissolved organic matter and functional groups. 
+Environ. Technol. 2017;1-7. 
+6. Renou S, Givaudan JG, Poulain S, Dirassouyan F, Moulin P. 
+Landfill leachate treatment: Review and opportunity. J. Hazard. 
+Mater. 2008;150:468-493.
+7. Guo J-S, Abbas AA, Chen Y-P, Liu Z-P, Fang F, Chen P. Treatment 
+of landfill leachate using a combined stripping, Fenton, SBR, 
+and coagulation process. J. Hazard. Mater. 2010;178:699-705.
+8. Li H, Zhou S, Sun Y, Feng P, Li J. Advanced treatment of 
+landfill leachate by a new combination process in a full-scale 
+plant. J. Hazard. Mater. 2009;172:408-415.
+9. Ferraz FM, Povinelli J, Vieira EM. Ammonia removal from land-
+fill leachate by air stripping and absorption. Environ. Technol. 
+(United Kingdom). 2013;34:2317-2326.
+10. Kurniawan TA, Lo W, Chan GY. Physico-chemical treatments 
+for removal of recalcitrant contaminants from landfill leachate. 
+J. Hazard. Mater. 2006;129:80-100.
+11. Wei Y, Ji M, Li R, Qin F. Corrigendum to organic and nitrogen 
+removal from landfill leachate in aerobic granular sludge se-
+quencing batch reactors. Waste Manag. 2012;32:1277-1278.
+12. Zhang T, Ding L, Ren H. Pretreatment of ammonium removal 
+from landfill leachate by chemical precipitation. J. Hazard. 
+Mater. 2009;166:911-915.
+13. Saleh TA. Characterization, determination and elimination 
+technologies for sulfur from petroleum: Toward cleaner fuel 
+and a safe environment. Trends Environ. Anal. Chem. 2020;25: 
+e00080.
+14. Saleh TA. Nanomaterials: Classification, properties, and envi-
+ronmental toxicities. Environ. Technol. Innov. 2020;20:101067.
+15. Alswat AA, Ahmad MB, Saleh TA, Hussein MB, Ibrahim NA. 
+Effect of zinc oxide amounts on the properties and antibacterial 
+activities of zeolite/zinc oxide nanocomposite. Mater. Sci. Eng. 
+C. 2016;68:505-511.
+16. Alswat AA, Ahmad MB, Hussein MZ, Ibrahim NA, Saleh TA. 
+Copper oxide nanoparticles-loaded zeolite and its character-
+istics and antibacterial activities. J. Mater. Sci. Technol. 
+2017;33:889-896.
+17. Kotb E, Ahmed AA, Saleh TA, Ajeebi AM, Al-Gharsan MS, 
+Aldahmash NF. Pseudobactins bounded iron nanoparticles for 
+control of an antibiotic-resistant Pseudomonas aeruginosa 
+ryn32. Biotechnol. Prog. 2020;36.
+18. El-Gohary FA, Kamel G. Characterization and biological treat-
+ment of pre-treated landfill leachate. Ecol. Eng. 2016;94:268-274.
+19. Luczkiewicz A, Jankowska K, Bray R, et al. Antimicrobial resist-
+ance of fecal indicators in disinfected wastewater. Water Sci. 
+Technol. 2011;64:2352-2361.
+20. Zayen A, Schories G, Sayadi S. Incorporation of an anaerobic 
+digestion step in a multistage treatment system for sanitary 
+landfill leachate. Waste Manag. 2016;53:32-39.
+21. Cheng S, Xing D, Call DF, Logan BE. Direct biological conversion 
+of electrical current into methane by electromethanogenesis. 
+Environ. Sci. Technol. 2009;43:3953-3958.
+22. Jung S, Regan JM. Influence of external resistance on electro-
+genesis, methanogenesis, and anode prokaryotic communities 
+in microbial fuel cells. Appl. Environ. Microbiol. 2011;77: 
+564-571.
+23. Park JH, Park JH, Lee SH, Jung SP, Kim SH. Enhancing anaerobic 
+digestion for rural wastewater treatment with granular activated 
+carbon (GAC) supplementation. Bioresour. Technol. 2020;315:123890.
+24. Fisgativa H. Study of the impact of aerobic pretreatment on 
+anaerobic digestion of food waste [Thesis]. Rennes: Université 
+de Rennes 1; 2016.
+25. Shin J, Kim YB, Jeon JH, Choi S, Park IK, Kim YM. 
+Biomethanation of Sewage Sludge with Food Waste Leachate 
+Via Co-Digestion. J. Microbiol. Biotechnol. 2017;27:1513-1518.
+26. Kim HW, Nam JY, Shin HS. A comparison study on the high-rate 
+co-digestion of sewage sludge and food waste using a temper-
+ature-phased anaerobic sequencing batch reactor system. 
+Bioresour. Technol. 2011;102:7272-7279.
+27. Ma Y, Yin Y, Liu Y. New insights into co-digestion of activated 
+sludge and food waste: Biogas versus biofertilizer. Bioresour. 
+Technol. 2017;241:448-453.
+28. Koch K, Plabst M, Schmidt A, Helmreich B, Drewes JE. Co-diges-
+tion of food waste in a municipal wastewater treatment plant: 
+Comparison of batch tests and full-scale experiences. Waste 
+Manag. 2016;47:28-33.
+29. Koch K, Plabst M, Schmidt A, Helmreich B, Drewes JE. Co-diges-
+tion of food waste in a municipal wastewater treatment plant: 
+Comparison of batch tests and full-scale experiences. Waste 
+Manag. 2016;47:28-33.
+30. Luo J, Qian G, Liu J, Xu ZP. Anaerobic methanogenesis of 
+fresh leachate from municipal solid waste: A brief review on 
+current progress. Renew. Sustain. Energy Rev. 2015;49:21-28.
+31. Kalčíková G, Tratar Pirc E, Žgajnar Gotvajn A. Aerobic and 
+anaerobic biodegradation potential of leachate from old active 
+landfill. Desalin. Water Treat. 2016;57:8619-8625.
+32. Mendez R, Lema JM, Blazquez R, Pan M, Forjan C. 
+Characterization, digestibility and anaerobic treatment of leach-
+ates from old and young landfills. Water Sci. Technol. 1989;21: 
+145-155.
+33. Castillo E, Vergara M, Moreno Y. Landfill leachate treatment 
+using a rotating biological contactor and an upward-flow anaero-
+bic sludge bed reactor. Waste Manag. 2007;27:720-726.
+34. Castrillón L, Fernández-Nava Y, Ulmanu M, Anger I, Marañón 
+E. Physico-chemical and biological treatment of MSW landfill 
+leachate. Waste Manag. 2010;30:228-235.
+35. Ye J, Mu Y, Cheng X, Sun D. Treatment of fresh leachate with 
+high-strength organics and calcium from municipal solid waste 
+incineration plant using UASB reactor. Bioresour. Technol. 
+2011;102:5498-5503.
+36. Gunay A, Karadag D, Tosun I, Ozturk M. Combining anerobic 
+degradation and chemical precipitation for the treatment of 
+
+
+[PDF page 9]
+Environmental Engineering Research 27(1) 200470
+9
+high strength, strong nitrogenous landfill leachate. Clean-Soil 
+Air Water. 2008;36:887-892.
+37. Bohdziewicz J, Kwarciak A. The application of hybrid system 
+UASB reactor-RO in landfill leachate treatment. Desalination 
+2008;222:128-134.
+38. Kennedy KJ, Lentz EM. Treatment of landfill leachate using 
+sequencing batch and continuous flow upflow anaerobic sludge 
+blanket (UASB) reactors. Water Res. 2000;34:3640-3656.
+39. Khan AA, Mehrotra I, Kazmi AA. Sludge profiling at varied 
+organic loadings and performance evaluation of UASB reactor 
+treating sewage. Biosyst. Eng. 2015;131:32-40.
+40. Tawfik A, Sobhey M, Badawy M. Treatment of a combined 
+dairy and domestic wastewater in an up-flow anaerobic sludge 
+blanket (UASB) reactor followed by activated sludge (AS sys-
+tem). Desalination 2008;227:167-177.
+41. Rizvi H, Ahmad N, Abbas F, et al. Start-up of UASB reactors 
+treating municipal wastewater and effect of temperature/sludge 
+age and hydraulic retention time (HRT) on its performance. 
+Arab. J. Chem. 2015;8:780-786.
+42. Chen Y, Cheng JJ, Creamer KS. Inhibition of anaerobic digestion 
+process: A review. Bioresour. Technol. 2008;99:4044-4064.
+43. Sung S, Liu T. Ammonia inhibition on thermophilic anaerobic 
+digestion. Chemosphere 2003;53:43-52.
+44. Wens P, Vercauteren T, De Windt W, Verstraete W. Factors 
+inhibiting anaerobic degradation in a landfill. In: 8th 
+International Waste Management and Landfill Symposium 
+(Sardinia 2001). CISA Publishers; 2001. p. 13-20.
+45. Moujannı A, Qarraey I, Ouatmane A. Anaerobic codigestion 
+of urban solid waste fresh leachate and domestic wastewaters: 
+Biogas production potential and kinetic. Environ. Eng. Res. 
+2018;24:38-44.
+46. Carlsson M, Lagerkvist A, Morgan-sagastume F. The effects 
+of substrate pre-treatment on anaerobic digestion systems : A 
+review. Waste Manag. 2012;32:1634-1650.
+47. Smaoui Y, Bouzid J, Sayadi S. Combination of air stripping 
+and biological processes for landfill leachate treatment. Environ. 
+Eng. Res. 2019;25:80-87.
+48. Smaoui Y, Mlaik N, Bouzid J, Sayadi S. Improvement of anaero-
+bic digestion of landfill leachate by using coagulation-floccu-
+lation, Fenton’s oxidation and air stripping pretreatments. 
+Environ. Prog. Sustain. Energy. 2018;37:1041-1049.
+49. Ferraz FM, Povinelli J, Vieira EM. Ammonia removal from land-
+fill leachate by air stripping and absorption. Environ. Technol. 
+2013;34:2317-2326.
+50. Nielfa, A., Cano, R., Fdz-Polanco M. Theoretical methane pro-
+duction generated by the co-digestion of organic fraction munici-
+pal solid waste and biological sludge. sludge. Biotechnol. 
+2015;5:14-21.
+51. Iqbal Syaichurrozi B, Sumardiono S. Kinetic Model of Biogas 
+Yield Production from Vinasse at Various Initial pH: Comparison 
+between Modified Gompertz Model and First Order Kinetic 
+Model. Res. J. Appl. Sci. Eng. Technol. 2014;7:2798-2805.
+52. Lo HM, Kurniawan TA, Sillanpää MET, et al. Modeling biogas 
+production from organic fraction of MSW co-digested with 
+MSWI ashes in anaerobic bioreactors. Bioresour. Technol. 
+2010;101:6329-6335.
+53. Rodier J, Bazin C, Broutin JP. L’analyse de l’eau: eaux naturelles, 
+eaux résiduaires et de mer: chimie, physico-chimie, micro-
+biologie, biologie, interprétation des résultats. Dunod; 1996.
+54. Zickefoose C, Hayes R. Anaerobic Sludge Digestion: Operations 
+Manual. Washington D.C.: united States Environmental 
+Protection Agency; 1976.
+55. Chofqi A, Younsi A, Lhadi EK, Mania J, Mudry J, Veron A. 
+Lixiviat de la décharge publique d’El Jadida (Maroc) : caractérisa-
+tion et étude d’impact sur la nappe phréatique. Déchets, Sci. 
+Technol. 2007;46:4-10.
+56. Pan Z, Zhou J, Lin Z, et al. Effects of COD/TN ratio on nitrogen 
+removal efficiency, microbial community for high saline waste-
+water treatment based on heterotrophic nitrification-aerobic 
+denitrification process. Bioresour. Technol. 2020;301:122726.
+57. Luo J, Qian G, Liu J, Xu ZP. Anaerobic methanogenesis of 
+fresh leachate from municipal solid waste: A brief review on 
+current progress. Renew. Sustain. Energy Rev. 2015;49:21-28.
+58. Liu J, Luo J, Zhou J, Liu Q, Qian G, Xu ZP. Inhibitory effect 
+of high-strength ammonia nitrogen on bio-treatment of landfill 
+leachate using EGSB reactor under mesophilic and atmospheric 
+conditions. Bioresour. Technol. 2012;113:239-243.
+59. Ko JH, Ma Z, Jin X, Xu Q. Effects of Aeration Frequency on 
+Leachate Quality and Waste in Simulated Hybrid Bioreactor 
+Landfills Effects of aeration frequency on leachate quality and 
+waste in simulated hybrid bioreactor landfills. J. Air Waste 
+Manage. Assoc. 2016;66:1245-1256.
+60. Lei X, Sugiura N, Feng C, Maekawa T. Pretreatment of anaerobic 
+digestion effluent with ammonia stripping and biogas 
+purification. J. Hazard. Mater. 2007;145:391-397.
+61. Lei X, Sugiura N, Feng C, Maekawa T. Pretreatment of anaerobic 
+digestion effluent with ammonia stripping and biogas 
+purification. J. Hazard. Mater. 2007;145:391-397.
+62. Wu C, Yu M, Huang Q, et al. Stimulation of methane yield 
+rate from food waste by aerobic pre-treatment. Bioresour. 
+Technol. 2018;261:279-287.
+63. Wang Z, Banks CJ. Report: Anaerobic digestion of a sulphate-rich 
+high-strength landfill leachate: The effect of differential dosing 
+with FeCl3. Waste Manag. Res. 2006;24:289-293.
+64. Shiskoswski DM MD. Biological treatment of a high ammonia 
+leachate: inﬂuence of external carbon during initial startup. 
+Water Res. 1998;32:2533-2541.
+65. Pérez M, Romero LI, Sales D. Comparative performance of high 
+rate anaerobic thermophilic technologies treating industrial 
+wastewater. Water Res. 1998;32:559-564.
+66. Li Y-Y, P. Fang HH, Chen T, Chui H-K. UASB Treatment of 
+Wastewater Containing Concentrated Benzoate. J. Environ. Eng. 
+1995;121:748-751.
+67. Han S, Kim S, Shin H. UASB treatment of wastewater with 
+VFA and alcohol generated during hydrogen fermentation of 
+food waste. Process Biochem. 2005;40:2897-2905.
+68. Begum S, Anupoju GR, Sridhar S, Bhargava SK, Jegatheesan 
+V, Eshtiaghi N. Evaluation of single and two stage anaerobic 
+digestion of landfill leachate: Effect of pH and initial organic 
+loading rate on volatile fatty acid (VFA) and biogas production. 
+Bioresour. Technol. 2018;251:364-373.
+69. Zhang Y, Banks CJ, Heaven S. Anaerobic digestion of two bio-
+degradable municipal waste streams. J. Environ. Manage. 
+2012;104:166-174.
