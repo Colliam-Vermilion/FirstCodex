@@ -73,6 +73,11 @@ def known():
     worker=BoundedRetriever(r.ROOT,out,'existing_included',workers=1)
     prior_pause=r.load(r.RUN/'batch_downloads.json',{}).get('paused_hosts',{})
     worker.blocked.update({h:'Paused after earlier source failure in this recovery pass: '+v for h,v in prior_pause.items()})
+    if worker.log_path.exists():
+        for line in worker.log_path.read_text().splitlines():
+            event=json.loads(line);host=event.get('host') or urlsplit(event.get('url','')).hostname
+            if host and (event.get('http') in [401,403,429] or event.get('error')=='CONNECT403'):
+                worker.blocked[host]='Earlier observed access failure in the same continuation pass; no unchanged retry'
     previous=r.load(r.ROOT/'methods/audit/scansci_sourcewise_results.json',{})
     current={x['原记录ID']:x for x in rows('manual_review/scansci_download_status_utf8.csv')}
     hist={x['原记录ID']:x for x in rows('methods/audit/scansci_verified_pdf_manifest_utf8.csv')}
