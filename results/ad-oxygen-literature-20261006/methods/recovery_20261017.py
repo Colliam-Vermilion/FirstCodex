@@ -91,7 +91,7 @@ def audit():
         m['recovery_original_status_preserved_in']='inventory/recovery_20261017/baseline_papers.json'
         checked=si_checks.get(id,{})
         m['supplementary_status']=checked.get('status') or ('downloaded' if official else 'historical_acquired_current_original_not_restored' if any(a['role']=='supplementary' for a in aa) else 'not_checked')
-        m['supplementary_coverage_complete']=checked.get('status') in ['downloaded','explicit_no_attachments_in_complete_JATS','external_data_links_only']
+        m['supplementary_coverage_complete']=checked.get('status') in ['downloaded','explicit_no_attachments_in_complete_JATS','explicit_no_attachments_on_article_page','external_data_links_only']
         save(ROOT/'papers'/id/'metadata.json',m)
         if id not in rows_by_id:continue
         row=rows_by_id[id];main_ok+=bool(body)
@@ -102,7 +102,7 @@ def audit():
             '当前实际获取URL':body.get('source_url','') if body else '', '当前版本及限制':body.get('version','') if body else '',
             '原件恢复队列':'已恢复' if body else '历史原件重取队列' if historical else '既有未获全文队列',
             '当前持久下载入口':body.get('source_repo_path','') if body else '',
-            '当前补充材料状态':f'已下载{len(official)}份官方附件；完整性仍需逐来源核查' if official else '尚未完成本轮附件检查；不判无附件',
+            '当前补充材料状态':(checked.get('status')+'；官方附件'+str(len(official))) if checked.get('status') else f'已下载{len(official)}份官方附件；完整性仍需逐来源核查' if official else '尚未完成本轮附件检查；不判无附件',
             '持久化及独立取回状态':'已恢复；本轮独立远端核验见recovery清单' if body else '当前原件未恢复',
             '当前下载失败或访问限制':attempts.get(id,{}).get('reason','尚未执行本轮获取；保留历史日志') if not body else ''})
     writecsv(ROOT/'manual_review/current_environment_acquisition426_utf8.csv',current)
@@ -124,6 +124,7 @@ def audit():
         checked=si_checks.get(row['原记录ID'],{})
         detail={'downloaded':'已下载全部JATS明确列出的本地附件；外部数据单列',
             'explicit_no_attachments_in_complete_JATS':'已检查身份匹配的完整JATS，明确未声明附件',
+            'explicit_no_attachments_on_article_page':'目标文章页明确声明无补充材料',
             'external_data_links_only':'完整JATS仅列外部数据链接；未自动下载数据库',
             'access_failed':'访问失败；不能据此判无附件','partial_or_access_failed':'部分附件已下载，其余访问失败或未取得'}.get(checked.get('status'))
         row.update({'核查日期':'2026-10-17','附件数量':str(len(aa)),'当前附件保存位置':'; '.join(a['source_repo_path'] for a in aa),
