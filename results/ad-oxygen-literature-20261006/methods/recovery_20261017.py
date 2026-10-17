@@ -362,6 +362,8 @@ def remote_verify(persist=True):
     for a in load(ASSETS,[]):
         if present(a):expected.append({'record_id':a['record_id'],'role':a['role'],'relative_path':a['source_repo_path'],'sha256':a['sha256'],'size_bytes':int(a['size_bytes'])})
     expected+=readcsv(RUN/'parsed_files_utf8.csv') if (RUN/'parsed_files_utf8.csv').exists() else []
+    index=ROOT/'search.sqlite'
+    if index.exists():expected.append({'relative_path':'search.sqlite','sha256':sha(index.read_bytes()),'size_bytes':index.stat().st_size,'role':'search_index'})
     # Include pre-existing parsed samples and any acquired unverified files.
     known={r['relative_path'] for r in expected}
     for parent in [ROOT/'papers',ROOT/'original_files']:
