@@ -25,6 +25,12 @@ class BoundedRetriever(Retriever):
         finally:signal.alarm(0);signal.signal(signal.SIGALRM,previous)
 
 def rows(name):return r.readcsv(r.ROOT/name)
+def paused_doi_host(doi,blocked):
+    routes={'10.1016':['www.sciencedirect.com','sciencedirect.com','linkinghub.elsevier.com','www.linkinghub.elsevier.com'],
+        '10.1007':['link.springer.com','www.springer.com'],'10.1186':['link.springer.com','bmcmicrobiol.biomedcentral.com'],
+        '10.2166':['iwaponline.com'],'10.1021':['pubs.acs.org'],'10.1002':['onlinelibrary.wiley.com'],
+        '10.1111':['onlinelibrary.wiley.com'],'10.3390':['www.mdpi.com'],'10.1080':['www.tandfonline.com']}
+    return next((h for h in routes.get(doi.split('/')[0],[]) if h in blocked),None)
 def ready():
     gate=r.load(r.RUN/'pilot_gate.json',{})
     assert gate.get('all_original_bytes_readback_verified') and gate.get('body_samples',0)>=3,'Independent three-body readback is required'
@@ -94,6 +100,10 @@ def known():
     r.save(r.RUN/'continuation_tasks.json',[{'record_id':t['id'],'known_urls':t['urls']} for t in tasks])
     checkpoint=time.monotonic();count=0
     for task in tasks:
+        if worker.results.get(task['id'],{}).get('status'):continue
+        paused=paused_doi_host(task['row']['DOI（原库不改）'],worker.blocked)
+        if paused:
+            task['urls']=[u for u in task['urls'] if urlsplit(u).hostname not in ['doi.org','dx.doi.org']]
         result=worker.process(task);id=task['id'];body=result.get('body',{})
         if body.get('verified'):
             path=Path(body['path']);store(id,'main',path.name,path.read_bytes(),body['source_url'],body.get('version',''))
@@ -103,7 +113,7 @@ def known():
         if count%5==0 or time.monotonic()-checkpoint>=600:
             checkpt('Continue existing literature records and persist all acquired candidates');checkpoint=time.monotonic()
     checkpt('Complete known-source continuation pass')
-    r.save(r.RUN/'continuation_summary.json',{'records_processed':count,'paused_hosts':worker.blocked,'cooldown_hosts':list(worker.cooldown),'new_searches':False})
+    r.save(r.RUN/'continuation_summary.json',{'records_processed':len(worker.results),'new_records_processed_this_invocation':count,'paused_hosts':worker.blocked,'cooldown_hosts':list(worker.cooldown),'new_searches':False})
 
 def text(e):return ''.join(e.itertext()).strip() if e is not None else ''
 def localtag(e):return e.tag.rsplit('}',1)[-1] if isinstance(e.tag,str) else ''
@@ -197,8 +207,8 @@ def publisher_supplements():
         url=row.get('官方文章/仓储入口','')
         record=report.get(id,{'record_id':id,'official_files':[],'external_data_links':[]})
         record.update(publisher_checked_this_run=True,publisher_url=url,checked_at_utc=r.now())
-        mapped={'10.1016':'www.sciencedirect.com','10.1007':'link.springer.com','10.1186':'link.springer.com','10.2166':'iwaponline.com','10.1021':'pubs.acs.org','10.1002':'onlinelibrary.wiley.com','10.1111':'onlinelibrary.wiley.com','10.3390':'www.mdpi.com','10.1080':'www.tandfonline.com'}.get(meta.get('doi','').split('/')[0])
-        paused_destination=mapped and mapped in worker.blocked and urlsplit(url).hostname in ['doi.org','dx.doi.org']
+        mapped=paused_doi_host(meta.get('doi',''),worker.blocked)
+        paused_destination=mapped and urlsplit(url).hostname in ['doi.org','dx.doi.org']
         response=worker.get(id,url) if url.startswith(('http://','https://')) and not paused_destination else None
         if response:
             data,actual,mime=response
