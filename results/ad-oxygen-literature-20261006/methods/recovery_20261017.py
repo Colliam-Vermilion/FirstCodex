@@ -293,7 +293,13 @@ def retrieve(pilot=False):
         receipt=load(RUN/'pilot_gate.json',{})
         if not receipt.get('all_original_bytes_readback_verified') or receipt.get('body_samples',0)<3:
             raise SystemExit('Required three-paper download/upload/independent-readback gate not passed; no bulk download started')
-    pending=[a for a in assets if not present(a) and a['role'] in ['main','supplementary','evidence_xml']]
+    pending=[]
+    for a in assets:
+        if present(a) or a['role'] not in ['main','supplementary','evidence_xml']:continue
+        if a['role']=='main' and a.get('source_url') and any(b['record_id']==a['record_id'] and b['role']=='main' and b.get('source_url')==a['source_url'] and present(b) for b in assets):
+            a['historical_restore_note']='Same source currently supplies an already-held different SHA; reuse valid current version, historical bytes remain missing'
+            continue
+        pending.append(a)
     # Public, identity-bound sources already recorded in the repository only.
     pending.sort(key=lambda a:(a['role']!='main',a['record_id'] not in ['R01238','R07903','R03455']))
     for a in pending:
@@ -319,7 +325,9 @@ def retrieve(pilot=False):
         if not check['historical_sha_match']:
             # Preserve acquired candidates, but never call an unidentified
             # HTML response or a different paper verified full text.
-            if data.startswith(b'%PDF'):
+            duplicate=next((b for b in assets if b['record_id']==id and b['sha256']==check['sha256'] and present(b)),None)
+            if duplicate:check['reused_existing_different_version_path']=duplicate['source_repo_path']
+            elif data.startswith(b'%PDF'):
                 path=ROOT/'original_files/unverified_candidates'/id/(sha(data)[:16]+'.pdf');path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(data)
                 check['candidate_path']=str(path.relative_to(ROOT));check['manual_identity_review_required']=True
             results[id]={'time_utc':now(),'status':'candidate_not_verified','reason':'historical_SHA_mismatch','checks':check,'url':url};save(RUN/'retrieval_results.json',results);continue
