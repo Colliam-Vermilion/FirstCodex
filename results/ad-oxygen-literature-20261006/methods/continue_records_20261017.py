@@ -7,7 +7,7 @@ are backed up every five processed records or ten minutes, whichever is first.
 import argparse, collections, csv, hashlib, io, json, re, time, unicodedata, zipfile, signal, mimetypes
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from urllib.parse import urlsplit, urljoin
+from urllib.parse import urlsplit, urljoin, parse_qs, unquote
 from bs4 import BeautifulSoup
 import recovery_20261017 as r
 from continue_known_fulltexts import Retriever, Links, normalized
@@ -22,6 +22,9 @@ class ArticleLinks(_OriginalLinks):
         if tag=='a':self._current_anchor_attributes=attributes
         if tag in ['iframe','embed','object']:
             href=attributes.get('src') or attributes.get('data','')
+            embedded=parse_qs(urlsplit(href).query)
+            for key in ['file','pdf']:
+                if embedded.get(key):self.pdf.append(urljoin(self.base,unquote(embedded[key][0])))
             if href and (attributes.get('type')=='application/pdf' or re.search(r'\.pdf(?:[?#]|$)|/article/download/',href,re.I)):
                 self.pdf.append(urljoin(self.base,href))
     def handle_endtag(self,tag):
@@ -101,7 +104,10 @@ def apply_approved_pdfs():
     for id,decision in approvals.items():
         if decision.get('applied_asset_id'):continue
         source=r.ROOT/decision['candidate_relative_path']
-        if not source.exists():continue
+        if not source.exists():
+            existing=next((a for a in r.load(r.ASSETS,[]) if a['record_id']==id and a['sha256']==decision['sha256'] and r.present(a)),None)
+            if existing:decision.update(applied_asset_id=existing['asset_id'],canonical_path=existing['source_repo_path'],applied_at_utc=r.now());changed=True
+            continue
         data=source.read_bytes();assert r.sha(data)==decision['sha256']
         doc=r.fitz.open(stream=data,filetype='pdf');texts=[p.get_text() for p in doc]
         assert len(texts)==decision['pages'] and sum(map(len,texts))>6000
