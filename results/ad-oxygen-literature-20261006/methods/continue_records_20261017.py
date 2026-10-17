@@ -34,6 +34,7 @@ def paused_doi_host(doi,blocked):
 def ready():
     gate=r.load(r.RUN/'pilot_gate.json',{})
     assert gate.get('all_original_bytes_readback_verified') and gate.get('body_samples',0)>=3,'Independent three-body readback is required'
+    apply_approved_pdfs()
 def store(id,role,name,data,url,version='',extra=None):
     assets=r.load(r.ASSETS,[]);digest=r.sha(data)
     old=next((a for a in assets if a['record_id']==id and a['sha256']==digest),None)
@@ -57,6 +58,7 @@ def store(id,role,name,data,url,version='',extra=None):
     r.save(r.ASSETS,assets);return a
 
 def checkpt(message):
+    apply_approved_pdfs()
     # Full library refresh after acquired assets change. Failure-only checkpoints
     # persist the source ledger without rewriting every workbook and PDF parse.
     si_state=r.RUN/'supplementary_check.json'
@@ -67,6 +69,23 @@ def checkpt(message):
         r.audit();r.parse_files()
     r.sync(message)
     r.save(r.RUN/'last_full_refresh.json',{'asset_signature':signature(),'time_utc':r.now()})
+
+def apply_approved_pdfs():
+    path=r.RUN/'manual_approvals_20261017.json'
+    approvals=r.load(path,{})
+    changed=False
+    for id,decision in approvals.items():
+        if decision.get('applied_asset_id'):continue
+        source=r.ROOT/decision['candidate_relative_path']
+        if not source.exists():continue
+        data=source.read_bytes();assert r.sha(data)==decision['sha256']
+        doc=r.fitz.open(stream=data,filetype='pdf');texts=[p.get_text() for p in doc]
+        assert len(texts)==decision['pages'] and sum(map(len,texts))>6000
+        a=store(id,'main',source.name,data,decision['source_url'],decision['version'],{'identity_review_20261017':decision})
+        source.unlink()
+        decision.update(applied_asset_id=a['asset_id'],canonical_path=a['source_repo_path'],applied_at_utc=r.now())
+        changed=True
+    if changed:r.save(path,approvals)
 
 def known():
     ready();out=r.ROOT/'original_files/continuation_20261017';out.mkdir(parents=True,exist_ok=True)
