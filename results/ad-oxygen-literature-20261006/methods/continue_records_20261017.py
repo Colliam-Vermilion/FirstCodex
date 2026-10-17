@@ -70,10 +70,13 @@ def known():
     previous=r.load(r.ROOT/'methods/audit/scansci_sourcewise_results.json',{})
     current={x['原记录ID']:x for x in rows('manual_review/scansci_download_status_utf8.csv')}
     hist={x['原记录ID']:x for x in rows('methods/audit/scansci_verified_pdf_manifest_utf8.csv')}
+    finalmeta={m.get('record_id') or m.get('id'):m for m in r.load(r.ROOT/'methods/audit/final_record_metadata.json',[])}
     tasks=[]
     for row in rows('manual_review/current_environment_need_fulltext_utf8.csv'):
         id=row['原记录ID'];old=current[id];p=previous.get(id,{});urls=[]
         if old.get('实际PDF来源URL（下载或历史记录明确）'):urls.append(old['实际PDF来源URL（下载或历史记录明确）'])
+        pmc=finalmeta.get(id,{}).get('pmc','')
+        if re.fullmatch(r'PMC\d+',pmc):urls.append('https://europepmc.org/api/getPdf?pmcid='+pmc)
         urls+=json.loads(old.get('公开PDF候选URL（非下载URL绑定实录）') or '[]')
         for loc in p.get('Unpaywall',{}).get('locations',[]):
             urls += [loc[k] for k in ['url_for_pdf','url_for_landing_page','url'] if loc.get(k)]
