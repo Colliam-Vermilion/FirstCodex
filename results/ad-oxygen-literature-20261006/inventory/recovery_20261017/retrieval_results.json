@@ -163,19 +163,15 @@
     "asset_id": "R01212.main.ef235fcb491d4749"
   },
   "R05542": {
-    "time_utc": "2026-10-17T08:30:12.454272+00:00",
+    "time_utc": "2026-10-17T08:46:35.733115+00:00",
     "status": "downloaded_verified",
     "checks": {
       "historical_sha_match": true,
-      "bytes": 836053,
-      "sha256": "735560cdb2769e2517355c073dd51a95ac90b015a5b36f90dcc0dff360ae182b",
-      "pages": 11,
-      "all_pages_parsed": true,
-      "text_chars": 46962,
-      "identity": "previously verified exact source bytes plus current all-page parsing"
+      "bytes": 100215,
+      "sha256": "9ee6c9217e7c01e1604e3170e0041677e5b9d0f14b59ee1e9717c1082d9d193a"
     },
-    "url": "https://europepmc.org/api/getPdf?pmcid=PMC9056904",
-    "asset_id": "R05542.main.735560cdb2769e25"
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9056904/fullTextXML",
+    "asset_id": "R05542.evidence_xml.9ee6c9217e7c01e1"
   },
   "R06611": {
     "time_utc": "2026-10-17T08:30:14.180027+00:00",
@@ -193,10 +189,15 @@
     "asset_id": "R06611.main.b8eb8afdada2a2d0"
   },
   "R07238": {
-    "time_utc": "2026-10-17T08:43:32.912532+00:00",
-    "status": "access_failed",
-    "reason": "TimeoutError",
-    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/supplementaryFiles"
+    "time_utc": "2026-10-17T08:46:47.233781+00:00",
+    "status": "downloaded_verified",
+    "checks": {
+      "historical_sha_match": true,
+      "bytes": 151458,
+      "sha256": "6c93b117d7bd588658aabfd8b7ec679110899d8f556eb6b90b071e6057ddd2cd"
+    },
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/fullTextXML",
+    "asset_id": "R07238.evidence_xml.6c93b117d7bd5886"
   },
   "R08646": {
     "time_utc": "2026-10-17T08:44:35.413392+00:00",
@@ -709,10 +710,15 @@
     "asset_id": "R11596.main.0b2e2d98dffd5449"
   },
   "R03477": {
-    "time_utc": "2026-10-17T08:43:00.464402+00:00",
-    "status": "access_failed",
-    "reason": "proxy_CONNECT_403",
-    "url": "https://link.springer.com/content/pdf/10.1186/s13568-017-0375-4.pdf"
+    "time_utc": "2026-10-17T08:46:53.247643+00:00",
+    "status": "downloaded_verified",
+    "checks": {
+      "historical_sha_match": true,
+      "bytes": 121650,
+      "sha256": "c127b68ddfdcfec8d98508723d4d7a4b250ec3f82c4c75756cb539406519a8f7"
+    },
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5371168/fullTextXML",
+    "asset_id": "R03477.evidence_xml.c127b68ddfdcfec8"
   },
   "R09804": {
     "time_utc": "2026-10-17T08:43:00.465317+00:00",
@@ -792,5 +798,27 @@
     },
     "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10837232/fullTextXML",
     "asset_id": "R10086.evidence_xml.074f3cb8a39355a5"
+  },
+  "R12985": {
+    "time_utc": "2026-10-17T08:46:30.202375+00:00",
+    "status": "downloaded_verified",
+    "checks": {
+      "historical_sha_match": true,
+      "bytes": 173586,
+      "sha256": "f1a80564a8a1fa4b638bb6097c75cb3709b4c7487b6c8012474fd4e1865576cc"
+    },
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
+    "asset_id": "R12985.evidence_xml.f1a80564a8a1fa4b"
+  },
+  "R06325": {
+    "time_utc": "2026-10-17T08:46:41.627752+00:00",
+    "status": "downloaded_verified",
+    "checks": {
+      "historical_sha_match": true,
+      "bytes": 160509,
+      "sha256": "645deb707d3790b518690b7413885823461bb57a3dfa5bb587202d8f16dda296"
+    },
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8290346/fullTextXML",
+    "asset_id": "R06325.evidence_xml.645deb707d3790b5"
   }
 }

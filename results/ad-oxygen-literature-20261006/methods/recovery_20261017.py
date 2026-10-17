@@ -22,9 +22,10 @@ def now():return datetime.now(timezone.utc).isoformat()
 def safe_url(url):
     url=re.sub(r';(?:jsessionid|phpsessid)=[^/?#;]*','',url,flags=re.I)
     parsed=urllib.parse.urlsplit(url)
-    sensitive={'access_token','api_key','apikey','authorization','password','session','sessionid','token'}
+    sensitive={'access_token','api_key','apikey','authorization','password','session','sessionid','token','signature','sig','x-amz-signature','x-amz-credential','x-amz-security-token','awsaccesskeyid','x-goog-credential','x-goog-signature'}
     query=[(k,v) for k,v in urllib.parse.parse_qsl(parsed.query,keep_blank_values=True) if k.lower() not in sensitive]
-    return urllib.parse.urlunsplit((parsed.scheme,parsed.netloc,parsed.path,urllib.parse.urlencode(query),parsed.fragment))
+    netloc=parsed.netloc.rsplit('@',1)[-1]
+    return urllib.parse.urlunsplit((parsed.scheme,netloc,parsed.path,urllib.parse.urlencode(query),parsed.fragment))
 def sha(data):return hashlib.sha256(data).hexdigest()
 def load(path,default=None):return json.loads(path.read_text()) if path.is_file() else default
 def save(path,data):

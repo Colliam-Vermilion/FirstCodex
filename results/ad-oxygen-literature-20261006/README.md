@@ -2,7 +2,7 @@
 
 以远端提交 `bac51bfccceae13a91745322ed5793260e30a85c` 实际文件恢复：40正文、9官方附件、5历史派生件。554条及全部人工判断保留，类别1–4共426条，不重新检索或分类。
 
-当前实际核验正文 **87篇**，缺正文 **339篇**。实际对象角色：{'main': 88, 'supplementary': 11, 'derived': 5, 'evidence_xml': 6}。历史记录但无原件者明确标记“历史已获取，当前原件未恢复”，历史SHA和替代版本分开保留。3篇重新下载、上传及独立远端读回门槛已完成，后续按5篇或10分钟检查点推送；仅远端核验通过后称已备份。
+当前实际核验正文 **87篇**，缺正文 **339篇**。实际对象角色：{'main': 88, 'supplementary': 11, 'derived': 5, 'evidence_xml': 11}。历史记录但无原件者明确标记“历史已获取，当前原件未恢复”，历史SHA和替代版本分开保留。3篇重新下载、上传及独立远端读回门槛已完成，后续按5篇或10分钟检查点推送；仅远端核验通过后称已备份。
 
 - [最新状态](inventory/recovery_20261017/status.json)、[逐文件备份/独立读回清单](inventory/recovery_20261017/backup_manifest_utf8.csv)、[远端核验回执](inventory/recovery_20261017/remote_readback.json)
 - [正文原件](original_files/fulltext/)、[补充材料原件](original_files/supplementary/)、[逐ID解析结果](papers/)、[统一原件清单](inventory/assets_utf8.csv)
