@@ -1,5 +1,6 @@
 """Reconcile actual extraction files, protect prior decisions, and report delivery."""
 import collections, json, sqlite3
+from urllib.parse import urlsplit
 from pathlib import Path
 import recovery_20261017 as r
 
@@ -14,6 +15,45 @@ def finalize():
             assert byid[row['稳定记录ID']][key]==row[key],(row['稳定记录ID'],key)
     for path,digest in baseline['protected_files_sha256'].items():assert r.sha((r.ROOT/path).read_bytes())==digest,path
     assets=r.load(r.ASSETS,[]);assetmap={a['asset_id']:a for a in assets}
+    events=[]
+    for log in [r.RUN/'access_events.jsonl',r.ROOT/'original_files/continuation_20261017/existing_included_access.jsonl',r.ROOT/'original_files/publisher_checks_20261017/publisher_SI_access.jsonl']:
+        if log.exists():events += [json.loads(line) for line in log.read_text().splitlines() if line.strip()]
+    eventmap=collections.defaultdict(list)
+    for event in events:
+        id=event.get('record_id') or event.get('id')
+        if id:eventmap[id].append(event)
+    continuation=r.load(r.ROOT/'original_files/continuation_20261017/existing_included_results.json',{})
+    rejected={x['sha256'] for x in r.load(r.RUN/'rejected_non_target_files.json',[])}
+    labels={'pending_identity':'已取得PDF候选，身份/版本待核验','wrong_PDF':'实际返回出版商目录/宣传资料，不是目标正文',
+        'proxy_CONNECT_403':'代理CONNECT403，未到达出版商；不据此判订阅','rate_limited':'HTTP429；本来源暂停自动重试',
+        'HTTP403_or_challenge':'来源HTTP403/挑战；未推定学校订阅权限','authentication_required':'HTTP401/登录要求，未完成本人官方浏览器认证',
+        'upstream_server_error':'来源5xx/仓储服务错误','timeout':'请求/读取超时','broken_or_expired_link':'现有链接404/410或过期',
+        'HTML_no_verified_PDF':'可访问HTML/元数据，但未取得核验PDF','no_current_file_link':'现有记录未提供当前可取得的正文文件'}
+    failures=[]
+    for row in r.readcsv(r.ROOT/'manual_review/current_environment_need_fulltext_utf8.csv'):
+        id=row['原记录ID'];ev=eventmap[id];categories=set()
+        candidates=continuation.get(id,{}).get('unverified_candidates',[])
+        if any(c['sha256'] not in rejected and not any(a['record_id']==id and a['sha256']==c['sha256'] and r.present(a) for a in assets) for c in candidates):categories.add('pending_identity')
+        if any(c['sha256'] in rejected for c in candidates):categories.add('wrong_PDF')
+        for event in ev:
+            code=event.get('http',event.get('http_status'));error=event.get('error','');skip=event.get('skipped','')
+            if 'CONNECT403' in str(error) or 'CONNECT_403' in str(error) or 'CONNECT403' in skip:categories.add('proxy_CONNECT_403')
+            if code==429 or 'Retry-After' in skip:categories.add('rate_limited')
+            if code==403:categories.add('HTTP403_or_challenge')
+            if code==401:categories.add('authentication_required')
+            if isinstance(code,int) and code>=500:categories.add('upstream_server_error')
+            if code in [404,410]:categories.add('broken_or_expired_link')
+            if 'Timeout' in str(error) or event.get('error_type')=='TimeoutError':categories.add('timeout')
+            if code==200:categories.add('HTML_no_verified_PDF')
+        if not categories:categories.add('no_current_file_link')
+        ordered=[k for k in labels if k in categories]
+        failures.append({'record_id':id,'title':row['完整题名'],'doi':row['DOI（原库不改）'],'main_original_status':row['当前原件状态'],
+            'primary_observation_not_unique_cause':ordered[0],'observed_reasons':'；'.join(labels[k] for k in ordered),
+            'actual_request_events':sum(not e.get('skipped') for e in ev),
+            'source_hosts':'; '.join(sorted({urlsplit(e.get('url','')).hostname or '' for e in ev if e.get('url')})),
+            'source_urls_json':json.dumps(list(dict.fromkeys(e['url'] for e in ev if e.get('url'))),ensure_ascii=False),
+            'public_fulltext_absence_not_inferred':True})
+    r.writecsv(r.RUN/'remaining_main_failure_matrix_utf8.csv',failures)
     before=r.ROOT/'inventory/extracted_files.json'
     if not (r.RUN/'historical_extracted_manifest.json').exists():r.save(r.RUN/'historical_extracted_manifest.json',r.load(before,[]))
     historical=r.load(r.RUN/'historical_extracted_manifest.json',[])
@@ -60,6 +100,7 @@ def finalize():
         'newly_acquired_roles':dict(collections.Counter(a['role'] for a in new)),
         'first_obtained_main_ids_this_round':sorted({a['record_id'] for a in mains if a['record_id'] not in historical_ids}),
         'remaining_main_ids':426-len({a['record_id'] for a in mains}),'known_missing_official_attachments':official_missing,
+        'remaining_main_primary_observation_counts':dict(collections.Counter(x['primary_observation_not_unique_cause'] for x in failures)),
         'supplementary_record_statuses':dict(collections.Counter(x.get('status','not_checked') for x in si_status.values())),
         'supplementary_unchecked_record_count':len(uncovered),
         'present_extraction_files':sum(x['availability']=='present_sha_verified' for x in rows),

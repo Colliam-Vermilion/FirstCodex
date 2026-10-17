@@ -50,6 +50,7 @@ def store(id,role,name,data,url,version='',extra=None):
         format=path.suffix.lstrip('.').lower(),size_bytes=len(data),sha256=digest,availability='present_sha_verified',
         storage_status='local_acquired_pending_remote_readback',source_url=r.safe_url(url),version=version,
         license_evidence=a.get('license_evidence','Private authorized research backup; source license not inferred'))
+    if not a.get('canonical_path'):a['canonical_path']=a['source_repo_path']
     if extra:a.update(extra)
     if role=='main':
         for existing in assets:

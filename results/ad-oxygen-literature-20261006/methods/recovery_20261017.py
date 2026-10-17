@@ -96,6 +96,9 @@ def audit():
     for id,record in continuation.items():
         if not record.get('body',{}).get('verified'):
             attempts[id]={'reason':'本轮已处理已有来源链接，未取得核验正文；HTTP/暂停/挑战等逐来源证据见original_files/continuation_20261017/existing_included_access.jsonl','status':record.get('status')}
+    matrix=RUN/'remaining_main_failure_matrix_utf8.csv'
+    if matrix.exists():
+        for row in readcsv(matrix):attempts[row['record_id']]={'reason':row['observed_reasons']}
     si_checks=load(RUN/'supplementary_check.json',{})
     rows_by_id={r['原记录ID']:r for r in current}
     byid=collections.defaultdict(list)
