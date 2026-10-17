@@ -8,7 +8,7 @@ mkdir -p /workspace/tools
 python3 - <<'PY'
 import hashlib,json,pathlib,shutil,tarfile,urllib.request
 specs=[('nature-skills','Yuan1z0825/nature-skills','b543e8b','b543e8b998eb2df1fd44641cc8b262c638c2b442','9af4866020c0d1fb302cd12d744e5e3313585022a22030d0e36b3048bb181874'),
- ('scansci-pdf','Rimagination/scansci-pdf','v1.18.0','3df79f8211ec2fb542170d132e330fc7bb92ab96','bed965a3d7b38e6761556ccf225c24fa6cac0e0956caade7380f961baf9f55e2')]
+ ('scansci-pdf','Rimagination/scansci-pdf','3df79f8211ec2fb542170d132e330fc7bb92ab96','3df79f8211ec2fb542170d132e330fc7bb92ab96','2828c13e761ed9d38ab247e7ce8e6e0c40d5a7b8f018cb5bc744ee603b6efdd6')]
 for name,repo,ref,commit,expected in specs:
  dest=pathlib.Path('/workspace/tools')/name
  provenance=dest/'SOURCE_PROVENANCE.json'

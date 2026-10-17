@@ -6,7 +6,7 @@ failures pause that host, not the other sources. Downloaded bytes stay in
 original_files; ZIP contents are parsed without storing duplicate originals.
 """
 import argparse, collections, csv, hashlib, io, json, os, re, subprocess
-import tempfile, time, urllib.request, urllib.error, urllib.parse, zipfile
+import tempfile, time, urllib.request, urllib.error, urllib.parse, zipfile, signal
 from datetime import datetime, timezone
 from pathlib import Path
 import fitz
@@ -148,6 +148,15 @@ def audit():
     # and expose new explicitly dated recovery sheets/notes alongside them.
     bookpath=ROOT/'final_results/ad_oxygen_download_review_20261006.xlsx'
     book=openpyxl.load_workbook(bookpath)
+    library_byid={x['稳定记录ID']:x for x in library}
+    for sheet in book:
+        header={str(cell.value):cell.column for cell in sheet[1] if cell.value is not None}
+        if '稳定记录ID' not in header:continue
+        for number in range(2,sheet.max_row+1):
+            id=sheet.cell(number,header['稳定记录ID']).value
+            if id not in library_byid:continue
+            for key,column in header.items():
+                if key.startswith(('当前','新环境','原件恢复','持久化')) and key in library_byid[id]:sheet.cell(number,column,library_byid[id][key])
     for name,data in [('恢复20261017',current),('当前原件20261017',assets),('补充材料20261017',sirows)]:
         if name in book:del book[name]
         sheet=book.create_sheet(name);fields=list(data[0])
@@ -155,13 +164,16 @@ def audit():
         for row in data:sheet.append([json.dumps(row.get(k,''),ensure_ascii=False) if isinstance(row.get(k), (dict,list)) else row.get(k,'') for k in fields])
         sheet.freeze_panes='A2';sheet.auto_filter.ref=sheet.dimensions
     book.save(bookpath)
-    inv=openpyxl.Workbook();inv.remove(inv.active)
+    invpath=ROOT/'inventory/unified_library_inventory.xlsx'
+    inv=openpyxl.load_workbook(invpath) if invpath.exists() else openpyxl.Workbook()
+    if 'Sheet' in inv and inv['Sheet'].max_row==1:del inv['Sheet']
     for name,data in [('papers',paperrows),('assets',assets),('reacquisition',queue)]:
+        if name in inv:del inv[name]
         sheet=inv.create_sheet(name)
         if data:
             fields=list(data[0]);sheet.append(fields)
             for row in data:sheet.append([json.dumps(row.get(k,''),ensure_ascii=False) if isinstance(row.get(k),(dict,list)) else row.get(k,'') for k in fields])
-    inv.save(ROOT/'inventory/unified_library_inventory.xlsx')
+    inv.save(invpath)
     save(RUN/'status.json',{'checked_at_utc':now(),'included_records':426,'current_verified_main_ids':main_ok,
         'missing_main_ids':426-main_ok,'present_assets':sum(present(a) for a in assets),
         'historical_missing_assets':len(queue),'source_failures':len(attempts),
@@ -205,6 +217,9 @@ def fetch_bytes(url,paused,last,events,id):
     if host in paused:return None
     time.sleep(max(0,5-(time.monotonic()-last.get(host,0))))
     event={'record_id':id,'url':url,'time_utc':now()}
+    def deadline(signum,frame):raise TimeoutError('Per-request wall time exceeded')
+    previous_handler=signal.signal(signal.SIGALRM,deadline)
+    signal.alarm(60)
     try:
         with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Existing-record literature recovery (polite, 5s per host)'}),timeout=25) as response:
             data=response.read(50*1024*1024+1)
@@ -217,6 +232,7 @@ def fetch_bytes(url,paused,last,events,id):
         event['error']=reason
         if reason in ['proxy_CONNECT_403','HTTP_401','HTTP_403','HTTP_429']:paused[host]=reason
     finally:
+        signal.alarm(0);signal.signal(signal.SIGALRM,previous_handler)
         last[host]=time.monotonic();events.append(event)
         with (RUN/'access_events.jsonl').open('a') as f:f.write(json.dumps(event,ensure_ascii=False)+'\n')
 
