@@ -65,6 +65,9 @@ def run():
             for item in value.get('digital',{}).get('file',[]):
                 if item.get('ext')!='pdf' or item.get('is_link')!='0':continue
                 old=next((x for x in previous if x['doc_id']==item['doc_id']),None)
+                held=next((a for a in assets if old and a['record_id']==id and a['sha256']==old['sha256'] and r.present(a)),None)
+                if held:
+                    parts.append({**old,'path':held['source_repo_path'],'multipart_status':'verified_group_original_reused'});continue
                 if old and (r.ROOT/old['path']).is_file() and r.sha((r.ROOT/old['path']).read_bytes())==old['sha256']:
                     parts.append(old);continue
                 url='https://digiverse.chula.ac.th/digital/api/DownloadDigitalFile/dowload/'+item['doc_id']

@@ -4327,10 +4327,17 @@
     "publisher_checked_this_run": true,
     "publisher_url": "https://doi.org/10.1021/acs.est.8b00894",
     "checked_at_utc": "2026-10-17T09:46:31.803140+00:00",
-    "status": "access_failed",
+    "status": "partial_or_access_failed",
     "reason": "Explicit own-PDF SI hyperlink did not return verified attachment bytes",
     "source_request_skipped_due_to_known_publisher_pause": true,
-    "known_missing_declared_attachments": [],
+    "known_missing_declared_attachments": [
+      {
+        "filename": "es8b00894_si_001.docx",
+        "source_url": "https://pubs.acs.org/doi/suppl/10.1021/acs.est.8b00894/suppl_file/es8b00894_si_001.docx",
+        "source_pdf_sha256": "1a4a4d5f8fd45de924c78a7be11e1c032c630bd9341431d1d49135c8351cdaf7",
+        "pdf_page": 5
+      }
+    ],
     "all_publisher_attachments_confirmed": false,
     "publisher_source_status": "access_failed",
     "pdf_declared_attachments": [

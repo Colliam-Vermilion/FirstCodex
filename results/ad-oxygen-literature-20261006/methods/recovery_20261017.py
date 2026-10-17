@@ -180,14 +180,14 @@ def audit():
     for row in sirows:
         aa=[a for a in byid[row['原记录ID']] if a['role']=='supplementary' and present(a)]
         checked=si_checks.get(row['原记录ID'],{})
-        detail={'downloaded':'已下载全部JATS明确列出的本地附件；外部数据单列',
+        detail={'downloaded':'已下载当前来源明确列出的本地附件；外部数据单列，完整性见逐来源证据',
             'explicit_no_attachments_in_complete_JATS':'已检查身份匹配的完整JATS，明确未声明附件',
             'explicit_no_attachments_on_article_page':'目标文章页明确声明无补充材料',
             'external_data_links_only':'完整JATS仅列外部数据链接；未自动下载数据库',
             'checked_no_file_links_found_coverage_unconfirmed':'已检查身份匹配的文章页，未发现明确附件直链；不能判无附件',
             'identity_review_required':'入口响应未完成目标文章身份匹配；未计为无附件',
             'not_checked':'尚未完成附件入口检查（例如既有入口仅为正文PDF）',
-            'access_failed':'访问失败；不能据此判无附件','partial_or_access_failed':'部分附件已下载，其余访问失败或未取得'}.get(checked.get('status'))
+            'access_failed':'访问失败；不能据此判无附件','partial_or_access_failed':'明确附件部分或全部尚未取得；失败见逐来源记录'}.get(checked.get('status'))
         row.update({'核查日期':'2026-10-17','附件数量':str(len(aa)),'当前附件保存位置':'; '.join(a['source_repo_path'] for a in aa),
             '附件SHA256':'; '.join(a['sha256'] for a in aa),
             '补充材料获取状态':detail or ('已下载；全附件覆盖尚未确认' if aa else '尚未检查或历史附件未恢复'),
@@ -239,7 +239,8 @@ def audit():
     inv.save(invpath)
     save(RUN/'status.json',{'checked_at_utc':now(),'included_records':426,'current_verified_main_ids':main_ok,
         'missing_main_ids':426-main_ok,'present_assets':sum(present(a) for a in assets),
-        'historical_missing_assets':len(queue),'source_failures':len(attempts),
+        'historical_missing_assets':len(queue),'source_failures':sum(not any(a['record_id']==id and a['role']=='main' and present(a) for a in assets) for id in attempts),
+        'persisted_retrieval_records':len(attempts),
         'classification_changed':False,'new_topic_searches':False})
     readme=ROOT/'README.md';content=readme.read_text()
     if '\n# 第18轮' in content:
@@ -252,6 +253,7 @@ def audit():
 当前实际核验正文 **{main_ok}篇**，缺正文 **{426-main_ok}篇**。实际对象角色：{dict(roles)}。历史记录但无原件者明确标记“历史已获取，当前原件未恢复”，历史SHA和替代版本分开保留。3篇重新下载、上传及独立远端读回门槛已完成，后续按5篇或10分钟检查点推送；仅远端核验通过后称已备份。
 
 - [最新状态](inventory/recovery_20261017/status.json)、[逐文件备份/独立读回清单](inventory/recovery_20261017/backup_manifest_utf8.csv)、[远端核验回执](inventory/recovery_20261017/remote_readback.json)
+- [本轮交付汇总](inventory/recovery_20261017/DELIVERY_20261017_zh.md)、[机器可读汇总](inventory/recovery_20261017/delivery_summary.json)、[逐ID失败及暂停原因](inventory/recovery_20261017/remaining_main_failure_matrix_utf8.csv)、[外部数据链接与大小](inventory/recovery_20261017/external_data_links_utf8.csv)
 - [正文原件](original_files/fulltext/)、[补充材料原件](original_files/supplementary/)、[逐ID解析结果](papers/)、[统一原件清单](inventory/assets_utf8.csv)
 - [426获取状态](manual_review/current_environment_acquisition426_utf8.csv)、[尚缺正文](manual_review/current_environment_need_fulltext_utf8.csv)、[历史缺件队列](inventory/recovery_20261017/historical_reacquisition_queue_utf8.csv)、[SI逐篇状态](manual_review/supplementary_material_status_utf8.csv)
 - [总Excel](final_results/ad_oxygen_download_review_20261006.xlsx)、[总CSV](final_results/ad_oxygen_download_review_utf8.csv)、[分组RIS](final_results/)

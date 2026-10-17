@@ -5,6 +5,7 @@
 当前实际核验正文 **101篇**，缺正文 **325篇**。实际对象角色：{'main': 115, 'supplementary': 12, 'derived': 5, 'evidence_xml': 17, 'evidence_html': 58}。历史记录但无原件者明确标记“历史已获取，当前原件未恢复”，历史SHA和替代版本分开保留。3篇重新下载、上传及独立远端读回门槛已完成，后续按5篇或10分钟检查点推送；仅远端核验通过后称已备份。
 
 - [最新状态](inventory/recovery_20261017/status.json)、[逐文件备份/独立读回清单](inventory/recovery_20261017/backup_manifest_utf8.csv)、[远端核验回执](inventory/recovery_20261017/remote_readback.json)
+- [本轮交付汇总](inventory/recovery_20261017/DELIVERY_20261017_zh.md)、[机器可读汇总](inventory/recovery_20261017/delivery_summary.json)、[逐ID失败及暂停原因](inventory/recovery_20261017/remaining_main_failure_matrix_utf8.csv)、[外部数据链接与大小](inventory/recovery_20261017/external_data_links_utf8.csv)
 - [正文原件](original_files/fulltext/)、[补充材料原件](original_files/supplementary/)、[逐ID解析结果](papers/)、[统一原件清单](inventory/assets_utf8.csv)
 - [426获取状态](manual_review/current_environment_acquisition426_utf8.csv)、[尚缺正文](manual_review/current_environment_need_fulltext_utf8.csv)、[历史缺件队列](inventory/recovery_20261017/historical_reacquisition_queue_utf8.csv)、[SI逐篇状态](manual_review/supplementary_material_status_utf8.csv)
 - [总Excel](final_results/ad_oxygen_download_review_20261006.xlsx)、[总CSV](final_results/ad_oxygen_download_review_utf8.csv)、[分组RIS](final_results/)

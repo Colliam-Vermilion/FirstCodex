@@ -1,0 +1,72 @@
+{
+  "checked_at_utc": "2026-10-17T11:52:42.993872+00:00",
+  "scansci": {
+    "version": "1.18.0",
+    "upstream_snapshot": "3df79f8211ec2fb542170d132e330fc7bb92ab96",
+    "mcp_stdio_initialize": true,
+    "tools_count": 18,
+    "tool_names": [
+      "scansci_pdf_batch_download",
+      "scansci_pdf_cache_clear",
+      "scansci_pdf_channel_status",
+      "scansci_pdf_citation",
+      "scansci_pdf_config",
+      "scansci_pdf_diagnostics",
+      "scansci_pdf_download",
+      "scansci_pdf_elsevier_setup",
+      "scansci_pdf_expand_citations",
+      "scansci_pdf_find",
+      "scansci_pdf_login",
+      "scansci_pdf_parse_list",
+      "scansci_pdf_prepare_queue",
+      "scansci_pdf_schools",
+      "scansci_pdf_search",
+      "scansci_pdf_springer_setup",
+      "scansci_pdf_tor",
+      "scansci_pdf_zotero_push"
+    ],
+    "legal_only_read_through_actual_mcp": true,
+    "grey_sources_disabled_read_through_actual_mcp": true,
+    "authorized_email_read_matches": true,
+    "email_value_not_exported": true,
+    "current_chat_tool_registration_claimed": false
+  },
+  "nature": {
+    "source": {
+      "commit": "b543e8b998eb2df1fd44641cc8b262c638c2b442",
+      "archive_sha256": "9af4866020c0d1fb302cd12d744e5e3313585022a22030d0e36b3048bb181874",
+      "archive_ref": "b543e8b",
+      "transport": "HTTPS codeload.github.com; TLS verification enabled"
+    },
+    "full_directories": {
+      "nature-academic-search": 48,
+      "nature-downloader": 67,
+      "nature-shared": 21
+    },
+    "new_literature_search_executed": false,
+    "tls_verification_disabled": false,
+    "mcp_initialized": true,
+    "tool_count": 16,
+    "tools": [
+      "search_papers",
+      "search_scopus",
+      "get_scopus_abstract",
+      "get_scopus_citation_overview",
+      "search_scopus_authors",
+      "get_scopus_author",
+      "search_scopus_affiliations",
+      "get_scopus_affiliation",
+      "search_scopus_serial_titles",
+      "get_scopus_serial_title",
+      "get_scopus_plumx_metrics",
+      "search_sciencedirect",
+      "get_sciencedirect_article_metadata",
+      "get_paper_by_id",
+      "get_citation",
+      "lookup_mesh"
+    ],
+    "actual_tool_call_validated": true
+  },
+  "node_version": "v24.19.0",
+  "fresh_task_cold_start_verified": false
+}

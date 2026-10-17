@@ -1,5 +1,5 @@
 {
-  "time_utc": "2026-10-17T11:45:14.447221+00:00",
+  "time_utc": "2026-10-17T11:51:25.407785+00:00",
   "restored_remote_baseline": {
     "time_utc": "2026-10-17T08:27:32.315430+00:00",
     "remote_source_commit": "bac51bfccceae13a91745322ed5793260e30a85c",
@@ -100,7 +100,15 @@
     "R13969"
   ],
   "remaining_main_ids": 325,
-  "known_missing_official_attachments": [],
+  "known_missing_official_attachments": [
+    {
+      "record_id": "R13833",
+      "filename": "es8b00894_si_001.docx",
+      "sha256": null,
+      "source_url": "https://pubs.acs.org/doi/suppl/10.1021/acs.est.8b00894/suppl_file/es8b00894_si_001.docx",
+      "status": "Explicitly declared attachment; verified original not yet obtained"
+    }
+  ],
   "remaining_main_primary_observation_counts": {
     "source_paused_after_prior_failure": 284,
     "HTTP403_or_challenge": 12,
@@ -112,18 +120,51 @@
     "upstream_server_error": 7,
     "HTML_no_verified_PDF": 1
   },
+  "remaining_main_observed_category_counts_overlapping": {
+    "source_paused_after_prior_failure": 285,
+    "proxy_CONNECT_403": 82,
+    "HTML_no_verified_PDF": 40,
+    "HTTP403_or_challenge": 28,
+    "authentication_required": 7,
+    "upstream_server_error": 15,
+    "rate_limited": 1,
+    "no_current_file_link": 3,
+    "wrong_PDF": 4,
+    "broken_or_expired_link": 4,
+    "timeout": 2
+  },
   "supplementary_record_statuses": {
     "downloaded": 10,
     "explicit_no_attachments_in_complete_JATS": 7,
-    "access_failed": 344,
+    "access_failed": 343,
     "checked_no_file_links_found_coverage_unconfirmed": 58,
     "identity_review_required": 4,
-    "not_checked": 3
+    "not_checked": 3,
+    "partial_or_access_failed": 1
   },
   "supplementary_unchecked_record_count": 3,
   "supplementary_missing_check_records_without_attempt": 0,
   "present_extraction_files": 1531,
   "historical_extraction_outputs_not_restored": 72,
+  "historical_processed_output_absence_by_source_handling": {
+    "historical_acquired_current_original_not_restored": 17,
+    "available_as_verified_original_archive_member": 5,
+    "redundant_transport_archive_not_retained": 50
+  },
+  "historical_main_missing_old_sha_files": 8,
+  "historical_main_missing_old_sha_ids": [
+    "R03155",
+    "R06036",
+    "R07903",
+    "R10086",
+    "R13899",
+    "R13955",
+    "R13972"
+  ],
+  "historical_main_old_sha_missing_but_other_verified_version_held": [
+    "R10086",
+    "R13955"
+  ],
   "index_validation": {
     "exists": true,
     "new_search_of_external_literature": false,
@@ -142,10 +183,12 @@
   "original_110_fields_554_records_preserved": true,
   "manual_original_files_sha_preserved": true,
   "new_topic_search_or_classification": false,
-  "unbacked_counts_require_final_remote_readback": true,
+  "unbacked_counts_require_final_remote_readback": false,
   "verified_main_and_supplementary_files": 127,
   "verified_main_and_supplementary_bytes": 290712157,
   "unbacked_acquired_main_and_supplementary_files": [],
-  "original_file_proof_commit": "4b214eeaeffdb2586ff48508d08902865fd6403c",
-  "latest_completed_readback_commit": "4b214eeaeffdb2586ff48508d08902865fd6403c"
+  "unbacked_current_extraction_files": [],
+  "search_index_remote_verified": true,
+  "original_file_proof_commit": "2f0be721c6f1868f2499703dbac2e8af671cf2e5",
+  "latest_completed_readback_commit": "2f0be721c6f1868f2499703dbac2e8af671cf2e5"
 }

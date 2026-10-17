@@ -256,7 +256,7 @@ def reconcile_supplementary():
         held=[a for a in assets if a['record_id']==id and a['role']=='supplementary' and r.present(a)]
         record['official_files']=[{'asset_id':a['asset_id'],'sha256':a['sha256'],'size_bytes':a['size_bytes'],'path':a['source_repo_path']} for a in held]
         names={a['original_filename'] for a in held}|{Path(a['source_repo_path']).name for a in held}
-        declared=record.get('declared_attachments',[])
+        declared=record.get('declared_attachments',[])+record.get('pdf_declared_attachments',[])
         record['known_missing_declared_attachments']=[x for x in declared if x['filename'] not in names]
         if held and record['status'] not in ['downloaded','partial_or_access_failed']:
             record.setdefault('publisher_source_status',record['status'])
