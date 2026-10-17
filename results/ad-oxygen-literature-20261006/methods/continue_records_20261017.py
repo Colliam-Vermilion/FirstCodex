@@ -8,6 +8,7 @@ import argparse, collections, csv, hashlib, io, json, re, time, unicodedata, zip
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urlsplit, urljoin
+from bs4 import BeautifulSoup
 import recovery_20261017 as r
 from continue_known_fulltexts import Retriever, Links, normalized
 
@@ -151,6 +152,67 @@ def supplementary():
             checkpt('Persist checked official supplementary materials and full-text evidence');checkpoint=time.monotonic()
     checkpt('Complete existing PMC supplementary review with original-format files')
 
+def publisher_supplements():
+    ready();report=r.load(r.RUN/'supplementary_check.json',{})
+    out=r.ROOT/'original_files/publisher_checks_20261017';out.mkdir(parents=True,exist_ok=True)
+    worker=Retriever(r.ROOT,out,'publisher_SI',workers=1)
+    for h,v in r.load(r.RUN/'batch_downloads.json',{}).get('paused_hosts',{}).items():worker.blocked[h]='Earlier source failure: '+v
+    count=0;checkpoint=time.monotonic()
+    suffixes=r'\.(pdf|docx?|xlsx?|csv|tsv|zip|gz|txt|png|jpe?g|tiff?|gif|svg|mp4|avi|mov|mpe?g|webm|r|py|m|c|cpp|fasta|xml|pptx?)$'
+    for row in rows('manual_review/scansci_download_status_utf8.csv'):
+        id=row['原记录ID'];meta=r.load(r.ROOT/'papers'/id/'metadata.json',{})
+        if not meta.get('included_for_download'):continue
+        if report.get(id,{}).get('status') in ['downloaded','explicit_no_attachments_in_complete_JATS','external_data_links_only']:continue
+        if report.get(id,{}).get('publisher_checked_this_run'):continue
+        url=row.get('官方文章/仓储入口','')
+        record=report.get(id,{'record_id':id,'official_files':[],'external_data_links':[]})
+        record.update(publisher_checked_this_run=True,publisher_url=url,checked_at_utc=r.now())
+        response=worker.get(id,url) if url.startswith(('http://','https://')) else None
+        if response:
+            data,actual,mime=response
+            if data.lstrip().startswith(b'%PDF'):
+                record.update(status='not_checked',reason='Provided entry is a PDF, not an article/attachment page')
+            else:
+                html=data.decode('utf-8','replace');parser=Links(actual);parser.feed(html)
+                title=parser.metadata.get('citation_title') or parser.metadata.get('dc.title') or parser.metadata.get('og:title') or parser.page_title
+                identity=normalized(row['完整题名']) in normalized(title)
+                record['publisher_title_identity_match']=identity
+                if identity:
+                    # Retain the checked article page as source evidence.
+                    store(id,'evidence_html','publisher_article_page_20261017.html',data,actual,'Publisher/repository article HTML')
+                    soup=BeautifulSoup(html,'html.parser');links=[]
+                    for anchor in soup.find_all('a',href=True):
+                        href=urljoin(actual,anchor['href']);label=(anchor.get_text(' ',strip=True)+' '+anchor.get('title','')+' '+href).lower()
+                        parent=anchor.find_parent(['section','div'],class_=re.compile('supplement|support|additional',re.I))
+                        if not (parent or re.search(r'supplement|supporting information|additional file|suppl_file|mmc\d|moesm|_s00\d',label)):continue
+                        if re.search(suffixes,urlsplit(href).path,re.I) or '/bin/' in urlsplit(href).path:
+                            if href not in links:links.append(href)
+                        elif urlsplit(href).hostname not in [urlsplit(actual).hostname,'doi.org']:
+                            record.setdefault('external_data_links',[]).append({'url':href,'size_bytes':None,'size_status':'not supplied; linked external data, no bulk download','downloaded':False})
+                    record['publisher_declared_file_links']=links
+                    current=[a for a in r.load(r.ASSETS,[]) if a['record_id']==id and a['role']=='supplementary' and r.present(a)]
+                    failed=[]
+                    for link in links:
+                        if any(a.get('source_url')==link for a in current):continue
+                        result=worker.get(id,link)
+                        if not result:failed.append(link);continue
+                        content,actualfile,contenttype=result
+                        if content.lstrip().lower().startswith((b'<html',b'<!doctype')) or 'text/html' in contenttype:failed.append(link);continue
+                        name=Path(urlsplit(actualfile).path).name or ('attachment_'+r.sha(content)[:12]+'.bin')
+                        a=store(id,'supplementary',name,content,actualfile,'Official supplementary link from identity-matched article',{'source_xml_url':actual})
+                        record.setdefault('official_files',[]).append({'asset_id':a['asset_id'],'sha256':a['sha256'],'size_bytes':a['size_bytes'],'path':a['source_repo_path']})
+                    record['publisher_failed_file_links']=failed
+                    if links:record['status']='partial_or_access_failed' if failed else 'downloaded'
+                    elif re.search(r'(no supplementary (?:material|information)|no supporting information|supplementary (?:material|information)\s*[:：]\s*(?:none|not applicable))',soup.get_text(' ',strip=True),re.I):record['status']='explicit_no_attachments_on_article_page'
+                    else:record['status']='checked_no_file_links_found_coverage_unconfirmed'
+                else:record.update(status='access_failed' if re.search('just a moment|access denied|verify you are human',html[:15000],re.I) else 'identity_review_required',reason='Page did not expose verified target article metadata')
+        else:record.update(status='access_failed',reason=worker.blocked.get(urlsplit(url).hostname,'Entry unavailable or source cooldown'))
+        report[id]=record;r.save(r.RUN/'supplementary_check.json',report);count+=1
+        print(id,record['status'],len(record.get('official_files',[])),flush=True)
+        if count%5==0 or time.monotonic()-checkpoint>=600:
+            checkpt('Persist publisher supplementary checks and acquired original attachments');checkpoint=time.monotonic()
+    checkpt('Complete supplementary source pass for existing included records')
+
 if __name__=='__main__':
-    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('action',choices=['known','supplementary']);args=parser.parse_args()
-    known() if args.action=='known' else supplementary()
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('action',choices=['known','supplementary','publisher-supplements']);args=parser.parse_args()
+    {'known':known,'supplementary':supplementary,'publisher-supplements':publisher_supplements}[args.action]()
