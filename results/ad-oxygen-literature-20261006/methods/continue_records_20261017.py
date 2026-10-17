@@ -40,6 +40,8 @@ def checkpt(message):
 def known():
     ready();out=r.ROOT/'original_files/continuation_20261017';out.mkdir(parents=True,exist_ok=True)
     worker=Retriever(r.ROOT,out,'existing_included',workers=1)
+    prior_pause=r.load(r.RUN/'batch_downloads.json',{}).get('paused_hosts',{})
+    worker.blocked.update({h:'Paused after earlier source failure in this recovery pass: '+v for h,v in prior_pause.items()})
     previous=r.load(r.ROOT/'methods/audit/scansci_sourcewise_results.json',{})
     current={x['原记录ID']:x for x in rows('manual_review/scansci_download_status_utf8.csv')}
     hist={x['原记录ID']:x for x in rows('methods/audit/scansci_verified_pdf_manifest_utf8.csv')}
