@@ -40,7 +40,7 @@ def finalize():
             if 'CONNECT403' in str(error) or 'CONNECT_403' in str(error) or 'CONNECT403' in skip:categories.add('proxy_CONNECT_403')
             if code==429 or 'Retry-After' in skip:categories.add('rate_limited')
             if code==403:categories.add('HTTP403_or_challenge')
-            if code==401:categories.add('authentication_required')
+            if code==401 or '/login' in urlsplit(event.get('url','')).path.lower() or '/login' in urlsplit(event.get('redirect','')).path.lower():categories.add('authentication_required')
             if isinstance(code,int) and code>=500:categories.add('upstream_server_error')
             if code in [404,410]:categories.add('broken_or_expired_link')
             if 'Timeout' in str(error) or event.get('error_type')=='TimeoutError':categories.add('timeout')
@@ -110,7 +110,8 @@ def finalize():
         'remaining_main_ids':426-len({a['record_id'] for a in mains}),'known_missing_official_attachments':official_missing,
         'remaining_main_primary_observation_counts':dict(collections.Counter(x['primary_observation_not_unique_cause'] for x in failures)),
         'supplementary_record_statuses':dict(collections.Counter(x.get('status','not_checked') for x in si_status.values())),
-        'supplementary_unchecked_record_count':len(uncovered),
+        'supplementary_unchecked_record_count':len(uncovered)+sum(x.get('status')=='not_checked' for x in si_status.values()),
+        'supplementary_missing_check_records_without_attempt':len(uncovered),
         'present_extraction_files':sum(x['availability']=='present_sha_verified' for x in rows),
         'historical_extraction_outputs_not_restored':sum(x['availability']!='present_sha_verified' for x in rows),
         'index_validation':index_report,'original_110_fields_554_records_preserved':True,'manual_original_files_sha_preserved':True,
