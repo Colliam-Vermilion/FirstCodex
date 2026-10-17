@@ -16,7 +16,7 @@ def finalize():
     for path,digest in baseline['protected_files_sha256'].items():assert r.sha((r.ROOT/path).read_bytes())==digest,path
     assets=r.load(r.ASSETS,[]);assetmap={a['asset_id']:a for a in assets}
     events=[]
-    for log in [r.RUN/'access_events.jsonl',r.ROOT/'original_files/continuation_20261017/existing_included_access.jsonl',r.ROOT/'original_files/publisher_checks_20261017/publisher_SI_access.jsonl']:
+    for log in [r.RUN/'access_events.jsonl',r.ROOT/'original_files/continuation_20261017/existing_included_access.jsonl',r.ROOT/'original_files/publisher_checks_20261017/publisher_SI_access.jsonl',r.ROOT/'original_files/repository_followups_20261017/exact_item_followup_access.jsonl']:
         if log.exists():events += [json.loads(line) for line in log.read_text().splitlines() if line.strip()]
     eventmap=collections.defaultdict(list)
     for event in events:
