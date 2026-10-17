@@ -4,7 +4,7 @@ No keyword searches or classification. Preserve every acquired candidate; an
 automated metadata heuristic cannot register a new PDF as verified. Originals
 are backed up every five processed records or ten minutes, whichever is first.
 """
-import argparse, collections, csv, hashlib, io, json, re, time, unicodedata, zipfile, signal
+import argparse, collections, csv, hashlib, io, json, re, time, unicodedata, zipfile, signal, mimetypes
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urlsplit, urljoin
@@ -197,7 +197,9 @@ def publisher_supplements():
         url=row.get('官方文章/仓储入口','')
         record=report.get(id,{'record_id':id,'official_files':[],'external_data_links':[]})
         record.update(publisher_checked_this_run=True,publisher_url=url,checked_at_utc=r.now())
-        response=worker.get(id,url) if url.startswith(('http://','https://')) else None
+        mapped={'10.1016':'www.sciencedirect.com','10.1007':'link.springer.com','10.1186':'link.springer.com','10.2166':'iwaponline.com','10.1021':'pubs.acs.org','10.1002':'onlinelibrary.wiley.com','10.1111':'onlinelibrary.wiley.com','10.3390':'www.mdpi.com','10.1080':'www.tandfonline.com'}.get(meta.get('doi','').split('/')[0])
+        paused_destination=mapped and mapped in worker.blocked and urlsplit(url).hostname in ['doi.org','dx.doi.org']
+        response=worker.get(id,url) if url.startswith(('http://','https://')) and not paused_destination else None
         if response:
             data,actual,mime=response
             if data.lstrip().startswith(b'%PDF'):
@@ -211,15 +213,28 @@ def publisher_supplements():
                     # Retain the checked article page as source evidence.
                     safe_html=re.sub(r';(?:jsessionid|phpsessid)=[^/?#;\s"\'<>]*','',html,flags=re.I).encode('utf-8')
                     store(id,'evidence_html','publisher_article_page_20261017.html',safe_html,actual,'Article HTML with anonymous server session identifiers removed')
-                    soup=BeautifulSoup(html,'html.parser');links=[]
+                    soup=BeautifulSoup(html,'html.parser');links=[];landings=[]
                     for anchor in soup.find_all('a',href=True):
                         href=urljoin(actual,anchor['href']);label=(anchor.get_text(' ',strip=True)+' '+anchor.get('title','')+' '+href).lower()
                         parent=anchor.find_parent(['section','div'],class_=re.compile('supplement|support|additional',re.I))
                         if not (parent or re.search(r'supplement|supporting information|additional file|suppl_file|mmc\d|moesm|_s00\d',label)):continue
                         if re.search(suffixes,urlsplit(href).path,re.I) or '/bin/' in urlsplit(href).path:
                             if href not in links:links.append(href)
+                        elif urlsplit(href).hostname==urlsplit(actual).hostname and urlsplit(href).path!=urlsplit(actual).path:
+                            if href not in landings:landings.append(href)
                         elif urlsplit(href).hostname not in [urlsplit(actual).hostname,'doi.org']:
                             record.setdefault('external_data_links',[]).append({'url':href,'size_bytes':None,'size_status':'not supplied; linked external data, no bulk download','downloaded':False})
+                    for landing in landings[:3]:
+                        sub=worker.get(id,landing)
+                        if not sub or sub[0].lstrip().startswith(b'%PDF'):continue
+                        page=BeautifulSoup(sub[0],'html.parser')
+                        for anchor in page.find_all('a',href=True):
+                            href=urljoin(sub[1],anchor['href'])
+                            label=(href+' '+anchor.get_text(' ',strip=True)).lower()
+                            if re.search(r'author.?guideline|catalog|brochure|price.?list',label):continue
+                            if not re.search(r'supplement|support|additional|attachment|moesm|mmc\d|_s00\d|data.sheet|table[_ -]?\d|video|movie|appendi|source.code',label):continue
+                            if re.search(suffixes,urlsplit(href).path,re.I) and href not in links:links.append(href)
+                    record['publisher_supplement_landing_pages']=landings[:3]
                     record['publisher_declared_file_links']=links
                     current=[a for a in r.load(r.ASSETS,[]) if a['record_id']==id and a['role']=='supplementary' and r.present(a)]
                     failed=[]
@@ -229,7 +244,8 @@ def publisher_supplements():
                         if not result:failed.append(link);continue
                         content,actualfile,contenttype=result
                         if content.lstrip().lower().startswith((b'<html',b'<!doctype')) or 'text/html' in contenttype:failed.append(link);continue
-                        name=Path(urlsplit(actualfile).path).name or ('attachment_'+r.sha(content)[:12]+'.bin')
+                        name=Path(urlsplit(actualfile).path).name or ('attachment_'+r.sha(content)[:12])
+                        if not Path(name).suffix:name+=(mimetypes.guess_extension(contenttype.split(';')[0].strip()) or '.bin')
                         a=store(id,'supplementary',name,content,actualfile,'Official supplementary link from identity-matched article',{'source_xml_url':actual})
                         record.setdefault('official_files',[]).append({'asset_id':a['asset_id'],'sha256':a['sha256'],'size_bytes':a['size_bytes'],'path':a['source_repo_path']})
                     record['publisher_failed_file_links']=failed
@@ -237,7 +253,7 @@ def publisher_supplements():
                     elif re.search(r'(no supplementary (?:material|information)|no supporting information|supplementary (?:material|information)\s*[:：]\s*(?:none|not applicable))',soup.get_text(' ',strip=True),re.I):record['status']='explicit_no_attachments_on_article_page'
                     else:record['status']='checked_no_file_links_found_coverage_unconfirmed'
                 else:record.update(status='access_failed' if re.search('just a moment|access denied|verify you are human',html[:15000],re.I) else 'identity_review_required',reason='Page did not expose verified target article metadata')
-        else:record.update(status='access_failed',reason=worker.blocked.get(urlsplit(url).hostname,'Entry unavailable or source cooldown'))
+        else:record.update(status='access_failed',reason=worker.blocked.get(mapped if paused_destination else urlsplit(url).hostname,'Entry unavailable or source cooldown'),source_request_skipped_due_to_known_publisher_pause=bool(paused_destination))
         report[id]=record;r.save(r.RUN/'supplementary_check.json',report);count+=1
         print(id,record['status'],len(record.get('official_files',[])),flush=True)
         if count%5==0 or time.monotonic()-checkpoint>=600:
