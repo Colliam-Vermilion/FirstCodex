@@ -1,0 +1,2000 @@
+
+[PDF page 1]
+Vol.:(0123456789)
+Applied Microbiology and Biotechnology (2025) 109:131 
+https://doi.org/10.1007/s00253-025-13519-w
+MINI-REVIEW
+Micro-aeration for improving anaerobic treatment and biogas 
+production from organic pollutants
+Luís Costa1   · M. Salomé Duarte1,2   · Carla Pereira Magalhães1   · M. Alcina Pereira1,2   · Ana Júlia Cavaleiro1,2 
+Received: 8 January 2025 / Revised: 13 May 2025 / Accepted: 13 May 2025 / Published online: 30 May 2025 
+© The Author(s) 2025
+Abstract 
+Anaerobic digestion (AD) is a well-established method for waste/wastewater treatment and biogas production, but challenges 
+remain in improving its performance, particularly for toxic/inhibitory organic compounds such as lipids, hydrocarbons, 
+polyphenols, pharmaceuticals, and other pollutants. Micro-aeration, which involves the controlled introduction of small 
+amounts of oxygen, has emerged as a promising strategy to enhance microbial activity, stimulate the degradation of chal-
+lenging compounds, and improve methane yields. This review addresses the different strategies used for effective oxygen 
+dosing, measurement, and control, while also delving into the bioenergetics of the coexisting anaerobic and micro-aerobic 
+pathways. Studies demonstrating the potential of micro-aeration to enhance the anaerobic treatment of recalcitrant organic 
+pollutants, such as BTEX (benzene, toluene, ethylbenzene, and xylene) and pharmaceutical compounds, are reviewed. Sev-
+eral works use micro-aeration as a pretreatment, while those implementing it directly within bioreactors typically apply it 
+intermittently. Nevertheless, in most cases, the application of micro-aeration is guided by a “trial-and-error” approach, and 
+a systematic understanding of optimal strategies and dosing for different classes of pollutants remains lacking. The review 
+also explores the diverse roles of micro-aeration in the AD of lipids, highlighting key microorganisms and underlying 
+mechanisms that drive these processes, for instance, the role of facultative anaerobes in converting oleate into palmitate and 
+protecting methanogenic communities. Finally, this work highlights future directions and remaining challenges in applying 
+micro-aeration for the anaerobic treatment of organic pollutants.
+Key points
+• AD of lipids, hydrocarbons, dyes, pharmaceuticals, and other pollutants is challenging.
+• Micro-aeration reshapes microbial communities and enhances pollutant degradation.
+• Effective micro-aeration depends on several factors and is not fully mastered.
+Keywords  Anaerobic digestion · Oxygen dosing · Organic pollutants · Lipids · Methane
+Introduction
+Anaerobic digestion (AD) is a well-established process for 
+waste/wastewater treatment and renewable energy produc-
+tion, primarily through biogas generation, which can be 
+upgraded to biomethane and used as a sustainable alternative 
+to natural gas. In recent years, global geopolitical tensions 
+and the urgent need to mitigate climate change have driven 
+a shift towards clean energy sources, reducing reliance on 
+fossil fuels (European Commission 2022). This transition is 
+particularly critical in regions heavily dependent on energy 
+imports, such as Europe, where energy security and sustain-
+ability are key concerns. The European Commission, for 
+instance, has highlighted biomethane from organic waste 
+as a key element in reducing fossil fuel dependency and 
+ *	 Ana Júlia Cavaleiro 
+	
+acavaleiro@ceb.uminho.pt
+	
+Luís Costa 
+	
+id11211@alunos.uminho.pt
+	
+M. Salomé Duarte 
+	
+salomeduarte@ceb.uminho.pt
+	
+Carla Pereira Magalhães 
+	
+c.pereira.mg@gmail.com
+	
+M. Alcina Pereira 
+	
+alcina@deb.uminho.pt
+1	
+CEB ‑ Centre of Biological Engineering, University 
+of Minho, Campus de Gualtar, Braga, Portugal
+2	
+LABBELS – Associate Laboratory, Braga/Guimarães, 
+Portugal
+
+
+[PDF page 2]
+	
+Applied Microbiology and Biotechnology (2025) 109:131
+131 
+Page 2 of 18
+decarbonizing the energy sector (European Biogas Associa-
+tion 2024). Additionally, digestate is produced during AD 
+and contributes to nutrient cycling and sustainable agricul-
+ture (Briones and Raskin 2003; Chen et al. 2020).
+Despite its well-established benefits, AD processes are 
+often constrained by inhibitors, such as volatile fatty acids 
+(VFA) accumulation, which can disrupt microbial activity 
+and compromise overall process stability (Xu et al. 2014; 
+Nguyen et al. 2019). Additionally, the production of hydro-
+gen sulphide ­(H2S) poses a significant challenge, as it is 
+toxic to microorganisms and can destabilize the anaerobic 
+digestion process (Chen et al. 2008). Moreover, the presence 
+of toxic or inhibitory compounds (e.g. hydrocarbons, phar-
+maceuticals, ammonia, lipids) often compromise the chain 
+of reactions that ultimately lead to methane production. 
+Anaerobic digestion relies on a complex interplay of differ-
+ent microbial groups that sequentially break down organic 
+matter into simpler compounds. This process involves four 
+main stages: hydrolysis, acidogenesis, acetogenesis, and 
+methanogenesis. Each stage depends on the previous one, 
+and the inhibition of any microbial group can disrupt the 
+entire process, reducing methane yields and overall system 
+efficiency (Chen et al. 2020).
+Studies have explored innovative strategies to optimize 
+AD performance, with micro-aeration emerging as a prom-
+ising approach. Micro-aeration involves the controlled 
+introduction of small amounts of oxygen into an anaerobic 
+environment. This approach can enhance microbial activ-
+ity, boost hydrolysis, improve methane yields, promote the 
+degradation of VFA and the removal of toxic compounds, 
+and reduce ­H2S accumulation (Cavaleiro et al. 2016; Nguyen 
+and Khanal 2018; Duarte et al. 2020). Therefore, micro-aera-
+tion not only addresses operational challenges but also holds 
+potential for improving the economic and environmental 
+viability of AD systems (Fu et al. 2018b; Song et al. 2021).
+Despite its advantages, micro-aeration requires careful 
+implementation, as oxygen exposure can negatively affect 
+strict anaerobes, such as methanogens and sulphate-reduc-
+ing bacteria (SRB), which thrive in low redox environments 
+(Jasso-Chávez et al. 2015). SRB generate hydrogen sulphide, 
+which is toxic for methanogens, and they also outcompete 
+methanogens for key substrates such as acetate and ­H2. 
+Therefore, micro-aeration might be exploited to enhance 
+methanogenic processes by limiting SRB activity, provided 
+methanogen inhibition by O₂ can be minimized, for example, 
+in a two-phase system. Maintaining a balance that supports 
+the synergistic interactions between the different microbial 
+key players involved in efficient organic matter conversion 
+to methane is thus required (McInerney et al. 2009; Sieber 
+et al. 2012).
+This review provides a practical perspective on micro-
+aeration in AD, examining its implementation, operational 
+challenges, and benefits in optimizing waste-to-energy 
+processes, with a special focus on AD of toxic/recalcitrant 
+compounds, since this topic has received less attention com-
+pared to other AD applications (e.g. improving hydrolysis 
+or removing ­H2S). Various terms are presented in the lit-
+erature to describe the introduction of oxygen into the 
+AD process. Some authors distinguish between the terms 
+“micro-aeration” and “micro-oxygenation”, where the for-
+mer refers to the dosing of air into the anaerobic reactor 
+and the latter refers to the use of pure oxygen. In this paper, 
+the term “micro-aeration” is generally used to describe both 
+approaches of introducing small quantities of oxygen in AD 
+processes.
+Bioenergetics in anaerobic 
+and micro‑aerobic environments
+Micro-aeration in AD creates a hybrid environment where 
+both anaerobic and aerobic conditions coexist, supporting 
+beneficial niches for both strict and facultative anaerobes, 
+as well as to micro-aerobes (Ortiz-Ardila et al. 2021). Under 
+strict anaerobic conditions, organic matter is only partially 
+transformed into energy-rich molecules due to the lack of an 
+efficient electron transport chain, resulting in lower energy 
+yields from organic degradation reactions. In fact, in these 
+environments, macromolecules (proteins, sugars, and lipids) 
+undergo hydrolysis and fermentation, producing intermedi-
+ary compounds such as alcohols and VFA. These intermedi-
+ates are further converted into acetate and hydrogen/formate. 
+However, the accumulation of these products imposes ther-
+modynamic constraints. This is evident in the positive Gibbs 
+free energy change associated with these reactions—e.g. for 
+the oxidation of ethanol, butyrate, propionate, and oleate 
+to acetate and hydrogen, ΔG0' is + 9.6, + 48.3, + 24.2, and 
++ 325.7 kJ ­reaction−1, respectively, under standard condi-
+tions and pH 7 (Thauer et al. 1977; Cavaleiro et al. 2016; 
+Nguyen and Khanal 2018). Such thermodynamic limitations 
+are generally overcome through syntrophic interactions, 
+wherein a microbial partner, commonly a hydrogenotrophic 
+methanogen, consumes the hydrogen or formate produced. 
+This consumption shifts the reaction equilibrium, rendering 
+exergonic (ΔG0' < 0 kJ ­reaction−1) previously endergonic 
+reactions and thereby enabling continued degradation of the 
+macromolecules and their intermediates (Table 1). This is 
+also the case for other possible toxic organic compounds, 
+e.g. benzene and toluene (Zengler et al. 1999; Vogt et al. 
+2011). Nevertheless, the reduced energetic gain from the 
+overall methanogenic reactions (Table 1) open spaces for a 
+positive effect of micro-aeration in AD.
+Aerobic conditions promote the rapid consumption 
+of organic compounds and microbial growth, driven by a 
+highly active metabolism (Nguyen and Khanal 2018). The 
+associated biochemical reactions are highly exergonic, as 
+
+
+[PDF page 3]
+Applied Microbiology and Biotechnology (2025) 109:131	
+Page 3 of 18 
+131
+evidenced by the negative values of ΔG0' for the aerobic 
+degradation of key biological macromolecules (proteins, 
+sugars, and lipids), as well as some typical AD intermedi-
+aries (amino acids, monosaccharides, alcohols, VFA) and 
+potentially toxic organic compounds (benzene and toluene) 
+(Table 1). These values are often more than one order of 
+magnitude higher than those observed under anaerobic 
+methanogenic conditions (Table 1), highlighting the ener-
+getic advantage of aerobic metabolism.
+The Gibbs free energy change under micro-aerobic con-
+ditions (1% air-saturated water at sea level (1 atm) and 
+4 °C) was also calculated for the same organic compounds 
+(ΔG′, Table 1). Under these conditions, the reactions are 
+only slightly less favourable compared to fully aerobic 
+conditions, and the effect of decreasing ­O2 concentrations 
+in ΔG′ is relatively small, as illustrated in Fig. 1, using the 
+reaction of aerobic oleate oxidation as an example. This 
+indicates that such reactions remain significantly more 
+favourable than under anaerobic conditions. These findings 
+suggest that even small amounts of oxygen can enhance 
+the efficiency of the biochemical processes and stimulate 
+specific microbial groups that thrive under low oxygen 
+conditions, by enhancing their metabolic activity. For 
+example, Nguyen et al. (2019) pointed out that facultative 
+Table 1   Energetics of the conversion reactions for major classes of biological macromolecules under anaerobic, aerobic, and micro-aerobic con-
+ditions
+a Gibbs free energy change (ΔG0′) was calculated under standard conditions (25 °C, solute concentrations of 1 mol ­L−1, gas partial pressure of 1 
+atm, and ­H+ concentration at pH 7). Data obtained or calculated from Thauer et al. (1977)
+b ΔG′ was calculated with solute concentrations of 1 mol ­L−1, oxygen concentration of 3.41 µmol ­L−1 (equivalent to 1% air-saturated water at sea 
+level (1 atm) and 4 °C), gas partial pressure of 1 atm, pH 7, at 25 °C
+c Representative of toxic compounds
+Model substrate
+Reaction under aerobic/micro-aerobic conditions
+ΔG0′a kJ react.−1
+ΔG′b kJ react.−1
+ Proteins
+Creatine
+C4H9N3O2 + 3 ­O2 → 4 ­CO2 + 3 ­NH3
+ − 1392.9
+ − 1299.3
+ Carbohydrates
+Sucrose
+C12H22O11 + 12 ­O2 → 12 ­CO2 + 11 ­H2O
+ − 5789.4
+ − 5415.2
+ Lipids
+Oleatec
+C18H33O2
+− + ­H+ + 25.5 ­O2 → 18 ­CO2 + 17 ­H2O
+ − 10,916.1
+ − 10,120.9
+ Hydrocarbons
+Benzenec
+C6H6 + 7.5 ­O2 → 6 ­CO2 + 3 ­H2O
+ − 3202.2
+ − 2941.6
+ Hydrocarbons
+Toluenec
+C7H8 + 9 ­O2 → 7 ­CO2 + 4 ­H2O
+ − 3823.5
+ − 3509.0
+Intermediary products
+ Amino acids
+Alanine
+C3H7NO2 + 3 ­O2 → 3 ­CO2 + ­NH3 + 2 ­H2O
+ − 1312.5
+ − 1210.7
+ Amino acids
+Glycine
+C2H5NO2 + 1.5 ­O2 → 2 ­CO2 + ­NH3 + ­H2O
+ − 681.7
+ − 631.5
+ Amino acids
+Leucine
+C6H13NO2 + 7.5 ­O2 → 6 ­CO2 + ­NH3 + 5 ­H2O
+ − 3234.7
+ − 3181.9
+ Monosaccharides
+Glucose
+C6H12O6 + 6 ­O2 → 6 ­CO2 + 6 ­H2O
+ − 2872.0
+ − 2658.2
+ Alcohols
+Ethanol
+C2H5OH + 3 ­O2 → 2 ­CO2 + 3 ­H2O
+ − 1318.5
+ − 1221.5
+ VFA
+Butyrate
+C4H7O2
+− + ­H+ + 5 ­O2 → 4 ­CO2 + 4 ­H2O
+ − 2133.7
+ − 1964.0
+ VFA
+Propionate
+C3H5O2
+− + ­H+ + 3.5 ­O2 → 3 ­CO2 + 3 ­H2O
+ − 1493.7
+ − 1376.3
+ VFA
+Acetate
+C2H3O2
+− + ­H+ + 2 ­O2 → 2 ­CO2 + 2 ­H2O
+ − 853.8
+ − 788.0
+ −
+H2
+H2 + 0.5 ­O2 → ­H2O
+ − 237.2
+ − 221.6
+Model substrate
+Reaction under anaerobic (methanogenic) conditions
+ΔG0′a kJ react.−1
+−
+ Proteins
+Creatine
+C4H9N3O2 + 3 ­H2O → 1.5 ­CH4 + 2.5 ­CO2 + 3 ­NH3
+ − 165.9
+−
+ Carbohydrates
+Sucrose
+C12H22O11 + ­H2O → 6 ­CH4 + 6 ­CO2
+ − 881.6
+−
+ Lipids
+Oleatec
+C18H33O2 + ­H+ + 8.5 ­H2O → 12.75 ­CH4 + 5.25 ­CO2
+ − 527.0
+−
+ Hydrocarbons
+Benzenec
+C6H6 + 4.5 ­H2O → 3.75 ­CH4 + 2.25 ­CO2
+ − 134.8
+−
+ Hydrocarbons
+Toluenec
+C7H8 + 5 ­H2O → 4.5 ­CH4 + 2.5 ­CO2
+ − 142.6
+−
+Intermediary products
+ Amino acids
+Alanine
+C3H7NO2 + ­H2O → 1.5 ­CH4 + 1.5 ­CO2 + ­NH3
+ − 85.5
+−
+ Amino acids
+Glycine
+C2H5NO2 + 0.5 ­H2O → 0.75 ­CH4 + 1.25 ­CO2 + ­NH3
+ − 68.2
+−
+ Amino acids
+Leucine
+C6H13NO2 + 2.5 ­H2O → 3.75 ­CH4 + 2.25 ­CO2 + ­NH3
+ − 167.4
+−
+ Monosaccharides
+Glucose
+C6H12O6 → 3 ­CH4 + 3 ­CO2
+ − 418.1
+−
+ Alcohols
+Ethanol
+C2H5OH → 1.5 ­CH4 + 0.5 ­CO2
+ − 91.6
+−
+ VFA
+Butyrate
+C4H7O2
+− + ­H+ + ­H2O → 2.5 ­CH4 + 1.5 ­CO2
+ − 88.7
+−
+ VFA
+Propionate
+C3H5O2
+− + ­H+ + 0.5 ­H2O → 1.75 ­CH4 + 1.25 ­CO2
+ − 62.2
+−
+ VFA
+Acetate
+C2H3O2
+− + ­H+ → ­CO4 + ­CO2
+ − 35.8
+−
+ −
+H2
+H2 + 0.25 ­CO2 → 0.25 ­CH4 + 0.5 ­H2O
+ − 32.7
+−
+
+
+[PDF page 4]
+	
+Applied Microbiology and Biotechnology (2025) 109:131
+131 
+Page 4 of 18
+bacteria can shift from anaerobic fermentation to the more 
+energetically favourable aerobic respiration upon intermit-
+tent ­O2 dosing. This is possibly related with the ability of 
+some prokaryotes to grow aerobically at nanomolar ­O2 
+concentrations (Wu et al. 2021).
+Consequently, the limited oxygen availability under 
+micro-aerobic conditions may promote the occurrence 
+of partial biochemical pathways (e.g. hydrolysis), but, in 
+some cases, it may also allow complete reactions to occur 
+(e.g. aerobic oxidation of VFA). However, in these cases, 
+oxygen acts as limiting reagent, thereby constraining the 
+overall extension of the reaction. This is particularly rel-
+evant for avoiding substrate and energy diversion away 
+from methane production, while simultaneously reducing 
+the accumulation of toxic or inhibitory compounds. There-
+fore, integrating controlled and balanced aerobic oxida-
+tion by heterotrophs with anaerobic degradation pathways 
+and methanogenesis emerges as a promising strategy to 
+enhance energy transformations while maintaining stabil-
+ity within AD processes. The interplay between micro-
+aerobic bacteria and strict anaerobes, including syntrophic 
+bacteria and methanogenic archaea, is thus highly relevant. 
+This topic has been thoroughly reviewed by Nguyen and 
+Khanal (2018), and therefore it will not be addressed in 
+detail in this review.
+Micro‑aeration strategies
+Different ways to achieve micro‑aeration
+Efficient oxygen dosing methods are crucial for optimiz-
+ing micro-aeration in AD; however, detailed descriptions 
+of these methods remain limited in the literature. Micro-
+aeration can be applied directly within a single anaerobic 
+bioreactor—where all microbiological phases occur simul-
+taneously—or as a pretreatment step (Fig. 2). In the latter 
+case, micro-aeration is typically used to promote hydrolysis 
+and acidification of the substrate in a first stage, followed by 
+a second anaerobic stage. The introduction of small amounts 
+of oxygen is commonly done either into the gas phase, in 
+the headspace of the bioreactors, or directly into the liquid 
+phase (Fig. 2). Each approach presents distinct advantages 
+and challenges.
+Oxygen introduction into the gas phase typically requires 
+less energy. This approach is commonly applied to remove 
+­H2S, since it was identified as the most effective method 
+(Kobayashi et al. 2012). This efficiency arises because oxy-
+gen is utilized by sulphur-oxidizing bacteria (SOB), which 
+oxidize ­H2S to elemental sulphur (S⁰) or sulphate ­(SO4
+2−). 
+These bacteria thrive in the upper region of the digestor, 
+where both oxygen and ­H2S are present. As a result, the vol-
+ume of pure oxygen or air required to treat a given amount 
+of ­H2S is reduced. Consequently, this minimizes nitrogen 
+contamination in the biogas, enhancing its quality (Kray-
+zelova et al. 2015).
+For other applications, micro-aeration in the gas phase is 
+implemented under batch/fed-batch conditions, often at mild 
+overpressure levels, and sufficient time should be provided 
+for the oxygen in the headspace to equilibrate and diffuse 
+across the liquid medium. These conditions minimize the 
+risk of localized high ­O2 concentrations, thereby helping to 
+prevent acute toxicity to strict anaerobes (Di Costanzo et al. 
+Fig. 1   Gibbs free energy change with oxygen concentration, for the 
+reaction of aerobic oleate oxidation under non-standard conditions (at 
+25 °C, oleate concentration of 1 mol ­L−1, gas (other than ­O2) partial 
+pressure of 1 atm, pH 7)
+Fig. 2   Overview of micro-
+aeration application points, 
+techniques, and application 
+modes in AD processes
+
+
+[PDF page 5]
+Applied Microbiology and Biotechnology (2025) 109:131	
+Page 5 of 18 
+131
+2024). In these systems, the gradual consumption of oxy-
+gen by microorganisms promotes continued diffusion and a 
+steady transfer of oxygen from the gas phase to the liquid. 
+On the other hand, injecting oxygen directly into the liq-
+uid phase can enhance the transfer rate and promote higher 
+microbial activity by oxygen-tolerant organisms but requires 
+more energy and advanced equipment to ensure efficient gas 
+dispersion (Buakaew and Ratanatamskul 2024; Hou et al. 
+2024). The introduction of pure oxygen or air bubbles into 
+an anaerobic reactor may irreversibly inhibit methanogens, 
+if freely dispersed in the liquid phase, due to their strictly 
+anaerobic nature (Botheju et al. 2010; Botheju 2011). How-
+ever, recent studies have shown that some methanogens 
+possess mechanisms to mitigate oxidative stress, including 
+enzymes such as catalase (KAT) and superoxide dismutase 
+(SOD), which neutralize reactive oxygen species (ROS) 
+(Pedone et al. 2004). Oxygen tolerance varies significantly 
+among different methanogenic groups. For example, Lyu and 
+Lu (2018) categorized methanogens into two groups based 
+on their genetic adaptations: Class I (including Methanobac-
+teriales, Methanococcales, and Methanopyrales) and Class 
+II (comprising Methanocellales, Methanomicrobiales, and 
+Methanosarcinales). Class II methanogens exhibit greater 
+adaptability to oxidative environments, partly because they 
+use enzymes that minimize ROS generation or improve 
+ROS removal (Lyu and Lu 2018). Additionally, in anaerobic 
+digesters, methanogens are generally growing in aggregates 
+(granules) or as biofilms, thus benefiting from the protec-
+tion provided by outer layers of oxygen-tolerant bacteria, 
+which consume oxygen before it reaches the inner layers 
+(Magdalena et al. 2022; Buakaew and Ratanatamskul 2024). 
+The selection of the method for gas dispersion is crucial, as 
+micro-aeration requires effective gas transfer due to oxy-
+gen’s low solubility in water and its limited gas-to-liquid 
+phase transfer efficiency. To address the oxygen diffusion 
+limitation in the gas–liquid interface, several strategies have 
+been applied (Fig. 2), namely the use of oxygen-transfer-
+ring membranes for controlled oxygen dosing (Pokorna-
+Krayzelova et al. 2018; Fu et al. 2023). Membrane-aerated 
+reactors use membranes of different materials, such as sili-
+cone tubes or polypropylene membranes, to deliver oxygen 
+efficiently with more uniform mass transfer. Through the 
+membrane module, pressurized gas diffuses into the solu-
+tion without forming bubbles, achieving an approximately 
+100% oxygen transfer rate (OTR) (Perez-Calleja et al. 2017; 
+Zhang et al. 2022), with low energy consumption thus over-
+coming the problems faced in wastewater treatment (Syron 
+et al. 2015). The membranes can also promote microbial 
+colonization on their rough surfaces, leading to biofilm 
+development. This may be beneficial for biomass reten-
+tion, but it can also contribute to membrane fouling over 
+time, thus representing both an advantage and a potential 
+limitation. Recent studies have explored membrane-based 
+micro-aeration as an effective method for enhancing the deg-
+radation of refractory organic matter in anaerobic systems. 
+For instance, Zhang et al. (2022) demonstrated that mem-
+brane-based micro-aeration (0.5–5.0 mL ­min−1 air supply) 
+significantly improved the degradation of 2,4-dinitrophenol 
+in a hydrolysis acidification reactor, achieving 2 to 3% higher 
+degradation rates compared to traditional bubble aeration 
+methods. Bubble-free membrane micro-aeration was also 
+successfully applied by Wei et al. (2024) in an anaerobic 
+membrane bioreactor (AnMBR), to increase the hydrolysis 
+and acidification of insoluble starch and soluble peptone, 
+which lead to 66–145% increase in methane production. 
+Additionally, this approach also raised the critical flux of 
+the microfiltration membrane by driving large floc forma-
+tion, improving sludge filterability.
+Another innovative approach being explored in combi-
+nation with AD is the use of nanobubble (NB) technology 
+(Fig. 2), which generates bubbles with diameters ranging 
+from 50 to 200 nm (Atkinson et al. 2019; Chuenchart et al. 
+2021). The gaseous spherical bubbles ­(N2, ­CO2, ­H2, ­O2, air) 
+are usually produced by hydrodynamic cavitation. They have 
+higher interfacial area per volume of gas and longer lifetimes 
+in water (2 weeks or more) compared to larger bubbles, 
+resulting in more efficient gas partitioning into water (Atkin-
+son et al. 2019; Hou et al. 2024). This technology has been 
+shown to be promising for increasing biodegradability rates, 
+methane and hydrogen production, and hydrolytic enzyme 
+activity during pretreatment tests with several substrates, 
+such as cellulose (Wang et al. 2020a, 2020b), corn straw 
+(Wang et al. 2020c), and kitchen waste (Hou et al. 2021).
+Oxygen-releasing materials (Fig. 2), such as granular 
+calcium peroxide, have also been applied to create micro-
+aeration conditions in AD, leading to increased methane 
+yields (Fu et al. 2018a), though further research is needed 
+to understand their effects on microbial physiology and long-
+term AD performance.
+Electrolytic aeration (Fig. 2) has also been proposed as 
+a cutting-edge solution for in situ micro-aeration (Fu et al. 
+2023). This technique involves producing oxygen and hydro-
+gen through electrolytic aeration, with oxygen used to create 
+the micro-aerobic environment and hydrogen serving as a 
+substrate for methane synthesis (Tartakovsky et al. 2011; 
+Nguyen and Khanal 2018). Adjusting the electric current 
+allows the control of aeration levels. For instance, apply-
+ing a voltage of 2.8–3.5 V in a sludge bed reactor resulted 
+in increased hydrolysis, higher net methane production 
+(10–25%), and improved reactor stability compared to a con-
+ventional reactor, as well as enhanced combustion capacities 
+of the biogas, due to the release of a small portion of the ­H2 
+into the headspace (Tartakovsky et al. 2011).
+By using feeding tanks that are not completely sealed 
+(Fig. 2), small oxygen amounts enter the reactor naturally, 
+which can have a very significant impact on AD. Although 
+
+
+[PDF page 6]
+	
+Applied Microbiology and Biotechnology (2025) 109:131
+131 
+Page 6 of 18
+this system does not allow full control of the oxygen added, 
+it may be closer to what happens in some full-scale AD 
+plants, where strict anaerobic conditions may not con-
+sistently be maintained and thus vestigial oxygen may be 
+found. For example, in traditional livestock farms or in the 
+anaerobic digestion of sewage sludge, feedstocks are typi-
+cally stored in tanks that—although generally covered and 
+non-aerated—are not fully anaerobic. These tanks often 
+maintain anoxic or facultative conditions, with only mini-
+mal levels of oxygen present. To simulate this entrance of 
+vestigial oxygen amounts through the feeding, Duarte et al. 
+(2018) operated bioreactors with feeding tanks open to the 
+air (opening area per volume = 1.9–2.5 ­m−1) and found that 
+this approach facilitated the conversion of toxic long-chain 
+fatty acids to methane, when compared to strict anaerobic 
+feeding. The oxidation–reduction potential (ORP) in these 
+microaerophilic feeding tanks was approximately − 100 mV, 
+contrasting with the stricter anaerobic feeding, which exhib-
+ited ORP values around − 250 mV. This approach led to an 
+ORP increase from approximately − 350 mV (strict anaero-
+bic) to − 250 mV (microaerophilic), indicating the presence 
+of small oxygen amounts in the system.
+Therefore, multiple oxygen dosing strategies show 
+potential for enhancing AD processes, but further research 
+is needed to optimize these methods for industrial-scale 
+application and understand their long-term impacts on AD 
+performance.
+Oxygen levels in the system
+Oxygen addition is generally performed by injecting air or 
+pure oxygen (Fig. 2). Air is more commonly used from a 
+cost perspective, as pure oxygen typically incurs additional 
+expenses. Nguyen and Khanal (2018) propose that air is suf-
+ficient if the primary purpose is to enhance hydrolysis and 
+VFA production. However, the use of air can lead to unde-
+sirable dilution of biogas due to the presence of nitrogen. 
+This issue is particularly challenging when biogas with a low 
+methane content (approximately 50%) is produced (Kray-
+zelova et al. 2015). Consequently, when the objective is to 
+generate high-quality biogas, such as renewable natural gas, 
+pure oxygen may be the preferred option to avoid nitrogen 
+dilution associated with air injection. Additionally, air injec-
+tion generally necessitates higher dosages due to the lower 
+oxygen content (~ 21%) in comparison with the use of pure 
+oxygen (100%).
+Precise management of air or pure oxygen dosage is 
+essential. Facultative anaerobes rely on DO to secrete extra-
+cellular hydrolases, making oxygen a limiting factor for 
+their growth. However, high oxygen doses not only inhibit 
+methanogenic microorganisms but also pose an explosion 
+risk, as escaping air or oxygen can concentrate in biogas 
+(Krayzelova et al. 2015; Chen et al. 2020). The explosion 
+range of methane lies between 4 and 17% by volume in air 
+(International Social Security Association 2019). Addition-
+ally, excessive oxygen can promote aerobic metabolism of 
+intermediate organic compounds by facultative anaerobes, 
+reducing the availability of substrates for methanogenesis 
+and leading to reduced methane yields, which is undesirable.
+Higher concentrations of oxygen around 1.0 mg ­L−1 have 
+been applied in micro-aerobic hydrolysis process to intensify 
+sludge reduction (Niu et al. 2016; Xu et al. 2021) which may 
+be applied as a pretreatment prior to AD process. Micro-
+aeration applying lower concentrations of oxygen, such as 
+0.1 mg ­L−1, has been directly applied in AD systems, as 
+shown in Table 2. This range of concentrations has been 
+shown to establish micro-aerobic conditions suitable for the 
+growth of microaerophilic and facultative microorganisms 
+(Wu et al. 2015; Xu et al. 2021). Nguyen and Khanal (2018) 
+reviewed typical oxygen loads (expressed as the volume of 
+­O2 per unit volume of reactor and time) ranging from 0.005 
+to 5 L ­L−1 ­day−1. However, these dosages, or the intensity of 
+micro-aeration, can vary depending on several factors, such 
+as the specific objective of the process, the source of the 
+inoculum, the reactor configuration, the substrate type, and 
+the organic loading rate applied (Nguyen and Khanal 2018).
+Defining the best micro-aeration intensity is key. For 
+instance, Zhu et al. (2009) studied the effects of different 
+micro-aeration ranges and found that the lowest tested inten-
+sity (i.e. aeration for 5 min every 24 h at an air flow rate of 
+700 mL ­min−1, which corresponds to 2.5 L ­L−1 ­day−1) led 
+to a sharp pH decrease and lactic acid accumulation, as well 
+as lower hydrolysis efficiency of lignocellulosic compounds 
+and reactor instability. Since these effects were observed 
+under the lowest micro-aeration condition tested, but not 
+under higher micro-aeration regimes, the authors recom-
+mend that insufficient micro-aeration should be avoided dur-
+ing AD of solid wastes (Zhu et al. 2009). Another example is 
+when micro-aeration is used to eliminate ­H2S in bioreactors 
+treating sulphur-rich wastewater, with low chemical oxygen 
+demand (COD) to S ratios, such as those from the brewery, 
+sugar, or paper industries. Due to their low COD/S ratios, 
+these processes have been shown to need more oxygen per 
+unit of biogas for ­H2S removal than bioreactors treating sew-
+age sludge, agricultural residues, or manure (Krayzelova 
+et al. 2015).
+Numerous studies have investigated the micro-aeration 
+process, evaluating different oxygen dosages (Table 2, 
+Tables S1 and S2). These studies demonstrate that various 
+substrates can be successfully treated through micro-aera-
+tion, either as a pretreatment or by direct ­O2 administration 
+in the reactors.
+The solubility of oxygen in water is inversely proportional 
+to temperature. In thermophilic systems, the lower solubil-
+ity of oxygen at higher temperatures implies that less oxy-
+gen can be dissolved in the liquid phase for a given partial 
+
+
+[PDF page 7]
+Applied Microbiology and Biotechnology (2025) 109:131	
+Page 7 of 18 
+131
+Table 2   Summary of studies that applied micro-aeration for anaerobic removal of pollutants, including key parameters such as substrate, reactor configuration, air/oxygen dosage, and observed 
+effects
+Substrate
+Reactor type
+Air/pure ­O2 Pretreatment (Pt)
+Direct (D)
+Aerationa
+Effect
+Reference
+Olive mill wastewater
+Glass flask (batch)
+Air
+Pt—continuous (5 or 7 
+days)
+936 L ­L−1 ­d−1
+Decrease of phenols 
+(78–90%)
+Decrease total COD (65%)
+González-González and 
+Cuadros (2015)
+Synthetic BTEX-contami-
+nated water
+UASB
+Air
+D—intermittent (through 
+feeding line)
+0.07, 0.10, and 0.30 L ­L−1 
+­d−1
+Removal of BTEX (> 83%)
+Without volatilization
+Siqueira et al. ((2018)
+Petrochemical wastewater
+Digestion reactor
+Air
+Pt—intermittent (ORP-
+based)
+0.04–0.06 mg ­L−1
+Reduced ­H2S
+Removal of BTEX
+Wu et al. (2015)
+Petrochemical wastewater
+Full scale
+Air
+Pt—intermittent (ORP-
+based)
+0.08–0.10 mg ­L−1
+Increased COD removal 
+(55%)
+Increased removal of all 
+micropollutants
+Increased acidogenesis
+Wu et al. (2018)
+Anionic surfactants
+AnMBR
+Air
+D—intermittent (ORP-
+based)
+NM
+Removal of surfactant 
+(80%)
+No foam
+No VFA accumulation
+Cheng et al. (2018)
+2-Butenal manufacture 
+wastewater
+EGSB
+Air
+D—continuous
+0.04–0.10 mg ­L−1
+COD removal (24%)
+Increased acidification 
+(21%)
+Song et al. (2019)
+Textile wastewater (azo dye 
+Direct Black 22)
+UASB
+Air
+D—intermittent (DO moni-
+tored daily)
+0.04 ± 0.01 mg ­L−1
+No difference in dye 
+removal
+Increased aromatic amines 
+removal
+Decreased toxicity
+Carvalho et al. (2020)
+Synthetic pharmaceutical 
+wastewater
+UASB
+Air
+D—intermittent (through 
+feeding line)
+0.08 L ­L−1 ­d−1
+Increased removal of micro-
+pollutants (> 50%)
+Community not changed
+Buarque et al. (2019)
+Domestic with pharmaceu-
+tical wastewater
+Anaerobic baffled biofilm-
+membrane bioreactor 
+(AnBB-MBR)
+Air
+D—intermittent (DO 
+monitored)
+0.06–0.10 mg ­L−1
+Enhanced adsorption and 
+biodegradation of phar-
+maceuticals
+Ciprofloxacin (78%)
+Sulfamethoxazole (89%)
+Diclofenac (41%)
+Buakaew and Ratanatamskul 
+(2024)
+Fresh leachate
+Sequential reactors (anoxic/
+micro-aerobic/oxic)
+Air
+D—intermittent (relay-
+controlled DO)
+< 0.15 mg ­L−1
+Increased acetogenesis
+Improved denitrification
+Antibiotics removal (50% 
+efficiency)
+Wei et al. (2021)
+
+
+[PDF page 8]
+	
+Applied Microbiology and Biotechnology (2025) 109:131
+131 
+Page 8 of 18
+pressure of oxygen. Nevertheless, the diffusion rate of oxy-
+gen increases with temperature, while the liquid viscosity 
+and surface tension decrease, which can offset the reduction 
+in OTR due to lower solubility, especially at higher tempera-
+tures. Reports of micro-aeration in thermophilic anaerobic 
+bioreactors are scarce. Some studies show that thermo-
+philic micro-aerobic conditions can significantly accelerate 
+hydrolysis and increase methane yield. For example, Fu et al. 
+(2015a) reported that a thermophilic micro-aerobic pretreat-
+ment of corn straw at 55 °C, with an oxygen load of 5 mL 
+­g−1 volatile solids (VS) (based on the VS of the residual 
+substrate), resulted in a 17% increase in methane yield and a 
+11% increase in volatile solid (VS) removal efficiency com-
+pared to untreated samples. In addition, structural charac-
+terization analyses (FT-IR and XRD) indicated improved 
+hydrolysis efficiency, as the cellulosic structures and pores 
+of corn straw were partially disrupted and a decrease in the 
+crystallinity index was observed. The authors suggest that 
+these structural changes during the thermophilic micro-
+aerobic pretreatment process are likely responsible for the 
+improved methane yields observed (Fu et al. 2015a). In a 
+subsequent study, the same authors applied a second ther-
+mophilic micro-aerobic pretreatment (10 mL ­g−1 VS) when 
+an obvious decrease in daily methane yield was observed. 
+The results showed that the methane production was 28% 
+and 11% higher than that of the untreated and once thermo-
+philic micro-aerobic pretreated samples, respectively. Simi-
+larly, the cumulative methane yield increased by 29% and 
+17% compared to the untreated and once-pretreated samples, 
+respectively (Fu et al. 2015b).
+Measurement and control
+Monitoring and controlling micro-aeration conditions 
+require specific oxygen measurement methods, which are 
+crucial for experimental monitoring (Charles et al. 2009; 
+Beyene et al. 2014; Magdalena et al. 2022). The direct meth-
+ods commonly employ electrochemical and optical sensors, 
+each offering distinct advantages and limitations.
+Electrochemical sensors operate by allowing oxygen 
+to diffuse through a permeable membrane into the sensor, 
+where a reduction reaction generates an electrical signal. 
+This signal is analyzed to determine oxygen concentration 
+(Wei et al. 2019). These sensors can measure oxygen in the 
+liquid phase, both directly in the reactor or in samples col-
+lected from the reactor (although, in this case, the measure-
+ment should be made as fast as possible, to avoid changes). 
+Although highly sensitive, they consume oxygen during the 
+measurement process, which may interfere with analyses at 
+trace levels (Magdalena et al. 2022).
+In contrast, optical sensors measure oxygen concentration 
+through fluorescence quenching, enabling measurements in 
+both liquid and gas phases. Oxygen molecules absorb the 
+Table 2   (continued)
+Substrate
+Reactor type
+Air/pure ­O2 Pretreatment (Pt)
+Direct (D)
+Aerationa
+Effect
+Reference
+Synthetic wastewater with 
+2,4-dinitrophenol
+Membrane-based bub-
+bleless micro-aeration 
+hydrolysis acidification 
+(MBL-MHA)
+Air
+D—continuous (through 
+membrane)
+0.06–0.60 L ­L−1 ­d−1
+Degradation of 2,4-dinitro-
+phenol achieving 2 to 3% 
+higher degradation rates 
+compared to bubble aera-
+tion method
+Zhang et al. (2022)
+WAS with siloxanes
+Bach assays
+O2
+D—intermittent (time-
+based)
+1% or 3% (v/v)
+Enhanced methane produc-
+tion
+Ortiz-Ardila et al. (2024)
+BTEX; benzene, toluene, ethylbenzene, and xylene, WAS; waste activated sludge; MBL-MHA; membrane-based bubbleless micro-aeration coupled with hydrolysis acidification, MABR; mem-
+brane-aerated biofilm reactor, UASB; upflow anaerobic sludge blanket, AnMBR; anaerobic membrane bioreactor, EGSB; expanded granular sludge bed, NM; not mentioned, COD; chemical oxy-
+gen demand, VFA; volatile fatty acids, DO; dissolved oxygen, OTR; oxygen transfer rate
+a Depending on the information available, aeration is expressed either as the aeration rate (volume of ­O2 per unit of reactor working volume and time), or as the target dissolved oxygen (DO) 
+concentration (mass of ­O2 per unit of reactor working volume) maintained throughout the experiment
+
+
+[PDF page 9]
+Applied Microbiology and Biotechnology (2025) 109:131	
+Page 9 of 18 
+131
+optical signal emitted by the sensor, thereby preventing fluo-
+rescence (Jiang et al. 2017). Optical sensors are particularly 
+advantageous due to their small size, extremely low oxygen 
+detection limits (3.2 × ­10−3 mg ­L−1), and suitability for non-
+invasive applications, which minimize contamination risks. 
+These features make them ideal for experiments requiring 
+high sensitivity at trace oxygen levels (Lehner et al. 2014; 
+Magdalena et al. 2022).
+Alternatively, some researchers prefer an indirect method, 
+such as the measurement of oxidation–reduction potential 
+(ORP). ORP reflects a compound’s tendency to gain or lose 
+electrons and is expressed in millivolts (mV). This method 
+is advantageous due to its high sensitivity, capable of detect-
+ing minimal changes in oxygen concentrations, even at trace 
+levels (Liu et al. 2013; Nguyen and Khanal 2018; Magdalena 
+et al. 2022). Studies show that ORP values correlate with 
+oxygen concentration: for example, − 50 mV corresponds 
+to dissolved oxygen concentrations of 0.1 mg ­L−1 (3 µmol 
+­L−1) (Liu et al. 2013; Nguyen and Khanal 2018). Thus, typ-
+ical ORP values for micro-aerobic conditions range from 
+0 to − 300 mV, whereas values below −300 mV indicate 
+anaerobic conditions and values above 0 mV are associated 
+with aerobic environments (Khanal and Huang 2006; Kray-
+zelova et al. 2015). While membrane and optical sensors are 
+often designed for low-strength wastewater, ORP sensors are 
+particularly practical for high-strength wastewater or semi-
+solid substrates, where their robustness and ability to handle 
+complex matrices are advantageous. ORP sensors are also 
+useful for monitoring dynamic changes in anaerobic systems 
+(Nguyen and Khanal 2018; Chen et al. 2020). However, they 
+are influenced by environmental parameters such as pH, tem-
+perature, and ionic strength. For instance, in systems like 
+anaerobic reactors with microbiomes, changes in substrate 
+composition and microbial activity may affect the accuracy 
+of ORP as monitoring and control parameter (Magdalena 
+et al. 2022). Nonetheless, ORP has been widely applied to 
+control micro-aeration in anaerobic processes, such as waste-
+water treatment and digestion of lignocellulosic substrates 
+(Zitomer and Shrout 1998; Tsapekos et al. 2017).
+Applications of micro‑aeration
+A significant proportion of the published works uses micro-
+aeration to enhance hydrolysis, as shown in Table S1, fre-
+quently with the ultimate goal of improving the methane 
+yield. This approach has been successfully tested with 
+several substrates, such as waste activated sludge (WAS) 
+(Hasegawa et al. 2000), food waste (Xu et al. 2014; Zhen 
+et al. 2020), lignocellulosic material (Nguyen et al. 2019; 
+Xu et al. 2021), sewage sludge (Montalvo et al. 2016, 2018; 
+Huiliñir et al. 2017), and different wastewater. For example, 
+Xu et al. (2021) demonstrated enhanced hydrolysis of corn 
+stover and a 17% increase in methane yield when a micro-
+aeration pretreatment of the substrate was applied. This was 
+achieved by mixing the substrate in open air through 12 h, 
+during which the DO concentration was maintained between 
+0.1 and 1.0 mg ­L−1 (Xu et al. 2021). Similarly, Nguyen et al. 
+(2019) reported improved digestibility of lignocellulosic 
+biomass and greater carbon recovery in the form of biogas 
+production alongside enhanced system stability during inter-
+mittent micro-aeration in AD of Napier grass. The imple-
+mentation of micro-aeration increased VS reduction from 21 
+to 47% and rapidly decreased VFA concentrations, reversing 
+the poor performance observed under strict anaerobic condi-
+tions (Nguyen et al. 2019). Nonetheless, improved hydroly-
+sis does not always lead to higher methane yields. For exam-
+ple, Botheju et al. (2010) reported a decrease in methane 
+production from a synthetic complex wastewater after apply-
+ing intermittent micro-aeration. The authors suggested that 
+this decline could be attributed to over-aeration, which may 
+have led to the oxidation of organic matter and diversion 
+of electrons towards oxygen reduction instead of methano-
+genesis. Similarly, Johansen and Bakke (2006) verified that 
+semi-continuous micro-aeration used as a pretreatment of 
+primary sludge increased the hydrolysis but lead to a reduc-
+tion in the methane yield. This reduction was primarily due 
+to the oxidation of hydrolyzed products into carbon dioxide 
+and their incorporation into new biomass, rather than being 
+converted into methane. Although not reported in micro-
+aeration AD studies, another possibility for a lower methane 
+production is the accumulation of intermediary compounds, 
+derived from the hydrolysis of macromolecules, that can be 
+inhibitory for syntrophic and methanogenic microorgan-
+isms, namely VFA, LCFA, and ammonia (Cirne et al. 2007; 
+Cavaleiro et al. 2013). This could trigger the choice for a 
+two-phase system, in which hydrolysis could be improved 
+in the first micro-aerated step, while preventing inhibition 
+of the microbial communities by the hydrolysis products in 
+the second anaerobic step.
+In general, applying micro-aeration effectively increases 
+the hydrolysis and acidogenesis of the different substrates 
+tested (Table S1), which has led to the choice of this strat-
+egy when targeting fatty acid production (Jagadabhi et al. 
+2010; Sawatdeenarunat et al. 2017; Cao et al. 2022; Duarte 
+et al. 2024). For example, Duarte et al. (2024) studied the 
+fatty acid production in AD of wastewater with high salinity 
+content (20 g ­L−1). Under micro-aeration (0.3 L ­L−1 ­day−1), 
+higher concentrations of hexanoate (a fatty acid with high 
+market value) were observed, and lower ORP values were 
+attained in comparison with anaerobic conditions, indicating 
+the presence of aerobic or facultative anaerobic microor-
+ganisms, which have consumed the oxygen. Also, Liu et al. 
+(2024) studied the effect of nanobubbles on medium-chain 
+fatty acid production in AD of cow manure. The results dem-
+onstrated that the addition of air nanobubble considerably 
+
+
+[PDF page 10]
+	
+Applied Microbiology and Biotechnology (2025) 109:131
+131 
+Page 10 of 18
+raised the hexanoate concentration (by 55%, up to 15.1 g 
+­L−1), relatively to the control group without air nanobubbles. 
+The relative abundance of bacteria from the Bacillus and 
+Caproiciproducens genera, which are involved in chain elon-
+gation, increased in the experiments with air nanobubbles. 
+Additional works, focused on the effect of micro-aeration on 
+the hydrolytic stage of fermentation and carboxylate produc-
+tion, are reviewed in Magdalena et al. (2022).
+Besides all these effects of micro-aeration, increased 
+­NH4-N, total nitrogen (TN), and COD removal have also 
+been reported, as well as more stable pH and reduced sludge 
+yield (Table S1).
+Additionally, micro-aeration has been applied in biore-
+actors aimed at pollutant removal, namely ­H2S (Table S2), 
+hydrocarbons, polyphenols, pharmaceuticals, azo dyes, and 
+siloxanes (Table 2). ­H2S is toxic to methanogens in con-
+centrations ranging from 50.0 to 220.0 mg ­L−1 (at pH 7–8) 
+(Vu et al. 2022) and can be effectively reduced through bio-
+logical oxidation by introducing controlled amounts of air 
+or pure oxygen into the reactor, which promotes the activ-
+ity of naturally occurring sulphide-oxidizing bacteria such 
+as Thiobacillus sp., leading to the conversion of ­H2S into 
+elemental sulphur and some thiosulphate (Díaz et al. 2010, 
+2011; Chen et al. 2017; Jeníček et al. 2017; Vu et al. 2022). 
+Micro-aeration is widely applied for this purpose (Table S2), 
+including in full-scale municipal wastewater treatment 
+plants, e.g. by injecting air into the sludge recirculation line 
+(Jeníček et al. 2017) or into the biogas recirculation (Euro-
+pean Biogas Association 2022). In the study by Jeníček et al. 
+(2017), air doses of 1–3% of biogas production resulted in a 
+maximum decrease in methane content of no more than 2%, 
+ensuring undisturbed methanogenesis and tolerable biogas 
+dilution. Compared to other desulfurization methods, micro-
+aeration achieves high ­H2S removal efficiencies (up to 99%) 
+at lower operational costs (Fdz.-Polanco et al. 2009; Ramos 
+et al. 2014). Although many applications focus on in situ 
+­H2S removal (Table S2) rather than methane yield, optimiz-
+ing oxygen administration can ensure both effective desul-
+furization and methane production.
+Some authors have extended the Anaerobic Digestion 
+Model No. 1 (ADM1) to include sulphate reduction and 
+sulphide oxidation processes, aiming to optimize the micro-
+aeration process during the anaerobic treatment of sulphate-
+rich wastewater. This extended model, called ADM1-S/O, 
+enables the optimization of both the oxygen intake and the 
+micro-aeration initiation to reduce the ­H2S production in 
+wastewater treatment (Pokorna-Krayzelova et al. 2017). 
+Another modification of ADM1 model, ADM1-Ox, was 
+introduced by Botheju et al. (2009), to describe the effect 
+of free oxygen on anaerobic digestion. Model simulations, 
+supported by experimental data, suggested a linear reduc-
+tion in the cumulative methane production potential from 
+glucose as oxygen concentrations increased. However, 
+the ­O2 concentrations tested (22, 44, and 88 mg ­L−1) may 
+exceed the typical range associated with micro-aeration. 
+Nevertheless, the ADM1-Ox remains a valuable modelling 
+framework for investigating the influence of low oxygen 
+levels on anaerobic digestion and could be further adapted 
+to reflect more realistic micro-aerobic conditions. In most 
+of the applications regarding pollutant removal (other than 
+­H2S), air (and not pure oxygen) has been generally used, 
+frequently applied intermittently (Table 2). Wu and col-
+leagues investigated the effect of micro-aeration as a pre-
+treatment of petrochemical wastewater before anaerobic 
+treatment. Their results demonstrated that limited aeration, 
+with a DO concentration of 0.2–0.3 mg ­L−1 and an average 
+ORP of − 210 mV, almost eliminated ­H2S generation in the 
+off-gas when DO was higher than 0.2 mg ­L−1. Addition-
+ally, the specific oxygen uptake rate of the petrochemical 
+wastewater increased, indicating a substantial reduction in 
+effluent toxicity (Wu et al. 2015). In a full-scale system, the 
+same authors showed that implementing limited aeration 
+in a hydrolysis acidification tank (as a pretreatment before 
+the anoxic tank) effectively degraded 49 micropollutants 
+in petrochemical wastewater, including BTEX (benzene, 
+toluene, ethylbenzene, and xylene) compounds and phenols 
+(Table 2). The micro-aerobic hydrolysis and acidification 
+process increased the COD removal from 11% (in traditional 
+anaerobic hydrolysis) to 25% (Fig. 2), while the ­BOD5/COD 
+ratio improved from 0.23 to 0.43, indicating enhanced bio-
+degradability. Additionally, the process reduced the forma-
+tion of ­H2S and improved micro-aerobic degradation, with 
+the remaining COD after 72 h dropping to less than 80.0 mg 
+­L−1, compared to over 100.0 mg ­L−1 in untreated effluent. 
+This study demonstrated that the integrated process achieved 
+stable performance and significantly improved effluent qual-
+ity (Wu et al. 2018).
+Similarly, Carvalho et al. (2020) reported that a micro-
+aerobic environment was more effective in reducing aro-
+matic amines formed during the anaerobic digestion of tex-
+tile wastewater containing the dye Direct Black 22 (Table 2). 
+In another application, Ortiz-Ardila et al. (2024) demon-
+strated that micro-aeration enhanced the biodegradation of 
+volatile siloxanes (octamethylcyclotetrasiloxane and deca-
+methylcyclopentasiloxane) in wastewater sludge (Table 2). 
+This process promoted their conversion into methane and 
+simpler monomeric compounds, such as phenyl-siloxanes, 
+linear siloxanes, and tripropyl-silanes, which were identified 
+as metabolic intermediates. These changes reshaped micro-
+bial communities and improved overall process efficiency 
+(Ortiz-Ardila et al. 2024).
+Buarque et al. (2019) showed that, by applying micro-
+aeration (1.0 mL ­min−1, equivalent to a ratio between the 
+air and wastewater flow rate of 0.1), the process signifi-
+cantly enhanced the removal of various emerging micropo-
+llutants, including natural and synthetic estrogens (estrone 
+
+
+[PDF page 11]
+Applied Microbiology and Biotechnology (2025) 109:131	
+Page 11 of 18 
+131
+(E1), estradiol (E2), and ethinylestradiol (EE2)), pharma-
+ceuticals (diclofenac (DCF), sulfamethoxazole (SMX), and 
+trimethoprim (TMP)), and the xenoestrogen bisphenol A 
+(BPA) (Fig. 3). Under anaerobic conditions, the removal 
+efficiencies were very low (< 10%), with specific values 
+of 9% for E1, 6% for E2, 4% for EE2, 6% for DCF, 5% for 
+SMX, − 4% for TMP, and 8% for BPA. However, with the 
+introduction of micro-aeration, the removal efficiencies 
+increased to 54% for E1, 53% for E2, 56% for EE2, 53% 
+for DCF, 55% for SMX, 53% for TMP, and 58% for BPA. 
+Buakaew and Ratanatamskul (2024) investigated the per-
+formance of a novel anaerobic baffled biofilm-membrane 
+bioreactor (AnBB-MBR) for enhancing pharmaceutical 
+removal from domestic wastewater. The higher cipro-
+floxacin and diclofenac removals (78% and 41%, respec-
+tively) were attained when the bioreactor was operated 
+with micro-aeration (DO in the bioreactor in the range 
+of 0.3–0.7 mg ­L−1 and oxygen supply rate at 0.93 L ­L−1 
+(volume of ­O2 per volume of feed)). Sulfamethoxazole 
+was also successfully removed in the bioreactor operated 
+with micro-aeration (89%) (Fig. 3) and increased further 
+when micro-aeration was combined with sludge recircula-
+tion (91%).
+In another case, micro-aeration was used to pretreat olive 
+mill wastewater (OMWW) to facilitate the breakdown of 
+polyphenols. An oxygenation rate of 0.13 L ­L−1 ­day−1 over 
+5 days led to reductions in total COD and increased meth-
+ane yield, producing a more stable AD process. The authors 
+concluded that anaerobic digestion of OMWW could be 
+economically feasible if pretreated aerobically (González-
+González and Cuadros 2015).
+Micro‑aeration for enhancing lipid conversion in AD
+Besides the pollutants already discussed, micro-aeration 
+has also been applied to improve lipid degradation in 
+AD and their conversion to methane. This topic has not 
+been reviewed before in the literature, and thus, it will be 
+addressed here in a separate section.
+Lipids are among the most valuable substrates for produc-
+ing biomethane since their theoretical potential represents 
+1.425 L of biogas per g of substrate, with methane account-
+ing to 70%, while other carbon sources like proteins and 
+carbohydrates only achieve 0.921 L ­g−1 (69% of ­CH4) and 
+0.830 L ­g−1 (50% of ­CH4), respectively (Alves et al. 2009). 
+In the AD process, the hydrolysis of lipids results in the 
+generation of long-chain fatty acids (LCFA). Usually, lipids 
+and LCFA are often separated from wastewater previously 
+to AD processes, since their presence is related to opera-
+tional issues mostly triggered by LCFA accumulation on the 
+sludge, which causes biomass flotation and washout. Moreo-
+ver, LCFA have been reported as toxic or inhibitory to the 
+anaerobic microbial communities and particularly to metha-
+nogens (Hanaki et al. 1981; Angelidaki and Ahring 1992; 
+Rinzema et al. 1994). LCFA tend to accumulate onto the 
+sludge, creating a physical barrier and delaying the transfer 
+of substrates and products, which further results in a delay 
+on the methane production (Pereira et al. 2005).
+Fig. 3   Comparison of removal efficiency for various pollutants under micro-aeration and anaerobic treatment
+
+
+[PDF page 12]
+	
+Applied Microbiology and Biotechnology (2025) 109:131
+131 
+Page 12 of 18
+In the last decades, several approaches have been pro-
+posed to overcome the LCFA/lipid toxicity, as reviewed by 
+Holohan et al. (2022), such as bioaugmentation with LCFA-
+degrading bacteria (Cavaleiro et al. 2010), sludge acclimati-
+zation to LCFA (Silva et al. 2014; Ziels et al. 2016), feeding 
+strategies (Cavaleiro et al. 2009; Ziels et al. 2017), addition 
+of activated carbon (Tan et al. 2021) or adsorbents like ben-
+tonite (Palatsi et al. 2012), and precipitation with calcium 
+salts (Hanaki et al. 1981). Despite previous research efforts 
+made on this topic (Alves et al. 2009; Holohan et al. 2022), 
+the amount of lipids effectively converted into methane is 
+still limited. Recently, micro-aeration was shown to be a 
+promising approach for optimizing AD of lipids/LCFA.
+Oleate (C18:1 LCFA) is the most prevalent LCFA found 
+in wastewaters (Baserba et al. 2012) and therefore is often 
+used as model compound. However, when oleate is fed in 
+continuous bioreactors, palmitate (C16:0) is the main LCFA 
+that accumulates (Pereira et al. 2002). Duarte et al. (2018) 
+showed that palmitate accumulates more in the presence of 
+low oxygen concentrations. Moreover, contrary to what was 
+previously thought, palmitate accumulation was shown to be 
+advantageous for methane production (Duarte et al. 2018), 
+avoiding complete inhibition of methanogens, possibly 
+because palmitate is less toxic than oleate. The abundance of 
+facultative anaerobic bacteria (FAB), namely Pseudomonas 
+spp., was strongly correlated with the ratio between palmi-
+tate and total LCFA (Cavaleiro et al. 2016; Duarte et al. 
+2018) and to more efficient methane production from oleate 
+(Duarte et al. 2018; 2020). Thus, these works suggest that 
+micro-aeration can trigger a first treatment step that converts 
+oleate to palmitate (Fig. 4A), which facilitates further LCFA 
+degradation to methane and supports anaerobic treatment of 
+lipid-rich wastes/wastewaters. Nevertheless, the mechanisms 
+underlying the oleate-to-palmitate conversion, as well as the 
+role of FAB on this conversion, are still not fully understood.
+In the follow-up of this work, the Pseudomonas spp. 
+previously isolated by Duarte et al. (2018) were studied 
+together with a syntrophic co-culture (Syntrophomonas 
+Fig. 4   Proposed mechanistic 
+scheme for the degradation of 
+lipids and other compounds in 
+syntrophic anaerobic systems 
+under micro-aeration condi-
+tions. A Oleate-to-palmitate 
+conversion by facultative anaer-
+obic bacteria (FAB), followed 
+by the syntrophic conversion 
+of palmitate into ­H2/formate 
+and acetate coupled to methane 
+production by methanogenic 
+archaea. B Ethanol oxidation (as 
+model substrate for syntrophic 
+communities) by FAB, along-
+side with anaerobic degradation 
+by syntrophic bacteria coupled 
+to methane production by 
+methanogenic archaea. Created 
+in BioRender. Costa, L. (2025) 
+https://​BioRe​nder.​com/​2k3jr​ut
+
+
+[PDF page 13]
+Applied Microbiology and Biotechnology (2025) 109:131	
+Page 13 of 18 
+131
+zehnderi and Methanobacterium formicicum), in a con-
+tinuous bioreactor treating oleate-based wastewater, under 
+micro-aerobic conditions ­(O2 provided in the feeding) 
+(Duarte et al. 2020). The results showed that the Pseu-
+domonas spp. could also act as alternative hydrogen/formate 
+scavengers, favouring the activity of syntrophic LCFA-
+degrading bacteria while shielding the strict anaerobic com-
+munity from oxygen toxicity (Fig. 4A). More recently, the 
+work of Magalhães et al. (2025) studied the performance of 
+synthetic syntrophic co-cultures involved in the degrada-
+tion of short-, medium-, and long-chain fatty acids, under 
+micro-aerobic conditions in batch bioreactors. The syn-
+trophic activity was reduced by 79% when 0.5% ­O2 (v/v in 
+the headspace) was applied, whereas syntrophic co-cultures 
+amended with the Pseudomonas spp. isolated by Duarte 
+et al. (2018) were able to convert the fatty acids to methane 
+at ­O2 concentrations up to 2% (v/v in the headspace).
+These results were also confirmed by the work of Morais 
+et al. (2024) that studied the effect of oxygen (0 to 5% v/v in 
+the headspace) on the syntrophic activity of a complex meth-
+anogenic community (anaerobic sludge). By using specific 
+substrates of methanogenesis ­(H2/CO2 and acetate), these 
+authors showed that oxygen inhibited both hydrogenotrophic 
+and aceticlastic methanogens, resulting in 30–40% inhibi-
+tion of the methane production rate (MPR) already at 0.5% 
+­O2, relatively to the controls (0% ­O2). However, in cultures 
+amended with ethanol (used as a model substrate for the syn-
+trophic community), the inhibition was significantly lower, 
+with only 15% reduction in the MPR at 0.5% ­O2. Moreover, 
+in the assays with ethanol, MPR inhibition similar to the 
+value observed for methanogens (i.e. 36 ± 7%) was only 
+verified at 2.5% ­O2. This demonstrates the higher resilience 
+of ethanol-amended cultures to oxygen toxicity, likely due 
+to the activity of FAB and aerobic bacteria, which consumed 
+the ethanol and oxygen thus protecting the methanogenic 
+community (Fig. 4B) (Morais et al. 2024).
+All these works highlight that FAB are crucial for the 
+syntrophic metabolism under micro-aerobic conditions, 
+by protecting microbial consortia from potential oxygen 
+damage. (Stams and Plugge 2009; McInerney et al. 2009) 
+Additionally, Magalhães et al. (2025) also highlighted that 
+this protective effect was maintained during repeated micro-
+aerobic exposure. Given that the majority of large-scale AD 
+plants function in non-strict anaerobic environments, the 
+presence of these bacteria is crucial for preserving robust, 
+stable, and functional syntrophic communities. Neverthe-
+less, it is worth noting that micro-aeration does not always 
+improve the methane production rate comparatively to anaer-
+obic conditions, which points that the activity of FAB may 
+be more relevant for the degradation of challenging sub-
+strates or when the microbial communities are not adapted 
+to the toxic substrates (Magalhães et al. 2025).
+A recent work from Li et al. (2025) used the princi-
+ples of the biochemical methane potential (BMP) test, 
+with acetate and glucose as substrates, to study the best 
+micro-aeration intensity (expressed as the volume of air 
+per mass unit of the substrate in COD) for methanogen-
+esis. Micro-aeration intensities ranged from 0 to 120 mL 
+­g−1 for aceticlastic methanogenesis (using acetate as the 
+substrate) and from 0 to 60 mL ­g−1 for the overall glu-
+cose conversion to methane. To make the results com-
+parable with other studies, these values correspond to 0 
+to 8% ­O2 (v/v in the headspace) for both situations. The 
+results pointed to 30 mL ­g−1 (2% ­O2) and 7.5 mL ­g−1 (1% 
+­O2) as the best micro-aeration intensities for acetate and 
+the overall glucose conversion to methane, respectively. 
+Using these micro-aeration intensity values, experiments 
+were then performed in the presence of 0.5 mmol ­L−1 
+oleate, which increased the total amount of methane by 
+22% in the assays with acetate but inhibited the methane 
+production by 17% in assays with glucose. This study 
+found that FAB, including those from the genera Pseu-
+domonas, Actinomyces, and Alcaligenes, thrived more 
+quickly at intermediate micro-aeration intensities. While 
+the abundance of the genus Methanosaeta fell by 65% in 
+the assays with glucose, the abundance of overall metha-
+nogenic archaea increased by 27% in the assays with ace-
+tate. Therefore, to maximize the effectiveness of metha-
+nogenesis, the proper micro-aeration intensity should be 
+systematically considered.
+Despite limited studies in this area, preliminary lab-
+scale investigations suggest that micro-aeration may help 
+address the challenges in AD when applied as a pretreat-
+ment for lipid-rich wastes. For example, Zouari and Al 
+Jabiri (2015) found that mesophilic micro-aerobic pretreat-
+ment (0.05 volume of air per volume of feeding solution 
+per minute, vvm) of lipid-rich slaughterhouse wastewa-
+ter reduced total suspended solids (TSS) by 20%, while 
+under strict anaerobic conditions, TSS accumulated in the 
+reactor, accompanied by a decrease in methane produc-
+tion. This work also showed that micro-aeration improved 
+methane yields by 19 and 20% in comparison with strict 
+anaerobic conditions, regarding soluble and total COD, 
+respectively (Zouari and Al Jabiri 2015). However, higher 
+oxygenation rates (0.15 vvm) inhibited methanogenesis, 
+demonstrating the need for precise control.
+In conclusion, by applying micro-aeration in AD of 
+lipids, FAB growth and activity are stimulated, which 
+promotes LCFA conversion to methane and improves the 
+overall anaerobic treatment of the compounds in wastes/
+wastewaters. Therefore, micro-aeration has the potential 
+to evolve into a crucial tool for enhancing the efficiency of 
+the anaerobic digestion of lipids/LCFA in methanogenic 
+reactors.
+
+
+[PDF page 14]
+	
+Applied Microbiology and Biotechnology (2025) 109:131
+131 
+Page 14 of 18
+Conclusions and future perspectives
+Despite its rowing relevance as a renewable energy source, 
+biomethane production from wastewater still faces signifi-
+cant challenges. Overcoming these limitations is essential 
+to enhance process efficiency and scalability. While nota-
+ble progress has been made using micro-aeration, several 
+challenges remain unresolved. In particular, the applica-
+tion of micro-aeration in AD for the removal of toxic and 
+recalcitrant organic pollutants, as well as their conversion 
+to methane, has lagged behind its use in other areas, high-
+lighting the need for further research. Main challenges 
+hindering the practical application of micro-aeration are 
+highlighted as follows:
+1.	 Defining optimal micro-aeration intensity: excessive 
+oxygen can inhibit the activity of strict anaerobic micro-
+organisms and divert carbon flux from methane produc-
+tion to aerobic metabolism. Conversely, insufficient oxy-
+gen can yield negligible or negative effects on bioreactor 
+performance. This complexity arises from multiple fac-
+tors, including the microbial community’s composition, 
+its adaptation to toxic compounds, and tolerance to oxy-
+gen. Developing robust mathematical models, integrated 
+with machine learning and/or other artificial intelligence 
+(AI) tools, could pave the way for a data-driven deci-
+sion system. In addition, multi-stage reactors can be 
+designed, with dedicated zones for micro-aeration, to 
+handle varying pollutant loads and also to better man-
+age the susceptibility to oxygen of the various microbial 
+groups in AD. Digital twins can also be implemented to 
+simulate and optimize micro-aeration.
+2.	 Understanding mechanisms and microbial interac-
+tions: a deeper understanding of microbial community 
+dynamics, metabolic pathways, and cellular communica-
+tion systems, underlying the response to micro-aerobic 
+conditions and prompting microbial interactions, is 
+essential. High-throughput sequencing techniques can 
+contribute to deepen this knowledge, which will enable 
+the fine-tuning of micro-aeration processes to achieve 
+desired outcomes, enhancing reaction rates and methane 
+yields. Furthermore, this knowledge can also prompt the 
+development of synthetic microbial consortia, optimized 
+to target specific pollutants under micro-aerobic condi-
+tions. Additionally, the kinetics of the biodegradation of 
+organic pollutants, promoted by micro-aeration, should 
+also be investigated.
+3.	 Addressing oxygen mass transfer limitations and process 
+control: despite advancements, oxygen mass transfer 
+limitations and oxygen losses in biogas remain far from 
+optimal. Further improvements in these areas are neces-
+sary to enhance the efficiency of micro-aeration systems. 
+Moreover, automatic process control remains a bottle-
+neck for the large-scale implementation of micro-aera-
+tion-based AD systems. Designing a reliable, automati-
+cally controlled, and long-term stable micro-aeration 
+dosing system is pivotal for the widespread application 
+of this technology. Additionally, current methods for 
+measuring oxygen provide only momentary concentra-
+tion data, lacking the ability to track oxygen flow, or the 
+reactions it undergoes. Developing more comprehensive 
+measurement tools will be essential for improving pro-
+cess monitoring and control.
+The application of micro-aeration to enhance the degrada-
+tion of recalcitrant pollutants in AD is still in its early stages 
+and represents an opportunity to be explored, particularly 
+regarding emerging contaminants that remain largely unex-
+plored, such as, for example, microplastics and persistent 
+organic pollutants (POPs). Moreover, synergies with advanced 
+pre- and posttreatment strategies can be explored to further 
+improve the breakdown of these complex organic compounds. 
+While aeration introduces additional energy costs, these can be 
+mitigated by using renewable energy sources (namely biogas/
+biomethane for electricity generation to drive aeration tur-
+bines). Importantly, the cost-efficiency of the process should 
+be evaluated considering the environmental value of pollutant 
+removal, which is often overlooked due to the difficulty of 
+assigning a direct economic figure. This framing helps posi-
+tion micro-aeration as both an environmental and potentially 
+economically viable strategy to improve AD.
+Supplementary information
+Supplementary information  The online version contains supplemen-
+tary material available at https://​doi.​org/​10.​1007/​s00253-​025-​13519-w.
+Acknowledgements  The authors acknowledge the Science Communi-
+cation Office from LABBELS (LA/P/0029/2020).
+Author contribution  LC: writing (original draft preparation, review, 
+and editing); MSD: conceptualization, writing (review, editing), super-
+vision, and funding acquisition; CPM: writing (review, editing); MAP: 
+writing (review, editing) and supervision; AJC: conceptualization, writ-
+ing (review, editing), supervision, and funding acquisition. All authors 
+read and approved the manuscript.
+Funding  Open access funding provided by FCT|FCCN (b-on). This 
+study was supported by the Portuguese Foundation for Science 
+and Technology (FCT) under the scope of the strategic funding of 
+UID/04469: Centro de Engenharia Biológica da Universidade do 
+Minho (CEB-UM/UM). The work of C.P. Magalhães was funded by 
+FCT through the fellowships SFRH/BD/132845/2017 and COVID/
+BD/152450/2022. M.S. Duarte was funded by FCT through a Junior 
+Research contract under the scope of the Scientific Stimulus Employ-
+ment 2022 (ref: 2022.06569.CEECIND/CP1718/CT0004; DOIhttps://
+doi.org/10.54499/2022.06569.CEECIND/CP1718/CT0004). L. 
+
+
+[PDF page 15]
+Applied Microbiology and Biotechnology (2025) 109:131	
+Page 15 of 18 
+131
+Costa received financial support from FCT through the fellowships 
+2023.01617.BD.
+Declarations 
+Ethical approval  This article does not contain any studies with human 
+participants nor animals performed by any of the authors.
+Conflict of interest  The authors declare no competing interests.
+Open Access  This article is licensed under a Creative Commons Attri-
+bution 4.0 International License, which permits use, sharing, adapta-
+tion, distribution and reproduction in any medium or format, as long 
+as you give appropriate credit to the original author(s) and the source, 
+provide a link to the Creative Commons licence, and indicate if changes 
+were made. The images or other third party material in this article are 
+included in the article’s Creative Commons licence, unless indicated 
+otherwise in a credit line to the material. If material is not included in 
+the article’s Creative Commons licence and your intended use is not 
+permitted by statutory regulation or exceeds the permitted use, you will 
+need to obtain permission directly from the copyright holder. To view a 
+copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+References
+Alves MM, Pereira MA, Sousa DZ, Cavaleiro AJ, Picavet M, Smidt 
+H, Stams AJM (2009) Waste lipids to energy: how to optimize 
+methane production from long-chain fatty acids (LCFA). Microb 
+Biotechnol 2:538–550. https://​doi.​org/​10.​1111/j.​1751-​7915.​
+2009.​00100.x
+Angelidaki I, Ahring BK (1992) Effects of free long-chain fatty acids 
+on thermophilic anaerobic digestion. Applied Micriobiology and 
+Biotechnology 37:808–812
+Atkinson AJ, Apul OG, Schneider O, Garcia-Segura S, Westerhoff P 
+(2019) Nanobubble technologies offer opportunities to improve 
+water treatment. Acc Chem Res 52:1196–1205. https://​doi.​org/​
+10.​1021/​acs.​accou​nts.​8b006​06
+Baserba MG, Angelidaki I, Karakashev D (2012) Effect of continuous 
+oleate addition on microbial communities involved in anaerobic 
+digestion process. Bioresour Technol 106:74–81. https://​doi.​org/​
+10.​1016/j.​biort​ech.​2011.​12.​020
+Beyene A, Yemane D, Addis T, Assayie AA, Triest L (2014) Experi-
+mental evaluation of anaerobic digestion for coffee wastewater 
+treatment and its biomethane recovery potential. Int J Innov 
+Res Sci Eng Technol 11:1881–1886. https://​doi.​org/​10.​1007/​
+s13762-​013-​0339-4
+Botheju D (2011) Oxygen effects in anaerobic digestion – a review. 
+Open Waste Manag J 4:1–19. https://​doi.​org/​10.​2174/​18764​
+00201​10401​0001
+Botheju D, Lie B, Bakke R (2009) Oxygen effects in anaerobic 
+digestion. Modeling, Identification and Control: A Norwegian 
+Research Bulletin 30:191–201. https://​doi.​org/​10.​4173/​mic.​
+2009.4.1
+Botheju D, Samarakoon G, Chen C, Bakke R (2010) An experimental 
+study on the effects of oxygen in bio-gasification- part 2. Renew 
+Energy Power Qual J 1:1598–1604. https://​doi.​org/​10.​24084/​
+repqj​08.​732
+Briones A, Raskin L (2003) Diversity and dynamics of microbial com-
+munities in engineered environments and their implications for 
+process stability. Curr Opin Biotechnol 14:270–276. https://​doi.​
+org/​10.​1016/​S0958-​1669(03)​00065-X
+Buakaew T, Ratanatamskul C (2024) Unveiling the influence of micro-
+aeration and sludge recirculation on enhancement of pharma-
+ceutical removal and microbial community change of the novel 
+anaerobic baffled biofilm - membrane bioreactor in treating 
+building wastewater. Sci Total Environ 927:172420. https://​doi.​
+org/​10.​1016/j.​scito​tenv.​2024.​172420
+Buarque PMC, de Lima RBP, Vidal CB, de Buarque HL, B, Firmino 
+PIM, dos Santos AB (2019) Enhanced removal of emerging 
+micropollutants by applying microaeration to an anaerobic reac-
+tor. Engenharia Sanitaria e Ambiental 24:667–673. https://​doi.​
+org/​10.​1590/​s1413-​41522​01920​190030
+Cao Q, Zhang W, Lian T, Wang S, Yin F, Zhou T, Zhang H, Zhu J, 
+Dong H (2022) Roles of micro-aeration on enhancing volatile 
+fatty acids and lactic acid production from agricultural wastes. 
+Bioresour Technol 347:126656. https://​doi.​org/​10.​1016/j.​biort​
+ech.​2021.​126656
+Carvalho JRS, Amaral FM, Florencio L, Kato MT, Delforno TP, 
+Gavazza S (2020) Microaerated UASB reactor treating textile 
+wastewater: the core microbiome and removal of azo dye Direct 
+Black 22. Chemosphere 242:125157. https://​doi.​org/​10.​1016/j.​
+chemo​sphere.​2019.​125157
+Cavaleiro AJ, Salvador AF, Alves JI, Alves M (2009) Continuous high 
+rate anaerobic treatment of oleic acid based wastewater is pos-
+sible after a step feeding start-up. Environ Sci Technol 43:2931–
+2936. https://​doi.​org/​10.​1021/​es803​1264
+Cavaleiro AJ, Sousa DZ, Alves MM (2010) Methane production from 
+oleate: assessing the bioaugmentation potential of Syntropho-
+monas zehnderi. Water Res 44:4940–4947. https://​doi.​org/​10.​
+1016/j.​watres.​2010.​07.​039
+Cavaleiro AJ, Ferreira T, Pereira F, Tommaso G, Alves MM (2013) 
+Biochemical methane potential of raw and pre-treated meat-
+processing wastes. Bioresour Technol 129:519–525. https://​doi.​
+org/​10.​1016/j.​biort​ech.​2012.​11.​083
+Cavaleiro AJ, Pereira MA, Guedes AP, Stams AJM, Alves MM, Sousa 
+DZ (2016) Conversion of C n -unsaturated into C n-2 -saturated 
+LCFA can occur uncoupled from methanogenesis in anaerobic 
+bioreactors. Environ Sci Technol 50:3082–3090. https://​doi.​org/​
+10.​1021/​acs.​est.​5b032​04
+Charles W, Walker L, Cord-Ruwisch R (2009) Effect of pre-aeration 
+and inoculum on the start-up of batch thermophilic anaerobic 
+digestion of municipal solid waste. Bioresour Technol 100:2329–
+2335. https://​doi.​org/​10.​1016/j.​biort​ech.​2008.​11.​051
+Chen Y, Cheng JJ, Creamer KS (2008) Inhibition of anaerobic diges-
+tion process: a review. Bioresour Technol 99:4044–4064. https://​
+doi.​org/​10.​1016/j.​biort​ech.​2007.​01.​057
+Chen C, Zhang R-C, Xu X-J, Fang N, Wang A-J, Ren N-Q, Lee D-J 
+(2017) Enhanced performance of denitrifying sulfide removal 
+process at high carbon to nitrogen ratios under micro-aerobic 
+condition. Bioresour Technol 232:417–422. https://​doi.​org/​10.​
+1016/j.​biort​ech.​2017.​02.​031
+Chen Q, Wu W, Qi D, Ding Y, Zhao Z (2020) Review on microaera-
+tion-based anaerobic digestion: state of the art, challenges, and 
+prospectives. Sci Total Environ 710:136388. https://​doi.​org/​10.​
+1016/j.​scito​tenv.​2019.​136388
+Cheng Z, Wei Y, Zhang Q, Zhang J, Lu T, Pei Y (2018) Enhancement 
+of surfactant biodegradation with an anaerobic membrane biore-
+actor by introducing microaeration. Chemosphere 208:343–351. 
+https://​doi.​org/​10.​1016/j.​chemo​sphere.​2018.​06.​001
+Chuenchart W, Karki R, Shitanaka T, Marcelino KR, Lu H, Khanal SK 
+(2021) Nanobubble technology in anaerobic digestion: a review. 
+Bioresour Technol 329:124916. https://​doi.​org/​10.​1016/j.​biort​
+ech.​2021.​124916
+Cirne DG, Lehtomäki A, Björnsson L, Blackall LL (2007) Hydroly-
+sis and microbial community analyses in two-stage anaerobic 
+
+
+[PDF page 16]
+	
+Applied Microbiology and Biotechnology (2025) 109:131
+131 
+Page 16 of 18
+digestion of energy crops. J Appl Microbiol 103:516–527. 
+https://​doi.​org/​10.​1111/j.​1365-​2672.​2006.​03270.x
+Di Costanzo N, Di Capua F, Cesaro A, Carraturo F, Salamone M, 
+Guida M, Esposito G, Giordano A (2024) Headspace micro-
+oxygenation as a strategy for efficient biogas desulfurization 
+and biomethane generation in a centralized sewage sludge 
+digestion plant. Biomass Bioenergy 183:107151. https://​doi.​
+org/​10.​1016/j.​biomb​ioe.​2024.​107151
+Díaz I, Lopes AC, Pérez SI, Fdz-Polanco M (2010) Performance 
+evaluation of oxygen, air and nitrate for the microaerobic 
+removal of hydrogen sulphide in biogas from sludge digestion. 
+Bioresour Technol 101:7724–7730. https://​doi.​org/​10.​1016/j.​
+biort​ech.​2010.​04.​062
+Díaz I, Pérez SI, Ferrero EM, Fdz-Polanco M (2011) Effect of oxy-
+gen dosing point and mixing on the microaerobic removal 
+of hydrogen sulphide in sludge digesters. Bioresour Technol 
+102:3768–3775. https://​doi.​org/​10.​1016/j.​biort​ech.​2010.​12.​
+016
+Duarte MS, Silva SA, Salvador AF, Cavaleiro AJ, Stams AJM, Alves 
+MM, Pereira MA (2018) Insight into the role of facultative 
+bacteria stimulated by microaeration in continuous bioreactors 
+converting LCFA to methane. Environ Sci Technol 52:6497–
+6507. https://​doi.​org/​10.​1021/​acs.​est.​8b008​94
+Duarte MS, Salvador AF, Cavaleiro AJ, Stams AJM, Pereira MA, 
+Alves MM (2020) Multiple and flexible roles of facultative 
+anaerobic bacteria in microaerophilic oleate degradation. 
+Environ Microbiol 22:3650–3659. https://​doi.​org/​10.​1111/​
+1462-​2920.​15124
+Duarte MS, Fernandes RJC, Sousa J, Pereira C, Mesquita DP, 
+Madalena Alves M (2024) Influence of micro-aeration in the 
+production of volatile fatty acids (VFA) from wastewaters with 
+high salinity. Fuel 375:132566. https://​doi.​org/​10.​1016/j.​fuel.​
+2024.​132566
+European Biogas Association (2022) DiBiCoo virtual study tour 
+biogas plant Utzenaich. https://​www.​youtu​be.​com/​watch?v=​
+uNri-​9rN4Zs . Accessed 18 Apr 2025
+European Biogas Association (2024) Gasification: diversification of 
+biomass processing and waste utilisation. https://​www.​europ​
+eanbi​ogas.​eu/​gasif​icati​on-​diver​sific​ation-​of-​bioma​ss-​proce​ssing-​
+and-​waste-​utili​sation/. Accesed 18 Apr 2025
+European Commission (2022) REPowerEU: affordable, secure and 
+sustainable energy for Europe. https://​commi​ssion.​europa.​eu/​
+strat​egy-​and-​policy/​prior​ities-​2019-​2024/​europ​ean-​green-​deal/​
+repow​ereu-​affor​dable-​secure-​and-​susta​inable-​energy-​europe_​en. 
+Accessed 18 Apr 2025
+Fdz.-Polanco M, Díaz I, Pérez SI, Lopes AC, Fdz.-Polanco F (2009) 
+Hydrogen sulphide removal in the anaerobic digestion of sludge 
+by micro-aerobic processes: pilot plant experience. Water Sci 
+Technol 60:3045–3050. https://​doi.​org/​10.​2166/​wst.​2009.​738
+Fu S-F, Shi X-S, Xu X-H, Wang C-S, Wang L, Dai M, Guo R-B (2015a) 
+Secondary thermophilic microaerobic treatment in the anaerobic 
+digestion of corn straw. Bioresour Technol 186:321–324. https://​
+doi.​org/​10.​1016/j.​biort​ech.​2015.​03.​053
+Fu S-F, Wang F, Yuan X-Z, Yang Z-M, Luo S-J, Wang C-S, Guo R-B 
+(2015b) The thermophilic (55°C) microaerobic pretreatment of 
+corn straw for anaerobic digestion. Bioresour Technol 175:203–
+208. https://​doi.​org/​10.​1016/j.​biort​ech.​2014.​10.​072
+Fu S-F, Chen K-Q, Sun W-X, Zhu R, Zheng Y, Zou H (2018a) 
+Improved methane production of corn straw by the stimulation 
+of calcium peroxide. Energy Convers Manag 164:36–41. https://​
+doi.​org/​10.​1016/j.​encon​man.​2018.​02.​070
+Fu S-F, Chen K-Q, Zhu R, Sun W-X, Zou H, Guo R-B (2018b) 
+Improved anaerobic digestion performance of Miscanthus florid-
+ulus by different pretreatment methods and preliminary economic 
+analysis. Energy Convers Manag 159:121–128. https://​doi.​org/​
+10.​1016/j.​encon​man.​2018.​01.​014
+Fu S, Lian S, Angelidaki I, Guo R (2023) Micro-aeration: an attrac-
+tive strategy to facilitate anaerobic digestion. Trends Biotechnol 
+41:714–726. https://​doi.​org/​10.​1016/j.​tibte​ch.​2022.​09.​008
+González-González A, Cuadros F (2015) Effect of aerobic pretreat-
+ment on anaerobic digestion of olive mill wastewater (OMWW): 
+an ecoefficient treatment. Food Bioprod Process 95:339–345. 
+https://​doi.​org/​10.​1016/j.​fbp.​2014.​10.​005
+Hanaki K, Matsuo T, Nagase M (1981) Mechanism of inhibition caused 
+by long-chain fatty acids in anaerobic digestion process. Bio-
+technol Bioeng 23:1591–1610. https://​doi.​org/​10.​1002/​bit.​26023​
+0717
+Hasegawa S, Shiota N, Katsura K, Akashi A (2000) Solubilization of 
+organic sludge by thermophilic aerobic bacteria as a pretreatment 
+for anaerobic digestion. Water Sci Technol 41:163–169. https://​
+doi.​org/​10.​2166/​wst.​2000.​0068
+Holohan BC, Duarte MS, Szabo-Corbacho MA, Cavaleiro AJ, Salva-
+dor AF, Pereira MA, Ziels RM, Frijters CTMJ, Pacheco-Ruiz 
+S, Carballa M, Sousa DZ, Stams AJM, O’Flaherty V, van Lier 
+JB, Alves MM (2022) Principles, advances, and perspectives 
+of anaerobic digestion of lipids. Environ Sci Technol 56:4749–
+4775. https://​doi.​org/​10.​1021/​acs.​est.​1c087​22
+Hou T, Zhao J, Lei Z, Shimizu K, Zhang Z (2021) Addition of air-
+nanobubble water to mitigate the inhibition of high salinity on 
+co-production of hydrogen and methane from two-stage anaero-
+bic digestion of food waste. J Clean Prod 314:127942. https://​
+doi.​org/​10.​1016/j.​jclep​ro.​2021.​127942
+Hou T, Song H, Cui Z, He C, Liu L, Li P, Li G, Zhang Q, Zhang 
+Z, Lei Z, Litti YV, Jiao Y (2024) Nanobubble technology to 
+enhance energy recovery from anaerobic digestion of organic 
+solid wastes: potential mechanisms and recent advancements. 
+Sci Total Environ 931:172885. https://​doi.​org/​10.​1016/j.​scito​
+tenv.​2024.​172885
+Huiliñir C, Pinto-Villegas P, Castillo A, Montalvo S, Guerrero L (2017) 
+Biochemical methane potential from sewage sludge: effect of 
+an aerobic pretreatment and fly ash addition as source of trace 
+elements. Waste Manag 64:140–148. https://​doi.​org/​10.​1016/j.​
+wasman.​2017.​03.​023
+International Social Security Association (ISSA) (2019) Biogas plants 
+– safe handling of biogas (Factsheet on Explosion Protection 
+002). https://​www.​issa.​int/​sites/​defau​lt/​files/​docum​ents/​2020-​
+03/​IVSS_​Infob​latt_​Bioga​sanla​gen_E_​V3.​pdf. Accessed 17 Apr 
+2025
+Jagadabhi PS, Kaparaju P, Rintala J (2010) Effect of micro-aeration and 
+leachate replacement on COD solubilization and VFA produc-
+tion during mono-digestion of grass-silage in one-stage leach-bed 
+reactors. Bioresour Technol 101:2818–2824. https://​doi.​org/​10.​
+1016/j.​biort​ech.​2009.​10.​083
+Jasso-Chávez R, Santiago-Martínez MG, Lira-Silva E, Pineda E, 
+Zepeda-Rodríguez A, Belmont-Díaz J, Encalada R, Saavedra 
+E, Moreno-Sánchez R (2015) Air-adapted Methanosarcina ace-
+tivorans shows high methane production and develops resistance 
+against oxygen stress. PLoS ONE 10:e0117331. https://​doi.​org/​
+10.​1371/​journ​al.​pone.​01173​31
+Jeníček P, Horejš J, Pokorná-Krayzelová L, Bindzar J, Bartáček J 
+(2017) Simple biogas desulfurization by microaeration – full 
+scale experience. Anaerobe 46:41–45. https://​doi.​org/​10.​1016/j.​
+anaer​obe.​2017.​01.​002
+Jiang Z, Yu X, Hao Y (2017) Design and fabrication of a ratiometric 
+planar optode for simultaneous imaging of pH and oxygen. Sen-
+sors 17:1316. https://​doi.​org/​10.​3390/​s1706​1316
+Johansen J-E, Bakke R (2006) Enhancing hydrolysis with microaera-
+tion. Water Sci Technol 53:43–50. https://​doi.​org/​10.​2166/​wst.​
+2006.​234
+Khanal SK, Huang J (2006) Online oxygen control for sulfide oxidation 
+in anaerobic treatment of high-sulfate wastewater. Water Environ 
+Res 78:397–408. https://​doi.​org/​10.​2175/​10614​3006X​98804
+
+
+[PDF page 17]
+Applied Microbiology and Biotechnology (2025) 109:131	
+Page 17 of 18 
+131
+Kobayashi T, Li Y-Y, Kubota K, Harada H, Maeda T, Yu H-Q (2012) 
+Characterization of sulfide-oxidizing microbial mats developed 
+inside a full-scale anaerobic digester employing biological des-
+ulfurization. Appl Microbiol Biotechnol 93:847–857. https://​doi.​
+org/​10.​1007/​s00253-​011-​3445-6
+Krayzelova L, Bartacek J, Díaz I, Jeison D, Volcke EIP, Jenicek P 
+(2015) Microaeration for hydrogen sulfide removal during anaer-
+obic treatment: a review. Rev Environ Sci Biotechnol 14:703–
+725. https://​doi.​org/​10.​1007/​s11157-​015-​9386-2
+Lehner P, Staudinger C, Borisov SM, Klimant I (2014) Ultra-sensitive 
+optical oxygen sensors for characterization of nearly anoxic sys-
+tems. Nat Commun 5:4460. https://​doi.​org/​10.​1038/​ncomm​s5460
+Li X, Yan YJ, Wu HM, Ibrahim Gadow S, Jiang H, Kong Z, Hu Y 
+(2025) Enhancing mesophilic methanogenesis in oleate-rich 
+environments through optimized micro-aeration pretreatment. 
+Waste Manage 193:171–179. https://​doi.​org/​10.​1016/j.​wasman.​
+2024.​12.​005
+Liu C-G, Xue C, Lin Y-H, Bai F-W (2013) Redox potential control and 
+applications in microaerobic and anaerobic fermentations. Bio-
+technol Adv 31:257–265. https://​doi.​org/​10.​1016/j.​biote​chadv.​
+2012.​11.​005
+Liu Y, Ye X, Chen K, Wu X, Jiao L, Zhang H, Zhu F, Xi Y (2024) 
+Effect of nanobubble water on medium chain carboxylic acids 
+production in anaerobic digestion of cow manure. Waste Man-
+age 184:37–51. https://​doi.​org/​10.​1016/j.​wasman.​2024.​05.​029
+Lyu Z, Lu Y (2018) Metabolic shift at the class level sheds light on 
+adaptation of methanogens to oxidative environments. ISME J 
+12:411–423. https://​doi.​org/​10.​1038/​ismej.​2017.​173
+Magalhães CP, Duarte MS, Pereira MA, Stams AJM, Cavaleiro AJ 
+(2025) Facultative anaerobic bacteria enable syntrophic fatty 
+acids degradation under micro-aerobic conditions. Bioresour 
+Technol 417:131829. https://​doi.​org/​10.​1016/j.​biort​ech.​2024.​
+131829
+Magdalena JA, Angenent LT, Usack JG (2022) The measurement, 
+application, and effect of oxygen in microbial fermentations: 
+focusing on methane and carboxylate production. Fermentation 
+8:138. https://​doi.​org/​10.​3390/​ferme​ntati​on804​0138
+McInerney MJ, Sieber JR, Gunsalus RP (2009) Syntrophy in anaerobic 
+global carbon cycles. Curr Opin Biotechnol 20:623–632. https://​
+doi.​org/​10.​1016/j.​copbio.​2009.​10.​001
+Montalvo S, Huiliñir C, Ojeda F, Castillo A, Lillo L, Guerrero L (2016) 
+Microaerobic pretreatment of sewage sludge: effect of air flow 
+rate, pretreatment time and temperature on the aerobic process 
+and methane generation. Int Biodeterior Biodegradation 110:1–7. 
+https://​doi.​org/​10.​1016/j.​ibiod.​2016.​01.​010
+Montalvo S, Vielma S, Borja R, Huiliñir C, Guerrero L (2018) Increase 
+in biogas production in anaerobic sludge digestion by combin-
+ing aerobic hydrolysis and addition of metallic wastes. Renew 
+Energy 123:541–548. https://​doi.​org/​10.​1016/j.​renene.​2018.​02.​
+004
+Morais BP, Magalhães CP, Martins G, Pereira MA, Cavaleiro AJ 
+(2024) Effect of micro-aeration on syntrophic and methanogenic 
+activity in anaerobic sludge. Appl Microbiol Biotechnol 108:192. 
+https://​doi.​org/​10.​1007/​s00253-​023-​12969-4
+Nguyen D, Khanal SK (2018) A little breath of fresh air into an anaer-
+obic system: how microaeration facilitates anaerobic digestion 
+process. Biotechnol Adv 36:1971–1983. https://​doi.​org/​10.​
+1016/j.​biote​chadv.​2018.​08.​007
+Nguyen D, Wu Z, Shrestha S, Lee P-H, Raskin L, Khanal SK (2019) 
+Intermittent micro-aeration: new strategy to control volatile fatty 
+acid accumulation in high organic loading anaerobic digestion. 
+Water Res 166:115080. https://​doi.​org/​10.​1016/j.​watres.​2019.​
+115080
+Niu T, Zhou Z, Shen X, Qiao W, Jiang L-M, Pan W, Zhou J (2016) 
+Effects of dissolved oxygen on performance and microbial 
+community structure in a micro-aerobic hydrolysis sludge 
+in situ reduction process. Water Res 90:369–377. https://​doi.​
+org/​10.​1016/j.​watres.​2015.​12.​050
+Ortiz-Ardila AE, Díez B, Celis C, Jenicek P, Labatut R (2021) 
+Microaerobic conditions in anaerobic sludge promote changes 
+in bacterial composition favouring biodegradation of poly-
+meric siloxanes. Environ Sci Process Impacts 23:1182–1197. 
+https://​doi.​org/​10.​1039/​D1EM0​0143D
+Ortiz-Ardila AE, Celis C, Usack JG, Angenent LT, Labatut RA 
+(2024) Microaeration promotes volatile siloxanes conversion to 
+methane and simpler monomeric products. Bioresour Technol 
+400:130673. https://​doi.​org/​10.​1016/j.​biort​ech.​2024.​130673
+Palatsi J, Affes R, Fernandez B, Pereira MA, Alves MM, Flotats X 
+(2012) Influence of adsorption and anaerobic granular sludge 
+characteristics on long chain fatty acids inhibition process. 
+Water Res 46:5268–5278. https://​doi.​org/​10.​1016/j.​watres.​
+2012.​07.​008
+Pedone E, Bartolucci S, Fiorentino G (2004) Sensing and adapting to 
+environmental stress: the archaeal tactic. Front Biosci 104:2909–
+2926. https://​doi.​org/​10.​2741/​1447
+Pereira MA, Pires OC, Mota M, Alves MM (2002) Anaerobic degrada-
+tion of oleic acid by suspended and granular sludge: identifica-
+tion of palmitic acid as a key intermediate. Water Sci Technol 
+45:139–144. https://​doi.​org/​10.​2166/​wst.​2002.​0311
+Pereira MA, Pires OC, Mota M, Alves MM (2005) Anaerobic biodeg-
+radation of oleic and palmitic acids: evidence of mass transfer 
+limitations caused by long chain fatty acid accumulation onto 
+the anaerobic sludge. Biotechnol Bioeng 92:15–23. https://​doi.​
+org/​10.​1002/​bit.​20548
+Perez-Calleja P, Aybar M, Picioreanu C, Esteban-Garcia AL, Martin 
+KJ, Nerenberg R (2017) Periodic venting of MABR lumen allows 
+high removal rates and high gas-transfer efficiencies. Water Res 
+121:349–360. https://​doi.​org/​10.​1016/j.​watres.​2017.​05.​042
+Pokorna-Krayzelova L, Mampaey KE, Vannecke TPW, Bartacek J, Jen-
+icek P, Volcke EIP (2017) Model-based optimization of micro-
+aeration for biogas desulfurization in UASB reactors. Biochem 
+Eng J 125:171–179. https://​doi.​org/​10.​1016/j.​bej.​2017.​06.​009
+Pokorna-Krayzelova L, Bartacek J, Theuri SN, Segura Gonzalez CA, 
+Prochazka J, Volcke EIP, Jenicek P (2018) Microaeration through 
+a biomembrane for biogas desulfurization: lab-scale and pilot-
+scale experiences. Environ Sci (Camb) 4:1190–1200. https://​doi.​
+org/​10.​1039/​C8EW0​0232K
+Ramos I, Pérez R, Reinoso M, Torio R, Fdz-Polanco M (2014) Micro-
+aerobic digestion of sewage sludge on an industrial-pilot scale: 
+the efficiency of biogas desulphurisation under different con-
+figurations and the impact of O2 on the microbial communities. 
+Bioresour Technol 164:338–346. https://​doi.​org/​10.​1016/j.​biort​
+ech.​2014.​04.​109
+Rinzema A, Boone M, Van KK, Lettinga G (1994) Bactericidal effect 
+of long chain fatty acids in anaerobic digestion. Water Environ 
+Res 66:40–49
+Sawatdeenarunat C, Sung S, Khanal SK (2017) Enhanced volatile fatty 
+acids production during anaerobic digestion of lignocellulosic 
+biomass via micro-oxygenation. Bioresour Technol 237:139–
+145. https://​doi.​org/​10.​1016/j.​biort​ech.​2017.​02.​029
+Sieber JR, McInerney MJ, Gunsalus RP (2012) Genomic insights into 
+syntrophy: the paradigm for anaerobic metabolic cooperation. 
+Annu Rev Microbiol 66:429–452. https://​doi.​org/​10.​1146/​annur​
+ev-​micro-​090110-​102844
+Silva SA, Cavaleiro AJ, Pereira MA, Stams AJM, Alves MM, Sousa 
+DZ (2014) Long-term acclimation of anaerobic sludges for high-
+rate methanogenesis from LCFA. Biomass Bioenergy 67:297–
+303. https://​doi.​org/​10.​1016/j.​biomb​ioe.​2014.​05.​012
+Siqueira JPS, Pereira AM, Dutra AMM, Firmino PIM, dos Santos AB 
+(2018) Process bioengineering applied to BTEX degradation in 
+microaerobic treatment systems. J Environ Manage 223:426–432. 
+https://​doi.​org/​10.​1016/j.​jenvm​an.​2018.​06.​066
+
+
+[PDF page 18]
+	
+Applied Microbiology and Biotechnology (2025) 109:131
+131 
+Page 18 of 18
+Song G, Yu Y, Liu T, Xi H, Zhou Y (2019) Performance of micro-
+aeration hydrolytic acidification process in the pretreatment of 
+2-butenal manufacture wastewater. J Hazard Mater 369:465–473. 
+https://​doi.​org/​10.​1016/j.​jhazm​at.​2019.​02.​034
+Song C, Li W, Cai F, Liu G, Chen C (2021) Anaerobic and microaero-
+bic pretreatment for improving methane production from paper 
+waste in anaerobic digestion. Front Microbiol 12:688290. https://​
+doi.​org/​10.​3389/​fmicb.​2021.​688290
+Stams AJM, Plugge CM (2009) Electron transfer in syntrophic com-
+munities of anaerobic bacteria and archaea. Nat Rev Microbiol 
+7:568–577. https://​doi.​org/​10.​1038/​nrmic​ro2166
+Syron E, Semmens MJ, Casey E (2015) Performance analysis of a 
+pilot-scale membrane aerated biofilm reactor for the treatment 
+of landfill leachate. Chem Eng J 273:120–129. https://​doi.​org/​
+10.​1016/j.​cej.​2015.​03.​043
+Tan LC, Lin R, Murphy JD, Lens PNL (2021) Granular activated car-
+bon supplementation enhances anaerobic digestion of lipid-rich 
+wastewaters. Renew Energy 171:958–970. https://​doi.​org/​10.​
+1016/j.​renene.​2021.​02.​087
+Tartakovsky B, Mehta P, Bourque J-S, Guiot SR (2011) Electrolysis-
+enhanced anaerobic digestion of wastewater. Bioresour Technol 
+102:5685–5691. https://​doi.​org/​10.​1016/j.​biort​ech.​2011.​02.​097
+Thauer RK, Jungermann K, Decker K (1977) Energy conservation in 
+chemotrophic anaerobic bacteria. Bacteriol Rev 41:100–180. 
+https://​doi.​org/​10.​1128/​br.​41.1.​100-​180.​1977
+Tsapekos P, Kougias PG, Vasileiou SA, Lyberatos G, Angelidaki I 
+(2017) Effect of micro-aeration and inoculum type on the bio-
+degradation of lignocellulosic substrate. Bioresour Technol 
+225:246–253. https://​doi.​org/​10.​1016/j.​biort​ech.​2016.​11.​081
+Vogt C, Kleinsteuber S, Richnow H (2011) Anaerobic benzene deg-
+radation by bacteria. Microb Biotechnol 4:710–724. https://​doi.​
+org/​10.​1111/j.​1751-​7915.​2011.​00260.x
+Vu HP, Nguyen LN, Wang Q, Ngo HH, Liu Q, Zhang X, Nghiem LD 
+(2022) Hydrogen sulphide management in anaerobic digestion: 
+a critical review on input control, process regulation, and post-
+treatment. Bioresour Technol 346:126634. https://​doi.​org/​10.​
+1016/j.​biort​ech.​2021.​126634
+Wang X, Lei Z, Shimizu K, Zhang Z, Lee D-J (2020a) Improved 
+methane production from corn straw using anaerobically 
+digested sludge pre-augmented by nanobubble water. Biore-
+sour Technol 311:123479. https://​doi.​org/​10.​1016/j.​biort​ech.​
+2020.​123479
+Wang X, Yuan T, Guo Z, Han H, Lei Z, Shimizu K, Zhang Z, Lee 
+D-J (2020b) Enhanced hydrolysis and acidification of cellulose 
+at high loading for methane production via anaerobic digestion 
+supplemented with high mobility nanobubble water. Bioresour 
+Technol 297:122499. https://​doi.​org/​10.​1016/j.​biort​ech.​2019.​
+122499
+Wang X, Yuan T, Lei Z, Kobayashi M, Adachi Y, Shimizu K, Lee 
+D-J, Zhang Z (2020c) Supplementation of O2-containing gas 
+nanobubble water to enhance methane production from anaerobic 
+digestion of cellulose. Chem Eng J 398:125652. https://​doi.​org/​
+10.​1016/j.​cej.​2020.​125652
+Wei Y, Jiao Y, An D, Li D, Li W, Wei Q (2019) Review of dissolved 
+oxygen detection technology: from laboratory analysis to online 
+intelligent detection. Sensors 19:3995. https://​doi.​org/​10.​3390/​
+s1918​3995
+Wei M, Zhang R, Zhou M, Yuan Z, Yuan H, Zhu N (2021) Treat-
+ment of fresh leachate by microaeration pretreatment combined 
+with IC-AO2 process: performance and mechanistic insight. Sci 
+Total Environ 789:147939. https://​doi.​org/​10.​1016/j.​scito​tenv.​
+2021.​147939
+Wei C-H, Wang Z-W, Dai J-H, Xiao K, Yu H-R, Qu F-S, Rong 
+H-W, He J-G, Ngo HH (2024) Enhanced anaerobic digestion 
+performance and sludge filterability by membrane microaeration 
+for anaerobic membrane bioreactor application. Bioresour Tech-
+nol 402:130787. https://​doi.​org/​10.​1016/j.​biort​ech.​2024.​130787
+Wu C, Zhou Y, Wang P, Guo S (2015) Improving hydrolysis acidifi-
+cation by limited aeration in the pretreatment of petrochemical 
+wastewater. Bioresour Technol 194:256–262. https://​doi.​org/​10.​
+1016/j.​biort​ech.​2015.​06.​072
+Wu C, Li Y, Zhou Y, Li Z, Zhang S, Liu H (2018) Upgrading the 
+Chinese biggest petrochemical wastewater treatment plant: tech-
+nologies research and full scale application. Sci Total Environ 
+633:189–197. https://​doi.​org/​10.​1016/j.​scito​tenv.​2018.​03.​164
+Wu Z, Nguyen D, Lam TYC, Zhuang H, Shrestha S, Raskin L, Khanal 
+SK, Lee P-H (2021) Synergistic association between cytochrome 
+bd-encoded Proteiniphilum and reactive oxygen species (ROS)-
+scavenging methanogens in microaerobic-anaerobic digestion of 
+lignocellulosic biomass. Water Res 190:116721. https://​doi.​org/​
+10.​1016/j.​watres.​2020.​116721
+Xu S, Selvam A, Wong JWC (2014) Optimization of micro-aeration 
+intensity in acidogenic reactor of a two-phase anaerobic digester 
+treating food waste. Waste Manag 34:363–369. https://​doi.​org/​
+10.​1016/j.​wasman.​2013.​10.​038
+Xu H, Li Y, Hua D, Zhao Y, Chen L, Zhou L, Chen G (2021) Effect 
+of microaerobic microbial pretreatment on anaerobic digestion 
+of a lignocellulosic substrate under controlled pH conditions. 
+Bioresour Technol 328:124852. https://​doi.​org/​10.​1016/j.​biort​
+ech.​2021.​124852
+Zengler K, Richnow HH, Rosselló-Mora R, Michaelis W, Widdel F 
+(1999) Methane formation from long-chain alkanes by anaerobic 
+microorganisms. Nature 401:266–269. https://​doi.​org/​10.​1038/​
+45777
+Zhang Z, Xi H, Yu Y, Wu C, Yang Y, Guo Z, Zhou Y (2022) Coupling 
+of membrane-based bubbleless micro-aeration for 2,4-dinitro-
+phenol degradation in a hydrolysis acidification reactor. Water 
+Res 212:118119. https://​doi.​org/​10.​1016/j.​watres.​2022.​118119
+Zhen X, Zhang X, Li S, Li M, Kang J (2020) Effect of micro-oxy-
+gen pretreatment on gas production characteristics of anaero-
+bic digestion of kitchen waste. J Mater Cycles Waste Manag 
+22:1852–1858. https://​doi.​org/​10.​1007/​s10163-​020-​01072-9
+Zhu M, Lü F, Hao L-P, He P-J, Shao L-M (2009) Regulating the 
+hydrolysis of organic wastes by micro-aeration and effluent recir-
+culation. Waste Manag 29:2042–2050. https://​doi.​org/​10.​1016/j.​
+wasman.​2008.​12.​023
+Ziels RM, Karlsson A, Beck DACC, Ejlertsson JJ, Yekta SS, Bjorn A, 
+Stensel HD, Svensson BH (2016) Microbial community adapta-
+tion influences long-chain fatty acid conversion during anaerobic 
+codigestion of fats, oils, and grease with municipal sludge. Water 
+Res 103:372–382. https://​doi.​org/​10.​1016/j.​watres.​2016.​07.​043
+Ziels RM, Beck DAC, Stensel HD (2017) Long-chain fatty acid feeding 
+frequency in anaerobic codigestion impacts syntrophic commu-
+nity structure and biokinetics. Water Res 117:218–229. https://​
+doi.​org/​10.​1016/j.​watres.​2017.​03.​060
+Zitomer DH, Shrout JD (1998) Feasibility and benefits of methanogen-
+esis under oxygen-limited conditions. Waste Manag 18:107–116. 
+https://​doi.​org/​10.​1016/​S0956-​053X(98)​00008-7
+Zouari N, Al Jabiri H (2015) Improvement by micro-aeration of anaero-
+bic digestion of slaughterhouse wastewater at 38 C. Int J Innov 
+Sci Eng Technol 4:807–816
+Publisher's Note  Springer Nature remains neutral with regard to 
+jurisdictional claims in published maps and institutional affiliations.
