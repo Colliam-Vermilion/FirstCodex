@@ -4,9 +4,9 @@
   "authors": "Chao Li",
   "doi": "",
   "category_unchanged": "3 独立好氧或微好氧预处理",
-  "preferred_main_asset_id": "R13955.main.7549e1025985363e",
+  "preferred_main_asset_id": "R13955.main.82d3dd4c7af3e63a",
   "included_for_download": true,
-  "main_status": "historical_acquired_current_original_not_restored",
+  "main_status": "downloaded_verified",
   "supplementary_status": "not_checked",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
@@ -36,7 +36,7 @@
   },
   "assets": [
     {
-      "preferred_for_record": true,
+      "preferred_for_record": false,
       "record_id": "R13955",
       "asset_id": "R13955.main.7549e1025985363e",
       "role": "main",
@@ -67,7 +67,72 @@
         "full_output_is_not_yet_cloud_backup": true,
         "sample_repo_directory": ""
       },
-      "recovery_checked_at_utc": "2026-10-17T08:38:06.210001+00:00"
+      "recovery_checked_at_utc": "2026-10-17T08:41:26.487778+00:00"
+    },
+    {
+      "record_id": "R13955",
+      "asset_id": "R13955.main.82d3dd4c7af3e63a",
+      "role": "main",
+      "official_attachment": false,
+      "original_filename": "R13955_2017_Biogas_Production_from_Lignocellulosic_Biomass_Impact_of_pre-treatment_co-digestion_7549e1025985.pdf",
+      "canonical_path": "",
+      "source_local_path": "",
+      "historical_sha256": "",
+      "archive_parent_asset_id": "",
+      "parsing_status": "pending",
+      "preferred_for_record": true,
+      "source_repo_path": "original_files/fulltext/R13955_2017_Biogas_Production_from_Lignocellulosic_Biomass_Impact_of_pre-treatment_co-digestion_7549e1025985.pdf",
+      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R13955_2017_Biogas_Production_from_Lignocellulosic_Biomass_Impact_of_pre-treatment_co-digestion_7549e1025985.pdf",
+      "format": "pdf",
+      "size_bytes": 14662119,
+      "sha256": "82d3dd4c7af3e63a708ab83da8c0b4011affe749fea236491c93f91ec4cd59c9",
+      "availability": "present_sha_verified",
+      "storage_status": "local_acquired_pending_remote_readback",
+      "source_url": "https://lup.lub.lu.se/search/files/30364253/Thesis_Chao_Li_150_dpi.pdf",
+      "version": "University-published doctoral thesis / publisher PDF (repository cover explicitly states Version of Record)",
+      "license_evidence": "Private authorized research backup; source license not inferred",
+      "manual_identity_review_20261017": {
+        "record_id": "R13955",
+        "title_author_year_verified_on_repository_cover": true,
+        "thesis_body_verified": true,
+        "pages": 143,
+        "all_pages_parsed": true,
+        "body_chars": 391613,
+        "publisher_version_explicit_cover": true,
+        "historical_original_sha_not_overwritten": true,
+        "new_bytes_contain_current_download_date": true,
+        "difference_from_old_bytes_not_fully_known": true,
+        "version": "University-published doctoral thesis / publisher PDF (repository cover explicitly states Version of Record)"
+      },
+      "recovery_checked_at_utc": "2026-10-17T08:41:26.512014+00:00"
+    },
+    {
+      "record_id": "R13955",
+      "asset_id": "R13955.main.6714f79deccd703d",
+      "role": "main",
+      "preferred_for_record": false,
+      "official_attachment": false,
+      "original_filename": "R13955_2017_Biogas_Production_from_Lignocellulosic_Biomass_Impact_of_pre-treatment_co-digestion.pdf",
+      "canonical_path": "",
+      "source_repo_path": "",
+      "source_local_path": "/workspace/library-files/ad-oxygen-fulltexts/R13955_2017_Biogas_Production_from_Lignocellulosic_Biomass_Impact_of_pre-treatment_co-digestion.pdf",
+      "resolved_source_path": "",
+      "format": "pdf",
+      "size_bytes": 14662119,
+      "sha256": "6714f79deccd703d9c74784b27ea4770f9095bfad44e0579a4f5de2990ae711f",
+      "source_url": "https://lup.lub.lu.se/search/files/30364253/Thesis_Chao_Li_150_dpi.pdf",
+      "recorded_candidate_urls": [
+        "https://lup.lub.lu.se/search/files/30364253/Thesis_Chao_Li_150_dpi.pdf"
+      ],
+      "source_xml_url": "",
+      "version": "学位/机构存档原稿",
+      "license_evidence": "Historical record; source rights not reassessed",
+      "historical_sha256": "6714f79deccd703d9c74784b27ea4770f9095bfad44e0579a4f5de2990ae711f",
+      "archive_parent_asset_id": "",
+      "parsing_status": "historical_only_current_original_missing",
+      "recovery_checked_at_utc": "2026-10-17T08:41:26.512152+00:00",
+      "availability": "historical_acquired_current_original_not_restored",
+      "storage_status": "historical_only_original_missing"
     }
   ],
   "version_history": [
@@ -83,6 +148,6 @@
     }
   ],
   "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
-  "recovery_checked_at_utc": "2026-10-17T08:38:06.462122+00:00",
+  "recovery_checked_at_utc": "2026-10-17T08:41:26.788577+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json"
 }

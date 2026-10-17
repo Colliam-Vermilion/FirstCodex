@@ -192,19 +192,15 @@
     "asset_id": "R06611.main.b8eb8afdada2a2d0"
   },
   "R07238": {
-    "time_utc": "2026-10-17T08:30:22.795798+00:00",
+    "time_utc": "2026-10-17T08:40:37.801378+00:00",
     "status": "downloaded_verified",
     "checks": {
       "historical_sha_match": true,
-      "bytes": 4532295,
-      "sha256": "26c38d1631747ddcb443b8d80d0070145f1968ff0f4b8e86dc2f69cc2bb968d8",
-      "pages": 11,
-      "all_pages_parsed": true,
-      "text_chars": 72786,
-      "identity": "previously verified exact source bytes plus current all-page parsing"
+      "bytes": 14286928,
+      "sha256": "f346f9bdcc964013ecb7c4282d6b30f1ab334e035d98adcc653de1447fbe9a9a"
     },
-    "url": "https://europepmc.org/api/getPdf?pmcid=PMC8044681",
-    "asset_id": "R07238.main.26c38d1631747ddc"
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/supplementaryFiles",
+    "asset_id": "R07238.supplementary.f346f9bdcc964013"
   },
   "R08646": {
     "time_utc": "2026-10-17T08:30:56.787707+00:00",
@@ -673,5 +669,33 @@
     },
     "url": "https://www.banglajol.info/index.php/BJSIR/article/download/25579/17152",
     "asset_id": "R13956.main.fedaffcdf5be81e2"
+  },
+  "R13955": {
+    "time_utc": "2026-10-17T08:38:50.533910+00:00",
+    "status": "candidate_not_verified",
+    "reason": "historical_SHA_mismatch",
+    "checks": {
+      "historical_sha_match": false,
+      "bytes": 14662119,
+      "sha256": "82d3dd4c7af3e63a708ab83da8c0b4011affe749fea236491c93f91ec4cd59c9",
+      "candidate_path": "original_files/unverified_candidates/R13955/82d3dd4c7af3e63a.pdf",
+      "manual_identity_review_required": true
+    },
+    "url": "https://lup.lub.lu.se/search/files/30364253/Thesis_Chao_Li_150_dpi.pdf"
+  },
+  "R11596": {
+    "time_utc": "2026-10-17T08:38:52.683604+00:00",
+    "status": "downloaded_verified",
+    "checks": {
+      "historical_sha_match": true,
+      "bytes": 1659399,
+      "sha256": "0b2e2d98dffd544958b06cc2229d310e4b7d529bd3914c47f20d6a66789a28be",
+      "pages": 9,
+      "all_pages_parsed": true,
+      "text_chars": 49518,
+      "identity": "previously verified exact source bytes plus current all-page parsing"
+    },
+    "url": "https://repositorium.uminho.pt/server/api/core/bitstreams/7262c516-6b14-4001-a173-517d1187c8d9/content",
+    "asset_id": "R11596.main.0b2e2d98dffd5449"
   }
 }

@@ -6,7 +6,7 @@
   "category_unchanged": "1 直接向 AD 反应器或内部循环系统供氧",
   "preferred_main_asset_id": null,
   "included_for_download": true,
-  "main_status": "not_downloaded",
+  "main_status": "historical_acquired_current_original_not_restored",
   "supplementary_status": "not_checked",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
@@ -34,7 +34,36 @@
     "supplementary": "mapped, no duplicate originals",
     "extracted": "per-asset derived search artifacts"
   },
-  "assets": [],
+  "assets": [
+    {
+      "record_id": "R02274",
+      "asset_id": "R02274.main.4c7da8384f1f6e3d",
+      "role": "main",
+      "preferred_for_record": true,
+      "official_attachment": false,
+      "original_filename": "R02274_2016_ANAEROBIC_DIGESTION_OF_WASTEWATER_WITH_HIGH_SULFATE_CONCENTRATION_USING.pdf",
+      "canonical_path": "",
+      "source_repo_path": "",
+      "source_local_path": "/workspace/library-files/ad-oxygen-fulltexts/R02274_2016_ANAEROBIC_DIGESTION_OF_WASTEWATER_WITH_HIGH_SULFATE_CONCENTRATION_USING.pdf",
+      "resolved_source_path": "",
+      "format": "pdf",
+      "size_bytes": 471480,
+      "sha256": "4c7da8384f1f6e3d8bd2681eab23bdb95e3057009cf4c7ec7aacc7cdb9eaf43d",
+      "source_url": "",
+      "recorded_candidate_urls": [
+        "http://www.scielo.br/pdf/bjce/v33n4/0104-6632-bjce-33-04-0743.pdf"
+      ],
+      "source_xml_url": "",
+      "version": "出版版本（原页出版信息）",
+      "license_evidence": "Historical record; source rights not reassessed",
+      "historical_sha256": "4c7da8384f1f6e3d8bd2681eab23bdb95e3057009cf4c7ec7aacc7cdb9eaf43d",
+      "archive_parent_asset_id": "",
+      "parsing_status": "historical_only_current_original_missing",
+      "recovery_checked_at_utc": "2026-10-17T08:41:26.512105+00:00",
+      "availability": "historical_acquired_current_original_not_restored",
+      "storage_status": "historical_only_original_missing"
+    }
+  ],
   "version_history": [
     {
       "sha256": "4c7da8384f1f6e3d8bd2681eab23bdb95e3057009cf4c7ec7aacc7cdb9eaf43d",
@@ -43,6 +72,6 @@
     }
   ],
   "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
-  "recovery_checked_at_utc": "2026-10-17T08:38:06.526689+00:00",
+  "recovery_checked_at_utc": "2026-10-17T08:41:26.857110+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json"
 }

@@ -6,7 +6,7 @@
   "category_unchanged": "3 独立好氧或微好氧预处理",
   "preferred_main_asset_id": null,
   "included_for_download": true,
-  "main_status": "not_downloaded",
+  "main_status": "historical_acquired_current_original_not_restored",
   "supplementary_status": "not_checked",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
@@ -34,7 +34,36 @@
     "supplementary": "mapped, no duplicate originals",
     "extracted": "per-asset derived search artifacts"
   },
-  "assets": [],
+  "assets": [
+    {
+      "record_id": "R13899",
+      "asset_id": "R13899.main.19143e56fa77ce99",
+      "role": "main",
+      "preferred_for_record": true,
+      "official_attachment": false,
+      "original_filename": "R13899_2013_Effect_of_aerobic_pretreatment_of_waste_on_the_rate.pdf",
+      "canonical_path": "",
+      "source_repo_path": "",
+      "source_local_path": "/workspace/library-files/ad-oxygen-fulltexts/R13899_2013_Effect_of_aerobic_pretreatment_of_waste_on_the_rate.pdf",
+      "resolved_source_path": "",
+      "format": "pdf",
+      "size_bytes": 479092,
+      "sha256": "19143e56fa77ce99639f652b53bde1b70f61a67b18f24b9686fc371215092714",
+      "source_url": "",
+      "recorded_candidate_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s10163-012-0100-y.pdf"
+      ],
+      "source_xml_url": "",
+      "version": "出版版本（原页出版信息）",
+      "license_evidence": "Historical record; source rights not reassessed",
+      "historical_sha256": "19143e56fa77ce99639f652b53bde1b70f61a67b18f24b9686fc371215092714",
+      "archive_parent_asset_id": "",
+      "parsing_status": "historical_only_current_original_missing",
+      "recovery_checked_at_utc": "2026-10-17T08:41:26.512149+00:00",
+      "availability": "historical_acquired_current_original_not_restored",
+      "storage_status": "historical_only_original_missing"
+    }
+  ],
   "version_history": [
     {
       "sha256": "19143e56fa77ce99639f652b53bde1b70f61a67b18f24b9686fc371215092714",
@@ -43,6 +72,6 @@
     }
   ],
   "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
-  "recovery_checked_at_utc": "2026-10-17T08:38:06.271855+00:00",
+  "recovery_checked_at_utc": "2026-10-17T08:41:26.561840+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json"
 }

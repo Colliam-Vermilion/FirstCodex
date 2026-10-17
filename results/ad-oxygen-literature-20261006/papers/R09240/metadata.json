@@ -6,7 +6,7 @@
   "category_unchanged": "4 综述",
   "preferred_main_asset_id": null,
   "included_for_download": true,
-  "main_status": "not_downloaded",
+  "main_status": "historical_acquired_current_original_not_restored",
   "supplementary_status": "not_checked",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
@@ -34,7 +34,36 @@
     "supplementary": "mapped, no duplicate originals",
     "extracted": "per-asset derived search artifacts"
   },
-  "assets": [],
+  "assets": [
+    {
+      "record_id": "R09240",
+      "asset_id": "R09240.main.da8dbeb874b19b59",
+      "role": "main",
+      "preferred_for_record": true,
+      "official_attachment": false,
+      "original_filename": "R09240_2023_Microbubble_Intensification_of_Bioprocessing.pdf",
+      "canonical_path": "",
+      "source_repo_path": "",
+      "source_local_path": "/workspace/library-files/ad-oxygen-fulltexts/R09240_2023_Microbubble_Intensification_of_Bioprocessing.pdf",
+      "resolved_source_path": "",
+      "format": "pdf",
+      "size_bytes": 1315227,
+      "sha256": "da8dbeb874b19b59dbea53c11766a209aaa0b0bc319e2128c94340ae78cecfaf",
+      "source_url": "https://technology.matthey.com/docserver/fulltext/jmtr/67/4/Zimmerman_16a_Imp.pdf?expires=1791804248&id=id&accname=guest&checksum=934385598F9DDA2349B917F1B50C4858",
+      "recorded_candidate_urls": [
+        "https://technology.matthey.com/docserver/fulltext/jmtr/67/4/Zimmerman_16a_Imp.pdf?expires=1791804248&id=id&accname=guest&checksum=934385598F9DDA2349B917F1B50C4858"
+      ],
+      "source_xml_url": "",
+      "version": "出版版本（原页出版信息）",
+      "license_evidence": "Historical record; source rights not reassessed",
+      "historical_sha256": "da8dbeb874b19b59dbea53c11766a209aaa0b0bc319e2128c94340ae78cecfaf",
+      "archive_parent_asset_id": "",
+      "parsing_status": "historical_only_current_original_missing",
+      "recovery_checked_at_utc": "2026-10-17T08:41:26.512135+00:00",
+      "availability": "historical_acquired_current_original_not_restored",
+      "storage_status": "historical_only_original_missing"
+    }
+  ],
   "version_history": [
     {
       "sha256": "da8dbeb874b19b59dbea53c11766a209aaa0b0bc319e2128c94340ae78cecfaf",
@@ -43,6 +72,6 @@
     }
   ],
   "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
-  "recovery_checked_at_utc": "2026-10-17T08:38:06.296859+00:00",
+  "recovery_checked_at_utc": "2026-10-17T08:41:26.585702+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json"
 }

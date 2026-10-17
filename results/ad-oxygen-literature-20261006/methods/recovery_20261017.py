@@ -57,6 +57,16 @@ def baseline():
 
 def audit():
     baseline();assets=load(ASSETS,[]);papers=load(RUN/'baseline_papers.json');queue=[]
+    historical91=readcsv(ROOT/'methods/audit/scansci_verified_pdf_manifest_utf8.csv')
+    for old in historical91:
+        if any(a['record_id']==old['原记录ID'] and a['sha256']==old['SHA256'] for a in assets):continue
+        id=old['原记录ID'];digest=old['SHA256']
+        assets.append({'record_id':id,'asset_id':id+'.main.'+digest[:16],'role':'main','preferred_for_record':not any(a['record_id']==id and a['role']=='main' for a in assets),
+            'official_attachment':False,'original_filename':old['PDF文件名'],'canonical_path':'','source_repo_path':'','source_local_path':old['本地文件路径（不是下载链接）'],
+            'resolved_source_path':'','format':'pdf','size_bytes':int(old['文件大小（字节）']),'sha256':digest,
+            'source_url':old.get('实际PDF来源URL（下载或历史记录明确）',''),'recorded_candidate_urls':json.loads(old.get('公开PDF候选URL（非下载URL绑定实录）') or '[]'),
+            'source_xml_url':'','version':old['PDF版本'],'license_evidence':'Historical record; source rights not reassessed','historical_sha256':digest,'archive_parent_asset_id':'',
+            'parsing_status':'historical_only_current_original_missing'})
     for a in assets:
         ok=present(a)
         a['recovery_checked_at_utc']=now()
@@ -75,6 +85,10 @@ def audit():
     # Update current paper states only; original scope fields remain untouched.
     current=readcsv(ROOT/'manual_review/current_environment_acquisition426_utf8.csv')
     attempts=load(RUN/'retrieval_results.json',{})
+    continuation=load(ROOT/'original_files/continuation_20261017/existing_included_results.json',{})
+    for id,record in continuation.items():
+        if not record.get('body',{}).get('verified'):
+            attempts[id]={'reason':'本轮已处理已有来源链接，未取得核验正文；HTTP/暂停/挑战等逐来源证据见original_files/continuation_20261017/existing_included_access.jsonl','status':record.get('status')}
     si_checks=load(RUN/'supplementary_check.json',{})
     rows_by_id={r['原记录ID']:r for r in current}
     byid=collections.defaultdict(list)
@@ -88,6 +102,7 @@ def audit():
         historical=any(a['role']=='main' for a in aa)
         status='downloaded_verified' if body else 'historical_acquired_current_original_not_restored' if historical else 'not_downloaded'
         m.update(main_status=status,assets=aa,recovery_checked_at_utc=now(),supplementary_official_count=len(official))
+        m['preferred_main_asset_id']=body['asset_id'] if body else None
         m['recovery_original_status_preserved_in']='inventory/recovery_20261017/baseline_papers.json'
         checked=si_checks.get(id,{})
         m['supplementary_status']=checked.get('status') or ('downloaded' if official else 'historical_acquired_current_original_not_restored' if any(a['role']=='supplementary' for a in aa) else 'not_checked')
@@ -106,6 +121,13 @@ def audit():
             '持久化及独立取回状态':'已恢复；本轮独立远端核验见recovery清单' if body else '当前原件未恢复',
             '当前下载失败或访问限制':attempts.get(id,{}).get('reason','尚未执行本轮获取；保留历史日志') if not body else ''})
     writecsv(ROOT/'manual_review/current_environment_acquisition426_utf8.csv',current)
+    historical_queue=readcsv(ROOT/'manual_review/historical91_original_recovery_queue_utf8.csv')
+    for row in historical_queue:
+        match=next((a for a in assets if a['record_id']==row['原记录ID'] and a['sha256']==row['SHA256'] and present(a)),None)
+        for k,v in rows_by_id[row['原记录ID']].items():
+            if k in row and k.startswith(('当前','新环境','原件恢复','持久化')):row[k]=v
+        row['历史原字节恢复20261017']='已按ID/SHA恢复' if match else '历史已获取，当前原件未恢复（替代版本另记）'
+    writecsv(ROOT/'manual_review/historical91_original_recovery_queue_utf8.csv',historical_queue)
     writecsv(ROOT/'manual_review/current_environment_need_fulltext_utf8.csv',[r for r in current if not r['当前原件SHA256']])
     library=readcsv(ROOT/'final_results/ad_oxygen_download_review_utf8.csv')
     for row in library:
@@ -179,6 +201,24 @@ def audit():
         'missing_main_ids':426-main_ok,'present_assets':sum(present(a) for a in assets),
         'historical_missing_assets':len(queue),'source_failures':len(attempts),
         'classification_changed':False,'new_topic_searches':False})
+    readme=ROOT/'README.md';content=readme.read_text()
+    if '\n# 第18轮' in content:
+        history='\n# 第18轮'+content.split('\n# 第18轮',1)[1]
+        roles=collections.Counter(a['role'] for a in assets if present(a))
+        readme.write_text(f'''# 新环境恢复与全部原件备份（2026-10-17，当前）
+
+以远端提交 `bac51bfccceae13a91745322ed5793260e30a85c` 实际文件恢复：40正文、9官方附件、5历史派生件。554条及全部人工判断保留，类别1–4共426条，不重新检索或分类。
+
+当前实际核验正文 **{main_ok}篇**，缺正文 **{426-main_ok}篇**。实际对象角色：{dict(roles)}。历史记录但无原件者明确标记“历史已获取，当前原件未恢复”，历史SHA和替代版本分开保留。3篇重新下载、上传及独立远端读回门槛已完成，后续按5篇或10分钟检查点推送；仅远端核验通过后称已备份。
+
+- [最新状态](inventory/recovery_20261017/status.json)、[逐文件备份/独立读回清单](inventory/recovery_20261017/backup_manifest_utf8.csv)、[远端核验回执](inventory/recovery_20261017/remote_readback.json)
+- [正文原件](original_files/fulltext/)、[补充材料原件](original_files/supplementary/)、[逐ID解析结果](papers/)、[统一原件清单](inventory/assets_utf8.csv)
+- [426获取状态](manual_review/current_environment_acquisition426_utf8.csv)、[尚缺正文](manual_review/current_environment_need_fulltext_utf8.csv)、[历史缺件队列](inventory/recovery_20261017/historical_reacquisition_queue_utf8.csv)、[SI逐篇状态](manual_review/supplementary_material_status_utf8.csv)
+- [总Excel](final_results/ad_oxygen_download_review_20261006.xlsx)、[总CSV](final_results/ad_oxygen_download_review_utf8.csv)、[分组RIS](final_results/)
+- [安装脚本](methods/runtime_support/recover_20261017.sh)、[恢复/下载/解析/备份脚本](methods/recovery_20261017.py)、[现有文献及SI续取脚本](methods/continue_records_20261017.py)
+
+所有取得且允许保存的原件、解析结果和记录直接备份到本私有结果分支；不依赖旧环境或外部存储。既有ZIP仅为历史元数据包，无论文原件，不新增重复原件整包。以下数量、局部交付和未备份说明均为历史快照，当前以本节及20261017清单为准。
+\n'''+history)
     print(json.dumps(load(RUN/'status.json'),ensure_ascii=False))
 
 def parse_files():
@@ -241,7 +281,7 @@ def retrieve(pilot=False):
     baseline();assets=load(ASSETS,[]);results=load(RUN/'retrieval_results.json',{});events=[];last={};paused={}
     progress_file=RUN/('pilot_downloads.json' if pilot else 'batch_downloads.json')
     success=load(progress_file,{}).get('downloaded_asset_ids',[])
-    checkpoint=time.monotonic()
+    checkpoint=time.monotonic();response_cache={}
     if not pilot:
         receipt=load(RUN/'pilot_gate.json',{})
         if not receipt.get('all_original_bytes_readback_verified') or receipt.get('body_samples',0)<3:
@@ -252,7 +292,8 @@ def retrieve(pilot=False):
     for a in pending:
         id=a['record_id'];url=a.get('source_url') or a.get('source_xml_url','')
         if not url.startswith('https://'):continue
-        data=fetch_bytes(url,paused,last,events,id)
+        if url not in response_cache:response_cache[url]=fetch_bytes(url,paused,last,events,id)
+        data=response_cache[url]
         if not data:
             results[id]={'time_utc':now(),'status':'access_failed','reason':paused.get(urllib.parse.urlsplit(url).hostname,events[-1].get('error','request_failed') if events else 'request_failed'),'url':url}
             save(RUN/'retrieval_results.json',results)
@@ -294,7 +335,7 @@ def retrieve(pilot=False):
     audit()
     print(json.dumps({'newly_downloaded':len(success),'paused_hosts':paused,'pilot':pilot},ensure_ascii=False))
 
-def remote_verify():
+def remote_verify(persist=True):
     # Independent remote object database: no alternates, local clones, or
     # copies of local objects. Git fetch uses platform-injected HTTPS auth.
     bare=Path('/tmp/ad-oxygen-remote-readback-20261017.git')
@@ -333,6 +374,11 @@ def remote_verify():
         'verified_files':sum(r['backed_up'] for r in checks),'files':len(checks),
         'original_files':len(originals),'original_bytes':sum(r['size_bytes'] for r in originals if r['backed_up']),
         'all_passed':bool(checks) and all(r['backed_up'] for r in checks),'checks':checks}
+    if not persist:
+        save(Path('/workspace/tools/final_remote_readback_20261017.json'),report)
+        print(json.dumps({k:v for k,v in report.items() if k!='checks'}))
+        if not report['all_passed']:raise SystemExit('Final independent remote verification failed')
+        return
     save(RUN/'remote_readback.json',report);writecsv(RUN/'backup_manifest_utf8.csv',checks)
     assets=load(ASSETS,[])
     for a in assets:
@@ -346,7 +392,7 @@ def remote_verify():
     print(json.dumps({k:v for k,v in report.items() if k!='checks'}))
     if not report['all_passed']:raise SystemExit('Remote byte/readability mismatch; do not mark backup complete')
 
-def sync(message):
+def sync(message,final=False):
     if git('branch','--show-current')!=BRANCH:raise SystemExit('Refusing changes outside result branch')
     subprocess.run(['git','-C',str(REPO),'fetch','origin',BRANCH],check=True)
     remote=git('rev-parse','FETCH_HEAD')
@@ -357,11 +403,11 @@ def sync(message):
     if subprocess.run(['git','-C',str(REPO),'diff','--cached','--quiet']).returncode:
         subprocess.run(['git','-C',str(REPO),'-c','user.name=Codex','-c','user.email=codex@openai.com','commit','-m',message],check=True)
     subprocess.run(['git','-C',str(REPO),'push','origin','HEAD:refs/heads/'+BRANCH],check=True)
-    remote_verify()
+    remote_verify(persist=not final)
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('action',choices=['audit','parse','pilot','batch','verify-remote','sync'])
+    parser.add_argument('action',choices=['audit','parse','pilot','batch','verify-remote','sync','sync-final'])
     parser.add_argument('--message',default='Restore literature project and persist verified originals and recovery evidence')
     args=parser.parse_args()
     if args.action=='audit':audit()
@@ -369,6 +415,6 @@ def main():
     elif args.action=='pilot':retrieve(True)
     elif args.action=='batch':retrieve(False)
     elif args.action=='verify-remote':remote_verify()
-    elif args.action=='sync':sync(args.message)
+    elif args.action in ['sync','sync-final']:sync(args.message,final=args.action=='sync-final')
 
 if __name__=='__main__':main()

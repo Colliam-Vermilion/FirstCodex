@@ -32,6 +32,9 @@ def store(id,role,name,data,url,version='',extra=None):
         storage_status='local_acquired_pending_remote_readback',source_url=url,version=version,
         license_evidence=a.get('license_evidence','Private authorized research backup; source license not inferred'))
     if extra:a.update(extra)
+    if role=='main':
+        for existing in assets:
+            if existing['record_id']==id and existing['role']=='main' and existing['sha256']!=digest:existing['preferred_for_record']=False
     if not old:assets.append(a)
     r.save(r.ASSETS,assets);return a
 
