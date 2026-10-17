@@ -81,7 +81,7 @@ def apply_approved_pdfs():
         data=source.read_bytes();assert r.sha(data)==decision['sha256']
         doc=r.fitz.open(stream=data,filetype='pdf');texts=[p.get_text() for p in doc]
         assert len(texts)==decision['pages'] and sum(map(len,texts))>6000
-        a=store(id,'main',source.name,data,decision['source_url'],decision['version'],{'identity_review_20261017':decision})
+        a=store(id,'main',decision.get('output_filename') or source.name,data,decision['source_url'],decision['version'],{'identity_review_20261017':decision})
         source.unlink()
         decision.update(applied_asset_id=a['asset_id'],canonical_path=a['source_repo_path'],applied_at_utc=r.now())
         changed=True
