@@ -122,7 +122,10 @@ def supplementary():
         data=r.fetch_bytes(xmlurl,paused,last,events,id)
         record={'record_id':id,'checked_at_utc':r.now(),'article_url':xmlurl,'official_files':[],'external_data_links':[]}
         if not data:
-            record.update(status='access_failed',reason=paused.get('www.ebi.ac.uk','request_failed'));report[id]=record;r.save(r.RUN/'supplementary_check.json',report);continue
+            record.update(status='access_failed',reason=paused.get('www.ebi.ac.uk','request_failed'));report[id]=record;r.save(r.RUN/'supplementary_check.json',report);count+=1
+            if count%5==0 or time.monotonic()-checkpoint>=600:
+                checkpt('Persist supplementary access failures without claiming no attachments');checkpoint=time.monotonic()
+            continue
         try:xml=ET.fromstring(data,parser=ET.XMLParser(target=ET.TreeBuilder(insert_pis=True)))
         except ET.ParseError:
             record['status']='invalid_XML_response';report[id]=record;r.save(r.RUN/'supplementary_check.json',report);continue
