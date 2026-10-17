@@ -7,7 +7,7 @@
   "preferred_main_asset_id": null,
   "included_for_download": true,
   "main_status": "not_downloaded",
-  "supplementary_status": "not_checked",
+  "supplementary_status": "checked_no_file_links_found_coverage_unconfirmed",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -34,9 +34,34 @@
     "supplementary": "mapped, no duplicate originals",
     "extracted": "per-asset derived search artifacts"
   },
-  "assets": [],
+  "assets": [
+    {
+      "record_id": "R04721",
+      "asset_id": "R04721.evidence_html.ad5a5e16d868f4a1",
+      "role": "evidence_html",
+      "official_attachment": false,
+      "original_filename": "publisher_article_page_20261017.html",
+      "canonical_path": "original_files/source_evidence/R04721/publisher_article_page_20261017.html",
+      "source_local_path": "",
+      "historical_sha256": "",
+      "archive_parent_asset_id": "",
+      "parsing_status": "pending",
+      "preferred_for_record": false,
+      "source_repo_path": "original_files/source_evidence/R04721/publisher_article_page_20261017.html",
+      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R04721/publisher_article_page_20261017.html",
+      "format": "html",
+      "size_bytes": 151466,
+      "sha256": "ad5a5e16d868f4a130b24236b200d81aa5bd3040a36201c23ce57e09723da99a",
+      "availability": "present_sha_verified",
+      "storage_status": "local_acquired_pending_remote_readback",
+      "source_url": "https://www.eurekaselect.com/article/90149",
+      "version": "Article HTML with anonymous server session identifiers removed",
+      "license_evidence": "Private authorized research backup; source license not inferred",
+      "recovery_checked_at_utc": "2026-10-17T09:30:31.609545+00:00"
+    }
+  ],
   "version_history": [],
   "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
-  "recovery_checked_at_utc": "2026-10-17T09:29:57.641457+00:00",
+  "recovery_checked_at_utc": "2026-10-17T09:30:31.664567+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json"
 }
