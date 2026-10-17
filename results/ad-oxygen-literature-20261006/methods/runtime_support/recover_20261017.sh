@@ -29,11 +29,13 @@ for name,repo,ref,commit,expected in specs:
 PY
 scansci_runtime=/workspace/tools/scansci-pdf-runtime
 nature_runtime=/workspace/tools/nature-runtime
-for runtime in "$scansci_runtime" "$nature_runtime"; do
+corpus_runtime=/workspace/tools/corpus-runtime
+for runtime in "$scansci_runtime" "$nature_runtime" "$corpus_runtime"; do
   if [ ! -x "$runtime/venv/bin/python" ]; then uv venv "$runtime/venv"; fi
 done
 uv pip install --python "$scansci_runtime/venv/bin/python" -r "$support_dir/requirements.lock.txt"
 uv pip install --python "$nature_runtime/venv/bin/python" -r "$support_dir/nature/dependencies.lock"
+uv pip install --python "$corpus_runtime/venv/bin/python" -r "$support_dir/corpus_dependencies_20261017.lock"
 for asset in bootstrap.py launch.py init_config.py verify_mcp.py verify_transport.py requirements.lock.txt; do
   install -m 0600 "$support_dir/$asset" "$scansci_runtime/$asset"
 done
@@ -48,6 +50,7 @@ node --use-env-proxy --version
 node --check /workspace/tools/nature-skills/skills/nature-downloader/scripts/batch_download.mjs
 uv pip check --python "$scansci_runtime/venv/bin/python"
 uv pip check --python "$nature_runtime/venv/bin/python"
+uv pip check --python "$corpus_runtime/venv/bin/python"
 "$scansci_runtime/venv/bin/python" "$scansci_runtime/verify_transport.py"
 "$scansci_runtime/venv/bin/python" "$scansci_runtime/verify_mcp.py"
 "$nature_runtime/venv/bin/python" "$support_dir/verify_nature_20261017.py"
