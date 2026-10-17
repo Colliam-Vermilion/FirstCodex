@@ -264,6 +264,8 @@ def reconcile_supplementary():
         if record['known_missing_declared_attachments']:
             record.setdefault('publisher_source_status',record['status'])
             record['status']='partial_or_access_failed'
+        elif declared and held:
+            record['status']='downloaded'
         record['all_publisher_attachments_confirmed']=bool(declared and not record['known_missing_declared_attachments'])
     r.save(path,report)
 
@@ -326,8 +328,9 @@ def publisher_supplements():
                     soup=BeautifulSoup(html,'html.parser');links=[];landings=[]
                     for anchor in soup.find_all('a',href=True):
                         href=urljoin(actual,anchor['href']);label=(anchor.get_text(' ',strip=True)+' '+anchor.get('title','')+' '+href).lower()
+                        if anchor.find_parent(['nav','footer']) or anchor.find_parent(class_=re.compile(r'reference|ref-list|bibliog|sharing|social',re.I)):continue
                         parent=anchor.find_parent(['section','div'],class_=re.compile('supplement|support|additional',re.I))
-                        if not (parent or re.search(r'supplement|supporting information|additional file|suppl_file|mmc\d|moesm|_s00\d',label)):continue
+                        if not (parent or re.search(r'supplementary|/supplements?(?:/|$)|supporting information|additional file|suppl_file|mmc\d|moesm|_s00\d',label)):continue
                         if re.search(suffixes,urlsplit(href).path,re.I) or '/bin/' in urlsplit(href).path:
                             if href not in links:links.append(href)
                         elif urlsplit(href).hostname==urlsplit(actual).hostname and urlsplit(href).path!=urlsplit(actual).path:

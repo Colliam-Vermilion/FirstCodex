@@ -1,0 +1,904 @@
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 1, "bbox_points": [238.11019897460938, 36.795562744140625, 366.95806884765625, 43.24169921875]}]
+Biotechnology Reports 20 (2018) xxx–xxx
+
+
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 2, "bbox_points": [225.52439880371094, 62.16595458984375, 382.82928466796875, 70.13615417480469]}]
+Contents lists available at ScienceDirect
+
+
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 3, "bbox_points": [228.6425018310547, 86.56425476074219, 379.6787109375, 100.51185607910156]}]
+Biotechnology Reports
+
+
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 4, "bbox_points": [185.83929443359375, 117.8951416015625, 422.5333557128906, 125.86534118652344]}]
+journal homepage: www.else vie r.com/locat e/btre
+
+
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 5, "bbox_points": [42.51947021484375, 166.4973602294922, 474.3521728515625, 197.18141174316406]}]
+Mathematical modelling of in-situ microaerobic desulfurization of
+biogas from sewage sludge digestion
+
+
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 6, "bbox_points": [42.51969909667969, 206.9878692626953, 481.40472412109375, 219.475830078125]}]
+Andrés Donoso-Bravoa,*, M. Constanza Sadino-Riquelmeb, Israel Díazd,c, Raul Muñozc,d
+
+
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 7, "bbox_points": [42.5177001953125, 224.46249389648438, 484.3572998046875, 267.91571044921875]}]
+a Cetaqua, Centro Tecnológico del Agua, Los Pozos 7340, Santiago, Chile
+b Department of Chemical and Materials Engineering, University of Alberta, Edmonton, AB, Canada
+c Institute of Sustainable Processes, Universidad de Valladolid, Spain
+d Department of Chemical Engineering and Environmental Technology, School of Industrial Engineering. Universidad de Valladolid, Dr. Mergelina s/n, 47011,
+Valladolid, Spain
+
+
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 8, "bbox_points": [42.51969909667969, 292.005859375, 115.22464752197266, 298.2820739746094]}]
+A R T I C L E 
+I N F O
+
+
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 9, "bbox_points": [208.23300170898438, 292.005859375, 260.1776428222656, 298.2820739746094]}]
+A B S T R A C T
+
+
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 10, "bbox_points": [42.519439697265625, 310.2389221191406, 171.9334259033203, 342.29681396484375]}]
+Article history:
+Received 27 September 2018
+Received in revised form 31 October 2018
+Accepted 16 November 2018
+
+
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 11, "bbox_points": [42.51961898803711, 356.0466613769531, 127.71099090576172, 396.72161865234375]}]
+Keywords:
+Biogasin-situdesulfurization
+H2S
+Modeling
+Simulation
+
+
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 12, "bbox_points": [208.23300170898438, 310.7439270019531, 562.651611328125, 413.5579528808594]}]
+Microaeration can be used to cost-effectively remove in-situ H2S from the biogas generated in anaerobic
+digesters. This study is aimed at developing and validating an extension of the Anaerobic Digestion Model
+n1 capable of incorporating the main phenomena which occurs during microaeration. This innovative
+model was implemented and tested with data from a pilot scale digester microaerated for  200 d. The
+results showed that despite the model’s initial ability to predict the digester’s behavior, its predicted
+performance was improved by calibrating the most inﬂuential parameters. The model’s prediction
+potential was largely enhanced by adding retention parameters that account for the activity of sulﬁde
+oxidizing bacteria retained inside the anaerobic digester, which have been consistently shown to be
+responsible for a large share of the H2S removed.
+© 2018 Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (http://
+creativecommons.org/licenses/by-nc-nd/4.0/).
+
+
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 13, "bbox_points": [42.51969909667969, 437.2771911621094, 103.08352661132812, 445.24737548828125]}]
+1. Introduction
+
+
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 14, "bbox_points": [42.51884460449219, 458.1965637207031, 293.6409912109375, 666.29296875]}]
+Microaeration, which consists of dosing of a limited amount of air
+to anaerobic digesters, has emerged as one of the most cost-effective
+technologies for H2S removal from biogas. The microaerophilic
+conditions created by air supply support the partial oxidation of H2S
+to S by the action of sulﬁde-oxidizing bacteria. In Europe, this
+process is gaining increasing attention and several full-scale plants
+have already implemented this technology to remove H2S from
+biogas [1]. Indeed, microaeration has been traditionally employed to
+control H2S in full-scale digesters treating agricultural waste.
+Recently, this technology has been successfully applied to the
+treatment of a broad range of biogas ﬂow rates (7 L d1- 250 m3 h1),
+H2S concentrations (2500 - 67,000 ppmv) [2] and substrates (from
+industrial wastewaters to WWTP sludge) [3,4]. Interestingly,
+microaeration does not inhibit organic matter removal nor CH4
+productivity [5,6]. On the contrary, signiﬁcant enhancements in
+organic matter hydrolysis and methanogenic activity have been
+reported, likely due to the suppression of the inhibition caused by
+sulﬁde [1,7,8]. Both air and O2 can be used to support biogas
+desulfurizationwith similar H2S removal efﬁciencies. In this context,
+the use of concentrated O2 resulted in lower operating costs when
+
+
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 15, "bbox_points": [48.18899917602539, 437.2762756347656, 562.6621704101562, 707.0589599609375]}]
+compared to ferric salt addition for biogas desulfurization in
+wastewater treatment plants (WWTP) [9].
+Mathematical modeling of (bio)chemical processes is nowadays
+considered of paramount importance for process analysis, control
+and optimization. Modeling anaerobic digestion (AD) allows us to
+get more insight on process performance, evaluate different
+scenarios and hypotheses, facilitates a virtual plant for assessment
+and training, and represents a valuable tool for process control or
+experimental design. Therefore, process modelling helps minimize
+the experimental work needed, which translates into resource
+savings and risk minimization. Furthermore, modeling is recog-
+nized as one the future needs to be addressed in AD [10]. Recent
+studies have developed models for the microaerobic process in AD,
+for both liquid efﬂuents and for systems with immobilized
+biomass, UASB [11] and biotrickling ﬁlters [12]. Therefore, to the
+best of our knowledge, no mathematical model has been so far
+adapted and implemented for the microaerobic H2S removal
+during sewage sludge AD in a continuous stirred reactor. The
+anaerobic digestion model 1 (ADM1) developed by the IWA task
+group [13] is the most recognized and widely used model to
+describe the AD process. In this context, extensions of the ADM1
+have also been published in order to describe particular processes
+not considered in the original model. These extensions have
+tackled biological sulfate reduction [14,15], inorganic compounds
+and solid precipitation [16] and phenolic compounds biodegrada-
+tion [17], among others.
+* Corresponding author:
+E-mail address: andreseduardo.donoso@cetaqua.com (A. Donoso-Bravo).
+
+
+[{"type": "pdf_block", "pdf_page": 1, "pdf_page_label": "1", "block": 16, "bbox_points": [42.51954650878906, 720.35546875, 537.7681884765625, 735.2920532226562]}]
+https://doi.org/10.1016/j.btre.2018.e00293
+2215-017X/© 2018 Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+
+[{"type": "pdf_block", "pdf_page": 2, "pdf_page_label": "2", "block": 1, "bbox_points": [33.675628662109375, 36.805335998535156, 388.55706787109375, 43.18511962890625]}]
+2 
+A. Donoso-Bravo et al. / Biotechnology Reports 20 (2018) e00293
+
+
+[{"type": "pdf_block", "pdf_page": 2, "pdf_page_label": "2", "block": 2, "bbox_points": [302.6838073730469, 55.90310287475586, 384.324951171875, 63.87421798706055]}]
+2.2. Model description
+
+
+[{"type": "pdf_block", "pdf_page": 2, "pdf_page_label": "2", "block": 3, "bbox_points": [33.67486572265625, 55.90401840209961, 284.83221435546875, 95.28211212158203]}]
+This study is aimed at developing, implementing and testing a
+mathematical model of the microaerobic digestion process based
+on the ADM1 model using experimental data from pilot-scale
+anaerobic digesters operated under microaerobic conditions.
+
+
+[{"type": "pdf_block", "pdf_page": 2, "pdf_page_label": "2", "block": 4, "bbox_points": [33.67506408691406, 108.2315902709961, 132.99916076660156, 116.20227813720703]}]
+2. Material and methods
+
+
+[{"type": "pdf_block", "pdf_page": 2, "pdf_page_label": "2", "block": 5, "bbox_points": [33.67529296875, 129.15097045898438, 115.76126861572266, 137.12147521972656]}]
+2.1. Experimental data
+
+
+[{"type": "pdf_block", "pdf_page": 2, "pdf_page_label": "2", "block": 6, "bbox_points": [302.6826171875, 76.73590087890625, 553.8142700195312, 241.7199249267578]}]
+2.2.1. Model implementation and ADM1 modiﬁcation
+ADM1 was implemented and solved in Matlab12015b along
+with the general modiﬁcation suggested by Rosen and Jeppsson
+[20]. Suggested parameters by the ADM1 report [21] were
+maintained, although the minimum and maximum values of the
+pH inhibition function for H2 consumers were adapted to the
+primary sludge. Additionally, a VS output was also included,
+together with the COD output, by using a conversion COD/mass
+ratio derived from the generalized mineralization equation [22].
+The composite concentration (Xc) was set equal to zero so that the
+particulate carbohydrates, proteins, lipids and inerts were the
+input conditions to the ADM1 model. The elimination of the
+disintegration step originally considered in the ADM1 has been
+lately suggested as necessary based on the recently reported
+drawbacks derived from the use of a two-hydrolysis step during
+the anaerobic digestion of sewage sludge [10]
+
+
+[{"type": "pdf_block", "pdf_page": 2, "pdf_page_label": "2", "block": 7, "bbox_points": [302.682861328125, 254.66909790039062, 553.7332153320312, 283.5592041015625]}]
+2.2.2. Assumptions and microaeration process rationale
+The mathematical description of the sulﬁde oxidation process
+involves the following assumptions:
+
+
+[{"type": "pdf_block", "pdf_page": 2, "pdf_page_label": "2", "block": 8, "bbox_points": [33.6746826171875, 150.07064819335938, 284.8456726074219, 388.1575927734375]}]
+The pilot-plant scale digester (working volume of 200 L) was
+operated under mesophilic conditions with thickened mixed
+sewage sludge at a hydraulic retention time (HRT) of 20 d.
+Microaeration was performed in the sludge recirculation line. The
+O2 ﬂow rate (Fig. 1a) was manually adjusted to the variable biogas
+production rate resulting from the unsteady organic load of sludge
+feeding. Fluctuations in the organic loading rate of anaerobic
+digesters are inherent to the variations in sludge compositions in
+WWTPs and were here observed in all parameters monitored,
+namely, total COD (between 70 and 37 gCOD L1), soluble COD, TS,
+VS (Fig. 1b) and VFA concentrations (Fig. 1c). Additionally, Na2SO4
+was added to the sludge feed (1090 mg L1) with the aim of
+increasing the formation of H2S during anaerobic digestion.
+Therefore, the concentration of sulfate and dissolved sulﬁde were
+monitored (Fig. 1d). First, the digester was in operation for 70 d in
+strict anaerobic conditions (data not shown) before the micro-
+aerobic period began. More details about the experimental set-up
+and operation can be found elsewhere [18]. The biogas production
+was measured by liquid displacement and the biogas composition
+was determined by GC-TCD. Sulfate concentration was measured
+by HPLC-IC. VFA concentrations were quantiﬁed by GC-FID.
+Alkalinity, ammonium, TKN, COD, TS, VS, total dissolved sulﬁde,
+pH and ORP were determined according to standard methods [19].
+
+
+[{"type": "pdf_block", "pdf_page": 2, "pdf_page_label": "2", "block": 9, "bbox_points": [302.6829528808594, 296.42071533203125, 553.8109741210938, 388.9007568359375]}]
+& The levels of dissolved oxygen are always maintained below the
+inhibition threshold. Therefore, no inhibition function due to the
+presence of oxygen was added. In fact, the redox potential of the
+pilot digester cultivation broth remained always below 494 mV
+under process operation with and without microaeration [23].
+& Sulﬁde oxidizing bacteria XSOB is the only microbial community
+that consumes oxygen.
+& The conversion of H2S to S is the only reaction considered. In
+this context, the conversion of H2S to SO4
+2 requires 4-fold
+
+
+[{"type": "pdf_block", "pdf_page": 2, "pdf_page_label": "2", "block": 10, "bbox_points": [33.67559814453125, 725.6845703125, 553.777587890625, 743.5122680664062]}]
+Fig. 1. Time course of (a) the sludge feeding rates and O2 ﬂow rate, (b) solids and COD concentrations, (c) VFA concentrations and (d) S2 and SO4
+2 concentration in the
+digester.
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 1, "bbox_points": [208.0626678466797, 36.805458068847656, 562.5477294921875, 43.18511962890625]}]
+A. Donoso-Bravo et al. / Biotechnology Reports 20 (2018) e00293 
+3
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 2, "bbox_points": [311.5274353027344, 55.90237045288086, 410.8172302246094, 63.87421798706055]}]
+2.3. Model implementation
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 3, "bbox_points": [311.5267028808594, 76.8233871459961, 562.6449584960938, 168.4726104736328]}]
+A manual calibration of the most sensitive model parameters
+was carried out. Several simulations were performed in order to
+identify the parameters that would inﬂuence the experimental
+outputs the most. The initial conditions of the model resolution
+were obtained from simulations until steady state conditions were
+reached and process parameters (mainly COD concentrations and
+pH) were similar to the initial values of the experimental data. This
+is a widely accepted method for estimating the initial conditions in
+anaerobic digesters [25].
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 4, "bbox_points": [311.5273742675781, 181.42178344726562, 387.4386291503906, 189.3922882080078]}]
+2.4. Input conditions
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 5, "bbox_points": [42.519107818603516, 54.83808898925781, 293.6573791503906, 273.07098388671875]}]
+more O2 than the oxidation to S, and therefore the O2 limiting
+conditions prevailing in the cultivation broth of the digester do
+not promote the complete oxidation of H2S.
+& No spontaneous H2S or S chemical oxidation (redox) reactions
+occur.
+& The dissolved oxygen present in the sludge feeding is negligible
+compared to the O2 transferred from the gas phase, which
+governs the growth of XSOB.
+& The new process included into the ADM1 along with its
+stoichiometry are shown in Table 1 based on the ﬁndings of
+[24]. The sulfur oxidation process involves elemental sulfur (S),
+sulﬁde oxidizing bacteria (XSOB), dissolved oxygen and oxygen
+in the gas phase as new state variables (ordinary differential
+equations, ODE). The kinetic parameters of the sulfate reducing
+bacteria (SRB) were taken from Barrera et al [14].
+& An O2 laden gas stream is injected into the digester and partially
+transferred to the liquid phase according to Eq. (1), where KH
+stand for the Henrys law constant (KH = 0.0013 at 37 C), kLa the
+volumetric mass transfer coefﬁcient, ppO2 the O2 partial
+pressure and SO2 the dissolved O2 concentration in the
+anaerobic broth:
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 6, "bbox_points": [42.51922607421875, 290.1568298339844, 293.5722351074219, 302.4069519042969]}]
+O2 Transf er rate ¼ kLaðKHppO2  SO2 lÞ 
+ð1Þ
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 7, "bbox_points": [311.5266418457031, 202.34146118164062, 562.6420288085938, 335.830078125]}]
+A complete characterization of the sewage sludge was carried
+out weekly, along with the collection of fresh sludge from
+Valladolid WWTP. This characterization was assumed to hold
+until the next characterization and only the inlet ﬂow was
+measured daily. The concentrations of H2S and HS were estimated
+from the measurement of the total sulfur and the equilibria
+equation as a function of the pH. The content of carbohydrates,
+proteins and lipids was assumed to correspond to 20%, 65%, 15% of
+the degradable organic matter, respectively [26]. Similarly, inerts
+were assumed to be 30% of the total COD. The dissolved VFAs,
+inorganic nitrogen, sulfate, sulﬁde and oxygen concentrations
+were taken directly from the weekly experimental characterization
+of the sewage sludge.
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 8, "bbox_points": [311.5276184082031, 348.7792663574219, 412.4516296386719, 356.74969482421875]}]
+3. Results and discussion
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 9, "bbox_points": [311.5272216796875, 369.69921875, 431.8858337402344, 377.66986083984375]}]
+3.1. Reactor operation conditions
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 10, "bbox_points": [42.51899719238281, 329.4729309082031, 293.60687255859375, 421.2095031738281]}]
+& The value of the volumetric mass transfer coefﬁcient, kLa,
+depends on reactor design and operating conditions. A unique
+kLa value was assumed because the HRT and mixing rate were
+constant in the experimental period considered, so were the
+temperature and the operating pressure. Changes in mixing
+conditions, such as switching sludge for biogas recirculation,
+would result in a different kLa value.
+& Two additional ODEs were added to describe the O2 mass
+balance in the anaerobic cultivation broth (Eqs. (2), (3)
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 11, "bbox_points": [42.51969909667969, 439.6582946777344, 293.5722351074219, 458.51348876953125]}]
+dS02 l
+dt
+¼ O2 Transf er rate  SOBconsumption  SO2 l
+ð2Þ
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 12, "bbox_points": [42.51922607421875, 464.54638671875, 293.5793762207031, 493.4360656738281]}]
+Where SOBconsumption stands for the O2 consumption rate by XSOB
+and SO2 _l the O2 mass ﬂow rate in the efﬂuent of the anaerobic
+digestion.
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 13, "bbox_points": [42.51922607421875, 506.29754638671875, 293.6401062011719, 524.8440551757812]}]
+& Similarly, the O2 mass balance in the headspace of the digester
+can be described as follows:
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 14, "bbox_points": [311.52667236328125, 390.61859130859375, 562.650146484375, 566.003173828125]}]
+Fig. 1 shows the characteristics of the feed to the anaerobic
+digester throughout the period modelled. The sludge ﬂow rate
+averaged 9 - 12 L d1, although signiﬁcant drops and peaks
+occurred during digester operation. These ﬂuctuations are neces-
+sary in order to test the model’s response to transient conditions
+and unstable reactor loads. Likewise, the solid content and the
+organic matter concentration inside the digester showed varia-
+tions during the experimental period. Although the total COD
+concentration seems to experience the greatest ﬂuctuation, this
+variability is strongly related to the experimental error of the COD
+measurement method when analyzing a semi-solid substrate such
+as sewage sludge. The VS concentration was correlated to the total
+COD concentration. It is worth stressing that the sewage sludge
+used in this study exhibited a signiﬁcant concentration of VFAs and
+sulfur compounds, which are crucial to generate an adequate
+environment for SRB bacteria to thrive. Dissolved sulﬁde was
+present in the sewage and consequently in the sludge.
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 15, "bbox_points": [42.51969909667969, 553.724365234375, 293.5722351074219, 572.8630981445312]}]
+dS02 g
+dt
+¼ S02in g  O2 Transf er rate  S02 g
+ð3Þ
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 16, "bbox_points": [311.5273132324219, 578.9523315429688, 410.39532470703125, 586.9229125976562]}]
+3.2. Parameters calibration
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 17, "bbox_points": [42.519012451171875, 578.8958129882812, 293.6062316894531, 618.2741088867188]}]
+Where SO2_g represents the O2 concentration in the gas phase,
+SO2in_g the gas phase O2 mass ﬂow rate supplied to the digester and
+SO2_g the gas phase O2 mass ﬂow rate leaving the digester together
+with the biogas efﬂuent.
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 18, "bbox_points": [311.5267333984375, 599.8720703125, 562.6392211914062, 618.2741088867188]}]
+The sensitivity analysis (data not shown) indicated that only
+few parameters could be calibrated in a dependable way. Thus,
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 19, "bbox_points": [42.51969909667969, 638.4908447265625, 260.2467346191406, 653.4274291992188]}]
+Table 1
+Petersen matrix of the new biochemical reactions added to the ADM1.
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 20, "bbox_points": [48.47224426269531, 661.7347412109375, 450.02899169921875, 668.6828002929688]}]
+Process 
+SH2S 
+SS
+S02_l
+SIC
+SIN
+XC
+XSOB
+Rate
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 21, "bbox_points": [48.472381591796875, 672.9468994140625, 556.5880737304688, 723.2730102539062]}]
+Uptake of H2S
+by SOB
+1 
+(1- YSOB) 
+- (1-YSOB)/64 
+-S Ci vi
+-YSOB*NBAC
+YSOB
+kmSOB*(SH2S /(KsH2S + SH2S))*(S02/(KsO2
++ S02))* XSOB;
+Decay of SOB 
+-CBAC+ CXC
+-NBAC+ NXC
+1 
+1 
+kdecSOB* XSOB
+Hydrogen
+sulﬁde
+(kmol m3)
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 22, "bbox_points": [147.1744842529297, 699.7755737304688, 182.73016357421875, 723.2730102539062]}]
+Elemental
+sulfur (S)
+(kmol m3)
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 23, "bbox_points": [199.61549377441406, 699.7755737304688, 235.1144561767578, 723.2730102539062]}]
+Dissolved
+oxygen
+(kmol m3)
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 24, "bbox_points": [244.1197509765625, 699.7755737304688, 279.6750793457031, 723.2730102539062]}]
+Inorganic
+carbon
+(kmol m3)
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 25, "bbox_points": [287.60284423828125, 699.7755737304688, 323.1584777832031, 723.2730102539062]}]
+Inorganic
+nitrogen
+(kmol m3)
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 26, "bbox_points": [334.7146301269531, 699.7755737304688, 370.2026672363281, 724.3502197265625]}]
+Composites
+(
+kgCOD m3)
+
+
+[{"type": "pdf_block", "pdf_page": 3, "pdf_page_label": "3", "block": 27, "bbox_points": [376.10052490234375, 699.7755737304688, 424.7658996582031, 724.3502197265625]}]
+Sulfur oxidizing
+bacteria
+(kgCOD m3)
+
+
+[{"type": "pdf_block", "pdf_page": 4, "pdf_page_label": "4", "block": 1, "bbox_points": [33.67559814453125, 36.809120178222656, 388.55706787109375, 43.18511962890625]}]
+4 
+A. Donoso-Bravo et al. / Biotechnology Reports 20 (2018) e00293
+
+
+[{"type": "pdf_block", "pdf_page": 4, "pdf_page_label": "4", "block": 2, "bbox_points": [302.6820068359375, 55.90200424194336, 553.8447265625, 513.6755981445312]}]
+the anaerobic broth) and online data (biogas production and
+composition data and pH in the anaerobic broth), respectively. The
+online data corresponds to the composition of the biogas produced
+and the pH of the anaerobic broth in the digester. Both the methane
+and CO2 content simulation matched the experimental data
+(Figure a,b) as well as the pH value and remained constant
+because microaeration did not affect them signiﬁcantly. Even
+though the pH was slightly overestimated by the model’s
+predictions, it remained at  7.5 (close to the typical pH value
+of anaerobic digesters) (Fig. 2e). The biogas ﬂow rate was very well
+predicted by the model’s simulation, although there were some
+random under and overestimation of this variable during digester
+operations (Fig. 2f). Therefore, the model was able to reproduce the
+most common on-line variables monitored during AD operation.
+On the other hand, the average H2S and O2 concentrations
+predicted in the gas phase was in agreement with the average
+empirical concentrations measured (Fig. 2c and d). However, the
+model was not able to reproduce the random H2S peaks observed
+during the period evaluated. Interestingly, those H2S peaks did not
+match any sudden rise in the sulfate inlet concentration or in
+soluble H2S concentrations in the digester broth (Fig. 3). Previous
+works have hypothesized that the biological oxidation of H2S may
+also occur in the headspace of the digester and in the superior layer
+of the anaerobic broth based on the high abundance of SOB
+bacteria recorded by the DGGE analysis [23]. A simple consider-
+ation of biomass retention was consequently proposed to partially
+overcome the limitation identiﬁed, while maintaining the model’s
+complexity. The biomass retention approach, which is presented in
+the next section, separates the hydraulic retention time and the
+biomass retention time, in this case, for the SOB microorganism.
+The decreasing trends in total organic matter (measured as total
+COD and VS concentrations) observed up to day 115th as well as the
+slight bounce back from this day onwards were both properly
+represented by the model (Fig. 3a, c). Likewise, the simulation of
+the evolution of the soluble COD concentration was in agreement
+with the empirical values throughout the entire operational time
+(Fig. 3b). Likewise, the inorganic nitrogen concentration was also
+properly predicted by the model, thus validating the calibration of
+the stoichiometric parameters conducted in the previous section.
+Fig. 3e also conﬁrmed the ability of the ADM1 extension to describe
+the soluble H2S concentration in the anaerobic broth. In contrast,
+the soluble sulfate concentration in the anaerobic broth was
+overpredicted and only matched when values were above 0.3 kmol
+L1, which were in agreement with the results reported by [14].
+
+
+[{"type": "pdf_block", "pdf_page": 4, "pdf_page_label": "4", "block": 3, "bbox_points": [302.682861328125, 526.6251831054688, 431.24151611328125, 534.5957641601562]}]
+3.4. Effect of the biomass retention
+
+
+[{"type": "pdf_block", "pdf_page": 4, "pdf_page_label": "4", "block": 4, "bbox_points": [33.67472839355469, 55.90401840209961, 284.8715515136719, 546.3875122070312]}]
+some kinetic parameters of XSOB were set as: KS_H2S and KS_O2
+(afﬁnity constants) = 3103 g L-1; YSOB (biomass yield) = 0.25 g g-1;
+kdec (decay coefﬁcient) = 0.02 d-1. These values were chosen based
+on previous simulations in order to avoid the washout of the SOB
+from the digester and lied in the same order of magnitude as those
+microorganisms present in the anaerobic digestion process.
+Furthermore, these values were in agreement with the fact that
+a signiﬁcant fraction of the SOB population was present over the
+layers of sulfur accumulated in the digester headspace according to
+a DGGE analysis [23]. The hydrolysis parameters were optimised
+by trial and error to minimize the squared value of the difference
+between predicted and experimental methane production curves.
+The values of the calibrated parameters are presented in Table 2,
+which compiles ﬁve stoichiometric coefﬁcients and one kinetic
+parameter calibrated. This difference was induced by the type of
+experimental data since a continuous operation without controlled
+changes in the inlet conditions (such as hydraulic or organic
+overloads) suits better the estimation of stoichiometric parameters
+compared to that of kinetic parameters [25]. Indeed, a stable
+continuous operation is basically driven by process stoichiometry
+rather than by process kinetics.
+The calibrated parameter km_SOB, related to the maximum
+growth rate of sulfur oxidizing bacteria, showed that this type of
+microorganism grows 5–6 and 10-12-fold faster than acidogenic
+and methanogenic communities, respectively, which is in agree-
+ment with the difference between the metabolism of aerobic and
+anaerobic/facultative microorganisms. The stoichiometric value of
+the methane conversion (CCH4) increased by 20% compared to the
+reference value [20] since a constant bias was observed in regards
+to the methane composition of the biogas generated in our pilot
+digesters. The coefﬁcient parameters associated to N metabolism
+were also calibrated due to different properties of sludge used in
+this study compared to those used in the original ADM1 model. In
+fact, several authors recommend the calibration of the stoichio-
+metric parameters associated to the N metabolisms for every
+substrate fed into the digester [21]. The only physical-chemical
+parameter calibrated was the pipe resistance coefﬁcient (kP),
+which governs the biogas ﬂow estimation and determines the head
+loss of the outlet gas. This expression, which assumes an
+overpressure in the headspace of the digester, represents the
+preferred expression since it yields smoother values of the biogas
+ﬂow than the original one [20]. The value of this parameter
+depends on the physical properties of the digester and should be
+modiﬁed according to the speciﬁc properties of the target set-up.
+In our particular case, overpressures ranging from 10 to 20 mbar
+were recorded throughout the digester’s operation, which resulted
+in a kP of 7  104 (Table 2).
+
+
+[{"type": "pdf_block", "pdf_page": 4, "pdf_page_label": "4", "block": 5, "bbox_points": [33.675140380859375, 558.0326538085938, 120.98664093017578, 566.003173828125]}]
+3.3. Model performance
+
+
+[{"type": "pdf_block", "pdf_page": 4, "pdf_page_label": "4", "block": 6, "bbox_points": [33.67510986328125, 578.8650512695312, 284.7420654296875, 597.3543701171875]}]
+Figs. 2 and 3 show the simulation results of the modiﬁed ADM1
+model along with the experimental ofﬂine (i.e measurements in
+
+
+[{"type": "pdf_block", "pdf_page": 4, "pdf_page_label": "4", "block": 7, "bbox_points": [33.67559814453125, 619.045166015625, 145.2646026611328, 633.981689453125]}]
+Table 2
+Calibrated parameters of the model.
+
+
+[{"type": "pdf_block", "pdf_page": 4, "pdf_page_label": "4", "block": 8, "bbox_points": [39.685020446777344, 642.232666015625, 278.7796325683594, 648.60888671875]}]
+Type of parameter 
+Units 
+Calibrated value
+
+
+[{"type": "pdf_block", "pdf_page": 4, "pdf_page_label": "4", "block": 9, "bbox_points": [302.6824951171875, 547.5445556640625, 553.8574829101562, 660.1134033203125]}]
+Empirical observations of anaerobic digesters operated under
+microaerobic conditions have shown that SOB may form a bioﬁlm
+inside the digester headspace, thus part of H2S oxidation may be
+carried out at the bioﬁlm surface. Hence, Kobayashi et al [27]
+identiﬁed SOB in microbial mats located on the top of the
+biodigester, where elemental sulfur accumulated. Therefore, a new
+parameter in the S mass balance equation was proposed in order to
+take this bioﬁlm based H2S oxidation into account. This parameter,
+deﬁned as “alpha”, multiplies the XSOB leaving the system and thus
+modiﬁes the retention time of this microbial population. This is
+conceptually described in the mass balance shown in Eq. (4)
+
+
+[{"type": "pdf_block", "pdf_page": 4, "pdf_page_label": "4", "block": 10, "bbox_points": [302.68341064453125, 668.1305541992188, 553.7359008789062, 686.9857788085938]}]
+dXSOB
+dt
+¼ alphaDXSOB þ growth rate  decay 
+ð4Þ
+
+
+[{"type": "pdf_block", "pdf_page": 4, "pdf_page_label": "4", "block": 11, "bbox_points": [39.68492126464844, 654.5919189453125, 254.25575256347656, 704.847900390625]}]
+Kinetic
+km_SOB
+d1
+160
+Stoichiometric
+Cch4
+kmoleC kgCOD
+1
+0.0187
+Nxc
+kmoleN kgCOD
+1
+0.001
+NI
+kmoleN kgCOD
+1
+8  104
+
+
+[{"type": "pdf_block", "pdf_page": 4, "pdf_page_label": "4", "block": 12, "bbox_points": [302.68310546875, 693.0186767578125, 553.7310791015625, 711.4771728515625]}]
+Where D is the dilution rate or the inverse of the hydraulic
+retention time (HRT)
+
+
+[{"type": "pdf_block", "pdf_page": 4, "pdf_page_label": "4", "block": 13, "bbox_points": [39.685001373291016, 704.8080444335938, 253.97227478027344, 713.4652099609375]}]
+Naa
+kmoleN kgCOD
+1
+6  103
+
+
+[{"type": "pdf_block", "pdf_page": 4, "pdf_page_label": "4", "block": 14, "bbox_points": [39.685001373291016, 713.3687744140625, 250.173828125, 738.698486328125]}]
+Nbac
+kmoleN kgCOD
+1
+0.019
+Physical-chemical
+kP
+m3 d1 bar1
+7  104
+
+
+[{"type": "pdf_block", "pdf_page": 4, "pdf_page_label": "4", "block": 15, "bbox_points": [302.6827392578125, 713.9383544921875, 553.7784423828125, 742.828369140625]}]
+Fig. 4 depicts the new model predictions of the soluble and
+gaseous H2S as a function of different alpha values compared to the
+experimental data. The inﬂuence of the presence of SOB (blue line)
+
+
+[{"type": "pdf_block", "pdf_page": 5, "pdf_page_label": "5", "block": 1, "bbox_points": [208.0626678466797, 36.805458068847656, 562.5477294921875, 43.18511962890625]}]
+A. Donoso-Bravo et al. / Biotechnology Reports 20 (2018) e00293 
+5
+
+
+[{"type": "pdf_block", "pdf_page": 5, "pdf_page_label": "5", "block": 2, "bbox_points": [42.51969909667969, 276.960205078125, 562.5650024414062, 291.8968200683594]}]
+Fig. 2. Time course of the online measurements of the concentration of methane (a), carbon dioxide (b), hydrogen sulphide (c) and oxygen (d) in the biogas, pH in the
+anaerobic digestion broth (e) and biogas ﬂow rate (f). Experimental data (circles), model simulation (continuous line).
+
+
+[{"type": "pdf_block", "pdf_page": 5, "pdf_page_label": "5", "block": 3, "bbox_points": [42.51969909667969, 544.7639770507812, 562.5617065429688, 559.7708129882812]}]
+Fig. 3. Time course of the ofﬂine measurements of the total COD (a), soluble COD (b), volatile solids (c), sulfate (d), soluble hydrogen sulﬁde (e) and inorganic nitrogen (f) in
+the digester. Experimental data (circles), model simulation (continuous line).
+
+
+[{"type": "pdf_block", "pdf_page": 5, "pdf_page_label": "5", "block": 4, "bbox_points": [42.51959228515625, 705.9554443359375, 562.577880859375, 729.45263671875]}]
+Fig. 4. Time course of the H2S concentration in the liquid (a) and gas (b) phases at different alpha values. Experimental values (symbols), Black line = No SOB, blue line = alpha
+1 (no retention), Green line = alpha 0,4, orange line = alpha 0.25 and grey line = alpha 0.1 (For interpretation of the references to colour in this ﬁgure legend, the reader is
+referred to the web version of this article).
+
+
+[{"type": "pdf_block", "pdf_page": 6, "pdf_page_label": "6", "block": 1, "bbox_points": [33.67529296875, 36.805519104003906, 388.55706787109375, 43.18511962890625]}]
+6 
+A. Donoso-Bravo et al. / Biotechnology Reports 20 (2018) e00293
+
+
+[{"type": "pdf_block", "pdf_page": 6, "pdf_page_label": "6", "block": 2, "bbox_points": [302.6827697753906, 55.90224838256836, 553.8450927734375, 137.1211700439453]}]
+S-related compound (i.e. soluble SO4 and H2S in the gas and liquid
+phase) were properly described. Unfortunately, the model exten-
+sion provided a poor description of the variations in the
+concentration of S compounds under transient conditions. Further
+model improvements may be carried out by separating biological
+H2S oxidation in different sections of the digester or by even
+considering H2S oxidation in the headspace bioﬁlm on top of the
+digester.
+
+
+[{"type": "pdf_block", "pdf_page": 6, "pdf_page_label": "6", "block": 3, "bbox_points": [302.68328857421875, 154.03952026367188, 373.16302490234375, 162.0097198486328]}]
+Acknowledgment
+
+
+[{"type": "pdf_block", "pdf_page": 6, "pdf_page_label": "6", "block": 4, "bbox_points": [302.68328857421875, 174.95889282226562, 553.8364868164062, 193.3607940673828]}]
+University of Valladolid is also gratefully acknowledged from
+the post-doctoral grant of Israel Diaz.
+
+
+[{"type": "pdf_block", "pdf_page": 6, "pdf_page_label": "6", "block": 5, "bbox_points": [33.67466735839844, 55.90401840209961, 284.8456726074219, 210.31202697753906]}]
+in the anaerobic broth compared to the scenario without these H2S
+oxidizing microorganisms (black line) in both soluble and gas
+phases was signiﬁcant. These new simulations also showed the
+impact of variations in biomass retention on the soluble and gas
+H2S. Model simulation of these two variables improved signiﬁ-
+cantly when the alpha value decreased (= enhanced retention of
+the SOB in the digester). Hence, the formation of bioﬁlms at the
+digester headspace maybe partially modeled by adding this
+biomass 
+retention 
+artifact. 
+This 
+model 
+approach 
+has 
+been
+successfully performed in 
+anaerobic ﬁlters 
+treating 
+vinasse
+wastewater [28]. In brief, despite more physico-chemical reactions
+should be considered when describing H2S oxidation in anaerobic
+digesters operated under microaerobic conditions [16,29]; the
+approach here validated represents a good trade-off between
+complexity and reality.
+
+
+[{"type": "pdf_block", "pdf_page": 6, "pdf_page_label": "6", "block": 6, "bbox_points": [302.68280029296875, 206.36734008789062, 346.0548400878906, 214.33753967285156]}]
+References
+
+
+[{"type": "pdf_block", "pdf_page": 6, "pdf_page_label": "6", "block": 7, "bbox_points": [33.67584991455078, 223.26119995117188, 161.9058837890625, 231.23158264160156]}]
+3.5. Elemental sulfur accumulation
+
+
+[{"type": "pdf_block", "pdf_page": 6, "pdf_page_label": "6", "block": 8, "bbox_points": [33.67530822753906, 244.18075561523438, 284.8326416015625, 335.830078125]}]
+It is known that one of the main shortcomings of the application
+of microaeration, as a H2S removal method, is the accumulation of
+elemental sulfur in the digester. The build-up of this compound
+may lead to multiple operational hurdles such as pipeline clogging,
+hindered mixing or even digester damage due to an excessive
+weight increase. Based on the negligible aqueous solubility of
+elemental sulfur, an estimation of the accumulation of this element
+in the reactor can be carried out using the ADM1 extension
+developed here. Fig. 5 shows the time course of the mass of S
+
+
+[{"type": "pdf_block", "pdf_page": 6, "pdf_page_label": "6", "block": 9, "bbox_points": [33.6748046875, 338.3479919433594, 284.8355712890625, 429.9969787597656]}]
+generated in the pilot reactor during the operational period
+analyzed here. Five kg of elemental sulfur could have potentially
+accumulated in the pilot digester over a period of  200 days of
+operation. This number should be deemed as a theoretical
+maximum since part of the S produced was dragged out with
+the outlet digestate. This estimation of the S accumulation in the
+digester can be used to plan the necessary maintenance measures.
+Therefore, the model developed in this study represents a useful
+operational tool for AD.
+
+
+[{"type": "pdf_block", "pdf_page": 6, "pdf_page_label": "6", "block": 10, "bbox_points": [33.675758361816406, 442.9461669921875, 91.75051879882812, 450.9165954589844]}]
+4. Conclusions
+
+
+[{"type": "pdf_block", "pdf_page": 6, "pdf_page_label": "6", "block": 11, "bbox_points": [33.67481994628906, 463.86578369140625, 284.85284423828125, 555.5149536132812]}]
+An extension of the ADM1 capable of describing H2S removal
+from biogas based on microaeration was developed and evaluated
+using experimental data from a pilot anaerobic digester. The
+maximum speciﬁc growth rate of the SOB along with four
+stoichiometric coefﬁcients involved in nitrogen metabolism were
+estimated 
+during 
+model 
+calibration. 
+The 
+model 
+accurately
+described the most conventional variables monitored in anaerobic
+digestion processes (i.e biogas ﬂow, CH4 and CO2 concentrations,
+pH and organic matter removal). The average concentrations of the
+
+
+[{"type": "pdf_block", "pdf_page": 6, "pdf_page_label": "6", "block": 12, "bbox_points": [33.675384521484375, 225.97976684570312, 553.8350830078125, 743.512451171875]}]
+[1] P. Jení9cek, J. Horejš, L. Pokorná-Krayzelová, J. Bindzar, J. Bartá9cek, Simple biogas
+desulfurization by microaeration – full scale experience, Anaerobe 46 (2017)
+41–45, doi:http://dx.doi.org/10.1016/j.anaerobe.2017.01.002.
+[2] R. Muñoz, L. Meier, I. Diaz, D. Jeison, A review on the state-of-the-art of
+physical/chemical and biological technologies for biogas upgrading, Rev.
+Environ. Sci. Biotechnol. 14 (2015) 727–759, doi:http://dx.doi.org/10.1007/
+s11157-015-9379-1.
+[3] E. Rodríguez, A. Lopes, M. Fdz.-Polanco, A.J.M. Stams, P.A. García-Encina,
+Molecular analysis of the biomass of a ﬂuidized bed reactor treating synthetic
+vinasse at anaerobic and micro-aerobic conditions, Appl. Microbiol.
+Biotechnol. 93 (2012) 2181–2191, doi:http://dx.doi.org/10.1007/s00253-011-
+3529-3.
+[4] P. Jenicek, F. Keclik, J. Maca, J. Bindzar, Use of microaerobic conditions for the
+improvement of anaerobic digestion of solid wastes, Water Sci. Technol. 58
+(2008) 1491–1496, doi:http://dx.doi.org/10.2166/wst.2008.493.
+[5] I. Díaz, M. Fdz-Polanco, Robustness of the microaerobic removal of hydrogen
+sulﬁde from biogas, Water Sci. Technol. 65 (2012) 1368–1374, doi:http://dx.
+doi.org/10.2166/wst.2012.013.
+[6] I. Díaz, A. Donoso-Bravo, M. Fdz-Polanco, Effect of microaerobic conditions on
+the degradation kinetics of cellulose, Bioresour. Technol.102 (2011), doi:http://
+dx.doi.org/10.1016/j.biortech.2011.07.096.
+[7] I. Díaz, A. Donoso-Bravo, M. Fdz-Polanco, Effect of microaerobic conditions on
+the degradation kinetics of cellulose, Bioresour. Technol. 102 (2011) 10139–
+10142, doi:http://dx.doi.org/10.1016/j.biortech.2011.07.096.
+[8] P. Jenicek, C.A. Celis, J. Koubova, D. Pokorna, Comparison of microbial activity
+in anaerobic and microaerobic digesters, Water Sci. Technol. 63 (2011) 2244–
+2249, doi:http://dx.doi.org/10.2166/wst.2011.579.
+[9] I. Díaz, I. Ramos, M. Fdz-Polanco, Economic analysis of microaerobic removal of
+H 2 S from biogas in full-scale sludge digesters, Bioresour. Technol. 192 (2015)
+280–286, doi:http://dx.doi.org/10.1016/j.biortech.2015.05.048.
+[10] D.J. Batstone, D. Puyol, X. Flores-Alsina, J. Rodríguez, Mathematical modelling
+of anaerobic digestion processes: applications and future needs, Rev. Environ.
+Sci. Bio/Technol. 14 (4) (2015) 595–613, doi:http://dx.doi.org/10.1007/s11157-
+015-9376-4.
+[11] L. Pokorna-Krayzelova, K.E. Mampaey, T.P.W. Vannecke, J. Bartacek, P. Jenicek,
+E.I.P. Volcke, Model-based optimization of microaeration for biogas
+desulfurization in UASB reactors, Biochem. Eng. J. 125 (2017) 171–179, doi:
+http://dx.doi.org/10.1016/j.bej.2017.06.009.
+[12] L.R. López, A.D. Dorado, M. Mora, X. Gamisans, J. Lafuente, D. Gabriel, Modeling
+an aerobic biotrickling ﬁlter for biogas desulfurization through a multi-step
+oxidation mechanism, Chem. Eng. J. 294 (2016) 447–457, doi:http://dx.doi.org/
+10.1016/j.cej.2016.03.013.
+[13] D.J. Batstone, J. Keller, J.P. Steyer, A review of ADM1 extensions, applications,
+and analysis: 2002–2005, Water Sci. Technol. 54 (2006) 1, doi:http://dx.doi.
+org/10.2166/wst.2006.520.
+[14] E.L. Barrera, H. Spanjers, K. Solon, Y. Amerlinck, I. Nopens, J. Dewulf, Modeling
+the anaerobic digestion of cane-molasses vinasse: extension of the anaerobic
+digestion model No. 1 (ADM1) with sulfate reduction for a very high strength
+and sulfate rich wastewater, Water Res. 71 (2015) 42–54, doi:http://dx.doi.org/
+10.1016/j.watres.2014.12.026.
+[15] a Galí, T. Benabdallah, S. Astals, J. Mata-Alvarez, Modiﬁed version of ADM1
+model for agro-waste application, Bioresour. Technol. 100 (2009) 2783–2790,
+doi:http://dx.doi.org/10.1016/j.biortech.2008.12.052.
+[16] Y. Zhang, S. Piccard, W. Zhou, Improved ADM1 model for anaerobic digestion
+process considering physico-chemical reactions, Bioresour. Technol. 196
+(2015) 279–289, doi:http://dx.doi.org/10.1016/j.biortech.2015.07.065.
+[17] B. Fezzani, R. Ben Cheikh, Extension of the anaerobic digestion model No. 1
+(ADM1) to include phenolic compounds biodegradation processes for the
+simulation of anaerobic co-digestion of olive mill wastes at thermophilic
+temperature, J. Hazard. Mater. 162 (2009) 1563–1570, doi:http://dx.doi.org/
+10.1016/j.jhazmat.2008.06.127.
+[18] M. Fdz-Polanco, I. Díaz, S.I. Pérez, a C. Lopes, F. Fdz-Polanco, Hydrogen sulphide
+removal in the anaerobic digestion of sludge by micro-aerobic processes: pilot
+plant experience, Water Sci. Technol. 60 (2009) 3045–3050, doi:http://dx.doi.
+org/10.2166/wst.2009.738.
+Fig. 5. Elemental sulfur accumulation in the experimental set-up over the
+operational period under microaerobic conditions.
+
+
+[{"type": "pdf_block", "pdf_page": 7, "pdf_page_label": "7", "block": 1, "bbox_points": [208.06295776367188, 36.808082580566406, 562.5477294921875, 43.18511962890625]}]
+A. Donoso-Bravo et al. / Biotechnology Reports 20 (2018) e00293 
+7
+
+
+[{"type": "pdf_block", "pdf_page": 7, "pdf_page_label": "7", "block": 2, "bbox_points": [42.68949890136719, 57.161842346191406, 293.64178466796875, 207.02740478515625]}]
+[19] L. Clesceri, A. Greenberg, A. Eaton, Standard Methods for the Examination of
+Water and Wastewater, 20th edition, American Public Health Association,
+Washington, DC, 1998.
+[20] C. Rosen, U. Jeppsson, Aspects on ADM1 Implementation Within the BSM2
+Framework 2 The IWA Benchmark Simulation Models, (2006) , pp. 1–34.
+[21] D.J. Batstone, J. Keller, I. Angelidaki, S.V. Kalyuzhnyi, S.G. Pavlostathis, a Rozzi,
+W.T.M. Sanders, H. Siegrist, Va Vavilin, The IWA anaerobic digestion model No
+1 (ADM1), Water Sci. Technol. 45 (2002) 65–73. http://www.ncbi.nlm.nih.gov/
+pubmed/12188579.
+[22] T. Christensen, Solid Waste Technology and Management, 2 Volume, Wiley,
+2010. (Accessed 8 January, 2016) http://www.wiley.com/WileyCDA/
+WileyTitle/productCd-1405175176.html.
+[23] I. Díaz, S.I. Pérez, E.M. Ferrero, M. Fdz-Polanco, Effect of oxygen dosing point
+and mixing on the microaerobic removal of hydrogen sulphide in sludge
+digesters, Bioresour. Technol. 102 (2011) 3768–3775, doi:http://dx.doi.org/
+10.1016/j.biortech.2010.12.016.
+[24] D. 
+Pokorna, 
+J. 
+Zabranska, 
+Sulfur-oxidizing 
+bacteria 
+in 
+environmental
+technology, Biotechnol. Adv. 33 (2015) 1246–1259, doi:http://dx.doi.org/
+10.1016/j.biotechadv.2015.02.007.
+
+
+[{"type": "pdf_block", "pdf_page": 7, "pdf_page_label": "7", "block": 3, "bbox_points": [311.6968688964844, 57.160804748535156, 562.6357421875, 207.02752685546875]}]
+[25] A. Donoso-Bravo, J. Mailier, C. Martin, J. Rodríguez, C.A. Aceves-Lara, A. Vande
+Wouwer, Model selection, identiﬁcation and validation in anaerobic digestion:
+a review, Water Res. 45 (2011) 5347–5364, doi:http://dx.doi.org/10.1016/j.
+watres.2011.08.059.
+[26] A. Donoso-Bravo, S. Pérez-Elvira, E. Aymerich, F. Fdz-Polanco, Assessment of
+the inﬂuence of thermal pre-treatment time on the macromolecular
+composition and anaerobic biodegradability of sewage sludge, Bioresour.
+Technol. 102 (2011), doi:http://dx.doi.org/10.1016/j.biortech.2010.08.035.
+[27] T. Kobayashi, Y.Y. Li, K. Kubota, H. Harada, T. Maeda, H.Q. Yu, Characterization of
+sulﬁde-oxidizing microbial mats developed inside a full-scale anaerobic
+digester employing biological desulfurization, Appl. Microbiol. Biotechnol. 93
+(2012) 847–857, doi:http://dx.doi.org/10.1007/s00253-011-3445-6.
+[28] O. Bernard, Z. Hadj-sadok, D. Dochain, A. Genovesi, J. Steyer, C. Project, S. Cedex,
+Dynamical model development and parameter identiﬁcation for an anaerobic
+wastewater treatment process, Biotechnol. Bioeng. 75 (2001) 424–438.
+[29] X. Flores-Alsina, K. Solon, C. Kazadi Mbamba, S. Tait, K.V. Gernaey, U. Jeppsson,
+D.J. Batstone, Modelling phosphorus (P), sulfur (S) and iron (Fe) interactions
+for dynamic simulations of anaerobic digestion processes, Water Res. 95
+(2016) 370–382, doi:http://dx.doi.org/10.1016/j.watres.2016.03.012.
+
+

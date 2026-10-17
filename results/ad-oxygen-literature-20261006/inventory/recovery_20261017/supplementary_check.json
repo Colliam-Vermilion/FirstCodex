@@ -83,7 +83,81 @@
         "path": "original_files/supplementary/R09236/microorganisms-11-02349-s001.zip"
       }
     ],
-    "external_data_links": [],
+    "external_data_links": [
+      {
+        "record_id": "R09236",
+        "accession": "PRJNA1013451",
+        "url": "https://www.ebi.ac.uk/ena/browser/view/PRJNA1013451",
+        "size_bytes": 42781506889,
+        "size_status": "Sum of public ENA FASTQ file byte counts for the full accession/project; may exceed the subset used by this paper",
+        "size_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1013451&result=read_run&fields=run_accession%2Cfastq_bytes&format=tsv",
+        "public_run_count": 21,
+        "size_metadata_path": "inventory/recovery_20261017/external_data_size_probes/PRJNA1013451.tsv",
+        "size_metadata_sha256": "a5839d991dc2c355906924101fe8552454e7182585b5e74203a9128c5f287e07",
+        "downloaded": false,
+        "kind": "external_sequencing_database_project",
+        "association": "Reviewed own methods/data availability statement; not a reference citation",
+        "article_statement_evidence": [
+          {
+            "source_sha256": "72064fe9276d830984364e82e4567877578408565c650d856c531204a17ded89",
+            "location": {
+              "type": "jats_paragraph",
+              "xpath": "/article/body[1]/sec[2]/sec[3]/p[3]",
+              "xml_id": null,
+              "section_heading": "2.3. Microbial Population Analysis"
+            },
+            "source_asset_id": "R09236.evidence_xml.72064fe9276d8309",
+            "statement": "The ZymoBIOMICS® Microbial Community Standard was used as a positive control for DNA extraction and library preparation. Negative controls (i.e., blank extraction control and blank library preparation control) were included to assess the level of bioburden carried by the wet-lab process. Sequence data is available at the National Center for Biotechnology Information (NCBI) website under bioproject number PRJNA1013451, with a sample ID listed under the data availability statement."
+          },
+          {
+            "source_sha256": "72064fe9276d830984364e82e4567877578408565c650d856c531204a17ded89",
+            "location": {
+              "type": "jats_paragraph",
+              "xpath": "/article/back[1]/notes[2]/p[1]",
+              "xml_id": null,
+              "section_heading": null
+            },
+            "source_asset_id": "R09236.evidence_xml.72064fe9276d8309",
+            "statement": "The following are available online at http://www.mdpi.com/: 1. Sample key.xlsx: Excel spreadsheet containing group comparisons for all microbiome analyses. Sequence data were deposited into National Center for Biotechnology Information (NCBI) under Sequence Read Archive (SRA) and can be accessed by the BioProject ID: PRJNA1013451 with the following BioSample Accession numbers: SAMN37298551, SAMN37298552, SAMN37298553, SAMN37298554, SAMN37298555, SAMN37298556, SAMN37298557, SAMN37298558, SAMN37298559, SAMN37298560, SAMN37298561, SAMN37298562, SAMN37298563, SAMN37298564, SAMN37298565, SAMN37298566, SAMN37298567, SAMN37298568, SAMN37298569, SAMN37298570, SAMN37298571."
+          },
+          {
+            "source_sha256": "7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9",
+            "location": {
+              "type": "pdf_block",
+              "pdf_page": 4,
+              "pdf_page_label": "",
+              "block": 6,
+              "bbox_points": [
+                165.97500610351562,
+                236.2833709716797,
+                561.0194091796875,
+                509.93011474609375
+              ]
+            },
+            "source_asset_id": "R09236.main.7891c46f856f19ac",
+            "statement": " dual-index 10 bp barcodes with Nextera® adapters (Illumina, San Diego, CA, USA).\nAll libraries were pooled in equal abundance. The ﬁnal pool was quantiﬁed using qPCR\nand TapeStation® (Agilent Technologies, Santa Clara, CA, USA). The ﬁnal library was\nsequenced on Illumina NovaSeq® platform.\nThe ZymoBIOMICS® Microbial Community Standard was used as a positive control\nfor DNA extraction and library preparation. Negative controls (i.e., blank extraction control\nand blank library preparation control) were included to assess the level of bioburden carried\nby the wet-lab process. Sequence data is available at the National Center for Biotechnology\nInformation (NCBI) website under bioproject number PRJNA1013451, with a sample ID\nlisted under the data availability statement.\n"
+          },
+          {
+            "source_sha256": "7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9",
+            "location": {
+              "type": "pdf_block",
+              "pdf_page": 17,
+              "pdf_page_label": "",
+              "block": 2,
+              "bbox_points": [
+                166.125,
+                98.30435180664062,
+                561.9000244140625,
+                189.3686065673828
+              ]
+            },
+            "source_asset_id": "R09236.main.7891c46f856f19ac",
+            "statement": "Data Availability Statement: The following are available online at http://www.mdpi.com/: 1. Sam-\nple key.xlsx: Excel spreadsheet containing group comparisons for all microbiome analyses. Sequence\ndata were deposited into National Center for Biotechnology Information (NCBI) under Sequence\nRead Archive (SRA) and can be accessed by the BioProject ID: PRJNA1013451 with the following\nBioSample Accession numbers: SAMN37298551, SAMN37298552, SAMN37298553, SAMN37298554,\nSAMN37298555, SAMN37298556, SAMN37298557, SAMN37298558, SAMN37298559, SAMN37298560,\nSAMN37298561, SAMN37298562, SAMN37298563, SAMN37298564, SAMN37298565, SAMN37298566,\nSAMN37298567, SAMN37298568, SAMN37298569, SAMN37298570, SAMN37298571.\n"
+          }
+        ],
+        "automatic_bulk_download_disabled": true
+      }
+    ],
     "declared_attachments": [
       {
         "filename": "microorganisms-11-02349-s001.zip",
@@ -133,7 +207,53 @@
         "path": "original_files/supplementary/R12985/antibiotics-15-00153-s001.zip"
       }
     ],
-    "external_data_links": [],
+    "external_data_links": [
+      {
+        "record_id": "R12985",
+        "accession": "PRJNA1013451",
+        "url": "https://www.ebi.ac.uk/ena/browser/view/PRJNA1013451",
+        "size_bytes": 42781506889,
+        "size_status": "Sum of public ENA FASTQ file byte counts for the full accession/project; may exceed the subset used by this paper",
+        "size_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1013451&result=read_run&fields=run_accession%2Cfastq_bytes&format=tsv",
+        "public_run_count": 21,
+        "size_metadata_path": "inventory/recovery_20261017/external_data_size_probes/PRJNA1013451.tsv",
+        "size_metadata_sha256": "a5839d991dc2c355906924101fe8552454e7182585b5e74203a9128c5f287e07",
+        "downloaded": false,
+        "kind": "external_sequencing_database_project",
+        "association": "Reviewed own methods/data availability statement; not a reference citation",
+        "article_statement_evidence": [
+          {
+            "source_sha256": "f1a80564a8a1fa4b638bb6097c75cb3709b4c7487b6c8012474fd4e1865576cc",
+            "location": {
+              "type": "jats_paragraph",
+              "xpath": "/article/back[1]/notes[4]/p[1]",
+              "xml_id": null,
+              "section_heading": null
+            },
+            "source_asset_id": "R12985.evidence_xml.f1a80564a8a1fa4b",
+            "statement": "Sequence data were deposited into the National Center for Biotechnology Information (NCBI) under Sequence Read Archive (SRA) and can be accessed by the BioProject ID: PRJNA1013451 with the following BioSample Accession numbers: SAMN37298551, SAMN37298552, SAMN37298553, SAMN37298554, SAMN37298555, SAMN37298556, SAMN37298557, SAMN37298558, SAMN37298559, SAMN37298560, SAMN37298561, SAMN37298562, SAMN37298563, SAMN37298564, SAMN37298565, SAMN37298566, SAMN37298567, SAMN37298568, SAMN37298569, SAMN37298570, and SAMN37298571."
+          },
+          {
+            "source_sha256": "f42e1cfc61ed462e54cdbb54d555f5f6230676c933caeed18744e15e9f7e1420",
+            "location": {
+              "type": "pdf_block",
+              "pdf_page": 21,
+              "pdf_page_label": "",
+              "block": 9,
+              "bbox_points": [
+                166.3939971923828,
+                586.8980102539062,
+                561.9000244140625,
+                673.91162109375
+              ]
+            },
+            "source_asset_id": "R12985.main.f42e1cfc61ed462e",
+            "statement": "Data Availability Statement: Sequence data were deposited into the National Center for Biotechnol-\nogy Information (NCBI) under Sequence Read Archive (SRA) and can be accessed by the BioProject ID:\nPRJNA1013451 with the following BioSample Accession numbers: SAMN37298551, SAMN37298552,\nSAMN37298553, SAMN37298554, SAMN37298555, SAMN37298556, SAMN37298557, SAMN37298558,\nSAMN37298559, SAMN37298560, SAMN37298561, SAMN37298562, SAMN37298563, SAMN37298564,\nSAMN37298565, SAMN37298566, SAMN37298567, SAMN37298568, SAMN37298569, SAMN37298570,\nand SAMN37298571.\n"
+          }
+        ],
+        "automatic_bulk_download_disabled": true
+      }
+    ],
     "declared_attachments": [
       {
         "filename": "antibiotics-15-00153-s001.zip",
@@ -227,7 +347,7 @@
         "expected_md5": ""
       }
     ],
-    "status": "partial_or_access_failed",
+    "status": "downloaded",
     "publisher_checked_this_run": true,
     "publisher_url": "https://doi.org/10.1016/j.ultsonch.2021.105531",
     "reason": "CONNECT403",
@@ -1082,14 +1202,7 @@
   "R07908": {
     "record_id": "R07908",
     "official_files": [],
-    "external_data_links": [
-      {
-        "url": "https://scholar.google.com/scholar_lookup?title=Effects+of+medium+supplementation+and+pH+control+on+lactic+acid+production+from+brewer%E2%80%99s+spent+grain&author=Mussatto,+S.I.&author=Fernandes,+M.&author=Mancilha,+I.M.&author=Roberto,+I.C.&publication_year=2008&journal=Biochem.+Eng.+J.&volume=40&pages=437%E2%80%93444&doi=10.1016/j.bej.2008.01.013",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      }
-    ],
+    "external_data_links": [],
     "publisher_checked_this_run": true,
     "publisher_url": "https://doi.org/10.3390/su14052755",
     "checked_at_utc": "2026-10-17T09:26:39.001624+00:00",
@@ -1234,7 +1347,42 @@
   "R10492": {
     "record_id": "R10492",
     "official_files": [],
-    "external_data_links": [],
+    "external_data_links": [
+      {
+        "record_id": "R10492",
+        "accession": "PRJNA1128434",
+        "url": "https://www.ebi.ac.uk/ena/browser/view/PRJNA1128434",
+        "size_bytes": 22575906611,
+        "size_status": "Sum of public ENA FASTQ file byte counts for the full accession/project; may exceed the subset used by this paper",
+        "size_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1128434&result=read_run&fields=run_accession%2Cfastq_bytes&format=tsv",
+        "public_run_count": 9,
+        "size_metadata_path": "inventory/recovery_20261017/external_data_size_probes/PRJNA1128434.tsv",
+        "size_metadata_sha256": "86375015c1b9bdbe14204b2e7b83a4b01c0e1717cf969d21f644a828cc575f48",
+        "downloaded": false,
+        "kind": "external_sequencing_database_project",
+        "association": "Reviewed own methods/data availability statement; not a reference citation",
+        "article_statement_evidence": [
+          {
+            "source_sha256": "3e5bb123d9d9d4add19c728f272d23055ccb980cf99cb60f516f7c2567ccee11",
+            "location": {
+              "type": "pdf_block",
+              "pdf_page": 4,
+              "pdf_page_label": "",
+              "block": 1,
+              "bbox_points": [
+                56.6400146484375,
+                59.96828842163086,
+                541.615234375,
+                235.03811645507812
+              ]
+            },
+            "source_asset_id": "R10492.main.3e5bb123d9d9d4ad",
+            "statement": "ed-end libraries, the extracted DNA was fragmented to an average size of \napproximately 400 bp using the NEXTFLEX Rapid DNA-Seq kit. Sequencing was conducted on an \nIllumina NovaSeq (Illumina, San Diego, USA) following the manufacturer's instructions. Adaptors \nwere trimmed from Illumina reads and low-quality reads (length < 50 bp, quality value < 20, or having \nN bases) were removed using Fastp (version 0.20.0). The annotation was conducted using Diamond \n(version 0.8.35) against the KEGG database (http://www.genome.jp/keeg/) with an e-value cutoff of \n1e-5. The raw sequencing data in this study has been submitted to National Center for Biotechnology \nInformation (NCBI) with project number PRJNA1128434. \n"
+          }
+        ],
+        "automatic_bulk_download_disabled": true
+      }
+    ],
     "publisher_checked_this_run": true,
     "publisher_url": "https://doi.org/10.1016/j.biortech.2024.131622",
     "checked_at_utc": "2026-10-17T09:27:31.819741+00:00",
@@ -1418,14 +1566,7 @@
   "R13282": {
     "record_id": "R13282",
     "official_files": [],
-    "external_data_links": [
-      {
-        "url": "https://scholar.google.com/scholar_lookup?title=Supplementation+of+O2-containing+gas+nanobubble+water+to+enhance+methane+production+from+anaerobic+digestion+of+cellulose&author=Wang,+X.&author=Yuan,+T.&author=Lei,+Z.&author=Kobayashi,+M.&author=Adachi,+Y.&author=Shimizu,+K.&author=Lee,+D.-J.&author=Zhang,+Z.&publication_year=2020&journal=Chem.+Eng.+J.&volume=398&pages=125652&doi=10.1016/j.cej.2020.125652",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      }
-    ],
+    "external_data_links": [],
     "publisher_checked_this_run": true,
     "publisher_url": "https://doi.org/10.3390/fermentation12050212",
     "checked_at_utc": "2026-10-17T09:28:38.848705+00:00",
@@ -2391,79 +2532,7 @@
     "official_files": [],
     "external_data_links": [
       {
-        "url": "https://scholar.google.com/scholar_lookup?title=Optimization+of+Fe2++supplement+in+anaerobic+digestion+accounting+for+the+Fe-bioavailability&author=Cai,+Y.&author=Zhao,+X.&author=Zhao,+Y.&author=Wang,+H.&author=Yuan,+X.&author=Zhu,+W.&author=Cui,+Z.&author=Wang,+X.&publication_year=2018&journal=Bioresour.+Technol.&volume=250&pages=163%E2%80%93170&doi=10.1016/j.biortech.2017.07.151&pmid=29169090",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      },
-      {
-        "url": "https://scholar.google.com/scholar_lookup?title=Enhancement+of+methane+production+with+horse+manure+supplement+and+pre-treatment+in+a+full-scale+biogas+process&author=M%C3%B6nch-Tegeder,+M.&author=Lemmer,+A.&author=Oechsner,+H.&publication_year=2014&journal=Energy&volume=73&pages=523%E2%80%93530&doi=10.1016/j.energy.2014.06.051",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      },
-      {
-        "url": "https://scholar.google.com/scholar_lookup?title=Effects+of+molybdenum,+selenium+and+manganese+supplementation+on+the+performance+of+anaerobic+digestion+and+the+characteristics+of+bacterial+community+in+acidogenic+stage&author=Cai,+Y.&author=Zheng,+Z.&author=Zhao,+Y.&author=Zhang,+Y.&author=Guo,+S.&author=Cui,+Z.&author=Wang,+X.&publication_year=2018&journal=Bioresour.+Technol.&volume=266&pages=166%E2%80%93175&doi=10.1016/j.biortech.2018.06.061&pmid=29966926",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      },
-      {
-        "url": "https://scholar.google.com/scholar_lookup?title=Enhanced+methanogenic+performance+and+metabolic+pathway+of+high+solid+anaerobic+digestion+of+chicken+manure+by+Fe2++and+Ni2++supplementation&author=Bi,+S.&author=Westerholm,+M.&author=Qiao,+W.&author=Mahdy,+A.&author=Xiong,+L.&author=Yin,+D.&author=Fan,+R.&author=Dach,+J.&author=Dong,+R.&publication_year=2019&journal=Waste+Manag.&volume=94&pages=10%E2%80%9317&doi=10.1016/j.wasman.2019.05.036&pmid=31279386",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      },
-      {
-        "url": "https://scholar.google.com/scholar_lookup?title=Impacts+of+trace+element+supplementation+on+the+performance+of+AD+process:+A+critical+review&author=Choong,+Y.Y.&author=Norli,+I.&author=Abdullah,+A.Z.&author=Yhaya,+M.F.&publication_year=2016&journal=Bioresour.+Technol.&volume=209&pages=369%E2%80%93379&doi=10.1016/j.biortech.2016.03.028",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      },
-      {
-        "url": "https://scholar.google.com/scholar_lookup?title=Enhanced+anaerobic+digestion+of+food+waste+by+trace+metal+elements+supplementation+and+reduced+metals+dosage+by+green+chelating+agent+%5BS,+S%5D-EDDS+via+improving+metals+bioavailability&author=Zhang,+W.&author=Zhang,+L.&author=Li,+A.&publication_year=2015&journal=Water+Res.&volume=84&pages=266%E2%80%93277&doi=10.1016/j.watres.2015.07.010&pmid=26253897",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      },
-      {
         "url": "mailto:?&subject=From%20MDPI%3A%20%22A%20Comprehensive%20Review%20of%20the%20Strategies%20to%20Improve%20Anaerobic%20Digestion%3A%20Their%20Mechanism%20and%20Digestion%20Performance\"&body=https://www.mdpi.com/2751586%3A%0A%0AA%20Comprehensive%20Review%20of%20the%20Strategies%20to%20Improve%20Anaerobic%20Digestion%3A%20Their%20Mechanism%20and%20Digestion%20Performance%0A%0AAbstract%3A%20Low%20and%20unstable%20digestion%20performance%20is%20a%20challenging%20issue%20for%20anaerobic%20digestion%2C%20which%20prompts%20researchers%20to%20develop%20new%20strategies.%20In%20addition%20to%20traditional%20approaches%20such%20as%20co-digestion%2C%20pre-treatment%2C%20and%20recirculation%2C%20some%20emerging%20strategies%2C%20namely%20additive%20processes%20and%20microaeration%2C%20have%20also%20been%20recognized%20and%20developed%20in%20recent%20years.%20Many%20studies%20have%20evaluated%20the%20effect%20of%20these%20strategies%20on%20digestion%20performance.%20However%2C%20their%20comprehensive%20analysis%20is%20lacking%2C%20especially%20regarding%20the%20mechanisms%20of%20the%20different%20strategies.%20This%20review%20presents%20a%20comprehensive%20overview%20of%20research%20progress%20on%20these%20strategies%20based%20on%20the%20latest%20research%2C%20considering%20the%20five%20main%20strategies%20listed%20above.%20Through%20critical%20thinking%2C%20a%20summary%20of%20their%20mechanism%2C%20reactor%20performance%2C%20and%20availability%20of%20these%20strategies%20is%20presented.%20The%20results%20demonstrate%20that%20the%20contribution%20of%20microaeration%20is%20mainly%20to%20balance%20the%20composition%20and%20activity%20of%20hydrolysis%2C%20acidogenesis%2C%20and%20methanogenic%20archaea.%20Recirculation%20and%20co-digestion%20mainly%20balance%20mass%20and%20reaction%20environments.%20Pre-treatment%2C%20such%20as%20removing%20lignin%2C%20reducing%20cellulose%20crystallinity%2C%20and%20increasing%20the[...]",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      },
-      {
-        "url": "https://x.com/intent/tweet?text=A+Comprehensive+Review+of+the+Strategies+to+Improve+Anaerobic+Digestion%3A+Their+Mechanism+and+Digestion+Performance&hashtags=mdpimethane&url=https%3A%2F%2Fwww.mdpi.com%2F2751586&via=MDPIOpenAccess",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      },
-      {
-        "url": "\t                    http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.mdpi.com%2F2751586&title=A%20Comprehensive%20Review%20of%20the%20Strategies%20to%20Improve%20Anaerobic%20Digestion%3A%20Their%20Mechanism%20and%20Digestion%20Performance%26source%3Dhttps%3A%2F%2Fwww.mdpi.com%26summary%3DLow%20and%20unstable%20digestion%20performance%20is%20a%20challenging%20issue%20for%20anaerobic%20digestion%2C%20which%20prompts%20researchers%20to%20develop%20new%20strategies.%20In%20addition%20to%20traditional%20approaches%20such%20as%20co-digestion%2C%20pre-treatment%2C%20and%20recirculation%2C%20some%20emerging%20%5B...%5D",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      },
-      {
-        "url": "http://www.facebook.com/sharer.php?u=https://www.mdpi.com/2751586",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      },
-      {
-        "url": "javascript:void(0);",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      },
-      {
-        "url": "http://www.reddit.com/submit?url=https://www.mdpi.com/2751586",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      },
-      {
-        "url": "http://www.mendeley.com/import/?url=https://www.mdpi.com/2751586",
         "size_bytes": null,
         "size_status": "not supplied; linked external data, no bulk download",
         "downloaded": false
@@ -3774,20 +3843,7 @@
   "R11606": {
     "record_id": "R11606",
     "official_files": [],
-    "external_data_links": [
-      {
-        "url": "https://scholar.google.com/scholar_lookup?title=Abrogating+the+inhibitory+effects+of+volatile+fatty+acids+and+ammonia+in+overloaded+food+waste+anaerobic+digesters+via+the+supplementation+of+nano-zero+valent+iron+modified+biochar&author=Lim,+E.Y.&author=Lee,+J.T.E.&author=Zhang,+L.&author=Tian,+H.&author=Ong,+K.C.&author=Tio,+Z.K.&author=Zhang,+J.&author=Tong,+Y.W.&publication_year=2022&journal=Sci.+Total+Environ.&volume=817&pages=152968&doi=10.1016/j.scitotenv.2022.152968",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      },
-      {
-        "url": "https://scholar.google.com/scholar_lookup?title=Influence+of+ammonium+acetate+and+betaine+supplements+on+the+anaerobic+digestion+under+high+salinity+conditions&author=Liu,+X.&author=Liu,+H.&author=Peng,+L.&author=Su,+H.&publication_year=2020&journal=Energy+Sci.+Eng.&volume=8&pages=2621%E2%80%932627&doi=10.1002/ese3.689",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      }
-    ],
+    "external_data_links": [],
     "publisher_checked_this_run": true,
     "publisher_url": "https://doi.org/10.3390/pr13072090",
     "checked_at_utc": "2026-10-17T09:43:43.295089+00:00",
@@ -4232,7 +4288,42 @@
   "R13833": {
     "record_id": "R13833",
     "official_files": [],
-    "external_data_links": [],
+    "external_data_links": [
+      {
+        "record_id": "R13833",
+        "accession": "PRJEB11469",
+        "url": "https://www.ebi.ac.uk/ena/browser/view/PRJEB11469",
+        "size_bytes": 639495323,
+        "size_status": "Sum of public ENA FASTQ file byte counts for the full accession/project; may exceed the subset used by this paper",
+        "size_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB11469&result=read_run&fields=run_accession%2Cfastq_bytes&format=tsv",
+        "public_run_count": 14,
+        "size_metadata_path": "inventory/recovery_20261017/external_data_size_probes/PRJEB11469.tsv",
+        "size_metadata_sha256": "157b08fe41fc63e2e3d645f14d6724f6412b16a0dd6279c2a8abc18a5b339350",
+        "downloaded": false,
+        "kind": "external_sequencing_database_project",
+        "association": "Reviewed own methods/data availability statement; not a reference citation",
+        "article_statement_evidence": [
+          {
+            "source_sha256": "1a4a4d5f8fd45de924c78a7be11e1c032c630bd9341431d1d49135c8351cdaf7",
+            "location": {
+              "type": "pdf_block",
+              "pdf_page": 4,
+              "pdf_page_label": "4",
+              "block": 7,
+              "bbox_points": [
+                60.48960876464844,
+                154.40061950683594,
+                300.4895935058594,
+                763.53857421875
+              ]
+            },
+            "source_asset_id": "R13833.main.1a4a4d5f8fd45de9",
+            "statement": "omic DNA was extracted using a\nFastDNA SPIN Kit for Soil (MP Biomedicals, Solon, OH) and\npuriﬁed by ethanol precipitation. DNA ampliﬁcation, Illumina\nlibraries preparation, amplicon sequencing (Illumina MiSeq,\nInc. SanDiego, California) and bioinformatics analysis of the\ndata were performed at Research and Testing Laboratory\n(RTL), Texas. Samples were ampliﬁed for sequencing using the\nuniversal primer pair, 515f and 806r,30 targeting the prokaryotic\n16S rRNA gene. Details on the sequencing and bioinformatics\ndata analysis can be found elsewhere.31 The FASTQ ﬁles were\nsubmitted in the ENA (European Nucleotide Archive), being\navailable in the following link http://www.ebi.ac.uk/ena/data/\nview/PRJEB11469. Nucleotide sequences from Experiment 1\nare identiﬁed with accession numbers ERS937154 to\nERS937157 and sequences from Experiment 2 with the\naccession numbers ERS1487522 to ERS1487524 and\nERS1505407 for trial 1 and ERS2319672 to ERS2319677 for\ntrial 2.\nFor the taxonomic identiﬁcation of the isolates, a single\ncolony was suspended in 50 μL of TE buﬀer. DNA was isolated\nafter exposing the colonies at 95 °C during 10 min to promote\ncell lysis. The bacterial 16S rRNA genes were ampliﬁed by PCR\n(polymerase chain reaction) with a Taq DNA polymerase\n(EP0402, ThermoScientiﬁc, San Diego, CA) and universal\nprimers 27f and 1492r targeting the bacterial 16S rRNA gene,\nas detailed elsewhere.32"
+          }
+        ],
+        "automatic_bulk_download_disabled": true
+      }
+    ],
     "publisher_checked_this_run": true,
     "publisher_url": "https://doi.org/10.1021/acs.est.8b00894",
     "checked_at_utc": "2026-10-17T09:46:31.803140+00:00",
@@ -4574,14 +4665,7 @@
   "R13867": {
     "record_id": "R13867",
     "official_files": [],
-    "external_data_links": [
-      {
-        "url": "https://www.wef.org/wwtf?utm_medium=WWTF&utm_source=AccessWater&utm_campaign=WWTF",
-        "size_bytes": null,
-        "size_status": "not supplied; linked external data, no bulk download",
-        "downloaded": false
-      }
-    ],
+    "external_data_links": [],
     "publisher_checked_this_run": true,
     "publisher_url": "https://doi.org/10.2175/193864718825159749",
     "checked_at_utc": "2026-10-17T09:48:21.331904+00:00",
@@ -5076,7 +5160,42 @@
   "R13911": {
     "record_id": "R13911",
     "official_files": [],
-    "external_data_links": [],
+    "external_data_links": [
+      {
+        "record_id": "R13911",
+        "accession": "PRJNA1056946",
+        "url": "https://www.ebi.ac.uk/ena/browser/view/PRJNA1056946",
+        "size_bytes": 49443153,
+        "size_status": "Sum of public ENA FASTQ file byte counts for the full accession/project; may exceed the subset used by this paper",
+        "size_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1056946&result=read_run&fields=run_accession%2Cfastq_bytes&format=tsv",
+        "public_run_count": 10,
+        "size_metadata_path": "inventory/recovery_20261017/external_data_size_probes/PRJNA1056946.tsv",
+        "size_metadata_sha256": "59ebaae2557fbcd65dd03ec296685e5a1814bca03aebba959fa58ed8bff1fe23",
+        "downloaded": false,
+        "kind": "external_sequencing_database_project",
+        "association": "Reviewed own methods/data availability statement; not a reference citation",
+        "article_statement_evidence": [
+          {
+            "source_sha256": "f69f672561ec40764eaf41be0da4b1dd071688b93f55db600acd6039fabede6e",
+            "location": {
+              "type": "pdf_block",
+              "pdf_page": 6,
+              "pdf_page_label": "",
+              "block": 17,
+              "bbox_points": [
+                85.08006286621094,
+                568.0799560546875,
+                484.4400329589844,
+                584.2439575195312
+              ]
+            },
+            "source_asset_id": "R13911.main.f69f672561ec4076",
+            "statement": "the Sequence Read Archive (SRA) of NCBI with project number PRJNA1056946. \n"
+          }
+        ],
+        "automatic_bulk_download_disabled": true
+      }
+    ],
     "publisher_checked_this_run": true,
     "publisher_url": "https://doi.org/10.1016/j.biortech.2024.130893",
     "checked_at_utc": "2026-10-17T09:51:12.364025+00:00",

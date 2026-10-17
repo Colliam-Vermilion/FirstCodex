@@ -1,0 +1,693 @@
+[{"type": "jats_paragraph", "xpath": "/article/front[1]/article-meta[1]/title-group[1]/article-title[1]", "xml_id": null, "section_heading": null}]
+Effects of Low Oxygen Dosages on an Anaerobic Membrane Bioreactor, Simulating the Oxygen Load in an Anaerobic Digester-Dissolved Air Flotation (AD-DAF) System
+
+[{"type": "jats_paragraph", "xpath": "/article/front[1]/article-meta[1]/author-notes[1]/fn[1]/p[1]", "xml_id": null, "section_heading": null}]
+Email: a.l.piaggio@tudelft.nl.
+
+[{"type": "jats_paragraph", "xpath": "/article/front[1]/article-meta[1]/abstract[1]/p[1]", "xml_id": null, "section_heading": null}]
+This study reports the effects of microaeration on a laboratory-scale AnMBR (MA-AnMBR) fed with synthetic concentrated domestic sewage. The imposed oxygen load mimics the oxygen load coming from a dissolved air flotation (DAF) unit, establishing an anaerobic digester-DAF (AD-DAF) combination with sludge recycling. Results showed a reduced COD concentration in the MA-AnMBR permeate compared with the AnMBR permeate, from 90 to 74 mgCOD L–1, and a concomitant 27% decrease in biogas production. The MA-AnMBR permeate ammonium (NH4+) concentration increased by 35%, to 740 mgNH4+-N L–1, indicating a rise in the hydrolytic capacity. Furthermore, the MA-AnMBR biomass seemingly adapted to an increased oxygen load, which corresponded to 1% of the influent COD load (approximately 55 mLO2 d–1). Concomitantly, an increase in the superoxide dismutase activity (SOD) of biomass was detected. Meanwhile, negligible changes were observed in the specific methanogenic activity (SMA) of the microaerated biomass that was subjected to an oxygen load equivalent to 3% of the influent COD load in batch tests. The obtained results showed that an AD-DAF system could be a promising technology for treating concentrated domestic wastewater, improving sewage sludge hydrolysis, and overall organic matter removal when compared to an AnMBR.
+
+[{"type": "jats_paragraph", "xpath": "/article/front[1]/article-meta[1]/abstract[1]/sec[1]/p[1]", "xml_id": null, "section_heading": null}]
+Keywords: microaeration, anaerobic membrane bioreactor, wastewater treatment, AD-DAF
+
+[{"type": "jats_paragraph", "xpath": "/article/front[1]/article-meta[1]/abstract[2]/p[1]", "xml_id": null, "section_heading": null}]
+Micro-aeration of a membrane anaerobic digestor corresponding to 1% of influent COD improves its hydrolytic capacity but decreases biogas production by 27% while keeping the overall performance unchanged.
+
+[{"type": "jats_paragraph", "xpath": "/article/front[1]/notes[1]/sec[1]/p[1]", "xml_id": null, "section_heading": null}]
+Received 2023 Sep 11; Accepted 2023 Nov 2; Revised 2023 Nov 2; Collection date 2023 Dec 8.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[1]/p[1]", "xml_id": null, "section_heading": "Introduction"}]
+Anaerobic digestion (AD) is a widely used technology for wastewater treatment due to its low sludge production when compared to aerobic treatment (up to one-tenth), the nutrient-rich effluent, and the production of energy as biogas.1 Among the AD technologies, the anaerobic membrane bioreactor (AnMBR) is a promising alternative to treat municipal wastewater from a resource-oriented perspective.2 AnMBR units were first developed in the late 1980s for industrial wastewater treatment and are now considered one of the emerging anaerobic technologies that generate high-quality effluents of interest for subsequent reuse.3 The principle of an AnMBR is a mixed anaerobic bioreactor connected to a physical membrane separation unit retaining all suspended solids larger than the pore size.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[1]/p[2]", "xml_id": null, "section_heading": "Introduction"}]
+The use of AnMBR for sewage treatment can result in high COD removal and a solids-free permeate, but the technology has considerable constraints linked to the membrane filtration device.2,4 The use of membranes to separate solids and liquids is one of the main hydraulic constraints of an AnMBR. Even though the footprint of membrane units is relatively small, a large membrane area is required in municipal wastewater treatment.4 Moreover, fluctuations in influent organic loading rate (OLR) and hydraulic flow may negatively impact the sludge filterability and the membrane filtration capacity, decreasing the permeate flux.5
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[1]/p[3]", "xml_id": null, "section_heading": "Introduction"}]
+Most solids’ physical separation units in wastewater treatment plants are based on screening, flocculation, filtration, adsorption, sedimentation, or flotation.6 Among these, dissolved air flotation (DAF) units have a small footprint and are characterized by a high removal of suspended solids under a wide variety of HRTs and OLRs.7 When located after a pilot-scale anaerobic digester treating domestic wastewater, DAF removal of suspended solids was reported to reach 96%.8 Moreover, previous research showed that a lab-scale DAF could remove up to 95% of the influent total suspended solids (TSS) in the range of 0.03–5.0 g L–1, resembling the TSS content of municipal wastewater and the real wastewater from the project target area, the Barapullah drain in New Delhi, India.9 Hence, using a different physical separation unit may ensure a high TSS retention while overcoming the AnMBR limitations. Replacing the AnMBR with an AD-DAF system, in which the flotation layer is returned to the anaerobic digester for sewage and drain pretreatment, is proposed. The advantages found in removing the membranes of the system could be jeopardized by the oxygen-saturated flotation layer that may negatively impact the anaerobic conversion process.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[1]/p[4]", "xml_id": null, "section_heading": "Introduction"}]
+Research suggests that exposure of anaerobic biomass to limited amounts of oxygen may only have a negligible impact on strict anaerobes.10 Kato et al.11 suggested that the tolerance of methanogens to oxygen was mainly due to the activity of facultative bacteria located at the outside of granular consortia in an expanded granular sludge bed reactor (EGSB). Brioukhanov et al.12 found high specific superoxide dismutase enzyme (SOD) activities in both methanogens and acetogens, indicating a plausible adaptation to limited oxygen concentrations.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[1]/p[5]", "xml_id": null, "section_heading": "Introduction"}]
+Various authors suggest that microaeration in anaerobic digesters can be beneficial for specific (bio)chemical conversion processes.10,13,14 There is no alignment between researchers in what refers to microaeration. Nguyen and Khanal15 defined microaeration for systems with oxidation–reduction potential (ORP) between −200 and −300 mV, while Botheju and Bakke10 preferred the terminology of “limited aeration” to talk about a process where a certain amount of oxygen is introduced to a basically anaerobic biochemical process. Limited aeration (below 2% v/v) incorporated in the headspace or liquid phase of a pilot plant digester processing mixed sludge, showed 98% lower hydrogen sulfide concentrations in the biogas with a negligible impact on the methane yield.16 Using microaeration in a lab-scale reactor, Lim and Wang17 found that the methane yield increased by more than 20% when fed with food waste and concentrated black water. Furthermore, an intermittently microaerated laboratory-scale anaerobic digester CSTR, fed with lignocellulosic feedstock, showed a 50% reduction in volatile fatty acids (VFA) accumulation in comparison to the conditions without microaeration, under an organic loading rate (OLR) of 5 gVS L–1 d–1.18 On the other hand, Botheju et al.19 found a negative effect on the methane yield when an oxygen load equivalent to 10% of the influent COD was added to a lab-scale CSTR.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[1]/p[6]", "xml_id": null, "section_heading": "Introduction"}]
+To the authors’ knowledge, no research has been published investigating an AD using a DAF system as a solid retention mechanism, effectively establishing a new anaerobic bioreactor, an AD-DAF system. Due to constraints related to the DAF design loading rates and air bubble sizes in downscaled reactor systems,20 laboratory-scale testing of a DAF system is not feasible. Therefore, in our present study, typical DAF oxygen loads were calculated and experimentally simulated in a lab-scale intermittently microaerated AnMBR (MA-AnMBR), fed with synthetic concentrated domestic sewage. The objective of this study was to assess the effect of the given oxygen load on the performance of an MA-AnMBR, mimicking the impact of the compressed air supply in an AD-DAF system needed for flotation. The research focused on the changes in nutrient removal efficiency, especially nitrogen and phosphorus, the overall performance of the MA-AnMBR under various total O2 fluxes (in the microaeration range), and the sludge SOD shifts in response to these.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[1]/p[1]", "xml_id": null, "section_heading": "Experimental Setup and Tested Influent"}]
+A laboratory-scale AnMBR was set up to study the effects of microaeration in AD. Here, microaeration was defined as the aeration range at which no significant changes in the oxidation–reduction potential (ORP) were observed in the reactor (below 10%, −450 to −550 mV). The AnMBR consisted of an anaerobic CSTR connected to a side stream inside-out tubular ultrafiltration PVDF membrane, with a pore size of 30 nm (Helyx, Pentair, Minnesota, United States), inner diameter of 5.2 mm, and 640 mm length. The CSTR had a liquid volume of 6.5 and 1.5 L of headspace. The AnMBR was equipped with feed, permeate extraction, aeration, and recirculation pumps (Watson Marlow 120U and 323U, Falmouth, United Kingdom). Reactor ORP, pH, and temperature were continuously measured with a Memosens CPS16D instrument (Endress+Hauser, Reinach, Switzerland). The operational conditions of the AnMBR are described in Table 1, and the reactor setup and scheme can be seen in Figure 1.
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 1, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+unit
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 1, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+value
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 2, "column": 1, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+feed flow
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 2, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+L d–1
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 2, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+2.5
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 3, "column": 1, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+permeate flow
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 3, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+L d–1
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 3, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+2.3
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 4, "column": 1, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+working volume
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 4, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+L
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 4, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+6.5
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 5, "column": 1, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+temperature
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 5, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+°C
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 5, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+37
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 6, "column": 1, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+hydraulic retention time
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 6, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+d
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 6, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+2.6
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 7, "column": 1, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+solids retention time
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 7, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+d
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 7, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+28
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 8, "column": 1, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+organic loading rate
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 8, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+gCOD L–1 d–1
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 8, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+1.9
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 9, "column": 1, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+recirculation flow
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 9, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+L d–1
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 9, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+1300
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 10, "column": 1, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+cross-flow velocity
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 10, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+m s–1
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 10, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+0.6
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 11, "column": 1, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+membrane flux
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 11, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+LMH
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]", "table": 1, "row": 11, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Experimental Setup and Tested Influent"}]
+10.0
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[1]/fig[1]/caption[1]/p[1]", "xml_id": null, "section_heading": "Experimental Setup and Tested Influent"}]
+Anaerobic membrane bioreactor (AnMBR) and microaerated AnMBR (MA-AnMBR) set up. Figure 1a shows the laboratory-scale set up, while Figure 1b shows the schematic representation of the laboratory-scale unit.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[1]/p[2]", "xml_id": null, "section_heading": "Experimental Setup and Tested Influent"}]
+AnMBR and MA-AnMBR were operated under similar conditions, but MA-AnMBR had intermittent air flow. The aeration was introduced in the liquid phase of the anaerobic digester via intermittent cycles of four hours of aeration, followed by four consecutive hours of no aeration. The oxygen load corresponded to an oxygen-overinfluent COD rate of 1.0% (around 55 mLO2 d–1). Details on the calculation of added oxygen to the AnMBR, to mimic the coupling of an AD-DAF are presented in Supporting Information A.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[1]/p[3]", "xml_id": null, "section_heading": "Experimental Setup and Tested Influent"}]
+The synthetic influent composition was adapted from Ozgun et al.5 and adjusted to an average COD of 5.2 ± 0.6 g L–1, 60 ± 9 mgPO43–-P L–1 of phosphate, and 249 ± 54 mgNH4+-N L–1 ammonium concentration. Feed composition is further detailed in Supporting Information B. The AnMBR was inoculated with approximately 3.5 L of sludge from a pilot-scale blackwater anaerobic reactor located at the NIOO-KNAW facilities (Wageningen, Netherlands). The sludge had a COD of 43.7 ± 3.4 gCOD L–1, total suspended solids (TSS) of 45.8 ± 0.9 gTSS L–1 and volatile suspended solids (VSS) of 36.0 ± 1.2 gVSS L–1.21
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[1]/sec[1]/p[1]", "xml_id": null, "section_heading": "Reactor Periods"}]
+In the first operational period, the AnMBR was operated under complete anaerobic conditions for 180 days (referred to as “AnMBR state”). Sludge extracted from this period was named S0. Microaeration of the AnMBR started afterward and was performed in steps to acclimate the biomass to the aeration dose. Based on the AD-DAF mass balance, the given final daily aeration was calculated to be 1.0% oxygen in comparison to the total COD load, considering an air oxygen content of 21% at standard temperature and pressure conditions. Aeration intensity was gradually increased, where each aeration step lasted 3 HRTs. The airflow increase in each step corresponded to one-third of the final aeration: 0.3, 0.6, and 1.0% when compared to the influent COD. Sludge extracted from the reactor at each aeration step (airflows of 0.3, 0.6, and 1.0%) was named S1, S2, and S3, respectively. Once the microaeration flux of 1% influent COD was reached, the MA-AnMBR was continuously operated under these conditions. The MA-AnMBR was considered to operate at stabilized performance after 100 days from the first aeration step. The period between the first added aeration and the stable conditions was called “adaptation,” and the period under stable microaeration conditions was denominated “MA-AnMBR state”. This period lasted 300 days, and the sludge extracted during this time was denominated S4. A schematic representation of the reactor periods is shown in Figure 2.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[1]/sec[1]/fig[1]/caption[1]/p[1]", "xml_id": null, "section_heading": "Reactor Periods"}]
+Schematic representation of the reactor periods.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[2]/p[1]", "xml_id": null, "section_heading": "Analytical Methods"}]
+Total and volatile solids were measured according to standardized methods,22 and analysis was performed in triplicates. Sludge temperature, pH, and ORP were continuously measured with a Memosens CPS16D instrument (Endress+Hausser, Reinach, Switzerland). COD measurements were done using HACH Lange test kits LCK 314, 514, and 014 (HACH, Tiel, The Netherlands). Total phosphorus (TP), orthophosphate (PO43–-P), total nitrogen (TN), ammonium-nitrogen (NH4+-N), and nitrate-nitrogen (NO3–-N) were measured with HACH Lange test kits (LCK 349, LCK238 LCK 303, and LCK 339). Samples were taken biweekly.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[2]/p[2]", "xml_id": null, "section_heading": "Analytical Methods"}]
+The composition of volatile fatty acids (VFA) in samples extracted from permeate and sludge was analyzed using Agilent tech 7890A gas chromatography (GC) (Agilent, Santa Clara, CA, U.S.A.) with helium as a carrier gas. The gas flow rate was 2.45 mL min–1, the pressure was 0.76 bar, and detector and injector temperatures were 225 and 240 °C, respectively. The samples were collected weekly and measured following the procedure described by García Rea.23
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[2]/p[3]", "xml_id": null, "section_heading": "Analytical Methods"}]
+For biogas analysis, weekly gas samples were collected using 1.5 mL gas-lock syringes, after which they were immediately injected into a GC (Agilent, Santa Clara, CA, U.S.A) with a thermal conductivity detector (TCD). To analyze the composition of the gas samples, two separate columns, HP-PLOT U and a Molesieve GC column (Agilent 19095P-MS6, Santa Clara, CA, U.S.) of 60 m × 0.53 mm × 200 μm were used. Helium was used as a carrier gas at a flow rate of 10 mL min–1. The operational temperatures for the injector and detector were 40 and 200 °C, respectively.24
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[2]/sec[1]/p[1]", "xml_id": null, "section_heading": "Protein and Carbohydrate Degradation in Serum Bottles"}]
+Soluble and total protein concentrations in the reactor were measured via the modified Lowry method,25 while soluble and total carbohydrate concentrations were measured using the anthrone-sulfuric acid method by Dubois et al.,26 in serum bottles of 180 mL. A total of four aeration conditions were performed in triplicate during an incubation period equivalent to the AnMBR solids retention time (SRT), i.e., 28 days. Tests were performed to mimic the microaeration conditions of the laboratory-scale MA-AnMBR and to compare the effect of different aeration in the degradation of proteins and carbohydrates. Thus, four aeration conditions, called Ovalbumin A0-A3, were assessed. The supplied oxygen represented 0, 1, 2, and 5% of the substrate COD. As inoculum, 100 mL of sludge from the AnMBR period was used. The selected substrates were ovalbumin and micronutrients, mimicking the AnMBR synthetic influent concentrations. Ovalbumin was chosen as the main substrate due to its high ratio of added proteins to the influent. An inoculum over substrate ratio of 2 was considered, and the serum bottles were placed in a shaker at 110 rpm and 36 °C.27 Aeration was incorporated in pulses during the first six experimental days into the liquid phase. Produced biogas was removed twice per day during the first 10 days and afterward daily. Proteins and carbohydrates were measured at the beginning of the experiment and after 28 days of incubation. Finally, the measured concentrations of proteins and carbohydrates were converted to COD assuming the typical composition of protein (C14H12O7N2) and carbohydrate (C10H18O9), following Sophonsiri and Morgenroth.28
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[2]/sec[2]/p[1]", "xml_id": null, "section_heading": "Rheometry and Particle Size Distribution Analysis"}]
+A rotational rheometer model MCR 302 (Anton Paar GmbH, Graz, Austria) was used to measure the shear stress and shear rate. A smooth measuring cylinder model B-CC27 (0.026 m diameter) and a measuring cup model C-CC27 (0.030 m diameter) were used. A volume of 15 mL of sludge was used to perform the assay, which was done at 35 ± 0.2 °C. Since the sludge samples were stored in the fridge, a preshear stage was selected before starting the rheometric analysis. The methods followed were as described by Gonzalez et al.29
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[2]/sec[2]/p[2]", "xml_id": null, "section_heading": "Rheometry and Particle Size Distribution Analysis"}]
+PSD was assessed with a Microtrac Bluewave diffraction analyzer (Malvern Instruments Ltd., UK), measuring particles between 0.01 and 2000 μm, via a light scattering technique. The results are shown as a volume-based PSD and are indicative of the presence of large-size particles. PSD was reported as percentiles D10, D50, and D90, where D10 represents the particle diameter of which only 10% of the particles are smaller than the given diameter.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[2]/sec[3]/p[1]", "xml_id": null, "section_heading": "Specific Methanogenic Activity"}]
+SMA tests were performed to analyze the effects of different aeration rates on the SMA of the AnMBR sludge, under the different operating periods: AnMBR state, adaptation, and MA-AnMBR state. The tests were conducted for five triplicate sludge samples extracted from the laboratory-scale reactor. The first tests were conducted with the inoculum of AnMBR (S0). The second set of tests was performed using adapted sludge as an inoculum (S1–S3). Finally, the last inoculum used was the MA-AnMBR (S4).
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[2]/sec[3]/p[2]", "xml_id": null, "section_heading": "Specific Methanogenic Activity"}]
+An automated methane potential test system (AMPTS, Bioprocess Control, Sweden), at 37 °C, was used. Bottles of 250 mL with a liquid volume of 200 mL were used. Acetate, micro, and macronutrients were added as substrates following the method described by Spanjers and Vanrolleghem,27 and different aerations were incorporated in pulses. The aeration pulse was injected at the beginning of the SMA test in the liquid phase, and the bottles were sealed for 20 min while being constantly mixed at 80 rpm. Hereafter, the connections between the bottles and AMPTS were opened. Three aerations were selected to evaluate the SMA of the sludge and represented a ratio of oxygen over substrate COD of 3, 8, and 13%. These aerations were selected first to mimic the conditions of the lab-scale MA-AnMBR (3%) and to evaluate the inhibition of methane production due to different oxygen contents. Since the tests were performed in serum bottles of 250 mL, the volume error of injecting aerations below 3% of the substrate COD was considered inappropriate, and therefore, the minimum given aeration was set at 3%. All aeration conditions were compared to a positive control, where no aeration was added. The calculated amount of injected air was based on an oxygen content in the air of 21% and an oxygen density of 1.43g L–1 at 20 °C.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[2]/sec[4]/p[1]", "xml_id": null, "section_heading": "Superoxide Dismutase Activity Analysis"}]
+SOD activity of the inoculum sludge acquired from a UASB at NIOO-KNAW (Wageningen, Netherlands) and the MA-AnMBR sludge was measured using a colorimetric method by Invitrogen (EIASOD, Thermo Fisher Scientific, Waltham, MA, U.S.A). Sample preparation was performed in triplicate and following the kit guidelines. One SOD unit is defined as the amount of enzyme causing inhibition of 50% in the reduction of 1.5 mM Nitro blue tetrazolium, in the presence of riboflavin at 25 °C and pH 7.8. SOD values were obtained in Units·mL–1 but final SOD activity was expressed in SOD Units mgProtein–1 as per Kato et al.30
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[2]/sec[3]/p[1]", "xml_id": null, "section_heading": "Chemical Speciation"}]
+PhreeqC software was used to model the effect of microaeration on biogas composition and phosphorus speciation.31 PhreeqC enables the calculation of saturation indexes and distribution of aqueous species (among others) based on detailed influent characteristics and composition. The developed code was applied to four different scenarios, two of the AnMBR, and two of the MA-AnMBR states. The input data were derived from the synthetic influent characteristics and the laboratory-scale reactor characteristics (reactor and headspace volumes of 6.5 and 1.5 L, respectively). The PhreeqC code is described in the Supporting Information, Supporting Information C. Ammonium concentration in the liquid phase was taken from the reactor analytical measurements, being 583 and 740 mg L–1 for the AnMBR and the MA-AnMBR stable periods, respectively. Two initial biogas conditions were selected for each reactor period. Both conditions only include carbon dioxide and methane in ratios of 50:50 and 20:80. The final analyzed results were considered at pH values similar to the laboratory-scale experiments, i.e., 7.42 and 7.65 for the AnMBR state and MA-AnMBR state, respectively.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[1]/p[1]", "xml_id": null, "section_heading": "Reactor Performance"}]
+Variations in reactor pH, ORP, and maximum biogas production under the three studied periods (AnMBR, Adaptation, and MA-AnMBR states) are shown in Table 2. The permeate of the laboratory-scale AnMBR reached COD values below 100 mg L–1 on average, corresponding to a removal efficiency exceeding 98% (Table 2). Single-factor ANOVA was used to assess the statistical difference between the reactor parameters at different periods. Thus, a statistically relevant increase of 0.2% in COD removal was observed during the MA-AnMBR state when compared to the AnMBR conditions (p-value < 0.01). The COD permeate concentrations of the AnMBR and the MA-AnMBR were 90.6 ± 4.4 and 74.6 ± 19.0 mgCOD L–1. A summary of the permeate characteristics for the AnMBR and MA-AnMBR are further described in Supporting Information D. An added amount of oxygen of 1.0% of the influent COD load corresponds to a potential aerobic degradation of 112 mgCOD d–1, based on kinetics and stoichiometric constants given by Ekama and Wentzel.32 Since the difference between permeate COD of both AnMBR and MA-AnMBR amounted to about 40 mgCOD d–1, the increased COD removal might be attributed to microaerobic conversion using the added oxygen as an electron acceptor.
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 1, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+unit
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 1, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+AnMBR
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 1, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+adaptation
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 1, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+MA-AnMBR
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 2, "column": 1, "colspan": "2", "rowspan": "1", "section_heading": "Reactor Performance"}]
+operation time
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 2, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+days
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 2, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+180
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 2, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+100
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 2, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+300
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 3, "column": 1, "colspan": "2", "rowspan": "1", "section_heading": "Reactor Performance"}]
+sludge pH
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 3, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+7.42 ± 0.02
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 3, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+7.52 ± 0.14
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 3, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+7.65 ± 0.13
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 4, "column": 1, "colspan": "2", "rowspan": "1", "section_heading": "Reactor Performance"}]
+sludge oxidation–reduction potential (ORP)
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 4, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+mV
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 4, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+–516 ± 44
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 4, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+–533 ± 16
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 4, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+–533 ± 42
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 5, "column": 1, "colspan": "2", "rowspan": "1", "section_heading": "Reactor Performance"}]
+maximum biogas production
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 5, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+L d–1
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 5, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+3.6
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 5, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+3.7
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 5, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+3.0
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 6, "column": 1, "colspan": "2", "rowspan": "1", "section_heading": "Reactor Performance"}]
+average biogas production
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 6, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+L d–1
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 6, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+2.5 ± 0.8
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 6, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+2.1 ± 0.8
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 6, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+1.8 ± 0.5
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 7, "column": 1, "colspan": "2", "rowspan": "1", "section_heading": "Reactor Performance"}]
+chemical oxygen demand (COD) removal efficiency
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 7, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+%
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 7, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+98.2 ± 0.1
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 7, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+98.3 ± 0.1
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 7, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+98.5 ± 0.4
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 8, "column": 1, "colspan": "2", "rowspan": "1", "section_heading": "Reactor Performance"}]
+ortho-phosphate removal
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 8, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+%
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 8, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+16.8 ± 5.4
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 8, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+24.3 ± 1.3
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 8, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+48.3 ± 18.8
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 9, "column": 1, "colspan": "2", "rowspan": "1", "section_heading": "Reactor Performance"}]
+sulfate removal
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 9, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+%
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 9, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+88.4 ± 0.6
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 9, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+89.3 ± 0.3
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 9, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+89 ± 4.7
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 10, "column": 1, "colspan": "2", "rowspan": "1", "section_heading": "Reactor Performance"}]
+ammonium concentration increase factor
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 10, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+2.3
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 10, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+2.6
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 10, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+3.0
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 11, "column": 1, "colspan": "2", "rowspan": "1", "section_heading": "Reactor Performance"}]
+VFA content in the mixed liquor
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 11, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+mgCOD L
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 11, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+5.6 ± 1.9
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 11, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+15.0 ± 17.9
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 11, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+6.6 ± 1.1
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 12, "column": 1, "colspan": "2", "rowspan": "1", "section_heading": "Reactor Performance"}]
+methane concentration in biogas
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 12, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+%
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 12, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+82 ± 2
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 12, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+84 ± 3
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 12, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+84 ± 6
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 13, "column": 1, "colspan": "2", "rowspan": "1", "section_heading": "Reactor Performance"}]
+sludge total solids
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 13, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+g L–1
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 13, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+4.8 ± 1.0
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 13, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+5.9 ± 0.3
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 13, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+5.8 ± 0.9
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 14, "column": 1, "colspan": "2", "rowspan": "1", "section_heading": "Reactor Performance"}]
+sludge volatile solids
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 14, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+g L–1
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 14, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+2.7 ± 0.6
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 14, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+3.6 ±0.3
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 14, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+2.9 ± 0.6
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 15, "column": 1, "colspan": "2", "rowspan": "1", "section_heading": "Reactor Performance"}]
+ash content
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 15, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+g L–1
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 15, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+2.1 ± 1.2
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 15, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+2.3 ± 0.4
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 15, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+2.9 ± 1.1
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 16, "column": 1, "colspan": "1", "rowspan": "3", "section_heading": "Reactor Performance"}]
+particle size distributionb
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 16, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+D90
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 16, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+μm
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 16, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+10.6 ± 0.7
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 16, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+13.0 ± 1.4
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 16, "column": 6, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+19.5 ± 0.6
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 17, "column": 1, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+D50
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 17, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+μm
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 17, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+4.4 ± 0.3
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 17, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+5.2 ± 0.8
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 17, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+6.7 ± 0.2
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 18, "column": 1, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+D10
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 18, "column": 2, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+μm
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 18, "column": 3, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+2.7 ± 0.2
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 18, "column": 4, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+3.2 ± 0.4
+
+[{"type": "jats_table_cell", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]", "table": 2, "row": 18, "column": 5, "colspan": "1", "rowspan": "1", "section_heading": "Reactor Performance"}]
+4.3 ± 0.1
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table-wrap-foot[1]/fn[1]/p[1]", "xml_id": null, "section_heading": "Reactor Performance"}]
+Values correspond to averages and standard deviation of samples (in triplicates) taken bi-weekly during each period. Information regarding the studied periods is shown in Figure 2. For particle size distribution, values of D90, D50, and D10 represent the particle diameters at which 90, 50, and 10% of the total number of particles are smaller than the given diameter respectively. Values shown in bold correspond to those which had statistically important changes between the different reactor periods.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table-wrap-foot[1]/fn[2]/p[1]", "xml_id": null, "section_heading": "Reactor Performance"}]
+Values based on total particle numbers.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[1]/p[2]", "xml_id": null, "section_heading": "Reactor Performance"}]
+Single-factor ANOVA test showed no statistical difference between the ORP of all reactor periods. All three reactor periods showed values below −500 mV, and therefore, prevailing conditions could be considered fully anaerobic.33 These results align with the research conducted by Lim and Wang,17 who observed negligible ORP variations when microaeration corresponding to 1.0% of soluble influent COD load was added as a pretreatment of anaerobic digestion. In our present research, anaerobic conditions were maintained during the adaptation period, and the reactor ORP remained around −533 mV, showing that the oxygen introduced to the reactor was rapidly consumed and undetectable in the higher part of the liquid phase, where the ORP probe was located. However, the adaptation period was characterized by a slight increase in VFA concentrations during the first month of microaeration. Iso Caproic acid (I C6) and Caproic Acid (C6) increased to a maximum value of 50 mg L–1 (after 1 week of starting aeration) and decreased to negligible values after this first adaptation. Under the MA-AnMBR state, VFA concentrations were negligible.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[1]/p[3]", "xml_id": null, "section_heading": "Reactor Performance"}]
+While no statistical changes were observed in the reactor ORP, biogas quantity decreased during the MA-AnMBR period. Average biogas production decreased by 25%, from 2.5 to 1.8 L d–1 in the AnMBR and MA-AnMBR periods, respectively. A high relative standard deviation of biogas production was observed during operation of the reactor (30%). This was mainly due to tube obstructions (primarily on the feed line) and reactor headspace variations due to daily operation and maintenance.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[1]/p[4]", "xml_id": null, "section_heading": "Reactor Performance"}]
+No statistical difference was observed in the biogas quality (p-value of 0.13), which showed high methane concentrations reaching 82 ± 2 to 84 ± 6% for the AnMBR and MA-AnMBR states, respectively. Similar observations were made by Ferrari et al.34 who found methane concentration in the biogas between 85 and 95% while operating a laboratory-scale AnMBR treating concentrated synthetic municipal sewage in the temperature range 17–34 °C and HRT from 1 to 1.5 days. Methane concentrations reaching 70–80% are commonly found at full-scale anaerobic reactors treating dilute municipal sewage at relatively low HRTs, which can be attributed to the relatively high CO2 solubility in the effluent.35 The resulting CO2 concentration in the biogas of these reactors is only 5–10%, while the remainder consists of atmospheric N2 gas that was dissolved in the influent. The observed high methane concentrations in our present study and that of Ferrari38 might be attributed to the presence of urea, which was used as the main nitrogen source in the synthetic influent. It should be noted that each mmol of urea is hydrolyzed in two mmol of NH4+, which increases the alkalinity, produces one mmol of HCO3–, and chemically binds two mmol of CO2 as bicarbonate to the liquid. The proteins present in the influent will generate NH4+, which concomitantly binds CO2.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[1]/p[5]", "xml_id": null, "section_heading": "Reactor Performance"}]
+The main protein sources of the influent were ovalbumin (200 mg L–1), milk powder (600 mg L–1), and yeast extract (510 mg L–1). The protein percentage of milk powder and yeast extract is around 25% w/w.36,37 Food proteins contain 16% nitrogen (by weight);38 therefore, the NH4+ generated by the influent proteins represents less than 15% of the total ammonium produced by urea, thus having a minor impact on the binding of CO2. Research showed that under a high acid neutralization capacity (ANC) to total inorganic produced carbon (TIC) ratio, a decrease in carbon dioxide content in the biogas can be expected.39 The observed methane concentrations in the biogas of the AnMBR and MA-AnMBR are therefore in line with the literature.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[1]/p[6]", "xml_id": null, "section_heading": "Reactor Performance"}]
+An increase in carbon dioxide in the biogas of less than 50 mL d–1 can be expected under aerobic respiration due to the added oxygen in the AnMBR (representing around 1% of the influent COD). To better understand the biogas composition, the AnMBR and MA-AnMBR conditions were modeled using the ammonium database of the PhreeqC software. Results of the model showed concentrations of CH4 and CO2 of 87.8 and 6.7%, respectively, for the AnMBR, and 90.0 and 4.5% for the MA-AnMBR state. Relatively low discrepancies between the model outputs and observed biogas composition of 5.8 and 6% for the AnMBR and MA-AnMBR, respectively, were observed. Further discussions on the PhreeqC model results and biogas composition dependency on feed characteristics can be found in the Supporting Information, Supporting Information E.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[1]/p[7]", "xml_id": null, "section_heading": "Reactor Performance"}]
+Finally, the COD mass balance was calculated for the AnMBR and MA-AnMBR states. For the biogas COD, the maximum daily biogas production was considered instead of the average values due to the high standard deviation (due to operational and maintenance issues). Influent, permeate, and sludge flows were considered as defined by the operation conditions specified in Table 1. The difference in biogas production between the AnMBR and MA-AnMBR corresponded to a COD load of around 1300 mgCOD d–1, while theoretical calculations of aerobic degradation due to the supplied oxygen load corresponded to a potential degradation of 112 mgCOD d–1. Thus, while aerobic degradation could have contributed to the observed decrease in biogas production (and methane content), the changes in the biogas quantity cannot be attributed to aerobic degradation of the influent COD alone. Results showed an off-balance of 5% for AnMBR and 9% for MA-AnMBR when compared to the influent COD load. Biogas COD corresponded to 93 and 79% of the influent COD at the AnMBR and MA-AnMBR states, respectively, while the permeate and sludge COD loads did not vary significantly between the reactor states. The COD balance for each reactor period is presented in Supporting Information F.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[2]/p[1]", "xml_id": null, "section_heading": "Effects of Microaeration on Physical Sludge Characteristics"}]
+Solids concentration, particle size, and viscosity varied for each of the reactor periods. While the sludge total solids concentration increased with microaeration, from 4.6 ± 0.3 to 5.8 ± 0.5 g L–1, no significant change was observed in the volatile solids. Changes in the TSS content are in line with the increased precipitation of phosphate compounds (like hydroxyapatite). The supplied oxygen would maximally increase 0.04 gVSS L–1 of aerobic biomass, assuming a yield of 0.5 gVSS gCOD–1,6 which is considered negligible for the prevailing AnMBR and MA-AnMBR TSS concentrations, 4.8 and 5.8 gTSS L–1 respectively.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[2]/p[2]", "xml_id": null, "section_heading": "Effects of Microaeration on Physical Sludge Characteristics"}]
+Sludge viscosity and PSD changed from AnMBR to the MA-AnMBR period. Based on the rheometer results, MA-AnMBR sludge viscosity decreased when compared to the AnMBR. Under shear rates of 1.0 and 100.0 s–1, MA-AnMBR showed shear stress values of 0.001 and 0.098 Pa, respectively, while for the AnMBR sludge, these values were 0.031 and 0.205. The shear stress against the shear rate for the different sludges is shown in Supporting Information G. Furthermore, PSD of the MA-AnMBR sludge showed a statistical increase in D10, D50, and D90 compared to the AnMBR sludge (p-values below 0.05). The highest difference was observed for the D90 particles, where the average particle diameter from the MA-AnMBR sludge, i.e., 19.5 μm, was almost 90% larger than the ones from the AnMBR sludge, i.e., 10.6 μm (Table 2). A lower apparent viscosity can be potentially linked to better mixing and higher biogas production rates.40
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[3]/sec[1]/p[1]", "xml_id": null, "section_heading": "Substrate Degradation Potential with Microaeration"}]
+Following the observed changes in ammonium and phosphate concentrations between the AnMBR and MA-AnMBR operational periods, protein degradation was assessed. One of the main protein sources in the synthetic influent was ovalbumin; the degradation of which was tested under different aeration conditions in batch tests. Results showed that protein and carbohydrate concentrations in sludge decreased when aeration increased (Figure 3). When no aeration was applied (further referred to as Ovalbumin A0), total proteins and carbohydrate concentrations were 732 ± 10 and 400 ± 1 mgCOD L–1, respectively. While degradation of total proteins and carbohydrates seemed to increase with aeration, the change was statistically insignificant (p-value above 0.05). Nevertheless, the difference was notable in the soluble fraction. Soluble protein concentration was 10.3 mgCOD L–1 when the supplied oxygen was 5% of the substrate COD load (further referred to as Ovalbumin A3), and 14.3 mgCOD L–1 for Ovalbumin A0, showing a significant 28% reduction (p-value < 0.001). Moreover, soluble carbohydrates concentration decreased from 18.2 to 17.0 mgCOD L–1 in A0 and A3 respectively, (p-value < 0.05). Thus, the added aeration contributed to an increased degradation of soluble protein and carbohydrates.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[3]/sec[1]/fig[1]/caption[1]/p[1]", "xml_id": null, "section_heading": "Substrate Degradation Potential with Microaeration"}]
+Concentrations of total and soluble proteins and carbohydrates. The substrate used for the batch experiments was ovalbumin, macronutrients, and micronutrients, in a composition similar to that selected for the reactor feed. The inoculum used was the AnMBR state sludge. The batch tests were conducted for 28 days, and aeration took place on the first 6 days. Values displayed are the mean over the triplicate samples followed by the standard deviation.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[3]/sec[2]/p[1]", "xml_id": null, "section_heading": "Sludge-Specific Methanogenic Activity under Different Aeration Conditions"}]
+The SMA of the MA-AnMBR sludge was measured under different aeration conditions, using biomass from the laboratory-scale reactor as inoculum that was harvested from the AnMBR stage (S0), during adaptation (S1–S3) and after full adaptation to microaeration (S4). The SMA results can be seen in Figure 4. The aeration during the SMA test corresponded to ratios of oxygen over substrate COD loads of 3, 8, and 13%. For any given inoculum, an increase in the level of aeration resulted in a decreased SMA.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[3]/sec[2]/fig[1]/caption[1]/p[1]", "xml_id": null, "section_heading": "Sludge-Specific Methanogenic Activity under Different Aeration Conditions"}]
+SMA in gCOD gVSS–1 d–1 of sludge inocula under different aerations. The oxygen supplied to each SMA bottle was calculated based on the oxygen overload of substrate COD (CODin) ratio, at 20 °C, and considering an air composition of 21% oxygen and 79% nitrogen. Blank results under the different aerations indicate no measurements. Columns with an * show that the difference between the SMA of the sample was significant when compared to the no added oxygen conditions (p values < 0.05).
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[3]/sec[2]/p[2]", "xml_id": null, "section_heading": "Sludge-Specific Methanogenic Activity under Different Aeration Conditions"}]
+Significant SMA decreases (with p-values below 0.01) of 14, 33, and 48% for the AnMBR state inoculum were observed with increasing aerations corresponding to 3, 8, and 13% of substrate COD load, respectively. The tests performed with inoculums from the Adaption period showed a statistically significant decrease in SMA for all three stages (S1, S2, and S3) of 20 and 35% when added oxygen corresponded to 8 and 13% of substrate COD, respectively (p-values below 0.01). No statistical variation was observed for the aeration corresponding to 3% substrate COD (p-values above 0.4). SMA results showed a tendency toward biomass adaptation to small amounts of added oxygen. A negligible impact on SMA was also observed for the MA-AnMBR state sludge for the lowest aeration (p-value of 0.6). Furthermore, this inoculum also had an insignificant reduction in SMA when the added oxygen was 8% of the substrate COD. Nevertheless, the absence of significant differences could be linked to the high standard deviations. Relative standard deviations above 20% were observed in all SMA tests conducted for the MA-AnMBR state inoculum subjected to an oxygen increase of 8% of substrate COD, which was performed five times and in triplicates. Finally, IC50, an SMA decrease above 50% (p-value of 0.04), was observed for the MA-AnMBR state inoculum exposed to oxygen that corresponded to 13% of the substrate COD load. All p-values are given in the Supporting Information, Supporting Information H.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[3]/sec[2]/p[3]", "xml_id": null, "section_heading": "Sludge-Specific Methanogenic Activity under Different Aeration Conditions"}]
+Even though SMA deterioration was observed for added oxygen contents of 8 and 13%, no variation in the lag-phases in the methane production of the different inoculums was observed. Furthermore, the negligible change in SMA of the MA-AnMBR sludge subjected to 3% oxygen over substrate COD load suggested that the acetotrophic methanogenic biomass can tolerate small amounts of added oxygen, apparently creating resistance toward it.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[4]/p[1]", "xml_id": null, "section_heading": "Nutrient Removal in the MA-AnMBR vs AnMBR"}]
+Although the difference in total protein concentration between MA-AnMBR and AnMBR was statistically insignificant, the change in soluble proteins showed an increase in protein degradation when oxygen was added to the reactor (see Figure 3). Soluble protein concentration in the microaerated sludge was 30–35% lower than the one in the AnMBR sludge. It is hypothesized that the 30% reduction in soluble protein concentration is directly linked to an increase in the hydrolytic capacity of the biomass and the decrease in the permeate COD from 90.6 to 74.6 mgCOD L–1. This hypothesis was confirmed by the fact that the ammonium concentration during the MA-AnMBR period was 1.3 times higher than that during the AnMBR period. Hydrolysis is commonly considered the rate-limiting step when treating wastewater with high concentrations of particulate matter.41 Since hydrolysis occurs under a wide range of redox conditions, the observed increased protein hydrolysis, suggests that the addition of oxygen may enhance the hydrolysis rate of protein and thus the overall digestion performance.42,43
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[4]/p[2]", "xml_id": null, "section_heading": "Nutrient Removal in the MA-AnMBR vs AnMBR"}]
+The results of PhreeqC modeling showed that the reactor broth was supersaturated for, among others, hydroxyapatite, Ca5(PO4)3OH, under both AnMBR and MA-AnMBR periods. Furthermore, the saturation indexes (SI) increased by 12% to 6.4, under the MA-AnMBR operational conditions compared to the AnMBR state, with pH values of 7.65 and 7.43, respectively. Aside from hydroxyapatite, aragonite, and calcite (carbonate minerals) saturation indexes increased from the AnMBR to the MA-AnMBR periods, from 0.4 and 0.5 to 0.5 and 0.7, respectively. This increase in carbonate minerals can be further linked to a decrease in the partial pressure of CO2 in the biogas. Since under all conditions, ORP levels showed values below −250 mV, it can be assumed that anaerobic conditions were maintained in the laboratory-scale reactor. Hydroxyapatite SI indicated precipitation of the mineral under both AnMBR and MA-AnMBR states. The precipitation of hydroxyapatite can be further linked to an increase in the concentration of calcium and phosphate in the sludge of the laboratory-scale reactor. When compared to the AnMBR, the phosphate concentration in MA-AnMBR permeate reduced to half, from 55.1 to 27.6 mgPO43–-P L–1.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[5]/p[1]", "xml_id": null, "section_heading": "Increase in Superoxide Dismutase Activity"}]
+Microbial SOD activity of the MA-AnMBR sludge increased by a factor of 3 compared to that of the AnMBR inoculum sludge, i.e., 4.3 ± 0.4 and 1.4 ± 0.1 U mgProtein–1, respectively. An increase in SOD activity of the MA-AnMBR sample is linked to a higher amount of antioxidant enzymes that protect against oxidant stress situations.44 Enzymatic production requires an extensive energy investment in enzyme synthesis and excretion, consuming up to 5% of bacterial productivity.45,46 Thus, an increase in the SOD activity can be linked to an additional need for organic matter from the microorganisms to produce the enzyme, resulting in a lower sludge yield.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[5]/p[2]", "xml_id": null, "section_heading": "Increase in Superoxide Dismutase Activity"}]
+The surge in SOD activity is associated with a higher tolerance to oxygen since it is likely related to the neutralization of superoxide anion radicals and a localized decrease in redox potential.47 Since no changes in the reactor ORP were observed, a rise in the enzyme activity could be responsible for regulating the oxygen tolerance of the biomass at a localized level. Results of the SOD activity can also be linked to MA-AnMBR sludge SMA. The negligible decrease in SMA of the MA-AnMBR subjected to an oxygen load equivalent to 3% of the substrate COD load indicated an increase in oxygen tolerance of the MA-AnMBR methanogenic biomass, and it could therefore be related to the rise in SOD activity. Even though SMA changes were negligible, biogas production in the lab-scale reactor decreased by 25% during MA-AnMBR versus AnMBR operation. This decrease potentially might be attributed to an increased anabolism to produce the SOD enzyme as well as microbial community shifts, but further studies are necessary to verify this.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[3]/sec[5]/p[3]", "xml_id": null, "section_heading": "Increase in Superoxide Dismutase Activity"}]
+For further information about the effect of air supplied into the AnMBR on the microbial community of the MA-AnMBR, see Supporting Information G.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[4]/p[1]", "xml_id": null, "section_heading": "Conclusions"}]
+A study was conducted on the effects of microaeration on a laboratory-scale anaerobic membrane bioreactor (MA-AnMBR), where the given oxygen load mimics the conditions of an anaerobic digester–dissolved air flotation system (AD-DAF). The main conclusions of the research are as follows:
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[4]/list[1]/list-item[1]/p[1]", "xml_id": null, "section_heading": "Conclusions"}]
+The microaeration addition (55 mLO2 d–1) showed negligible effects on the operation of the MA-AnMBR, and performance remained stable. Permeate COD decreased from 90.6 ± 4.4 during AnMBR to 74.6 ± 19.0 mgCOD L–1 during MA-AnMBR operation. Furthermore, the produced biogas quantity decreased by 27%, which could not be solely attributed to aerobic conversions.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[4]/list[1]/list-item[2]/p[1]", "xml_id": null, "section_heading": "Conclusions"}]
+Ammonium concentration in the permeate increased from 547 to 740 mgNH4+-N L–1, following AnMBR to MA-AnMBR, respectively. This suggests a higher hydrolytic capacity of protein in the latter. The increased ammonium concentration led to a further increase in buffer capacity and pH, subsequently decreasing biogas CO2 content further.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[4]/list[1]/list-item[3]/p[1]", "xml_id": null, "section_heading": "Conclusions"}]
+When compared to the AnMBR, orthophosphate concentration in MA-AnMBR permeate was halved, from 55.1 to 27.6 mgPO43–-P L–1. The measured change in pH from 7.42 to 7.65 resulted in increased hydroxyapatite precipitation in the MA-AnMBR period and a decrease in the permeate orthophosphate concentration.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[4]/list[1]/list-item[4]/p[1]", "xml_id": null, "section_heading": "Conclusions"}]
+MA-AnMBR sludge adapted to given oxygen exposure. Microbial adaptation was revealed by the increase in superoxide dismutase (SOD) enzyme activity, which tripled from AnMBR to MA-AnMBR operation (1.4 ± 0.1 and 4.3 ± 0.4 U mgProtein–1 respectively). Furthermore, the specific methanogenic activity (SMA) of the MA-AnMBR sludge was not affected despite an oxygen exposure of 3% of the substrate COD load.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[4]/p[2]", "xml_id": null, "section_heading": "Conclusions"}]
+Oxygen inhibition was considered a major concern for the feasibility of employing the DAF as an alternative solid retention mechanism in anaerobic bioreactors. All obtained results in AnMBR showed that the provided oxygen loads, mimicking the coupling of an anaerobic digester with a DAF (AD-DAF), had negligible effects on the performance of the anaerobic conversion process. Owing to the promising hydraulic characteristics, the potential of AD-DAF deserves further exploration in a representatively sized system.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[5]/p[1]", "xml_id": null, "section_heading": "Acknowledgments"}]
+Our gratitude goes to the laboratory technicians at TU-Delft Water Lab. Furthermore, we are thankful for the work done by K.B.S. and P.K. during their time at TU-Delft. Finally, the authors would like to express their gratitude to J.A. van der Werf for his feedback on the scientific writing.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[6]/p[1]", "xml_id": null, "section_heading": "Supporting Information Available"}]
+The Supporting Information is available free of charge at https://pubs.acs.org/doi/10.1021/acsestwater.3c00544.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[6]/list[1]/list-item[1]/p[1]", "xml_id": null, "section_heading": "Supporting Information Available"}]
+Additional experimental details; materials and methods; additional information on experimental results; effluent and sludge characteristics; modeling of the reactor performance using PhreeqC; and microbial community (PDF)
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[7]/p[1]", "xml_id": null, "section_heading": "Author Contributions"}]
+The manuscript was written through the contributions of all authors. All authors have approved the final version of the manuscript and contributed to the manuscript as follows: *+-: research conception and design; *“∼: data collection; *+@: analysis and interpretation of results; *“∼+-: draft manuscript preparation.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[8]/p[1]", "xml_id": null, "section_heading": null}]
+This research was funded by NWO (Project number 15424-2) and the Department of Biotechnology (DBT) (BT/IN/Indo-Dutch/19/TRS/2016), as part of the LOTUS-HR program (https://lotushr.org).
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[9]/p[1]", "xml_id": null, "section_heading": null}]
+The authors declare no competing financial interest.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[10]/supplementary-material[1]/media[1]/caption[1]/p[1]", "xml_id": null, "section_heading": "Supplementary Material"}]
+ew3c00544_si_001.pdf
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[1]", "xml_id": "ref1", "section_heading": "References"}]
+van Lier J. B.; Mahmoud N.; Zeeman G., Anaerobic wastewater treatment. In Biological wastewater treatment, principles, modelling and design; IWA Publishing: Glasgow, 2008; pp 415–456.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[2]", "xml_id": "ref2", "section_heading": "References"}]
+van Lier J. B. High-rate anaerobic wastewater treatment: diversifying from end-of-the-pipe treatment to resource-oriented conversion techniques. Water Sci. Technol. 2008, 57 (8), 1137–1148. 10.2166/wst.2008.040.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[3]", "xml_id": "ref3", "section_heading": "References"}]
+Li, Application of membrane anaerobic reactor system for the treatment of industrial wastewaters. In Ind. Waste Conf. Purdue Univ.; 1985, Vol. 39, pp 627–636.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[4]", "xml_id": "ref4", "section_heading": "References"}]
+Ozgun H.; Dereli R. K.; Ersahin M. E.; Kinaci C.; Spanjers H.; van Lier J. B. A review of anaerobic membrane bioreactors for municipal wastewater treatment: integration options, limitations and expectations. Sep. Purif. Technol. 2013, 118, 89–104. 10.1016/j.seppur.2013.06.036.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[5]", "xml_id": "ref5", "section_heading": "References"}]
+Dereli R. K.; et al. Potentials of anaerobic membrane bioreactors to overcome treatment limitations induced by industrial wastewaters. Bioresour. Technol. 2012, 122, 160–170. 10.1016/j.biortech.2012.05.139.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[6]", "xml_id": "ref6", "section_heading": "References"}]
+Metcalf. Wastewater engineering: treatment and resource recovery; McGraw Hill Education: 2014.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[7]", "xml_id": "ref7", "section_heading": "References"}]
+Kiuru H. J., Unit operations for the removal of solids and their combinations in water treatment. In Chemical water and wastewater Treatment; Springer: 1990; pp 169–186.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[8]", "xml_id": "ref8", "section_heading": "References"}]
+Cagnetta C.; et al. High-rate activated sludge systems combined with dissolved air flotation enable effective organics removal and recovery. Bioresour. Technol. 2019, 291, 121833 10.1016/j.biortech.2019.121833.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[9]", "xml_id": "ref9", "section_heading": "References"}]
+Piaggio A. L.; Soares L. A.; Balakrishnan M.; Guleria T.; de Kreuk M. K.; Lindeboom R. E. High suspended solids removal of Indian drain water with a down-scaled Dissolved Air Flotation (DAF) for water recovery. Assessing water-type dependence on process control variables. Environ. Challenges 2022, 8, 100567 10.1016/j.envc.2022.100567.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[10]", "xml_id": "ref10", "section_heading": "References"}]
+Botheju D.; Bakke R. Oxygen effects in anaerobic digestion-a review. Open Waste Manage. J. 2011, 4, 1–19. 10.2174/1876400201104010001.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[11]", "xml_id": "ref11", "section_heading": "References"}]
+Kato M. T.; Field J. A.; Lettinga G. High tolerance of methanogens in granular sludge to oxygen. Biotechnol. Bioeng. 1993, 42 (11), 1360–1366. 10.1002/bit.260421113.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[12]", "xml_id": "ref12", "section_heading": "References"}]
+Brioukhanov A.; Thauer R.; Netrusov A. Catalase and superoxide dismutase in the cells of strictly anaerobic microorganisms. Microbiology 2002, 71 (3), 281–285. 10.1023/A:1015846409735.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[13]", "xml_id": "ref13", "section_heading": "References"}]
+Girotto F.; Peng W.; Rafieenia R.; Cossu R. Effect of aeration applied during different phases of anaerobic digestion. Waste Biomass Valorization 2018, 9 (2), 161–174. 10.1007/s12649-016-9785-9.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[14]", "xml_id": "ref14", "section_heading": "References"}]
+Sasidhar K.; Somasundaram M.; Ekambaram P.; Arumugam S. K.; Nataraj G.; Murugan M. A. A critical review on the effects of pneumatic mixing in anaerobic digestion process. J. Cleaner Prod. 2022, 378, 134513 10.1016/j.jclepro.2022.134513.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[15]", "xml_id": "ref15", "section_heading": "References"}]
+Nguyen D.; Khanal S. K. A little breath of fresh air into an anaerobic system: How microaeration facilitates anaerobic digestion process. Biotechnol. Adv. 2018, 36 (7), 1971–1983. 10.1016/j.biotechadv.2018.08.007.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[16]", "xml_id": "ref16", "section_heading": "References"}]
+Díaz I.; Pérez S.; Ferrero E.; Fdz-Polanco M. Effect of oxygen dosing point and mixing on the microaerobic removal of hydrogen sulphide in sludge digesters. Bioresour. Technol. 2011, 102 (4), 3768–3775. 10.1016/j.biortech.2010.12.016.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[17]", "xml_id": "ref17", "section_heading": "References"}]
+Lim J. W.; Wang J.-Y. Enhanced hydrolysis and methane yield by applying microaeration pretreatment to the anaerobic co-digestion of brown water and food waste. Waste Manage. 2013, 33 (4), 813–819. 10.1016/j.wasman.2012.11.013.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[18]", "xml_id": "ref18", "section_heading": "References"}]
+Nguyen D.; Wu Z.; Shrestha S.; Lee P.-H.; Raskin L.; Khanal S. K. Intermittent micro-aeration: New strategy to control volatile fatty acid accumulation in high organic loading anaerobic digestion. Water Res. 2019, 166, 115080 10.1016/j.watres.2019.115080.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[19]", "xml_id": "ref19", "section_heading": "References"}]
+Botheju D.; Samarakoon G.; Chen C.; Bakke R., An experimental study on the effects of oxygen in bio-gasification; Part 1, presented at the proceedings of the International Conference on Renewable Energies and Power Quality (ICREPQ 10); Granada, Spain, 2010.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[20]", "xml_id": "ref20", "section_heading": "References"}]
+Raheem A.; Wakg W. A.; Yap Y. T.; Danquah M. K.; Harun R. Optimization of the microalgae Chlorella vulgaris for syngas production using central composite design. RSC Adv. 2015, 5 (88), 71805–71815. 10.1039/C5RA10503J.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[21]", "xml_id": "ref21", "section_heading": "References"}]
+Kuramae E. E.; et al. On-site blackwater treatment fosters microbial groups and functions to efficiently and robustly recover carbon and nutrients. Microorganisms 2021, 9 (1), 75. 10.3390/microorganisms9010075.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[22]", "xml_id": "ref22", "section_heading": "References"}]
+American Public Health Association , “APHA. 2005”, Standard Methods for the Examination of Water and Wastewater. 21st ed. American Public Health Association: Washington DC, 2013; p 1220.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[23]", "xml_id": "ref23", "section_heading": "References"}]
+García Rea V. S.; et al. Enhancing phenol conversion rates in saline anaerobic membrane bioreactor using acetate and butyrate as additional carbon and energy sources. Front. Microbiol. 2020, 11, 604173 10.3389/fmicb.2020.604173.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[24]", "xml_id": "ref24", "section_heading": "References"}]
+Ceron-Chafla P.; Kleerebezem R.; Rabaey K.; van Lier J. B.; Lindeboom R. E. Direct and indirect effects of increased CO2 partial pressure on the bioenergetics of syntrophic propionate and butyrate conversion. Environ. Sci. Technol. 2020, 54 (19), 12583–12592. 10.1021/acs.est.0c02022.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[25]", "xml_id": "ref25", "section_heading": "References"}]
+Fro̷lund B.; Griebe T.; Nielsen P. Enzymatic activity in the activated-sludge floc matrix. Appl. Microbiol. Biotechnol. 1995, 43 (4), 755–761. 10.1007/BF00164784.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[26]", "xml_id": "ref26", "section_heading": "References"}]
+Dubois M.; Gilles K. A.; Hamilton J. K.; Rebers P. T.; Smith F. Colorimetric method for determination of sugars and related substances. Anal. Chem. 1956, 28 (3), 350–356. 10.1021/ac60111a017.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[27]", "xml_id": "ref27", "section_heading": "References"}]
+Spanjers H.; Vanrolleghem P., Respirometry. In Experimental Methods in Wastewater Treatment; IWA publishing: London, 2016; ch. 3, pp 133–176.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[28]", "xml_id": "ref28", "section_heading": "References"}]
+Sophonsiri C.; Morgenroth E. Chemical composition associated with different particle size fractions in municipal, industrial, and agricultural wastewaters. Chemosphere 2004, 55 (5), 691–703. 10.1016/j.chemosphere.2003.11.032.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[29]", "xml_id": "ref29", "section_heading": "References"}]
+Gonzalez A.; van Lier J. B.; de Kreuk M. K. Effects of mild thermal pre-treatment combined with H2O2 addition on waste activated sludge digestibility. Waste Manage. 2022, 141, 163–172. 10.1016/j.wasman.2022.01.017.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[30]", "xml_id": "ref30", "section_heading": "References"}]
+Kato M.; Field J.; Lettinga G.. Anaerobe tolerance to oxygen and the potentials of anaerobic and aerobic cocultures for wastewater treatment. Br. J. Chem. Eng. 1997, 14 ( (4), ), 10.1590/S0104-66321997000400015.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[31]", "xml_id": "ref31", "section_heading": "References"}]
+Description of input and examples for PHREEQC version 3—a computer program for speciation, batch-reaction, one-dimensional transport, and inverse geochemical calculations; 2013. U.S. Geological Survey [Online]. Available: https://pubs.usgs.gov/tm/06/a43/.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[32]", "xml_id": "ref32", "section_heading": "References"}]
+Ekama G. A.; Wentzel M. C.. Organic material removal. In Biological wastewater treatment: principles, modelling and design; IWA Publishing: Glasgow, 2008; pp 53–86.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[33]", "xml_id": "ref33", "section_heading": "References"}]
+Pepper I. L.; Gentry T. J.. Earth environments. In Environmental microbiology; Elsevier: 2015; pp 59–88.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[34]", "xml_id": "ref34", "section_heading": "References"}]
+Ferrari F.; Balcazar J. L.; Rodriguez-Roda I.; Pijuan M. Anaerobic membrane bioreactor for biogas production from concentrated sewage produced during sewer mining. Sci. Total Environ. 2019, 670, 993–1000. 10.1016/j.scitotenv.2019.03.218.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[35]", "xml_id": "ref35", "section_heading": "References"}]
+Chernicharo C.; Van Lier J.; Noyola A.; Bressani Ribeiro T. Anaerobic sewage treatment: state of the art, constraints and challenges. Rev. Environ. Sci. Bio/Technol. 2015, 14 (4), 649–679. 10.1007/s11157-015-9377-3.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[36]", "xml_id": "ref36", "section_heading": "References"}]
+Kamizake N. K.; Gonçalves M. M.; Zaia C. T.; Zaia D. A. Determination of total proteins in cow milk powder samples: a comparative study between the Kjeldahl method and spectrophotometric methods. J. Food Compos. Anal. 2003, 16 (4), 507–516. 10.1016/S0889-1575(03)00004-8.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[37]", "xml_id": "ref37", "section_heading": "References"}]
+Klotz S.; Kuenz A.; Prüße U. Nutritional requirements and the impact of yeast extract on the d-lactic acid production by Sporolactobacillus inulinus. Green Chem. 2017, 19 (19), 4633–4641. 10.1039/C7GC01796K.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[38]", "xml_id": "ref38", "section_heading": "References"}]
+Moore J. C.; DeVries J. W.; Lipp M.; Griffiths J. C.; Abernethy D. R. Total protein methods and their potential utility to reduce the risk of food protein adulteration. Compr. Rev. Food Sci. Food Saf. 2010, 9 (4), 330–357. 10.1111/j.1541-4337.2010.00114.x.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[39]", "xml_id": "ref39", "section_heading": "References"}]
+Lindeboom R. E.; Weijma J.; van Lier J. B. High-calorific biogas production by selective CO2 retention at autogenerated biogas pressures up to 20 bar. Environ. Sci. Technol. 2012, 46 (3), 1895–1902. 10.1021/es202633u.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[40]", "xml_id": "ref40", "section_heading": "References"}]
+Wei P.; Mudde R. F.; Uijttewaal W.; Spanjers H.; van Lier J. B.; de Kreuk M. Characterising the two-phase flow and mixing performance in a gas-mixed anaerobic digester: Importance for scaled-up applications. Water Res. 2019, 149, 86–97. 10.1016/j.watres.2018.11.049.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[41]", "xml_id": "ref41", "section_heading": "References"}]
+Visvanathan C.; Abeynayaka A. Developments and future potentials of anaerobic membrane bioreactors (AnMBRs). Membr. Water Treat. 2012, 3 (1), 1–23. 10.12989/mwt.2012.3.1.001.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[42]", "xml_id": "ref42", "section_heading": "References"}]
+Azman S.; Khadem A. F.; Van Lier J. B.; Zeeman G.; Plugge C. M. Presence and role of anaerobic hydrolytic microbes in conversion of lignocellulosic biomass for biogas production. Crit. Rev. Environ. Sci. Technol. 2015, 45 (23), 2523–2564. 10.1080/10643389.2015.1053727.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[43]", "xml_id": "ref43", "section_heading": "References"}]
+Sun L.; Müller B.; Schnürer A. Biogas production from wheat straw: community structure of cellulose-degrading bacteria. Energy, Sustainability Soc. 2013, 3 (1), 1–11. 10.1186/2192-0567-3-15.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[44]", "xml_id": "ref44", "section_heading": "References"}]
+De Raeve H.; et al. Decreased Cu, Zn-SOD activity in asthmatic airway epithelium: correction by inhaled corticosteroid in vivo. Am. J. Physiol.-Lung Cell. Mol. Physiol. 1997, 272 (1), L148–L154. 10.1152/ajplung.1997.272.1.L148.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[45]", "xml_id": "ref45", "section_heading": "References"}]
+Frankena J.; Van Verseveld H.; Stouthamer A. Substrate and energy costs of the production of exocellular enzymes by Bacillus licheniformis. Biotechnol. Bioeng. 1988, 32 (6), 803–812. 10.1002/bit.260320612.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[46]", "xml_id": "ref46", "section_heading": "References"}]
+Christiansen T.; Nielsen J. Production of extracellular protease and glucose uptake in Bacillus clausii in steady-state and transient continuous cultures. J. Biotechnol. 2002, 97 (3), 265–273. 10.1016/S0168-1656(02)00109-8.
+
+[{"type": "jats_reference", "xpath": "/article/body[1]/sec[11]/sec[1]/ref-list[1]/ref[47]", "xml_id": "ref47", "section_heading": "References"}]
+Fridovich I. Superoxide radical and superoxide dismutases. Annu. Rev. Biochem. 1995, 64 (1), 97–112. 10.1146/annurev.bi.64.070195.000525.
+
+[{"type": "jats_paragraph", "xpath": "/article/body[1]/sec[12]/sec[1]/supplementary-material[1]/media[1]/caption[1]/p[1]", "xml_id": null, "section_heading": "Supplementary Materials"}]
+ew3c00544_si_001.pdf
+

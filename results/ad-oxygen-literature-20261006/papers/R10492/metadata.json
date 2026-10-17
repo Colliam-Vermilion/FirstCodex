@@ -70,15 +70,51 @@
         "body_verified": true,
         "new_topic_search": false
       },
-      "recovery_checked_at_utc": "2026-10-17T11:37:12.488596+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:42:59.704338+00:00"
     }
   ],
   "version_history": [],
   "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
-  "recovery_checked_at_utc": "2026-10-17T11:37:12.766438+00:00",
+  "recovery_checked_at_utc": "2026-10-17T11:43:00.008604+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
     "R10492.main.3e5bb123d9d9d4ad"
   ],
-  "current_main_multipart_groups": []
+  "current_main_multipart_groups": [],
+  "supplementary_external_data_links": [
+    {
+      "record_id": "R10492",
+      "accession": "PRJNA1128434",
+      "url": "https://www.ebi.ac.uk/ena/browser/view/PRJNA1128434",
+      "size_bytes": 22575906611,
+      "size_status": "Sum of public ENA FASTQ file byte counts for the full accession/project; may exceed the subset used by this paper",
+      "size_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1128434&result=read_run&fields=run_accession%2Cfastq_bytes&format=tsv",
+      "public_run_count": 9,
+      "size_metadata_path": "inventory/recovery_20261017/external_data_size_probes/PRJNA1128434.tsv",
+      "size_metadata_sha256": "86375015c1b9bdbe14204b2e7b83a4b01c0e1717cf969d21f644a828cc575f48",
+      "downloaded": false,
+      "kind": "external_sequencing_database_project",
+      "association": "Reviewed own methods/data availability statement; not a reference citation",
+      "article_statement_evidence": [
+        {
+          "source_sha256": "3e5bb123d9d9d4add19c728f272d23055ccb980cf99cb60f516f7c2567ccee11",
+          "location": {
+            "type": "pdf_block",
+            "pdf_page": 4,
+            "pdf_page_label": "",
+            "block": 1,
+            "bbox_points": [
+              56.6400146484375,
+              59.96828842163086,
+              541.615234375,
+              235.03811645507812
+            ]
+          },
+          "source_asset_id": "R10492.main.3e5bb123d9d9d4ad",
+          "statement": "ed-end libraries, the extracted DNA was fragmented to an average size of \napproximately 400 bp using the NEXTFLEX Rapid DNA-Seq kit. Sequencing was conducted on an \nIllumina NovaSeq (Illumina, San Diego, USA) following the manufacturer's instructions. Adaptors \nwere trimmed from Illumina reads and low-quality reads (length < 50 bp, quality value < 20, or having \nN bases) were removed using Fastp (version 0.20.0). The annotation was conducted using Diamond \n(version 0.8.35) against the KEGG database (http://www.genome.jp/keeg/) with an e-value cutoff of \n1e-5. The raw sequencing data in this study has been submitted to National Center for Biotechnology \nInformation (NCBI) with project number PRJNA1128434. \n"
+        }
+      ],
+      "automatic_bulk_download_disabled": true
+    }
+  ]
 }

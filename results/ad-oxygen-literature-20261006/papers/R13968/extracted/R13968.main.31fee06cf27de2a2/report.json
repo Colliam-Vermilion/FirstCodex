@@ -1,0 +1,54 @@
+{
+  "record_id": "R13968",
+  "asset_id": "R13968.main.31fee06cf27de2a2",
+  "source_sha256": "31fee06cf27de2a2a708bd14a09a8bc73303ebcd67efe353efcc01fc79b20cfd",
+  "source_filename": "Nhatthaphon_sr_ch4_p.pdf",
+  "canonical_source": "original_files/fulltext/R13968_Nhatthaphon_sr_ch4_p.pdf",
+  "parser_version": "1.0.0",
+  "output_directory": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/papers/R13968/extracted/R13968.main.31fee06cf27de2a2",
+  "status": "parsed",
+  "ocr_pages": 0,
+  "ocr_pending_pages": [],
+  "table_count": 0,
+  "errors": [],
+  "limitations": [
+    "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
+    "OCR language=eng; OCR values, symbols and units require checking against source page."
+  ],
+  "ocr_requested": true,
+  "pdf_pages": 21,
+  "native_pages": 21,
+  "search_chunks": 168,
+  "output_files": [
+    {
+      "relative_path": "chunks.jsonl",
+      "size_bytes": 115170,
+      "sha256": "514c93bd1a9b621771cdbc41257ee0cd78ddc5dcb85419fe9e13d76430ddbc71"
+    },
+    {
+      "relative_path": "fulltext_recovery_20261017.txt",
+      "size_bytes": 21679,
+      "sha256": "2978f9bf25747d72b5e65e3bdef4500d54de5d749a6b9745e83b1795b75f5bb2"
+    },
+    {
+      "relative_path": "pages.jsonl",
+      "size_bytes": 37808,
+      "sha256": "6f9e3f63c1be8500245efcd5166710fc7799f17b3f281a08ab6dbdf0e884d44f"
+    },
+    {
+      "relative_path": "pages_recovery_20261017.json",
+      "size_bytes": 22948,
+      "sha256": "ff66e6897a011b1e314096b657ac448ddf4c214da5ea9783fd840c621971ebc3"
+    },
+    {
+      "relative_path": "tables.json",
+      "size_bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "relative_path": "text.txt",
+      "size_bytes": 49482,
+      "sha256": "e801e858488fd5844fbb2fb8b8057e8069722d8f2389228e76be84caea7ad226"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "path": "tables/jats_table_001.csv",
+    "location": {
+      "type": "jats_table",
+      "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]",
+      "table": 1,
+      "spans_not_expanded": true
+    },
+    "rows": 16,
+    "columns": 9,
+    "quality": "automatic_extraction_not_manually_reconciled"
+  },
+  {
+    "path": "tables/jats_table_002.csv",
+    "location": {
+      "type": "jats_table",
+      "xpath": "/article/body[1]/sec[2]/sec[2]/table-wrap[1]/table[1]",
+      "table": 2,
+      "spans_not_expanded": true
+    },
+    "rows": 5,
+    "columns": 10,
+    "quality": "automatic_extraction_not_manually_reconciled"
+  },
+  {
+    "path": "tables/jats_table_003.csv",
+    "location": {
+      "type": "jats_table",
+      "xpath": "/article/body[1]/sec[2]/sec[3]/table-wrap[1]/table[1]",
+      "table": 3,
+      "spans_not_expanded": true
+    },
+    "rows": 14,
+    "columns": 5,
+    "quality": "automatic_extraction_not_manually_reconciled"
+  }
+]

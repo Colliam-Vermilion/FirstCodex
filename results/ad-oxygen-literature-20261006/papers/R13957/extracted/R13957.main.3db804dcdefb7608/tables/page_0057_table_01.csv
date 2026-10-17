@@ -1,0 +1,51 @@
+﻿"A
+ij",Components i →,1,,2,3,4,5,6,7,8,"Process rate (ρ.g COD L-1d-1)
+i"
+,Processes j ↓,"S
+𝑆𝑂42−",,S 𝐻𝑆−,"S
+𝐻2𝑆","S
+𝑆2𝑂32−","S
+𝑆","S
+𝑂2","X
+𝐶","X
+𝑆𝑂𝐵",
+1,"Uptake of H S by X
+2 SOB",,,,-1,,1,"(16 −𝑌 )
+𝑆𝑂𝐵
+−
+32",,"Y
+SOB","𝑆 S
+𝐻2𝑆 𝑂2
+𝜌 = 𝑘 𝑚.𝐻2𝑆.𝑆𝑂𝐵∙ ∙𝑋 𝑆𝑂𝐵∙
+1 𝐾 + 𝑆 𝐾 + S
+𝑆.𝐻2𝑆.𝑆𝑂𝐵 𝐻2𝑆 𝑆.𝑂2.𝑆𝑂𝐵 𝑂2"
+2,"Uptake of S0 by X
+SOB",1,,,,,-1,"(48 −𝑌 )
+𝑆𝑂𝐵
+−
+32",,"Y
+SOB","𝑆 S
+𝑆 𝑂2
+𝜌 = 𝑘 𝑚.𝑆.𝑆𝑂𝐵∙ ∙𝑋 𝑆𝑂𝐵∙
+2 𝐾 + 𝑆 𝐾 + S
+𝑆.𝑆.𝑆𝑂𝐵 𝑆 𝑆.𝑂2.𝑆𝑂𝐵 𝑂2"
+3,"Chemical H S oxidation
+2",,,,-1,0.5,,-1,,,"𝛼 𝛽
+𝜌 = 𝑘 𝑐ℎ𝑒𝑚.𝑜𝑥∙(𝑆 𝐻2𝑆) ∙(S 𝑂2)
+4 𝐻2𝑆"
+4,"Chemical S O 2- oxidation
+2 3",1,,,,-1,1,-0.5,,,"𝛾 𝛿
+𝜌 = 𝑘 𝑆2𝑂32−𝑐ℎ𝑒𝑚.𝑜𝑥∙(𝑆 𝑆2𝑂32−) ∙(S 𝑂2)
+3"
+5,"Decay of X
+SOB",,,,,,,,1,-1,"𝜌 = 𝑘 ∙𝑋
+5 𝑑𝑒𝑐.X𝑆𝑂𝐵 𝑆𝑂𝐵"
+A1,"H S acid-base reaction
+2",,,-1,1,,,,,,"𝐾
+𝑆𝑎.𝐻2𝑆
+𝜌 𝐴1 = 𝐾 𝐴𝐵.𝐻2𝑆∙(𝑆 𝐻𝑆−∙𝑆 𝐻+ − )
+𝐻2𝑆"
+Composition matrix,,,,,,,,,,,
+g COD per unit,,,0,64,64,64,48,-32,1,1,
+mole S per unit,,,1,1,1,2,1,0,0,0,
+,,,Sulfate (mole S L-1),Hydrogen sulfide ion (mole S L-1),Hydrogen sulfide (mole S L-1),Thiosulfate (mole S L-1),Elemental sulfur (mole S L-1),Oxygen (mole O L-1) 2,Composites (g COD L-1),SOB degraders (g COD L-1),

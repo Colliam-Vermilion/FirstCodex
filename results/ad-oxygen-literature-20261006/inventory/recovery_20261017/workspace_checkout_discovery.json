@@ -1,0 +1,412 @@
+{
+  "checkouts": [
+    {
+      "mount_path": "FirstCodex",
+      "host": "github.com",
+      "name": "Colliam-Vermilion/FirstCodex",
+      "commit": "dbd381b8372a56cb6c8395b00c7813cc919e233f"
+    }
+  ],
+  "errors": [],
+  "excluded_dependency_cache_markers": [
+    {
+      "path": "/workspace/.git",
+      "kind": "empty protected platform marker"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/sdists-v9/.git",
+      "kind": "empty uv dependency cache guard, no Git metadata"
+    }
+  ],
+  "directory_symlinks": [
+    {
+      "path": "/workspace/tools/corpus-runtime/venv/lib64",
+      "target": "/workspace/tools/corpus-runtime/venv/lib"
+    },
+    {
+      "path": "/workspace/tools/scansci-pdf-runtime/venv/lib64",
+      "target": "/workspace/tools/scansci-pdf-runtime/venv/lib"
+    },
+    {
+      "path": "/workspace/tools/nature-runtime/venv/lib64",
+      "target": "/workspace/tools/nature-runtime/venv/lib"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/referencing/0.37.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/WW-8r-9d93HWAC8I"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pygments/2.21.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/MXCWRNz27j6JuCrN"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/typer/0.27.3-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/10kCVEBa8u7hys5r"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/idna/3.20-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/9ixnVt8R5zxl7Fat"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/idna/3.18-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/AeTLGNKlZbS1jqK9"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/openpyxl/3.1.5-py2.py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/399A8ohadS7OYDNi"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/python-dotenv/1.2.2-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/wSa3S8-v0u1jHMBv"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/python-dotenv/1.2.4-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/ViSgIniGcDLI8aPc"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pymupdf/1.28.2-cp310-abi3-manylinux_2_28_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/tHbbznL-q71CgNK7"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pymupdf/1.26.6-cp310-abi3-manylinux_2_28_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/XSNqlAwGG2H1aGWJ"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/shellingham/1.5.4-py2.py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/u0VesuL7DJiHFzSo"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/typing-extensions/4.16.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/3pdhvMH9QJgPy_Sg"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/cffi/2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/CiUReVkICIQmP4hS"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/uvicorn/0.54.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/E6zACZH9uXkyq3n_"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/uvicorn/0.52.1-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/siASpoVy2yGCjaj_"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/h11/0.16.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/eDSDjqdVJIOe5xC_"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/cryptography/50.0.2-cp311-abi3-manylinux_2_34_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/GjWxUErRHFGyCE96"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/cryptography/50.0.0-cp311-abi3-manylinux_2_34_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/zOGZXxLTgxndx4t9"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pydantic/2.13.4-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/8uoYITZufiW-zSWJ"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pydantic/2.14.1-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/orFBVgMzSQDW1NCc"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pybliometrics/4.4.1-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/aVAOHEklqkSHSFX4"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/attrs/26.1.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/6H-ysPa7Bt6CurGc"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/markdown-it-py/4.2.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/6jWgoAV9g5-H6F2k"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/mcp-types/2.3.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/epLlir5YaMiwj5Cq"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/httpx/0.28.1-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/Pdw1o0Cv391oYlmm"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pysocks/1.7.1-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/jnt-ZYzgv_n_R6R1"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pypdf/6.10.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/8JBDQ9v_mDMnLdHV"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/onnxruntime/1.31.0-cp312-cp312-manylinux_2_28_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/8vwSJsGiF2oaThSy"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/tqdm/4.70.1-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/Xt_RbX1TNHTHVQhX"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/mdurl/0.1.2-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/LfSz0MFVrYK4n06v"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/psutil/7.2.2-cb8d265f43847727",
+      "target": "/workspace/tools/.cache/uv/archive-v0/baCr2seZIQUdVvY9"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/mcp/2.3.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/scbuU04aB8SLw6t0"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/mcp/1.29.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/6uxtaXNRFmSy1tUY"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/charset-normalizer/3.5.2-00b06ae7f1096870",
+      "target": "/workspace/tools/.cache/uv/archive-v0/6gSiolQ1HsUAMvLP"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/markupsafe/3.0.4-00b06ae7f1096870",
+      "target": "/workspace/tools/.cache/uv/archive-v0/CagECya7vJxuA0GV"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/certifi/2026.7.22-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/L-k_iHSLqVChqsEw"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/protobuf/7.36.2-cp310-abi3-manylinux2014_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/NTXnbj_YVknxeyUv"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/jinja2/3.1.6-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/pG0TJQCoHruaFvf_"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/python-multipart/0.0.32-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/v3Pu9W2aYbHgdN9W"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/numpy/2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/kjkLvVgvkqXvS0aK"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/et-xmlfile/2.0.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/ouDYVQPoLBKynpWi"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pillow/11.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/qJFaZPx9ZzS0nLlP"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pillow/12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/82Pz-69w22aJSUQg"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/annotated-types/0.8.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/OOD06f-2fki0wydr"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/python-docx/1.2.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/8-y5J_cizNG0OkkB"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pyyaml/6.0.3-00b06ae7f1096870",
+      "target": "/workspace/tools/.cache/uv/archive-v0/3ydrD2QZuLVFZk67"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/urllib3/2.8.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/krY6NZVAMM3zbOra"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pip/25.0.1-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/MIS55jVFuYn69WRW"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/defusedxml/0.7.1-py2.py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/U5rrkQGYCWpO10HW"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/requests/2.34.2-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/X6bqSIcwN9hUqkGm"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/jsonschema-specifications/2025.9.1-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/6HbdFlI3OvbK4le6"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pymupdf-layout/1.28.2-cp310-abi3-manylinux_2_28_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/eBqnLt3klFlLZPfO"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/toml/0.10.2-py2.py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/8L8ekuc4AyzWT8Wu"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/jsonschema/4.26.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/SF1VLO0H4CuhKJV-"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/httpx-sse/0.4.3-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/HnudVfe3po9EodJP"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pycparser/3.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/-MZUmJMd77hbyqEJ"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pycparser/3.11-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/2_-LZnghSPfNX3dY"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/packaging/26.3-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/jYzSLHBumfb4wvEi"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pydantic-settings/2.15.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/1gY-E5LWDIpec79f"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/lxml/5.4.0-cp312-cp312-manylinux_2_28_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/_J5o4CkkYmLFmG6E"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/truststore/0.10.5-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/R43HoeTA4h09FzK9"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/networkx/3.7-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/kRsTBLudPdBp6utB"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pypdfium2/5.13.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/RKhnU5xadscwN895"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pydantic-core/2.46.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/z5j94khFgpV19dDt"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pydantic-core/2.50.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/JK4lJpHjxSJVazXF"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/httpcore2/2.13.1-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/CA-_AtdE2cXThfCL"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pdfminer-six/20251230-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/t1xQdpw7F8VqXdJs"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/annotated-doc/0.0.5-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/hjvDS0BmIj1r5xl9"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/httpx2/2.13.1-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/zFZxYQBacZKeQiKi"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/click/8.5.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/qaItkPGg_eRXSU0p"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/click/8.4.2-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/kc5AKCa_NXbXkYhL"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/beautifulsoup4/4.15.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/roTFickB3PwHt_S9"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pdfplumber/0.11.9-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/ABuww5-KEugRNySs"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/starlette/1.8.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/lXfro33-QgQtphcY"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/starlette/1.6.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/dvZxi5DKwzW3CJeV"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/soupsieve/3.0.3-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/uIMKkBpbn45Cs3YO"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/opentelemetry-api/1.45.1-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/feJ_5Jximb6t7DH5"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/rpds-py/2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/myyZXTernF1jz5iA"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/rpds-py/2026.6.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64",
+      "target": "/workspace/tools/.cache/uv/archive-v0/uWwlzi1OuEs4UicF"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/rich/15.0.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/fjHKznagd0UG-AN0"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/httpcore/1.0.9-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/MxBQt5JE8KZnCXYe"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/tabulate/0.10.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/-jcvEaJzZkOuW1YK"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pyjwt/2.15.1-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/OUlhlSehWV4AayQp"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pyjwt/2.13.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/torJbS1EEw02KuvW"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/typing-inspection/0.4.3-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/9DCpzUhhzGtwtD_s"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/typing-inspection/0.4.4-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/4HZbvi32xV6tfQ2w"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/pymupdf4llm/1.28.2-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/a8z7lJ0bdpZG2G_e"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/sse-starlette/3.4.8-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/bPmEQLJXuTBdN-KR"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/sse-starlette/3.5.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/cz5n23zuwCl6gJLg"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/anyio/4.14.2-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/B8Sj4TVMhEb51Eix"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/anyio/4.15.1-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/5JAnqcgOTK11uQrg"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/flatbuffers/25.12.19-py2.py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/WDL-EIbZusYMCAQZ"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/fastapi/0.143.1-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/gwP9ruD2clFWc3tR"
+    },
+    {
+      "path": "/workspace/tools/.cache/uv/wheels-v6/pypi/scansci-pdf/1.18.0-py3-none-any",
+      "target": "/workspace/tools/.cache/uv/archive-v0/LpLCJwQ_U4sQb0_5"
+    }
+  ],
+  "complete_workspace_traversal": true
+}

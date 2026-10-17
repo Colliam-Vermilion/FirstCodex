@@ -67,15 +67,51 @@
         "title_author_doi_own_block_verified": true,
         "body_verified": true
       },
-      "recovery_checked_at_utc": "2026-10-17T11:37:12.503692+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:42:59.720424+00:00"
     }
   ],
   "version_history": [],
   "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
-  "recovery_checked_at_utc": "2026-10-17T11:37:12.767916+00:00",
+  "recovery_checked_at_utc": "2026-10-17T11:43:00.010533+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
     "R13911.main.f69f672561ec4076"
   ],
-  "current_main_multipart_groups": []
+  "current_main_multipart_groups": [],
+  "supplementary_external_data_links": [
+    {
+      "record_id": "R13911",
+      "accession": "PRJNA1056946",
+      "url": "https://www.ebi.ac.uk/ena/browser/view/PRJNA1056946",
+      "size_bytes": 49443153,
+      "size_status": "Sum of public ENA FASTQ file byte counts for the full accession/project; may exceed the subset used by this paper",
+      "size_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1056946&result=read_run&fields=run_accession%2Cfastq_bytes&format=tsv",
+      "public_run_count": 10,
+      "size_metadata_path": "inventory/recovery_20261017/external_data_size_probes/PRJNA1056946.tsv",
+      "size_metadata_sha256": "59ebaae2557fbcd65dd03ec296685e5a1814bca03aebba959fa58ed8bff1fe23",
+      "downloaded": false,
+      "kind": "external_sequencing_database_project",
+      "association": "Reviewed own methods/data availability statement; not a reference citation",
+      "article_statement_evidence": [
+        {
+          "source_sha256": "f69f672561ec40764eaf41be0da4b1dd071688b93f55db600acd6039fabede6e",
+          "location": {
+            "type": "pdf_block",
+            "pdf_page": 6,
+            "pdf_page_label": "",
+            "block": 17,
+            "bbox_points": [
+              85.08006286621094,
+              568.0799560546875,
+              484.4400329589844,
+              584.2439575195312
+            ]
+          },
+          "source_asset_id": "R13911.main.f69f672561ec4076",
+          "statement": "the Sequence Read Archive (SRA) of NCBI with project number PRJNA1056946. \n"
+        }
+      ],
+      "automatic_bulk_download_disabled": true
+    }
+  ]
 }

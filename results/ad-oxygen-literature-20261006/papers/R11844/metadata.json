@@ -74,7 +74,7 @@
         "full_output_is_not_yet_cloud_backup": true,
         "sample_repo_directory": ""
       },
-      "recovery_checked_at_utc": "2026-10-17T11:37:12.459808+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:42:59.664603+00:00"
     },
     {
       "record_id": "R11844",
@@ -108,7 +108,7 @@
         "full_output_is_not_yet_cloud_backup": true,
         "sample_repo_directory": ""
       },
-      "recovery_checked_at_utc": "2026-10-17T11:37:12.462997+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:42:59.680120+00:00"
     },
     {
       "record_id": "R11844",
@@ -123,8 +123,8 @@
       "format": "zip",
       "size_bytes": 521862,
       "sha256": "60ef29cf0a557bf44838f4a3f45e2dbf1b1a2001547f5c0b976b48cc64c1b6d9",
-      "availability": "historical_acquired_current_original_not_restored",
-      "storage_status": "historical_only_original_missing",
+      "availability": "redundant_transport_archive_not_retained",
+      "storage_status": "canonical_original_attachments_available",
       "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12125087/supplementaryFiles",
       "source_xml_url": "",
       "version": "repository_generated_transport_not_official_SI",
@@ -142,7 +142,8 @@
         "full_output_is_not_yet_cloud_backup": true,
         "sample_repo_directory": ""
       },
-      "recovery_checked_at_utc": "2026-10-17T11:37:12.463009+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:42:59.680138+00:00",
+      "recovery_handling_reason": "Historical transfer ZIP intentionally not duplicated alongside all its available original attachments; historical SHA and record retained"
     },
     {
       "record_id": "R11844",
@@ -170,7 +171,7 @@
       "historical_sha256": "c41816bf825167dcb78ff5eb81c8d0dab0d8d8110cd2a23a04cd1109acb34919",
       "archive_parent_asset_id": "",
       "parsing_status": "historical_only_current_original_missing",
-      "recovery_checked_at_utc": "2026-10-17T11:37:12.485123+00:00",
+      "recovery_checked_at_utc": "2026-10-17T11:42:59.700865+00:00",
       "availability": "present_sha_verified",
       "storage_status": "git_remote_verified_20261017"
     }
@@ -183,10 +184,11 @@
     }
   ],
   "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
-  "recovery_checked_at_utc": "2026-10-17T11:37:12.781950+00:00",
+  "recovery_checked_at_utc": "2026-10-17T11:43:00.030859+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
     "R11844.main.c41816bf825167dc"
   ],
-  "current_main_multipart_groups": []
+  "current_main_multipart_groups": [],
+  "supplementary_external_data_links": []
 }

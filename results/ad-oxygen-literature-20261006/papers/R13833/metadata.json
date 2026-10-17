@@ -72,7 +72,7 @@
         "full_output_is_not_yet_cloud_backup": true,
         "sample_repo_directory": ""
       },
-      "recovery_checked_at_utc": "2026-10-17T11:37:12.403514+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:42:59.455862+00:00"
     }
   ],
   "version_history": [
@@ -88,10 +88,46 @@
     }
   ],
   "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
-  "recovery_checked_at_utc": "2026-10-17T11:37:12.868367+00:00",
+  "recovery_checked_at_utc": "2026-10-17T11:43:00.147528+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
     "R13833.main.1a4a4d5f8fd45de9"
   ],
-  "current_main_multipart_groups": []
+  "current_main_multipart_groups": [],
+  "supplementary_external_data_links": [
+    {
+      "record_id": "R13833",
+      "accession": "PRJEB11469",
+      "url": "https://www.ebi.ac.uk/ena/browser/view/PRJEB11469",
+      "size_bytes": 639495323,
+      "size_status": "Sum of public ENA FASTQ file byte counts for the full accession/project; may exceed the subset used by this paper",
+      "size_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB11469&result=read_run&fields=run_accession%2Cfastq_bytes&format=tsv",
+      "public_run_count": 14,
+      "size_metadata_path": "inventory/recovery_20261017/external_data_size_probes/PRJEB11469.tsv",
+      "size_metadata_sha256": "157b08fe41fc63e2e3d645f14d6724f6412b16a0dd6279c2a8abc18a5b339350",
+      "downloaded": false,
+      "kind": "external_sequencing_database_project",
+      "association": "Reviewed own methods/data availability statement; not a reference citation",
+      "article_statement_evidence": [
+        {
+          "source_sha256": "1a4a4d5f8fd45de924c78a7be11e1c032c630bd9341431d1d49135c8351cdaf7",
+          "location": {
+            "type": "pdf_block",
+            "pdf_page": 4,
+            "pdf_page_label": "4",
+            "block": 7,
+            "bbox_points": [
+              60.48960876464844,
+              154.40061950683594,
+              300.4895935058594,
+              763.53857421875
+            ]
+          },
+          "source_asset_id": "R13833.main.1a4a4d5f8fd45de9",
+          "statement": "omic DNA was extracted using a\nFastDNA SPIN Kit for Soil (MP Biomedicals, Solon, OH) and\npuriﬁed by ethanol precipitation. DNA ampliﬁcation, Illumina\nlibraries preparation, amplicon sequencing (Illumina MiSeq,\nInc. SanDiego, California) and bioinformatics analysis of the\ndata were performed at Research and Testing Laboratory\n(RTL), Texas. Samples were ampliﬁed for sequencing using the\nuniversal primer pair, 515f and 806r,30 targeting the prokaryotic\n16S rRNA gene. Details on the sequencing and bioinformatics\ndata analysis can be found elsewhere.31 The FASTQ ﬁles were\nsubmitted in the ENA (European Nucleotide Archive), being\navailable in the following link http://www.ebi.ac.uk/ena/data/\nview/PRJEB11469. Nucleotide sequences from Experiment 1\nare identiﬁed with accession numbers ERS937154 to\nERS937157 and sequences from Experiment 2 with the\naccession numbers ERS1487522 to ERS1487524 and\nERS1505407 for trial 1 and ERS2319672 to ERS2319677 for\ntrial 2.\nFor the taxonomic identiﬁcation of the isolates, a single\ncolony was suspended in 50 μL of TE buﬀer. DNA was isolated\nafter exposing the colonies at 95 °C during 10 min to promote\ncell lysis. The bacterial 16S rRNA genes were ampliﬁed by PCR\n(polymerase chain reaction) with a Taq DNA polymerase\n(EP0402, ThermoScientiﬁc, San Diego, CA) and universal\nprimers 27f and 1492r targeting the bacterial 16S rRNA gene,\nas detailed elsewhere.32"
+        }
+      ],
+      "automatic_bulk_download_disabled": true
+    }
+  ]
 }

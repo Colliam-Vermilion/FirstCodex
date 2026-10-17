@@ -1,0 +1,46 @@
+{
+  "record_id": "R09585",
+  "asset_id": "R09585.evidence_xml.a3430f38fa1652de",
+  "source_sha256": "a3430f38fa1652de3145ffc47f0da514ee41e12ef8e95acc30330d6b3a01efd2",
+  "source_filename": "PMC10609292_fullText.xml",
+  "canonical_source": "papers/R09585/evidence/a3430f38fa16_PMC10609292_fullText.xml",
+  "parser_version": "1.0.0",
+  "output_directory": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/papers/R09585/extracted/R09585.evidence_xml.a3430f38fa1652de",
+  "status": "parsed",
+  "ocr_pages": 0,
+  "ocr_pending_pages": [],
+  "table_count": 1,
+  "errors": [],
+  "limitations": [
+    "Repository JATS XML text/structured tables; linked figures/media not all fetched. It is not a recovered historical PDF. Table rowspan/colspan retained as locators, not expanded into a rectangular semantic grid."
+  ],
+  "ocr_requested": true,
+  "search_chunks": 140,
+  "output_files": [
+    {
+      "relative_path": "chunks.jsonl",
+      "size_bytes": 124706,
+      "sha256": "12316da5a1b581f8039f5135728c1aef28305b4e39ad67022f7f4185e564f17b"
+    },
+    {
+      "relative_path": "referenced_media.json",
+      "size_bytes": 206,
+      "sha256": "a1fee9c59c8741b306321da4db4fc181d9d400d93a4d987688166ab0e03780f6"
+    },
+    {
+      "relative_path": "tables/jats_table_001.csv",
+      "size_bytes": 723,
+      "sha256": "dd41af4ccebd996be57e40ae1da090bab2152be760dac5ca293d84549c1e59a9"
+    },
+    {
+      "relative_path": "tables.json",
+      "size_bytes": 319,
+      "sha256": "b999a578b4785df63d83f6e4b0f7f434402c7966ddf8565c23f527b0253b167d"
+    },
+    {
+      "relative_path": "text.txt",
+      "size_bytes": 69794,
+      "sha256": "1c8862c7f52c9aeb2780ad2648bd90567d253b5a1a719e4212c27c75156395fd"
+    }
+  ]
+}

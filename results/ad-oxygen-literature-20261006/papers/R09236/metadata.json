@@ -102,7 +102,7 @@
         "sample_git_readback_commit": "abacce2d56ef0795ef59827d3a8cdc0e6c6a5fea",
         "sample_storage_status": "git_remote_SHA_readback_verified"
       },
-      "recovery_checked_at_utc": "2026-10-17T11:37:12.308146+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:42:59.364965+00:00"
     },
     {
       "preferred_for_record": false,
@@ -138,7 +138,7 @@
         "sample_git_readback_commit": "abacce2d56ef0795ef59827d3a8cdc0e6c6a5fea",
         "sample_storage_status": "git_remote_SHA_readback_verified"
       },
-      "recovery_checked_at_utc": "2026-10-17T11:37:12.448021+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:42:59.504169+00:00"
     },
     {
       "preferred_for_record": false,
@@ -175,7 +175,7 @@
         "sample_git_readback_commit": "abacce2d56ef0795ef59827d3a8cdc0e6c6a5fea",
         "sample_storage_status": "git_remote_SHA_readback_verified"
       },
-      "recovery_checked_at_utc": "2026-10-17T11:37:12.448135+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:42:59.504283+00:00"
     },
     {
       "record_id": "R09236",
@@ -209,7 +209,7 @@
         "full_output_is_not_yet_cloud_backup": true,
         "sample_repo_directory": ""
       },
-      "recovery_checked_at_utc": "2026-10-17T11:37:12.461341+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:42:59.666932+00:00"
     },
     {
       "record_id": "R09236",
@@ -224,8 +224,8 @@
       "format": "zip",
       "size_bytes": 483405,
       "sha256": "f3c6856282b7e8d694d35a87eae016d8e66aa902189c7c3311a1153ea24752e0",
-      "availability": "historical_acquired_current_original_not_restored",
-      "storage_status": "historical_only_original_missing",
+      "availability": "redundant_transport_archive_not_retained",
+      "storage_status": "canonical_original_attachments_available",
       "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/supplementaryFiles",
       "source_xml_url": "",
       "version": "repository_generated_transport_not_official_SI",
@@ -243,7 +243,8 @@
         "full_output_is_not_yet_cloud_backup": true,
         "sample_repo_directory": ""
       },
-      "recovery_checked_at_utc": "2026-10-17T11:37:12.461355+00:00"
+      "recovery_checked_at_utc": "2026-10-17T11:42:59.666949+00:00",
+      "recovery_handling_reason": "Historical transfer ZIP intentionally not duplicated alongside all its available original attachments; historical SHA and record retained"
     }
   ],
   "version_history": [
@@ -259,10 +260,85 @@
     }
   ],
   "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
-  "recovery_checked_at_utc": "2026-10-17T11:37:12.742454+00:00",
+  "recovery_checked_at_utc": "2026-10-17T11:42:59.982145+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
     "R09236.main.7891c46f856f19ac"
   ],
-  "current_main_multipart_groups": []
+  "current_main_multipart_groups": [],
+  "supplementary_external_data_links": [
+    {
+      "record_id": "R09236",
+      "accession": "PRJNA1013451",
+      "url": "https://www.ebi.ac.uk/ena/browser/view/PRJNA1013451",
+      "size_bytes": 42781506889,
+      "size_status": "Sum of public ENA FASTQ file byte counts for the full accession/project; may exceed the subset used by this paper",
+      "size_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1013451&result=read_run&fields=run_accession%2Cfastq_bytes&format=tsv",
+      "public_run_count": 21,
+      "size_metadata_path": "inventory/recovery_20261017/external_data_size_probes/PRJNA1013451.tsv",
+      "size_metadata_sha256": "a5839d991dc2c355906924101fe8552454e7182585b5e74203a9128c5f287e07",
+      "downloaded": false,
+      "kind": "external_sequencing_database_project",
+      "association": "Reviewed own methods/data availability statement; not a reference citation",
+      "article_statement_evidence": [
+        {
+          "source_sha256": "72064fe9276d830984364e82e4567877578408565c650d856c531204a17ded89",
+          "location": {
+            "type": "jats_paragraph",
+            "xpath": "/article/body[1]/sec[2]/sec[3]/p[3]",
+            "xml_id": null,
+            "section_heading": "2.3. Microbial Population Analysis"
+          },
+          "source_asset_id": "R09236.evidence_xml.72064fe9276d8309",
+          "statement": "The ZymoBIOMICS® Microbial Community Standard was used as a positive control for DNA extraction and library preparation. Negative controls (i.e., blank extraction control and blank library preparation control) were included to assess the level of bioburden carried by the wet-lab process. Sequence data is available at the National Center for Biotechnology Information (NCBI) website under bioproject number PRJNA1013451, with a sample ID listed under the data availability statement."
+        },
+        {
+          "source_sha256": "72064fe9276d830984364e82e4567877578408565c650d856c531204a17ded89",
+          "location": {
+            "type": "jats_paragraph",
+            "xpath": "/article/back[1]/notes[2]/p[1]",
+            "xml_id": null,
+            "section_heading": null
+          },
+          "source_asset_id": "R09236.evidence_xml.72064fe9276d8309",
+          "statement": "The following are available online at http://www.mdpi.com/: 1. Sample key.xlsx: Excel spreadsheet containing group comparisons for all microbiome analyses. Sequence data were deposited into National Center for Biotechnology Information (NCBI) under Sequence Read Archive (SRA) and can be accessed by the BioProject ID: PRJNA1013451 with the following BioSample Accession numbers: SAMN37298551, SAMN37298552, SAMN37298553, SAMN37298554, SAMN37298555, SAMN37298556, SAMN37298557, SAMN37298558, SAMN37298559, SAMN37298560, SAMN37298561, SAMN37298562, SAMN37298563, SAMN37298564, SAMN37298565, SAMN37298566, SAMN37298567, SAMN37298568, SAMN37298569, SAMN37298570, SAMN37298571."
+        },
+        {
+          "source_sha256": "7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9",
+          "location": {
+            "type": "pdf_block",
+            "pdf_page": 4,
+            "pdf_page_label": "",
+            "block": 6,
+            "bbox_points": [
+              165.97500610351562,
+              236.2833709716797,
+              561.0194091796875,
+              509.93011474609375
+            ]
+          },
+          "source_asset_id": "R09236.main.7891c46f856f19ac",
+          "statement": " dual-index 10 bp barcodes with Nextera® adapters (Illumina, San Diego, CA, USA).\nAll libraries were pooled in equal abundance. The ﬁnal pool was quantiﬁed using qPCR\nand TapeStation® (Agilent Technologies, Santa Clara, CA, USA). The ﬁnal library was\nsequenced on Illumina NovaSeq® platform.\nThe ZymoBIOMICS® Microbial Community Standard was used as a positive control\nfor DNA extraction and library preparation. Negative controls (i.e., blank extraction control\nand blank library preparation control) were included to assess the level of bioburden carried\nby the wet-lab process. Sequence data is available at the National Center for Biotechnology\nInformation (NCBI) website under bioproject number PRJNA1013451, with a sample ID\nlisted under the data availability statement.\n"
+        },
+        {
+          "source_sha256": "7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9",
+          "location": {
+            "type": "pdf_block",
+            "pdf_page": 17,
+            "pdf_page_label": "",
+            "block": 2,
+            "bbox_points": [
+              166.125,
+              98.30435180664062,
+              561.9000244140625,
+              189.3686065673828
+            ]
+          },
+          "source_asset_id": "R09236.main.7891c46f856f19ac",
+          "statement": "Data Availability Statement: The following are available online at http://www.mdpi.com/: 1. Sam-\nple key.xlsx: Excel spreadsheet containing group comparisons for all microbiome analyses. Sequence\ndata were deposited into National Center for Biotechnology Information (NCBI) under Sequence\nRead Archive (SRA) and can be accessed by the BioProject ID: PRJNA1013451 with the following\nBioSample Accession numbers: SAMN37298551, SAMN37298552, SAMN37298553, SAMN37298554,\nSAMN37298555, SAMN37298556, SAMN37298557, SAMN37298558, SAMN37298559, SAMN37298560,\nSAMN37298561, SAMN37298562, SAMN37298563, SAMN37298564, SAMN37298565, SAMN37298566,\nSAMN37298567, SAMN37298568, SAMN37298569, SAMN37298570, SAMN37298571.\n"
+        }
+      ],
+      "automatic_bulk_download_disabled": true
+    }
+  ]
 }

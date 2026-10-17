@@ -1,0 +1,26 @@
+[
+  {
+    "path": "tables/jats_table_001.csv",
+    "location": {
+      "type": "jats_table",
+      "xpath": "/article/body[1]/sec[2]/sec[1]/table-wrap[1]/table[1]",
+      "table": 1,
+      "spans_not_expanded": true
+    },
+    "rows": 11,
+    "columns": 3,
+    "quality": "automatic_extraction_not_manually_reconciled"
+  },
+  {
+    "path": "tables/jats_table_002.csv",
+    "location": {
+      "type": "jats_table",
+      "xpath": "/article/body[1]/sec[3]/sec[1]/table-wrap[1]/table[1]",
+      "table": 2,
+      "spans_not_expanded": true
+    },
+    "rows": 18,
+    "columns": 6,
+    "quality": "automatic_extraction_not_manually_reconciled"
+  }
+]

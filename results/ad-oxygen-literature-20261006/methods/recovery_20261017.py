@@ -81,6 +81,25 @@ def audit():
             a['availability']='present_sha_verified'
             a['resolved_source_path']=str(path_for(a))
         else:
+            if a['role']=='transport_archive':
+                canonical=[x for x in assets if x['record_id']==a['record_id'] and x['role']=='supplementary']
+                if canonical and all(present(x) for x in canonical):
+                    a.update(availability='redundant_transport_archive_not_retained',resolved_source_path='',
+                        storage_status='canonical_original_attachments_available',
+                        recovery_handling_reason='Historical transfer ZIP intentionally not duplicated alongside all its available original attachments; historical SHA and record retained')
+                    continue
+            if a['role']=='derived' and a.get('archive_parent_asset_id') and a.get('archive_member_path'):
+                parent=next((x for x in assets if x['asset_id']==a['archive_parent_asset_id'] and present(x)),None)
+                if parent:
+                    try:
+                        with zipfile.ZipFile(path_for(parent)) as archive:member=archive.read(a['archive_member_path'])
+                        if len(member)==int(a['size_bytes']) and sha(member)==a['sha256']:
+                            a.update(availability='available_as_verified_original_archive_member',resolved_source_path='',
+                                storage_status='available_via_canonical_original_archive',
+                                recovered_archive_path=parent['source_repo_path'],recovered_archive_sha256=parent['sha256'],
+                                recovery_handling_reason='Exact historical member SHA/size verified inside retained official ZIP; no duplicate raw member materialized')
+                            continue
+                    except (KeyError,zipfile.BadZipFile):pass
             a['availability']='historical_acquired_current_original_not_restored'
             a['storage_status']='historical_only_original_missing'
             a['resolved_source_path']=''
@@ -118,6 +137,7 @@ def audit():
         m['recovery_original_status_preserved_in']='inventory/recovery_20261017/baseline_papers.json'
         checked=si_checks.get(id,{})
         m['supplementary_status']=checked.get('status') or ('downloaded' if official else 'historical_acquired_current_original_not_restored' if any(a['role']=='supplementary' for a in aa) else 'not_checked')
+        m['supplementary_external_data_links']=checked.get('external_data_links',[])
         m['supplementary_coverage_complete']=checked.get('all_publisher_attachments_confirmed',False) or checked.get('status') in ['explicit_no_attachments_in_complete_JATS','explicit_no_attachments_on_article_page','external_data_links_only']
         save(ROOT/'papers'/id/'metadata.json',m)
         if id not in rows_by_id:continue
@@ -172,7 +192,8 @@ def audit():
             '附件SHA256':'; '.join(a['sha256'] for a in aa),
             '补充材料获取状态':detail or ('已下载；全附件覆盖尚未确认' if aa else '尚未检查或历史附件未恢复'),
             '附件持久化状态':'Git原件已恢复；独立核验见recovery清单' if aa else '当前无附件原件；不判无附件',
-            '附件用户下载入口':'; '.join(a['source_repo_path'] for a in aa)})
+            '附件用户下载入口':'; '.join(a['source_repo_path'] for a in aa),
+            '外部数据链接_JSON':json.dumps(checked.get('external_data_links',[]),ensure_ascii=False)})
     writecsv(ROOT/'manual_review/supplementary_material_status_utf8.csv',sirows)
     for rispath in (ROOT/'final_results').glob('*.ris'):
         content=rispath.read_text(encoding='utf-8-sig')
