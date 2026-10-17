@@ -227,12 +227,15 @@
   },
   "R04119": {
     "record_id": "R04119",
-    "checked_at_utc": "2026-10-17T08:53:13.612731+00:00",
+    "checked_at_utc": "2026-10-17T09:38:08.497186+00:00",
     "article_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6197294/fullTextXML",
     "official_files": [],
     "external_data_links": [],
     "status": "access_failed",
-    "reason": "request_failed"
+    "reason": "Earlier source failure: proxy_CONNECT_403",
+    "publisher_checked_this_run": true,
+    "publisher_url": "https://doi.org/10.1007/s13205-018-1480-z",
+    "source_request_skipped_due_to_known_publisher_pause": true
   },
   "R05213": {
     "record_id": "R05213",
@@ -2421,5 +2424,49 @@
     "status": "access_failed",
     "reason": "Earlier source failure: proxy_CONNECT_403",
     "source_request_skipped_due_to_known_publisher_pause": true
+  },
+  "R03965": {
+    "record_id": "R03965",
+    "official_files": [],
+    "external_data_links": [],
+    "publisher_checked_this_run": true,
+    "publisher_url": "https://doi.org/10.2175/193864718824828948",
+    "checked_at_utc": "2026-10-17T09:38:05.345827+00:00",
+    "status": "access_failed",
+    "reason": "Entry unavailable or source cooldown",
+    "source_request_skipped_due_to_known_publisher_pause": false
+  },
+  "R04060": {
+    "record_id": "R04060",
+    "official_files": [],
+    "external_data_links": [],
+    "publisher_checked_this_run": true,
+    "publisher_url": "https://doi.org/10.2166/wst.2017.590",
+    "checked_at_utc": "2026-10-17T09:38:06.770086+00:00",
+    "status": "access_failed",
+    "reason": "HTTP403; source paused this run",
+    "source_request_skipped_due_to_known_publisher_pause": true
+  },
+  "R04111": {
+    "record_id": "R04111",
+    "official_files": [],
+    "external_data_links": [],
+    "publisher_checked_this_run": true,
+    "publisher_url": "https://doi.org/10.1039/c8ew00232k",
+    "checked_at_utc": "2026-10-17T09:38:06.771623+00:00",
+    "status": "access_failed",
+    "reason": "Entry unavailable or source cooldown",
+    "source_request_skipped_due_to_known_publisher_pause": false
+  },
+  "R04605": {
+    "record_id": "R04605",
+    "official_files": [],
+    "external_data_links": [],
+    "publisher_checked_this_run": true,
+    "publisher_url": "https://doi.org/10.15068/00158028",
+    "checked_at_utc": "2026-10-17T09:38:08.498818+00:00",
+    "publisher_title_identity_match": false,
+    "status": "identity_review_required",
+    "reason": "Page did not expose verified target article metadata"
   }
 }
