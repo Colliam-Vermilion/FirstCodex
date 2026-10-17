@@ -246,6 +246,27 @@ def supplementary():
             checkpt('Persist checked official supplementary materials and full-text evidence');checkpoint=time.monotonic()
     checkpt('Complete existing PMC supplementary review with original-format files')
 
+def reconcile_supplementary():
+    """Keep held attachments visible when a second source fails to open."""
+    path=r.RUN/'supplementary_check.json';report=r.load(path,{})
+    archive=r.RUN/'supplementary_check_before_reconciliation.json'
+    if not archive.exists():r.save(archive,report)
+    assets=r.load(r.ASSETS,[])
+    for id,record in report.items():
+        held=[a for a in assets if a['record_id']==id and a['role']=='supplementary' and r.present(a)]
+        record['official_files']=[{'asset_id':a['asset_id'],'sha256':a['sha256'],'size_bytes':a['size_bytes'],'path':a['source_repo_path']} for a in held]
+        names={a['original_filename'] for a in held}|{Path(a['source_repo_path']).name for a in held}
+        declared=record.get('declared_attachments',[])
+        record['known_missing_declared_attachments']=[x for x in declared if x['filename'] not in names]
+        if held and record['status'] not in ['downloaded','partial_or_access_failed']:
+            record.setdefault('publisher_source_status',record['status'])
+            record['status']='partial_or_access_failed'
+        if record['known_missing_declared_attachments']:
+            record.setdefault('publisher_source_status',record['status'])
+            record['status']='partial_or_access_failed'
+        record['all_publisher_attachments_confirmed']=bool(declared and not record['known_missing_declared_attachments'])
+    r.save(path,report)
+
 def publisher_supplements():
     ready();report=r.load(r.RUN/'supplementary_check.json',{})
     out=r.ROOT/'original_files/publisher_checks_20261017';out.mkdir(parents=True,exist_ok=True)
@@ -347,6 +368,7 @@ def publisher_supplements():
         print(id,record['status'],len(record.get('official_files',[])),flush=True)
         if count%5==0 or time.monotonic()-checkpoint>=600:
             checkpt('Persist publisher supplementary checks and acquired original attachments');checkpoint=time.monotonic()
+    reconcile_supplementary()
     checkpt('Complete supplementary source pass for existing included records')
 
 if __name__=='__main__':

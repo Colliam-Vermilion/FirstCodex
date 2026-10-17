@@ -212,6 +212,10 @@ def extract(project,root,ocr,workers,assets_path=None):
             report=future.result();reports.append(report);print(json.dumps({'completed':len(reports),'asset_id':report['asset_id'],'status':report['status'],'ocr_pages':report['ocr_pages'],'tables':report['table_count']}),flush=True)
     chunks=build_index(root);files=[f for f in (root/'papers').glob('*/extracted/**/*') if f.is_file()]+[root/'search.sqlite']
     summary={'parser_version':PARSER_VERSION,'original_assets_seen':len(assets),'reports':len(reports),'status_counts':dict(Counter(r['status'] for r in reports)),'search_chunks':chunks,'structured_tables':sum(r['table_count'] for r in reports),'ocr_pages':sum(r['ocr_pages'] for r in reports),'ocr_pending_pages':sum(len(r['ocr_pending_pages']) for r in reports),'pdf_pages':sum(r.get('pdf_pages',0) for r in reports),'extraction_files_excluding_summary':len(files),'extraction_bytes_excluding_summary':sum(f.stat().st_size for f in files),'originals_modified':False,'full_outputs_root_is_temporary_not_backup':str(root),'all_reports':reports}
+    # Results may now be written directly into the authorized private checkout.
+    # Keep the old implementation's field readable in historical summaries only.
+    summary['outputs_root']=summary.pop('full_outputs_root_is_temporary_not_backup')
+    summary['storage_status']='pending_independent_remote_readback'
     summary['scope']='intake_assets' if assets_path else 'full_inventory'
     dump(root/('extraction_summary_intake.json' if assets_path else 'extraction_summary.json'),summary);dump(project/'inventory'/('intake_extraction_summary.json' if assets_path else 'extraction_summary.json'),summary)
     print(json.dumps({k:v for k,v in summary.items() if k!='all_reports'},ensure_ascii=False),flush=True)

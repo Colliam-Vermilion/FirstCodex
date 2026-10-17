@@ -94,10 +94,18 @@ def finalize():
     official_missing=[{'record_id':a['record_id'],'filename':a['original_filename'],'sha256':a['sha256'],'source_url':a.get('source_url','')} for a in assets if a['role']=='supplementary' and not r.present(a)]
     si_status=r.load(r.RUN/'supplementary_check.json',{})
     uncovered=[x for x in r.readcsv(r.ROOT/'inventory/papers_utf8.csv') if x['included_for_download'] in ['True',True] and x['record_id'] not in si_status]
+    prior_receipt=r.load(r.RUN/'remote_readback.json',{})
+    original_proofs={x['relative_path']:x for x in prior_receipt.get('checks',[])}
+    verified_originals=[a for a in mains+si if original_proofs.get(a['source_repo_path'],{}).get('backed_up') and original_proofs[a['source_repo_path']]['sha256']==a['sha256']]
+    unbacked_originals=[a['source_repo_path'] for a in mains+si if a not in verified_originals]
     report={'time_utc':r.now(),'restored_remote_baseline':baseline,
         'current_main_ids':len({a['record_id'] for a in mains}),'current_main_files':len(mains),'current_main_bytes':sum(int(a['size_bytes']) for a in mains),
         'current_official_supplementary_files':len(si),'current_official_supplementary_bytes':sum(int(a['size_bytes']) for a in si),
         'newly_acquired_roles':dict(collections.Counter(a['role'] for a in new)),
+        'newly_acquired_main_ids':len({a['record_id'] for a in new if a['role']=='main'}),
+        'newly_acquired_main_files':sum(a['role']=='main' for a in new),
+        'reacquired_historical_main_ids':sorted({a['record_id'] for a in new if a['role']=='main' and a['record_id'] in historical_ids}),
+        'reacquired_historical_main_files':sum(a['role']=='main' and a['record_id'] in historical_ids for a in new),
         'first_obtained_main_ids_this_round':sorted({a['record_id'] for a in mains if a['record_id'] not in historical_ids}),
         'remaining_main_ids':426-len({a['record_id'] for a in mains}),'known_missing_official_attachments':official_missing,
         'remaining_main_primary_observation_counts':dict(collections.Counter(x['primary_observation_not_unique_cause'] for x in failures)),
@@ -107,6 +115,10 @@ def finalize():
         'historical_extraction_outputs_not_restored':sum(x['availability']!='present_sha_verified' for x in rows),
         'index_validation':index_report,'original_110_fields_554_records_preserved':True,'manual_original_files_sha_preserved':True,
         'new_topic_search_or_classification':False,'unbacked_counts_require_final_remote_readback':True,
+        'verified_main_and_supplementary_files':len(verified_originals),
+        'verified_main_and_supplementary_bytes':sum(int(a['size_bytes']) for a in verified_originals),
+        'unbacked_acquired_main_and_supplementary_files':unbacked_originals,
+        'original_file_proof_commit':prior_receipt.get('remote_commit'),
         'latest_completed_readback_commit':r.load(r.RUN/'remote_readback.json',{}).get('remote_commit')}
     r.save(r.RUN/'delivery_summary.json',report)
     print(json.dumps({k:v for k,v in report.items() if k not in ['restored_remote_baseline','index_validation']},ensure_ascii=False))

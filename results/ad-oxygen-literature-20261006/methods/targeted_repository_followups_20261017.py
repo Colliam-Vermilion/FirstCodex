@@ -27,6 +27,7 @@ def run():
     # The publisher exposes this download form in the already verified page.
     for a in assets:
         if a['role']!='evidence_html' or a['record_id']!='R09240' or not r.present(a):continue
+        if a['record_id'] in candidates:continue
         soup=BeautifulSoup(r.path_for(a).read_text(),'html.parser')
         forms=soup.select('form[action]')
         for form in forms:
@@ -57,7 +58,30 @@ def run():
         html=r.path_for(page).read_text()
         if 'Biblio/detailData/' not in html or bibid not in html:continue
         value=metadata(id,'https://digiverse.chula.ac.th/digital/api/Biblio/detailData/'+bibid,'public_item_metadata')
-        if value:print(id,'public item metadata keys',list(value)[:20],flush=True)
+        if value:
+            print(id,'public item metadata keys',list(value)[:20],flush=True)
+            parts=[]
+            previous=r.load(r.RUN/(id+'_multipart_downloads.json'),[])
+            for item in value.get('digital',{}).get('file',[]):
+                if item.get('ext')!='pdf' or item.get('is_link')!='0':continue
+                old=next((x for x in previous if x['doc_id']==item['doc_id']),None)
+                if old and (r.ROOT/old['path']).is_file() and r.sha((r.ROOT/old['path']).read_bytes())==old['sha256']:
+                    parts.append(old);continue
+                url='https://digiverse.chula.ac.th/digital/api/DownloadDigitalFile/dowload/'+item['doc_id']
+                response=worker.get(id,url)
+                if not response or not response[0].lstrip().startswith(b'%PDF'):continue
+                data,actual,mime=response
+                doc=r.fitz.open(stream=data,filetype='pdf');texts=[page.get_text() for page in doc]
+                assert len(doc)==int(item['num_page']),'Public item PDF page count differs'
+                name=id+'_'+Path(item['file_name_original']).name
+                path=out/'pdf_candidates'/id/name;path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(data)
+                parts.append({'record_id':id,'doc_id':item['doc_id'],'original_filename':item['file_name_original'],
+                    'path':str(path.relative_to(r.ROOT)),'source_url':r.safe_url(actual),'sha256':r.sha(data),
+                    'size_bytes':len(data),'pages':len(doc),'native_characters':sum(map(len,texts)),
+                    'multipart_status':'candidate_part_pending_group_identity_review'})
+                r.save(r.RUN/(id+'_multipart_downloads.json'),parts)
+                print(id,'part downloaded',name,len(doc),flush=True)
+            r.save(r.RUN/(id+'_multipart_downloads.json'),parts)
     r.save(r.RUN/'repository_followup_candidates.json',candidates)
     c.checkpt('Persist exact-item repository follow-ups and publisher download controls')
 

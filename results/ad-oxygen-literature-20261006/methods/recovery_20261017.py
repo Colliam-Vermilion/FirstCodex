@@ -22,7 +22,7 @@ def now():return datetime.now(timezone.utc).isoformat()
 def safe_url(url):
     url=re.sub(r';(?:jsessionid|phpsessid)=[^/?#;]*','',url,flags=re.I)
     parsed=urllib.parse.urlsplit(url)
-    sensitive={'access_token','api_key','apikey','authorization','password','session','sessionid','token','signature','sig','x-amz-signature','x-amz-credential','x-amz-security-token','awsaccesskeyid','x-goog-credential','x-goog-signature'}
+    sensitive={'access_token','api_key','apikey','authorization','password','session','sessionid','token','signature','sig','expires','checksum','x-amz-signature','x-amz-credential','x-amz-security-token','awsaccesskeyid','x-goog-credential','x-goog-signature'}
     query=[(k,v) for k,v in urllib.parse.parse_qsl(parsed.query,keep_blank_values=True) if k.lower() not in sensitive]
     netloc=parsed.netloc.rsplit('@',1)[-1]
     return urllib.parse.urlunsplit((parsed.scheme,netloc,parsed.path,urllib.parse.urlencode(query),parsed.fragment))
@@ -113,10 +113,12 @@ def audit():
         status='downloaded_verified' if body else 'historical_acquired_current_original_not_restored' if historical else 'not_downloaded'
         m.update(main_status=status,assets=aa,recovery_checked_at_utc=now(),supplementary_official_count=len(official))
         m['preferred_main_asset_id']=body['asset_id'] if body else None
+        m['current_verified_main_asset_ids']=[a['asset_id'] for a in bodies]
+        m['current_main_multipart_groups']=sorted({a['multipart_group'] for a in bodies if a.get('multipart_group')})
         m['recovery_original_status_preserved_in']='inventory/recovery_20261017/baseline_papers.json'
         checked=si_checks.get(id,{})
         m['supplementary_status']=checked.get('status') or ('downloaded' if official else 'historical_acquired_current_original_not_restored' if any(a['role']=='supplementary' for a in aa) else 'not_checked')
-        m['supplementary_coverage_complete']=checked.get('status') in ['downloaded','explicit_no_attachments_in_complete_JATS','explicit_no_attachments_on_article_page','external_data_links_only']
+        m['supplementary_coverage_complete']=checked.get('all_publisher_attachments_confirmed',False) or checked.get('status') in ['explicit_no_attachments_in_complete_JATS','explicit_no_attachments_on_article_page','external_data_links_only']
         save(ROOT/'papers'/id/'metadata.json',m)
         if id not in rows_by_id:continue
         row=rows_by_id[id];main_ok+=bool(body)
@@ -129,7 +131,9 @@ def audit():
             '当前持久下载入口':body.get('source_repo_path','') if body else '',
             '当前补充材料状态':(checked.get('status')+'；官方附件'+str(len(official))) if checked.get('status') else f'已下载{len(official)}份官方附件；完整性仍需逐来源核查' if official else '尚未完成本轮附件检查；不判无附件',
             '持久化及独立取回状态':'已恢复；本轮独立远端核验见recovery清单' if body else '当前原件未恢复',
-            '当前下载失败或访问限制':attempts.get(id,{}).get('reason','尚未执行本轮获取；保留历史日志') if not body else ''})
+            '当前下载失败或访问限制':attempts.get(id,{}).get('reason','尚未执行本轮获取；保留历史日志') if not body else '',
+            '当前正文全部原件路径':'; '.join(a['source_repo_path'] for a in bodies),
+            '当前正文全部SHA256_JSON':json.dumps({a['source_repo_path']:a['sha256'] for a in bodies},ensure_ascii=False)})
     writecsv(ROOT/'manual_review/current_environment_acquisition426_utf8.csv',current)
     historical_queue=readcsv(ROOT/'manual_review/historical91_original_recovery_queue_utf8.csv')
     for row in historical_queue:
@@ -144,6 +148,8 @@ def audit():
         if row['稳定记录ID'] in rows_by_id:
             for key,value in rows_by_id[row['稳定记录ID']].items():
                 if key in row and key.startswith(('当前','新环境','原件恢复','持久化')):row[key]=value
+        for key in ['当前正文全部原件路径','当前正文全部SHA256_JSON']:
+            row[key]=rows_by_id.get(row['稳定记录ID'],{}).get(key,'')
     writecsv(ROOT/'final_results/ad_oxygen_download_review_utf8.csv',library)
     paperrows=readcsv(ROOT/'inventory/papers_utf8.csv')
     for row in paperrows:
@@ -176,7 +182,7 @@ def audit():
             if match and match.group(1) in rows_by_id:
                 row=rows_by_id[match.group(1)]
                 part=re.sub(r'^N1  - 恢复2026-10-17：.*\n?','',part,flags=re.M)
-                note='N1  - 恢复2026-10-17：'+row['当前原件状态']+'；SHA256='+row['当前原件SHA256']+'；Git路径='+row['当前持久下载入口']+'；SI='+row['当前补充材料状态']+'；人工分类及旧获取记录保留。\n'
+                note='N1  - 恢复2026-10-17：'+row['当前原件状态']+'；SHA256='+row['当前原件SHA256']+'；Git路径='+row.get('当前正文全部原件路径',row['当前持久下载入口'])+'；SI='+row['当前补充材料状态']+'；人工分类及旧获取记录保留。\n'
                 part=re.sub(r'^ER  -',lambda m:note+m.group(0),part,flags=re.M)
             updated.append(part)
         rispath.write_text(''.join(updated),encoding='utf-8')
@@ -375,7 +381,7 @@ def remote_verify(persist=True):
     known={r['relative_path'] for r in expected}
     for parent in [ROOT/'papers',ROOT/'original_files']:
         for p in parent.rglob('*'):
-            if p.is_file() and ('/extracted/' in str(p) or ('/original_files/' in str(p) and p.suffix.lower() in ['.pdf','.zip','.doc','.docx','.xls','.xlsx','.csv','.xml','.html','.jpg','.png','.mp4','.mov','.r','.py'])) and str(p.relative_to(ROOT)) not in known:
+            if p.is_file() and ('/extracted/' in str(p) or '/original_files/' in str(p)) and str(p.relative_to(ROOT)) not in known:
                 expected.append({'relative_path':str(p.relative_to(ROOT)),'sha256':sha(p.read_bytes()),'size_bytes':p.stat().st_size,'role':'derived_parse' if '/extracted/' in str(p) else 'acquired_candidate'})
     prefix=str(ROOT.relative_to(REPO))
     tree=subprocess.check_output(['git','--git-dir',str(bare),'ls-tree','-r','-z','--format=%(objectname) %(path)',commit])
