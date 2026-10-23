@@ -1,0 +1,55 @@
+{
+  "record_id": "R07202_SAMN13634954",
+  "exact_known_article_doi_or_non_target_accession": "SAMN13634954",
+  "checked_at_utc": "2026-10-23T12:33:32.157691+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=SAMN13634954&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"1\",\"retmax\":\"1\",\"retstart\":\"0\",\"idlist\":[\"9704549\"],\"translationset\":[],\"translationstack\":[{\"term\":\"SAMN13634954[All Fields]\",\"field\":\"All Fields\",\"count\":\"1\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"SAMN13634954[All Fields]\"}}\n"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=sra&id=9704549&retmode=xml",
+      "status": 200,
+      "response": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<!DOCTYPE eSummaryResult PUBLIC \"-//NLM//DTD esummary v1 20041029//EN\" \"https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd\">\n<eSummaryResult>\n<DocSum>\n\t<Id>9704549</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenomic seq&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"58478443\" total_bases=\"17543532900\" total_size=\"6884232241\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1014576\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX7418073\" ver=\"1\" status=\"public\" name=\"metagenomic seq\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS5864833\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;A190_meta&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;RANDOM&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;SINGLE/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN13634954&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR10742653\" total_spots=\"58478443\" total_bases=\"17543532900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2020/12/31</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2019/12/19</Item>\n</DocSum>\n\n</eSummaryResult>\n"
+    }
+  ],
+  "sra_search_count": "1",
+  "sra_summaries": [
+    {
+      "uid": "9704549",
+      "title": "metagenomic seq",
+      "library_strategy": "WGS",
+      "library_source": "GENOMIC",
+      "library_selection": "RANDOM",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX7418073",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenomic seq"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS5864833",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR10742653\" total_spots=\"58478443\" total_bases=\"17543532900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    }
+  ],
+  "limitation": "精确DOI检索无结果不能证明没有测序数据或未公开；16S项目不能因可访问而转为目标数据。"
+}

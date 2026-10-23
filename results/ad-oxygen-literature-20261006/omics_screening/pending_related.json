@@ -359,7 +359,11 @@
     "path": "original_files/R07202/supplementary/supplementary__3e34694c8a7c6ad9.docx",
     "sha256": "3e34694c8a7c6ad91a6b67a08fd70f365028f3ca08f9f4c125c1e68af30eed68",
     "reason": " 文件可打开且内容为表格/数据/图等补充材料；缺题名/DOI等唯一关联凭据，仅保留目录及内容关联，不能声称已核实附件身份或已收齐全部附件。",
-    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实"
+    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实",
+    "resolution_status": "已解决",
+    "resolved_in_batch": "B006",
+    "resolution": "正文数据声明SAMN13634953/954及TableS1的两组reads/contigs逐项相同，DOCX表S1含同一BioSample与统计，唯一关联核实；原清单角色/路径保留。",
+    "resolution_evidence_id": "R07202-E04"
   },
   {
     "record_id": "R13941",
@@ -551,7 +555,11 @@
     "path": "original_files/R08280/supplementary/supplementary__a1191a34988b74dd.docx",
     "sha256": "a1191a34988b74dd742a54b3e62f1cc11145c1bc723963d3e0d3bbe991e13a0d",
     "reason": " 文件可打开且内容为表格/数据/图等补充材料；缺题名/DOI等唯一关联凭据，仅保留目录及内容关联，不能声称已核实附件身份或已收齐全部附件。",
-    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实"
+    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实",
+    "resolution_status": "已解决",
+    "resolved_in_batch": "B006",
+    "resolution": "近同题名、Qitao Cao/Wanqin Zhang等完整作者及CAAS机构与正文PDF1一致。",
+    "resolution_evidence_id": "R08280-E02"
   },
   {
     "record_id": "R10673",
@@ -1076,5 +1084,55 @@
     "reason": "NCBI SRA对既有DOI精确查询HTTP200、count=0；不能证明没有数据，不能用于判阴性或未公开。",
     "action": "维持证据不足待确认；不追下载全文，不扩展检索。",
     "official_checked_at": "2026-10-23T09:29:33.916663+00:00"
+  },
+  {
+    "record_id": "R06897",
+    "path": "original_files/R06897/fulltext/fulltext__published__676de58881645f6f.pdf",
+    "sha256": "676de58881645f6f5d29193925ae9b89d9b9fbcfde669defbed25d10cca145b0",
+    "batch_id": "B006",
+    "issue_type": "正文提及SI但当前无原件",
+    "reason": "ESI MM1/MM2为供氧与分析QA/QC等，当前无独立SI原件。",
+    "action": "保留缺口，不追下载。"
+  },
+  {
+    "record_id": "R07202",
+    "path": "original_files/R07202/fulltext/fulltext__published__7663ffc3d7b30f70.pdf",
+    "sha256": "7663ffc3d7b30f701edee0fd4bfd7908d2eace9e7365540d6c9402e8b9b9e10a",
+    "batch_id": "B006",
+    "issue_type": "官方元数据与论文方法差异",
+    "reason": "文中HiSeq2000 PE125；SRA标SINGLE、每spot300 bases。SI写Rep1_D149/Rep2_D192，但官方文库名B147_meta/A190_meta。两个BioSample和bioreactor metagenome/WGS身份明确，保留布局与时间标签差异。",
+    "action": "公开状态已确认；下游下载/分析前复核文库布局和实际采样日，不据此改写作者映射。"
+  },
+  {
+    "record_id": "R07202",
+    "path": "original_files/R07202/fulltext/fulltext__published__7663ffc3d7b30f70.pdf",
+    "sha256": "7663ffc3d7b30f701edee0fd4bfd7908d2eace9e7365540d6c9402e8b9b9e10a",
+    "batch_id": "B006",
+    "issue_type": "非目标单菌参考序列",
+    "raw_accession": "LT605205；CP006933；CP014265",
+    "accession_level": "GenBank单菌基因组序列",
+    "reason": "PDF3–4为MAG注释/比较使用的参考菌株基因组，非本研究新测序群落样本，也不计复用宏基因组项目。",
+    "action": "与本研究群落WGS分开。"
+  },
+  {
+    "record_id": "R08016",
+    "path": "original_files/R08016/fulltext/fulltext__published__50ed49bc2c646167.pdf",
+    "sha256": "50ed49bc2c646167efb9fd14f44c6ac482f1e8581341292393f406414575960f",
+    "batch_id": "B006",
+    "issue_type": "正文提及SI但当前无原件",
+    "pdf_pages": [
+      12
+    ],
+    "reason": "SI S1–S3为Energy相关分析，S4为过程图，当前无独立附件。",
+    "action": "保留缺口，不追下载。"
+  },
+  {
+    "record_id": "R08462",
+    "path": "original_files/R08462/fulltext/fulltext__published__d5f9765b6923adab.pdf",
+    "sha256": "d5f9765b6923adabfda081bf961d137fce46a2bf28f96d02a6a243341fe01e1c",
+    "batch_id": "B006",
+    "issue_type": "目标宏基因组数据获取待明确",
+    "reason": "未找到编号，PDF12只写Data will be made available on request；是否包含原始宏基因组reads不明。",
+    "action": "列入目标研究候选；不标公开下载，不代联系作者。"
   }
 ]
