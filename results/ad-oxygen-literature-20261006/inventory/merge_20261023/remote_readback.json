@@ -321,7 +321,8 @@
           "rows": 427,
           "columns": 16
         }
-      ]
+      ],
+      "latest_validated_commit": "0ae85f8d4351717303cf97ef5f03756061cd8d02"
     },
     {
       "path": "results/ad-oxygen-literature-20261006/inventory/unified_library_inventory.xlsx",
@@ -349,36 +350,39 @@
   "files": [
     {
       "path": "results/ad-oxygen-literature-20261006/README.md",
-      "sha256": "e21d9945eecdfea882e7cc0b0dbc364e0cf17bfe86fa7fede6e0d8c592e91381",
-      "size_bytes": 38748,
-      "git_blob_oid": "47538612e7344ffb4d9e4e27517449bc13e33e1e",
-      "is_original": false,
+      "sha256": "be95e7e1761adebb7583fffd105931943b4641a49af123399e3cc5bc96e85fc4",
+      "size_bytes": 38911,
+      "git_blob_oid": "862ca8fc31bd67a485d11dbe068deb981ab7b3a8",
+      "source_commit": "0ae85f8d4351717303cf97ef5f03756061cd8d02",
+      "independent_remote_readback": true,
       "sha256_match": true,
       "size_match": true,
       "git_oid_match": true,
-      "independently_fetched_from_github": true
+      "is_original": false
     },
     {
       "path": "results/ad-oxygen-literature-20261006/final_results/ad_oxygen_download_review_20261006.xlsx",
-      "sha256": "a8b9eb1d3aaa679a3f36aa61ee37db3856b2b3de778d44b85d3d489969dc5f34",
-      "size_bytes": 5321875,
-      "git_blob_oid": "c73538e6facd6ad59ea219053f43cf971ee5f7ae",
-      "is_original": false,
+      "sha256": "04102dbb3eebfeb30c5414550f745528eeca89b7d1b0f6db0bd4af07d947e358",
+      "size_bytes": 5177460,
+      "git_blob_oid": "105cb759f0420fa42bf34fe5adc8bb03e78dbec3",
+      "source_commit": "0ae85f8d4351717303cf97ef5f03756061cd8d02",
+      "independent_remote_readback": true,
       "sha256_match": true,
       "size_match": true,
       "git_oid_match": true,
-      "independently_fetched_from_github": true
+      "is_original": false
     },
     {
       "path": "results/ad-oxygen-literature-20261006/final_results/ad_oxygen_download_review_utf8.csv",
-      "sha256": "b722c1280d2a58cc4edc382d95d302ae0b352484865576b54bd48ebe2167a3c5",
-      "size_bytes": 3764406,
-      "git_blob_oid": "ae730f137b1dd13ca0c47e88ca8cfaf0ba416dc4",
-      "is_original": false,
+      "sha256": "d642f0b8738bb8ebdab004c49f89aac2f5b7ad89aee2095671ce0584bb0f28af",
+      "size_bytes": 3757324,
+      "git_blob_oid": "d56777ea4a97c1a752eb6a6f515301c255669f85",
+      "source_commit": "0ae85f8d4351717303cf97ef5f03756061cd8d02",
+      "independent_remote_readback": true,
       "sha256_match": true,
       "size_match": true,
       "git_oid_match": true,
-      "independently_fetched_from_github": true
+      "is_original": false
     },
     {
       "path": "results/ad-oxygen-literature-20261006/final_results/journal_jcr_statistics_20261023.xlsx",
@@ -8459,5 +8463,50 @@
   "main_remaining_files": [
     "README.md"
   ],
-  "all_jpeg_images_fully_decoded": true
+  "all_jpeg_images_fully_decoded": true,
+  "final_metadata_readback": {
+    "commit": "0ae85f8d4351717303cf97ef5f03756061cd8d02",
+    "updated_master_workbook_crc_and_open_ok": true,
+    "updated_master_persistence_status_matches_csv_all554": true,
+    "original_files_tree_unchanged_since_full_readback": true,
+    "files": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/final_results/ad_oxygen_download_review_20261006.xlsx",
+        "sha256": "04102dbb3eebfeb30c5414550f745528eeca89b7d1b0f6db0bd4af07d947e358",
+        "size_bytes": 5177460,
+        "git_blob_oid": "105cb759f0420fa42bf34fe5adc8bb03e78dbec3",
+        "source_commit": "0ae85f8d4351717303cf97ef5f03756061cd8d02",
+        "independent_remote_readback": true,
+        "sha256_match": true,
+        "size_match": true,
+        "git_oid_match": true,
+        "is_original": false
+      },
+      {
+        "path": "results/ad-oxygen-literature-20261006/final_results/ad_oxygen_download_review_utf8.csv",
+        "sha256": "d642f0b8738bb8ebdab004c49f89aac2f5b7ad89aee2095671ce0584bb0f28af",
+        "size_bytes": 3757324,
+        "git_blob_oid": "d56777ea4a97c1a752eb6a6f515301c255669f85",
+        "source_commit": "0ae85f8d4351717303cf97ef5f03756061cd8d02",
+        "independent_remote_readback": true,
+        "sha256_match": true,
+        "size_match": true,
+        "git_oid_match": true,
+        "is_original": false
+      },
+      {
+        "path": "results/ad-oxygen-literature-20261006/README.md",
+        "sha256": "be95e7e1761adebb7583fffd105931943b4641a49af123399e3cc5bc96e85fc4",
+        "size_bytes": 38911,
+        "git_blob_oid": "862ca8fc31bd67a485d11dbe068deb981ab7b3a8",
+        "source_commit": "0ae85f8d4351717303cf97ef5f03756061cd8d02",
+        "independent_remote_readback": true,
+        "sha256_match": true,
+        "size_match": true,
+        "git_oid_match": true,
+        "is_original": false
+      }
+    ]
+  },
+  "final_data_commit": "0ae85f8d4351717303cf97ef5f03756061cd8d02"
 }
