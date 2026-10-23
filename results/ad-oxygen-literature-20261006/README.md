@@ -1,3 +1,16 @@
+# 2026-10-23 本地上传合并检查点（当前）
+
+554条记录、426条纳入范围及人工分类证据保留。439个本地文件（295个ID）与234个既有云端文件按SHA256合并，673条来源映射为665个不同字节规范对象。已核验目标全文388篇（本地287、云端101），仅摘要3、仅海报1，其余缺目标全文34。4个上传正文错配或相关版本不计入目标全文。
+
+- [规范原件库和角色说明](original_files/README.md)
+- [统一文件清单](inventory/merge_20261023/unified_files_utf8.csv)、[原路径映射](inventory/merge_20261023/source_path_mapping_utf8.csv)、[逐文件内容核验](inventory/merge_20261023/file_content_verification.json)、[合并统计](inventory/merge_20261023/merge_summary.json)
+- [更新总表](final_results/ad_oxygen_download_review_utf8.csv)、[38条缺全文状态](manual_review/current_environment_need_fulltext_utf8.csv)
+- main误传30个文件已在保全提交`b739c0e`独立读回并全部SHA256/大小相符，随后正常清理提交`0bdf0b9`仅移除误传文件；README不变，不改写历史，历史旧副本仍在。
+
+期刊身份和同一JCR年份的统计Excel正在本轮后续提交中完成。以下为历史快照，旧数量和旧路径不能代替本节及本轮统一清单。
+
+---
+
 # 新环境恢复与全部原件备份（2026-10-17，当前）
 
 以远端提交 `bac51bfccceae13a91745322ed5793260e30a85c` 实际文件恢复：40正文、9官方附件、5历史派生件。554条及全部人工判断保留，类别1–4共426条，不重新检索或分类。

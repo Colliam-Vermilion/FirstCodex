@@ -1,15 +1,11 @@
-# 2026-10-17 私有仓库原件恢复与继续备份
+# 规范原件库（2026-10-23）
 
-本轮用户已明确授权将当前私有仓库允许保存的全部取得正文、补充材料和解析结果上传。本目录新增文件按历史ID/SHA复核，版本、来源和备份状态见 `../inventory/assets_utf8.csv` 和 `../inventory/recovery_20261017/backup_manifest_utf8.csv`。未恢复对象不称已备份，不添加含相同原件的整包ZIP。以下为历史交付说明。
+按文献ID组织：`Rxxxxx/fulltext/`为核验目标全文，`supplementary/`为原格式补充材料，`abstract_poster/`为摘要或海报，`uncertain/`为错配或历史非目标候选，`administrative/`为行政表单，`evidence/`为来源证据。`derived/`为ZIP成员等派生件，不重复计入原格式附件数量。项目级访问记录在`_project_evidence/`。
 
-# 已保存的可共享原件
+文件名包含SHA256前16位；完整SHA256、大小、原文件名、原路径、版本、关联与核验限制在[统一文件清单](../inventory/merge_20261023/unified_files_utf8.csv)和[来源映射](../inventory/merge_20261023/source_path_mapping_utf8.csv)。同字节仅一个规范对象，不同版本字节均保留。全文402个文件组合为388篇目标文献，包括2篇各7部分的学位论文；出版/接受稿与其他字节版本分别标识，不以文件数当文章数。
 
-此目录保存实际文件字节：40份自身明确CC BY/CC0的正文、9个官方补充附件、5个解包派生Excel，共54对象。作者、题名、DOI、原下载URL、许可链接及SHA见 [ATTRIBUTION_utf8.csv](ATTRIBUTION_utf8.csv) 和 [持久原件清单](../methods/audit/current_original_files_manifest_utf8.csv)。正文按原ID和原文件名组织；不同历史字节的R10086文件加当前日期/SHA，不覆盖旧SHA。
+摘要3篇、海报1篇不计全文。4个上传正文身份冲突、13个不同字节历史候选及1份作者变更表均保留；未取得全文的文献不继续全文分析或追下载，不改变研究范围。补充材料154个不同字节原格式文件（包含3个ZIP原件），另5个ZIP派生成员不重复计数。61件附件缺少唯一关联凭据，在清单及Excel待核实项中单列；不宣称已收齐全部附件。
 
-官方SI中ZIP是原始附件；其中Excel解包件标为派生，不重复计附件。原文件未改写、未删除署名或版权页。其余未明确允许再分发的本机正文/SI不在此目录，未宣称已备份。
+R13964误放的Word附件与R13834附件完全同字节，内容为R13834微污染物色谱图，已规范归R13834，两条旧来源都保留。历史提取文件中的旧路径通过SHA256及来源映射回到规范文件；本轮未重建历史全文检索索引。
 
-取回方式：GitHub结果分支打开文件选择Download raw file；或对结果分支选择Code → Download ZIP。`ad_oxygen_literature_final.zip`只是表格/方法/审计包，**不含此目录二进制原件**；GitHub整个分支ZIP才包含已提交文件。
-
-独立克隆或解压结果分支后，从项目目录运行 `python methods/verify_current_original_files.py`，逐个核对54个文件的SHA及大小。远端独立读回证据见 [readback审计](../methods/audit/current_remote_original_readback_20261015.json)。读回验证不依赖本机下载目录，不把清单本身当作PDF备份。
-
-本轮（第18轮）对上述54个对象逐个SHA复核并复用已完成远端读回，全部维持正式持久保存状态；它们不是仅供演示的小样本。统一papers结构通过metadata/manifest引用这些实际路径，不另复制原件。本轮新增解析样例见papers/R03161、R06325、R09236；全量解析与尚未入Git对象另用授权私有存储，详见第18/19轮方法。
+仓库当前没有Git LFS规则或LFS指针。规范原件最大单文件小于GitHub常规Git 100 MB限制，使用真实Git blob保存，不新增含重复原件的大ZIP。独立远端读回及新克隆核验回执见`../inventory/merge_20261023/remote_readback.json`。
