@@ -331,7 +331,11 @@
     "path": "original_files/R01727/supplementary/supplementary__2b717bb2226270b6.pdf",
     "sha256": "2b717bb2226270b60ed76548490ad50d935cb973cc5017cc2b19aa287c870488",
     "reason": " 文件可打开且内容为表格/数据/图等补充材料；缺题名/DOI等唯一关联凭据，仅保留目录及内容关联，不能声称已核实附件身份或已收齐全部附件。",
-    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实"
+    "action": "仅保留历史问题及本轮解决证据；不再作为唯一归属待核实对象计数。",
+    "resolution_status": "已解决",
+    "resolved_in_batch": "B002",
+    "resolution_evidence_id": "R01727-E03",
+    "resolution": "完整题名和作者与出版版匹配，PDF声明Accepted Manuscript；实际为同文接受稿，不是独立SI。原清单角色/原件保留。"
   },
   {
     "record_id": "R11724",
@@ -752,5 +756,86 @@
     ],
     "reason": "正文提供电子补充说明并引用Supplement Tables 1–2（细菌/古菌DGGE分类）；现无独立原件。本轮完整方法已明确16S-DGGE，阴性结论不依赖取得这些表。",
     "action": "保留缺附件说明；本轮不追下载，不称SI已查全。"
+  },
+  {
+    "record_id": "R00795",
+    "path": "original_files/R00795/fulltext/fulltext__published__874efe69f8123943.pdf",
+    "sha256": "874efe69f8123943fc02f6af88d183a26de385e827d7e6016d1efbc719f35d1e",
+    "batch_id": "B002",
+    "issue_type": "非目标测序编号线索",
+    "pdf_pages": [
+      3
+    ],
+    "raw_accession": "KC306914 to KC306931",
+    "normalized_accession": "KC306914–KC306931",
+    "accession_level": "核酸序列记录范围，非项目",
+    "database": "GenBank",
+    "official_url": "https://www.ncbi.nlm.nih.gov/nuccore/KC306914",
+    "reason": "本研究16S PCR-DGGE条带序列；不计目标数据项目，官方状态未核实。",
+    "action": "留作防误报线索"
+  },
+  {
+    "record_id": "R00915",
+    "path": "original_files/R00915/fulltext/fulltext__published__5c669a9f493b8a83.pdf",
+    "sha256": "5c669a9f493b8a83e0fffcdf3d5c2e0c2fe6ac287e15c1cfb14999fd50aa9191",
+    "batch_id": "B002",
+    "issue_type": "原文献类型与筛查实际类型差异",
+    "pdf_pages": [
+      1,
+      2
+    ],
+    "reason": "原队列为研究类，但原件明确Research review paper；已按综述不适用处理并保留原分类。",
+    "action": "已解决本轮筛查适用性；原分类供用户复核，不自动覆盖总表。"
+  },
+  {
+    "record_id": "R01350",
+    "path": "original_files/R01350/fulltext/fulltext__published__a2d149d39c1e69ee.pdf",
+    "sha256": "a2d149d39c1e69ee44975485bce10a90c0b95435c72a517f785c76d6a20afa86",
+    "batch_id": "B002",
+    "issue_type": "非目标测序编号线索",
+    "pdf_pages": [
+      4
+    ],
+    "raw_accession": "KJ402278–KJ402293",
+    "normalized_accession": "KJ402278–KJ402293",
+    "accession_level": "核酸序列记录范围，非项目",
+    "database": "GenBank",
+    "official_url": "https://www.ncbi.nlm.nih.gov/nuccore/KJ402278",
+    "reason": "本研究古菌16S-DGGE序列；不计目标数据项目，官方状态未核实。",
+    "action": "保留防误报线索"
+  },
+  {
+    "record_id": "R01362",
+    "path": "original_files/R01362/fulltext/fulltext__published__01950ce99dba212c.pdf",
+    "sha256": "01950ce99dba212c6924e9f4f31ef6db8082a5154717386014a40821ef0e1b6b",
+    "batch_id": "B002",
+    "issue_type": "非目标测序编号线索",
+    "pdf_pages": [
+      3
+    ],
+    "raw_accession": "KJ907449–KJ907466",
+    "normalized_accession": "KJ907449–KJ907466",
+    "accession_level": "核酸序列记录范围，非项目",
+    "database": "GenBank",
+    "official_url": "https://www.ncbi.nlm.nih.gov/nuccore/KJ907449",
+    "reason": "本研究细菌16S克隆序列；不计目标项目，官方状态未核实。",
+    "action": "保留防误报线索"
+  },
+  {
+    "record_id": "R01505",
+    "path": "original_files/R01505/fulltext/fulltext__published__cd661b225d80e30c.pdf",
+    "sha256": "cd661b225d80e30ccb3aaa4cd9ae50c21071f26bbf31dfe4b1fb013483710b66",
+    "batch_id": "B002",
+    "issue_type": "非目标测序编号线索",
+    "pdf_pages": [
+      4
+    ],
+    "raw_accession": "KF148033–KF148052",
+    "normalized_accession": "KF148033–KF148052",
+    "accession_level": "核酸序列记录范围，非项目",
+    "database": "GenBank",
+    "official_url": "https://www.ncbi.nlm.nih.gov/nuccore/KF148033",
+    "reason": "本研究16S-DGGE条带序列；不计目标项目，官方状态未核实。",
+    "action": "保留防误报线索"
   }
 ]

@@ -1,8 +1,8 @@
 # 当前新增：宏基因组/宏转录组分批全文筛查（2026-10-23）
 
-已建立426条范围内完整队列，首批按稳定ID完成R00273、R00313、R00379、R00430、R00608，均未使用目标测序；R00313为16S PCR-DGGE条带测序，相关编号不作宏基因组项目。342条可筛查研究中已完成5、剩337；50条综述及34条缺正文研究单列。下一批从R00651开始，默认20篇。
+已完成B001五篇及B002二十篇研究，累计25篇研究均未使用目标测序；剩316篇未开始。B002另按原件识别R00915为综述，单列后顺延补入R01785，不改原分类。426条任务中：25完成、316未开始、34研究缺正文跳过、51综述不适用。下一批从R01917开始，默认20篇实际研究。
 
-- **[累计筛查Excel](omics_screening/omics_screening_cumulative.xlsx)**、[字段/证据与续跑说明](omics_screening/README.md)、[累计机器可读进度](omics_screening/screening_records.json)、[逐篇证据](omics_screening/evidence.json)、[统计](omics_screening/summary.json)。原件、原分类与JCR结果保持。
+- **[同一份累计筛查Excel](omics_screening/omics_screening_cumulative.xlsx)**、[逐篇结论/字段与续跑说明](omics_screening/README.md)、[累计JSON进度](omics_screening/screening_records.json)、[逐篇证据](omics_screening/evidence.json)、[统计](omics_screening/summary.json)、[B002远端核验回执](omics_screening/batches/B002/remote_readback.json)。R01727原补充PDF已核实为同文接受稿，原件/原清单保留，附件唯一归属待核实剩60件。原分类、人工判断与JCR结果保持。
 
 # 本地文献合并与JCR统计（2026-10-23）
 

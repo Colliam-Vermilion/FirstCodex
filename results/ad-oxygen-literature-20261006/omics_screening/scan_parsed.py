@@ -9,12 +9,14 @@ PATTERNS={
 }
 def main():
     out=[]
-    for path in sorted((ROOT/'parsed').glob('*.json')):
+    paths=sorted((ROOT/'parsed').glob('*.json'))+sorted((ROOT/'parsed_attachments').glob('*.json'))
+    for path in paths:
         obj=json.loads(path.read_text());hits=[]
-        for page in obj['pages']:
+        pages=obj.get('pages') or [{'pdf_page':None,'text':t,'location':f'DOCX paragraph {i+1}'} for i,t in enumerate(obj.get('paragraphs',[]))]
+        for page in pages:
             for kind,pattern in PATTERNS.items():
                 for m in re.finditer(pattern,page['text'],re.I):
-                    hits.append({'kind':kind,'pdf_page':page['pdf_page'],'term':m.group(),'context':page['text'][max(0,m.start()-180):m.end()+350]})
+                    hits.append({'kind':kind,'pdf_page':page['pdf_page'],'location':page.get('location',''),'term':m.group(),'context':page['text'][max(0,m.start()-180):m.end()+350]})
         out.append({'record_id':obj['record_id'],'source_path':obj['source_path'],'source_sha256':obj['source_sha256'],'patterns':PATTERNS,'hits':hits,'note':'定位工具；无命中仍须阅读完整方法，不能据此自动分类。'})
     (ROOT/'term_location_log.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
     print([(o['record_id'],len(o['hits']),sum(h['kind']=='target_terms' for h in o['hits'])) for o in out])

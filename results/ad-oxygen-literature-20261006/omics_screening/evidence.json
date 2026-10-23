@@ -262,5 +262,814 @@
     "section": "3 结论（4）",
     "excerpt": "微好氧条件能抑制硫酸盐还原菌的活性",
     "interpretation": "这是依据硫酸盐及硫化物浓度的结果解释，不能据微生物名称判断为测序。"
+  },
+  {
+    "evidence_id": "R00651-E01",
+    "record_id": "R00651",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R00651/fulltext/fulltext__published__4a05c2b25035cc74.pdf",
+    "source_sha256": "4a05c2b25035cc748d825411e9d9b8040b0a26b78944f9cce4aa9e77525e1462",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "Chemical analyses",
+    "excerpt": "Sludge from batch reactors was sampled weekly to measure the total COD (tCOD), sCOD, NH3, protein, carbohydrate, TS and VS concentrations in duplicate.",
+    "interpretation": "同段列总/溶解COD、NH3、蛋白、糖类、TS/VS；下一页为标准法及统计，无核酸测序。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R00651-E02",
+    "record_id": "R00651",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R00651/fulltext/fulltext__published__4a05c2b25035cc74.pdf",
+    "source_sha256": "4a05c2b25035cc748d825411e9d9b8040b0a26b78944f9cce4aa9e77525e1462",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      4
+    ],
+    "section": "Statistical analyses",
+    "excerpt": "All measurements were carried out in duplicate for each duplicate reactor. The data points in the figures show the average and the error bars show one standard deviation.",
+    "interpretation": "完整方法止于统计分析，未出现目标测序建库或生物信息分析。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R00677-E01",
+    "record_id": "R00677",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R00677/fulltext/fulltext__published__618d438d3f05b66a.pdf",
+    "source_sha256": "618d438d3f05b66a514a87a1e5ffc0b50fcaced539905c09fc1631c799dc9c30",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Analytical procedures",
+    "excerpt": "The extracted hydrolysate/digestate was measured for its pH, oxidation–reduction potential (ORP), VFA and chemical oxygen demand (COD).",
+    "interpretation": "后文明确pH、ORP、VFA、COD及TS/VS，气体和VFA用GC；未使用群落组学。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R00677-E02",
+    "record_id": "R00677",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R00677/fulltext/fulltext__published__618d438d3f05b66a.pdf",
+    "source_sha256": "618d438d3f05b66a514a87a1e5ffc0b50fcaced539905c09fc1631c799dc9c30",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.2 Batch reactors",
+    "excerpt": "All experiments were conducted in duplicates. 2.3. Analytical procedures Biogas production and its composition were measured once every 2–4 days for the first 15 days and subsequently once every 5–8 days for the rest of the batch study to allow accumulation of biogas sufficient for the analysis of biogas composition using the GC–TCD.",
+    "interpretation": "微曝气与厌氧对照是产气/水解比较，不是测序样本设计。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R00795-E01",
+    "record_id": "R00795",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R00795/fulltext/fulltext__published__874efe69f8123943.pdf",
+    "source_sha256": "874efe69f8123943fc02f6af88d183a26de385e827d7e6016d1efbc719f35d1e",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Microbiological analysis",
+    "excerpt": "The universal bacterial primers 968-F-GC and 1401-R were used for the PCR amplification procedure (Sigma–Aldrich, St. Louis, MO, USA).",
+    "interpretation": "16S引物PCR-DGGE；DNA提取并不等同宏基因组测序。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R00795-E02",
+    "record_id": "R00795",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R00795/fulltext/fulltext__published__874efe69f8123943.pdf",
+    "source_sha256": "874efe69f8123943fc02f6af88d183a26de385e827d7e6016d1efbc719f35d1e",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Microbiological analysis",
+    "excerpt": "some DGGE bands were excised according to Lebrero et al. (2011). The closest matches to each sequenced band within a confidence level of 50%, and its respective taxonomic position were obtained by the Blast search tool at the National Centre for Biotechnology Information (McGinnis and Madden, 2004), and the Ribosomal Database Project (RDP) classifier tool […]",
+    "interpretation": "切取DGGE条带后测序，BLAST/RDP分类；不是混合群落shotgun文库。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R00795-E03",
+    "record_id": "R00795",
+    "evidence_kind": "非目标序列编号声明",
+    "source_path": "original_files/R00795/fulltext/fulltext__published__874efe69f8123943.pdf",
+    "source_sha256": "874efe69f8123943fc02f6af88d183a26de385e827d7e6016d1efbc719f35d1e",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Microbiological analysis",
+    "excerpt": "under accession numbers KC306914 to KC306931.",
+    "interpretation": "本研究条带核酸序列编号，非目标宏基因组项目。"
+  },
+  {
+    "evidence_id": "R00888-E01",
+    "record_id": "R00888",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R00888/fulltext/fulltext__version_unverified__fa65f300505c073a.pdf",
+    "source_sha256": "fa65f300505c073a011466bf5d4e8b124903b552c3b918800f68a2e6d291e6f4",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "Monitoring and experimental analysis",
+    "excerpt": "Digestion performance was evaluated weekly by conventional parameters such as COD, VS, BG productivity and composition, pH, DO and total sulphide concentrations, according to standard methods [22].",
+    "interpretation": "同段明确为COD、VS、沼气产量/组成、pH、DO及总硫化物的常规分析。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R00888-E02",
+    "record_id": "R00888",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R00888/fulltext/fulltext__version_unverified__fa65f300505c073a.pdf",
+    "source_sha256": "fa65f300505c073a011466bf5d4e8b124903b552c3b918800f68a2e6d291e6f4",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "Monitoring and experimental analysis",
+    "excerpt": "The amount of methane, nitrogen, carbon dioxide and hydrogen sulphide in the biogas were measured by a gas chromatograph (Shimadzu, GC14B, Japan) equipped with a thermal conductivity detector.",
+    "interpretation": "该段用GC测甲烷/氮/CO2/H2S；完整节无核酸测序方法。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R00915-E01",
+    "record_id": "R00915",
+    "evidence_kind": "文献类型核对",
+    "source_path": "original_files/R00915/fulltext/fulltext__published__5c669a9f493b8a83.pdf",
+    "source_sha256": "5c669a9f493b8a83e0fffcdf3d5c2e0c2fe6ac287e15c1cfb14999fd50aa9191",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      1
+    ],
+    "section": "Article type",
+    "excerpt": "Research review paper Redox potential control and applications in microaerobic and anaerobic fermentations Chen-Guang Liu a, Chuang Xue a, Yen-Han Lin c,⁎, Feng-Wu Bai a,b,⁎⁎ a School of Life Sciences and Biotechnology, Dalian University of Technology, Dalian 116023, China b School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai […]",
+    "interpretation": "原件明确文献类型为综述。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R00915-E02",
+    "record_id": "R00915",
+    "evidence_kind": "综述不适用依据",
+    "source_path": "original_files/R00915/fulltext/fulltext__published__5c669a9f493b8a83.pdf",
+    "source_sha256": "5c669a9f493b8a83e0fffcdf3d5c2e0c2fe6ac287e15c1cfb14999fd50aa9191",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      1
+    ],
+    "section": "Abstract",
+    "excerpt": "This article reviews updated progress in the impact of redox potentials on gene expression, protein biosynthesis and metabolism as well as redox potential control strategies for more efficient production of fermentation products, taking ethanol fermentation by the yeast Saccharomyces under microaerobic conditions and butanol production by the bacterium […]",
+    "interpretation": "本文综述ORP对基因表达、蛋白合成和代谢的影响；不能把引用研究当作自身测序。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01050-E01",
+    "record_id": "R01050",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01050/fulltext/fulltext__published__298873049e96fe61.pdf",
+    "source_sha256": "298873049e96fe61afba7fc6e9deeacb187d9a753e0da86d1bcf05b15a1f69ef",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.2 Microbial community analysis",
+    "excerpt": "A mixture of amplification was used for pyrosequencing on a Roche massively parallel 454 GS-FLX Titanium sequencer (Roche 454 Life Sciences, Branford, USA) according to standard protocols.",
+    "interpretation": "文库模板为PCR扩增混合物；高通量和454平台不能当宏基因组证据。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01050-E02",
+    "record_id": "R01050",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01050/fulltext/fulltext__published__298873049e96fe61.pdf",
+    "source_sha256": "298873049e96fe61afba7fc6e9deeacb187d9a753e0da86d1bcf05b15a1f69ef",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      2
+    ],
+    "section": "3.2.1 Richness and diversity of bacteria phylotypes",
+    "excerpt": "Three 16s RNA gene libraries were constructed from pyrosequencing of SSPR, SSPO and SAOO communities with 10,643, 10,606 and 10,002 high quality sequence tags, which were clustered into different phylogenetic bacterial communities with 2866/2500, 2701/2320 and 2383/2053 OTUs at a of 3%/5% (Table 1), indicating that SPRAS exhibited greater microbial richness […]",
+    "interpretation": "原文拼写16s RNA gene，结合前述DNA提取/PCR可判定16S基因扩增子；不是群落RNA-seq。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01126-E01",
+    "record_id": "R01126",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01126/fulltext/fulltext__published__2c4123486329aa07.pdf",
+    "source_sha256": "2c4123486329aa078e3b1db35f4b069383f4ae72a4541abcf6a9709eb4e7375c",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2 Methodology",
+    "excerpt": "The biogas slurry was sampled on the first day, the third day, and then every other 7 days until the end of the experiment. Chemical Oxygen Demand (COD) was analyzed according to the manual of Lovibond COD instrument (Germany).",
+    "interpretation": "随后明确检测COD、VFA、TN、TP；没有核酸或组学方法。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01126-E02",
+    "record_id": "R01126",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01126/fulltext/fulltext__published__2c4123486329aa07.pdf",
+    "source_sha256": "2c4123486329aa078e3b1db35f4b069383f4ae72a4541abcf6a9709eb4e7375c",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2 Methodology",
+    "excerpt": "Each treatment was performed in triplicates. Assays with inoculum alone were used as blank controls. The pretreated substrate was diluted with tap water (adjusted pH to 7.0) to 2.25 L before feeding.",
+    "interpretation": "三份是产气实验重复；不能当测序样本数。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01212-E01",
+    "record_id": "R01212",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01212/fulltext/fulltext__published__ef235fcb491d4749.pdf",
+    "source_sha256": "ef235fcb491d474970838cf59cfd36efaf9a37c84ddd225c06788beb77d497e3",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.3 Analytical Methods",
+    "excerpt": "A combined extraction-analysis method was performed for determining hexamethyldisiloxane (L2), octamethyltrisiloxane (L3), decamethyltetrasiloxane (L4), dodecamethylpentasiloxane (L5), hexamethylcyclotrisiloxane (D3), octamethylcyclotetrasiloxane (D4), decamethylcyclopentasiloxane (D5), dodecamethylcyclohexasiloxane (D6) in the sewage sludge.",
+    "interpretation": "上下文明确目标为硅氧烷L2–L5/D3–D6，己烷提取和GC-MS；不可误当DNA/RNA提取。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01212-E02",
+    "record_id": "R01212",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01212/fulltext/fulltext__published__ef235fcb491d4749.pdf",
+    "source_sha256": "ef235fcb491d474970838cf59cfd36efaf9a37c84ddd225c06788beb77d497e3",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Analytical Methods（续）",
+    "excerpt": "A biochemical methane potential (BMP) test was conducted to assess the cumulative methane yield for the treated sewage sludge. The BMP test was performed in triplicate by the procedure described in Shelton and Tiedje [17].",
+    "interpretation": "BMP及GC分析为完整方法结尾，无测序建库。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01238-E01",
+    "record_id": "R01238",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01238/fulltext/fulltext__published__61aa93be627c8612.pdf",
+    "source_sha256": "61aa93be627c8612528bcb7fb5b9223e98e7ce0f3f8fd7e4e52c8b5a8068aced",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Measurement and analytical methods",
+    "excerpt": "The gas composition of the produced gas was determined by the GC (AutoSystem GC, Perkin-Elmer) equipped with a thermal conductivity detector (TCD).",
+    "interpretation": "GC-TCD测气体；完整节其余为COD/VFA/有机酸/DO理化分析。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01238-E02",
+    "record_id": "R01238",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01238/fulltext/fulltext__published__61aa93be627c8612.pdf",
+    "source_sha256": "61aa93be627c8612528bcb7fb5b9223e98e7ce0f3f8fd7e4e52c8b5a8068aced",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Measurement and analytical methods",
+    "excerpt": "The samples obtained from the steam distillation were also taken for the determination of organic acid compositions by using another gas chromatograph (PR 2100, Perichrom) equipped with a flame ionization detector (FID).",
+    "interpretation": "蒸汽蒸馏样品用于有机酸GC-FID，非测序样本处理。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01297-E01",
+    "record_id": "R01297",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01297/fulltext/fulltext__published__de7ffcf910e42cc3.pdf",
+    "source_sha256": "de7ffcf910e42cc340bb9d8ffd472e072ad5ec764323e88912c01b40f23d7b62",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      2
+    ],
+    "section": "Microscopy",
+    "excerpt": "Microscopic analysis of the sludge samples was performed in accordance with Jenkins et al. (). The microscopic examination in wet mounts (Olympus BH2-RFCA – ×125, ×250 magnification and phase contrast ×1250 magnification) was aimed at examining basic biomass characteristics 804 P.",
+    "interpretation": "群落信息来自显微镜形态；次页明确Gram和Neisser染色，非测序。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01297-E02",
+    "record_id": "R01297",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01297/fulltext/fulltext__published__de7ffcf910e42cc3.pdf",
+    "source_sha256": "de7ffcf910e42cc340bb9d8ffd472e072ad5ec764323e88912c01b40f23d7b62",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "Microscopy（续）",
+    "excerpt": "Gram and Neisser staining procedures were applied to determine the abundance of filamentous microorganisms and to identify them. CST Capillary suction time (CST) is a simple parameter and a method used for the characterization of sludge dewaterability.",
+    "interpretation": "染色判断丝状微生物丰度/身份，不属于宏基因组或宏转录组。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01347-E01",
+    "record_id": "R01347",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01347/fulltext/fulltext__published__45f836aff9088c2e.pdf",
+    "source_sha256": "45f836aff9088c2e3dc90eb655f9edb76d87059f04bc6d28a96ad562dd988523",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.3 The assessment of specific methanogenic activity",
+    "excerpt": "The assessment of specific methanogenic activity (SMA) was carried out at mesophilic conditions in serum bottles (total volume of 120 mL) without mixing in triplicates according to the guidelines proposed by Angelidaki et al.",
+    "interpretation": "活性瓶测定不是宏转录或宏基因组方法。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01347-E02",
+    "record_id": "R01347",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01347/fulltext/fulltext__published__45f836aff9088c2e.pdf",
+    "source_sha256": "45f836aff9088c2e3dc90eb655f9edb76d87059f04bc6d28a96ad562dd988523",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.4 Analytical methods",
+    "excerpt": "Granular sludge was sampled and analyzed for TSS, VSS and elemental composition. Analysis of CODCr, VSS and TSS were done according to the Standard Methods (American Public Health Association, 1997) as well as the determination of total sulfide, dissolved sulfide and hydrogen sulfide by iodometric titration.",
+    "interpretation": "该句后为TSS/VSS及元素组成；完整节列GC和XRF，无核酸测序。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01349-E01",
+    "record_id": "R01349",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01349/fulltext/fulltext__published__e04b312bae2991a3.pdf",
+    "source_sha256": "e04b312bae2991a34789627d36e39976c7a69fd76928426f3c54a1432b95cac9",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.2 Monitoring and experimental analysis",
+    "excerpt": "its composition was determined by a CP-4900 Micro-GC [12]. The detection limit (DL) for hydrogen sulphide was 0.001%v/v. The feed and the digested sludge were sampled weekly for total and soluble chemical oxygen demand, total solids, volatile solids 304 I.",
+    "interpretation": "气相色谱测气体，污泥用标准理化指标；没有测序实验。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01349-E02",
+    "record_id": "R01349",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01349/fulltext/fulltext__published__e04b312bae2991a3.pdf",
+    "source_sha256": "e04b312bae2991a34789627d36e39976c7a69fd76928426f3c54a1432b95cac9",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Design of the feedback PID controller",
+    "excerpt": "It was implemented using macros in Microsoft Office Excel.",
+    "interpretation": "此处macros是Excel控制程序，不是macro-omics或测序分析。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01350-E01",
+    "record_id": "R01350",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01350/fulltext/fulltext__published__a2d149d39c1e69ee.pdf",
+    "source_sha256": "a2d149d39c1e69ee44975485bce10a90c0b95435c72a517f785c76d6a20afa86",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      4
+    ],
+    "section": "2.4 Microbial analysis",
+    "excerpt": "archaeal 16S rRNA genes were amplified by polymerase chain reaction (PCR) using the universal bacterial primers 968-F-GC and 1401-R, and A 109(T)-F and 515-GC-R (Sigma–Aldrich, St.",
+    "interpretation": "细菌和古菌16S分别采用968-F-GC/1401-R与A109(T)-F/515-GC-R；非宏转录组。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01350-E02",
+    "record_id": "R01350",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01350/fulltext/fulltext__published__a2d149d39c1e69ee.pdf",
+    "source_sha256": "a2d149d39c1e69ee44975485bce10a90c0b95435c72a517f785c76d6a20afa86",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      4
+    ],
+    "section": "2.4 Microbial analysis",
+    "excerpt": "Individual bands were excised from the archaeal DGGE gel. Both DNA extraction and purification of PCR products were carried out according to Rodríguez et al.",
+    "interpretation": "序列来自古菌16S条带，不是宏基因组文库。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01350-E03",
+    "record_id": "R01350",
+    "evidence_kind": "非目标序列编号声明",
+    "source_path": "original_files/R01350/fulltext/fulltext__published__a2d149d39c1e69ee.pdf",
+    "source_sha256": "a2d149d39c1e69ee44975485bce10a90c0b95435c72a517f785c76d6a20afa86",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      4
+    ],
+    "section": "2.4 Microbial analysis",
+    "excerpt": "accession numbers KJ402278–KJ402293.",
+    "interpretation": "16S序列记录，非目标组学项目。"
+  },
+  {
+    "evidence_id": "R01362-E01",
+    "record_id": "R01362",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01362/fulltext/fulltext__published__01950ce99dba212c.pdf",
+    "source_sha256": "01950ce99dba212c6924e9f4f31ef6db8082a5154717386014a40821ef0e1b6b",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Microbial analysis",
+    "excerpt": "Primer set 8F (50-AGAGTTTGATYMTGGCTC-30) and 1490R (50-GGTT ACCTTGTTACGACTT-30) was used to amplify Bacterial 16S rRNA gene from the total-community DNA.",
+    "interpretation": "该句上文8F/1490R扩增Bacterial 16S rRNA gene；群落DNA提取不能单独作为宏基因组证据。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01362-E02",
+    "record_id": "R01362",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01362/fulltext/fulltext__published__01950ce99dba212c.pdf",
+    "source_sha256": "01950ce99dba212c6924e9f4f31ef6db8082a5154717386014a40821ef0e1b6b",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Microbial analysis",
+    "excerpt": "The 16S rRNA gene of the representative clones with different RFLP patterns were sequenced, by Axil Scientific Sequencing (Singapore), to determine their phylogenetic affiliation.",
+    "interpretation": "代表性16S克隆经RFLP去冗余后测序和系统发育分析，非宏转录组/宏基因组。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01362-E03",
+    "record_id": "R01362",
+    "evidence_kind": "非目标序列编号声明",
+    "source_path": "original_files/R01362/fulltext/fulltext__published__01950ce99dba212c.pdf",
+    "source_sha256": "01950ce99dba212c6924e9f4f31ef6db8082a5154717386014a40821ef0e1b6b",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Microbial analysis",
+    "excerpt": "numbers: KJ907449–KJ907466.",
+    "interpretation": "文中明确细菌16S部分序列；非目标项目。"
+  },
+  {
+    "evidence_id": "R01410-E01",
+    "record_id": "R01410",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01410/fulltext/fulltext__published__a750f0e05f2cd4ac.pdf",
+    "source_sha256": "a750f0e05f2cd4ac62532b353981015de33925a7a5b20c329283eae7a1f7b14e",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.3 Analytical methods",
+    "excerpt": "The volume of biogas produced from the UASB reactor was measured using a wet gas flow meter (BSD-0.5, Shanghai, China) and concentration of methane in the biogas generated was determined using a gas chromatograph (GC-HP7890) equipped with a thermal conductivity detector.",
+    "interpretation": "方法以计气/GC及底物、渗滤液化学分析为主，无建库或生物信息分析。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01410-E02",
+    "record_id": "R01410",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01410/fulltext/fulltext__published__a750f0e05f2cd4ac.pdf",
+    "source_sha256": "a750f0e05f2cd4ac62532b353981015de33925a7a5b20c329283eae7a1f7b14e",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.3 Analytical methods",
+    "excerpt": "The sum of acetic acid, propionic acid, n-butyric acid, iso-butyric acid, n-valeric acid and iso-valeric acid concentrations are reported as total VFAs (tVFA).",
+    "interpretation": "VFA由GC-FID直接测定，非功能预测也非宏组学。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01414-E01",
+    "record_id": "R01414",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01414/fulltext/fulltext__published__f3fdd6d92cc6ded3.pdf",
+    "source_sha256": "f3fdd6d92cc6ded33ae5b190818c70cdb20d56973ad5b57700da51736e3179da",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.2 Monitoring and measurement",
+    "excerpt": "Biogas flow rate, digester temperature, ORP, and pressure were monitored in real time and recorded by the SCADA system. Biogas composition (CH4, CO2, H2S, and O2) was measured daily using a portable biogas analyser (Biogas 5000, Geotech, UK).",
+    "interpretation": "SCADA记录气体/运行参数，随后为便携气体仪及TS/VS/COD/碱度，无核酸测序。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01414-E02",
+    "record_id": "R01414",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01414/fulltext/fulltext__published__f3fdd6d92cc6ded3.pdf",
+    "source_sha256": "f3fdd6d92cc6ded33ae5b190818c70cdb20d56973ad5b57700da51736e3179da",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.4 Micro-oxygen injection",
+    "excerpt": "The oxygen entered the digester through a ceramic diffuser (6 cm \u0004 10 cm) placed at the base of the reactor. The discharge pressure of the oxygen bottle was controlled using a flow regulator set to 150 kPa.",
+    "interpretation": "供氧受ORP控制，完整实验方法无组学建库。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01414-E03",
+    "record_id": "R01414",
+    "evidence_kind": "补充材料核查",
+    "source_path": "original_files/R01414/supplementary/supplementary__0b2884c05d320076.docx",
+    "source_sha256": "0b2884c05d320076b34c119eee0262250395b30a4ae5bde7806b3fe21e173267",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [],
+    "section": "DOCX word/document.xml 段落1–12（含表内段落统一计数）；Table S1",
+    "excerpt": "Table S1: Biogas composition of the two digesters during the experiment.",
+    "interpretation": "附件题名/作者与正文匹配，内容为装置照片和CH4/CO2/H2S/O2表，无测序方法或项目号。"
+  },
+  {
+    "evidence_id": "R01505-E01",
+    "record_id": "R01505",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01505/fulltext/fulltext__published__cd661b225d80e30c.pdf",
+    "source_sha256": "cd661b225d80e30ccb3aaa4cd9ae50c21071f26bbf31dfe4b1fb013483710b66",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.4 Bacterial analysis",
+    "excerpt": "The desired bands were excised from the gels according to the procedure described by Lebrero et al. (2011). The taxonomic position of the sequenced DGGE bands was obtained by the RDP classifier tool at a confidence level of 50% (Wang et al., 2007).",
+    "interpretation": "条带切取后测序及分类，非宏基因组文库。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01505-E02",
+    "record_id": "R01505",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01505/fulltext/fulltext__published__cd661b225d80e30c.pdf",
+    "source_sha256": "cd661b225d80e30ccb3aaa4cd9ae50c21071f26bbf31dfe4b1fb013483710b66",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      6
+    ],
+    "section": "Fig.5 caption",
+    "excerpt": "Bacterial DGGE profiles of the 16S rRNA amplicons of the samples retrieved from the HS of R1 (a) and R2 (b) at t = 15 with their respective diversity indices.",
+    "interpretation": "明确为16S扩增子DNA而不是群落RNA转录组。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01505-E03",
+    "record_id": "R01505",
+    "evidence_kind": "非目标序列编号声明",
+    "source_path": "original_files/R01505/fulltext/fulltext__published__cd661b225d80e30c.pdf",
+    "source_sha256": "cd661b225d80e30ccb3aaa4cd9ae50c21071f26bbf31dfe4b1fb013483710b66",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      4
+    ],
+    "section": "2.4 Bacterial analysis（续）",
+    "excerpt": "database under accession numbers KF148033–KF148052.",
+    "interpretation": "本研究16S条带核酸记录，非项目。"
+  },
+  {
+    "evidence_id": "R01556-E01",
+    "record_id": "R01556",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01556/fulltext/fulltext__published__2f7462391b5df844.pdf",
+    "source_sha256": "2f7462391b5df8445267f2f8a5c0387a7286101c309d4def9310c06541d1c113",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.2 Monitoring and experimental analysis",
+    "excerpt": "The CH4, CO2, N2, O2 and H2S content of biogas was determined by gas chromatography (VARIAN CP-3800 GC) according to Díaz et al. (2010a),",
+    "interpretation": "GC测气体；其余指标为常规理化，无宏组学建库。",
+    "excerpt_normalization": "NFKC and joined line-wrap hyphenation/whitespace"
+  },
+  {
+    "evidence_id": "R01556-E02",
+    "record_id": "R01556",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01556/fulltext/fulltext__published__2f7462391b5df844.pdf",
+    "source_sha256": "2f7462391b5df8445267f2f8a5c0387a7286101c309d4def9310c06541d1c113",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Experimental procedure",
+    "excerpt": "This research was divided into six periods, according to the HS volume of the digester (Table 1). In A1 and A2, the reactor operated MASS FLOW CONTROLLER SEWAGE SLUDGE O2 CYLINDER DIGESTED SLUDGE FLOWMETER BIOGAS (a) P GC T MASS FLOW CONTROLLER SEWAGE SLUDGE O2 CYLINDER DIGESTED SLUDGE GC T BIOGAS (b) MASS FLOW CONTROLLER SEWAGE SLUDGE O2 CYLINDER GC T […]",
+    "interpretation": "实验按顶空容积和供氧阶段变化，不是社区测序实验。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01654-E01",
+    "record_id": "R01654",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01654/fulltext/fulltext__published__07361dc13d0f4990.pdf",
+    "source_sha256": "07361dc13d0f4990272d0fca0f7447c5ee84a8f2b900675775f2e6ee1998444a",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "Feedstock（续）",
+    "excerpt": "Through elemental analysis using a Vario Macro Cube (Elementar Analysensysteme), the elemental composition of waste biomass (samples 2 and 3) was determined as follows: C 4.41%, N 0.72%, S 0.41% with ratios C:N 1⁄4 6.1 and C:S 1⁄4 10.8 for sample 2, and C 4.8%, N 0.94%, S 0.44% with ratios C:N 1⁄4 5.1 and C:S 1⁄4 10.9 for sample 3.",
+    "interpretation": "Macro Cube为元素分析仪，测C/N/S，不可据Macro词误判组学。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01654-E02",
+    "record_id": "R01654",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01654/fulltext/fulltext__published__07361dc13d0f4990.pdf",
+    "source_sha256": "07361dc13d0f4990272d0fca0f7447c5ee84a8f2b900675775f2e6ee1998444a",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "Analytical methods",
+    "excerpt": "Volatile fatty acids (VFA) were measured by titration with a 0.05 M solution of H2SO4. TS, VS, and dissolved inorganic salts (DIS) were determined gravimetrically according to Standard Methods for the Examination of Water and Wastewater (APHA/AWWA/WEF ).",
+    "interpretation": "完整节为滴定、重量法及气体分析，无任何群落核酸测序。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01727-E01",
+    "record_id": "R01727",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01727/fulltext/fulltext__published__cf60070671c880d0.pdf",
+    "source_sha256": "cf60070671c880d0eec8957e9b2b2f8d68cc83429c0c3eb7504a2d7f8e2381b3",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.5 Structure analysis of solid fraction of sugarcane bagasse",
+    "excerpt": "The structure analyses were conducted by a spectrum one FTIR system (the Nicolet iN10 IR Microscope) with a universal ATR (Attenuated Total Reection) accessory and wide angle X-ray diffraction, which was in accordance with the reported methods.18 2.6 Analytical methods The biogas yield was measured by water displacement method.",
+    "interpretation": "结构分析为FTIR-ATR和XRD，非基因组/转录组功能分析。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01727-E02",
+    "record_id": "R01727",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01727/fulltext/fulltext__published__cf60070671c880d0.pdf",
+    "source_sha256": "cf60070671c880d0eec8957e9b2b2f8d68cc83429c0c3eb7504a2d7f8e2381b3",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.6 Analytical methods",
+    "excerpt": "Biogas composition was measured by a gas chromatograph (SP 6890, Shandong Lunan Inc., China), equipped with a Porapak Q stainless steel column (180 cm long, 3 mm outer diameter) and a thermal conductivity detector.",
+    "interpretation": "气体及TS/VS常规分析；完整方法无核酸测序。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01727-E03",
+    "record_id": "R01727",
+    "evidence_kind": "附件身份与实际角色核对",
+    "source_path": "original_files/R01727/supplementary/supplementary__2b717bb2226270b6.pdf",
+    "source_sha256": "2b717bb2226270b60ed76548490ad50d935cb973cc5017cc2b19aa287c870488",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      1,
+      2
+    ],
+    "section": "原登记supplementary PDF：p1接受稿声明，p2题名/作者",
+    "excerpt": "This is an Accepted Manuscript",
+    "interpretation": "与出版版题名、Shan-fei Fu等作者完全匹配；实际为本文接受稿，不是独立补充材料。仅记录筛查层核实，保留原清单角色和路径。"
+  },
+  {
+    "evidence_id": "R01785-E01",
+    "record_id": "R01785",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01785/fulltext/fulltext__published__1045800466e6b5e7.pdf",
+    "source_sha256": "1045800466e6b5e78175d03918711476e7fa0a0ac6638aeb4e474981a713548e",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.1 Plant description",
+    "excerpt": "Data contained in Table 1 (specifically, VS influent and removal, and biogas production) were estimated from the results of Ramos et al.",
+    "interpretation": "后文明确VS进料/去除和沼气产量取自既有工程研究；不是组学数据再分析。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
+  },
+  {
+    "evidence_id": "R01785-E02",
+    "record_id": "R01785",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R01785/fulltext/fulltext__published__1045800466e6b5e7.pdf",
+    "source_sha256": "1045800466e6b5e78175d03918711476e7fa0a0ac6638aeb4e474981a713548e",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B002",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Profitability analysis",
+    "excerpt": "The profitability analysis was based on cash flows, and carried out in terms of net present value (NPV) and internal return rate (IRR), according to Chauvel et al.",
+    "interpretation": "研究主体为NPV/IRR经济分析，无测序或核酸方法。",
+    "excerpt_normalization": "NFKC; join line-wrap hyphenation and whitespace; […] marks truncation"
   }
 ]
