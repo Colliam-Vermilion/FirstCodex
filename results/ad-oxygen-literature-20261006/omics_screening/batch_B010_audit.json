@@ -2,7 +2,7 @@
   "batch_id": "B010",
   "baseline_commit": "f7ce38867f2486adf05523207beaa644b8ef8a82",
   "requested_research_count": 26,
-  "status": "进行中：每篇即时保存",
+  "selection_rule": "最新基线screening_records.json全部progress=未开始记录，按稳定文献ID排序，不因载体/期刊/JCR排除。",
   "selected_ids": [
     "R13938",
     "R13939",
@@ -31,18 +31,42 @@
     "R13972",
     "R13973"
   ],
-  "checkpoint_completed_ids": [
-    "R13938",
-    "R13939",
-    "R13940",
-    "R13941",
-    "R13942",
-    "R13943",
-    "R13944",
-    "R13945",
-    "R13948",
-    "R13950",
-    "R13951",
-    "R13954"
-  ]
+  "status": "已完成",
+  "research_completed": 26,
+  "pending_ids": [],
+  "target_ids": [],
+  "negative_articles": 26,
+  "metagenomics_articles": 0,
+  "metatranscriptomics_articles": 0,
+  "both_articles": 0,
+  "source_objects": 42,
+  "source_bytes": 129520145,
+  "source_formats": {
+    "PDF": 40,
+    "DOCX": 2
+  },
+  "fulltext_pdf_objects": 39,
+  "supplementary_originals": 3,
+  "new_evidence_records": 35,
+  "checkpoint_commit": "68af431",
+  "checkpoint_note": "每篇完成人工方法/上下文判断即写入JSON/证据/日志；前12篇已提交和推送68af431。选择范围严格按稳定ID，日志保留实际完成时间顺序。",
+  "new_target_projects": 0,
+  "new_official_public_projects": 0,
+  "new_public_target_runs": 0,
+  "supplementary_identity_resolved": [
+    "R13939"
+  ],
+  "remaining_attachment_identity_pending_objects": 52,
+  "split_theses": {
+    "R13968": 7,
+    "R13969": 7
+  },
+  "additional_text_identical_byte_distinct_fulltext_version": "R13955第二143页版本：逐页提取文本一致，SHA不同，保留两个原件及解析。",
+  "low_text_pages_visually_checked": 64,
+  "additional_method_design_page_checked": "R13948 PDF47（同时属于低文字页集合，不重复计数）",
+  "no_originals_modified": true,
+  "no_main_changes": true,
+  "raw_sequencing_data_downloaded": false,
+  "new_literature_search": false,
+  "authors_contacted": false
 }

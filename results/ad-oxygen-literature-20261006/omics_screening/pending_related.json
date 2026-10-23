@@ -459,7 +459,11 @@
     "path": "original_files/R13939/supplementary/supplementary__66e9851e6c1740f0.pdf",
     "sha256": "66e9851e6c1740f0bfb9b3a07e7f8faa62ec83ee5d838ee8dae83c539d4989af",
     "reason": " 文件可打开且内容为表格/数据/图等补充材料；缺题名/DOI等唯一关联凭据，仅保留目录及内容关联，不能声称已核实附件身份或已收齐全部附件。",
-    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实"
+    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实",
+    "resolution_status": "已解决",
+    "resolved_in_batch": "B010",
+    "resolution": "正文与SI首页题名、作者Linji Xu/Jiansheng Huang/Lin Li/Huichuan Zhuang及机构一致；SI全7页内容对应UASB/SBR水质实验。",
+    "resolution_evidence_id": "R13939-E02"
   },
   {
     "record_id": "R13864",
@@ -1887,5 +1891,18 @@
     "official_url": "https://www.ebi.ac.uk/ena/browser/view/PRJEB33520",
     "reason": "正文明确515F/907R扩增子；STAMP软件名称含Metagenomic不改变数据类型。",
     "action": "不计目标项目或公开目标run。"
+  },
+  {
+    "record_id": "R13973",
+    "path": "original_files/R13973/fulltext/fulltext__thesis__fd2ff5b6b7fe8a44.pdf",
+    "sha256": "fd2ff5b6b7fe8a44447b820d12bcefcd9fa1ed470da864e72bf4f8d440daef9f",
+    "batch_id": "B010",
+    "issue_type": "非目标16S单条核酸编号范围",
+    "raw_accession": "KF169842 – KF169904; KJ907449 – KJ907466",
+    "database": "NCBI GenBank nucleotide",
+    "accession_level": "单条核酸序列（文中范围）",
+    "official_url": "https://www.ncbi.nlm.nih.gov/nuccore/KJ907449",
+    "reason": "16S靶基因克隆后代表序列，不是MG/MT、BioProject或原始reads；未访问官方，未标确认公开。",
+    "action": "仅保留排除线索，不计目标文章、独立项目或公开目标run。"
   }
 ]
