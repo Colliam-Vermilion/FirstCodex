@@ -1,0 +1,15 @@
+{
+  "record_id": "R13817_exact_doi",
+  "exact_known_article_doi_or_non_target_accession": "\"10.1016/j.watres.2026.126838\"",
+  "checked_at_utc": "2026-10-23T15:13:55.334996+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=%2210.1016%2Fj.watres.2026.126838%22&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"0\",\"retmax\":\"0\",\"retstart\":\"0\",\"idlist\":[],\"translationset\":[],\"querytranslation\":\"(\\\"10.1016/j.watres.2026.126838\\\"[All Fields])\",\"warninglist\":{\"phrasesignored\":[],\"quotedphrasesnotfound\":[\"\\\"10.1016/j.watres.2026.126838\\\"\"],\"outputmessages\":[\"No items found.\"]}}}\n"
+    }
+  ],
+  "sra_search_count": "0",
+  "limitation": "精确DOI检索无结果不能证明没有测序数据或未公开；16S项目不能因可访问而转为目标数据。"
+}

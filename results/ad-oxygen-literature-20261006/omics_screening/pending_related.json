@@ -1647,5 +1647,79 @@
     ],
     "reason": "SI FigS4原页PCoA显示A1/A2/A3和B1/B2/B3六点；正文两反应器及三重复测量，未说明独立建库/提取/技术重复层级。",
     "action": "保留六点观察，不推定独立反应器生物重复；原页渲染核查图及SHA可回溯。"
+  },
+  {
+    "record_id": "R13691",
+    "path": "original_files/R13691/fulltext/fulltext__published__0d0f2f553fdab708.pdf",
+    "sha256": "0d0f2f553fdab70812f65b946b82aaa478e30aaddc009869258a3ad15fd26259",
+    "batch_id": "B008",
+    "issue_type": "非目标扩增子项目",
+    "raw_accession": "PRJNA1367766",
+    "normalized_accession": "PRJNA1367766",
+    "accession_level": "BioProject",
+    "database": "NCBI",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1367766",
+    "reason": "正文明确为16S/ITS扩增子，不计目标项目。",
+    "public_status": "未作本批官方核验（正文已明确非目标）",
+    "action": "保留线索，不计目标数据项目。"
+  },
+  {
+    "record_id": "R13816",
+    "path": "original_files/R13816/fulltext/fulltext__published__9ca1f17111350dd6.pdf",
+    "sha256": "9ca1f17111350dd69221515ab3091a07458ae20d25f26eddad6d542e8f0efcc6",
+    "batch_id": "B008",
+    "issue_type": "非目标扩增子项目",
+    "raw_accession": "PRJNA836880",
+    "normalized_accession": "PRJNA836880",
+    "accession_level": "BioProject",
+    "database": "NCBI",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA836880",
+    "reason": "16S扩增子，与R13293/R13557共号，不计目标项目。",
+    "public_status": "未作本批官方核验（正文已明确非目标）",
+    "action": "保留线索，不计目标数据项目。"
+  },
+  {
+    "record_id": "R13817",
+    "path": "original_files/R13817/fulltext/fulltext__published__086e395f087b1b36.pdf",
+    "sha256": "086e395f087b1b36367cf3c6896bfe13ef8bd9bdbcbf414848d0e902f5dd7c08",
+    "batch_id": "B008",
+    "issue_type": "数据不共享声明，未定位存储项目",
+    "reason": "PDF13作者无权限共享数据；不等于可索取，也不满足已定位受限项目状态3。保留状态6并单列原文声明。",
+    "action": "需要作者/存储元数据补充；本轮不联系作者。"
+  },
+  {
+    "record_id": "R13832",
+    "path": "original_files/R13832/fulltext/fulltext__published__12c614c8fe1d4c0c.pdf",
+    "sha256": "12c614c8fe1d4c0ca70e1b749170fe5b55abe93011fb9dde28798d5b1b578501",
+    "batch_id": "B008",
+    "issue_type": "非目标扩增子项目",
+    "raw_accession": "PRJEB12845",
+    "normalized_accession": "PRJEB12845",
+    "accession_level": "BioProject",
+    "database": "ENA",
+    "official_url": "https://www.ebi.ac.uk/ena/browser/view/PRJEB12845",
+    "reason": "正文16S扩增子编号，不计目标。",
+    "action": "保留非目标编号线索。"
+  },
+  {
+    "record_id": "R13833",
+    "path": "original_files/R13833/fulltext/fulltext__published__1a4a4d5f8fd45de9.pdf",
+    "sha256": "1a4a4d5f8fd45de924c78a7be11e1c032c630bd9341431d1d49135c8351cdaf7",
+    "batch_id": "B008",
+    "issue_type": "非目标扩增子项目及单菌核酸记录",
+    "raw_accession": "PRJEB11469; ERS937154–ERS937157; ERS1487522–ERS1487524; ERS1505407; ERS2319672–ERS2319677; LT903717–LT903718",
+    "database": "ENA",
+    "accession_level": "项目/样本/单菌16S核酸记录分开",
+    "official_url": "https://www.ebi.ac.uk/ena/browser/view/PRJEB11469",
+    "reason": "群落数据为16S扩增子，LT号为分离菌16S；均非目标数据。",
+    "action": "保留原样编号，不计目标独立项目。"
+  },
+  {
+    "record_id": "R13671",
+    "batch_id": "B008",
+    "issue_type": "目标/扩增子项目冲突及样本组映射",
+    "raw_accession": "PRJNA1447972;PRJNA1448473;PRJNA1447957",
+    "reason": "正文把3项目统称MG，但官方前2均AMPLICON（各24实验），只有PRJNA1447957为12WGS/METAGENOMIC/PAIRED/NovaSeq6000。保留冲突，按逐实验策略排除非目标。 官方WGS样本12个：ZZ49/ZN49/CZ21/CN21/ZZ21/ZN21/CZ0/CN0/CZ49/CN49/ZZ0/ZN0，具体条件对应未确认。",
+    "action": "仅12WGS纳入目标；保留组别和日期差异。"
   }
 ]

@@ -1,0 +1,1006 @@
+{
+  "record_id": "R13671_PRJNA1447972",
+  "exact_known_article_doi_or_non_target_accession": "PRJNA1447972",
+  "checked_at_utc": "2026-10-23T15:13:52.985286+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1447972&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"24\",\"retmax\":\"24\",\"retstart\":\"0\",\"idlist\":[\"43776230\",\"43776229\",\"43776228\",\"43776227\",\"43776226\",\"43776225\",\"43776224\",\"43776223\",\"43776222\",\"43776221\",\"43776220\",\"43776219\",\"43776218\",\"43776217\",\"43776216\",\"43776215\",\"43776214\",\"43776213\",\"43776212\",\"43776211\",\"43776210\",\"43776209\",\"43776208\",\"43776207\"],\"translationset\":[],\"translationstack\":[{\"term\":\"PRJNA1447972[All Fields]\",\"field\":\"All Fields\",\"count\":\"24\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"PRJNA1447972[All Fields]\"}}\n"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=sra&id=43776230%2C43776229%2C43776228%2C43776227%2C43776226%2C43776225%2C43776224%2C43776223%2C43776222%2C43776221%2C43776220%2C43776219%2C43776218%2C43776217%2C43776216%2C43776215%2C43776214%2C43776213%2C43776212%2C43776211%2C43776210%2C43776209%2C43776208%2C43776207&retmode=xml",
+      "status": 200,
+      "response": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<!DOCTYPE eSummaryResult PUBLIC \"-//NLM//DTD esummary v1 20041029//EN\" \"https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd\">\n<eSummaryResult>\n<DocSum>\n\t<Id>43776230</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CZ1-21&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"129614\" total_bases=\"63251632\" total_size=\"20059179\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778550\" ver=\"1\" status=\"public\" name=\"CZ1-21\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638444\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CZ1-21&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096615&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918780\" total_spots=\"129614\" total_bases=\"63251632\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776229</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CN3-21&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"120712\" total_bases=\"58907456\" total_size=\"18728063\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778549\" ver=\"1\" status=\"public\" name=\"CN3-21\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638443\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CN3-21&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096614&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918781\" total_spots=\"120712\" total_bases=\"58907456\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776228</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CN2-21&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"135879\" total_bases=\"66308952\" total_size=\"20993823\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778548\" ver=\"1\" status=\"public\" name=\"CN2-21\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638441\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CN2-21&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096613&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918782\" total_spots=\"135879\" total_bases=\"66308952\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776227</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CN1-21&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"124224\" total_bases=\"60621312\" total_size=\"19427010\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778547\" ver=\"1\" status=\"public\" name=\"CN1-21\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638440\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CN1-21&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096612&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918783\" total_spots=\"124224\" total_bases=\"60621312\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776226</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;ZZ3-21&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"122309\" total_bases=\"59686792\" total_size=\"19083952\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778546\" ver=\"1\" status=\"public\" name=\"ZZ3-21\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638442\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;ZZ3-21&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096611&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918784\" total_spots=\"122309\" total_bases=\"59686792\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776225</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;ZZ2-21&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"123029\" total_bases=\"60038152\" total_size=\"19199097\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778545\" ver=\"1\" status=\"public\" name=\"ZZ2-21\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638439\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;ZZ2-21&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096610&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918785\" total_spots=\"123029\" total_bases=\"60038152\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776224</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;ZZ1-21&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"127619\" total_bases=\"62278072\" total_size=\"19867942\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778544\" ver=\"1\" status=\"public\" name=\"ZZ1-21\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638438\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;ZZ1-21&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096609&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918786\" total_spots=\"127619\" total_bases=\"62278072\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776223</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CZ3-35&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"136020\" total_bases=\"66377760\" total_size=\"21148226\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778543\" ver=\"1\" status=\"public\" name=\"CZ3-35\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638437\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CZ3-35&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096629&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918787\" total_spots=\"136020\" total_bases=\"66377760\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776222</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CZ2-35&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"137012\" total_bases=\"66861856\" total_size=\"21286046\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778542\" ver=\"1\" status=\"public\" name=\"CZ2-35\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638436\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CZ2-35&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096628&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918788\" total_spots=\"137012\" total_bases=\"66861856\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776221</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CZ1-35&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"129178\" total_bases=\"63038864\" total_size=\"20035244\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778541\" ver=\"1\" status=\"public\" name=\"CZ1-35\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638435\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CZ1-35&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096627&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918789\" total_spots=\"129178\" total_bases=\"63038864\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776220</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CN3-35&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"123556\" total_bases=\"60295328\" total_size=\"19289724\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778540\" ver=\"1\" status=\"public\" name=\"CN3-35\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638434\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CN3-35&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096626&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918790\" total_spots=\"123556\" total_bases=\"60295328\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776219</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;ZN3-21&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"137985\" total_bases=\"67336680\" total_size=\"21619008\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778539\" ver=\"1\" status=\"public\" name=\"ZN3-21\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638433\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;ZN3-21&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096608&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918791\" total_spots=\"137985\" total_bases=\"67336680\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776218</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CN2-35&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"133245\" total_bases=\"65023560\" total_size=\"20648027\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778538\" ver=\"1\" status=\"public\" name=\"CN2-35\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638432\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CN2-35&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096625&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918792\" total_spots=\"133245\" total_bases=\"65023560\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776217</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CN1-35&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"130120\" total_bases=\"63498560\" total_size=\"20259240\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778537\" ver=\"1\" status=\"public\" name=\"CN1-35\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638431\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CN1-35&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096624&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918793\" total_spots=\"130120\" total_bases=\"63498560\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776216</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;ZZ3-35&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"125447\" total_bases=\"61218136\" total_size=\"19528851\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778536\" ver=\"1\" status=\"public\" name=\"ZZ3-35\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638430\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;ZZ3-35&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096623&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918794\" total_spots=\"125447\" total_bases=\"61218136\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776215</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;ZZ2-35&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"134502\" total_bases=\"65636976\" total_size=\"21067877\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778535\" ver=\"1\" status=\"public\" name=\"ZZ2-35\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638429\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;ZZ2-35&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096622&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918795\" total_spots=\"134502\" total_bases=\"65636976\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776214</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;ZZ1-35&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"133799\" total_bases=\"65293912\" total_size=\"20909765\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778534\" ver=\"1\" status=\"public\" name=\"ZZ1-35\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638428\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;ZZ1-35&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096621&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918796\" total_spots=\"133799\" total_bases=\"65293912\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776213</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;ZN3-35&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"122351\" total_bases=\"59707288\" total_size=\"19178460\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778533\" ver=\"1\" status=\"public\" name=\"ZN3-35\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638426\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;ZN3-35&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096620&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918797\" total_spots=\"122351\" total_bases=\"59707288\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776212</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;ZN2-35&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"122491\" total_bases=\"59775608\" total_size=\"19063472\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778532\" ver=\"1\" status=\"public\" name=\"ZN2-35\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638427\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;ZN2-35&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096619&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918798\" total_spots=\"122491\" total_bases=\"59775608\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776211</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;ZN1-35&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"129504\" total_bases=\"63197952\" total_size=\"20273146\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778531\" ver=\"1\" status=\"public\" name=\"ZN1-35\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638424\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;ZN1-35&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096618&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918799\" total_spots=\"129504\" total_bases=\"63197952\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776210</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CZ3-21&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"135559\" total_bases=\"66152792\" total_size=\"21010176\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778530\" ver=\"1\" status=\"public\" name=\"CZ3-21\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638425\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CZ3-21&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096617&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918800\" total_spots=\"135559\" total_bases=\"66152792\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776209</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CZ2-21&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"131162\" total_bases=\"64007056\" total_size=\"20382670\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778529\" ver=\"1\" status=\"public\" name=\"CZ2-21\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638422\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CZ2-21&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096616&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918801\" total_spots=\"131162\" total_bases=\"64007056\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776208</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;ZN2-21&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"132850\" total_bases=\"64830800\" total_size=\"20681960\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778528\" ver=\"1\" status=\"public\" name=\"ZN2-21\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638423\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;ZN2-21&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096607&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918802\" total_spots=\"132850\" total_bases=\"64830800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>43776207</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;ZN1-21&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2500\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"129209\" total_bases=\"63053992\" total_size=\"20377222\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2366700\" center_name=\"Lanzhou University of Technology\" contact_name=\"Jiabei Shan\" lab_name=\"Department of Environmental Science and Engineerin\"/&gt;&lt;Experiment acc=\"SRX32778527\" ver=\"1\" status=\"public\" name=\"ZN1-21\"/&gt;&lt;Study acc=\"SRP689132\" name=\"Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)\"/&gt;&lt;Organism taxid=\"256318\" ScientificName=\"metagenome\"/&gt;&lt;Sample acc=\"SRS28638421\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2500\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;ZN1-21&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1447972&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN57096606&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR37918803\" total_spots=\"129209\" total_bases=\"63053992\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2026/04/23</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2026/04/03</Item>\n</DocSum>\n\n</eSummaryResult>\n"
+    }
+  ],
+  "sra_search_count": "24",
+  "sra_summaries": [
+    {
+      "uid": "43776230",
+      "title": "CZ1-21",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778550",
+            "ver": "1",
+            "status": "public",
+            "name": "CZ1-21"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638444",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918780\" total_spots=\"129614\" total_bases=\"63251632\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096615",
+      "library_name": "CZ1-21",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776229",
+      "title": "CN3-21",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778549",
+            "ver": "1",
+            "status": "public",
+            "name": "CN3-21"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638443",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918781\" total_spots=\"120712\" total_bases=\"58907456\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096614",
+      "library_name": "CN3-21",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776228",
+      "title": "CN2-21",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778548",
+            "ver": "1",
+            "status": "public",
+            "name": "CN2-21"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638441",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918782\" total_spots=\"135879\" total_bases=\"66308952\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096613",
+      "library_name": "CN2-21",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776227",
+      "title": "CN1-21",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778547",
+            "ver": "1",
+            "status": "public",
+            "name": "CN1-21"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638440",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918783\" total_spots=\"124224\" total_bases=\"60621312\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096612",
+      "library_name": "CN1-21",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776226",
+      "title": "ZZ3-21",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778546",
+            "ver": "1",
+            "status": "public",
+            "name": "ZZ3-21"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638442",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918784\" total_spots=\"122309\" total_bases=\"59686792\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096611",
+      "library_name": "ZZ3-21",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776225",
+      "title": "ZZ2-21",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778545",
+            "ver": "1",
+            "status": "public",
+            "name": "ZZ2-21"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638439",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918785\" total_spots=\"123029\" total_bases=\"60038152\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096610",
+      "library_name": "ZZ2-21",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776224",
+      "title": "ZZ1-21",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778544",
+            "ver": "1",
+            "status": "public",
+            "name": "ZZ1-21"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638438",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918786\" total_spots=\"127619\" total_bases=\"62278072\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096609",
+      "library_name": "ZZ1-21",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776223",
+      "title": "CZ3-35",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778543",
+            "ver": "1",
+            "status": "public",
+            "name": "CZ3-35"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638437",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918787\" total_spots=\"136020\" total_bases=\"66377760\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096629",
+      "library_name": "CZ3-35",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776222",
+      "title": "CZ2-35",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778542",
+            "ver": "1",
+            "status": "public",
+            "name": "CZ2-35"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638436",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918788\" total_spots=\"137012\" total_bases=\"66861856\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096628",
+      "library_name": "CZ2-35",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776221",
+      "title": "CZ1-35",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778541",
+            "ver": "1",
+            "status": "public",
+            "name": "CZ1-35"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638435",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918789\" total_spots=\"129178\" total_bases=\"63038864\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096627",
+      "library_name": "CZ1-35",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776220",
+      "title": "CN3-35",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778540",
+            "ver": "1",
+            "status": "public",
+            "name": "CN3-35"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638434",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918790\" total_spots=\"123556\" total_bases=\"60295328\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096626",
+      "library_name": "CN3-35",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776219",
+      "title": "ZN3-21",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778539",
+            "ver": "1",
+            "status": "public",
+            "name": "ZN3-21"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638433",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918791\" total_spots=\"137985\" total_bases=\"67336680\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096608",
+      "library_name": "ZN3-21",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776218",
+      "title": "CN2-35",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778538",
+            "ver": "1",
+            "status": "public",
+            "name": "CN2-35"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638432",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918792\" total_spots=\"133245\" total_bases=\"65023560\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096625",
+      "library_name": "CN2-35",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776217",
+      "title": "CN1-35",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778537",
+            "ver": "1",
+            "status": "public",
+            "name": "CN1-35"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638431",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918793\" total_spots=\"130120\" total_bases=\"63498560\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096624",
+      "library_name": "CN1-35",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776216",
+      "title": "ZZ3-35",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778536",
+            "ver": "1",
+            "status": "public",
+            "name": "ZZ3-35"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638430",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918794\" total_spots=\"125447\" total_bases=\"61218136\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096623",
+      "library_name": "ZZ3-35",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776215",
+      "title": "ZZ2-35",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778535",
+            "ver": "1",
+            "status": "public",
+            "name": "ZZ2-35"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638429",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918795\" total_spots=\"134502\" total_bases=\"65636976\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096622",
+      "library_name": "ZZ2-35",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776214",
+      "title": "ZZ1-35",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778534",
+            "ver": "1",
+            "status": "public",
+            "name": "ZZ1-35"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638428",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918796\" total_spots=\"133799\" total_bases=\"65293912\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096621",
+      "library_name": "ZZ1-35",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776213",
+      "title": "ZN3-35",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778533",
+            "ver": "1",
+            "status": "public",
+            "name": "ZN3-35"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638426",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918797\" total_spots=\"122351\" total_bases=\"59707288\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096620",
+      "library_name": "ZN3-35",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776212",
+      "title": "ZN2-35",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778532",
+            "ver": "1",
+            "status": "public",
+            "name": "ZN2-35"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638427",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918798\" total_spots=\"122491\" total_bases=\"59775608\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096619",
+      "library_name": "ZN2-35",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776211",
+      "title": "ZN1-35",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778531",
+            "ver": "1",
+            "status": "public",
+            "name": "ZN1-35"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638424",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918799\" total_spots=\"129504\" total_bases=\"63197952\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096618",
+      "library_name": "ZN1-35",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776210",
+      "title": "CZ3-21",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778530",
+            "ver": "1",
+            "status": "public",
+            "name": "CZ3-21"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638425",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918800\" total_spots=\"135559\" total_bases=\"66152792\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096617",
+      "library_name": "CZ3-21",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776209",
+      "title": "CZ2-21",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778529",
+            "ver": "1",
+            "status": "public",
+            "name": "CZ2-21"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638422",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918801\" total_spots=\"131162\" total_bases=\"64007056\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096616",
+      "library_name": "CZ2-21",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776208",
+      "title": "ZN2-21",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778528",
+            "ver": "1",
+            "status": "public",
+            "name": "ZN2-21"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638423",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918802\" total_spots=\"132850\" total_bases=\"64830800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096607",
+      "library_name": "ZN2-21",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    },
+    {
+      "uid": "43776207",
+      "title": "ZN1-21",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX32778527",
+            "ver": "1",
+            "status": "public",
+            "name": "ZN1-21"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP689132",
+            "name": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Bacterial 16S rRNA gene)"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS28638421",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR37918803\" total_spots=\"129209\" total_bases=\"63053992\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1447972",
+      "biosample": "SAMN57096606",
+      "library_name": "ZN1-21",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "metagenome",
+      "platform": "Illumina HiSeq 2500"
+    }
+  ],
+  "limitation": "精确DOI检索无结果不能证明没有测序数据或未公开；16S项目不能因可访问而转为目标数据。"
+}
