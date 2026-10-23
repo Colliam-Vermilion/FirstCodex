@@ -4,12 +4,13 @@
   "eligible_research_queue_after_type_verification": 341,
   "progress_counts": {
     "缺正文跳过": 34,
-    "已完成": 25,
+    "已完成": 44,
     "综述不适用": 51,
-    "未开始": 316
+    "待确认": 1,
+    "未开始": 296
   },
-  "completed_articles": 25,
-  "processed_records_including_new_reviews": 26,
+  "completed_articles": 44,
+  "processed_records_including_new_reviews": 46,
   "new_reviews_identified": 1,
   "target_articles": 0,
   "metagenomics_only_articles": 0,
@@ -18,15 +19,21 @@
   "public_target_data_articles": 0,
   "explicit_sequencing_data_on_request_articles": 0,
   "independent_target_projects": 0,
-  "remaining_unstarted": 316,
-  "next_batch_start": "R01917",
+  "remaining_unstarted": 296,
+  "next_batch_start": "R03164",
   "next_batch_default_size": 20,
   "batch_ids": [
     "B001",
-    "B002"
+    "B002",
+    "B003"
   ],
-  "last_completion_at_utc": "2026-10-23T06:06:27.938296+00:00",
+  "last_completion_at_utc": "2026-10-23T06:35:30.387773+00:00",
   "attachment_identity_pending_objects": 60,
-  "screening_uncertainty_articles": 0,
-  "note": "未完成、缺正文及综述不计阴性；本批零命中不代表剩余队列没有目标测序。"
+  "screening_uncertainty_articles": 1,
+  "note": "未完成、待确认、缺正文及综述不计阴性；本批零命中不代表剩余队列没有目标测序。",
+  "screened_research_records_including_pending": 45,
+  "pending_research_ids": [
+    "R01917"
+  ],
+  "last_screened_at_utc": "2026-10-23T06:35:30.387773+00:00"
 }

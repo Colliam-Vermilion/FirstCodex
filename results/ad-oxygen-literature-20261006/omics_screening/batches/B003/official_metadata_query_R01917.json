@@ -1,0 +1,37 @@
+{
+  "record_id": "R01917",
+  "batch_id": "B003",
+  "checked_at_utc": "2026-10-23T06:34:49.843630+00:00",
+  "purpose": "Exact known-article DOI lookup in official SRA metadata only; no new literature or raw-read download",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=10.1016%2Fj.biortech.2015.06.072&retmode=json&retmax=20",
+  "query": "10.1016/j.biortech.2015.06.072",
+  "http_status": 200,
+  "response": {
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    },
+    "esearchresult": {
+      "count": "0",
+      "retmax": "0",
+      "retstart": "0",
+      "idlist": [],
+      "translationset": [],
+      "querytranslation": "(10.1016/j.biortech.2015.06.072[All Fields])",
+      "errorlist": {
+        "phrasesnotfound": [
+          "10.1016",
+          "j.biortech.2015.06.072"
+        ],
+        "fieldsnotfound": []
+      },
+      "warninglist": {
+        "phrasesignored": [],
+        "quotedphrasesnotfound": [],
+        "outputmessages": [
+          "No items found."
+        ]
+      }
+    }
+  }
+}

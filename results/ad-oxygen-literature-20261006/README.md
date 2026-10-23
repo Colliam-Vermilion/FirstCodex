@@ -1,8 +1,8 @@
 # 当前新增：宏基因组/宏转录组分批全文筛查（2026-10-23）
 
-已完成B001五篇及B002二十篇研究，累计25篇研究均未使用目标测序；剩316篇未开始。B002另按原件识别R00915为综述，单列后顺延补入R01785，不改原分类。426条任务中：25完成、316未开始、34研究缺正文跳过、51综述不适用。下一批从R01917开始，默认20篇实际研究。
+B003按顺序筛查R01917至R03161共20篇：19完成、R01917待确认（PCR后454但靶区/建库说明不足，不强作阴性）。累计筛查45篇研究：44完成、1待确认、296未开始；另34研究缺正文跳过、51综述不适用，共426条任务。确认目标测序0篇，未完成/待确认不作阴性。下一批从R03164开始，默认20篇。
 
-- **[同一份累计筛查Excel](omics_screening/omics_screening_cumulative.xlsx)**、[逐篇结论/字段与续跑说明](omics_screening/README.md)、[累计JSON进度](omics_screening/screening_records.json)、[逐篇证据](omics_screening/evidence.json)、[统计](omics_screening/summary.json)、[B002远端核验回执](omics_screening/batches/B002/remote_readback.json)。R01727原补充PDF已核实为同文接受稿，原件/原清单保留，附件唯一归属待核实剩60件。原分类、人工判断与JCR结果保持。
+- **[同一份累计筛查Excel](omics_screening/omics_screening_cumulative.xlsx)**、[逐篇结论及续跑说明](omics_screening/README.md)、[累计JSON进度](omics_screening/screening_records.json)、[证据](omics_screening/evidence.json)、[统计](omics_screening/summary.json)、[B003远端核验](omics_screening/batches/B003/remote_readback.json)。本批新增46条证据，累计110；附件唯一归属仍60件待核实。R01917官方SRA按已知DOI查询未检出关联记录，不证明无数据。原分类、人工判断、原件及JCR结果保持。
 
 # 本地文献合并与JCR统计（2026-10-23）
 

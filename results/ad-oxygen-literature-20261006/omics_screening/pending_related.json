@@ -837,5 +837,20 @@
     "official_url": "https://www.ncbi.nlm.nih.gov/nuccore/KF148033",
     "reason": "本研究16S-DGGE条带序列；不计目标项目，官方状态未核实。",
     "action": "保留防误报线索"
+  },
+  {
+    "record_id": "R01917",
+    "path": "original_files/R01917/fulltext/fulltext__published__e31cfc89134fbe8a.pdf",
+    "sha256": "e31cfc89134fbe8a1ec0d5fcb8a7bfabaec9dac86febd83fa661ee9a73b2e335",
+    "batch_id": "B003",
+    "issue_type": "测序建库/靶区待确认",
+    "pdf_pages": [
+      2,
+      3,
+      5
+    ],
+    "reason": "DNA→PCR→454→Mothur/OTU，靶基因和引物序列未明示；现有SI无补充方法/编号。未确认shotgun，不计目标阳性，也不作阴性。 官方SRA以已知DOI查询0条结果；可能未索引DOI，不证明无数据，也未解决建库类型。",
+    "action": "复核正文引用Wan et al.2014 Long-term storage of aerobic granules in liquid media: viable but non-culturable status 的具体PCR建库方法；本轮不下载缺失文献。",
+    "official_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=10.1016%2Fj.biortech.2015.06.072&retmode=json&retmax=20"
   }
 ]
