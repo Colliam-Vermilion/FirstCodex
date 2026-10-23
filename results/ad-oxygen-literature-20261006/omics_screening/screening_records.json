@@ -11658,7 +11658,7 @@
     "supplementary_paths": [
       "original_files/R13816/supplementary/supplementary__64c389b828148a72.docx"
     ],
-    "supplementary_identity_pending_count": 1,
+    "supplementary_identity_pending_count": 0,
     "progress": "已完成",
     "conclusion": "未使用目标测序",
     "sequencing_type": "16S V4 MiSeq扩增子＋PICRUSt2预测（非目标）",
@@ -11673,9 +11673,10 @@
     "biological_replicates": "",
     "method_summary": "完整§2.1–2.5 PDF2–4明确515F/806R PCR、MiSeq/DADA2和PICRUSt2，不是shotgun或RNAseq。",
     "reviewed_locations": "完整方法PDF2–4；全文目标/编号/声明；候选SI78段",
-    "supplementary_review_notes": "候选SI为多样性/理化/气体耗氧表，未见独立目标测序；保留唯一归属限制。",
+    "supplementary_review_notes": "SI题名LAS缩写/作者全名单/机构与正文核实匹配，原候选身份在筛查层解决；全部表/图注为16S多样性/功能预测/理化与耗氧数据，无独立目标测序。",
     "evidence_ids": [
-      "R13816-E01"
+      "R13816-E01",
+      "R13816-E02"
     ],
     "completed_at": "2026-10-23T15:14:28.841833+00:00"
   },
@@ -12081,7 +12082,7 @@
     "biological_replicates": "",
     "method_summary": "完整§2.1–2.5 PDF2–3为PS预发酵/分离/BMP、GC/COD及Aquasim数学建模，无核酸测序。",
     "reviewed_locations": "完整方法PDF2–3；正文8页；候选SI4页的曲线/置信区间/COD表",
-    "supplementary_review_notes": "候选SI为预发酵温度/时间BMP和COD平衡；低文字图PDF2另原页查看，归属限制保留。",
+    "supplementary_review_notes": "候选SI为预发酵温度/时间BMP和COD平衡；低文字图PDF2另原页查看，归属限制保留。 PDF2原页已看，为甲烷累积曲线与95%置信椭圆。",
     "evidence_ids": [
       "R13826-E01"
     ],
@@ -12206,7 +12207,7 @@
     "biological_replicates": "",
     "method_summary": "完整§2.1–2.6 PDF3–5：341/785靶16S PCR、MiSeq2×250/97%OTU/RDP，非目标。",
     "reviewed_locations": "完整方法PDF3–5；全文11页编号/其他测序位置；两候选DOCX7/10段及嵌入图另核查",
-    "supplementary_review_notes": "两DOCX只有(A/B/C)图标文字，解析不作为阴性依据；原嵌图需查看，归属未确认。",
+    "supplementary_review_notes": "两个候选DOCX全部嵌图已查：3个WMF为97/95/80%OTU稀释曲线，另JPEG/PNG为IB/SF/MW聚类和Venn，不含测序补方法或项目号；保留唯一归属限制。",
     "evidence_ids": [
       "R13832-E01"
     ],
@@ -12274,23 +12275,26 @@
       "original_files/R13834/supplementary/supplementary__d29034513104ea94.docx"
     ],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
-    "pending_reason": "",
+    "progress": "待确认",
+    "conclusion": "证据不足，待确认",
+    "sequencing_type": "群落DNA/MiSeq分析，扩增子还是shotgun未说明",
+    "data_access_status": "7 证据不足，待确认",
+    "batch_id": "B008",
+    "pending_reason": "DNA/MiSeq方法引用外文，但当前正文/SI缺靶区、引物及建库类型；不能确认16S还是shotgun。",
     "substrate": "",
     "oxygen_supply": "",
     "treatment_control": "",
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.6 PDF2–3仅写DNA/MiSeq并委托Rollemberg2019方法；全文OTU/多样性不构成靶区/文库证据，现有SI仅色谱图，无法确认测序类型。",
+    "reviewed_locations": "完整方法PDF2–3；全文9页与全部已归属SI25段，未见引物/靶基因/shotgun建库/编号",
+    "supplementary_review_notes": "已归属SI为HPLC/GC图，无测序方法；不能仅凭MiSeq或OTU推定16S或宏基因组。",
+    "evidence_ids": [
+      "R13834-E01"
+    ],
+    "completed_at": "",
+    "screened_at": "2026-10-23T15:17:30.113862+00:00"
   },
   {
     "record_id": "R13835",
@@ -12348,11 +12352,11 @@
       "original_files/R13836/supplementary/supplementary__b031085267d119a3.docx"
     ],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "16S V4 MiSeq扩增子（非目标）",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -12360,11 +12364,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.4 PDF2–4，515F/806R PCR及纯化扩增子混合、小片段文库MiSeq/QIIME/RDP，仅16S。",
+    "reviewed_locations": "完整方法PDF2–4；全文9页；已核实SI118段表/图/参考",
+    "supplementary_review_notes": "SI题名作者核实；合成尿液配方、分子量/荧光/理化图，无独立组学。",
+    "evidence_ids": [
+      "R13836-E01"
+    ],
+    "completed_at": "2026-10-23T15:17:30.156059+00:00"
   },
   {
     "record_id": "R13837",
@@ -12386,11 +12392,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "未报告测序；HPLC/GC/离子色谱与工程监测",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -12398,11 +12404,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.4 PDF2–3为AQDS/曝气/硝酸盐UASB、HPLC和气体/离子色谱，无核酸方法。",
+    "reviewed_locations": "完整方法PDF2–3；全文8页其他测序描述/编号核查",
+    "supplementary_review_notes": "无独立补充原件；不据此断言无附件。",
+    "evidence_ids": [
+      "R13837-E01"
+    ],
+    "completed_at": "2026-10-23T15:17:30.193634+00:00"
   },
   {
     "record_id": "R13838",
@@ -12424,11 +12432,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "未报告测序；元素/纤维/GC及产气",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -12436,11 +12444,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§1.1–1.5 PDF2–4为UASS/AF、气体监测/元素与纤维及GC，未有核酸方法。",
+    "reviewed_locations": "完整方法PDF2–4；全文7页其他测序描述核查",
+    "supplementary_review_notes": "无独立补充原件；不据此断言无附件。",
+    "evidence_ids": [
+      "R13838-E01"
+    ],
+    "completed_at": "2026-10-23T15:17:30.230243+00:00"
   },
   {
     "record_id": "R13840",
@@ -12465,11 +12475,11 @@
       "original_files/R13840/supplementary/supplementary__ca2efc324366d4c5.xlsx"
     ],
     "supplementary_identity_pending_count": 1,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "16S V3–V4扩增子＋宏蛋白质谱（非目标）",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -12477,11 +12487,14 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.5 PDF3–5明确340F/805R16S扩增子MiSeq，另一组学为蛋白抽提/胰酶/Q-Exactive MS/MS。结果反复metagenome用于蛋白fold-change，未见DNA shotgun文库，不能凭措辞计MG/MT。",
+    "reviewed_locations": "完整方法PDF3–5；全文19页所有metagenome词上下文；已核实SI178段TextS1–S3与候选蛋白XLSX全部非空单元格",
+    "supplementary_review_notes": "已核实SI TextS3段32为蛋白处理/质谱/PEAKS/GO/KEGG，无核酸测序；候选XLSX三表Accession为蛋白注释号，唯一归属未确认，未作测序项目号。",
+    "evidence_ids": [
+      "R13840-E01",
+      "R13840-E02"
+    ],
+    "completed_at": "2026-10-23T15:17:30.296510+00:00"
   },
   {
     "record_id": "R13841",
@@ -12503,11 +12516,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "未报告测序；TGA/GC/理化与产气",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -12515,11 +12528,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整Methodology PDF2–4为OMW/AS预处理、TGA/COD/多酚和GC，无核酸测序。",
+    "reviewed_locations": "完整方法PDF2–4；全文8页其他测序描述",
+    "supplementary_review_notes": "无独立补充原件；不据此断言无附件。",
+    "evidence_ids": [
+      "R13841-E01"
+    ],
+    "completed_at": "2026-10-23T15:17:54.096934+00:00"
   },
   {
     "record_id": "R13842",
@@ -12541,11 +12556,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "古菌16S V4–V5 PCR扩增子（非目标）",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -12553,11 +12568,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.4 PDF2–3，古菌V4–V5引物/Arch958RmodR PCR，未有shotgun/RNAseq文库。",
+    "reviewed_locations": "完整方法PDF2–3；全文8页其他测序/数据描述",
+    "supplementary_review_notes": "无独立补充原件；不据此断言无附件。",
+    "evidence_ids": [
+      "R13842-E01"
+    ],
+    "completed_at": "2026-10-23T15:17:54.132820+00:00"
   },
   {
     "record_id": "R13843",
@@ -12579,11 +12596,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "未报告测序；SSAD/BMP/GC/HPLC及实验设计",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -12591,11 +12608,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整Materials and Methods PDF2–4为LBR/预处理、理化/气体/VFA/BMP及Gompertz和实验设计，无核酸方法。",
+    "reviewed_locations": "完整方法PDF2–4；全文12页其他测序描述",
+    "supplementary_review_notes": "无独立补充原件；不据此断言无附件。",
+    "evidence_ids": [
+      "R13843-E01"
+    ],
+    "completed_at": "2026-10-23T15:17:54.169075+00:00"
   },
   {
     "record_id": "R13844",
@@ -12617,11 +12636,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "未报告测序；菌剂/产气和氨激光光谱",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -12629,11 +12648,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.6 PDF2–4为禽粪菌剂/曝气和AD、激光氨/气体/化学分析，无核酸方法；列菌剂物种不代表测序。",
+    "reviewed_locations": "完整方法PDF2–4；全文12页其他测序描述",
+    "supplementary_review_notes": "无独立补充原件；不据此断言无附件。",
+    "evidence_ids": [
+      "R13844-E01"
+    ],
+    "completed_at": "2026-10-23T15:17:54.204790+00:00"
   },
   {
     "record_id": "R13845",
@@ -12655,11 +12676,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "细菌/古菌16S扩增子MiSeq（非目标）",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -12667,11 +12688,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.7 PDF2–3：正文明确DNA提取、PCR、16S rRNA基因测序及0.03 OTU；ELISA酶活/ATP非RNA组学。",
+    "reviewed_locations": "完整方法PDF2–3；全文8页其他测序/数据描述",
+    "supplementary_review_notes": "无独立补充原件；不据此断言无附件。",
+    "evidence_ids": [
+      "R13845-E01"
+    ],
+    "completed_at": "2026-10-23T15:17:54.240700+00:00"
   },
   {
     "record_id": "R13850",
@@ -12693,11 +12716,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "未报告测序；工程水质/GC/SMA",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -12705,11 +12728,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.5 PDF2–3为长期猪场废水运行、水质、气相色谱和SMA生物活性，未报告核酸测序。",
+    "reviewed_locations": "完整方法PDF2–3；全文9页其他测序/数据位置",
+    "supplementary_review_notes": "无独立补充原件；不据此断言无附件。",
+    "evidence_ids": [
+      "R13850-E01"
+    ],
+    "completed_at": "2026-10-23T15:18:50.828945+00:00"
   },
   {
     "record_id": "R13851",
@@ -12731,11 +12756,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "16S V3–V4 MiSeq扩增子（非目标）",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -12743,11 +12768,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.6 PDF2–3明确DNA提取/PCR/16S V3–V4、436bp标签/0.03 OTU，非MG/MT。",
+    "reviewed_locations": "完整方法PDF2–3；全文10页其他测序/数据位置",
+    "supplementary_review_notes": "无独立补充原件；不据此断言无附件。",
+    "evidence_ids": [
+      "R13851-E01"
+    ],
+    "completed_at": "2026-10-23T15:18:50.867277+00:00"
   },
   {
     "record_id": "R13852",
@@ -12805,11 +12832,11 @@
       "original_files/R13853/supplementary/supplementary__661eb9e6573d7eae.docx"
     ],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "未报告测序；污泥臭气/ORP/GC及嗅辨",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -12817,11 +12844,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整Materials and Methods PDF2–4为储泥曝气、脱水、GC测臭气/嗅辨，无核酸分析。",
+    "reviewed_locations": "完整方法PDF2–4；全文11页；核实SI26段",
+    "supplementary_review_notes": "SI题名作者核实，仅第二轮ORP/pH/臭气图，无测序方法或编号。",
+    "evidence_ids": [
+      "R13853-E01"
+    ],
+    "completed_at": "2026-10-23T15:18:50.904847+00:00"
   },
   {
     "record_id": "R13855",
@@ -12845,11 +12874,11 @@
       "original_files/R13855/supplementary/supplementary__2243848843d992d3.docx"
     ],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "16S V3–V4 MiSeq扩增子（非目标）",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -12857,11 +12886,14 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.9 PDF2–4及已核实SI段18–22明确16S338F/806R PCR/MiSeqPE300/ASV，宏组学词仅引用。",
+    "reviewed_locations": "完整方法PDF2–4；18页全文目标词/编号；SI360段全部方法/表头图注及编号核查",
+    "supplementary_review_notes": "SI题名作者核实；段20给PRJNA819234，属于16S扩增子；模型及功能机理不作目标实测。",
+    "evidence_ids": [
+      "R13855-E01",
+      "R13855-E02"
+    ],
+    "completed_at": "2026-10-23T15:18:50.951131+00:00"
   },
   {
     "record_id": "R13856",
@@ -12885,23 +12917,27 @@
       "original_files/R13856/supplementary/supplementary__196e8b38faedfc39.docx"
     ],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "确认宏基因组",
+    "sequencing_type": "群落DNA shotgun宏基因组＋16S扩增子（新产生）",
+    "data_access_status": "6 确认使用目标测序，但未找到编号或相关数据声明",
+    "batch_id": "B008",
     "pending_reason": "",
-    "substrate": "",
-    "oxygen_supply": "",
-    "treatment_control": "",
-    "platform": "",
-    "sequencing_sample_count": "",
-    "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "substrate": "模拟厨余：米饭/白菜/猪肉/豆腐400/300/200/100g/kg",
+    "oxygen_supply": "CaO2 0.01g/L；与磁铁矿0.4g/L联用",
+    "treatment_control": "Control无添加/R1CaO2/R2磁铁矿/R3联用；35±1℃，HRT20d，OLR2.5gVS/L/d",
+    "platform": "Illumina NovaSeq PE（MG）；MiSeqPE300（16S）",
+    "sequencing_sample_count": "稳定期样本；准确独立MG文库数未报告",
+    "biological_replicates": "实验重复3次；未确认各重复独立MG测序",
+    "method_summary": "完整§2.1–2.5 PDF2–3与已核实SI TextS1段12–21明确群落DNA/Covaris400bp/NEXTflexDNA连接建库/NovaSeqPE/MEGAHIT/MetaGene，不是16S功能预测；expression为DNA丰度而非MT。",
+    "reviewed_locations": "完整方法PDF2–3；12页全文全部MG/数据/编号位置；SI904段全部方法/表头/图注与编号",
+    "supplementary_review_notes": "SI题名作者匹配，TextS1段13明确随机DNA建库；SI表S1–S6为功能/模块注释与丰度，不是公共项目号。未找到编号或数据索取声明。",
+    "evidence_ids": [
+      "R13856-E01",
+      "R13856-E02"
+    ],
+    "completed_at": "2026-10-23T15:18:50.997329+00:00",
+    "data_generation_mode": "本研究产生"
   },
   {
     "record_id": "R13857",
@@ -12926,11 +12962,11 @@
       "original_files/R13857/supplementary/supplementary__fddf2286d3aa6622.xlsx"
     ],
     "supplementary_identity_pending_count": 1,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "16S V3–V4 iSeq100扩增子（非目标）",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -12938,11 +12974,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.5 PDF2–4：518F/805R 16S PCR、iSeq100PE150/OTU97%，非宏基因组。",
+    "reviewed_locations": "完整方法PDF2–4；全文10页；已归属SI5页；候选XLSX4表全部非空单元格",
+    "supplementary_review_notes": "SI题名作者核实，仅模型参数/水质/产气图；候选XLSX为理化统计和相关/PCA，不含测序项目，归属限制保留。",
+    "evidence_ids": [
+      "R13857-E01"
+    ],
+    "completed_at": "2026-10-23T15:19:21.820892+00:00"
   },
   {
     "record_id": "R13859",
@@ -12964,11 +13002,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "未报告测序；GC/脱硫/CFD模型",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -12976,11 +13014,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.3 PDF2–3为顶空气流/生物膜生长观察、GC/水质及COMSOLCFD，无核酸方法。",
+    "reviewed_locations": "完整方法PDF2–3；10页全文其他测序描述",
+    "supplementary_review_notes": "无独立补充原件；不据此断言无附件。",
+    "evidence_ids": [
+      "R13859-E01"
+    ],
+    "completed_at": "2026-10-23T15:19:21.868460+00:00"
   },
   {
     "record_id": "R13860",
@@ -13004,11 +13044,11 @@
       "original_files/R13860/supplementary/supplementary__7473e625ba93185b.pdf"
     ],
     "supplementary_identity_pending_count": 1,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "16S V3–V4 PCR扩增子（非目标）",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -13016,11 +13056,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.8 PDF2–6：341F/805R PCR/16S纯化扩增子与index-PCR/QIIME2/DADA2，LCMS仅污染物检测，非组学reads。",
+    "reviewed_locations": "完整方法PDF2–6；20页全文；候选SI11页全部图注/表和低文字页原页",
+    "supplementary_review_notes": "候选SI为DO/FTIR/药物质谱/吸附表；PDF6–7质谱图另原页查看，不把无法检索图作阴性证据；归属限制保留。 PDF6–7原页已看，为CIP/CAF/SMX/DCF质谱峰图，无测序信息。",
+    "evidence_ids": [
+      "R13860-E01"
+    ],
+    "completed_at": "2026-10-23T15:19:21.912031+00:00"
   },
   {
     "record_id": "R13861",
@@ -13042,11 +13084,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "16S PCR-DGGE（非目标）",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -13054,11 +13096,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整METHODS PDF2–3：细菌V6–V8和古菌V2–V3引物PCR/DGGE条带，多样性不是MG/MT。",
+    "reviewed_locations": "完整方法PDF2–3；7页全文其他测序描述",
+    "supplementary_review_notes": "无独立补充原件；不据此断言无附件。",
+    "evidence_ids": [
+      "R13861-E01"
+    ],
+    "completed_at": "2026-10-23T15:19:21.947581+00:00"
   },
   {
     "record_id": "R13862",
@@ -13080,11 +13124,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "未报告测序；定义菌共培养/GC/HPLC与显微镜",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -13092,11 +13136,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整Experimental procedures PDF7–9为定义Sz/Mf/Pseudomonas共培养、氢/甲酸/LCFA转化、GC/HPLC/显微镜；未开展目标群落测序。",
+    "reviewed_locations": "完整方法PDF7–9；10页全文其他测序描述",
+    "supplementary_review_notes": "无独立补充原件；不据此断言无附件。",
+    "evidence_ids": [
+      "R13862-E01"
+    ],
+    "completed_at": "2026-10-23T15:19:21.981898+00:00"
   },
   {
     "record_id": "R13863",
@@ -13120,11 +13166,11 @@
       "original_files/R13863/supplementary/supplementary__c96aa2a350b0c45a.docx"
     ],
     "supplementary_identity_pending_count": 1,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "未报告测序；飞灰/预处理/VS-COD与产气",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -13132,11 +13178,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.4 PDF2–3为曝气/飞灰/AD、化学及体积甲烷分析，无核酸方法。",
+    "reviewed_locations": "完整方法PDF2–3；全文9页；候选SI8段图注",
+    "supplementary_review_notes": "候选SI为日产甲烷三图，无核酸方法；唯一归属限制保留。",
+    "evidence_ids": [
+      "R13863-E01"
+    ],
+    "completed_at": "2026-10-23T15:20:05.840543+00:00"
   },
   {
     "record_id": "R13864",
@@ -13160,11 +13208,11 @@
       "original_files/R13864/supplementary/supplementary__6a06b7a325461f76.docx"
     ],
     "supplementary_identity_pending_count": 1,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "16S MiSeq扩增子（非目标）",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -13172,11 +13220,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.6 PDF2–4：515F/806R16S PCR、Nextera索引扩增子文库/MiSeq/DADA2，非shotgun。",
+    "reviewed_locations": "完整方法PDF2–4；全文11页；候选SI112段表/图注及编号",
+    "supplementary_review_notes": "候选SI实验设计/16S分类图，没有另行目标测序；保留归属限制。",
+    "evidence_ids": [
+      "R13864-E01"
+    ],
+    "completed_at": "2026-10-23T15:20:05.885319+00:00"
   },
   {
     "record_id": "R13866",
@@ -13200,23 +13250,26 @@
       "original_files/R13866/supplementary/supplementary__71bc717ce22b8bf2.pdf"
     ],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "确认宏基因组",
+    "sequencing_type": "群落DNA shotgun宏基因组（新产生）",
+    "data_access_status": "6 确认使用目标测序，但未找到编号或相关数据声明",
+    "batch_id": "B008",
     "pending_reason": "",
-    "substrate": "",
-    "oxygen_supply": "",
-    "treatment_control": "",
-    "platform": "",
-    "sequencing_sample_count": "",
-    "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "substrate": "罗非鱼养殖污泥＋预富集IRB厌氧污泥",
+    "oxygen_supply": "空气150mL/min，每3天5/10/15min；铁泥10g",
+    "treatment_control": "Control/Fe(III)/Fe(III)-AE5/AE10/AE15；额外AE10无铁验证；35℃28d",
+    "platform": "Illumina NovaSeq PE",
+    "sequencing_sample_count": "终点各组；每组2反应器消化液先混样再测序，独立文库总数未明确",
+    "biological_replicates": "双反应器混样，不能作为2个独立测序生物重复",
+    "method_summary": "完整§2.1–2.5 PDF2–4：混合消化污泥总DNA、Covaris400bp/NEXTFLEXRapidDNASeq/NovaSeqPE，明确MG；未有RNA文库。",
+    "reviewed_locations": "完整方法PDF2–4；11页全文所有目标/编号/声明位置；已核实SI7页含表及低文字图原页",
+    "supplementary_review_notes": "SI题名作者核实，7页仅理化表/装置/CO2/pH/NH4/DO图；全文/SI未找到公共编号或相关索取声明。",
+    "evidence_ids": [
+      "R13866-E01"
+    ],
+    "completed_at": "2026-10-23T15:20:05.928259+00:00",
+    "data_generation_mode": "本研究产生"
   },
   {
     "record_id": "R13867",
@@ -13274,11 +13327,11 @@
       "original_files/R13868/supplementary/supplementary__a195d13f468251d6.docx"
     ],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "16S rRNA基因MiSeq测序（非目标）",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -13286,11 +13339,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.6 PDF2–3正文明确测序靶基因16S rRNA；MiSeq/群落多样性非MG/MT。",
+    "reviewed_locations": "完整方法PDF2–3；全文9页；核实SI124段ANOVA/水质表及图",
+    "supplementary_review_notes": "SI题名作者核实，仅统计表和运行/污泥等图，无独立目标建库。",
+    "evidence_ids": [
+      "R13868-E01"
+    ],
+    "completed_at": "2026-10-23T15:20:05.972239+00:00"
   },
   {
     "record_id": "R13871",
@@ -13312,11 +13367,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "未报告测序；学位研究的气液传质/产气/CFD与比色",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -13324,11 +13379,14 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "275页学位论文，完整Chapter3 PDF74–113及AppendixA PDF272–275：气体分析仪/体积产气/COD-VFA比色、气液传质/热交换；各实验章节的方法回引及CFD模型核查，无核酸提取、建库或群落测序。",
+    "reviewed_locations": "完整Chapter3 PDF74–113（印刷47–86）；附录A PDF272–275；Chapter4/5/6/7/8方法/模型交叉核查；全275页其他测序描述定位",
+    "supplementary_review_notes": "附录在同一275页全文；A.1 COD和A.2 VFA仪器比色步骤已读。正文nucleic acids仅指底物组分，不是DNA测序。",
+    "evidence_ids": [
+      "R13871-E01",
+      "R13871-E02"
+    ],
+    "completed_at": "2026-10-23T15:20:42.421975+00:00"
   },
   {
     "record_id": "R13875",
@@ -13350,11 +13408,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "未报告测序；GC/HPLC/污泥工程监测",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -13362,11 +13420,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.3 PDF2为250LCSTR、GC/离子色谱/HPLC/水质，无核酸方法。",
+    "reviewed_locations": "完整方法PDF2；6页全文其他测序/数据位置",
+    "supplementary_review_notes": "无独立补充原件；不据此断言无附件。",
+    "evidence_ids": [
+      "R13875-E01"
+    ],
+    "completed_at": "2026-10-23T15:21:39.650922+00:00"
   },
   {
     "record_id": "R13876",
@@ -13388,11 +13448,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "未报告测序；纤维/GC/HPLC与能量模型",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -13400,11 +13460,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.5 PDF2–3为固态AD/气体/元素/纤维HPLC、能量及统计，无核酸方法。",
+    "reviewed_locations": "完整方法PDF2–3；8页全文其他测序/数据位置",
+    "supplementary_review_notes": "无独立补充原件；不据此断言无附件。",
+    "evidence_ids": [
+      "R13876-E01"
+    ],
+    "completed_at": "2026-10-23T15:21:39.687269+00:00"
   },
   {
     "record_id": "R13877",
@@ -13426,11 +13488,11 @@
     "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
     "supplementary_paths": [],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "16S PCR-DGGE及条带序列分析（非目标）",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -13438,11 +13500,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.6 PDF4–7：BSF101F/BSF534R16S PCR/DGGE/条带复扩增序列；SDS-PAGE为单菌模型蛋白电泳，不是MT。",
+    "reviewed_locations": "完整方法PDF4–7；26页全文；表1参考GenBank序列和内嵌补图",
+    "supplementary_review_notes": "同一作者稿内嵌装置/优化补图已查；表1CP/AM/EF等closest relatives编号是16S参考序列，不计本文目标项目。",
+    "evidence_ids": [
+      "R13877-E01"
+    ],
+    "completed_at": "2026-10-23T15:21:39.723201+00:00"
   },
   {
     "record_id": "R13878",
@@ -13466,11 +13530,11 @@
       "original_files/R13878/supplementary/supplementary__f5892bd1508fb3d1.doc"
     ],
     "supplementary_identity_pending_count": 0,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "16S V3–V4 MiSeqPE300扩增子（非目标）",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -13478,11 +13542,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.5 PDF2–3：338F/806R靶16S PCR/amplicon MiSeqPE300/QIIME，非MG/MT。",
+    "reviewed_locations": "完整方法PDF2–3；6页全文；原DOC用现有antiword重新解析全部内容",
+    "supplementary_review_notes": "原DOC题名/作者匹配；2页SI仅C0/C1三时点前20属相对丰度表，无额外组学或编号，保留原格式。",
+    "evidence_ids": [
+      "R13878-E01"
+    ],
+    "completed_at": "2026-10-23T15:21:39.759459+00:00"
   },
   {
     "record_id": "R13879",
@@ -13506,11 +13572,11 @@
       "original_files/R13879/supplementary/supplementary__5f449d5947bff00b.pdf"
     ],
     "supplementary_identity_pending_count": 1,
-    "progress": "未开始",
-    "conclusion": "",
-    "sequencing_type": "",
-    "data_access_status": "",
-    "batch_id": "",
+    "progress": "已完成",
+    "conclusion": "未使用目标测序",
+    "sequencing_type": "未报告测序；SEM/XRD/GC与经济分析",
+    "data_access_status": "不适用（未使用目标测序）",
+    "batch_id": "B008",
     "pending_reason": "",
     "substrate": "",
     "oxygen_supply": "",
@@ -13518,11 +13584,13 @@
     "platform": "",
     "sequencing_sample_count": "",
     "biological_replicates": "",
-    "method_summary": "",
-    "reviewed_locations": "",
-    "supplementary_review_notes": "",
-    "evidence_ids": [],
-    "completed_at": ""
+    "method_summary": "完整§2.1–2.7 PDF2–3为五种预处理、SEM/XRD/GC和经济测算，没有核酸测序。",
+    "reviewed_locations": "完整方法PDF2–3；8页全文；候选SI1页编码损坏文本改原页视觉核查",
+    "supplementary_review_notes": "候选SI字体编码不可检索，已渲染原页查看：仅排水产气装置FigS1与日产甲烷FigS2，不是无关键词自动阴性。原件和异常说明保留；唯一归属限制不改。",
+    "evidence_ids": [
+      "R13879-E01"
+    ],
+    "completed_at": "2026-10-23T15:22:02.399943+00:00"
   },
   {
     "record_id": "R13880",

@@ -13,6 +13,8 @@ def main():
     for path in paths:
         obj=json.loads(path.read_text());hits=[]
         pages=obj.get('pages') or [{'pdf_page':None,'text':t,'location':f'DOCX paragraph {i+1}'} for i,t in enumerate(obj.get('paragraphs',[]))]
+        if obj.get('text') and not pages:
+            pages=[{'pdf_page':None,'text':obj['text'],'location':'完整原DOC文本（antiword）'}]
         if obj.get('worksheets'):
             pages=[{'pdf_page':None,'text':str(c['value']),'location':f"{s['name']}!{c['cell']}"} for s in obj['worksheets'] for c in s['cells']]
         for page in pages:

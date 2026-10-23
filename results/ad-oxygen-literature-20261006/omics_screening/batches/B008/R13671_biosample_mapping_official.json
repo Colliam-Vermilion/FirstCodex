@@ -1,0 +1,14 @@
+{
+  "record_id": "R13671",
+  "bioproject": "PRJNA1447957",
+  "checked_at_utc": "2026-10-23T15:23:08.872011+00:00",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=PRJNA1447957&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"0\",\"retmax\":\"0\",\"retstart\":\"0\",\"idlist\":[],\"translationset\":[],\"querytranslation\":\"(PRJNA1447957[All Fields])\",\"errorlist\":{\"phrasesnotfound\":[\"PRJNA1447957\"],\"fieldsnotfound\":[]},\"warninglist\":{\"phrasesignored\":[],\"quotedphrasesnotfound\":[],\"outputmessages\":[\"No items found.\"]}}}\n"
+    }
+  ],
+  "purpose": "仅已知项目样本组映射核验，不下载reads",
+  "count": "0"
+}

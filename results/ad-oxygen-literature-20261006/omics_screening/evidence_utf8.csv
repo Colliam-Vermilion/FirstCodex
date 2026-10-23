@@ -2347,3 +2347,269 @@ data were performed at Research and Testing Laboratory
 universal primer pair, 515f and 806r,30 targeting the prokaryotic
 16S rRNA gene. Details on the sequencing and bioinformatics
 data analysis can be found elsewhere.31",完整MATERIALS AND METHODS PDF2–5：515f/806r群落16S扩增子，分离菌27f/1492r Sanger和16S-DGGE，没有群落shotgun/RNAseq。,original_files/R13833/fulltext/fulltext__published__1a4a4d5f8fd45de9.pdf,1a4a4d5f8fd45de924c78a7be11e1c032c630bd9341431d1d49135c8351cdaf7,[4],DNA Extraction and 16S rRNA Gene Sequencing,,,B008,,,
+R13834-E01,R13834,方法判断,"To evaluate the dynamics of the microbial community under 
+microaerobic conditions, the DNAs of the inoculum and sludge samples 
+collected at the end of the periods II (1 mL air min−1), V (6 mL air 
+min−1), and VI (1 mL air min−1) were extracted and then sequenced by 
+an Illumina MiSeq Desktop Sequencer as detailed elsewhere (Roll­
+emberg et al., 2019).",完整§2.1–2.6 PDF2–3仅写DNA/MiSeq并委托Rollemberg2019方法；全文OTU/多样性不构成靶区/文库证据，现有SI仅色谱图，无法确认测序类型。,original_files/R13834/fulltext/fulltext__published__4304325a9f74359b.pdf,4304325a9f74359be71a1af5ff296142b232beb41a1cff128fa6134b8997a86d,[3],§2.5 Microbiological analysis,,,B008,,,
+R13836-E01,R13836,方法判断,"PCR primers 515F/806R targeting the bacteria and archaea 16S
+V4 region were selected for the microbial community structure
+analysis. The reverse primer contains a 6-bp error-correcting bar-
+code unique to each sample. The barcode was permuted for each
+sample and permitted the identiﬁcation of individual samples
+within a mixture in a single Illumina MiSeq sequencing run. DNA
+was ampliﬁed in triplicate for each sample following a protocol
+described previously (Zhang et al., 2016). PCR amplicons were
+further puriﬁed using a DNA puriﬁcation kit (BioFlux, Japan), and
+the concentrations were determined by spectrometry using a
+QuantiFluor™-ST (Promega, USA). Amplicons from different sam-
+ples were then mixed to achieve equal mass concentrations in the
+ﬁnal mixture, which were sent out to Sangon Co., Ltd. in Shanghai
+for small-fragment library construction and pair-end sequencing
+using the Illumina MiSeq sequencing system (Illumina, USA).",完整§2.1–2.4 PDF2–4，515F/806R PCR及纯化扩增子混合、小片段文库MiSeq/QIIME/RDP，仅16S。,original_files/R13836/fulltext/fulltext__published__e7c89129ec7164ac.pdf,e7c89129ec7164acebf46be45ef846d71e5ff8a535504f773004ff101a6ca992,[4],§2.4.3 Microbial community analysis续,,,B008,,,
+R13837-E01,R13837,方法判断,"For the quantification of SMX and TMP (at least five times a week), 
+the samples (500 mL) were previously filtered (0.45 μm) and acidified 
+with HCl (pH 2.5–3). Then, they were percolated through Strata-X® 
+cartridges (500 mg, 6 mL) (Phenomenex®, USA) for the solid phase 
+extraction (SPE) of the antibiotics, which were eluted with HPLC/UV 
+grade methanol (4 mL) (99.8%, Neon, Brazil). The eluate (20 μL) was 
+then analyzed by an LC-20A Prominence high-performance liquid 
+chromatograph (HPLC) equipped with a Shim-pack CLC-ODS(M)® C18 
+column (4.6 × 150 mm, 5 μm) and a UV–vis SPD-20A detector (258 nm) 
+(Shimadzu Corporation, Japan).",完整§2.1–2.4 PDF2–3为AQDS/曝气/硝酸盐UASB、HPLC和气体/离子色谱，无核酸方法。,original_files/R13837/fulltext/fulltext__published__81f9a1dcf3b5bebe.pdf,81f9a1dcf3b5bebe22cf525c96aa31c42f2f2043695d15c97917be5d24d163df,[3],§2.3 Chemical analysis,,,B008,,,
+R13838-E01,R13838,方法判断,"The biogas composition of each reactor was measured every
+day using an industrial biogas analyzer (SSM 6000, Pronova,
+Germany). The dissolved oxygen (DO) of effluent of both
+reactors were measured with a DO meter (Hanna 9147, USA).
+The determination of total solids (TS) and volatile solids (VS)
+was conducted according to DIN standard methods (DIN,
+2001). Neutral detergent fiber (NDF), acid detergent fiber (ADF),
+and acid detergent lignin (ADL) were analyzed by a fiber analyzer
+(ANKOM2000, USA) as described in the literature (Van Soest et al.,
+1991). Total ammonium nitrogen (TAN) was analyzed according
+to the VDLUFA method (VDLUFA, 2007). Total Kjeldahl nitrogen
+(TKN) and chemical oxygen demand (COD) were measured
+according to DIN EN 25663: 1993–11 and DIN ISO 15705: 2003–01
+respectively. Total carbon (TC) and total nitrogen (TN) were
+determined by elemental analysis (DIN EN 15104: 2011–04).",完整§1.1–1.5 PDF2–4为UASS/AF、气体监测/元素与纤维及GC，未有核酸方法。,original_files/R13838/fulltext/fulltext__published__118b6f5b48a3b653.pdf,118b6f5b48a3b65331c467a761e1f24826097810e0f268ef07367e2c6f7bd611,[3],§1.4 Analytical methods,,,B008,,,
+R13840-E01,R13840,方法判断,"The V3-V4 regions of the 16 s rDNA genes were 
+amplified with 340 F (CCTACGGGNBGCASCAG) and 805R (GAC­
+TACNVGGGTATCTAATCC). All polymerase chain reaction mixtures 
+were purified using MinElute Gel Extraction Kit (Qiagen, Germany).",完整§2.1–2.5 PDF3–5明确340F/805R16S扩增子MiSeq，另一组学为蛋白抽提/胰酶/Q-Exactive MS/MS。结果反复metagenome用于蛋白fold-change，未见DNA shotgun文库，不能凭措辞计MG/MT。,original_files/R13840/fulltext/fulltext__published__0111eb19c653b66d.pdf,0111eb19c653b66d24b7a22911d7267b61ea0ca70535e4eec074b55d4d1f0ffd,[4],§2.4.3 DNA extraction and high-throughput sequencing analysis,,,B008,,,
+R13840-E02,R13840,补充方法,"Four samples (MBL-MHA-I, MBL-MHA-II, MHA and HA) were all 100 mL each, centrifuged for 15 min at 8000 rpm, respectively, then the supernatants were discarded and the precipitates were reserved and stored at −80 °C until analysis (three parallel samples were set for each sample). Proteins were extracted from three samples and the protein concentrations were measured using the BCA kit (Thermo Scientific Pierce) with standard curve. Then the protein samples were subjected to SDS-PAGE electrophoresis. The purified proteins were reduced and alkylated according to the manufacturer’s instructions of protein alkylated Kit (Sigma, St. Louis, MO, USA) with some modifications. The alkylated protein samples were digested overnight at 37 °C with trypsin and Sep-Pak was used to remove added salts, detergents, and other interfering substances. The desalted peptides were quantified according to the manufacturer’s instructions of peptide quantitative Kit (Thermo Fisher Scientific, No.23275, USA). 0.5 g/μL peptides were dissolved with mass spectrometric buffer solution and the analyses were performed using a Q-Exactive Plus Orbitrap mass spectrometer (Thermo Fisher Scientific, USA). MS analysis was performed in three biological triplicates for each sample to ensure the accuracy of the mass spectrometry results. The raw mass spectrometry MS/MS spectra search was processed using PEAKS Studio 8.5. The protein quantification and calculation of statistical significance were carried out using Student’s t-test and error correction (p-value < 0.05) using the method of Benjamini–Hochberg. To perform functional analysis, the identified proteins were carried on the follow-up biological information function analysis using GO (Gene Ontology, http://www.geneontology.org/). Pathway mapping of identified proteins was performed using the KEGG database (Kyoto Encyclopedia of Genes and Genomes, http://www.genome.jp/kegg/) (Poleti et al., 2018; Yin et al., 2018).",实际为群落蛋白质谱，不能据文中metagenome字样计目标DNA/RNA测序。,original_files/R13840/supplementary/supplementary__7e3fd186dd704369.docx,7e3fd186dd704369d6d717e50ae76dad9c358954c1bbdff05fd7d041ebce6391,[],补充方法 DOCX段落32,,,B008,,,
+R13841-E01,R13841,方法判断,"Produced biogas was sampled using gas-tight syringes 
+(250 μl) and collected via rubber stopper of the small neck 
+of the vessel. Samples of biogas were analyzed in duplicate 
+by a gas chromatograph (490 micro GC, Agilent Technolo-
+gies, SC, CA, USA. GC was used to detect the quantity",完整Methodology PDF2–4为OMW/AS预处理、TGA/COD/多酚和GC，无核酸测序。,original_files/R13841/fulltext/fulltext__published__722b98d189c9ed13.pdf,722b98d189c9ed13cfb676c6cc2e017fdadc66bb8030de2890545c364a87d156,[3],Experimental Procedure / analytical measurements,,,B008,,,
+R13842-E01,R13842,方法判断,"Samples collected from systems on stable stage (66 days) were used 
+for high-throughput sequencing analysis. Before analysis, the superna­
+tant of samples was drained and then the remaining part was frozen at 
+−20◦C. The primers of (5′-TGYCAGCCGCCGCGGTAA-3′) and Arch958­
+RmodR (5′-YCCGGCGTTGAVTCCAATT-3′) were used for the polymer­
+ase chain reaction (PCR) amplification of V4-V5 Archaea (Shanghai 
+Majorbio Bio-Pharm Technology Co. Ltd., China). PCR reactions were 
+performed in triplicate 20 μL mixture containing 4 μL of 5 × FastPfu 
+Buffer, 2 μL of 2.5 mM dNTPs, 0.8 μL of each primer (5 μM), 0.4 μL of 
+FastPfu Polymerase, 0.2 μL of BSA, and 10 ng of template DNA under the 
+following program: 95 ◦C for 3 min, 35 cycles at 95 ◦C for 30 s, 55 ◦C for 
+30 s, and 72 ◦C for 45 s, and a final extension at 72 ◦C for 10 min.",完整§2.1–2.4 PDF2–3，古菌V4–V5引物/Arch958RmodR PCR，未有shotgun/RNAseq文库。,original_files/R13842/fulltext/fulltext__published__3f72b2baa7c8e3ef.pdf,3f72b2baa7c8e3ef198cd72bb308abe05db4a2a2baf538eb54c7d1a794a6291d,[3],§2.4.3 Microbial community characterization,,,B008,,,
+R13843-E01,R13843,方法判断,"For all experiments, total solids (TS), volatile solids 
+(VS), total Kjeldahl nitrogen (TKN), total ammonia nitro-
+gen (NH4
++), and the chemical oxygen demand (COD) of 
+the initial substrate and leachate, and final digestates and 
+leachates were measured using standard methods [19].",完整Materials and Methods PDF2–4为LBR/预处理、理化/气体/VFA/BMP及Gompertz和实验设计，无核酸方法。,original_files/R13843/fulltext/fulltext__published__b3a3e29cac8ef660.pdf,b3a3e29cac8ef6607433dd3a12625eef8b4f5b592f4d3bf7e77a814e8319bebe,[2],Characterisation of Food Waste and Inoculum,,,B008,,,
+R13844-E01,R13844,方法判断,"Ammonia emissions were measured from untreated poultry manure, poultry manure after
+pre-treatment with biological methods, and anaerobic digestates. The GME700 (SICK MAIHAK GmbH,
+Meersburg, Germany) analyzer was used to measure ammonia gas concentration by laser spectroscopy
+in the measurement range for NH3 from 0 ppm to 2000 ppm (Figure 1) [24].",完整§2.1–2.6 PDF2–4为禽粪菌剂/曝气和AD、激光氨/气体/化学分析，无核酸方法；列菌剂物种不代表测序。,original_files/R13844/fulltext/fulltext__published__7b0ea11b84bfa14d.pdf,7b0ea11b84bfa14df037e8e4dbe7d1e5db43d485e254371fecb50b966bd05227,[4],§2.4 Ammonia Emission Measurements,,,B008,,,
+R13845-E01,R13845,方法判断,"detailed experimental procedures of genomic DNA extraction, PCR 
+amplification, 16S rRNA gene sequencing, biodiversity and phylogenetic 
+analysis could be obtained in Ruan, et al. [19] and Hou, et al. [20]. Then 
+16S rRNA sequences were clustered into operational taxonomic units by 
+setting a distance cut-off of 0.03 (α).",完整§2.1–2.7 PDF2–3：正文明确DNA提取、PCR、16S rRNA基因测序及0.03 OTU；ELISA酶活/ATP非RNA组学。,original_files/R13845/fulltext/fulltext__published__2d9abe07de564e0b.pdf,2d9abe07de564e0b3aeaa385ae6f717044342a61cd0ff16d63001878d3794daa,[3],§2.4 Bacterial and archaeal community analysis续,,,B008,,,
+R13850-E01,R13850,方法判断,"Sludge monitoring in the reactors was carried out on days 0, 77,
+166, and 246, and 40 mL of sludge was collected from each sampler
+installed in the reactors. Part of the sample (20 mL from each
+sampler) was used to evaluate the sludge proﬁle describing the TVS
+concentration and the reactor height, thus allowing discrimination
+between the sludge blanket and bed. The rest of the collected
+sludge (20 mL from each sampler) was homogenized and used in
+the speciﬁc methanogenic activity (SMA) tests carried out to
+monitor the sludge biological activity adapted to anaerobic (R1)
+and microaerobic (R2) conditions.",完整§2.1–2.5 PDF2–3为长期猪场废水运行、水质、气相色谱和SMA生物活性，未报告核酸测序。,original_files/R13850/fulltext/fulltext__published__2331de22c4e2d3a5.pdf,2331de22c4e2d3a542c3d40f0e6df0293b12a7de4fa8c230c89d6bcb2ef16341,[2],§2.4 Sludge profile and biological activity monitoring,,,B008,,,
+R13851-E01,R13851,方法判断,"The detailed experimental steps of DNA extraction, PCR ampliﬁ-
+cation, 16S rRNA gene sequencing, biodiversity analysis and
+phylogenetic classiﬁcation were all in accordance with the reported
+methods described by An et al. (2017). Finally, sequencing produced
+more than 34,000 high-quality V3eV4 tags for 16S rRNA genes with
+an average length of 436 bp by setting a 0.03 distance limit (a).",完整§2.1–2.6 PDF2–3明确DNA提取/PCR/16S V3–V4、436bp标签/0.03 OTU，非MG/MT。,original_files/R13851/fulltext/fulltext__published__f77a19da6793811f.pdf,f77a19da6793811f90073b5e9bf8afa4ed84bc2e6d15d8b8b0b2b26dea927878,[2],§2.4 Microbial diversity analysis,,,B008,,,
+R13853-E01,R13853,方法判断,"The contents of odor compounds such as H2S, MT, and 
+DMS in the headspace of jars were measured using a gas 
+chromatograph (GC) equipped with a flame ionization de-
+tector (GC-­2014, Shimadzu, Columbia, MD) and a 60  m 
+long capillary column with 0.53 mm diameter (Agilent, DB-­
+1, Santa Clara, California). Headspace gas volume of 40 ml 
+was collected using a 50  ml gas-­tight syringe (Hamilton, 
+Reno, Nevada) on a daily basis and manually injected into 
+the GC. Standard gases (Airgas, Inc., Radnor, Pennsylvania) 
+were used to develop the calibration curves for these odor-
+ous compounds.
+Statistical analysis",完整Materials and Methods PDF2–4为储泥曝气、脱水、GC测臭气/嗅辨，无核酸分析。,original_files/R13853/fulltext/fulltext__published__c84ba3c1029e9ab5.pdf,c84ba3c1029e9ab5990527044218703a83109ee8e646cf1c42ce36ba8870d84d,[4],Chemical analysis,,,B008,,,
+R13855-E01,R13855,方法判断,"The procedures of DNA extraction and 16S rRNA gene high- 
+throughput sequencing and analytic methods of chemical and physical 
+composition are detailed in the Supporting Information.",完整§2.1–2.9 PDF2–4及已核实SI段18–22明确16S338F/806R PCR/MiSeqPE300/ASV，宏组学词仅引用。,original_files/R13855/fulltext/fulltext__published__1ee56be1dd88d737.pdf,1ee56be1dd88d737729071709919d97ccead067974a9fe98406fc1891bb85975,[4],§2.9 Analytical methods and statistical analysis,,,B008,,,
+R13855-E02,R13855,补充方法,"The hypervariable region V3-V4 of the bacterial 16S rRNA gene were amplified with primer pairs 338F (5'-ACTCCTACGGGAGGCAGCA-3') and 806R (5'-GGACTACHVGGGTWTCTAAT-3') by an ABI GeneAmp® 9700 PCR thermocycler (ABI, CA, USA). The PCR amplification of 16S rRNA gene was performed as follows: initial denaturation at 95 ℃ for 3 min, followed by 27 cycles of denaturing at 95 ℃ for 30 s, annealing at 55 ℃ for 30 s and extension at 72 ℃ for 45 s, and single extension at 72 ℃ for 10 min, and end at 4 ℃. The PCR mixtures contain 5 × TransStart FastPfu buffer 4 μL, 2.5 mM dNTPs 2 μL, forward primer (5 μM) 0.8 μL, reverse primer (5 μM) 0.8 μL, TransStart FastPfu DNA Polymerase 0.4 μL, template DNA 10 ng, and finally ddH2O up to 20 μL. PCR reactions were performed in triplicate. The PCR product was extracted from 2% agarose gel and purified using the AxyPrep DNA Gel Extraction Kit (Axygen Biosciences, Union City, CA, USA) according to manufacturer’s instructions and quantified using Quantus™ Fluorometer (Promega, USA). Amplicons were subjected to paired-end sequencing on the Illumina MiSeq sequencing platform using PE300 chemical at Majorbio Bio-Pharm Technology Co. Ltd. (Shanghai, China). The raw reads were deposited into the NCBI Sequence Read Archive (SRA) database (Accession Number: PRJNA819234).",明确靶16S扩增子建库及其项目号。,original_files/R13855/supplementary/supplementary__2243848843d992d3.docx,2243848843d992d36bac253069a21468221d33745d3424001e0d2448e05a19f3,[],补充方法 DOCX段落20,,,B008,,,
+R13856-E01,R13856,方法判断,"For meta­
+genomic analysis, all procedures are given in the Supporting 
+Information.",完整§2.1–2.5 PDF2–3与已核实SI TextS1段12–21明确群落DNA/Covaris400bp/NEXTflexDNA连接建库/NovaSeqPE/MEGAHIT/MetaGene，不是16S功能预测；expression为DNA丰度而非MT。,original_files/R13856/fulltext/fulltext__published__2e6ed72e05bc7eba.pdf,2e6ed72e05bc7ebaa280a91913e1f5f070031436087b18b21510b9d94ecd607d,[3],§2.4 Microbial community and metagenomic analyses,,,B008,,,
+R13856-E02,R13856,补充方法,"DNA extract was fragmented to an average size of about 400 bp using Covaris M220 (Gene Company Limited, China) for paired-end library construction. Paired-end library was constructed using NEXTflexTM Rapid DNA-Seq (Bioo Scientific, Austin, TX, USA). Adapters containing the full complement of sequencing primer hybridization sites were ligated to the blunt-end of fragments. Paired-end sequencing was performed on Illumina NovaSeq (Illumina Inc., San Diego, CA, USA) using NovaSeq Reagent Kits according to the manufacturer’s instructions (www.illumina.com). ",随机打断DNA及连接文库、NovaSeqPE支持真实MG。,original_files/R13856/supplementary/supplementary__196e8b38faedfc39.docx,196e8b38faedfc398a13f54ff172294c4b292b38631f1de8f046b84870f129d2,[],补充方法 DOCX段落13,,,B008,,,
+R13857-E01,R13857,方法判断,"Microbial communities were identified using the Illumina iSeq 100 
+sequencing system instructions (Illumina, CA, USA). The selected 16S 
+rRNA gene region-specific sequences used as amplicon primers and the 
+bacterial primers were 518F (5′-CCAGCAGCCGCGGTAATACG-3′) and 
+805R (5′- GACTACCAGGGTATCTAATCC-3′) targeting the V3-V4 region 
+for bacteria (Yu et al., 2005). The DNA were PCR-amplified with the 
+annealing temperature set to 58 ◦C and purified for construction of the 
+library. The library was then paired-end (150 bp × 2) sequenced using 
+the iSeq 100 platform.",完整§2.1–2.5 PDF2–4：518F/805R 16S PCR、iSeq100PE150/OTU97%，非宏基因组。,original_files/R13857/fulltext/fulltext__published__fd249ecb9e0d9de6.pdf,fd249ecb9e0d9de666eed9cd0165c87704a4cc18733f25cce427d3fba2241084,[4],§2.5 Microbial community analysis,,,B008,,,
+R13859-E01,R13859,方法判断,"H2S concentration in biogas was measured every 20 min by an online 
+H2S sensor (H2S/SP-10000, Membrapor, Switzerland) equipped with an 
+autosampler. The biogas production was measured by gas flow meter 
+MilliGascounters (Dr.-Ing. RITTER Apparatebau GmbH & Co. KG, Ger­
+many) and was logged every 5 min.",完整§2.1–2.3 PDF2–3为顶空气流/生物膜生长观察、GC/水质及COMSOLCFD，无核酸方法。,original_files/R13859/fulltext/fulltext__published__951ec15280a733dc.pdf,951ec15280a733dc2b4f86c8b2527c3d5551a148c84472175b47d00a7a6abf35,[2],§2.1.2 Analytical methods,,,B008,,,
+R13860-E01,R13860,方法判断,"The 
+primers of 
+341F (TCGTCGGCAGCGTCA­
+GATGTGTATAAGAGACAGCCTACG GGNGGC WGCAG) and 805R 
+(GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGGA 
+CTACHVGGG 
+TATCTAATCC and 2× sparQ HiFi PCR master Mix (QuantaBio, USA) 
+were used to amplify the 16S rRNA gene, targeting the V3-V4 regions of 
+bacteria and archaea.",完整§2.1–2.8 PDF2–6：341F/805R PCR/16S纯化扩增子与index-PCR/QIIME2/DADA2，LCMS仅污染物检测，非组学reads。,original_files/R13860/fulltext/fulltext__published__cdd2bf71ee1f07c8.pdf,cdd2bf71ee1f07c813c0d81429fec802e59c7a87f9c964f88507b9fb45b0928a,[6],§2.7 Microbial community analysis,,,B008,,,
+R13861-E01,R13861,方法判断,"Bacterial and archaeal community structure was analyzed by polymerase 
+chain reaction followed by denaturing gradient gel electrophoresis (PCR-
+DGGE) according to Sousa et al. (2016), as follows.",完整METHODS PDF2–3：细菌V6–V8和古菌V2–V3引物PCR/DGGE条带，多样性不是MG/MT。,original_files/R13861/fulltext/fulltext__published__ba6f44b77d79c4a0.pdf,ba6f44b77d79c4a07ba08602860bcf1bdbb36cb47b4527fa9d1f087825e394d8,[3],Microbial community analysis,,,B008,,,
+R13862-E01,R13862,方法判断,"Quantiﬁcation of LCFA was carried out by gas chroma-
+tography (GC). Free LCFA from C12 to C18 were esteri-
+ﬁed with HCl:1-propanol at 100[U+0002]C for 3.5 h. Extraction
+was carried out with dichloromethane, and the quantiﬁca-
+tion was performed by GC-FID, as described by Neves
+et al. (2009).",完整Experimental procedures PDF7–9为定义Sz/Mf/Pseudomonas共培养、氢/甲酸/LCFA转化、GC/HPLC/显微镜；未开展目标群落测序。,original_files/R13862/fulltext/fulltext__published__64e03a9beb5813a0.pdf,64e03a9beb5813a0ce6d94272350217f12dac94293420969e3d2d9d7975e96e3,[8],Analytical methods,,,B008,,,
+R13863-E01,R13863,方法判断,"The following parameters were determined: soluble COD and
+VS. COD was measured by a colorimetric method according to
+APHA (2012) and volatile solids (VS) were also measured according
+to APHA (2012).",完整§2.1–2.4 PDF2–3为曝气/飞灰/AD、化学及体积甲烷分析，无核酸方法。,original_files/R13863/fulltext/fulltext__published__5ad8c9f9f4fa457a.pdf,5ad8c9f9f4fa457a191bfbae989c228336a848d2eda47c34c33aa72e2a4e3dd4,[2],§2.3 Chemical analyses,,,B008,,,
+R13864-E01,R13864,方法判断,"The 16S rRNA gene sequencing was performed to evaluate the 
+change in microbial community composition before and after the BMP 
+assay. DNA extraction was performed using the FastDNA™ Spin Kit for 
+soil. 16S rRNA gene amplification was accomplished by PCR using 515F 
+and 806R bacterial universal primers with Illumina overhang sequences 
+for the MiSeq sequencing platform.",完整§2.1–2.6 PDF2–4：515F/806R16S PCR、Nextera索引扩增子文库/MiSeq/DADA2，非shotgun。,original_files/R13864/fulltext/fulltext__published__9305bd8c9ccdcd40.pdf,9305bd8c9ccdcd40645008c38cb093e8b2c717261010416ff2b2c4328a72f6a6,[3],§2.5 16S rRNA gene sequencing and taxonomic classification,,,B008,,,
+R13866-E01,R13866,方法判断,"At the end of the
+experiment, digestates from duplicate reactors were mixed
+thoroughly prior to microbial analysis. Samples from all
+experimental groups were collected for metagenomic analysis.
+The total DNA of each microbial sample was extracted using
+the FastDNA SPIN Kit for soil (MP Biochemicals Inc., US).
+The DNA extract was fragmented to an average size of about
+400 bp using a Covaris M220 (Gene Company Limited,
+China). Paired-end library was constructed using NEXTFLEX
+Rapid DNA-Seq (Bioo Scientific, US). Paired-end sequencing
+was performed on the NovaSeq platform (Illumina, USA) at
+Majorbio Bio-Pharm Technology Co., Ltd. (Shanghai, China).",完整§2.1–2.5 PDF2–4：混合消化污泥总DNA、Covaris400bp/NEXTFLEXRapidDNASeq/NovaSeqPE，明确MG；未有RNA文库。,original_files/R13866/fulltext/fulltext__published__fda48f96690b9d81.pdf,fda48f96690b9d81a4e4983d51b4e2ac633d5cf2d320292d7faa36e9290fc7f9,[4],§2.4 Microbial metagenomic Analysis,,,B008,,,
+R13868-E01,R13868,方法判断,"The identification of the present microorganisms took 
+place according to the species diversity index methodology in which the 
+DNA sequencing of the gene 16S rRNA was performed.",完整§2.1–2.6 PDF2–3正文明确测序靶基因16S rRNA；MiSeq/群落多样性非MG/MT。,original_files/R13868/fulltext/fulltext__published__2ddb3068ef12cffb.pdf,2ddb3068ef12cffbf7058b01254f452e87f6e6121892879f454486e0f3b159b1,[3],§2.5 Microbial diversity,,,B008,,,
+R13871-E01,R13871,方法判断,"Continuous measurement of methane, carbon dioxide and hydrogen sulphide 
+concentrations in the biogas mixture was carried out daily by biogas analyser (Data gas 
+analyser, Model 0518) at 1atm pressure.",275页学位论文，完整Chapter3 PDF74–113及AppendixA PDF272–275：气体分析仪/体积产气/COD-VFA比色、气液传质/热交换；各实验章节的方法回引及CFD模型核查，无核酸提取、建库或群落测序。,original_files/R13871/fulltext/fulltext__thesis__aeab3126b6e68775.pdf,aeab3126b6e68775b9b316714633bd97c1f184cf9e308d75b404bca6b33be19f,[91],Chapter3 §3.3.2.2 Materials and Methods（印刷64）,,,B008,,,
+R13871-E02,R13871,方法判断,"The COD of the sludge in the present study was evaluated by using regent provided by 
+HLFWQ compant with range (5-60 g/l). 
+The procedure for measuring the organic acids is: 
+1. 
+Invert the cuvette a few times to mix the suspension and sediment. 
+2. 
+Place a pipette containing 0.2 ml of wastewater carefully inside the cuvette. 
+3. 
+Close the cuvette and clean it and then invert again. 
+4. 
+Heat the cuvette to 148 oC for 120 min. 
+5. 
+Remove the hot cuvette and invert it twice, then leave it in a cool place to cool 
+to 25 oC. 
+6. 
+Clean the outside of the cuvette and evaluate the COD (g/L) using the device 
+spectrometer (DR2800 (Model)).",COD试剂和分光光度计分析，不是组学。,original_files/R13871/fulltext/fulltext__thesis__aeab3126b6e68775.pdf,aeab3126b6e68775b9b316714633bd97c1f184cf9e308d75b404bca6b33be19f,[273],Appendix A.1/A.2（印刷246）,,,B008,,,
+R13875-E01,R13875,方法判断,"Digestion pressure and temperature were monitored by using a
+sensor and a probe, respectively. Biogas production was measured
+volumetrically by water displacement, and its composition in
+terms of methane, carbon dioxide, nitrogen, oxygen, hydrogen sul-
+phide and hydrogen was determined by gas chromatography (GC)
+according to Díaz et al. (2010b).",完整§2.1–2.3 PDF2为250LCSTR、GC/离子色谱/HPLC/水质，无核酸方法。,original_files/R13875/fulltext/fulltext__published__3b988a139cbae3e5.pdf,3b988a139cbae3e5c091db1e41640e5c330a822404c1078a52bb116dae9e7c1c,[2],§2.2 Monitoring and experimental analysis,,,B008,,,
+R13876-E01,R13876,方法判断,"Structural carbohydrates (cellu-
+lose, hemicellulose, lignin) were analyzed according to the NREL
+Analytical Procedure described in Sluiter et al. (2008). Extrac-
+tives-free biomass was hydrolyzed into monomers after a two-step
+acid hydrolysis, and the concentrations of these monomers were
+determined by high performance liquid chromatography (HPLC)
+(Shimadzu LC-20AB, Columbia, MD, USA) (Sluiter et al., 2008).",完整§2.1–2.5 PDF2–3为固态AD/气体/元素/纤维HPLC、能量及统计，无核酸方法。,original_files/R13876/fulltext/fulltext__published__3a1c1b61498d579e.pdf,3a1c1b61498d579e456dd29d24e03686bac1b832868e6176d2e13d71f647ef8f,[3],§2.3 Analytical methods续,,,B008,,,
+R13877-E01,R13877,方法判断,"amplified for bacteria with a pair of universal primers(BSF101F-
+TGGCGGACGGGTGAGAA and BSF534R-ATTACCGCGGCTGCTGG), and GC-
+clamp CGCCCGCCGCGCGCGGCGGGGCGGGGGCACGGGGGG (Invitrogen, Co., 
+Ltd., Shanghai, China) [33]. The 16S rRNA gene fragments were amplified 
+using a 9700PCR meter (BioRad Laboratories, Hercules, USA) with the 
+touchdown PCR method [34]. The PCR products obtained were applied in 
+the DGGE analysis using a BioRad DCode universal mutation detection 
+system (Bio-Rad Laboratories, Hercules, USA) with a linear denaturing 
+gradient ranging from 30% to 60%. (100% denaturing gradient contains 
+7 M urea and 40% formamide (v/v)) Electrophoresis was conducted at 20 V 
+for 30 min and at 150 V for 8 h at 60 °C. The obtained gels were then silver-
+stained and photographed. Selected DGGE bands were excised and re-
+amplified by PCR with the aforementioned primers without the GC clamp. 
+The obtained sequences of PCR products were then compared with the 
+reference microorganisms in the GenBank database using the BLAST (Basic 
+Local Alignment Search Tool) program and EaTaxon server [35].",完整§2.1–2.6 PDF4–7：BSF101F/BSF534R16S PCR/DGGE/条带复扩增序列；SDS-PAGE为单菌模型蛋白电泳，不是MT。,original_files/R13877/fulltext/fulltext__published__04a76adc76fa9472.pdf,04a76adc76fa947250861c95c93759c590dd3e02d7f80dc23ce0abedccb74510,[7],"§2.6 DNA extraction, PCR, DGGE and sequence analysis续",,,B008,,,
+R13878-E01,R13878,方法判断,"The amplicon mixture was applied to the MiSeq Genome Sequencer
+(Illumina, San Diego, CA, USA). Amplicons were extracted from 2%
+agarose gels, puriﬁed using the AxyPrep DNA Gel Extraction Kit
+(Axygen Biosciences, Union City, CA, U.S.) according to the manu-
+facturer’s
+instructions,
+and
+quantiﬁed
+using
+QuantiFluor™-ST
+(Promega, U.S.). Puriﬁed amplicons were pooled in equimolar and
+paired-end sequenced (2 × 300) on an Illumina MiSeq platform ac-
+cording to the standard protocols.",完整§2.1–2.5 PDF2–3：338F/806R靶16S PCR/amplicon MiSeqPE300/QIIME，非MG/MT。,original_files/R13878/fulltext/fulltext__published__2eb6f71281844f77.pdf,2eb6f71281844f77d4091045113095b32c38f7443e810557043b9464f6fe6b9b,[3],§2.5 Analysis of the microbial community structure续,,,B008,,,
+R13879-E01,R13879,方法判断,"During this study, biogas yield was tested by water replacement
+method. The detail experimental apparatuses of water replacement
+method were shown in Fig. S1. A gas chromatograph (SP 6890, Shan-
+dong Lunan Inc., China) with argon as carrier gas was used to test the
+methane
+concentration
+in
+biogas.
+The
+used
+gas
+chromatograph
+equipped with a Porapak Q stainless steel column (180 cm long, 3 mm
+outer diameter) and TCD (thermal conductivity detector). As for the
+injector, detector, and oven the temperatures were 50, 100 and 100 °C,
+respectively. For TS test the material was dried at 105 °C for 8 h, for VS
+test the dried material was ignited at 550 °C for 2 h. The method as
+Goering and Van Soest [32] described was used to test the hemi-
+celluloses, cellulose and lignin contents of Miscanthus ﬂoridulus. When
+testing SCOD (soluble chemical oxygen demand), samples were ﬁrstly
+centrifuging at 10,000 rpm for 5 min and ﬁltering samples through a
+0.45 μm glass microﬁber ﬁlter and determined by spectrophotometric
+method [33].",完整§2.1–2.7 PDF2–3为五种预处理、SEM/XRD/GC和经济测算，没有核酸测序。,original_files/R13879/fulltext/fulltext__published__5bfea725303d30c1.pdf,5bfea725303d30c13810e712a5058ba92cd1ed984cd724ff60f72b4c8ed3f9bc,[3],§2.7 Analytical methods,,,B008,,,
+R13816-E02,R13816,附件身份核验,"Can microaeration and hydraulic retention time steer anaerobic microbiomes toward efficient LAS degradation?
+
+Maurício Guimarães de Oliveiraa, Vicente Elício Porfiro Sales Gonçalves da Silvaa, Steven Renato Ferreira Vasconcelosa, Paulo Igor Milen Firminoa, André Bezerra dos Santos a,*
+
+a Department of Hydraulic and Environmental Engineering, Federal University of Ceará, Fortaleza, Ceará, Brazil",题名（LAS缩写）、作者全名单与机构匹配正文，核实SI归属；无新增测序项目。,original_files/R13816/supplementary/supplementary__64c389b828148a72.docx,64c389b828148a7259301c568565ae5fbff8ffcc0b6c3fb94730876fd9c81f48,[],DOCX段落4–8,,,B008,,,

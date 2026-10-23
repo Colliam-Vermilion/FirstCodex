@@ -447,7 +447,11 @@
     "path": "original_files/R13816/supplementary/supplementary__64c389b828148a72.docx",
     "sha256": "64c389b828148a7259301c568565ae5fbff8ffcc0b6c3fb94730876fd9c81f48",
     "reason": " 文件可打开且内容为表格/数据/图等补充材料；缺题名/DOI等唯一关联凭据，仅保留目录及内容关联，不能声称已核实附件身份或已收齐全部附件。",
-    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实"
+    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实",
+    "resolution_status": "已解决",
+    "resolved_in_batch": "B008",
+    "resolution": "已检查DOCX段4–8题名/作者/机构与正文一致，LAS是题名中化学物名称缩写。",
+    "resolution_evidence_id": "R13816-E02"
   },
   {
     "record_id": "R13939",
@@ -1721,5 +1725,56 @@
     "raw_accession": "PRJNA1447972;PRJNA1448473;PRJNA1447957",
     "reason": "正文把3项目统称MG，但官方前2均AMPLICON（各24实验），只有PRJNA1447957为12WGS/METAGENOMIC/PAIRED/NovaSeq6000。保留冲突，按逐实验策略排除非目标。 官方WGS样本12个：ZZ49/ZN49/CZ21/CN21/ZZ21/ZN21/CZ0/CN0/CZ49/CN49/ZZ0/ZN0，具体条件对应未确认。",
     "action": "仅12WGS纳入目标；保留组别和日期差异。"
+  },
+  {
+    "record_id": "R13834",
+    "path": "original_files/R13834/fulltext/fulltext__published__4304325a9f74359b.pdf",
+    "sha256": "4304325a9f74359be71a1af5ff296142b232beb41a1cff128fa6134b8997a86d",
+    "batch_id": "B008",
+    "issue_type": "测序类型方法证据不足",
+    "reason": "仅DNA提取/MiSeq、OTU/群落分析，无靶区或文库证据；不计阴性。",
+    "action": "独立复核队列；本轮不追下载引用论文。"
+  },
+  {
+    "record_id": "R13855",
+    "path": "original_files/R13855/fulltext/fulltext__published__1ee56be1dd88d737.pdf",
+    "sha256": "1ee56be1dd88d737729071709919d97ccead067974a9fe98406fc1891bb85975",
+    "batch_id": "B008",
+    "issue_type": "非目标扩增子项目",
+    "raw_accession": "PRJNA819234",
+    "normalized_accession": "PRJNA819234",
+    "accession_level": "BioProject",
+    "database": "NCBI",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA819234",
+    "reason": "SI明确16S扩增子项目，不计目标。",
+    "public_status": "未作本批官方核验（正文已明确非目标）",
+    "action": "保留线索，不计目标数据项目。"
+  },
+  {
+    "record_id": "R13864",
+    "path": "original_files/R13864/fulltext/fulltext__published__9305bd8c9ccdcd40.pdf",
+    "sha256": "9305bd8c9ccdcd40645008c38cb093e8b2c717261010416ff2b2c4328a72f6a6",
+    "batch_id": "B008",
+    "issue_type": "非目标扩增子项目",
+    "raw_accession": "PRJNA1089110",
+    "normalized_accession": "PRJNA1089110",
+    "accession_level": "BioProject",
+    "database": "NCBI",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1089110",
+    "reason": "正文16S扩增子项目，不计目标。",
+    "public_status": "未作本批官方核验（正文已明确非目标）",
+    "action": "保留线索，不计目标数据项目。"
+  },
+  {
+    "record_id": "R13879",
+    "batch_id": "B008",
+    "issue_type": "附件字体编码异常已原页复核",
+    "path": "original_files/R13879/supplementary/supplementary__5f449d5947bff00b.pdf",
+    "sha256": "5f449d5947bff00b1fb6c2b1906fc0eb064e02b11a95f242a8e4ab0b293f6894",
+    "pdf_pages": [
+      1
+    ],
+    "reason": "可打开但抽取文字为控制字符；已渲染原页，只有水置换装置FigS1和Miscanthus日产甲烷FigS2，无测序补方法。",
+    "action": "保留原件与视觉派生出处；唯一归属限制不改，不将文本无命中当阴性。"
   }
 ]
