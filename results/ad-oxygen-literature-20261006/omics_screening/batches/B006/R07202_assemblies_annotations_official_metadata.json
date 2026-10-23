@@ -1,0 +1,274 @@
+{
+  "record_id": "R07202",
+  "checked_at_utc": "2026-10-23T12:51:13.267906+00:00",
+  "purpose": "文中7个MAG WGS master及Figshare功能注释的元数据核验；不取序列/reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=JADLKJ000000000%5BAccession%5D+OR+JADLKK000000000%5BAccession%5D+OR+JADLKL000000000%5BAccession%5D+OR+JADLKM000000000%5BAccession%5D+OR+JADLKN000000000%5BAccession%5D+OR+JADLKO000000000%5BAccession%5D+OR+JADLKP000000000%5BAccession%5D&retmode=json&retmax=50",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"7\",\"retmax\":\"7\",\"retstart\":\"0\",\"idlist\":[\"1979379132\",\"1979378869\",\"1979378727\",\"1979378721\",\"1979378435\",\"1979378297\",\"1979374994\"],\"translationset\":[],\"translationstack\":[{\"term\":\"JADLKJ000000000[Accession]\",\"field\":\"Accession\",\"count\":\"1\",\"explode\":\"N\"},{\"term\":\"JADLKK000000000[Accession]\",\"field\":\"Accession\",\"count\":\"1\",\"explode\":\"N\"},\"OR\",{\"term\":\"JADLKL000000000[Accession]\",\"field\":\"Accession\",\"count\":\"1\",\"explode\":\"N\"},\"OR\",{\"term\":\"JADLKM000000000[Accession]\",\"field\":\"Accession\",\"count\":\"1\",\"explode\":\"N\"},\"OR\",{\"term\":\"JADLKN000000000[Accession]\",\"field\":\"Accession\",\"count\":\"1\",\"explode\":\"N\"},\"OR\",{\"term\":\"JADLKO000000000[Accession]\",\"field\":\"Accession\",\"count\":\"1\",\"explode\":\"N\"},\"OR\",{\"term\":\"JADLKP000000000[Accession]\",\"field\":\"Accession\",\"count\":\"1\",\"explode\":\"N\"},\"OR\"],\"querytranslation\":\"JADLKJ000000000[Accession] OR JADLKK000000000[Accession] OR JADLKL000000000[Accession] OR JADLKM000000000[Accession] OR JADLKN000000000[Accession] OR JADLKO000000000[Accession] OR JADLKP000000000[Accession]\"}}\n"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=nuccore&id=1979379132%2C1979378869%2C1979378727%2C1979378721%2C1979378435%2C1979378297%2C1979374994&retmode=json",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"1979379132\",\"1979378869\",\"1979378727\",\"1979378721\",\"1979378435\",\"1979378297\",\"1979374994\"],\"1979379132\":{\"uid\":\"1979379132\",\"term\":\"1979379132\",\"caption\":\"JADLKP000000000\",\"title\":\"MAG: Methanobrevibacter sp. isolate Rep2_Bin008, whole genome shotgun sequencing project\",\"extra\":\"gi|1979379132|gb|JADLKP000000000.1|JADLKP010000000\",\"gi\":1979379132,\"createdate\":\"2021/02/09\",\"updatedate\":\"2021/02/09\",\"taxid\":66852,\"slen\":370,\"biomol\":\"genomic\",\"moltype\":\"dna\",\"topology\":\"linear\",\"sourcedb\":\"insd\",\"projectid\":\"565588\",\"subtype\":\"isolate|metagenome_source|country|isolation_source|lat_lon|collection_date\",\"subname\":\"Rep2_Bin008|bioreactor metagenome|USA|microaeration digestion Rep2|21.29 N 157.81 W|15-Jan-2017\",\"tech\":\"wgs\",\"geneticcode\":\"11\",\"organism\":\"Methanobrevibacter sp.\",\"biosample\":\"SAMN16615618\",\"statistics\":\"\",\"properties\":{\"na\":\"1\",\"master\":\"1\",\"value\":\"1\"},\"oslt\":{\"indexed\":true,\"value\":\"JADLKP000000000.1\"},\"accessionversion\":\"JADLKP000000000.1\"},\"1979378869\":{\"uid\":\"1979378869\",\"term\":\"1979378869\",\"caption\":\"JADLKO000000000\",\"title\":\"MAG: Proteiniphilum sp. isolate Rep2_Bin003, whole genome shotgun sequencing project\",\"extra\":\"gi|1979378869|gb|JADLKO000000000.1|JADLKO010000000\",\"gi\":1979378869,\"createdate\":\"2021/02/09\",\"updatedate\":\"2021/02/09\",\"taxid\":1926877,\"slen\":319,\"biomol\":\"genomic\",\"moltype\":\"dna\",\"topology\":\"linear\",\"sourcedb\":\"insd\",\"projectid\":\"565588\",\"subtype\":\"isolate|metagenome_source|country|isolation_source|lat_lon|collection_date\",\"subname\":\"Rep2_Bin003|bioreactor metagenome|USA|microaeration digestion Rep2|21.29 N 157.81 W|15-Jan-2017\",\"tech\":\"wgs\",\"geneticcode\":\"11\",\"organism\":\"Proteiniphilum sp.\",\"biosample\":\"SAMN16615617\",\"statistics\":\"\",\"properties\":{\"na\":\"1\",\"master\":\"1\",\"value\":\"1\"},\"oslt\":{\"indexed\":true,\"value\":\"JADLKO000000000.1\"},\"accessionversion\":\"JADLKO000000000.1\"},\"1979378727\":{\"uid\":\"1979378727\",\"term\":\"1979378727\",\"caption\":\"JADLKN000000000\",\"title\":\"MAG: Proteiniphilum sp. isolate Rep2_Bin001, whole genome shotgun sequencing project\",\"extra\":\"gi|1979378727|gb|JADLKN000000000.1|JADLKN010000000\",\"gi\":1979378727,\"createdate\":\"2021/02/09\",\"updatedate\":\"2021/02/09\",\"taxid\":1926877,\"slen\":11,\"biomol\":\"genomic\",\"moltype\":\"dna\",\"topology\":\"linear\",\"sourcedb\":\"insd\",\"projectid\":\"565588\",\"subtype\":\"isolate|metagenome_source|country|isolation_source|lat_lon|collection_date\",\"subname\":\"Rep2_Bin001|bioreactor metagenome|USA|microaeration digestion Rep2|21.29 N 157.81 W|15-Jan-2017\",\"tech\":\"wgs\",\"geneticcode\":\"11\",\"organism\":\"Proteiniphilum sp.\",\"biosample\":\"SAMN16615616\",\"statistics\":\"\",\"properties\":{\"na\":\"1\",\"master\":\"1\",\"value\":\"1\"},\"oslt\":{\"indexed\":true,\"value\":\"JADLKN000000000.1\"},\"accessionversion\":\"JADLKN000000000.1\"},\"1979378721\":{\"uid\":\"1979378721\",\"term\":\"1979378721\",\"caption\":\"JADLKL000000000\",\"title\":\"MAG: Methanobacterium sp. isolate Rep1_Bin027, whole genome shotgun sequencing project\",\"extra\":\"gi|1979378721|gb|JADLKL000000000.1|JADLKL010000000\",\"gi\":1979378721,\"createdate\":\"2021/02/09\",\"updatedate\":\"2021/02/09\",\"taxid\":2164,\"slen\":169,\"biomol\":\"genomic\",\"moltype\":\"dna\",\"topology\":\"linear\",\"sourcedb\":\"insd\",\"projectid\":\"565588\",\"subtype\":\"isolate|metagenome_source|country|isolation_source|lat_lon|collection_date\",\"subname\":\"Rep1_Bin027|bioreactor metagenome|USA|microaeration digestion Rep1|21.29 N 157.81 W|15-Oct-2016\",\"tech\":\"wgs\",\"geneticcode\":\"11\",\"organism\":\"Methanobacterium sp.\",\"biosample\":\"SAMN16615614\",\"statistics\":\"\",\"properties\":{\"na\":\"1\",\"master\":\"1\",\"value\":\"1\"},\"oslt\":{\"indexed\":true,\"value\":\"JADLKL000000000.1\"},\"accessionversion\":\"JADLKL000000000.1\"},\"1979378435\":{\"uid\":\"1979378435\",\"term\":\"1979378435\",\"caption\":\"JADLKK000000000\",\"title\":\"MAG: Proteiniphilum sp. isolate Rep1_Bin026, whole genome shotgun sequencing project\",\"extra\":\"gi|1979378435|gb|JADLKK000000000.1|JADLKK010000000\",\"gi\":1979378435,\"createdate\":\"2021/02/09\",\"updatedate\":\"2021/02/09\",\"taxid\":1926877,\"slen\":300,\"biomol\":\"genomic\",\"moltype\":\"dna\",\"topology\":\"linear\",\"sourcedb\":\"insd\",\"projectid\":\"565588\",\"subtype\":\"isolate|metagenome_source|country|isolation_source|lat_lon|collection_date\",\"subname\":\"Rep1_Bin026|bioreactor metagenome|USA|microaeration digestion Rep1|21.29 N 157.81 W|15-Oct-2016\",\"tech\":\"wgs\",\"geneticcode\":\"11\",\"organism\":\"Proteiniphilum sp.\",\"biosample\":\"SAMN16615613\",\"statistics\":\"\",\"properties\":{\"na\":\"1\",\"master\":\"1\",\"value\":\"1\"},\"oslt\":{\"indexed\":true,\"value\":\"JADLKK000000000.1\"},\"accessionversion\":\"JADLKK000000000.1\"},\"1979378297\":{\"uid\":\"1979378297\",\"term\":\"1979378297\",\"caption\":\"JADLKJ000000000\",\"title\":\"MAG: Proteiniphilum sp. isolate Rep1_Bin001, whole genome shotgun sequencing project\",\"extra\":\"gi|1979378297|gb|JADLKJ000000000.1|JADLKJ010000000\",\"gi\":1979378297,\"createdate\":\"2021/02/09\",\"updatedate\":\"2021/02/09\",\"taxid\":1926877,\"slen\":29,\"biomol\":\"genomic\",\"moltype\":\"dna\",\"topology\":\"linear\",\"sourcedb\":\"insd\",\"projectid\":\"565588\",\"subtype\":\"isolate|metagenome_source|country|isolation_source|lat_lon|collection_date\",\"subname\":\"Rep1_Bin001|bioreactor metagenome|USA|microaeration digestion Rep1|21.29 N 157.81 W|15-Oct-2016\",\"tech\":\"wgs\",\"geneticcode\":\"11\",\"organism\":\"Proteiniphilum sp.\",\"biosample\":\"SAMN16615612\",\"statistics\":\"\",\"properties\":{\"na\":\"1\",\"master\":\"1\",\"value\":\"1\"},\"oslt\":{\"indexed\":true,\"value\":\"JADLKJ000000000.1\"},\"accessionversion\":\"JADLKJ000000000.1\"},\"1979374994\":{\"uid\":\"1979374994\",\"term\":\"1979374994\",\"caption\":\"JADLKM000000000\",\"title\":\"MAG: Methanobrevibacter sp. isolate Rep1_Bin035, whole genome shotgun sequencing project\",\"extra\":\"gi|1979374994|gb|JADLKM000000000.1|JADLKM010000000\",\"gi\":1979374994,\"createdate\":\"2021/02/09\",\"updatedate\":\"2021/02/09\",\"taxid\":66852,\"slen\":464,\"biomol\":\"genomic\",\"moltype\":\"dna\",\"topology\":\"linear\",\"sourcedb\":\"insd\",\"projectid\":\"565588\",\"subtype\":\"isolate|metagenome_source|country|isolation_source|lat_lon|collection_date\",\"subname\":\"Rep1_Bin035|bioreactor metagenome|USA|microaeration digestion Rep1|21.29 N 157.81 W|15-Oct-2016\",\"tech\":\"wgs\",\"geneticcode\":\"11\",\"organism\":\"Methanobrevibacter sp.\",\"biosample\":\"SAMN16615615\",\"statistics\":\"\",\"properties\":{\"na\":\"1\",\"master\":\"1\",\"value\":\"1\"},\"oslt\":{\"indexed\":true,\"value\":\"JADLKM000000000.1\"},\"accessionversion\":\"JADLKM000000000.1\"}}}\n"
+    }
+  ],
+  "nuccore_search_count": "7",
+  "nuccore_summaries": {
+    "header": {
+      "type": "esummary",
+      "version": "0.3"
+    },
+    "result": {
+      "uids": [
+        "1979379132",
+        "1979378869",
+        "1979378727",
+        "1979378721",
+        "1979378435",
+        "1979378297",
+        "1979374994"
+      ],
+      "1979379132": {
+        "uid": "1979379132",
+        "term": "1979379132",
+        "caption": "JADLKP000000000",
+        "title": "MAG: Methanobrevibacter sp. isolate Rep2_Bin008, whole genome shotgun sequencing project",
+        "extra": "gi|1979379132|gb|JADLKP000000000.1|JADLKP010000000",
+        "gi": 1979379132,
+        "createdate": "2021/02/09",
+        "updatedate": "2021/02/09",
+        "taxid": 66852,
+        "slen": 370,
+        "biomol": "genomic",
+        "moltype": "dna",
+        "topology": "linear",
+        "sourcedb": "insd",
+        "projectid": "565588",
+        "subtype": "isolate|metagenome_source|country|isolation_source|lat_lon|collection_date",
+        "subname": "Rep2_Bin008|bioreactor metagenome|USA|microaeration digestion Rep2|21.29 N 157.81 W|15-Jan-2017",
+        "tech": "wgs",
+        "geneticcode": "11",
+        "organism": "Methanobrevibacter sp.",
+        "biosample": "SAMN16615618",
+        "statistics": "",
+        "properties": {
+          "na": "1",
+          "master": "1",
+          "value": "1"
+        },
+        "oslt": {
+          "indexed": true,
+          "value": "JADLKP000000000.1"
+        },
+        "accessionversion": "JADLKP000000000.1"
+      },
+      "1979378869": {
+        "uid": "1979378869",
+        "term": "1979378869",
+        "caption": "JADLKO000000000",
+        "title": "MAG: Proteiniphilum sp. isolate Rep2_Bin003, whole genome shotgun sequencing project",
+        "extra": "gi|1979378869|gb|JADLKO000000000.1|JADLKO010000000",
+        "gi": 1979378869,
+        "createdate": "2021/02/09",
+        "updatedate": "2021/02/09",
+        "taxid": 1926877,
+        "slen": 319,
+        "biomol": "genomic",
+        "moltype": "dna",
+        "topology": "linear",
+        "sourcedb": "insd",
+        "projectid": "565588",
+        "subtype": "isolate|metagenome_source|country|isolation_source|lat_lon|collection_date",
+        "subname": "Rep2_Bin003|bioreactor metagenome|USA|microaeration digestion Rep2|21.29 N 157.81 W|15-Jan-2017",
+        "tech": "wgs",
+        "geneticcode": "11",
+        "organism": "Proteiniphilum sp.",
+        "biosample": "SAMN16615617",
+        "statistics": "",
+        "properties": {
+          "na": "1",
+          "master": "1",
+          "value": "1"
+        },
+        "oslt": {
+          "indexed": true,
+          "value": "JADLKO000000000.1"
+        },
+        "accessionversion": "JADLKO000000000.1"
+      },
+      "1979378727": {
+        "uid": "1979378727",
+        "term": "1979378727",
+        "caption": "JADLKN000000000",
+        "title": "MAG: Proteiniphilum sp. isolate Rep2_Bin001, whole genome shotgun sequencing project",
+        "extra": "gi|1979378727|gb|JADLKN000000000.1|JADLKN010000000",
+        "gi": 1979378727,
+        "createdate": "2021/02/09",
+        "updatedate": "2021/02/09",
+        "taxid": 1926877,
+        "slen": 11,
+        "biomol": "genomic",
+        "moltype": "dna",
+        "topology": "linear",
+        "sourcedb": "insd",
+        "projectid": "565588",
+        "subtype": "isolate|metagenome_source|country|isolation_source|lat_lon|collection_date",
+        "subname": "Rep2_Bin001|bioreactor metagenome|USA|microaeration digestion Rep2|21.29 N 157.81 W|15-Jan-2017",
+        "tech": "wgs",
+        "geneticcode": "11",
+        "organism": "Proteiniphilum sp.",
+        "biosample": "SAMN16615616",
+        "statistics": "",
+        "properties": {
+          "na": "1",
+          "master": "1",
+          "value": "1"
+        },
+        "oslt": {
+          "indexed": true,
+          "value": "JADLKN000000000.1"
+        },
+        "accessionversion": "JADLKN000000000.1"
+      },
+      "1979378721": {
+        "uid": "1979378721",
+        "term": "1979378721",
+        "caption": "JADLKL000000000",
+        "title": "MAG: Methanobacterium sp. isolate Rep1_Bin027, whole genome shotgun sequencing project",
+        "extra": "gi|1979378721|gb|JADLKL000000000.1|JADLKL010000000",
+        "gi": 1979378721,
+        "createdate": "2021/02/09",
+        "updatedate": "2021/02/09",
+        "taxid": 2164,
+        "slen": 169,
+        "biomol": "genomic",
+        "moltype": "dna",
+        "topology": "linear",
+        "sourcedb": "insd",
+        "projectid": "565588",
+        "subtype": "isolate|metagenome_source|country|isolation_source|lat_lon|collection_date",
+        "subname": "Rep1_Bin027|bioreactor metagenome|USA|microaeration digestion Rep1|21.29 N 157.81 W|15-Oct-2016",
+        "tech": "wgs",
+        "geneticcode": "11",
+        "organism": "Methanobacterium sp.",
+        "biosample": "SAMN16615614",
+        "statistics": "",
+        "properties": {
+          "na": "1",
+          "master": "1",
+          "value": "1"
+        },
+        "oslt": {
+          "indexed": true,
+          "value": "JADLKL000000000.1"
+        },
+        "accessionversion": "JADLKL000000000.1"
+      },
+      "1979378435": {
+        "uid": "1979378435",
+        "term": "1979378435",
+        "caption": "JADLKK000000000",
+        "title": "MAG: Proteiniphilum sp. isolate Rep1_Bin026, whole genome shotgun sequencing project",
+        "extra": "gi|1979378435|gb|JADLKK000000000.1|JADLKK010000000",
+        "gi": 1979378435,
+        "createdate": "2021/02/09",
+        "updatedate": "2021/02/09",
+        "taxid": 1926877,
+        "slen": 300,
+        "biomol": "genomic",
+        "moltype": "dna",
+        "topology": "linear",
+        "sourcedb": "insd",
+        "projectid": "565588",
+        "subtype": "isolate|metagenome_source|country|isolation_source|lat_lon|collection_date",
+        "subname": "Rep1_Bin026|bioreactor metagenome|USA|microaeration digestion Rep1|21.29 N 157.81 W|15-Oct-2016",
+        "tech": "wgs",
+        "geneticcode": "11",
+        "organism": "Proteiniphilum sp.",
+        "biosample": "SAMN16615613",
+        "statistics": "",
+        "properties": {
+          "na": "1",
+          "master": "1",
+          "value": "1"
+        },
+        "oslt": {
+          "indexed": true,
+          "value": "JADLKK000000000.1"
+        },
+        "accessionversion": "JADLKK000000000.1"
+      },
+      "1979378297": {
+        "uid": "1979378297",
+        "term": "1979378297",
+        "caption": "JADLKJ000000000",
+        "title": "MAG: Proteiniphilum sp. isolate Rep1_Bin001, whole genome shotgun sequencing project",
+        "extra": "gi|1979378297|gb|JADLKJ000000000.1|JADLKJ010000000",
+        "gi": 1979378297,
+        "createdate": "2021/02/09",
+        "updatedate": "2021/02/09",
+        "taxid": 1926877,
+        "slen": 29,
+        "biomol": "genomic",
+        "moltype": "dna",
+        "topology": "linear",
+        "sourcedb": "insd",
+        "projectid": "565588",
+        "subtype": "isolate|metagenome_source|country|isolation_source|lat_lon|collection_date",
+        "subname": "Rep1_Bin001|bioreactor metagenome|USA|microaeration digestion Rep1|21.29 N 157.81 W|15-Oct-2016",
+        "tech": "wgs",
+        "geneticcode": "11",
+        "organism": "Proteiniphilum sp.",
+        "biosample": "SAMN16615612",
+        "statistics": "",
+        "properties": {
+          "na": "1",
+          "master": "1",
+          "value": "1"
+        },
+        "oslt": {
+          "indexed": true,
+          "value": "JADLKJ000000000.1"
+        },
+        "accessionversion": "JADLKJ000000000.1"
+      },
+      "1979374994": {
+        "uid": "1979374994",
+        "term": "1979374994",
+        "caption": "JADLKM000000000",
+        "title": "MAG: Methanobrevibacter sp. isolate Rep1_Bin035, whole genome shotgun sequencing project",
+        "extra": "gi|1979374994|gb|JADLKM000000000.1|JADLKM010000000",
+        "gi": 1979374994,
+        "createdate": "2021/02/09",
+        "updatedate": "2021/02/09",
+        "taxid": 66852,
+        "slen": 464,
+        "biomol": "genomic",
+        "moltype": "dna",
+        "topology": "linear",
+        "sourcedb": "insd",
+        "projectid": "565588",
+        "subtype": "isolate|metagenome_source|country|isolation_source|lat_lon|collection_date",
+        "subname": "Rep1_Bin035|bioreactor metagenome|USA|microaeration digestion Rep1|21.29 N 157.81 W|15-Oct-2016",
+        "tech": "wgs",
+        "geneticcode": "11",
+        "organism": "Methanobrevibacter sp.",
+        "biosample": "SAMN16615615",
+        "statistics": "",
+        "properties": {
+          "na": "1",
+          "master": "1",
+          "value": "1"
+        },
+        "oslt": {
+          "indexed": true,
+          "value": "JADLKM000000000.1"
+        },
+        "accessionversion": "JADLKM000000000.1"
+      }
+    }
+  },
+  "figshare_error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+}

@@ -1,0 +1,16 @@
+{
+  "record_id": "R10163_SRR28311683",
+  "exact_known_article_doi_or_non_target_accession": "SRR28311683",
+  "checked_at_utc": "2026-10-23T12:45:22.315354+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=SRR28311683&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"1\",\"retmax\":\"1\",\"retstart\":\"0\",\"idlist\":[\"32225581\"],\"translationset\":[],\"translationstack\":[{\"term\":\"SRR28311683[All Fields]\",\"field\":\"All Fields\",\"count\":\"1\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"SRR28311683[All Fields]\"}}\n"
+    }
+  ],
+  "sra_search_count": "1",
+  "error": "HTTP Error 429: Too Many Requests",
+  "official_status": "访问/公开状态未核实，保留原文证据"
+}

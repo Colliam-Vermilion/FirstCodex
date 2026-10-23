@@ -1,0 +1,391 @@
+{
+  "record_id": "R10492",
+  "exact_known_article_doi_or_non_target_accession": "PRJNA1128434",
+  "checked_at_utc": "2026-10-23T12:48:48.285091+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1128434&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"9\",\"retmax\":\"9\",\"retstart\":\"0\",\"idlist\":[\"33397107\",\"33397106\",\"33397105\",\"33397104\",\"33397103\",\"33397102\",\"33397101\",\"33397100\",\"33397099\"],\"translationset\":[],\"translationstack\":[{\"term\":\"PRJNA1128434[All Fields]\",\"field\":\"All Fields\",\"count\":\"9\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"PRJNA1128434[All Fields]\"}}\n"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=sra&id=33397107%2C33397106%2C33397105%2C33397104%2C33397103%2C33397102%2C33397101%2C33397100%2C33397099&retmode=xml",
+      "status": 200,
+      "response": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<!DOCTYPE eSummaryResult PUBLIC \"-//NLM//DTD esummary v1 20041029//EN\" \"https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd\">\n<eSummaryResult>\n<DocSum>\n\t<Id>33397107</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;sludge sample&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"66435336\" total_bases=\"20063471472\" total_size=\"5926929656\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1909288\" center_name=\"China Agricultural University\" contact_name=\"enzhen wang\" lab_name=\"College of Engineering\"/&gt;&lt;Experiment acc=\"SRX25059810\" ver=\"1\" status=\"public\" name=\"sludge sample\"/&gt;&lt;Study acc=\"SRP516173\" name=\"Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS21756644\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;C30-Met&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;OTHER&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;other&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1128434&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN42050717&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR29552641\" total_spots=\"66435336\" total_bases=\"20063471472\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2024/06/26</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2024/06/26</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>33397106</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;sludge sample&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"50284294\" total_bases=\"15185856788\" total_size=\"4499798374\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1909288\" center_name=\"China Agricultural University\" contact_name=\"enzhen wang\" lab_name=\"College of Engineering\"/&gt;&lt;Experiment acc=\"SRX25059809\" ver=\"1\" status=\"public\" name=\"sludge sample\"/&gt;&lt;Study acc=\"SRP516173\" name=\"Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS21756643\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B30-Met&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;OTHER&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;other&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1128434&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN42050716&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR29552642\" total_spots=\"50284294\" total_bases=\"15185856788\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2024/06/26</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2024/06/26</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>33397105</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;sludge sample&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"46938299\" total_bases=\"14175366298\" total_size=\"4189999535\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1909288\" center_name=\"China Agricultural University\" contact_name=\"enzhen wang\" lab_name=\"College of Engineering\"/&gt;&lt;Experiment acc=\"SRX25059808\" ver=\"1\" status=\"public\" name=\"sludge sample\"/&gt;&lt;Study acc=\"SRP516173\" name=\"Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS21756642\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;A30-Met&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;OTHER&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;other&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1128434&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN42050715&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR29552643\" total_spots=\"46938299\" total_bases=\"14175366298\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2024/06/26</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2024/06/26</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>33397104</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;sludge sample&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"92039\" total_bases=\"55407478\" total_size=\"20040114\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1909288\" center_name=\"China Agricultural University\" contact_name=\"enzhen wang\" lab_name=\"College of Engineering\"/&gt;&lt;Experiment acc=\"SRX25059807\" ver=\"1\" status=\"public\" name=\"sludge sample\"/&gt;&lt;Study acc=\"SRP516173\" name=\"Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS21756644\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;C30-Arc&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1128434&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN42050717&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR29552644\" total_spots=\"92039\" total_bases=\"55407478\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2024/06/26</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2024/06/26</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>33397103</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;sludge sample&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"89185\" total_bases=\"53689370\" total_size=\"18974960\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1909288\" center_name=\"China Agricultural University\" contact_name=\"enzhen wang\" lab_name=\"College of Engineering\"/&gt;&lt;Experiment acc=\"SRX25059806\" ver=\"1\" status=\"public\" name=\"sludge sample\"/&gt;&lt;Study acc=\"SRP516173\" name=\"Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS21756643\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B30-Arc&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1128434&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN42050716&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR29552645\" total_spots=\"89185\" total_bases=\"53689370\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2024/06/26</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2024/06/26</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>33397102</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;sludge sample&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"91508\" total_bases=\"55087816\" total_size=\"19766604\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1909288\" center_name=\"China Agricultural University\" contact_name=\"enzhen wang\" lab_name=\"College of Engineering\"/&gt;&lt;Experiment acc=\"SRX25059805\" ver=\"1\" status=\"public\" name=\"sludge sample\"/&gt;&lt;Study acc=\"SRP516173\" name=\"Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS21756642\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;A30-Arc&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1128434&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN42050715&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR29552646\" total_spots=\"91508\" total_bases=\"55087816\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2024/06/26</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2024/06/26</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>33397101</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;sludge sample&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"95900\" total_bases=\"57731800\" total_size=\"20672282\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1909288\" center_name=\"China Agricultural University\" contact_name=\"enzhen wang\" lab_name=\"College of Engineering\"/&gt;&lt;Experiment acc=\"SRX25059804\" ver=\"1\" status=\"public\" name=\"sludge sample\"/&gt;&lt;Study acc=\"SRP516173\" name=\"Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS21756644\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;C30-Bac&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1128434&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN42050717&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR29552647\" total_spots=\"95900\" total_bases=\"57731800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2024/06/26</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2024/06/26</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>33397100</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;sludge sample&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"91293\" total_bases=\"54958386\" total_size=\"19076867\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1909288\" center_name=\"China Agricultural University\" contact_name=\"enzhen wang\" lab_name=\"College of Engineering\"/&gt;&lt;Experiment acc=\"SRX25059803\" ver=\"1\" status=\"public\" name=\"sludge sample\"/&gt;&lt;Study acc=\"SRP516173\" name=\"Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS21756643\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B30-Bac&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1128434&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN42050716&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR29552648\" total_spots=\"91293\" total_bases=\"54958386\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2024/06/26</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2024/06/26</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>33397099</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;sludge sample&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"97271\" total_bases=\"58557142\" total_size=\"20827581\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1909288\" center_name=\"China Agricultural University\" contact_name=\"enzhen wang\" lab_name=\"College of Engineering\"/&gt;&lt;Experiment acc=\"SRX25059802\" ver=\"1\" status=\"public\" name=\"sludge sample\"/&gt;&lt;Study acc=\"SRP516173\" name=\"Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS21756642\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;A30-Bac&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1128434&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN42050715&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR29552649\" total_spots=\"97271\" total_bases=\"58557142\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2024/06/26</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2024/06/26</Item>\n</DocSum>\n\n</eSummaryResult>\n"
+    }
+  ],
+  "sra_search_count": "9",
+  "sra_summaries": [
+    {
+      "uid": "33397107",
+      "title": "sludge sample",
+      "library_strategy": "OTHER",
+      "library_source": "METAGENOMIC",
+      "library_selection": "other",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX25059810",
+            "ver": "1",
+            "status": "public",
+            "name": "sludge sample"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP516173",
+            "name": "Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS21756644",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR29552641\" total_spots=\"66435336\" total_bases=\"20063471472\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1128434",
+      "biosample": "SAMN42050717",
+      "library_name": "C30-Met",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "33397106",
+      "title": "sludge sample",
+      "library_strategy": "OTHER",
+      "library_source": "METAGENOMIC",
+      "library_selection": "other",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX25059809",
+            "ver": "1",
+            "status": "public",
+            "name": "sludge sample"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP516173",
+            "name": "Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS21756643",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR29552642\" total_spots=\"50284294\" total_bases=\"15185856788\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1128434",
+      "biosample": "SAMN42050716",
+      "library_name": "B30-Met",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "33397105",
+      "title": "sludge sample",
+      "library_strategy": "OTHER",
+      "library_source": "METAGENOMIC",
+      "library_selection": "other",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX25059808",
+            "ver": "1",
+            "status": "public",
+            "name": "sludge sample"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP516173",
+            "name": "Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS21756642",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR29552643\" total_spots=\"46938299\" total_bases=\"14175366298\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1128434",
+      "biosample": "SAMN42050715",
+      "library_name": "A30-Met",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "33397104",
+      "title": "sludge sample",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX25059807",
+            "ver": "1",
+            "status": "public",
+            "name": "sludge sample"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP516173",
+            "name": "Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS21756644",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR29552644\" total_spots=\"92039\" total_bases=\"55407478\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1128434",
+      "biosample": "SAMN42050717",
+      "library_name": "C30-Arc",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "33397103",
+      "title": "sludge sample",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX25059806",
+            "ver": "1",
+            "status": "public",
+            "name": "sludge sample"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP516173",
+            "name": "Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS21756643",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR29552645\" total_spots=\"89185\" total_bases=\"53689370\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1128434",
+      "biosample": "SAMN42050716",
+      "library_name": "B30-Arc",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "33397102",
+      "title": "sludge sample",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX25059805",
+            "ver": "1",
+            "status": "public",
+            "name": "sludge sample"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP516173",
+            "name": "Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS21756642",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR29552646\" total_spots=\"91508\" total_bases=\"55087816\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1128434",
+      "biosample": "SAMN42050715",
+      "library_name": "A30-Arc",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "33397101",
+      "title": "sludge sample",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX25059804",
+            "ver": "1",
+            "status": "public",
+            "name": "sludge sample"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP516173",
+            "name": "Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS21756644",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR29552647\" total_spots=\"95900\" total_bases=\"57731800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1128434",
+      "biosample": "SAMN42050717",
+      "library_name": "C30-Bac",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "33397100",
+      "title": "sludge sample",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX25059803",
+            "ver": "1",
+            "status": "public",
+            "name": "sludge sample"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP516173",
+            "name": "Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS21756643",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR29552648\" total_spots=\"91293\" total_bases=\"54958386\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1128434",
+      "biosample": "SAMN42050716",
+      "library_name": "B30-Bac",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "33397099",
+      "title": "sludge sample",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX25059802",
+            "ver": "1",
+            "status": "public",
+            "name": "sludge sample"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP516173",
+            "name": "Metagenomic reveals the metabolic mechanism of enhancing anaerobic digestion of lignocellulosic biomass mediated by CO2/O2-Nanobubble water"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS21756642",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR29552649\" total_spots=\"97271\" total_bases=\"58557142\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1128434",
+      "biosample": "SAMN42050715",
+      "library_name": "A30-Bac",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    }
+  ],
+  "limitation": "精确DOI检索无结果不能证明没有测序数据或未公开；16S项目不能因可访问而转为目标数据。"
+}

@@ -1,0 +1,145 @@
+{
+  "record_id": "R10163_project",
+  "exact_known_article_doi_or_non_target_accession": "PRJNA1086167",
+  "checked_at_utc": "2026-10-23T12:46:21.869279+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1086167&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"3\",\"retmax\":\"3\",\"retstart\":\"0\",\"idlist\":[\"32225583\",\"32225582\",\"32225581\"],\"translationset\":[],\"translationstack\":[{\"term\":\"PRJNA1086167[All Fields]\",\"field\":\"All Fields\",\"count\":\"3\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"PRJNA1086167[All Fields]\"}}\n"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=sra&id=32225583%2C32225582%2C32225581&retmode=xml",
+      "status": 200,
+      "response": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<!DOCTYPE eSummaryResult PUBLIC \"-//NLM//DTD esummary v1 20041029//EN\" \"https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd\">\n<eSummaryResult>\n<DocSum>\n\t<Id>32225583</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;aminobacterium&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"25791099\" total_bases=\"7788911898\" total_size=\"2500115196\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1822900\" center_name=\"Guangzhou University\" contact_name=\"ZHENGWEI WANG\" lab_name=\"School\"/&gt;&lt;Experiment acc=\"SRX23920386\" ver=\"1\" status=\"public\" name=\"aminobacterium\"/&gt;&lt;Study acc=\"SRP494832\" name=\"Microbial sequencing of sludge\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS20734009\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;sludge-protein&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;OTHER&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;other&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1086167&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN40370538&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR28311681\" total_spots=\"25791099\" total_bases=\"7788911898\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/05/30</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2024/03/12</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>32225582</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;aminobacterium&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"25199335\" total_bases=\"7610199170\" total_size=\"2426685332\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1822900\" center_name=\"Guangzhou University\" contact_name=\"ZHENGWEI WANG\" lab_name=\"School\"/&gt;&lt;Experiment acc=\"SRX23920385\" ver=\"1\" status=\"public\" name=\"aminobacterium\"/&gt;&lt;Study acc=\"SRP494832\" name=\"Microbial sequencing of sludge\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS20734008\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;sludge-starch&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;OTHER&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;other&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1086167&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN40370537&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR28311682\" total_spots=\"25199335\" total_bases=\"7610199170\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/05/30</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2024/03/12</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>32225581</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;aminobacterium&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"23651658\" total_bases=\"7142800716\" total_size=\"2316051446\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1822900\" center_name=\"Guangzhou University\" contact_name=\"ZHENGWEI WANG\" lab_name=\"School\"/&gt;&lt;Experiment acc=\"SRX23920384\" ver=\"1\" status=\"public\" name=\"aminobacterium\"/&gt;&lt;Study acc=\"SRP494832\" name=\"Microbial sequencing of sludge\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS20734010\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;sludge-blank&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;OTHER&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;other&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1086167&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN40370536&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR28311683\" total_spots=\"23651658\" total_bases=\"7142800716\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/05/30</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2024/03/12</Item>\n</DocSum>\n\n</eSummaryResult>\n"
+    }
+  ],
+  "sra_search_count": "3",
+  "sra_summaries": [
+    {
+      "uid": "32225583",
+      "title": "aminobacterium",
+      "library_strategy": "OTHER",
+      "library_source": "METAGENOMIC",
+      "library_selection": "other",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX23920386",
+            "ver": "1",
+            "status": "public",
+            "name": "aminobacterium"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP494832",
+            "name": "Microbial sequencing of sludge"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS20734009",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR28311681\" total_spots=\"25791099\" total_bases=\"7788911898\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1086167",
+      "biosample": "SAMN40370538",
+      "library_name": "sludge-protein",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "32225582",
+      "title": "aminobacterium",
+      "library_strategy": "OTHER",
+      "library_source": "METAGENOMIC",
+      "library_selection": "other",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX23920385",
+            "ver": "1",
+            "status": "public",
+            "name": "aminobacterium"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP494832",
+            "name": "Microbial sequencing of sludge"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS20734008",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR28311682\" total_spots=\"25199335\" total_bases=\"7610199170\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1086167",
+      "biosample": "SAMN40370537",
+      "library_name": "sludge-starch",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "32225581",
+      "title": "aminobacterium",
+      "library_strategy": "OTHER",
+      "library_source": "METAGENOMIC",
+      "library_selection": "other",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX23920384",
+            "ver": "1",
+            "status": "public",
+            "name": "aminobacterium"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP494832",
+            "name": "Microbial sequencing of sludge"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS20734010",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR28311683\" total_spots=\"23651658\" total_bases=\"7142800716\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1086167",
+      "biosample": "SAMN40370536",
+      "library_name": "sludge-blank",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    }
+  ],
+  "limitation": "精确DOI检索无结果不能证明没有测序数据或未公开；16S项目不能因可访问而转为目标数据。"
+}

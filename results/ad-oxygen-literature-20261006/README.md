@@ -1,13 +1,9 @@
-# B006进行中：50篇全文筛查
-
-已完成前20篇检查点，确认宏基因组2篇（R07202、R08462），继续余30篇。以当前JSON/Excel为准，以下B005说明为历史快照。
-
 # 当前新增：宏基因组/宏转录组分批全文筛查（2026-10-23）
 
-B005按GitHub最新进度从R04646至R06895筛查50篇研究，48完成、R05396/R06623待确认，确认目标测序0篇。累计核查115篇研究：112完成、3待确认（另含R01917）、226未开始；下一批从R06897开始，默认20篇。待确认、缺正文、综述及未开始不计阴性，不能据本批结果提前判断后续文章。
+B006按最新进度从R06897至R10605完成50研究：6篇确认宏基因组、44篇非目标，未确认宏转录组。本批无新增测序类型待确认。累计162完成、3待确认、176未开始；下一批起点R10673，默认20篇。6篇均新产生数据，4篇官方确认公开（4独立项目）、2篇仅泛指数据可索取，明确相关reads可索取0篇。数据映射/平台/策略差异另列，不用前批命中率推断后续。
 
-- **[同一份累计Excel](omics_screening/omics_screening_cumulative.xlsx)**、[50篇逐篇结论/方法与续跑](omics_screening/README.md)、[本批CSV](omics_screening/batch_B005_results_utf8.csv)、[累计JSON](omics_screening/screening_records.json)、[证据](omics_screening/evidence.json)、[统计](omics_screening/summary.json)、[独立远端核验](omics_screening/batches/B005/remote_readback.json)。
-- 本批新增89条证据、累计246条；50正文+19现有补充原件SHA绑定解析。R06611扫描稿OCR和原页复核。文中PRJNA701935/PRJNA354694及SRX2369824/25经NCBI核验为AMPLICON/PCR，均非目标组学，不混入项目计数；SI与官方样本命名差异另留待核查。原件、原分类、主库/JCR及main不改。前20篇保存检查点`cfe22f2`，全批与独立读回另见回执。
+- **[同一份累计Excel](omics_screening/omics_screening_cumulative.xlsx)**、[本批50篇逐篇结论/数据链接与限制](omics_screening/README.md)、[本批CSV](omics_screening/batch_B006_results_utf8.csv)、[累计JSON](omics_screening/screening_records.json)、[证据](omics_screening/evidence.json)、[项目与样本](omics_screening/data_projects_samples.json)、[统计](omics_screening/summary.json)、[独立远端核验](omics_screening/batches/B006/remote_readback.json)。
+- 新增68条证据、累计314条；50正文+27补充原件SHA核验，ZIP派生不重复计。目标R07202、R08462、R09236、R10163、R10492、R10605；4个公开项目PRJNA565588、PRJNA1013451、PRJNA1086167、PRJNA1128434。混合项目的16S与目标run分开，OTHER字段/平台/处理映射差异保留。原件、原分类、主库/JCR及main不改。前20篇检查点e22d1b2，完整批次及核验提交见回执。
 
 # 本地文献合并与JCR统计（2026-10-23）
 

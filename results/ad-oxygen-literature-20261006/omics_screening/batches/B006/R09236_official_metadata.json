@@ -1,0 +1,883 @@
+{
+  "record_id": "R09236",
+  "exact_known_article_doi_or_non_target_accession": "PRJNA1013451",
+  "checked_at_utc": "2026-10-23T12:42:14.556313+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1013451&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"21\",\"retmax\":\"21\",\"retstart\":\"0\",\"idlist\":[\"29298839\",\"29298838\",\"29298837\",\"29298836\",\"29298835\",\"29298834\",\"29298833\",\"29298832\",\"29298831\",\"29298830\",\"29298829\",\"29298828\",\"29298827\",\"29298826\",\"29298825\",\"29298824\",\"29298823\",\"29298822\",\"29298821\",\"29298820\",\"29298819\"],\"translationset\":[],\"translationstack\":[{\"term\":\"PRJNA1013451[All Fields]\",\"field\":\"All Fields\",\"count\":\"21\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"PRJNA1013451[All Fields]\"}}\n"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=sra&id=29298839%2C29298838%2C29298837%2C29298836%2C29298835%2C29298834%2C29298833%2C29298832%2C29298831%2C29298830%2C29298829%2C29298828%2C29298827%2C29298826%2C29298825%2C29298824%2C29298823%2C29298822%2C29298821%2C29298820%2C29298819&retmode=xml",
+      "status": 200,
+      "response": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<!DOCTYPE eSummaryResult PUBLIC \"-//NLM//DTD esummary v1 20041029//EN\" \"https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd\">\n<eSummaryResult>\n<DocSum>\n\t<Id>29298839</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter digestate: air week6&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"25208486\" total_bases=\"7612962772\" total_size=\"2603090725\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645267\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter digestate: air week6\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813877\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr8971_10&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298560&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925545\" total_spots=\"25208486\" total_bases=\"7612962772\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298838</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter digestate: air &amp;amp; sound week42&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"26108505\" total_bases=\"7884768510\" total_size=\"2707152366\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645266\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter digestate: air &amp;amp; sound week42\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813875\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr8971_9&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298559&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925546\" total_spots=\"26108505\" total_bases=\"7884768510\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298837</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter digestate: air &amp;amp; sound week23&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"21634604\" total_bases=\"6533650408\" total_size=\"2324424012\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645265\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter digestate: air &amp;amp; sound week23\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813872\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr8971_8&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298558&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925547\" total_spots=\"21634604\" total_bases=\"6533650408\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298836</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter digestate: air &amp;amp; sound week6&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"25570478\" total_bases=\"7722284356\" total_size=\"2694464993\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645264\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter digestate: air &amp;amp; sound week6\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813884\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr8971_7&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298557&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925548\" total_spots=\"25570478\" total_bases=\"7722284356\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298835</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter digestate: sound week42&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"20751293\" total_bases=\"6266890486\" total_size=\"2125557945\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645263\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter digestate: sound week42\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813870\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr8971_6&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298556&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925549\" total_spots=\"20751293\" total_bases=\"6266890486\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298834</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter digestate: sound week23&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"19763571\" total_bases=\"5968598442\" total_size=\"2077606404\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645262\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter digestate: sound week23\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813871\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr8971_5&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298555&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925550\" total_spots=\"19763571\" total_bases=\"5968598442\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298833</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter digestate: sound week6&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"23127774\" total_bases=\"6984587748\" total_size=\"2371153098\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645261\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter digestate: sound week6\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813866\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr8971_4&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298554&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925551\" total_spots=\"23127774\" total_bases=\"6984587748\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298832</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of initial poultry litter mix: sound week6&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"12311561\" total_bases=\"3718091422\" total_size=\"1180264233\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645260\" ver=\"1\" status=\"public\" name=\"metagenome of initial poultry litter mix: sound week6\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813879\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr12741_3&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298571&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925552\" total_spots=\"12311561\" total_bases=\"3718091422\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298831</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter digestate: control week42&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"14538966\" total_bases=\"4390767732\" total_size=\"1522317935\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645259\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter digestate: control week42\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813876\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr8971_3&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298553&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925553\" total_spots=\"14538966\" total_bases=\"4390767732\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298830</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of initial poultry litter mix: control week0&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"17310282\" total_bases=\"5227705164\" total_size=\"1636747428\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645258\" ver=\"1\" status=\"public\" name=\"metagenome of initial poultry litter mix: control week0\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813874\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr12741_2&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298570&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925554\" total_spots=\"17310282\" total_bases=\"5227705164\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298829</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter feed: week0&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"25447354\" total_bases=\"7685100908\" total_size=\"2408275144\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645257\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter feed: week0\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813873\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr12741_1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298569&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925555\" total_spots=\"25447354\" total_bases=\"7685100908\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298828</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter digestate: aerated digester&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"9751286\" total_bases=\"2944888372\" total_size=\"922515031\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645256\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter digestate: aerated digester\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813868\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr12237_6&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298568&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925556\" total_spots=\"9751286\" total_bases=\"2944888372\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298827</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of wood disk wipe: micro-aerated digester&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"9813141\" total_bases=\"2963568582\" total_size=\"951086490\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645255\" ver=\"1\" status=\"public\" name=\"metagenome of wood disk wipe: micro-aerated digester\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813862\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr12237_5&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298567&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925557\" total_spots=\"9813141\" total_bases=\"2963568582\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298826</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of wood disk wipe: anaerobic digester&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"16247040\" total_bases=\"4906606080\" total_size=\"1548143322\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645254\" ver=\"1\" status=\"public\" name=\"metagenome of wood disk wipe: anaerobic digester\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813859\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr12237_4&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298566&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925558\" total_spots=\"16247040\" total_bases=\"4906606080\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298825</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter feed: week42&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"43725329\" total_bases=\"13205049358\" total_size=\"4158317508\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645253\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter feed: week42\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813869\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr12237_3&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298565&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925559\" total_spots=\"43725329\" total_bases=\"13205049358\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298824</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter feed: week23&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"40952893\" total_bases=\"12367773686\" total_size=\"3891603607\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645252\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter feed: week23\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813865\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr12237_2&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298564&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925560\" total_spots=\"40952893\" total_bases=\"12367773686\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298823</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter feed: week6&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"14464855\" total_bases=\"4368386210\" total_size=\"1358874767\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645251\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter feed: week6\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813864\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr12237_1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298563&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925561\" total_spots=\"14464855\" total_bases=\"4368386210\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298822</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter digestate: air week42&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"22143311\" total_bases=\"6687279922\" total_size=\"2324205561\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645250\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter digestate: air week42\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813860\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr8971_12&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298562&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925562\" total_spots=\"22143311\" total_bases=\"6687279922\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298821</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter digestate: air week23&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"7970507\" total_bases=\"2407093114\" total_size=\"818630905\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645249\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter digestate: air week23\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813863\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr8971_11&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298561&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925563\" total_spots=\"7970507\" total_bases=\"2407093114\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298820</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter digestate: control week23&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"18427496\" total_bases=\"5565103792\" total_size=\"1929563449\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645248\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter digestate: control week23\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813861\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr8971_2&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298552&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925564\" total_spots=\"18427496\" total_bases=\"5565103792\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>29298819</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenome of poultry litter digestate: control week6&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"18441363\" total_bases=\"5569291626\" total_size=\"1896476310\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1706018\" center_name=\"USDA-Agricultural Research Service\" contact_name=\"Getahun Agga\" lab_name=\"Food Animal Environmental Systems Research Unit\"/&gt;&lt;Experiment acc=\"SRX21645247\" ver=\"1\" status=\"public\" name=\"metagenome of poultry litter digestate: control week6\"/&gt;&lt;Study acc=\"SRP458764\" name=\"Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS18813867\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;zr8971_1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1013451&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN37298551&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR25925565\" total_spots=\"18441363\" total_bases=\"5569291626\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2023/09/29</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2023/09/06</Item>\n</DocSum>\n\n</eSummaryResult>\n"
+    }
+  ],
+  "sra_search_count": "21",
+  "sra_summaries": [
+    {
+      "uid": "29298839",
+      "title": "metagenome of poultry litter digestate: air week6",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645267",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter digestate: air week6"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813877",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925545\" total_spots=\"25208486\" total_bases=\"7612962772\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298560",
+      "library_name": "zr8971_10",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298838",
+      "title": "metagenome of poultry litter digestate: air & sound week42",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645266",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter digestate: air & sound week42"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813875",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925546\" total_spots=\"26108505\" total_bases=\"7884768510\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298559",
+      "library_name": "zr8971_9",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298837",
+      "title": "metagenome of poultry litter digestate: air & sound week23",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645265",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter digestate: air & sound week23"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813872",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925547\" total_spots=\"21634604\" total_bases=\"6533650408\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298558",
+      "library_name": "zr8971_8",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298836",
+      "title": "metagenome of poultry litter digestate: air & sound week6",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645264",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter digestate: air & sound week6"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813884",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925548\" total_spots=\"25570478\" total_bases=\"7722284356\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298557",
+      "library_name": "zr8971_7",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298835",
+      "title": "metagenome of poultry litter digestate: sound week42",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645263",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter digestate: sound week42"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813870",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925549\" total_spots=\"20751293\" total_bases=\"6266890486\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298556",
+      "library_name": "zr8971_6",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298834",
+      "title": "metagenome of poultry litter digestate: sound week23",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645262",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter digestate: sound week23"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813871",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925550\" total_spots=\"19763571\" total_bases=\"5968598442\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298555",
+      "library_name": "zr8971_5",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298833",
+      "title": "metagenome of poultry litter digestate: sound week6",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645261",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter digestate: sound week6"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813866",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925551\" total_spots=\"23127774\" total_bases=\"6984587748\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298554",
+      "library_name": "zr8971_4",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298832",
+      "title": "metagenome of initial poultry litter mix: sound week6",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645260",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of initial poultry litter mix: sound week6"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813879",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925552\" total_spots=\"12311561\" total_bases=\"3718091422\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298571",
+      "library_name": "zr12741_3",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298831",
+      "title": "metagenome of poultry litter digestate: control week42",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645259",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter digestate: control week42"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813876",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925553\" total_spots=\"14538966\" total_bases=\"4390767732\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298553",
+      "library_name": "zr8971_3",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298830",
+      "title": "metagenome of initial poultry litter mix: control week0",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645258",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of initial poultry litter mix: control week0"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813874",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925554\" total_spots=\"17310282\" total_bases=\"5227705164\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298570",
+      "library_name": "zr12741_2",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298829",
+      "title": "metagenome of poultry litter feed: week0",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645257",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter feed: week0"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813873",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925555\" total_spots=\"25447354\" total_bases=\"7685100908\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298569",
+      "library_name": "zr12741_1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298828",
+      "title": "metagenome of poultry litter digestate: aerated digester",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645256",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter digestate: aerated digester"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813868",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925556\" total_spots=\"9751286\" total_bases=\"2944888372\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298568",
+      "library_name": "zr12237_6",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298827",
+      "title": "metagenome of wood disk wipe: micro-aerated digester",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645255",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of wood disk wipe: micro-aerated digester"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813862",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925557\" total_spots=\"9813141\" total_bases=\"2963568582\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298567",
+      "library_name": "zr12237_5",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298826",
+      "title": "metagenome of wood disk wipe: anaerobic digester",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645254",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of wood disk wipe: anaerobic digester"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813859",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925558\" total_spots=\"16247040\" total_bases=\"4906606080\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298566",
+      "library_name": "zr12237_4",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298825",
+      "title": "metagenome of poultry litter feed: week42",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645253",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter feed: week42"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813869",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925559\" total_spots=\"43725329\" total_bases=\"13205049358\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298565",
+      "library_name": "zr12237_3",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298824",
+      "title": "metagenome of poultry litter feed: week23",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645252",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter feed: week23"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813865",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925560\" total_spots=\"40952893\" total_bases=\"12367773686\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298564",
+      "library_name": "zr12237_2",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298823",
+      "title": "metagenome of poultry litter feed: week6",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645251",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter feed: week6"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813864",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925561\" total_spots=\"14464855\" total_bases=\"4368386210\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298563",
+      "library_name": "zr12237_1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298822",
+      "title": "metagenome of poultry litter digestate: air week42",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645250",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter digestate: air week42"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813860",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925562\" total_spots=\"22143311\" total_bases=\"6687279922\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298562",
+      "library_name": "zr8971_12",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298821",
+      "title": "metagenome of poultry litter digestate: air week23",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645249",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter digestate: air week23"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813863",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925563\" total_spots=\"7970507\" total_bases=\"2407093114\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298561",
+      "library_name": "zr8971_11",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298820",
+      "title": "metagenome of poultry litter digestate: control week23",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645248",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter digestate: control week23"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813861",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925564\" total_spots=\"18427496\" total_bases=\"5565103792\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298552",
+      "library_name": "zr8971_2",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "29298819",
+      "title": "metagenome of poultry litter digestate: control week6",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX21645247",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenome of poultry litter digestate: control week6"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP458764",
+            "name": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS18813867",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR25925565\" total_spots=\"18441363\" total_bases=\"5569291626\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1013451",
+      "biosample": "SAMN37298551",
+      "library_name": "zr8971_1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "anaerobic digester metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    }
+  ],
+  "limitation": "精确DOI检索无结果不能证明没有测序数据或未公开；16S项目不能因可访问而转为目标数据。"
+}

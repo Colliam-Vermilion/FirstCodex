@@ -1,0 +1,678 @@
+{
+  "record_id": "R07202_project",
+  "exact_known_article_doi_or_non_target_accession": "PRJNA565588",
+  "checked_at_utc": "2026-10-23T12:54:06.745180+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA565588&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"16\",\"retmax\":\"16\",\"retstart\":\"0\",\"idlist\":[\"17984373\",\"17984372\",\"9704549\",\"9704548\",\"9037035\",\"9037034\",\"9037033\",\"9037032\",\"9037031\",\"9037030\",\"9035311\",\"9035310\",\"9035309\",\"9035308\",\"9035307\",\"9035306\"],\"translationset\":[],\"translationstack\":[{\"term\":\"PRJNA565588[All Fields]\",\"field\":\"All Fields\",\"count\":\"16\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"PRJNA565588[All Fields]\"}}\n"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=sra&id=17984373%2C17984372%2C9704549%2C9704548%2C9037035%2C9037034%2C9037033%2C9037032%2C9037031%2C9037030%2C9035311%2C9035310%2C9035309%2C9035308%2C9035307%2C9035306&retmode=xml",
+      "status": 200,
+      "response": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<!DOCTYPE eSummaryResult PUBLIC \"-//NLM//DTD esummary v1 20041029//EN\" \"https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd\">\n<eSummaryResult>\n<DocSum>\n\t<Id>17984373</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;AD_Rep2&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"147167071\" total_bases=\"44150121300\" total_size=\"18115121505\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1331660\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX13171652\" ver=\"1\" status=\"public\" name=\"AD_Rep2\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS11101582\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;A150&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;RANDOM&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN23297126&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR16980862\" total_spots=\"147167071\" total_bases=\"44150121300\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/06/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/11/19</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>17984372</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;AD_Rep1&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"145668356\" total_bases=\"43700506800\" total_size=\"18773822951\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1331660\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX13171651\" ver=\"1\" status=\"public\" name=\"AD_Rep1\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS11101581\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B79&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;RANDOM&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN23297125&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR16980863\" total_spots=\"145668356\" total_bases=\"43700506800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/06/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/11/19</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>9704549</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenomic seq&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"58478443\" total_bases=\"17543532900\" total_size=\"6884232241\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1014576\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX7418073\" ver=\"1\" status=\"public\" name=\"metagenomic seq\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS5864833\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;A190_meta&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;RANDOM&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;SINGLE/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN13634954&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR10742653\" total_spots=\"58478443\" total_bases=\"17543532900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2020/12/31</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2019/12/19</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>9704548</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;metagenomic seq&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"56035000\" total_bases=\"16810500000\" total_size=\"6599914593\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1014576\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX7418072\" ver=\"1\" status=\"public\" name=\"metagenomic seq\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS5864832\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B147_meta&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;WGS&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;RANDOM&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;SINGLE/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN13634953&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR10742654\" total_spots=\"56035000\" total_bases=\"16810500000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2020/12/31</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2019/12/19</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>9037035</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;Bacterial 16S rRNA Seqs of anaerobic digester&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"29658\" total_bases=\"14829000\" total_size=\"8829909\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA962334\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX6866299\" ver=\"1\" status=\"public\" name=\"Bacterial 16S rRNA Seqs of anaerobic digester\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1869227\" ScientificName=\"bacterium\"/&gt;&lt;Sample acc=\"SRS5403737\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;Bac_R2_A150_1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN12752318&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR10138216\" total_spots=\"29658\" total_bases=\"14829000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2019/09/19</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2019/09/18</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>9037034</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;Bacterial 16S rRNA Seqs of micro-aerobic digester&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"45490\" total_bases=\"18193750\" total_size=\"8454512\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA962334\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX6866298\" ver=\"1\" status=\"public\" name=\"Bacterial 16S rRNA Seqs of micro-aerobic digester\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1869227\" ScientificName=\"bacterium\"/&gt;&lt;Sample acc=\"SRS5403736\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;Bac_R1_A149_1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN12752317&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR10138217\" total_spots=\"45490\" total_bases=\"18193750\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2019/09/18</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2019/09/18</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>9037033</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;Bacterial 16S rRNA Seqs of micro-aerobic digester&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"30840\" total_bases=\"15420000\" total_size=\"7463908\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA962334\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX6866297\" ver=\"1\" status=\"public\" name=\"Bacterial 16S rRNA Seqs of micro-aerobic digester\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1869227\" ScientificName=\"bacterium\"/&gt;&lt;Sample acc=\"SRS5403735\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;Bac_R3_A108_1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN12752321&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR10138218\" total_spots=\"30840\" total_bases=\"15420000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2019/09/18</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2019/09/18</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>9037032</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;Bacterial 16S rRNA Seqs of anaerobic digester&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"49150\" total_bases=\"19658299\" total_size=\"9371340\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA962334\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX6866296\" ver=\"1\" status=\"public\" name=\"Bacterial 16S rRNA Seqs of anaerobic digester\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1869227\" ScientificName=\"bacterium\"/&gt;&lt;Sample acc=\"SRS5403734\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;Bac_R1_A79_1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN12752316&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR10138219\" total_spots=\"49150\" total_bases=\"19658299\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2019/09/18</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2019/09/18</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>9037031</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;Bacterial 16S rRNA Seqs of anaerobic digester&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"31020\" total_bases=\"15510000\" total_size=\"7202281\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA962334\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX6866295\" ver=\"1\" status=\"public\" name=\"Bacterial 16S rRNA Seqs of anaerobic digester\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1869227\" ScientificName=\"bacterium\"/&gt;&lt;Sample acc=\"SRS5403733\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;Bac_R3_A64_1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN12752320&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR10138220\" total_spots=\"31020\" total_bases=\"15510000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2019/09/18</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2019/09/18</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>9037030</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;Bacterial 16S rRNA Seqs of micro-aerobic digester&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"20873\" total_bases=\"10436500\" total_size=\"6760982\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA962334\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX6866294\" ver=\"1\" status=\"public\" name=\"Bacterial 16S rRNA Seqs of micro-aerobic digester\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1869227\" ScientificName=\"bacterium\"/&gt;&lt;Sample acc=\"SRS5403732\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;Bac_R2_A192_1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN12752319&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR10138221\" total_spots=\"20873\" total_bases=\"10436500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2019/09/18</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2019/09/18</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>9035311</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;McrA gene in anaerobic digester&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"80598\" total_bases=\"47875212\" total_size=\"22730750\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA962336\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX6864615\" ver=\"1\" status=\"public\" name=\"McrA gene in anaerobic digester\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1906665\" ScientificName=\"archaeon\"/&gt;&lt;Sample acc=\"SRS5402182\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;McrA_R3_A64_1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN12752327&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR10136525\" total_spots=\"80598\" total_bases=\"47875212\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2019/09/18</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2019/09/18</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>9035310</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;McrA gene in micro-aerobic digester&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"92722\" total_bases=\"55076868\" total_size=\"27611421\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA962336\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX6864614\" ver=\"1\" status=\"public\" name=\"McrA gene in micro-aerobic digester\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1906665\" ScientificName=\"archaeon\"/&gt;&lt;Sample acc=\"SRS5402181\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;McrA_R2_A192_1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN12752326&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR10136526\" total_spots=\"92722\" total_bases=\"55076868\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2019/09/18</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2019/09/18</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>9035309</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;McrA gene in anaerobic digester&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"28014\" total_bases=\"16640316\" total_size=\"7999783\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA962336\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX6864613\" ver=\"1\" status=\"public\" name=\"McrA gene in anaerobic digester\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1906665\" ScientificName=\"archaeon\"/&gt;&lt;Sample acc=\"SRS5402180\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;McrA_R2_A150_1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN12752325&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR10136527\" total_spots=\"28014\" total_bases=\"16640316\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2019/09/18</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2019/09/18</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>9035308</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;McrA gene in micro-aerobic digester&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"91149\" total_bases=\"53869059\" total_size=\"27554260\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA962336\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX6864612\" ver=\"1\" status=\"public\" name=\"McrA gene in micro-aerobic digester\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1906665\" ScientificName=\"archaeon\"/&gt;&lt;Sample acc=\"SRS5402179\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;McrA_R1_A149_1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN12752324&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR10136528\" total_spots=\"91149\" total_bases=\"53869059\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2019/09/18</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2019/09/18</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>9035307</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;McrA gene in micro-aerobic digester&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"82037\" total_bases=\"48565904\" total_size=\"23360614\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA962336\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX6864611\" ver=\"1\" status=\"public\" name=\"McrA gene in micro-aerobic digester\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1906665\" ScientificName=\"archaeon\"/&gt;&lt;Sample acc=\"SRS5402178\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;McrA_R3_A108_1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN12752328&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR10136529\" total_spots=\"82037\" total_bases=\"48565904\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2019/09/18</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2019/09/18</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>9035306</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;McrA gene in anaerobic digester&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"27960\" total_bases=\"16580280\" total_size=\"7977430\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA962336\" center_name=\"Imperial College London\" contact_name=\"Zhuoying WU\" lab_name=\"Department of Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX6864610\" ver=\"1\" status=\"public\" name=\"McrA gene in anaerobic digester\"/&gt;&lt;Study acc=\"SRP222288\" name=\"anaerobic digestion\"/&gt;&lt;Organism taxid=\"1906665\" ScientificName=\"archaeon\"/&gt;&lt;Sample acc=\"SRS5402177\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;McrA_R1_A79_1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA565588&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN12752323&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR10136530\" total_spots=\"27960\" total_bases=\"16580280\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2019/09/18</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2019/09/18</Item>\n</DocSum>\n\n</eSummaryResult>\n"
+    }
+  ],
+  "sra_search_count": "16",
+  "sra_summaries": [
+    {
+      "uid": "17984373",
+      "title": "AD_Rep2",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "RANDOM",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX13171652",
+            "ver": "1",
+            "status": "public",
+            "name": "AD_Rep2"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS11101582",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR16980862\" total_spots=\"147167071\" total_bases=\"44150121300\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN23297126",
+      "library_name": "A150",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "bioreactor metagenome",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "17984372",
+      "title": "AD_Rep1",
+      "library_strategy": "WGS",
+      "library_source": "METAGENOMIC",
+      "library_selection": "RANDOM",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX13171651",
+            "ver": "1",
+            "status": "public",
+            "name": "AD_Rep1"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS11101581",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR16980863\" total_spots=\"145668356\" total_bases=\"43700506800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN23297125",
+      "library_name": "B79",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "bioreactor metagenome",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "9704549",
+      "title": "metagenomic seq",
+      "library_strategy": "WGS",
+      "library_source": "GENOMIC",
+      "library_selection": "RANDOM",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX7418073",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenomic seq"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS5864833",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR10742653\" total_spots=\"58478443\" total_bases=\"17543532900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN13634954",
+      "library_name": "A190_meta",
+      "library_layout": [
+        "SINGLE"
+      ],
+      "scientific_name": "bioreactor metagenome",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "9704548",
+      "title": "metagenomic seq",
+      "library_strategy": "WGS",
+      "library_source": "GENOMIC",
+      "library_selection": "RANDOM",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX7418072",
+            "ver": "1",
+            "status": "public",
+            "name": "metagenomic seq"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS5864832",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR10742654\" total_spots=\"56035000\" total_bases=\"16810500000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN13634953",
+      "library_name": "B147_meta",
+      "library_layout": [
+        "SINGLE"
+      ],
+      "scientific_name": "bioreactor metagenome",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "9037035",
+      "title": "Bacterial 16S rRNA Seqs of anaerobic digester",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX6866299",
+            "ver": "1",
+            "status": "public",
+            "name": "Bacterial 16S rRNA Seqs of anaerobic digester"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS5403737",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR10138216\" total_spots=\"29658\" total_bases=\"14829000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN12752318",
+      "library_name": "Bac_R2_A150_1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "bacterium",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "9037034",
+      "title": "Bacterial 16S rRNA Seqs of micro-aerobic digester",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX6866298",
+            "ver": "1",
+            "status": "public",
+            "name": "Bacterial 16S rRNA Seqs of micro-aerobic digester"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS5403736",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR10138217\" total_spots=\"45490\" total_bases=\"18193750\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN12752317",
+      "library_name": "Bac_R1_A149_1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "bacterium",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "9037033",
+      "title": "Bacterial 16S rRNA Seqs of micro-aerobic digester",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX6866297",
+            "ver": "1",
+            "status": "public",
+            "name": "Bacterial 16S rRNA Seqs of micro-aerobic digester"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS5403735",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR10138218\" total_spots=\"30840\" total_bases=\"15420000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN12752321",
+      "library_name": "Bac_R3_A108_1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "bacterium",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "9037032",
+      "title": "Bacterial 16S rRNA Seqs of anaerobic digester",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX6866296",
+            "ver": "1",
+            "status": "public",
+            "name": "Bacterial 16S rRNA Seqs of anaerobic digester"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS5403734",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR10138219\" total_spots=\"49150\" total_bases=\"19658299\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN12752316",
+      "library_name": "Bac_R1_A79_1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "bacterium",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "9037031",
+      "title": "Bacterial 16S rRNA Seqs of anaerobic digester",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX6866295",
+            "ver": "1",
+            "status": "public",
+            "name": "Bacterial 16S rRNA Seqs of anaerobic digester"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS5403733",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR10138220\" total_spots=\"31020\" total_bases=\"15510000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN12752320",
+      "library_name": "Bac_R3_A64_1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "bacterium",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "9037030",
+      "title": "Bacterial 16S rRNA Seqs of micro-aerobic digester",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX6866294",
+            "ver": "1",
+            "status": "public",
+            "name": "Bacterial 16S rRNA Seqs of micro-aerobic digester"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS5403732",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR10138221\" total_spots=\"20873\" total_bases=\"10436500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN12752319",
+      "library_name": "Bac_R2_A192_1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "bacterium",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "9035311",
+      "title": "McrA gene in anaerobic digester",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX6864615",
+            "ver": "1",
+            "status": "public",
+            "name": "McrA gene in anaerobic digester"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS5402182",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR10136525\" total_spots=\"80598\" total_bases=\"47875212\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN12752327",
+      "library_name": "McrA_R3_A64_1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "archaeon",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "9035310",
+      "title": "McrA gene in micro-aerobic digester",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX6864614",
+            "ver": "1",
+            "status": "public",
+            "name": "McrA gene in micro-aerobic digester"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS5402181",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR10136526\" total_spots=\"92722\" total_bases=\"55076868\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN12752326",
+      "library_name": "McrA_R2_A192_1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "archaeon",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "9035309",
+      "title": "McrA gene in anaerobic digester",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX6864613",
+            "ver": "1",
+            "status": "public",
+            "name": "McrA gene in anaerobic digester"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS5402180",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR10136527\" total_spots=\"28014\" total_bases=\"16640316\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN12752325",
+      "library_name": "McrA_R2_A150_1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "archaeon",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "9035308",
+      "title": "McrA gene in micro-aerobic digester",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX6864612",
+            "ver": "1",
+            "status": "public",
+            "name": "McrA gene in micro-aerobic digester"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS5402179",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR10136528\" total_spots=\"91149\" total_bases=\"53869059\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN12752324",
+      "library_name": "McrA_R1_A149_1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "archaeon",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "9035307",
+      "title": "McrA gene in micro-aerobic digester",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX6864611",
+            "ver": "1",
+            "status": "public",
+            "name": "McrA gene in micro-aerobic digester"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS5402178",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR10136529\" total_spots=\"82037\" total_bases=\"48565904\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN12752328",
+      "library_name": "McrA_R3_A108_1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "archaeon",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "9035306",
+      "title": "McrA gene in anaerobic digester",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX6864610",
+            "ver": "1",
+            "status": "public",
+            "name": "McrA gene in anaerobic digester"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP222288",
+            "name": "anaerobic digestion"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS5402177",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR10136530\" total_spots=\"27960\" total_bases=\"16580280\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA565588",
+      "biosample": "SAMN12752323",
+      "library_name": "McrA_R1_A79_1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "archaeon",
+      "platform": "Illumina HiSeq 2000"
+    }
+  ],
+  "limitation": "精确DOI检索无结果不能证明没有测序数据或未公开；16S项目不能因可访问而转为目标数据。"
+}

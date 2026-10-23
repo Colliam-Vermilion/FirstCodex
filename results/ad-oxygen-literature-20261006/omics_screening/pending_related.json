@@ -1134,5 +1134,156 @@
     "issue_type": "目标宏基因组数据获取待明确",
     "reason": "未找到编号，PDF12只写Data will be made available on request；是否包含原始宏基因组reads不明。",
     "action": "列入目标研究候选；不标公开下载，不代联系作者。"
+  },
+  {
+    "record_id": "R09230",
+    "path": "original_files/R09230/fulltext/fulltext__published__14fc742c31a44270.pdf",
+    "sha256": "14fc742c31a4427038724f166cbb3398b3d069901774b81e55e3171dc379b600",
+    "batch_id": "B006",
+    "issue_type": "非目标扩增子BioProject",
+    "raw_accession": "PRJNA883421",
+    "normalized_accession": "PRJNA883421",
+    "accession_level": "BioProject项目",
+    "database": "NCBI BioProject/SRA",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA883421",
+    "pdf_pages": [
+      3
+    ],
+    "reason": "正文§2.5明确PCR amplification和sequencing of the amplicons；目标组学排除。",
+    "action": "官方策略进一步确认非目标扩增子，不计目标项目。",
+    "public_status": "官方20实验均公开AMPLICON",
+    "library_strategy": "AMPLICON",
+    "official_checked_at": "2026-10-23T12:42:14.556705+00:00"
+  },
+  {
+    "record_id": "R09236",
+    "path": "original_files/R09236/fulltext/fulltext__published__7891c46f856f19ac.pdf",
+    "sha256": "7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9",
+    "batch_id": "B006",
+    "issue_type": "附加样本标签差异",
+    "raw_accession": "SAMN37298571",
+    "accession_level": "BioSample样本",
+    "reason": "SI Species!AE22:AF22列FAESRU.JL.21 Sound Week0，官方题名为initial poultry litter mix: sound week6；不将此额外样本并入核心12组推断。",
+    "action": "保留原文/附件/官方三方标记，具体时间点待复核。"
+  },
+  {
+    "record_id": "R09568",
+    "path": "original_files/R09568/fulltext/fulltext__published__393322098ea47587.pdf",
+    "sha256": "393322098ea4758738b0e338c3e0019bd8618611d25a41cf3535d9542a6c8d16",
+    "batch_id": "B006",
+    "issue_type": "正文提及SI但当前无原件",
+    "reason": "Annex A膜/配方，B qPCR引物，C/D结果；当前无独立SI。",
+    "action": "保留缺口，不追下载；正文分析类型明确。"
+  },
+  {
+    "record_id": "R09618",
+    "path": "original_files/R09618/fulltext/fulltext__published__4c1c2a21a6964433.pdf",
+    "sha256": "4c1c2a21a69644331c03b29f4cef800ba98d3ca883561f37f102ea268cd454ba",
+    "batch_id": "B006",
+    "issue_type": "非目标16S BioProject",
+    "raw_accession": "PRJNA935990",
+    "normalized_accession": "PRJNA935990",
+    "accession_level": "BioProject项目",
+    "database": "NCBI BioProject/SRA",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA935990",
+    "pdf_pages": [
+      3
+    ],
+    "reason": "正文§2.6明确编号对应细菌/古菌16S标记基因。",
+    "action": "保留非目标编号，不计目标项目。"
+  },
+  {
+    "record_id": "R10163",
+    "path": "original_files/R10163/fulltext/fulltext__published__1e165f6b6e3dc27b.pdf",
+    "sha256": "1e165f6b6e3dc27bc22e89751f51737b0979aa2b6a4c000db02641ab59e7b37b",
+    "batch_id": "B006",
+    "issue_type": "公开目标数据元数据差异",
+    "raw_accession": "SRR28311681；SRR28311682；SRR28311683",
+    "accession_level": "SRA run",
+    "reason": "论文Blank/Starch/Peptone分别对应681/682/683；官方文库名protein/starch/blank，681和683处理标签相反。官方OTHER/MiSeq，论文DNA-Seq/NovaSeq或Hiseq。第三run单独查询曾429，经同项目元数据补核实公开。",
+    "action": "宏基因组文章与公开状态确认；实际组别/平台/策略元数据需复核，不凭顺序重标样本。"
+  },
+  {
+    "record_id": "R10492",
+    "path": "original_files/R10492/fulltext/fulltext__accepted__3e5bb123d9d9d4ad.pdf",
+    "sha256": "3e5bb123d9d9d4add19c728f272d23055ccb980cf99cb60f516f7c2567ccee11",
+    "batch_id": "B006",
+    "issue_type": "目标项目中混合测序及处理映射待核实",
+    "raw_accession": "PRJNA1128434",
+    "accession_level": "BioProject项目",
+    "reason": "官方含A30/B30/C30的Met（OTHER/HiSeq2000）及Arc/Bac（AMPLICON/MiSeq）各3个；不能将6个16S run当目标，也不能依字母顺序给A/B/C分配DW/CO2NW/O2NW。论文宏基因组写NovaSeq，官方HiSeq2000。",
+    "action": "分实验/run保留策略与官方文库名，处理映射/平台差异独立复核。"
+  },
+  {
+    "record_id": "R10492",
+    "path": "original_files/R10492/fulltext/fulltext__accepted__3e5bb123d9d9d4ad.pdf",
+    "sha256": "3e5bb123d9d9d4add19c728f272d23055ccb980cf99cb60f516f7c2567ccee11",
+    "batch_id": "B006",
+    "issue_type": "正文提及SI但当前无原件",
+    "reason": "正文提原料组成及相关补图/表，当前无独立SI。",
+    "action": "不追下载，保留缺口。"
+  },
+  {
+    "record_id": "R10586",
+    "path": "original_files/R10586/fulltext/fulltext__published__9c63a9f190c6375d.pdf",
+    "sha256": "9c63a9f190c6375d25efe8a76b081c816f8faf796caaacdf035e99c38619c66e",
+    "batch_id": "B006",
+    "issue_type": "非目标细菌16S BioProject",
+    "raw_accession": "PRJNA1060892",
+    "normalized_accession": "PRJNA1060892",
+    "accession_level": "BioProject项目",
+    "database": "NCBI BioProject/SRA",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1060892",
+    "pdf_pages": [
+      3
+    ],
+    "reason": "正文明确细菌16S扩增子。",
+    "action": "不计目标项目。"
+  },
+  {
+    "record_id": "R10586",
+    "path": "original_files/R10586/fulltext/fulltext__published__9c63a9f190c6375d.pdf",
+    "sha256": "9c63a9f190c6375d25efe8a76b081c816f8faf796caaacdf035e99c38619c66e",
+    "batch_id": "B006",
+    "issue_type": "非目标古菌16S BioProject",
+    "raw_accession": "PRJNA1060904",
+    "normalized_accession": "PRJNA1060904",
+    "accession_level": "BioProject项目",
+    "database": "NCBI BioProject/SRA",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1060904",
+    "pdf_pages": [
+      3
+    ],
+    "reason": "正文明确古菌16S扩增子。",
+    "action": "不计目标项目。"
+  },
+  {
+    "record_id": "R10605",
+    "path": "original_files/R10605/fulltext/fulltext__published__ce70e58c92e62619.pdf",
+    "sha256": "ce70e58c92e626194b520d643587503037c69df49edd863db8a2a6d7fa67baea",
+    "batch_id": "B006",
+    "issue_type": "目标测序数据可索取范围未明确",
+    "reason": "确认宏基因组，正文PDF11仅Data will be made available on request；全文/题名SI无编号。官方已知DOI精确检索count0未解决，不能证明没有数据。",
+    "action": "纳入目标候选，状态5；不标公开或明确reads可索取，不联系作者。"
+  },
+  {
+    "record_id": "R07202",
+    "batch_id": "B006",
+    "issue_type": "注释数据集访问未核实",
+    "path": "original_files/R07202/fulltext/fulltext__published__7663ffc3d7b30f70.pdf",
+    "sha256": "7663ffc3d7b30f701edee0fd4bfd7908d2eace9e7365540d6c9402e8b9b9e10a",
+    "official_url": "https://figshare.com/articles/dataset/Microaerobic_digestion_genome_annotation/13270487",
+    "reason": "文中链接保留，官方API经网络代理返回403，未绕过或下载；原始reads的NCBI公开状态已另核实。",
+    "action": "注释访问保留未核实，不影响NCBI原始reads候选。"
+  },
+  {
+    "record_id": "R07202",
+    "batch_id": "B006",
+    "issue_type": "同项目额外AD宏基因组与既有文章关联",
+    "raw_accession": "PRJNA565588",
+    "accession_level": "BioProject项目",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA565588",
+    "reason": "官方项目4WGS＋12AMPLICON。2WGS为本文SAMN13634953/954；另AD_Rep1/AD_Rep2为数据库相关线索，是否用于本文未证实。12标记基因BioSample与既有R04899文中完全相同，不重筛或改写其阴性判断。",
+    "action": "建立文章—项目—样本关联，同项目只计1个独立项目；额外AD样本不强配本文微氧样本。"
   }
 ]

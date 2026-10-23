@@ -1,0 +1,842 @@
+{
+  "record_id": "R09230",
+  "exact_known_article_doi_or_non_target_accession": "PRJNA883421",
+  "checked_at_utc": "2026-10-23T12:42:14.556705+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA883421&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"20\",\"retmax\":\"20\",\"retstart\":\"0\",\"idlist\":[\"24576994\",\"24576993\",\"24576992\",\"24576991\",\"24576990\",\"24576989\",\"24576988\",\"24576987\",\"24576986\",\"24576985\",\"24576984\",\"24576983\",\"24576982\",\"24576981\",\"24576980\",\"24576979\",\"24576978\",\"24576977\",\"24576976\",\"24576975\"],\"translationset\":[],\"translationstack\":[{\"term\":\"PRJNA883421[All Fields]\",\"field\":\"All Fields\",\"count\":\"20\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"PRJNA883421[All Fields]\"}}\n"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=sra&id=24576994%2C24576993%2C24576992%2C24576991%2C24576990%2C24576989%2C24576988%2C24576987%2C24576986%2C24576985%2C24576984%2C24576983%2C24576982%2C24576981%2C24576980%2C24576979%2C24576978%2C24576977%2C24576976%2C24576975&retmode=xml",
+      "status": 200,
+      "response": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<!DOCTYPE eSummaryResult PUBLIC \"-//NLM//DTD esummary v1 20041029//EN\" \"https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd\">\n<eSummaryResult>\n<DocSum>\n\t<Id>24576994</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B10b&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"76237\" total_bases=\"38270974\" total_size=\"13736937\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677184\" ver=\"1\" status=\"public\" name=\"B10b\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209206\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B10b&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965890&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679098\" total_spots=\"76237\" total_bases=\"38270974\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576993</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B9b&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"70214\" total_bases=\"35247428\" total_size=\"11870780\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677183\" ver=\"1\" status=\"public\" name=\"B9b\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209205\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B9b&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965889&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679099\" total_spots=\"70214\" total_bases=\"35247428\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576992</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B8b&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"65714\" total_bases=\"32988428\" total_size=\"11977719\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677182\" ver=\"1\" status=\"public\" name=\"B8b\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209204\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B8b&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965888&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679100\" total_spots=\"65714\" total_bases=\"32988428\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576991</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B7b&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"91174\" total_bases=\"45769348\" total_size=\"15587778\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677181\" ver=\"1\" status=\"public\" name=\"B7b\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209203\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B7b&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965887&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679101\" total_spots=\"91174\" total_bases=\"45769348\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576990</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B6b&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"78248\" total_bases=\"39280496\" total_size=\"13225623\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677180\" ver=\"1\" status=\"public\" name=\"B6b\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209202\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B6b&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965886&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679102\" total_spots=\"78248\" total_bases=\"39280496\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576989</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B5b&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"70634\" total_bases=\"35458268\" total_size=\"11783054\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677179\" ver=\"1\" status=\"public\" name=\"B5b\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209201\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B5b&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965885&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679103\" total_spots=\"70634\" total_bases=\"35458268\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576988</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B4b&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"77488\" total_bases=\"38898976\" total_size=\"13838926\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677178\" ver=\"1\" status=\"public\" name=\"B4b\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209200\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B4b&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965884&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679104\" total_spots=\"77488\" total_bases=\"38898976\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576987</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B3b&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"73423\" total_bases=\"36858346\" total_size=\"13526928\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677177\" ver=\"1\" status=\"public\" name=\"B3b\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209199\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B3b&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965883&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679105\" total_spots=\"73423\" total_bases=\"36858346\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576986</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B10a&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"75073\" total_bases=\"37686646\" total_size=\"12907795\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677176\" ver=\"1\" status=\"public\" name=\"B10a\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209198\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B10a&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965900&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679106\" total_spots=\"75073\" total_bases=\"37686646\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576985</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B9a&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"60883\" total_bases=\"30563266\" total_size=\"10391954\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677175\" ver=\"1\" status=\"public\" name=\"B9a\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209197\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B9a&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965899&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679107\" total_spots=\"60883\" total_bases=\"30563266\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576984</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B8a&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"62967\" total_bases=\"31609434\" total_size=\"11835163\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677174\" ver=\"1\" status=\"public\" name=\"B8a\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209196\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B8a&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965898&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679108\" total_spots=\"62967\" total_bases=\"31609434\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576983</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B7a&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"61301\" total_bases=\"30773102\" total_size=\"10450102\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677173\" ver=\"1\" status=\"public\" name=\"B7a\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209195\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B7a&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965897&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679109\" total_spots=\"61301\" total_bases=\"30773102\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576982</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B6a&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"77042\" total_bases=\"38675084\" total_size=\"14358914\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677172\" ver=\"1\" status=\"public\" name=\"B6a\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209194\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B6a&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965896&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679110\" total_spots=\"77042\" total_bases=\"38675084\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576981</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B5a&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"66741\" total_bases=\"33503982\" total_size=\"11344621\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677171\" ver=\"1\" status=\"public\" name=\"B5a\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209193\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B5a&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965895&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679111\" total_spots=\"66741\" total_bases=\"33503982\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576980</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B4a&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"106370\" total_bases=\"53397740\" total_size=\"18227132\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677170\" ver=\"1\" status=\"public\" name=\"B4a\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209192\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B4a&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965894&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679112\" total_spots=\"106370\" total_bases=\"53397740\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576979</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B3a&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"64219\" total_bases=\"32237938\" total_size=\"11626368\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677169\" ver=\"1\" status=\"public\" name=\"B3a\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209191\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B3a&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965893&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679113\" total_spots=\"64219\" total_bases=\"32237938\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576978</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B2a&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"55272\" total_bases=\"27746544\" total_size=\"9505253\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677168\" ver=\"1\" status=\"public\" name=\"B2a\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209190\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B2a&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965892&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679114\" total_spots=\"55272\" total_bases=\"27746544\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576977</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B1a&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"56356\" total_bases=\"28290712\" total_size=\"10564052\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677167\" ver=\"1\" status=\"public\" name=\"B1a\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209189\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B1a&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965891&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679115\" total_spots=\"56356\" total_bases=\"28290712\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576976</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B2b&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"79109\" total_bases=\"39712718\" total_size=\"13285477\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677166\" ver=\"1\" status=\"public\" name=\"B2b\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209188\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B2b&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965882&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679116\" total_spots=\"79109\" total_bases=\"39712718\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>24576975</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;B1b&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"79380\" total_bases=\"39848760\" total_size=\"14180329\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1504015\" center_name=\"Eco-Environmental Research Center, Chinese Academy\" contact_name=\"benyi xiao\" lab_name=\"Environmental Biotechnology Key Laboratory\"/&gt;&lt;Experiment acc=\"SRX17677165\" ver=\"1\" status=\"public\" name=\"B1b\"/&gt;&lt;Study acc=\"SRP398755\" name=\"Experimental sludge DNA sequencing\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS15209187\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;B1b&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA883421&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN30965881&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR21679117\" total_spots=\"79380\" total_bases=\"39848760\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/09/22</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2022/09/22</Item>\n</DocSum>\n\n</eSummaryResult>\n"
+    }
+  ],
+  "sra_search_count": "20",
+  "sra_summaries": [
+    {
+      "uid": "24576994",
+      "title": "B10b",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677184",
+            "ver": "1",
+            "status": "public",
+            "name": "B10b"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209206",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679098\" total_spots=\"76237\" total_bases=\"38270974\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965890",
+      "library_name": "B10b",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576993",
+      "title": "B9b",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677183",
+            "ver": "1",
+            "status": "public",
+            "name": "B9b"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209205",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679099\" total_spots=\"70214\" total_bases=\"35247428\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965889",
+      "library_name": "B9b",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576992",
+      "title": "B8b",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677182",
+            "ver": "1",
+            "status": "public",
+            "name": "B8b"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209204",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679100\" total_spots=\"65714\" total_bases=\"32988428\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965888",
+      "library_name": "B8b",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576991",
+      "title": "B7b",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677181",
+            "ver": "1",
+            "status": "public",
+            "name": "B7b"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209203",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679101\" total_spots=\"91174\" total_bases=\"45769348\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965887",
+      "library_name": "B7b",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576990",
+      "title": "B6b",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677180",
+            "ver": "1",
+            "status": "public",
+            "name": "B6b"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209202",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679102\" total_spots=\"78248\" total_bases=\"39280496\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965886",
+      "library_name": "B6b",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576989",
+      "title": "B5b",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677179",
+            "ver": "1",
+            "status": "public",
+            "name": "B5b"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209201",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679103\" total_spots=\"70634\" total_bases=\"35458268\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965885",
+      "library_name": "B5b",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576988",
+      "title": "B4b",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677178",
+            "ver": "1",
+            "status": "public",
+            "name": "B4b"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209200",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679104\" total_spots=\"77488\" total_bases=\"38898976\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965884",
+      "library_name": "B4b",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576987",
+      "title": "B3b",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677177",
+            "ver": "1",
+            "status": "public",
+            "name": "B3b"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209199",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679105\" total_spots=\"73423\" total_bases=\"36858346\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965883",
+      "library_name": "B3b",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576986",
+      "title": "B10a",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677176",
+            "ver": "1",
+            "status": "public",
+            "name": "B10a"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209198",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679106\" total_spots=\"75073\" total_bases=\"37686646\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965900",
+      "library_name": "B10a",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576985",
+      "title": "B9a",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677175",
+            "ver": "1",
+            "status": "public",
+            "name": "B9a"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209197",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679107\" total_spots=\"60883\" total_bases=\"30563266\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965899",
+      "library_name": "B9a",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576984",
+      "title": "B8a",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677174",
+            "ver": "1",
+            "status": "public",
+            "name": "B8a"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209196",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679108\" total_spots=\"62967\" total_bases=\"31609434\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965898",
+      "library_name": "B8a",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576983",
+      "title": "B7a",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677173",
+            "ver": "1",
+            "status": "public",
+            "name": "B7a"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209195",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679109\" total_spots=\"61301\" total_bases=\"30773102\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965897",
+      "library_name": "B7a",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576982",
+      "title": "B6a",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677172",
+            "ver": "1",
+            "status": "public",
+            "name": "B6a"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209194",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679110\" total_spots=\"77042\" total_bases=\"38675084\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965896",
+      "library_name": "B6a",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576981",
+      "title": "B5a",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677171",
+            "ver": "1",
+            "status": "public",
+            "name": "B5a"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209193",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679111\" total_spots=\"66741\" total_bases=\"33503982\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965895",
+      "library_name": "B5a",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576980",
+      "title": "B4a",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677170",
+            "ver": "1",
+            "status": "public",
+            "name": "B4a"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209192",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679112\" total_spots=\"106370\" total_bases=\"53397740\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965894",
+      "library_name": "B4a",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576979",
+      "title": "B3a",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677169",
+            "ver": "1",
+            "status": "public",
+            "name": "B3a"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209191",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679113\" total_spots=\"64219\" total_bases=\"32237938\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965893",
+      "library_name": "B3a",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576978",
+      "title": "B2a",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677168",
+            "ver": "1",
+            "status": "public",
+            "name": "B2a"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209190",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679114\" total_spots=\"55272\" total_bases=\"27746544\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965892",
+      "library_name": "B2a",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576977",
+      "title": "B1a",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677167",
+            "ver": "1",
+            "status": "public",
+            "name": "B1a"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209189",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679115\" total_spots=\"56356\" total_bases=\"28290712\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965891",
+      "library_name": "B1a",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576976",
+      "title": "B2b",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677166",
+            "ver": "1",
+            "status": "public",
+            "name": "B2b"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209188",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679116\" total_spots=\"79109\" total_bases=\"39712718\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965882",
+      "library_name": "B2b",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    },
+    {
+      "uid": "24576975",
+      "title": "B1b",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX17677165",
+            "ver": "1",
+            "status": "public",
+            "name": "B1b"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP398755",
+            "name": "Experimental sludge DNA sequencing"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS15209187",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR21679117\" total_spots=\"79380\" total_bases=\"39848760\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA883421",
+      "biosample": "SAMN30965881",
+      "library_name": "B1b",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    }
+  ],
+  "limitation": "精确DOI检索无结果不能证明没有测序数据或未公开；16S项目不能因可访问而转为目标数据。"
+}

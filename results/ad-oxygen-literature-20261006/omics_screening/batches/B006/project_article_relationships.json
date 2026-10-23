@@ -1,0 +1,50 @@
+[
+  {
+    "project": "PRJNA565588",
+    "official_metadata": "omics_screening/batches/B006/R07202_project_official_metadata.json",
+    "confirmed_current_article": {
+      "record_id": "R07202",
+      "raw_reads_biosamples": [
+        "SAMN13634953",
+        "SAMN13634954"
+      ],
+      "sequencing": "宏基因组"
+    },
+    "previous_article_marker_only": {
+      "record_id": "R04899",
+      "biosamples": [
+        "SAMN12752318",
+        "SAMN12752317",
+        "SAMN12752321",
+        "SAMN12752316",
+        "SAMN12752320",
+        "SAMN12752319",
+        "SAMN12752327",
+        "SAMN12752326",
+        "SAMN12752325",
+        "SAMN12752324",
+        "SAMN12752328",
+        "SAMN12752323"
+      ],
+      "sequencing": "16S/mcrA扩增子，既有判断不改，不因同项目另有WGS判其使用宏基因组"
+    },
+    "database_only_wgs_leads": [
+      {
+        "biosample": "SAMN23297126",
+        "experiment": "SRX13171652",
+        "run": "SRR16980862",
+        "official_title": "AD_Rep2",
+        "library_name": "A150"
+      },
+      {
+        "biosample": "SAMN23297125",
+        "experiment": "SRX13171651",
+        "run": "SRR16980863",
+        "official_title": "AD_Rep1",
+        "library_name": "B79"
+      }
+    ],
+    "independent_project_count": 1,
+    "limitation": "本文确认使用2个微氧样本；项目另有2个AD样本，只作相关线索，作者使用及确切配对关系未核实。"
+  }
+]

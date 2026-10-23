@@ -1,0 +1,63 @@
+{
+  "record_id": "R10163_SRR28311682",
+  "exact_known_article_doi_or_non_target_accession": "SRR28311682",
+  "checked_at_utc": "2026-10-23T12:45:20.549601+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=SRR28311682&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"1\",\"retmax\":\"1\",\"retstart\":\"0\",\"idlist\":[\"32225582\"],\"translationset\":[],\"translationstack\":[{\"term\":\"SRR28311682[All Fields]\",\"field\":\"All Fields\",\"count\":\"1\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"SRR28311682[All Fields]\"}}\n"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=sra&id=32225582&retmode=xml",
+      "status": 200,
+      "response": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<!DOCTYPE eSummaryResult PUBLIC \"-//NLM//DTD esummary v1 20041029//EN\" \"https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd\">\n<eSummaryResult>\n<DocSum>\n\t<Id>32225582</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;aminobacterium&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"25199335\" total_bases=\"7610199170\" total_size=\"2426685332\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1822900\" center_name=\"Guangzhou University\" contact_name=\"ZHENGWEI WANG\" lab_name=\"School\"/&gt;&lt;Experiment acc=\"SRX23920385\" ver=\"1\" status=\"public\" name=\"aminobacterium\"/&gt;&lt;Study acc=\"SRP494832\" name=\"Microbial sequencing of sludge\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS20734008\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;sludge-starch&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;OTHER&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;other&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1086167&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN40370537&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR28311682\" total_spots=\"25199335\" total_bases=\"7610199170\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/05/30</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2024/03/12</Item>\n</DocSum>\n\n</eSummaryResult>\n"
+    }
+  ],
+  "sra_search_count": "1",
+  "sra_summaries": [
+    {
+      "uid": "32225582",
+      "title": "aminobacterium",
+      "library_strategy": "OTHER",
+      "library_source": "METAGENOMIC",
+      "library_selection": "other",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX23920385",
+            "ver": "1",
+            "status": "public",
+            "name": "aminobacterium"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP494832",
+            "name": "Microbial sequencing of sludge"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS20734008",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR28311682\" total_spots=\"25199335\" total_bases=\"7610199170\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1086167",
+      "biosample": "SAMN40370537",
+      "library_name": "sludge-starch",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina MiSeq"
+    }
+  ],
+  "limitation": "精确DOI检索无结果不能证明没有测序数据或未公开；16S项目不能因可访问而转为目标数据。"
+}
