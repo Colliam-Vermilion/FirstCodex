@@ -1,0 +1,14 @@
+{
+  "record_id": "R12562",
+  "known_accession": "PRJNA1369098",
+  "checked_at_utc": "2026-10-23T14:53:54.383632+00:00",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=bioproject&term=PRJNA1369098&retmode=json",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"0\",\"retmax\":\"0\",\"retstart\":\"0\",\"idlist\":[],\"translationset\":[],\"querytranslation\":\"(PRJNA1369098[All Fields])\",\"errorlist\":{\"phrasesnotfound\":[\"PRJNA1369098\"],\"fieldsnotfound\":[]},\"warninglist\":{\"phrasesignored\":[],\"quotedphrasesnotfound\":[],\"outputmessages\":[\"No items found.\"]}}}\n"
+    }
+  ],
+  "purpose": "仅核对文中已知项目身份与元数据，不下载reads。",
+  "bioproject_search_count": "0"
+}

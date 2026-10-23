@@ -1,13 +1,9 @@
-# 当前批次B007进行中（2026-10-23）
+# 当前新增：宏基因组／宏转录组分批全文筛查（2026-10-23）
 
-按远端fc718c1继续下一批50研究。已逐篇保存20研究：18完成、R11168/R11534待确认；确认宏基因组R10819，泛指数据可索取。未处理项不作阴性。累计表及JSON已更新；本批尚未结束。
+B007按最新远端进度完成R10673–R13557的50研究核查：48完成、2待确认；8宏基因组、1宏转录组、39非目标。累计210研究完成、5待确认、126未开始，下一批R13558。累计目标15篇（14MG＋1MT）；独立项目号6个，其中5个官方公开核实、1个公开状态未核实。每篇即时保存，未重筛已完成记录。
 
-# 当前新增：宏基因组/宏转录组分批全文筛查（2026-10-23）
-
-B006按最新进度从R06897至R10605完成50研究：6篇确认宏基因组、44篇非目标，未确认宏转录组。本批无新增测序类型待确认。累计162完成、3待确认、176未开始；下一批起点R10673，默认20篇。6篇均新产生数据，4篇官方确认公开（4独立项目）、2篇仅泛指数据可索取，明确相关reads可索取0篇。数据映射/平台/策略差异另列，不用前批命中率推断后续。
-
-- **[同一份累计Excel](omics_screening/omics_screening_cumulative.xlsx)**、[本批50篇逐篇结论/数据链接与限制](omics_screening/README.md)、[本批CSV](omics_screening/batch_B006_results_utf8.csv)、[累计JSON](omics_screening/screening_records.json)、[证据](omics_screening/evidence.json)、[项目与样本](omics_screening/data_projects_samples.json)、[统计](omics_screening/summary.json)、[独立远端核验](omics_screening/batches/B006/remote_readback.json)。
-- 新增68条证据、累计314条；50正文+27补充原件SHA核验，ZIP派生不重复计。目标R07202、R08462、R09236、R10163、R10492、R10605；4个公开项目PRJNA565588、PRJNA1013451、PRJNA1086167、PRJNA1128434。混合项目的16S与目标run分开，OTHER字段/平台/处理映射差异保留。原件、原分类、主库/JCR及main不改。前20篇检查点e22d1b2，完整批次及核验提交见回执。
+- **[同一份累计Excel](omics_screening/omics_screening_cumulative.xlsx)**、[本批逐篇结论/数据与限制](omics_screening/README.md)、[本批CSV](omics_screening/batch_B007_results_utf8.csv)、[累计JSON](omics_screening/screening_records.json)、[证据](omics_screening/evidence.json)、[数据项目与样本](omics_screening/data_projects_samples.json)、[进度统计](omics_screening/summary.json)、[独立远端读回](omics_screening/batches/B007/remote_readback.json)。
+- R11724的PRJNA1287080新增2个公开目标run；R12985复用R09236的PRJNA1013451同21BioSample，不重复计数据集。R13274明确原始宏转录组数据可合理索取（需用途说明/数据协议），未联系作者；其余索取/未定位/编号未核实分别标记。R11168/R11534保留待确认，不作阴性。新增64证据累计378；86原格式源＋4既有ZIP派生核验，原件/分类/主库/JCR及main不改。前20篇检查点4e33d50。
 
 # 本地文献合并与JCR统计（2026-10-23）
 

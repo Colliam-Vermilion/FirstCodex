@@ -1,0 +1,432 @@
+{
+  "record_id": "R11724",
+  "exact_known_article_doi_or_non_target_accession": "PRJNA1287080",
+  "checked_at_utc": "2026-10-23T14:45:00.763333+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1287080&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"10\",\"retmax\":\"10\",\"retstart\":\"0\",\"idlist\":[\"39568777\",\"39568776\",\"39568775\",\"39568774\",\"39568773\",\"39568772\",\"39568771\",\"39568770\",\"39568769\",\"39568768\"],\"translationset\":[],\"translationstack\":[{\"term\":\"PRJNA1287080[All Fields]\",\"field\":\"All Fields\",\"count\":\"10\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"PRJNA1287080[All Fields]\"}}\n"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=sra&id=39568777%2C39568776%2C39568775%2C39568774%2C39568773%2C39568772%2C39568771%2C39568770%2C39568769%2C39568768&retmode=xml",
+      "status": 200,
+      "response": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<!DOCTYPE eSummaryResult PUBLIC \"-//NLM//DTD esummary v1 20041029//EN\" \"https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd\">\n<eSummaryResult>\n<DocSum>\n\t<Id>39568777</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;R4-M&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"36408663\" total_bases=\"10922598900\" total_size=\"3128170599\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2164210\" center_name=\"Dalian Universtiy of Technology\" contact_name=\"Zhen Jin\" lab_name=\"School of Environmental science and technology\"/&gt;&lt;Experiment acc=\"SRX29548083\" ver=\"1\" status=\"public\" name=\"R4-M\"/&gt;&lt;Study acc=\"SRP598422\" name=\"Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS25678054\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;L-10&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;OTHER&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;other&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1287080&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN49811806&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR34383440\" total_spots=\"36408663\" total_bases=\"10922598900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/07/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2025/07/05</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>39568776</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;R1-M&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina NovaSeq 6000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"34573977\" total_bases=\"10372193100\" total_size=\"2993561967\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2164210\" center_name=\"Dalian Universtiy of Technology\" contact_name=\"Zhen Jin\" lab_name=\"School of Environmental science and technology\"/&gt;&lt;Experiment acc=\"SRX29548082\" ver=\"1\" status=\"public\" name=\"R1-M\"/&gt;&lt;Study acc=\"SRP598422\" name=\"Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS25678053\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina NovaSeq 6000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;L-9&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;OTHER&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;other&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1287080&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN49811805&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR34383441\" total_spots=\"34573977\" total_bases=\"10372193100\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/07/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2025/07/05</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>39568775</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;R4-A&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"96714\" total_bases=\"50581422\" total_size=\"14931293\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2164210\" center_name=\"Dalian Universtiy of Technology\" contact_name=\"Zhen Jin\" lab_name=\"School of Environmental science and technology\"/&gt;&lt;Experiment acc=\"SRX29548081\" ver=\"1\" status=\"public\" name=\"R4-A\"/&gt;&lt;Study acc=\"SRP598422\" name=\"Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS25678052\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;L-8&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1287080&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN49811804&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR34383442\" total_spots=\"96714\" total_bases=\"50581422\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/07/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2025/07/05</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>39568774</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;R3-A&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"86938\" total_bases=\"45468554\" total_size=\"14425875\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2164210\" center_name=\"Dalian Universtiy of Technology\" contact_name=\"Zhen Jin\" lab_name=\"School of Environmental science and technology\"/&gt;&lt;Experiment acc=\"SRX29548080\" ver=\"1\" status=\"public\" name=\"R3-A\"/&gt;&lt;Study acc=\"SRP598422\" name=\"Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS25678051\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;L-7&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1287080&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN49811803&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR34383443\" total_spots=\"86938\" total_bases=\"45468554\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/07/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2025/07/05</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>39568773</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;R2-A&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"88561\" total_bases=\"46317384\" total_size=\"14645109\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2164210\" center_name=\"Dalian Universtiy of Technology\" contact_name=\"Zhen Jin\" lab_name=\"School of Environmental science and technology\"/&gt;&lt;Experiment acc=\"SRX29548079\" ver=\"1\" status=\"public\" name=\"R2-A\"/&gt;&lt;Study acc=\"SRP598422\" name=\"Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS25678050\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;L-6&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1287080&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN49811802&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR34383444\" total_spots=\"88561\" total_bases=\"46317384\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/07/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2025/07/05</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>39568772</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;R1-A&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"77936\" total_bases=\"40760522\" total_size=\"11994212\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2164210\" center_name=\"Dalian Universtiy of Technology\" contact_name=\"Zhen Jin\" lab_name=\"School of Environmental science and technology\"/&gt;&lt;Experiment acc=\"SRX29548078\" ver=\"1\" status=\"public\" name=\"R1-A\"/&gt;&lt;Study acc=\"SRP598422\" name=\"Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS25678049\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;L-5&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1287080&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN49811801&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR34383445\" total_spots=\"77936\" total_bases=\"40760522\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/07/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2025/07/05</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>39568771</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;R4-B&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"168474\" total_bases=\"88103060\" total_size=\"25656578\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2164210\" center_name=\"Dalian Universtiy of Technology\" contact_name=\"Zhen Jin\" lab_name=\"School of Environmental science and technology\"/&gt;&lt;Experiment acc=\"SRX29548077\" ver=\"1\" status=\"public\" name=\"R4-B\"/&gt;&lt;Study acc=\"SRP598422\" name=\"Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS25678052\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;L-4&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1287080&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN49811804&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR34383446\" total_spots=\"168474\" total_bases=\"88103060\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/07/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2025/07/05</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>39568770</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;R3-B&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"137306\" total_bases=\"71944602\" total_size=\"22864328\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2164210\" center_name=\"Dalian Universtiy of Technology\" contact_name=\"Zhen Jin\" lab_name=\"School of Environmental science and technology\"/&gt;&lt;Experiment acc=\"SRX29548076\" ver=\"1\" status=\"public\" name=\"R3-B\"/&gt;&lt;Study acc=\"SRP598422\" name=\"Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS25678051\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;L-3&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1287080&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN49811803&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR34383447\" total_spots=\"137306\" total_bases=\"71944602\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/07/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2025/07/05</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>39568769</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;R2-B&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"103714\" total_bases=\"53897723\" total_size=\"17265281\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2164210\" center_name=\"Dalian Universtiy of Technology\" contact_name=\"Zhen Jin\" lab_name=\"School of Environmental science and technology\"/&gt;&lt;Experiment acc=\"SRX29548075\" ver=\"1\" status=\"public\" name=\"R2-B\"/&gt;&lt;Study acc=\"SRP598422\" name=\"Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS25678050\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;L-2&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1287080&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN49811802&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR34383448\" total_spots=\"103714\" total_bases=\"53897723\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/07/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2025/07/05</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>39568768</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;R1-B&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina HiSeq 2000\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"185408\" total_bases=\"96777317\" total_size=\"28077894\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2164210\" center_name=\"Dalian Universtiy of Technology\" contact_name=\"Zhen Jin\" lab_name=\"School of Environmental science and technology\"/&gt;&lt;Experiment acc=\"SRX29548074\" ver=\"1\" status=\"public\" name=\"R1-B\"/&gt;&lt;Study acc=\"SRP598422\" name=\"Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation\"/&gt;&lt;Organism taxid=\"1592332\" ScientificName=\"sludge metagenome\"/&gt;&lt;Sample acc=\"SRS25678049\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina HiSeq 2000\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;L-1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1287080&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN49811801&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR34383449\" total_spots=\"185408\" total_bases=\"96777317\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/07/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2025/07/05</Item>\n</DocSum>\n\n</eSummaryResult>\n"
+    }
+  ],
+  "sra_search_count": "10",
+  "sra_summaries": [
+    {
+      "uid": "39568777",
+      "title": "R4-M",
+      "library_strategy": "OTHER",
+      "library_source": "METAGENOMIC",
+      "library_selection": "other",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX29548083",
+            "ver": "1",
+            "status": "public",
+            "name": "R4-M"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP598422",
+            "name": "Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS25678054",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR34383440\" total_spots=\"36408663\" total_bases=\"10922598900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1287080",
+      "biosample": "SAMN49811806",
+      "library_name": "L-10",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "39568776",
+      "title": "R1-M",
+      "library_strategy": "OTHER",
+      "library_source": "METAGENOMIC",
+      "library_selection": "other",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX29548082",
+            "ver": "1",
+            "status": "public",
+            "name": "R1-M"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP598422",
+            "name": "Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS25678053",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR34383441\" total_spots=\"34573977\" total_bases=\"10372193100\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1287080",
+      "biosample": "SAMN49811805",
+      "library_name": "L-9",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina NovaSeq 6000"
+    },
+    {
+      "uid": "39568775",
+      "title": "R4-A",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX29548081",
+            "ver": "1",
+            "status": "public",
+            "name": "R4-A"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP598422",
+            "name": "Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS25678052",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR34383442\" total_spots=\"96714\" total_bases=\"50581422\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1287080",
+      "biosample": "SAMN49811804",
+      "library_name": "L-8",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "39568774",
+      "title": "R3-A",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX29548080",
+            "ver": "1",
+            "status": "public",
+            "name": "R3-A"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP598422",
+            "name": "Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS25678051",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR34383443\" total_spots=\"86938\" total_bases=\"45468554\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1287080",
+      "biosample": "SAMN49811803",
+      "library_name": "L-7",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "39568773",
+      "title": "R2-A",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX29548079",
+            "ver": "1",
+            "status": "public",
+            "name": "R2-A"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP598422",
+            "name": "Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS25678050",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR34383444\" total_spots=\"88561\" total_bases=\"46317384\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1287080",
+      "biosample": "SAMN49811802",
+      "library_name": "L-6",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "39568772",
+      "title": "R1-A",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX29548078",
+            "ver": "1",
+            "status": "public",
+            "name": "R1-A"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP598422",
+            "name": "Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS25678049",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR34383445\" total_spots=\"77936\" total_bases=\"40760522\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1287080",
+      "biosample": "SAMN49811801",
+      "library_name": "L-5",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "39568771",
+      "title": "R4-B",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX29548077",
+            "ver": "1",
+            "status": "public",
+            "name": "R4-B"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP598422",
+            "name": "Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS25678052",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR34383446\" total_spots=\"168474\" total_bases=\"88103060\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1287080",
+      "biosample": "SAMN49811804",
+      "library_name": "L-4",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "39568770",
+      "title": "R3-B",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX29548076",
+            "ver": "1",
+            "status": "public",
+            "name": "R3-B"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP598422",
+            "name": "Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS25678051",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR34383447\" total_spots=\"137306\" total_bases=\"71944602\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1287080",
+      "biosample": "SAMN49811803",
+      "library_name": "L-3",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "39568769",
+      "title": "R2-B",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX29548075",
+            "ver": "1",
+            "status": "public",
+            "name": "R2-B"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP598422",
+            "name": "Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS25678050",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR34383448\" total_spots=\"103714\" total_bases=\"53897723\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1287080",
+      "biosample": "SAMN49811802",
+      "library_name": "L-2",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina HiSeq 2000"
+    },
+    {
+      "uid": "39568768",
+      "title": "R1-B",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX29548074",
+            "ver": "1",
+            "status": "public",
+            "name": "R1-B"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP598422",
+            "name": "Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS25678049",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR34383449\" total_spots=\"185408\" total_bases=\"96777317\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>",
+      "bioproject": "PRJNA1287080",
+      "biosample": "SAMN49811801",
+      "library_name": "L-1",
+      "library_layout": [
+        "PAIRED"
+      ],
+      "scientific_name": "sludge metagenome",
+      "platform": "Illumina HiSeq 2000"
+    }
+  ],
+  "limitation": "精确DOI检索无结果不能证明没有测序数据或未公开；16S项目不能因可访问而转为目标数据。"
+}

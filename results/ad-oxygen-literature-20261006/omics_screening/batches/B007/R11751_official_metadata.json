@@ -1,0 +1,17 @@
+{
+  "record_id": "R11751",
+  "exact_known_article_doi_or_non_target_accession": "10.1021/acs.est.5c04187",
+  "checked_at_utc": "2026-10-23T14:45:04.577128+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=10.1021%2Facs.est.5c04187&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"1\",\"retmax\":\"1\",\"retstart\":\"0\",\"idlist\":[\"5026300\"],\"translationset\":[],\"translationstack\":[{\"term\":\"10.1021[All Fields]\",\"field\":\"All Fields\",\"count\":\"1\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"10.1021[All Fields]\",\"errorlist\":{\"phrasesnotfound\":[\"acs.est.5c04187\"],\"fieldsnotfound\":[]}}}\n"
+    }
+  ],
+  "sra_search_count": "1",
+  "limitation": "精确DOI检索无结果不能证明没有测序数据或未公开；16S项目不能因可访问而转为目标数据。",
+  "query_interpretation": "未加引号DOI被NCBI扩展为10.1021[AllFields]，返回1条不是本文关联证据，不归任何编号。后续完整DOI加引号查询count0，同样不证明无数据。",
+  "do_not_associate_expanded_query_hit": true
+}

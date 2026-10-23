@@ -54,15 +54,70 @@
     "R13458",
     "R13557"
   ],
-  "status": "进行中",
-  "note": "按最新远端稳定ID顺序；实际综述单列并顺延补足50研究。",
-  "research_screened_count": 20,
-  "completed_research_count": 18,
+  "status": "批次已结束，待确认项独立复核",
+  "note": "每篇即时保存；不确定不作阴性；2个公开数据文章只有1个新增独立公开项目，另一个复用既有项目；MT明确索取需研究用途说明/数据协议，未联系作者。",
+  "research_screened_count": 50,
+  "completed_research_count": 48,
   "pending_research_ids": [
     "R11168",
     "R11534"
   ],
   "target_ids": [
-    "R10819"
-  ]
+    "R10819",
+    "R11724",
+    "R11751",
+    "R12127",
+    "R12509",
+    "R12562",
+    "R12985",
+    "R13086",
+    "R13274"
+  ],
+  "target_articles": 9,
+  "negative_research_count": 39,
+  "metagenomics_only": 8,
+  "metatranscriptomics_only": 1,
+  "both": 0,
+  "public_target_data_articles": 2,
+  "explicit_target_sequencing_data_on_request_articles": 1,
+  "generic_data_on_request_target_articles": 4,
+  "target_without_accession_or_statement": 1,
+  "target_accession_public_unverified": 1,
+  "newly_generated_target_articles": 8,
+  "existing_public_data_reanalysis_articles": 1,
+  "new_article_project_ids": [
+    "PRJNA1287080",
+    "PRJNA1369098"
+  ],
+  "new_official_public_independent_projects": 1,
+  "new_public_target_runs": [
+    "SRR34383440",
+    "SRR34383441"
+  ],
+  "shared_project_with_prior_article": {
+    "PRJNA1013451": [
+      "R09236",
+      "R12985"
+    ]
+  },
+  "new_evidence_records": 64,
+  "cumulative_evidence_records": 378,
+  "original_source_objects": 86,
+  "main_pdfs": 51,
+  "main_articles": 50,
+  "supplementary_formats": {
+    "docx": 28,
+    "jpg": 3,
+    "pdf": 2,
+    "zip": 1,
+    "xlsx": 1
+  },
+  "existing_zip_derived_xlsx_not_counted_as_original": 4,
+  "all_selected_source_sha_verified": true,
+  "attachment_identity_resolved_ids": [
+    "R11751 PDF",
+    "R11843 DOCX"
+  ],
+  "next_start": "R13558",
+  "intermediate_checkpoint_commit": "4e33d50"
 }

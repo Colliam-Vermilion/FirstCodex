@@ -5563,8 +5563,8 @@
     "evidence_id": "R11596-E01",
     "record_id": "R11596",
     "evidence_kind": "方法判断",
-    "source_path": "original_files/R11596/fulltext/fulltext__version_unverified__0b2e2d98dffd5449.pdf",
-    "source_sha256": "0b2e2d98dffd544958b06cc2229d310e4b7d529bd3914c47f20d6a66789a28be",
+    "source_path": "original_files/R11596/fulltext/fulltext__published__6ace8d3f881b69f8.pdf",
+    "source_sha256": "6ace8d3f881b69f89d0ae229006f32c4664a53b59a06544dbd1c5a3bcd42c82e",
     "worksheet": "",
     "cells": "",
     "batch_id": "B007",
@@ -5590,5 +5590,641 @@
     "section": "§2.4 Methods of analysis（续）",
     "excerpt": "to amplify the V4 portion of the \narchaeal V4-V5 portion of the 16S rRNA gene. Each sample was sub­\njected to DNA extraction, followed by sequencing, and finally by pro­\ncessing the raw data and species information to generate complete \noperational taxonomic units (OTUs). The original data were uploaded to \nNCBI with accession numbers PRJNA1083726 and PRJNA1083733.",
     "interpretation": "完整§2.1–2.5 PDF2–3，341F/806R及Arch519F/915R区域扩增后OTU；项目号对应该16S数据，不作群落shotgun。"
+  },
+  {
+    "evidence_id": "R11658-E01",
+    "record_id": "R11658",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R11658/fulltext/fulltext__published__83a514a4b04c73a0.pdf",
+    "source_sha256": "83a514a4b04c73a09129c21d623d57eb798a3af7c20dc842d47308f889d7695f",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2 Materials and methods",
+    "excerpt": "Ergosterol determination by liquid chromatography was also performed. Ergosterol \ncontent is a quick indicator of fungal population changes, as it is a characteristic component of the \nfungal cell membrane. The methods followed for this determination consisted in an extraction of \nmethanol- KOH (10%) during 90 min at 70˚C and evaporated with N steam to be quantified by liquid \nchromatography [6].",
+    "interpretation": "完整材料方法PDF2–3为两阶段污泥AD、药物LCMS、麦角固醇HPLC监测真菌；真菌群落变化由生物标志物，不是ITS或宏组学测序。"
+  },
+  {
+    "evidence_id": "R11682-E01",
+    "record_id": "R11682",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R11682/fulltext/fulltext__published__2cdd8434def5725e.pdf",
+    "source_sha256": "2cdd8434def5725e9c9c5739e268b2fcfe182d162dafc7a9a8a6c8901e816416",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.3.3 Lipase activity",
+    "excerpt": "The lipase activity of GE was determined by the titration [30] for the \nreaction mixture containing 10 mL of pure olive live (10 % w/v), 5 mL \narabic gum (acacia gum) (5 % w/v), 100 mL sodium hydrogen phosphate \n(0.1 M) and 100 mL distilled water that were mixed for 3 min. Next, 1 \nmL of GE solution was added to the produced solution and mixed again \nat 160 rpm 35 ◦C for 15 min. Next, 20 mL ethanol (C₂H₆O) and acetone \n(C₃H₆O) were added to the mixture at a ratio of 1:1 and finally titrated \nagainst 0.05 M NaOH until reaching pH of 9.5;p the amount of NaOH \nconsumed was considered equal to the amount of lipase activity.",
+    "interpretation": "完整§2.1–2.6 PDF2–4为GE发酵、淀粉酶/蛋白酶显色、脂肪酶滴定、微曝气/BMP/能耗，无核酸建库测序。"
+  },
+  {
+    "evidence_id": "R11693-E01",
+    "record_id": "R11693",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R11693/fulltext/fulltext__published__6ae8f5e4e6b40535.pdf",
+    "source_sha256": "6ae8f5e4e6b40535386c46952aacd6cbb94b2ad4779e02e16be5eb45c18e3949",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.4 Microbial community analysis",
+    "excerpt": "Microbial sequencing was performed at the \nUniversity of Michigan’s Microbiome Core facility (University of Mich­\nigan, Ann Arbor, MI, USA), targeting the V4 region of the 16S rRNA \ngene, using modified earth microbiome project (EMP) primers (Kozich \net al., 2013). Multiplexed amplicons were sequenced using Illumina \nMiSeq using the MiSeq reagent kit V2 (2 × 250 bp reads) according to \nthe manufacturer’s instructions with modifications found in the EMP \nSOP (Caporaso et al., 2012; Parada et al., 2016). FASTQ files were \ngenerated for paired-end reads and were analyzed using the Schloss \nMiSeq SOP on the Mothur bioinformatics platform. Sequences were \nfiltered, and chimeras were removed using the UCHIME algorithm, after \nwhich the sequences were aligned using the SILVA reference database \n(Quast et al., 2013). Further analysis was carried out using operational \ntaxonomic unit (OTU) clustering based on an average neighbor algo­\nrithm at a 3 % cutoff limit. The software package Tax4Fun2 was used in \nthe R environment to predict functional capabilities using the taxonomic \nprofile to predict the metabolic pathways in the Kyoto Encyclopedia of \nGenes and Genomes (KEGG). OTUs were mapped to reference se­\nquences, and the taxonomic abundance was converted into the relative \nabundance of enzyme-encoding genes associated with KEGG pathways \nand orthologs. All raw sequences are available in the National Center for \nBiotechnology Information (NCBI) Sequence Read Archive (SRA) under \nBioProject ID: PRJNA1217127.",
+    "interpretation": "完整§2.1–2.5 PDF2–3，EMP引物V4扩增MiSeqPE250、Mothur/OTU；功能基因由Tax4Fun2/KEGG预测，不作宏基因组。"
+  },
+  {
+    "evidence_id": "R11724-E01",
+    "record_id": "R11724",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R11724/fulltext/fulltext__published__c46a1305f718264e.pdf",
+    "source_sha256": "c46a1305f718264e853f3b88df93ad2db537223164ccd5f7e19a31a8f29431ed",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.5 Microbial community and metagenomic analysis",
+    "excerpt": "For metagenomic analysis, total DNA was extracted from each \nsample and its quantity and purity were measured before constructing a \nlibrary. Quality-controlled libraries were sequenced using an Illumina \nNovaSeq 6000 high-throughput sequencing platform. Fastp 0.23.2 \nsoftware was used for quality control of the sequenced data, followed by \nde novo assembly of clean data using the MEGAHIT software (v1.2.9) \n[24]. N connections were then segmented to obtain N-free scaffolds, \nwhich were processed using Prodigal 2.6.3 [25] to predict open reading \nframes (ORFs). The predicted ORFs from each sample were combined \nand clustered using the Linclust software to generate a non-redundant \ngene catalog [26]. Finally, the abundance of lignocellulose-degrading \nrelated gene abundance was analyzed using the KEGG and CAZyme \ndatabases.",
+    "interpretation": "总DNA另建库、NovaSeq与组装/ORF/基因目录，非16S功能预测。"
+  },
+  {
+    "evidence_id": "R11724-E02",
+    "record_id": "R11724",
+    "evidence_kind": "测序编号",
+    "source_path": "original_files/R11724/fulltext/fulltext__published__c46a1305f718264e.pdf",
+    "source_sha256": "c46a1305f718264e853f3b88df93ad2db537223164ccd5f7e19a31a8f29431ed",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.5 Data deposition",
+    "excerpt": "The raw 16S rRNA and metagenomic sequencing data were \ndeposited in the NCBI BioProject database under SRA accession number \nPRJNA1287080.",
+    "interpretation": "BioProject层级，含16S与MG，官方需拆分。"
+  },
+  {
+    "evidence_id": "R11751-E01",
+    "record_id": "R11751",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R11751/supplementary/supplementary__0bb73736e985bad3.pdf",
+    "source_sha256": "0bb73736e985bad328ad00eecf5af2af45d581a28ff08d5b6c6eacfff8598d94",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      6
+    ],
+    "section": "SI Text S4，印刷S6，lines108–114",
+    "excerpt": "Total DNA from aggregates in each UASB digester was extracted by E.Z.N.A™ \n109\nMag-Bind Soil DNA Kit (OMEGA, M5635-02, USA). The concentrations of the \n110\nextracted DNA were determined by a spectrophotometer (Thermo Fisher, Q33238, \n111\nUSA). Fragmentation buffer solutions were added into the qualified DNA samples that \n112\nwere randomly interrupted into the short DNA fragments by ultrasound. The short DNA \n113\nfragments were used for library construction. Metagenomic sequencing was conducted \n114\nby Sangon Biotech (Shanghai) Co. Ltd, China using an Illumina HiSeq 2500 platform.",
+    "interpretation": "群落DNA随机超声建库+HiSeq2500明确确认宏基因组。"
+  },
+  {
+    "evidence_id": "R11751-E02",
+    "record_id": "R11751",
+    "evidence_kind": "附件身份核验",
+    "source_path": "original_files/R11751/supplementary/supplementary__0bb73736e985bad3.pdf",
+    "source_sha256": "0bb73736e985bad328ad00eecf5af2af45d581a28ff08d5b6c6eacfff8598d94",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      1
+    ],
+    "section": "SI title/authors/affiliation，印刷S1",
+    "excerpt": "S1\n1\nSupporting Information\n2\n3\nIntermittent Micro-Aeration Enhanced Anaerobic Digestion: The Key Role of \n4\nFe(III)/Fe(II) Cycle and Reactive Oxygen Species\n5\n6\n7\nXuepeng Wanga, Jinshuo Zhanga, Bowen Yanga, Haohao Maoa, Qilin Yua, Yaobin \n8\nZhanga*\n9\n10\n11\n12\nAffiliations:\n13\na Dalian University of Technology School of Environmental Science and Technology \n14\nNo.2 Linggong Road, Ganjingzi District. Dalian, Liaoning, 116024, China.\n15\n* Correspondence: Tel: +86 411 8470 6460, Fax: +86 411 8470 6263;\n16\nE-mail address: zhangyb@dlut.edu.cn\n17\n18\n19\n20\n21\nThis supporting information contains 19 pages, including 5 texts, 5 tables, and 4 figures.\n22\n",
+    "interpretation": "题名、XuepengWang等作者及DalianUniversityTechnology与正文一致；核实SI唯一关联，不凭目录。"
+  },
+  {
+    "evidence_id": "R11843-E01",
+    "record_id": "R11843",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R11843/fulltext/fulltext__published__d0799750cc24301f.pdf",
+    "source_sha256": "d0799750cc24301f78fdd3645102eeaf243c1237f7ef499f742bf77665686da2",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      4
+    ],
+    "section": "§2.4 Microbial analyses",
+    "excerpt": "The DNA \nextracts were then submitted to the Host Microbiome Initiative (Uni­\nversity of Michigan, Ann Arbor, MI, USA) for 16S rRNA gene sequencing \nvia Illumina MiSeq (San Diego, CA, USA). Universal primers F515 and \nR806 targeting the V4 region of the 16S rRNA gene (Caporoso et al., \n2011) were used for PCR amplification. The raw sequence data were \nsubmitted to NCBI under accession number PRJNA1149829. The se­\nquences obtained were processed using DADA2 v.1.26 (Callahan et al., \n2016). \nAnalyses \nwere \nperformed \nusing \nRStudio \n(version \n2022.12.0.353).",
+    "interpretation": "完整§2.1–2.5 PDF3–4，全规模脱硫/动力学；微生物方法为F515/R806 V4 PCR/MiSeq，非shotgun。"
+  },
+  {
+    "evidence_id": "R11843-E02",
+    "record_id": "R11843",
+    "evidence_kind": "附件身份核验",
+    "source_path": "original_files/R11843/supplementary/supplementary__f83ab3567edc6726.docx",
+    "source_sha256": "f83ab3567edc6726554d3b81d15088eee215172f68c9a2f8741a1e8d41a4a8a9",
+    "pdf_pages": [],
+    "section": "DOCX段落3–6题名、作者、机构",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "excerpt": "Micro-aeration for Hydrogen Sulfide Reduction in Full-Scale Anaerobic Digesters with Limited Headspace\n\nAli Khadira, George Nakhlaa, Renisha Karkib, Lutgarde Raskinb, Christopher Mullerc, Karla Guevarrad, Amanda Summersd, Laurie Pierced, Parisa Shahbazd, Kati Bellc, Steven Skerlosb, Embrey Bronstadc*\na Department of Chemical and Biochemical Engineering, Thompson Engineering Building, Western University, London, Ontario, Canada, b Department of Civil and Environmental Engineering, University of Michigan, Ann Arbor, MI, United States, c Brown and Caldwell, 1527 Cole Blvd #300, Lakewood, CO 80401, United States, d Pierce County Planning and Public Works - Sewer Division, 9850 64th St. W, University Place, WA, United States ",
+    "interpretation": "题名、完整作者及机构与正文一致，不凭目录核实唯一关联。"
+  },
+  {
+    "evidence_id": "R12127-E01",
+    "record_id": "R12127",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12127/supplementary/supplementary__16a131ec6fbe2bb8.docx",
+    "source_sha256": "16a131ec6fbe2bb8474d662760d3a3cc7de9fe5dbb3a938f84549a36cf49cc16",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [],
+    "section": "SI TextS7 Metagenomic analysis，DOCX段落58",
+    "excerpt": "The metagenomic absolute quantification sequencing was performed by GeneCowin Biotechnologies Inc., Shanghai, China. Briefly, total genomic DNA was extracted using the FastDNA® SPIN Kit for Soil (MP Biomedicals, Santa Ana, CA) according to the manufacturer's instructions. The integrity of genomic DNA was detected through agarose gel electrophoresis, and the concentration of genomic DNA were detected through the Qubit3.0 Spectrophotometer. The DNA extracts were spiked with internal standard spike-in DNA（Genesky, China） at 0.1% total DNA by mass. The DNA after mixing internal standard spike-in DNA was sheared by Covaris® system (Covaris, USA). DNA libraries were prepared by a ligation dependent method by using DNA library preparation kit (Genesky, China). 500-600 bp range of sequencing library was size-selected and recovered using MagicPure® Size Selection DNA Beads (Transgen，Beijing). DNA libraries were qualified on the Agilent 2100 Bioanalyzer (Agilent, USA), and quantified with Kapa Library Quantification kit (Kapa Biosystems, Wilmington, MA) using the ABI 9700HT Fast Real-Time PCR system (Thermo Fisher Scientific). The libraries were sequenced on NovaSeq 6000 platform (Illumina USA) and generated 10G bps of 2×150bp pair-end reads.",
+    "interpretation": "总群落DNA打断并连接建库；内标/文库定量PCR不改变shotgun判断。"
+  },
+  {
+    "evidence_id": "R12127-E02",
+    "record_id": "R12127",
+    "evidence_kind": "数据声明",
+    "source_path": "original_files/R12127/fulltext/fulltext__published__14faeda50fcb9432.pdf",
+    "source_sha256": "14faeda50fcb94320d7fec5c7a1d112c73ece0235fb40ef9f26accb3f45fcea1",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      8
+    ],
+    "section": "Data availability",
+    "excerpt": "Data availability\nData will be made available on request.",
+    "interpretation": "泛指声明，未明确reads可索取。"
+  },
+  {
+    "evidence_id": "R12279-E01",
+    "record_id": "R12279",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12279/fulltext/fulltext__published__a4024be5139d5819.pdf",
+    "source_sha256": "a4024be5139d5819b2d5741864c0012abe9d7d5c7f118b832f1256473bb4b672",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      5
+    ],
+    "section": "§2.4 Analyses（续）",
+    "excerpt": "The supernatants from centrifuged \nsamples underwent three chloroform/methanol extractions, \nfollowed by solvent removal using a Büchi R-210 Rotavapor \nconnected to a V-850 vacuum controller and a V-700 vacuum \npump. The residue was resolubilized in HPLC-grade water, filtered \n(0.45-μm nylon), and analyzed via HPLC (Model 1100, Agilent \nTechnologies, Santa Clara, CA, United States) with a variable \nwavelength detector. Separation was achieved using a reversed-\nphase Luna C18(2) column (4.6 × 250 mm, 5 μm particle size; \nPhenomenex, Torrance, CA, United States). An isocratic mobile \nphase was employed comprising water/methanol (65/35, v/v) with \n1% acetic acid, a 1 mL·min−1 flow rate, and a 20 μL injection \nvolume. Caffeine was detected at 280 nm and quantified via \ncalibration curves.",
+    "interpretation": "完整§2.1–2.5 PDF3–5为ORP微曝气、咖啡废水/咖啡因HPLC、GC/VFA及统计；未开展核酸测序。讨论microbiome响应不当自身测序。"
+  },
+  {
+    "evidence_id": "R12384-E01",
+    "record_id": "R12384",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12384/fulltext/fulltext__published__1e948fa711216475.pdf",
+    "source_sha256": "1e948fa711216475e59f2aa9f4bfc93db00e1013c1ec1d2f8a70661e341e7633",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.5 Analytical methods",
+    "excerpt": "Glucose and lactate were determined using a high- \nperformance liquid chromatograph (HPLC) (Shimadzu LC 20AD), \nwhich was coupled with a refractive index and UV detector (Shimadzu, \nKyoto, Japan).",
+    "interpretation": "完整§2.1–2.5 PDF2–3为HTL水毒性、乙酸营养产甲烷活性、BMP与色谱，无核酸提取/建库/测序；文献相对丰度不当本研究数据。"
+  },
+  {
+    "evidence_id": "R12483-E01",
+    "record_id": "R12483",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12483/fulltext/fulltext__published__b51428ca89e5bf95.pdf",
+    "source_sha256": "b51428ca89e5bf95c17225fe2e0a08a920379629281ab76f33337561553f3b0f",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      8
+    ],
+    "section": "§2.5 Biological Methane Potential（泰文）",
+    "excerpt": "การเตรียมชุดทดลองเพื่อประเมินศักยภาพในการผลิตมีเทน\nโดยการผสมตะกอนจุลินทรีย์จำนวน 65 g กับตัวอย่างวัสดุเข้า\nด้วยกันในขวด Duran ขนาด 250 ml สัดส่วน VS 1:1 ผสมให้\nเข้ากัน เติมน้ำกลั่นที่ผ่านการฆ่าเชื้อให้ได้ปริมาตรสุดท้าย\nประมาณ 200 ml ต่อขวด ประกอบชุดบ่มเข้ากับชุดกำจัดแก๊ส\nคาร์บอนไดออกไซด์โดยการเติมสารละลายโซเดียมไฮดรอกไซด์ที่\nความเข้มข้น 3 M ปลายท่อต่อหัวทรายเพื่อช่วยให้แก๊สกระจาย\nตัวเป็นฟองขนาดเล็ก ต่ออุปกรณ์เข้ากับชุดแทนที่ด้วยน้ำเพื่อเช็ค\nรอยต่อปิดให้สนิทป้องกันการรั่วไหลของแก๊ส หลังทดสอบการรั่ว\nของชุดอุปกรณ์ ปั๊มแก๊สไนโตรเจนที่ผ่านตัวกรองฆ่าเชื้อเข้าขวด\nชุดอุปกรณ์ด้วยอัตรา 25 ml min-1 เป็นเวลา 5 min เพื่อไล่\nออกซิเจนออกจากระบบ ดังแสดงแบบจำลองระบบใน Figure 6 \nและชุดทดสอบการผลิตมีเทนดังในแสดงใน Figure 7   \nการทดลองบ่มเพาะที่อุณหภูมิห้องประมาณ 30 ºC เขย่าวัน\nละรอบ วัดปริมาณน้ำที่ถูกแทนที่ทุกวันเป็นเวลา 30 วัน หรือ\nจนกว่าปริมาณการผลิตแก๊สมีปริมาณลดลงหรือระบบหยุดการ\nผลิตแก๊ส (ณัฐพล และคณะ, 2566) ทุกชุดการทดลองทำซ้ำ 3 ซ้ำ",
+    "interpretation": "泰文原始研究，完整§2.1–2.6 PDF5–8：甘蔗叶/废菌菇基质/纯Pleurotus培养对比，纤维NDF/ADF/ADL、DNSA还原糖/COD与BMP，无DNA/RNA测序。不是综述，原分类保留。"
+  },
+  {
+    "evidence_id": "R12509-E01",
+    "record_id": "R12509",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12509/fulltext/fulltext__published__8c04deeda2dde15d.pdf",
+    "source_sha256": "8c04deeda2dde15d24c86df5fafff28420f8a8a4bbb295b1b7aae5dbf72d9dc9",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.3 DNA extraction, metagenomic sequencing",
+    "excerpt": "Genomic DNA from each sample was isolated using the CTAB \nextraction protocol. Subsequently, 1 μg of genomic DNA was randomly \nsheared into approximately 350 bp fragments using a Covaris ultra­\nsonicator. Library construction included end repair, A-tailing, adaptor \nligation, purification, and PCR amplification. Initial library quantifica­\ntion was performed using a Qubit 2.0 fluorometer, after which the li­\nbrary was diluted to 2 ng/μL. Insert size was evaluated using an Agilent \n2100 Bioanalyzer. After confirming the expected insert size, the effec­\ntive library concentration was quantified by qPCR, with a threshold of \n>3 nM used to validate library quality. Qualified libraries were pooled \naccording to effective concentration and the intended sequencing data \nvolume, followed by paired-end sequencing using the Illumina platform \nwith a PE150 strategy.",
+    "interpretation": "随机群落DNA片段建库，不将文库PCR误为扩增子。"
+  },
+  {
+    "evidence_id": "R12509-E02",
+    "record_id": "R12509",
+    "evidence_kind": "数据声明",
+    "source_path": "original_files/R12509/fulltext/fulltext__published__8c04deeda2dde15d.pdf",
+    "source_sha256": "8c04deeda2dde15d24c86df5fafff28420f8a8a4bbb295b1b7aae5dbf72d9dc9",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      12
+    ],
+    "section": "Data availability",
+    "excerpt": "Data availability\nData will be made available on request.",
+    "interpretation": "泛指可索取，原始reads是否包含未明确。"
+  },
+  {
+    "evidence_id": "R12562-E01",
+    "record_id": "R12562",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12562/fulltext/fulltext__published__5e2da5c213ea560e.pdf",
+    "source_sha256": "5e2da5c213ea560e8e9b1b3da4f41c8325b684923f766c12a5fa1ffa84e1dcb3",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.4 Metagenomic sequencing",
+    "excerpt": "To further investigate the impact of tetracycline on the functional \npotential of microorganisms during AD, metagenomic sequencing of \nsludge samples was conducted at different stages (Days 0, 4, 17, and 38) \nusing the Illumina NovaSeq 6000 platform, with a sequencing mode of \nPE150. The original data obtained from sequencing were subjected to \nquality checks, including the removal of adapters and low-quality reads, \nthereby obtaining more accurate species annotation and functional \nannotation results (Xiang et al., 2024). Subsequently, de novo assembly \nwas performed separately for each sample. The assembled contigs were \nsubjected to CDS prediction, and short segment contig sequences were \nfiltered out. Non-redundant Unigene sets were generated via sequence \nclustering.",
+    "interpretation": "群落样本de novo/CDS与ARG原始reads分析，并非PICRUSt式预测。"
+  },
+  {
+    "evidence_id": "R12562-E02",
+    "record_id": "R12562",
+    "evidence_kind": "测序编号",
+    "source_path": "original_files/R12562/fulltext/fulltext__published__5e2da5c213ea560e.pdf",
+    "source_sha256": "5e2da5c213ea560e8e9b1b3da4f41c8325b684923f766c12a5fa1ffa84e1dcb3",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.4 Data deposition",
+    "excerpt": "All original sequencing data have \nbeen submitted to the NCBI database, with the accession number \nPRJNA1369098.",
+    "interpretation": "BioProject层级，官方策略与公开状态另核验。"
+  },
+  {
+    "evidence_id": "R12839-E01",
+    "record_id": "R12839",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12839/fulltext/fulltext__published__18781366720e0604.pdf",
+    "source_sha256": "18781366720e06042a07c8ed6b7333c8e7206826b2a438777985a5cd9b4e53d1",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.4 Microbial analysis",
+    "excerpt": "Genomic DNA was \nextracted with the PowerSoil DNA Isolation Kit and verified by 1% \nagarose gel electrophoresis. The bacterial 16S rRNA V3–V4 and archaeal \nV4–V5 regions were PCR-amplified using 515FmodF and 806RmodR \nprimers, respectively, quantified with the QuantiFluor™-ST system, and \nsequenced on Illumina MiSeq (Majorbio) after TruSeq™ library con­\nstruction. Functional profiles and the relative abundance of predicted \nenzyme-related genes were inferred using PICRUSt2. (http://huttenh \nower.sph.harvard.edu/galaxy).",
+    "interpretation": "完整§2.1–2.5 PDF2–3，16S区域PCR/MiSeq；功能明确PICRUSt2。PDF10明说非实测表达/酶活/通量，MG/MT只建议未来验证。"
+  },
+  {
+    "evidence_id": "R12841-E01",
+    "record_id": "R12841",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12841/fulltext/fulltext__published__8bb95f7588cd32f1.pdf",
+    "source_sha256": "8bb95f7588cd32f1c4a5ebc79c76fb6e997bb6e75e78b85c779b7d893e214e4c",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      4
+    ],
+    "section": "§2.4 Microbial community analysis",
+    "excerpt": "10 μL genomic DNA extract was sent \nout to LGC genomics GmbH (Berlin, Germany) for library preparation \nand sequencing on an Illumina Miseq platform with v3 chemistry with \nthe primers 341F (5’-CCT ACG GGN GGC WGC AG -3’) and 785Rmod \n(5’-GAC TAC HVG GGT ATC TAA KCC-3’) (Klindworth et al., 2013).",
+    "interpretation": "完整§2.1–2.6 PDF2–4，341F/785Rmod/MiSeqV3与DADA2/ASV/SILVA，非群落随机DNA。目标词仅参考文献。"
+  },
+  {
+    "evidence_id": "R12874-E01",
+    "record_id": "R12874",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12874/fulltext/fulltext__published__bb8bdf93034b5c2c.pdf",
+    "source_sha256": "bb8bdf93034b5c2c6f2535f87e985bac71db76d430987aff0438fe9509668da3",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      4
+    ],
+    "section": "§2.4 Analytical methods",
+    "excerpt": "Molecular weight determinations were made by viscometric mea­\nsurements on diluted chloroform/polymer solutions of about 0.3 g/dl in \na Ubbelohde viscometer (type 0a) at 25.0 ◦C. The viscometric molecular \nweight, Mv, was calculated from the intrinsic viscosity, [η], using Eq. (3) \n[38]:",
+    "interpretation": "完整§2.1–2.4 PDF2–4为PLA3D打印、微曝气/Fenton/碱热、BMP与DSC/FTIR/分子量分析；无核酸/组学。"
+  },
+  {
+    "evidence_id": "R12923-E01",
+    "record_id": "R12923",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12923/fulltext/fulltext__published__c5fa38e81cb6810f.pdf",
+    "source_sha256": "c5fa38e81cb6810fe86ef0057bf639cfed200bf6ffd2a8045b1ac0541a825307",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      2
+    ],
+    "section": "§2.1 Screening of strains",
+    "excerpt": "The screened strains were further isolated, pu­\nrified, and expanded in culture. Subsequently, they were identified by \n16S rDNA and ITS sequencing. Strain S1 was identified as belonging to \nthe genus Bacillus, showing 100 % similarity to Bacillus velezensis strain \nHAB-2. Strains S2 and S3 were identified as belonging to the genus \nPhanerodontia, exhibiting 99.84 % similarity to Phanerodontia chrys­\nosporium and 99.81 % similarity to Phanerodontia chrysosporium SILI, \nrespectively.",
+    "interpretation": "完整§2.1–2.4 PDF2–3，分离Bacillus/Phanerodontia三株并16S/ITS鉴定，API-ZYM/GC/理化；未开展群落DNA/RNA测序。"
+  },
+  {
+    "evidence_id": "R12951-E01",
+    "record_id": "R12951",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12951/fulltext/fulltext__published__a7015b3a125f5c6a.pdf",
+    "source_sha256": "a7015b3a125f5c6ad0ef8eabb19719f9d6c6d240b6b4e20e7d1e97af37be4468",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      5
+    ],
+    "section": "§2.6 Microbial community analysis",
+    "excerpt": "DNA extractions were performed using the DNeasy PowerLyzer \nPowerSoil Kit (Qiagen, Germantown, MD). Polymerase chain reaction \n(PCR) amplification of the fourth and fifth hypervariable (V4-V5) re­\ngions of 16S ribosomal RNA (rRNA) was performed. The specific method \nof performing the microbial community analysis was detailed previously \n[41]. Qiime (V1.7.0, https://qiime.org/scripts/assign_taxonomy.html) \nin the Mothur method (v1.39.5) was performed against the SSUrRNA \ndatabase of SILVA (Release 138.1, https://www.arb-silva.de/)) for \nspecies annotation. Software, R, was used for statistical analysis of the \nmicrobial community structure using the relative abundance of each \ntaxon based on the identification results of the Operational Taxonomic \nUnits (OTUs). The function prediction analysis of the microbial com­\nmunity of the sludge samples was performed according to the 16S rRNA \nsequencing data using PICRUSt2, which is a bioinformatics software \npackage (https://github.com/picrust/picrust2/wik) for metagenomic \nfunction prediction based on the marker gene (16S rRNA in this study). \nThe Metacyc database was referenced, which is a collection of a series of \nmetabolic pathways and enzymes based on the Kyoto Encyclopedia of \nGenes and Genomes (KEGG) database.",
+    "interpretation": "完整§2.1–2.8 PDF2–5，V4–V5 PCR/16S、QIIME/Mothur/SILVA；功能由PICRUSt2/MetaCyc预测，非实际宏组学。"
+  },
+  {
+    "evidence_id": "R12953-E01",
+    "record_id": "R12953",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12953/fulltext/fulltext__published__6d5e2d1da4bc5061.pdf",
+    "source_sha256": "6d5e2d1da4bc50615d7ec8765c7b9431d675c1c24eaf69437c19a5407c950ce3",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      4
+    ],
+    "section": "§2.4 Microbial community analysis",
+    "excerpt": "Functional gene profiles were predicted from 16S rRNA sequencing \ndata using the PICRUSt pipeline, with functional annotation based on \nthe latest KEGG database, as detailed by Langille et al. (2013).",
+    "interpretation": "完整§2.1–2.4 PDF3–4，515F/806R 16S；基因功能明确预测，PDF9说未来MG/MT验证。候选SI TextS1为MiSeq扩增子与PICRUSt2，未新增目标数据。"
+  },
+  {
+    "evidence_id": "R12957-E01",
+    "record_id": "R12957",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12957/fulltext/fulltext__published__150a03f1466bd3e9.pdf",
+    "source_sha256": "150a03f1466bd3e929edfd44e052976a1713b17e34b1f296b3e3de7e61515da0",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.5 Microbial community analysis",
+    "excerpt": "The V3-V4 regions of bacterial \nDNA were amplified using primers 341F (CCTACGGGNGGCWGCAG) \nand 806R (GGACTACHVGGGTATCTAAT), while the V4-V5 regions of \narchaeal \nDNA \nwere \namplified \nwith \nprimers \nArch \n519F \n(CAGCMGCCGCGGTAA) and Arch 915R (GTGCTCCCCCGCCAATTCCT). \nDNA library sequencing was conducted on an Illumina PE2500 platform. \nAll raw sequencing data are available at the National Center for \nBiotechnology Information (https://www.ncbi.nlm.nih.gov/). The \naccession numbers are PRJNA1118040 and PRJNA1118045.",
+    "interpretation": "完整§2.1–2.6 PDF2–3，341F/806R与Arch519F/915R靶区域扩增；原文PE2500平台名照录，不据Illumina平台判断为shotgun。"
+  },
+  {
+    "evidence_id": "R12964-E01",
+    "record_id": "R12964",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12964/fulltext/fulltext__published__ff468fb292fcbb31.pdf",
+    "source_sha256": "ff468fb292fcbb31a90f875cf106a1c9ad9112577d924a0badcdc958ec4d1f33",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.4 Microbiological analyses",
+    "excerpt": "Bacterial \namplification targeted the V3-V4 hypervariable regions using primers \n341F/805R. Archaeal communities were analyzed through nested PCR \namplification. The first-round amplification was performed using \nprimers 340F and 1000R, followed by secondary amplification with \nprimers 349F and 806R, targeting the V3-V4 hypervariable regions of \nthe 16S rRNA gene. Library quality was verified by 2 % agarose gel \nelectrophoresis prior to sequencing on the Illumina NextSeq 2000 \nplatform (Illumina, USA). PICRUSt (v1.1.4) and FAPROTAX (v1.2.1) \nwere used for annotation of 16S rRNA gene sequencing data to predict \nmicrobial metabolic functions.",
+    "interpretation": "完整§2.1–2.6 PDF2–3，细菌341F/805R、古菌两轮nested16S PCR/NextSeq2000；功能由PICRUSt1.1.4/FAPROTAX，不当实际基因表达或宏转录组。"
+  },
+  {
+    "evidence_id": "R12985-E01",
+    "record_id": "R12985",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12985/fulltext/fulltext__published__f42e1cfc61ed462e.pdf",
+    "source_sha256": "f42e1cfc61ed462e54cdbb54d555f5f6230676c933caeed18744e15e9f7e1420",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      19
+    ],
+    "section": "§4.2 DNA extraction, library preparation, sequencing",
+    "excerpt": "Samples were processed and analyzed with the shotgun metagenomic sequencing\nservice (Zymo Research, Irvine, CA, USA). DNA extraction, library preparation and se-\nquencing protocols were previously described [19]. Briefly, DNA was extracted using\nZymoBIOMICS®-96 MagBead DNA kit (Zymo Research, Irvine, CA, USA) according to the\nmanufacturer’s instructions. Genomic DNA samples were profiled with shotgun metage-\nnomic sequencing. Sequencing libraries were prepared with an Illumina® DNA library\npreparation kit (Illumina, San Diego, CA, USA) with up to 500 ng DNA input following the\nmanufacturer’s protocol using unique dual-index 10 bp barcodes with Nextera® adapters\n(Illumina, San Diego, CA, USA). All libraries were pooled in equal abundance, which will\nresult in sufficient normalization and a similar number of reads per sample. The final pool\nwas quantified using qPCR and TapeStation® (Agilent Technologies, Santa Clara, CA). The\nfinal library was sequenced on the NovaSeq® (Illumina, San Diego, CA, USA) platform.",
+    "interpretation": "群落DNA shotgun方法；已知前作流程引用19，项目/样本与前作相同。"
+  },
+  {
+    "evidence_id": "R12985-E02",
+    "record_id": "R12985",
+    "evidence_kind": "测序编号",
+    "source_path": "original_files/R12985/fulltext/fulltext__published__f42e1cfc61ed462e.pdf",
+    "source_sha256": "f42e1cfc61ed462e54cdbb54d555f5f6230676c933caeed18744e15e9f7e1420",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      21
+    ],
+    "section": "Data availability statement",
+    "excerpt": "Data Availability Statement: Sequence data were deposited into the National Center for Biotechnol-\nogy Information (NCBI) under Sequence Read Archive (SRA) and can be accessed by the BioProject ID:\nPRJNA1013451 with the following BioSample Accession numbers: SAMN37298551, SAMN37298552,\nSAMN37298553, SAMN37298554, SAMN37298555, SAMN37298556, SAMN37298557, SAMN37298558,\nSAMN37298559, SAMN37298560, SAMN37298561, SAMN37298562, SAMN37298563, SAMN37298564,\nSAMN37298565, SAMN37298566, SAMN37298567, SAMN37298568, SAMN37298569, SAMN37298570,\nand SAMN37298571.",
+    "interpretation": "本文明确项目及21样本，与R09236完全重合；项目去重而文章保留。"
+  },
+  {
+    "evidence_id": "R12985-E03",
+    "record_id": "R12985",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R12985/fulltext/fulltext__published__f42e1cfc61ed462e.pdf",
+    "source_sha256": "f42e1cfc61ed462e54cdbb54d555f5f6230676c933caeed18744e15e9f7e1420",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      21
+    ],
+    "section": "Limitations",
+    "excerpt": "Due to the lack of biological replicates,\nwe could not analyze the data over time, and our inference was merely based on observed\nvalues.",
+    "interpretation": "原文明示无生物重复，时间点不当独立重复。"
+  },
+  {
+    "evidence_id": "R13086-E01",
+    "record_id": "R13086",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R13086/fulltext/fulltext__published__ebdb6762b8ec6d74.pdf",
+    "source_sha256": "ebdb6762b8ec6d740707d64423781212e0c6f83e19caf005f82db113608e644b",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.7 Metagenomic analysis",
+    "excerpt": "At the end of each operating condition, carriers were collected from \nseveral positions within the reactor. Biofilms detached from these car­\nriers were combined and thoroughly homogenized to obtain one com­\nposite sample for each condition. Accordingly, four composite biofilm \nsamples corresponding to R1-R4 were subjected to metagenomic anal­\nysis. The samples were stored at −80 ◦C before DNA extraction. Total \ngenomic DNA was extracted using a commercial biofilm DNA extraction \nkit, and DNA concentration, purity, and integrity were evaluated prior to \nlibrary preparation. Qualified DNA was fragmented for paired-end li­\nbrary construction and subsequently subjected to high-throughput \nsequencing on an Illumina platform (Personalbio, Shanghai, China). \nRaw sequencing reads were filtered to remove adapter sequences, low- \nquality reads, and short sequences, followed by de novo assembly \nusing MEGAHIT.",
+    "interpretation": "混合群落生物膜DNA打断/PE建库，非仅功能预测；每条件1混样。"
+  },
+  {
+    "evidence_id": "R13086-E02",
+    "record_id": "R13086",
+    "evidence_kind": "数据声明",
+    "source_path": "original_files/R13086/fulltext/fulltext__published__ebdb6762b8ec6d74.pdf",
+    "source_sha256": "ebdb6762b8ec6d740707d64423781212e0c6f83e19caf005f82db113608e644b",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      13
+    ],
+    "section": "Data availability",
+    "excerpt": "Data availability\nData will be made available on request.",
+    "interpretation": "泛指数据可索取，是否含reads未说明。"
+  },
+  {
+    "evidence_id": "R13236-E01",
+    "record_id": "R13236",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R13236/fulltext/fulltext__published__5f6e6d7b9f8bb713.pdf",
+    "source_sha256": "5f6e6d7b9f8bb7135ba43f5165dd54384c0d5d8c2b99b82f8d9df7025df783dd",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.8 Microbial community structure analysis",
+    "excerpt": "Genomic DNA extraction was performed using the FastDNA®SPIN \nKit for Soil (MP Biomedicals). The variable regions of the 16S rRNA \ngenes were amplified via PCR employing modified universal primers \n338FmodF (GTGYCAGCMGCCGCGGTAA) and 806RmodR (GGAC­\nTACNVGGGTWTCTAAT). The resulting amplicons were sequenced on \nan Illumina MiSeq platform (Majorbio). Bioinformatics processing \nencompassed raw data quality control, contig assembly, reference-based \ntaxonomy annotation, α-diversity assessment, and community structure \nanalysis, in accordance with established bioinformatics protocols from \nprevious studies [25,31].",
+    "interpretation": "完整§2.1–2.9 PDF2–4，16S338FmodF/806RmodR PCR/MiSeq。结果PDF10明确PICRUSt2/16S推断，不作真实宏组学。"
+  },
+  {
+    "evidence_id": "R13274-E01",
+    "record_id": "R13274",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R13274/fulltext/fulltext__published__a01e60567ddc9a8f.pdf",
+    "source_sha256": "a01e60567ddc9a8f833e3e4d2af079ab1bfb52380a79226a3cb7fe8384e2ad63",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.4 Microbial analysis",
+    "excerpt": "For metatranscriptomic analysis, total RNA was extracted and puri­\nfied using the Soil RNA Extraction Kit (Majorbio, Shanghai, China) \nfollowing the manufacturer’s instructions. RNA concentration and \nintegrity were assessed using a NanoDrop 2000 spectrophotometer \n(Thermo Scientific, MA, USA) and an Agilent 5300 Bioanalyzer (Agilent \nTechnologies, Palo Alto, CA, USA). RNA libraries were prepared using \nthe Illumina® Stranded mRNA Prep Ligation Kit (Illumina, San Diego, \nCA, USA), and ribosomal RNA was removed using the RiboCop rRNA \nDepletion Kit for Mixed Bacterial Samples (Lexogen, USA). Paired-end \n(150 bp) sequencing was performed on the Illumina NovaSeq 6000 \nplatform at Majorbio Bio-Pharm Technology Co., Ltd. (Shanghai, \nChina).",
+    "interpretation": "发酵混合群落RNA及混合细菌去rRNA证据明确，非单菌RNAseq。"
+  },
+  {
+    "evidence_id": "R13274-E02",
+    "record_id": "R13274",
+    "evidence_kind": "相关测序数据可索取",
+    "source_path": "original_files/R13274/fulltext/fulltext__published__a01e60567ddc9a8f.pdf",
+    "source_sha256": "a01e60567ddc9a8f833e3e4d2af079ab1bfb52380a79226a3cb7fe8384e2ad63",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      11
+    ],
+    "section": "Data availability",
+    "excerpt": "Data availability\nThe datasets supporting this study—including the physicochemical \nproperties of fermentation substrates and samples, raw 16S/ITS ampli­\ncon sequencing data, and raw metatranscriptomic sequencing data—are \navailable from the corresponding author upon reasonable request. Re­\nquests must include a brief description of the intended research purpose, \nand a signed data usage agreement (which will be provided by the au­\nthors) is required to ensure compliance with the confidentiality obli­\ngations of our collaborating institution.",
+    "interpretation": "明确包括rawmetatranscriptomicsequencingdata；用途说明+数据协议条件原样保留，未联系作者，不标公开下载。"
+  },
+  {
+    "evidence_id": "R13275-E01",
+    "record_id": "R13275",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R13275/fulltext/fulltext__published__a552c2e43763f17c.pdf",
+    "source_sha256": "a552c2e43763f17cf1577184960c6ccbfcf9b37e9037987edc115c471449f423",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.4 Microbial community characterization",
+    "excerpt": "Indexing primers targeting the V3-V4 variable region of the 16S \nrRNA bacterial gene (16S_F: 5′-AGAGTTTGATGMTGGCTCAG-3′; 16S_R: \n5′-TTACCGCGGCMGCSGGCAC-3′) were used to generate amplicon li­\nbraries. Following indexing PCR, the constructed libraries were quan­\ntified using the Qubit fluorometer and the Agilent 2100 Bioanalyzer \nsystem (Model 2939A). Sequencing of the enriched libraries was per­\nformed at Biokart India using the Illumina HiSeq 2000 platform. The \nsequencing data obtained were analysed for alpha diversity (Chao1, PD \nwhole tree, observed OTUs), which was calculated using R software. \nBeta diversity and taxonomic analysis were also performed. The sum­\nmary of species diversity was examined using the QIIME platform, an \nadvanced bioinformatics tool.",
+    "interpretation": "完整§2.1–2.5 PDF2–4明确双索引PCR、16S靶引物、ampliconlibrary和QIIME/OTU；虽全文称metagenomic，具体方法不是群落随机DNA测序。"
+  },
+  {
+    "evidence_id": "R13282-E01",
+    "record_id": "R13282",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R13282/fulltext/fulltext__published__93cadfa778095a0e.pdf",
+    "source_sha256": "93cadfa778095a0ec79a6ee1d1b45cbba28d25c6fafc477ddfbce06f6d8faa31",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      5
+    ],
+    "section": "§2.3 Measurements and analytical methodology",
+    "excerpt": "The cumulative volume of biogas generated in the CSTR was measured daily using\na gas meter (Ritter, TGO5/5, Schwabmünchen, Germany). The chemical constitution of\ngenerated biogas (CH4, CO2, H2, and O2) was examined daily using a gas chromatography\n(GC) (PerkinElmer, AutoSystem, Waltham, MA, USA) connected to a thermal conductivity\ndetector in conjunction with two packed columns (HayeSep D 100/120 mesh and Molecular\nSieve, Altech, Deerfield, IL, USA) in series. Ar was used as a carrier gas. The temperatures\nof the injector, column, and detector were fixed at 150, 60, and 200 ◦C, respectively.",
+    "interpretation": "完整§2.1–2.3 PDF3–6为木薯废水/渣CSTR、气体GC、纤维/元素/水质分析；无核酸提取或测序。"
+  },
+  {
+    "evidence_id": "R13283-E01",
+    "record_id": "R13283",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R13283/fulltext/fulltext__published__0cb5643aac5b794e.pdf",
+    "source_sha256": "0cb5643aac5b794ec0871e11f6405bc83ff88527445cc36be1ec51b9e9b7c075",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "METHOD – System performance monitoring",
+    "excerpt": "System performance monitoring encompassed a range of physical-chem-\nical and gas-related parameters, using standard methods and instrumenta-\ntion. Influent and effluent flow rates were measured directly in the field. \nDissolved methane concentrations were determined using the headspace \nextraction method followed by gas chromatography, as described by Souza, \nChernicharo and Aquino (2011). Dissolved hydrogen sulfide was quantified \nby the colorimetric method, according to Plas et al. (1992) and pH, temper-\nature, and dissolved oxygen were monitored with a multiparameter probe \n(HACH® HQ40D). Biogas production was quantified using a gas meter \n(Ritter® TG3), while biogas composition required a portable gas analyzer \nequipped with electrochemical sensors (LANDTEC® GEM™ 5000).",
+    "interpretation": "完整METHOD PDF2–4为真实生活污水示范规模UASB与解吸室、GC/比色/气体分析及统计，无核酸测序。"
+  },
+  {
+    "evidence_id": "R13293-E01",
+    "record_id": "R13293",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R13293/fulltext/fulltext__published__3c6fb447cba3ef2c.pdf",
+    "source_sha256": "3c6fb447cba3ef2c2522c78aa5fb6242ad21ad48acfc3aa946e90257d9e59d2c",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      4
+    ],
+    "section": "§2.5 Microbiological analysis",
+    "excerpt": "Based on the V4 region of the 16S rRNA gene, amplicon\nsequencing was performed in triplicate according to the Illumina\nprotocol, using specific primers (515F/806R).",
+    "interpretation": "完整§2.1–2.6 PDF2–5，515F/806R PCR/16S扩增子/ASV/MiDAS；功能明确PICRUSt2。SI标active genes仍属于该预测，不作实际RNA组学。"
+  },
+  {
+    "evidence_id": "R13458-E01",
+    "record_id": "R13458",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R13458/fulltext/fulltext__published__7d4f74a74e6c0aa2.pdf",
+    "source_sha256": "7d4f74a74e6c0aa2b637f3f0de9961f2c844415168db39b37d199325cf43e376",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.6 Microbial community analysis",
+    "excerpt": "The samples were dispatched to Shanghai Meiji Biotechnology Co., \nLtd. for analysis, where high-throughput sequencing of the 16S rRNA \ngene was subsequently conducted on the Illumina MiSeq platform. The \nbacterial amplification primers were 338F and 806R, and the archaeal \namplification primers were 524F10extF and Arch958RmodR. A series of \nmicrobial-related analyses were conducted using the Meiji Cloud plat­\nform, and PICRUSt2 was employed to predict microbial metabolic \nfunctions and identify key enzymes [28]. Functional annotation of the \nresults was carried out using the KEGG database (https://www.genome. \njp/kegg/). Finally, the raw data generated from the microbial \nsequencing was uploaded to the NCBI database (https://www.ncbi.nlm. \nnih.gov), with the accession number PRJNA1169782.",
+    "interpretation": "完整§2.1–2.7 PDF2–3，细菌338F/806R及古菌524F/958R靶基因扩增/MiSeq，功能由PICRUSt2/KEGG预测。MG/MT仅参考文献。"
+  },
+  {
+    "evidence_id": "R13557-E01",
+    "record_id": "R13557",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R13557/fulltext/fulltext__published__a7b3007b90f2b38a.pdf",
+    "source_sha256": "a7b3007b90f2b38ad696115789c5399319b330592d2f07ae78ab379c3bfac317",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B007",
+    "pdf_pages": [
+      3
+    ],
+    "section": "§2.2 Chemical and chromatographic analysis",
+    "excerpt": "Biomass samples from the inoculum and the four reactors were sent \nto identify microbial communities and underwent extraction, \nsequencing, and analysis of absolute abundances. DNA collection, \nextraction, 16S rRNA gene amplicon sequencing, and data processing \nwere performed following the methodology described by Silva et al. \n(2023). The sequencing data generated in this study have been sub­\nmitted to the National Center for Biotechnology Information (NCBI) \nBioProject repository under the ID PRJNA836880.",
+    "interpretation": "完整§2.1–2.3 PDF3–4，正文明确16S rRNA gene amplicon sequencing；MG/transcriptomic仅后续研究建议，非本研究实测。"
   }
 ]

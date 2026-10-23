@@ -275,7 +275,11 @@
     "path": "original_files/R11751/supplementary/supplementary__0bb73736e985bad3.pdf",
     "sha256": "0bb73736e985bad328ad00eecf5af2af45d581a28ff08d5b6c6eacfff8598d94",
     "reason": " 文件可打开且内容为表格/数据/图等补充材料；缺题名/DOI等唯一关联凭据，仅保留目录及内容关联，不能声称已核实附件身份或已收齐全部附件。",
-    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实"
+    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实",
+    "resolution_status": "已解决",
+    "resolved_in_batch": "B007",
+    "resolution": "SI PDF1题名、作者、机构与正文一致",
+    "resolution_evidence_id": "R11751-E02"
   },
   {
     "record_id": "R13914",
@@ -723,7 +727,11 @@
     "path": "original_files/R11843/supplementary/supplementary__f83ab3567edc6726.docx",
     "sha256": "f83ab3567edc6726554d3b81d15088eee215172f68c9a2f8741a1e8d41a4a8a9",
     "reason": " 文件可打开且内容为表格/数据/图等补充材料；缺题名/DOI等唯一关联凭据，仅保留目录及内容关联，不能声称已核实附件身份或已收齐全部附件。",
-    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实"
+    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实",
+    "resolution_status": "已解决",
+    "resolved_in_batch": "B007",
+    "resolution": "DOCX题名、完整作者、机构与正文一致",
+    "resolution_evidence_id": "R11843-E02"
   },
   {
     "record_id": "R13857",
@@ -1492,5 +1500,152 @@
     "reason": "正文细菌/古菌16S扩增子项目。",
     "public_status": "未作本批官方核验（正文已明确非目标）",
     "action": "保留线索，不计目标数据项目。"
+  },
+  {
+    "record_id": "R11693",
+    "path": "original_files/R11693/fulltext/fulltext__published__6ae8f5e4e6b40535.pdf",
+    "sha256": "6ae8f5e4e6b40535386c46952aacd6cbb94b2ad4779e02e16be5eb45c18e3949",
+    "batch_id": "B007",
+    "issue_type": "非目标扩增子项目",
+    "raw_accession": "PRJNA1217127",
+    "normalized_accession": "PRJNA1217127",
+    "accession_level": "BioProject",
+    "database": "NCBI",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1217127",
+    "reason": "正文16S V4扩增子数据；功能由Tax4Fun2预测。",
+    "public_status": "未作本批官方核验（正文已明确非目标）",
+    "action": "保留线索，不计目标数据项目。"
+  },
+  {
+    "record_id": "R11843",
+    "path": "original_files/R11843/fulltext/fulltext__published__d0799750cc24301f.pdf",
+    "sha256": "d0799750cc24301f78fdd3645102eeaf243c1237f7ef499f742bf77665686da2",
+    "batch_id": "B007",
+    "issue_type": "非目标扩增子项目",
+    "raw_accession": "PRJNA1149829",
+    "normalized_accession": "PRJNA1149829",
+    "accession_level": "BioProject",
+    "database": "NCBI",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1149829",
+    "reason": "本文16S V4扩增子数据，非宏基因组。",
+    "public_status": "未作本批官方核验（正文已明确非目标）",
+    "action": "保留线索，不计目标数据项目。"
+  },
+  {
+    "record_id": "R12957",
+    "path": "original_files/R12957/fulltext/fulltext__published__150a03f1466bd3e9.pdf",
+    "sha256": "150a03f1466bd3e929edfd44e052976a1713b17e34b1f296b3e3de7e61515da0",
+    "batch_id": "B007",
+    "issue_type": "非目标扩增子项目",
+    "raw_accession": "PRJNA1118040",
+    "normalized_accession": "PRJNA1118040",
+    "accession_level": "BioProject",
+    "database": "NCBI",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1118040",
+    "reason": "细菌/古菌16S扩增子数据，非目标。",
+    "public_status": "未作本批官方核验（正文已明确非目标）",
+    "action": "保留线索，不计目标数据项目。"
+  },
+  {
+    "record_id": "R12957",
+    "path": "original_files/R12957/fulltext/fulltext__published__150a03f1466bd3e9.pdf",
+    "sha256": "150a03f1466bd3e929edfd44e052976a1713b17e34b1f296b3e3de7e61515da0",
+    "batch_id": "B007",
+    "issue_type": "非目标扩增子项目",
+    "raw_accession": "PRJNA1118045",
+    "normalized_accession": "PRJNA1118045",
+    "accession_level": "BioProject",
+    "database": "NCBI",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1118045",
+    "reason": "细菌/古菌16S扩增子数据，非目标。",
+    "public_status": "未作本批官方核验（正文已明确非目标）",
+    "action": "保留线索，不计目标数据项目。"
+  },
+  {
+    "record_id": "R13293",
+    "path": "original_files/R13293/fulltext/fulltext__published__3c6fb447cba3ef2c.pdf",
+    "sha256": "3c6fb447cba3ef2c2522c78aa5fb6242ad21ad48acfc3aa946e90257d9e59d2c",
+    "batch_id": "B007",
+    "issue_type": "非目标扩增子项目",
+    "raw_accession": "PRJNA836880",
+    "normalized_accession": "PRJNA836880",
+    "accession_level": "BioProject",
+    "database": "NCBI",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA836880",
+    "reason": "16S扩增子项目；与R13557同号，不计目标数据。",
+    "public_status": "未作本批官方核验（正文已明确非目标）",
+    "action": "保留线索，不计目标数据项目。"
+  },
+  {
+    "record_id": "R13458",
+    "path": "original_files/R13458/fulltext/fulltext__published__7d4f74a74e6c0aa2.pdf",
+    "sha256": "7d4f74a74e6c0aa2b637f3f0de9961f2c844415168db39b37d199325cf43e376",
+    "batch_id": "B007",
+    "issue_type": "非目标扩增子项目",
+    "raw_accession": "PRJNA1169782",
+    "normalized_accession": "PRJNA1169782",
+    "accession_level": "BioProject",
+    "database": "NCBI",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1169782",
+    "reason": "正文16S扩增子数据，不计目标。",
+    "public_status": "未作本批官方核验（正文已明确非目标）",
+    "action": "保留线索，不计目标数据项目。"
+  },
+  {
+    "record_id": "R13557",
+    "path": "original_files/R13557/fulltext/fulltext__published__a7b3007b90f2b38a.pdf",
+    "sha256": "a7b3007b90f2b38ad696115789c5399319b330592d2f07ae78ab379c3bfac317",
+    "batch_id": "B007",
+    "issue_type": "非目标扩增子项目",
+    "raw_accession": "PRJNA836880",
+    "normalized_accession": "PRJNA836880",
+    "accession_level": "BioProject",
+    "database": "NCBI",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA836880",
+    "reason": "本文明确16S扩增子；与R13293同项目，非目标。",
+    "public_status": "未作本批官方核验（正文已明确非目标）",
+    "action": "保留线索，不计目标数据项目。"
+  },
+  {
+    "record_id": "R12562",
+    "batch_id": "B007",
+    "issue_type": "测序编号公开状态未核实",
+    "path": "original_files/R12562/fulltext/fulltext__published__5e2da5c213ea560e.pdf",
+    "sha256": "5e2da5c213ea560e8e9b1b3da4f41c8325b684923f766c12a5fa1ffa84e1dcb3",
+    "raw_accession": "PRJNA1369098",
+    "normalized_accession": "PRJNA1369098",
+    "accession_level": "BioProject",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1369098",
+    "reason": "原文编号保留；NCBI SRA和BioProject均count0，不能确认公开状态，也不推断不存在或未公开。",
+    "action": "独立数据核实队列；文章确认为目标研究，状态2。"
+  },
+  {
+    "record_id": "R12985",
+    "batch_id": "B007",
+    "issue_type": "跨文章公开数据复用",
+    "raw_accession": "PRJNA1013451",
+    "normalized_accession": "PRJNA1013451",
+    "reason": "与R09236为完全相同21BioSample/21run；不重复计独立数据集。额外样本SAMN37298571 week标签冲突保留。",
+    "action": "两篇文章都保留；项目去重，处理/时间点依证据，不从排序推断。"
+  },
+  {
+    "record_id": "R11724",
+    "batch_id": "B007",
+    "issue_type": "官方library strategy需原样保留",
+    "raw_accession": "PRJNA1287080；SRR34383440；SRR34383441",
+    "reason": "2个目标实验官方OTHER/METAGENOMIC/NovaSeq6000，8个AMPLICON。科学类型据正文另行DNA建库/ORF确认；不把source字段当strategy或把OTHER擅改WGS。",
+    "action": "目标/扩增子分行；组别R4-M/R1-M明确。"
+  },
+  {
+    "record_id": "R11751",
+    "batch_id": "B007",
+    "issue_type": "组学样本重复层级未说明",
+    "path": "original_files/R11751/supplementary/supplementary__0bb73736e985bad3.pdf",
+    "sha256": "0bb73736e985bad328ad00eecf5af2af45d581a28ff08d5b6c6eacfff8598d94",
+    "pdf_pages": [
+      17
+    ],
+    "reason": "SI FigS4原页PCoA显示A1/A2/A3和B1/B2/B3六点；正文两反应器及三重复测量，未说明独立建库/提取/技术重复层级。",
+    "action": "保留六点观察，不推定独立反应器生物重复；原页渲染核查图及SHA可回溯。"
   }
 ]

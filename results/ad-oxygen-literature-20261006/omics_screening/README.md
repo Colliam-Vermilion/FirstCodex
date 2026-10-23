@@ -1,113 +1,107 @@
-# 当前批次B007进行中（2026-10-23）
+# 群落宏基因组／宏转录组累计全文筛查
 
-按远端fc718c1继续下一批50研究。已逐篇保存20研究：18完成、R11168/R11534待确认；确认宏基因组R10819，泛指数据可索取。未处理项不作阴性。累计表及JSON已更新；本批尚未结束。
+B007（2026-10-23）读取GitHub基准`fc718c194eacf1cf0bf23cfcd7c9fa7647792724`，按稳定ID选取R10673–R13557接下来的50篇未开始研究。**48完成、2待确认：8宏基因组、1宏转录组、39非目标**。每篇即时保存JSON、证据和检查点；前20研究以`4e33d50`正常推送。没有重筛旧记录，没有新增文献检索、缺件全文或reads下载，也未联系作者。
 
-# 群落宏基因组/宏转录组累计全文筛查
+- **[同一份累计Excel](omics_screening_cumulative.xlsx)**、[本批50篇CSV](batch_B007_results_utf8.csv)、[累计JSON](screening_records.json)、[累计CSV](screening_records_utf8.csv)。
+- [证据JSON](evidence.json)、[证据CSV](evidence_utf8.csv)、[数据项目/样本/run](data_projects_samples.json)、[项目CSV](data_projects_samples_utf8.csv)、[待确认/相关线索](pending_related.json)。
+- [累计统计](summary.json)、[批次进度](batches.json)、[逐篇检查点](checkpoint_log.jsonl)、[本批审计](batch_B007_audit.json)、[本地验证](batches/B007/local_validation.json)、[远端独立读回](batches/B007/remote_readback.json)、[交付文件SHA](batches/B007/delivery_manifest.json)。
+- [SHA覆盖审计](source_coverage_audit.json)、[正文解析](parsed/)、[附件解析](parsed_attachments/)、[定位日志](term_location_log.json)、[目标词人工上下文判断](batches/B007/term_hit_manual_dispositions.json)、[原页视觉核验](batches/B007/visual/provenance.json)。定位工具仅检索，不自动分类；无命中仍完整阅读方法。
 
-更新：2026-10-23，B006按GitHub最新进度顺序完成R06897–R10605的50篇未开始研究：**6篇确认宏基因组、44篇非目标；宏转录组0篇**。本批无新增测序类型待确认。6篇均为本研究新产生数据，未发现仅复用既有群落组学的研究。累计162研究完成、3研究待确认、176未开始；下一批从 **R10673** 开始，默认20篇。
+## 本批目标研究与数据获取
 
-- **[同一份累计Excel](omics_screening_cumulative.xlsx)**、[本批50篇CSV](batch_B006_results_utf8.csv)、[累计JSON](screening_records.json)、[累计CSV](screening_records_utf8.csv)、[证据JSON](evidence.json)、[证据CSV](evidence_utf8.csv)、[数据项目/样本/run](data_projects_samples.json)、[待确认/非目标线索](pending_related.json)。
-- [累计统计](summary.json)、[批次进度](batches.json)、[逐篇检查点](checkpoint_log.jsonl)、[本批审计](batch_B006_audit.json)、[本地验证](batches/B006/local_validation.json)、[独立远端核验](batches/B006/remote_readback.json)、[交付文件SHA](batches/B006/delivery_manifest.json)。
-- [SHA覆盖审计](source_coverage_audit.json)、[正文解析](parsed/)、[附件解析](parsed_attachments/)、[定位日志](term_location_log.json)、[目标词上下文解释](batches/B006/term_hit_manual_dispositions.json)、[低文字页原页核查](batches/B006/visual/provenance.json)。关键词仅用于定位，结论来自完整方法和上下文。
+|ID|类型／产生方式|数据获取及证据位置|
+|---|---|---|
+|R10819|宏基因组，新产生|无编号；PDF11仅“Data will be made available on request”，是否含reads不明。正文阶段I/II与取样II/III命名歧义保留。|
+|R11724|宏基因组，新产生|[PRJNA1287080](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1287080)，PDF3。官方R4-M→[SRR34383440](https://www.ncbi.nlm.nih.gov/sra/SRR34383440)、R1-M→[SRR34383441](https://www.ncbi.nlm.nih.gov/sra/SRR34383441)，均公开OTHER/METAGENOMIC/PAIRED/NovaSeq6000；另8个AMPLICON实验/run排除。|
+|R11751|宏基因组，新产生|SI TextS4 PDF6明确随机DNA打断/HiSeq2500；全文和已归属19页SI未找到编号或相关测序数据声明。SI FigS4有A1–A3/B1–B3六点，但重复层级未说明。|
+|R12127|宏基因组，新产生|SI TextS7 DOCX段落58明确内标/Covaris/DNA连接建库/NovaSeq6000PE150。PDF8仅泛指数据可索取；无编号。9条合成内标不是9个样本。|
+|R12509|宏基因组，新产生|PDF3 CTAB/随机350bp/连接建库/PE150；PDF12泛指可索取，无MG编号。候选SI MH472967/OP218265为单菌partial16S最近参考序列，不归为本文MG项目。|
+|R12562|宏基因组，新产生|PDF3给[PRJNA1369098](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1369098)；NCBI SRA及BioProject均count0，保留编号和状态2，不能据此推断不存在、未公开或受限。|
+|R12985|宏基因组，既有公开数据复用|PDF19/21给[PRJNA1013451](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1013451)及21个BioSample，与R09236完全相同。官方21WGS/RANDOM/PAIRED/NovaSeq6000均公开；两文章共用1独立数据集，不重复计项目/run。|
+|R13086|宏基因组，新产生|PDF3总DNA片段化/PE建库；4条件各一个多位置生物膜混样。PDF13泛指可索取，未给编号。LC-MS代谢组不是RNAseq。|
+|R13274|宏转录组，新产生|PDF3发酵混合群落总RNA、混合细菌去rRNA/RNA文库/NovaSeq6000PE150。PDF11明确raw metatranscriptomic sequencing data可向通讯作者合理索取，需说明研究用途并签数据使用协议；无公共编号，不能标公开可下载。|
 
-## 目标研究与数据获取
+本批9目标文章：8新产生、1复用；**2篇有官方公开数据，只有1个新增独立公开项目（2个新增公开目标run）**。另1篇明确相关RNA数据可索取、4篇仅泛指可索取、1篇无编号/相关声明、1篇文中编号公开状态未核实。R11724的OTHER不擅改WGS，官方library source为METAGENOMIC的8个AMPLICON也不能作为宏基因组。所有官方原始响应保存在[batches/B007](batches/B007/)，[跨文章项目关联](batches/B007/project_article_relationships.json)记录去重。
 
-|ID|数据获取|独立原始数据项目|样本与限制|
-|---|---|---|---|
-|R07202|状态1：官方确认公开|[PRJNA565588](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA565588)|本文2个BioSample：SAMN13634953/954，对应SRR10742654/653；7个MAG主记录另列，非7个reads项目。论文PE125/日标签与官方SINGLE/文库名存在差异|
-|R08462|状态5：仅泛指数据可索取，是否含reads不明|未定位编号|SMA stageIII供氧前/IV供氧后；原文PDF12“Data will be made available on request”，未明确原始测序数据|
-|R09236|状态1：官方确认公开|[PRJNA1013451](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1013451)|21个公开WGS样本，核心12样本为4消化器×3时间，其余9为进料/初始/擦拭等；额外1个样本时间标签差异保留|
-|R10163|状态1：官方确认公开，策略/映射需复核|[PRJNA1086167](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1086167)|正文结果PDF8列SRR28311681/682/683；681/683的作者处理对应与官方文库名相反；官方OTHER/MiSeq，论文NovaSeq/Hiseq|
-|R10492|状态1：官方确认公开，混合测序逐run分开|[PRJNA1128434](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1128434)|目标Met run为SRR29552641/642/643；另6个AMPLICON非目标。A30/B30/C30尚未唯一对应DW/CO2NW/O2NW；官方OTHER/HiSeq2000与论文NovaSeq不同|
-|R10605|状态5：仅泛指数据可索取，是否含reads不明|未定位编号|day30无曝气/微曝气条件；PDF11泛指“Data will be made available on request”。SI的RT-qPCR是real-time quantitative PCR，非RNA-seq|
-
-文章数6与独立项目数4分开；4篇官方确认公开、2篇泛指可索取，**明确相关原始测序数据可向作者索取为0篇**。不能将泛指声明升级为状态4。R10163虽数据声明泛指可索取，正文结果提供了run，故仍定位并核实公开数据。OTHER不擅自改写为WGS：文章宏基因组类型由DNA打断/建库及分析方法确认，官方字段原样保留。
-
-R07202另有WGS master JADLKJ000000000–JADLKP000000000及Figshare注释链接。7个Nuccore主记录与bin身份核实，MAG BioSample与2个原始reads BioSample分开；Figshare官方API被代理403阻断，访问未核实，不影响NCBI reads公开确认。所有官方原始响应在[batches/B006](batches/B006/)，未下载原始reads或碱基。R08462/R10605的已知DOI在SRA精确元数据查询count0，不证明无数据或未公开。
+R11751最初未加引号DOI查询被NCBI扩展为10.1021并返回1条，不是本文关联证据，未归任何编号；完整DOI加引号查询count0。所有DOI查询无结果均不证明没有数据。原始响应及解释保留。
 
 ## 50篇逐篇结论
 
-基准远端`2f43003d4cb9d75ded15be63ddd38c54f5380270`。严格选取接下来50条未开始研究，逐篇阅读完整方法及现有相关补方法后保存JSON、证据和检查点。前20篇以`e22d1b2`正常推送后继续余30篇。没有重筛此前已完成文章。新增68条证据，累计314条。
-
-|ID|结论|测序类型或核查依据|
+|ID|结论|方法与核查要点|
 |---|---|---|
-|R06897|未使用目标测序|16S PCR-DGGE切带再扩增测序（非目标）|
-|R06979|未使用目标测序|未报告测序；GC/理化与Gompertz模型|
-|R07039|未使用目标测序|16S rDNA扩增子HiSeq（非目标）|
-|R07184|未使用目标测序|未报告测序；H2S/GC监测及AQUASIM模型|
-|R07202|确认宏基因组|群落DNA shotgun宏基因组（新产生）；无实际宏转录组|
-|R07238|未使用目标测序|未报告测序；流式细胞术/ATP/脂肪酶及理化|
-|R07455|未使用目标测序|未报告测序；气量/GC及理化|
-|R07641|未使用目标测序|未报告测序；AMPTS/BMP及元素/固体分析|
-|R07903|未使用目标测序|未报告测序；组分/HPLC/GC分析|
-|R07908|未使用目标测序|未报告测序；GC/ICP-OES/HPLC及运行分析|
-|R07919|未使用目标测序|未报告测序；木质素/产气及动力学|
-|R07952|未使用目标测序|16S扩增子MiSeq（非目标）|
-|R08016|未使用目标测序|未报告测序；固体/水质/产气与能耗|
-|R08280|未使用目标测序|16S细菌/古菌扩增子＋PICRUSt预测（非目标）|
-|R08308|未使用目标测序|16S及真菌ITS扩增子MiSeq（非目标）|
-|R08346|未使用目标测序|未报告测序；ETS生化活性及理化/GC|
-|R08387|未使用目标测序|16S与真菌ITS扩增子MiSeq（非目标）|
-|R08393|未使用目标测序|16S扩增子MiSeq＋PICRUSt预测（非目标）|
-|R08456|未使用目标测序|细菌/古菌16S扩增子MiSeq（非目标）|
-|R08462|确认宏基因组|群落DNA shotgun宏基因组＋16S扩增子/qPCR（分别标记）|
-|R08552|未使用目标测序|未报告测序；产气/理化及五种动力学模型|
-|R08665|未使用目标测序|16S扩增子MiSeq＋ARG/MGE qPCR（非目标）|
-|R08877|未使用目标测序|SI明确16S V3–V4扩增子NovaSeq6000（非目标）|
-|R08911|未使用目标测序|未报告测序；批次/连续AD、GC与动力学|
-|R08977|未使用目标测序|未报告测序；硫形态/HPLC/XRF与工程监测|
-|R09147|未使用目标测序|16S扩增子NovaSeq6000＋ADM1-Ox（非目标）|
-|R09150|未使用目标测序|未报告测序；三厂全规模监测及硫平衡|
-|R09217|未使用目标测序|16S细菌/古菌扩增子MiSeq（非目标）|
-|R09230|未使用目标测序|PCR扩增子MiSeq（非目标）；PRJNA883421|
-|R09236|确认宏基因组|群落DNA shotgun宏基因组（新产生；含病毒分类但非仅病毒组）|
-|R09568|未使用目标测序|ARG/MGE及16S qPCR、耐药菌培养（非目标）|
-|R09618|未使用目标测序|16S细菌/古菌扩增子MiSeq（非目标）|
-|R09649|未使用目标测序|16S扩增子MiSeq（非目标）|
-|R09902|未使用目标测序|未报告测序；自动气体传感/GC与回归|
-|R10086|未使用目标测序|未报告测序；SMA/GC/HPLC及氧抑制计算|
-|R10090|未使用目标测序|16S扩增子＋Tax4Fun预测（非目标）|
-|R10097|未使用目标测序|未报告测序；热预处理/BMP/GC及能量计算|
-|R10163|确认宏基因组|群落DNA shotgun宏基因组（新产生）；官方策略OTHER需保留差异|
-|R10187|未使用目标测序|16S细菌/古菌扩增子MiSeq（非目标）|
-|R10191|未使用目标测序|16S扩增子/qPCR＋LC-MS非靶向代谢组（非目标）|
-|R10250|未使用目标测序|未报告测序；BMP/GC/UFLC与模型|
-|R10290|未使用目标测序|未报告测序；现场气体/DO/ORP监测|
-|R10300|未使用目标测序|16S V3–V4扩增子MiSeq（非目标）|
-|R10372|未使用目标测序|未报告测序；填埋模型/气体与理化|
-|R10377|未使用目标测序|未报告测序；HPLC/理化及定量图像QIA|
-|R10383|未使用目标测序|未报告测序；电化学/DO/GC及动力学|
-|R10492|确认宏基因组|群落DNA shotgun宏基因组＋细菌/古菌16S（新产生，分开标记）|
-|R10525|未使用目标测序|16S V3–V4扩增子MiSeq（非目标）|
-|R10586|未使用目标测序|16S细菌/古菌扩增子Illumina PE250（非目标）|
-|R10605|确认宏基因组|群落DNA shotgun宏基因组＋16S/qPCR（新产生；无群落RNA-seq）|
+|R10673|未使用目标测序|16S细菌/古菌扩增子（非目标）|
+|R10714|未使用目标测序|16S扩增子及功能酶预测（非目标）|
+|R10724|未使用目标测序|未报告测序；全规模脱硫/气体/运行监测|
+|R10761|未使用目标测序|细菌/古菌16S扩增子MiSeq（非目标）|
+|R10819|确认宏基因组|群落DNA shotgun宏基因组（新产生）|
+|R10833|未使用目标测序|16S细菌/古菌扩增子（非目标）|
+|R11041|未使用目标测序|未报告测序；微藻培养/光谱/电化学/氧化应激|
+|R11094|未使用目标测序|16S V4 MiSeq扩增子＋qPCR/菌株培养（非目标）|
+|R11099|未使用目标测序|16S细菌/古菌扩增子Illumina（非目标）|
+|R11104|未使用目标测序|细菌/古菌16S扩增子（非目标）|
+|R11168|证据不足，待确认|明确16S；KEGG功能基因/表达数据来源未说明，是否另有群落组学待确认|
+|R11393|未使用目标测序|16S扩增子HiSeq2000（非目标）|
+|R11421|未使用目标测序|细菌/古菌16S扩增子MiSeq（非目标）|
+|R11477|未使用目标测序|16S扩增子＋PICRUSt2预测（非目标）|
+|R11519|未使用目标测序|16S扩增子MiSeq＋PICRUSt预测（非目标）|
+|R11534|疑似宏基因组，建库证据待确认|作者报告宏基因组/NovaSeq/ORF分析，但扩增与建库描述冲突|
+|R11535|未使用目标测序|16S扩增子/克隆测序（非目标）|
+|R11537|未使用目标测序|未报告测序；ETS活性/GC及理化|
+|R11596|未使用目标测序|未报告测序；定义共培养/显微镜与GC/HPLC|
+|R11655|未使用目标测序|细菌/古菌16S扩增子（非目标）|
+|R11658|未使用目标测序|未报告测序；麦角固醇液相定量/LC-MS及GC|
+|R11682|未使用目标测序|未报告测序；酶活显色/滴定、BMP及能量平衡|
+|R11693|未使用目标测序|16S V4 MiSeq扩增子＋Tax4Fun2预测（非目标）|
+|R11724|确认宏基因组|群落DNA宏基因组＋16S扩增子（新产生，分开标记）|
+|R11751|确认宏基因组|群落DNA shotgun宏基因组（新产生）；宏转录组仅引用|
+|R11843|未使用目标测序|16S V4 MiSeq扩增子（非目标）|
+|R12127|确认宏基因组|群落DNA shotgun宏基因组绝对定量＋真菌ITS（新产生）|
+|R12279|未使用目标测序|未报告测序；GC/HPLC/UV-Vis及工程监测|
+|R12384|未使用目标测序|未报告测序；毒性/AMA/BMP及GC/HPLC|
+|R12483|未使用目标测序|未报告测序；菌菇基质培养、纤维组分/DNSA/COD/BMP|
+|R12509|确认宏基因组|群落DNA shotgun宏基因组（新产生；单菌16S身份另列）|
+|R12562|确认宏基因组|群落DNA宏基因组（新产生；ARG 16S归一化非扩增子预测）|
+|R12839|未使用目标测序|16S扩增子MiSeq＋PICRUSt2预测（非目标）|
+|R12841|未使用目标测序|16S扩增子MiSeq/DADA2（非目标）|
+|R12874|未使用目标测序|未报告测序；聚乳酸DSC/FTIR/黏度与BMP|
+|R12923|未使用目标测序|分离菌株16S/ITS鉴定（非目标）；未报告群落组学|
+|R12951|未使用目标测序|16S扩增子＋PICRUSt2预测（非目标）|
+|R12953|未使用目标测序|16S扩增子＋PICRUSt/PICRUSt2预测（非目标）|
+|R12957|未使用目标测序|细菌/古菌16S扩增子（非目标）|
+|R12964|未使用目标测序|16S扩增子＋PICRUSt/FAPROTAX预测（非目标）|
+|R12985|确认宏基因组|群落DNA shotgun宏基因组；复用同团队前作R09236公开数据|
+|R13086|确认宏基因组|群落DNA shotgun宏基因组（新产生）；LC-MS代谢组另列|
+|R13236|未使用目标测序|16S扩增子MiSeq＋PICRUSt2预测（非目标）|
+|R13274|确认宏转录组|混合微生物群落RNA宏转录组（新产生）；16S/ITS另为扩增子|
+|R13275|未使用目标测序|16S PCR扩增子HiSeq2000（非目标；作者误称metagenomic）|
+|R13282|未使用目标测序|未报告测序；GC、纤维组分及工程监测|
+|R13283|未使用目标测序|未报告测序；示范规模UASB/解吸气体/水质监测|
+|R13293|未使用目标测序|16S V4 MiSeq扩增子＋PICRUSt2预测（非目标）|
+|R13458|未使用目标测序|16S扩增子MiSeq＋PICRUSt2预测（非目标）|
+|R13557|未使用目标测序|16S扩增子（非目标）|
 
-PRJNA565588全项目另有2个公开WGS实验AD_Rep1/AD_Rep2，已作为数据库相关线索单列，是否用于R07202及能否与其微氧样本配对尚未证实；项目内12个扩增子BioSample与既有R04899相同，保留其原判断。见[文章—项目关联](batches/B006/project_article_relationships.json)。
+## 待确认和相关限制
 
-## 待确认与数据质量限制
+本批R11168：完整方法只明确16S，但Fig5报告功能/抗氧化基因丰度及表达，未说明这些数据来自预测、DNA shotgun或RNA建库；候选SI只有三图，不能推定阳性或阴性。R11534：正文委托已核实SI TextS7，声称NovaSeq/MEGAHIT/ORF/NR/KEGG，但同时说PCR与16S分析相同，缺随机DNA建库和可核对项目，保留疑似不计确认阳性。两项都没有完成时间，以screened_at保存筛查时间。
 
-此前R01917、R05396、R06623保持待确认，未重筛、未标完成/阴性；新增数据质量线索不混成“未使用目标测序”。R07202、R09236、R10163、R10492的具体布局/平台/分组差异见目标表及相关线索表。R07202的2个微氧稳态样本不等于3反应器都有组学数据，Rep3 DNA降解未测。R09236核心12个纵向样本不等于每处理有3个独立反应器生物重复。
+此前R01917、R05396、R06623继续待确认，未重筛。R12562属于文章已确认宏基因组、数据公开状态未核实，不能混成阴性或已定位受限项目。R10819阶段命名、R11751重复层级、R12985/R09236额外样本week标签差异均另列。R13275虽反复写metagenomic，具体方法为16S引物/amplicon library/OTU；R12964和R13293的gene expression/active genes按正文功能预测解释，不当宏转录组。
 
-R09230 PRJNA883421、R09618 PRJNA935990、R10586 PRJNA1060892/PRJNA1060904为扩增子项目，保留在线索表；R09230官方20实验均AMPLICON。R10492项目中的6个16S实验/run放在数据明细但target_eligible=false，独立项目不重复计。
+## 原件和附件覆盖
 
-R06897虽写shotgun，实际是DGGE切带再16S PCR产物；R10300虽写whole microbiota genome，具体方法仍16S PCR；R10090功能来自Tax4Fun；R08393来自PICRUSt。R10191为16S/qPCR与LC-MS代谢组，不当作宏转录组。R08877的16S方法在SI PDF16，已实际阅读，未仅凭正文理化方法直接判阴性。
+本批核验**86个原格式对象：51正文PDF（50篇，其中R11596有2个字节版本）＋35补充原件（DOCX28、PDF2、JPG3、ZIP1、XLSX1）**。R11596两个版本逐页规范化文字完全一致，但各自SHA解析分别保存，不覆盖或重复计文章。R12985 ZIP的4个XLSX成员均与既有派生文件同SHA，复用并记录ZIP成员谱系；这4件不重复计原件。90份源解析与人工核查说明均SHA绑定，旧search.sqlite不冒充覆盖本批新增文件。
 
-## 原件、补充材料与身份覆盖
+正文完整方法逐篇阅读；DOCX读全部相关补方法、表头/图注及编号位置；XLSX检查全部非空单元格中的编号并读表头/样本列；PDF低文字图页原页已看，JPG三图原图已看，未把图片不可检索当阴性。本批无需新增OCR。R11751 SI以题名/作者/机构核实，R11843 DOCX以题名/完整作者/机构核实；其余候选附件保留身份限制，不能凭文件夹分配编号。目前全库55件附件唯一归属待核实；原库存/原分类不改。R12483为泰文原始实验研究，已读完整方法PDF5–8，非综述。R12509为青贮复氧研究，保留其原研究范围分类。
 
-本批重新核验50正文PDF＋27补充原件，共77对象：补充DOCX17、PDF4、XLSX3、ZIP2、JPG1。原字节/规范路径不变。R09236 ZIP内Sample key.xlsx与既有派生XLSX同SHA，复用派生文件，独立标记ZIP成员位置及工作表/单元格，不重复计原件；R07238 ZIP只有SketchUp模型，保留成员谱系，未声称渲染CAD模型。
+新增64条证据，累计378条；保留PDF从1起页码、章节和Word段落/工作表位置。R13274数据索取声明原文及条件保留，没有联系作者。
 
-两个附件在筛查层新增核实唯一关联：R07202 DOCX的两个独有BioSample及reads/contigs统计与正文TableS1逐项相同；R08280 DOCX题名/完整作者/机构与正文相符。新增身份依据及历史待核实项的解决记录均保留，原库存字段不改；其余附件独立身份限制保留，当前余57件唯一身份待核实，不能凭文件夹归编号。
+## 累计与续跑
 
-DOCX核查相关补方法、全部表头/图注及编号位置；XLSX以工作表/单元格保留，候选表不凭位置分配编号；PDF补充方法阅读全文。低文字页原图已检查：R08665 SI装置/结果图、R10492图、R10086末页空白。R09649 PDF10–11附2026 Corrigendum，仅澄清经济性/可持续性表述，无新增测序；单列证据，不新增研究任务。R10383候选JPG已看原图，为电化学曲线；其身份限制保留。本批无需新增OCR，未将图像页不可检索视为阴性。
+范围426任务：341有核验正文的实际研究中**210完成、5待确认、126未开始**；另34研究缺正文跳过、51综述不适用。累计215研究已核查，含此前新增识别综述的已处理记录216。累计目标15文章＝14宏基因组＋1宏转录组，二者兼有0；14新产生、1复用。6篇官方公开目标数据、1篇明确相关测序数据可索取、6篇泛指可索取、1篇无编号/声明、1篇编号公开未核实。独立项目号6个（5个官方公开核实、1个公开未核实），唯一公开目标run31个；文章数与项目/run分开。
 
-范围426任务：341有核验正文的实际研究中162完成、3待确认、176未开始；另34研究缺正文跳过、51综述不适用（含4缺正文，B002新增识别R00915仅在筛查层单列）。累计165研究已核查，含1新增识别综述为166个已处理记录。原554行总库、人工分类、JCR及main保持。
+读取GitHub最新screening_records.json，取progress=未开始、按稳定ID顺序，后续默认20篇，用户指定数量优先；待确认项保留独立复核队列。下一批从**R13558**开始，接下来20篇：
 
-## 续跑
+R13558、R13671、R13683、R13691、R13737、R13816、R13817、R13818、R13819、R13820、R13821、R13822、R13823、R13824、R13825、R13826、R13827、R13831、R13832、R13833。
 
-读取GitHub最新screening_records.json，取progress为未开始、按稳定ID排序的接下来20篇；用户指定篇数优先。下一批从 **R10673** 开始，当前接下来20篇：
+每篇先处理中，完整方法和上下文核查后即时保存；不确定不写完成时间。不重新检索、追下载缺件或下载reads。增量重建同一Excel/CSV并推送原结果分支；勿运行初始化覆盖累计结果。
 
-R10673、R10714、R10724、R10761、R10819、R10833、R11041、R11094、R11099、R11104、R11168、R11393、R11421、R11477、R11519、R11534、R11535、R11537、R11596、R11655。
-
-每篇先写处理中，完整方法及上下文核查后即时保存；不确定保留待确认和screened_at，不能写完成时间。每批重建同一Excel/CSV，正常提交原结果分支并独立新克隆读回大小/SHA和Excel。勿运行初始化覆盖累计结果。scan_parsed.py仅定位，build_outputs.py仅重建表格。不开新文献检索、不追下载缺失正文、不下载reads、不联系作者，不按期刊/JCR限制。
-
-历史回执：[B001](remote_readback.json)、[B002](batches/B002/remote_readback.json)、[B003](batches/B003/remote_readback.json)、[B004](batches/B004/remote_readback.json)、[B005](batches/B005/remote_readback.json)。
+历史回执：[B001](remote_readback.json)、[B002](batches/B002/remote_readback.json)、[B003](batches/B003/remote_readback.json)、[B004](batches/B004/remote_readback.json)、[B005](batches/B005/remote_readback.json)、[B006](batches/B006/remote_readback.json)。
