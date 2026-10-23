@@ -7,7 +7,7 @@
   "preferred_main_asset_id": "R12985.main.f42e1cfc61ed462e",
   "included_for_download": true,
   "main_status": "downloaded_verified",
-  "supplementary_status": "downloaded",
+  "supplementary_status": "已取得1件原格式补充材料；其中0件唯一关联待核实；完整性未确认",
   "supplementary_coverage_complete": true,
   "supplementary_official_count": 1,
   "supplementary_previous_detail": {
@@ -69,359 +69,1174 @@
   },
   "assets": [
     {
-      "preferred_for_record": true,
+      "source_path": "original_files/supplementary/R12985/antibiotics-15-00153-s001.zip",
+      "source": "cloud_existing",
+      "directory_id": "R12985",
       "record_id": "R12985",
-      "asset_id": "R12985.main.f42e1cfc61ed462e",
-      "role": "main",
-      "official_attachment": false,
-      "original_filename": "R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
-      "canonical_path": "papers/R12985/main/f42e1cfc61ed_R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
-      "source_repo_path": "original_files/fulltext/R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
-      "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
-      "format": "pdf",
-      "size_bytes": 3394736,
-      "sha256": "f42e1cfc61ed462e54cdbb54d555f5f6230676c933caeed18744e15e9f7e1420",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://mdpi-res.com/d_attachment/antibiotics/antibiotics-15-00153/article_deploy/antibiotics-15-00153.pdf?version=1770025471",
-      "source_xml_url": "",
-      "version": "出版版本（原页出版信息）",
-      "license_evidence": "Explicit in-document CC BY/CC0 statement; exact source byte file preserved",
-      "historical_sha256": "f42e1cfc61ed462e54cdbb54d555f5f6230676c933caeed18744e15e9f7e1420",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "extraction": {
-        "relative_directory": "papers/R12985/extracted/R12985.main.f42e1cfc61ed462e",
-        "search_chunks": 152,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.824178+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 152,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
-          "OCR language=eng; OCR values, symbols and units require checking against source page."
-        ],
-        "errors": []
-      }
-    },
-    {
-      "preferred_for_record": false,
-      "record_id": "R12985",
-      "asset_id": "R12985.supplementary.1ce50822c9eab57d",
-      "role": "supplementary",
-      "official_attachment": true,
       "original_filename": "antibiotics-15-00153-s001.zip",
-      "canonical_path": "papers/R12985/supplementary/1ce50822c9ea_antibiotics-15-00153-s001.zip",
-      "source_repo_path": "original_files/supplementary/R12985/antibiotics-15-00153-s001.zip",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/official/antibiotics-15-00153-s001.zip",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/antibiotics-15-00153-s001.zip",
-      "format": "zip",
       "size_bytes": 240699,
       "sha256": "1ce50822c9eab57d4c6dd71388959b4e8d53a98108db5c1ec1c481164ce5fcea",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
-      "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
-      "version": "original_supplementary_attachment",
-      "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "archive_catalogued",
-      "extraction": {
-        "relative_directory": "papers/R12985/extracted/R12985.supplementary.1ce50822c9eab57d",
-        "search_chunks": 0,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.941648+00:00",
-      "extraction_20261017": {
-        "status": "archive_catalogued",
-        "search_chunks": 0,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "ZIP member names/checksums indexed; member content indexed through separately SHA-bound derived assets. No executable/code is run."
-        ],
-        "errors": []
-      }
+      "git_blob_oid": "2b68c962a705625e42a6574bc4841db764d75be2",
+      "format": "zip",
+      "issues": [],
+      "declared_role": "supplementary",
+      "role": "supplementary",
+      "version": "",
+      "verification_status": "container_crc_verified",
+      "text_path": "work/texts/1ce50822c9eab57d4c6dd71388959b4e8d53a98108db5c1ec1c481164ce5fcea.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 0.0,
+      "title_compact_match": false,
+      "head_doi_matching_ids": [],
+      "body_markers": [],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "existing_official_attachment_evidence_retained",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R12985/supplementary/supplementary__1ce50822c9eab57d.zip",
+      "source_paths": [
+        "original_files/supplementary/R12985/antibiotics-15-00153-s001.zip"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "antibiotics-15-00153-s001.zip"
+      ],
+      "source_record_ids": [
+        "R12985"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "False",
+          "record_id": "R12985",
+          "asset_id": "R12985.supplementary.1ce50822c9eab57d",
+          "role": "supplementary",
+          "official_attachment": "True",
+          "original_filename": "antibiotics-15-00153-s001.zip",
+          "canonical_path": "papers/R12985/supplementary/1ce50822c9ea_antibiotics-15-00153-s001.zip",
+          "source_repo_path": "original_files/supplementary/R12985/antibiotics-15-00153-s001.zip",
+          "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/official/antibiotics-15-00153-s001.zip",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/antibiotics-15-00153-s001.zip",
+          "format": "zip",
+          "size_bytes": "240699",
+          "sha256": "1ce50822c9eab57d4c6dd71388959b4e8d53a98108db5c1ec1c481164ce5fcea",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
+          "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
+          "version": "original_supplementary_attachment",
+          "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "",
+          "parsing_status": "archive_catalogued",
+          "extraction": "{'relative_directory': 'papers/R12985/extracted/R12985.supplementary.1ce50822c9eab57d', 'search_chunks': 0, 'tables': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.941648+00:00",
+          "extraction_20261017": "{'status': 'archive_catalogued', 'search_chunks': 0, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['ZIP member names/checksums indexed; member content indexed through separately SHA-bound derived assets. No executable/code is run.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [
+        {
+          "name": "Supplementary Table S3- ARGs detected.xlsx",
+          "size": 22225,
+          "encrypted": false
+        },
+        {
+          "name": "Supplementary Table S4-Summary Table for ARG classes.xlsx",
+          "size": 43818,
+          "encrypted": false
+        },
+        {
+          "name": "Supplementary Table S1-full data.xlsx",
+          "size": 174932,
+          "encrypted": false
+        },
+        {
+          "name": "Supplementary Table S2-origin species for ARG alignments.xlsx",
+          "size": 20081,
+          "encrypted": false
+        }
+      ],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R12985/supplementary/supplementary__1ce50822c9eab57d.zip",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R12985/supplementary/supplementary__1ce50822c9eab57d.zip",
+      "title": "Evaluation of Anaerobic Digestion Amended with Micro-Aeration and/or Sound Treatment on the Resistome and Virulence Factor Gene Profiles in Poultry Litter",
+      "doi": "10.3390/antibiotics15020153",
+      "associated_record_ids": [
+        "R12985"
+      ],
+      "asset_id": "R12985.supplementary.1ce50822c9eab57d",
+      "legacy_asset_ids": [
+        "R12985.supplementary.1ce50822c9eab57d"
+      ],
+      "source_repo_path": "original_files/R12985/supplementary/supplementary__1ce50822c9eab57d.zip"
     },
     {
-      "preferred_for_record": false,
+      "source_path": "original_files/supplementary/R12985/extracted/Supplementary Table S3- ARGs detected.xlsx",
+      "source": "cloud_existing",
+      "directory_id": "R12985",
       "record_id": "R12985",
-      "asset_id": "R12985.derived.3591be2bdae6839f",
-      "role": "derived",
-      "official_attachment": false,
       "original_filename": "Supplementary Table S3- ARGs detected.xlsx",
-      "canonical_path": "papers/R12985/supplementary/derived/3591be2bdae6_Supplementary Table S3- ARGs detected.xlsx",
-      "source_repo_path": "original_files/supplementary/R12985/extracted/Supplementary Table S3- ARGs detected.xlsx",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/extracted/antibiotics-15-00153-s001/Supplementary Table S3- ARGs detected.xlsx",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S3- ARGs detected.xlsx",
-      "format": "xlsx",
       "size_bytes": 22225,
       "sha256": "3591be2bdae6839fb4e7c255178242754358e42f9506e1c43e155534f1e27f8c",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
-      "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
-      "version": "extracted_archive_member",
-      "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "R12985.supplementary.1ce50822c9eab57d",
-      "parsing_status": "parsed",
-      "archive_member_path": "Supplementary Table S3- ARGs detected.xlsx",
-      "extraction": {
-        "relative_directory": "papers/R12985/extracted/R12985.derived.3591be2bdae6839f",
-        "search_chunks": 443,
-        "tables": 3,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.941708+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 443,
-        "table_count": 3,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "Formulas are preserved, never executed/recalculated; unavailable cached values are explicit. Charts and embedded images are not content-indexed."
-        ],
-        "errors": []
-      }
-    },
-    {
-      "preferred_for_record": false,
-      "record_id": "R12985",
-      "asset_id": "R12985.derived.99672ebb9aaa605b",
-      "role": "derived",
-      "official_attachment": false,
-      "original_filename": "Supplementary Table S4-Summary Table for ARG classes.xlsx",
-      "canonical_path": "papers/R12985/supplementary/derived/99672ebb9aaa_Supplementary Table S4-Summary Table for ARG classes.xlsx",
-      "source_repo_path": "original_files/supplementary/R12985/extracted/Supplementary Table S4-Summary Table for ARG classes.xlsx",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/extracted/antibiotics-15-00153-s001/Supplementary Table S4-Summary Table for ARG classes.xlsx",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S4-Summary Table for ARG classes.xlsx",
+      "git_blob_oid": "a17d3e9944f209967cf3920be0a079a132f9b603",
       "format": "xlsx",
-      "size_bytes": 43818,
-      "sha256": "99672ebb9aaa605bbfdbd485ae7eaf7c5863075aa63643472ffe22706e5698f4",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
-      "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
-      "version": "extracted_archive_member",
-      "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "R12985.supplementary.1ce50822c9eab57d",
-      "parsing_status": "parsed",
-      "archive_member_path": "Supplementary Table S4-Summary Table for ARG classes.xlsx",
-      "extraction": {
-        "relative_directory": "papers/R12985/extracted/R12985.derived.99672ebb9aaa605b",
-        "search_chunks": 422,
-        "tables": 13,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.941772+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 422,
-        "table_count": 13,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "Formulas are preserved, never executed/recalculated; unavailable cached values are explicit. Charts and embedded images are not content-indexed."
-        ],
-        "errors": []
-      }
+      "issues": [],
+      "declared_role": "derived",
+      "role": "derived",
+      "version": "",
+      "verification_status": "xlsx_open_and_zip_crc_verified",
+      "text_path": "work/texts/3591be2bdae6839fb4e7c255178242754358e42f9506e1c43e155534f1e27f8c.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 0.0,
+      "title_compact_match": false,
+      "head_doi_matching_ids": [],
+      "body_markers": [],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "workbook_sheets": [
+        {
+          "name": "ARGs detected",
+          "rows": 341,
+          "columns": 3
+        },
+        {
+          "name": "ARGs by class",
+          "rows": 21,
+          "columns": 3
+        },
+        {
+          "name": "Resistance mechanisms-ALL",
+          "rows": 86,
+          "columns": 4
+        }
+      ],
+      "canonical_path": "original_files/R12985/derived/derived__3591be2bdae6839f.xlsx",
+      "source_paths": [
+        "original_files/supplementary/R12985/extracted/Supplementary Table S3- ARGs detected.xlsx"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "Supplementary Table S3- ARGs detected.xlsx"
+      ],
+      "source_record_ids": [
+        "R12985"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "False",
+          "record_id": "R12985",
+          "asset_id": "R12985.derived.3591be2bdae6839f",
+          "role": "derived",
+          "official_attachment": "False",
+          "original_filename": "Supplementary Table S3- ARGs detected.xlsx",
+          "canonical_path": "papers/R12985/supplementary/derived/3591be2bdae6_Supplementary Table S3- ARGs detected.xlsx",
+          "source_repo_path": "original_files/supplementary/R12985/extracted/Supplementary Table S3- ARGs detected.xlsx",
+          "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/extracted/antibiotics-15-00153-s001/Supplementary Table S3- ARGs detected.xlsx",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S3- ARGs detected.xlsx",
+          "format": "xlsx",
+          "size_bytes": "22225",
+          "sha256": "3591be2bdae6839fb4e7c255178242754358e42f9506e1c43e155534f1e27f8c",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
+          "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
+          "version": "extracted_archive_member",
+          "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "R12985.supplementary.1ce50822c9eab57d",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R12985/extracted/R12985.derived.3591be2bdae6839f', 'search_chunks': 443, 'tables': 3, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.941708+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 443, 'table_count': 3, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['Formulas are preserved, never executed/recalculated; unavailable cached values are explicit. Charts and embedded images are not content-indexed.'], 'errors': []}",
+          "archive_member_path": "Supplementary Table S3- ARGs detected.xlsx",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [
+        {
+          "name": "[Content_Types].xml",
+          "size": 1535,
+          "encrypted": false
+        },
+        {
+          "name": "_rels/.rels",
+          "size": 588,
+          "encrypted": false
+        },
+        {
+          "name": "xl/workbook.xml",
+          "size": 2525,
+          "encrypted": false
+        },
+        {
+          "name": "xl/_rels/workbook.xml.rels",
+          "size": 1105,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet1.xml",
+          "size": 47544,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet2.xml",
+          "size": 3893,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet3.xml",
+          "size": 12676,
+          "encrypted": false
+        },
+        {
+          "name": "xl/theme/theme1.xml",
+          "size": 8450,
+          "encrypted": false
+        },
+        {
+          "name": "xl/styles.xml",
+          "size": 1886,
+          "encrypted": false
+        },
+        {
+          "name": "xl/sharedStrings.xml",
+          "size": 12318,
+          "encrypted": false
+        },
+        {
+          "name": "xl/persons/person.xml",
+          "size": 218,
+          "encrypted": false
+        },
+        {
+          "name": "docProps/core.xml",
+          "size": 635,
+          "encrypted": false
+        },
+        {
+          "name": "docProps/app.xml",
+          "size": 872,
+          "encrypted": false
+        }
+      ],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R12985/derived/derived__3591be2bdae6839f.xlsx",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R12985/derived/derived__3591be2bdae6839f.xlsx",
+      "title": "Evaluation of Anaerobic Digestion Amended with Micro-Aeration and/or Sound Treatment on the Resistome and Virulence Factor Gene Profiles in Poultry Litter",
+      "doi": "10.3390/antibiotics15020153",
+      "associated_record_ids": [
+        "R12985"
+      ],
+      "asset_id": "R12985.derived.3591be2bdae6839f",
+      "legacy_asset_ids": [
+        "R12985.derived.3591be2bdae6839f"
+      ],
+      "source_repo_path": "original_files/R12985/derived/derived__3591be2bdae6839f.xlsx"
     },
     {
-      "preferred_for_record": false,
+      "source_path": "original_files/supplementary/R12985/extracted/Supplementary Table S2-origin species for ARG alignments.xlsx",
+      "source": "cloud_existing",
+      "directory_id": "R12985",
       "record_id": "R12985",
-      "asset_id": "R12985.derived.612fbb636cffef98",
-      "role": "derived",
-      "official_attachment": false,
-      "original_filename": "Supplementary Table S1-full data.xlsx",
-      "canonical_path": "papers/R12985/supplementary/derived/612fbb636cff_Supplementary Table S1-full data.xlsx",
-      "source_repo_path": "original_files/supplementary/R12985/extracted/Supplementary Table S1-full data.xlsx",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/extracted/antibiotics-15-00153-s001/Supplementary Table S1-full data.xlsx",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S1-full data.xlsx",
-      "format": "xlsx",
-      "size_bytes": 174932,
-      "sha256": "612fbb636cffef9883f1d1e6b2fe6a43da622b2d645418e110a33aec836bb3de",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
-      "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
-      "version": "extracted_archive_member",
-      "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "R12985.supplementary.1ce50822c9eab57d",
-      "parsing_status": "parsed",
-      "archive_member_path": "Supplementary Table S1-full data.xlsx",
-      "extraction": {
-        "relative_directory": "papers/R12985/extracted/R12985.derived.612fbb636cffef98",
-        "search_chunks": 3191,
-        "tables": 1,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.942004+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 3191,
-        "table_count": 1,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "Formulas are preserved, never executed/recalculated; unavailable cached values are explicit. Charts and embedded images are not content-indexed."
-        ],
-        "errors": []
-      }
-    },
-    {
-      "preferred_for_record": false,
-      "record_id": "R12985",
-      "asset_id": "R12985.derived.566b622e9e41dce1",
-      "role": "derived",
-      "official_attachment": false,
       "original_filename": "Supplementary Table S2-origin species for ARG alignments.xlsx",
-      "canonical_path": "papers/R12985/supplementary/derived/566b622e9e41_Supplementary Table S2-origin species for ARG alignments.xlsx",
-      "source_repo_path": "original_files/supplementary/R12985/extracted/Supplementary Table S2-origin species for ARG alignments.xlsx",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/extracted/antibiotics-15-00153-s001/Supplementary Table S2-origin species for ARG alignments.xlsx",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S2-origin species for ARG alignments.xlsx",
-      "format": "xlsx",
       "size_bytes": 20081,
       "sha256": "566b622e9e41dce192aa4e95ba6109b96510adfe331bb094e244b364b1e2e15d",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
-      "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
-      "version": "extracted_archive_member",
-      "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "R12985.supplementary.1ce50822c9eab57d",
-      "parsing_status": "parsed",
-      "archive_member_path": "Supplementary Table S2-origin species for ARG alignments.xlsx",
-      "extraction": {
-        "relative_directory": "papers/R12985/extracted/R12985.derived.566b622e9e41dce1",
-        "search_chunks": 302,
-        "tables": 2,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.942202+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 302,
-        "table_count": 2,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "Formulas are preserved, never executed/recalculated; unavailable cached values are explicit. Charts and embedded images are not content-indexed."
-        ],
-        "errors": []
-      }
+      "git_blob_oid": "27a7592ada3e69fae885a737d5c47b4ce8f9f190",
+      "format": "xlsx",
+      "issues": [],
+      "declared_role": "derived",
+      "role": "derived",
+      "version": "",
+      "verification_status": "xlsx_open_and_zip_crc_verified",
+      "text_path": "work/texts/566b622e9e41dce192aa4e95ba6109b96510adfe331bb094e244b364b1e2e15d.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 0.0,
+      "title_compact_match": false,
+      "head_doi_matching_ids": [],
+      "body_markers": [],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "workbook_sheets": [
+        {
+          "name": "ALL species",
+          "rows": 213,
+          "columns": 3
+        },
+        {
+          "name": "Grouped by Phylum",
+          "rows": 89,
+          "columns": 4
+        }
+      ],
+      "canonical_path": "original_files/R12985/derived/derived__566b622e9e41dce1.xlsx",
+      "source_paths": [
+        "original_files/supplementary/R12985/extracted/Supplementary Table S2-origin species for ARG alignments.xlsx"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "Supplementary Table S2-origin species for ARG alignments.xlsx"
+      ],
+      "source_record_ids": [
+        "R12985"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "False",
+          "record_id": "R12985",
+          "asset_id": "R12985.derived.566b622e9e41dce1",
+          "role": "derived",
+          "official_attachment": "False",
+          "original_filename": "Supplementary Table S2-origin species for ARG alignments.xlsx",
+          "canonical_path": "papers/R12985/supplementary/derived/566b622e9e41_Supplementary Table S2-origin species for ARG alignments.xlsx",
+          "source_repo_path": "original_files/supplementary/R12985/extracted/Supplementary Table S2-origin species for ARG alignments.xlsx",
+          "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/extracted/antibiotics-15-00153-s001/Supplementary Table S2-origin species for ARG alignments.xlsx",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S2-origin species for ARG alignments.xlsx",
+          "format": "xlsx",
+          "size_bytes": "20081",
+          "sha256": "566b622e9e41dce192aa4e95ba6109b96510adfe331bb094e244b364b1e2e15d",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
+          "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
+          "version": "extracted_archive_member",
+          "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "R12985.supplementary.1ce50822c9eab57d",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R12985/extracted/R12985.derived.566b622e9e41dce1', 'search_chunks': 302, 'tables': 2, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.942202+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 302, 'table_count': 2, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['Formulas are preserved, never executed/recalculated; unavailable cached values are explicit. Charts and embedded images are not content-indexed.'], 'errors': []}",
+          "archive_member_path": "Supplementary Table S2-origin species for ARG alignments.xlsx",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [
+        {
+          "name": "[Content_Types].xml",
+          "size": 1527,
+          "encrypted": false
+        },
+        {
+          "name": "_rels/.rels",
+          "size": 588,
+          "encrypted": false
+        },
+        {
+          "name": "xl/workbook.xml",
+          "size": 2448,
+          "encrypted": false
+        },
+        {
+          "name": "xl/_rels/workbook.xml.rels",
+          "size": 1097,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet1.xml",
+          "size": 30164,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet2.xml",
+          "size": 19707,
+          "encrypted": false
+        },
+        {
+          "name": "xl/theme/theme1.xml",
+          "size": 8450,
+          "encrypted": false
+        },
+        {
+          "name": "xl/styles.xml",
+          "size": 2316,
+          "encrypted": false
+        },
+        {
+          "name": "xl/sharedStrings.xml",
+          "size": 8721,
+          "encrypted": false
+        },
+        {
+          "name": "xl/persons/person.xml",
+          "size": 218,
+          "encrypted": false
+        },
+        {
+          "name": "xl/calcChain.xml",
+          "size": 1758,
+          "encrypted": false
+        },
+        {
+          "name": "docProps/core.xml",
+          "size": 635,
+          "encrypted": false
+        },
+        {
+          "name": "docProps/app.xml",
+          "size": 828,
+          "encrypted": false
+        }
+      ],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R12985/derived/derived__566b622e9e41dce1.xlsx",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R12985/derived/derived__566b622e9e41dce1.xlsx",
+      "title": "Evaluation of Anaerobic Digestion Amended with Micro-Aeration and/or Sound Treatment on the Resistome and Virulence Factor Gene Profiles in Poultry Litter",
+      "doi": "10.3390/antibiotics15020153",
+      "associated_record_ids": [
+        "R12985"
+      ],
+      "asset_id": "R12985.derived.566b622e9e41dce1",
+      "legacy_asset_ids": [
+        "R12985.derived.566b622e9e41dce1"
+      ],
+      "source_repo_path": "original_files/R12985/derived/derived__566b622e9e41dce1.xlsx"
     },
     {
+      "source_path": "original_files/supplementary/R12985/extracted/Supplementary Table S1-full data.xlsx",
+      "source": "cloud_existing",
+      "directory_id": "R12985",
       "record_id": "R12985",
-      "asset_id": "R12985.evidence_xml.f1a80564a8a1fa4b",
-      "role": "evidence_xml",
-      "official_attachment": false,
+      "original_filename": "Supplementary Table S1-full data.xlsx",
+      "size_bytes": 174932,
+      "sha256": "612fbb636cffef9883f1d1e6b2fe6a43da622b2d645418e110a33aec836bb3de",
+      "git_blob_oid": "0861037a5d61e66937264c9fb31899c2009075a3",
+      "format": "xlsx",
+      "issues": [],
+      "declared_role": "derived",
+      "role": "derived",
+      "version": "",
+      "verification_status": "xlsx_open_and_zip_crc_verified",
+      "text_path": "work/texts/612fbb636cffef9883f1d1e6b2fe6a43da622b2d645418e110a33aec836bb3de.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 0.0,
+      "title_compact_match": false,
+      "head_doi_matching_ids": [],
+      "body_markers": [],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "workbook_sheets": [
+        {
+          "name": "Supplementary Table 1",
+          "rows": 3191,
+          "columns": 12
+        }
+      ],
+      "canonical_path": "original_files/R12985/derived/derived__612fbb636cffef98.xlsx",
+      "source_paths": [
+        "original_files/supplementary/R12985/extracted/Supplementary Table S1-full data.xlsx"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "Supplementary Table S1-full data.xlsx"
+      ],
+      "source_record_ids": [
+        "R12985"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "False",
+          "record_id": "R12985",
+          "asset_id": "R12985.derived.612fbb636cffef98",
+          "role": "derived",
+          "official_attachment": "False",
+          "original_filename": "Supplementary Table S1-full data.xlsx",
+          "canonical_path": "papers/R12985/supplementary/derived/612fbb636cff_Supplementary Table S1-full data.xlsx",
+          "source_repo_path": "original_files/supplementary/R12985/extracted/Supplementary Table S1-full data.xlsx",
+          "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/extracted/antibiotics-15-00153-s001/Supplementary Table S1-full data.xlsx",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S1-full data.xlsx",
+          "format": "xlsx",
+          "size_bytes": "174932",
+          "sha256": "612fbb636cffef9883f1d1e6b2fe6a43da622b2d645418e110a33aec836bb3de",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
+          "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
+          "version": "extracted_archive_member",
+          "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "R12985.supplementary.1ce50822c9eab57d",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R12985/extracted/R12985.derived.612fbb636cffef98', 'search_chunks': 3191, 'tables': 1, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.942004+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 3191, 'table_count': 1, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['Formulas are preserved, never executed/recalculated; unavailable cached values are explicit. Charts and embedded images are not content-indexed.'], 'errors': []}",
+          "archive_member_path": "Supplementary Table S1-full data.xlsx",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [
+        {
+          "name": "[Content_Types].xml",
+          "size": 1168,
+          "encrypted": false
+        },
+        {
+          "name": "_rels/.rels",
+          "size": 588,
+          "encrypted": false
+        },
+        {
+          "name": "xl/workbook.xml",
+          "size": 2419,
+          "encrypted": false
+        },
+        {
+          "name": "xl/_rels/workbook.xml.rels",
+          "size": 698,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet1.xml",
+          "size": 1355170,
+          "encrypted": false
+        },
+        {
+          "name": "xl/theme/theme1.xml",
+          "size": 8721,
+          "encrypted": false
+        },
+        {
+          "name": "xl/styles.xml",
+          "size": 1812,
+          "encrypted": false
+        },
+        {
+          "name": "xl/sharedStrings.xml",
+          "size": 20511,
+          "encrypted": false
+        },
+        {
+          "name": "docProps/core.xml",
+          "size": 639,
+          "encrypted": false
+        },
+        {
+          "name": "docProps/app.xml",
+          "size": 800,
+          "encrypted": false
+        }
+      ],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R12985/derived/derived__612fbb636cffef98.xlsx",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R12985/derived/derived__612fbb636cffef98.xlsx",
+      "title": "Evaluation of Anaerobic Digestion Amended with Micro-Aeration and/or Sound Treatment on the Resistome and Virulence Factor Gene Profiles in Poultry Litter",
+      "doi": "10.3390/antibiotics15020153",
+      "associated_record_ids": [
+        "R12985"
+      ],
+      "asset_id": "R12985.derived.612fbb636cffef98",
+      "legacy_asset_ids": [
+        "R12985.derived.612fbb636cffef98"
+      ],
+      "source_repo_path": "original_files/R12985/derived/derived__612fbb636cffef98.xlsx"
+    },
+    {
+      "source_path": "original_files/supplementary/R12985/extracted/Supplementary Table S4-Summary Table for ARG classes.xlsx",
+      "source": "cloud_existing",
+      "directory_id": "R12985",
+      "record_id": "R12985",
+      "original_filename": "Supplementary Table S4-Summary Table for ARG classes.xlsx",
+      "size_bytes": 43818,
+      "sha256": "99672ebb9aaa605bbfdbd485ae7eaf7c5863075aa63643472ffe22706e5698f4",
+      "git_blob_oid": "f8de165cf0d515c3d3357801cd4491e8a58401d6",
+      "format": "xlsx",
+      "issues": [],
+      "declared_role": "derived",
+      "role": "derived",
+      "version": "",
+      "verification_status": "xlsx_open_and_zip_crc_verified",
+      "text_path": "work/texts/99672ebb9aaa605bbfdbd485ae7eaf7c5863075aa63643472ffe22706e5698f4.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 0.0,
+      "title_compact_match": false,
+      "head_doi_matching_ids": [],
+      "body_markers": [],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "workbook_sheets": [
+        {
+          "name": "MLS-All",
+          "rows": 69,
+          "columns": 14
+        },
+        {
+          "name": "MLS-by treatment",
+          "rows": 73,
+          "columns": 13
+        },
+        {
+          "name": "TET-by treatment",
+          "rows": 45,
+          "columns": 15
+        },
+        {
+          "name": "Tetracyclines",
+          "rows": 34,
+          "columns": 13
+        },
+        {
+          "name": "Aminoglycosides",
+          "rows": 56,
+          "columns": 16
+        },
+        {
+          "name": "Beta-lactams",
+          "rows": 50,
+          "columns": 13
+        },
+        {
+          "name": "Floroquinolones",
+          "rows": 5,
+          "columns": 11
+        },
+        {
+          "name": "Folate_pathway",
+          "rows": 12,
+          "columns": 16
+        },
+        {
+          "name": "Fosfomycin",
+          "rows": 14,
+          "columns": 13
+        },
+        {
+          "name": "Glycopeptides",
+          "rows": 32,
+          "columns": 13
+        },
+        {
+          "name": "Phenicols",
+          "rows": 18,
+          "columns": 13
+        },
+        {
+          "name": "MDR",
+          "rows": 11,
+          "columns": 13
+        },
+        {
+          "name": "QACs",
+          "rows": 10,
+          "columns": 13
+        }
+      ],
+      "canonical_path": "original_files/R12985/derived/derived__99672ebb9aaa605b.xlsx",
+      "source_paths": [
+        "original_files/supplementary/R12985/extracted/Supplementary Table S4-Summary Table for ARG classes.xlsx"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "Supplementary Table S4-Summary Table for ARG classes.xlsx"
+      ],
+      "source_record_ids": [
+        "R12985"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "False",
+          "record_id": "R12985",
+          "asset_id": "R12985.derived.99672ebb9aaa605b",
+          "role": "derived",
+          "official_attachment": "False",
+          "original_filename": "Supplementary Table S4-Summary Table for ARG classes.xlsx",
+          "canonical_path": "papers/R12985/supplementary/derived/99672ebb9aaa_Supplementary Table S4-Summary Table for ARG classes.xlsx",
+          "source_repo_path": "original_files/supplementary/R12985/extracted/Supplementary Table S4-Summary Table for ARG classes.xlsx",
+          "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/extracted/antibiotics-15-00153-s001/Supplementary Table S4-Summary Table for ARG classes.xlsx",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S4-Summary Table for ARG classes.xlsx",
+          "format": "xlsx",
+          "size_bytes": "43818",
+          "sha256": "99672ebb9aaa605bbfdbd485ae7eaf7c5863075aa63643472ffe22706e5698f4",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
+          "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
+          "version": "extracted_archive_member",
+          "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "R12985.supplementary.1ce50822c9eab57d",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R12985/extracted/R12985.derived.99672ebb9aaa605b', 'search_chunks': 422, 'tables': 13, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.941772+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 422, 'table_count': 13, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['Formulas are preserved, never executed/recalculated; unavailable cached values are explicit. Charts and embedded images are not content-indexed.'], 'errors': []}",
+          "archive_member_path": "Supplementary Table S4-Summary Table for ARG classes.xlsx",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [
+        {
+          "name": "[Content_Types].xml",
+          "size": 3048,
+          "encrypted": false
+        },
+        {
+          "name": "_rels/.rels",
+          "size": 588,
+          "encrypted": false
+        },
+        {
+          "name": "xl/workbook.xml",
+          "size": 3153,
+          "encrypted": false
+        },
+        {
+          "name": "xl/_rels/workbook.xml.rels",
+          "size": 2535,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet1.xml",
+          "size": 18946,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet2.xml",
+          "size": 27948,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet3.xml",
+          "size": 13922,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet4.xml",
+          "size": 12884,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet5.xml",
+          "size": 19424,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet6.xml",
+          "size": 14361,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet7.xml",
+          "size": 2678,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet8.xml",
+          "size": 4580,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet9.xml",
+          "size": 5478,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet10.xml",
+          "size": 10603,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet11.xml",
+          "size": 6836,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet12.xml",
+          "size": 5103,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet13.xml",
+          "size": 4470,
+          "encrypted": false
+        },
+        {
+          "name": "xl/theme/theme1.xml",
+          "size": 8721,
+          "encrypted": false
+        },
+        {
+          "name": "xl/styles.xml",
+          "size": 3167,
+          "encrypted": false
+        },
+        {
+          "name": "xl/sharedStrings.xml",
+          "size": 8381,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/_rels/sheet5.xml.rels",
+          "size": 322,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/_rels/sheet10.xml.rels",
+          "size": 322,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/_rels/sheet11.xml.rels",
+          "size": 322,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/_rels/sheet12.xml.rels",
+          "size": 322,
+          "encrypted": false
+        },
+        {
+          "name": "xl/printerSettings/printerSettings1.bin",
+          "size": 1712,
+          "encrypted": false
+        },
+        {
+          "name": "xl/printerSettings/printerSettings2.bin",
+          "size": 1712,
+          "encrypted": false
+        },
+        {
+          "name": "xl/printerSettings/printerSettings3.bin",
+          "size": 1712,
+          "encrypted": false
+        },
+        {
+          "name": "xl/printerSettings/printerSettings4.bin",
+          "size": 1712,
+          "encrypted": false
+        },
+        {
+          "name": "xl/calcChain.xml",
+          "size": 918,
+          "encrypted": false
+        },
+        {
+          "name": "docProps/core.xml",
+          "size": 639,
+          "encrypted": false
+        },
+        {
+          "name": "docProps/app.xml",
+          "size": 1307,
+          "encrypted": false
+        }
+      ],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R12985/derived/derived__99672ebb9aaa605b.xlsx",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R12985/derived/derived__99672ebb9aaa605b.xlsx",
+      "title": "Evaluation of Anaerobic Digestion Amended with Micro-Aeration and/or Sound Treatment on the Resistome and Virulence Factor Gene Profiles in Poultry Litter",
+      "doi": "10.3390/antibiotics15020153",
+      "associated_record_ids": [
+        "R12985"
+      ],
+      "asset_id": "R12985.derived.99672ebb9aaa605b",
+      "legacy_asset_ids": [
+        "R12985.derived.99672ebb9aaa605b"
+      ],
+      "source_repo_path": "original_files/R12985/derived/derived__99672ebb9aaa605b.xlsx"
+    },
+    {
+      "source_path": "original_files/source_evidence/R12985/PMC12937426_fullText.xml",
+      "source": "cloud_existing",
+      "directory_id": "R12985",
+      "record_id": "R12985",
       "original_filename": "PMC12937426_fullText.xml",
-      "canonical_path": "papers/R12985/evidence/f1a80564a8a1_PMC12937426_fullText.xml",
-      "source_repo_path": "original_files/source_evidence/R12985/PMC12937426_fullText.xml",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/evidence/PMC12937426_fullText.xml",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R12985/PMC12937426_fullText.xml",
-      "format": "xml",
       "size_bytes": 173586,
       "sha256": "f1a80564a8a1fa4b638bb6097c75cb3709b4c7487b6c8012474fd4e1865576cc",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
-      "source_xml_url": "",
-      "version": "repository_JATS_fulltext_representation_not_PDF",
-      "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
-      "extraction": {
-        "relative_directory": "papers/R12985/extracted/R12985.evidence_xml.f1a80564a8a1fa4b",
-        "search_chunks": 813,
-        "tables": 3,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:26.143684+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 813,
-        "table_count": 3,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "Repository JATS XML text/structured tables; linked figures/media not all fetched. It is not a recovered historical PDF. Table rowspan/colspan retained as locators, not expanded into a rectangular semantic grid."
-        ],
-        "errors": []
-      }
+      "git_blob_oid": "6d709e878433f47a02f6c363b30aee8245691af2",
+      "format": "xml",
+      "issues": [],
+      "declared_role": "source_evidence",
+      "role": "source_evidence",
+      "version": "",
+      "verification_status": "text_readable",
+      "text_path": "work/texts/f1a80564a8a1fa4b638bb6097c75cb3709b4c7487b6c8012474fd4e1865576cc.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R12985"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R12985/evidence/source_evidence__f1a80564a8a1fa4b.xml",
+      "source_paths": [
+        "original_files/source_evidence/R12985/PMC12937426_fullText.xml"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "PMC12937426_fullText.xml"
+      ],
+      "source_record_ids": [
+        "R12985"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "",
+          "record_id": "R12985",
+          "asset_id": "R12985.evidence_xml.f1a80564a8a1fa4b",
+          "role": "evidence_xml",
+          "official_attachment": "False",
+          "original_filename": "PMC12937426_fullText.xml",
+          "canonical_path": "papers/R12985/evidence/f1a80564a8a1_PMC12937426_fullText.xml",
+          "source_repo_path": "original_files/source_evidence/R12985/PMC12937426_fullText.xml",
+          "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/evidence/PMC12937426_fullText.xml",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R12985/PMC12937426_fullText.xml",
+          "format": "xml",
+          "size_bytes": "173586",
+          "sha256": "f1a80564a8a1fa4b638bb6097c75cb3709b4c7487b6c8012474fd4e1865576cc",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
+          "source_xml_url": "",
+          "version": "repository_JATS_fulltext_representation_not_PDF",
+          "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R12985/extracted/R12985.evidence_xml.f1a80564a8a1fa4b', 'search_chunks': 813, 'tables': 3, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:26.143684+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 813, 'table_count': 3, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['Repository JATS XML text/structured tables; linked figures/media not all fetched. It is not a recovered historical PDF. Table rowspan/colspan retained as locators, not expanded into a rectangular semantic grid.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R12985/evidence/source_evidence__f1a80564a8a1fa4b.xml",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R12985/evidence/source_evidence__f1a80564a8a1fa4b.xml",
+      "title": "Evaluation of Anaerobic Digestion Amended with Micro-Aeration and/or Sound Treatment on the Resistome and Virulence Factor Gene Profiles in Poultry Litter",
+      "doi": "10.3390/antibiotics15020153",
+      "associated_record_ids": [
+        "R12985"
+      ],
+      "asset_id": "R12985.evidence_xml.f1a80564a8a1fa4b",
+      "legacy_asset_ids": [
+        "R12985.evidence_xml.f1a80564a8a1fa4b"
+      ],
+      "source_repo_path": "original_files/R12985/evidence/source_evidence__f1a80564a8a1fa4b.xml"
     },
     {
+      "source_path": "original_files/fulltext/R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
+      "source": "cloud_existing",
+      "directory_id": "R12985",
       "record_id": "R12985",
-      "asset_id": "R12985.transport_archive.418d45f1ca296020",
-      "role": "transport_archive",
-      "official_attachment": false,
-      "original_filename": "PMC12937426_supplementaryFiles.zip",
-      "canonical_path": "papers/R12985/evidence/418d45f1ca29_PMC12937426_supplementaryFiles.zip",
-      "source_repo_path": "",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/transport/PMC12937426_supplementaryFiles.zip",
-      "resolved_source_path": "",
-      "format": "zip",
-      "size_bytes": 672244,
-      "sha256": "418d45f1ca2960209df0bfc1c3d44069413edc213239570a3d71d08d01f3e3e0",
-      "availability": "redundant_transport_archive_not_retained",
-      "storage_status": "canonical_original_attachments_available",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
-      "source_xml_url": "",
-      "version": "repository_generated_transport_not_official_SI",
-      "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "archive_catalogued",
-      "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
-      "extraction": {
-        "relative_directory": "papers/R12985/extracted/R12985.transport_archive.418d45f1ca296020",
-        "search_chunks": 0,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:26.143712+00:00",
-      "recovery_handling_reason": "Historical transfer ZIP intentionally not duplicated alongside all its available original attachments; historical SHA and record retained"
+      "original_filename": "R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
+      "size_bytes": 3394736,
+      "sha256": "f42e1cfc61ed462e54cdbb54d555f5f6230676c933caeed18744e15e9f7e1420",
+      "git_blob_oid": "6e13235d1ec7f71d74ea7feb8c2a7c7038969480",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
+      "version": "出版版本（原页出版信息）",
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 23,
+      "encrypted": false,
+      "page_text_lengths": [
+        3899,
+        3239,
+        3328,
+        2846,
+        1562,
+        4273,
+        460,
+        3799,
+        450,
+        3907,
+        3728,
+        95,
+        373,
+        1384,
+        1581,
+        4232,
+        4321,
+        4106,
+        3880,
+        4339,
+        3971,
+        5502,
+        2516
+      ],
+      "first_page_size": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_length": 67813,
+      "repaired_pdf": false,
+      "text_path": "work/texts/f42e1cfc61ed462e54cdbb54d555f5f6230676c933caeed18744e15e9f7e1420.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R12985"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R12985/fulltext/fulltext__published__f42e1cfc61ed462e.pdf",
+      "source_paths": [
+        "original_files/fulltext/R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf"
+      ],
+      "source_record_ids": [
+        "R12985"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "True",
+          "record_id": "R12985",
+          "asset_id": "R12985.main.f42e1cfc61ed462e",
+          "role": "main",
+          "official_attachment": "False",
+          "original_filename": "R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
+          "canonical_path": "papers/R12985/main/f42e1cfc61ed_R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
+          "source_repo_path": "original_files/fulltext/R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
+          "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
+          "format": "pdf",
+          "size_bytes": "3394736",
+          "sha256": "f42e1cfc61ed462e54cdbb54d555f5f6230676c933caeed18744e15e9f7e1420",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://mdpi-res.com/d_attachment/antibiotics/antibiotics-15-00153/article_deploy/antibiotics-15-00153.pdf?version=1770025471",
+          "source_xml_url": "",
+          "version": "出版版本（原页出版信息）",
+          "license_evidence": "Explicit in-document CC BY/CC0 statement; exact source byte file preserved",
+          "historical_sha256": "f42e1cfc61ed462e54cdbb54d555f5f6230676c933caeed18744e15e9f7e1420",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R12985/extracted/R12985.main.f42e1cfc61ed462e', 'search_chunks': 152, 'tables': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.824178+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 152, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.', 'OCR language=eng; OCR values, symbols and units require checking against source page.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R12985/fulltext/fulltext__published__f42e1cfc61ed462e.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R12985/fulltext/fulltext__published__f42e1cfc61ed462e.pdf",
+      "title": "Evaluation of Anaerobic Digestion Amended with Micro-Aeration and/or Sound Treatment on the Resistome and Virulence Factor Gene Profiles in Poultry Litter",
+      "doi": "10.3390/antibiotics15020153",
+      "associated_record_ids": [
+        "R12985"
+      ],
+      "asset_id": "R12985.main.f42e1cfc61ed462e",
+      "legacy_asset_ids": [
+        "R12985.main.f42e1cfc61ed462e"
+      ],
+      "source_repo_path": "original_files/R12985/fulltext/fulltext__published__f42e1cfc61ed462e.pdf"
     }
   ],
   "version_history": [
@@ -436,7 +1251,7 @@
       "status": "current_verified_preferred_bytes"
     }
   ],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.568954+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
@@ -489,5 +1304,419 @@
       ],
       "automatic_bulk_download_disabled": true
     }
-  ]
+  ],
+  "acquisition_before_20261023": {
+    "main_status": "downloaded_verified",
+    "supplementary_status": "downloaded",
+    "supplementary_coverage_complete": true,
+    "supplementary_official_count": 1,
+    "preferred_main_asset_id": "R12985.main.f42e1cfc61ed462e",
+    "current_verified_main_asset_ids": [
+      "R12985.main.f42e1cfc61ed462e"
+    ],
+    "assets": [
+      {
+        "preferred_for_record": true,
+        "record_id": "R12985",
+        "asset_id": "R12985.main.f42e1cfc61ed462e",
+        "role": "main",
+        "official_attachment": false,
+        "original_filename": "R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
+        "canonical_path": "papers/R12985/main/f42e1cfc61ed_R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
+        "source_repo_path": "original_files/fulltext/R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
+        "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R12985_2026_Evaluation_of_Anaerobic_Digestion_Amended_with_Micro-Aeration_andor_Sound.pdf",
+        "format": "pdf",
+        "size_bytes": 3394736,
+        "sha256": "f42e1cfc61ed462e54cdbb54d555f5f6230676c933caeed18744e15e9f7e1420",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://mdpi-res.com/d_attachment/antibiotics/antibiotics-15-00153/article_deploy/antibiotics-15-00153.pdf?version=1770025471",
+        "source_xml_url": "",
+        "version": "出版版本（原页出版信息）",
+        "license_evidence": "Explicit in-document CC BY/CC0 statement; exact source byte file preserved",
+        "historical_sha256": "f42e1cfc61ed462e54cdbb54d555f5f6230676c933caeed18744e15e9f7e1420",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "extraction": {
+          "relative_directory": "papers/R12985/extracted/R12985.main.f42e1cfc61ed462e",
+          "search_chunks": 152,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.824178+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 152,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
+            "OCR language=eng; OCR values, symbols and units require checking against source page."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "preferred_for_record": false,
+        "record_id": "R12985",
+        "asset_id": "R12985.supplementary.1ce50822c9eab57d",
+        "role": "supplementary",
+        "official_attachment": true,
+        "original_filename": "antibiotics-15-00153-s001.zip",
+        "canonical_path": "papers/R12985/supplementary/1ce50822c9ea_antibiotics-15-00153-s001.zip",
+        "source_repo_path": "original_files/supplementary/R12985/antibiotics-15-00153-s001.zip",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/official/antibiotics-15-00153-s001.zip",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/antibiotics-15-00153-s001.zip",
+        "format": "zip",
+        "size_bytes": 240699,
+        "sha256": "1ce50822c9eab57d4c6dd71388959b4e8d53a98108db5c1ec1c481164ce5fcea",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
+        "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
+        "version": "original_supplementary_attachment",
+        "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "archive_catalogued",
+        "extraction": {
+          "relative_directory": "papers/R12985/extracted/R12985.supplementary.1ce50822c9eab57d",
+          "search_chunks": 0,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.941648+00:00",
+        "extraction_20261017": {
+          "status": "archive_catalogued",
+          "search_chunks": 0,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "ZIP member names/checksums indexed; member content indexed through separately SHA-bound derived assets. No executable/code is run."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "preferred_for_record": false,
+        "record_id": "R12985",
+        "asset_id": "R12985.derived.3591be2bdae6839f",
+        "role": "derived",
+        "official_attachment": false,
+        "original_filename": "Supplementary Table S3- ARGs detected.xlsx",
+        "canonical_path": "papers/R12985/supplementary/derived/3591be2bdae6_Supplementary Table S3- ARGs detected.xlsx",
+        "source_repo_path": "original_files/supplementary/R12985/extracted/Supplementary Table S3- ARGs detected.xlsx",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/extracted/antibiotics-15-00153-s001/Supplementary Table S3- ARGs detected.xlsx",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S3- ARGs detected.xlsx",
+        "format": "xlsx",
+        "size_bytes": 22225,
+        "sha256": "3591be2bdae6839fb4e7c255178242754358e42f9506e1c43e155534f1e27f8c",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
+        "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
+        "version": "extracted_archive_member",
+        "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "R12985.supplementary.1ce50822c9eab57d",
+        "parsing_status": "parsed",
+        "archive_member_path": "Supplementary Table S3- ARGs detected.xlsx",
+        "extraction": {
+          "relative_directory": "papers/R12985/extracted/R12985.derived.3591be2bdae6839f",
+          "search_chunks": 443,
+          "tables": 3,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.941708+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 443,
+          "table_count": 3,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "Formulas are preserved, never executed/recalculated; unavailable cached values are explicit. Charts and embedded images are not content-indexed."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "preferred_for_record": false,
+        "record_id": "R12985",
+        "asset_id": "R12985.derived.99672ebb9aaa605b",
+        "role": "derived",
+        "official_attachment": false,
+        "original_filename": "Supplementary Table S4-Summary Table for ARG classes.xlsx",
+        "canonical_path": "papers/R12985/supplementary/derived/99672ebb9aaa_Supplementary Table S4-Summary Table for ARG classes.xlsx",
+        "source_repo_path": "original_files/supplementary/R12985/extracted/Supplementary Table S4-Summary Table for ARG classes.xlsx",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/extracted/antibiotics-15-00153-s001/Supplementary Table S4-Summary Table for ARG classes.xlsx",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S4-Summary Table for ARG classes.xlsx",
+        "format": "xlsx",
+        "size_bytes": 43818,
+        "sha256": "99672ebb9aaa605bbfdbd485ae7eaf7c5863075aa63643472ffe22706e5698f4",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
+        "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
+        "version": "extracted_archive_member",
+        "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "R12985.supplementary.1ce50822c9eab57d",
+        "parsing_status": "parsed",
+        "archive_member_path": "Supplementary Table S4-Summary Table for ARG classes.xlsx",
+        "extraction": {
+          "relative_directory": "papers/R12985/extracted/R12985.derived.99672ebb9aaa605b",
+          "search_chunks": 422,
+          "tables": 13,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.941772+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 422,
+          "table_count": 13,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "Formulas are preserved, never executed/recalculated; unavailable cached values are explicit. Charts and embedded images are not content-indexed."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "preferred_for_record": false,
+        "record_id": "R12985",
+        "asset_id": "R12985.derived.612fbb636cffef98",
+        "role": "derived",
+        "official_attachment": false,
+        "original_filename": "Supplementary Table S1-full data.xlsx",
+        "canonical_path": "papers/R12985/supplementary/derived/612fbb636cff_Supplementary Table S1-full data.xlsx",
+        "source_repo_path": "original_files/supplementary/R12985/extracted/Supplementary Table S1-full data.xlsx",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/extracted/antibiotics-15-00153-s001/Supplementary Table S1-full data.xlsx",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S1-full data.xlsx",
+        "format": "xlsx",
+        "size_bytes": 174932,
+        "sha256": "612fbb636cffef9883f1d1e6b2fe6a43da622b2d645418e110a33aec836bb3de",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
+        "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
+        "version": "extracted_archive_member",
+        "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "R12985.supplementary.1ce50822c9eab57d",
+        "parsing_status": "parsed",
+        "archive_member_path": "Supplementary Table S1-full data.xlsx",
+        "extraction": {
+          "relative_directory": "papers/R12985/extracted/R12985.derived.612fbb636cffef98",
+          "search_chunks": 3191,
+          "tables": 1,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.942004+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 3191,
+          "table_count": 1,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "Formulas are preserved, never executed/recalculated; unavailable cached values are explicit. Charts and embedded images are not content-indexed."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "preferred_for_record": false,
+        "record_id": "R12985",
+        "asset_id": "R12985.derived.566b622e9e41dce1",
+        "role": "derived",
+        "official_attachment": false,
+        "original_filename": "Supplementary Table S2-origin species for ARG alignments.xlsx",
+        "canonical_path": "papers/R12985/supplementary/derived/566b622e9e41_Supplementary Table S2-origin species for ARG alignments.xlsx",
+        "source_repo_path": "original_files/supplementary/R12985/extracted/Supplementary Table S2-origin species for ARG alignments.xlsx",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/extracted/antibiotics-15-00153-s001/Supplementary Table S2-origin species for ARG alignments.xlsx",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R12985/extracted/Supplementary Table S2-origin species for ARG alignments.xlsx",
+        "format": "xlsx",
+        "size_bytes": 20081,
+        "sha256": "566b622e9e41dce192aa4e95ba6109b96510adfe331bb094e244b364b1e2e15d",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
+        "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
+        "version": "extracted_archive_member",
+        "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "R12985.supplementary.1ce50822c9eab57d",
+        "parsing_status": "parsed",
+        "archive_member_path": "Supplementary Table S2-origin species for ARG alignments.xlsx",
+        "extraction": {
+          "relative_directory": "papers/R12985/extracted/R12985.derived.566b622e9e41dce1",
+          "search_chunks": 302,
+          "tables": 2,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.942202+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 302,
+          "table_count": 2,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "Formulas are preserved, never executed/recalculated; unavailable cached values are explicit. Charts and embedded images are not content-indexed."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "record_id": "R12985",
+        "asset_id": "R12985.evidence_xml.f1a80564a8a1fa4b",
+        "role": "evidence_xml",
+        "official_attachment": false,
+        "original_filename": "PMC12937426_fullText.xml",
+        "canonical_path": "papers/R12985/evidence/f1a80564a8a1_PMC12937426_fullText.xml",
+        "source_repo_path": "original_files/source_evidence/R12985/PMC12937426_fullText.xml",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/evidence/PMC12937426_fullText.xml",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R12985/PMC12937426_fullText.xml",
+        "format": "xml",
+        "size_bytes": 173586,
+        "sha256": "f1a80564a8a1fa4b638bb6097c75cb3709b4c7487b6c8012474fd4e1865576cc",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/fullTextXML",
+        "source_xml_url": "",
+        "version": "repository_JATS_fulltext_representation_not_PDF",
+        "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
+        "extraction": {
+          "relative_directory": "papers/R12985/extracted/R12985.evidence_xml.f1a80564a8a1fa4b",
+          "search_chunks": 813,
+          "tables": 3,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:26.143684+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 813,
+          "table_count": 3,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "Repository JATS XML text/structured tables; linked figures/media not all fetched. It is not a recovered historical PDF. Table rowspan/colspan retained as locators, not expanded into a rectangular semantic grid."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "record_id": "R12985",
+        "asset_id": "R12985.transport_archive.418d45f1ca296020",
+        "role": "transport_archive",
+        "official_attachment": false,
+        "original_filename": "PMC12937426_supplementaryFiles.zip",
+        "canonical_path": "papers/R12985/evidence/418d45f1ca29_PMC12937426_supplementaryFiles.zip",
+        "source_repo_path": "",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R12985/transport/PMC12937426_supplementaryFiles.zip",
+        "resolved_source_path": "",
+        "format": "zip",
+        "size_bytes": 672244,
+        "sha256": "418d45f1ca2960209df0bfc1c3d44069413edc213239570a3d71d08d01f3e3e0",
+        "availability": "redundant_transport_archive_not_retained",
+        "storage_status": "canonical_original_attachments_available",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12937426/supplementaryFiles",
+        "source_xml_url": "",
+        "version": "repository_generated_transport_not_official_SI",
+        "license_evidence": "© 2026 by the authors.2026https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license.",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "archive_catalogued",
+        "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
+        "extraction": {
+          "relative_directory": "papers/R12985/extracted/R12985.transport_archive.418d45f1ca296020",
+          "search_chunks": 0,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:26.143712+00:00",
+        "recovery_handling_reason": "Historical transfer ZIP intentionally not duplicated alongside all its available original attachments; historical SHA and record retained"
+      }
+    ]
+  },
+  "acquisition_20261023": {
+    "record_id": "R12985",
+    "title": "Evaluation of Anaerobic Digestion Amended with Micro-Aeration and/or Sound Treatment on the Resistome and Virulence Factor Gene Profiles in Poultry Litter",
+    "doi": "10.3390/antibiotics15020153",
+    "category_unchanged": "1 直接向 AD 反应器或内部循环系统供氧",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R12985/fulltext/fulltext__published__f42e1cfc61ed462e.pdf"
+    ],
+    "main_sha256": [
+      "f42e1cfc61ed462e54cdbb54d555f5f6230676c933caeed18744e15e9f7e1420"
+    ],
+    "supplementary_count": 1,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "已取得1件原格式补充材料；其中0件唯一关联待核实；完整性未确认",
+    "supplementary_paths": [
+      "original_files/R12985/supplementary/supplementary__1ce50822c9eab57d.zip"
+    ],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R12985/supplementary/supplementary__1ce50822c9eab57d.zip",
+      "original_files/R12985/derived/derived__3591be2bdae6839f.xlsx",
+      "original_files/R12985/derived/derived__566b622e9e41dce1.xlsx",
+      "original_files/R12985/derived/derived__612fbb636cffef98.xlsx",
+      "original_files/R12985/derived/derived__99672ebb9aaa605b.xlsx",
+      "original_files/R12985/evidence/source_evidence__f1a80564a8a1fa4b.xml",
+      "original_files/R12985/fulltext/fulltext__published__f42e1cfc61ed462e.pdf"
+    ]
+  },
+  "supplementary_original_count_20261023": 1,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R12985",
+    "original_journal": "Antibiotics",
+    "normalized_journal": "Antibiotics",
+    "publication_kind": "期刊论文",
+    "subtype": "研究类",
+    "issn": "",
+    "eissn": "2079-6382",
+    "metadata_source": "https://api.crossref.org/works/10.3390/antibiotics15020153",
+    "notes": "2024指标年JCR分区未核实；空白不能当非Q1。需要2025发布版/2024指标年的JCR全部学科导出。"
+  }
 }

@@ -7,7 +7,7 @@
   "preferred_main_asset_id": "R07238.main.26c38d1631747ddc",
   "included_for_download": true,
   "main_status": "downloaded_verified",
-  "supplementary_status": "downloaded",
+  "supplementary_status": "已取得2件原格式补充材料；其中0件唯一关联待核实；完整性未确认",
   "supplementary_coverage_complete": true,
   "supplementary_official_count": 2,
   "supplementary_previous_detail": {
@@ -43,258 +43,489 @@
   },
   "assets": [
     {
-      "preferred_for_record": true,
+      "source_path": "original_files/supplementary/R07238/mmc1.docx",
+      "source": "cloud_existing",
+      "directory_id": "R07238",
       "record_id": "R07238",
-      "asset_id": "R07238.main.26c38d1631747ddc",
-      "role": "main",
-      "official_attachment": false,
-      "original_filename": "R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
-      "canonical_path": "papers/R07238/main/26c38d163174_R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
-      "source_repo_path": "original_files/fulltext/R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
-      "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
-      "format": "pdf",
-      "size_bytes": 4532295,
-      "sha256": "26c38d1631747ddcb443b8d80d0070145f1968ff0f4b8e86dc2f69cc2bb968d8",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://europepmc.org/api/getPdf?pmcid=PMC8044681",
-      "source_xml_url": "",
-      "version": "出版版本（原页出版信息）",
-      "license_evidence": "No verified permissive redistribution grant; private backup destination pending",
-      "historical_sha256": "26c38d1631747ddcb443b8d80d0070145f1968ff0f4b8e86dc2f69cc2bb968d8",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "extraction": {
-        "relative_directory": "papers/R07238/extracted/R07238.main.26c38d1631747ddc",
-        "search_chunks": 161,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.846968+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 161,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
-          "OCR language=eng; OCR values, symbols and units require checking against source page."
-        ],
-        "errors": []
-      }
-    },
-    {
-      "preferred_for_record": false,
-      "record_id": "R07238",
-      "asset_id": "R07238.supplementary.0b7925ad1ed9c793",
-      "role": "supplementary",
-      "official_attachment": true,
       "original_filename": "mmc1.docx",
-      "canonical_path": "papers/R07238/supplementary/0b7925ad1ed9_mmc1.docx",
-      "source_repo_path": "original_files/supplementary/R07238/mmc1.docx",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R07238/official/mmc1.docx",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R07238/mmc1.docx",
-      "format": "docx",
       "size_bytes": 49526,
       "sha256": "0b7925ad1ed9c7939a79ba6294d17abc4b23fca77e52ec50df5463d050940d1e",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1350417721000730-mmc1.docx",
-      "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/fullTextXML",
-      "version": "Official publisher supplementary Word document; exact historical SHA256",
-      "license_evidence": "© 2021 The AuthorsThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "extraction": {
-        "relative_directory": "papers/R07238/extracted/R07238.supplementary.0b7925ad1ed9c793",
-        "search_chunks": 1,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.942832+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 1,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "Word OOXML body paragraphs/tables and section headers/footers; page numbers depend on renderer; nested tables, text boxes, footnotes and embedded objects are not guaranteed parsed."
-        ],
-        "errors": []
-      }
-    },
-    {
-      "preferred_for_record": false,
-      "record_id": "R07238",
-      "asset_id": "R07238.supplementary.f346f9bdcc964013",
+      "git_blob_oid": "67d6df3dd768bbffa588ecb0742112e58d321af2",
+      "format": "docx",
+      "issues": [],
+      "declared_role": "supplementary",
       "role": "supplementary",
-      "official_attachment": true,
-      "original_filename": "mmc2.zip",
-      "canonical_path": "papers/R07238/supplementary/f346f9bdcc96_mmc2.zip",
-      "source_repo_path": "original_files/supplementary/R07238/mmc2.zip",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R07238/official/mmc2.zip",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R07238/mmc2.zip",
-      "format": "zip",
-      "size_bytes": 14286928,
-      "sha256": "f346f9bdcc964013ecb7c4282d6b30f1ab334e035d98adcc653de1447fbe9a9a",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/supplementaryFiles",
-      "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/fullTextXML",
-      "version": "original_supplementary_attachment",
-      "license_evidence": "© 2021 The AuthorsThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "archive_catalogued",
-      "extraction": {
-        "relative_directory": "papers/R07238/extracted/R07238.supplementary.f346f9bdcc964013",
-        "search_chunks": 0,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.961036+00:00",
-      "extraction_20261017": {
-        "status": "archive_catalogued",
-        "search_chunks": 0,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "ZIP member names/checksums indexed; member content indexed through separately SHA-bound derived assets. No executable/code is run."
-        ],
-        "errors": []
-      }
+      "version": "",
+      "verification_status": "container_crc_verified",
+      "text_path": "work/texts/0b7925ad1ed9c7939a79ba6294d17abc4b23fca77e52ec50df5463d050940d1e.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 0.238,
+      "title_compact_match": false,
+      "head_doi_matching_ids": [],
+      "body_markers": [],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "existing_official_attachment_evidence_retained",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R07238/supplementary/supplementary__0b7925ad1ed9c793.docx",
+      "source_paths": [
+        "original_files/supplementary/R07238/mmc1.docx"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "mmc1.docx"
+      ],
+      "source_record_ids": [
+        "R07238"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "False",
+          "record_id": "R07238",
+          "asset_id": "R07238.supplementary.0b7925ad1ed9c793",
+          "role": "supplementary",
+          "official_attachment": "True",
+          "original_filename": "mmc1.docx",
+          "canonical_path": "papers/R07238/supplementary/0b7925ad1ed9_mmc1.docx",
+          "source_repo_path": "original_files/supplementary/R07238/mmc1.docx",
+          "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R07238/official/mmc1.docx",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R07238/mmc1.docx",
+          "format": "docx",
+          "size_bytes": "49526",
+          "sha256": "0b7925ad1ed9c7939a79ba6294d17abc4b23fca77e52ec50df5463d050940d1e",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1350417721000730-mmc1.docx",
+          "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/fullTextXML",
+          "version": "Official publisher supplementary Word document; exact historical SHA256",
+          "license_evidence": "© 2021 The AuthorsThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R07238/extracted/R07238.supplementary.0b7925ad1ed9c793', 'search_chunks': 1, 'tables': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.942832+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 1, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['Word OOXML body paragraphs/tables and section headers/footers; page numbers depend on renderer; nested tables, text boxes, footnotes and embedded objects are not guaranteed parsed.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [
+        {
+          "name": "[Content_Types].xml",
+          "size": 1460,
+          "encrypted": false
+        },
+        {
+          "name": "_rels/.rels",
+          "size": 590,
+          "encrypted": false
+        },
+        {
+          "name": "word/_rels/document.xml.rels",
+          "size": 1094,
+          "encrypted": false
+        },
+        {
+          "name": "word/document.xml",
+          "size": 6414,
+          "encrypted": false
+        },
+        {
+          "name": "word/media/image1.emf",
+          "size": 73096,
+          "encrypted": false
+        },
+        {
+          "name": "word/embeddings/oleObject1.bin",
+          "size": 103936,
+          "encrypted": false
+        },
+        {
+          "name": "word/theme/theme1.xml",
+          "size": 6799,
+          "encrypted": false
+        },
+        {
+          "name": "word/settings.xml",
+          "size": 3027,
+          "encrypted": false
+        },
+        {
+          "name": "word/webSettings.xml",
+          "size": 576,
+          "encrypted": false
+        },
+        {
+          "name": "docProps/core.xml",
+          "size": 737,
+          "encrypted": false
+        },
+        {
+          "name": "word/styles.xml",
+          "size": 28972,
+          "encrypted": false
+        },
+        {
+          "name": "word/fontTable.xml",
+          "size": 1604,
+          "encrypted": false
+        },
+        {
+          "name": "docProps/app.xml",
+          "size": 708,
+          "encrypted": false
+        }
+      ],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R07238/supplementary/supplementary__0b7925ad1ed9c793.docx",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R07238/supplementary/supplementary__0b7925ad1ed9c793.docx",
+      "title": "The influence of combined low-strength ultrasonics and micro-aerobic pretreatment process on methane generation and sludge digestion: Lipase enzyme, microbial activation, and energy yield",
+      "doi": "10.1016/j.ultsonch.2021.105531",
+      "associated_record_ids": [
+        "R07238"
+      ],
+      "asset_id": "R07238.supplementary.0b7925ad1ed9c793",
+      "legacy_asset_ids": [
+        "R07238.supplementary.0b7925ad1ed9c793"
+      ],
+      "source_repo_path": "original_files/R07238/supplementary/supplementary__0b7925ad1ed9c793.docx"
     },
     {
-      "preferred_for_record": false,
+      "source_path": "original_files/fulltext/R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
+      "source": "cloud_existing",
+      "directory_id": "R07238",
       "record_id": "R07238",
-      "asset_id": "R07238.derived.49b84e369d4bb31b",
-      "role": "derived",
-      "official_attachment": false,
-      "original_filename": "g a.skp",
-      "canonical_path": "papers/R07238/supplementary/derived/49b84e369d4b_g a.skp",
-      "source_repo_path": "",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R07238/extracted/mmc2/g a.skp",
-      "resolved_source_path": "",
-      "format": "skp",
-      "size_bytes": 34855493,
-      "sha256": "49b84e369d4bb31b4ebdcd25265be3174105c3433e6fbb865f34a445775516a1",
-      "availability": "available_as_verified_original_archive_member",
-      "storage_status": "available_via_canonical_original_archive",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/supplementaryFiles",
-      "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/fullTextXML",
-      "version": "extracted_archive_member",
-      "license_evidence": "© 2021 The AuthorsThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "R07238.supplementary.f346f9bdcc964013",
-      "parsing_status": "retained_not_content_indexed",
-      "archive_member_path": "g a.skp",
-      "extraction": {
-        "relative_directory": "papers/R07238/extracted/R07238.derived.49b84e369d4bb31b",
-        "search_chunks": 0,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.961147+00:00",
-      "recovered_archive_path": "original_files/supplementary/R07238/mmc2.zip",
-      "recovered_archive_sha256": "f346f9bdcc964013ecb7c4282d6b30f1ab334e035d98adcc653de1447fbe9a9a",
-      "recovery_handling_reason": "Exact historical member SHA/size verified inside retained official ZIP; no duplicate raw member materialized"
+      "original_filename": "R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
+      "size_bytes": 4532295,
+      "sha256": "26c38d1631747ddcb443b8d80d0070145f1968ff0f4b8e86dc2f69cc2bb968d8",
+      "git_blob_oid": "b231d10cb0b3d315d74ebaa9c275f4dd276dfc2a",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
+      "version": "出版版本（原页出版信息）",
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 11,
+      "encrypted": false,
+      "page_text_lengths": [
+        4910,
+        8088,
+        4589,
+        7522,
+        4846,
+        6342,
+        5029,
+        5233,
+        6820,
+        9138,
+        10272
+      ],
+      "first_page_size": [
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "text_length": 72799,
+      "repaired_pdf": false,
+      "text_path": "work/texts/26c38d1631747ddcb443b8d80d0070145f1968ff0f4b8e86dc2f69cc2bb968d8.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R07238"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R07238/fulltext/fulltext__published__26c38d1631747ddc.pdf",
+      "source_paths": [
+        "original_files/fulltext/R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf"
+      ],
+      "source_record_ids": [
+        "R07238"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "True",
+          "record_id": "R07238",
+          "asset_id": "R07238.main.26c38d1631747ddc",
+          "role": "main",
+          "official_attachment": "False",
+          "original_filename": "R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
+          "canonical_path": "papers/R07238/main/26c38d163174_R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
+          "source_repo_path": "original_files/fulltext/R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
+          "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
+          "format": "pdf",
+          "size_bytes": "4532295",
+          "sha256": "26c38d1631747ddcb443b8d80d0070145f1968ff0f4b8e86dc2f69cc2bb968d8",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://europepmc.org/api/getPdf?pmcid=PMC8044681",
+          "source_xml_url": "",
+          "version": "出版版本（原页出版信息）",
+          "license_evidence": "No verified permissive redistribution grant; private backup destination pending",
+          "historical_sha256": "26c38d1631747ddcb443b8d80d0070145f1968ff0f4b8e86dc2f69cc2bb968d8",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R07238/extracted/R07238.main.26c38d1631747ddc', 'search_chunks': 161, 'tables': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.846968+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 161, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.', 'OCR language=eng; OCR values, symbols and units require checking against source page.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R07238/fulltext/fulltext__published__26c38d1631747ddc.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R07238/fulltext/fulltext__published__26c38d1631747ddc.pdf",
+      "title": "The influence of combined low-strength ultrasonics and micro-aerobic pretreatment process on methane generation and sludge digestion: Lipase enzyme, microbial activation, and energy yield",
+      "doi": "10.1016/j.ultsonch.2021.105531",
+      "associated_record_ids": [
+        "R07238"
+      ],
+      "asset_id": "R07238.main.26c38d1631747ddc",
+      "legacy_asset_ids": [
+        "R07238.main.26c38d1631747ddc"
+      ],
+      "source_repo_path": "original_files/R07238/fulltext/fulltext__published__26c38d1631747ddc.pdf"
     },
     {
+      "source_path": "original_files/source_evidence/R07238/PMC8044681_fullText.xml",
+      "source": "cloud_existing",
+      "directory_id": "R07238",
       "record_id": "R07238",
-      "asset_id": "R07238.evidence_xml.6c93b117d7bd5886",
-      "role": "evidence_xml",
-      "official_attachment": false,
       "original_filename": "PMC8044681_fullText.xml",
-      "canonical_path": "papers/R07238/evidence/6c93b117d7bd_PMC8044681_fullText.xml",
-      "source_repo_path": "original_files/source_evidence/R07238/PMC8044681_fullText.xml",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R07238/evidence/PMC8044681_fullText.xml",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R07238/PMC8044681_fullText.xml",
-      "format": "xml",
       "size_bytes": 151458,
       "sha256": "6c93b117d7bd588658aabfd8b7ec679110899d8f556eb6b90b071e6057ddd2cd",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/fullTextXML",
-      "source_xml_url": "",
-      "version": "repository_JATS_fulltext_representation_not_PDF",
-      "license_evidence": "© 2021 The AuthorsThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
-      "extraction": {
-        "relative_directory": "papers/R07238/extracted/R07238.evidence_xml.6c93b117d7bd5886",
-        "search_chunks": 258,
-        "tables": 3,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:26.144966+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 258,
-        "table_count": 3,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "Repository JATS XML text/structured tables; linked figures/media not all fetched. It is not a recovered historical PDF. Table rowspan/colspan retained as locators, not expanded into a rectangular semantic grid."
-        ],
-        "errors": []
-      }
+      "git_blob_oid": "bec38f6881b9e54613a14f17d8d2e60d0364314d",
+      "format": "xml",
+      "issues": [],
+      "declared_role": "source_evidence",
+      "role": "source_evidence",
+      "version": "",
+      "verification_status": "text_readable",
+      "text_path": "work/texts/6c93b117d7bd588658aabfd8b7ec679110899d8f556eb6b90b071e6057ddd2cd.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R07238"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R07238/evidence/source_evidence__6c93b117d7bd5886.xml",
+      "source_paths": [
+        "original_files/source_evidence/R07238/PMC8044681_fullText.xml"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "PMC8044681_fullText.xml"
+      ],
+      "source_record_ids": [
+        "R07238"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "",
+          "record_id": "R07238",
+          "asset_id": "R07238.evidence_xml.6c93b117d7bd5886",
+          "role": "evidence_xml",
+          "official_attachment": "False",
+          "original_filename": "PMC8044681_fullText.xml",
+          "canonical_path": "papers/R07238/evidence/6c93b117d7bd_PMC8044681_fullText.xml",
+          "source_repo_path": "original_files/source_evidence/R07238/PMC8044681_fullText.xml",
+          "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R07238/evidence/PMC8044681_fullText.xml",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R07238/PMC8044681_fullText.xml",
+          "format": "xml",
+          "size_bytes": "151458",
+          "sha256": "6c93b117d7bd588658aabfd8b7ec679110899d8f556eb6b90b071e6057ddd2cd",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/fullTextXML",
+          "source_xml_url": "",
+          "version": "repository_JATS_fulltext_representation_not_PDF",
+          "license_evidence": "© 2021 The AuthorsThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R07238/extracted/R07238.evidence_xml.6c93b117d7bd5886', 'search_chunks': 258, 'tables': 3, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:26.144966+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 258, 'table_count': 3, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['Repository JATS XML text/structured tables; linked figures/media not all fetched. It is not a recovered historical PDF. Table rowspan/colspan retained as locators, not expanded into a rectangular semantic grid.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R07238/evidence/source_evidence__6c93b117d7bd5886.xml",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R07238/evidence/source_evidence__6c93b117d7bd5886.xml",
+      "title": "The influence of combined low-strength ultrasonics and micro-aerobic pretreatment process on methane generation and sludge digestion: Lipase enzyme, microbial activation, and energy yield",
+      "doi": "10.1016/j.ultsonch.2021.105531",
+      "associated_record_ids": [
+        "R07238"
+      ],
+      "asset_id": "R07238.evidence_xml.6c93b117d7bd5886",
+      "legacy_asset_ids": [
+        "R07238.evidence_xml.6c93b117d7bd5886"
+      ],
+      "source_repo_path": "original_files/R07238/evidence/source_evidence__6c93b117d7bd5886.xml"
     },
     {
+      "source_path": "original_files/supplementary/R07238/mmc2.zip",
+      "source": "cloud_existing",
+      "directory_id": "R07238",
       "record_id": "R07238",
-      "asset_id": "R07238.transport_archive.3785c23cb2f4ab50",
-      "role": "transport_archive",
-      "official_attachment": false,
-      "original_filename": "PMC8044681_supplementaryFiles.zip",
-      "canonical_path": "papers/R07238/evidence/3785c23cb2f4_PMC8044681_supplementaryFiles.zip",
-      "source_repo_path": "",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R07238/transport/PMC8044681_supplementaryFiles.zip",
-      "resolved_source_path": "",
+      "original_filename": "mmc2.zip",
+      "size_bytes": 14286928,
+      "sha256": "f346f9bdcc964013ecb7c4282d6b30f1ab334e035d98adcc653de1447fbe9a9a",
+      "git_blob_oid": "779b7d0d5ae20dacc1e77e518b58e04cdb5155eb",
       "format": "zip",
-      "size_bytes": 14596266,
-      "sha256": "3785c23cb2f4ab50f5b2b5cbb581da63ced9f8d1e69a91e6faca839b6b57587d",
-      "availability": "redundant_transport_archive_not_retained",
-      "storage_status": "canonical_original_attachments_available",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/supplementaryFiles",
-      "source_xml_url": "",
-      "version": "repository_generated_transport_not_official_SI",
-      "license_evidence": "© 2021 The AuthorsThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "archive_catalogued",
-      "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
-      "extraction": {
-        "relative_directory": "papers/R07238/extracted/R07238.transport_archive.3785c23cb2f4ab50",
-        "search_chunks": 0,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:26.144979+00:00",
-      "recovery_handling_reason": "Historical transfer ZIP intentionally not duplicated alongside all its available original attachments; historical SHA and record retained"
+      "issues": [],
+      "declared_role": "supplementary",
+      "role": "supplementary",
+      "version": "",
+      "verification_status": "container_crc_verified",
+      "text_path": "work/texts/f346f9bdcc964013ecb7c4282d6b30f1ab334e035d98adcc653de1447fbe9a9a.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 0.0,
+      "title_compact_match": false,
+      "head_doi_matching_ids": [],
+      "body_markers": [],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "existing_official_attachment_evidence_retained",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R07238/supplementary/supplementary__f346f9bdcc964013.zip",
+      "source_paths": [
+        "original_files/supplementary/R07238/mmc2.zip"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "mmc2.zip"
+      ],
+      "source_record_ids": [
+        "R07238"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "False",
+          "record_id": "R07238",
+          "asset_id": "R07238.supplementary.f346f9bdcc964013",
+          "role": "supplementary",
+          "official_attachment": "True",
+          "original_filename": "mmc2.zip",
+          "canonical_path": "papers/R07238/supplementary/f346f9bdcc96_mmc2.zip",
+          "source_repo_path": "original_files/supplementary/R07238/mmc2.zip",
+          "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R07238/official/mmc2.zip",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R07238/mmc2.zip",
+          "format": "zip",
+          "size_bytes": "14286928",
+          "sha256": "f346f9bdcc964013ecb7c4282d6b30f1ab334e035d98adcc653de1447fbe9a9a",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/supplementaryFiles",
+          "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/fullTextXML",
+          "version": "original_supplementary_attachment",
+          "license_evidence": "© 2021 The AuthorsThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "",
+          "parsing_status": "archive_catalogued",
+          "extraction": "{'relative_directory': 'papers/R07238/extracted/R07238.supplementary.f346f9bdcc964013', 'search_chunks': 0, 'tables': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.961036+00:00",
+          "extraction_20261017": "{'status': 'archive_catalogued', 'search_chunks': 0, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['ZIP member names/checksums indexed; member content indexed through separately SHA-bound derived assets. No executable/code is run.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [
+        {
+          "name": "g a.skp",
+          "size": 34855493,
+          "encrypted": false
+        }
+      ],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R07238/supplementary/supplementary__f346f9bdcc964013.zip",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R07238/supplementary/supplementary__f346f9bdcc964013.zip",
+      "title": "The influence of combined low-strength ultrasonics and micro-aerobic pretreatment process on methane generation and sludge digestion: Lipase enzyme, microbial activation, and energy yield",
+      "doi": "10.1016/j.ultsonch.2021.105531",
+      "associated_record_ids": [
+        "R07238"
+      ],
+      "asset_id": "R07238.supplementary.f346f9bdcc964013",
+      "legacy_asset_ids": [
+        "R07238.supplementary.f346f9bdcc964013"
+      ],
+      "source_repo_path": "original_files/R07238/supplementary/supplementary__f346f9bdcc964013.zip"
     }
   ],
   "version_history": [
@@ -309,12 +540,323 @@
       "status": "current_verified_preferred_bytes"
     }
   ],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.407145+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
     "R07238.main.26c38d1631747ddc"
   ],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "downloaded_verified",
+    "supplementary_status": "downloaded",
+    "supplementary_coverage_complete": true,
+    "supplementary_official_count": 2,
+    "preferred_main_asset_id": "R07238.main.26c38d1631747ddc",
+    "current_verified_main_asset_ids": [
+      "R07238.main.26c38d1631747ddc"
+    ],
+    "assets": [
+      {
+        "preferred_for_record": true,
+        "record_id": "R07238",
+        "asset_id": "R07238.main.26c38d1631747ddc",
+        "role": "main",
+        "official_attachment": false,
+        "original_filename": "R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
+        "canonical_path": "papers/R07238/main/26c38d163174_R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
+        "source_repo_path": "original_files/fulltext/R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
+        "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R07238_2021_The_influence_of_combined_low-strength_ultrasonics_and_micro-aerobic_pretreatment.pdf",
+        "format": "pdf",
+        "size_bytes": 4532295,
+        "sha256": "26c38d1631747ddcb443b8d80d0070145f1968ff0f4b8e86dc2f69cc2bb968d8",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://europepmc.org/api/getPdf?pmcid=PMC8044681",
+        "source_xml_url": "",
+        "version": "出版版本（原页出版信息）",
+        "license_evidence": "No verified permissive redistribution grant; private backup destination pending",
+        "historical_sha256": "26c38d1631747ddcb443b8d80d0070145f1968ff0f4b8e86dc2f69cc2bb968d8",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "extraction": {
+          "relative_directory": "papers/R07238/extracted/R07238.main.26c38d1631747ddc",
+          "search_chunks": 161,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.846968+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 161,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
+            "OCR language=eng; OCR values, symbols and units require checking against source page."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "preferred_for_record": false,
+        "record_id": "R07238",
+        "asset_id": "R07238.supplementary.0b7925ad1ed9c793",
+        "role": "supplementary",
+        "official_attachment": true,
+        "original_filename": "mmc1.docx",
+        "canonical_path": "papers/R07238/supplementary/0b7925ad1ed9_mmc1.docx",
+        "source_repo_path": "original_files/supplementary/R07238/mmc1.docx",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R07238/official/mmc1.docx",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R07238/mmc1.docx",
+        "format": "docx",
+        "size_bytes": 49526,
+        "sha256": "0b7925ad1ed9c7939a79ba6294d17abc4b23fca77e52ec50df5463d050940d1e",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1350417721000730-mmc1.docx",
+        "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/fullTextXML",
+        "version": "Official publisher supplementary Word document; exact historical SHA256",
+        "license_evidence": "© 2021 The AuthorsThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "extraction": {
+          "relative_directory": "papers/R07238/extracted/R07238.supplementary.0b7925ad1ed9c793",
+          "search_chunks": 1,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.942832+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 1,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "Word OOXML body paragraphs/tables and section headers/footers; page numbers depend on renderer; nested tables, text boxes, footnotes and embedded objects are not guaranteed parsed."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "preferred_for_record": false,
+        "record_id": "R07238",
+        "asset_id": "R07238.supplementary.f346f9bdcc964013",
+        "role": "supplementary",
+        "official_attachment": true,
+        "original_filename": "mmc2.zip",
+        "canonical_path": "papers/R07238/supplementary/f346f9bdcc96_mmc2.zip",
+        "source_repo_path": "original_files/supplementary/R07238/mmc2.zip",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R07238/official/mmc2.zip",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R07238/mmc2.zip",
+        "format": "zip",
+        "size_bytes": 14286928,
+        "sha256": "f346f9bdcc964013ecb7c4282d6b30f1ab334e035d98adcc653de1447fbe9a9a",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/supplementaryFiles",
+        "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/fullTextXML",
+        "version": "original_supplementary_attachment",
+        "license_evidence": "© 2021 The AuthorsThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "archive_catalogued",
+        "extraction": {
+          "relative_directory": "papers/R07238/extracted/R07238.supplementary.f346f9bdcc964013",
+          "search_chunks": 0,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.961036+00:00",
+        "extraction_20261017": {
+          "status": "archive_catalogued",
+          "search_chunks": 0,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "ZIP member names/checksums indexed; member content indexed through separately SHA-bound derived assets. No executable/code is run."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "preferred_for_record": false,
+        "record_id": "R07238",
+        "asset_id": "R07238.derived.49b84e369d4bb31b",
+        "role": "derived",
+        "official_attachment": false,
+        "original_filename": "g a.skp",
+        "canonical_path": "papers/R07238/supplementary/derived/49b84e369d4b_g a.skp",
+        "source_repo_path": "",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R07238/extracted/mmc2/g a.skp",
+        "resolved_source_path": "",
+        "format": "skp",
+        "size_bytes": 34855493,
+        "sha256": "49b84e369d4bb31b4ebdcd25265be3174105c3433e6fbb865f34a445775516a1",
+        "availability": "available_as_verified_original_archive_member",
+        "storage_status": "available_via_canonical_original_archive",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/supplementaryFiles",
+        "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/fullTextXML",
+        "version": "extracted_archive_member",
+        "license_evidence": "© 2021 The AuthorsThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "R07238.supplementary.f346f9bdcc964013",
+        "parsing_status": "retained_not_content_indexed",
+        "archive_member_path": "g a.skp",
+        "extraction": {
+          "relative_directory": "papers/R07238/extracted/R07238.derived.49b84e369d4bb31b",
+          "search_chunks": 0,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.961147+00:00",
+        "recovered_archive_path": "original_files/supplementary/R07238/mmc2.zip",
+        "recovered_archive_sha256": "f346f9bdcc964013ecb7c4282d6b30f1ab334e035d98adcc653de1447fbe9a9a",
+        "recovery_handling_reason": "Exact historical member SHA/size verified inside retained official ZIP; no duplicate raw member materialized"
+      },
+      {
+        "record_id": "R07238",
+        "asset_id": "R07238.evidence_xml.6c93b117d7bd5886",
+        "role": "evidence_xml",
+        "official_attachment": false,
+        "original_filename": "PMC8044681_fullText.xml",
+        "canonical_path": "papers/R07238/evidence/6c93b117d7bd_PMC8044681_fullText.xml",
+        "source_repo_path": "original_files/source_evidence/R07238/PMC8044681_fullText.xml",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R07238/evidence/PMC8044681_fullText.xml",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R07238/PMC8044681_fullText.xml",
+        "format": "xml",
+        "size_bytes": 151458,
+        "sha256": "6c93b117d7bd588658aabfd8b7ec679110899d8f556eb6b90b071e6057ddd2cd",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/fullTextXML",
+        "source_xml_url": "",
+        "version": "repository_JATS_fulltext_representation_not_PDF",
+        "license_evidence": "© 2021 The AuthorsThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
+        "extraction": {
+          "relative_directory": "papers/R07238/extracted/R07238.evidence_xml.6c93b117d7bd5886",
+          "search_chunks": 258,
+          "tables": 3,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:26.144966+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 258,
+          "table_count": 3,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "Repository JATS XML text/structured tables; linked figures/media not all fetched. It is not a recovered historical PDF. Table rowspan/colspan retained as locators, not expanded into a rectangular semantic grid."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "record_id": "R07238",
+        "asset_id": "R07238.transport_archive.3785c23cb2f4ab50",
+        "role": "transport_archive",
+        "official_attachment": false,
+        "original_filename": "PMC8044681_supplementaryFiles.zip",
+        "canonical_path": "papers/R07238/evidence/3785c23cb2f4_PMC8044681_supplementaryFiles.zip",
+        "source_repo_path": "",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R07238/transport/PMC8044681_supplementaryFiles.zip",
+        "resolved_source_path": "",
+        "format": "zip",
+        "size_bytes": 14596266,
+        "sha256": "3785c23cb2f4ab50f5b2b5cbb581da63ced9f8d1e69a91e6faca839b6b57587d",
+        "availability": "redundant_transport_archive_not_retained",
+        "storage_status": "canonical_original_attachments_available",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8044681/supplementaryFiles",
+        "source_xml_url": "",
+        "version": "repository_generated_transport_not_official_SI",
+        "license_evidence": "© 2021 The AuthorsThis is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "archive_catalogued",
+        "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
+        "extraction": {
+          "relative_directory": "papers/R07238/extracted/R07238.transport_archive.3785c23cb2f4ab50",
+          "search_chunks": 0,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:26.144979+00:00",
+        "recovery_handling_reason": "Historical transfer ZIP intentionally not duplicated alongside all its available original attachments; historical SHA and record retained"
+      }
+    ]
+  },
+  "acquisition_20261023": {
+    "record_id": "R07238",
+    "title": "The influence of combined low-strength ultrasonics and micro-aerobic pretreatment process on methane generation and sludge digestion: Lipase enzyme, microbial activation, and energy yield",
+    "doi": "10.1016/j.ultsonch.2021.105531",
+    "category_unchanged": "3 独立好氧或微好氧预处理",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R07238/fulltext/fulltext__published__26c38d1631747ddc.pdf"
+    ],
+    "main_sha256": [
+      "26c38d1631747ddcb443b8d80d0070145f1968ff0f4b8e86dc2f69cc2bb968d8"
+    ],
+    "supplementary_count": 2,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "已取得2件原格式补充材料；其中0件唯一关联待核实；完整性未确认",
+    "supplementary_paths": [
+      "original_files/R07238/supplementary/supplementary__0b7925ad1ed9c793.docx",
+      "original_files/R07238/supplementary/supplementary__f346f9bdcc964013.zip"
+    ],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R07238/supplementary/supplementary__0b7925ad1ed9c793.docx",
+      "original_files/R07238/fulltext/fulltext__published__26c38d1631747ddc.pdf",
+      "original_files/R07238/evidence/source_evidence__6c93b117d7bd5886.xml",
+      "original_files/R07238/supplementary/supplementary__f346f9bdcc964013.zip"
+    ]
+  },
+  "supplementary_original_count_20261023": 2,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R07238",
+    "original_journal": "Ultrasonics Sonochemistry",
+    "normalized_journal": "ULTRASONICS SONOCHEMISTRY",
+    "publication_kind": "期刊论文",
+    "subtype": "研究类",
+    "issn": "1350-4177",
+    "eissn": "",
+    "metadata_source": "https://api.crossref.org/works/10.1016/j.ultsonch.2021.105531",
+    "notes": "机构JCR栏：搜索索引可核验；原页面直连未成功；非Clarivate账户导出 | 全部Q1仅指本表全部已核实学科；无官方完整学科导出，不承诺没有未显示学科"
+  }
 }

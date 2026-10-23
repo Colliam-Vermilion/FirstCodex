@@ -4,10 +4,10 @@
   "authors": "Bangalore Nagaraja, R.; Aniruddha Bhalchandra Pandit",
   "doi": "10.5071/21steubce2013-2dv.4.23",
   "category_unchanged": "3 独立好氧或微好氧预处理",
-  "preferred_main_asset_id": null,
+  "preferred_main_asset_id": "",
   "included_for_download": true,
   "main_status": "not_downloaded",
-  "supplementary_status": "access_failed",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -34,12 +34,134 @@
     "supplementary": "mapped, no duplicate originals",
     "extracted": "per-asset derived search artifacts"
   },
-  "assets": [],
+  "assets": [
+    {
+      "source_path": "localdownload/R13949/fulltext.pdf",
+      "source": "local_upload",
+      "directory_id": "R13949",
+      "record_id": "R13949",
+      "original_filename": "fulltext.pdf",
+      "size_bytes": 145292,
+      "sha256": "61944a1f5f79d2208e7e88635100ba589425d6fe01339514d3d9d466a4126872",
+      "git_blob_oid": "33b6126b68a4518c02352fbe09073b06609c2b92",
+      "format": "pdf",
+      "issues": [
+        "identity_conflict_not_target_fulltext"
+      ],
+      "declared_role": "fulltext",
+      "role": "uncertain",
+      "version": "版本待核实",
+      "verification_status": "identity_conflict_not_target_fulltext",
+      "pages": 7,
+      "encrypted": false,
+      "page_text_lengths": [
+        2381,
+        4923,
+        5010,
+        3064,
+        1027,
+        2596,
+        3564
+      ],
+      "first_page_size": [
+        595.3200073242188,
+        841.9199829101562
+      ],
+      "text_length": 22571,
+      "repaired_pdf": false,
+      "text_path": "work/texts/61944a1f5f79d2208e7e88635100ba589425d6fe01339514d3d9d466a4126872.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 0.909,
+      "title_compact_match": false,
+      "head_doi_matching_ids": [],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "上传Int. J. ChemTech Research 5(2) 558–564 (2013)碱预处理文章；目标为好氧预处理会议论文，处理方法及题名不一致",
+      "association_status": "",
+      "observed_title": "Performance Enhancement Of Batch Anaerobic Digestion Of Napier Grass By Alkali Pre-Treatment",
+      "observed_doi": "",
+      "canonical_path": "original_files/R13949/uncertain/uncertain__61944a1f5f79d220.pdf",
+      "source_paths": [
+        "localdownload/R13949/fulltext.pdf"
+      ],
+      "sources": [
+        "local_upload"
+      ],
+      "original_filenames": [
+        "fulltext.pdf"
+      ],
+      "source_record_ids": [
+        "R13949"
+      ],
+      "prior_asset_evidence": [],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R13949/uncertain/uncertain__61944a1f5f79d220.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R13949/uncertain/uncertain__61944a1f5f79d220.pdf",
+      "title": "Aerobic Pre-treatment for Performance Enhancement of Batch Anaerobic Digestion of Napier Grass",
+      "doi": "10.5071/21steubce2013-2dv.4.23",
+      "associated_record_ids": [
+        "R13949"
+      ],
+      "asset_id": "R13949.uncertain.61944a1f5f79d220",
+      "legacy_asset_ids": [],
+      "source_repo_path": "original_files/R13949/uncertain/uncertain__61944a1f5f79d220.pdf"
+    }
+  ],
   "version_history": [],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.577101+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "not_downloaded",
+    "supplementary_status": "access_failed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": null,
+    "current_verified_main_asset_ids": [],
+    "assets": []
+  },
+  "acquisition_20261023": {
+    "record_id": "R13949",
+    "title": "Aerobic Pre-treatment for Performance Enhancement of Batch Anaerobic Digestion of Napier Grass",
+    "doi": "10.5071/21steubce2013-2dv.4.23",
+    "category_unchanged": "3 独立好氧或微好氧预处理",
+    "included_for_analysis": true,
+    "main_status": "未取得全文（上传件身份错配/相关版本，目标正文缺失）",
+    "verified_fulltext": false,
+    "main_file_count": 0,
+    "main_paths": [],
+    "main_sha256": [],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 1,
+    "current_original_paths": [
+      "original_files/R13949/uncertain/uncertain__61944a1f5f79d220.pdf"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R13949",
+    "original_journal": "ETA Florence",
+    "normalized_journal": "ETA Florence",
+    "publication_kind": "会议/非期刊",
+    "subtype": "会议/非期刊",
+    "issn": "",
+    "eissn": "",
+    "metadata_source": "",
+    "notes": "既有DOI未由Crossref返回可用元数据（可能为DataCite/JaLC等）；不据此否认记录身份 | 非目标期刊论文或类型待核实，不进入JCR分母 | 上传Int. J. ChemTech Research 5(2) 558–564 (2013)碱预处理文章；目标为好氧预处理会议论文，处理方法及题名不一致"
+  }
 }

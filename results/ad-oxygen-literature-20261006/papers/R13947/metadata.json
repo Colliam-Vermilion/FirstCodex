@@ -4,10 +4,10 @@
   "authors": "Ramos Castaño, Iris",
   "doi": "10.35376/10324/4850",
   "category_unchanged": "1 直接向 AD 反应器或内部循环系统供氧",
-  "preferred_main_asset_id": null,
+  "preferred_main_asset_id": "",
   "included_for_download": true,
   "main_status": "not_downloaded",
-  "supplementary_status": "access_failed",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -34,12 +34,128 @@
     "supplementary": "mapped, no duplicate originals",
     "extracted": "per-asset derived search artifacts"
   },
-  "assets": [],
+  "assets": [
+    {
+      "source_path": "localdownload/R13947/fulltext.pdf",
+      "source": "local_upload",
+      "directory_id": "R13947",
+      "record_id": "R13947",
+      "original_filename": "fulltext.pdf",
+      "size_bytes": 484624,
+      "sha256": "0106b055c0ada5d14368d3b1509e5e707c508a22f644dcb0c8195ef02b3eba8b",
+      "git_blob_oid": "48b3314931795e8021f0de618c6b9a4e44a10be9",
+      "format": "pdf",
+      "issues": [
+        "identity_conflict_not_target_fulltext"
+      ],
+      "declared_role": "fulltext",
+      "role": "uncertain",
+      "version": "版本待核实",
+      "verification_status": "identity_conflict_not_target_fulltext",
+      "pages": 3,
+      "encrypted": false,
+      "page_text_lengths": [
+        3011,
+        3770,
+        4585
+      ],
+      "first_page_size": [
+        612.0,
+        792.0
+      ],
+      "text_length": 11368,
+      "repaired_pdf": false,
+      "text_path": "work/texts/0106b055c0ada5d14368d3b1509e5e707c508a22f644dcb0c8195ef02b3eba8b.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 0.833,
+      "title_compact_match": false,
+      "head_doi_matching_ids": [],
+      "body_markers": [
+        "intro",
+        "results",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "上传3页University of Maryland Extension推广资料草稿，不是Iris Ramos Castaño目标学位论文",
+      "association_status": "",
+      "observed_title": "Microaeration for Hydrogen Sulfide Removal in Biogas — Fact Sheet FS-xxx",
+      "observed_doi": "",
+      "canonical_path": "original_files/R13947/uncertain/uncertain__0106b055c0ada5d1.pdf",
+      "source_paths": [
+        "localdownload/R13947/fulltext.pdf"
+      ],
+      "sources": [
+        "local_upload"
+      ],
+      "original_filenames": [
+        "fulltext.pdf"
+      ],
+      "source_record_ids": [
+        "R13947"
+      ],
+      "prior_asset_evidence": [],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R13947/uncertain/uncertain__0106b055c0ada5d1.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R13947/uncertain/uncertain__0106b055c0ada5d1.pdf",
+      "title": "Microaerobic removal of hydrogen sulphide from biogas",
+      "doi": "10.35376/10324/4850",
+      "associated_record_ids": [
+        "R13947"
+      ],
+      "asset_id": "R13947.uncertain.0106b055c0ada5d1",
+      "legacy_asset_ids": [],
+      "source_repo_path": "original_files/R13947/uncertain/uncertain__0106b055c0ada5d1.pdf"
+    }
+  ],
   "version_history": [],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.683809+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "not_downloaded",
+    "supplementary_status": "access_failed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": null,
+    "current_verified_main_asset_ids": [],
+    "assets": []
+  },
+  "acquisition_20261023": {
+    "record_id": "R13947",
+    "title": "Microaerobic removal of hydrogen sulphide from biogas",
+    "doi": "10.35376/10324/4850",
+    "category_unchanged": "1 直接向 AD 反应器或内部循环系统供氧",
+    "included_for_analysis": true,
+    "main_status": "未取得全文（上传件身份错配/相关版本，目标正文缺失）",
+    "verified_fulltext": false,
+    "main_file_count": 0,
+    "main_paths": [],
+    "main_sha256": [],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 1,
+    "current_original_paths": [
+      "original_files/R13947/uncertain/uncertain__0106b055c0ada5d1.pdf"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R13947",
+    "original_journal": "",
+    "normalized_journal": "",
+    "publication_kind": "学位/学生报告",
+    "subtype": "学位/学生报告",
+    "issn": "",
+    "eissn": "",
+    "metadata_source": "https://api.crossref.org/works/10.35376/10324/4850",
+    "notes": "非目标期刊论文或类型待核实，不进入JCR分母 | 上传3页University of Maryland Extension推广资料草稿，不是Iris Ramos Castaño目标学位论文"
+  }
 }

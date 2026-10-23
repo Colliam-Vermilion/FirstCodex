@@ -4,10 +4,10 @@
   "authors": "Ramos, I.; Díaz, I.; Fdz-Polanco, M.",
   "doi": "10.2166/wst.2012.457",
   "category_unchanged": "1 直接向 AD 反应器或内部循环系统供氧",
-  "preferred_main_asset_id": null,
+  "preferred_main_asset_id": "R00430.fulltext.bac7ef01cee02f8e",
   "included_for_download": true,
-  "main_status": "not_downloaded",
-  "supplementary_status": "access_failed",
+  "main_status": "downloaded_verified",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -34,12 +34,140 @@
     "supplementary": "mapped, no duplicate originals",
     "extracted": "per-asset derived search artifacts"
   },
-  "assets": [],
+  "assets": [
+    {
+      "source_path": "localdownload/R00430/fulltext.pdf",
+      "source": "local_upload",
+      "directory_id": "R00430",
+      "record_id": "R00430",
+      "original_filename": "fulltext.pdf",
+      "size_bytes": 289984,
+      "sha256": "bac7ef01cee02f8e8e3803711388379a942fba9ca7baee777a84e0ba50710e12",
+      "git_blob_oid": "95202818bdce278b1f6f6b012c6cd8bc3fa7f439",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
+      "version": "出版版（版式及版权文字）",
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 7,
+      "encrypted": false,
+      "page_text_lengths": [
+        3961,
+        5225,
+        2192,
+        3868,
+        4754,
+        4432,
+        4294
+      ],
+      "first_page_size": [
+        609.448974609375,
+        782.3619995117188
+      ],
+      "text_length": 28732,
+      "repaired_pdf": false,
+      "text_path": "work/texts/bac7ef01cee02f8e8e3803711388379a942fba9ca7baee777a84e0ba50710e12.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 0.9,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R00430"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R00430/fulltext/fulltext__published__bac7ef01cee02f8e.pdf",
+      "source_paths": [
+        "localdownload/R00430/fulltext.pdf"
+      ],
+      "sources": [
+        "local_upload"
+      ],
+      "original_filenames": [
+        "fulltext.pdf"
+      ],
+      "source_record_ids": [
+        "R00430"
+      ],
+      "prior_asset_evidence": [],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R00430/fulltext/fulltext__published__bac7ef01cee02f8e.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R00430/fulltext/fulltext__published__bac7ef01cee02f8e.pdf",
+      "title": "The role of the headspace in hydrogen sulfide removal during microaerobic digestion of sludge",
+      "doi": "10.2166/wst.2012.457",
+      "associated_record_ids": [
+        "R00430"
+      ],
+      "asset_id": "R00430.fulltext.bac7ef01cee02f8e",
+      "legacy_asset_ids": [],
+      "source_repo_path": "original_files/R00430/fulltext/fulltext__published__bac7ef01cee02f8e.pdf"
+    }
+  ],
   "version_history": [],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.289451+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
-  "current_verified_main_asset_ids": [],
+  "current_verified_main_asset_ids": [
+    "R00430.fulltext.bac7ef01cee02f8e"
+  ],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "not_downloaded",
+    "supplementary_status": "access_failed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": null,
+    "current_verified_main_asset_ids": [],
+    "assets": []
+  },
+  "acquisition_20261023": {
+    "record_id": "R00430",
+    "title": "The role of the headspace in hydrogen sulfide removal during microaerobic digestion of sludge",
+    "doi": "10.2166/wst.2012.457",
+    "category_unchanged": "1 直接向 AD 反应器或内部循环系统供氧",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R00430/fulltext/fulltext__published__bac7ef01cee02f8e.pdf"
+    ],
+    "main_sha256": [
+      "bac7ef01cee02f8e8e3803711388379a942fba9ca7baee777a84e0ba50710e12"
+    ],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R00430/fulltext/fulltext__published__bac7ef01cee02f8e.pdf"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R00430",
+    "original_journal": "Water Science and Technology",
+    "normalized_journal": "WATER SCIENCE AND TECHNOLOGY",
+    "publication_kind": "期刊论文",
+    "subtype": "研究类",
+    "issn": "0273-1223",
+    "eissn": "1996-9732",
+    "metadata_source": "https://api.crossref.org/works/10.2166/wst.2012.457",
+    "notes": "机构2024年JCR列表栏：搜索索引可核验；原页直连未成功；仅统计已显示学科 | 全部Q1仅指本表全部已核实学科；无官方完整学科导出，不承诺没有未显示学科"
+  }
 }

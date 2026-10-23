@@ -1,13 +1,18 @@
-# 2026-10-23 本地上传合并检查点（当前）
+# 当前交付：本地文献合并与JCR统计（2026-10-23）
 
-554条记录、426条纳入范围及人工分类证据保留。439个本地文件（295个ID）与234个既有云端文件按SHA256合并，673条来源映射为665个不同字节规范对象。已核验目标全文388篇（本地287、云端101），仅摘要3、仅海报1，其余缺目标全文34。4个上传正文错配或相关版本不计入目标全文。
+554条记录和人工分类证据保留；按当前分类名称纳入426条。localdownload的439文件/295个ID，与既有云端234文件合并，665个不同SHA256规范对象；673条输入来源，另含30条main副本来源，共703条路径映射。已取得目标全文388篇（本地287、云端101），仅摘要3、仅海报1，其余缺全文34。不继续追下载或分析缺全文文献。
 
-- [规范原件库和角色说明](original_files/README.md)
-- [统一文件清单](inventory/merge_20261023/unified_files_utf8.csv)、[原路径映射](inventory/merge_20261023/source_path_mapping_utf8.csv)、[逐文件内容核验](inventory/merge_20261023/file_content_verification.json)、[合并统计](inventory/merge_20261023/merge_summary.json)
-- [更新总表](final_results/ad_oxygen_download_review_utf8.csv)、[38条缺全文状态](manual_review/current_environment_need_fulltext_utf8.csv)
-- main误传30个文件已在保全提交`b739c0e`独立读回并全部SHA256/大小相符，随后正常清理提交`0bdf0b9`仅移除误传文件；README不变，不改写历史，历史旧副本仍在。
+- **[期刊与JCR统计Excel](final_results/journal_jcr_statistics_20261023.xlsx)**：文献明细、期刊汇总、统计汇总、待核实项、逐学科分区、统一文件清单及非期刊分列。
+- [更新文献总Excel](final_results/ad_oxygen_download_review_20261006.xlsx)、[总CSV](final_results/ad_oxygen_download_review_utf8.csv)、[当前文件/论文库存Excel](inventory/unified_library_inventory.xlsx)
+- **[真实规范原件目录](original_files/)**、[目录与文件角色](original_files/README.md)、[665原件清单](inventory/merge_20261023/unified_files_utf8.csv)、[703来源路径映射](inventory/merge_20261023/source_path_mapping_utf8.csv)、[逐文件核验](inventory/merge_20261023/file_content_verification.json)
+- [38条缺目标全文](manual_review/current_environment_need_fulltext_utf8.csv)、[JCR与类型/附件待核实](inventory/merge_20261023/jcr_pending_utf8.csv)、[完整方法与身份异常说明](methods/21_local_merge_and_jcr_20261023_zh.md)、[ZIP派生核验](inventory/merge_20261023/zip_member_lineage_verified.json)
+- [最终独立新克隆/原件和Excel读回回执](inventory/merge_20261023/remote_readback.json)、[合并统计](inventory/merge_20261023/merge_summary.json)、[JCR机器可读统计](inventory/merge_20261023/jcr_summary.json)
 
-期刊身份和同一JCR年份的统计Excel正在本轮后续提交中完成。以下为历史快照，旧数量和旧路径不能代替本节及本轮统一清单。
+JCR统一为**2024指标年、2025发布版**。386目标期刊论文中核实272条（70.5%）：至少一个已核实学科Q1为213篇、28刊；全部已核实学科均Q1为201篇、25刊。已取得核验全文的期刊论文369篇中Q1为213篇。分区缺失114条，未知不作非Q1；请提供同年份JCR全部学科导出补足。本结果为部分核实下限，不是完整JCR结论；来源和多学科差异逐项保留。
+
+科研补充材料154个不同字节原格式文件：DOCX109、PDF16、DOC9、XLSX9、JPG4、TXT4、ZIP3；5个旧ZIP派生成员不重复计。61件附件唯一关联仍待核实。4个上传正文身份冲突、13种历史非目标候选和1份作者变更表均保留，不计目标全文。R13964误放同字节SI已归R13834，两条来源保留。
+
+main误传30文件先在保全提交`b739c0e`独立读回大小/SHA全部通过，再以正常提交`0bdf0b9`清理；README原字节不变，不重写历史，旧副本仍留Git历史。原件规范化检查点`e4f3298`已推送。当前以本节、方法21及本轮清单为准；以下全部为历史快照，旧数量和路径不代表当前状态。
 
 ---
 

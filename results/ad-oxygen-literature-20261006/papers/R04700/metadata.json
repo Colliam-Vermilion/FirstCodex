@@ -7,7 +7,7 @@
   "preferred_main_asset_id": "R04700.main.40ac0de29f75851c",
   "included_for_download": true,
   "main_status": "downloaded_verified",
-  "supplementary_status": "checked_no_file_links_found_coverage_unconfirmed",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -36,85 +36,259 @@
   },
   "assets": [
     {
-      "preferred_for_record": true,
+      "source_path": "original_files/fulltext/R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
+      "source": "cloud_existing",
+      "directory_id": "R04700",
       "record_id": "R04700",
-      "asset_id": "R04700.main.40ac0de29f75851c",
-      "role": "main",
-      "official_attachment": false,
       "original_filename": "R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
-      "canonical_path": "papers/R04700/main/40ac0de29f75_R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
-      "source_repo_path": "original_files/fulltext/R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
-      "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
-      "format": "pdf",
       "size_bytes": 2892628,
       "sha256": "40ac0de29f75851cab1651e1e339d03329bb7ce0141519329487f0559ebd8297",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://repository.tudelft.nl/file/File_d8b73973-6e26-4f66-9162-3212f6b93431",
-      "source_xml_url": "",
-      "version": "学位/机构存档原稿",
-      "license_evidence": "No verified permissive redistribution grant; private backup destination pending",
-      "historical_sha256": "40ac0de29f75851cab1651e1e339d03329bb7ce0141519329487f0559ebd8297",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "extraction": {
-        "relative_directory": "papers/R04700/extracted/R04700.main.40ac0de29f75851c",
-        "search_chunks": 225,
-        "tables": 0,
-        "ocr_pages": 4,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.867546+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 225,
-        "table_count": 0,
-        "ocr_pages": 4,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
-          "OCR language=eng; OCR values, symbols and units require checking against source page."
-        ],
-        "errors": []
-      }
+      "git_blob_oid": "00ab8e86357e7e501ef2e513f1c9d2a0286f9b60",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
+      "version": "学位/学生报告原稿（分章节者按组）",
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 51,
+      "encrypted": false,
+      "page_text_lengths": [
+        146,
+        415,
+        2654,
+        3106,
+        707,
+        1636,
+        2024,
+        2692,
+        1818,
+        2699,
+        1848,
+        3186,
+        1927,
+        2167,
+        1050,
+        1327,
+        1204,
+        3768,
+        1033,
+        397,
+        1558,
+        1486,
+        107,
+        1317,
+        1357,
+        933,
+        2223,
+        2102,
+        2328,
+        2118,
+        1916,
+        336,
+        2436,
+        1589,
+        2906,
+        3451,
+        958,
+        263,
+        50,
+        3,
+        51,
+        3,
+        51,
+        3,
+        43,
+        77,
+        115,
+        65,
+        759,
+        182,
+        91
+      ],
+      "first_page_size": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_length": 66731,
+      "repaired_pdf": false,
+      "text_path": "work/texts/40ac0de29f75851cab1651e1e339d03329bb7ce0141519329487f0559ebd8297.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R04700/fulltext/fulltext__thesis__40ac0de29f75851c.pdf",
+      "source_paths": [
+        "original_files/fulltext/R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf"
+      ],
+      "source_record_ids": [
+        "R04700"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "True",
+          "record_id": "R04700",
+          "asset_id": "R04700.main.40ac0de29f75851c",
+          "role": "main",
+          "official_attachment": "False",
+          "original_filename": "R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
+          "canonical_path": "papers/R04700/main/40ac0de29f75_R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
+          "source_repo_path": "original_files/fulltext/R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
+          "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
+          "format": "pdf",
+          "size_bytes": "2892628",
+          "sha256": "40ac0de29f75851cab1651e1e339d03329bb7ce0141519329487f0559ebd8297",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://repository.tudelft.nl/file/File_d8b73973-6e26-4f66-9162-3212f6b93431",
+          "source_xml_url": "",
+          "version": "学位/机构存档原稿",
+          "license_evidence": "No verified permissive redistribution grant; private backup destination pending",
+          "historical_sha256": "40ac0de29f75851cab1651e1e339d03329bb7ce0141519329487f0559ebd8297",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R04700/extracted/R04700.main.40ac0de29f75851c', 'search_chunks': 225, 'tables': 0, 'ocr_pages': 4, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.867546+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 225, 'table_count': 0, 'ocr_pages': 4, 'ocr_pending_pages': [], 'limitations': ['PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.', 'OCR language=eng; OCR values, symbols and units require checking against source page.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R04700/fulltext/fulltext__thesis__40ac0de29f75851c.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R04700/fulltext/fulltext__thesis__40ac0de29f75851c.pdf",
+      "title": "Effect of aeration by micro - bubbles on methane production in anaerobic digestion",
+      "doi": "",
+      "associated_record_ids": [
+        "R04700"
+      ],
+      "asset_id": "R04700.main.40ac0de29f75851c",
+      "legacy_asset_ids": [
+        "R04700.main.40ac0de29f75851c"
+      ],
+      "source_repo_path": "original_files/R04700/fulltext/fulltext__thesis__40ac0de29f75851c.pdf"
     },
     {
+      "source_path": "original_files/source_evidence/R04700/publisher_article_page_20261017.html",
+      "source": "cloud_existing",
+      "directory_id": "R04700",
       "record_id": "R04700",
-      "asset_id": "R04700.evidence_html.f07fdcf09b6e9505",
-      "role": "evidence_html",
-      "official_attachment": false,
       "original_filename": "publisher_article_page_20261017.html",
-      "canonical_path": "original_files/source_evidence/R04700/publisher_article_page_20261017.html",
-      "source_local_path": "",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "retained_not_content_indexed",
-      "preferred_for_record": false,
-      "source_repo_path": "original_files/source_evidence/R04700/publisher_article_page_20261017.html",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R04700/publisher_article_page_20261017.html",
-      "format": "html",
       "size_bytes": 30406,
       "sha256": "f07fdcf09b6e950559a0a04218108094931ef52daadc55b08e20c4c6f4a62e5d",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://repository.tudelft.nl/record/uuid:11ec6ce8-c20a-4fb8-a49c-605c8b145e60",
-      "version": "Article HTML with anonymous server session identifiers removed",
-      "license_evidence": "Private authorized research backup; source license not inferred",
-      "recovery_checked_at_utc": "2026-10-17T11:51:26.213354+00:00",
-      "extraction_20261017": {
-        "status": "retained_not_content_indexed",
-        "search_chunks": 0,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "Original retained; no supported content parser for this format. Images/video/models are not claimed searchable."
-        ],
-        "errors": []
-      }
+      "git_blob_oid": "291ccb4a13d571e4c32ffca37dd9681c6070c940",
+      "format": "html",
+      "issues": [],
+      "declared_role": "source_evidence",
+      "role": "source_evidence",
+      "version": "",
+      "verification_status": "text_readable",
+      "text_path": "work/texts/f07fdcf09b6e950559a0a04218108094931ef52daadc55b08e20c4c6f4a62e5d.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [],
+      "body_markers": [],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R04700/evidence/source_evidence__f07fdcf09b6e9505.html",
+      "source_paths": [
+        "original_files/source_evidence/R04700/publisher_article_page_20261017.html"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "publisher_article_page_20261017.html"
+      ],
+      "source_record_ids": [
+        "R04700"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "False",
+          "record_id": "R04700",
+          "asset_id": "R04700.evidence_html.f07fdcf09b6e9505",
+          "role": "evidence_html",
+          "official_attachment": "False",
+          "original_filename": "publisher_article_page_20261017.html",
+          "canonical_path": "original_files/source_evidence/R04700/publisher_article_page_20261017.html",
+          "source_repo_path": "original_files/source_evidence/R04700/publisher_article_page_20261017.html",
+          "source_local_path": "",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R04700/publisher_article_page_20261017.html",
+          "format": "html",
+          "size_bytes": "30406",
+          "sha256": "f07fdcf09b6e950559a0a04218108094931ef52daadc55b08e20c4c6f4a62e5d",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://repository.tudelft.nl/record/uuid:11ec6ce8-c20a-4fb8-a49c-605c8b145e60",
+          "source_xml_url": "",
+          "version": "Article HTML with anonymous server session identifiers removed",
+          "license_evidence": "Private authorized research backup; source license not inferred",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "",
+          "parsing_status": "retained_not_content_indexed",
+          "extraction": "",
+          "recovery_checked_at_utc": "2026-10-17T11:51:26.213354+00:00",
+          "extraction_20261017": "{'status': 'retained_not_content_indexed', 'search_chunks': 0, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['Original retained; no supported content parser for this format. Images/video/models are not claimed searchable.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R04700/evidence/source_evidence__f07fdcf09b6e9505.html",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R04700/evidence/source_evidence__f07fdcf09b6e9505.html",
+      "title": "Effect of aeration by micro - bubbles on methane production in anaerobic digestion",
+      "doi": "",
+      "associated_record_ids": [
+        "R04700"
+      ],
+      "asset_id": "R04700.evidence_html.f07fdcf09b6e9505",
+      "legacy_asset_ids": [
+        "R04700.evidence_html.f07fdcf09b6e9505"
+      ],
+      "source_repo_path": "original_files/R04700/evidence/source_evidence__f07fdcf09b6e9505.html"
     }
   ],
   "version_history": [
@@ -129,12 +303,145 @@
       "status": "current_verified_preferred_bytes"
     }
   ],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.726100+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
     "R04700.main.40ac0de29f75851c"
   ],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "downloaded_verified",
+    "supplementary_status": "checked_no_file_links_found_coverage_unconfirmed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": "R04700.main.40ac0de29f75851c",
+    "current_verified_main_asset_ids": [
+      "R04700.main.40ac0de29f75851c"
+    ],
+    "assets": [
+      {
+        "preferred_for_record": true,
+        "record_id": "R04700",
+        "asset_id": "R04700.main.40ac0de29f75851c",
+        "role": "main",
+        "official_attachment": false,
+        "original_filename": "R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
+        "canonical_path": "papers/R04700/main/40ac0de29f75_R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
+        "source_repo_path": "original_files/fulltext/R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
+        "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R04700_2019_Effect_of_aeration_by_micro_-_bubbles_on_methane.pdf",
+        "format": "pdf",
+        "size_bytes": 2892628,
+        "sha256": "40ac0de29f75851cab1651e1e339d03329bb7ce0141519329487f0559ebd8297",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://repository.tudelft.nl/file/File_d8b73973-6e26-4f66-9162-3212f6b93431",
+        "source_xml_url": "",
+        "version": "学位/机构存档原稿",
+        "license_evidence": "No verified permissive redistribution grant; private backup destination pending",
+        "historical_sha256": "40ac0de29f75851cab1651e1e339d03329bb7ce0141519329487f0559ebd8297",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "extraction": {
+          "relative_directory": "papers/R04700/extracted/R04700.main.40ac0de29f75851c",
+          "search_chunks": 225,
+          "tables": 0,
+          "ocr_pages": 4,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.867546+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 225,
+          "table_count": 0,
+          "ocr_pages": 4,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
+            "OCR language=eng; OCR values, symbols and units require checking against source page."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "record_id": "R04700",
+        "asset_id": "R04700.evidence_html.f07fdcf09b6e9505",
+        "role": "evidence_html",
+        "official_attachment": false,
+        "original_filename": "publisher_article_page_20261017.html",
+        "canonical_path": "original_files/source_evidence/R04700/publisher_article_page_20261017.html",
+        "source_local_path": "",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "retained_not_content_indexed",
+        "preferred_for_record": false,
+        "source_repo_path": "original_files/source_evidence/R04700/publisher_article_page_20261017.html",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R04700/publisher_article_page_20261017.html",
+        "format": "html",
+        "size_bytes": 30406,
+        "sha256": "f07fdcf09b6e950559a0a04218108094931ef52daadc55b08e20c4c6f4a62e5d",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://repository.tudelft.nl/record/uuid:11ec6ce8-c20a-4fb8-a49c-605c8b145e60",
+        "version": "Article HTML with anonymous server session identifiers removed",
+        "license_evidence": "Private authorized research backup; source license not inferred",
+        "recovery_checked_at_utc": "2026-10-17T11:51:26.213354+00:00",
+        "extraction_20261017": {
+          "status": "retained_not_content_indexed",
+          "search_chunks": 0,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "Original retained; no supported content parser for this format. Images/video/models are not claimed searchable."
+          ],
+          "errors": []
+        }
+      }
+    ]
+  },
+  "acquisition_20261023": {
+    "record_id": "R04700",
+    "title": "Effect of aeration by micro - bubbles on methane production in anaerobic digestion",
+    "doi": "",
+    "category_unchanged": "3 独立好氧或微好氧预处理",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R04700/fulltext/fulltext__thesis__40ac0de29f75851c.pdf"
+    ],
+    "main_sha256": [
+      "40ac0de29f75851cab1651e1e339d03329bb7ce0141519329487f0559ebd8297"
+    ],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R04700/fulltext/fulltext__thesis__40ac0de29f75851c.pdf",
+      "original_files/R04700/evidence/source_evidence__f07fdcf09b6e9505.html"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R04700",
+    "original_journal": "Research Repository (Delft University of Technology)",
+    "normalized_journal": "Research Repository (Delft University of Technology)",
+    "publication_kind": "学位/学生报告",
+    "subtype": "学位/学生报告",
+    "issn": "",
+    "eissn": "",
+    "metadata_source": "",
+    "notes": "非目标期刊论文或类型待核实，不进入JCR分母"
+  }
 }

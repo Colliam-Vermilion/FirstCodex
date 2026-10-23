@@ -4,10 +4,10 @@
   "authors": "Mansour, Alicia A.; Motte, Antoine; Pallier, Virginie; Feuillade-Cathalifaud, Geneviève; Ponthieux, Arnaud",
   "doi": "10.1016/j.wasman.2012.04.011",
   "category_unchanged": "3 独立好氧或微好氧预处理",
-  "preferred_main_asset_id": null,
+  "preferred_main_asset_id": "R13933.fulltext.fc7bd824e1f7a3d8",
   "included_for_download": true,
-  "main_status": "not_downloaded",
-  "supplementary_status": "access_failed",
+  "main_status": "downloaded_verified",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -34,12 +34,142 @@
     "supplementary": "mapped, no duplicate originals",
     "extracted": "per-asset derived search artifacts"
   },
-  "assets": [],
+  "assets": [
+    {
+      "source_path": "localdownload/R13933/fulltext.pdf",
+      "source": "local_upload",
+      "directory_id": "R13933",
+      "record_id": "R13933",
+      "original_filename": "fulltext.pdf",
+      "size_bytes": 1484729,
+      "sha256": "fc7bd824e1f7a3d826bdf22a3929a360c8c19b3809f6f4aaa20cb4a7293799c1",
+      "git_blob_oid": "0049fd5fde64ff14d4d8844b66222113e5ff535d",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
+      "version": "出版版（版式及版权文字）",
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 9,
+      "encrypted": false,
+      "page_text_lengths": [
+        5124,
+        6924,
+        6023,
+        2259,
+        1470,
+        2460,
+        5124,
+        3771,
+        9295
+      ],
+      "first_page_size": [
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "text_length": 42458,
+      "repaired_pdf": false,
+      "text_path": "work/texts/fc7bd824e1f7a3d826bdf22a3929a360c8c19b3809f6f4aaa20cb4a7293799c1.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 0.941,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R13933"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R13933/fulltext/fulltext__published__fc7bd824e1f7a3d8.pdf",
+      "source_paths": [
+        "localdownload/R13933/fulltext.pdf"
+      ],
+      "sources": [
+        "local_upload"
+      ],
+      "original_filenames": [
+        "fulltext.pdf"
+      ],
+      "source_record_ids": [
+        "R13933"
+      ],
+      "prior_asset_evidence": [],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R13933/fulltext/fulltext__published__fc7bd824e1f7a3d8.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R13933/fulltext/fulltext__published__fc7bd824e1f7a3d8.pdf",
+      "title": "Assessment of the aerobic preparation and bottom ash addition as pretreatment steps before landfilling: Impact on methanogenesis kinetics and leachate parameters",
+      "doi": "10.1016/j.wasman.2012.04.011",
+      "associated_record_ids": [
+        "R13933"
+      ],
+      "asset_id": "R13933.fulltext.fc7bd824e1f7a3d8",
+      "legacy_asset_ids": [],
+      "source_repo_path": "original_files/R13933/fulltext/fulltext__published__fc7bd824e1f7a3d8.pdf"
+    }
+  ],
   "version_history": [],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.514320+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
-  "current_verified_main_asset_ids": [],
+  "current_verified_main_asset_ids": [
+    "R13933.fulltext.fc7bd824e1f7a3d8"
+  ],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "not_downloaded",
+    "supplementary_status": "access_failed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": null,
+    "current_verified_main_asset_ids": [],
+    "assets": []
+  },
+  "acquisition_20261023": {
+    "record_id": "R13933",
+    "title": "Assessment of the aerobic preparation and bottom ash addition as pretreatment steps before landfilling: Impact on methanogenesis kinetics and leachate parameters",
+    "doi": "10.1016/j.wasman.2012.04.011",
+    "category_unchanged": "3 独立好氧或微好氧预处理",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R13933/fulltext/fulltext__published__fc7bd824e1f7a3d8.pdf"
+    ],
+    "main_sha256": [
+      "fc7bd824e1f7a3d826bdf22a3929a360c8c19b3809f6f4aaa20cb4a7293799c1"
+    ],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R13933/fulltext/fulltext__published__fc7bd824e1f7a3d8.pdf"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R13933",
+    "original_journal": "Waste Management",
+    "normalized_journal": "Waste Management",
+    "publication_kind": "期刊论文",
+    "subtype": "研究类",
+    "issn": "0956-053X",
+    "eissn": "",
+    "metadata_source": "https://api.crossref.org/works/10.1016/j.wasman.2012.04.011",
+    "notes": "机构JCR栏：搜索索引可核验；原页面直连未成功；非Clarivate账户导出 | 全部Q1仅指本表全部已核实学科；无官方完整学科导出，不承诺没有未显示学科"
+  }
 }

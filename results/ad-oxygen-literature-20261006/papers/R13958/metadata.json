@@ -4,10 +4,10 @@
   "authors": "Cheng, Jiehong; Liu, Yang; Kong, Feng",
   "doi": "10.1016/j.proenv.2016.02.007",
   "category_unchanged": "3 独立好氧或微好氧预处理",
-  "preferred_main_asset_id": null,
+  "preferred_main_asset_id": "R13958.fulltext.599e1d0536c7a33e",
   "included_for_download": true,
-  "main_status": "not_downloaded",
-  "supplementary_status": "access_failed",
+  "main_status": "downloaded_verified",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -34,12 +34,141 @@
     "supplementary": "mapped, no duplicate originals",
     "extracted": "per-asset derived search artifacts"
   },
-  "assets": [],
+  "assets": [
+    {
+      "source_path": "localdownload/R13958/fulltext.pdf",
+      "source": "local_upload",
+      "directory_id": "R13958",
+      "record_id": "R13958",
+      "original_filename": "fulltext.pdf",
+      "size_bytes": 546664,
+      "sha256": "599e1d0536c7a33e3a1471e5dbb1e72614f5d548c94fa0c7051f4c956a14a770",
+      "git_blob_oid": "51e97e2b939bbdfdeccffafbef0ba679d8528d6e",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
+      "version": "出版版（版式及版权文字）",
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 9,
+      "encrypted": false,
+      "page_text_lengths": [
+        3386,
+        4314,
+        2956,
+        2391,
+        2136,
+        2480,
+        2268,
+        4395,
+        2111
+      ],
+      "first_page_size": [
+        544.2520141601562,
+        742.677001953125
+      ],
+      "text_length": 26445,
+      "repaired_pdf": false,
+      "text_path": "work/texts/599e1d0536c7a33e3a1471e5dbb1e72614f5d548c94fa0c7051f4c956a14a770.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R13958"
+      ],
+      "body_markers": [
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R13958/fulltext/fulltext__published__599e1d0536c7a33e.pdf",
+      "source_paths": [
+        "localdownload/R13958/fulltext.pdf"
+      ],
+      "sources": [
+        "local_upload"
+      ],
+      "original_filenames": [
+        "fulltext.pdf"
+      ],
+      "source_record_ids": [
+        "R13958"
+      ],
+      "prior_asset_evidence": [],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R13958/fulltext/fulltext__published__599e1d0536c7a33e.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R13958/fulltext/fulltext__published__599e1d0536c7a33e.pdf",
+      "title": "Effects of Cell Lysis in Gas Yield and Sludge Stabilization by Combined Process of Thermophilic Aerobic and Anaerobic Digestion",
+      "doi": "10.1016/j.proenv.2016.02.007",
+      "associated_record_ids": [
+        "R13958"
+      ],
+      "asset_id": "R13958.fulltext.599e1d0536c7a33e",
+      "legacy_asset_ids": [],
+      "source_repo_path": "original_files/R13958/fulltext/fulltext__published__599e1d0536c7a33e.pdf"
+    }
+  ],
   "version_history": [],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.428412+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
-  "current_verified_main_asset_ids": [],
+  "current_verified_main_asset_ids": [
+    "R13958.fulltext.599e1d0536c7a33e"
+  ],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "not_downloaded",
+    "supplementary_status": "access_failed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": null,
+    "current_verified_main_asset_ids": [],
+    "assets": []
+  },
+  "acquisition_20261023": {
+    "record_id": "R13958",
+    "title": "Effects of Cell Lysis in Gas Yield and Sludge Stabilization by Combined Process of Thermophilic Aerobic and Anaerobic Digestion",
+    "doi": "10.1016/j.proenv.2016.02.007",
+    "category_unchanged": "3 独立好氧或微好氧预处理",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R13958/fulltext/fulltext__published__599e1d0536c7a33e.pdf"
+    ],
+    "main_sha256": [
+      "599e1d0536c7a33e3a1471e5dbb1e72614f5d548c94fa0c7051f4c956a14a770"
+    ],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R13958/fulltext/fulltext__published__599e1d0536c7a33e.pdf"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R13958",
+    "original_journal": "Procedia Environmental Sciences",
+    "normalized_journal": "Procedia Environmental Sciences",
+    "publication_kind": "类型待核实",
+    "subtype": "类型待核实",
+    "issn": "1878-0296",
+    "eissn": "",
+    "metadata_source": "https://api.crossref.org/works/10.1016/j.proenv.2016.02.007",
+    "notes": "期刊/会议或其他载体身份缺少足够凭据，单列待核实，不混入期刊论文分母 | 非目标期刊论文或类型待核实，不进入JCR分母"
+  }
 }

@@ -4,10 +4,10 @@
   "authors": "John H. Loughrin; N. Lovanh; Kimberley L. Cook",
   "doi": "10.13031/trans.56.9869",
   "category_unchanged": "1 直接向 AD 反应器或内部循环系统供氧",
-  "preferred_main_asset_id": null,
+  "preferred_main_asset_id": "",
   "included_for_download": true,
   "main_status": "not_downloaded",
-  "supplementary_status": "checked_no_file_links_found_coverage_unconfirmed",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -36,46 +36,189 @@
   },
   "assets": [
     {
+      "source_path": "original_files/source_evidence/R00735/publisher_article_page_20261017.html",
+      "source": "cloud_existing",
+      "directory_id": "R00735",
       "record_id": "R00735",
-      "asset_id": "R00735.evidence_html.fbe84942b58dfb81",
-      "role": "evidence_html",
-      "official_attachment": false,
       "original_filename": "publisher_article_page_20261017.html",
-      "canonical_path": "original_files/source_evidence/R00735/publisher_article_page_20261017.html",
-      "source_local_path": "",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "retained_not_content_indexed",
-      "preferred_for_record": false,
-      "source_repo_path": "original_files/source_evidence/R00735/publisher_article_page_20261017.html",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R00735/publisher_article_page_20261017.html",
-      "format": "html",
       "size_bytes": 18604,
       "sha256": "fbe84942b58dfb81b99138bd5095557649cf00b707c88f4a366d3346941335db",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://elibrary.asabe.org/abstract.asp?aid=44112&t=3&dabs=Y&redir=&redirType=",
-      "version": "Article HTML with anonymous server session identifiers removed",
-      "license_evidence": "Private authorized research backup; source license not inferred",
-      "recovery_checked_at_utc": "2026-10-17T11:51:26.196608+00:00",
-      "extraction_20261017": {
-        "status": "retained_not_content_indexed",
-        "search_chunks": 0,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "Original retained; no supported content parser for this format. Images/video/models are not claimed searchable."
-        ],
-        "errors": []
-      }
+      "git_blob_oid": "37ce98d29e618dbfcd087ae041934acd1b10b82c",
+      "format": "html",
+      "issues": [],
+      "declared_role": "source_evidence",
+      "role": "source_evidence",
+      "version": "",
+      "verification_status": "text_readable",
+      "text_path": "work/texts/fbe84942b58dfb81b99138bd5095557649cf00b707c88f4a366d3346941335db.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R00735"
+      ],
+      "body_markers": [
+        "results"
+      ],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R00735/evidence/source_evidence__fbe84942b58dfb81.html",
+      "source_paths": [
+        "original_files/source_evidence/R00735/publisher_article_page_20261017.html"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "publisher_article_page_20261017.html"
+      ],
+      "source_record_ids": [
+        "R00735"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "False",
+          "record_id": "R00735",
+          "asset_id": "R00735.evidence_html.fbe84942b58dfb81",
+          "role": "evidence_html",
+          "official_attachment": "False",
+          "original_filename": "publisher_article_page_20261017.html",
+          "canonical_path": "original_files/source_evidence/R00735/publisher_article_page_20261017.html",
+          "source_repo_path": "original_files/source_evidence/R00735/publisher_article_page_20261017.html",
+          "source_local_path": "",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R00735/publisher_article_page_20261017.html",
+          "format": "html",
+          "size_bytes": "18604",
+          "sha256": "fbe84942b58dfb81b99138bd5095557649cf00b707c88f4a366d3346941335db",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://elibrary.asabe.org/abstract.asp?aid=44112&t=3&dabs=Y&redir=&redirType=",
+          "source_xml_url": "",
+          "version": "Article HTML with anonymous server session identifiers removed",
+          "license_evidence": "Private authorized research backup; source license not inferred",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "",
+          "parsing_status": "retained_not_content_indexed",
+          "extraction": "",
+          "recovery_checked_at_utc": "2026-10-17T11:51:26.196608+00:00",
+          "extraction_20261017": "{'status': 'retained_not_content_indexed', 'search_chunks': 0, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['Original retained; no supported content parser for this format. Images/video/models are not claimed searchable.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R00735/evidence/source_evidence__fbe84942b58dfb81.html",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R00735/evidence/source_evidence__fbe84942b58dfb81.html",
+      "title": "Improvement of Anaerobic Digester Performance by Wastewater Recirculation through an Aerated Membrane",
+      "doi": "10.13031/trans.56.9869",
+      "associated_record_ids": [
+        "R00735"
+      ],
+      "asset_id": "R00735.evidence_html.fbe84942b58dfb81",
+      "legacy_asset_ids": [
+        "R00735.evidence_html.fbe84942b58dfb81"
+      ],
+      "source_repo_path": "original_files/R00735/evidence/source_evidence__fbe84942b58dfb81.html"
     }
   ],
   "version_history": [],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.409075+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "not_downloaded",
+    "supplementary_status": "checked_no_file_links_found_coverage_unconfirmed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": null,
+    "current_verified_main_asset_ids": [],
+    "assets": [
+      {
+        "record_id": "R00735",
+        "asset_id": "R00735.evidence_html.fbe84942b58dfb81",
+        "role": "evidence_html",
+        "official_attachment": false,
+        "original_filename": "publisher_article_page_20261017.html",
+        "canonical_path": "original_files/source_evidence/R00735/publisher_article_page_20261017.html",
+        "source_local_path": "",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "retained_not_content_indexed",
+        "preferred_for_record": false,
+        "source_repo_path": "original_files/source_evidence/R00735/publisher_article_page_20261017.html",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R00735/publisher_article_page_20261017.html",
+        "format": "html",
+        "size_bytes": 18604,
+        "sha256": "fbe84942b58dfb81b99138bd5095557649cf00b707c88f4a366d3346941335db",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://elibrary.asabe.org/abstract.asp?aid=44112&t=3&dabs=Y&redir=&redirType=",
+        "version": "Article HTML with anonymous server session identifiers removed",
+        "license_evidence": "Private authorized research backup; source license not inferred",
+        "recovery_checked_at_utc": "2026-10-17T11:51:26.196608+00:00",
+        "extraction_20261017": {
+          "status": "retained_not_content_indexed",
+          "search_chunks": 0,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "Original retained; no supported content parser for this format. Images/video/models are not claimed searchable."
+          ],
+          "errors": []
+        }
+      }
+    ]
+  },
+  "acquisition_20261023": {
+    "record_id": "R00735",
+    "title": "Improvement of Anaerobic Digester Performance by Wastewater Recirculation through an Aerated Membrane",
+    "doi": "10.13031/trans.56.9869",
+    "category_unchanged": "1 直接向 AD 反应器或内部循环系统供氧",
+    "included_for_analysis": true,
+    "main_status": "未取得全文",
+    "verified_fulltext": false,
+    "main_file_count": 0,
+    "main_paths": [],
+    "main_sha256": [],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R00735/evidence/source_evidence__fbe84942b58dfb81.html"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R00735",
+    "original_journal": "Transactions of the ASABE",
+    "normalized_journal": "Transactions of the ASABE",
+    "publication_kind": "期刊论文",
+    "subtype": "研究类",
+    "issn": "2151-0032",
+    "eissn": "2151-0040",
+    "metadata_source": "https://api.crossref.org/works/10.13031/trans.56.9869",
+    "notes": "2024指标年JCR分区未核实；空白不能当非Q1。需要2025发布版/2024指标年的JCR全部学科导出。"
+  }
 }

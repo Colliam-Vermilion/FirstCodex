@@ -7,7 +7,7 @@
   "preferred_main_asset_id": "R09585.main.b16e44cb7a1232c0",
   "included_for_download": true,
   "main_status": "downloaded_verified",
-  "supplementary_status": "explicit_no_attachments_in_complete_JATS",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": true,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -43,95 +43,229 @@
   },
   "assets": [
     {
-      "preferred_for_record": true,
+      "source_path": "original_files/source_evidence/R09585/PMC10609292_fullText.xml",
+      "source": "cloud_existing",
+      "directory_id": "R09585",
       "record_id": "R09585",
-      "asset_id": "R09585.main.b16e44cb7a1232c0",
-      "role": "main",
-      "official_attachment": false,
-      "original_filename": "R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
-      "canonical_path": "papers/R09585/main/b16e44cb7a12_R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
-      "source_repo_path": "original_files/fulltext/R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
-      "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
-      "format": "pdf",
-      "size_bytes": 630302,
-      "sha256": "b16e44cb7a1232c0d5c4e649c9957432f6e0c3a0474be6459e74f83d4c1945d3",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://mdpi-res.com/d_attachment/microorganisms/microorganisms-11-02600/article_deploy/microorganisms-11-02600.pdf?version=1697869736",
-      "source_xml_url": "",
-      "version": "出版版本（原页出版信息）",
-      "license_evidence": "Explicit in-document CC BY/CC0 statement; exact source byte file preserved",
-      "historical_sha256": "b16e44cb7a1232c0d5c4e649c9957432f6e0c3a0474be6459e74f83d4c1945d3",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "extraction": {
-        "relative_directory": "papers/R09585/extracted/R09585.main.b16e44cb7a1232c0",
-        "search_chunks": 80,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.868933+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 80,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
-          "OCR language=eng; OCR values, symbols and units require checking against source page."
-        ],
-        "errors": []
-      }
-    },
-    {
-      "record_id": "R09585",
-      "asset_id": "R09585.evidence_xml.a3430f38fa1652de",
-      "role": "evidence_xml",
-      "official_attachment": false,
       "original_filename": "PMC10609292_fullText.xml",
-      "canonical_path": "papers/R09585/evidence/a3430f38fa16_PMC10609292_fullText.xml",
-      "source_repo_path": "original_files/source_evidence/R09585/PMC10609292_fullText.xml",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R09585/evidence/PMC10609292_fullText.xml",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R09585/PMC10609292_fullText.xml",
-      "format": "xml",
       "size_bytes": 100534,
       "sha256": "a3430f38fa1652de3145ffc47f0da514ee41e12ef8e95acc30330d6b3a01efd2",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10609292/fullTextXML",
-      "source_xml_url": "",
-      "version": "repository_JATS_fulltext_representation_not_PDF",
-      "license_evidence": "© 2023 by the author.2023https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
-      "extraction": {
-        "relative_directory": "papers/R09585/extracted/R09585.evidence_xml.a3430f38fa1652de",
-        "search_chunks": 140,
-        "tables": 1,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:26.161643+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 140,
-        "table_count": 1,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "Repository JATS XML text/structured tables; linked figures/media not all fetched. It is not a recovered historical PDF. Table rowspan/colspan retained as locators, not expanded into a rectangular semantic grid."
-        ],
-        "errors": []
-      }
+      "git_blob_oid": "e536c5db77dd75bf218982e7038e56671f42c220",
+      "format": "xml",
+      "issues": [],
+      "declared_role": "source_evidence",
+      "role": "source_evidence",
+      "version": "",
+      "verification_status": "text_readable",
+      "text_path": "work/texts/a3430f38fa1652de3145ffc47f0da514ee41e12ef8e95acc30330d6b3a01efd2.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R09585"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R09585/evidence/source_evidence__a3430f38fa1652de.xml",
+      "source_paths": [
+        "original_files/source_evidence/R09585/PMC10609292_fullText.xml"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "PMC10609292_fullText.xml"
+      ],
+      "source_record_ids": [
+        "R09585"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "",
+          "record_id": "R09585",
+          "asset_id": "R09585.evidence_xml.a3430f38fa1652de",
+          "role": "evidence_xml",
+          "official_attachment": "False",
+          "original_filename": "PMC10609292_fullText.xml",
+          "canonical_path": "papers/R09585/evidence/a3430f38fa16_PMC10609292_fullText.xml",
+          "source_repo_path": "original_files/source_evidence/R09585/PMC10609292_fullText.xml",
+          "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R09585/evidence/PMC10609292_fullText.xml",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R09585/PMC10609292_fullText.xml",
+          "format": "xml",
+          "size_bytes": "100534",
+          "sha256": "a3430f38fa1652de3145ffc47f0da514ee41e12ef8e95acc30330d6b3a01efd2",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10609292/fullTextXML",
+          "source_xml_url": "",
+          "version": "repository_JATS_fulltext_representation_not_PDF",
+          "license_evidence": "© 2023 by the author.2023https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R09585/extracted/R09585.evidence_xml.a3430f38fa1652de', 'search_chunks': 140, 'tables': 1, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:26.161643+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 140, 'table_count': 1, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['Repository JATS XML text/structured tables; linked figures/media not all fetched. It is not a recovered historical PDF. Table rowspan/colspan retained as locators, not expanded into a rectangular semantic grid.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R09585/evidence/source_evidence__a3430f38fa1652de.xml",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R09585/evidence/source_evidence__a3430f38fa1652de.xml",
+      "title": "Thermophilic Fungi as the Microbial Agents of Choice for the Industrial Co-Fermentation of Wood Wastes and Nitrogen-Rich Organic Wastes to Bio-Methane",
+      "doi": "10.3390/microorganisms11102600",
+      "associated_record_ids": [
+        "R09585"
+      ],
+      "asset_id": "R09585.evidence_xml.a3430f38fa1652de",
+      "legacy_asset_ids": [
+        "R09585.evidence_xml.a3430f38fa1652de"
+      ],
+      "source_repo_path": "original_files/R09585/evidence/source_evidence__a3430f38fa1652de.xml"
+    },
+    {
+      "source_path": "original_files/fulltext/R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
+      "source": "cloud_existing",
+      "directory_id": "R09585",
+      "record_id": "R09585",
+      "original_filename": "R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
+      "size_bytes": 630302,
+      "sha256": "b16e44cb7a1232c0d5c4e649c9957432f6e0c3a0474be6459e74f83d4c1945d3",
+      "git_blob_oid": "0b9b916a710ee58506e10ea1a9abffb456c09512",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
+      "version": "出版版本（原页出版信息）",
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 11,
+      "encrypted": false,
+      "page_text_lengths": [
+        4424,
+        4637,
+        2799,
+        4670,
+        3856,
+        4761,
+        4734,
+        4607,
+        4589,
+        5154,
+        4430
+      ],
+      "first_page_size": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_length": 48671,
+      "repaired_pdf": false,
+      "text_path": "work/texts/b16e44cb7a1232c0d5c4e649c9957432f6e0c3a0474be6459e74f83d4c1945d3.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R09585"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R09585/fulltext/fulltext__published__b16e44cb7a1232c0.pdf",
+      "source_paths": [
+        "original_files/fulltext/R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf"
+      ],
+      "source_record_ids": [
+        "R09585"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "True",
+          "record_id": "R09585",
+          "asset_id": "R09585.main.b16e44cb7a1232c0",
+          "role": "main",
+          "official_attachment": "False",
+          "original_filename": "R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
+          "canonical_path": "papers/R09585/main/b16e44cb7a12_R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
+          "source_repo_path": "original_files/fulltext/R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
+          "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
+          "format": "pdf",
+          "size_bytes": "630302",
+          "sha256": "b16e44cb7a1232c0d5c4e649c9957432f6e0c3a0474be6459e74f83d4c1945d3",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://mdpi-res.com/d_attachment/microorganisms/microorganisms-11-02600/article_deploy/microorganisms-11-02600.pdf?version=1697869736",
+          "source_xml_url": "",
+          "version": "出版版本（原页出版信息）",
+          "license_evidence": "Explicit in-document CC BY/CC0 statement; exact source byte file preserved",
+          "historical_sha256": "b16e44cb7a1232c0d5c4e649c9957432f6e0c3a0474be6459e74f83d4c1945d3",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R09585/extracted/R09585.main.b16e44cb7a1232c0', 'search_chunks': 80, 'tables': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.868933+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 80, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.', 'OCR language=eng; OCR values, symbols and units require checking against source page.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R09585/fulltext/fulltext__published__b16e44cb7a1232c0.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R09585/fulltext/fulltext__published__b16e44cb7a1232c0.pdf",
+      "title": "Thermophilic Fungi as the Microbial Agents of Choice for the Industrial Co-Fermentation of Wood Wastes and Nitrogen-Rich Organic Wastes to Bio-Methane",
+      "doi": "10.3390/microorganisms11102600",
+      "associated_record_ids": [
+        "R09585"
+      ],
+      "asset_id": "R09585.main.b16e44cb7a1232c0",
+      "legacy_asset_ids": [
+        "R09585.main.b16e44cb7a1232c0"
+      ],
+      "source_repo_path": "original_files/R09585/fulltext/fulltext__published__b16e44cb7a1232c0.pdf"
     }
   ],
   "version_history": [
@@ -146,12 +280,155 @@
       "status": "current_verified_preferred_bytes"
     }
   ],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.425713+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
     "R09585.main.b16e44cb7a1232c0"
   ],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "downloaded_verified",
+    "supplementary_status": "explicit_no_attachments_in_complete_JATS",
+    "supplementary_coverage_complete": true,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": "R09585.main.b16e44cb7a1232c0",
+    "current_verified_main_asset_ids": [
+      "R09585.main.b16e44cb7a1232c0"
+    ],
+    "assets": [
+      {
+        "preferred_for_record": true,
+        "record_id": "R09585",
+        "asset_id": "R09585.main.b16e44cb7a1232c0",
+        "role": "main",
+        "official_attachment": false,
+        "original_filename": "R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
+        "canonical_path": "papers/R09585/main/b16e44cb7a12_R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
+        "source_repo_path": "original_files/fulltext/R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
+        "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R09585_2023_Thermophilic_Fungi_as_the_Microbial_Agents_of_Choice_for.pdf",
+        "format": "pdf",
+        "size_bytes": 630302,
+        "sha256": "b16e44cb7a1232c0d5c4e649c9957432f6e0c3a0474be6459e74f83d4c1945d3",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://mdpi-res.com/d_attachment/microorganisms/microorganisms-11-02600/article_deploy/microorganisms-11-02600.pdf?version=1697869736",
+        "source_xml_url": "",
+        "version": "出版版本（原页出版信息）",
+        "license_evidence": "Explicit in-document CC BY/CC0 statement; exact source byte file preserved",
+        "historical_sha256": "b16e44cb7a1232c0d5c4e649c9957432f6e0c3a0474be6459e74f83d4c1945d3",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "extraction": {
+          "relative_directory": "papers/R09585/extracted/R09585.main.b16e44cb7a1232c0",
+          "search_chunks": 80,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.868933+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 80,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
+            "OCR language=eng; OCR values, symbols and units require checking against source page."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "record_id": "R09585",
+        "asset_id": "R09585.evidence_xml.a3430f38fa1652de",
+        "role": "evidence_xml",
+        "official_attachment": false,
+        "original_filename": "PMC10609292_fullText.xml",
+        "canonical_path": "papers/R09585/evidence/a3430f38fa16_PMC10609292_fullText.xml",
+        "source_repo_path": "original_files/source_evidence/R09585/PMC10609292_fullText.xml",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R09585/evidence/PMC10609292_fullText.xml",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R09585/PMC10609292_fullText.xml",
+        "format": "xml",
+        "size_bytes": 100534,
+        "sha256": "a3430f38fa1652de3145ffc47f0da514ee41e12ef8e95acc30330d6b3a01efd2",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10609292/fullTextXML",
+        "source_xml_url": "",
+        "version": "repository_JATS_fulltext_representation_not_PDF",
+        "license_evidence": "© 2023 by the author.2023https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
+        "extraction": {
+          "relative_directory": "papers/R09585/extracted/R09585.evidence_xml.a3430f38fa1652de",
+          "search_chunks": 140,
+          "tables": 1,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:26.161643+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 140,
+          "table_count": 1,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "Repository JATS XML text/structured tables; linked figures/media not all fetched. It is not a recovered historical PDF. Table rowspan/colspan retained as locators, not expanded into a rectangular semantic grid."
+          ],
+          "errors": []
+        }
+      }
+    ]
+  },
+  "acquisition_20261023": {
+    "record_id": "R09585",
+    "title": "Thermophilic Fungi as the Microbial Agents of Choice for the Industrial Co-Fermentation of Wood Wastes and Nitrogen-Rich Organic Wastes to Bio-Methane",
+    "doi": "10.3390/microorganisms11102600",
+    "category_unchanged": "4 综述",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R09585/fulltext/fulltext__published__b16e44cb7a1232c0.pdf"
+    ],
+    "main_sha256": [
+      "b16e44cb7a1232c0d5c4e649c9957432f6e0c3a0474be6459e74f83d4c1945d3"
+    ],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R09585/evidence/source_evidence__a3430f38fa1652de.xml",
+      "original_files/R09585/fulltext/fulltext__published__b16e44cb7a1232c0.pdf"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R09585",
+    "original_journal": "Microorganisms",
+    "normalized_journal": "Microorganisms",
+    "publication_kind": "期刊论文",
+    "subtype": "综述",
+    "issn": "",
+    "eissn": "2076-2607",
+    "metadata_source": "https://api.crossref.org/works/10.3390/microorganisms11102600",
+    "notes": "2024指标年JCR分区未核实；空白不能当非Q1。需要2025发布版/2024指标年的JCR全部学科导出。"
+  }
 }

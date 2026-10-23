@@ -7,7 +7,7 @@
   "preferred_main_asset_id": "R04177.main.09b0de58af2ff1e6",
   "included_for_download": true,
   "main_status": "downloaded_verified",
-  "supplementary_status": "access_failed",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -36,50 +36,123 @@
   },
   "assets": [
     {
-      "preferred_for_record": true,
+      "source_path": "original_files/fulltext/R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
+      "source": "cloud_existing",
+      "directory_id": "R04177",
       "record_id": "R04177",
-      "asset_id": "R04177.main.09b0de58af2ff1e6",
-      "role": "main",
-      "official_attachment": false,
       "original_filename": "R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
-      "canonical_path": "papers/R04177/main/09b0de58af2f_R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
-      "source_repo_path": "original_files/fulltext/R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
-      "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
-      "format": "pdf",
       "size_bytes": 446033,
       "sha256": "09b0de58af2ff1e679e24cecf4a4a617fa2a0e539dc66351e2edb4076d2e7b72",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.deswater.com/DWT_articles/vol_121_papers/121_2018_191.pdf",
-      "source_xml_url": "",
+      "git_blob_oid": "ef167284926743c6c61d0e111b736c2ddce23ee2",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
       "version": "出版版本（原页出版信息）",
-      "license_evidence": "No verified permissive redistribution grant; private backup destination pending",
-      "historical_sha256": "09b0de58af2ff1e679e24cecf4a4a617fa2a0e539dc66351e2edb4076d2e7b72",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "extraction": {
-        "relative_directory": "papers/R04177/extracted/R04177.main.09b0de58af2ff1e6",
-        "search_chunks": 93,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.792123+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 93,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
-          "OCR language=eng; OCR values, symbols and units require checking against source page."
-        ],
-        "errors": []
-      }
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 7,
+      "encrypted": false,
+      "page_text_lengths": [
+        3991,
+        3803,
+        4527,
+        3210,
+        1641,
+        3810,
+        3607
+      ],
+      "first_page_size": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_length": 24595,
+      "repaired_pdf": false,
+      "text_path": "work/texts/09b0de58af2ff1e679e24cecf4a4a617fa2a0e539dc66351e2edb4076d2e7b72.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R04177"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R04177/fulltext/fulltext__published__09b0de58af2ff1e6.pdf",
+      "source_paths": [
+        "original_files/fulltext/R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf"
+      ],
+      "source_record_ids": [
+        "R04177"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "True",
+          "record_id": "R04177",
+          "asset_id": "R04177.main.09b0de58af2ff1e6",
+          "role": "main",
+          "official_attachment": "False",
+          "original_filename": "R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
+          "canonical_path": "papers/R04177/main/09b0de58af2f_R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
+          "source_repo_path": "original_files/fulltext/R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
+          "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
+          "format": "pdf",
+          "size_bytes": "446033",
+          "sha256": "09b0de58af2ff1e679e24cecf4a4a617fa2a0e539dc66351e2edb4076d2e7b72",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.deswater.com/DWT_articles/vol_121_papers/121_2018_191.pdf",
+          "source_xml_url": "",
+          "version": "出版版本（原页出版信息）",
+          "license_evidence": "No verified permissive redistribution grant; private backup destination pending",
+          "historical_sha256": "09b0de58af2ff1e679e24cecf4a4a617fa2a0e539dc66351e2edb4076d2e7b72",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R04177/extracted/R04177.main.09b0de58af2ff1e6', 'search_chunks': 93, 'tables': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.792123+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 93, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.', 'OCR language=eng; OCR values, symbols and units require checking against source page.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R04177/fulltext/fulltext__published__09b0de58af2ff1e6.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R04177/fulltext/fulltext__published__09b0de58af2ff1e6.pdf",
+      "title": "Operating characteristics of baffled reactor under microaerobic conditions",
+      "doi": "10.5004/dwt.2018.22410",
+      "associated_record_ids": [
+        "R04177"
+      ],
+      "asset_id": "R04177.main.09b0de58af2ff1e6",
+      "legacy_asset_ids": [
+        "R04177.main.09b0de58af2ff1e6"
+      ],
+      "source_repo_path": "original_files/R04177/fulltext/fulltext__published__09b0de58af2ff1e6.pdf"
     }
   ],
   "version_history": [
@@ -94,12 +167,109 @@
       "status": "current_verified_preferred_bytes"
     }
   ],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.440011+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
     "R04177.main.09b0de58af2ff1e6"
   ],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "downloaded_verified",
+    "supplementary_status": "access_failed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": "R04177.main.09b0de58af2ff1e6",
+    "current_verified_main_asset_ids": [
+      "R04177.main.09b0de58af2ff1e6"
+    ],
+    "assets": [
+      {
+        "preferred_for_record": true,
+        "record_id": "R04177",
+        "asset_id": "R04177.main.09b0de58af2ff1e6",
+        "role": "main",
+        "official_attachment": false,
+        "original_filename": "R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
+        "canonical_path": "papers/R04177/main/09b0de58af2f_R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
+        "source_repo_path": "original_files/fulltext/R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
+        "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R04177_2018_Operating_characteristics_of_baffled_reactor_under_microaerobic_conditions.pdf",
+        "format": "pdf",
+        "size_bytes": 446033,
+        "sha256": "09b0de58af2ff1e679e24cecf4a4a617fa2a0e539dc66351e2edb4076d2e7b72",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.deswater.com/DWT_articles/vol_121_papers/121_2018_191.pdf",
+        "source_xml_url": "",
+        "version": "出版版本（原页出版信息）",
+        "license_evidence": "No verified permissive redistribution grant; private backup destination pending",
+        "historical_sha256": "09b0de58af2ff1e679e24cecf4a4a617fa2a0e539dc66351e2edb4076d2e7b72",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "extraction": {
+          "relative_directory": "papers/R04177/extracted/R04177.main.09b0de58af2ff1e6",
+          "search_chunks": 93,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.792123+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 93,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
+            "OCR language=eng; OCR values, symbols and units require checking against source page."
+          ],
+          "errors": []
+        }
+      }
+    ]
+  },
+  "acquisition_20261023": {
+    "record_id": "R04177",
+    "title": "Operating characteristics of baffled reactor under microaerobic conditions",
+    "doi": "10.5004/dwt.2018.22410",
+    "category_unchanged": "1 直接向 AD 反应器或内部循环系统供氧",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R04177/fulltext/fulltext__published__09b0de58af2ff1e6.pdf"
+    ],
+    "main_sha256": [
+      "09b0de58af2ff1e679e24cecf4a4a617fa2a0e539dc66351e2edb4076d2e7b72"
+    ],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R04177/fulltext/fulltext__published__09b0de58af2ff1e6.pdf"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R04177",
+    "original_journal": "Desalination and Water Treatment",
+    "normalized_journal": "Desalination and Water Treatment",
+    "publication_kind": "期刊论文",
+    "subtype": "研究类",
+    "issn": "1944-3986",
+    "eissn": "",
+    "metadata_source": "https://api.crossref.org/works/10.5004/dwt.2018.22410",
+    "notes": "机构JCR栏：搜索索引可核验；原页面直连未成功；非Clarivate账户导出 | 全部Q1仅指本表全部已核实学科；无官方完整学科导出，不承诺没有未显示学科"
+  }
 }

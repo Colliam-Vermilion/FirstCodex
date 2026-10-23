@@ -7,7 +7,7 @@
   "preferred_main_asset_id": "R04928.main.9d47028c02204ac0",
   "included_for_download": true,
   "main_status": "downloaded_verified",
-  "supplementary_status": "checked_no_file_links_found_coverage_unconfirmed",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -36,94 +36,367 @@
   },
   "assets": [
     {
+      "source_path": "original_files/fulltext/R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf",
+      "source": "cloud_existing",
+      "directory_id": "R04928",
       "record_id": "R04928",
-      "asset_id": "R04928.main.9d47028c02204ac0",
-      "role": "main",
-      "official_attachment": false,
       "original_filename": "R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf",
-      "canonical_path": "original_files/fulltext/R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf",
-      "source_local_path": "",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "preferred_for_record": true,
-      "source_repo_path": "original_files/fulltext/R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf",
-      "format": "pdf",
       "size_bytes": 614108,
       "sha256": "9d47028c02204ac08f73849bdf73af55c1e235aa3593b2b281d139b85d58607f",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://jrtppi.id/index.php/jrtppi/article/download/31/24",
+      "git_blob_oid": "e3ec6009991e345b75c6a48802acb8e12f79bcba",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
       "version": "期刊正式文章页提供的出版PDF（10(1):12–21）；PDF DOI栏为占位符，DOI由同一期刊文章页的citation_doi独立核对",
-      "license_evidence": "Private authorized research backup; source license not inferred",
-      "identity_review_20261017": {
-        "candidate_relative_path": "original_files/continuation_20261017/candidates/R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf",
-        "sha256": "9d47028c02204ac08f73849bdf73af55c1e235aa3593b2b281d139b85d58607f",
-        "pages": 10,
-        "source_url": "https://jrtppi.id/index.php/jrtppi/article/download/31/24",
-        "version": "期刊正式文章页提供的出版PDF（10(1):12–21）；PDF DOI栏为占位符，DOI由同一期刊文章页的citation_doi独立核对",
-        "inspection": "Actual PDF own title/two authors/journal/2019/10(1)/12–21, methods and references; official article 31 links this exact galley and supplies target DOI. No bibliographic/classification fields changed.",
-        "publisher_identity_evidence": "inventory/recovery_20261017/R04928_journal_identity.json",
-        "PDF_DOI_is_placeholder": true
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:26.185554+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 159,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
-          "OCR language=eng; OCR values, symbols and units require checking against source page."
-        ],
-        "errors": []
-      }
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 10,
+      "encrypted": false,
+      "page_text_lengths": [
+        3744,
+        1955,
+        3170,
+        2691,
+        4186,
+        2815,
+        2900,
+        3109,
+        3118,
+        2458
+      ],
+      "first_page_size": [
+        595.2000122070312,
+        841.9199829101562
+      ],
+      "text_length": 30155,
+      "repaired_pdf": false,
+      "text_path": "work/texts/9d47028c02204ac08f73849bdf73af55c1e235aa3593b2b281d139b85d58607f.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [],
+      "body_markers": [
+        "intro",
+        "methods",
+        "conclusion"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R04928/fulltext/fulltext__published__9d47028c02204ac0.pdf",
+      "source_paths": [
+        "original_files/fulltext/R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf"
+      ],
+      "source_record_ids": [
+        "R04928"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "True",
+          "record_id": "R04928",
+          "asset_id": "R04928.main.9d47028c02204ac0",
+          "role": "main",
+          "official_attachment": "False",
+          "original_filename": "R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf",
+          "canonical_path": "original_files/fulltext/R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf",
+          "source_repo_path": "original_files/fulltext/R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf",
+          "source_local_path": "",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf",
+          "format": "pdf",
+          "size_bytes": "614108",
+          "sha256": "9d47028c02204ac08f73849bdf73af55c1e235aa3593b2b281d139b85d58607f",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://jrtppi.id/index.php/jrtppi/article/download/31/24",
+          "source_xml_url": "",
+          "version": "期刊正式文章页提供的出版PDF（10(1):12–21）；PDF DOI栏为占位符，DOI由同一期刊文章页的citation_doi独立核对",
+          "license_evidence": "Private authorized research backup; source license not inferred",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "",
+          "recovery_checked_at_utc": "2026-10-17T11:51:26.185554+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 159, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.', 'OCR language=eng; OCR values, symbols and units require checking against source page.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "{'candidate_relative_path': 'original_files/continuation_20261017/candidates/R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf', 'sha256': '9d47028c02204ac08f73849bdf73af55c1e235aa3593b2b281d139b85d58607f', 'pages': 10, 'source_url': 'https://jrtppi.id/index.php/jrtppi/article/download/31/24', 'version': '期刊正式文章页提供的出版PDF（10(1):12–21）；PDF DOI栏为占位符，DOI由同一期刊文章页的citation_doi独立核对', 'inspection': 'Actual PDF own title/two authors/journal/2019/10(1)/12–21, methods and references; official article 31 links this exact galley and supplies target DOI. No bibliographic/classification fields changed.', 'publisher_identity_evidence': 'inventory/recovery_20261017/R04928_journal_identity.json', 'PDF_DOI_is_placeholder': True}",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R04928/fulltext/fulltext__published__9d47028c02204ac0.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R04928/fulltext/fulltext__published__9d47028c02204ac0.pdf",
+      "title": "MATHEMATICAL MODEL FOR QUANTITATIVE ANALYSIS OF ACIDOGENIC PERFORMANCE UNDER MICROAERATION CONDITION IN ANAEROBIC VINASSE TREATMENT",
+      "doi": "10.21771/jrtppi.2019.v10.no1.p12-21",
+      "associated_record_ids": [
+        "R04928"
+      ],
+      "asset_id": "R04928.main.9d47028c02204ac0",
+      "legacy_asset_ids": [
+        "R04928.main.9d47028c02204ac0"
+      ],
+      "source_repo_path": "original_files/R04928/fulltext/fulltext__published__9d47028c02204ac0.pdf"
     },
     {
+      "source_path": "original_files/source_evidence/R04928/publisher_article_page_20261017.html",
+      "source": "cloud_existing",
+      "directory_id": "R04928",
       "record_id": "R04928",
-      "asset_id": "R04928.evidence_html.f38b7a85b5b362e8",
-      "role": "evidence_html",
-      "official_attachment": false,
       "original_filename": "publisher_article_page_20261017.html",
-      "canonical_path": "original_files/source_evidence/R04928/publisher_article_page_20261017.html",
-      "source_local_path": "",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "retained_not_content_indexed",
-      "preferred_for_record": false,
-      "source_repo_path": "original_files/source_evidence/R04928/publisher_article_page_20261017.html",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R04928/publisher_article_page_20261017.html",
-      "format": "html",
       "size_bytes": 52695,
       "sha256": "f38b7a85b5b362e821995826e5889e66f532e7426d40b47092aaf8a2685d23f3",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://jrtppi.id/index.php/jrtppi/article/view/31",
-      "version": "Article HTML with anonymous server session identifiers removed",
-      "license_evidence": "Private authorized research backup; source license not inferred",
-      "recovery_checked_at_utc": "2026-10-17T11:51:26.207314+00:00",
-      "extraction_20261017": {
-        "status": "retained_not_content_indexed",
-        "search_chunks": 0,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "Original retained; no supported content parser for this format. Images/video/models are not claimed searchable."
-        ],
-        "errors": []
-      }
+      "git_blob_oid": "9a3f6e9db20d607d7f89910aeb247dc7d6f5b2c7",
+      "format": "html",
+      "issues": [],
+      "declared_role": "source_evidence",
+      "role": "source_evidence",
+      "version": "",
+      "verification_status": "text_readable",
+      "text_path": "work/texts/f38b7a85b5b362e821995826e5889e66f532e7426d40b47092aaf8a2685d23f3.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R01410",
+        "R04928",
+        "R01985",
+        "R02578",
+        "R13820"
+      ],
+      "body_markers": [
+        "methods",
+        "references"
+      ],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R04928/evidence/source_evidence__f38b7a85b5b362e8.html",
+      "source_paths": [
+        "original_files/source_evidence/R04928/publisher_article_page_20261017.html"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "publisher_article_page_20261017.html"
+      ],
+      "source_record_ids": [
+        "R04928"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "False",
+          "record_id": "R04928",
+          "asset_id": "R04928.evidence_html.f38b7a85b5b362e8",
+          "role": "evidence_html",
+          "official_attachment": "False",
+          "original_filename": "publisher_article_page_20261017.html",
+          "canonical_path": "original_files/source_evidence/R04928/publisher_article_page_20261017.html",
+          "source_repo_path": "original_files/source_evidence/R04928/publisher_article_page_20261017.html",
+          "source_local_path": "",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R04928/publisher_article_page_20261017.html",
+          "format": "html",
+          "size_bytes": "52695",
+          "sha256": "f38b7a85b5b362e821995826e5889e66f532e7426d40b47092aaf8a2685d23f3",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://jrtppi.id/index.php/jrtppi/article/view/31",
+          "source_xml_url": "",
+          "version": "Article HTML with anonymous server session identifiers removed",
+          "license_evidence": "Private authorized research backup; source license not inferred",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "",
+          "parsing_status": "retained_not_content_indexed",
+          "extraction": "",
+          "recovery_checked_at_utc": "2026-10-17T11:51:26.207314+00:00",
+          "extraction_20261017": "{'status': 'retained_not_content_indexed', 'search_chunks': 0, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['Original retained; no supported content parser for this format. Images/video/models are not claimed searchable.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R04928/evidence/source_evidence__f38b7a85b5b362e8.html",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R04928/evidence/source_evidence__f38b7a85b5b362e8.html",
+      "title": "MATHEMATICAL MODEL FOR QUANTITATIVE ANALYSIS OF ACIDOGENIC PERFORMANCE UNDER MICROAERATION CONDITION IN ANAEROBIC VINASSE TREATMENT",
+      "doi": "10.21771/jrtppi.2019.v10.no1.p12-21",
+      "associated_record_ids": [
+        "R04928"
+      ],
+      "asset_id": "R04928.evidence_html.f38b7a85b5b362e8",
+      "legacy_asset_ids": [
+        "R04928.evidence_html.f38b7a85b5b362e8"
+      ],
+      "source_repo_path": "original_files/R04928/evidence/source_evidence__f38b7a85b5b362e8.html"
     }
   ],
   "version_history": [],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.732856+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
     "R04928.main.9d47028c02204ac0"
   ],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "downloaded_verified",
+    "supplementary_status": "checked_no_file_links_found_coverage_unconfirmed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": "R04928.main.9d47028c02204ac0",
+    "current_verified_main_asset_ids": [
+      "R04928.main.9d47028c02204ac0"
+    ],
+    "assets": [
+      {
+        "record_id": "R04928",
+        "asset_id": "R04928.main.9d47028c02204ac0",
+        "role": "main",
+        "official_attachment": false,
+        "original_filename": "R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf",
+        "canonical_path": "original_files/fulltext/R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf",
+        "source_local_path": "",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "preferred_for_record": true,
+        "source_repo_path": "original_files/fulltext/R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf",
+        "format": "pdf",
+        "size_bytes": 614108,
+        "sha256": "9d47028c02204ac08f73849bdf73af55c1e235aa3593b2b281d139b85d58607f",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://jrtppi.id/index.php/jrtppi/article/download/31/24",
+        "version": "期刊正式文章页提供的出版PDF（10(1):12–21）；PDF DOI栏为占位符，DOI由同一期刊文章页的citation_doi独立核对",
+        "license_evidence": "Private authorized research backup; source license not inferred",
+        "identity_review_20261017": {
+          "candidate_relative_path": "original_files/continuation_20261017/candidates/R04928_2019_MATHEMATICAL_MODEL_FOR_QUANTITATIVE_ANALYSIS_OF_ACIDOGENIC_PERFORMANCE_UNDER_MICROAERATION_CONDITION_9d47028c0220.pdf",
+          "sha256": "9d47028c02204ac08f73849bdf73af55c1e235aa3593b2b281d139b85d58607f",
+          "pages": 10,
+          "source_url": "https://jrtppi.id/index.php/jrtppi/article/download/31/24",
+          "version": "期刊正式文章页提供的出版PDF（10(1):12–21）；PDF DOI栏为占位符，DOI由同一期刊文章页的citation_doi独立核对",
+          "inspection": "Actual PDF own title/two authors/journal/2019/10(1)/12–21, methods and references; official article 31 links this exact galley and supplies target DOI. No bibliographic/classification fields changed.",
+          "publisher_identity_evidence": "inventory/recovery_20261017/R04928_journal_identity.json",
+          "PDF_DOI_is_placeholder": true
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:26.185554+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 159,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
+            "OCR language=eng; OCR values, symbols and units require checking against source page."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "record_id": "R04928",
+        "asset_id": "R04928.evidence_html.f38b7a85b5b362e8",
+        "role": "evidence_html",
+        "official_attachment": false,
+        "original_filename": "publisher_article_page_20261017.html",
+        "canonical_path": "original_files/source_evidence/R04928/publisher_article_page_20261017.html",
+        "source_local_path": "",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "retained_not_content_indexed",
+        "preferred_for_record": false,
+        "source_repo_path": "original_files/source_evidence/R04928/publisher_article_page_20261017.html",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R04928/publisher_article_page_20261017.html",
+        "format": "html",
+        "size_bytes": 52695,
+        "sha256": "f38b7a85b5b362e821995826e5889e66f532e7426d40b47092aaf8a2685d23f3",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://jrtppi.id/index.php/jrtppi/article/view/31",
+        "version": "Article HTML with anonymous server session identifiers removed",
+        "license_evidence": "Private authorized research backup; source license not inferred",
+        "recovery_checked_at_utc": "2026-10-17T11:51:26.207314+00:00",
+        "extraction_20261017": {
+          "status": "retained_not_content_indexed",
+          "search_chunks": 0,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "Original retained; no supported content parser for this format. Images/video/models are not claimed searchable."
+          ],
+          "errors": []
+        }
+      }
+    ]
+  },
+  "acquisition_20261023": {
+    "record_id": "R04928",
+    "title": "MATHEMATICAL MODEL FOR QUANTITATIVE ANALYSIS OF ACIDOGENIC PERFORMANCE UNDER MICROAERATION CONDITION IN ANAEROBIC VINASSE TREATMENT",
+    "doi": "10.21771/jrtppi.2019.v10.no1.p12-21",
+    "category_unchanged": "2 向厌氧水解或产酸阶段供氧",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R04928/fulltext/fulltext__published__9d47028c02204ac0.pdf"
+    ],
+    "main_sha256": [
+      "9d47028c02204ac08f73849bdf73af55c1e235aa3593b2b281d139b85d58607f"
+    ],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R04928/fulltext/fulltext__published__9d47028c02204ac0.pdf",
+      "original_files/R04928/evidence/source_evidence__f38b7a85b5b362e8.html"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R04928",
+    "original_journal": "Jurnal Riset Teknologi Pencegahan Pencemaran Industri",
+    "normalized_journal": "Jurnal Riset Teknologi Pencegahan Pencemaran Industri",
+    "publication_kind": "期刊论文",
+    "subtype": "研究类",
+    "issn": "2087-0965",
+    "eissn": "2503-5010",
+    "metadata_source": "https://api.crossref.org/works/10.21771/jrtppi.2019.v10.no1.p12-21",
+    "notes": "2024指标年JCR分区未核实；空白不能当非Q1。需要2025发布版/2024指标年的JCR全部学科导出。"
+  }
 }

@@ -4,10 +4,10 @@
   "authors": "Fakkaew, Krailak; Polprasert, Chongrak",
   "doi": "10.1016/j.biteb.2021.100647",
   "category_unchanged": "3 独立好氧或微好氧预处理",
-  "preferred_main_asset_id": null,
+  "preferred_main_asset_id": "R13934.fulltext.1480f7c3e38dbfec",
   "included_for_download": true,
-  "main_status": "not_downloaded",
-  "supplementary_status": "access_failed",
+  "main_status": "downloaded_verified",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -34,12 +34,140 @@
     "supplementary": "mapped, no duplicate originals",
     "extracted": "per-asset derived search artifacts"
   },
-  "assets": [],
+  "assets": [
+    {
+      "source_path": "localdownload/R13934/fulltext.pdf",
+      "source": "local_upload",
+      "directory_id": "R13934",
+      "record_id": "R13934",
+      "original_filename": "fulltext.pdf",
+      "size_bytes": 2427281,
+      "sha256": "1480f7c3e38dbfec89b7d5949aa745f77cbec72bc63ec7dd250e5ab70070943e",
+      "git_blob_oid": "f9a7af2b13398d300fbc0d7ee6a4f4cc460c977d",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
+      "version": "出版版（版式及版权文字）",
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 7,
+      "encrypted": false,
+      "page_text_lengths": [
+        5092,
+        3883,
+        4008,
+        5086,
+        3339,
+        3198,
+        4224
+      ],
+      "first_page_size": [
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "text_length": 28836,
+      "repaired_pdf": false,
+      "text_path": "work/texts/1480f7c3e38dbfec89b7d5949aa745f77cbec72bc63ec7dd250e5ab70070943e.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R13934"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R13934/fulltext/fulltext__published__1480f7c3e38dbfec.pdf",
+      "source_paths": [
+        "localdownload/R13934/fulltext.pdf"
+      ],
+      "sources": [
+        "local_upload"
+      ],
+      "original_filenames": [
+        "fulltext.pdf"
+      ],
+      "source_record_ids": [
+        "R13934"
+      ],
+      "prior_asset_evidence": [],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R13934/fulltext/fulltext__published__1480f7c3e38dbfec.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R13934/fulltext/fulltext__published__1480f7c3e38dbfec.pdf",
+      "title": "Air stripping pre-treatment process to enhance biogas production in anaerobic digestion of chicken manure wastewater",
+      "doi": "10.1016/j.biteb.2021.100647",
+      "associated_record_ids": [
+        "R13934"
+      ],
+      "asset_id": "R13934.fulltext.1480f7c3e38dbfec",
+      "legacy_asset_ids": [],
+      "source_repo_path": "original_files/R13934/fulltext/fulltext__published__1480f7c3e38dbfec.pdf"
+    }
+  ],
   "version_history": [],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.728416+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
-  "current_verified_main_asset_ids": [],
+  "current_verified_main_asset_ids": [
+    "R13934.fulltext.1480f7c3e38dbfec"
+  ],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "not_downloaded",
+    "supplementary_status": "access_failed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": null,
+    "current_verified_main_asset_ids": [],
+    "assets": []
+  },
+  "acquisition_20261023": {
+    "record_id": "R13934",
+    "title": "Air stripping pre-treatment process to enhance biogas production in anaerobic digestion of chicken manure wastewater",
+    "doi": "10.1016/j.biteb.2021.100647",
+    "category_unchanged": "3 独立好氧或微好氧预处理",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R13934/fulltext/fulltext__published__1480f7c3e38dbfec.pdf"
+    ],
+    "main_sha256": [
+      "1480f7c3e38dbfec89b7d5949aa745f77cbec72bc63ec7dd250e5ab70070943e"
+    ],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R13934/fulltext/fulltext__published__1480f7c3e38dbfec.pdf"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R13934",
+    "original_journal": "Bioresource Technology Reports",
+    "normalized_journal": "Bioresource Technology Reports",
+    "publication_kind": "期刊论文",
+    "subtype": "研究类",
+    "issn": "2589-014X",
+    "eissn": "",
+    "metadata_source": "https://api.crossref.org/works/10.1016/j.biteb.2021.100647",
+    "notes": "2024指标年JCR分区未核实；空白不能当非Q1。需要2025发布版/2024指标年的JCR全部学科导出。"
+  }
 }

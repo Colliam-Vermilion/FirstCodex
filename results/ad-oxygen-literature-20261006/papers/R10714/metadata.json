@@ -7,7 +7,7 @@
   "preferred_main_asset_id": "R10714.main.7b30471378196b17",
   "included_for_download": true,
   "main_status": "downloaded_verified",
-  "supplementary_status": "access_failed",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -36,59 +36,257 @@
   },
   "assets": [
     {
+      "source_path": "original_files/fulltext/R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf",
+      "source": "cloud_existing",
+      "directory_id": "R10714",
       "record_id": "R10714",
-      "asset_id": "R10714.main.7b30471378196b17",
-      "role": "main",
-      "official_attachment": false,
       "original_filename": "R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf",
-      "canonical_path": "original_files/fulltext/R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf",
-      "source_local_path": "",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "preferred_for_record": true,
-      "source_repo_path": "original_files/fulltext/R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf",
-      "format": "pdf",
       "size_bytes": 2742755,
       "sha256": "7b30471378196b176413eb1766083913bdd1e51bebec0fb2247d9ea20a061315",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://dspace.lib.cranfield.ac.uk/server/api/core/bitstreams/c747f5a7-3a57-4757-87df-992e0083a6ce/content",
+      "git_blob_oid": "a22266a0e148b399c876346cd4fa50154e1e3aa9",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
       "version": "作者接受稿（PDF第一页明确Author Accepted Manuscript及正式DOI；不是预印本）",
-      "license_evidence": "Private authorized research backup; source license not inferred",
-      "identity_review_20261017": {
-        "candidate_relative_path": "original_files/continuation_20261017/candidates/R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf",
-        "sha256": "7b30471378196b176413eb1766083913bdd1e51bebec0fb2247d9ea20a061315",
-        "pages": 35,
-        "source_url": "https://dspace.lib.cranfield.ac.uk/server/api/core/bitstreams/c747f5a7-3a57-4757-87df-992e0083a6ce/content",
-        "version": "作者接受稿（PDF第一页明确Author Accepted Manuscript及正式DOI；不是预印本）",
-        "inspection": "Agent inspected actual own title/all authors, DOI, explicit publisher/AAM statement, methods/results/reference sections and all-page parsing. Repository cover matches same paper; no scope/manual or original bibliographic fields changed.",
-        "title_author_doi_own_block_verified": true,
-        "body_verified": true
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:26.201537+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 464,
-        "table_count": 1,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
-          "OCR language=eng; OCR values, symbols and units require checking against source page."
-        ],
-        "errors": []
-      }
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 35,
+      "encrypted": false,
+      "page_text_lengths": [
+        3246,
+        3543,
+        2736,
+        3137,
+        3370,
+        2941,
+        2778,
+        1650,
+        844,
+        2735,
+        2376,
+        2146,
+        2283,
+        2364,
+        1214,
+        2294,
+        3107,
+        3136,
+        3180,
+        3413,
+        3573,
+        3336,
+        3297,
+        1164,
+        918,
+        625,
+        3541,
+        1058,
+        501,
+        680,
+        1578,
+        251,
+        132,
+        333,
+        598
+      ],
+      "first_page_size": [
+        595.3200073242188,
+        841.9199829101562
+      ],
+      "text_length": 74112,
+      "repaired_pdf": false,
+      "text_path": "work/texts/7b30471378196b176413eb1766083913bdd1e51bebec0fb2247d9ea20a061315.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": false,
+      "head_doi_matching_ids": [
+        "R10714"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R10714/fulltext/fulltext__accepted__7b30471378196b17.pdf",
+      "source_paths": [
+        "original_files/fulltext/R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf"
+      ],
+      "source_record_ids": [
+        "R10714"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "True",
+          "record_id": "R10714",
+          "asset_id": "R10714.main.7b30471378196b17",
+          "role": "main",
+          "official_attachment": "False",
+          "original_filename": "R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf",
+          "canonical_path": "original_files/fulltext/R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf",
+          "source_repo_path": "original_files/fulltext/R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf",
+          "source_local_path": "",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf",
+          "format": "pdf",
+          "size_bytes": "2742755",
+          "sha256": "7b30471378196b176413eb1766083913bdd1e51bebec0fb2247d9ea20a061315",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://dspace.lib.cranfield.ac.uk/server/api/core/bitstreams/c747f5a7-3a57-4757-87df-992e0083a6ce/content",
+          "source_xml_url": "",
+          "version": "作者接受稿（PDF第一页明确Author Accepted Manuscript及正式DOI；不是预印本）",
+          "license_evidence": "Private authorized research backup; source license not inferred",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "",
+          "recovery_checked_at_utc": "2026-10-17T11:51:26.201537+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 464, 'table_count': 1, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.', 'OCR language=eng; OCR values, symbols and units require checking against source page.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "{'candidate_relative_path': 'original_files/continuation_20261017/candidates/R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf', 'sha256': '7b30471378196b176413eb1766083913bdd1e51bebec0fb2247d9ea20a061315', 'pages': 35, 'source_url': 'https://dspace.lib.cranfield.ac.uk/server/api/core/bitstreams/c747f5a7-3a57-4757-87df-992e0083a6ce/content', 'version': '作者接受稿（PDF第一页明确Author Accepted Manuscript及正式DOI；不是预印本）', 'inspection': 'Agent inspected actual own title/all authors, DOI, explicit publisher/AAM statement, methods/results/reference sections and all-page parsing. Repository cover matches same paper; no scope/manual or original bibliographic fields changed.', 'title_author_doi_own_block_verified': True, 'body_verified': True}",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R10714/fulltext/fulltext__accepted__7b30471378196b17.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R10714/fulltext/fulltext__accepted__7b30471378196b17.pdf",
+      "title": "Process mechanisms of nanobubble technology enhanced hydrolytic acidification of anaerobic digestion of lignocellulosic biomass",
+      "doi": "10.1016/j.cej.2023.147956",
+      "associated_record_ids": [
+        "R10714"
+      ],
+      "asset_id": "R10714.main.7b30471378196b17",
+      "legacy_asset_ids": [
+        "R10714.main.7b30471378196b17"
+      ],
+      "source_repo_path": "original_files/R10714/fulltext/fulltext__accepted__7b30471378196b17.pdf"
     }
   ],
   "version_history": [],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.680582+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
     "R10714.main.7b30471378196b17"
   ],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "downloaded_verified",
+    "supplementary_status": "access_failed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": "R10714.main.7b30471378196b17",
+    "current_verified_main_asset_ids": [
+      "R10714.main.7b30471378196b17"
+    ],
+    "assets": [
+      {
+        "record_id": "R10714",
+        "asset_id": "R10714.main.7b30471378196b17",
+        "role": "main",
+        "official_attachment": false,
+        "original_filename": "R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf",
+        "canonical_path": "original_files/fulltext/R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf",
+        "source_local_path": "",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "preferred_for_record": true,
+        "source_repo_path": "original_files/fulltext/R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf",
+        "format": "pdf",
+        "size_bytes": 2742755,
+        "sha256": "7b30471378196b176413eb1766083913bdd1e51bebec0fb2247d9ea20a061315",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://dspace.lib.cranfield.ac.uk/server/api/core/bitstreams/c747f5a7-3a57-4757-87df-992e0083a6ce/content",
+        "version": "作者接受稿（PDF第一页明确Author Accepted Manuscript及正式DOI；不是预印本）",
+        "license_evidence": "Private authorized research backup; source license not inferred",
+        "identity_review_20261017": {
+          "candidate_relative_path": "original_files/continuation_20261017/candidates/R10714_2024_Process_mechanisms_of_nanobubble_technology_enhanced_hydrolytic_acidification_of_anaerobic_digestion_7b3047137819.pdf",
+          "sha256": "7b30471378196b176413eb1766083913bdd1e51bebec0fb2247d9ea20a061315",
+          "pages": 35,
+          "source_url": "https://dspace.lib.cranfield.ac.uk/server/api/core/bitstreams/c747f5a7-3a57-4757-87df-992e0083a6ce/content",
+          "version": "作者接受稿（PDF第一页明确Author Accepted Manuscript及正式DOI；不是预印本）",
+          "inspection": "Agent inspected actual own title/all authors, DOI, explicit publisher/AAM statement, methods/results/reference sections and all-page parsing. Repository cover matches same paper; no scope/manual or original bibliographic fields changed.",
+          "title_author_doi_own_block_verified": true,
+          "body_verified": true
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:26.201537+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 464,
+          "table_count": 1,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
+            "OCR language=eng; OCR values, symbols and units require checking against source page."
+          ],
+          "errors": []
+        }
+      }
+    ]
+  },
+  "acquisition_20261023": {
+    "record_id": "R10714",
+    "title": "Process mechanisms of nanobubble technology enhanced hydrolytic acidification of anaerobic digestion of lignocellulosic biomass",
+    "doi": "10.1016/j.cej.2023.147956",
+    "category_unchanged": "2 向厌氧水解或产酸阶段供氧",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R10714/fulltext/fulltext__accepted__7b30471378196b17.pdf"
+    ],
+    "main_sha256": [
+      "7b30471378196b176413eb1766083913bdd1e51bebec0fb2247d9ea20a061315"
+    ],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R10714/fulltext/fulltext__accepted__7b30471378196b17.pdf"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R10714",
+    "original_journal": "Chemical Engineering Journal",
+    "normalized_journal": "Chemical Engineering Journal",
+    "publication_kind": "期刊论文",
+    "subtype": "研究类",
+    "issn": "1385-8947",
+    "eissn": "",
+    "metadata_source": "https://api.crossref.org/works/10.1016/j.cej.2023.147956",
+    "notes": "机构JCR栏：搜索索引可核验；原页面直连未成功；非Clarivate账户导出 | 全部Q1仅指本表全部已核实学科；无官方完整学科导出，不承诺没有未显示学科"
+  }
 }

@@ -7,7 +7,7 @@
   "preferred_main_asset_id": "R03564.main.2f2d17a0a7254275",
   "included_for_download": true,
   "main_status": "downloaded_verified",
-  "supplementary_status": "checked_no_file_links_found_coverage_unconfirmed",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -36,85 +36,235 @@
   },
   "assets": [
     {
-      "preferred_for_record": true,
+      "source_path": "original_files/fulltext/R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
+      "source": "cloud_existing",
+      "directory_id": "R03564",
       "record_id": "R03564",
-      "asset_id": "R03564.main.2f2d17a0a7254275",
-      "role": "main",
-      "official_attachment": false,
       "original_filename": "R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
-      "canonical_path": "papers/R03564/main/2f2d17a0a725_R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
-      "source_repo_path": "original_files/fulltext/R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
-      "source_local_path": "/workspace/library-files/ad-oxygen-fulltexts/R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
-      "format": "pdf",
       "size_bytes": 2779683,
       "sha256": "2f2d17a0a7254275b5799c7fcd7ba57973ca0b4c3ec6b9eaf4fcfe65bf7f66d9",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://mdpi-res.com/d_attachment/energies/energies-10-00258/article_deploy/energies-10-00258.pdf",
-      "source_xml_url": "",
+      "git_blob_oid": "45da1f5f4b48c24dfc7d436d6fea78ae4ca740e2",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
       "version": "出版版本（原页出版信息）",
-      "license_evidence": "Explicit in-document CC BY/CC0 statement; exact source byte file preserved",
-      "historical_sha256": "2f2d17a0a7254275b5799c7fcd7ba57973ca0b4c3ec6b9eaf4fcfe65bf7f66d9",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "extraction": {
-        "relative_directory": "papers/R03564/extracted/R03564.main.2f2d17a0a7254275",
-        "search_chunks": 129,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.776691+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 129,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
-          "OCR language=eng; OCR values, symbols and units require checking against source page."
-        ],
-        "errors": []
-      }
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 19,
+      "encrypted": false,
+      "page_text_lengths": [
+        3243,
+        4203,
+        3245,
+        3709,
+        2336,
+        3797,
+        3085,
+        2899,
+        2651,
+        3361,
+        3224,
+        2793,
+        1872,
+        3842,
+        4009,
+        4470,
+        4649,
+        4567,
+        718
+      ],
+      "first_page_size": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_length": 62691,
+      "repaired_pdf": false,
+      "text_path": "work/texts/2f2d17a0a7254275b5799c7fcd7ba57973ca0b4c3ec6b9eaf4fcfe65bf7f66d9.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 0.952,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R03564"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R03564/fulltext/fulltext__published__2f2d17a0a7254275.pdf",
+      "source_paths": [
+        "original_files/fulltext/R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf"
+      ],
+      "source_record_ids": [
+        "R03564"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "True",
+          "record_id": "R03564",
+          "asset_id": "R03564.main.2f2d17a0a7254275",
+          "role": "main",
+          "official_attachment": "False",
+          "original_filename": "R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
+          "canonical_path": "papers/R03564/main/2f2d17a0a725_R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
+          "source_repo_path": "original_files/fulltext/R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
+          "source_local_path": "/workspace/library-files/ad-oxygen-fulltexts/R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
+          "format": "pdf",
+          "size_bytes": "2779683",
+          "sha256": "2f2d17a0a7254275b5799c7fcd7ba57973ca0b4c3ec6b9eaf4fcfe65bf7f66d9",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://mdpi-res.com/d_attachment/energies/energies-10-00258/article_deploy/energies-10-00258.pdf",
+          "source_xml_url": "",
+          "version": "出版版本（原页出版信息）",
+          "license_evidence": "Explicit in-document CC BY/CC0 statement; exact source byte file preserved",
+          "historical_sha256": "2f2d17a0a7254275b5799c7fcd7ba57973ca0b4c3ec6b9eaf4fcfe65bf7f66d9",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R03564/extracted/R03564.main.2f2d17a0a7254275', 'search_chunks': 129, 'tables': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.776691+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 129, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.', 'OCR language=eng; OCR values, symbols and units require checking against source page.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R03564/fulltext/fulltext__published__2f2d17a0a7254275.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R03564/fulltext/fulltext__published__2f2d17a0a7254275.pdf",
+      "title": "The Influence of Micro-Oxygen Addition on Desulfurization Performance and Microbial Communities during Waste-Activated Sludge Digestion in a Rusty Scrap Iron-Loaded Anaerobic Digester",
+      "doi": "10.3390/en10020258",
+      "associated_record_ids": [
+        "R03564"
+      ],
+      "asset_id": "R03564.main.2f2d17a0a7254275",
+      "legacy_asset_ids": [
+        "R03564.main.2f2d17a0a7254275"
+      ],
+      "source_repo_path": "original_files/R03564/fulltext/fulltext__published__2f2d17a0a7254275.pdf"
     },
     {
+      "source_path": "original_files/source_evidence/R03564/publisher_article_page_20261017.html",
+      "source": "cloud_existing",
+      "directory_id": "R03564",
       "record_id": "R03564",
-      "asset_id": "R03564.evidence_html.e3a69b5338325eab",
-      "role": "evidence_html",
-      "official_attachment": false,
       "original_filename": "publisher_article_page_20261017.html",
-      "canonical_path": "original_files/source_evidence/R03564/publisher_article_page_20261017.html",
-      "source_local_path": "",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "retained_not_content_indexed",
-      "preferred_for_record": false,
-      "source_repo_path": "original_files/source_evidence/R03564/publisher_article_page_20261017.html",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R03564/publisher_article_page_20261017.html",
-      "format": "html",
       "size_bytes": 634641,
       "sha256": "e3a69b5338325eabc9b744f1964752b926b8ab65022180d7e93fa512e1dc9e23",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.mdpi.com/1996-1073/10/2/258",
-      "version": "Article HTML with anonymous server session identifiers removed",
-      "license_evidence": "Private authorized research backup; source license not inferred",
-      "recovery_checked_at_utc": "2026-10-17T11:51:26.197221+00:00",
-      "extraction_20261017": {
-        "status": "retained_not_content_indexed",
-        "search_chunks": 0,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "Original retained; no supported content parser for this format. Images/video/models are not claimed searchable."
-        ],
-        "errors": []
-      }
+      "git_blob_oid": "e14d5510933187ca49e5ef4787f957dedb321994",
+      "format": "html",
+      "issues": [],
+      "declared_role": "source_evidence",
+      "role": "source_evidence",
+      "version": "",
+      "verification_status": "text_readable",
+      "text_path": "work/texts/e3a69b5338325eabc9b744f1964752b926b8ab65022180d7e93fa512e1dc9e23.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R03564/evidence/source_evidence__e3a69b5338325eab.html",
+      "source_paths": [
+        "original_files/source_evidence/R03564/publisher_article_page_20261017.html"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "publisher_article_page_20261017.html"
+      ],
+      "source_record_ids": [
+        "R03564"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "False",
+          "record_id": "R03564",
+          "asset_id": "R03564.evidence_html.e3a69b5338325eab",
+          "role": "evidence_html",
+          "official_attachment": "False",
+          "original_filename": "publisher_article_page_20261017.html",
+          "canonical_path": "original_files/source_evidence/R03564/publisher_article_page_20261017.html",
+          "source_repo_path": "original_files/source_evidence/R03564/publisher_article_page_20261017.html",
+          "source_local_path": "",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R03564/publisher_article_page_20261017.html",
+          "format": "html",
+          "size_bytes": "634641",
+          "sha256": "e3a69b5338325eabc9b744f1964752b926b8ab65022180d7e93fa512e1dc9e23",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.mdpi.com/1996-1073/10/2/258",
+          "source_xml_url": "",
+          "version": "Article HTML with anonymous server session identifiers removed",
+          "license_evidence": "Private authorized research backup; source license not inferred",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "",
+          "parsing_status": "retained_not_content_indexed",
+          "extraction": "",
+          "recovery_checked_at_utc": "2026-10-17T11:51:26.197221+00:00",
+          "extraction_20261017": "{'status': 'retained_not_content_indexed', 'search_chunks': 0, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['Original retained; no supported content parser for this format. Images/video/models are not claimed searchable.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R03564/evidence/source_evidence__e3a69b5338325eab.html",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R03564/evidence/source_evidence__e3a69b5338325eab.html",
+      "title": "The Influence of Micro-Oxygen Addition on Desulfurization Performance and Microbial Communities during Waste-Activated Sludge Digestion in a Rusty Scrap Iron-Loaded Anaerobic Digester",
+      "doi": "10.3390/en10020258",
+      "associated_record_ids": [
+        "R03564"
+      ],
+      "asset_id": "R03564.evidence_html.e3a69b5338325eab",
+      "legacy_asset_ids": [
+        "R03564.evidence_html.e3a69b5338325eab"
+      ],
+      "source_repo_path": "original_files/R03564/evidence/source_evidence__e3a69b5338325eab.html"
     }
   ],
   "version_history": [
@@ -129,12 +279,145 @@
       "status": "current_verified_preferred_bytes"
     }
   ],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.485702+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
     "R03564.main.2f2d17a0a7254275"
   ],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "downloaded_verified",
+    "supplementary_status": "checked_no_file_links_found_coverage_unconfirmed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": "R03564.main.2f2d17a0a7254275",
+    "current_verified_main_asset_ids": [
+      "R03564.main.2f2d17a0a7254275"
+    ],
+    "assets": [
+      {
+        "preferred_for_record": true,
+        "record_id": "R03564",
+        "asset_id": "R03564.main.2f2d17a0a7254275",
+        "role": "main",
+        "official_attachment": false,
+        "original_filename": "R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
+        "canonical_path": "papers/R03564/main/2f2d17a0a725_R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
+        "source_repo_path": "original_files/fulltext/R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
+        "source_local_path": "/workspace/library-files/ad-oxygen-fulltexts/R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R03564_2017_The_Influence_of_Micro-Oxygen_Addition_on_Desulfurization_Performance_and.pdf",
+        "format": "pdf",
+        "size_bytes": 2779683,
+        "sha256": "2f2d17a0a7254275b5799c7fcd7ba57973ca0b4c3ec6b9eaf4fcfe65bf7f66d9",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://mdpi-res.com/d_attachment/energies/energies-10-00258/article_deploy/energies-10-00258.pdf",
+        "source_xml_url": "",
+        "version": "出版版本（原页出版信息）",
+        "license_evidence": "Explicit in-document CC BY/CC0 statement; exact source byte file preserved",
+        "historical_sha256": "2f2d17a0a7254275b5799c7fcd7ba57973ca0b4c3ec6b9eaf4fcfe65bf7f66d9",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "extraction": {
+          "relative_directory": "papers/R03564/extracted/R03564.main.2f2d17a0a7254275",
+          "search_chunks": 129,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.776691+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 129,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
+            "OCR language=eng; OCR values, symbols and units require checking against source page."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "record_id": "R03564",
+        "asset_id": "R03564.evidence_html.e3a69b5338325eab",
+        "role": "evidence_html",
+        "official_attachment": false,
+        "original_filename": "publisher_article_page_20261017.html",
+        "canonical_path": "original_files/source_evidence/R03564/publisher_article_page_20261017.html",
+        "source_local_path": "",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "retained_not_content_indexed",
+        "preferred_for_record": false,
+        "source_repo_path": "original_files/source_evidence/R03564/publisher_article_page_20261017.html",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R03564/publisher_article_page_20261017.html",
+        "format": "html",
+        "size_bytes": 634641,
+        "sha256": "e3a69b5338325eabc9b744f1964752b926b8ab65022180d7e93fa512e1dc9e23",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.mdpi.com/1996-1073/10/2/258",
+        "version": "Article HTML with anonymous server session identifiers removed",
+        "license_evidence": "Private authorized research backup; source license not inferred",
+        "recovery_checked_at_utc": "2026-10-17T11:51:26.197221+00:00",
+        "extraction_20261017": {
+          "status": "retained_not_content_indexed",
+          "search_chunks": 0,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "Original retained; no supported content parser for this format. Images/video/models are not claimed searchable."
+          ],
+          "errors": []
+        }
+      }
+    ]
+  },
+  "acquisition_20261023": {
+    "record_id": "R03564",
+    "title": "The Influence of Micro-Oxygen Addition on Desulfurization Performance and Microbial Communities during Waste-Activated Sludge Digestion in a Rusty Scrap Iron-Loaded Anaerobic Digester",
+    "doi": "10.3390/en10020258",
+    "category_unchanged": "1 直接向 AD 反应器或内部循环系统供氧",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R03564/fulltext/fulltext__published__2f2d17a0a7254275.pdf"
+    ],
+    "main_sha256": [
+      "2f2d17a0a7254275b5799c7fcd7ba57973ca0b4c3ec6b9eaf4fcfe65bf7f66d9"
+    ],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R03564/fulltext/fulltext__published__2f2d17a0a7254275.pdf",
+      "original_files/R03564/evidence/source_evidence__e3a69b5338325eab.html"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R03564",
+    "original_journal": "Energies",
+    "normalized_journal": "Energies",
+    "publication_kind": "期刊论文",
+    "subtype": "研究类",
+    "issn": "",
+    "eissn": "1996-1073",
+    "metadata_source": "https://api.crossref.org/works/10.3390/en10020258",
+    "notes": "2024指标年JCR分区未核实；空白不能当非Q1。需要2025发布版/2024指标年的JCR全部学科导出。"
+  }
 }

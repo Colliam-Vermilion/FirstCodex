@@ -4,10 +4,10 @@
   "authors": "Zhen, Feng; Luo, Xinjian; Xing, Tao; Sun, Yongming; Kong, Xiaoying; Li, Wenzhe",
   "doi": "10.1016/j.bej.2020.107873",
   "category_unchanged": "3 独立好氧或微好氧预处理",
-  "preferred_main_asset_id": null,
+  "preferred_main_asset_id": "R07039.fulltext.443aa78550adec48",
   "included_for_download": true,
-  "main_status": "not_downloaded",
-  "supplementary_status": "access_failed",
+  "main_status": "downloaded_verified",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -34,12 +34,140 @@
     "supplementary": "mapped, no duplicate originals",
     "extracted": "per-asset derived search artifacts"
   },
-  "assets": [],
+  "assets": [
+    {
+      "source_path": "localdownload/R07039/fulltext.pdf",
+      "source": "local_upload",
+      "directory_id": "R07039",
+      "record_id": "R07039",
+      "original_filename": "fulltext.pdf",
+      "size_bytes": 867396,
+      "sha256": "443aa78550adec48cf8d1f71374d6f1bd8c485ac696bee07bb4054a46ce2ce24",
+      "git_blob_oid": "c72de6bfb9efcddf7da76210bf68027c884f602a",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
+      "version": "出版版（版式及版权文字）",
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 7,
+      "encrypted": false,
+      "page_text_lengths": [
+        5085,
+        6485,
+        3705,
+        5202,
+        4990,
+        7980,
+        4545
+      ],
+      "first_page_size": [
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "text_length": 37998,
+      "repaired_pdf": false,
+      "text_path": "work/texts/443aa78550adec48cf8d1f71374d6f1bd8c485ac696bee07bb4054a46ce2ce24.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R07039"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R07039/fulltext/fulltext__published__443aa78550adec48.pdf",
+      "source_paths": [
+        "localdownload/R07039/fulltext.pdf"
+      ],
+      "sources": [
+        "local_upload"
+      ],
+      "original_filenames": [
+        "fulltext.pdf"
+      ],
+      "source_record_ids": [
+        "R07039"
+      ],
+      "prior_asset_evidence": [],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R07039/fulltext/fulltext__published__443aa78550adec48.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R07039/fulltext/fulltext__published__443aa78550adec48.pdf",
+      "title": "Performance evaluation and microbial community analysis of microaerobic pretreatment on thermophilic dry anaerobic digestion",
+      "doi": "10.1016/j.bej.2020.107873",
+      "associated_record_ids": [
+        "R07039"
+      ],
+      "asset_id": "R07039.fulltext.443aa78550adec48",
+      "legacy_asset_ids": [],
+      "source_repo_path": "original_files/R07039/fulltext/fulltext__published__443aa78550adec48.pdf"
+    }
+  ],
   "version_history": [],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.342980+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
-  "current_verified_main_asset_ids": [],
+  "current_verified_main_asset_ids": [
+    "R07039.fulltext.443aa78550adec48"
+  ],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "not_downloaded",
+    "supplementary_status": "access_failed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": null,
+    "current_verified_main_asset_ids": [],
+    "assets": []
+  },
+  "acquisition_20261023": {
+    "record_id": "R07039",
+    "title": "Performance evaluation and microbial community analysis of microaerobic pretreatment on thermophilic dry anaerobic digestion",
+    "doi": "10.1016/j.bej.2020.107873",
+    "category_unchanged": "3 独立好氧或微好氧预处理",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R07039/fulltext/fulltext__published__443aa78550adec48.pdf"
+    ],
+    "main_sha256": [
+      "443aa78550adec48cf8d1f71374d6f1bd8c485ac696bee07bb4054a46ce2ce24"
+    ],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R07039/fulltext/fulltext__published__443aa78550adec48.pdf"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R07039",
+    "original_journal": "Biochemical Engineering Journal",
+    "normalized_journal": "Biochemical Engineering Journal",
+    "publication_kind": "期刊论文",
+    "subtype": "研究类",
+    "issn": "1369-703X",
+    "eissn": "",
+    "metadata_source": "https://api.crossref.org/works/10.1016/j.bej.2020.107873",
+    "notes": "机构JCR栏：搜索索引可核验；原页面直连未成功；非Clarivate账户导出 | 全部Q1仅指本表全部已核实学科；无官方完整学科导出，不承诺没有未显示学科"
+  }
 }

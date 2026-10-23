@@ -7,7 +7,7 @@
   "preferred_main_asset_id": "R09236.main.7891c46f856f19ac",
   "included_for_download": true,
   "main_status": "downloaded_verified",
-  "supplementary_status": "downloaded",
+  "supplementary_status": "已取得1件原格式补充材料；其中0件唯一关联待核实；完整性未确认",
   "supplementary_coverage_complete": true,
   "supplementary_official_count": 1,
   "supplementary_previous_detail": {
@@ -69,227 +69,550 @@
   },
   "assets": [
     {
-      "preferred_for_record": true,
+      "source_path": "original_files/supplementary/R09236/microorganisms-11-02349-s001.zip",
+      "source": "cloud_existing",
+      "directory_id": "R09236",
       "record_id": "R09236",
-      "asset_id": "R09236.main.7891c46f856f19ac",
-      "role": "main",
-      "official_attachment": false,
-      "original_filename": "R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
-      "canonical_path": "papers/R09236/main/7891c46f856f_R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
-      "source_repo_path": "original_files/fulltext/R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
-      "source_local_path": "/workspace/library-files/ad-oxygen-fulltexts/R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
-      "format": "pdf",
-      "size_bytes": 1700220,
-      "sha256": "7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.mdpi.com/2076-2607/11/9/2349/pdf?version=1695183900",
-      "source_xml_url": "",
-      "version": "出版版本（原页出版信息）",
-      "license_evidence": "Explicit in-document CC BY/CC0 statement; exact source byte file preserved",
-      "historical_sha256": "7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "extraction": {
-        "relative_directory": "papers/R09236/extracted/R09236.main.7891c46f856f19ac",
-        "search_chunks": 203,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": "papers/R09236/extracted/R09236.main.7891c46f856f19ac",
-        "sample_git_readback_commit": "abacce2d56ef0795ef59827d3a8cdc0e6c6a5fea",
-        "sample_storage_status": "git_remote_SHA_readback_verified"
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.779467+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 203,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
-          "OCR language=eng; OCR values, symbols and units require checking against source page."
-        ],
-        "errors": []
-      }
-    },
-    {
-      "preferred_for_record": false,
-      "record_id": "R09236",
-      "asset_id": "R09236.supplementary.17102352b095b0fc",
-      "role": "supplementary",
-      "official_attachment": true,
       "original_filename": "microorganisms-11-02349-s001.zip",
-      "canonical_path": "papers/R09236/supplementary/17102352b095_microorganisms-11-02349-s001.zip",
-      "source_repo_path": "original_files/supplementary/R09236/microorganisms-11-02349-s001.zip",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R09236/microorganisms-11-02349-s001.zip",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R09236/microorganisms-11-02349-s001.zip",
-      "format": "zip",
       "size_bytes": 127719,
       "sha256": "17102352b095b0fc97e7455ed7edc91ce96d20181b5c1194d69fc2336d7ad5fa",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/supplementaryFiles",
-      "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/fullTextXML",
-      "version": "original_supplementary_attachment",
-      "license_evidence": "© 2023 by the authors.2023https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "archive_catalogued",
-      "extraction": {
-        "relative_directory": "papers/R09236/extracted/R09236.supplementary.17102352b095b0fc",
-        "search_chunks": 0,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": "papers/R09236/extracted/R09236.supplementary.17102352b095b0fc",
-        "sample_git_readback_commit": "abacce2d56ef0795ef59827d3a8cdc0e6c6a5fea",
-        "sample_storage_status": "git_remote_SHA_readback_verified"
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.940690+00:00",
-      "extraction_20261017": {
-        "status": "archive_catalogued",
-        "search_chunks": 0,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "ZIP member names/checksums indexed; member content indexed through separately SHA-bound derived assets. No executable/code is run."
-        ],
-        "errors": []
-      }
+      "git_blob_oid": "1b22cdbac68e300ecd4ec803ebd7f02823a54eda",
+      "format": "zip",
+      "issues": [],
+      "declared_role": "supplementary",
+      "role": "supplementary",
+      "version": "",
+      "verification_status": "container_crc_verified",
+      "text_path": "work/texts/17102352b095b0fc97e7455ed7edc91ce96d20181b5c1194d69fc2336d7ad5fa.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 0.0,
+      "title_compact_match": false,
+      "head_doi_matching_ids": [],
+      "body_markers": [],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "existing_official_attachment_evidence_retained",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R09236/supplementary/supplementary__17102352b095b0fc.zip",
+      "source_paths": [
+        "original_files/supplementary/R09236/microorganisms-11-02349-s001.zip"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "microorganisms-11-02349-s001.zip"
+      ],
+      "source_record_ids": [
+        "R09236"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "False",
+          "record_id": "R09236",
+          "asset_id": "R09236.supplementary.17102352b095b0fc",
+          "role": "supplementary",
+          "official_attachment": "True",
+          "original_filename": "microorganisms-11-02349-s001.zip",
+          "canonical_path": "papers/R09236/supplementary/17102352b095_microorganisms-11-02349-s001.zip",
+          "source_repo_path": "original_files/supplementary/R09236/microorganisms-11-02349-s001.zip",
+          "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R09236/microorganisms-11-02349-s001.zip",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R09236/microorganisms-11-02349-s001.zip",
+          "format": "zip",
+          "size_bytes": "127719",
+          "sha256": "17102352b095b0fc97e7455ed7edc91ce96d20181b5c1194d69fc2336d7ad5fa",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/supplementaryFiles",
+          "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/fullTextXML",
+          "version": "original_supplementary_attachment",
+          "license_evidence": "© 2023 by the authors.2023https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "",
+          "parsing_status": "archive_catalogued",
+          "extraction": "{'relative_directory': 'papers/R09236/extracted/R09236.supplementary.17102352b095b0fc', 'search_chunks': 0, 'tables': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': 'papers/R09236/extracted/R09236.supplementary.17102352b095b0fc', 'sample_git_readback_commit': 'abacce2d56ef0795ef59827d3a8cdc0e6c6a5fea', 'sample_storage_status': 'git_remote_SHA_readback_verified'}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.940690+00:00",
+          "extraction_20261017": "{'status': 'archive_catalogued', 'search_chunks': 0, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['ZIP member names/checksums indexed; member content indexed through separately SHA-bound derived assets. No executable/code is run.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [
+        {
+          "name": "Sample key.xlsx",
+          "size": 133957,
+          "encrypted": false
+        }
+      ],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R09236/supplementary/supplementary__17102352b095b0fc.zip",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R09236/supplementary/supplementary__17102352b095b0fc.zip",
+      "title": "Microbiome Diversity of Anaerobic Digesters Is Enhanced by Microaeration and Low Frequency Sound",
+      "doi": "10.3390/microorganisms11092349",
+      "associated_record_ids": [
+        "R09236"
+      ],
+      "asset_id": "R09236.supplementary.17102352b095b0fc",
+      "legacy_asset_ids": [
+        "R09236.supplementary.17102352b095b0fc"
+      ],
+      "source_repo_path": "original_files/R09236/supplementary/supplementary__17102352b095b0fc.zip"
     },
     {
-      "preferred_for_record": false,
+      "source_path": "original_files/source_evidence/R09236/PMC10535533_fullText.xml",
+      "source": "cloud_existing",
+      "directory_id": "R09236",
       "record_id": "R09236",
-      "asset_id": "R09236.derived.fba7c733404cac1e",
-      "role": "derived",
-      "official_attachment": false,
-      "original_filename": "Sample key.xlsx",
-      "canonical_path": "papers/R09236/supplementary/derived/fba7c733404c_Sample key.xlsx",
-      "source_repo_path": "original_files/supplementary/R09236/Sample key.xlsx",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R09236/extracted/Sample key.xlsx",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R09236/Sample key.xlsx",
-      "format": "xlsx",
-      "size_bytes": 133957,
-      "sha256": "fba7c733404cac1e2af50d0ff766db4c46dbf54098136e36f80d71f5ccbaaad5",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/supplementaryFiles",
-      "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/fullTextXML",
-      "version": "extracted_archive_member",
-      "license_evidence": "© 2023 by the authors.2023https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "R09236.supplementary.17102352b095b0fc",
-      "parsing_status": "parsed",
-      "archive_member_path": "Sample key.xlsx",
-      "extraction": {
-        "relative_directory": "papers/R09236/extracted/R09236.derived.fba7c733404cac1e",
-        "search_chunks": 843,
-        "tables": 5,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": "papers/R09236/extracted/R09236.derived.fba7c733404cac1e",
-        "sample_git_readback_commit": "abacce2d56ef0795ef59827d3a8cdc0e6c6a5fea",
-        "sample_storage_status": "git_remote_SHA_readback_verified"
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.940888+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 843,
-        "table_count": 5,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "Formulas are preserved, never executed/recalculated; unavailable cached values are explicit. Charts and embedded images are not content-indexed."
-        ],
-        "errors": []
-      }
-    },
-    {
-      "record_id": "R09236",
-      "asset_id": "R09236.evidence_xml.72064fe9276d8309",
-      "role": "evidence_xml",
-      "official_attachment": false,
       "original_filename": "PMC10535533_fullText.xml",
-      "canonical_path": "papers/R09236/evidence/72064fe9276d_PMC10535533_fullText.xml",
-      "source_repo_path": "original_files/source_evidence/R09236/PMC10535533_fullText.xml",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R09236/evidence/PMC10535533_fullText.xml",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R09236/PMC10535533_fullText.xml",
-      "format": "xml",
       "size_bytes": 193052,
       "sha256": "72064fe9276d830984364e82e4567877578408565c650d856c531204a17ded89",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/fullTextXML",
-      "source_xml_url": "",
-      "version": "repository_JATS_fulltext_representation_not_PDF",
-      "license_evidence": "© 2023 by the authors.2023https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
-      "extraction": {
-        "relative_directory": "papers/R09236/extracted/R09236.evidence_xml.72064fe9276d8309",
-        "search_chunks": 437,
-        "tables": 2,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:26.142431+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 437,
-        "table_count": 2,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "Repository JATS XML text/structured tables; linked figures/media not all fetched. It is not a recovered historical PDF. Table rowspan/colspan retained as locators, not expanded into a rectangular semantic grid."
-        ],
-        "errors": []
-      }
+      "git_blob_oid": "90529ae27dd8459993037fdf7a347f39465d5cdf",
+      "format": "xml",
+      "issues": [],
+      "declared_role": "source_evidence",
+      "role": "source_evidence",
+      "version": "",
+      "verification_status": "text_readable",
+      "text_path": "work/texts/72064fe9276d830984364e82e4567877578408565c650d856c531204a17ded89.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R09236"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R09236/evidence/source_evidence__72064fe9276d8309.xml",
+      "source_paths": [
+        "original_files/source_evidence/R09236/PMC10535533_fullText.xml"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "PMC10535533_fullText.xml"
+      ],
+      "source_record_ids": [
+        "R09236"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "",
+          "record_id": "R09236",
+          "asset_id": "R09236.evidence_xml.72064fe9276d8309",
+          "role": "evidence_xml",
+          "official_attachment": "False",
+          "original_filename": "PMC10535533_fullText.xml",
+          "canonical_path": "papers/R09236/evidence/72064fe9276d_PMC10535533_fullText.xml",
+          "source_repo_path": "original_files/source_evidence/R09236/PMC10535533_fullText.xml",
+          "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R09236/evidence/PMC10535533_fullText.xml",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R09236/PMC10535533_fullText.xml",
+          "format": "xml",
+          "size_bytes": "193052",
+          "sha256": "72064fe9276d830984364e82e4567877578408565c650d856c531204a17ded89",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/fullTextXML",
+          "source_xml_url": "",
+          "version": "repository_JATS_fulltext_representation_not_PDF",
+          "license_evidence": "© 2023 by the authors.2023https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R09236/extracted/R09236.evidence_xml.72064fe9276d8309', 'search_chunks': 437, 'tables': 2, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:26.142431+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 437, 'table_count': 2, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['Repository JATS XML text/structured tables; linked figures/media not all fetched. It is not a recovered historical PDF. Table rowspan/colspan retained as locators, not expanded into a rectangular semantic grid.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R09236/evidence/source_evidence__72064fe9276d8309.xml",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R09236/evidence/source_evidence__72064fe9276d8309.xml",
+      "title": "Microbiome Diversity of Anaerobic Digesters Is Enhanced by Microaeration and Low Frequency Sound",
+      "doi": "10.3390/microorganisms11092349",
+      "associated_record_ids": [
+        "R09236"
+      ],
+      "asset_id": "R09236.evidence_xml.72064fe9276d8309",
+      "legacy_asset_ids": [
+        "R09236.evidence_xml.72064fe9276d8309"
+      ],
+      "source_repo_path": "original_files/R09236/evidence/source_evidence__72064fe9276d8309.xml"
     },
     {
+      "source_path": "original_files/fulltext/R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
+      "source": "cloud_existing",
+      "directory_id": "R09236",
       "record_id": "R09236",
-      "asset_id": "R09236.transport_archive.f3c6856282b7e8d6",
-      "role": "transport_archive",
-      "official_attachment": false,
-      "original_filename": "PMC10535533_supplementaryFiles.zip",
-      "canonical_path": "papers/R09236/evidence/f3c6856282b7_PMC10535533_supplementaryFiles.zip",
-      "source_repo_path": "",
-      "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R09236/PMC10535533_supplementaryFiles.zip",
-      "resolved_source_path": "",
-      "format": "zip",
-      "size_bytes": 483405,
-      "sha256": "f3c6856282b7e8d694d35a87eae016d8e66aa902189c7c3311a1153ea24752e0",
-      "availability": "redundant_transport_archive_not_retained",
-      "storage_status": "canonical_original_attachments_available",
-      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/supplementaryFiles",
-      "source_xml_url": "",
-      "version": "repository_generated_transport_not_official_SI",
-      "license_evidence": "© 2023 by the authors.2023https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "archive_catalogued",
-      "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
-      "extraction": {
-        "relative_directory": "papers/R09236/extracted/R09236.transport_archive.f3c6856282b7e8d6",
-        "search_chunks": 0,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:26.142445+00:00",
-      "recovery_handling_reason": "Historical transfer ZIP intentionally not duplicated alongside all its available original attachments; historical SHA and record retained"
+      "original_filename": "R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
+      "size_bytes": 1700220,
+      "sha256": "7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9",
+      "git_blob_oid": "e6f407c2bcf730745dcdebb6e550e15922678d5d",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
+      "version": "出版版本（原页出版信息）",
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 20,
+      "encrypted": false,
+      "page_text_lengths": [
+        4566,
+        4556,
+        4353,
+        3863,
+        1578,
+        2509,
+        3343,
+        2981,
+        1366,
+        4692,
+        4057,
+        2560,
+        2224,
+        4545,
+        4562,
+        4005,
+        4900,
+        5788,
+        6096,
+        2475
+      ],
+      "first_page_size": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_length": 75038,
+      "repaired_pdf": false,
+      "text_path": "work/texts/7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R09236"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R09236/fulltext/fulltext__published__7891c46f856f19ac.pdf",
+      "source_paths": [
+        "original_files/fulltext/R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf"
+      ],
+      "source_record_ids": [
+        "R09236"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "True",
+          "record_id": "R09236",
+          "asset_id": "R09236.main.7891c46f856f19ac",
+          "role": "main",
+          "official_attachment": "False",
+          "original_filename": "R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
+          "canonical_path": "papers/R09236/main/7891c46f856f_R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
+          "source_repo_path": "original_files/fulltext/R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
+          "source_local_path": "/workspace/library-files/ad-oxygen-fulltexts/R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
+          "format": "pdf",
+          "size_bytes": "1700220",
+          "sha256": "7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.mdpi.com/2076-2607/11/9/2349/pdf?version=1695183900",
+          "source_xml_url": "",
+          "version": "出版版本（原页出版信息）",
+          "license_evidence": "Explicit in-document CC BY/CC0 statement; exact source byte file preserved",
+          "historical_sha256": "7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R09236/extracted/R09236.main.7891c46f856f19ac', 'search_chunks': 203, 'tables': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': 'papers/R09236/extracted/R09236.main.7891c46f856f19ac', 'sample_git_readback_commit': 'abacce2d56ef0795ef59827d3a8cdc0e6c6a5fea', 'sample_storage_status': 'git_remote_SHA_readback_verified'}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.779467+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 203, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.', 'OCR language=eng; OCR values, symbols and units require checking against source page.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R09236/fulltext/fulltext__published__7891c46f856f19ac.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R09236/fulltext/fulltext__published__7891c46f856f19ac.pdf",
+      "title": "Microbiome Diversity of Anaerobic Digesters Is Enhanced by Microaeration and Low Frequency Sound",
+      "doi": "10.3390/microorganisms11092349",
+      "associated_record_ids": [
+        "R09236"
+      ],
+      "asset_id": "R09236.main.7891c46f856f19ac",
+      "legacy_asset_ids": [
+        "R09236.main.7891c46f856f19ac"
+      ],
+      "source_repo_path": "original_files/R09236/fulltext/fulltext__published__7891c46f856f19ac.pdf"
+    },
+    {
+      "source_path": "original_files/supplementary/R09236/Sample key.xlsx",
+      "source": "cloud_existing",
+      "directory_id": "R09236",
+      "record_id": "R09236",
+      "original_filename": "Sample key.xlsx",
+      "size_bytes": 133957,
+      "sha256": "fba7c733404cac1e2af50d0ff766db4c46dbf54098136e36f80d71f5ccbaaad5",
+      "git_blob_oid": "09fdae32b87c99f90f59ce7b1b4e1df00e9dccdf",
+      "format": "xlsx",
+      "issues": [],
+      "declared_role": "derived",
+      "role": "derived",
+      "version": "",
+      "verification_status": "xlsx_open_and_zip_crc_verified",
+      "text_path": "work/texts/fba7c733404cac1e2af50d0ff766db4c46dbf54098136e36f80d71f5ccbaaad5.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 0.0,
+      "title_compact_match": false,
+      "head_doi_matching_ids": [],
+      "body_markers": [],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "workbook_sheets": [
+        {
+          "name": "Species",
+          "rows": 352,
+          "columns": 36
+        },
+        {
+          "name": "Genus",
+          "rows": 230,
+          "columns": 36
+        },
+        {
+          "name": "Family",
+          "rows": 138,
+          "columns": 36
+        },
+        {
+          "name": "Order",
+          "rows": 87,
+          "columns": 36
+        },
+        {
+          "name": "Phylum",
+          "rows": 36,
+          "columns": 35
+        }
+      ],
+      "canonical_path": "original_files/R09236/derived/derived__fba7c733404cac1e.xlsx",
+      "source_paths": [
+        "original_files/supplementary/R09236/Sample key.xlsx"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "Sample key.xlsx"
+      ],
+      "source_record_ids": [
+        "R09236"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "False",
+          "record_id": "R09236",
+          "asset_id": "R09236.derived.fba7c733404cac1e",
+          "role": "derived",
+          "official_attachment": "False",
+          "original_filename": "Sample key.xlsx",
+          "canonical_path": "papers/R09236/supplementary/derived/fba7c733404c_Sample key.xlsx",
+          "source_repo_path": "original_files/supplementary/R09236/Sample key.xlsx",
+          "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R09236/extracted/Sample key.xlsx",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R09236/Sample key.xlsx",
+          "format": "xlsx",
+          "size_bytes": "133957",
+          "sha256": "fba7c733404cac1e2af50d0ff766db4c46dbf54098136e36f80d71f5ccbaaad5",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/supplementaryFiles",
+          "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/fullTextXML",
+          "version": "extracted_archive_member",
+          "license_evidence": "© 2023 by the authors.2023https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "R09236.supplementary.17102352b095b0fc",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R09236/extracted/R09236.derived.fba7c733404cac1e', 'search_chunks': 843, 'tables': 5, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': 'papers/R09236/extracted/R09236.derived.fba7c733404cac1e', 'sample_git_readback_commit': 'abacce2d56ef0795ef59827d3a8cdc0e6c6a5fea', 'sample_storage_status': 'git_remote_SHA_readback_verified'}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.940888+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 843, 'table_count': 5, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['Formulas are preserved, never executed/recalculated; unavailable cached values are explicit. Charts and embedded images are not content-indexed.'], 'errors': []}",
+          "archive_member_path": "Sample key.xlsx",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [
+        {
+          "name": "[Content_Types].xml",
+          "size": 1828,
+          "encrypted": false
+        },
+        {
+          "name": "_rels/.rels",
+          "size": 588,
+          "encrypted": false
+        },
+        {
+          "name": "xl/workbook.xml",
+          "size": 2324,
+          "encrypted": false
+        },
+        {
+          "name": "xl/_rels/workbook.xml.rels",
+          "size": 1262,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet1.xml",
+          "size": 250915,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet2.xml",
+          "size": 155859,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet3.xml",
+          "size": 97616,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet4.xml",
+          "size": 63931,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/sheet5.xml",
+          "size": 28512,
+          "encrypted": false
+        },
+        {
+          "name": "xl/theme/theme1.xml",
+          "size": 8390,
+          "encrypted": false
+        },
+        {
+          "name": "xl/styles.xml",
+          "size": 17646,
+          "encrypted": false
+        },
+        {
+          "name": "xl/sharedStrings.xml",
+          "size": 132804,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/_rels/sheet1.xml.rels",
+          "size": 322,
+          "encrypted": false
+        },
+        {
+          "name": "xl/worksheets/_rels/sheet5.xml.rels",
+          "size": 322,
+          "encrypted": false
+        },
+        {
+          "name": "xl/printerSettings/printerSettings1.bin",
+          "size": 3820,
+          "encrypted": false
+        },
+        {
+          "name": "xl/printerSettings/printerSettings2.bin",
+          "size": 3820,
+          "encrypted": false
+        },
+        {
+          "name": "docProps/core.xml",
+          "size": 631,
+          "encrypted": false
+        },
+        {
+          "name": "docProps/app.xml",
+          "size": 892,
+          "encrypted": false
+        }
+      ],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R09236/derived/derived__fba7c733404cac1e.xlsx",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R09236/derived/derived__fba7c733404cac1e.xlsx",
+      "title": "Microbiome Diversity of Anaerobic Digesters Is Enhanced by Microaeration and Low Frequency Sound",
+      "doi": "10.3390/microorganisms11092349",
+      "associated_record_ids": [
+        "R09236"
+      ],
+      "asset_id": "R09236.derived.fba7c733404cac1e",
+      "legacy_asset_ids": [
+        "R09236.derived.fba7c733404cac1e"
+      ],
+      "source_repo_path": "original_files/R09236/derived/derived__fba7c733404cac1e.xlsx"
     }
   ],
   "version_history": [
@@ -304,7 +627,7 @@
       "status": "current_verified_preferred_bytes"
     }
   ],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.512829+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
@@ -385,5 +708,284 @@
       ],
       "automatic_bulk_download_disabled": true
     }
-  ]
+  ],
+  "acquisition_before_20261023": {
+    "main_status": "downloaded_verified",
+    "supplementary_status": "downloaded",
+    "supplementary_coverage_complete": true,
+    "supplementary_official_count": 1,
+    "preferred_main_asset_id": "R09236.main.7891c46f856f19ac",
+    "current_verified_main_asset_ids": [
+      "R09236.main.7891c46f856f19ac"
+    ],
+    "assets": [
+      {
+        "preferred_for_record": true,
+        "record_id": "R09236",
+        "asset_id": "R09236.main.7891c46f856f19ac",
+        "role": "main",
+        "official_attachment": false,
+        "original_filename": "R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
+        "canonical_path": "papers/R09236/main/7891c46f856f_R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
+        "source_repo_path": "original_files/fulltext/R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
+        "source_local_path": "/workspace/library-files/ad-oxygen-fulltexts/R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R09236_2023_Microbiome_Diversity_of_Anaerobic_Digesters_Is_Enhanced_by_Microaeration.pdf",
+        "format": "pdf",
+        "size_bytes": 1700220,
+        "sha256": "7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.mdpi.com/2076-2607/11/9/2349/pdf?version=1695183900",
+        "source_xml_url": "",
+        "version": "出版版本（原页出版信息）",
+        "license_evidence": "Explicit in-document CC BY/CC0 statement; exact source byte file preserved",
+        "historical_sha256": "7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "extraction": {
+          "relative_directory": "papers/R09236/extracted/R09236.main.7891c46f856f19ac",
+          "search_chunks": 203,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": "papers/R09236/extracted/R09236.main.7891c46f856f19ac",
+          "sample_git_readback_commit": "abacce2d56ef0795ef59827d3a8cdc0e6c6a5fea",
+          "sample_storage_status": "git_remote_SHA_readback_verified"
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.779467+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 203,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
+            "OCR language=eng; OCR values, symbols and units require checking against source page."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "preferred_for_record": false,
+        "record_id": "R09236",
+        "asset_id": "R09236.supplementary.17102352b095b0fc",
+        "role": "supplementary",
+        "official_attachment": true,
+        "original_filename": "microorganisms-11-02349-s001.zip",
+        "canonical_path": "papers/R09236/supplementary/17102352b095_microorganisms-11-02349-s001.zip",
+        "source_repo_path": "original_files/supplementary/R09236/microorganisms-11-02349-s001.zip",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R09236/microorganisms-11-02349-s001.zip",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R09236/microorganisms-11-02349-s001.zip",
+        "format": "zip",
+        "size_bytes": 127719,
+        "sha256": "17102352b095b0fc97e7455ed7edc91ce96d20181b5c1194d69fc2336d7ad5fa",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/supplementaryFiles",
+        "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/fullTextXML",
+        "version": "original_supplementary_attachment",
+        "license_evidence": "© 2023 by the authors.2023https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "archive_catalogued",
+        "extraction": {
+          "relative_directory": "papers/R09236/extracted/R09236.supplementary.17102352b095b0fc",
+          "search_chunks": 0,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": "papers/R09236/extracted/R09236.supplementary.17102352b095b0fc",
+          "sample_git_readback_commit": "abacce2d56ef0795ef59827d3a8cdc0e6c6a5fea",
+          "sample_storage_status": "git_remote_SHA_readback_verified"
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.940690+00:00",
+        "extraction_20261017": {
+          "status": "archive_catalogued",
+          "search_chunks": 0,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "ZIP member names/checksums indexed; member content indexed through separately SHA-bound derived assets. No executable/code is run."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "preferred_for_record": false,
+        "record_id": "R09236",
+        "asset_id": "R09236.derived.fba7c733404cac1e",
+        "role": "derived",
+        "official_attachment": false,
+        "original_filename": "Sample key.xlsx",
+        "canonical_path": "papers/R09236/supplementary/derived/fba7c733404c_Sample key.xlsx",
+        "source_repo_path": "original_files/supplementary/R09236/Sample key.xlsx",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R09236/extracted/Sample key.xlsx",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/supplementary/R09236/Sample key.xlsx",
+        "format": "xlsx",
+        "size_bytes": 133957,
+        "sha256": "fba7c733404cac1e2af50d0ff766db4c46dbf54098136e36f80d71f5ccbaaad5",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/supplementaryFiles",
+        "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/fullTextXML",
+        "version": "extracted_archive_member",
+        "license_evidence": "© 2023 by the authors.2023https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "R09236.supplementary.17102352b095b0fc",
+        "parsing_status": "parsed",
+        "archive_member_path": "Sample key.xlsx",
+        "extraction": {
+          "relative_directory": "papers/R09236/extracted/R09236.derived.fba7c733404cac1e",
+          "search_chunks": 843,
+          "tables": 5,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": "papers/R09236/extracted/R09236.derived.fba7c733404cac1e",
+          "sample_git_readback_commit": "abacce2d56ef0795ef59827d3a8cdc0e6c6a5fea",
+          "sample_storage_status": "git_remote_SHA_readback_verified"
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.940888+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 843,
+          "table_count": 5,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "Formulas are preserved, never executed/recalculated; unavailable cached values are explicit. Charts and embedded images are not content-indexed."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "record_id": "R09236",
+        "asset_id": "R09236.evidence_xml.72064fe9276d8309",
+        "role": "evidence_xml",
+        "official_attachment": false,
+        "original_filename": "PMC10535533_fullText.xml",
+        "canonical_path": "papers/R09236/evidence/72064fe9276d_PMC10535533_fullText.xml",
+        "source_repo_path": "original_files/source_evidence/R09236/PMC10535533_fullText.xml",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R09236/evidence/PMC10535533_fullText.xml",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R09236/PMC10535533_fullText.xml",
+        "format": "xml",
+        "size_bytes": 193052,
+        "sha256": "72064fe9276d830984364e82e4567877578408565c650d856c531204a17ded89",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/fullTextXML",
+        "source_xml_url": "",
+        "version": "repository_JATS_fulltext_representation_not_PDF",
+        "license_evidence": "© 2023 by the authors.2023https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
+        "extraction": {
+          "relative_directory": "papers/R09236/extracted/R09236.evidence_xml.72064fe9276d8309",
+          "search_chunks": 437,
+          "tables": 2,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:26.142431+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 437,
+          "table_count": 2,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "Repository JATS XML text/structured tables; linked figures/media not all fetched. It is not a recovered historical PDF. Table rowspan/colspan retained as locators, not expanded into a rectangular semantic grid."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "record_id": "R09236",
+        "asset_id": "R09236.transport_archive.f3c6856282b7e8d6",
+        "role": "transport_archive",
+        "official_attachment": false,
+        "original_filename": "PMC10535533_supplementaryFiles.zip",
+        "canonical_path": "papers/R09236/evidence/f3c6856282b7_PMC10535533_supplementaryFiles.zip",
+        "source_repo_path": "",
+        "source_local_path": "/workspace/library-files/ad-oxygen-supplements/R09236/PMC10535533_supplementaryFiles.zip",
+        "resolved_source_path": "",
+        "format": "zip",
+        "size_bytes": 483405,
+        "sha256": "f3c6856282b7e8d694d35a87eae016d8e66aa902189c7c3311a1153ea24752e0",
+        "availability": "redundant_transport_archive_not_retained",
+        "storage_status": "canonical_original_attachments_available",
+        "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10535533/supplementaryFiles",
+        "source_xml_url": "",
+        "version": "repository_generated_transport_not_official_SI",
+        "license_evidence": "© 2023 by the authors.2023https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "archive_catalogued",
+        "identity_basis": "prior exact article title/DOI/authors XML validation; current source SHA rechecked",
+        "extraction": {
+          "relative_directory": "papers/R09236/extracted/R09236.transport_archive.f3c6856282b7e8d6",
+          "search_chunks": 0,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:26.142445+00:00",
+        "recovery_handling_reason": "Historical transfer ZIP intentionally not duplicated alongside all its available original attachments; historical SHA and record retained"
+      }
+    ]
+  },
+  "acquisition_20261023": {
+    "record_id": "R09236",
+    "title": "Microbiome Diversity of Anaerobic Digesters Is Enhanced by Microaeration and Low Frequency Sound",
+    "doi": "10.3390/microorganisms11092349",
+    "category_unchanged": "1 直接向 AD 反应器或内部循环系统供氧",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R09236/fulltext/fulltext__published__7891c46f856f19ac.pdf"
+    ],
+    "main_sha256": [
+      "7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9"
+    ],
+    "supplementary_count": 1,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "已取得1件原格式补充材料；其中0件唯一关联待核实；完整性未确认",
+    "supplementary_paths": [
+      "original_files/R09236/supplementary/supplementary__17102352b095b0fc.zip"
+    ],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R09236/supplementary/supplementary__17102352b095b0fc.zip",
+      "original_files/R09236/evidence/source_evidence__72064fe9276d8309.xml",
+      "original_files/R09236/fulltext/fulltext__published__7891c46f856f19ac.pdf",
+      "original_files/R09236/derived/derived__fba7c733404cac1e.xlsx"
+    ]
+  },
+  "supplementary_original_count_20261023": 1,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R09236",
+    "original_journal": "Microorganisms",
+    "normalized_journal": "Microorganisms",
+    "publication_kind": "期刊论文",
+    "subtype": "研究类",
+    "issn": "",
+    "eissn": "2076-2607",
+    "metadata_source": "https://api.crossref.org/works/10.3390/microorganisms11092349",
+    "notes": "2024指标年JCR分区未核实；空白不能当非Q1。需要2025发布版/2024指标年的JCR全部学科导出。"
+  }
 }

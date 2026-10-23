@@ -7,7 +7,7 @@
   "preferred_main_asset_id": "R06034.main.3418fe158b2a1017",
   "included_for_download": true,
   "main_status": "downloaded_verified",
-  "supplementary_status": "checked_no_file_links_found_coverage_unconfirmed",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -36,85 +36,231 @@
   },
   "assets": [
     {
-      "preferred_for_record": true,
+      "source_path": "original_files/fulltext/R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
+      "source": "cloud_existing",
+      "directory_id": "R06034",
       "record_id": "R06034",
-      "asset_id": "R06034.main.3418fe158b2a1017",
-      "role": "main",
-      "official_attachment": false,
       "original_filename": "R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
-      "canonical_path": "papers/R06034/main/3418fe158b2a_R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
-      "source_repo_path": "original_files/fulltext/R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
-      "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
-      "format": "pdf",
       "size_bytes": 3172841,
       "sha256": "3418fe158b2a101741a3c5d52fa30ad793a0f720b62c8d8bf855ea8b7cf648d9",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://mdpi-res.com/d_attachment/processes/processes-08-01614/article_deploy/processes-08-01614.pdf?version=1607402641",
-      "source_xml_url": "",
+      "git_blob_oid": "b35f09ac4850484e9989825402456c276b992d7d",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
       "version": "出版版本（原页出版信息）",
-      "license_evidence": "Explicit in-document CC BY/CC0 statement; exact source byte file preserved",
-      "historical_sha256": "3418fe158b2a101741a3c5d52fa30ad793a0f720b62c8d8bf855ea8b7cf648d9",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "extraction": {
-        "relative_directory": "papers/R06034/extracted/R06034.main.3418fe158b2a1017",
-        "search_chunks": 106,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.829146+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 106,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
-          "OCR language=eng; OCR values, symbols and units require checking against source page."
-        ],
-        "errors": []
-      }
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 15,
+      "encrypted": false,
+      "page_text_lengths": [
+        3415,
+        3946,
+        4065,
+        2924,
+        1746,
+        2789,
+        2004,
+        872,
+        3210,
+        4535,
+        1626,
+        4288,
+        4495,
+        4698,
+        2210
+      ],
+      "first_page_size": [
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "text_length": 46837,
+      "repaired_pdf": false,
+      "text_path": "work/texts/3418fe158b2a101741a3c5d52fa30ad793a0f720b62c8d8bf855ea8b7cf648d9.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R06034"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R06034/fulltext/fulltext__published__3418fe158b2a1017.pdf",
+      "source_paths": [
+        "original_files/fulltext/R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf"
+      ],
+      "source_record_ids": [
+        "R06034"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "True",
+          "record_id": "R06034",
+          "asset_id": "R06034.main.3418fe158b2a1017",
+          "role": "main",
+          "official_attachment": "False",
+          "original_filename": "R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
+          "canonical_path": "papers/R06034/main/3418fe158b2a_R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
+          "source_repo_path": "original_files/fulltext/R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
+          "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
+          "format": "pdf",
+          "size_bytes": "3172841",
+          "sha256": "3418fe158b2a101741a3c5d52fa30ad793a0f720b62c8d8bf855ea8b7cf648d9",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://mdpi-res.com/d_attachment/processes/processes-08-01614/article_deploy/processes-08-01614.pdf?version=1607402641",
+          "source_xml_url": "",
+          "version": "出版版本（原页出版信息）",
+          "license_evidence": "Explicit in-document CC BY/CC0 statement; exact source byte file preserved",
+          "historical_sha256": "3418fe158b2a101741a3c5d52fa30ad793a0f720b62c8d8bf855ea8b7cf648d9",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R06034/extracted/R06034.main.3418fe158b2a1017', 'search_chunks': 106, 'tables': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.829146+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 106, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.', 'OCR language=eng; OCR values, symbols and units require checking against source page.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R06034/fulltext/fulltext__published__3418fe158b2a1017.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R06034/fulltext/fulltext__published__3418fe158b2a1017.pdf",
+      "title": "Rapid Two Stage Anaerobic Digestion of Nejayote through Microaeration and Direct Interspecies Electron Transfer",
+      "doi": "10.3390/pr8121614",
+      "associated_record_ids": [
+        "R06034"
+      ],
+      "asset_id": "R06034.main.3418fe158b2a1017",
+      "legacy_asset_ids": [
+        "R06034.main.3418fe158b2a1017"
+      ],
+      "source_repo_path": "original_files/R06034/fulltext/fulltext__published__3418fe158b2a1017.pdf"
     },
     {
+      "source_path": "original_files/source_evidence/R06034/publisher_article_page_20261017.html",
+      "source": "cloud_existing",
+      "directory_id": "R06034",
       "record_id": "R06034",
-      "asset_id": "R06034.evidence_html.915bbccd2d3268dc",
-      "role": "evidence_html",
-      "official_attachment": false,
       "original_filename": "publisher_article_page_20261017.html",
-      "canonical_path": "original_files/source_evidence/R06034/publisher_article_page_20261017.html",
-      "source_local_path": "",
-      "historical_sha256": "",
-      "archive_parent_asset_id": "",
-      "parsing_status": "retained_not_content_indexed",
-      "preferred_for_record": false,
-      "source_repo_path": "original_files/source_evidence/R06034/publisher_article_page_20261017.html",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R06034/publisher_article_page_20261017.html",
-      "format": "html",
       "size_bytes": 525658,
       "sha256": "915bbccd2d3268dc98a41fbb31ea9e1bbb29b42ec1cbf6fdfaf772d7db3b0c47",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://www.mdpi.com/2227-9717/8/12/1614",
-      "version": "Article HTML with anonymous server session identifiers removed",
-      "license_evidence": "Private authorized research backup; source license not inferred",
-      "recovery_checked_at_utc": "2026-10-17T11:51:26.207735+00:00",
-      "extraction_20261017": {
-        "status": "retained_not_content_indexed",
-        "search_chunks": 0,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "Original retained; no supported content parser for this format. Images/video/models are not claimed searchable."
-        ],
-        "errors": []
-      }
+      "git_blob_oid": "e17534fc4ba3205ec3d5b0fe77f23a22453097f6",
+      "format": "html",
+      "issues": [],
+      "declared_role": "source_evidence",
+      "role": "source_evidence",
+      "version": "",
+      "verification_status": "text_readable",
+      "text_path": "work/texts/915bbccd2d3268dc98a41fbb31ea9e1bbb29b42ec1cbf6fdfaf772d7db3b0c47.txt",
+      "expected_doi_in_head": false,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": false,
+      "verification_notes": "",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R06034/evidence/source_evidence__915bbccd2d3268dc.html",
+      "source_paths": [
+        "original_files/source_evidence/R06034/publisher_article_page_20261017.html"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "publisher_article_page_20261017.html"
+      ],
+      "source_record_ids": [
+        "R06034"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "False",
+          "record_id": "R06034",
+          "asset_id": "R06034.evidence_html.915bbccd2d3268dc",
+          "role": "evidence_html",
+          "official_attachment": "False",
+          "original_filename": "publisher_article_page_20261017.html",
+          "canonical_path": "original_files/source_evidence/R06034/publisher_article_page_20261017.html",
+          "source_repo_path": "original_files/source_evidence/R06034/publisher_article_page_20261017.html",
+          "source_local_path": "",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R06034/publisher_article_page_20261017.html",
+          "format": "html",
+          "size_bytes": "525658",
+          "sha256": "915bbccd2d3268dc98a41fbb31ea9e1bbb29b42ec1cbf6fdfaf772d7db3b0c47",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://www.mdpi.com/2227-9717/8/12/1614",
+          "source_xml_url": "",
+          "version": "Article HTML with anonymous server session identifiers removed",
+          "license_evidence": "Private authorized research backup; source license not inferred",
+          "historical_sha256": "",
+          "archive_parent_asset_id": "",
+          "parsing_status": "retained_not_content_indexed",
+          "extraction": "",
+          "recovery_checked_at_utc": "2026-10-17T11:51:26.207735+00:00",
+          "extraction_20261017": "{'status': 'retained_not_content_indexed', 'search_chunks': 0, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['Original retained; no supported content parser for this format. Images/video/models are not claimed searchable.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R06034/evidence/source_evidence__915bbccd2d3268dc.html",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R06034/evidence/source_evidence__915bbccd2d3268dc.html",
+      "title": "Rapid Two Stage Anaerobic Digestion of Nejayote through Microaeration and Direct Interspecies Electron Transfer",
+      "doi": "10.3390/pr8121614",
+      "associated_record_ids": [
+        "R06034"
+      ],
+      "asset_id": "R06034.evidence_html.915bbccd2d3268dc",
+      "legacy_asset_ids": [
+        "R06034.evidence_html.915bbccd2d3268dc"
+      ],
+      "source_repo_path": "original_files/R06034/evidence/source_evidence__915bbccd2d3268dc.html"
     }
   ],
   "version_history": [
@@ -129,12 +275,145 @@
       "status": "current_verified_preferred_bytes"
     }
   ],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.533721+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
     "R06034.main.3418fe158b2a1017"
   ],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "downloaded_verified",
+    "supplementary_status": "checked_no_file_links_found_coverage_unconfirmed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": "R06034.main.3418fe158b2a1017",
+    "current_verified_main_asset_ids": [
+      "R06034.main.3418fe158b2a1017"
+    ],
+    "assets": [
+      {
+        "preferred_for_record": true,
+        "record_id": "R06034",
+        "asset_id": "R06034.main.3418fe158b2a1017",
+        "role": "main",
+        "official_attachment": false,
+        "original_filename": "R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
+        "canonical_path": "papers/R06034/main/3418fe158b2a_R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
+        "source_repo_path": "original_files/fulltext/R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
+        "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R06034_2020_Rapid_Two_Stage_Anaerobic_Digestion_of_Nejayote_through_Microaeration.pdf",
+        "format": "pdf",
+        "size_bytes": 3172841,
+        "sha256": "3418fe158b2a101741a3c5d52fa30ad793a0f720b62c8d8bf855ea8b7cf648d9",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://mdpi-res.com/d_attachment/processes/processes-08-01614/article_deploy/processes-08-01614.pdf?version=1607402641",
+        "source_xml_url": "",
+        "version": "出版版本（原页出版信息）",
+        "license_evidence": "Explicit in-document CC BY/CC0 statement; exact source byte file preserved",
+        "historical_sha256": "3418fe158b2a101741a3c5d52fa30ad793a0f720b62c8d8bf855ea8b7cf648d9",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "extraction": {
+          "relative_directory": "papers/R06034/extracted/R06034.main.3418fe158b2a1017",
+          "search_chunks": 106,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.829146+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 106,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
+            "OCR language=eng; OCR values, symbols and units require checking against source page."
+          ],
+          "errors": []
+        }
+      },
+      {
+        "record_id": "R06034",
+        "asset_id": "R06034.evidence_html.915bbccd2d3268dc",
+        "role": "evidence_html",
+        "official_attachment": false,
+        "original_filename": "publisher_article_page_20261017.html",
+        "canonical_path": "original_files/source_evidence/R06034/publisher_article_page_20261017.html",
+        "source_local_path": "",
+        "historical_sha256": "",
+        "archive_parent_asset_id": "",
+        "parsing_status": "retained_not_content_indexed",
+        "preferred_for_record": false,
+        "source_repo_path": "original_files/source_evidence/R06034/publisher_article_page_20261017.html",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/source_evidence/R06034/publisher_article_page_20261017.html",
+        "format": "html",
+        "size_bytes": 525658,
+        "sha256": "915bbccd2d3268dc98a41fbb31ea9e1bbb29b42ec1cbf6fdfaf772d7db3b0c47",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://www.mdpi.com/2227-9717/8/12/1614",
+        "version": "Article HTML with anonymous server session identifiers removed",
+        "license_evidence": "Private authorized research backup; source license not inferred",
+        "recovery_checked_at_utc": "2026-10-17T11:51:26.207735+00:00",
+        "extraction_20261017": {
+          "status": "retained_not_content_indexed",
+          "search_chunks": 0,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "Original retained; no supported content parser for this format. Images/video/models are not claimed searchable."
+          ],
+          "errors": []
+        }
+      }
+    ]
+  },
+  "acquisition_20261023": {
+    "record_id": "R06034",
+    "title": "Rapid Two Stage Anaerobic Digestion of Nejayote through Microaeration and Direct Interspecies Electron Transfer",
+    "doi": "10.3390/pr8121614",
+    "category_unchanged": "2 向厌氧水解或产酸阶段供氧",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R06034/fulltext/fulltext__published__3418fe158b2a1017.pdf"
+    ],
+    "main_sha256": [
+      "3418fe158b2a101741a3c5d52fa30ad793a0f720b62c8d8bf855ea8b7cf648d9"
+    ],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R06034/fulltext/fulltext__published__3418fe158b2a1017.pdf",
+      "original_files/R06034/evidence/source_evidence__915bbccd2d3268dc.html"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R06034",
+    "original_journal": "Processes",
+    "normalized_journal": "Processes",
+    "publication_kind": "期刊论文",
+    "subtype": "研究类",
+    "issn": "",
+    "eissn": "2227-9717",
+    "metadata_source": "https://api.crossref.org/works/10.3390/pr8121614",
+    "notes": "2024指标年JCR分区未核实；空白不能当非Q1。需要2025发布版/2024指标年的JCR全部学科导出。"
+  }
 }

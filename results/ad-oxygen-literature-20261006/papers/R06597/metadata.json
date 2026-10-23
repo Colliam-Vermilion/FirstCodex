@@ -4,10 +4,10 @@
   "authors": "Xu, Haipeng; Li, Yan; Hua, Dongliang; Zhao, Yuxiao; Chen, Lei; Zhou, Lei; Chen, Guanyi",
   "doi": "10.1016/j.biortech.2021.124852",
   "category_unchanged": "3 独立好氧或微好氧预处理",
-  "preferred_main_asset_id": null,
+  "preferred_main_asset_id": "R06597.fulltext.0675c197731a41f1",
   "included_for_download": true,
-  "main_status": "not_downloaded",
-  "supplementary_status": "access_failed",
+  "main_status": "downloaded_verified",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -34,12 +34,142 @@
     "supplementary": "mapped, no duplicate originals",
     "extracted": "per-asset derived search artifacts"
   },
-  "assets": [],
+  "assets": [
+    {
+      "source_path": "localdownload/R06597/fulltext.pdf",
+      "source": "local_upload",
+      "directory_id": "R06597",
+      "record_id": "R06597",
+      "original_filename": "fulltext.pdf",
+      "size_bytes": 1756556,
+      "sha256": "0675c197731a41f1f8892809181ce8c8ce5a61712705e0734a5875656298b222",
+      "git_blob_oid": "d3b31f4370b313baa61543e5893e460f0e4df910",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
+      "version": "出版版（版式及版权文字）",
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 9,
+      "encrypted": false,
+      "page_text_lengths": [
+        3070,
+        8408,
+        7809,
+        1464,
+        8313,
+        5283,
+        1940,
+        7163,
+        8784
+      ],
+      "first_page_size": [
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "text_length": 52242,
+      "repaired_pdf": false,
+      "text_path": "work/texts/0675c197731a41f1f8892809181ce8c8ce5a61712705e0734a5875656298b222.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R06597"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R06597/fulltext/fulltext__published__0675c197731a41f1.pdf",
+      "source_paths": [
+        "localdownload/R06597/fulltext.pdf"
+      ],
+      "sources": [
+        "local_upload"
+      ],
+      "original_filenames": [
+        "fulltext.pdf"
+      ],
+      "source_record_ids": [
+        "R06597"
+      ],
+      "prior_asset_evidence": [],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R06597/fulltext/fulltext__published__0675c197731a41f1.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R06597/fulltext/fulltext__published__0675c197731a41f1.pdf",
+      "title": "Effect of microaerobic microbial pretreatment on anaerobic digestion of a lignocellulosic substrate under controlled pH conditions",
+      "doi": "10.1016/j.biortech.2021.124852",
+      "associated_record_ids": [
+        "R06597"
+      ],
+      "asset_id": "R06597.fulltext.0675c197731a41f1",
+      "legacy_asset_ids": [],
+      "source_repo_path": "original_files/R06597/fulltext/fulltext__published__0675c197731a41f1.pdf"
+    }
+  ],
   "version_history": [],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.527251+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
-  "current_verified_main_asset_ids": [],
+  "current_verified_main_asset_ids": [
+    "R06597.fulltext.0675c197731a41f1"
+  ],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "not_downloaded",
+    "supplementary_status": "access_failed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": null,
+    "current_verified_main_asset_ids": [],
+    "assets": []
+  },
+  "acquisition_20261023": {
+    "record_id": "R06597",
+    "title": "Effect of microaerobic microbial pretreatment on anaerobic digestion of a lignocellulosic substrate under controlled pH conditions",
+    "doi": "10.1016/j.biortech.2021.124852",
+    "category_unchanged": "3 独立好氧或微好氧预处理",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R06597/fulltext/fulltext__published__0675c197731a41f1.pdf"
+    ],
+    "main_sha256": [
+      "0675c197731a41f1f8892809181ce8c8ce5a61712705e0734a5875656298b222"
+    ],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R06597/fulltext/fulltext__published__0675c197731a41f1.pdf"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R06597",
+    "original_journal": "Bioresource Technology",
+    "normalized_journal": "BIORESOURCE TECHNOLOGY",
+    "publication_kind": "期刊论文",
+    "subtype": "研究类",
+    "issn": "0960-8524",
+    "eissn": "",
+    "metadata_source": "https://api.crossref.org/works/10.1016/j.biortech.2021.124852",
+    "notes": "机构JCR栏：搜索索引可核验；原页面直连未成功；非Clarivate账户导出 | 全部Q1仅指本表全部已核实学科；无官方完整学科导出，不承诺没有未显示学科"
+  }
 }

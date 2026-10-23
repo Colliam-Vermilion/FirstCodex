@@ -4,10 +4,10 @@
   "authors": "Krayzelova, Lucie; Bartacek, Jan; Díaz, Israel; Jeison, David; Volcke, Eveline I. P.; Jenicek, Pavel",
   "doi": "10.1007/s11157-015-9386-2",
   "category_unchanged": "4 综述",
-  "preferred_main_asset_id": null,
+  "preferred_main_asset_id": "R01985.fulltext.eefabc47a4bbce22",
   "included_for_download": true,
-  "main_status": "not_downloaded",
-  "supplementary_status": "access_failed",
+  "main_status": "downloaded_verified",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -34,12 +34,156 @@
     "supplementary": "mapped, no duplicate originals",
     "extracted": "per-asset derived search artifacts"
   },
-  "assets": [],
+  "assets": [
+    {
+      "source_path": "localdownload/R01985/fulltext.pdf",
+      "source": "local_upload",
+      "directory_id": "R01985",
+      "record_id": "R01985",
+      "original_filename": "fulltext.pdf",
+      "size_bytes": 727252,
+      "sha256": "eefabc47a4bbce224649f5d8b317eeb9038eeac40b47b9d6f0d61b7b5ba5c62e",
+      "git_blob_oid": "212b2229535c0a933e500e68874ca0a107573f51",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
+      "version": "出版版（版式及版权文字）",
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 23,
+      "encrypted": false,
+      "page_text_lengths": [
+        2873,
+        4324,
+        2682,
+        3583,
+        4504,
+        4482,
+        3301,
+        4605,
+        4577,
+        2777,
+        1499,
+        3978,
+        4649,
+        2895,
+        4479,
+        4582,
+        4076,
+        4327,
+        4428,
+        6138,
+        6057,
+        6043,
+        4279
+      ],
+      "first_page_size": [
+        547.0869750976562,
+        737.0079956054688
+      ],
+      "text_length": 95160,
+      "repaired_pdf": false,
+      "text_path": "work/texts/eefabc47a4bbce224649f5d8b317eeb9038eeac40b47b9d6f0d61b7b5ba5c62e.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 0.889,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R01985"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R01985/fulltext/fulltext__published__eefabc47a4bbce22.pdf",
+      "source_paths": [
+        "localdownload/R01985/fulltext.pdf"
+      ],
+      "sources": [
+        "local_upload"
+      ],
+      "original_filenames": [
+        "fulltext.pdf"
+      ],
+      "source_record_ids": [
+        "R01985"
+      ],
+      "prior_asset_evidence": [],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R01985/fulltext/fulltext__published__eefabc47a4bbce22.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R01985/fulltext/fulltext__published__eefabc47a4bbce22.pdf",
+      "title": "Microaeration for hydrogen sulfide removal during anaerobic treatment: a review",
+      "doi": "10.1007/s11157-015-9386-2",
+      "associated_record_ids": [
+        "R01985"
+      ],
+      "asset_id": "R01985.fulltext.eefabc47a4bbce22",
+      "legacy_asset_ids": [],
+      "source_repo_path": "original_files/R01985/fulltext/fulltext__published__eefabc47a4bbce22.pdf"
+    }
+  ],
   "version_history": [],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.594969+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
-  "current_verified_main_asset_ids": [],
+  "current_verified_main_asset_ids": [
+    "R01985.fulltext.eefabc47a4bbce22"
+  ],
   "current_main_multipart_groups": [],
-  "supplementary_external_data_links": []
+  "supplementary_external_data_links": [],
+  "acquisition_before_20261023": {
+    "main_status": "not_downloaded",
+    "supplementary_status": "access_failed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": null,
+    "current_verified_main_asset_ids": [],
+    "assets": []
+  },
+  "acquisition_20261023": {
+    "record_id": "R01985",
+    "title": "Microaeration for hydrogen sulfide removal during anaerobic treatment: a review",
+    "doi": "10.1007/s11157-015-9386-2",
+    "category_unchanged": "4 综述",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R01985/fulltext/fulltext__published__eefabc47a4bbce22.pdf"
+    ],
+    "main_sha256": [
+      "eefabc47a4bbce224649f5d8b317eeb9038eeac40b47b9d6f0d61b7b5ba5c62e"
+    ],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R01985/fulltext/fulltext__published__eefabc47a4bbce22.pdf"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R01985",
+    "original_journal": "Reviews in Environmental Science and Bio/Technology",
+    "normalized_journal": "Reviews in Environmental Science and Bio/Technology",
+    "publication_kind": "期刊论文",
+    "subtype": "综述",
+    "issn": "1569-1705",
+    "eissn": "1572-9826",
+    "metadata_source": "https://api.crossref.org/works/10.1007/s11157-015-9386-2",
+    "notes": "2024指标年JCR分区未核实；空白不能当非Q1。需要2025发布版/2024指标年的JCR全部学科导出。"
+  }
 }

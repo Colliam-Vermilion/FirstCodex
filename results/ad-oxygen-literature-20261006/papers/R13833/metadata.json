@@ -7,7 +7,7 @@
   "preferred_main_asset_id": "R13833.main.1a4a4d5f8fd45de9",
   "included_for_download": true,
   "main_status": "downloaded_verified",
-  "supplementary_status": "partial_or_access_failed",
+  "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
   "supplementary_coverage_complete": false,
   "supplementary_official_count": 0,
   "supplementary_previous_detail": {
@@ -41,50 +41,127 @@
   },
   "assets": [
     {
-      "preferred_for_record": true,
+      "source_path": "original_files/fulltext/R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
+      "source": "cloud_existing",
+      "directory_id": "R13833",
       "record_id": "R13833",
-      "asset_id": "R13833.main.1a4a4d5f8fd45de9",
-      "role": "main",
-      "official_attachment": false,
       "original_filename": "R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
-      "canonical_path": "papers/R13833/main/1a4a4d5f8fd4_R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
-      "source_repo_path": "original_files/fulltext/R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
-      "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
-      "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
-      "format": "pdf",
       "size_bytes": 1463714,
       "sha256": "1a4a4d5f8fd45de924c78a7be11e1c032c630bd9341431d1d49135c8351cdaf7",
-      "availability": "present_sha_verified",
-      "storage_status": "git_remote_verified_20261017",
-      "source_url": "https://repositorium.uminho.pt/server/api/core/bitstreams/234ac4ff-f996-498f-8853-72ba22cb7700/content",
-      "source_xml_url": "",
+      "git_blob_oid": "8284a0975e00decc5f1d507c8425b0ef0e8975ef",
+      "format": "pdf",
+      "issues": [],
+      "declared_role": "fulltext",
+      "role": "main",
       "version": "出版版本（原页出版信息）",
-      "license_evidence": "No verified permissive redistribution grant; private backup destination pending",
-      "historical_sha256": "1a4a4d5f8fd45de924c78a7be11e1c032c630bd9341431d1d49135c8351cdaf7",
-      "archive_parent_asset_id": "",
-      "parsing_status": "parsed",
-      "extraction": {
-        "relative_directory": "papers/R13833/extracted/R13833.main.1a4a4d5f8fd45de9",
-        "search_chunks": 73,
-        "tables": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "full_output_is_not_yet_cloud_backup": true,
-        "sample_repo_directory": ""
-      },
-      "recovery_checked_at_utc": "2026-10-17T11:51:25.881625+00:00",
-      "extraction_20261017": {
-        "status": "parsed",
-        "search_chunks": 73,
-        "table_count": 0,
-        "ocr_pages": 0,
-        "ocr_pending_pages": [],
-        "limitations": [
-          "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
-          "OCR language=eng; OCR values, symbols and units require checking against source page."
-        ],
-        "errors": []
-      }
+      "verification_status": "identity_and_body_structure_verified",
+      "pages": 11,
+      "encrypted": false,
+      "page_text_lengths": [
+        4610,
+        4371,
+        7224,
+        6812,
+        5437,
+        3047,
+        4949,
+        6337,
+        6011,
+        7687,
+        3360
+      ],
+      "first_page_size": [
+        625.4359741210938,
+        818.3619995117188
+      ],
+      "text_length": 59855,
+      "repaired_pdf": false,
+      "text_path": "work/texts/1a4a4d5f8fd45de924c78a7be11e1c032c630bd9341431d1d49135c8351cdaf7.txt",
+      "expected_doi_in_head": true,
+      "title_token_coverage": 1.0,
+      "title_compact_match": true,
+      "head_doi_matching_ids": [
+        "R13833"
+      ],
+      "body_markers": [
+        "intro",
+        "methods",
+        "results",
+        "conclusion",
+        "references"
+      ],
+      "body_candidate_complete": true,
+      "verification_notes": "首页/前两页题名作者或目标DOI核对，全部页面解析及正文结构检查；不据文件名判全文。",
+      "association_status": "",
+      "observed_title": "",
+      "observed_doi": "",
+      "canonical_path": "original_files/R13833/fulltext/fulltext__published__1a4a4d5f8fd45de9.pdf",
+      "source_paths": [
+        "original_files/fulltext/R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf"
+      ],
+      "sources": [
+        "cloud_existing"
+      ],
+      "original_filenames": [
+        "R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf"
+      ],
+      "source_record_ids": [
+        "R13833"
+      ],
+      "prior_asset_evidence": [
+        {
+          "preferred_for_record": "True",
+          "record_id": "R13833",
+          "asset_id": "R13833.main.1a4a4d5f8fd45de9",
+          "role": "main",
+          "official_attachment": "False",
+          "original_filename": "R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
+          "canonical_path": "papers/R13833/main/1a4a4d5f8fd4_R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
+          "source_repo_path": "original_files/fulltext/R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
+          "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
+          "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
+          "format": "pdf",
+          "size_bytes": "1463714",
+          "sha256": "1a4a4d5f8fd45de924c78a7be11e1c032c630bd9341431d1d49135c8351cdaf7",
+          "availability": "present_sha_verified",
+          "storage_status": "git_remote_verified_20261017",
+          "source_url": "https://repositorium.uminho.pt/server/api/core/bitstreams/234ac4ff-f996-498f-8853-72ba22cb7700/content",
+          "source_xml_url": "",
+          "version": "出版版本（原页出版信息）",
+          "license_evidence": "No verified permissive redistribution grant; private backup destination pending",
+          "historical_sha256": "1a4a4d5f8fd45de924c78a7be11e1c032c630bd9341431d1d49135c8351cdaf7",
+          "archive_parent_asset_id": "",
+          "parsing_status": "parsed",
+          "extraction": "{'relative_directory': 'papers/R13833/extracted/R13833.main.1a4a4d5f8fd45de9', 'search_chunks': 73, 'tables': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'full_output_is_not_yet_cloud_backup': True, 'sample_repo_directory': ''}",
+          "recovery_checked_at_utc": "2026-10-17T11:51:25.881625+00:00",
+          "extraction_20261017": "{'status': 'parsed', 'search_chunks': 73, 'table_count': 0, 'ocr_pages': 0, 'ocr_pending_pages': [], 'limitations': ['PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.', 'OCR language=eng; OCR values, symbols and units require checking against source page.'], 'errors': []}",
+          "archive_member_path": "",
+          "recovered_archive_path": "",
+          "recovered_archive_sha256": "",
+          "recovery_handling_reason": "",
+          "identity_basis": "",
+          "manual_identity_review_20261017": "",
+          "recorded_candidate_urls": "",
+          "identity_review_20261017": "",
+          "multipart_group": "",
+          "multipart_part_index": "",
+          "multipart_part_count": "",
+          "multipart_group_complete_and_reviewed": ""
+        }
+      ],
+      "archive_members": [],
+      "github_path": "results/ad-oxygen-literature-20261006/original_files/R13833/fulltext/fulltext__published__1a4a4d5f8fd45de9.pdf",
+      "github_url": "https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files/R13833/fulltext/fulltext__published__1a4a4d5f8fd45de9.pdf",
+      "title": "Insight into the Role of Facultative Bacteria Stimulated by Microaeration in Continuous Bioreactors Converting LCFA to Methane",
+      "doi": "10.1021/acs.est.8b00894",
+      "associated_record_ids": [
+        "R13833"
+      ],
+      "asset_id": "R13833.main.1a4a4d5f8fd45de9",
+      "legacy_asset_ids": [
+        "R13833.main.1a4a4d5f8fd45de9"
+      ],
+      "source_repo_path": "original_files/R13833/fulltext/fulltext__published__1a4a4d5f8fd45de9.pdf"
     }
   ],
   "version_history": [
@@ -99,7 +176,7 @@
       "status": "current_verified_preferred_bytes"
     }
   ],
-  "source_mapping_standard": "logical papers paths map to original_files or private canonical originals; no extra original directory",
+  "source_mapping_standard": "Original files: original_files/<ID>/{fulltext,supplementary,abstract_poster,evidence,uncertain,derived}; source_path_mapping_utf8.csv retains all historical paths and branch copies.",
   "recovery_checked_at_utc": "2026-10-17T11:51:26.688158+00:00",
   "recovery_original_status_preserved_in": "inventory/recovery_20261017/baseline_papers.json",
   "current_verified_main_asset_ids": [
@@ -141,5 +218,102 @@
       ],
       "automatic_bulk_download_disabled": true
     }
-  ]
+  ],
+  "acquisition_before_20261023": {
+    "main_status": "downloaded_verified",
+    "supplementary_status": "partial_or_access_failed",
+    "supplementary_coverage_complete": false,
+    "supplementary_official_count": 0,
+    "preferred_main_asset_id": "R13833.main.1a4a4d5f8fd45de9",
+    "current_verified_main_asset_ids": [
+      "R13833.main.1a4a4d5f8fd45de9"
+    ],
+    "assets": [
+      {
+        "preferred_for_record": true,
+        "record_id": "R13833",
+        "asset_id": "R13833.main.1a4a4d5f8fd45de9",
+        "role": "main",
+        "official_attachment": false,
+        "original_filename": "R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
+        "canonical_path": "papers/R13833/main/1a4a4d5f8fd4_R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
+        "source_repo_path": "original_files/fulltext/R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
+        "source_local_path": "/workspace/library-files/ad-oxygen-current-run/fulltexts/R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
+        "resolved_source_path": "/workspace/FirstCodex/results/ad-oxygen-literature-20261006/original_files/fulltext/R13833_2018_Insight_into_the_Role_of_Facultative_Bacteria_Stimulated_by.pdf",
+        "format": "pdf",
+        "size_bytes": 1463714,
+        "sha256": "1a4a4d5f8fd45de924c78a7be11e1c032c630bd9341431d1d49135c8351cdaf7",
+        "availability": "present_sha_verified",
+        "storage_status": "git_remote_verified_20261017",
+        "source_url": "https://repositorium.uminho.pt/server/api/core/bitstreams/234ac4ff-f996-498f-8853-72ba22cb7700/content",
+        "source_xml_url": "",
+        "version": "出版版本（原页出版信息）",
+        "license_evidence": "No verified permissive redistribution grant; private backup destination pending",
+        "historical_sha256": "1a4a4d5f8fd45de924c78a7be11e1c032c630bd9341431d1d49135c8351cdaf7",
+        "archive_parent_asset_id": "",
+        "parsing_status": "parsed",
+        "extraction": {
+          "relative_directory": "papers/R13833/extracted/R13833.main.1a4a4d5f8fd45de9",
+          "search_chunks": 73,
+          "tables": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "full_output_is_not_yet_cloud_backup": true,
+          "sample_repo_directory": ""
+        },
+        "recovery_checked_at_utc": "2026-10-17T11:51:25.881625+00:00",
+        "extraction_20261017": {
+          "status": "parsed",
+          "search_chunks": 73,
+          "table_count": 0,
+          "ocr_pages": 0,
+          "ocr_pending_pages": [],
+          "limitations": [
+            "PDF logical reading order and inferred vector-grid cells may be imperfect; borderless/scan tables are not guaranteed structured.",
+            "OCR language=eng; OCR values, symbols and units require checking against source page."
+          ],
+          "errors": []
+        }
+      }
+    ]
+  },
+  "acquisition_20261023": {
+    "record_id": "R13833",
+    "title": "Insight into the Role of Facultative Bacteria Stimulated by Microaeration in Continuous Bioreactors Converting LCFA to Methane",
+    "doi": "10.1021/acs.est.8b00894",
+    "category_unchanged": "1 直接向 AD 反应器或内部循环系统供氧",
+    "included_for_analysis": true,
+    "main_status": "已取得核验全文",
+    "verified_fulltext": true,
+    "main_file_count": 1,
+    "main_paths": [
+      "original_files/R13833/fulltext/fulltext__published__1a4a4d5f8fd45de9.pdf"
+    ],
+    "main_sha256": [
+      "1a4a4d5f8fd45de924c78a7be11e1c032c630bd9341431d1d49135c8351cdaf7"
+    ],
+    "supplementary_count": 0,
+    "supplementary_identity_pending_count": 0,
+    "supplementary_status": "当前无补充材料原件；沿用既有缺失/无附件证据，不据此认定无附件",
+    "supplementary_paths": [],
+    "abstract_count": 0,
+    "poster_count": 0,
+    "identity_conflict_count": 0,
+    "current_original_paths": [
+      "original_files/R13833/fulltext/fulltext__published__1a4a4d5f8fd45de9.pdf"
+    ]
+  },
+  "supplementary_original_count_20261023": 0,
+  "checked_at_utc_20261023": "2026-10-23",
+  "journal_metadata_20261023": {
+    "record_id": "R13833",
+    "original_journal": "Environmental Science &amp; Technology",
+    "normalized_journal": "ENVIRONMENTAL SCIENCE & TECHNOLOGY",
+    "publication_kind": "期刊论文",
+    "subtype": "研究类",
+    "issn": "0013-936X",
+    "eissn": "1520-5851",
+    "metadata_source": "https://api.crossref.org/works/10.1021/acs.est.8b00894",
+    "notes": "机构JCR栏：搜索索引可核验；原页面直连未成功；非Clarivate账户导出 | 全部Q1仅指本表全部已核实学科；无官方完整学科导出，不承诺没有未显示学科"
+  }
 }
