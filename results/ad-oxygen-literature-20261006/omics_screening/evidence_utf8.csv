@@ -109,3 +109,236 @@ R03161-E01,R03161,方法判断,"Influent and effluent samples from the FS digest
 R03161-E02,R03161,数据声明语境核查,All relevant data are within the paper and its Supporting Information files.,仅泛指正文和SI数据可用；结合方法及XLSX，不代表公开原始测序数据。,original_files/R03161/fulltext/fulltext__published__ea90043284b5a305.pdf,ea90043284b5a305ea2567b3fd65909a17585eeb08bfccd84be2c51df7c90453,[1],Data Availability Statement,,,B003
 R03161-E03,R03161,补充表格核查,Hydrogen sulfide removal as a function of hydrogen sulfide input in biogas using horizontal and vertical barrels,工作簿三表为图2/3/5的H2S、氧、产气/去除等工程数值；不是原始测序reads。正文p11明确其为图数据。,original_files/R03161/supplementary/supplementary__d7cc276f64fa4c14.xlsx,d7cc276f64fa4c14cae6112225870bf2a5daabbfd3ed1243c5cebba459e320f9,[],S1 Appendix XLSX: Figure 2 data; Figure 3 data; Figure 5 data,Figure 2 data; Figure 3 data; Figure 5 data,"Figure 2 data!A3:B3; Figure 3 data!B2,A6:B6; Figure 5 data!D2,G5",B003
 R01917-E05,R01917,官方元数据查询,"""count"": ""0""",已知DOI在SRA未检出关联记录；检索索引可能不含DOI，此结果不证明无数据，也不解决建库类型，保留待确认。,omics_screening/batches/B003/official_metadata_query_R01917.json,3761c60158e6f87701f7aee9c12566c08666c2da6b08c4e0b5787c051918dff0,[],"NCBI SRA ESearch, exact known DOI; result count",,,B003
+R03164-E01,R03164,方法判断,"Batch assays were conducted in thermophilic conditions (55 [U+0003]C)
+in triplicates according to the guidelines of Angelidaki et al. (2009).",BMP批次实验；完整方法无目标测序流程。,original_files/R03164/fulltext/fulltext__published__948ccf2541317dc8.pdf,948ccf2541317dc8e00eb42160e9daec06bc8b39c43b79359b07d0bcd90014a5,[3],2.4 Experimental procedure,,,B004
+R03164-E02,R03164,方法判断,"The TS, VS, TKN, NHþ
+4 -N and COD were determined according to
+the Standard Methods (APHA, 2005).",完整分析方法为理化、元素/碳水组成及气相/离子色谱；未报告群落DNA/RNA测序。,original_files/R03164/fulltext/fulltext__published__948ccf2541317dc8.pdf,948ccf2541317dc8e00eb42160e9daec06bc8b39c43b79359b07d0bcd90014a5,[3],2.5 Analytical methods,,,B004
+R03220-E01,R03220,方法判断,"Fiber compositions (i.e.,
+NDF, ADF, and ADL) were analyzed before and after AD using a cell
+wall fractionation method, according to Van Soest (Faithfull, 2002).",完整§2.1–2.6为Napier草VFA实验、纤维组成、GC及SEM分析，无核酸/测序方法。,original_files/R03220/fulltext/fulltext__published__e3a420e737821dfe.pdf,e3a420e737821dfea7af915ed874babf5028acd2c2ac56810527678967b2b408,[3],2.6 Analytical methods,,,B004
+R03220-E02,R03220,方法判断,"Then the specimens were viewed with a ﬁeld
+emission SEM (Hitachi S-4800, japan) at an accelerating voltage
+of 5.0 kV.",形态检测为SEM，不是测序。,original_files/R03220/fulltext/fulltext__published__e3a420e737821dfe.pdf,e3a420e737821dfea7af915ed874babf5028acd2c2ac56810527678967b2b408,[3],2.6 Analytical methods,,,B004
+R03220-E03,R03220,补充材料核查,Appendix A. Supplementary data,全文读取现有附件：仅ANOVA表，无测序方法/编号；目录与内容相符但无独立题名/DOI，不用其编号归属正文。,original_files/R03220/supplementary/supplementary__c26f71c81867faf0.docx,c26f71c81867faf0f35f9d5573b3f197c6b071c173aeb47911a1e7bd7f21badb,[],DOCX段落1–71,,,B004
+R03220-E04,R03220,补充材料核查,Table S2. ANOVA table of structural carbohydrate in selected conditions compared with the raw Napier grass,全文读取现有附件：仅ANOVA表，无测序方法/编号；目录与内容相符但无独立题名/DOI，不用其编号归属正文。,original_files/R03220/supplementary/supplementary__285191e1fb2e2380.docx,285191e1fb2e2380af580874c7bc1fe0511fdeacc29d469b2a65533c413cef1b,[],DOCX段落1–21,,,B004
+R03400-E01,R03400,方法判断,"The
+ granular
+ sludge
+ from
+ UASB
+ and
+ UMSB
+ reactor
+ [4]
+ was
+ ana-
+lysed
+ by
+ PCR
+ and
+ DGGE.",原PDF逐词换行，此处只合并空白；检测明确为PCR/DGGE，非目标测序。,original_files/R03400/fulltext/fulltext__published__cba2185ab15ca24d.pdf,cba2185ab15ca24da84a7c037b3828d6d8e604231ec94a59baf4ca3062420a67,[5],2.2 Reactor configuration – simulation set-up,,,B004
+R03400-E02,R03400,方法判断,"The
+ model
+ was
+ validated
+ on
+ the
+ experimental
+ data
+ described
+ by
+Krayzelova
+ et
+ al.
+ [4], comparing
+ the
+ behavior
+ of
+ two
+ UASB
+ reac-
+tors,
+ a
+ strictly
+ anaerobic
+ UASB
+ and
+ a
+ microaerobic
+ one
+ (termed
+UMSB).",复用的是过程实验数据；完整方法未使用既有公开组学数据。,original_files/R03400/fulltext/fulltext__published__cba2185ab15ca24d.pdf,cba2185ab15ca24da84a7c037b3828d6d8e604231ec94a59baf4ca3062420a67,[4],2.2 Reactor configuration – simulation set-up,,,B004
+R03400-E03,R03400,补充材料核查,"The stoichiometric matrix, composition matrix and kinetic expressions for ADM1-S/O are summarized in Tables S1 and S2.  Tables S3, S4 and S5 list the corresponding stoichiometric, kinetic and physicochemical parameters, respectively.",补充内容是ADM1-S/O计量矩阵和模型参数，与正文§2跨节引用一致；无目标测序。,original_files/R03400/supplementary/supplementary__01a0c3f189551435.docx,01a0c3f1895514354073ac76fd5eba93eb36e465a996317f8fb16b0f985f2639,[],DOCX段落2–3、817–871；§S.1–S.5,,,B004
+R03455-E01,R03455,方法判断,"TS, VS, total suspended solids (TSS), volatile suspended 
+solids (VSS), total chemical oxygen demand (TCOD) and 
+soluble chemical oxygen demand (SCOD) were measured 
+according to the standard methods [21].",完整分析方法为理化和硫/铁/气体测量，无目标测序。,original_files/R03455/fulltext/fulltext__published__64a8528ddfd93bdf.pdf,64a8528ddfd93bdf1c052560305416eb52315f9e1c60e1e846a8201168bfe2bd,[3],2.3 Analysis,,,B004
+R03455-E02,R03455,方法判断,"Biogas composition (CH4, CO2, H2S and O2) was mea­
+sured daily using a portable biogas analyzer (Biogas 5000, 
+Geotech, UK).",气体组分检测而非测序。,original_files/R03455/fulltext/fulltext__published__64a8528ddfd93bdf.pdf,64a8528ddfd93bdf1c052560305416eb52315f9e1c60e1e846a8201168bfe2bd,[4],2.3 Analysis,,,B004
+R03455-E03,R03455,补充材料核查,The mass distribution of sulfur compounds (mg) in the system before and after semi-continuous anaerobic and microaerobic,内嵌SI为硫平衡表和装置示意图。,original_files/R03455/fulltext/fulltext__published__64a8528ddfd93bdf.pdf,64a8528ddfd93bdf1c052560305416eb52315f9e1c60e1e846a8201168bfe2bd,[11],"Supplementary material, Table S1/Fig S1",,,B004
+R03475-E01,R03475,方法判断,"Biogas
+composition
+was
+analyzed
+using
+gas
+chromatography (GC; NUCON 5765) with thermal conductivity
+detector (TCD)",完整方法为产气、VFA/醇色谱和理化分析，无目标测序。,original_files/R03475/fulltext/fulltext__published__87798503de877f9d.pdf,87798503de877f9daa12f0581b7411045b6801a5a720bc6d6510c01d9a01dd32,[2],2.4 Analysis,,,B004
+R03475-E02,R03475,术语命中排除,"metagenomic proﬁling. RSC Adv. 6,
+18641.",目标术语为参考文献题名，不是本研究测序方法。,original_files/R03475/fulltext/fulltext__published__87798503de877f9d.pdf,87798503de877f9daa12f0581b7411045b6801a5a720bc6d6510c01d9a01dd32,[9],References: Sarkar et al. 2016,,,B004
+R03475-E03,R03475,补充材料核查,"Pre-aeration of waste to augment acidogenic process at higher organic load: Valorizing Biohydrogen, Fatty acids and Biohythane
+Omprakash Sarkar and S. Venkata Mohan*
+Bioengineering and Environmental Sciences Lab, EEFF Department,
+CSIR-Indian Institute of Chemical Technology (CSIR-IICT), Hyderabad 500 007, India",题名细微措辞差异，两位作者及机构一致，支持本研究补充材料唯一关联；内容为biohythane图和化学反应式，无目标测序/编号。,original_files/R03475/supplementary/supplementary__e076e49096bc6bd6.docx,e076e49096bc6bd6044ca3d101f15ed36f99724ebe224f8bd571bcfdb4029a91,[],DOCX段落1–5、11、21–29,,,B004
+R03497-E01,R03497,方法判断,"The standard methods described by the APHA/AWWA/
+WEF [22] were employed to assess COD (titrimetric
+closed reﬂux; APHA/AWWA/WEF section 5220C), sul-
+phide
+(methylene
+blue
+method;
+APHA/AWWA/WEF
+section 4500D) and pH (potentiometry).",完整分析方法为水质/硫形态、离子色谱及物相分析，无目标测序。,original_files/R03497/fulltext/fulltext__published__2d594b9c7205bdf2.pdf,2d594b9c7205bdf2e74f389879019103da37df12335f8ec4410e17b716273d88,[4],2.3 Analysis of raw sewage and reactor effluents,,,B004
+R03497-E02,R03497,方法判断,"Scanning electron microscopy
+with energy-dispersive X-ray (SEM/EDX) was performed
+using a TM-1000 bench model instrument (Hitachi,
+Tokyo, Japan) to observe submicron-scale features of
+the solid material precipitated in the anaerobic ﬁlter
+efﬂuent and to provide elemental identiﬁcation and
+quantitative compositional information.",SEM/EDX观察沉淀材料并做元素鉴定，不是序列数据。,original_files/R03497/fulltext/fulltext__published__2d594b9c7205bdf2.pdf,2d594b9c7205bdf2e74f389879019103da37df12335f8ec4410e17b716273d88,[4],2.3 Analysis of raw sewage and reactor effluents,,,B004
+R03518-E01,R03518,方法判断,"Fluorescence EEM spectroscopy was measured using a Hitachi
+F-7000 ﬂuorescence spectrometer (Hitachi, Japan) at room temper-
+ature according to He et al. [23], with minor modiﬁcations.",测量为DOM荧光光谱；完整方法无测序。,original_files/R03518/fulltext/fulltext__published__aa5fd3d1e00f1e87.pdf,aa5fd3d1e00f1e8768d9bad2473792657a558c3343e29685e3f49a421f92e1f5,[3],2.3 Characterisation of spectroscopy,,,B004
+R03518-E02,R03518,方法判断,"The ﬁltrate was tested for pH, dissolved organic carbon
+(DOC),
+alkalinity,
+soluble
+chemical
+oxygen
+demand
+(SCOD),
+NH4
++-N, and VFAs according to APHA methods [29].",其他分析为水质与理化参数。,original_files/R03518/fulltext/fulltext__published__aa5fd3d1e00f1e87.pdf,aa5fd3d1e00f1e8768d9bad2473792657a558c3343e29685e3f49a421f92e1f5,[3],2.4 Other analytical methods,,,B004
+R03518-E03,R03518,补充材料核查,Figure S5. Typical EEM spectra of DOM in the leachate from dry AD process with different pre-aeration durations; normalized to 5 mg/L DOC.,现有附件仅光谱/产气/水质图，无测序方法或编号；保留唯一归属待核实。,original_files/R03518/supplementary/supplementary__be818d1094ea8d29.docx,be818d1094ea8d2923262b22fae68207e53b62fb804db043c45a43353bd3112e,[],DOCX段落1–6及28–95,,,B004
+R03522-E01,R03522,方法判断,"Microaeration has been applied on seven municipal wastewater
+treatment plants (WWTPs) in central Europe. Their characteriza-
+tion is described in Table 1.",原始全规模运行研究；并非综述，方法没有测序。,original_files/R03522/fulltext/fulltext__published__73e8e5aed501f6e5.pdf,73e8e5aed501f6e51c306bb0e9a6208d27f9d0dcd78b08465ec99c1c8bec1c29,[2],2 Material and methods,,,B004
+R03522-E02,R03522,方法判断,"In all evaluated di-
+gesters, air has been dosed into the recirculation stream (Fig. 2).",描述空气投加装置；全文结果为脱硫及污泥质量变化，不含目标测序。,original_files/R03522/fulltext/fulltext__published__73e8e5aed501f6e5.pdf,73e8e5aed501f6e51c306bb0e9a6208d27f9d0dcd78b08465ec99c1c8bec1c29,[2],2 Material and methods,,,B004
+R03564-E01,R03564,方法判断,"A primer combination of 341F
+(5′-CCTACGGGAGGCAGCAG-3′) and 907R (5′-CCGTCAATTCCTTTGAGTTT-3′) was used to
+selectively amplify the 16S rRNA sequences of bacteria [27]. Another primer combination of 787F
+(5′-ATTAGA TACCCTGGTAGTCC-3′) and 1059R (5′-GGACTACCAGGGTATCTAAT-3′) was used to
+selectively amplify the 16S rRNA sequences of archaea [28].",明确两套引物扩增细菌/古菌16S rRNA基因，不是群落DNA随机建库。,original_files/R03564/fulltext/fulltext__published__2f2d17a0a7254275.pdf,2f2d17a0a7254275b5799c7fcd7ba57973ca0b4c3ec6b9eaf4fcfe65bf7f66d9,[6],"2.4 DNA Extraction, Amplification by PCR, DGGE and Sequencing",,,B004
+R03564-E02,R03564,方法判断,"Selected DGGE bands were excised and re-ampliﬁed by PCR with the aforementioned primers
+without the GC clamp. The PCR products were sequenced at TaKaRa Biotechnology Co.
+Ltd.,
+(Dalian, China).",测序对象是切胶再扩增的标记基因条带；全文方法未报告目标测序。,original_files/R03564/fulltext/fulltext__published__2f2d17a0a7254275.pdf,2f2d17a0a7254275b5799c7fcd7ba57973ca0b4c3ec6b9eaf4fcfe65bf7f66d9,[6],"2.4 DNA Extraction, Amplification by PCR, DGGE and Sequencing",,,B004
+R03575-E01,R03575,方法判断,"To determine the biochemical methane potential (BMP) and
+compare the efﬁciency from the rice straw treated under different
+regimes (incubation temperatures and aeration times), the batch-
+mode Automatic Methane Potential Test System (AMPTS II) (Bio-
+process Control AB, Sweden) was used to perform BMP tests.",实验为BMP产气评估。,original_files/R03575/fulltext/fulltext__published__736bf01b6ba7c6e7.pdf,736bf01b6ba7c6e7251c68d2c24899da7cf96fca77f1ddb24151133618ed45f5,[3],2.2.2 Methane potential assessment,,,B004
+R03575-E02,R03575,方法判断,"The changes of cellulose, hemicellulose and lignin contents
+were determined by the standard analysis of hydrolysis process
+described by the National Renewable Energy Laboratory (NREL)
+Analytical Procedure (Sluiter et al., 2008).",完整分析方法为固体、碳氮、纤维组分及VFAs等理化分析，无目标测序。,original_files/R03575/fulltext/fulltext__published__736bf01b6ba7c6e7.pdf,736bf01b6ba7c6e7251c68d2c24899da7cf96fca77f1ddb24151133618ed45f5,[3],2.3 Analytical methods,,,B004
+R03737-E01,R03737,方法判断,"Bacterial and archaeal diver-
+sity was determined by high throughput DNA sequencing of the
+16S rRNA gene V4-V5 variable regions using Ion TorrentTM PGM
+technology (Life Technologies, USA) at the IRSTEA BIOMIC team
+(Antony, France) (Poirier et al. (2016).",Ion Torrent测的是16S V4–V5，非宏基因组。,original_files/R03737/fulltext/fulltext__published__a01cf0612b37cb24.pdf,a01cf0612b37cb24266d34adcc648fcab6d66b40737d0f275e61dd9c4e3f4de0,[3],2.6 Characterisation and dynamics of FW microbial community,,,B004
+R03737-E02,R03737,方法判断,"Fungal diversity was investigated by col-
+lecting mycelium on day 4 of the 21%O2 pre-treatment condition,
+extracting DNA and cloning and sequencing of a 422 bp fragment
+of the 18S rRNA genes.",真菌为422bp 18S标记片段克隆，不是宏转录组。,original_files/R03737/fulltext/fulltext__published__a01cf0612b37cb24.pdf,a01cf0612b37cb24266d34adcc648fcab6d66b40737d0f275e61dd9c4e3f4de0,[3],2.6 Characterisation and dynamics of FW microbial community,,,B004
+R03737-E03,R03737,非目标编号排除,"Out of the 48 clones
+sequenced, 31 were identiﬁed as Rhizopus oryzae isolate A2 (acc.
+KM527239) and 12 as Lichtheimia ramosa (acc. LK023322), all with
+99% of sequence similarity.",KM527239、LK023322是文中用于克隆比对鉴定的序列编号，非本研究目标测序项目号。,original_files/R03737/fulltext/fulltext__published__a01cf0612b37cb24.pdf,a01cf0612b37cb24266d34adcc648fcab6d66b40737d0f275e61dd9c4e3f4de0,[7],3.2.3 Fungal growth/identification,,,B004
+R03900-E01,R03900,方法判断,"Ampliﬁcations of bacterial 16S rRNA genes for
+the V3–V4 regions were performed with bacterial fused primers 341F
+and 805R (Herlemann et al., 2011; Hugerth et al., 2014).",靶标和引物明确：16S V3–V4扩增子，不是宏基因组。,original_files/R03900/fulltext/fulltext__published__254540c6f1846351.pdf,254540c6f1846351c168ff143b23a9032a3d0d2ea7dfa538972b5679d47155fc,[2],2.5 DNA extraction and Illumina MiSeq sequencing,,,B004
+R03900-E02,R03900,方法判断,"The speciﬁc
+procedure of polymerase chain reaction (PCR) was conducted according
+to a previous study (Zhou et al., 2015). The composition of PCR pro-
+ducts of V4 region was determined by pyrosequencing using the Illu-
+mina Miseq sequencer platform (Shanghai Sangon, China).",MiSeq用于PCR扩增产物；不能仅根据平台判断宏基因组。,original_files/R03900/fulltext/fulltext__published__254540c6f1846351.pdf,254540c6f1846351c168ff143b23a9032a3d0d2ea7dfa538972b5679d47155fc,[2],2.5 DNA extraction and Illumina MiSeq sequencing,,,B004
+R03900-E03,R03900,补充材料缺口,"The SEM images of granulation process were shown in E-supplementary
+data and could be found in e-version of this paper online.",未取得的电子SI被正文描述为SEM图；记录缺口，不扩大到目标测序。,original_files/R03900/fulltext/fulltext__published__254540c6f1846351.pdf,254540c6f1846351c168ff143b23a9032a3d0d2ea7dfa538972b5679d47155fc,[7],3.4 Granulation / E-supplementary data,,,B004
+R04028-E01,R04028,方法判断,"During the micro-aerobic pretreatment
+process, the supernatants were sampled after 24 h for determination of
+volatile
+fatty
+acid
+(VFAs),
+peroxidase,
+carboxymethyl
+cellulase
+(CMCase) and glucose. Corn straw in every bottle was collected to
+measure crystallinity degree after pretreatment.",测量对象为VFA、酶活、葡萄糖及结晶度，非测序。,original_files/R04028/fulltext/fulltext__published__6c89d60f8df5d2c8.pdf,6c89d60f8df5d2c84795246955c483c1fc417ced115b4bc688f693481acf8306,[2],2.2 Bacteria micro-aerobic pretreatment,,,B004
+R04028-E02,R04028,方法判断,"Cellulase (CMCase) was
+determined by sodium carboxymethyl cellulose method at 540 nm
+(Ridge & Osborne, 1969).",酶活为比色底物法，不能视为转录组。,original_files/R04028/fulltext/fulltext__published__6c89d60f8df5d2c8.pdf,6c89d60f8df5d2c84795246955c483c1fc417ced115b4bc688f693481acf8306,[3],2.4.2 Enzyme analysis,,,B004
+R04060-E01,R04060,方法判断,"Feed dry matter (DM) and VS were determined weekly or
+every time a new batch of raw sludge was collected from
+the wastewater treatment plant, based on drying at 105 [U+0001]C
+and combustion at 550 [U+0001]C (APHA, AWWA, WEF ).",完整分析方法为固体/水质及产气指标，无目标测序。,original_files/R04060/fulltext/fulltext__published__5cb0e5b9a358787b.pdf,5cb0e5b9a358787b0372cd47291d6e4263f7a8b62aec464bf4999625319a94f5,[2],METHODS – Sample collection and analysis,,,B004
+R04060-E02,R04060,方法判断,"All data analysis was done using R (R Core Team ).
+Biogas
+and
+CH4
+production
+were
+determined
+from
+measured volumes and composition using the cumBg func-
+tion in the biogas package (Hafner et al. ) and
+expressed as dry volume at 0 [U+0001]C and 101.325 kPa.",biogas为R计算包，用于气量计算，非生物信息学测序分析。,original_files/R04060/fulltext/fulltext__published__5cb0e5b9a358787b.pdf,5cb0e5b9a358787b0372cd47291d6e4263f7a8b62aec464bf4999625319a94f5,[3],METHODS – Data analysis,,,B004
+R04092-E01,R04092,方法判断,"The biogas production
+was measured by liquid displacement and the biogas composition
+was determined by GC-TCD. Sulfate concentration was measured
+by HPLC-IC. VFA concentrations were quantiﬁed by GC-FID.
+Alkalinity, ammonium, TKN, COD, TS, VS, total dissolved sulﬁde,
+pH and ORP were determined according to standard methods [19].",完整实验数据为气体、硫酸盐、VFA及理化指标。,original_files/R04092/fulltext/fulltext__published__187b868956ed3e07.pdf,187b868956ed3e07456eb08dd523d037ffb342e17033c71274fc2618ce78b4ef,[2],2.1 Experimental data,,,B004
+R04092-E02,R04092,方法判断,"ADM1 was implemented and solved in Matlab12015b along
+with the general modiﬁcation suggested by Rosen and Jeppsson
+[20].",过程数学模型，不是宏基因组分析。,original_files/R04092/fulltext/fulltext__published__187b868956ed3e07.pdf,187b868956ed3e07456eb08dd523d037ffb342e17033c71274fc2618ce78b4ef,[2],2.2.1 Model implementation and ADM1 modification,,,B004
+R04111-E01,R04111,方法判断,"Gas permeation (the con-
+centration of hydrogen sulfide, oxygen, nitrogen, methane
+and carbon dioxide) through the membrane was measured in
+three configurations: bare membrane (experiments with a dry
+membrane), wet membrane (the membrane was submerged
+for 30 minutes in tap water before the experiment), and bio-
+membrane (the membrane was submerged for 30 minutes in
+mesophilic sludge for biofilm attachment before the experi-
+ment).",三膜配置比较气体通透性，无测序。,original_files/R04111/fulltext/fulltext__published__4e16411a50808da0.pdf,4e16411a50808da04b9eee3d3090cc587e0222f008c01b6a99b9e26589e20caa,[2],2.1 Experimental set-up: lab-scale biomembrane unit,,,B004
+R04111-E02,R04111,方法判断,"Analyses of COD,
+pH, VFA, solids, ammonia and sulfide were performed
+according to the Standard Methods (American Public Health
+Association, 1997).",完整分析方法为气体、水质、元素和XRF检测，非目标测序。,original_files/R04111/fulltext/fulltext__published__4e16411a50808da0.pdf,4e16411a50808da04b9eee3d3090cc587e0222f008c01b6a99b9e26589e20caa,[4],2.4 Analytical methods,,,B004
+R04177-E01,R04177,方法判断,"The COD and VFA concentrations were determined by 
+employing standard methods [12]. The DO was determined 
+with a Model 55 analyzer (YSI, USA) [13], whereas the biogas 
+production was determined by using the liquid displacement 
+technique [14]. The granular sludge particle-size distribution 
+was determined via the wet-screening method [15].",完整分析方法限定为理化、气量和粒径；不是DNA/RNA测序。,original_files/R04177/fulltext/fulltext__published__09b0de58af2ff1e6.pdf,09b0de58af2ff1e679e24cecf4a4a617fa2a0e539dc66351e2edb4076d2e7b72,[3],2.5 Items and methods of analysis,,,B004
+R04324-E01,R04324,方法判断,"Both VFAs and ethanol were measured via
+high-performance liquid chromatography following the method re-
+ported by Yu et al. (2018).",功能/代谢物测量为HPLC，不是宏转录组。,original_files/R04324/fulltext/fulltext__published__1590c60360a46d39.pdf,1590c60360a46d392999a24ef4147ea6023717eb6f845a839d69b8dccaf6f4a8,[3],2.3 Analytical methods,,,B004
+R04324-E02,R04324,方法判断,"The methane contents were
+analysed via gas chromatography (GC-2010, Shimadzu International
+Trading Co., Ltd., Shanghai, China) equipped with a CP-Porabond Q
+column and a thermal conductivity detector.",完整方法为理化、产气及数学拟合，无目标测序。,original_files/R04324/fulltext/fulltext__published__1590c60360a46d39.pdf,1590c60360a46d392999a24ef4147ea6023717eb6f845a839d69b8dccaf6f4a8,[3],2.3 Analytical methods,,,B004
+R04477-E01,R04477,方法判断,"All gas and wastewater analyses were performed on samples obtained from the digesters
+immediately prior to weekly feedings of poultry litter. Wastewater and solids analyses were performed",分析对象为气体、废水和固体；其后PDF4页续为标准方法与GC。,original_files/R04477/fulltext/fulltext__published__dc52821c42ce8476.pdf,dc52821c42ce84765057b8c1aba951d40c1eb338df462600a5aaadc8659d073d,"[3, 4]",2.3 Analyses,,,B004
+R04477-E02,R04477,方法判断,"Gas chromatographic analyses were performed as previously described [18] and statistical
+analyses were performed using SAS version 9.3 (SAS Institute, Cary, NC, USA).",完整分析章节为GC/统计，无建库或测序。,original_files/R04477/fulltext/fulltext__published__dc52821c42ce8476.pdf,dc52821c42ce84765057b8c1aba951d40c1eb338df462600a5aaadc8659d073d,[4],2.3 Analyses,,,B004
+R04510-E01,R04510,方法判断,"The following chemical parameters were determined: soluble chemical oxygen demand 
+(CODs), total volatile solids (TVS), volatile suspended solids (VSS), alkalinity, sulfate, 
+sulfide and pH. All these parameters were analyzed according to APHA Standard Methods. 
+31",完整方法中分析项目为COD/固体/碱度/硫酸盐/硫化物/pH，无核酸或测序。,original_files/R04510/fulltext/fulltext__version_unverified__c4520ca79e301bb6.pdf,c4520ca79e301bb606a8ab1fef6cf4af9064c0d85f3c390a4cf31a877238e1c6,[7],Materials and methods – Chemical and statistical analyses,,,B004
+R04510-E02,R04510,方法判断,"Optima 3000 ICP according to standard protocols based on official methods of the US-
+EPA. 33",接前页金属浓度检测为ICP，非序列技术。,original_files/R04510/fulltext/fulltext__version_unverified__c4520ca79e301bb6.pdf,c4520ca79e301bb606a8ab1fef6cf4af9064c0d85f3c390a4cf31a877238e1c6,"[7, 8]",Chemical and statistical analyses,,,B004

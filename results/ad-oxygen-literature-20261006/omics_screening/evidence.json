@@ -1840,5 +1840,796 @@
     "excerpt": "\"count\": \"0\"",
     "interpretation": "已知DOI在SRA未检出关联记录；检索索引可能不含DOI，此结果不证明无数据，也不解决建库类型，保留待确认。",
     "official_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=10.1016%2Fj.biortech.2015.06.072&retmode=json&retmax=20"
+  },
+  {
+    "evidence_id": "R03164-E01",
+    "record_id": "R03164",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03164/fulltext/fulltext__published__948ccf2541317dc8.pdf",
+    "source_sha256": "948ccf2541317dc8e00eb42160e9daec06bc8b39c43b79359b07d0bcd90014a5",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.4 Experimental procedure",
+    "excerpt": "Batch assays were conducted in thermophilic conditions (55 \u0003C)\nin triplicates according to the guidelines of Angelidaki et al. (2009).",
+    "interpretation": "BMP批次实验；完整方法无目标测序流程。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03164-E02",
+    "record_id": "R03164",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03164/fulltext/fulltext__published__948ccf2541317dc8.pdf",
+    "source_sha256": "948ccf2541317dc8e00eb42160e9daec06bc8b39c43b79359b07d0bcd90014a5",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.5 Analytical methods",
+    "excerpt": "The TS, VS, TKN, NHþ\n4 -N and COD were determined according to\nthe Standard Methods (APHA, 2005).",
+    "interpretation": "完整分析方法为理化、元素/碳水组成及气相/离子色谱；未报告群落DNA/RNA测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03220-E01",
+    "record_id": "R03220",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03220/fulltext/fulltext__published__e3a420e737821dfe.pdf",
+    "source_sha256": "e3a420e737821dfea7af915ed874babf5028acd2c2ac56810527678967b2b408",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.6 Analytical methods",
+    "excerpt": "Fiber compositions (i.e.,\nNDF, ADF, and ADL) were analyzed before and after AD using a cell\nwall fractionation method, according to Van Soest (Faithfull, 2002).",
+    "interpretation": "完整§2.1–2.6为Napier草VFA实验、纤维组成、GC及SEM分析，无核酸/测序方法。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03220-E02",
+    "record_id": "R03220",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03220/fulltext/fulltext__published__e3a420e737821dfe.pdf",
+    "source_sha256": "e3a420e737821dfea7af915ed874babf5028acd2c2ac56810527678967b2b408",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.6 Analytical methods",
+    "excerpt": "Then the specimens were viewed with a ﬁeld\nemission SEM (Hitachi S-4800, japan) at an accelerating voltage\nof 5.0 kV.",
+    "interpretation": "形态检测为SEM，不是测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03220-E03",
+    "record_id": "R03220",
+    "evidence_kind": "补充材料核查",
+    "source_path": "original_files/R03220/supplementary/supplementary__c26f71c81867faf0.docx",
+    "source_sha256": "c26f71c81867faf0f35f9d5573b3f197c6b071c173aeb47911a1e7bd7f21badb",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [],
+    "section": "DOCX段落1–71",
+    "excerpt": "Appendix A. Supplementary data",
+    "interpretation": "全文读取现有附件：仅ANOVA表，无测序方法/编号；目录与内容相符但无独立题名/DOI，不用其编号归属正文。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03220-E04",
+    "record_id": "R03220",
+    "evidence_kind": "补充材料核查",
+    "source_path": "original_files/R03220/supplementary/supplementary__285191e1fb2e2380.docx",
+    "source_sha256": "285191e1fb2e2380af580874c7bc1fe0511fdeacc29d469b2a65533c413cef1b",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [],
+    "section": "DOCX段落1–21",
+    "excerpt": "Table S2. ANOVA table of structural carbohydrate in selected conditions compared with the raw Napier grass",
+    "interpretation": "全文读取现有附件：仅ANOVA表，无测序方法/编号；目录与内容相符但无独立题名/DOI，不用其编号归属正文。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03400-E01",
+    "record_id": "R03400",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03400/fulltext/fulltext__published__cba2185ab15ca24d.pdf",
+    "source_sha256": "cba2185ab15ca24da84a7c037b3828d6d8e604231ec94a59baf4ca3062420a67",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      5
+    ],
+    "section": "2.2 Reactor configuration – simulation set-up",
+    "excerpt": "The\n granular\n sludge\n from\n UASB\n and\n UMSB\n reactor\n [4]\n was\n ana-\nlysed\n by\n PCR\n and\n DGGE.",
+    "interpretation": "原PDF逐词换行，此处只合并空白；检测明确为PCR/DGGE，非目标测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03400-E02",
+    "record_id": "R03400",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03400/fulltext/fulltext__published__cba2185ab15ca24d.pdf",
+    "source_sha256": "cba2185ab15ca24da84a7c037b3828d6d8e604231ec94a59baf4ca3062420a67",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      4
+    ],
+    "section": "2.2 Reactor configuration – simulation set-up",
+    "excerpt": "The\n model\n was\n validated\n on\n the\n experimental\n data\n described\n by\nKrayzelova\n et\n al.\n [4], comparing\n the\n behavior\n of\n two\n UASB\n reac-\ntors,\n a\n strictly\n anaerobic\n UASB\n and\n a\n microaerobic\n one\n (termed\nUMSB).",
+    "interpretation": "复用的是过程实验数据；完整方法未使用既有公开组学数据。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03400-E03",
+    "record_id": "R03400",
+    "evidence_kind": "补充材料核查",
+    "source_path": "original_files/R03400/supplementary/supplementary__01a0c3f189551435.docx",
+    "source_sha256": "01a0c3f1895514354073ac76fd5eba93eb36e465a996317f8fb16b0f985f2639",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [],
+    "section": "DOCX段落2–3、817–871；§S.1–S.5",
+    "excerpt": "The stoichiometric matrix, composition matrix and kinetic expressions for ADM1-S/O are summarized in Tables S1 and S2.  Tables S3, S4 and S5 list the corresponding stoichiometric, kinetic and physicochemical parameters, respectively.",
+    "interpretation": "补充内容是ADM1-S/O计量矩阵和模型参数，与正文§2跨节引用一致；无目标测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03455-E01",
+    "record_id": "R03455",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03455/fulltext/fulltext__published__64a8528ddfd93bdf.pdf",
+    "source_sha256": "64a8528ddfd93bdf1c052560305416eb52315f9e1c60e1e846a8201168bfe2bd",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Analysis",
+    "excerpt": "TS, VS, total suspended solids (TSS), volatile suspended \nsolids (VSS), total chemical oxygen demand (TCOD) and \nsoluble chemical oxygen demand (SCOD) were measured \naccording to the standard methods [21].",
+    "interpretation": "完整分析方法为理化和硫/铁/气体测量，无目标测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03455-E02",
+    "record_id": "R03455",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03455/fulltext/fulltext__published__64a8528ddfd93bdf.pdf",
+    "source_sha256": "64a8528ddfd93bdf1c052560305416eb52315f9e1c60e1e846a8201168bfe2bd",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      4
+    ],
+    "section": "2.3 Analysis",
+    "excerpt": "Biogas composition (CH4, CO2, H2S and O2) was mea­\nsured daily using a portable biogas analyzer (Biogas 5000, \nGeotech, UK).",
+    "interpretation": "气体组分检测而非测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03455-E03",
+    "record_id": "R03455",
+    "evidence_kind": "补充材料核查",
+    "source_path": "original_files/R03455/fulltext/fulltext__published__64a8528ddfd93bdf.pdf",
+    "source_sha256": "64a8528ddfd93bdf1c052560305416eb52315f9e1c60e1e846a8201168bfe2bd",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      11
+    ],
+    "section": "Supplementary material, Table S1/Fig S1",
+    "excerpt": "The mass distribution of sulfur compounds (mg) in the system before and after semi-continuous anaerobic and microaerobic",
+    "interpretation": "内嵌SI为硫平衡表和装置示意图。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03475-E01",
+    "record_id": "R03475",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03475/fulltext/fulltext__published__87798503de877f9d.pdf",
+    "source_sha256": "87798503de877f9daa12f0581b7411045b6801a5a720bc6d6510c01d9a01dd32",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.4 Analysis",
+    "excerpt": "Biogas\ncomposition\nwas\nanalyzed\nusing\ngas\nchromatography (GC; NUCON 5765) with thermal conductivity\ndetector (TCD)",
+    "interpretation": "完整方法为产气、VFA/醇色谱和理化分析，无目标测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03475-E02",
+    "record_id": "R03475",
+    "evidence_kind": "术语命中排除",
+    "source_path": "original_files/R03475/fulltext/fulltext__published__87798503de877f9d.pdf",
+    "source_sha256": "87798503de877f9daa12f0581b7411045b6801a5a720bc6d6510c01d9a01dd32",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      9
+    ],
+    "section": "References: Sarkar et al. 2016",
+    "excerpt": "metagenomic proﬁling. RSC Adv. 6,\n18641.",
+    "interpretation": "目标术语为参考文献题名，不是本研究测序方法。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03475-E03",
+    "record_id": "R03475",
+    "evidence_kind": "补充材料核查",
+    "source_path": "original_files/R03475/supplementary/supplementary__e076e49096bc6bd6.docx",
+    "source_sha256": "e076e49096bc6bd6044ca3d101f15ed36f99724ebe224f8bd571bcfdb4029a91",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [],
+    "section": "DOCX段落1–5、11、21–29",
+    "excerpt": "Pre-aeration of waste to augment acidogenic process at higher organic load: Valorizing Biohydrogen, Fatty acids and Biohythane\nOmprakash Sarkar and S. Venkata Mohan*\nBioengineering and Environmental Sciences Lab, EEFF Department,\nCSIR-Indian Institute of Chemical Technology (CSIR-IICT), Hyderabad 500 007, India",
+    "interpretation": "题名细微措辞差异，两位作者及机构一致，支持本研究补充材料唯一关联；内容为biohythane图和化学反应式，无目标测序/编号。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03497-E01",
+    "record_id": "R03497",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03497/fulltext/fulltext__published__2d594b9c7205bdf2.pdf",
+    "source_sha256": "2d594b9c7205bdf2e74f389879019103da37df12335f8ec4410e17b716273d88",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      4
+    ],
+    "section": "2.3 Analysis of raw sewage and reactor effluents",
+    "excerpt": "The standard methods described by the APHA/AWWA/\nWEF [22] were employed to assess COD (titrimetric\nclosed reﬂux; APHA/AWWA/WEF section 5220C), sul-\nphide\n(methylene\nblue\nmethod;\nAPHA/AWWA/WEF\nsection 4500D) and pH (potentiometry).",
+    "interpretation": "完整分析方法为水质/硫形态、离子色谱及物相分析，无目标测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03497-E02",
+    "record_id": "R03497",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03497/fulltext/fulltext__published__2d594b9c7205bdf2.pdf",
+    "source_sha256": "2d594b9c7205bdf2e74f389879019103da37df12335f8ec4410e17b716273d88",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      4
+    ],
+    "section": "2.3 Analysis of raw sewage and reactor effluents",
+    "excerpt": "Scanning electron microscopy\nwith energy-dispersive X-ray (SEM/EDX) was performed\nusing a TM-1000 bench model instrument (Hitachi,\nTokyo, Japan) to observe submicron-scale features of\nthe solid material precipitated in the anaerobic ﬁlter\nefﬂuent and to provide elemental identiﬁcation and\nquantitative compositional information.",
+    "interpretation": "SEM/EDX观察沉淀材料并做元素鉴定，不是序列数据。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03518-E01",
+    "record_id": "R03518",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03518/fulltext/fulltext__published__aa5fd3d1e00f1e87.pdf",
+    "source_sha256": "aa5fd3d1e00f1e8768d9bad2473792657a558c3343e29685e3f49a421f92e1f5",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Characterisation of spectroscopy",
+    "excerpt": "Fluorescence EEM spectroscopy was measured using a Hitachi\nF-7000 ﬂuorescence spectrometer (Hitachi, Japan) at room temper-\nature according to He et al. [23], with minor modiﬁcations.",
+    "interpretation": "测量为DOM荧光光谱；完整方法无测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03518-E02",
+    "record_id": "R03518",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03518/fulltext/fulltext__published__aa5fd3d1e00f1e87.pdf",
+    "source_sha256": "aa5fd3d1e00f1e8768d9bad2473792657a558c3343e29685e3f49a421f92e1f5",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.4 Other analytical methods",
+    "excerpt": "The ﬁltrate was tested for pH, dissolved organic carbon\n(DOC),\nalkalinity,\nsoluble\nchemical\noxygen\ndemand\n(SCOD),\nNH4\n+-N, and VFAs according to APHA methods [29].",
+    "interpretation": "其他分析为水质与理化参数。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03518-E03",
+    "record_id": "R03518",
+    "evidence_kind": "补充材料核查",
+    "source_path": "original_files/R03518/supplementary/supplementary__be818d1094ea8d29.docx",
+    "source_sha256": "be818d1094ea8d2923262b22fae68207e53b62fb804db043c45a43353bd3112e",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [],
+    "section": "DOCX段落1–6及28–95",
+    "excerpt": "Figure S5. Typical EEM spectra of DOM in the leachate from dry AD process with different pre-aeration durations; normalized to 5 mg/L DOC.",
+    "interpretation": "现有附件仅光谱/产气/水质图，无测序方法或编号；保留唯一归属待核实。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03522-E01",
+    "record_id": "R03522",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03522/fulltext/fulltext__published__73e8e5aed501f6e5.pdf",
+    "source_sha256": "73e8e5aed501f6e51c306bb0e9a6208d27f9d0dcd78b08465ec99c1c8bec1c29",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2 Material and methods",
+    "excerpt": "Microaeration has been applied on seven municipal wastewater\ntreatment plants (WWTPs) in central Europe. Their characteriza-\ntion is described in Table 1.",
+    "interpretation": "原始全规模运行研究；并非综述，方法没有测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03522-E02",
+    "record_id": "R03522",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03522/fulltext/fulltext__published__73e8e5aed501f6e5.pdf",
+    "source_sha256": "73e8e5aed501f6e51c306bb0e9a6208d27f9d0dcd78b08465ec99c1c8bec1c29",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2 Material and methods",
+    "excerpt": "In all evaluated di-\ngesters, air has been dosed into the recirculation stream (Fig. 2).",
+    "interpretation": "描述空气投加装置；全文结果为脱硫及污泥质量变化，不含目标测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03564-E01",
+    "record_id": "R03564",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03564/fulltext/fulltext__published__2f2d17a0a7254275.pdf",
+    "source_sha256": "2f2d17a0a7254275b5799c7fcd7ba57973ca0b4c3ec6b9eaf4fcfe65bf7f66d9",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      6
+    ],
+    "section": "2.4 DNA Extraction, Amplification by PCR, DGGE and Sequencing",
+    "excerpt": "A primer combination of 341F\n(5′-CCTACGGGAGGCAGCAG-3′) and 907R (5′-CCGTCAATTCCTTTGAGTTT-3′) was used to\nselectively amplify the 16S rRNA sequences of bacteria [27]. Another primer combination of 787F\n(5′-ATTAGA TACCCTGGTAGTCC-3′) and 1059R (5′-GGACTACCAGGGTATCTAAT-3′) was used to\nselectively amplify the 16S rRNA sequences of archaea [28].",
+    "interpretation": "明确两套引物扩增细菌/古菌16S rRNA基因，不是群落DNA随机建库。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03564-E02",
+    "record_id": "R03564",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03564/fulltext/fulltext__published__2f2d17a0a7254275.pdf",
+    "source_sha256": "2f2d17a0a7254275b5799c7fcd7ba57973ca0b4c3ec6b9eaf4fcfe65bf7f66d9",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      6
+    ],
+    "section": "2.4 DNA Extraction, Amplification by PCR, DGGE and Sequencing",
+    "excerpt": "Selected DGGE bands were excised and re-ampliﬁed by PCR with the aforementioned primers\nwithout the GC clamp. The PCR products were sequenced at TaKaRa Biotechnology Co.\nLtd.,\n(Dalian, China).",
+    "interpretation": "测序对象是切胶再扩增的标记基因条带；全文方法未报告目标测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03575-E01",
+    "record_id": "R03575",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03575/fulltext/fulltext__published__736bf01b6ba7c6e7.pdf",
+    "source_sha256": "736bf01b6ba7c6e7251c68d2c24899da7cf96fca77f1ddb24151133618ed45f5",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.2.2 Methane potential assessment",
+    "excerpt": "To determine the biochemical methane potential (BMP) and\ncompare the efﬁciency from the rice straw treated under different\nregimes (incubation temperatures and aeration times), the batch-\nmode Automatic Methane Potential Test System (AMPTS II) (Bio-\nprocess Control AB, Sweden) was used to perform BMP tests.",
+    "interpretation": "实验为BMP产气评估。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03575-E02",
+    "record_id": "R03575",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03575/fulltext/fulltext__published__736bf01b6ba7c6e7.pdf",
+    "source_sha256": "736bf01b6ba7c6e7251c68d2c24899da7cf96fca77f1ddb24151133618ed45f5",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Analytical methods",
+    "excerpt": "The changes of cellulose, hemicellulose and lignin contents\nwere determined by the standard analysis of hydrolysis process\ndescribed by the National Renewable Energy Laboratory (NREL)\nAnalytical Procedure (Sluiter et al., 2008).",
+    "interpretation": "完整分析方法为固体、碳氮、纤维组分及VFAs等理化分析，无目标测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03737-E01",
+    "record_id": "R03737",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03737/fulltext/fulltext__published__a01cf0612b37cb24.pdf",
+    "source_sha256": "a01cf0612b37cb24266d34adcc648fcab6d66b40737d0f275e61dd9c4e3f4de0",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.6 Characterisation and dynamics of FW microbial community",
+    "excerpt": "Bacterial and archaeal diver-\nsity was determined by high throughput DNA sequencing of the\n16S rRNA gene V4-V5 variable regions using Ion TorrentTM PGM\ntechnology (Life Technologies, USA) at the IRSTEA BIOMIC team\n(Antony, France) (Poirier et al. (2016).",
+    "interpretation": "Ion Torrent测的是16S V4–V5，非宏基因组。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03737-E02",
+    "record_id": "R03737",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03737/fulltext/fulltext__published__a01cf0612b37cb24.pdf",
+    "source_sha256": "a01cf0612b37cb24266d34adcc648fcab6d66b40737d0f275e61dd9c4e3f4de0",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.6 Characterisation and dynamics of FW microbial community",
+    "excerpt": "Fungal diversity was investigated by col-\nlecting mycelium on day 4 of the 21%O2 pre-treatment condition,\nextracting DNA and cloning and sequencing of a 422 bp fragment\nof the 18S rRNA genes.",
+    "interpretation": "真菌为422bp 18S标记片段克隆，不是宏转录组。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03737-E03",
+    "record_id": "R03737",
+    "evidence_kind": "非目标编号排除",
+    "source_path": "original_files/R03737/fulltext/fulltext__published__a01cf0612b37cb24.pdf",
+    "source_sha256": "a01cf0612b37cb24266d34adcc648fcab6d66b40737d0f275e61dd9c4e3f4de0",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      7
+    ],
+    "section": "3.2.3 Fungal growth/identification",
+    "excerpt": "Out of the 48 clones\nsequenced, 31 were identiﬁed as Rhizopus oryzae isolate A2 (acc.\nKM527239) and 12 as Lichtheimia ramosa (acc. LK023322), all with\n99% of sequence similarity.",
+    "interpretation": "KM527239、LK023322是文中用于克隆比对鉴定的序列编号，非本研究目标测序项目号。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03900-E01",
+    "record_id": "R03900",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03900/fulltext/fulltext__published__254540c6f1846351.pdf",
+    "source_sha256": "254540c6f1846351c168ff143b23a9032a3d0d2ea7dfa538972b5679d47155fc",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.5 DNA extraction and Illumina MiSeq sequencing",
+    "excerpt": "Ampliﬁcations of bacterial 16S rRNA genes for\nthe V3–V4 regions were performed with bacterial fused primers 341F\nand 805R (Herlemann et al., 2011; Hugerth et al., 2014).",
+    "interpretation": "靶标和引物明确：16S V3–V4扩增子，不是宏基因组。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03900-E02",
+    "record_id": "R03900",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R03900/fulltext/fulltext__published__254540c6f1846351.pdf",
+    "source_sha256": "254540c6f1846351c168ff143b23a9032a3d0d2ea7dfa538972b5679d47155fc",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.5 DNA extraction and Illumina MiSeq sequencing",
+    "excerpt": "The speciﬁc\nprocedure of polymerase chain reaction (PCR) was conducted according\nto a previous study (Zhou et al., 2015). The composition of PCR pro-\nducts of V4 region was determined by pyrosequencing using the Illu-\nmina Miseq sequencer platform (Shanghai Sangon, China).",
+    "interpretation": "MiSeq用于PCR扩增产物；不能仅根据平台判断宏基因组。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R03900-E03",
+    "record_id": "R03900",
+    "evidence_kind": "补充材料缺口",
+    "source_path": "original_files/R03900/fulltext/fulltext__published__254540c6f1846351.pdf",
+    "source_sha256": "254540c6f1846351c168ff143b23a9032a3d0d2ea7dfa538972b5679d47155fc",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      7
+    ],
+    "section": "3.4 Granulation / E-supplementary data",
+    "excerpt": "The SEM images of granulation process were shown in E-supplementary\ndata and could be found in e-version of this paper online.",
+    "interpretation": "未取得的电子SI被正文描述为SEM图；记录缺口，不扩大到目标测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R04028-E01",
+    "record_id": "R04028",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R04028/fulltext/fulltext__published__6c89d60f8df5d2c8.pdf",
+    "source_sha256": "6c89d60f8df5d2c84795246955c483c1fc417ced115b4bc688f693481acf8306",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.2 Bacteria micro-aerobic pretreatment",
+    "excerpt": "During the micro-aerobic pretreatment\nprocess, the supernatants were sampled after 24 h for determination of\nvolatile\nfatty\nacid\n(VFAs),\nperoxidase,\ncarboxymethyl\ncellulase\n(CMCase) and glucose. Corn straw in every bottle was collected to\nmeasure crystallinity degree after pretreatment.",
+    "interpretation": "测量对象为VFA、酶活、葡萄糖及结晶度，非测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R04028-E02",
+    "record_id": "R04028",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R04028/fulltext/fulltext__published__6c89d60f8df5d2c8.pdf",
+    "source_sha256": "6c89d60f8df5d2c84795246955c483c1fc417ced115b4bc688f693481acf8306",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.4.2 Enzyme analysis",
+    "excerpt": "Cellulase (CMCase) was\ndetermined by sodium carboxymethyl cellulose method at 540 nm\n(Ridge & Osborne, 1969).",
+    "interpretation": "酶活为比色底物法，不能视为转录组。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R04060-E01",
+    "record_id": "R04060",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R04060/fulltext/fulltext__published__5cb0e5b9a358787b.pdf",
+    "source_sha256": "5cb0e5b9a358787b0372cd47291d6e4263f7a8b62aec464bf4999625319a94f5",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      2
+    ],
+    "section": "METHODS – Sample collection and analysis",
+    "excerpt": "Feed dry matter (DM) and VS were determined weekly or\nevery time a new batch of raw sludge was collected from\nthe wastewater treatment plant, based on drying at 105 \u0001C\nand combustion at 550 \u0001C (APHA, AWWA, WEF ).",
+    "interpretation": "完整分析方法为固体/水质及产气指标，无目标测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R04060-E02",
+    "record_id": "R04060",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R04060/fulltext/fulltext__published__5cb0e5b9a358787b.pdf",
+    "source_sha256": "5cb0e5b9a358787b0372cd47291d6e4263f7a8b62aec464bf4999625319a94f5",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "METHODS – Data analysis",
+    "excerpt": "All data analysis was done using R (R Core Team ).\nBiogas\nand\nCH4\nproduction\nwere\ndetermined\nfrom\nmeasured volumes and composition using the cumBg func-\ntion in the biogas package (Hafner et al. ) and\nexpressed as dry volume at 0 \u0001C and 101.325 kPa.",
+    "interpretation": "biogas为R计算包，用于气量计算，非生物信息学测序分析。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R04092-E01",
+    "record_id": "R04092",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R04092/fulltext/fulltext__published__187b868956ed3e07.pdf",
+    "source_sha256": "187b868956ed3e07456eb08dd523d037ffb342e17033c71274fc2618ce78b4ef",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.1 Experimental data",
+    "excerpt": "The biogas production\nwas measured by liquid displacement and the biogas composition\nwas determined by GC-TCD. Sulfate concentration was measured\nby HPLC-IC. VFA concentrations were quantiﬁed by GC-FID.\nAlkalinity, ammonium, TKN, COD, TS, VS, total dissolved sulﬁde,\npH and ORP were determined according to standard methods [19].",
+    "interpretation": "完整实验数据为气体、硫酸盐、VFA及理化指标。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R04092-E02",
+    "record_id": "R04092",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R04092/fulltext/fulltext__published__187b868956ed3e07.pdf",
+    "source_sha256": "187b868956ed3e07456eb08dd523d037ffb342e17033c71274fc2618ce78b4ef",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.2.1 Model implementation and ADM1 modification",
+    "excerpt": "ADM1 was implemented and solved in Matlab12015b along\nwith the general modiﬁcation suggested by Rosen and Jeppsson\n[20].",
+    "interpretation": "过程数学模型，不是宏基因组分析。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R04111-E01",
+    "record_id": "R04111",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R04111/fulltext/fulltext__published__4e16411a50808da0.pdf",
+    "source_sha256": "4e16411a50808da04b9eee3d3090cc587e0222f008c01b6a99b9e26589e20caa",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      2
+    ],
+    "section": "2.1 Experimental set-up: lab-scale biomembrane unit",
+    "excerpt": "Gas permeation (the con-\ncentration of hydrogen sulfide, oxygen, nitrogen, methane\nand carbon dioxide) through the membrane was measured in\nthree configurations: bare membrane (experiments with a dry\nmembrane), wet membrane (the membrane was submerged\nfor 30 minutes in tap water before the experiment), and bio-\nmembrane (the membrane was submerged for 30 minutes in\nmesophilic sludge for biofilm attachment before the experi-\nment).",
+    "interpretation": "三膜配置比较气体通透性，无测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R04111-E02",
+    "record_id": "R04111",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R04111/fulltext/fulltext__published__4e16411a50808da0.pdf",
+    "source_sha256": "4e16411a50808da04b9eee3d3090cc587e0222f008c01b6a99b9e26589e20caa",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      4
+    ],
+    "section": "2.4 Analytical methods",
+    "excerpt": "Analyses of COD,\npH, VFA, solids, ammonia and sulfide were performed\naccording to the Standard Methods (American Public Health\nAssociation, 1997).",
+    "interpretation": "完整分析方法为气体、水质、元素和XRF检测，非目标测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R04177-E01",
+    "record_id": "R04177",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R04177/fulltext/fulltext__published__09b0de58af2ff1e6.pdf",
+    "source_sha256": "09b0de58af2ff1e679e24cecf4a4a617fa2a0e539dc66351e2edb4076d2e7b72",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.5 Items and methods of analysis",
+    "excerpt": "The COD and VFA concentrations were determined by \nemploying standard methods [12]. The DO was determined \nwith a Model 55 analyzer (YSI, USA) [13], whereas the biogas \nproduction was determined by using the liquid displacement \ntechnique [14]. The granular sludge particle-size distribution \nwas determined via the wet-screening method [15].",
+    "interpretation": "完整分析方法限定为理化、气量和粒径；不是DNA/RNA测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R04324-E01",
+    "record_id": "R04324",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R04324/fulltext/fulltext__published__1590c60360a46d39.pdf",
+    "source_sha256": "1590c60360a46d392999a24ef4147ea6023717eb6f845a839d69b8dccaf6f4a8",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Analytical methods",
+    "excerpt": "Both VFAs and ethanol were measured via\nhigh-performance liquid chromatography following the method re-\nported by Yu et al. (2018).",
+    "interpretation": "功能/代谢物测量为HPLC，不是宏转录组。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R04324-E02",
+    "record_id": "R04324",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R04324/fulltext/fulltext__published__1590c60360a46d39.pdf",
+    "source_sha256": "1590c60360a46d392999a24ef4147ea6023717eb6f845a839d69b8dccaf6f4a8",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3
+    ],
+    "section": "2.3 Analytical methods",
+    "excerpt": "The methane contents were\nanalysed via gas chromatography (GC-2010, Shimadzu International\nTrading Co., Ltd., Shanghai, China) equipped with a CP-Porabond Q\ncolumn and a thermal conductivity detector.",
+    "interpretation": "完整方法为理化、产气及数学拟合，无目标测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R04477-E01",
+    "record_id": "R04477",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R04477/fulltext/fulltext__published__dc52821c42ce8476.pdf",
+    "source_sha256": "dc52821c42ce84765057b8c1aba951d40c1eb338df462600a5aaadc8659d073d",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      3,
+      4
+    ],
+    "section": "2.3 Analyses",
+    "excerpt": "All gas and wastewater analyses were performed on samples obtained from the digesters\nimmediately prior to weekly feedings of poultry litter. Wastewater and solids analyses were performed",
+    "interpretation": "分析对象为气体、废水和固体；其后PDF4页续为标准方法与GC。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R04477-E02",
+    "record_id": "R04477",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R04477/fulltext/fulltext__published__dc52821c42ce8476.pdf",
+    "source_sha256": "dc52821c42ce84765057b8c1aba951d40c1eb338df462600a5aaadc8659d073d",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      4
+    ],
+    "section": "2.3 Analyses",
+    "excerpt": "Gas chromatographic analyses were performed as previously described [18] and statistical\nanalyses were performed using SAS version 9.3 (SAS Institute, Cary, NC, USA).",
+    "interpretation": "完整分析章节为GC/统计，无建库或测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R04510-E01",
+    "record_id": "R04510",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R04510/fulltext/fulltext__version_unverified__c4520ca79e301bb6.pdf",
+    "source_sha256": "c4520ca79e301bb606a8ab1fef6cf4af9064c0d85f3c390a4cf31a877238e1c6",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      7
+    ],
+    "section": "Materials and methods – Chemical and statistical analyses",
+    "excerpt": "The following chemical parameters were determined: soluble chemical oxygen demand \n(CODs), total volatile solids (TVS), volatile suspended solids (VSS), alkalinity, sulfate, \nsulfide and pH. All these parameters were analyzed according to APHA Standard Methods. \n31",
+    "interpretation": "完整方法中分析项目为COD/固体/碱度/硫酸盐/硫化物/pH，无核酸或测序。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
+  },
+  {
+    "evidence_id": "R04510-E02",
+    "record_id": "R04510",
+    "evidence_kind": "方法判断",
+    "source_path": "original_files/R04510/fulltext/fulltext__version_unverified__c4520ca79e301bb6.pdf",
+    "source_sha256": "c4520ca79e301bb606a8ab1fef6cf4af9064c0d85f3c390a4cf31a877238e1c6",
+    "worksheet": "",
+    "cells": "",
+    "batch_id": "B004",
+    "pdf_pages": [
+      7,
+      8
+    ],
+    "section": "Chemical and statistical analyses",
+    "excerpt": "Optima 3000 ICP according to standard protocols based on official methods of the US-\nEPA. 33",
+    "interpretation": "接前页金属浓度检测为ICP，非序列技术。",
+    "quote_normalization": "源文本逐字摘录；PDF断行保留；Excel不可表示的控制字符以[U+xxxx]显示，JSON保留原文。"
   }
 ]

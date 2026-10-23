@@ -671,7 +671,11 @@
     "path": "original_files/R03475/supplementary/supplementary__e076e49096bc6bd6.docx",
     "sha256": "e076e49096bc6bd6044ca3d101f15ed36f99724ebe224f8bd571bcfdb4029a91",
     "reason": " 文件可打开且内容为表格/数据/图等补充材料；缺题名/DOI等唯一关联凭据，仅保留目录及内容关联，不能声称已核实附件身份或已收齐全部附件。",
-    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实"
+    "action": "仅保留历史问题与解决证据；不再计唯一关联待核实。",
+    "resolution_status": "已解决",
+    "resolved_in_batch": "B004",
+    "resolution_evidence_id": "R03475-E03",
+    "resolution": "DOCX题名细微措辞差异，两位作者及CSIR-IICT机构一致；内容为本文biohythane图与反应式。原件及原清单字段保留。"
   },
   {
     "record_id": "R13832",
@@ -852,5 +856,31 @@
     "reason": "DNA→PCR→454→Mothur/OTU，靶基因和引物序列未明示；现有SI无补充方法/编号。未确认shotgun，不计目标阳性，也不作阴性。 官方SRA以已知DOI查询0条结果；可能未索引DOI，不证明无数据，也未解决建库类型。",
     "action": "复核正文引用Wan et al.2014 Long-term storage of aerobic granules in liquid media: viable but non-culturable status 的具体PCR建库方法；本轮不下载缺失文献。",
     "official_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=10.1016%2Fj.biortech.2015.06.072&retmode=json&retmax=20"
+  },
+  {
+    "record_id": "R03737",
+    "path": "original_files/R03737/fulltext/fulltext__published__a01cf0612b37cb24.pdf",
+    "sha256": "a01cf0612b37cb24266d34adcc648fcab6d66b40737d0f275e61dd9c4e3f4de0",
+    "batch_id": "B004",
+    "issue_type": "非目标序列编号（比对参考）",
+    "reason": "KM527239 / LK023322，正文PDF7页真菌18S克隆鉴定，99%相似性；不作为本研究宏基因组/宏转录组项目或独立数据集。",
+    "action": "留存线索，不计目标项目；未开展非目标数据库核验",
+    "pdf_pages": [
+      7
+    ],
+    "raw_accession": "KM527239; LK023322",
+    "normalized_accession": "KM527239; LK023322",
+    "accession_level": "单条核酸参考记录（非项目）",
+    "database": "GenBank",
+    "official_url": "https://www.ncbi.nlm.nih.gov/nuccore/KM527239 ; https://www.ncbi.nlm.nih.gov/nuccore/LK023322"
+  },
+  {
+    "record_id": "R03900",
+    "path": "original_files/R03900/fulltext/fulltext__published__254540c6f1846351.pdf",
+    "sha256": "254540c6f1846351c168ff143b23a9032a3d0d2ea7dfa538972b5679d47155fc",
+    "batch_id": "B004",
+    "issue_type": "正文提及SI但当前无原件",
+    "reason": "PDF7页电子SI说明为颗粒化SEM图片；未下载。正文明确16S扩增子。",
+    "action": "保留SI缺口；不作为目标测序候选或原始reads"
   }
 ]
