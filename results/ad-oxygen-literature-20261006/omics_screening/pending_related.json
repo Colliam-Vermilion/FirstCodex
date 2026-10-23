@@ -917,5 +917,164 @@
     "issue_type": "测序类型待确认",
     "reason": "菌群组成已报告但核酸/测序方法及数据来源缺失；现有正文/匹配SI无法区分目标组学和标记基因。",
     "action": "独立复核队列；需要菌群分析的靶标/建库说明，不计阳性或阴性。"
+  },
+  {
+    "record_id": "R05638",
+    "path": "original_files/R05638/fulltext/fulltext__published__2e07cb1c3931c0d4.pdf",
+    "sha256": "2e07cb1c3931c0d4d88c61cf971e78bfd0532db3272897384c770dd2e7f13660",
+    "batch_id": "B005",
+    "issue_type": "正文提及SI但当前无原件",
+    "reason": "PDF8页Supplementary Materials提及Table S1固体负荷/处理理化数据，现无独立SI。",
+    "action": "保留缺口，不追下载；不视为目标序列数据。"
+  },
+  {
+    "record_id": "R06611",
+    "path": "original_files/R06611/fulltext/fulltext__accepted__b8eb8afdada2a2d0.pdf",
+    "sha256": "b8eb8afdada2a2d0d5151fd81489263cbfd0ccc3bbde8c5ca36a02af52cfa12f",
+    "batch_id": "B005",
+    "issue_type": "扫描稿OCR及原页复核",
+    "reason": "PDF2–48无可用文字层；已做47页OCR并查看PDF12–13完整关键方法原页，确认16S/PCR/MiSeq。",
+    "action": "解析保留OCR与原文字层，原页衍生图标记非原件。"
+  },
+  {
+    "record_id": "R06611",
+    "path": "original_files/R06611/fulltext/fulltext__accepted__b8eb8afdada2a2d0.pdf",
+    "sha256": "b8eb8afdada2a2d0d5151fd81489263cbfd0ccc3bbde8c5ca36a02af52cfa12f",
+    "batch_id": "B005",
+    "issue_type": "正文提及SI但当前无原件",
+    "reason": "PDF47为Electronic Annex占位：Supplementary materials-BITE-D-20-07007R1.docx，当前无实际附件。",
+    "action": "保留缺口，不追下载；正文方法明确16S。"
+  },
+  {
+    "record_id": "R06623",
+    "path": "original_files/R06623/fulltext/fulltext__published__b851282fe77da6cc.pdf",
+    "sha256": "b851282fe77da6ccf39c5318e71a79ee64fc907fb5d2fa9c1ea6be22263de409",
+    "batch_id": "B005",
+    "issue_type": "测序类型待确认（附件归属限制）",
+    "reason": "正文菌群方法依赖未唯一关联DOCX；候选SI写16S/PCR，但不能仅凭目录完成正文类型判断。",
+    "action": "独立复核附件身份或正文菌群方法；不计目标阳性或阴性。"
+  },
+  {
+    "record_id": "R06626",
+    "path": "original_files/R06626/fulltext/fulltext__published__3cbb8b7c1720fcfa.pdf",
+    "sha256": "3cbb8b7c1720fcfad5b78bf2b16f711152772757305cdc8729a1179cb77ec0c1",
+    "batch_id": "B005",
+    "issue_type": "非目标16S BioProject",
+    "raw_accession": "PRJNA701935",
+    "normalized_accession": "PRJNA701935",
+    "accession_level": "BioProject项目",
+    "database": "NCBI BioProject/SRA",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA701935",
+    "pdf_pages": [
+      3
+    ],
+    "reason": "正文§2.4明确编号对应16S V4扩增子。ARG为qPCR、功能为PICRUSt2；未计目标项目，官方策略另按需要核验。",
+    "action": "官方策略为AMPLICON、选择PCR；library_source=METAGENOMIC表示来源，不能覆盖扩增子策略。保留非目标编号及层级，不计目标组学数据。",
+    "official_checked_at": "2026-10-23T09:29:35.326248+00:00",
+    "library_strategy": [
+      "AMPLICON"
+    ],
+    "library_source": [
+      "GENOMIC"
+    ],
+    "public_status": "官方实验记录公开；AMPLICON/PCR，非目标组学",
+    "official_metadata_record": "omics_screening/batches/B005/R06626_official_metadata.json"
+  },
+  {
+    "record_id": "R06681",
+    "path": "original_files/R06681/fulltext/fulltext__published__f7020ddfca4d31c1.pdf",
+    "sha256": "f7020ddfca4d31c1075ec566f625c7705373be7da420d935d9825b6aa2621c08",
+    "batch_id": "B005",
+    "issue_type": "非目标16S编号",
+    "raw_accession": "PRJNA354694",
+    "normalized_accession": "PRJNA354694",
+    "accession_level": "BioProject项目",
+    "database": "NCBI SRA/BioProject",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA354694",
+    "reason": "正文PDF3 §2.4所列16S V4数据项目；方法明确515F/806R 16S V4/MiSeq，非目标组学。 官方项目含14个公开扩增子实验，包含其他生物强化样本；不可将全项目14实验全归本文。",
+    "action": "官方策略为AMPLICON、选择PCR；library_source=METAGENOMIC表示来源，不能覆盖扩增子策略。保留非目标编号及层级，不计目标组学数据。",
+    "official_checked_at": "2026-10-23T09:29:35.448829+00:00",
+    "library_strategy": [
+      "AMPLICON"
+    ],
+    "library_source": [
+      "METAGENOMIC"
+    ],
+    "public_status": "官方实验记录公开；AMPLICON/PCR，非目标组学",
+    "official_metadata_record": "omics_screening/batches/B005/R06681_official_metadata.json"
+  },
+  {
+    "record_id": "R06681",
+    "path": "original_files/R06681/fulltext/fulltext__published__f7020ddfca4d31c1.pdf",
+    "sha256": "f7020ddfca4d31c1075ec566f625c7705373be7da420d935d9825b6aa2621c08",
+    "batch_id": "B005",
+    "issue_type": "非目标16S编号",
+    "raw_accession": "SRX2369824",
+    "normalized_accession": "SRX2369824",
+    "accession_level": "SRA实验",
+    "database": "NCBI SRA/BioProject",
+    "official_url": "https://www.ncbi.nlm.nih.gov/sra/SRX2369824",
+    "reason": "题名匹配DOCX Table S2段落39–41：PI-AD，严格厌氧稳态；方法明确515F/806R 16S V4/MiSeq，非目标组学。 官方标题为“2 HRTs after abiotic augmentation in Control CSTR”；与作者SI PI-AD/PII-MA命名不完全一致，保留差异，不强认所有时间点。",
+    "action": "官方策略为AMPLICON、选择PCR；library_source=METAGENOMIC表示来源，不能覆盖扩增子策略。保留非目标编号及层级，不计目标组学数据。",
+    "official_checked_at": "2026-10-23T09:29:35.448829+00:00",
+    "library_strategy": [
+      "AMPLICON"
+    ],
+    "library_source": [
+      "METAGENOMIC"
+    ],
+    "public_status": "官方实验记录公开；AMPLICON/PCR，非目标组学",
+    "official_metadata_record": "omics_screening/batches/B005/R06681_official_metadata.json",
+    "sample_treatment_mapping": "作者DOCX TableS2：PI-AD，严格厌氧稳态",
+    "official_title": "2 HRTs after abiotic augmentation in Control CSTR",
+    "mapping_certainty": "作者SI映射明确；官方标题不完全等同本文组名，时间点/处理对应未独立证实"
+  },
+  {
+    "record_id": "R06681",
+    "path": "original_files/R06681/fulltext/fulltext__published__f7020ddfca4d31c1.pdf",
+    "sha256": "f7020ddfca4d31c1075ec566f625c7705373be7da420d935d9825b6aa2621c08",
+    "batch_id": "B005",
+    "issue_type": "非目标16S编号",
+    "raw_accession": "SRX2369825",
+    "normalized_accession": "SRX2369825",
+    "accession_level": "SRA实验",
+    "database": "NCBI SRA/BioProject",
+    "official_url": "https://www.ncbi.nlm.nih.gov/sra/SRX2369825",
+    "reason": "题名匹配DOCX Table S2段落42–44：PII-MA，微氧稳态；方法明确515F/806R 16S V4/MiSeq，非目标组学。 官方标题为“Control CSTR after oxygen addition”；与作者SI PI-AD/PII-MA命名不完全一致，保留差异，不强认所有时间点。",
+    "action": "官方策略为AMPLICON、选择PCR；library_source=METAGENOMIC表示来源，不能覆盖扩增子策略。保留非目标编号及层级，不计目标组学数据。",
+    "official_checked_at": "2026-10-23T09:29:35.448829+00:00",
+    "library_strategy": [
+      "AMPLICON"
+    ],
+    "library_source": [
+      "METAGENOMIC"
+    ],
+    "public_status": "官方实验记录公开；AMPLICON/PCR，非目标组学",
+    "official_metadata_record": "omics_screening/batches/B005/R06681_official_metadata.json",
+    "sample_treatment_mapping": "作者DOCX TableS2：PII-MA，微氧稳态",
+    "official_title": "Control CSTR after oxygen addition",
+    "mapping_certainty": "作者SI映射明确；官方标题不完全等同本文组名，时间点/处理对应未独立证实"
+  },
+  {
+    "record_id": "R05396",
+    "issue_type": "已知DOI官方元数据未解决方法缺口",
+    "batch_id": "B005",
+    "path": "original_files/R05396/fulltext/fulltext__published__0a746b3ef69be3a5.pdf",
+    "sha256": "0a746b3ef69be3a5b775f72e10dc44c95fe93c381373a8c5ecae4eb65f83a4f5",
+    "official_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=10.1016%2Fj.biortech.2020.123272&retmode=json&retmax=100",
+    "reason": "NCBI SRA对既有DOI精确查询HTTP200、count=0；不能证明没有数据，不能用于判阴性或未公开。",
+    "action": "维持证据不足待确认；不追下载全文，不扩展检索。",
+    "official_checked_at": "2026-10-23T09:29:33.916289+00:00"
+  },
+  {
+    "record_id": "R06623",
+    "issue_type": "已知DOI官方元数据未解决方法缺口",
+    "batch_id": "B005",
+    "path": "original_files/R06623/fulltext/fulltext__published__b851282fe77da6cc.pdf",
+    "sha256": "b851282fe77da6ccf39c5318e71a79ee64fc907fb5d2fa9c1ea6be22263de409",
+    "official_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=10.1016%2Fj.biortech.2021.125456&retmode=json&retmax=100",
+    "reason": "NCBI SRA对既有DOI精确查询HTTP200、count=0；不能证明没有数据，不能用于判阴性或未公开。",
+    "action": "维持证据不足待确认；不追下载全文，不扩展检索。",
+    "official_checked_at": "2026-10-23T09:29:33.916663+00:00"
   }
 ]

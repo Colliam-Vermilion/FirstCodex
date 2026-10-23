@@ -1,0 +1,715 @@
+{
+  "record_id": "R06626",
+  "exact_known_article_doi_or_non_target_accession": "PRJNA701935",
+  "checked_at_utc": "2026-10-23T09:29:35.326248+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA701935&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"21\",\"retmax\":\"21\",\"retstart\":\"0\",\"idlist\":[\"13236998\",\"13236997\",\"13236996\",\"13236995\",\"13236994\",\"13236993\",\"13236992\",\"13236991\",\"13236990\",\"13236989\",\"13236988\",\"13236987\",\"13236986\",\"13236985\",\"13236984\",\"13236983\",\"13236982\",\"13236981\",\"13236980\",\"13236979\",\"13236978\"],\"translationset\":[],\"translationstack\":[{\"term\":\"PRJNA701935[All Fields]\",\"field\":\"All Fields\",\"count\":\"21\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"PRJNA701935[All Fields]\"}}\n"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=sra&id=13236998%2C13236997%2C13236996%2C13236995%2C13236994%2C13236993%2C13236992%2C13236991%2C13236990%2C13236989%2C13236988%2C13236987%2C13236986%2C13236985%2C13236984%2C13236983%2C13236982%2C13236981%2C13236980%2C13236979%2C13236978&retmode=xml",
+      "status": 200,
+      "response": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<!DOCTYPE eSummaryResult PUBLIC \"-//NLM//DTD esummary v1 20041029//EN\" \"https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd\">\n<eSummaryResult>\n<DocSum>\n\t<Id>13236998</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_W4&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"147417\" total_bases=\"73708500\" total_size=\"47609288\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109422\" ver=\"1\" status=\"public\" name=\"16S_W4\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266259\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;W4&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917418&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13720996\" total_spots=\"147417\" total_bases=\"73708500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236997</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_W3&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"156298\" total_bases=\"78149000\" total_size=\"49880572\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109421\" ver=\"1\" status=\"public\" name=\"16S_W3\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266258\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;W3&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917417&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13720997\" total_spots=\"156298\" total_bases=\"78149000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236996</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_W2&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"145782\" total_bases=\"72891000\" total_size=\"45875641\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109420\" ver=\"1\" status=\"public\" name=\"16S_W2\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266257\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;W2&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917416&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13720998\" total_spots=\"145782\" total_bases=\"72891000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236995</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_W1&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"145713\" total_bases=\"72856500\" total_size=\"45671126\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109419\" ver=\"1\" status=\"public\" name=\"16S_W1\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266256\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;W1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917415&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13720999\" total_spots=\"145713\" total_bases=\"72856500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236994</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_JW6&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"343948\" total_bases=\"171974000\" total_size=\"103632324\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109418\" ver=\"1\" status=\"public\" name=\"16S_JW6\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266255\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;JW6&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917414&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721000\" total_spots=\"343948\" total_bases=\"171974000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236993</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_JW5&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"305332\" total_bases=\"152666000\" total_size=\"94941635\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109417\" ver=\"1\" status=\"public\" name=\"16S_JW5\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266254\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;JW5&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917413&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721001\" total_spots=\"305332\" total_bases=\"152666000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236992</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_JW4&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"331510\" total_bases=\"165755000\" total_size=\"99615757\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109416\" ver=\"1\" status=\"public\" name=\"16S_JW4\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266253\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;JW4&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917412&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721002\" total_spots=\"331510\" total_bases=\"165755000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236991</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_W15&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"200909\" total_bases=\"100454500\" total_size=\"64334453\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109415\" ver=\"1\" status=\"public\" name=\"16S_W15\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266252\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;W15&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917429&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721003\" total_spots=\"200909\" total_bases=\"100454500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236990</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_JW3&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"301504\" total_bases=\"150752000\" total_size=\"90366166\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109414\" ver=\"1\" status=\"public\" name=\"16S_JW3\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266251\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;JW3&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917411&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721004\" total_spots=\"301504\" total_bases=\"150752000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236989</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_W14&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"215505\" total_bases=\"107752500\" total_size=\"68623606\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109413\" ver=\"1\" status=\"public\" name=\"16S_W14\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266250\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;W14&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917428&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721005\" total_spots=\"215505\" total_bases=\"107752500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236988</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_W13&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"222297\" total_bases=\"111148500\" total_size=\"71984545\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109412\" ver=\"1\" status=\"public\" name=\"16S_W13\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266249\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;W13&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917427&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721006\" total_spots=\"222297\" total_bases=\"111148500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236987</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_W12&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"237802\" total_bases=\"118901000\" total_size=\"75003926\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109411\" ver=\"1\" status=\"public\" name=\"16S_W12\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266248\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;W12&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917426&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721007\" total_spots=\"237802\" total_bases=\"118901000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236986</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_W11&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"237305\" total_bases=\"118652500\" total_size=\"76054645\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109410\" ver=\"1\" status=\"public\" name=\"16S_W11\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266247\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;W11&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917425&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721008\" total_spots=\"237305\" total_bases=\"118652500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236985</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_W10&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"216658\" total_bases=\"108329000\" total_size=\"68699855\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109409\" ver=\"1\" status=\"public\" name=\"16S_W10\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266246\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;W10&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917424&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721009\" total_spots=\"216658\" total_bases=\"108329000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236984</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_W9&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"245431\" total_bases=\"122715500\" total_size=\"78339053\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109408\" ver=\"1\" status=\"public\" name=\"16S_W9\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266245\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;W9&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917423&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721010\" total_spots=\"245431\" total_bases=\"122715500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236983</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_W8&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"170635\" total_bases=\"85317500\" total_size=\"53535349\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109407\" ver=\"1\" status=\"public\" name=\"16S_W8\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266244\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;W8&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917422&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721011\" total_spots=\"170635\" total_bases=\"85317500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236982</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_W7&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"183469\" total_bases=\"91734500\" total_size=\"58143252\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109406\" ver=\"1\" status=\"public\" name=\"16S_W7\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266243\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;W7&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917421&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721012\" total_spots=\"183469\" total_bases=\"91734500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236981</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_W6&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"171252\" total_bases=\"85626000\" total_size=\"54390292\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109405\" ver=\"1\" status=\"public\" name=\"16S_W6\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266242\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;W6&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917420&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721013\" total_spots=\"171252\" total_bases=\"85626000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236980</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_W5&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"194903\" total_bases=\"97451500\" total_size=\"63262229\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109404\" ver=\"1\" status=\"public\" name=\"16S_W5\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266241\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;W5&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917419&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721014\" total_spots=\"194903\" total_bases=\"97451500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236979</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_JW2&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"332495\" total_bases=\"166247500\" total_size=\"99570810\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109403\" ver=\"1\" status=\"public\" name=\"16S_JW2\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266240\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;JW2&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917410&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721015\" total_spots=\"332495\" total_bases=\"166247500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>13236978</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;16S_JW1&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"327949\" total_bases=\"163974500\" total_size=\"97574429\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA1196680\" center_name=\"University of Alberta\" contact_name=\"BING GUO\" lab_name=\"Civil and Environmental Engineering\"/&gt;&lt;Experiment acc=\"SRX10109402\" ver=\"1\" status=\"public\" name=\"16S_JW1\"/&gt;&lt;Study acc=\"SRP306651\" name=\"AnaerobicDigestionMicroO2\"/&gt;&lt;Organism taxid=\"1076179\" ScientificName=\"bioreactor metagenome\"/&gt;&lt;Sample acc=\"SRS8266239\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;JW1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;GENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA701935&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN17917409&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR13721016\" total_spots=\"327949\" total_bases=\"163974500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2022/04/05</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2021/02/16</Item>\n</DocSum>\n\n</eSummaryResult>\n"
+    }
+  ],
+  "sra_search_count": "21",
+  "sra_summaries": [
+    {
+      "uid": "13236998",
+      "title": "16S_W4",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109422",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_W4"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266259",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13720996\" total_spots=\"147417\" total_bases=\"73708500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236997",
+      "title": "16S_W3",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109421",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_W3"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266258",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13720997\" total_spots=\"156298\" total_bases=\"78149000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236996",
+      "title": "16S_W2",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109420",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_W2"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266257",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13720998\" total_spots=\"145782\" total_bases=\"72891000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236995",
+      "title": "16S_W1",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109419",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_W1"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266256",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13720999\" total_spots=\"145713\" total_bases=\"72856500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236994",
+      "title": "16S_JW6",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109418",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_JW6"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266255",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721000\" total_spots=\"343948\" total_bases=\"171974000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236993",
+      "title": "16S_JW5",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109417",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_JW5"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266254",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721001\" total_spots=\"305332\" total_bases=\"152666000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236992",
+      "title": "16S_JW4",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109416",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_JW4"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266253",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721002\" total_spots=\"331510\" total_bases=\"165755000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236991",
+      "title": "16S_W15",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109415",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_W15"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266252",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721003\" total_spots=\"200909\" total_bases=\"100454500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236990",
+      "title": "16S_JW3",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109414",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_JW3"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266251",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721004\" total_spots=\"301504\" total_bases=\"150752000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236989",
+      "title": "16S_W14",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109413",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_W14"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266250",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721005\" total_spots=\"215505\" total_bases=\"107752500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236988",
+      "title": "16S_W13",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109412",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_W13"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266249",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721006\" total_spots=\"222297\" total_bases=\"111148500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236987",
+      "title": "16S_W12",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109411",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_W12"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266248",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721007\" total_spots=\"237802\" total_bases=\"118901000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236986",
+      "title": "16S_W11",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109410",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_W11"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266247",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721008\" total_spots=\"237305\" total_bases=\"118652500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236985",
+      "title": "16S_W10",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109409",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_W10"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266246",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721009\" total_spots=\"216658\" total_bases=\"108329000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236984",
+      "title": "16S_W9",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109408",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_W9"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266245",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721010\" total_spots=\"245431\" total_bases=\"122715500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236983",
+      "title": "16S_W8",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109407",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_W8"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266244",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721011\" total_spots=\"170635\" total_bases=\"85317500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236982",
+      "title": "16S_W7",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109406",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_W7"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266243",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721012\" total_spots=\"183469\" total_bases=\"91734500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236981",
+      "title": "16S_W6",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109405",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_W6"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266242",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721013\" total_spots=\"171252\" total_bases=\"85626000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236980",
+      "title": "16S_W5",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109404",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_W5"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266241",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721014\" total_spots=\"194903\" total_bases=\"97451500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236979",
+      "title": "16S_JW2",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109403",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_JW2"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266240",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721015\" total_spots=\"332495\" total_bases=\"166247500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "13236978",
+      "title": "16S_JW1",
+      "library_strategy": "AMPLICON",
+      "library_source": "GENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX10109402",
+            "ver": "1",
+            "status": "public",
+            "name": "16S_JW1"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP306651",
+            "name": "AnaerobicDigestionMicroO2"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS8266239",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR13721016\" total_spots=\"327949\" total_bases=\"163974500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    }
+  ],
+  "limitation": "精确DOI检索无结果不能证明没有测序数据或未公开；16S项目不能因可访问而转为目标数据。"
+}

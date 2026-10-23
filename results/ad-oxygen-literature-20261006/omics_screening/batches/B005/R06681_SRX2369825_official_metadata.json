@@ -1,0 +1,55 @@
+{
+  "record_id": "R06681_SRX2369825",
+  "exact_known_article_doi_or_non_target_accession": "SRX2369825",
+  "checked_at_utc": "2026-10-23T09:30:03.365845+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=SRX2369825&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"1\",\"retmax\":\"1\",\"retstart\":\"0\",\"idlist\":[\"3453499\"],\"translationset\":[],\"translationstack\":[{\"term\":\"SRX2369825[All Fields]\",\"field\":\"All Fields\",\"count\":\"1\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"SRX2369825[All Fields]\"}}\n"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=sra&id=3453499&retmode=xml",
+      "status": 200,
+      "response": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<!DOCTYPE eSummaryResult PUBLIC \"-//NLM//DTD esummary v1 20041029//EN\" \"https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd\">\n<eSummaryResult>\n<DocSum>\n\t<Id>3453499</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;Control CSTR after oxygen addition&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"345489\" total_bases=\"173245500\" total_size=\"112055016\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA497714\" center_name=\"Technical University of Denmark\" contact_name=\"Panagiotis Kougias\" lab_name=\"\"/&gt;&lt;Experiment acc=\"SRX2369825\" ver=\"1\" status=\"public\" name=\"Control CSTR after oxygen addition\"/&gt;&lt;Study acc=\"SRP093815\" name=\"Bioaugmentation in lignocellulose-based AD\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS1815446\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;Control CSTR with O2&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED NOMINAL_LENGTH=\"300\" NOMINAL_SDEV=\"0.0E0\"/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA354694&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN06050612&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR5047316\" total_spots=\"345489\" total_bases=\"173245500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2016/12/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2016/11/23</Item>\n</DocSum>\n\n</eSummaryResult>\n"
+    }
+  ],
+  "sra_search_count": "1",
+  "sra_summaries": [
+    {
+      "uid": "3453499",
+      "title": "Control CSTR after oxygen addition",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX2369825",
+            "ver": "1",
+            "status": "public",
+            "name": "Control CSTR after oxygen addition"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP093815",
+            "name": "Bioaugmentation in lignocellulose-based AD"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS1815446",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR5047316\" total_spots=\"345489\" total_bases=\"173245500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    }
+  ],
+  "limitation": "精确DOI检索无结果不能证明没有测序数据或未公开；16S项目不能因可访问而转为目标数据。"
+}

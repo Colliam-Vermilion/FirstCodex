@@ -1,12 +1,9 @@
-# B005进行中：50篇全文筛查
-
-已推送前20篇检查点（19完成、1待确认），继续余30篇。以[累计JSON](omics_screening/screening_records.json)和[Excel](omics_screening/omics_screening_cumulative.xlsx)为当前进度，以下为上一批历史说明。
-
 # 当前新增：宏基因组/宏转录组分批全文筛查（2026-10-23）
 
-B004按最新进度顺序完成R03164至R04510共20篇研究，未确认宏基因组/宏转录组。累计筛查65篇研究：64完成、R01917待确认、276未开始；另34研究缺正文跳过、51综述不适用，共426条任务。目标测序0篇、独立目标项目0个；待确认、缺正文及未开始不计阴性。下一批从R04646开始，默认20篇。
+B005按GitHub最新进度从R04646至R06895筛查50篇研究，48完成、R05396/R06623待确认，确认目标测序0篇。累计核查115篇研究：112完成、3待确认（另含R01917）、226未开始；下一批从R06897开始，默认20篇。待确认、缺正文、综述及未开始不计阴性，不能据本批结果提前判断后续文章。
 
-- **[同一份累计Excel](omics_screening/omics_screening_cumulative.xlsx)**、[逐篇结论与续跑](omics_screening/README.md)、[累计JSON](omics_screening/screening_records.json)、[证据](omics_screening/evidence.json)、[统计](omics_screening/summary.json)、[B004独立远端核验](omics_screening/batches/B004/remote_readback.json)。本批新增47条证据、累计157；检查20正文+5 DOCX原件，SHA绑定解析。R03475 DOCX按题名/作者/机构核实关联，附件唯一归属余59件待核实。原分类、人工判断、原件及JCR保持；R01917继续独立复核。
+- **[同一份累计Excel](omics_screening/omics_screening_cumulative.xlsx)**、[50篇逐篇结论/方法与续跑](omics_screening/README.md)、[本批CSV](omics_screening/batch_B005_results_utf8.csv)、[累计JSON](omics_screening/screening_records.json)、[证据](omics_screening/evidence.json)、[统计](omics_screening/summary.json)、[独立远端核验](omics_screening/batches/B005/remote_readback.json)。
+- 本批新增89条证据、累计246条；50正文+19现有补充原件SHA绑定解析。R06611扫描稿OCR和原页复核。文中PRJNA701935/PRJNA354694及SRX2369824/25经NCBI核验为AMPLICON/PCR，均非目标组学，不混入项目计数；SI与官方样本命名差异另留待核查。原件、原分类、主库/JCR及main不改。前20篇保存检查点`cfe22f2`，全批与独立读回另见回执。
 
 # 本地文献合并与JCR统计（2026-10-23）
 

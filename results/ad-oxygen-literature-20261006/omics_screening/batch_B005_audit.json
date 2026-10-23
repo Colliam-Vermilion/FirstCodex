@@ -54,11 +54,42 @@
     "R06833",
     "R06895"
   ],
-  "research_screened_count": 20,
-  "completed_research_count": 19,
+  "research_screened_count": 50,
+  "completed_research_count": 48,
   "pending_research_ids": [
-    "R05396"
+    "R05396",
+    "R06623"
   ],
-  "status": "进行中",
-  "note": "逐篇保存，先推送20篇检查点；继续既定50篇队列。"
+  "status": "批次已结束，待确认项独立复核",
+  "note": "按最新进度稳定顺序取50未开始研究，逐篇保存；48完成与2待确认分开。R05823/R06034术语误导经具体PCR/建库方法排除；官方AMPLICON元数据不能因library_source=METAGENOMIC改判shotgun。",
+  "target_articles": 0,
+  "metagenomics_only": 0,
+  "metatranscriptomics_only": 0,
+  "both": 0,
+  "public_target_data_articles": 0,
+  "explicit_target_sequencing_data_on_request": 0,
+  "independent_target_projects": 0,
+  "new_evidence_records": 89,
+  "cumulative_evidence_records": 246,
+  "original_source_objects": 69,
+  "main_pdfs": 50,
+  "supplementary_formats": {
+    "docx": 15,
+    "pdf": 2,
+    "xlsx": 2
+  },
+  "all_selected_source_sha_verified": true,
+  "new_ocr_article_ids": [
+    "R06611"
+  ],
+  "official_metadata_query_records": [
+    "R05396",
+    "R06623",
+    "R06626",
+    "R06681",
+    "R06681_SRX2369824",
+    "R06681_SRX2369825"
+  ],
+  "next_start": "R06897",
+  "intermediate_checkpoint_commit": "cfe22f208f0781fdf19e70bb912df0147ae5b2c0"
 }

@@ -1,0 +1,484 @@
+{
+  "record_id": "R06681",
+  "exact_known_article_doi_or_non_target_accession": "PRJNA354694",
+  "checked_at_utc": "2026-10-23T09:29:35.448829+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA354694&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"14\",\"retmax\":\"14\",\"retstart\":\"0\",\"idlist\":[\"3453510\",\"3453509\",\"3453508\",\"3453507\",\"3453506\",\"3453505\",\"3453504\",\"3453503\",\"3453502\",\"3453501\",\"3453500\",\"3453499\",\"3453498\",\"3453489\"],\"translationset\":[],\"translationstack\":[{\"term\":\"PRJNA354694[All Fields]\",\"field\":\"All Fields\",\"count\":\"14\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"PRJNA354694[All Fields]\"}}\n"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=sra&id=3453510%2C3453509%2C3453508%2C3453507%2C3453506%2C3453505%2C3453504%2C3453503%2C3453502%2C3453501%2C3453500%2C3453499%2C3453498%2C3453489&retmode=xml",
+      "status": 200,
+      "response": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<!DOCTYPE eSummaryResult PUBLIC \"-//NLM//DTD esummary v1 20041029//EN\" \"https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd\">\n<eSummaryResult>\n<DocSum>\n\t<Id>3453510</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;2 HRTs after the second bioaugmentation with Melioribacter roseus in CSTRC&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"135487\" total_bases=\"67932666\" total_size=\"43928280\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA497714\" center_name=\"Technical University of Denmark\" contact_name=\"Panagiotis Kougias\" lab_name=\"\"/&gt;&lt;Experiment acc=\"SRX2369836\" ver=\"1\" status=\"public\" name=\"2 HRTs after the second bioaugmentation with Melioribacter roseus in CSTRC\"/&gt;&lt;Study acc=\"SRP093815\" name=\"Bioaugmentation in lignocellulose-based AD\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS1815456\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CSTRC5&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED NOMINAL_LENGTH=\"300\" NOMINAL_SDEV=\"0.0E0\"/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA354694&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN06050623&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR5047327\" total_spots=\"135487\" total_bases=\"67932666\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2016/12/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2016/11/23</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>3453509</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CSTRC under micro-aerobic conditions and after the second bioaugmentation with Melioribacter roseus&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"60608\" total_bases=\"30394200\" total_size=\"19816475\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA497714\" center_name=\"Technical University of Denmark\" contact_name=\"Panagiotis Kougias\" lab_name=\"\"/&gt;&lt;Experiment acc=\"SRX2369835\" ver=\"1\" status=\"public\" name=\"CSTRC under micro-aerobic conditions and after the second bioaugmentation with Melioribacter roseus\"/&gt;&lt;Study acc=\"SRP093815\" name=\"Bioaugmentation in lignocellulose-based AD\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS1815454\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CSTRC4&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED NOMINAL_LENGTH=\"300\" NOMINAL_SDEV=\"0.0E0\"/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA354694&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN06050622&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR5047325\" total_spots=\"60608\" total_bases=\"30394200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2016/12/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2016/11/23</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>3453508</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;2 HRTs after the first bioaugmentation with Melioribacter roseus in CSTRC&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"120749\" total_bases=\"60548268\" total_size=\"38643927\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA497714\" center_name=\"Technical University of Denmark\" contact_name=\"Panagiotis Kougias\" lab_name=\"\"/&gt;&lt;Experiment acc=\"SRX2369834\" ver=\"3\" status=\"public\" name=\"2 HRTs after the first bioaugmentation with Melioribacter roseus in CSTRC\"/&gt;&lt;Study acc=\"SRP093815\" name=\"Bioaugmentation in lignocellulose-based AD\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS1815455\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CSTRC3&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED NOMINAL_LENGTH=\"300\" NOMINAL_SDEV=\"0.0E0\"/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA354694&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN06050621&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR5047326\" total_spots=\"120749\" total_bases=\"60548268\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2016/12/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2016/11/23</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>3453507</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CSTRC after the first bioaugmentation with Melioribacter roseus&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"136781\" total_bases=\"68601402\" total_size=\"44328121\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA497714\" center_name=\"Technical University of Denmark\" contact_name=\"Panagiotis Kougias\" lab_name=\"\"/&gt;&lt;Experiment acc=\"SRX2369833\" ver=\"1\" status=\"public\" name=\"CSTRC after the first bioaugmentation with Melioribacter roseus\"/&gt;&lt;Study acc=\"SRP093815\" name=\"Bioaugmentation in lignocellulose-based AD\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS1815453\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CSTRC2&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED NOMINAL_LENGTH=\"300\" NOMINAL_SDEV=\"0.0E0\"/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA354694&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN06050620&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR5047324\" total_spots=\"136781\" total_bases=\"68601402\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2016/12/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2016/11/23</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>3453506</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CSTRC before the first bioaugmentation with Melioribacter roseus&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"130740\" total_bases=\"65570750\" total_size=\"42610225\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA497714\" center_name=\"Technical University of Denmark\" contact_name=\"Panagiotis Kougias\" lab_name=\"\"/&gt;&lt;Experiment acc=\"SRX2369832\" ver=\"1\" status=\"public\" name=\"CSTRC before the first bioaugmentation with Melioribacter roseus\"/&gt;&lt;Study acc=\"SRP093815\" name=\"Bioaugmentation in lignocellulose-based AD\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS1815452\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CSTRC1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED NOMINAL_LENGTH=\"300\" NOMINAL_SDEV=\"0.0E0\"/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA354694&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN06050619&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR5047323\" total_spots=\"130740\" total_bases=\"65570750\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2016/12/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2016/11/23</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>3453505</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;2 HRTs after the second bioaugmentation with Clostridium thermocellum in CSTRB&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"127470\" total_bases=\"63908873\" total_size=\"41732502\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA497714\" center_name=\"Technical University of Denmark\" contact_name=\"Panagiotis Kougias\" lab_name=\"\"/&gt;&lt;Experiment acc=\"SRX2369831\" ver=\"1\" status=\"public\" name=\"2 HRTs after the second bioaugmentation with Clostridium thermocellum in CSTRB\"/&gt;&lt;Study acc=\"SRP093815\" name=\"Bioaugmentation in lignocellulose-based AD\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS1815451\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CSTRB6&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED NOMINAL_LENGTH=\"300\" NOMINAL_SDEV=\"0.0E0\"/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA354694&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN06050617&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR5047322\" total_spots=\"127470\" total_bases=\"63908873\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2016/12/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2016/11/23</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>3453504</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CSTRB after the second bioaugmentation with Clostridium thermocellum&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"152070\" total_bases=\"76241707\" total_size=\"49104621\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA497714\" center_name=\"Technical University of Denmark\" contact_name=\"Panagiotis Kougias\" lab_name=\"\"/&gt;&lt;Experiment acc=\"SRX2369830\" ver=\"1\" status=\"public\" name=\"CSTRB after the second bioaugmentation with Clostridium thermocellum\"/&gt;&lt;Study acc=\"SRP093815\" name=\"Bioaugmentation in lignocellulose-based AD\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS1815450\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CSTRB5&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED NOMINAL_LENGTH=\"300\" NOMINAL_SDEV=\"0.0E0\"/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA354694&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN06050618&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR5047321\" total_spots=\"152070\" total_bases=\"76241707\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2016/12/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2016/11/23</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>3453503</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CSTRB operated with higher content of lignocellulose and before the second bioaugmentation with Clostridium thermocellum&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"139329\" total_bases=\"69871139\" total_size=\"44664492\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA497714\" center_name=\"Technical University of Denmark\" contact_name=\"Panagiotis Kougias\" lab_name=\"\"/&gt;&lt;Experiment acc=\"SRX2369829\" ver=\"1\" status=\"public\" name=\"CSTRB operated with higher content of lignocellulose and before the second bioaugmentation with Clostridium thermocellum\"/&gt;&lt;Study acc=\"SRP093815\" name=\"Bioaugmentation in lignocellulose-based AD\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS1815449\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CSTRB4&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED NOMINAL_LENGTH=\"300\" NOMINAL_SDEV=\"0.0E0\"/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA354694&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN06050616&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR5047320\" total_spots=\"139329\" total_bases=\"69871139\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2016/12/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2016/11/23</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>3453502</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;2 HRTs after the first bioaugmentation with Clostridium thermocellum in CSTRB&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"135215\" total_bases=\"67805989\" total_size=\"44172575\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA497714\" center_name=\"Technical University of Denmark\" contact_name=\"Panagiotis Kougias\" lab_name=\"\"/&gt;&lt;Experiment acc=\"SRX2369828\" ver=\"1\" status=\"public\" name=\"2 HRTs after the first bioaugmentation with Clostridium thermocellum in CSTRB\"/&gt;&lt;Study acc=\"SRP093815\" name=\"Bioaugmentation in lignocellulose-based AD\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS1815448\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CSTRB3&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED NOMINAL_LENGTH=\"300\" NOMINAL_SDEV=\"0.0E0\"/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA354694&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN06050615&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR5047319\" total_spots=\"135215\" total_bases=\"67805989\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2016/12/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2016/11/23</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>3453501</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CSTRB after the first bioaugmentation with Clostridium thermocellum&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"329347\" total_bases=\"165193342\" total_size=\"106775922\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA497714\" center_name=\"Technical University of Denmark\" contact_name=\"Panagiotis Kougias\" lab_name=\"\"/&gt;&lt;Experiment acc=\"SRX2369827\" ver=\"1\" status=\"public\" name=\"CSTRB after the first bioaugmentation with Clostridium thermocellum\"/&gt;&lt;Study acc=\"SRP093815\" name=\"Bioaugmentation in lignocellulose-based AD\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS1815447\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CSTRB2&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED NOMINAL_LENGTH=\"300\" NOMINAL_SDEV=\"0.0E0\"/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA354694&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN06050614&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR5047318\" total_spots=\"329347\" total_bases=\"165193342\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2016/12/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2016/11/23</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>3453500</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;CSTRB before the first bioaugmentation with Clostridium thermocellum&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"309915\" total_bases=\"155424368\" total_size=\"100808750\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA497714\" center_name=\"Technical University of Denmark\" contact_name=\"Panagiotis Kougias\" lab_name=\"\"/&gt;&lt;Experiment acc=\"SRX2369826\" ver=\"1\" status=\"public\" name=\"CSTRB before the first bioaugmentation with Clostridium thermocellum\"/&gt;&lt;Study acc=\"SRP093815\" name=\"Bioaugmentation in lignocellulose-based AD\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS1815445\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;CSTRB1&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED NOMINAL_LENGTH=\"300\" NOMINAL_SDEV=\"0.0E0\"/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA354694&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN06050613&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR5047317\" total_spots=\"309915\" total_bases=\"155424368\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2016/12/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2016/11/23</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>3453499</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;Control CSTR after oxygen addition&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"345489\" total_bases=\"173245500\" total_size=\"112055016\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA497714\" center_name=\"Technical University of Denmark\" contact_name=\"Panagiotis Kougias\" lab_name=\"\"/&gt;&lt;Experiment acc=\"SRX2369825\" ver=\"1\" status=\"public\" name=\"Control CSTR after oxygen addition\"/&gt;&lt;Study acc=\"SRP093815\" name=\"Bioaugmentation in lignocellulose-based AD\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS1815446\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;Control CSTR with O2&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED NOMINAL_LENGTH=\"300\" NOMINAL_SDEV=\"0.0E0\"/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA354694&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN06050612&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR5047316\" total_spots=\"345489\" total_bases=\"173245500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2016/12/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2016/11/23</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>3453498</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;2 HRTs after abiotic augmentation in Control CSTR&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"336616\" total_bases=\"168775120\" total_size=\"109946065\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA497714\" center_name=\"Technical University of Denmark\" contact_name=\"Panagiotis Kougias\" lab_name=\"\"/&gt;&lt;Experiment acc=\"SRX2369824\" ver=\"1\" status=\"public\" name=\"2 HRTs after abiotic augmentation in Control CSTR\"/&gt;&lt;Study acc=\"SRP093815\" name=\"Bioaugmentation in lignocellulose-based AD\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS1815444\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;Control CSTR final stage&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED NOMINAL_LENGTH=\"300\" NOMINAL_SDEV=\"0.0E0\"/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA354694&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN06050611&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR5047315\" total_spots=\"336616\" total_bases=\"168775120\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2016/12/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2016/11/23</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>3453489</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;Control CSTR before abiotic augmentation&lt;/Title&gt;&lt;Platform instrument_model=\"Illumina MiSeq\"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"187536\" total_bases=\"94061427\" total_size=\"60866441\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA497714\" center_name=\"Technical University of Denmark\" contact_name=\"Panagiotis Kougias\" lab_name=\"\"/&gt;&lt;Experiment acc=\"SRX2369815\" ver=\"1\" status=\"public\" name=\"Control CSTR before abiotic augmentation\"/&gt;&lt;Study acc=\"SRP093815\" name=\"Bioaugmentation in lignocellulose-based AD\"/&gt;&lt;Organism taxid=\"1263854\" ScientificName=\"anaerobic digester metagenome\"/&gt;&lt;Sample acc=\"SRS1815443\" name=\"\"/&gt;&lt;Instrument ILLUMINA=\"Illumina MiSeq\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;Control CSTR first stage&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED NOMINAL_LENGTH=\"300\" NOMINAL_SDEV=\"0.0E0\"/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA354694&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN06050610&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR5047314\" total_spots=\"187536\" total_bases=\"94061427\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2016/12/01</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2016/11/23</Item>\n</DocSum>\n\n</eSummaryResult>\n"
+    }
+  ],
+  "sra_search_count": "14",
+  "sra_summaries": [
+    {
+      "uid": "3453510",
+      "title": "2 HRTs after the second bioaugmentation with Melioribacter roseus in CSTRC",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX2369836",
+            "ver": "1",
+            "status": "public",
+            "name": "2 HRTs after the second bioaugmentation with Melioribacter roseus in CSTRC"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP093815",
+            "name": "Bioaugmentation in lignocellulose-based AD"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS1815456",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR5047327\" total_spots=\"135487\" total_bases=\"67932666\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "3453509",
+      "title": "CSTRC under micro-aerobic conditions and after the second bioaugmentation with Melioribacter roseus",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX2369835",
+            "ver": "1",
+            "status": "public",
+            "name": "CSTRC under micro-aerobic conditions and after the second bioaugmentation with Melioribacter roseus"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP093815",
+            "name": "Bioaugmentation in lignocellulose-based AD"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS1815454",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR5047325\" total_spots=\"60608\" total_bases=\"30394200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "3453508",
+      "title": "2 HRTs after the first bioaugmentation with Melioribacter roseus in CSTRC",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX2369834",
+            "ver": "3",
+            "status": "public",
+            "name": "2 HRTs after the first bioaugmentation with Melioribacter roseus in CSTRC"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP093815",
+            "name": "Bioaugmentation in lignocellulose-based AD"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS1815455",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR5047326\" total_spots=\"120749\" total_bases=\"60548268\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "3453507",
+      "title": "CSTRC after the first bioaugmentation with Melioribacter roseus",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX2369833",
+            "ver": "1",
+            "status": "public",
+            "name": "CSTRC after the first bioaugmentation with Melioribacter roseus"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP093815",
+            "name": "Bioaugmentation in lignocellulose-based AD"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS1815453",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR5047324\" total_spots=\"136781\" total_bases=\"68601402\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "3453506",
+      "title": "CSTRC before the first bioaugmentation with Melioribacter roseus",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX2369832",
+            "ver": "1",
+            "status": "public",
+            "name": "CSTRC before the first bioaugmentation with Melioribacter roseus"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP093815",
+            "name": "Bioaugmentation in lignocellulose-based AD"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS1815452",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR5047323\" total_spots=\"130740\" total_bases=\"65570750\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "3453505",
+      "title": "2 HRTs after the second bioaugmentation with Clostridium thermocellum in CSTRB",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX2369831",
+            "ver": "1",
+            "status": "public",
+            "name": "2 HRTs after the second bioaugmentation with Clostridium thermocellum in CSTRB"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP093815",
+            "name": "Bioaugmentation in lignocellulose-based AD"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS1815451",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR5047322\" total_spots=\"127470\" total_bases=\"63908873\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "3453504",
+      "title": "CSTRB after the second bioaugmentation with Clostridium thermocellum",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX2369830",
+            "ver": "1",
+            "status": "public",
+            "name": "CSTRB after the second bioaugmentation with Clostridium thermocellum"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP093815",
+            "name": "Bioaugmentation in lignocellulose-based AD"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS1815450",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR5047321\" total_spots=\"152070\" total_bases=\"76241707\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "3453503",
+      "title": "CSTRB operated with higher content of lignocellulose and before the second bioaugmentation with Clostridium thermocellum",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX2369829",
+            "ver": "1",
+            "status": "public",
+            "name": "CSTRB operated with higher content of lignocellulose and before the second bioaugmentation with Clostridium thermocellum"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP093815",
+            "name": "Bioaugmentation in lignocellulose-based AD"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS1815449",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR5047320\" total_spots=\"139329\" total_bases=\"69871139\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "3453502",
+      "title": "2 HRTs after the first bioaugmentation with Clostridium thermocellum in CSTRB",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX2369828",
+            "ver": "1",
+            "status": "public",
+            "name": "2 HRTs after the first bioaugmentation with Clostridium thermocellum in CSTRB"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP093815",
+            "name": "Bioaugmentation in lignocellulose-based AD"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS1815448",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR5047319\" total_spots=\"135215\" total_bases=\"67805989\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "3453501",
+      "title": "CSTRB after the first bioaugmentation with Clostridium thermocellum",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX2369827",
+            "ver": "1",
+            "status": "public",
+            "name": "CSTRB after the first bioaugmentation with Clostridium thermocellum"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP093815",
+            "name": "Bioaugmentation in lignocellulose-based AD"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS1815447",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR5047318\" total_spots=\"329347\" total_bases=\"165193342\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "3453500",
+      "title": "CSTRB before the first bioaugmentation with Clostridium thermocellum",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX2369826",
+            "ver": "1",
+            "status": "public",
+            "name": "CSTRB before the first bioaugmentation with Clostridium thermocellum"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP093815",
+            "name": "Bioaugmentation in lignocellulose-based AD"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS1815445",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR5047317\" total_spots=\"309915\" total_bases=\"155424368\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "3453499",
+      "title": "Control CSTR after oxygen addition",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX2369825",
+            "ver": "1",
+            "status": "public",
+            "name": "Control CSTR after oxygen addition"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP093815",
+            "name": "Bioaugmentation in lignocellulose-based AD"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS1815446",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR5047316\" total_spots=\"345489\" total_bases=\"173245500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "3453498",
+      "title": "2 HRTs after abiotic augmentation in Control CSTR",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX2369824",
+            "ver": "1",
+            "status": "public",
+            "name": "2 HRTs after abiotic augmentation in Control CSTR"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP093815",
+            "name": "Bioaugmentation in lignocellulose-based AD"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS1815444",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR5047315\" total_spots=\"336616\" total_bases=\"168775120\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "3453489",
+      "title": "Control CSTR before abiotic augmentation",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX2369815",
+            "ver": "1",
+            "status": "public",
+            "name": "Control CSTR before abiotic augmentation"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP093815",
+            "name": "Bioaugmentation in lignocellulose-based AD"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS1815443",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR5047314\" total_spots=\"187536\" total_bases=\"94061427\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    }
+  ],
+  "limitation": "精确DOI检索无结果不能证明没有测序数据或未公开；16S项目不能因可访问而转为目标数据。"
+}
