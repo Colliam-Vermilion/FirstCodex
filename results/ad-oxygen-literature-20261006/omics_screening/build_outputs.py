@@ -52,6 +52,14 @@ def main():
         if pend:
             batch['status']='批次已结束，待确认项独立复核'
             batch['note']+=' 未解决项保留待确认，未标记完成或阴性。'
+    for batch in batches:
+        audit_path=ROOT/f"batch_{batch['batch_id']}_audit.json"
+        if audit_path.exists():
+            requested=json.loads(audit_path.read_text()).get('requested_research_count')
+            if requested:
+                batch['requested_research_count']=requested
+                if batch['research_screened_count']<requested:
+                    batch['status']='进行中：已保存部分检查点'
     dump('batches.json',batches)
     for batch in batches:
         csvout(f"batch_{batch['batch_id']}_results_utf8.csv",[r for r in rows if r['batch_id']==batch['batch_id']],list(RECORD_FIELDS))

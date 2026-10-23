@@ -882,5 +882,40 @@
     "issue_type": "正文提及SI但当前无原件",
     "reason": "PDF7页电子SI说明为颗粒化SEM图片；未下载。正文明确16S扩增子。",
     "action": "保留SI缺口；不作为目标测序候选或原始reads"
+  },
+  {
+    "record_id": "R04646",
+    "path": "original_files/R04646/fulltext/fulltext__published__e1d4e0f3c97d519f.pdf",
+    "sha256": "e1d4e0f3c97d519f1a419d98a6493eec88f5ce98834b86c2c0831c2c96908766",
+    "batch_id": "B005",
+    "issue_type": "正文提及SI但当前无原件",
+    "reason": "§2.1/2.4称SI含染料NMR纯度及动力学计算，现无原件。",
+    "action": "保留缺口；正文方法无目标测序，不追下载。"
+  },
+  {
+    "record_id": "R04899",
+    "path": "original_files/R04899/fulltext/fulltext__published__92f0b2f1ad01522c.pdf",
+    "sha256": "92f0b2f1ad01522ccc4e76595e3cd022e18db61eb7367bec31eeb097881b8329",
+    "batch_id": "B005",
+    "issue_type": "非目标扩增子BioSample编号",
+    "raw_accession": "SAMN12752316 to SAMN12752321 and SAMN12752323 to SAMN12752328",
+    "normalized_accession": "SAMN12752316–SAMN12752321; SAMN12752323–SAMN12752328",
+    "accession_level": "BioSample样本（非项目）",
+    "database": "NCBI BioSample/SRA",
+    "official_url": "https://www.ncbi.nlm.nih.gov/biosample/?term=SAMN12752316",
+    "pdf_pages": [
+      3
+    ],
+    "reason": "正文§2.5对应16S及mcrA扩增子，不是宏基因组/宏转录组；未逐个官方核验，也未将12个编号计为12项目。",
+    "action": "保留非目标线索，不计目标项目。"
+  },
+  {
+    "record_id": "R05396",
+    "path": "original_files/R05396/fulltext/fulltext__published__0a746b3ef69be3a5.pdf",
+    "sha256": "0a746b3ef69be3a5b775f72e10dc44c95fe93c381373a8c5ecae4eb65f83a4f5",
+    "batch_id": "B005",
+    "issue_type": "测序类型待确认",
+    "reason": "菌群组成已报告但核酸/测序方法及数据来源缺失；现有正文/匹配SI无法区分目标组学和标记基因。",
+    "action": "独立复核队列；需要菌群分析的靶标/建库说明，不计阳性或阴性。"
   }
 ]
