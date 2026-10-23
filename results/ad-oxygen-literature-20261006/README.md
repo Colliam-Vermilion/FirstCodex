@@ -1,9 +1,10 @@
-# 当前新增：宏基因组／宏转录组分批全文筛查（B008）
+# 当前新增：宏基因组／宏转录组分批全文筛查（B009）
 
-最新远端基准fc81882；按顺序核查R13558–R13879的50研究：49完成、R13834待确认；4宏基因组、0宏转录组、45非目标。累计259完成、6待确认、76未开始；下一批R13880。目标19篇（18MG＋1MT），独立目标项目号7个（6个官方公开），唯一公开目标run43。每篇即时保存，前20篇检查点211f863已推送。
+基准ef74a5e；按稳定ID筛查R13880–R13937的50条：48完成、R13896/R13919待确认；3宏基因组、0宏转录组、45非目标。累计307完成、8待确认、26未开始；下一批R13938。目标22篇（21MG＋1MT），独立目标项目号9个（7官方公开），唯一公开目标run49。
 
-- [同一累计Excel](omics_screening/omics_screening_cumulative.xlsx)、[逐篇结论与限制](omics_screening/README.md)、[本批CSV](omics_screening/batch_B008_results_utf8.csv)、[累计JSON](omics_screening/screening_records.json)、[证据](omics_screening/evidence.json)、[项目/样本/run](omics_screening/data_projects_samples.json)、[进度统计](omics_screening/summary.json)、[独立读回回执](omics_screening/batches/B008/remote_readback.json)。
-- R13671的PRJNA1447957有12公开WGS；同文另2项目各24扩增子排除。R13817明确无共享权限；R13856/R13866无编号仍纳入目标。R13834测序文库证据不足保留待确认，未作阴性。新增60证据、77原格式源核验；原件、分类、JCR与main未修改。
+- [同一累计Excel](omics_screening/omics_screening_cumulative.xlsx)、[50条逐篇结论/限制](omics_screening/README.md)、[本批CSV](omics_screening/batch_B009_results_utf8.csv)、[累计JSON](omics_screening/screening_records.json)、[证据](omics_screening/evidence.json)、[项目/样本/run](omics_screening/data_projects_samples.json)、[进度统计](omics_screening/summary.json)、[独立读回回执](omics_screening/batches/B009/remote_readback.json)。
+- R13884的PRJNA357876：3BioSample、6公开WGS run；TP-EBD原SRS192581少末位，官方SRS1925817，两run不推为生物重复。R13904确有MG，但唯一PRJNA1347783仅扩增子；R13920的PRJNA1438379官方未检出，保留编号未核实。无编号仍纳入目标。
+- 首20条检查点b2ddc70已推送；最终队列补入载体类型待核实但有完整研究的R13906，原分类不改。新增57证据、68原格式源逐件核验；原件、分类、JCR和main未修改。
 
 # 本地文献合并与JCR统计（2026-10-23）
 

@@ -499,7 +499,11 @@
     "path": "original_files/R13884/supplementary/supplementary__6ff25c5becbbfcff.docx",
     "sha256": "6ff25c5becbbfcff5822271c56c4693cd24b5b8f808e045bf72cdf9a4e9dfac9",
     "reason": " 文件可打开且内容为表格/数据/图等补充材料；缺题名/DOI等唯一关联凭据，仅保留目录及内容关联，不能声称已核实附件身份或已收齐全部附件。",
-    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实"
+    "action": "不得仅凭目录将测序编号归给文章；待题名/DOI/正文引用核实",
+    "resolution_status": "已解决",
+    "resolved_in_batch": "B009",
+    "resolution": "DOCX表x1/y1，SM-EBD/MP-EBD/TP-EBD独特样本标签与正文PDF6 Venn及补表引用吻合。",
+    "resolution_evidence_id": "R13884-E03"
   },
   {
     "record_id": "R13860",
@@ -1783,7 +1787,10 @@
     "sha256": "ad63f5dc897000a18f065c5bc61ecf2b257303020c39c9d4e5c850cb2acb7302",
     "batch_id": "B009",
     "issue_type": "原文TP-EBD编号SRS192581疑似缺位",
-    "reason": "文中MP-EBD:SRS1925843、TP-EBD:SRS192581、SM-EBD:SRS1925844；先保存原值，官方核对后规范化。"
+    "reason": "文中MP-EBD:SRS1925843、TP-EBD:SRS192581、SM-EBD:SRS1925844；先保存原值，官方核对后规范化。",
+    "resolution_status": "已解决",
+    "resolved_in_batch": "B009",
+    "resolution": "官方TPEBD1/2同SRS1925817；原值SRS192581和规范值均保存。run两条不推为两个生物重复。"
   },
   {
     "record_id": "R13896",
@@ -1793,5 +1800,80 @@
     "issue_type": "测序类型不明",
     "reason": "缺引物/靶区/建库说明，仅引用[16]和菌群测序；保留复核，不作阴性。",
     "action": "需原始测序方法或作者明确说明；未联系作者。"
+  },
+  {
+    "record_id": "R13904",
+    "path": "original_files/R13904/fulltext/fulltext__published__16094176f2327e81.pdf",
+    "sha256": "16094176f2327e81ed5d6d0ba20c9aa0f864063dd0d42a5d5475f6073344c64e",
+    "batch_id": "B009",
+    "issue_type": "MG与16S项目归属及数据声明冲突",
+    "reason": "PRJNA1347783紧随16S方法；MG方法没有单独编号；Data availability却称No datasets were generated or analysed。",
+    "action": "官方核对library strategy，保留矛盾不取消MG纳入。"
+  },
+  {
+    "record_id": "R13919",
+    "path": "original_files/R13919/fulltext/fulltext__published__7e7ef15d3b713401.pdf",
+    "sha256": "7e7ef15d3b7134013fe479fcee8f8dded81e56bc7c7501b39ff79e3f9f346bc6",
+    "batch_id": "B009",
+    "issue_type": "群落DNA测序策略不明",
+    "reason": "DNA/MiSeq与Mothur不足区分扩增子和shotgun，方法仅引用他文。",
+    "action": "需更完整方法/明确建库靶标，保留待确认。"
+  },
+  {
+    "record_id": "R13920",
+    "batch_id": "B009",
+    "issue_type": "目标编号公开状态及平台待核实",
+    "raw_accession": "PRJNA1438379",
+    "reason": "项目号PRJNA1438379在官方SRA及BioProject均未检出，公开状态未核实；正文机型不一致，未擅自修正。",
+    "action": "保留文中编号和官方访问链接/原始查询，不标公开或受限；未下载reads。"
+  },
+  {
+    "record_id": "R13886",
+    "batch_id": "B009",
+    "issue_type": "非目标编号/参考序列排除说明",
+    "raw_accession": "PRJNA906293",
+    "reason": "RNA反转录后16S/PICRUSt2，非MT",
+    "action": "保留线索；不计目标文章、独立项目或公开目标run。"
+  },
+  {
+    "record_id": "R13911",
+    "batch_id": "B009",
+    "issue_type": "非目标编号/参考序列排除说明",
+    "raw_accession": "PRJNA1056946",
+    "reason": "338F/806R16S扩增子",
+    "action": "保留线索；不计目标文章、独立项目或公开目标run。"
+  },
+  {
+    "record_id": "R13917",
+    "batch_id": "B009",
+    "issue_type": "非目标编号/参考序列排除说明",
+    "raw_accession": "PRJNA1497691",
+    "reason": "16S扩增子",
+    "action": "保留线索；不计目标文章、独立项目或公开目标run。"
+  },
+  {
+    "record_id": "R13937",
+    "batch_id": "B009",
+    "issue_type": "非目标编号/参考序列排除说明",
+    "raw_accession": "SAMN10410857",
+    "reason": "16S扩增子BioSample，非BioProject",
+    "action": "保留线索；不计目标文章、独立项目或公开目标run。"
+  },
+  {
+    "record_id": "R13927",
+    "batch_id": "B009",
+    "issue_type": "非目标编号/参考序列排除说明",
+    "raw_accession": "AB682456;HQ436531;NR024829;AJ489379;NR043287;AB052397;NR042759",
+    "reason": "16S-DGGE条带匹配参考序列，不是本文shotgun数据",
+    "action": "保留线索；不计目标文章、独立项目或公开目标run。"
+  },
+  {
+    "record_id": "R13906",
+    "path": "original_files/R13906/fulltext/fulltext__version_unverified__afe47132ea57e2c3.pdf",
+    "sha256": "afe47132ea57e2c3259ec39863eabe706d9eb2f008f5a2587e599b03ea746547",
+    "batch_id": "B009",
+    "issue_type": "载体类型待核实但完整研究方法可筛查",
+    "reason": "原总表类型待核实；PDF1标5th ICBAA2021会议，正文为完整实验研究，不是仅会议摘要/海报。",
+    "action": "保留原载体/分类字段；全文筛查结论独立于期刊身份。"
   }
 ]

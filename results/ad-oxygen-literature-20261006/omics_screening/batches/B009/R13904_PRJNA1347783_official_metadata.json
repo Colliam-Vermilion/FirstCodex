@@ -1,0 +1,121 @@
+{
+  "record_id": "R13904_PRJNA1347783",
+  "exact_known_article_doi_or_non_target_accession": "PRJNA1347783",
+  "checked_at_utc": "2026-10-23T16:04:54.915819+00:00",
+  "purpose": "只核对既有文章/编号的官方元数据；不检索新文献、不获取reads。",
+  "requests": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1347783&retmode=json&retmax=100",
+      "status": 200,
+      "response": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"3\",\"retmax\":\"3\",\"retstart\":\"0\",\"idlist\":[\"41557954\",\"41557953\",\"41557952\"],\"translationset\":[],\"translationstack\":[{\"term\":\"PRJNA1347783[All Fields]\",\"field\":\"All Fields\",\"count\":\"3\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"PRJNA1347783[All Fields]\"}}\n"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=sra&id=41557954%2C41557953%2C41557952&retmode=xml",
+      "status": 200,
+      "response": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<!DOCTYPE eSummaryResult PUBLIC \"-//NLM//DTD esummary v1 20041029//EN\" \"https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd\">\n<eSummaryResult>\n<DocSum>\n\t<Id>41557954</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;Pig manure-E&lt;/Title&gt;&lt;Platform instrument_model=\"AB SOLiD System 3.0\"&gt;ABI_SOLID&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"120042\" total_bases=\"58100328\" total_size=\"20522213\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2276595\" center_name=\"Sichuan Agricultural University\" contact_name=\"shuo liu\" lab_name=\"College of Animal Science and Technology\"/&gt;&lt;Experiment acc=\"SRX31112595\" ver=\"1\" status=\"public\" name=\"Pig manure-E\"/&gt;&lt;Study acc=\"SRP645508\" name=\"Anaerobic fermentation amplicon\"/&gt;&lt;Organism taxid=\"1510822\" ScientificName=\"pig gut metagenome\"/&gt;&lt;Sample acc=\"SRS27100106\" name=\"\"/&gt;&lt;Instrument ABI_SOLID=\"AB SOLiD System 3.0\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;Pig manure-E&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1347783&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN52866798&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR36066316\" total_spots=\"120042\" total_bases=\"58100328\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/11/17</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2025/11/17</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>41557953</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;Pig manure-C&lt;/Title&gt;&lt;Platform instrument_model=\"AB SOLiD System 3.0\"&gt;ABI_SOLID&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"135586\" total_bases=\"65623624\" total_size=\"23028464\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2276595\" center_name=\"Sichuan Agricultural University\" contact_name=\"shuo liu\" lab_name=\"College of Animal Science and Technology\"/&gt;&lt;Experiment acc=\"SRX31112594\" ver=\"1\" status=\"public\" name=\"Pig manure-C\"/&gt;&lt;Study acc=\"SRP645508\" name=\"Anaerobic fermentation amplicon\"/&gt;&lt;Organism taxid=\"1510822\" ScientificName=\"pig gut metagenome\"/&gt;&lt;Sample acc=\"SRS27100105\" name=\"\"/&gt;&lt;Instrument ABI_SOLID=\"AB SOLiD System 3.0\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;Pig manure-C&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1347783&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN52866796&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR36066317\" total_spots=\"135586\" total_bases=\"65623624\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/11/17</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2025/11/17</Item>\n</DocSum>\n\n<DocSum>\n\t<Id>41557952</Id>\n\t<Item Name=\"ExpXml\" Type=\"String\">&lt;Summary&gt;&lt;Title&gt;Pig manure-A&lt;/Title&gt;&lt;Platform instrument_model=\"AB SOLiD System 3.0\"&gt;ABI_SOLID&lt;/Platform&gt;&lt;Statistics total_runs=\"1\" total_spots=\"94556\" total_bases=\"45765104\" total_size=\"16145541\" load_done=\"true\" cluster_name=\"public\"/&gt;&lt;/Summary&gt;&lt;Submitter acc=\"SRA2276595\" center_name=\"Sichuan Agricultural University\" contact_name=\"shuo liu\" lab_name=\"College of Animal Science and Technology\"/&gt;&lt;Experiment acc=\"SRX31112593\" ver=\"1\" status=\"public\" name=\"Pig manure-A\"/&gt;&lt;Study acc=\"SRP645508\" name=\"Anaerobic fermentation amplicon\"/&gt;&lt;Organism taxid=\"1510822\" ScientificName=\"pig gut metagenome\"/&gt;&lt;Sample acc=\"SRS27100104\" name=\"\"/&gt;&lt;Instrument ABI_SOLID=\"AB SOLiD System 3.0\"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;Pig manure-A&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1347783&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN52866794&lt;/Biosample&gt;</Item>\n\t<Item Name=\"Runs\" Type=\"String\">&lt;Run acc=\"SRR36066318\" total_spots=\"94556\" total_bases=\"45765104\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/&gt;</Item>\n\t<Item Name=\"ExtLinks\" Type=\"String\"></Item>\n\t<Item Name=\"CreateDate\" Type=\"String\">2025/11/17</Item>\n\t<Item Name=\"UpdateDate\" Type=\"String\">2025/11/17</Item>\n</DocSum>\n\n</eSummaryResult>\n"
+    }
+  ],
+  "sra_search_count": "3",
+  "sra_summaries": [
+    {
+      "uid": "41557954",
+      "title": "Pig manure-E",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX31112595",
+            "ver": "1",
+            "status": "public",
+            "name": "Pig manure-E"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP645508",
+            "name": "Anaerobic fermentation amplicon"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS27100106",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR36066316\" total_spots=\"120042\" total_bases=\"58100328\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "41557953",
+      "title": "Pig manure-C",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX31112594",
+            "ver": "1",
+            "status": "public",
+            "name": "Pig manure-C"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP645508",
+            "name": "Anaerobic fermentation amplicon"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS27100105",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR36066317\" total_spots=\"135586\" total_bases=\"65623624\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    },
+    {
+      "uid": "41557952",
+      "title": "Pig manure-A",
+      "library_strategy": "AMPLICON",
+      "library_source": "METAGENOMIC",
+      "library_selection": "PCR",
+      "experiment": [
+        [
+          "Experiment",
+          {
+            "acc": "SRX31112593",
+            "ver": "1",
+            "status": "public",
+            "name": "Pig manure-A"
+          }
+        ],
+        [
+          "Study",
+          {
+            "acc": "SRP645508",
+            "name": "Anaerobic fermentation amplicon"
+          }
+        ],
+        [
+          "Sample",
+          {
+            "acc": "SRS27100104",
+            "name": ""
+          }
+        ]
+      ],
+      "runs_xml": "<Run acc=\"SRR36066318\" total_spots=\"94556\" total_bases=\"45765104\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>"
+    }
+  ],
+  "limitation": "精确DOI检索无结果不能证明没有测序数据或未公开；16S项目不能因可访问而转为目标数据。"
+}

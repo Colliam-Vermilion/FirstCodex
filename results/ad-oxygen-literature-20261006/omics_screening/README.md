@@ -1,91 +1,94 @@
 # 群落宏基因组／宏转录组累计全文筛查
 
-B008以GitHub最新基准`fc81882d43dea97732de61d90aa3a8b1f0cd4401`，按稳定ID选取R13558–R13879接下来的50篇未开始研究。**49完成、R13834待确认；4宏基因组、0宏转录组、45非目标。** 每篇保存JSON/证据/检查点；前20篇已以`211f863`正常推送。原分类、人工判断及已有结果保留；未重新检索文献、追下载缺全文或下载reads，未联系作者。
+B009以GitHub最新提交`ef74a5e4c60f20b219d4013ac584698231f8f882`为基准，按稳定ID筛查R13880–R13937接下来的50条未开始研究任务：**48完成、2待确认；3宏基因组、0宏转录组、45非目标。** 原分类、人工判断、载体类型和旧批次结论保留。每篇即时保存；首20篇检查点`b2ddc70`已正常推送。
 
-[同一份累计Excel](omics_screening_cumulative.xlsx) · [本批50篇CSV](batch_B008_results_utf8.csv) · [累计JSON](screening_records.json) · [累计CSV](screening_records_utf8.csv) · [证据](evidence.json) · [数据项目/样本/实验/run](data_projects_samples.json) · [待确认/线索](pending_related.json) · [统计](summary.json) · [批次](batches.json) · [逐篇检查点](checkpoint_log.jsonl)
+[同一份累计Excel](omics_screening_cumulative.xlsx) · [本批50篇CSV](batch_B009_results_utf8.csv) · [累计JSON](screening_records.json) · [累计CSV](screening_records_utf8.csv) · [证据](evidence.json) · [项目/样本/实验/run](data_projects_samples.json) · [待确认/相关线索](pending_related.json) · [统计](summary.json) · [批次](batches.json) · [逐篇检查点](checkpoint_log.jsonl)
 
-## 本批目标研究和数据获取
+## 本批目标研究及数据获取
 
-|ID|类型与证据|数据获取|
+|ID|实际测序与证据|数据获取与限制|
 |---|---|---|
-|R13671|新产生宏基因组；正文PDF3和核实SI MethodsS1段38；DNA PE/NovaSeq6000、MEGAHIT/ORF/ARG-OAP|PDF8列3个BioProject，官方仅[PRJNA1447957](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1447957)为12WGS/METAGENOMIC/PAIRED/NovaSeq6000，12实验和12run均public。另PRJNA1447972/PRJNA1448473各24AMPLICON，虽原文统称MG，排除目标统计。|
-|R13817|新产生宏基因组＋宏蛋白组，非MT；PDF3–4和SI§1.5段31–34；DNA/MAG|正文PDF13明确“The authors do not have permission to share data.” 无编号；未标公开或可索取。未定位存储项目，不能冒用“已定位受限项目”。|
-|R13856|新产生宏基因组；PDF3与核实SI TextS1段12–21；随机400bp/NEXTflexDNA连接/NovaSeq/MEGAHIT|全文12页和SI904段未找到编号或相关数据索取声明；目标研究保留。|
-|R13866|新产生宏基因组；PDF4§2.4，Covaris400bp/NEXTFLEXRapidDNASeq/NovaSeqPE|全文11页及核实SI7页未找到编号或相关索取声明；目标研究保留。双反应器消化液混合后测序，不作为2个独立测序重复。|
+|R13884|新产生群落DNA宏基因组；PDF3§2.3.2随机Covaris200–400bp/NEXTFlex/Illumina，MG-RAST；SI表x1/y1独特三样本与正文PDF6引用核实归属|[PRJNA357876](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA357876)，官方SRP096931、3BioSample/6WGS实验和6public run，METAGENOMIC/RANDOM/PAIRED/HiSeq2500。原文TP-EBD:SRS192581缺末位，官方TPEBD1/2是SRS1925817；原值/规范值均保存。|
+|R13904|新产生宏基因组＋16S（分开）；PDF5厌氧残渣总DNA/NovaSeq6000 PE150、MEGAHIT/MetaGeneMark/KEGG/CAZy/CARD，明确MG|唯一[PRJNA1347783](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1347783)紧随预处理16S PE250方法，官方仅3AMPLICON，不能当MG公开项目。全文13页、SI61段及所有图页未找到独立MG编号/相关索取声明。PDF11称“No datasets were generated or analysed during the current study.”与实验矛盾，原样保留；无编号仍纳入目标。|
+|R13920|新产生群落DNA宏基因组；PDF3§2.3–2.4随机400bp/NEXTFLEX DNA接头建库、MEGAHIT/ORF/基因注释|文中[PRJNA1438379](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1438379)，官方SRA和BioProject准确编号均count0，保留为状态2，不能推断不存在/受限/未公开。PDF10仅泛指“Data will be made available on request.”，不标明确reads可索取。正文HiSeq2000与NovaSeq/HiSeqX试剂不一致，未擅自修正。|
 
-R13671公开目标run为SRR37918003–SRR37918014，样本/实验逐行保留。官方库原始代号CZ/CN/ZZ/ZN尚未与文中MN/MD/PN/PD唯一对应；扩增子21/35天与正文21/49天不一致，正文0/21/49天与SI21/49天差异也保留。不能凭编号或排序推定供氧组/温度。BioSample按已知项目检索count0未补足映射，不影响SRA已公开WGS核实。所有官方原始响应见[batches/B008](batches/B008/)。对其余目标研究的完整已知DOI官方SRA查询count0，不证明没有数据。
+R13884公开run：SRR5183016–SRR5183019、SRR5182962–SRR5182963，共6条；3样本每个有两run、相同spots，**不推为6生物重复或6独立样本**。SM-EBD接种物→SRS1925844/SAMN06161529；MP-EBD37°C→SRS1925843/SAMN06161530；TP-EBD46°C→SRS1925817/SAMN06161531。原文37°C第54天/46°C第75天描述保留，非供氧/无氧平行组。官方原始响应见[batches/B009](batches/B009/)，未下载reads或联系作者。
 
 ## 逐篇结论
 
-|ID|进度|结论与方法依据|
+|ID|进度|方法核查结论|
 |---|---|---|
-|R13558|已完成|未报告测序；GC/HPLC/水质及工程监测|
-|R13671|已完成|群落DNA宏基因组＋16S扩增子（新产生，分开标记）|
-|R13683|已完成|16S V3–V4 NovaSeq6000扩增子＋PICRUSt2预测（非目标）|
-|R13691|已完成|细菌/古菌16S及真菌ITS扩增子（非目标）|
-|R13737|已完成|细菌/古菌16S及真菌ITS扩增子（非目标）|
-|R13816|已完成|16S V4 MiSeq扩增子＋PICRUSt2预测（非目标）|
-|R13817|已完成|群落DNA宏基因组＋宏蛋白组（新产生；非宏转录组）|
-|R13818|已完成|未报告测序；GC及水质/硫化物工程监测|
-|R13819|已完成|古菌16S克隆文库/毛细管测序（非目标）|
-|R13820|已完成|未报告测序；GC-MS/SEM/水质和代谢活性|
-|R13821|已完成|未报告测序；真菌培养/酶活与GC/HPLC|
-|R13822|已完成|16S PCR扩增子Illumina（非目标）|
-|R13823|已完成|未报告测序；BHP/BMP、GC及物质平衡|
-|R13824|已完成|未报告测序；橄榄废水理化/多酚及产气|
-|R13825|已完成|未报告测序；污泥水解/蛋白糖/产气|
-|R13826|已完成|未报告测序；GC/BMP与动力学模型|
-|R13827|已完成|未报告测序；两阶段产气/气相色谱/理化|
-|R13831|已完成|16S V4–V5 MiSeq扩增子（非目标）|
-|R13832|已完成|16S V3–V4 MiSeq扩增子（非目标）|
-|R13833|已完成|16S MiSeq扩增子＋菌株16S Sanger/DGGE（非目标）|
-|R13834|待确认|群落DNA/MiSeq分析，扩增子还是shotgun未说明|
-|R13836|已完成|16S V4 MiSeq扩增子（非目标）|
-|R13837|已完成|未报告测序；HPLC/GC/离子色谱与工程监测|
-|R13838|已完成|未报告测序；元素/纤维/GC及产气|
-|R13840|已完成|16S V3–V4扩增子＋宏蛋白质谱（非目标）|
-|R13841|已完成|未报告测序；TGA/GC/理化与产气|
-|R13842|已完成|古菌16S V4–V5 PCR扩增子（非目标）|
-|R13843|已完成|未报告测序；SSAD/BMP/GC/HPLC及实验设计|
-|R13844|已完成|未报告测序；菌剂/产气和氨激光光谱|
-|R13845|已完成|细菌/古菌16S扩增子MiSeq（非目标）|
-|R13850|已完成|未报告测序；工程水质/GC/SMA|
-|R13851|已完成|16S V3–V4 MiSeq扩增子（非目标）|
-|R13853|已完成|未报告测序；污泥臭气/ORP/GC及嗅辨|
-|R13855|已完成|16S V3–V4 MiSeq扩增子（非目标）|
-|R13856|已完成|群落DNA shotgun宏基因组＋16S扩增子（新产生）|
-|R13857|已完成|16S V3–V4 iSeq100扩增子（非目标）|
-|R13859|已完成|未报告测序；GC/脱硫/CFD模型|
-|R13860|已完成|16S V3–V4 PCR扩增子（非目标）|
-|R13861|已完成|16S PCR-DGGE（非目标）|
-|R13862|已完成|未报告测序；定义菌共培养/GC/HPLC与显微镜|
-|R13863|已完成|未报告测序；飞灰/预处理/VS-COD与产气|
-|R13864|已完成|16S MiSeq扩增子（非目标）|
-|R13866|已完成|群落DNA shotgun宏基因组（新产生）|
-|R13868|已完成|16S rRNA基因MiSeq测序（非目标）|
-|R13871|已完成|未报告测序；学位研究的气液传质/产气/CFD与比色|
-|R13875|已完成|未报告测序；GC/HPLC/污泥工程监测|
-|R13876|已完成|未报告测序；纤维/GC/HPLC与能量模型|
-|R13877|已完成|16S PCR-DGGE及条带序列分析（非目标）|
-|R13878|已完成|16S V3–V4 MiSeqPE300扩增子（非目标）|
-|R13879|已完成|未报告测序；SEM/XRD/GC与经济分析|
+|R13880|已完成|未报告测序；酶活/F420和理化|
+|R13881|已完成|未报告测序；光谱/GC-MS和生物毒性|
+|R13882|已完成|16S V3–V4 MiSeq扩增子（非目标）|
+|R13883|已完成|未报告测序；HPLC/GC/SEM/FTIR|
+|R13884|已完成|群落DNA shotgun宏基因组（新产生）|
+|R13886|已完成|16S rRNA/cDNA MiSeq扩增子＋PICRUSt2（非目标）|
+|R13887|已完成|未报告测序；酶活/ETS和理化|
+|R13888|已完成|16S PCR-DGGE克隆测序＋qPCR（非目标）|
+|R13889|已完成|未报告测序；ICP/水质和产气|
+|R13890|已完成|16S V3–V4 MiSeq扩增子（非目标）|
+|R13891|已完成|细菌/古菌16S MiSeq扩增子＋FAPROTAX（非目标）|
+|R13893|已完成|细菌/古菌16S PCR扩增子（非目标）|
+|R13895|已完成|未报告测序；碱吸收甲烷/纤维化学|
+|R13896|待确认|群落测序类型未报告，待确认|
+|R13897|已完成|未报告测序；纤维/GC及响应面|
+|R13898|已完成|未报告测序；GC/FTIR及能量平衡|
+|R13899|已完成|未报告测序；渗滤液/气体化学监测|
+|R13900|已完成|未报告测序；元素/气体及Gompertz模型|
+|R13901|已完成|未报告测序；GC/FTIR及产气模型|
+|R13902|已完成|未报告测序；NMR/GC/FTIR及吸水模型|
+|R13903|已完成|未报告测序；DNS/GC及响应面|
+|R13904|已完成|群落DNA宏基因组＋16S扩增子（新产生）|
+|R13905|已完成|未报告测序；酶活/OUR及BMP|
+|R13906|已完成|未报告测序；MPN培养计数与GC|
+|R13907|已完成|未报告测序；二维GC和废物成分|
+|R13908|已完成|未报告测序；二维GC/固体化学|
+|R13909|已完成|未报告测序；填埋工程/水质和呼吸指数|
+|R13910|已完成|未报告测序；BMP/氨吹脱及理化|
+|R13911|已完成|16S 338F/806R Illumina扩增子（非目标）|
+|R13912|已完成|未报告测序；GC/FTIR/XRD/SEM/SSA|
+|R13913|已完成|16S V4及真菌ITS PCR扩增子（非目标）|
+|R13914|已完成|16S rDNA Illumina测序＋功能估计（非目标）|
+|R13915|已完成|16S 515F-Y/926R MiSeq扩增子（非目标）|
+|R13916|已完成|未报告测序；ORP/DO动力学与GC|
+|R13917|已完成|细菌/古菌16S Illumina扩增子（非目标）|
+|R13919|待确认|群落DNA/MiSeq策略未明确，待确认|
+|R13920|已完成|群落DNA shotgun宏基因组（新产生）|
+|R13921|已完成|未报告测序；GC/ELISA及理化|
+|R13922|已完成|16S 338F/806R MiSeq扩增子（非目标）|
+|R13926|已完成|未报告测序；填埋气体/水质|
+|R13927|已完成|16S PCR-DGGE条带克隆测序＋qPCR（非目标）|
+|R13929|已完成|未报告测序；动态曝气/理化和GC|
+|R13930|已完成|未报告测序；酶活/呼吸及GC|
+|R13931|已完成|未报告测序；ICP-AES/气体水质|
+|R13932|已完成|未报告测序；GC/COD分级和荧光|
+|R13933|已完成|未报告测序；气体/渗滤液与PCA|
+|R13934|已完成|未报告测序；吹脱/BMP与理化|
+|R13935|已完成|古菌16S靶区NovaSeq扩增子（非目标）|
+|R13936|已完成|未报告测序；Fenton/吹脱/BMP及理化|
+|R13937|已完成|16S V3–V4 MiSeq扩增子（非目标）|
 
-## 待确认、附件和解析限制
+## 待确认、附件和队列校准
 
-R13834完整方法仅写DNA提取、MiSeq和引用他文方法；当前正文与已归属SI缺靶区、引物、shotgun建库及编号。MiSeq/OTU不足以判定16S或宏基因组，保留待确认，没有完成时间，未作阴性。此前5项R01917/R05396/R06623/R11168/R11534保持待确认，未重筛。
+R13896：PDF4§2.4只说第36天菌群分析及引用[16]；PDF12§3.6称microbial sequencing，没有靶区、引物或随机建库/平台。PDF16泛指数据可向作者索取，不证明目标测序或原始reads。
 
-R13840虽在结果PDF13/15写metagenome，实际方法PDF4–5为16S扩增子，SI TextS3段32为胰酶处理/蛋白质谱/PEAKS，蛋白fold-change不算DNA/RNA测序。R13683功能expression/upregulated实为PICRUSt2；R13877为16S-DGGE和单菌SDS-PAGE，非MT。
+R13919：PDF3§2.5仅DNA/MiSeq、引用Rollemberg2019及Mothur/群落统计；全文7页无16S靶区/引物/shotgun建库、项目号或相关索取声明。两篇均保留待确认，无完成时间，不作阴性。准确已知DOI官方SRA无结果仅作核对记录，不改变判断。
 
-本批77原格式对象＝50正文PDF＋27补充原件（DOCX19、PDF5、XLSX2、DOC1），共220,268,470字节；没有ZIP或新增原件副本。275页R13871学位论文完整Chapter3 PDF74–113及附录PDF272–275、相关实验/CFD章节方法已查，为气液传质、产气和COD/VFA比色，无核酸测序。R13878原DOC用现有antiword重新解析，题名作者及属丰度表核查。
+R13886为RNA→cDNA后的16S数据和PICRUSt2，不是宏转录组。R13891虽称metagenomic，实际338F/806R及古菌16S PCR/MiSeq/FAPROTAX，非MG。R13914功能基因是16S后的KEGG估计；R13912“sequencing batch”指序批式反应器。非目标PRJNA906293/PRJNA1056946/PRJNA1497691、SAMN10410857和DGGE参考序列均留排除说明，不计目标项目。
 
-R13879 SI字体编码异常，已查看原页：装置/日产甲烷两图，不将文本无命中当阴性。R13826/R13860/R13866低文字图页及R13832两DOCX的3WMF＋JPEG/PNG嵌图均查看，见[视觉出处](batches/B008/visual/provenance.json)。R13816 SI按题名、作者全名单和机构核实，筛查层解决归属；其余候选附件保留限制，全库54件唯一归属待核实。不按目录归属项目号。原库存、分类、原件与main未修改。
+最终直接对照基线全部未开始队列，R13906虽然原载体类型待核实，仍应进入本批。已补查12页完整研究（PDF1标ICBAA会议、PDF2为培养MPN/GC/理化），保留原类型字段；原先顺延选入且尚未提交的R13938恢复未开始，本批严格50条，终点R13937。下一批从R13938继续。检查点保留真实完成顺序和时间，未伪造为ID排序。
 
-## 累计、核验和续跑
+本批68原格式源＝50正文PDF＋18补充原件（DOCX12、DOC6），共129,546,435字节，源大小/SHA与库存逐件校验；无ZIP，无新增原件副本。解析增量以当前源SHA绑定。6DOC用antiword解析，另用已有LibreOffice临时转PDF查看原嵌图；R13889 PDF34/35/37/38低文字页查看为流程/pH/VSS/产甲烷图；R13904/R13920全SI图页和R13912 pH图均已查看。见[38页/图的视觉出处](batches/B009/visual/provenance.json)，派生图不计原件。
 
-累计426任务：341有核验全文研究中259完成、6待确认、76未开始；另34缺正文、51综述单列。累计265研究已核查。目标19篇＝18MG＋1MT，兼有0；18新产生、1复用。7篇官方公开、1明确相关测序数据可索取、6泛指数据索取、1篇文中编号公开未核实、4篇无编号（其中R13817明确无共享权限）。独立目标项目号7个，其中6个官方公开核实；唯一公开目标run43。本批新增1个独立公开目标项目/12run，非目标扩增子不混入。
+R13884 SI用SM/MP/TP-EBD独特标签与正文Venn/表x1/y1引用核实归属，筛查层解决；全库仍53件附件唯一归属待核实。其他候选附件未凭目录分配编号。旧原库存、JCR、研究分类和main不改。
 
-新增60条源SHA绑定原文证据，累计438条，保留PDF页码/章节或附件段落/工作表位置。[本批审计](batch_B008_audit.json)、[本地验证](batches/B008/local_validation.json)、[独立远端读回](batches/B008/remote_readback.json)、[交付SHA清单](batches/B008/delivery_manifest.json)、[源覆盖](source_coverage_audit.json)、[定位与人工上下文判定](batches/B008/term_hit_manual_dispositions.json)。
+## 累计与交付核验
 
-下一批起点**R13880**，接下来20篇：R13880、R13881、R13882、R13883、R13884、R13886、R13887、R13888、R13889、R13890、R13891、R13893、R13895、R13896、R13897、R13898、R13899、R13900、R13901、R13902。以GitHub最新screening_records.json的未开始项按稳定ID继续；用户指定数量优先。不重筛已完成项，待确认独立复核。
+426任务中：341核验全文研究队列，**307完成＋8待确认＋26未开始**；另34缺正文、51综述单列。累计315研究已核查。目标22篇＝21MG＋1MT，兼有0；21新产生、1复用。8篇官方公开、1明确相关测序可索取、6泛指可索取、5无目标编号/相关声明、2文中编号公开未核实。独立目标项目号9个，其中7官方公开；唯一公开目标run49。本批新增3目标文章、1个官方公开项目及6run；未核实PRJNA1438379作为已有文中项目号单列，不标可下载。
 
-历史：[B007说明和交付](https://github.com/Colliam-Vermilion/FirstCodex/tree/fc81882d43dea97732de61d90aa3a8b1f0cd4401/results/ad-oxygen-literature-20261006/omics_screening)。
+本批新增57条源SHA/页码/章节绑定原文证据，累计495条。 [本批审计](batch_B009_audit.json) · [本地验证](batches/B009/local_validation.json) · [交付SHA清单](batches/B009/delivery_manifest.json) · [独立新克隆远端读回](batches/B009/remote_readback.json) · [源覆盖](source_coverage_audit.json) · [定位与人工上下文判定](batches/B009/term_hit_manual_dispositions.json)。最终回执核对交付文件和本批68原件真实字节大小/SHA，并打开远端Excel；回执对应的数据提交单独记录。
+
+下一批起点**R13938**，默认20条：R13938、R13939、R13940、R13941、R13942、R13943、R13944、R13945、R13948、R13950、R13951、R13954、R13955、R13956、R13957、R13958、R13959、R13960、R13962、R13963。以最新提交进度取未开始项，类型待核实/学位/其他完整研究不因载体排除；待确认独立复核，用户指定数量优先。
+
+历史：[B008交付说明](https://github.com/Colliam-Vermilion/FirstCodex/tree/ef74a5e4c60f20b219d4013ac584698231f8f882/results/ad-oxygen-literature-20261006/omics_screening)。
