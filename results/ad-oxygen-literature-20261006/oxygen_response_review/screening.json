@@ -2054,6 +2054,48 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-1C07DB143232",
+    "batch": "P010",
+    "batch_order": 14,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "环境厌氧生物综述，仅作框架与追溯；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Interesting anaerobes in the environment",
+    "doi": "10.1071/ma15046",
+    "year": "2015",
+    "journal": "Microbiology Australia",
+    "research_system": [
+      "syntrophic association",
+      "Desulfuromonadales",
+      "Anammox"
+    ],
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 3,
+    "mechanism_themes": [
+      "M2 解毒",
+      "M3 代谢",
+      "M4 互作"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Prokaryotes (Bacteria and Archaea) have a wide range of capacities to survive by generating energy in environments and situations lacking oxygen, whic",
+    "source_provenance": [
+      {
+        "source": "OpenAlex",
+        "query_id": "O03",
+        "raw_path": "raw/openalex/O03_page_000.json",
+        "source_pmid": "",
+        "source_doi": "10.1071/ma15046"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.504202+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-1E3E423A9EFE",
     "batch": "P005",
     "batch_order": 13,
@@ -2250,6 +2292,55 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:53:50.593503+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-2197CDE1B6A3",
+    "batch": "P010",
+    "batch_order": 15,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "B.fragilis BmoR/OxyR调控干预，需分开氧应答与宿主脓肿结果；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Characterization of the oxidative stress response regulatory network in Bacteroides fragilis: An interaction between BmoR and OxyR regulons promotes abscess formation in a model of intra-abdominal infection.",
+    "doi": "10.1016/j.anaerobe.2022.102668",
+    "year": "2022",
+    "journal": "Anaerobe",
+    "research_system": [
+      "Bacteroides fragilis"
+    ],
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "遗传干预线索",
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "OBJECTIVES: Bacteroides fragilis is an anaerobic bacterium that is commonly found in the human gut microbiota and an opportunistic pathogen in extra-i",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P03",
+        "raw_path": "raw/pubmed/P03_fetch_00000.xml",
+        "source_pmid": "36368601",
+        "source_doi": "10.1016/j.anaerobe.2022.102668"
+      },
+      {
+        "source": "PubMed",
+        "query_id": "P08",
+        "raw_path": "raw/pubmed/P08_fetch_00000.xml",
+        "source_pmid": "36368601",
+        "source_doi": "10.1016/j.anaerobe.2022.102668"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.508042+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -2891,6 +2982,43 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-2D1FF6B6AA3A",
+    "batch": "P010",
+    "batch_order": 8,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "冻融污染物迁移综述，非目标微生物氧机制；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Thaw-window mismatch in soil organic-pollutant fate under freeze-thaw cycles: redistribution, boundary-export risk, and adaptive control.",
+    "doi": "10.1016/j.watres.2026.126639",
+    "year": "2026",
+    "journal": "Water research",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M6 恢复",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Climate warming may intensify freeze-thaw disturbance in cold-region and seasonally frozen soils, which have long been regarded as relatively stable r",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P07",
+        "raw_path": "raw/pubmed/P07_fetch_00000.xml",
+        "source_pmid": "42607367",
+        "source_doi": "10.1016/j.watres.2026.126639"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.504884+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-2DB242C5AD4C",
     "batch": "P005",
     "batch_order": 20,
@@ -3046,6 +3174,44 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:56:24.306640+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-2F8E4696FD85",
+    "batch": "P010",
+    "batch_order": 5,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "土壤ROS非生物产甲烷，是甲烷响应解释的边界背景；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Abiotic Methane Production Driven by Soil Reactive Oxygen Species.",
+    "doi": "10.1021/acs.est.6c01306",
+    "year": "2026",
+    "journal": "Environmental science & technology",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Recent studies reveal that reactive oxygen species (ROS) can abiotically generate CH4 via oxidative demethylation of organic compounds; yet, the envir",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P07",
+        "raw_path": "raw/pubmed/P07_fetch_00000.xml",
+        "source_pmid": "41940847",
+        "source_doi": "10.1021/acs.est.6c01306"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.505011+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -3483,6 +3649,45 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-3C0E505B4E2A",
+    "batch": "P010",
+    "batch_order": 8,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "SND生物膜溶氧干预，厌氧对象和机制证据待核；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Evaluation of the impact of dissolved oxygen concentration on biofilm microbial community in sequencing batch biofilm reactor.",
+    "doi": "10.1016/j.jbiosc.2017.11.007",
+    "year": "2018",
+    "journal": "Journal of bioscience and bioengineering",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M5 空间",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "微剖面/同位素线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "The effect of dissolved oxygen concentration (DO) during simultaneous nitrification and denitrification (SND) was investigated in a sequencing batch b",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P05",
+        "raw_path": "raw/pubmed/P05_fetch_00000.xml",
+        "source_pmid": "29398550",
+        "source_doi": "10.1016/j.jbiosc.2017.11.007"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.503584+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-3C4A038C022F",
     "batch": "P006",
     "batch_order": 12,
@@ -3696,6 +3901,49 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-3F0580B04B22",
+    "batch": "P010",
+    "batch_order": 16,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "B.fragilis吡啉/氧化还原代谢，直接氧干预待核，暂作靶点背景；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "New functions of pirin proteins and a 2‐ketoglutarate: Ferredoxin oxidoreductase ortholog in Bacteroides fragilis metabolism and their impact on antimicrobial susceptibility to metronidazole and amixicile",
+    "doi": "10.1002/mbo3.1429",
+    "year": "2024",
+    "journal": "MicrobiologyOpen",
+    "research_system": [
+      "Bacteroides fragilis"
+    ],
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "遗传干预线索",
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "In this study we show that B. fragilis encodes for two iron-dependent redox-sensitive regulatory pirin protein genes, pir1 and pir2, whose mRNA expres",
+    "source_provenance": [
+      {
+        "source": "OpenAlex",
+        "query_id": "F01",
+        "raw_path": "raw/openalex/F01_page_000.json",
+        "source_pmid": "39109824",
+        "source_doi": "10.1002/mbo3.1429"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.504087+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-403C25C65934",
     "batch": "P006",
     "batch_order": 12,
@@ -3729,6 +3977,42 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:53:50.593206+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-40C822B8C049",
+    "batch": "P010",
+    "batch_order": 4,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "心血管ROS综述，宿主对象非目标；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Reactive oxygen species, oxidative stress, and cardiovascular diseases",
+    "doi": "10.1002/9781118832431.ch17",
+    "year": "2016",
+    "journal": "Oxidative Stress and Antioxidant Protection",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Enhancement of reactive oxygen species (ROS) production impairs the physiological function of the cardiovascular system due to activation of specific ",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C01",
+        "raw_path": "raw/crossref/C01_search.json",
+        "source_pmid": "",
+        "source_doi": "10.1002/9781118832431.ch17"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.507073+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -3791,6 +4075,42 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:41:41.516200+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-40D2DF84C097",
+    "batch": "P010",
+    "batch_order": 8,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "施肥与碳积累，未见明确氧进入处理；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Influence of 20-year organic and inorganic fertilization on organic carbon accumulation and microbial community structure of aggregates in an intensively cultivated sandy loam soil.",
+    "doi": "10.1371/journal.pone.0092733",
+    "year": "2014",
+    "journal": "PloS one",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M5 空间"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "To evaluate the long-term effect of compost (CM) and inorganic fertilizer (NPK) application on microbial community structure and organic carbon (OC) a",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P05",
+        "raw_path": "raw/pubmed/P05_fetch_00000.xml",
+        "source_pmid": "24667543",
+        "source_doi": "10.1371/journal.pone.0092733"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.504559+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -3942,6 +4262,42 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:46:52.801871+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-44AA178A2EA7",
+    "batch": "P010",
+    "batch_order": 8,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "沉积物燃料电池隔氧膜，需确认厌氧群落氧响应而非材料性能；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Simultaneous enhancement of copper removal and power production using a sediment microbial fuel cell with oxygen separation membranes",
+    "doi": "10.1016/j.eti.2022.102369",
+    "year": "2022",
+    "journal": "Environmental Technology &amp; Innovation",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M5 空间"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "This study used polyvinyl alcohol (PVA) as the proton exchange membrane (PEM) of sediment microbial fuel cells (SMFCs) to assess the oxygen diffusion ",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C03",
+        "raw_path": "raw/crossref/C03_search.json",
+        "source_pmid": "",
+        "source_doi": "10.1016/j.eti.2022.102369"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.505696+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -4365,6 +4721,46 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-4C2FA5E5F635",
+    "batch": "P010",
+    "batch_order": 8,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "蓝藻聚集体微电极氧梯度与厌氧氮转化，空间边界候选；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Aerobic and anaerobic nitrogen transformation processes in N2-fixing cyanobacterial aggregates.",
+    "doi": "10.1038/ismej.2014.232",
+    "year": "2015",
+    "journal": "The ISME journal",
+    "research_system": [
+      "anammox"
+    ],
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M5 空间"
+    ],
+    "potential_evidence_type": [
+      "微剖面/同位素线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Microelectrode profiles showed steep oxygen gradients inside the aggregates and the potential for nitrous oxide production in the aggregates' anoxic c",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P05",
+        "raw_path": "raw/pubmed/P05_fetch_00000.xml",
+        "source_pmid": "25575306",
+        "source_doi": "10.1038/ismej.2014.232"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.506734+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-4CD9748D90DD",
     "batch": "P004",
     "batch_order": -30,
@@ -4395,6 +4791,42 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:47:23.403612+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-4D60CFEB9301",
+    "batch": "P010",
+    "batch_order": 8,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "农业回收池水和沉积物质量监测，未见氧干预机制；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Multistate Evaluation of Microbial Water and Sediment Quality from Agricultural Recovery Basins",
+    "doi": "10.2134/jeq2015.06.0323",
+    "year": "2016",
+    "journal": "Journal of Environmental Quality",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Agricultural recovery basins are an important conservation practice designed to provide temporary storage of sediment and water on farms before low-vo",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C03",
+        "raw_path": "raw/crossref/C03_search.json",
+        "source_pmid": "",
+        "source_doi": "10.2134/jeq2015.06.0323"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.505995+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -4510,6 +4942,85 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:47:23.400296+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-52E6BA12BEDD",
+    "batch": "P010",
+    "batch_order": 8,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "海绵生物膜厌氧氮转化菌空间分布，氧剖面和活性证据待核；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Spatial distribution and viability of nitrifying, denitrifying and ANAMMOX bacteria in biofilms of sponge media retrieved from a full-scale biological nutrient removal plant.",
+    "doi": "10.1007/s00449-012-0701-9",
+    "year": "2012",
+    "journal": "Bioprocess and biosystems engineering",
+    "research_system": [
+      "ANAMMOX"
+    ],
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M5 空间"
+    ],
+    "potential_evidence_type": [
+      "微剖面/同位素线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "The biofilm appeared to be most dense in the relatively outer region of the media and gradually decreased with depth, but bacterial viabilities showed",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P05",
+        "raw_path": "raw/pubmed/P05_fetch_00000.xml",
+        "source_pmid": "22367527",
+        "source_doi": "10.1007/s00449-012-0701-9"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.507623+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-54444D2CBFD4",
+    "batch": "P010",
+    "batch_order": 8,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "弧菌生物膜氧条件干预，厌氧背景和AD外推边界待核；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Interface-dependent V. parahaemolyticus biofilm under varying temperatures, media, and oxygen conditions: implications for seafood safety.",
+    "doi": "10.1016/j.foodres.2026.120008",
+    "year": "2026",
+    "journal": "Food research international (Ottawa, Ont.)",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M5 空间",
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Vibrio parahaemolyticus biofilms play a critical role in pathogen persistence in marine and seafood-processing environments, where oxygen availability",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P05",
+        "raw_path": "raw/pubmed/P05_fetch_00000.xml",
+        "source_pmid": "42680310",
+        "source_doi": "10.1016/j.foodres.2026.120008"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.508343+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -5128,6 +5639,43 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-64BB3F501D3B",
+    "batch": "P010",
+    "batch_order": 8,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "库底沉积物氧操纵和群落响应，需核实活性及扰动混杂；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Response of sediment microbial community structure in a freshwater reservoir to manipulations in oxygen availability",
+    "doi": "10.1111/j.1574-6941.2011.01290.x",
+    "year": "2012",
+    "journal": "FEMS Microbiology Ecology",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M6 恢复",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Hypolimnetic oxygenation systems (HOx) are being increasingly used in freshwater reservoirs to elevate dissolved oxygen levels in the hypolimnion and ",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C03",
+        "raw_path": "raw/crossref/C03_search.json",
+        "source_pmid": "",
+        "source_doi": "10.1111/j.1574-6941.2011.01290.x"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.506974+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-64BE5911B5EB",
     "batch": "P004",
     "batch_order": -30,
@@ -5164,6 +5712,44 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:47:23.402389+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-65BCF0E92FD7",
+    "batch": "P010",
+    "batch_order": 8,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "塑料沉积物基因组资源，未见氧进入干预；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Metagenome Sequencing and Recovery of 52 Microbial Genomes from Plastic-Polluted Coastal Sediment",
+    "doi": "10.1038/s41597-026-07068-8",
+    "year": "2026",
+    "journal": "Scientific Data",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [
+      "组学/群落线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Plastic pollution is an escalating environmental concern, particularly in coastal regions where sediments serve as long-term sinks for plastic debris.",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C03",
+        "raw_path": "raw/crossref/C03_search.json",
+        "source_pmid": "",
+        "source_doi": "10.1038/s41597-026-07068-8"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.507690+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -5206,6 +5792,50 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:59:36.043507+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-662C0FF8343C",
+    "batch": "P010",
+    "batch_order": 14,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "植物积水厌氧生境干旱增氧与产甲烷菌防御基因，基因不等于活性；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Methanogenesis in phytotelmata: Microbial communities and methane cycling in bromeliad tanks and leaf axils of oil palms",
+    "doi": "10.17192/z2015.0240",
+    "year": "2015",
+    "journal": "Max Planck Institute for Plasma Physics",
+    "research_system": [
+      "Methanobacteriales",
+      "Methanosaeta species"
+    ],
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 3,
+    "mechanism_themes": [
+      "M2 解毒",
+      "M3 代谢",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "微剖面/同位素线索",
+      "组学/群落线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Increasing drought resulted in increasing oxygen exposure for the microoorganisms. We found genes for oxygen detoxifying enzymes in genomes of Methano",
+    "source_provenance": [
+      {
+        "source": "OpenAlex",
+        "query_id": "O01",
+        "raw_path": "raw/openalex/O01_page_000.json",
+        "source_pmid": "",
+        "source_doi": "10.17192/z2015.0240"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.505422+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -5608,6 +6238,42 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-6DE7E58D3456",
+    "batch": "P010",
+    "batch_order": 8,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "燃料电池鱼市场污水处理回能，所示无微生物氧机制；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Improved Treatment and Bioenergy Recovery From Fish Market Wastewater Using Sediment and Plant Microbial Fuel Cells",
+    "doi": "10.1002/tqem.70277",
+    "year": "2026",
+    "journal": "Environmental Quality Management",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "ABSTRACT \n                   \n                    Fish market wastewater has high content of organic pollutants that quickly decompose crustacean and ",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C03",
+        "raw_path": "raw/crossref/C03_search.json",
+        "source_pmid": "",
+        "source_doi": "10.1002/tqem.70277"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.508413+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-6E6396C8E052",
     "batch": "P008",
     "batch_order": 12,
@@ -5758,6 +6424,42 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T19:05:29.940813+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-70208A53FEE1",
+    "batch": "P010",
+    "batch_order": 6,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "根际沉积物ROS与群落，需辨别分子氧进入和其他ROS来源；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名语义审阅；缺摘要",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Coupled effects of redox-active substances and microbial communities on reactive oxygen species in rhizosphere sediments of submerged macrophytes",
+    "doi": "10.1016/j.scitotenv.2024.175421",
+    "year": "2024",
+    "journal": "The Science of The Total Environment",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": false,
+    "abstract_evidence_excerpt": "Coupled effects of redox-active substances and microbial communities on reactive oxygen species in rhizosphere sediments of submerged macrophytes",
+    "source_provenance": [
+      {
+        "source": "OpenAlex",
+        "query_id": "F01",
+        "raw_path": "raw/openalex/F01_page_000.json",
+        "source_pmid": "39128517",
+        "source_doi": "10.1016/j.scitotenv.2024.175421"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.503746+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -6265,6 +6967,45 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:56:24.307264+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-7F7029A9523E",
+    "batch": "P010",
+    "batch_order": 14,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "鳕鱼生长与氧耐受，不是微生物；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名语义审阅；缺摘要",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Growth, metabolism, and dissolved oxygen tolerance of juvenile burbot",
+    "doi": "10.1016/j.aquaculture.2022.737980",
+    "year": "2022",
+    "journal": "Aquaculture",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M2 解毒",
+      "M3 代谢"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": false,
+    "abstract_evidence_excerpt": "Growth, metabolism, and dissolved oxygen tolerance of juvenile burbot",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C02",
+        "raw_path": "raw/crossref/C02_search.json",
+        "source_pmid": "",
+        "source_doi": "10.1016/j.aquaculture.2022.737980"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.506503+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -6785,6 +7526,42 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-8DE1D9E03D88",
+    "batch": "P010",
+    "batch_order": 5,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "湿地运行溶氧差异，需核查厌氧菌与混杂条件；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Organic matter and nitrogen removal at planted wetlands treating domestic septage with varying operational strategies.",
+    "doi": "10.2166/wst.2014.237",
+    "year": "2014",
+    "journal": "Water science and technology : a journal of the International Association on Water Pollution Research",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Effluent of wetland fed at HLR 17.5 cm/d presented significantly lower oxygen reduction potential and dissolved oxygen values than wetland fed at 8.75",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P07",
+        "raw_path": "raw/pubmed/P07_fetch_00000.xml",
+        "source_pmid": "25051484",
+        "source_doi": "10.2166/wst.2014.237"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.506246+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-8E55E5BFDC80",
     "batch": "P007",
     "batch_order": 3,
@@ -6817,6 +7594,42 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:56:24.302730+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-8FAA4CB23C08",
+    "batch": "P010",
+    "batch_order": 4,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "维生素D脂肪组织宿主综述；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Vitamin D and Adipose Tissue",
+    "doi": "10.1201/b13714-11",
+    "year": "2012",
+    "journal": "Oxidative Stress and Disease Vitamin D",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Vitamin D3 upregulated protein-1 (VDUP1), which is identical to TRX binding protein-2 (TBP-2) and thioredoxin interacting protein (TXNIP), was origina",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C01",
+        "raw_path": "raw/crossref/C01_search.json",
+        "source_pmid": "",
+        "source_doi": "10.1201/b13714-11"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.507754+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -7919,6 +8732,60 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-ABF5AB91DD0F",
+    "batch": "P010",
+    "batch_order": 14,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "新产甲烷菌分离及基因组缩减，氧处理是否实际开展待核；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Genome reduction in novel, obligately methyl-reducing Methanosarcinales isolated from arthropod guts (Methanolapillus gen. nov. and Methanimicrococcus).",
+    "doi": "10.1093/femsec/fiae111",
+    "year": "2024",
+    "journal": "FEMS microbiology ecology",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 3,
+    "mechanism_themes": [
+      "M2 解毒",
+      "M3 代谢",
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [
+      "组学/群落线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Recent metagenomic studies have identified numerous lineages of hydrogen-dependent, obligately methyl-reducing methanogens. However, genes involved in",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P02",
+        "raw_path": "raw/pubmed/P02_fetch_00000.xml",
+        "source_pmid": "39108084",
+        "source_doi": "10.1093/femsec/fiae111"
+      },
+      {
+        "source": "PubMed",
+        "query_id": "P11",
+        "raw_path": "raw/pubmed/P11_fetch_00000.xml",
+        "source_pmid": "39108084",
+        "source_doi": "10.1093/femsec/fiae111"
+      },
+      {
+        "source": "PubMed",
+        "query_id": "P16",
+        "raw_path": "raw/pubmed/P16_fetch_00000.xml",
+        "source_pmid": "39108084",
+        "source_doi": "10.1093/femsec/fiae111"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.507466+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-AC1011CC2130",
     "batch": "P001",
     "batch_order": 24,
@@ -8188,6 +9055,44 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-B0BC2C50F510",
+    "batch": "P010",
+    "batch_order": 9,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "酸矿排水氧梯度群落，是否由厌氧背景进入氧及有机制实测待核；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Microbial Community Structure Along a Horizontal Oxygen Gradient in a Costa Rican Volcanic Influenced Acid Rock Drainage System.",
+    "doi": "10.1007/s00248-020-01530-9",
+    "year": "2020",
+    "journal": "Microbial ecology",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M5 空间"
+    ],
+    "potential_evidence_type": [
+      "组学/群落线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "We describe the geochemistry and microbial diversity of a pristine environment that resembles an acid rock drainage (ARD) but it is actually the resul",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00000.xml",
+        "source_pmid": "32572534",
+        "source_doi": "10.1007/s00248-020-01530-9"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.501699+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-B353541CB17B",
     "batch": "P004",
     "batch_order": -30,
@@ -8299,6 +9204,50 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-B9BE2F0A2077",
+    "batch": "P010",
+    "batch_order": 16,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "甲烷/氧化亚氮宿主生理诊断综述，非厌氧微生物氧响应；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Beyond climate: the emerging physiological roles of methane and nitrous oxide",
+    "doi": "10.4103/mgr.medgasres-d-25-00242",
+    "year": "2026",
+    "journal": "Medical Gas Research",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M2 解毒",
+      "M3 代谢",
+      "M6 恢复",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "遗传干预线索",
+      "微剖面/同位素线索",
+      "组学/群落线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Beyond reflecting systemic redox balance, CH4 and N2O show promise as diagnostic tools for conditions such as inflammatory bowel disease, rheumatoid a",
+    "source_provenance": [
+      {
+        "source": "OpenAlex",
+        "query_id": "O01",
+        "raw_path": "raw/openalex/O01_page_000.json",
+        "source_pmid": "41537524",
+        "source_doi": "10.4103/mgr.medgasres-d-25-00242"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.506428+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-B9C08CD1DC4F",
     "batch": "P008",
     "batch_order": 12,
@@ -8332,6 +9281,83 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:59:36.044917+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-BA5AE666B938",
+    "batch": "P010",
+    "batch_order": 14,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "暴露/淹水盐湖菌席ROS防御基因差异，仅功能潜力支持；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Deciphering the functional and structural complexity of the Solar Lake flat mat microbial benthic communities.",
+    "doi": "10.1128/msystems.00095-24",
+    "year": "2024",
+    "journal": "mSystems",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 3,
+    "mechanism_themes": [
+      "M2 解毒",
+      "M3 代谢",
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索",
+      "组学/群落线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Functionally, genes involved in reactive oxygen species (ROS) detoxification and osmotic pressure were more abundant in the exposed than in the shallo",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P06",
+        "raw_path": "raw/pubmed/P06_fetch_00000.xml",
+        "source_pmid": "38727215",
+        "source_doi": "10.1128/msystems.00095-24"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.508138+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-BAB1EC61C79F",
+    "batch": "P010",
+    "batch_order": 9,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "人类肺高压运动与情绪研究，不是微生物氧响应；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Cross-sectional independent associations of anxiety and depressive symptoms with cardiopulmonary exercise performance in treatment-naïve chronic thromboembolic pulmonary hypertension.",
+    "doi": "10.1016/j.jpsychores.2026.112993",
+    "year": "2026",
+    "journal": "Journal of psychosomatic research",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Multivariable linear regression models were adjusted for key clinical confounders. Depressive symptom scores showed broader associations, remaining in",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P12",
+        "raw_path": "raw/pubmed/P12_fetch_00000.xml",
+        "source_pmid": "42731354",
+        "source_doi": "10.1016/j.jpsychores.2026.112993"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.502007+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -8486,6 +9512,47 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:41:41.512809+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-BF325A4DD529",
+    "batch": "P010",
+    "batch_order": 9,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "间歇曝气氮去除，须确认厌氧菌响应而非仅工艺性能；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Optimization of a mainstream nitritation-denitritation process and anammox polishing.",
+    "doi": "10.2166/wst.2015.261",
+    "year": "2015",
+    "journal": "Water science and technology : a journal of the International Association on Water Pollution Research",
+    "research_system": [
+      "anammox"
+    ],
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M6 恢复",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "The intermittent aeration pattern was controlled using a strategy based on effluent ammonia and nitrate+nitrite concentrations. The unique feature of ",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P12",
+        "raw_path": "raw/pubmed/P12_fetch_00000.xml",
+        "source_pmid": "26247763",
+        "source_doi": "10.2166/wst.2015.261"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.502554+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -9605,6 +10672,48 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-DB1A0DD3DEB0",
+    "batch": "P010",
+    "batch_order": 15,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "GerS孢子萌发干预明确，但氧暴露是否为实验变量待核；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Clostridium difficile Lipoprotein GerS Is Required for Cortex Modification and Thus Spore Germination.",
+    "doi": "10.1128/msphere.00205-18",
+    "year": "2018",
+    "journal": "mSphere",
+    "research_system": [
+      "Clostridium difficile"
+    ],
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M2 解毒",
+      "M3 代谢",
+      "M4 互作"
+    ],
+    "potential_evidence_type": [
+      "遗传干预线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Since ΔgerS, ΔcwlD, and ΔpdaA spores exhibited equivalent germination defects, our results indicate that C. difficile is an obligate anaerobe, its aer",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P03",
+        "raw_path": "raw/pubmed/P03_fetch_00000.xml",
+        "source_pmid": "29950380",
+        "source_doi": "10.1128/msphere.00205-18"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.502312+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-DB4133EC34BE",
     "batch": "P009",
     "batch_order": 21,
@@ -9967,6 +11076,42 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-E1575ED521D5",
+    "batch": "P010",
+    "batch_order": 4,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "Shewanella氧化还原波动与矿物/ROS，需区分直接O2和间接ROS；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Shewanella oneidensis MR-1 dissimilatory reduction of ferrihydrite to highly enhance mineral transformation and reactive oxygen species production in redox-fluctuating environments.",
+    "doi": "10.1016/j.chemosphere.2024.141364",
+    "year": "2024",
+    "journal": "Chemosphere",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Diverse paths generated by reactive oxygen species (ROS) can mediate contaminant transformation and fate in the soil/aquatic environments. However, th",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P07",
+        "raw_path": "raw/pubmed/P07_fetch_00000.xml",
+        "source_pmid": "38336034",
+        "source_doi": "10.1016/j.chemosphere.2024.141364"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.508494+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-E259E70E4E24",
     "batch": "P006",
     "batch_order": 12,
@@ -10306,6 +11451,45 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-E8A41F246699",
+    "batch": "P010",
+    "batch_order": 9,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "污水生物膜密度限制氧扩散并改变硫酸盐还原菌，空间证据候选；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Effects of food waste addition on biofilm formation and sulfide production in a gravity sewer.",
+    "doi": "10.1016/j.watres.2019.03.061",
+    "year": "2019",
+    "journal": "Water research",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M5 空间"
+    ],
+    "potential_evidence_type": [
+      "微剖面/同位素线索",
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "The thicker and denser biofilm limited oxygen diffusion, enlarged the anaerobic area in the sewer biofilm, promoted an increase in the SRB population,",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P05",
+        "raw_path": "raw/pubmed/P05_fetch_00000.xml",
+        "source_pmid": "30953857",
+        "source_doi": "10.1016/j.watres.2019.03.061"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.502476+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-E9124F54EA76",
     "batch": "P008",
     "batch_order": 17,
@@ -10381,6 +11565,47 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:56:24.305822+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-E9DC8AE29DBF",
+    "batch": "P010",
+    "batch_order": 16,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "工程铁氧还蛋白折叠影响氧敏感性，低电位靶点理论背景；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Designing Peptide Fossils That Model the Evolution of the Bacterial Ferredoxin Fold.",
+    "doi": "10.1021/jacsau.5c00863",
+    "year": "2025",
+    "journal": "JACS Au",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "遗传干预线索",
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Growth rates of bacteria expressing the semidoxins are much more sensitive to oxygen than those of bacteria expressing symdoxins. This is consistent w",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00000.xml",
+        "source_pmid": "41311950",
+        "source_doi": "10.1021/jacsau.5c00863"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.507338+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -10715,6 +11940,44 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:59:36.047593+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-F44CB4F1FB88",
+    "batch": "P010",
+    "batch_order": 9,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "Akkermansia不同气氛下生存，严格厌氧菌氧耐受候选；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Uncovering Akkermansia muciniphila resilience or susceptibility to different temperatures, atmospheres and gastrointestinal conditions.",
+    "doi": "10.1016/j.anaerobe.2019.102135",
+    "year": "2020",
+    "journal": "Anaerobe",
+    "research_system": [
+      "Akkermansia muciniphila"
+    ],
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Data regarding Akkermansia muciniphila viability under stress remains scarce despite its beneficial potential. muciniphila remain high after refrigera",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P12",
+        "raw_path": "raw/pubmed/P12_fetch_00000.xml",
+        "source_pmid": "31875576",
+        "source_doi": "10.1016/j.anaerobe.2019.102135"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.503665+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -11420,6 +12683,40 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "R00608",
+    "batch": "P010",
+    "batch_order": 18,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "石化废水微氧水解酸化对照，功能/生物证据待核；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Comparative Study of Micro-aerobic and Anaerobic Hydrolysis Acidifications of Petrochemical Wastewater",
+    "doi": "",
+    "year": "2013",
+    "journal": "Huanjing gongcheng jishu xuebao",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Micro-aerobic and anaerobic hydrolysis acidifications of petrochemical wastewater were conducted and compared to investigate the influence of micro-ae",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "",
+        "source_doi": ""
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.507260+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "R00651",
     "batch": "P001",
     "batch_order": 22,
@@ -11538,6 +12835,83 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "R00915",
+    "batch": "P010",
+    "batch_order": 21,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "发酵氧化还原电位控制框架，须追溯原始研究；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Redox potential control and applications in microaerobic and anaerobic fermentations",
+    "doi": "10.1016/j.biotechadv.2012.11.005",
+    "year": "2013",
+    "journal": "Biotechnology Advances",
+    "research_system": [
+      "Clostridium under"
+    ],
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M3 代谢",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Many fermentation products are produced under microaerobic or anaerobic conditions, in which oxygen is undetectable by dissolved oxygen probe, present",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "23178703",
+        "source_doi": "10.1016/j.biotechadv.2012.11.005"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.502397+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "R01050",
+    "batch": "P010",
+    "batch_order": 21,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "微氧水解与群落结构研究，组成证据不等于功能；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "A micro-aerobic hydrolysis process for sludge in situ reduction: Performance and microbial community structure",
+    "doi": "10.1016/j.biortech.2014.09.119",
+    "year": "2014",
+    "journal": "Bioresource Technology",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M3 代谢"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "A sludge process reduction activated sludge (SPRAS) system by inserting a sludge process reduction (SPR) module, composed of a micro-aerobic tank and ",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "25311187",
+        "source_doi": "10.1016/j.biortech.2014.09.119"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.503494+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "R01133",
     "batch": "P001",
     "batch_order": 22,
@@ -11575,6 +12949,42 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "R01155",
+    "batch": "P010",
+    "batch_order": 7,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "化学预处理屠宰废物，无明确氧进入干预；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Chemically pretreating slaughterhouse solid waste to increase the efficiency of anaerobic digestion",
+    "doi": "10.1016/j.jbiosc.2014.03.013",
+    "year": "2014",
+    "journal": "Journal of Bioscience and Bioengineering",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 3,
+    "mechanism_themes": [
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "The result of pretreating with NaOH was a 194% increase in the soluble chemical oxygen demand (COD) with a dose of 0.6 g NaOH per g of volatile suspen",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "24794850",
+        "source_doi": "10.1016/j.jbiosc.2014.03.013"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.502128+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "R01238",
     "batch": "P008",
     "batch_order": 19,
@@ -11607,6 +13017,44 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:59:36.044022+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "R01280",
+    "batch": "P010",
+    "batch_order": 7,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "高压均质预处理，无氧暴露过程证据；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "High pressure homogenization and two-phased anaerobic digestion for enhanced biogas conversion from municipal waste sludge",
+    "doi": "10.1016/j.watres.2014.08.045",
+    "year": "2014",
+    "journal": "Water Research",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 3,
+    "mechanism_themes": [
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Homogenizing pressure was found as the most significant factor (p-value < 0.05) for increasing solubilization of particulate chemical oxygen demand (C",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "25243656",
+        "source_doi": "10.1016/j.watres.2014.08.045"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.503045+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -11675,6 +13123,44 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:41:41.509780+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "R01362",
+    "batch": "P010",
+    "batch_order": 21,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "厌氧共消化微曝气发酵与群落响应，AD直接候选；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Microbial community structure reveals how microaeration improves fermentation during anaerobic co-digestion of brown water and food waste",
+    "doi": "10.1016/j.biortech.2014.08.050",
+    "year": "2014",
+    "journal": "Bioresource Technology",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M3 代谢"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "The purpose of this study was to investigate the impact of microaeration on the fermentation process during anaerobic co-digestion of brown water (BW)",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "25194261",
+        "source_doi": "10.1016/j.biortech.2014.08.050"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.504462+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -11860,6 +13346,40 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "R01917",
+    "batch": "P010",
+    "batch_order": 18,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "限制曝气水解酸化的溶氧窗口，微生物机制待核；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Improving hydrolysis acidification by limited aeration in the pretreatment of petrochemical wastewater",
+    "doi": "10.1016/j.biortech.2015.06.072",
+    "year": "2015",
+    "journal": "Bioresource Technology",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "The results showed limited aeration with DO from 0.2 to 0.3mg/L (average ORP was -210 mV) was the best condition. Based on the experiment results, an ",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "26210137",
+        "source_doi": "10.1016/j.biortech.2015.06.072"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.507827+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "R02172",
     "batch": "P003",
     "batch_order": 14,
@@ -11968,6 +13488,40 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "R02239",
+    "batch": "P010",
+    "batch_order": 18,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "微氧水解分子量分布，需生理机制证据；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "[Application of Micro-aerobic Hydrolysis Acidification in the Pretreatment of Petrochemical Wastewater].",
+    "doi": "",
+    "year": "2015",
+    "journal": "PubMed",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "The relative molecular weight distribution (MWD) results showed that the small molecule organic matter (< 1 x 10(3)) percentage was increased from 59.",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "26841606",
+        "source_doi": ""
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.508564+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "R02274",
     "batch": "P002",
     "batch_order": 19,
@@ -12070,6 +13624,46 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:59:36.047282+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "R02340",
+    "batch": "P010",
+    "batch_order": 21,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "填埋预曝气产气模型，微生物机制待核；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Biogas production enhancement using semi-aerobic pre-aeration in a hybrid bioreactor landfill",
+    "doi": "10.1016/j.wasman.2015.10.025",
+    "year": "2016",
+    "journal": "Waste Management",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M3 代谢",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "直接酶学线索",
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Biogas and leachate were constantly monitored throughout the entire methanogenic phase with the aim of calibrating a Gompertz Model and evaluating the",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "26531047",
+        "source_doi": "10.1016/j.wasman.2015.10.025"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.505523+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -13183,6 +14777,45 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "R04912",
+    "batch": "P010",
+    "batch_order": 21,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "厨余微氧预处理产气动力学，机制不明；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "KINETIC MODELLING OF GAS GENERATED FROM ANAEROBIC FERMENTATION OF KITCHEN WASTE WITH MICROAEROBIC PRETREATMENT",
+    "doi": "10.15666/aeer/1705_1067110683",
+    "year": "2019",
+    "journal": "Applied Ecology and Environmental Research",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M3 代谢"
+    ],
+    "potential_evidence_type": [
+      "直接酶学线索",
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Anaerobic fermentation is one of the effective ways to achieve the harmless, resource-reducing and reducing of kitchen waste.In this paper, the oxygen",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "",
+        "source_doi": "10.15666/aeer/1705_1067110683"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.506641+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "R04928",
     "batch": "P001",
     "batch_order": 22,
@@ -13301,6 +14934,83 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:49:41.213930+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "R05066",
+    "batch": "P010",
+    "batch_order": 21,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "微氧颗粒对污染物冲击，冲击对象为PCP而非氧，氧机制待核；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Performance of microaerobic granular sludge system for pentachlorophenol (PCP) degradation responding to PCP loading shock",
+    "doi": "10.1515/npprj-2018-0069",
+    "year": "2019",
+    "journal": "Nordic Pulp &amp; Paper Research Journal",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M3 代谢",
+      "M5 空间",
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Abstract The microaerobic granular sludge for pentachlorophenol (PCP) degradation was obtained in our laboratory which had excellent effect and physic",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "",
+        "source_doi": "10.1515/npprj-2018-0069"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.507552+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "R05173",
+    "batch": "P010",
+    "batch_order": 21,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "磁铁矿微氧甲烷及脱卤，不能由材料/丰度推断DIET；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Submicron magnetite‐enhanced tribromophenol removal and methanogenesis under microaerobic condition",
+    "doi": "10.1002/jctb.5817",
+    "year": "2019",
+    "journal": "Journal of Chemical Technology &amp; Biotechnology",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M3 代谢",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Therefore, an AS system supplemented with submicron magnetite particles (Fe 3 O 4 /AS) in an up‐flow microaerobic sludge reactor was established, aimi",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "",
+        "source_doi": "10.1002/jctb.5817"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.508270+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -14465,6 +16175,78 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "R07603",
+    "batch": "P010",
+    "batch_order": 19,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "农废AD不同阶段微曝气，机制证据待核，性能提高不等于机制；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Considering micro-aeration strategy for enhancing methane production in anaerobic digestion of agricultural wastes",
+    "doi": "10.13031/aim.202200429",
+    "year": "2022",
+    "journal": "2022 Houston, Texas July 17-20, 2022",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 3,
+    "mechanism_themes": [],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Micro-aeration at different batch AD stages (initial, middle, or daily) had been applied as a novel technology to improve methane production efficienc",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "",
+        "source_doi": "10.13031/aim.202200429"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.502226+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "R07641",
+    "batch": "P010",
+    "batch_order": 19,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "食物垃圾曝气储存影响甲烷潜力，微生物机制待核；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Determination of the biochemical methane potential of food waste after aerobic storage and aeration pretreatment",
+    "doi": "10.1002/bbb.2414",
+    "year": "2022",
+    "journal": "Biofuels, Bioproducts and Biorefining",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 3,
+    "mechanism_themes": [],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "In this study, the influence of aerobic storage time and forced continuous aeration pretreatment on the biochemical methane potential of food waste wa",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "",
+        "source_doi": "10.1002/bbb.2414"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.503335+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "R07849",
     "batch": "P003",
     "batch_order": 10,
@@ -14707,6 +16489,40 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "R08387",
+    "batch": "P010",
+    "batch_order": 19,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "沼液接种底物在好氧/微氧下水解酸化，代谢响应候选；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "The combination of aerobic and microaerobic promote hydrolysis and acidification of rice straw and pig manure: Balance of insoluble and soluble substrate",
+    "doi": "10.1016/j.biortech.2022.126880",
+    "year": "2022",
+    "journal": "Bioresource Technology",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 3,
+    "mechanism_themes": [],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Rice straw and pig manure were used as substrates with biogas slurry as the inoculum, combined with aerobic and microaerobic conditions in the 14-day ",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "35202829",
+        "source_doi": "10.1016/j.biortech.2022.126880"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.503826+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "R08462",
     "batch": "P001",
     "batch_order": 25,
@@ -14792,6 +16608,51 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:49:41.215492+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "R08877",
+    "batch": "P010",
+    "batch_order": 14,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "模拟AD气浮带氧负荷AnMBR，直接AD氧剂量响应候选；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Effects of Low Oxygen Dosages on an Anaerobic Membrane Bioreactor, Simulating the Oxygen Load in an Anaerobic Digester-Dissolved Air Flotation (AD-DAF) System",
+    "doi": "10.1021/acsestwater.3c00544",
+    "year": "2023",
+    "journal": "ACS ES&amp;T Water",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 3,
+    "mechanism_themes": [
+      "M2 解毒",
+      "M3 代谢",
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "This study reports the effects of microaeration on a laboratory-scale AnMBR (MA-AnMBR) fed with synthetic concentrated domestic sewage. Meanwhile, neg",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "38094917",
+        "source_doi": "10.1021/acsestwater.3c00544"
+      },
+      {
+        "source": "Crossref",
+        "query_id": "C02",
+        "raw_path": "raw/crossref/C02_search.json",
+        "source_pmid": "",
+        "source_doi": "10.1021/acsestwater.3c00544"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.508785+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -16904,6 +18765,42 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "R13281",
+    "batch": "P010",
+    "batch_order": 19,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "AD微曝气系统综述及荟萃分析，不能当独立机制实验；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Microaeration enhances methane production in anaerobic digestion: A systematic review and meta-analysis",
+    "doi": "10.1016/j.biortech.2026.135162",
+    "year": "2026",
+    "journal": "Bioresource Technology",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 3,
+    "mechanism_themes": [],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Microaeration (MA) has emerged as a promising strategy to intensify anaerobic digestion (AD) of solid waste and wastewater. However, most studies have",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "42289253",
+        "source_doi": "10.1016/j.biortech.2026.135162"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.505318+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "R13283",
     "batch": "P009",
     "batch_order": 17,
@@ -17587,6 +19484,42 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T19:05:29.941283+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "R13896",
+    "batch": "P010",
+    "batch_order": 19,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "猪粪曝气预处理AD，性能之外的机制待核；基于题名/所示摘要关键句，未全文核实。",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Effect of aeration pretreatment on anaerobic digestion of swine manure",
+    "doi": "10.1080/09593330.2024.2416094",
+    "year": "2025",
+    "journal": "Environmental Technology",
+    "research_system": "自动提取未识别对象，待补核；不据此声称摘要无对象",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 3,
+    "mechanism_themes": [],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "To investigate the effects of aeration pretreatment on the anaerobic digestion (AD) of swine manure, five pretreatment groups were established with di",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "39410839",
+        "source_doi": "10.1080/09593330.2024.2416094"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T19:09:06.506348+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
