@@ -728,5 +728,322 @@
     "audit_batch": "D003",
     "study_id": "OST-LakeWashington-O2-series",
     "study_group_status": "同题系列候选；不能计两个独立研究"
+  },
+  "PRJNA551662": {
+    "tier": "B",
+    "availability_code": 1,
+    "availability": "公开且处理/实验标签明确；完整方法及独立重复仍待核",
+    "rationale": "泥炭先供氧、后厌氧产甲烷；20个WGS，另34扩增子。官方%O2 Treatment和Time Point可映射。",
+    "mapping_status": "0/5/10% O2原始标签；T1/T2/T3有pooled，T5分UNS/AWT/BWT；时间单位及培养瓶独立性待方法核实。",
+    "priority": "优先DNA：氧剂量标签明确；层位和混样分层分析，不能把20run当20重复",
+    "limitations": "0/5/10% O2原始标签；T1/T2/T3有pooled，T5分UNS/AWT/BWT；时间单位及培养瓶独立性待方法核实。",
+    "oxygen_comparisons_confirmed": 6,
+    "biological_replicates": "未知；样本编号、rep标签或run数不直接等于独立生物重复",
+    "confirmed_biological_specimen_count": null,
+    "confirmed_experimental_units": null,
+    "audit_batch": "D004",
+    "evidence_paths": [
+      "project_cache/PRJNA551662/collection_status.json",
+      "project_cache/PRJNA551662/ncbi_sra_packages.json",
+      "project_cache/PRJNA551662/ena_runs.json"
+    ]
+  },
+  "PRJNA293548": {
+    "tier": "B",
+    "availability_code": 2,
+    "availability": "公开但分组/元数据需补充",
+    "rationale": "沉积物石油×Nereis扰动的12个群落RNA文库，项目叙述氧/红氧波动。",
+    "mapping_status": "control/HC/nereis/nereis_HC各replicate1–3；生物扰动与氧输入混杂，不能等同纯O2干预。",
+    "priority": "待补氧剖面/培养方法；不凭nereis标签建立独立氧效应",
+    "limitations": "control/HC/nereis/nereis_HC各replicate1–3；生物扰动与氧输入混杂，不能等同纯O2干预。",
+    "oxygen_comparisons_confirmed": 0,
+    "biological_replicates": "未知；样本编号、rep标签或run数不直接等于独立生物重复",
+    "confirmed_biological_specimen_count": null,
+    "confirmed_experimental_units": null,
+    "audit_batch": "D004",
+    "evidence_paths": [
+      "project_cache/PRJNA293548/collection_status.json",
+      "project_cache/PRJNA293548/ncbi_sra_packages.json",
+      "project_cache/PRJNA293548/ena_runs.json"
+    ]
+  },
+  "PRJNA322450": {
+    "tier": "B",
+    "availability_code": 2,
+    "availability": "公开但分组/元数据需补充",
+    "rationale": "诱导底水氧转变的沉积物：12 DNA+22 RNA run，另131扩增子。",
+    "mapping_status": "所有目标run共用同一个BioSample；实验题名多为通称，需论文SI/原文件名恢复样本键。",
+    "priority": "DNA/RNA丰富但映射不足；同BioSample不证明物理样本一一配对",
+    "limitations": "所有目标run共用同一个BioSample；实验题名多为通称，需论文SI/原文件名恢复样本键。",
+    "oxygen_comparisons_confirmed": 0,
+    "biological_replicates": "未知；样本编号、rep标签或run数不直接等于独立生物重复",
+    "confirmed_biological_specimen_count": null,
+    "confirmed_experimental_units": null,
+    "audit_batch": "D004",
+    "evidence_paths": [
+      "project_cache/PRJNA322450/collection_status.json",
+      "project_cache/PRJNA322450/ncbi_sra_packages.json",
+      "project_cache/PRJNA322450/ena_runs.json"
+    ]
+  },
+  "PRJNA347538": {
+    "tier": "B",
+    "availability_code": 1,
+    "availability": "公开且处理/实验标签明确；完整方法及独立重复仍待核",
+    "rationale": "低氧沉积物氧化时间序列至15天：32 RNA run；实验题名有turned oxic/anoxic、day、rep。",
+    "mapping_status": "每个RNA实验有2run，共16实验，目标共用1BioSample；day15 oxic4个实验、anoxic3个实验。",
+    "priority": "优先RNA：day15氧化/厌氧标签明确，先核分lane和培养重复；不以归档BioSample数代替样本量",
+    "limitations": "每个RNA实验有2run，共16实验，目标共用1BioSample；day15 oxic4个实验、anoxic3个实验。",
+    "oxygen_comparisons_confirmed": 1,
+    "biological_replicates": "未知；样本编号、rep标签或run数不直接等于独立生物重复",
+    "confirmed_biological_specimen_count": null,
+    "confirmed_experimental_units": null,
+    "audit_batch": "D004",
+    "evidence_paths": [
+      "project_cache/PRJNA347538/collection_status.json",
+      "project_cache/PRJNA347538/ncbi_sra_packages.json",
+      "project_cache/PRJNA347538/ena_runs.json"
+    ]
+  },
+  "PRJNA1426923": {
+    "tier": "B",
+    "availability_code": 2,
+    "availability": "公开但分组/元数据需补充",
+    "rationale": "挪威Paddehavet厌氧/人工再氧合沉积物55个WGS，包括实验室培养及现场4个月前后。",
+    "mapping_status": "4A/3C等代号缺氧处理键；现场、培养、filter和ENC/EPC/NK/PK疑似质控混在同项目，未计生物样本数。",
+    "priority": "高潜力DNA：先取样本键及质控说明，不直接55样本做差异",
+    "limitations": "4A/3C等代号缺氧处理键；现场、培养、filter和ENC/EPC/NK/PK疑似质控混在同项目，未计生物样本数。",
+    "oxygen_comparisons_confirmed": 0,
+    "biological_replicates": "未知；样本编号、rep标签或run数不直接等于独立生物重复",
+    "confirmed_biological_specimen_count": null,
+    "confirmed_experimental_units": null,
+    "audit_batch": "D004",
+    "evidence_paths": [
+      "project_cache/PRJNA1426923/collection_status.json",
+      "project_cache/PRJNA1426923/ncbi_sra_packages.json",
+      "project_cache/PRJNA1426923/ena_runs.json"
+    ]
+  },
+  "PRJEB65123": {
+    "tier": "B",
+    "availability_code": 2,
+    "availability": "公开但分组/元数据需补充",
+    "rationale": "四周草地土壤频繁短厌氧/长厌氧/持续氧化历史，最终统一厌氧培养；12 DNA+16 RNA。",
+    "mapping_status": "O/SA/LA/ORIG，T1/2/3和数字保留原标签，未猜全称与时间单位；DNA/RNA归档样本不同。",
+    "priority": "优先配套DNA/RNA候选；需完整处理键/重复/建库说明；属于氧历史不是即时氧冲击",
+    "limitations": "O/SA/LA/ORIG，T1/2/3和数字保留原标签，未猜全称与时间单位；DNA/RNA归档样本不同。",
+    "oxygen_comparisons_confirmed": 0,
+    "biological_replicates": "未知；样本编号、rep标签或run数不直接等于独立生物重复",
+    "confirmed_biological_specimen_count": null,
+    "confirmed_experimental_units": null,
+    "audit_batch": "D004",
+    "evidence_paths": [
+      "project_cache/PRJEB65123/collection_status.json",
+      "project_cache/PRJEB65123/ncbi_sra_packages.json",
+      "project_cache/PRJEB65123/ena_runs.json"
+    ]
+  },
+  "PRJNA381321": {
+    "tier": "B",
+    "availability_code": 2,
+    "availability": "公开但分组/元数据需补充",
+    "rationale": "热带土壤Fe红氧循环快/慢再氧合，6个群落RNA实验。",
+    "mapping_status": "3个Fast Ox与3个Slow Ox题名；F1/3/5等数字可能取样序号，未据此宣称n=3生物重复。",
+    "priority": "氧速率对照有价值；缺无氧对照和时间/剂量，待方法",
+    "limitations": "3个Fast Ox与3个Slow Ox题名；F1/3/5等数字可能取样序号，未据此宣称n=3生物重复。",
+    "oxygen_comparisons_confirmed": 0,
+    "biological_replicates": "未知；样本编号、rep标签或run数不直接等于独立生物重复",
+    "confirmed_biological_specimen_count": null,
+    "confirmed_experimental_units": null,
+    "audit_batch": "D004",
+    "evidence_paths": [
+      "project_cache/PRJNA381321/collection_status.json",
+      "project_cache/PRJNA381321/ncbi_sra_packages.json",
+      "project_cache/PRJNA381321/ena_runs.json"
+    ]
+  },
+  "PRJNA1163300": {
+    "tier": "B",
+    "availability_code": 1,
+    "availability": "公开且处理/实验标签明确；完整方法及独立重复仍待核",
+    "rationale": "海岸厌氧沉积物瞬时空气/laminarin处理，2群落RNA文库。",
+    "mapping_status": "SRR30843209 cDNA1明确25% atmospheric air (~4% oxygen)；SRR30843208 cDNA2未加空气标签；laminarin交叉需全文核。",
+    "priority": "优先小规模RNA机制核验：每条件1文库，不能可靠估计群落差异离散度",
+    "limitations": "SRR30843209 cDNA1明确25% atmospheric air (~4% oxygen)；SRR30843208 cDNA2未加空气标签；laminarin交叉需全文核。",
+    "oxygen_comparisons_confirmed": 1,
+    "biological_replicates": "未知；样本编号、rep标签或run数不直接等于独立生物重复",
+    "confirmed_biological_specimen_count": null,
+    "confirmed_experimental_units": null,
+    "audit_batch": "D004",
+    "evidence_paths": [
+      "project_cache/PRJNA1163300/collection_status.json",
+      "project_cache/PRJNA1163300/ncbi_sra_packages.json",
+      "project_cache/PRJNA1163300/ena_runs.json"
+    ]
+  },
+  "PRJNA1112840": {
+    "tier": "B",
+    "availability_code": 2,
+    "availability": "公开但分组/元数据需补充",
+    "rationale": "湿地土壤control anaerobic/aerobic/sulfate/aerobic+sulfate四条件；公开仅3个WGS。",
+    "mapping_status": "LW_TOP_C1/C2/C3未说明四条件对应；不擅自认定这3个是3个处理或3个重复。",
+    "priority": "候选氧×硫酸盐DNA，缺处理键，不能直接做氧差异",
+    "limitations": "LW_TOP_C1/C2/C3未说明四条件对应；不擅自认定这3个是3个处理或3个重复。",
+    "oxygen_comparisons_confirmed": 0,
+    "biological_replicates": "未知；样本编号、rep标签或run数不直接等于独立生物重复",
+    "confirmed_biological_specimen_count": null,
+    "confirmed_experimental_units": null,
+    "audit_batch": "D004",
+    "evidence_paths": [
+      "project_cache/PRJNA1112840/collection_status.json",
+      "project_cache/PRJNA1112840/ncbi_sra_packages.json",
+      "project_cache/PRJNA1112840/ena_runs.json"
+    ]
+  },
+  "PRJNA330349": {
+    "tier": "B",
+    "availability_code": 2,
+    "availability": "公开但分组/元数据需补充",
+    "rationale": "Rifle地下沉积物Oxygen_injection B1，1个群落WGS。",
+    "mapping_status": "只有B1氧注入样本标签；未定位同研究厌氧对照。",
+    "priority": "追踪Rifle同研究项目，单样本不估计氧效应",
+    "limitations": "只有B1氧注入样本标签；未定位同研究厌氧对照。",
+    "oxygen_comparisons_confirmed": 0,
+    "biological_replicates": "未知；样本编号、rep标签或run数不直接等于独立生物重复",
+    "confirmed_biological_specimen_count": null,
+    "confirmed_experimental_units": null,
+    "audit_batch": "D004",
+    "evidence_paths": [
+      "project_cache/PRJNA330349/collection_status.json",
+      "project_cache/PRJNA330349/ncbi_sra_packages.json",
+      "project_cache/PRJNA330349/ena_runs.json"
+    ]
+  },
+  "PRJNA330207": {
+    "tier": "B",
+    "availability_code": 2,
+    "availability": "公开但分组/元数据需补充",
+    "rationale": "Rifle地下沉积物Oxygen_injection C2，1个群落WGS。",
+    "mapping_status": "只有C2氧注入样本标签；未证实与B1实验独立或与对照的关系。",
+    "priority": "追踪同研究及对照，不能把B/C当处理/对照",
+    "limitations": "只有C2氧注入样本标签；未证实与B1实验独立或与对照的关系。",
+    "oxygen_comparisons_confirmed": 0,
+    "biological_replicates": "未知；样本编号、rep标签或run数不直接等于独立生物重复",
+    "confirmed_biological_specimen_count": null,
+    "confirmed_experimental_units": null,
+    "audit_batch": "D004",
+    "evidence_paths": [
+      "project_cache/PRJNA330207/collection_status.json",
+      "project_cache/PRJNA330207/ncbi_sra_packages.json",
+      "project_cache/PRJNA330207/ena_runs.json"
+    ]
+  },
+  "PRJNA1149829": {
+    "tier": "特殊/非目标",
+    "availability_code": 7,
+    "availability": "不符合目标数据类型（当前已公开run）",
+    "rationale": "11个AMPLICON；全尺度AD微曝气脱硫范围相关，但当前项目非shotgun",
+    "mapping_status": "未将扩增子纳入群落shotgun集合",
+    "assay_exclusion": "非目标：扩增子",
+    "priority": "不进入reads下载；有明确MG/MT线索者继续追踪其他项目",
+    "limitations": "11个AMPLICON；全尺度AD微曝气脱硫范围相关，但当前项目非shotgun",
+    "audit_batch": "D004",
+    "oxygen_comparisons_confirmed": 0
+  },
+  "PRJNA1405076": {
+    "tier": "特殊/非目标",
+    "availability_code": 7,
+    "availability": "不符合目标数据类型（当前已公开run）",
+    "rationale": "20个AMPLICON；16S+PICRUSt2，功能预测不是宏基因组",
+    "mapping_status": "未将扩增子纳入群落shotgun集合",
+    "assay_exclusion": "非目标：扩增子",
+    "priority": "不进入reads下载；有明确MG/MT线索者继续追踪其他项目",
+    "limitations": "20个AMPLICON；16S+PICRUSt2，功能预测不是宏基因组",
+    "audit_batch": "D004",
+    "oxygen_comparisons_confirmed": 0
+  },
+  "PRJNA1002618": {
+    "tier": "特殊/非目标",
+    "availability_code": 7,
+    "availability": "不符合目标数据类型（当前已公开run）",
+    "rationale": "34个AMPLICON；食品AD微曝气，当前项目无目标reads",
+    "mapping_status": "未将扩增子纳入群落shotgun集合",
+    "assay_exclusion": "非目标：扩增子",
+    "priority": "不进入reads下载；有明确MG/MT线索者继续追踪其他项目",
+    "limitations": "34个AMPLICON；食品AD微曝气，当前项目无目标reads",
+    "audit_batch": "D004",
+    "oxygen_comparisons_confirmed": 0
+  },
+  "PRJNA1491653": {
+    "tier": "特殊/非目标",
+    "availability_code": 7,
+    "availability": "不符合目标数据类型（当前已公开run）",
+    "rationale": "30个AMPLICON；16S细菌/古菌V3-V4，非shotgun",
+    "mapping_status": "未将扩增子纳入群落shotgun集合",
+    "assay_exclusion": "非目标：扩增子",
+    "priority": "不进入reads下载；有明确MG/MT线索者继续追踪其他项目",
+    "limitations": "30个AMPLICON；16S细菌/古菌V3-V4，非shotgun",
+    "audit_batch": "D004",
+    "oxygen_comparisons_confirmed": 0
+  },
+  "PRJNA807302": {
+    "tier": "特殊/非目标",
+    "availability_code": 7,
+    "availability": "不符合目标数据类型（当前已公开run）",
+    "rationale": "35个AMPLICON；DGG-B产甲烷苯富集氧冲击研究重要，但此项目非shotgun",
+    "mapping_status": "未将扩增子纳入群落shotgun集合",
+    "assay_exclusion": "非目标：扩增子",
+    "priority": "不进入reads下载；有明确MG/MT线索者继续追踪其他项目",
+    "limitations": "35个AMPLICON；DGG-B产甲烷苯富集氧冲击研究重要，但此项目非shotgun",
+    "audit_batch": "D004",
+    "oxygen_comparisons_confirmed": 0
+  },
+  "PRJNA736312": {
+    "tier": "特殊/非目标",
+    "availability_code": 7,
+    "availability": "不符合目标数据类型（当前已公开run）",
+    "rationale": "326个AMPLICON；消化液干湿/氧实验，非目标数据类型",
+    "mapping_status": "未将扩增子纳入群落shotgun集合",
+    "assay_exclusion": "非目标：扩增子",
+    "priority": "不进入reads下载；有明确MG/MT线索者继续追踪其他项目",
+    "limitations": "326个AMPLICON；消化液干湿/氧实验，非目标数据类型",
+    "audit_batch": "D004",
+    "oxygen_comparisons_confirmed": 0
+  },
+  "PRJNA1241260": {
+    "tier": "特殊/非目标",
+    "availability_code": 7,
+    "availability": "不符合目标数据类型（当前已公开run）",
+    "rationale": "56个AMPLICON；氧波动与SIP/网络不证明有shotgun",
+    "mapping_status": "未将扩增子纳入群落shotgun集合",
+    "assay_exclusion": "非目标：扩增子",
+    "priority": "不进入reads下载；有明确MG/MT线索者继续追踪其他项目",
+    "limitations": "56个AMPLICON；氧波动与SIP/网络不证明有shotgun",
+    "audit_batch": "D004",
+    "oxygen_comparisons_confirmed": 0
+  },
+  "PRJNA1123272": {
+    "tier": "特殊/非目标",
+    "availability_code": 7,
+    "availability": "不符合目标数据类型（当前已公开run）",
+    "rationale": "80个AMPLICON；描述提及MG/MT但当前公开实验只有扩增子，需查另存项目，不能否定研究存在MG/MT",
+    "mapping_status": "未将扩增子纳入群落shotgun集合",
+    "assay_exclusion": "非目标：扩增子",
+    "priority": "不进入reads下载；有明确MG/MT线索者继续追踪其他项目",
+    "limitations": "80个AMPLICON；描述提及MG/MT但当前公开实验只有扩增子，需查另存项目，不能否定研究存在MG/MT",
+    "audit_batch": "D004",
+    "oxygen_comparisons_confirmed": 0
+  },
+  "PRJNA1479055": {
+    "tier": "特殊/非目标",
+    "availability_code": 7,
+    "availability": "不符合目标数据类型（当前已公开run）",
+    "rationale": "33个AMPLICON；另红氧由不同化学还原剂调节，不能直接视为氧输入",
+    "mapping_status": "未将扩增子纳入群落shotgun集合",
+    "assay_exclusion": "非目标：扩增子",
+    "priority": "不进入reads下载；有明确MG/MT线索者继续追踪其他项目",
+    "limitations": "33个AMPLICON；另红氧由不同化学还原剂调节，不能直接视为氧输入",
+    "audit_batch": "D004",
+    "oxygen_comparisons_confirmed": 0
   }
 }

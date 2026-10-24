@@ -149,5 +149,142 @@
     "independent_reactor_replicates_per_group": null,
     "design_evidence_level": "官方项目说明/样本别名；完整方法及生物重复待核",
     "caveat": "阶段/时间和底物变化并存；两SBR进料不同，不作为同条件独立重复"
+  },
+  {
+    "comparison_id": "C-PRJNA551662-5percent-vs-0percent-T1-pooled",
+    "project_id": "PRJNA551662",
+    "treatment": "5percent",
+    "control": "0percent-T1-pooled",
+    "treatment_runs": [
+      "SRR9617302"
+    ],
+    "control_runs": [
+      "SRR9617303"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文"
+  },
+  {
+    "comparison_id": "C-PRJNA551662-10percent-vs-0percent-T1-pooled",
+    "project_id": "PRJNA551662",
+    "treatment": "10percent",
+    "control": "0percent-T1-pooled",
+    "treatment_runs": [
+      "SRR9617318"
+    ],
+    "control_runs": [
+      "SRR9617303"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文"
+  },
+  {
+    "comparison_id": "C-PRJNA551662-5percent-vs-0percent-T5-UNS",
+    "project_id": "PRJNA551662",
+    "treatment": "5percent",
+    "control": "0percent-T5-UNS",
+    "treatment_runs": [
+      "SRR9617297",
+      "SRR9617300"
+    ],
+    "control_runs": [
+      "SRR9617304"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文"
+  },
+  {
+    "comparison_id": "C-PRJNA551662-10percent-vs-0percent-T5-UNS",
+    "project_id": "PRJNA551662",
+    "treatment": "10percent",
+    "control": "0percent-T5-UNS",
+    "treatment_runs": [
+      "SRR9617313",
+      "SRR9617316"
+    ],
+    "control_runs": [
+      "SRR9617304"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文"
+  },
+  {
+    "comparison_id": "C-PRJNA551662-5percent-vs-0percent-T5-BWT",
+    "project_id": "PRJNA551662",
+    "treatment": "5percent",
+    "control": "0percent-T5-BWT",
+    "treatment_runs": [
+      "SRR9617296",
+      "SRR9617317"
+    ],
+    "control_runs": [
+      "SRR9617301"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文"
+  },
+  {
+    "comparison_id": "C-PRJNA551662-10percent-vs-0percent-T5-BWT",
+    "project_id": "PRJNA551662",
+    "treatment": "10percent",
+    "control": "0percent-T5-BWT",
+    "treatment_runs": [
+      "SRR9617312",
+      "SRR9617325",
+      "SRR9617326"
+    ],
+    "control_runs": [
+      "SRR9617301"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文"
+  },
+  {
+    "comparison_id": "C-PRJNA347538-oxic-vs-anoxic-day15",
+    "project_id": "PRJNA347538",
+    "treatment": "oxic",
+    "control": "anoxic-day15",
+    "treatment_runs": [
+      "SRR5200665",
+      "SRR5200664",
+      "SRR5200663",
+      "SRR5200662",
+      "SRR5200661",
+      "SRR5200660",
+      "SRR5200659",
+      "SRR5200658"
+    ],
+    "control_runs": [
+      "SRR5200657",
+      "SRR5200656",
+      "SRR5200655",
+      "SRR5200654",
+      "SRR5200549",
+      "SRR5199847"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
+    "caveat": "8 vs 6 run对应4 vs 3实验；每实验2run先合并，独立培养和先前氧历史须方法核实"
+  },
+  {
+    "comparison_id": "C-PRJNA1163300-air-vs-unlabelled-air",
+    "project_id": "PRJNA1163300",
+    "treatment": "air",
+    "control": "unlabelled-air",
+    "treatment_runs": [
+      "SRR30843209"
+    ],
+    "control_runs": [
+      "SRR30843208"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
+    "caveat": "空气处理题名明确；对照/laminarin因素须完整方法再核；n=1文库，不作有重复统计"
   }
 ]
