@@ -73,3 +73,5 @@ P06追溯短语未被识别，PubMed自动扩展返回2125条，完整保存为�
 复现导出：`python scripts/finalize_outputs.py`，依赖Python标准库和openpyxl。新增核实先依[剩余项目稳定队列](remaining_project_queue_utf8.csv)复用缓存，由collect_projects.py补元数据，再人工更新project_assessments/sample_annotations和比较/论文证据，重建累计表、验证并推送原分支。不要重跑已完成查询或把自动分流提示当筛选结论。
 
 后续：补优先项目处理键/独立重复/配对；Lake Washington同实验多子项目及合成群落先去重；从418项目及2228篇关联候选续跑；保留GSA受阻、待公开、明确reads索取、泛指索取、不允许分享的不同状态。项目数、论文数、生物样本数和可分析氧比较数分别报告。
+
+[GitHub独立读回验证](remote_readback.json)：通过官方Git Blobs API重新取得Excel、RIS、统计及进度，逐字节/SHA256一致，Excel重开通过。此验证只针对交付表格，不表示FASTQ已经保存。

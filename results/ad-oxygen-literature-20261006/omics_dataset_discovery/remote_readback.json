@@ -1,0 +1,46 @@
+{
+  "verified_utc": "2026-10-24T15:30:00.554804+00:00",
+  "verified_data_commit": "57bb4237e8ba9221b9b0979b563cecd46fc3d906",
+  "branch": "results/ad-oxygen-literature-20261006",
+  "method": "独立通过GitHub官方Git Blobs API重新获取4个交付文件；未重新下载论文或FASTQ",
+  "raw_XLSX_transfer_issue": "Contents API raw二进制路径报transform: short source buffer；改用官方Git Blobs API base64传输后核验通过",
+  "files": [
+    {
+      "file": "summary.json",
+      "bytes": 2624,
+      "git_blob_sha": "acdb4ea07da7325f57950a85266460e8332a19d1",
+      "sha256": "0defd01394bad3134d3b36bb32514ad748b777c28843f103936b560231d6fa7a",
+      "fetched_from": "GitHub authenticated Git Blobs API; base64 decoded",
+      "matches_local": true,
+      "readable": true
+    },
+    {
+      "file": "omics_dataset_discovery_cumulative.xlsx",
+      "bytes": 2898208,
+      "git_blob_sha": "6da8e8718ad717a80c8f694d982b16460123e6e0",
+      "sha256": "5e19c48869b4cdc021b70f478ddbf6e5381be8cbdcb8b10406138b94d3edd822",
+      "fetched_from": "GitHub authenticated Git Blobs API; base64 decoded",
+      "matches_local": true,
+      "readable": true
+    },
+    {
+      "file": "community_dataset_papers.ris",
+      "bytes": 14331,
+      "git_blob_sha": "92a5c18e11faedef0fc0a99e89afe761ef733b1f",
+      "sha256": "4e4bcd629df8be9049b4158a5649a25a47a0d94c53aec4f19f08172116f01248",
+      "fetched_from": "GitHub authenticated Git Blobs API; base64 decoded",
+      "matches_local": true,
+      "readable": true
+    },
+    {
+      "file": "progress.json",
+      "bytes": 1139,
+      "git_blob_sha": "01480ffd4800eeee0d66f751668ed1450d06c631",
+      "sha256": "10419daf9eb17d3dfdc519c708256152966b672a14e739e0cf8403a9073fe9a8",
+      "fetched_from": "GitHub authenticated Git Blobs API; base64 decoded",
+      "matches_local": true,
+      "readable": true
+    }
+  ],
+  "passed": true
+}
