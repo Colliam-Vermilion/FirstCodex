@@ -20,6 +20,7 @@ def run():
   if not c.get('document_type'):c['document_type']=c.get('original_document_type') or '; '.join(c.get('publication_types',[])) or '来源未明确，待核实'
  for r in decisions:
   c=index[r['id']]
+  c.update(r)
   for k in ['screening_stage','screening_decision','screening_reason','research_system','exposure_scenarios','reading_level','document_type','uncertainties']:
    if k in r:c[k]=r[k]
   c['processed_batch']='B001';c['processed_utc']=r['processed_utc'];c['evidence_ids']=[r['id']+'.E01']
