@@ -1,3 +1,14 @@
+# 当前进度：氧响应全池首遍初筛（2026-10-24）
+
+已按新的顺序推进全部1536条：复用原20，新增1516条题名／摘要关键句逐项初筛，未开始0。**这不是完整摘要或全文核实。** 364条暂定优先记录与336条背景单列，累计479条待确认；下一步按跨机制顺序补读35条新增重点候选，原20评价保留复用。
+
+- **[同一累计Excel](oxygen_response_review/oxygen_response_review_cumulative.xlsx)** · [全池进度与阅读边界](oxygen_response_review/all_pool/README.md)
+- [全池暂定优先CSV](oxygen_response_review/all_pool/provisional_priorities_utf8.csv) · [优先集RIS](oxygen_response_review/all_pool/provisional_priority_set.ris) · [下一阶段35条](oxygen_response_review/all_pool/next_stage_queue_utf8.csv)
+
+OpenAlex引用可用1459条，缺77条留空；未重复查询原20。543个期刊／ISSN键统一匹配既有缓存，412条有2024期刊指标，其余留空。新增全文核实和独立验证判断均为0。原AD分类、人工判断、原件及原20证据未修改，未重复下载原件。下方B001／原20的旧进度为历史，当前以全池进度为准。
+
+---
+
 # 氧响应综述：新增优先精读评价（2026-10-24）
 
 已在同一累计Excel新增优先精读、机制验证关联及评价口径三表，原六表和全部检索/筛选不变。先评价已筛20篇，推荐17篇：6核心、4基础、7重要补充/边界；其中8篇仅摘要、标暂定，另3篇补证后再评。20篇引用数统一OpenAlex；11篇可复用2024 JIF/JCR，其余留空。
