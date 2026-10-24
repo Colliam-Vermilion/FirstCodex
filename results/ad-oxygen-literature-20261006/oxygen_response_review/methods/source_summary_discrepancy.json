@@ -1,0 +1,28 @@
+{
+  "old_source_summary": "source_availability.json记载EuropePMC正文预检500；对应失败请求详情未单列保留，不能重建全部预检过程",
+  "subsequent_saved_successes": [
+    {
+      "query_id": "F25706146",
+      "path": "raw/fulltext/F25706146_jats.xml",
+      "HTTP_status": 200,
+      "body_present": true,
+      "retrieved_utc": "2026-10-24T03:19:02.780328+00:00"
+    },
+    {
+      "query_id": "F36083837",
+      "path": "raw/fulltext/F36083837_jats.xml",
+      "HTTP_status": 200,
+      "body_present": true,
+      "retrieved_utc": "2026-10-24T03:19:04.690142+00:00"
+    },
+    {
+      "query_id": "F29725720",
+      "path": "raw/fulltext/F29725720_jats.xml",
+      "HTTP_status": 200,
+      "body_present": true,
+      "retrieved_utc": "2026-10-24T03:19:06.093863+00:00"
+    }
+  ],
+  "evidence_register_uses": "source_document_register.json选择NCBI PMC JATS或旧PDF；EuropePMC三个版本不重复计文献/阅读量",
+  "new_requests_in_this_audit": 0
+}

@@ -1,0 +1,1172 @@
+[
+  {
+    "query_id": "P01",
+    "database": "PubMed",
+    "theme": "methanogen oxygen tolerance",
+    "query_verbatim": "(methanogen* AND (\"oxygen exposure\" OR \"oxygen stress\" OR \"oxygen tolerance\" OR aerotolerance OR \"oxygen shock\")) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:15:45.816591+00:00",
+      "2026-10-24T03:15:46.926163+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 34,
+    "retrieved_records": 34,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "\"methanogen*\"[All Fields] AND (\"oxygen exposure\"[All Fields] OR \"oxygen stress\"[All Fields] OR \"oxygen tolerance\"[All Fields] OR (\"aerotolerance\"[All Fields] OR \"aerotolerant\"[All Fields]) OR \"oxygen shock\"[All Fields]) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "(methanogen* AND (\"oxygen exposure\" OR \"oxygen stress\" OR \"oxygen tolerance\" OR aerotolerance OR \"oxygen shock\")) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P01_search.json",
+      "raw/pubmed/P01_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28methanogen%2A+AND+%28%22oxygen+exposure%22+OR+%22oxygen+stress%22+OR+%22oxygen+tolerance%22+OR+aerotolerance+OR+%22oxygen+shock%22%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P02",
+    "database": "PubMed",
+    "theme": "oxygen detoxification enzymes",
+    "query_verbatim": "((anaerob* OR methanogen* OR Clostrid* OR Desulfovibrio) AND (rubrerythrin OR \"superoxide reductase\" OR flavodiiron) AND (oxygen OR oxidative)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:15:47.689350+00:00",
+      "2026-10-24T03:15:49.058623+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 62,
+    "retrieved_records": 62,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "(\"anaerob*\"[All Fields] OR \"methanogen*\"[All Fields] OR \"clostrid*\"[All Fields] OR (\"desulfovibrio\"[MeSH Terms] OR \"desulfovibrio\"[All Fields] OR \"desulfovibrios\"[All Fields])) AND (\"rubrerythrins\"[Supplementary Concept] OR \"rubrerythrins\"[All Fields] OR \"rubrerythrin\"[All Fields] OR \"superoxide reductase\"[All Fields] OR \"flavodiiron\"[All Fields]) AND (\"cell respiration\"[MeSH Terms] OR (\"cell\"[All Fields] AND \"respiration\"[All Fields]) OR \"cell respiration\"[All Fields] OR \"oxygenation\"[All Fields] OR \"oxygen\"[Supplementary Concept] OR \"oxygen\"[All Fields] OR \"oxygen\"[MeSH Terms] OR \"oxygen s\"[All Fields] OR \"oxygenate\"[All Fields] OR \"oxygenated\"[All Fields] OR \"oxygenates\"[All Fields] OR \"oxygenating\"[All Fields] OR \"oxygenations\"[All Fields] OR \"oxygenative\"[All Fields] OR \"oxygenator s\"[All Fields] OR \"oxygenators\"[MeSH Terms] OR \"oxygenators\"[All Fields] OR \"oxygenator\"[All Fields] OR \"oxygene\"[All Fields] OR \"oxygenic\"[All Fields] OR \"oxygenous\"[All Fields] OR \"oxygens\"[All Fields] OR (\"oxidability\"[All Fields] OR \"oxidable\"[All Fields] OR \"oxidant s\"[All Fields] OR \"oxidants\"[Pharmacological Action] OR \"oxidants\"[Supplementary Concept] OR \"oxidants\"[All Fields] OR \"oxidant\"[All Fields] OR \"oxidants\"[MeSH Terms] OR \"oxidate\"[All Fields] OR \"oxidated\"[All Fields] OR \"oxidates\"[All Fields] OR \"oxidating\"[All Fields] OR \"oxidation\"[All Fields] OR \"oxidations\"[All Fields] OR \"oxidative\"[All Fields] OR \"oxidatively\"[All Fields] OR \"oxidatives\"[All Fields] OR \"oxide s\"[All Fields] OR \"oxides\"[Supplementary Concept] OR \"oxides\"[All Fields] OR \"oxide\"[All Fields] OR \"oxides\"[MeSH Terms] OR \"oxidic\"[All Fields] OR \"oxiding\"[All Fields] OR \"oxidisability\"[All Fields] OR \"oxidisable\"[All Fields] OR \"oxidisation\"[All Fields] OR \"oxidise\"[All Fields] OR \"oxidised\"[All Fields] OR \"oxidiser\"[All Fields] OR \"oxidisers\"[All Fields] OR \"oxidises\"[All Fields] OR \"oxidising\"[All Fields] OR \"oxidization\"[All Fields] OR \"oxidize\"[All Fields] OR \"oxidized\"[All Fields] OR \"oxidizer\"[All Fields] OR \"oxidizers\"[All Fields] OR \"oxidizes\"[All Fields] OR \"oxidizing\"[All Fields])) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "((anaerob* OR methanogen* OR Clostrid* OR Desulfovibrio) AND (rubrerythrin OR \"superoxide reductase\" OR flavodiiron) AND (oxygen OR oxidative)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P02_search.json",
+      "raw/pubmed/P02_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28anaerob%2A+OR+methanogen%2A+OR+Clostrid%2A+OR+Desulfovibrio%29+AND+%28rubrerythrin+OR+%22superoxide+reductase%22+OR+flavodiiron%29+AND+%28oxygen+OR+oxidative%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P03",
+    "database": "PubMed",
+    "theme": "gut anaerobe exposure",
+    "query_verbatim": "((Bacteroides OR \"Faecalibacterium prausnitzii\" OR \"Clostridioides difficile\") AND (\"oxygen exposure\" OR aerotolerance OR \"oxygen tolerance\" OR \"oxygen detoxification\")) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:15:49.756708+00:00",
+      "2026-10-24T03:15:50.985131+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 57,
+    "retrieved_records": 57,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "(\"bacteroides\"[MeSH Terms] OR \"bacteroides\"[All Fields] OR \"Faecalibacterium prausnitzii\"[All Fields] OR \"Clostridioides difficile\"[All Fields]) AND (\"oxygen exposure\"[All Fields] OR (\"aerotolerance\"[All Fields] OR \"aerotolerant\"[All Fields]) OR \"oxygen tolerance\"[All Fields] OR \"oxygen detoxification\"[All Fields]) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "((Bacteroides OR \"Faecalibacterium prausnitzii\" OR \"Clostridioides difficile\") AND (\"oxygen exposure\" OR aerotolerance OR \"oxygen tolerance\" OR \"oxygen detoxification\")) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P03_search.json",
+      "raw/pubmed/P03_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28Bacteroides+OR+%22Faecalibacterium+prausnitzii%22+OR+%22Clostridioides+difficile%22%29+AND+%28%22oxygen+exposure%22+OR+aerotolerance+OR+%22oxygen+tolerance%22+OR+%22oxygen+detoxification%22%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P04",
+    "database": "PubMed",
+    "theme": "syntrophic protection",
+    "query_verbatim": "((syntroph* OR \"cross feeding\" OR \"cross-feeding\" OR coculture OR \"co-culture\") AND (methanogen* OR anaerob*) AND (oxygen OR microoxic) AND (protect* OR scaveng* OR toleran*)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:15:51.774427+00:00",
+      "2026-10-24T03:15:53.245767+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 51,
+    "retrieved_records": 51,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "(\"syntroph*\"[All Fields] OR \"cross-feeding\"[All Fields] OR \"cross-feeding\"[All Fields] OR (\"coculture techniques\"[MeSH Terms] OR (\"coculture\"[All Fields] AND \"techniques\"[All Fields]) OR \"coculture techniques\"[All Fields] OR \"coculture\"[All Fields] OR \"cocultures\"[All Fields] OR \"cocultured\"[All Fields] OR \"coculturing\"[All Fields]) OR \"co-culture\"[All Fields]) AND (\"methanogen*\"[All Fields] OR \"anaerob*\"[All Fields]) AND (\"cell respiration\"[MeSH Terms] OR (\"cell\"[All Fields] AND \"respiration\"[All Fields]) OR \"cell respiration\"[All Fields] OR \"oxygenation\"[All Fields] OR \"oxygen\"[Supplementary Concept] OR \"oxygen\"[All Fields] OR \"oxygen\"[MeSH Terms] OR \"oxygen s\"[All Fields] OR \"oxygenate\"[All Fields] OR \"oxygenated\"[All Fields] OR \"oxygenates\"[All Fields] OR \"oxygenating\"[All Fields] OR \"oxygenations\"[All Fields] OR \"oxygenative\"[All Fields] OR \"oxygenator s\"[All Fields] OR \"oxygenators\"[MeSH Terms] OR \"oxygenators\"[All Fields] OR \"oxygenator\"[All Fields] OR \"oxygene\"[All Fields] OR \"oxygenic\"[All Fields] OR \"oxygenous\"[All Fields] OR \"oxygens\"[All Fields] OR \"microoxic\"[All Fields]) AND (\"protect*\"[All Fields] OR \"scaveng*\"[All Fields] OR \"toleran*\"[All Fields]) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "((syntroph* OR \"cross feeding\" OR \"cross-feeding\" OR coculture OR \"co-culture\") AND (methanogen* OR anaerob*) AND (oxygen OR microoxic) AND (protect* OR scaveng* OR toleran*)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P04_search.json",
+      "raw/pubmed/P04_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28syntroph%2A+OR+%22cross+feeding%22+OR+%22cross-feeding%22+OR+coculture+OR+%22co-culture%22%29+AND+%28methanogen%2A+OR+anaerob%2A%29+AND+%28oxygen+OR+microoxic%29+AND+%28protect%2A+OR+scaveng%2A+OR+toleran%2A%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P05",
+    "database": "PubMed",
+    "theme": "spatial protection",
+    "query_verbatim": "((anaerobic OR methanogenic) AND (granul* OR biofilm OR aggregat*) AND (\"oxygen gradient\" OR microelectrode OR \"oxygen penetration\" OR \"oxygen diffusion\")) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:15:53.991506+00:00",
+      "2026-10-24T03:15:54.985578+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 48,
+    "retrieved_records": 48,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "(\"anaerob\"[All Fields] OR \"anaerobic\"[All Fields] OR \"anaerobically\"[All Fields] OR \"anaerobics\"[All Fields] OR \"anaerobs\"[All Fields] OR \"bacteria, anaerobic\"[MeSH Terms] OR (\"bacteria\"[All Fields] AND \"anaerobic\"[All Fields]) OR \"anaerobic bacteria\"[All Fields] OR \"anaerobe\"[All Fields] OR \"anaerobes\"[All Fields] OR (\"euryarchaeota\"[MeSH Terms] OR \"euryarchaeota\"[All Fields] OR \"methanogen\"[All Fields] OR \"methanogenes\"[All Fields] OR \"methanogenic\"[All Fields] OR \"methanogenically\"[All Fields] OR \"methanogens\"[All Fields])) AND (\"granul*\"[All Fields] OR (\"biofilm s\"[All Fields] OR \"biofilmed\"[All Fields] OR \"biofilms\"[MeSH Terms] OR \"biofilms\"[All Fields] OR \"biofilm\"[All Fields]) OR \"aggregat*\"[All Fields]) AND (\"oxygen gradient\"[All Fields] OR (\"microelectrodes\"[MeSH Terms] OR \"microelectrodes\"[All Fields] OR \"microelectrode\"[All Fields]) OR \"oxygen penetration\"[All Fields] OR \"oxygen diffusion\"[All Fields]) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "((anaerobic OR methanogenic) AND (granul* OR biofilm OR aggregat*) AND (\"oxygen gradient\" OR microelectrode OR \"oxygen penetration\" OR \"oxygen diffusion\")) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P05_search.json",
+      "raw/pubmed/P05_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28anaerobic+OR+methanogenic%29+AND+%28granul%2A+OR+biofilm+OR+aggregat%2A%29+AND+%28%22oxygen+gradient%22+OR+microelectrode+OR+%22oxygen+penetration%22+OR+%22oxygen+diffusion%22%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P06",
+    "database": "PubMed",
+    "theme": "sediment oxygen pulse",
+    "query_verbatim": "((sediment OR \"waterlogged soil\" OR \"paddy soil\") AND (\"oxygen exposure\" OR \"oxygen pulse\" OR reoxygenation OR \"oxygen intrusion\") AND (microb* OR methanogen* OR ferment*)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:15:55.785349+00:00",
+      "2026-10-24T03:15:56.821043+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 26,
+    "retrieved_records": 26,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "(\"sediment\"[All Fields] OR \"sediment s\"[All Fields] OR \"sedimented\"[All Fields] OR \"sedimenting\"[All Fields] OR \"sediments\"[All Fields] OR \"waterlogged soil\"[All Fields] OR \"paddy soil\"[All Fields]) AND (\"oxygen exposure\"[All Fields] OR \"oxygen pulse\"[All Fields] OR (\"reoxygenate\"[All Fields] OR \"reoxygenated\"[All Fields] OR \"reoxygenating\"[All Fields] OR \"reoxygenation\"[All Fields]) OR \"oxygen intrusion\"[All Fields]) AND (\"microb*\"[All Fields] OR \"methanogen*\"[All Fields] OR \"ferment*\"[All Fields]) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "((sediment OR \"waterlogged soil\" OR \"paddy soil\") AND (\"oxygen exposure\" OR \"oxygen pulse\" OR reoxygenation OR \"oxygen intrusion\") AND (microb* OR methanogen* OR ferment*)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P06_search.json",
+      "raw/pubmed/P06_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28sediment+OR+%22waterlogged+soil%22+OR+%22paddy+soil%22%29+AND+%28%22oxygen+exposure%22+OR+%22oxygen+pulse%22+OR+reoxygenation+OR+%22oxygen+intrusion%22%29+AND+%28microb%2A+OR+methanogen%2A+OR+ferment%2A%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P07",
+    "database": "PubMed",
+    "theme": "redox fluctuation peat wetland",
+    "query_verbatim": "((peat OR wetland OR \"flooded soil\") AND (\"redox fluctuation\" OR \"redox oscillation\" OR reoxygenation OR \"oxygen exposure\") AND (microb* OR methanogen* OR metabol*)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:15:57.654483+00:00",
+      "2026-10-24T03:15:58.630478+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 54,
+    "retrieved_records": 54,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "(\"soil\"[Supplementary Concept] OR \"soil\"[All Fields] OR \"peat\"[All Fields] OR \"soil\"[MeSH Terms] OR (\"wetland s\"[All Fields] OR \"wetlands\"[MeSH Terms] OR \"wetlands\"[All Fields] OR \"wetland\"[All Fields]) OR \"flooded soil\"[All Fields]) AND (\"redox fluctuation\"[All Fields] OR \"redox oscillation\"[All Fields] OR (\"reoxygenate\"[All Fields] OR \"reoxygenated\"[All Fields] OR \"reoxygenating\"[All Fields] OR \"reoxygenation\"[All Fields]) OR \"oxygen exposure\"[All Fields]) AND (\"microb*\"[All Fields] OR \"methanogen*\"[All Fields] OR \"metabol*\"[All Fields]) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "((peat OR wetland OR \"flooded soil\") AND (\"redox fluctuation\" OR \"redox oscillation\" OR reoxygenation OR \"oxygen exposure\") AND (microb* OR methanogen* OR metabol*)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P07_search.json",
+      "raw/pubmed/P07_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28peat+OR+wetland+OR+%22flooded+soil%22%29+AND+%28%22redox+fluctuation%22+OR+%22redox+oscillation%22+OR+reoxygenation+OR+%22oxygen+exposure%22%29+AND+%28microb%2A+OR+methanogen%2A+OR+metabol%2A%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P08",
+    "database": "PubMed",
+    "theme": "gut oxygen metabolic response",
+    "query_verbatim": "((\"gut microbiota\" OR \"intestinal bacteria\" OR \"gut anaerobes\") AND (\"oxygen exposure\" OR microoxic OR \"oxygen tolerance\") AND (metaboli* OR physiolog* OR scaveng*)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:15:59.342688+00:00",
+      "2026-10-24T03:16:00.258047+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 17,
+    "retrieved_records": 17,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "(\"gut microbiota\"[All Fields] OR \"intestinal bacteria\"[All Fields] OR \"gut anaerobes\"[All Fields]) AND (\"oxygen exposure\"[All Fields] OR \"microoxic\"[All Fields] OR \"oxygen tolerance\"[All Fields]) AND (\"metaboli*\"[All Fields] OR \"physiolog*\"[All Fields] OR \"scaveng*\"[All Fields]) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "((\"gut microbiota\" OR \"intestinal bacteria\" OR \"gut anaerobes\") AND (\"oxygen exposure\" OR microoxic OR \"oxygen tolerance\") AND (metaboli* OR physiolog* OR scaveng*)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P08_search.json",
+      "raw/pubmed/P08_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22gut+microbiota%22+OR+%22intestinal+bacteria%22+OR+%22gut+anaerobes%22%29+AND+%28%22oxygen+exposure%22+OR+microoxic+OR+%22oxygen+tolerance%22%29+AND+%28metaboli%2A+OR+physiolog%2A+OR+scaveng%2A%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P09",
+    "database": "PubMed",
+    "theme": "rumen scavenging",
+    "query_verbatim": "(rumen AND (\"oxygen scavenging\" OR \"oxygen consumption\" OR \"oxygen exposure\" OR aerotolerance OR \"oxygen tolerance\")) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:16:00.919687+00:00",
+      "2026-10-24T03:16:01.761268+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 23,
+    "retrieved_records": 23,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "(\"rumen\"[MeSH Terms] OR \"rumen\"[All Fields] OR \"rumens\"[All Fields] OR \"rumen s\"[All Fields] OR \"rumenal\"[All Fields] OR \"rumenic\"[All Fields] OR \"rumenitis\"[All Fields]) AND (\"oxygen scavenging\"[All Fields] OR \"oxygen consumption\"[All Fields] OR \"oxygen exposure\"[All Fields] OR (\"aerotolerance\"[All Fields] OR \"aerotolerant\"[All Fields]) OR \"oxygen tolerance\"[All Fields]) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "(rumen AND (\"oxygen scavenging\" OR \"oxygen consumption\" OR \"oxygen exposure\" OR aerotolerance OR \"oxygen tolerance\")) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P09_search.json",
+      "raw/pubmed/P09_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28rumen+AND+%28%22oxygen+scavenging%22+OR+%22oxygen+consumption%22+OR+%22oxygen+exposure%22+OR+aerotolerance+OR+%22oxygen+tolerance%22%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P10",
+    "database": "PubMed",
+    "theme": "oxygen damage sensitive enzymes",
+    "query_verbatim": "((anaerob* OR methanogen*) AND (oxygen OR superoxide) AND (\"iron-sulfur\" OR \"enzyme inactivation\" OR \"pyruvate formate lyase\")) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:16:02.595236+00:00",
+      "2026-10-24T03:16:04.131077+00:00",
+      "2026-10-24T03:16:05.529662+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 186,
+    "retrieved_records": 186,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "(\"anaerob*\"[All Fields] OR \"methanogen*\"[All Fields]) AND (\"cell respiration\"[MeSH Terms] OR (\"cell\"[All Fields] AND \"respiration\"[All Fields]) OR \"cell respiration\"[All Fields] OR \"oxygenation\"[All Fields] OR \"oxygen\"[Supplementary Concept] OR \"oxygen\"[All Fields] OR \"oxygen\"[MeSH Terms] OR \"oxygen s\"[All Fields] OR \"oxygenate\"[All Fields] OR \"oxygenated\"[All Fields] OR \"oxygenates\"[All Fields] OR \"oxygenating\"[All Fields] OR \"oxygenations\"[All Fields] OR \"oxygenative\"[All Fields] OR \"oxygenator s\"[All Fields] OR \"oxygenators\"[MeSH Terms] OR \"oxygenators\"[All Fields] OR \"oxygenator\"[All Fields] OR \"oxygene\"[All Fields] OR \"oxygenic\"[All Fields] OR \"oxygenous\"[All Fields] OR \"oxygens\"[All Fields] OR (\"superoxid\"[All Fields] OR \"superoxidant\"[All Fields] OR \"superoxides\"[Supplementary Concept] OR \"superoxides\"[All Fields] OR \"superoxide\"[All Fields] OR \"superoxides\"[MeSH Terms])) AND (\"iron-sulfur\"[All Fields] OR \"enzyme inactivation\"[All Fields] OR \"pyruvate formate lyase\"[All Fields]) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "((anaerob* OR methanogen*) AND (oxygen OR superoxide) AND (\"iron-sulfur\" OR \"enzyme inactivation\" OR \"pyruvate formate lyase\")) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P10_search.json",
+      "raw/pubmed/P10_fetch_00000.xml",
+      "raw/pubmed/P10_fetch_00100.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28anaerob%2A+OR+methanogen%2A%29+AND+%28oxygen+OR+superoxide%29+AND+%28%22iron-sulfur%22+OR+%22enzyme+inactivation%22+OR+%22pyruvate+formate+lyase%22%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P11",
+    "database": "PubMed",
+    "theme": "methanogen microoxia metabolism",
+    "query_verbatim": "(methanogen* AND (microoxic OR microaerobic OR \"oxygen limitation\" OR \"oxygen reduction\") AND (metaboli* OR transcript* OR respir* OR physiolog*)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:16:06.371857+00:00",
+      "2026-10-24T03:16:07.291005+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 29,
+    "retrieved_records": 29,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "\"methanogen*\"[All Fields] AND (\"microoxic\"[All Fields] OR (\"microaerobic\"[All Fields] OR \"microaerobically\"[All Fields]) OR \"oxygen limitation\"[All Fields] OR \"oxygen reduction\"[All Fields]) AND (\"metaboli*\"[All Fields] OR \"transcript*\"[All Fields] OR \"respir*\"[All Fields] OR \"physiolog*\"[All Fields]) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "(methanogen* AND (microoxic OR microaerobic OR \"oxygen limitation\" OR \"oxygen reduction\") AND (metaboli* OR transcript* OR respir* OR physiolog*)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P11_search.json",
+      "raw/pubmed/P11_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28methanogen%2A+AND+%28microoxic+OR+microaerobic+OR+%22oxygen+limitation%22+OR+%22oxygen+reduction%22%29+AND+%28metaboli%2A+OR+transcript%2A+OR+respir%2A+OR+physiolog%2A%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P12",
+    "database": "PubMed",
+    "theme": "recovery repeated exposure",
+    "query_verbatim": "((anaerob* OR methanogen*) AND (\"oxygen shock\" OR \"oxygen exposure\" OR \"oxygen pulse\" OR \"intermittent aeration\") AND (recover* OR adapt* OR repeated)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:16:08.000994+00:00",
+      "2026-10-24T03:16:09.137678+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 85,
+    "retrieved_records": 85,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "(\"anaerob*\"[All Fields] OR \"methanogen*\"[All Fields]) AND (\"oxygen shock\"[All Fields] OR \"oxygen exposure\"[All Fields] OR \"oxygen pulse\"[All Fields] OR \"intermittent aeration\"[All Fields]) AND (\"recover*\"[All Fields] OR \"adapt*\"[All Fields] OR (\"repeatabilities\"[All Fields] OR \"repeatability\"[All Fields] OR \"repeatable\"[All Fields] OR \"repeated\"[All Fields] OR \"repeatibility\"[All Fields])) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "((anaerob* OR methanogen*) AND (\"oxygen shock\" OR \"oxygen exposure\" OR \"oxygen pulse\" OR \"intermittent aeration\") AND (recover* OR adapt* OR repeated)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P12_search.json",
+      "raw/pubmed/P12_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28anaerob%2A+OR+methanogen%2A%29+AND+%28%22oxygen+shock%22+OR+%22oxygen+exposure%22+OR+%22oxygen+pulse%22+OR+%22intermittent+aeration%22%29+AND+%28recover%2A+OR+adapt%2A+OR+repeated%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P13",
+    "database": "PubMed",
+    "theme": "AD mechanistic response",
+    "query_verbatim": "((\"anaerobic digestion\" OR \"methanogenic sludge\") AND (microaeration OR \"oxygen shock\" OR \"oxygen exposure\") AND (microbial OR enzyme OR metabol* OR syntroph*)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:16:10.038987+00:00",
+      "2026-10-24T03:16:10.915131+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 42,
+    "retrieved_records": 42,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "(\"anaerobic digestion\"[All Fields] OR \"methanogenic sludge\"[All Fields]) AND (\"microaeration\"[All Fields] OR \"oxygen shock\"[All Fields] OR \"oxygen exposure\"[All Fields]) AND (\"microbial\"[All Fields] OR \"microbially\"[All Fields] OR \"microbials\"[All Fields] OR (\"enzyme s\"[All Fields] OR \"enzymes\"[Supplementary Concept] OR \"enzymes\"[All Fields] OR \"enzyme\"[All Fields] OR \"enzymes\"[MeSH Terms] OR \"enzymic\"[All Fields] OR \"enzymically\"[All Fields] OR \"enzymology\"[MeSH Subheading] OR \"enzymology\"[All Fields]) OR \"metabol*\"[All Fields] OR \"syntroph*\"[All Fields]) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "((\"anaerobic digestion\" OR \"methanogenic sludge\") AND (microaeration OR \"oxygen shock\" OR \"oxygen exposure\") AND (microbial OR enzyme OR metabol* OR syntroph*)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P13_search.json",
+      "raw/pubmed/P13_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22anaerobic+digestion%22+OR+%22methanogenic+sludge%22%29+AND+%28microaeration+OR+%22oxygen+shock%22+OR+%22oxygen+exposure%22%29+AND+%28microbial+OR+enzyme+OR+metabol%2A+OR+syntroph%2A%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P14",
+    "database": "PubMed",
+    "theme": "fermenter metabolic switch",
+    "query_verbatim": "((Clostridium OR \"fermentative bacteria\" OR \"strict anaerobes\") AND (microoxic OR \"oxygen exposure\" OR \"oxygen stress\") AND (ferment* OR \"electron flow\" OR \"redox balance\")) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:16:11.592419+00:00",
+      "2026-10-24T03:16:12.338536+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 9,
+    "retrieved_records": 9,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "(\"clostridium\"[MeSH Terms] OR \"clostridium\"[All Fields] OR \"fermentative bacteria\"[All Fields] OR \"strict anaerobes\"[All Fields]) AND (\"microoxic\"[All Fields] OR \"oxygen exposure\"[All Fields] OR \"oxygen stress\"[All Fields]) AND (\"ferment*\"[All Fields] OR \"electron flow\"[All Fields] OR \"redox balance\"[All Fields]) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "((Clostridium OR \"fermentative bacteria\" OR \"strict anaerobes\") AND (microoxic OR \"oxygen exposure\" OR \"oxygen stress\") AND (ferment* OR \"electron flow\" OR \"redox balance\")) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P14_search.json",
+      "raw/pubmed/P14_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28Clostridium+OR+%22fermentative+bacteria%22+OR+%22strict+anaerobes%22%29+AND+%28microoxic+OR+%22oxygen+exposure%22+OR+%22oxygen+stress%22%29+AND+%28ferment%2A+OR+%22electron+flow%22+OR+%22redox+balance%22%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "C01",
+    "database": "Crossref",
+    "theme": null,
+    "query_verbatim": "methanogen oxygen exposure oxidative stress",
+    "field": "query.bibliographic",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:16:14.022788+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": "未显式指定；服务端默认，不推定固定排序",
+    "page_size_as_sent": [
+      "100"
+    ],
+    "pagination": "仅首100；未取下一页",
+    "reported_count": 1162769,
+    "retrieved_records": 100,
+    "cap_or_termination": "First 100 relevance-ranked items; broader reported tail NOT retrieved (non-exhaustive complementary search)",
+    "unretrieved_reported_tail": 1162669,
+    "query_translation": null,
+    "actual_parameters": {
+      "query.bibliographic": [
+        "methanogen oxygen exposure oxidative stress"
+      ],
+      "filter": [
+        "from-pub-date:2012-01-01,until-pub-date:2026-10-24"
+      ],
+      "rows": [
+        "100"
+      ]
+    },
+    "raw_paths": [
+      "raw/crossref/C01_search.json"
+    ],
+    "request_urls": [
+      "https://api.crossref.org/works?query.bibliographic=methanogen+oxygen+exposure+oxidative+stress&filter=from-pub-date%3A2012-01-01%2Cuntil-pub-date%3A2026-10-24&rows=100"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "C02",
+    "database": "Crossref",
+    "theme": null,
+    "query_verbatim": "anaerobic oxygen tolerance rubrerythrin",
+    "field": "query.bibliographic",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:16:15.655812+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": "未显式指定；服务端默认，不推定固定排序",
+    "page_size_as_sent": [
+      "100"
+    ],
+    "pagination": "仅首100；未取下一页",
+    "reported_count": 358038,
+    "retrieved_records": 100,
+    "cap_or_termination": "First 100 relevance-ranked items; broader reported tail NOT retrieved (non-exhaustive complementary search)",
+    "unretrieved_reported_tail": 357938,
+    "query_translation": null,
+    "actual_parameters": {
+      "query.bibliographic": [
+        "anaerobic oxygen tolerance rubrerythrin"
+      ],
+      "filter": [
+        "from-pub-date:2012-01-01,until-pub-date:2026-10-24"
+      ],
+      "rows": [
+        "100"
+      ]
+    },
+    "raw_paths": [
+      "raw/crossref/C02_search.json"
+    ],
+    "request_urls": [
+      "https://api.crossref.org/works?query.bibliographic=anaerobic+oxygen+tolerance+rubrerythrin&filter=from-pub-date%3A2012-01-01%2Cuntil-pub-date%3A2026-10-24&rows=100"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "C03",
+    "database": "Crossref",
+    "theme": null,
+    "query_verbatim": "oxygen pulse sediment microbial recovery",
+    "field": "query.bibliographic",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:16:18.005139+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": "未显式指定；服务端默认，不推定固定排序",
+    "page_size_as_sent": [
+      "100"
+    ],
+    "pagination": "仅首100；未取下一页",
+    "reported_count": 816537,
+    "retrieved_records": 100,
+    "cap_or_termination": "First 100 relevance-ranked items; broader reported tail NOT retrieved (non-exhaustive complementary search)",
+    "unretrieved_reported_tail": 816437,
+    "query_translation": null,
+    "actual_parameters": {
+      "query.bibliographic": [
+        "oxygen pulse sediment microbial recovery"
+      ],
+      "filter": [
+        "from-pub-date:2012-01-01,until-pub-date:2026-10-24"
+      ],
+      "rows": [
+        "100"
+      ]
+    },
+    "raw_paths": [
+      "raw/crossref/C03_search.json"
+    ],
+    "request_urls": [
+      "https://api.crossref.org/works?query.bibliographic=oxygen+pulse+sediment+microbial+recovery&filter=from-pub-date%3A2012-01-01%2Cuntil-pub-date%3A2026-10-24&rows=100"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "O01",
+    "database": "OpenAlex",
+    "theme": null,
+    "query_verbatim": "methanogen oxygen exposure",
+    "field": "title_and_abstract.search",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:16:20.077936+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": "未显式指定；服务端默认，不推定固定排序",
+    "page_size_as_sent": [
+      "200"
+    ],
+    "pagination": "cursor，per-page=200；3主题有1000脚本上限，实际未触及；F01按日志终止",
+    "reported_count": 64,
+    "retrieved_records": 64,
+    "cap_or_termination": "Cursor pagination; maximum 1000 retrieved per query; stop at empty/exhausted or record explicit capped tail",
+    "unretrieved_reported_tail": null,
+    "query_translation": null,
+    "actual_parameters": {
+      "filter": [
+        "from_publication_date:2012-01-01,to_publication_date:2026-10-24,title_and_abstract.search:methanogen oxygen exposure"
+      ],
+      "per-page": [
+        "200"
+      ],
+      "cursor": [
+        "*"
+      ]
+    },
+    "raw_paths": [
+      "raw/openalex/O01_page_000.json"
+    ],
+    "request_urls": [
+      "https://api.openalex.org/works?filter=from_publication_date%3A2012-01-01%2Cto_publication_date%3A2026-10-24%2Ctitle_and_abstract.search%3Amethanogen+oxygen+exposure&per-page=200&cursor=%2A"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "O02",
+    "database": "OpenAlex",
+    "theme": null,
+    "query_verbatim": "anaerobe rubrerythrin oxygen",
+    "field": "title_and_abstract.search",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:16:21.796248+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": "未显式指定；服务端默认，不推定固定排序",
+    "page_size_as_sent": [
+      "200"
+    ],
+    "pagination": "cursor，per-page=200；3主题有1000脚本上限，实际未触及；F01按日志终止",
+    "reported_count": 10,
+    "retrieved_records": 10,
+    "cap_or_termination": "Cursor pagination; maximum 1000 retrieved per query; stop at empty/exhausted or record explicit capped tail",
+    "unretrieved_reported_tail": null,
+    "query_translation": null,
+    "actual_parameters": {
+      "filter": [
+        "from_publication_date:2012-01-01,to_publication_date:2026-10-24,title_and_abstract.search:anaerobe rubrerythrin oxygen"
+      ],
+      "per-page": [
+        "200"
+      ],
+      "cursor": [
+        "*"
+      ]
+    },
+    "raw_paths": [
+      "raw/openalex/O02_page_000.json"
+    ],
+    "request_urls": [
+      "https://api.openalex.org/works?filter=from_publication_date%3A2012-01-01%2Cto_publication_date%3A2026-10-24%2Ctitle_and_abstract.search%3Aanaerobe+rubrerythrin+oxygen&per-page=200&cursor=%2A"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "O03",
+    "database": "OpenAlex",
+    "theme": null,
+    "query_verbatim": "syntrophic oxygen protection",
+    "field": "title_and_abstract.search",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:16:23.087193+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": "未显式指定；服务端默认，不推定固定排序",
+    "page_size_as_sent": [
+      "200"
+    ],
+    "pagination": "cursor，per-page=200；3主题有1000脚本上限，实际未触及；F01按日志终止",
+    "reported_count": 5,
+    "retrieved_records": 5,
+    "cap_or_termination": "Cursor pagination; maximum 1000 retrieved per query; stop at empty/exhausted or record explicit capped tail",
+    "unretrieved_reported_tail": null,
+    "query_translation": null,
+    "actual_parameters": {
+      "filter": [
+        "from_publication_date:2012-01-01,to_publication_date:2026-10-24,title_and_abstract.search:syntrophic oxygen protection"
+      ],
+      "per-page": [
+        "200"
+      ],
+      "cursor": [
+        "*"
+      ]
+    },
+    "raw_paths": [
+      "raw/openalex/O03_page_000.json"
+    ],
+    "request_urls": [
+      "https://api.openalex.org/works?filter=from_publication_date%3A2012-01-01%2Cto_publication_date%3A2026-10-24%2Ctitle_and_abstract.search%3Asyntrophic+oxygen+protection&per-page=200&cursor=%2A"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P15",
+    "database": "PubMed",
+    "theme": "hit-driven expansion: PFOR direct oxygen damage",
+    "query_verbatim": "((Bacteroides OR Desulfovibrio OR anaerob*) AND (PFOR OR \"pyruvate ferredoxin oxidoreductase\" OR \"pyruvate formate lyase\") AND (\"oxygen sensitivity\" OR \"oxygen damage\" OR \"oxygen exposure\" OR \"oxygen inactivation\")) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:30:51.810229+00:00",
+      "2026-10-24T03:30:52.652664+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 3,
+    "retrieved_records": 3,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "(\"bacteroides\"[MeSH Terms] OR \"bacteroides\"[All Fields] OR (\"desulfovibrio\"[MeSH Terms] OR \"desulfovibrio\"[All Fields] OR \"desulfovibrios\"[All Fields]) OR \"anaerob*\"[All Fields]) AND (\"PFOR\"[All Fields] OR \"pyruvate ferredoxin oxidoreductase\"[All Fields] OR \"pyruvate formate lyase\"[All Fields]) AND (\"oxygen sensitivity\"[All Fields] OR \"oxygen damage\"[All Fields] OR \"oxygen exposure\"[All Fields] OR \"oxygen inactivation\"[All Fields]) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "((Bacteroides OR Desulfovibrio OR anaerob*) AND (PFOR OR \"pyruvate ferredoxin oxidoreductase\" OR \"pyruvate formate lyase\") AND (\"oxygen sensitivity\" OR \"oxygen damage\" OR \"oxygen exposure\" OR \"oxygen inactivation\")) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P15_search.json",
+      "raw/pubmed/P15_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28Bacteroides+OR+Desulfovibrio+OR+anaerob%2A%29+AND+%28PFOR+OR+%22pyruvate+ferredoxin+oxidoreductase%22+OR+%22pyruvate+formate+lyase%22%29+AND+%28%22oxygen+sensitivity%22+OR+%22oxygen+damage%22+OR+%22oxygen+exposure%22+OR+%22oxygen+inactivation%22%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P16",
+    "database": "PubMed",
+    "theme": "hit-driven expansion: cytochrome bd oxygen protection",
+    "query_verbatim": "((methanogen* OR \"gut anaerobes\" OR Akkermansia OR Proteiniphilum) AND (\"cytochrome bd\" OR \"bd-type\") AND (oxygen OR microaer*)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:30:53.333064+00:00",
+      "2026-10-24T03:30:54.143712+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 5,
+    "retrieved_records": 5,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "(\"methanogen*\"[All Fields] OR \"gut anaerobes\"[All Fields] OR (\"akkermansia\"[MeSH Terms] OR \"akkermansia\"[All Fields]) OR \"Proteiniphilum\"[All Fields]) AND (\"cytochrome bd\"[All Fields] OR \"bd-type\"[All Fields]) AND (\"cell respiration\"[MeSH Terms] OR (\"cell\"[All Fields] AND \"respiration\"[All Fields]) OR \"cell respiration\"[All Fields] OR \"oxygenation\"[All Fields] OR \"oxygen\"[Supplementary Concept] OR \"oxygen\"[All Fields] OR \"oxygen\"[MeSH Terms] OR \"oxygen s\"[All Fields] OR \"oxygenate\"[All Fields] OR \"oxygenated\"[All Fields] OR \"oxygenates\"[All Fields] OR \"oxygenating\"[All Fields] OR \"oxygenations\"[All Fields] OR \"oxygenative\"[All Fields] OR \"oxygenator s\"[All Fields] OR \"oxygenators\"[MeSH Terms] OR \"oxygenators\"[All Fields] OR \"oxygenator\"[All Fields] OR \"oxygene\"[All Fields] OR \"oxygenic\"[All Fields] OR \"oxygenous\"[All Fields] OR \"oxygens\"[All Fields] OR \"microaer*\"[All Fields]) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "((methanogen* OR \"gut anaerobes\" OR Akkermansia OR Proteiniphilum) AND (\"cytochrome bd\" OR \"bd-type\") AND (oxygen OR microaer*)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P16_search.json",
+      "raw/pubmed/P16_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28methanogen%2A+OR+%22gut+anaerobes%22+OR+Akkermansia+OR+Proteiniphilum%29+AND+%28%22cytochrome+bd%22+OR+%22bd-type%22%29+AND+%28oxygen+OR+microaer%2A%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "P17",
+    "database": "PubMed",
+    "theme": "hit-driven expansion: selenium redox response",
+    "query_verbatim": "((methanogen* OR \"hydrogenotrophic community\") AND (selenoproteome OR selenocysteine) AND (\"oxidative stress\" OR oxygen)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])",
+    "field": "PubMed automatic term mapping; actual translation retained in raw ESearch",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:30:54.870185+00:00",
+      "2026-10-24T03:30:55.604558+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": [
+      "pub date"
+    ],
+    "page_size_as_sent": [
+      "9999"
+    ],
+    "pagination": "ESearch retmax=9999一次完整ID；EFetch每100 ID",
+    "reported_count": 1,
+    "retrieved_records": 1,
+    "cap_or_termination": "Complete IDs and all EFetch batches for this query",
+    "unretrieved_reported_tail": null,
+    "query_translation": "(\"methanogen*\"[All Fields] OR ((\"hydrogenotroph\"[All Fields] OR \"hydrogenotrophic\"[All Fields] OR \"hydrogenotrophs\"[All Fields]) AND (\"communal\"[All Fields] OR \"communalism\"[All Fields] OR \"communalities\"[All Fields] OR \"communality\"[All Fields] OR \"communally\"[All Fields] OR \"commune\"[All Fields] OR \"communes\"[All Fields] OR \"community s\"[All Fields] OR \"communitys\"[All Fields] OR \"residence characteristics\"[MeSH Terms] OR (\"residence\"[All Fields] AND \"characteristics\"[All Fields]) OR \"residence characteristics\"[All Fields] OR \"communities\"[All Fields] OR \"community\"[All Fields]))) AND (\"selenoproteome\"[All Fields] OR \"selenoproteomes\"[All Fields] OR (\"selenocystein\"[All Fields] OR \"selenocysteine\"[Supplementary Concept] OR \"selenocysteine\"[All Fields] OR \"selenocysteine\"[MeSH Terms] OR \"selenocysteines\"[All Fields])) AND (\"oxidative stress\"[All Fields] OR (\"cell respiration\"[MeSH Terms] OR (\"cell\"[All Fields] AND \"respiration\"[All Fields]) OR \"cell respiration\"[All Fields] OR \"oxygenation\"[All Fields] OR \"oxygen\"[Supplementary Concept] OR \"oxygen\"[All Fields] OR \"oxygen\"[MeSH Terms] OR \"oxygen s\"[All Fields] OR \"oxygenate\"[All Fields] OR \"oxygenated\"[All Fields] OR \"oxygenates\"[All Fields] OR \"oxygenating\"[All Fields] OR \"oxygenations\"[All Fields] OR \"oxygenative\"[All Fields] OR \"oxygenator s\"[All Fields] OR \"oxygenators\"[MeSH Terms] OR \"oxygenators\"[All Fields] OR \"oxygenator\"[All Fields] OR \"oxygene\"[All Fields] OR \"oxygenic\"[All Fields] OR \"oxygenous\"[All Fields] OR \"oxygens\"[All Fields])) AND 2012/01/01:2026/10/24[Date - Publication]",
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "term": [
+        "((methanogen* OR \"hydrogenotrophic community\") AND (selenoproteome OR selenocysteine) AND (\"oxidative stress\" OR oxygen)) AND (\"2012/01/01\"[Date - Publication] : \"2026/10/24\"[Date - Publication])"
+      ],
+      "retmode": [
+        "json"
+      ],
+      "retmax": [
+        "9999"
+      ],
+      "sort": [
+        "pub date"
+      ]
+    },
+    "raw_paths": [
+      "raw/pubmed/P17_search.json",
+      "raw/pubmed/P17_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28methanogen%2A+OR+%22hydrogenotrophic+community%22%29+AND+%28selenoproteome+OR+selenocysteine%29+AND+%28%22oxidative+stress%22+OR+oxygen%29%29+AND+%28%222012%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%222026%2F10%2F24%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999&sort=pub+date"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "T01",
+    "database": "PubMed",
+    "theme": "Backward trace, selected original mechanisms from actual source references",
+    "query_verbatim": "EFetch PMID 14749831,11260473,18161989,29559534",
+    "field": "known PMID lookup, not keyword discovery",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:21:00.472077+00:00"
+    ],
+    "time_filter": "不设时间过滤；4个指定PMID含3篇2012年前",
+    "sort_as_sent": "未显式指定；服务端默认，不推定固定排序",
+    "page_size_as_sent": null,
+    "pagination": "固定4 PMID，无发现分页",
+    "reported_count": 4,
+    "retrieved_records": 4,
+    "cap_or_termination": "Three pre-2012 key studies intentionally outside main date window; metadata only, screening queued",
+    "unretrieved_reported_tail": null,
+    "query_translation": null,
+    "actual_parameters": {
+      "db": [
+        "pubmed"
+      ],
+      "id": [
+        "14749831,11260473,18161989,29559534"
+      ],
+      "retmode": [
+        "xml"
+      ]
+    },
+    "raw_paths": [
+      "raw/trace/T01_fetch_00000.xml"
+    ],
+    "request_urls": [
+      "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=14749831%2C11260473%2C18161989%2C29559534&retmode=xml"
+    ],
+    "source_log": "search_log.json"
+  },
+  {
+    "query_id": "F01",
+    "database": "OpenAlex",
+    "theme": "Forward citation trace from B. thetaiotaomicron 2020",
+    "query_verbatim": "cites:W3016413973,from_publication_date:2012-01-01,to_publication_date:2026-10-24",
+    "field": "cites filter",
+    "date_utc": "2026-10-24",
+    "request_times_as_recorded": [
+      "2026-10-24T03:22:47.183702+00:00"
+    ],
+    "time_filter": "2012-01-01—2026-10-24",
+    "sort_as_sent": "未显式指定；服务端默认，不推定固定排序",
+    "page_size_as_sent": [
+      "200"
+    ],
+    "pagination": "cursor，per-page=200；3主题有1000脚本上限，实际未触及；F01按日志终止",
+    "reported_count": 32,
+    "retrieved_records": 32,
+    "cap_or_termination": "cursor_exhausted",
+    "unretrieved_reported_tail": null,
+    "query_translation": null,
+    "actual_parameters": {
+      "filter": [
+        "cites:W3016413973,from_publication_date:2012-01-01,to_publication_date:2026-10-24"
+      ],
+      "per-page": [
+        "200"
+      ],
+      "cursor": [
+        "*"
+      ]
+    },
+    "raw_paths": [
+      "raw/openalex/F01_page_000.json"
+    ],
+    "request_urls": [
+      "https://api.openalex.org/works?filter=cites%3AW3016413973%2Cfrom_publication_date%3A2012-01-01%2Cto_publication_date%3A2026-10-24&per-page=200&cursor=%2A"
+    ],
+    "source_log": "search_log.json"
+  }
+]

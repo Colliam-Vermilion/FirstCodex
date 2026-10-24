@@ -1,3 +1,51 @@
+# 微曝气AD项目：两条工作线的方法导航
+
+这里保留原AD文献库，并分别开展了“氧响应机制解释”和“可复用测序数据发现”。二者目标、纳入对象和完成深度不同。本次更新只从现存脚本、原始返回、逐项判断及提交历史重建方法；**没有新增检索、重新筛选或更改累计结果**。整合前报告折叠保留，避免历史“未筛1516”等旧状态遮蔽当前进度。
+
+|想解决的问题|工作线与当前入口|完整方法及实际查询|
+|---|---|---|
+|氧为什么损伤/保护厌氧微生物，怎样联系AD机制？|[oxygen_response_review](oxygen_response_review/README.md)|[详细方法与真实案例](oxygen_response_review/methods/METHODS.md) · [完整检索式附表](oxygen_response_review/methods/QUERY_APPENDIX.md)|
+|哪些公开群落DNA/RNA能复用，处理和样本能否对上？|[omics_dataset_discovery](omics_dataset_discovery/README.md)|[详细方法与真实案例](omics_dataset_discovery/methods/METHODS.md) · [完整检索式附表](omics_dataset_discovery/methods/QUERY_APPENDIX.md) · [新增60项目来源/选择](omics_dataset_discovery/methods/SELECTION_AUDIT.md)|
+|复核本次说明是否改动原判断、数量是否来自实际集合？|[方法审计记录](method_audit/audit_summary.json)|[离线复建脚本](method_audit/rebuild_appendices.py) · [阶段提交快照](method_audit/stage_history.json) · [校验记录](method_audit/validation.json)|
+
+原AD总表仍在[final_results](final_results/)，原件仍在[original_files](original_files/)；原ID、分类及用户人工判断保留。新范围判断由助手模型作出，不称用户人工复核。
+
+## 机制文献线怎样流转
+
+问题从AD扩展到其他厌氧环境的具体靶点、代谢和互作。实际查询PubMed、Crossref、OpenAlex，随后以一个原始研究为种子做有限前/后向追溯；不是强制omics检索。
+
+```mermaid
+flowchart LR
+ A[数据库返回与原AD记录] --> B[规范身份／保留旧ID]
+ B --> C[分层阅读与模型逐项初筛]
+ C --> D[优先／待确认／背景／排除]
+ D --> E[后续全文及具体主张核验]
+```
+
+1,147是可重复的返回行；按逐输入映射得到1,039个返回身份，其中57与原554重叠，982为新增身份。旧554全部保留，因此池为1,536，**不是纳入数**。首20与后来新增1,516的阅读深度不同；新增全池仅题名/摘要关键句初筛。35篇之后读了完整缓存摘要，仍是阅读队列，不是已确认核心或全文核完。364暂定优先、479待确认等集合的具体来源和那1条范围相关但精读暂缓的例外，详见方法集合表。
+
+Crossref每组前100的尾部仍未补齐；MCP/CLI失败由官方API替代，不把工具安装当成功。引用/JIF辅助排序，不能替代AD相关性、因果证据或独立支持。
+
+## 数据发现线怎样流转
+
+先复用旧omics审计的22篇（21MG+1MT）和9个项目号，再从ENA/BioProject直接查询，从PubMed及项目Publication字段双向关联。主目标是群落shotgun DNA/RNA；扩增子、纯培养/单细胞、病毒富集及派生组装分列。
+
+```mermaid
+flowchart LR
+ A[论文声明与官方平台查询] --> B[项目／样本／实验／run关联]
+ B --> C[核类型／镜像／项目别名]
+ C --> D[核氧处理／对照／时间／重复]
+ D --> E[下载准备或具体缺口队列]
+```
+
+累计审计69项目（旧9+新增60），38有公开群落reads清单：A5/B20/C13。A/B的349 run和C的333 run单列，不当生物重复。16项对比键中12有已读全文方法支持、4仅元数据暂定；共享研究、对照或反应器，不能称16独立实验。GSA未成功检索，FASTQ入口抽检被代理阻断；**公开清单不等于FASTQ已下载验证**。418项目尚未审计；论文队列2228含12篇原22已审计旧文，身份过滤待修，还含宽泛自动扩展结果，不能称全部新候选。
+
+本次方法说明的验算基准为提交0f9eeec20。历史统计及下一步建议只代表各自提交时点；现有累计数据在两条工作线原Excel/CSV/JSON中，方法审计没有重写它们。
+
+<details>
+<summary>整合前README及历史阶段报告（折叠保留；当前流程以上方方法为准）</summary>
+
+<!-- HISTORICAL_README_BEGIN -->
 > **当前任务已切换（2026-10-24）：[测序数据集发现与关联论文](omics_dataset_discovery/README.md)** · [累计Excel](omics_dataset_discovery/omics_dataset_discovery_cumulative.xlsx) · [项目/样本/run及文件入口](omics_dataset_discovery/data_projects_master_utf8.csv) · [续跑进度](omics_dataset_discovery/progress.json)。已复核原22篇（21MG+1MT）及9个项目号，连续审计60个新增项目；原机制综述与35篇阅读队列已暂存，以下综述进度为保留记录。原件、分类、人工判断及原综述累计表未改。
 
 > **35条队列来源与条件补充说明**：[逐篇核对](oxygen_response_review/reading_queue35/README.md)。35条不是已确认核心文献，也不是引用/JIF前35或四项全达标集；本轮已补读35条完整缓存摘要，仍未核全文。9条有2024 JIF缓存、25条未核实、1条预印本不适用；独立验证按具体主张保留未核实及已有部分支持。其余312条范围相关候选继续核实，35不是最终数量上限。
@@ -347,3 +395,6 @@ EndNote：File → Import → File；Import Option选择Reference Manager (RIS)�
 - [methods/manual_classification_20261007_original.csv](methods/manual_classification_20261007_original.csv)
 - [methods/manual_classification_pending36_20261007_original.csv](methods/manual_classification_pending36_20261007_original.csv)
 - [methods/retrieve_verified_fulltexts.py](methods/retrieve_verified_fulltexts.py)
+<!-- HISTORICAL_README_END -->
+
+</details>
