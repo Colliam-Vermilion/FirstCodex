@@ -1,0 +1,22 @@
+{
+  "date_utc": "2026-10-24",
+  "official_API_preflight": {
+    "PubMed": "HTTP200, real ESearch+EFetch, date-limited discovery succeeded",
+    "Crossref": "HTTP200, actual works records",
+    "OpenAlex": "HTTP200, actual works and cursor pages",
+    "EuropePMC": "Search HTTP200; fullTextXML HTTP500 for two tested papers; remaining such probes stopped; NCBI PMC used instead"
+  },
+  "nature_academic_search": {
+    "source_commit": "b543e8b998eb2df1fd44641cc8b262c638c2b442 (restored pin; check tool git version in validation)",
+    "MCP_tools_listed": 16,
+    "MCP_retrieval": "Source request failed inside result.errors despite isError=false; NOT counted as successful search",
+    "standalone_CLI": "HTTP429; direct official APIs used for complete PubMed and OpenAlex pagination per skill fallback workflow"
+  },
+  "not_searched": {
+    "WebOfScience": "No usable credential/access capability configured; no WoS search or coverage claim",
+    "Scopus": "No usable API entitlement configured; no Scopus search or coverage claim"
+  },
+  "network_snapshot": "Startup policy snapshot restricted; runtime observation policy state unknown; actual HTTP results are authority; no proxy/VPN bypass used",
+  "keys_required_for_successful_sources": false,
+  "contact": "Read from external environment/runtime config; not copied into Git"
+}
