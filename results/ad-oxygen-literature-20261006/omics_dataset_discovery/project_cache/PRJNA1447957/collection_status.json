@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1447957",
+  "checked_utc": "2026-10-24T14:10:06.367909+00:00",
+  "ena_run_count": 12,
+  "ncbi_sra_count": 12,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1447957&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:10:06.368136+00:00",
+    "raw_path": "raw/ENA/7374443e1c065a275e9aeb3dc61cb7ae730e824d0c80a227b7d4cc9e445132d6.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1447957&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 16067,
+    "sha256": "b30b277c9abc515a744c43e3e125e5c102f58a2fbd2c0b71c4d1775e11cd1c48",
+    "finished_utc": "2026-10-24T14:10:06.569715+00:00",
+    "measured_wall_seconds": 0.202
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1447957&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:10:06.971251+00:00",
+    "raw_path": "raw/NCBI/ee89a5bc192b85d6467c4ff818856377b71e76dad965803780e7f1456b8cb9a1.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1447957&retmode=json&retmax=200&retstart=0",
+    "bytes": 428,
+    "sha256": "3bc0d143e5f5e890496010453dca4ebef339ea7bb6c2ac0e91d1796eeec93e3a",
+    "finished_utc": "2026-10-24T14:10:07.069988+00:00",
+    "measured_wall_seconds": 0.099
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1447957",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:10:07.722316+00:00",
+    "raw_path": "raw/ENA/6c457963c8c92162d036b3b99382fadb11d97ca84bab95dfc3601c45c14ac711.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1447957",
+    "bytes": 2214,
+    "sha256": "eaba5d58f7eae4150622391cad1201aa106122eddff4b90a161a89632a711565",
+    "finished_utc": "2026-10-24T14:10:07.899557+00:00",
+    "measured_wall_seconds": 0.177
+  },
+  "project_title": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water (Metagenome)",
+  "project_description": "This study investigates the effects of adding Air-NBW on system performance during mesophilic and psychrotrophic AD of CM. Further analysis examined the regulatory role of Air-NBW in ARGs transfer, degradation, and ecological risk.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1447957"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP689122"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Lanzhou University of Technology",
+      "value": "PRJNA1447957"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1447957&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1447957&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 12
+}

@@ -1,0 +1,2291 @@
+[
+  {
+    "run_accession": "SRR25925545",
+    "experiment_accession": "SRX21645267",
+    "sample_accession": "SAMN37298560",
+    "secondary_sample_accession": "SRS18813877",
+    "sample_alias": "FAESRU.JL.10",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion of poultry litter",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-03-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Air, Week 6",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter digestate: air week6",
+    "library_name": "zr8971_10",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "25208486",
+    "base_count": "7612962772",
+    "sra_run_bytes": "2603090725",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr8971_10_R1.fastq.gz",
+        "size": "1844239634",
+        "date": "2023-09-06 13:28:17",
+        "md5": "efbada0b14cd1f53a26152652aeedd47",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr8971_10_R2.fastq.gz",
+        "size": "1838589360",
+        "date": "2023-09-06 13:28:39",
+        "md5": "1eca4c403fda0fa6430898f87175b62b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925545",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925545/SRR25925545",
+        "size": "2603092644",
+        "date": "2023-09-06 13:29:41",
+        "md5": "3108c4ecf1af65c3dd6a2d29a69eaec9",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925545.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925545/SRR25925545.lite.1",
+        "size": "1948098648",
+        "date": "2023-09-11 15:23:34",
+        "md5": "ccbb31a68bbdd64bdfb81f4b19e8f41b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:29",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925546",
+    "experiment_accession": "SRX21645266",
+    "sample_accession": "SAMN37298559",
+    "secondary_sample_accession": "SRS18813875",
+    "sample_alias": "FAESRU.JL.9",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion of poultry litter",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-11-27",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Air& Sound, Week 42",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter digestate: air & sound week42",
+    "library_name": "zr8971_9",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "26108505",
+    "base_count": "7884768510",
+    "sra_run_bytes": "2707152366",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr8971_9_R1.fastq.gz",
+        "size": "1877339551",
+        "date": "2023-09-06 13:26:29",
+        "md5": "467858743124427c36ae26258cffc6fd",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr8971_9_R2.fastq.gz",
+        "size": "1786719245",
+        "date": "2023-09-06 13:26:36",
+        "md5": "269bae6d4dcf36178c4f89cfa2bbab85",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925546",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925546/SRR25925546",
+        "size": "2707154286",
+        "date": "2023-09-06 13:27:05",
+        "md5": "b9953f8150fb7acbff01e2ca3d3fd595",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925546.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925546/SRR25925546.lite.1",
+        "size": "2017574226",
+        "date": "2023-09-11 15:23:48",
+        "md5": "01a88f6da5ee32a6ca58bf810e9104a7",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:29",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925547",
+    "experiment_accession": "SRX21645265",
+    "sample_accession": "SAMN37298558",
+    "secondary_sample_accession": "SRS18813872",
+    "sample_alias": "FAESRU.JL.8",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion of poultry litter",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-07-17",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Air & Sound, Week 23",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter digestate: air & sound week23",
+    "library_name": "zr8971_8",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "21634604",
+    "base_count": "6533650408",
+    "sra_run_bytes": "2324424012",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr8971_8_R1.fastq.gz",
+        "size": "1725436200",
+        "date": "2023-09-06 13:33:35",
+        "md5": "3d4f69af50cbf4be44daa78e42b9121e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr8971_8_R2.fastq.gz",
+        "size": "1628034947",
+        "date": "2023-09-06 13:33:54",
+        "md5": "076f6872b6ba50deed55bb618f412105",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925547",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925547/SRR25925547",
+        "size": "2324425928",
+        "date": "2023-09-06 13:34:51",
+        "md5": "ba35ecfef5d58894b50c712c6d761b1f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925547.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925547/SRR25925547.lite.1",
+        "size": "1673059516",
+        "date": "2023-09-11 15:23:11",
+        "md5": "b901b5b6e6c699f01e75b826e00ddfa0",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:29",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925548",
+    "experiment_accession": "SRX21645264",
+    "sample_accession": "SAMN37298557",
+    "secondary_sample_accession": "SRS18813884",
+    "sample_alias": "FAESRU.JL.7",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion of poultry litter",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-03-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Air& Sound, Week 6",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter digestate: air & sound week6",
+    "library_name": "zr8971_7",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "25570478",
+    "base_count": "7722284356",
+    "sra_run_bytes": "2694464993",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr8971_7_R1.fastq.gz",
+        "size": "1705396692",
+        "date": "2023-09-06 13:26:10",
+        "md5": "1e6d32bc10527e0adf5094b3d03389f0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr8971_7_R2.fastq.gz",
+        "size": "1590189814",
+        "date": "2023-09-06 13:26:17",
+        "md5": "7725cb83721ecc3205c901a76a39d5fd",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925548",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925548/SRR25925548",
+        "size": "2694466909",
+        "date": "2023-09-06 13:26:39",
+        "md5": "d250928b94846f64b090ad6eac6498b0",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925548.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925548/SRR25925548.lite.1",
+        "size": "1976501253",
+        "date": "2023-09-11 15:23:13",
+        "md5": "1df2c91c3af3d5d41782bf1f80d5cdfd",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:29",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925549",
+    "experiment_accession": "SRX21645263",
+    "sample_accession": "SAMN37298556",
+    "secondary_sample_accession": "SRS18813870",
+    "sample_alias": "FAESRU.JL.6",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion of poultry litter",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-11-27",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Sound, Week 42",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter digestate: sound week42",
+    "library_name": "zr8971_6",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "20751293",
+    "base_count": "6266890486",
+    "sra_run_bytes": "2125557945",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr8971_6_R1.fastq.gz",
+        "size": "1510139096",
+        "date": "2023-09-06 13:24:26",
+        "md5": "7b9ffd2f0776f7a3c7f4686ca88b3894",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr8971_6_R2.fastq.gz",
+        "size": "1504902924",
+        "date": "2023-09-06 13:24:21",
+        "md5": "f5a5930ae32f862b87aa686075f19a5e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925549",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925549/SRR25925549",
+        "size": "2125559866",
+        "date": "2023-09-06 13:24:43",
+        "md5": "64a1a89034592396dd827e0636996946",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925549.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925549/SRR25925549.lite.1",
+        "size": "1604786306",
+        "date": "2023-09-11 15:23:50",
+        "md5": "afef64dfb08fa1ed88db7168e3cd45ee",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:29",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925550",
+    "experiment_accession": "SRX21645262",
+    "sample_accession": "SAMN37298555",
+    "secondary_sample_accession": "SRS18813871",
+    "sample_alias": "FAESRU.JL.5",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion of poultry litter",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-07-17",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Sound, Week 23",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter digestate: sound week23",
+    "library_name": "zr8971_5",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "19763571",
+    "base_count": "5968598442",
+    "sra_run_bytes": "2077606404",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr8971_5_R1.fastq.gz",
+        "size": "1512026775",
+        "date": "2023-09-06 13:41:48",
+        "md5": "642b8df87e5a9c3d1e6fd1947e3af23a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr8971_5_R2.fastq.gz",
+        "size": "1485797708",
+        "date": "2023-09-06 13:41:28",
+        "md5": "e9eaa9e318bb6bba9eceb93e6328b030",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925550",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925550/SRR25925550",
+        "size": "2077608328",
+        "date": "2023-09-06 13:42:39",
+        "md5": "a858c78a18675fa97e4d4851b43f41ac",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925550.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925550/SRR25925550.lite.1",
+        "size": "1528702900",
+        "date": "2023-09-11 15:23:08",
+        "md5": "6dc06a753a12b518cbc54e57e0c51987",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:29",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925551",
+    "experiment_accession": "SRX21645261",
+    "sample_accession": "SAMN37298554",
+    "secondary_sample_accession": "SRS18813866",
+    "sample_alias": "FAESRU.JL.4",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion of poultry litter",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-03-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Sound, Week 6",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter digestate: sound week6",
+    "library_name": "zr8971_4",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "23127774",
+    "base_count": "6984587748",
+    "sra_run_bytes": "2371153098",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr8971_4_R1.fastq.gz",
+        "size": "1664594865",
+        "date": "2023-09-06 13:25:59",
+        "md5": "7a931c30ce923895645d1c6fcb0292cc",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr8971_4_R2.fastq.gz",
+        "size": "1653858920",
+        "date": "2023-09-06 13:26:15",
+        "md5": "d1acf03c324e275049ad926de3d2e9e3",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925551",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925551/SRR25925551",
+        "size": "2371155018",
+        "date": "2023-09-06 13:26:51",
+        "md5": "7bfa415e80f540d361123b12b99080b7",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925551.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925551/SRR25925551.lite.1",
+        "size": "1787853990",
+        "date": "2023-09-11 15:25:36",
+        "md5": "ac63430af73b309306536542197cbfac",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:29",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925552",
+    "experiment_accession": "SRX21645260",
+    "sample_accession": "SAMN37298571",
+    "secondary_sample_accession": "SRS18813879",
+    "sample_alias": "FAESRU.JL.21",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "initial anaerobic digestion of poultry litter",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-02-01",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Sound, Week 0",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of initial poultry litter mix: sound week6",
+    "library_name": "zr12741_3",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "12311561",
+    "base_count": "3718091422",
+    "sra_run_bytes": "1180264233",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr12741_3_R1.fastq.gz",
+        "size": "967963463",
+        "date": "2023-09-06 13:21:42",
+        "md5": "a51c67bc128cb2ae6a96fc044e366df2",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr12741_3_R2.fastq.gz",
+        "size": "930513057",
+        "date": "2023-09-06 13:21:40",
+        "md5": "41bbf0d92eb8d1745b80720fff4ed40d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925552",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925552/SRR25925552",
+        "size": "1180266451",
+        "date": "2023-09-06 13:21:52",
+        "md5": "44a56a9b1be509896e8fde81b84c8958",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925552.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925552/SRR25925552.lite.1",
+        "size": "954631235",
+        "date": "2023-09-11 15:23:05",
+        "md5": "34190ba4840f8e9f3d4689dbfb10bf95",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:29",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925553",
+    "experiment_accession": "SRX21645259",
+    "sample_accession": "SAMN37298553",
+    "secondary_sample_accession": "SRS18813876",
+    "sample_alias": "FAESRU.JL.3",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion of poultry litter",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-11-27",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Control, Week 42",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter digestate: control week42",
+    "library_name": "zr8971_3",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "14538966",
+    "base_count": "4390767732",
+    "sra_run_bytes": "1522317935",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr8971_3_R1.fastq.gz",
+        "size": "1058197953",
+        "date": "2023-09-06 13:24:25",
+        "md5": "df2f990b5923483c0a8b05bea3a67baa",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr8971_3_R2.fastq.gz",
+        "size": "986222555",
+        "date": "2023-09-06 13:24:13",
+        "md5": "c7958ba844dda67bef1002c0fbc58e41",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925553",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925553/SRR25925553",
+        "size": "1522319857",
+        "date": "2023-09-06 13:24:52",
+        "md5": "b4866982769a3139aefb50f7df6a9715",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925553.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925553/SRR25925553.lite.1",
+        "size": "1126149205",
+        "date": "2023-09-11 15:23:06",
+        "md5": "9ce1fed06bbe6c6cac55b77f32d4c9ea",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:29",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925554",
+    "experiment_accession": "SRX21645258",
+    "sample_accession": "SAMN37298570",
+    "secondary_sample_accession": "SRS18813874",
+    "sample_alias": "FAESRU.JL.20",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "initial anaerobic digestion of poultry litter",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-02-01",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Control, Week 0",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of initial poultry litter mix: control week0",
+    "library_name": "zr12741_2",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "17310282",
+    "base_count": "5227705164",
+    "sra_run_bytes": "1636747428",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR25925554.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925554/SRR25925554.lite.1",
+        "size": "1338871578",
+        "date": "2023-09-11 15:23:11",
+        "md5": "e039252bf42e69568f1eb6b647fa280d",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925554",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925554/SRR25925554",
+        "size": "1636749646",
+        "date": "2023-09-06 13:25:14",
+        "md5": "63a3ab93a5ba617cff960630d13bbf64",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr12741_2_R2.fastq.gz",
+        "size": "1306321959",
+        "date": "2023-09-06 13:24:45",
+        "md5": "43620e5db45f9bd567a85be0f3f85c95",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr12741_2_R1.fastq.gz",
+        "size": "1357921368",
+        "date": "2023-09-06 13:24:31",
+        "md5": "5cec5aba0adb59b617ec77c65102b275",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:30",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925555",
+    "experiment_accession": "SRX21645257",
+    "sample_accession": "SAMN37298569",
+    "secondary_sample_accession": "SRS18813873",
+    "sample_alias": "FAESRU.JL.19",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "poultry litter feed",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-02-01",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Poutry Litter Feed, Week 0",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter feed: week0",
+    "library_name": "zr12741_1",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "25447354",
+    "base_count": "7685100908",
+    "sra_run_bytes": "2408275144",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr12741_1_R1.fastq.gz",
+        "size": "1975075596",
+        "date": "2023-09-06 13:27:14",
+        "md5": "0a8176c19e23e09e6733facff5206e5e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr12741_1_R2.fastq.gz",
+        "size": "1901538916",
+        "date": "2023-09-06 13:26:51",
+        "md5": "375f27d417c721da16692471e4ed0d00",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925555",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925555/SRR25925555",
+        "size": "2408277363",
+        "date": "2023-09-06 13:28:31",
+        "md5": "c5c9d6e5d0f31e94cc97dad89ac52d8d",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925555.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925555/SRR25925555.lite.1",
+        "size": "1962990015",
+        "date": "2023-09-11 15:23:34",
+        "md5": "0796ab57374a771fc719937d3c517287",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:30",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925556",
+    "experiment_accession": "SRX21645256",
+    "sample_accession": "SAMN37298568",
+    "secondary_sample_accession": "SRS18813868",
+    "sample_alias": "FAESRU.JL.18",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "aerated digester, digestate sample",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2016-11-21",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Aerated digester, digestate sample",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter digestate: aerated digester",
+    "library_name": "zr12237_6",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "9751286",
+    "base_count": "2944888372",
+    "sra_run_bytes": "922515031",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr12237_6_R1.fastq.gz",
+        "size": "708031835",
+        "date": "2023-09-06 13:23:12",
+        "md5": "b41f7cf038f9c085b0fecfb392c3b47a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr12237_6_R2.fastq.gz",
+        "size": "750986178",
+        "date": "2023-09-06 13:23:04",
+        "md5": "f5c0cef6ac35179536ea7ed02556ae68",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925556",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925556/SRR25925556",
+        "size": "922516955",
+        "date": "2023-09-06 13:23:32",
+        "md5": "2a33ac9f41910aebc517a801402dc46c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925556.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925556/SRR25925556.lite.1",
+        "size": "751773547",
+        "date": "2023-09-11 15:23:09",
+        "md5": "2e6473427b3efffdee26db651319f692",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:30",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925557",
+    "experiment_accession": "SRX21645255",
+    "sample_accession": "SAMN37298567",
+    "secondary_sample_accession": "SRS18813862",
+    "sample_alias": "FAESRU.JL.17",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "microaerated digester, wood disk wipe",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2016-11-21",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Microaerated digester, wood disk wipe",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of wood disk wipe: micro-aerated digester",
+    "library_name": "zr12237_5",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "9813141",
+    "base_count": "2963568582",
+    "sra_run_bytes": "951086490",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr12237_5_R1.fastq.gz",
+        "size": "741370251",
+        "date": "2023-09-06 13:22:27",
+        "md5": "d2c20e55b6615228e20af3865195fee8",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr12237_5_R2.fastq.gz",
+        "size": "763264204",
+        "date": "2023-09-06 13:22:36",
+        "md5": "20eb68ac815d0566c8bd9d394d10b250",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925557",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925557/SRR25925557",
+        "size": "951088412",
+        "date": "2023-09-06 13:22:55",
+        "md5": "85445a6b557409f6060089b59dceebce",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925557.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925557/SRR25925557.lite.1",
+        "size": "756900132",
+        "date": "2023-09-11 15:23:16",
+        "md5": "e53b98aab3542a30d1326e7947acea64",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:30",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925558",
+    "experiment_accession": "SRX21645254",
+    "sample_accession": "SAMN37298566",
+    "secondary_sample_accession": "SRS18813859",
+    "sample_alias": "FAESRU.JL.16",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digester, wood disk wipe",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2016-11-21",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Anaerobic digester, wood disk wipe",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of wood disk wipe: anaerobic digester",
+    "library_name": "zr12237_4",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "16247040",
+    "base_count": "4906606080",
+    "sra_run_bytes": "1548143322",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr12237_4_R1.fastq.gz",
+        "size": "1160775240",
+        "date": "2023-09-06 13:23:31",
+        "md5": "d1ec15bb317c0d37586803f45bd80b6c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr12237_4_R2.fastq.gz",
+        "size": "1245688560",
+        "date": "2023-09-06 13:23:37",
+        "md5": "868a3a851f7f40159063296195f04d1f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925558",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925558/SRR25925558",
+        "size": "1548145240",
+        "date": "2023-09-06 13:23:52",
+        "md5": "5040571f469398e90ffdbc041a11e3d7",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925558.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925558/SRR25925558.lite.1",
+        "size": "1251365936",
+        "date": "2023-09-11 15:23:24",
+        "md5": "ce34d31daeec603cc6a78339e9eec35c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:30",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925559",
+    "experiment_accession": "SRX21645253",
+    "sample_accession": "SAMN37298565",
+    "secondary_sample_accession": "SRS18813869",
+    "sample_alias": "FAESRU.JL.15",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "poultry litter feed",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-11-27",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Poultry Litter Feed, Week 42",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter feed: week42",
+    "library_name": "zr12237_3",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "43725329",
+    "base_count": "13205049358",
+    "sra_run_bytes": "4158317508",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR25925559.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925559/SRR25925559.lite.1",
+        "size": "3363337294",
+        "date": "2023-09-11 15:24:00",
+        "md5": "f65904de9f1ca0b86aebb70b428e4e7f",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925559",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925559/SRR25925559",
+        "size": "4158319734",
+        "date": "2023-09-06 13:34:36",
+        "md5": "a6c19484332d286d773d54760f6c3f68",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr12237_3_R2.fastq.gz",
+        "size": "3196076407",
+        "date": "2023-09-06 13:33:31",
+        "md5": "94e3dcf4b5086b3ecf55e1b677e3c990",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr12237_3_R1.fastq.gz",
+        "size": "3084252349",
+        "date": "2023-09-06 13:32:53",
+        "md5": "efb8e7d45ddfc550029d27e7cda92c92",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:30",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925560",
+    "experiment_accession": "SRX21645252",
+    "sample_accession": "SAMN37298564",
+    "secondary_sample_accession": "SRS18813865",
+    "sample_alias": "FAESRU.JL.14",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "poultry litter feed",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-07-17",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Poultry Litter Feed, Week 23",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter feed: week23",
+    "library_name": "zr12237_2",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "40952893",
+    "base_count": "12367773686",
+    "sra_run_bytes": "3891603607",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr12237_2_R1.fastq.gz",
+        "size": "2804455664",
+        "date": "2023-09-06 13:35:49",
+        "md5": "bb66a049158d50d07088addf42a6bc69",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr12237_2_R2.fastq.gz",
+        "size": "2785074015",
+        "date": "2023-09-06 13:34:20",
+        "md5": "698b11e59f2a9cf4b66e6f11160b549e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925560",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925560/SRR25925560",
+        "size": "3891605833",
+        "date": "2023-09-06 13:37:18",
+        "md5": "47204f79fe2b9bf674fbb7a37f8ede98",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925560.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925560/SRR25925560.lite.1",
+        "size": "3153949361",
+        "date": "2023-09-11 15:23:44",
+        "md5": "ae09ed62614b772dfc825928a47ffe1a",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:30",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925561",
+    "experiment_accession": "SRX21645251",
+    "sample_accession": "SAMN37298563",
+    "secondary_sample_accession": "SRS18813864",
+    "sample_alias": "FAESRU.JL.13",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "poultry litter feed",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-03-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Poultry Litter Feed, Week 6",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter feed: week6",
+    "library_name": "zr12237_1",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "14464855",
+    "base_count": "4368386210",
+    "sra_run_bytes": "1358874767",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr12237_1_R1.fastq.gz",
+        "size": "1034998326",
+        "date": "2023-09-06 13:23:58",
+        "md5": "f6a5dce5be08c67f7096b6602fd4c4bc",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr12237_1_R2.fastq.gz",
+        "size": "1096840646",
+        "date": "2023-09-06 13:24:12",
+        "md5": "7355e28f8fdb3092c4d32d1380e0b45f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925561",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925561/SRR25925561",
+        "size": "1358876691",
+        "date": "2023-09-06 13:24:38",
+        "md5": "eaef5dbb72af460f1a4d17bce6f4a5a5",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925561.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925561/SRR25925561.lite.1",
+        "size": "1113644163",
+        "date": "2023-09-11 15:23:15",
+        "md5": "2ae5100d6869a28a1e1796b53cba2b7f",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:30",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925562",
+    "experiment_accession": "SRX21645250",
+    "sample_accession": "SAMN37298562",
+    "secondary_sample_accession": "SRS18813860",
+    "sample_alias": "FAESRU.JL.12",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion of poultry litter",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-11-27",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Air, Week 42",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter digestate: air week42",
+    "library_name": "zr8971_12",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "22143311",
+    "base_count": "6687279922",
+    "sra_run_bytes": "2324205561",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr8971_12_R1.fastq.gz",
+        "size": "1687020842",
+        "date": "2023-09-06 13:25:33",
+        "md5": "b797741d5ec3918c6fc829e6e17af737",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr8971_12_R2.fastq.gz",
+        "size": "1586558008",
+        "date": "2023-09-06 13:25:55",
+        "md5": "6605375f9d164beaffe1925b887329cd",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925562",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925562/SRR25925562",
+        "size": "2324207482",
+        "date": "2023-09-06 13:27:01",
+        "md5": "24f58dace7f97c7af0f1e3fdec517f00",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925562.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925562/SRR25925562.lite.1",
+        "size": "1712183590",
+        "date": "2023-09-11 15:24:21",
+        "md5": "419e848124d5686cd950f73bd80f0d8c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:30",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925563",
+    "experiment_accession": "SRX21645249",
+    "sample_accession": "SAMN37298561",
+    "secondary_sample_accession": "SRS18813863",
+    "sample_alias": "FAESRU.JL.11",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion of poultry litter",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-07-17",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Air, Week 23",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter digestate: air week23",
+    "library_name": "zr8971_11",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "7970507",
+    "base_count": "2407093114",
+    "sra_run_bytes": "818630905",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr8971_11_R1.fastq.gz",
+        "size": "583223772",
+        "date": "2023-09-06 13:22:20",
+        "md5": "e5a1b6fe0a679eb71454f12aacebe4d4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr8971_11_R2.fastq.gz",
+        "size": "591331895",
+        "date": "2023-09-06 13:22:24",
+        "md5": "3e88739d5023104e4bb25686ffcb7758",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925563",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925563/SRR25925563",
+        "size": "818632827",
+        "date": "2023-09-06 13:22:37",
+        "md5": "1066581a5edc1c5e135702f80142817a",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925563.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925563/SRR25925563.lite.1",
+        "size": "618234775",
+        "date": "2023-09-11 15:23:15",
+        "md5": "7150ff7e4f2d438b2bc57f35b7adb497",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:30",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925564",
+    "experiment_accession": "SRX21645248",
+    "sample_accession": "SAMN37298552",
+    "secondary_sample_accession": "SRS18813861",
+    "sample_alias": "FAESRU.JL.2",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion of poultry litter",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-07-17",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Control, Week 23",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter digestate: control week23",
+    "library_name": "zr8971_2",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "18427496",
+    "base_count": "5565103792",
+    "sra_run_bytes": "1929563449",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr8971_2_R1.fastq.gz",
+        "size": "1398916829",
+        "date": "2023-09-06 13:24:20",
+        "md5": "86ba531a291d073b3be0e8363fa18f67",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr8971_2_R2.fastq.gz",
+        "size": "1407101568",
+        "date": "2023-09-06 13:24:14",
+        "md5": "05d17e765f9a06a7a8e9253d1156d2a4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925564",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925564/SRR25925564",
+        "size": "1929565368",
+        "date": "2023-09-06 13:24:38",
+        "md5": "08a8d1dbadb9cbc2547f88a70112e5aa",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925564.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925564/SRR25925564.lite.1",
+        "size": "1425780160",
+        "date": "2023-09-11 15:23:09",
+        "md5": "7f870d05368a69c3c13bbfda3eb4d493",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:30",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25925565",
+    "experiment_accession": "SRX21645247",
+    "sample_accession": "SAMN37298551",
+    "secondary_sample_accession": "SRS18813867",
+    "sample_alias": "FAESRU.JL.1",
+    "sample_title": "",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion of poultry litter",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-03-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Kentucky, Bowling Green",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "36.5854 N 86.2640 W",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Control, Week 6",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1013451",
+    "secondary_study_accession": "SRP458764",
+    "study_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+    "study_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+    "study_links": [],
+    "experiment_title": "metagenome of poultry litter digestate: control week6",
+    "library_name": "zr8971_1",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "18441363",
+    "base_count": "5569291626",
+    "sra_run_bytes": "1896476310",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "zr8971_1_R1.fastq.gz",
+        "size": "1378871655",
+        "date": "2023-09-06 13:24:50",
+        "md5": "702820a14b0b1107788ee49a57fbb465",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "zr8971_1_R2.fastq.gz",
+        "size": "1347707860",
+        "date": "2023-09-06 13:25:03",
+        "md5": "4a0d1aa159fa6eca2e1bc77000531141",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925565",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25925565/SRR25925565",
+        "size": "1896478226",
+        "date": "2023-09-06 13:25:34",
+        "md5": "7bbf19f44bc469c102b0eb4e27ec41cb",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25925565.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR025/25925/SRR25925565/SRR25925565.lite.1",
+        "size": "1426775246",
+        "date": "2023-09-11 15:23:25",
+        "md5": "fabba75394adb8e1d47fb72790bf264c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-29 13:05:30",
+    "run_is_public": "true"
+  }
+]

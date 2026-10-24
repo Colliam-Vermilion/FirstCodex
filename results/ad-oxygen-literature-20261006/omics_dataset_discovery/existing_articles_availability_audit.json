@@ -1,0 +1,941 @@
+[
+  {
+    "paper_id": "R07202",
+    "title": "Synergistic association between cytochrome bd-encoded Proteiniphilum and reactive oxygen species (ROS)-scavenging methanogens in microaerobic-anaerobic digestion of lignocellulosic biomass",
+    "year": "2021",
+    "journal": "WATER RESEARCH",
+    "doi": "10.1016/j.watres.2020.116721",
+    "existing_literature_id": "R07202",
+    "newly_discovered_paper": false,
+    "project_accessions": [
+      "PRJNA565588"
+    ],
+    "omics": "宏基因组",
+    "availability_code": 2,
+    "availability": "公开，但日标签/布局不一致，且缺厌氧MG对照",
+    "source_method_evidence_reused": "完整§2.1–2.5（PDF2–3页）：群落DNA建库、HiSeq2000 PE125、Trimmomatic/SPAdes组装、MaxBin分箱、CheckM、Prokka/KEGG/CAZy，确认新产生宏基因组。前篇16S/mcrA与单菌参考基因组比较分开；宏转录组仅未来建议。两个BioSample官方对应公开WGS/RANDOM、bioreactor metagenome，项目PRJNA565588。",
+    "oxygen_supply": "ORP基线以上+25 mV间歇供氧，每隔一天；Rep1 −470 mV、Rep2 −450 mV",
+    "substrate": "Napier grass（象草，木质纤维素）",
+    "treatment_control": "同底物/接种/运行的3次独立重复；仅Rep1/Rep2微氧稳态样本用于宏基因组；Rep3 DNA降解未测；本篇无厌氧对照宏基因组",
+    "sequencing_sample_count_as_reported": "2个微氧稳态样本（Rep1、Rep2）；文中3次独立反应器重复，仅2个通过DNA质量标准",
+    "biological_replicates_as_reported": "反应器三次独立重复；宏基因组两次重复各1样本，Rep3未测",
+    "platform_as_reported": "文中HiSeq2000 PE125；官方HiSeq2000但标SINGLE，布局/长度差异待核对",
+    "evidence_ids": [
+      "R07202-E01",
+      "R07202-E02",
+      "R07202-E03",
+      "R07202-E04"
+    ],
+    "source_locations": "全文PDF1–11页；完整方法PDF2–3；Table1 PDF4；讨论/展望PDF9–10；DOCX全部114段落；XLSX表头、功能表及全部编号/数据声明定位",
+    "statements_with_locations": [
+      {
+        "evidence_id": "R07202-E03",
+        "record_id": "R07202",
+        "evidence_kind": "数据声明",
+        "source_path": "original_files/R07202/fulltext/fulltext__published__7663ffc3d7b30f70.pdf",
+        "source_sha256": "7663ffc3d7b30f701edee0fd4bfd7908d2eace9e7365540d6c9402e8b9b9e10a",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B006",
+        "pdf_pages": [
+          3
+        ],
+        "section": "2.5 Data availability",
+        "excerpt": "The metagenome sequencing reads have been submitted to \nthe NCBI’s Sequence Read Archive under accession numbers \nSAMN13634953 to SAMN13634954. Draft genomes obtained \nin this study have been deposited in NCBI’s Whole Genome \nShotgun database under accession numbers JADLKJ0 0 0 0 0 0 0 0 0 \nto JADLKP0 0 0 0 0 0 0 0 0. Their functional annotations have fur- \nther been deposited at the FigShare Online Database ( https:// \nﬁgshare.com/articles/dataset/Microaerobic _ digestion _ genome _ \nannotation/13270487 ). All other relevant data are available in the \nsupporting information.",
+        "interpretation": "SAMN为BioSample不是项目号；另有7个MAG WGS主记录及Figshare功能注释。"
+      }
+    ],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R08462",
+    "title": "Upgrade the high-load anaerobic digestion and relieve acid stress through the strategy of side-stream micro-aeration: biochemical performances, microbial response and intrinsic mechanisms",
+    "year": "2022",
+    "journal": "WATER RESEARCH",
+    "doi": "10.1016/j.watres.2022.118850",
+    "existing_literature_id": "R08462",
+    "newly_discovered_paper": false,
+    "project_accessions": [],
+    "omics": "宏基因组",
+    "availability_code": 5,
+    "availability": "仅泛指数据可索取；是否包含raw reads未明确",
+    "source_method_evidence_reused": "完整§2.1–2.4（PDF2–3页），其中§2.3.2为16S/qPCR，§2.3.3另行对群落DNA超声打断约400bp、NEXTflex Rapid DNA-Seq建库及NovaSeq/Hiseq Xten测序，确认新产生宏基因组。全文/SI未定位存储编号；PDF12仅泛指数据可索取，不能认定包括reads。",
+    "oxygen_supply": "旁流反应器0.7 L，20 mL空气/d（0.03 L/L/d），35±1°C",
+    "substrate": "模拟食物废物（米饭/白菜/猪肉/豆腐）",
+    "treatment_control": "SMA、无曝气SD及直接曝气DMA；组学关注SMA stageIII供氧前与IV供氧后，OLR5.0 gVS/L/d",
+    "sequencing_sample_count_as_reported": "SMA供氧前/后两个时间条件；具体独立测序样本总数未报告",
+    "biological_replicates_as_reported": "反应器及实验三重复；宏基因组独立生物重复未明确",
+    "platform_as_reported": "文中Illumina NovaSeq/Hiseq Xten；具体型号未唯一明确",
+    "evidence_ids": [
+      "R08462-E01",
+      "R08462-E02",
+      "R08462-E03"
+    ],
+    "source_locations": "全文PDF1–13页全部相关方法/数据位置；方法PDF2–3；组学结果PDF9–11；数据声明PDF12；题名匹配DOCX181段落；候选XLSX6工作表全部编号/数据声明定位及表头",
+    "statements_with_locations": [
+      {
+        "evidence_id": "R08462-E02",
+        "record_id": "R08462",
+        "evidence_kind": "数据声明",
+        "source_path": "original_files/R08462/fulltext/fulltext__published__d5f9765b6923adab.pdf",
+        "source_sha256": "d5f9765b6923adabfda081bf961d137fce46a2bf28f96d02a6a243341fe01e1c",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B006",
+        "pdf_pages": [
+          12
+        ],
+        "section": "Data availability",
+        "excerpt": "Data will be made available on request.",
+        "interpretation": "泛指数据可索取；没有明确raw reads/metagenomic data，不标状态4。"
+      }
+    ],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R09236",
+    "title": "Microbiome Diversity of Anaerobic Digesters Is Enhanced by Microaeration and Low Frequency Sound",
+    "year": "2023",
+    "journal": "Microorganisms",
+    "doi": "10.3390/microorganisms11092349",
+    "existing_literature_id": "R09236",
+    "newly_discovered_paper": false,
+    "project_accessions": [
+      "PRJNA1013451"
+    ],
+    "omics": "宏基因组",
+    "availability_code": 1,
+    "availability": "公开且处理—样本对应明确",
+    "source_method_evidence_reused": "完整§2.1–2.4（PDF3–4页）明确Shotgun Metagenomic Sequencing Service、群落DNA/Illumina DNA Library Prep、NovaSeq、Centrifuge及HUMAnN2，确认新产生宏基因组。正文PDF17列PRJNA1013451及21BioSample；NCBI21实验均公开WGS/RANDOM/bioreactor相关，12个主比较与9个其他样本分开。",
+    "oxygen_supply": "每日四次200 mL空气；1 kHz低频声单独/联用，26.7°C",
+    "substrate": "禽畜垫料（poultry litter）",
+    "treatment_control": "CON/SND/MAT/MST四消化器；week6全部尚未处理，week23/42为处理后；另进料/初始/表面擦拭样本单列",
+    "sequencing_sample_count_as_reported": "正文核心比较12样本（4消化器×3时间），项目21BioSample含9其他样本；分开记录",
+    "biological_replicates_as_reported": "每处理1个消化器、三个纵向时间点；无独立处理反应器生物重复，化学测量重复不混作测序重复",
+    "platform_as_reported": "Illumina NovaSeq；官方NovaSeq6000，PAIRED",
+    "evidence_ids": [
+      "R09236-E01",
+      "R09236-E02",
+      "R09236-E03"
+    ],
+    "source_locations": "全文PDF1–20页；方法PDF3–4；样本量PDF6；数据声明PDF17；ZIP成员Sample key.xlsx五表，键区逐项核查并检索全部编号",
+    "statements_with_locations": [
+      {
+        "evidence_id": "R09236-E02",
+        "record_id": "R09236",
+        "evidence_kind": "数据声明",
+        "source_path": "original_files/R09236/fulltext/fulltext__published__7891c46f856f19ac.pdf",
+        "source_sha256": "7891c46f856f19ac1a4243d30689af993f9b11046045a0230b8c6c1c65522eb9",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B006",
+        "pdf_pages": [
+          17
+        ],
+        "section": "Data Availability Statement",
+        "excerpt": "Sequence\ndata were deposited into National Center for Biotechnology Information (NCBI) under Sequence\nRead Archive (SRA) and can be accessed by the BioProject ID: PRJNA1013451 with the following\nBioSample Accession numbers: SAMN37298551, SAMN37298552, SAMN37298553, SAMN37298554,\nSAMN37298555, SAMN37298556, SAMN37298557, SAMN37298558, SAMN37298559, SAMN37298560,\nSAMN37298561, SAMN37298562, SAMN37298563, SAMN37298564, SAMN37298565, SAMN37298566,\nSAMN37298567, SAMN37298568, SAMN37298569, SAMN37298570, SAMN37298571.",
+        "interpretation": "项目与21BioSample分层保存，不能把21样本计成21项目。"
+      }
+    ],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R10163",
+    "title": "Enhanced anaerobic digestion performance and sludge filterability by membrane microaeration for anaerobic membrane bioreactor application",
+    "year": "2024",
+    "journal": "BIORESOURCE TECHNOLOGY",
+    "doi": "10.1016/j.biortech.2024.130787",
+    "existing_literature_id": "R10163",
+    "newly_discovered_paper": false,
+    "project_accessions": [
+      "PRJNA1086167"
+    ],
+    "omics": "宏基因组",
+    "availability_code": 2,
+    "availability": "公开但分组/元数据存在冲突",
+    "source_method_evidence_reused": "完整§2.1–2.5（PDF2–4页）明确群落DNA超声打断约400bp、NEXTflex DNA-Seq建库和NovaSeq/Hiseq，确认宏基因组。PDF8给出SRR28311681/682/683而数据声明泛指可索取。官方3run公开、来源sludge metagenome、策略OTHER、平台MiSeq，归PRJNA1086167；原文Blank/Starch/Peptone顺序与官方protein/starch/blank文库名存在错位，不能强行对应。",
+    "oxygen_supply": "膜微曝气ORP −150至−100mV，20–22°C",
+    "substrate": "不溶淀粉/可溶蛋白胨",
+    "treatment_control": "Sludge-Blank初始污泥、Sludge-Starch微曝气AD2末、Sludge-Peptone微曝气AD5末；顺序批次非独立平行对照",
+    "sequencing_sample_count_as_reported": "3样本（初始、淀粉微曝气、蛋白胨微曝气）",
+    "biological_replicates_as_reported": "组学各条件1个样本；未报告独立生物重复",
+    "platform_as_reported": "文中NovaSeq/Hiseq Xten；官方MiSeq/OTHER/PAIRED，平台差异待复核",
+    "evidence_ids": [
+      "R10163-E01",
+      "R10163-E02",
+      "R10163-E03"
+    ],
+    "source_locations": "全文PDF1–11；完整方法PDF2–4；run及映射PDF8；数据声明PDF10；题名匹配DOCX89段落/图表",
+    "statements_with_locations": [
+      {
+        "evidence_id": "R10163-E03",
+        "record_id": "R10163",
+        "evidence_kind": "数据声明",
+        "source_path": "original_files/R10163/fulltext/fulltext__published__1e165f6b6e3dc27b.pdf",
+        "source_sha256": "1e165f6b6e3dc27bc22e89751f51737b0979aa2b6a4c000db02641ab59e7b37b",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B006",
+        "pdf_pages": [
+          10
+        ],
+        "section": "Data availability",
+        "excerpt": "Data will be made available on request.",
+        "interpretation": "泛指索取声明与正文公开编号并存，仍核对全部相关位置。"
+      }
+    ],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R10492",
+    "title": "Metagenomic analysis reveals metabolic mechanism of enhancing lignocellulosic anaerobic digestion mediated by CO2/O2-nanobubble water",
+    "year": "2024",
+    "journal": "BIORESOURCE TECHNOLOGY",
+    "doi": "10.1016/j.biortech.2024.131622",
+    "existing_literature_id": "R10492",
+    "newly_discovered_paper": false,
+    "project_accessions": [
+      "PRJNA1128434"
+    ],
+    "omics": "宏基因组",
+    "availability_code": 2,
+    "availability": "公开但处理映射需补充",
+    "source_method_evidence_reused": "完整§2.1–2.5（PDF2–4页）明确16S PCR/MiSeq，另DNA打断400bp、NEXTFLEX DNA-Seq/NovaSeq、Fastp/Diamond-KEGG。PRJNA1128434官方含3个Met实验OTHER/METAGENOMIC与6个AMPLICON实验，全部公开；仅3个Met run计目标，A/B/C处理映射未从排序推断。",
+    "oxygen_supply": "O2-NW/CO2-NW及DW对照，37±2°C",
+    "substrate": "稻草",
+    "treatment_control": "DW/CO2NW/O2NW三条件，day30采样；官方A30/B30/C30尚不能唯一对应处理名",
+    "sequencing_sample_count_as_reported": "官方3BioSample×3测序类型＝9实验/run；其中3 Met实验为目标，6为16S扩增子",
+    "biological_replicates_as_reported": "AD三重复；官方每条件仅1个BioSample，是否混样未说明，不推定3个组学生物重复",
+    "platform_as_reported": "文中MiSeq用于16S、NovaSeq用于宏基因组；官方Met实验HiSeq2000/OTHER，保留平台/策略差异",
+    "evidence_ids": [
+      "R10492-E01"
+    ],
+    "source_locations": "全文PDF1–20页相关方法/数据位置；完整方法PDF2–4；项目号PDF4；无独立SI原件",
+    "statements_with_locations": [],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R10605",
+    "title": "Non-targeted facilitation of primary sludge anaerobic fermentation by micro-aeration and the simultaneous nutrients transformations",
+    "year": "2024",
+    "journal": "Chemical Engineering Journal",
+    "doi": "10.1016/j.cej.2024.151930",
+    "existing_literature_id": "R10605",
+    "newly_discovered_paper": false,
+    "project_accessions": [],
+    "omics": "宏基因组",
+    "availability_code": 5,
+    "availability": "仅泛指数据可索取；是否包含raw reads未明确",
+    "source_method_evidence_reused": "完整§2.1–2.5（PDF2页）明确群落DNA打断400bp、NEXTFLEX DNA-Seq、Illumina NovaSeq试剂测序，确认新产生宏基因组。SI TextS3的RT-qPCR明确是real-time quantitative PCR，不是群落RNA-seq；TextS4另为16S。全文及SI未找到可归属编号；PDF11只泛指数据可索取。",
+    "oxygen_supply": "文中0.001 vvm（并写4 mL/min，保留原值），37°C半连续CSTR",
+    "substrate": "初沉污泥",
+    "treatment_control": "无曝气与微曝气；day30取半连续污泥用于宏基因组/qPCR",
+    "sequencing_sample_count_as_reported": "day30控制/微曝气条件；独立测序样本总数未明确报告",
+    "biological_replicates_as_reported": "具体组学独立生物重复未报告",
+    "platform_as_reported": "Illumina NovaSeq Reagent Kits（DNA-Seq）",
+    "evidence_ids": [
+      "R10605-E01",
+      "R10605-E02",
+      "R10605-E03"
+    ],
+    "source_locations": "全文PDF1–12；完整方法PDF2；数据声明PDF11；题名匹配DOCX275段落，全部补方法TextS1–S4/引物表及数据声明定位",
+    "statements_with_locations": [
+      {
+        "evidence_id": "R10605-E02",
+        "record_id": "R10605",
+        "evidence_kind": "数据声明",
+        "source_path": "original_files/R10605/fulltext/fulltext__published__ce70e58c92e62619.pdf",
+        "source_sha256": "ce70e58c92e626194b520d643587503037c69df49edd863db8a2a6d7fa67baea",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B006",
+        "pdf_pages": [
+          11
+        ],
+        "section": "Data availability",
+        "excerpt": "Data will be made available on request.",
+        "interpretation": "泛指可索取不等同明确相关reads可索取。"
+      }
+    ],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R10819",
+    "title": "Study on synergistic effect of carrier combined with micro-aeration on anaerobic digestion of food waste",
+    "year": "2024",
+    "journal": "Chemical Engineering Journal",
+    "doi": "10.1016/j.cej.2024.155731",
+    "existing_literature_id": "R10819",
+    "newly_discovered_paper": false,
+    "project_accessions": [],
+    "omics": "宏基因组",
+    "availability_code": 5,
+    "availability": "仅泛指数据可索取；是否包含raw reads未明确",
+    "source_method_evidence_reused": "完整§2.1–2.5 PDF2–3；群落DNA打断400bp、NEXTFLEX DNA-Seq、PE/NovaSeq/Hiseq、MEGAHIT/MetaGene/CD-HIT，确认新产生宏基因组。全文及题名匹配SI无存储编号；PDF11仅泛指数据可索取。",
+    "oxygen_supply": "0.7 L反应器，日进料后5 mL空气，ORP增加30–50mV，35±1°C",
+    "substrate": "模拟食物废物",
+    "treatment_control": "聚氨酯填充D0/D10/D20/D30，后阶段微曝气；组学比较D0/D20前后；正文采样写StageII/III但运行仅列I/II，阶段命名歧义保留",
+    "sequencing_sample_count_as_reported": "D0/D20供氧前后；独立测序样本总数未明确报告",
+    "biological_replicates_as_reported": "理化n=3，不据此推定独立宏基因组生物重复",
+    "platform_as_reported": "Illumina NovaSeq/Hiseq Xten；PE NEXTFLEX Rapid DNA-Seq",
+    "evidence_ids": [
+      "R10819-E01",
+      "R10819-E02"
+    ],
+    "source_locations": "完整方法PDF2–3；全部相关组学结果/数据声明PDF8–11；DOCX1078段落补方法TextS1–S3/表S3–S5/所有编号位置",
+    "statements_with_locations": [
+      {
+        "evidence_id": "R10819-E02",
+        "record_id": "R10819",
+        "evidence_kind": "数据声明",
+        "source_path": "original_files/R10819/fulltext/fulltext__published__1a0f26d4c217458e.pdf",
+        "source_sha256": "1a0f26d4c217458e95c9175c1faa79f97c73629ebd1c18e65a4c6b71a106c1ca",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B007",
+        "pdf_pages": [
+          11
+        ],
+        "section": "Data availability",
+        "excerpt": "Data availability\nData will be made available on request.",
+        "interpretation": "泛指可索取，不明确包含原始测序数据。"
+      }
+    ],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R11724",
+    "title": "Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation",
+    "year": "2025",
+    "journal": "Chemical Engineering Journal",
+    "doi": "10.1016/j.cej.2025.166500",
+    "existing_literature_id": "R11724",
+    "newly_discovered_paper": false,
+    "project_accessions": [
+      "PRJNA1287080"
+    ],
+    "omics": "宏基因组",
+    "availability_code": 1,
+    "availability": "公开且处理—样本对应明确",
+    "source_method_evidence_reused": "完整§2.1–2.5 PDF2–3分别说明16S靶基因扩增与总DNA另行建库NovaSeq6000/MEGAHIT/ORF/Linclust/KEGG/CAZyme，确认新产生宏基因组。文中将16S和MG共同归PRJNA1287080，需官方分策略。 官方确认10实验/run公开：R1-M与R4-M为OTHER/METAGENOMIC/NovaSeq6000，8个AMPLICON排除；目标SRR34383440/441。",
+    "oxygen_supply": "每天0/5/10/20mL空气；37°C，40d批次",
+    "substrate": "玉米秸秆＋剩余活性污泥；牛粪/污泥厨余消化接种",
+    "treatment_control": "R1无空气、R2/3/4递增空气；宏基因组结果重点R1/R4",
+    "sequencing_sample_count_as_reported": "官方2个MG BioSample/2run（R1-M、R4-M）＋4个扩增子BioSample/8run；总10实验/run",
+    "biological_replicates_as_reported": "每条件3反应器；不推定等于每组3宏基因组样本",
+    "platform_as_reported": "宏基因组NovaSeq6000；16S Hiseq2000，分别记录",
+    "evidence_ids": [
+      "R11724-E01",
+      "R11724-E02"
+    ],
+    "source_locations": "完整方法PDF2–3；MG结果PDF6–7；数据声明PDF8；候选DOCX34段落表S1及全部编号位置",
+    "statements_with_locations": [],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R11751",
+    "title": "Intermittent Microaeration Enhanced Anaerobic Digestion: The Key Role of Fe(III)/Fe(II) Cycle and Reactive Oxygen Species",
+    "year": "2025",
+    "journal": "ENVIRONMENTAL SCIENCE & TECHNOLOGY",
+    "doi": "10.1021/acs.est.5c04187",
+    "existing_literature_id": "R11751",
+    "newly_discovered_paper": false,
+    "project_accessions": [],
+    "omics": "宏基因组",
+    "availability_code": null,
+    "availability": "待确认：目标测序方法已确认，未定位目标reads编号或相关数据声明",
+    "source_method_evidence_reused": "完整§2.1–2.6 PDF2–3委托SI TextS4。SI PDF6明确总DNA随机超声片段建库、HiSeq2500、MEGAHIT/Prodigal/mmseqs，确认MG。正文11页及SI19页全部编号/数据位置未找到项目或相关原始测序声明。",
+    "oxygen_supply": "14mL O2/Lreactor/d，每3h曝气30min，33±1°C",
+    "substrate": "合成葡萄糖废水逐步替换苯酚，含15mM ferrihydrite",
+    "treatment_control": "两UASB，IMA间歇微曝气与同周期N2对照，124d末取样",
+    "sequencing_sample_count_as_reported": "SI FigS4（PDF17）PCoA显示A1–A3/B1–B3六点；是否6个独立建库、提取重复或测量重复未说明",
+    "biological_replicates_as_reported": "两处理各1反应器；FigS4三点/组的重复层级不明，不能推定独立反应器生物重复",
+    "platform_as_reported": "Illumina HiSeq2500；超声随机DNA片段建库",
+    "evidence_ids": [
+      "R11751-E01",
+      "R11751-E02"
+    ],
+    "source_locations": "完整方法PDF2–3；全文相关组学结果与末页；SI PDF1身份、完整TextS1–S5 PDF2–7、表图PDF8–17及参考18–19",
+    "statements_with_locations": [],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R12127",
+    "title": "Reactive oxygen species generation induced by coupling Phanerochaete chrysosporium with intermittent micro-aeration to enhance methane production",
+    "year": "2025",
+    "journal": "Chemical Engineering Journal",
+    "doi": "10.1016/j.cej.2025.166351",
+    "existing_literature_id": "R12127",
+    "newly_discovered_paper": false,
+    "project_accessions": [],
+    "omics": "宏基因组",
+    "availability_code": 5,
+    "availability": "仅泛指数据可索取；是否包含raw reads未明确",
+    "source_method_evidence_reused": "完整§2.1–2.5 PDF2–3及SI TextS7：真菌ITS PCR与群落DNA组学分开；总DNA加0.1%内标、Covaris打断、连接文库/NovaSeq6000PE150，明确MG。随机合成9条内标序列不是9个样本。全文及SI未找到编号，PDF8泛指可索取。",
+    "oxygen_supply": "37°C，阶段1/2每天20mL空气，阶段3每天40mL",
+    "substrate": "牛粪；含10mM ferrihydrite及P.chrysosporium/灭活菌丝",
+    "treatment_control": "Control/IMA/IMA-P；各3平行，3×36d阶段；终点108d MG",
+    "sequencing_sample_count_as_reported": "操作终点各条件5mL污泥；独立宏基因组样本总数未报告",
+    "biological_replicates_as_reported": "各条件3反应器；是否每个独立送测/混样未说明",
+    "platform_as_reported": "NovaSeq6000 PE150，500–600bp DNA文库；ITS另为HiSeq2000",
+    "evidence_ids": [
+      "R12127-E01",
+      "R12127-E02"
+    ],
+    "source_locations": "完整方法PDF2–3；组学结果PDF7–8；DOCX255段落全部补方法TextS1–S7尤其55–59及编号/数据声明位置",
+    "statements_with_locations": [
+      {
+        "evidence_id": "R12127-E02",
+        "record_id": "R12127",
+        "evidence_kind": "数据声明",
+        "source_path": "original_files/R12127/fulltext/fulltext__published__14faeda50fcb9432.pdf",
+        "source_sha256": "14faeda50fcb94320d7fec5c7a1d112c73ece0235fb40ef9f26accb3f45fcea1",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B007",
+        "pdf_pages": [
+          8
+        ],
+        "section": "Data availability",
+        "excerpt": "Data availability\nData will be made available on request.",
+        "interpretation": "泛指声明，未明确reads可索取。"
+      }
+    ],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R12509",
+    "title": "A mechanism-guided, low-input Lactiplantibacillus plantarum strategy for attenuating antibiotic resistomes under oxygen re-entry during anaerobic fermentation",
+    "year": "2026",
+    "journal": "Chemical Engineering Journal",
+    "doi": "10.1016/j.cej.2026.178822",
+    "existing_literature_id": "R12509",
+    "newly_discovered_paper": false,
+    "project_accessions": [],
+    "omics": "宏基因组",
+    "availability_code": 5,
+    "availability": "仅泛指数据可索取；是否包含raw reads未明确",
+    "source_method_evidence_reused": "完整§2.1–2.4 PDF2–4，CTAB提取群落DNA、Covaris350bp随机打断、接头连接/PE150、MEGAHIT/MetaGeneMark/NR/CARD，确认MG。纯菌partial16S鉴定不是主测序；无可归属MG编号，PDF12泛指可索取。",
+    "oxygen_supply": "60d厌氧青贮后25°C空气复入0/3/6/9d",
+    "substrate": "cattail青贮；沿用原研究范围分类，不另改为AD排除",
+    "treatment_control": "CK/L.brevis/L.plantarum/混合4处理×4时间×3重复",
+    "sequencing_sample_count_as_reported": "设计48样本（4×4×3）；原文写用于后续分析，实际送测数与公开项目未独立证实",
+    "biological_replicates_as_reported": "实验每处理/时间3重复；缺公开样本表逐项核对",
+    "platform_as_reported": "Illumina PE150；Covaris350bp随机打断/接头连接",
+    "evidence_ids": [
+      "R12509-E01",
+      "R12509-E02"
+    ],
+    "source_locations": "完整方法PDF2–4；全部组学/数据声明相关位置PDF7–12；候选DOCX133段落及两条参考序列上下文",
+    "statements_with_locations": [
+      {
+        "evidence_id": "R12509-E02",
+        "record_id": "R12509",
+        "evidence_kind": "数据声明",
+        "source_path": "original_files/R12509/fulltext/fulltext__published__8c04deeda2dde15d.pdf",
+        "source_sha256": "8c04deeda2dde15d24c86df5fafff28420f8a8a4bbb295b1b7aae5dbf72d9dc9",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B007",
+        "pdf_pages": [
+          12
+        ],
+        "section": "Data availability",
+        "excerpt": "Data availability\nData will be made available on request.",
+        "interpretation": "泛指可索取，原始reads是否包含未明确。"
+      }
+    ],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R12562",
+    "title": "Air nanobubble effectively enhances tetracycline degradation and antibiotic resistance genes reduction in sludge anaerobic digestion",
+    "year": "2026",
+    "journal": "BIORESOURCE TECHNOLOGY",
+    "doi": "10.1016/j.biortech.2026.134703",
+    "existing_literature_id": "R12562",
+    "newly_discovered_paper": false,
+    "project_accessions": [
+      "PRJNA1369098"
+    ],
+    "omics": "宏基因组",
+    "availability_code": 3,
+    "availability": "文中有编号，公开/访问状态未核实",
+    "source_method_evidence_reused": "完整§2.1–2.5 PDF2–3，NovaSeq6000PE150、逐样本de novo组装/CDS/NR_meta/ARGs-OAP3。16S count模块是宏基因组归一化，并非仅16S测序。PRJNA1369098待官方核验。 官方SRA及BioProject均count0，保留文中编号及状态2；不推断未公开/不存在。",
+    "oxygen_supply": "空气纳米气泡水对DW，35±1°C，38d",
+    "substrate": "脱水污泥＋0/2/20mg/L四环素",
+    "treatment_control": "C0/C2/C20与A0/A2/A20；day0/4/17/38采样",
+    "sequencing_sample_count_as_reported": "6处理与day0/4/17/38；实际送测总数待官方样本核查，不机械相乘",
+    "biological_replicates_as_reported": "各实验三平行；组学独立送样/混样未明确",
+    "platform_as_reported": "Illumina NovaSeq6000 PE150",
+    "evidence_ids": [
+      "R12562-E01",
+      "R12562-E02"
+    ],
+    "source_locations": "完整方法PDF2–3；全文组学与数据位置；题名匹配DOCX174段落表头/图注/编号",
+    "statements_with_locations": [],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R12985",
+    "title": "Evaluation of Anaerobic Digestion Amended with Micro-Aeration and/or Sound Treatment on the Resistome and Virulence Factor Gene Profiles in Poultry Litter",
+    "year": "2026",
+    "journal": "Antibiotics",
+    "doi": "10.3390/antibiotics15020153",
+    "existing_literature_id": "R12985",
+    "newly_discovered_paper": false,
+    "project_accessions": [
+      "PRJNA1013451"
+    ],
+    "omics": "宏基因组",
+    "availability_code": 1,
+    "availability": "公开且处理—样本对应明确",
+    "source_method_evidence_reused": "完整§4.1–4.3 PDF18–19，群落DNA shotgun/NovaSeq/ARG与VFG分析；本文与前作R09236同PRJNA1013451及全部21BioSample，属于既有数据再分析，不计新独立数据集。方法叙述含采集/测序不据此重复统计新产生。 本批官方重新确认同21个WGS/RANDOM/PAIRED/NovaSeq6000实验/run公开，无新增独立项目。",
+    "oxygen_supply": "四208L消化器，微曝气200mL空气每24h四等间隔；声1kHz",
+    "substrate": "禽畜垫料/木屑，另进料/初始消化液/木片擦拭样本",
+    "treatment_control": "CON/MAT/SND/MST，week6未处理baseline、week23/42处理；同R09236实验与同21BioSample",
+    "sequencing_sample_count_as_reported": "21样本；核心4消化器×3时间12，另9进料/初始/木片；与R09236完全同BioSample集合",
+    "biological_replicates_as_reported": "每处理1消化器；论文明确缺生物重复，纵向时间不当独立重复",
+    "platform_as_reported": "Illumina NovaSeq；DNA MagBead/Illumina DNA library prep/Nextera接头",
+    "evidence_ids": [
+      "R12985-E01",
+      "R12985-E02",
+      "R12985-E03"
+    ],
+    "source_locations": "完整方法PDF18–19；数据声明PDF21；同项目21BioSample逐项与R09236比较；ZIP4个既有派生XLSX所有编号/表头/样本列核查",
+    "statements_with_locations": [],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "既有公开数据复用"
+  },
+  {
+    "paper_id": "R13086",
+    "title": "Hydrodynamic regulation drives azo dye transformation and hydrolysis acidification by reshaping microbial metabolism in the micro-aerobic hydrolysis acidification reactor",
+    "year": "2026",
+    "journal": "JOURNAL OF HAZARDOUS MATERIALS",
+    "doi": "10.1016/j.jhazmat.2026.143745",
+    "existing_literature_id": "R13086",
+    "newly_discovered_paper": false,
+    "project_accessions": [],
+    "omics": "宏基因组",
+    "availability_code": 5,
+    "availability": "仅泛指数据可索取；是否包含raw reads未明确",
+    "source_method_evidence_reused": "完整§2.1–2.9 PDF2–5；多位置生物膜混样、总DNA片段化/PE建库/Illumina、MEGAHIT/Prodigal/基因目录，确认MG；LCMS代谢组非RNAseq。全文和题名匹配SI未见编号，PDF13泛指可索取。",
+    "oxygen_supply": "DO0.1–0.3mg/L，曝气0.6m3/(h m3)，室温",
+    "substrate": "合成染料废水（AcidRedGR/PVA/PEG等）",
+    "treatment_control": "R1–R4搅拌100/120/140/160rad/min；30%聚氨酯载体",
+    "sequencing_sample_count_as_reported": "4个混合生物膜样本，每条件1个多位置复合样本",
+    "biological_replicates_as_reported": "明确每条件一个复合组学样本；多位置混合不是独立生物重复",
+    "platform_as_reported": "Illumina PE，具体型号/读长未报告；Personalbio",
+    "evidence_ids": [
+      "R13086-E01",
+      "R13086-E02"
+    ],
+    "source_locations": "完整方法PDF2–5；全文相关组学/数据声明位置；DOCX284段落表头/图注/CFD方法及编号",
+    "statements_with_locations": [
+      {
+        "evidence_id": "R13086-E02",
+        "record_id": "R13086",
+        "evidence_kind": "数据声明",
+        "source_path": "original_files/R13086/fulltext/fulltext__published__ebdb6762b8ec6d74.pdf",
+        "source_sha256": "ebdb6762b8ec6d740707d64423781212e0c6f83e19caf005f82db113608e644b",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B007",
+        "pdf_pages": [
+          13
+        ],
+        "section": "Data availability",
+        "excerpt": "Data availability\nData will be made available on request.",
+        "interpretation": "泛指数据可索取，是否含reads未说明。"
+      }
+    ],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R13274",
+    "title": "Micro-aeration enhances lactic acid production in food waste fermentation",
+    "year": "2026",
+    "journal": "BIORESOURCE TECHNOLOGY",
+    "doi": "10.1016/j.biortech.2025.133807",
+    "existing_literature_id": "R13274",
+    "newly_discovered_paper": false,
+    "project_accessions": [],
+    "omics": "宏转录组",
+    "availability_code": 4,
+    "availability": "明确raw metatranscriptomic reads可索取；无公开编号，需用途说明/数据协议，未代联系",
+    "source_method_evidence_reused": "完整§2.1–2.6 PDF2–4；发酵混合群落总RNA提取、MixedBacterial去rRNA、RNA文库/NovaSeq6000PE150、SortMeRNA/SalmonTPM，明确群落宏转录组。16S/ITS DNA扩增子另列，不当宏基因组。PDF11明确rawmetatranscriptomicsequencingdata可向通讯作者合理索取，需用途说明/签数据协议；无公开编号。",
+    "oxygen_supply": "35±1°C，空气0/5/15/40mL/min，HRT3d，22d半连续",
+    "substrate": "模拟食物废物（狗粮:白米1:1）乳酸发酵",
+    "treatment_control": "A0/A5/A15/A40；重点宏转录组比较A0与A15",
+    "sequencing_sample_count_as_reported": "末日稳态各条件样本，重点A0/A15；独立送测总数未明确",
+    "biological_replicates_as_reported": "每条件1反应器；独立宏转录组重复未报告",
+    "platform_as_reported": "NovaSeq6000 PE150；StrandedmRNA/混合细菌RiboCop去rRNA；16S/ITS MiSeq另列",
+    "evidence_ids": [
+      "R13274-E01",
+      "R13274-E02"
+    ],
+    "source_locations": "完整方法PDF2–4；MT结果PDF5–10；完整数据声明PDF11；候选XLSX676非空单元格/工作表/编号核查",
+    "statements_with_locations": [
+      {
+        "evidence_id": "R13274-E02",
+        "record_id": "R13274",
+        "evidence_kind": "相关测序数据可索取",
+        "source_path": "original_files/R13274/fulltext/fulltext__published__a01e60567ddc9a8f.pdf",
+        "source_sha256": "a01e60567ddc9a8f833e3e4d2af079ab1bfb52380a79226a3cb7fe8384e2ad63",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B007",
+        "pdf_pages": [
+          11
+        ],
+        "section": "Data availability",
+        "excerpt": "Data availability\nThe datasets supporting this study—including the physicochemical \nproperties of fermentation substrates and samples, raw 16S/ITS ampli­\ncon sequencing data, and raw metatranscriptomic sequencing data—are \navailable from the corresponding author upon reasonable request. Re­\nquests must include a brief description of the intended research purpose, \nand a signed data usage agreement (which will be provided by the au­\nthors) is required to ensure compliance with the confidentiality obli­\ngations of our collaborating institution.",
+        "interpretation": "明确包括rawmetatranscriptomicsequencingdata；用途说明+数据协议条件原样保留，未联系作者，不标公开下载。"
+      }
+    ],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R13671",
+    "title": "Synchronously enhanced methanogenesis performance and reduced antibiotic resistance genes of cattle manure anaerobic digestion by air nanobubble water",
+    "year": "2026",
+    "journal": "BIORESOURCE TECHNOLOGY",
+    "doi": "10.1016/j.biortech.2026.134704",
+    "existing_literature_id": "R13671",
+    "newly_discovered_paper": false,
+    "project_accessions": [
+      "PRJNA1447957"
+    ],
+    "omics": "宏基因组",
+    "availability_code": 2,
+    "availability": "公开但处理代号映射需补充",
+    "source_method_evidence_reused": "正文§2.1–2.5 PDF2–3与已核实SI MethodsS1段38：群落DNA PE NovaSeq6000、MEGAHIT/MetaGeneMark/CD-HIT/NR_meta/ARG-OAP，实际宏基因组；gene expression措辞未见RNA建库，不计MT。",
+    "oxygen_supply": "空气纳米气泡水；对照蒸馏水",
+    "substrate": "牛粪＋厌氧预消化污泥",
+    "treatment_control": "37±1℃ MN/MD；25±1℃ PN/PD；49天",
+    "sequencing_sample_count_as_reported": "官方12个WGS实验/run（12个BioSample）；另2扩增子项目各24实验排除",
+    "biological_replicates_as_reported": "每条件3平行反应器；未确认各自独立测序",
+    "platform_as_reported": "Illumina NovaSeq6000（MG）；PE250（16S）",
+    "evidence_ids": [
+      "R13671-E01",
+      "R13671-E02",
+      "R13671-E03"
+    ],
+    "source_locations": "完整方法PDF2–3；全部正文9页目标/编号/声明；SI全部210段",
+    "statements_with_locations": [
+      {
+        "evidence_id": "R13671-E03",
+        "record_id": "R13671",
+        "evidence_kind": "数据声明",
+        "source_path": "original_files/R13671/fulltext/fulltext__published__7c2c100619417848.pdf",
+        "source_sha256": "7c2c100619417848e060df7ec2bc9648841de1a50a8da7c1d3be29fde7101d30",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B008",
+        "pdf_pages": [
+          8
+        ],
+        "section": "数据声明/AI声明后",
+        "excerpt": "All metagenomic sequencing raw files were uploaded to NCBI \n(accession \nnumbers: \nPRJNA1447972, \nPRJNA1448473 \nand \nPRJNA1447957).",
+        "interpretation": "声明3个编号为原始宏基因组；待官方逐项目核对。"
+      }
+    ],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R13817",
+    "title": "Micro-aeration unlocks endogenous nitrogen removal in anaerobic digesters via metabolically versatile fermentative bacteria",
+    "year": "2027",
+    "journal": "WATER RESEARCH",
+    "doi": "10.1016/j.watres.2026.126838",
+    "existing_literature_id": "R13817",
+    "newly_discovered_paper": false,
+    "project_accessions": [],
+    "omics": "宏基因组",
+    "availability_code": null,
+    "availability": "特殊限制：作者明确无权分享；不能认定可索取，尚无公开reads入口",
+    "source_method_evidence_reused": "完整§2.1–2.7 PDF2–4与已核实SI§1.5–1.6：混合污泥总DNA/NovaSeq6000PE150、MEGAHIT/MetaBAT2/CheckM2/Prodigal；蛋白LC-MS/MS另列，未有RNAseq。",
+    "oxygen_supply": "纯O2每日脉冲0.095/0.190 L O2/(L·d)，ORP峰约−150/−50mV",
+    "substrate": "模拟厨余（蔬菜/肉/米饭/果皮40/15/25/20%）；后期补葡萄糖；另真实消化液验证",
+    "treatment_control": "MG微曝气/CK无曝气/SMG灭活曝气；37℃，MG与CK阶段II/IV组学",
+    "sequencing_sample_count_as_reported": "CK/MG×阶段II/IV；独立测序样本数未报告",
+    "biological_replicates_as_reported": "独立测序生物重复未报告",
+    "platform_as_reported": "Illumina NovaSeq6000 PE150（MG）；蛋白LC-MS/MS",
+    "evidence_ids": [
+      "R13817-E01",
+      "R13817-E02",
+      "R13817-E03",
+      "R13817-E04"
+    ],
+    "source_locations": "完整方法PDF2–4；正文14页全部目标/声明/编号位置；SI508段含方法1–10/表图/引用",
+    "statements_with_locations": [
+      {
+        "evidence_id": "R13817-E04",
+        "record_id": "R13817",
+        "evidence_kind": "数据声明",
+        "source_path": "original_files/R13817/fulltext/fulltext__published__086e395f087b1b36.pdf",
+        "source_sha256": "086e395f087b1b36367cf3c6896bfe13ef8bd9bdbcbf414848d0e902f5dd7c08",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B008",
+        "pdf_pages": [
+          13
+        ],
+        "section": "Data availability",
+        "excerpt": "The authors do not have permission to share data.",
+        "interpretation": "作者声明无权限共享；未定位项目，不能标已定位受限项目或可索取。"
+      }
+    ],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R13856",
+    "title": "Strategy to enhance semi-continuous anaerobic digestion of food waste by combined use of calcium peroxide and magnetite",
+    "year": "2022",
+    "journal": "WATER RESEARCH",
+    "doi": "10.1016/j.watres.2022.118801",
+    "existing_literature_id": "R13856",
+    "newly_discovered_paper": false,
+    "project_accessions": [],
+    "omics": "宏基因组",
+    "availability_code": null,
+    "availability": "待确认：目标测序方法已确认，未定位目标reads编号或相关数据声明",
+    "source_method_evidence_reused": "完整§2.1–2.5 PDF2–3与已核实SI TextS1段12–21明确群落DNA/Covaris400bp/NEXTflexDNA连接建库/NovaSeqPE/MEGAHIT/MetaGene，不是16S功能预测；expression为DNA丰度而非MT。",
+    "oxygen_supply": "CaO2 0.01g/L；与磁铁矿0.4g/L联用",
+    "substrate": "模拟厨余：米饭/白菜/猪肉/豆腐400/300/200/100g/kg",
+    "treatment_control": "Control无添加/R1CaO2/R2磁铁矿/R3联用；35±1℃，HRT20d，OLR2.5gVS/L/d",
+    "sequencing_sample_count_as_reported": "稳定期样本；准确独立MG文库数未报告",
+    "biological_replicates_as_reported": "实验重复3次；未确认各重复独立MG测序",
+    "platform_as_reported": "Illumina NovaSeq PE（MG）；MiSeqPE300（16S）",
+    "evidence_ids": [
+      "R13856-E01",
+      "R13856-E02"
+    ],
+    "source_locations": "完整方法PDF2–3；12页全文全部MG/数据/编号位置；SI904段全部方法/表头/图注与编号",
+    "statements_with_locations": [],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R13866",
+    "title": "Coupling Iron Sludge Addition and Intermittent Aeration for Achieving Simultaneous Methanogenesis, Feammox, and Denitrification in a Single Reactor Treating Fish Sludge",
+    "year": "2023",
+    "journal": "ENVIRONMENTAL SCIENCE & TECHNOLOGY",
+    "doi": "10.1021/acs.est.3c03009",
+    "existing_literature_id": "R13866",
+    "newly_discovered_paper": false,
+    "project_accessions": [],
+    "omics": "宏基因组",
+    "availability_code": null,
+    "availability": "待确认：目标测序方法已确认，未定位目标reads编号或相关数据声明",
+    "source_method_evidence_reused": "完整§2.1–2.5 PDF2–4：混合消化污泥总DNA、Covaris400bp/NEXTFLEXRapidDNASeq/NovaSeqPE，明确MG；未有RNA文库。",
+    "oxygen_supply": "空气150mL/min，每3天5/10/15min；铁泥10g",
+    "substrate": "罗非鱼养殖污泥＋预富集IRB厌氧污泥",
+    "treatment_control": "Control/Fe(III)/Fe(III)-AE5/AE10/AE15；额外AE10无铁验证；35℃28d",
+    "sequencing_sample_count_as_reported": "终点各组；每组2反应器消化液先混样再测序，独立文库总数未明确",
+    "biological_replicates_as_reported": "双反应器混样，不能作为2个独立测序生物重复",
+    "platform_as_reported": "Illumina NovaSeq PE",
+    "evidence_ids": [
+      "R13866-E01"
+    ],
+    "source_locations": "完整方法PDF2–4；11页全文所有目标/编号/声明位置；已核实SI7页含表及低文字图原页",
+    "statements_with_locations": [],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R13884",
+    "title": "Performance evaluation of methanogenic digester using kitchen waste for validation of optimized hydrolysis conditions for reduction in ammonia accumulation",
+    "year": "2019",
+    "journal": "Renewable Energy",
+    "doi": "10.1016/j.renene.2019.02.023",
+    "existing_literature_id": "R13884",
+    "newly_discovered_paper": false,
+    "project_accessions": [
+      "PRJNA357876"
+    ],
+    "omics": "宏基因组",
+    "availability_code": 1,
+    "availability": "公开且样本条件对应明确，但不构成氧对照",
+    "source_method_evidence_reused": "群落总DNA经Covaris随机打断200–400bp、NEXTFlex DNA接头建库/Illumina测序，MG-RAST功能及分类分析；不是扩增子。",
+    "oxygen_supply": "水解段43–48°C，0.19–0.22vvm通气24h；后接产甲烷",
+    "substrate": "厨房垃圾（米饭、蔬菜咖喱、豆汤、chapati）",
+    "treatment_control": "接种物SM-EBD；37°C MP-EBD第54天；46°C TP-EBD第75天（按原文）；非供氧/无氧平行对照",
+    "sequencing_sample_count_as_reported": "3 BioSample，官方6实验/6run；每样本两run不作为独立生物重复",
+    "biological_replicates_as_reported": "未明确报告测序生物重复",
+    "platform_as_reported": "Illumina HiSeq 2500",
+    "evidence_ids": [
+      "R13884-E01",
+      "R13884-E02",
+      "R13884-E03"
+    ],
+    "source_locations": "PDF2–3 §2完整方法；全篇10页及SI6483段表x1/y1",
+    "statements_with_locations": [
+      {
+        "evidence_id": "R13884-E02",
+        "record_id": "R13884",
+        "evidence_kind": "数据可用性",
+        "source_path": "original_files/R13884/fulltext/fulltext__published__ad63f5dc897000a1.pdf",
+        "source_sha256": "ad63f5dc897000a18f065c5bc61ecf2b257303020c39c9d4e5c850cb2acb7302",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B009",
+        "pdf_pages": [
+          3
+        ],
+        "section": "§2.3.3 Accession number",
+        "excerpt": "Accession number: The metagenomic reads have been sub-\nmitted under the study accession number PRJNA357876 which\nincludes\nthe\nread\nﬁles\nfor\nMP-EBD:\nSRS1925843,\nTP-EBD:\nSRS192581 and SM-EBD: SRS1925844.",
+        "interpretation": "原样保留3个SRS；TP-EBD SRS192581疑似缺位，需官方核对。"
+      }
+    ],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R13904",
+    "title": "Short-term aerobic pretreatment of swine manure enhances short-chain fatty acid production in anaerobic fermentation: performance and mechanisms",
+    "year": "2026",
+    "journal": "BIOPROCESS AND BIOSYSTEMS ENGINEERING",
+    "doi": "10.1007/s00449-026-03401-y",
+    "existing_literature_id": "R13904",
+    "newly_discovered_paper": false,
+    "project_accessions": [],
+    "omics": "宏基因组",
+    "availability_code": null,
+    "availability": "待确认：MG方法明确，但16S编号不能替代MG编号；末尾无数据声明与方法矛盾",
+    "source_method_evidence_reused": "厌氧发酵后固体残渣总DNA/NovaSeq PE150、MEGAHIT/MetaGeneMark/非冗余基因及KEGG/CAZy/CARD确认MG；预处理阶段16S PE250单独区分。",
+    "oxygen_supply": "SH好氧自热达70°C；SI底部通气5min/h，600–800mL/min",
+    "substrate": "猪粪＋小麦秸秆粉，湿重5:1",
+    "treatment_control": "SH短时好氧预处理 vs CK70°C外加热；后续51天干式厌氧产酸",
+    "sequencing_sample_count_as_reported": "第51天每反应器固体残渣；MG文库数未明确",
+    "biological_replicates_as_reported": "每处理3个反应器；未明确逐反应器测序文库数",
+    "platform_as_reported": "NovaSeq6000 PE150（MG）；PE250（16S）",
+    "evidence_ids": [
+      "R13904-E01",
+      "R13904-E02",
+      "R13904-E03"
+    ],
+    "source_locations": "PDF3–5完整方法、全篇13页及SI61段",
+    "statements_with_locations": [
+      {
+        "evidence_id": "R13904-E02",
+        "record_id": "R13904",
+        "evidence_kind": "数据可用性",
+        "source_path": "original_files/R13904/fulltext/fulltext__published__16094176f2327e81.pdf",
+        "source_sha256": "16094176f2327e81ed5d6d0ba20c9aa0f864063dd0d42a5d5475f6073344c64e",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B009",
+        "pdf_pages": [
+          5
+        ],
+        "section": "16S sequencing accession",
+        "excerpt": "The raw sequence data were stored under \nthe registration number PRJNA1347783.",
+        "interpretation": "编号紧随预处理阶段16S扩增子方法；须官方核对是否含MG，不能直接归MG。"
+      },
+      {
+        "evidence_id": "R13904-E03",
+        "record_id": "R13904",
+        "evidence_kind": "数据可用性",
+        "source_path": "original_files/R13904/fulltext/fulltext__published__16094176f2327e81.pdf",
+        "source_sha256": "16094176f2327e81ed5d6d0ba20c9aa0f864063dd0d42a5d5475f6073344c64e",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B009",
+        "pdf_pages": [
+          11
+        ],
+        "section": "Data availability",
+        "excerpt": "No datasets were generated or analysed during the \ncurrent study.",
+        "interpretation": "声明与明确实验/测序方法相矛盾，原样保留；未找到可索取声明。"
+      }
+    ],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  },
+  {
+    "paper_id": "R13920",
+    "title": "Nanobubbles drive advanced anaerobic treatment of swine wastewater for efficient methane recovery: Performance gains and multi-pathway enhancement",
+    "year": "2026",
+    "journal": "BIORESOURCE TECHNOLOGY",
+    "doi": "10.1016/j.biortech.2026.134692",
+    "existing_literature_id": "R13920",
+    "newly_discovered_paper": false,
+    "project_accessions": [
+      "PRJNA1438379"
+    ],
+    "omics": "宏基因组",
+    "availability_code": 3,
+    "availability": "文中有编号，公开/访问状态未核实",
+    "source_method_evidence_reused": "群落总DNA随机Covaris约400bp、NEXTFLEX Rapid DNA接头建库，MEGAHIT/MetaGene/非冗余基因和KEGG确认MG；非转录组。",
+    "oxygen_supply": "添加100mL Air/O2/O3纳米气泡水；制备气流0.5L/h，20min",
+    "substrate": "猪场废水",
+    "treatment_control": "DW去离子水对照 vs Air-NBW/O2-NBW/O3-NBW，37°C28天；文中有阶段采样",
+    "sequencing_sample_count_as_reported": "测序文库数量未明；液样在0/7/14/21/28天采集，不推断全部测序",
+    "biological_replicates_as_reported": "各AD处理3重复；测序生物重复数未明确",
+    "platform_as_reported": "正文先称HiSeq2000、后称NovaSeq或HiSeqX试剂，存在机型不一致，待官方核对",
+    "evidence_ids": [
+      "R13920-E01",
+      "R13920-E02"
+    ],
+    "source_locations": "PDF2–3完整§2、全篇11页及SI394段",
+    "statements_with_locations": [
+      {
+        "evidence_id": "R13920-E02",
+        "record_id": "R13920",
+        "evidence_kind": "数据可用性",
+        "source_path": "original_files/R13920/fulltext/fulltext__published__abb9ffa0801dc63e.pdf",
+        "source_sha256": "abb9ffa0801dc63e95c1ea5fbec27f5cc17c01d2e5a9ea6844fa7da047a0ca26",
+        "worksheet": "",
+        "cells": "",
+        "batch_id": "B009",
+        "pdf_pages": [
+          10
+        ],
+        "section": "Data availability",
+        "excerpt": "Data will be made available on request.",
+        "interpretation": "泛指数据可索取，不作为明确原始测序可索取；优先核实文中项目。"
+      }
+    ],
+    "method_source_fulltext_previously_reviewed": true,
+    "this_round_fulltext_redownloaded": false,
+    "data_generation_mode": "本研究产生"
+  }
+]

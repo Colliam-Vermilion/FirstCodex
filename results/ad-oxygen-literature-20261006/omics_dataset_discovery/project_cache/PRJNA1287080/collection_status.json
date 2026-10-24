@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1287080",
+  "checked_utc": "2026-10-24T14:10:00.174003+00:00",
+  "ena_run_count": 10,
+  "ncbi_sra_count": 10,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1287080&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:10:00.174449+00:00",
+    "raw_path": "raw/ENA/e1a8df68666fa1a6fc27e5ac4377d0665f774b314b6f8a22cb2cec77faf2ee58.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1287080&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 14342,
+    "sha256": "b37e5e3074c684fe8d90bd076aae0f73ea4fd99b7da497a71ebbbf3d6fdc5c7e",
+    "finished_utc": "2026-10-24T14:10:00.865704+00:00",
+    "measured_wall_seconds": 0.691
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1287080&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:10:01.266840+00:00",
+    "raw_path": "raw/NCBI/a60661bc2da0d748a6cb820c91826eb4dda467372415ce44aa155c42a6322794.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1287080&retmode=json&retmax=200&retstart=0",
+    "bytes": 406,
+    "sha256": "c19e2d0178cebfa879cfc07628201bd5b2dff66344e1b2a3fa1dd0f174597a13",
+    "finished_utc": "2026-10-24T14:10:01.448699+00:00",
+    "measured_wall_seconds": 0.182
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1287080",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:10:02.164533+00:00",
+    "raw_path": "raw/ENA/646294b6f881f614685dd661a7142be04bf44f3f1c0e4c11afaa758d2075dde9.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1287080",
+    "bytes": 2121,
+    "sha256": "633b48c1f079b4d014893c2ee1a0fab84fdea665a220cc127568ca87b0799e52",
+    "finished_utc": "2026-10-24T14:10:02.428786+00:00",
+    "measured_wall_seconds": 0.264
+  },
+  "project_title": "Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation",
+  "project_description": "16S rRNA sequencing and metagenomic data for sludge samples from anaerobic reactors treating corn straw and waste activated sludge with intermittent microaeration",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1287080"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP598422"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Dalian Universtiy of Technology",
+      "value": "PRJNA1287080"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1287080&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1287080&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 10
+}

@@ -1,0 +1,1898 @@
+[
+  {
+    "run_accession": "SRR16980862",
+    "experiment_accession": "SRX13171652",
+    "sample_accession": "SAMN23297126",
+    "secondary_sample_accession": "SRS11101582",
+    "sample_alias": "A150_meta",
+    "sample_title": "",
+    "scientific_name": "bioreactor metagenome",
+    "tax_id": "1076179",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion Rep2",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-01",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "21.29 N 157.81 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "AD_Rep2",
+    "library_name": "A150",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "147167071",
+    "base_count": "44150121300",
+    "sra_run_bytes": "18115121505",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A150_1.fq",
+        "size": "51586975410",
+        "date": "2021-11-19 11:00:25",
+        "md5": "aa89a3f72594508e7ac5a72ce8a17264",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "A150_2.fq",
+        "size": "51586975410",
+        "date": "2021-11-19 11:25:18",
+        "md5": "484878f971f8c5be1f24a80fbdb445ac",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR16980862",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR16980862/SRR16980862",
+        "size": "18115122730",
+        "date": "2021-11-19 11:45:09",
+        "md5": "1ce8e1911a09ba4aef8eede5f31ce361",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR16980862.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/SRR016/16980/SRR16980862/SRR16980862.lite.1",
+        "size": "11081207650",
+        "date": "2022-09-27 14:16:58",
+        "md5": "5879ec4e30997aeef2933b7ea9b2f93c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-06-01 00:06:56",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR16980863",
+    "experiment_accession": "SRX13171651",
+    "sample_accession": "SAMN23297125",
+    "secondary_sample_accession": "SRS11101581",
+    "sample_alias": "B79_meta",
+    "sample_title": "AD_Rep1",
+    "scientific_name": "bioreactor metagenome",
+    "tax_id": "1076179",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion Rep1",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-01",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "21.29 N 157.81 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "AD_Rep1",
+    "library_name": "B79",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "145668356",
+    "base_count": "43700506800",
+    "sra_run_bytes": "18773822951",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "B97_1.fq",
+        "size": "51061687048",
+        "date": "2021-11-19 10:27:26",
+        "md5": "6fd9c067ae3b25c8cae886832896af31",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "B97_2.fq",
+        "size": "51061687048",
+        "date": "2021-11-19 10:46:49",
+        "md5": "11a9f41819963665facb5f4550b15f7f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR16980863",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR16980863/SRR16980863",
+        "size": "18773824175",
+        "date": "2021-11-19 10:59:08",
+        "md5": "bdaa6c566ac1c4ae1e59c4488cbe3f97",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR16980863.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR016/16980/SRR16980863/SRR16980863.lite.1",
+        "size": "10967338259",
+        "date": "2022-08-30 06:02:16",
+        "md5": "6c3425104b4e24cfd0ca62195a4cd808",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-06-01 00:06:56",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR10742653",
+    "experiment_accession": "SRX7418073",
+    "sample_accession": "SAMN13634954",
+    "secondary_sample_accession": "SRS5864833",
+    "sample_alias": "A192meta",
+    "sample_title": "Micro_Rep2",
+    "scientific_name": "bioreactor metagenome",
+    "tax_id": "1076179",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "microaeration digestion Rep2",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-01",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "21.29 N 157.81 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "metagenomic seq",
+    "library_name": "A190_meta",
+    "library_strategy": "WGS",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "58478443",
+    "base_count": "17543532900",
+    "sra_run_bytes": "6884232241",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A192_1.fq",
+        "size": "20498427052",
+        "date": "2019-12-20 04:07:18",
+        "md5": "e2b05f17d9f924182b969d01041063c4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "A192_2.fq",
+        "size": "20498427052",
+        "date": "2019-12-20 03:54:53",
+        "md5": "1a99296d42d723d8d4f43140ee6d1a1c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10742653",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10742653/SRR10742653",
+        "size": "6884233467",
+        "date": "2019-12-20 04:15:57",
+        "md5": "3a060880031ab4950bc1b3d949e05501",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10742653.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR010/10742/SRR10742653/SRR10742653.lite.1",
+        "size": "4402250639",
+        "date": "2022-06-23 22:02:58",
+        "md5": "6f3404ee55c62d967043fc7a57178cb7",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2020-12-31 00:01:33",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR10742654",
+    "experiment_accession": "SRX7418072",
+    "sample_accession": "SAMN13634953",
+    "secondary_sample_accession": "SRS5864832",
+    "sample_alias": "B147meta",
+    "sample_title": "Micro_Rep1",
+    "scientific_name": "bioreactor metagenome",
+    "tax_id": "1076179",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "microaeration digestion Rep1",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2016-10",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "21.29 N 157.81 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "metagenomic seq",
+    "library_name": "B147_meta",
+    "library_strategy": "WGS",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "56035000",
+    "base_count": "16810500000",
+    "sra_run_bytes": "6599914593",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "B147_1.fq",
+        "size": "19641942585",
+        "date": "2019-12-20 09:29:38",
+        "md5": "b87949a61d519503a94ceb2c3871dc98",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "B147_2.fq",
+        "size": "19641942585",
+        "date": "2019-12-20 09:44:15",
+        "md5": "356af040ca236c46181aac1df0b08c37",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10742654",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10742654/SRR10742654",
+        "size": "6599915821",
+        "date": "2019-12-20 09:55:53",
+        "md5": "3ab0f28d429d7ba0f7b1cfc429972ea6",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10742654.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR010/742/SRR10742654/SRR10742654.lite.1",
+        "size": "4218107577",
+        "date": "2022-07-10 13:46:48",
+        "md5": "9566b9245ff5ae5b77e4a53bc34d9a75",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2020-12-31 00:01:33",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR10138216",
+    "experiment_accession": "SRX6866299",
+    "sample_accession": "SAMN12752318",
+    "secondary_sample_accession": "SRS5403737",
+    "sample_alias": "A150Bac",
+    "sample_title": "",
+    "scientific_name": "bacterium",
+    "tax_id": "1869227",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2016-08-01",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "mixed culture",
+        "units": ""
+      },
+      {
+        "tag": "no.",
+        "value": "3",
+        "units": ""
+      },
+      {
+        "tag": "isolate",
+        "value": "A150Bac",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "Bacterial 16S rRNA Seqs of anaerobic digester",
+    "library_name": "Bac_R2_A150_1",
+    "library_strategy": "AMPLICON",
+    "library_source": "GENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "29658",
+    "base_count": "14829000",
+    "sra_run_bytes": "8829909",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR10138216",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10138216/SRR10138216",
+        "size": "8831362",
+        "date": "2019-09-18 15:23:25",
+        "md5": "04413d8fcadf16f959e052b2bac5e42e",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10138216.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR010/138/SRR10138216.sralite.1",
+        "size": "3821295",
+        "date": "2020-06-20 03:29:22",
+        "md5": "747d378fee20e65ec51340ee0208426d",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "Bac_R2_A150_2.fq",
+        "size": "15762698",
+        "date": "2019-09-18 15:23:17",
+        "md5": "d030f3c0c1ca97c247246db7f7d66029",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "Bac_R2_A150_1.fq",
+        "size": "15762698",
+        "date": "2019-09-18 15:23:17",
+        "md5": "6cbe80f977df6a7f2728a797f043e75f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2019-09-19 00:36:28",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR10138217",
+    "experiment_accession": "SRX6866298",
+    "sample_accession": "SAMN12752317",
+    "secondary_sample_accession": "SRS5403736",
+    "sample_alias": "A149Bac",
+    "sample_title": "",
+    "scientific_name": "bacterium",
+    "tax_id": "1869227",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2016-03-04",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "mixed culture",
+        "units": ""
+      },
+      {
+        "tag": "no.",
+        "value": "2",
+        "units": ""
+      },
+      {
+        "tag": "isolate",
+        "value": "A149Bac",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "Bacterial 16S rRNA Seqs of micro-aerobic digester",
+    "library_name": "Bac_R1_A149_1",
+    "library_strategy": "AMPLICON",
+    "library_source": "GENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "45490",
+    "base_count": "18193750",
+    "sra_run_bytes": "8454512",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR10138217",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10138217/SRR10138217",
+        "size": "8456634",
+        "date": "2019-09-18 15:23:24",
+        "md5": "ee9e86d2df6ba0094824c732fcbb88a0",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10138217.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR010/138/SRR10138217.sralite.1",
+        "size": "4400470",
+        "date": "2020-06-21 23:16:12",
+        "md5": "0cbed6e290e9f34d95d9c74ad583ab14",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "Bac_R1_A149_2.fq",
+        "size": "20853305",
+        "date": "2019-09-18 15:23:16",
+        "md5": "bb63837bbdabbb957c1ad529323d2b83",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "Bac_R1_A149_1.fq",
+        "size": "20853169",
+        "date": "2019-09-18 15:23:15",
+        "md5": "70d79ef6e9381b8bf903b26076f17fe0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2019-09-18 19:15:40",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR10138218",
+    "experiment_accession": "SRX6866297",
+    "sample_accession": "SAMN12752321",
+    "secondary_sample_accession": "SRS5403735",
+    "sample_alias": "A108Bac",
+    "sample_title": "",
+    "scientific_name": "bacterium",
+    "tax_id": "1869227",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2018-01-02",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "mixed culture",
+        "units": ""
+      },
+      {
+        "tag": "no.",
+        "value": "6",
+        "units": ""
+      },
+      {
+        "tag": "isolate",
+        "value": "A108Bac",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "Bacterial 16S rRNA Seqs of micro-aerobic digester",
+    "library_name": "Bac_R3_A108_1",
+    "library_strategy": "AMPLICON",
+    "library_source": "GENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "30840",
+    "base_count": "15420000",
+    "sra_run_bytes": "7463908",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Bac_R3_A108_1.fq",
+        "size": "16513931",
+        "date": "2019-09-18 15:23:20",
+        "md5": "203f5ad460b5fb26d22d3b8d55e3953e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "Bac_R3_A108_2.fq",
+        "size": "16513931",
+        "date": "2019-09-18 15:23:21",
+        "md5": "e0d39038da937f8c3193dbac6adb4c44",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10138218",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10138218/SRR10138218",
+        "size": "7465356",
+        "date": "2019-09-18 15:23:30",
+        "md5": "812ede8b9d4cc8ae9a007c13d02fc688",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10138218.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR010/138/SRR10138218.sralite.1",
+        "size": "3594874",
+        "date": "2020-06-21 23:16:10",
+        "md5": "d05ce2527ac63c4a57f816c2e358c60e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2019-09-18 19:15:40",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR10138219",
+    "experiment_accession": "SRX6866296",
+    "sample_accession": "SAMN12752316",
+    "secondary_sample_accession": "SRS5403734",
+    "sample_alias": "A079Bac",
+    "sample_title": "",
+    "scientific_name": "bacterium",
+    "tax_id": "1869227",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2015-12-25",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "mixed culture",
+        "units": ""
+      },
+      {
+        "tag": "no.",
+        "value": "1",
+        "units": ""
+      },
+      {
+        "tag": "isolate",
+        "value": "A079Bac",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "Bacterial 16S rRNA Seqs of anaerobic digester",
+    "library_name": "Bac_R1_A79_1",
+    "library_strategy": "AMPLICON",
+    "library_source": "GENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "49150",
+    "base_count": "19658299",
+    "sra_run_bytes": "9371340",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Bac_R1_A79_1.fq",
+        "size": "22532811",
+        "date": "2019-09-18 15:23:20",
+        "md5": "46e084ab43b136c452da96310240758a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "Bac_R1_A79_2.fq",
+        "size": "22531749",
+        "date": "2019-09-18 15:23:21",
+        "md5": "176750196bcf523853babd42e84227e9",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10138219",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10138219/SRR10138219",
+        "size": "9373460",
+        "date": "2019-09-18 15:23:29",
+        "md5": "f081cb471677bec730ccc0cd890d164e",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10138219.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR010/138/SRR10138219.sralite.1",
+        "size": "4922172",
+        "date": "2020-06-21 23:16:12",
+        "md5": "1a8882d72e4ad21949ef996c9e592ba9",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2019-09-18 19:15:40",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR10138220",
+    "experiment_accession": "SRX6866295",
+    "sample_accession": "SAMN12752320",
+    "secondary_sample_accession": "SRS5403733",
+    "sample_alias": "A064Bac",
+    "sample_title": "",
+    "scientific_name": "bacterium",
+    "tax_id": "1869227",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-11-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "mixed culture",
+        "units": ""
+      },
+      {
+        "tag": "no.",
+        "value": "5",
+        "units": ""
+      },
+      {
+        "tag": "isolate",
+        "value": "A064Bac",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "Bacterial 16S rRNA Seqs of anaerobic digester",
+    "library_name": "Bac_R3_A64_1",
+    "library_strategy": "AMPLICON",
+    "library_source": "GENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "31020",
+    "base_count": "15510000",
+    "sra_run_bytes": "7202281",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Bac_R3_A64_1.fq",
+        "size": "16610452",
+        "date": "2019-09-18 15:23:20",
+        "md5": "b3174a662f6232117836fb1ae183d65f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "Bac_R3_A64_2.fq",
+        "size": "16610452",
+        "date": "2019-09-18 15:23:19",
+        "md5": "287acd62fb7fd8591dbe1408fe46e5de",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10138220",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10138220/SRR10138220",
+        "size": "7203726",
+        "date": "2019-09-18 15:23:27",
+        "md5": "4dac9d3af3a04f83946b4ff8f8149359",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10138220.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR010/138/SRR10138220.sralite.1",
+        "size": "3449311",
+        "date": "2020-06-21 23:16:16",
+        "md5": "8ce888159cd13ee076305da0ff3132d3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2019-09-18 19:15:40",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR10138221",
+    "experiment_accession": "SRX6866294",
+    "sample_accession": "SAMN12752319",
+    "secondary_sample_accession": "SRS5403732",
+    "sample_alias": "A192Bac",
+    "sample_title": "",
+    "scientific_name": "bacterium",
+    "tax_id": "1869227",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2016-09-13",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "mixed culture",
+        "units": ""
+      },
+      {
+        "tag": "no.",
+        "value": "4",
+        "units": ""
+      },
+      {
+        "tag": "isolate",
+        "value": "A192Bac",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "Bacterial 16S rRNA Seqs of micro-aerobic digester",
+    "library_name": "Bac_R2_A192_1",
+    "library_strategy": "AMPLICON",
+    "library_source": "GENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "20873",
+    "base_count": "10436500",
+    "sra_run_bytes": "6760982",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Bac_R2_A192_1.fq",
+        "size": "11093252",
+        "date": "2019-09-18 15:23:19",
+        "md5": "93058b47bbc066d6e59f9391f4608c69",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "Bac_R2_A192_2.fq",
+        "size": "11093252",
+        "date": "2019-09-18 15:23:20",
+        "md5": "f09e7b62a2a3f177545bf6621137a656",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10138221",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10138221/SRR10138221",
+        "size": "6762432",
+        "date": "2019-09-18 15:23:27",
+        "md5": "cb5bcb5c326f2df52a4402b36ca54b3b",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10138221.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR010/138/SRR10138221.sralite.1",
+        "size": "2701304",
+        "date": "2020-06-21 23:16:28",
+        "md5": "2501e9c69ecce0915ed5fcb14cfefaf2",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2019-09-18 19:15:40",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR10136525",
+    "experiment_accession": "SRX6864615",
+    "sample_accession": "SAMN12752327",
+    "secondary_sample_accession": "SRS5402182",
+    "sample_alias": "A064_McrA",
+    "sample_title": "",
+    "scientific_name": "archaeon",
+    "tax_id": "1906665",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2017-11-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "mixed culture",
+        "units": ""
+      },
+      {
+        "tag": "no",
+        "value": "5",
+        "units": ""
+      },
+      {
+        "tag": "isolate",
+        "value": "A064_McrA",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "McrA gene in anaerobic digester",
+    "library_name": "McrA_R3_A64_1",
+    "library_strategy": "AMPLICON",
+    "library_source": "GENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "80598",
+    "base_count": "47875212",
+    "sra_run_bytes": "22730750",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR10136525.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR010/136/SRR10136525.sralite.1",
+        "size": "12205210",
+        "date": "2020-06-20 03:27:36",
+        "md5": "3486738c3b8de4d438eb7df6b775d16c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10136525",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10136525/SRR10136525",
+        "size": "22732198",
+        "date": "2019-09-18 12:34:04",
+        "md5": "c581248133260fefebf63459866ef522",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "McrA_R3_A64_2.fq",
+        "size": "50890961",
+        "date": "2019-09-18 12:33:55",
+        "md5": "3bfd982f32a7508f17a563cb3542110f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "McrA_R3_A64_1.fq",
+        "size": "49923785",
+        "date": "2019-09-18 12:33:57",
+        "md5": "ababe5b36f49db199a9e4c56bb165a8f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2019-09-18 17:50:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR10136526",
+    "experiment_accession": "SRX6864614",
+    "sample_accession": "SAMN12752326",
+    "secondary_sample_accession": "SRS5402181",
+    "sample_alias": "A192_McrA",
+    "sample_title": "",
+    "scientific_name": "archaeon",
+    "tax_id": "1906665",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2016-09-13",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "mixed culture",
+        "units": ""
+      },
+      {
+        "tag": "no",
+        "value": "4",
+        "units": ""
+      },
+      {
+        "tag": "isolate",
+        "value": "A192_McrA",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "McrA gene in micro-aerobic digester",
+    "library_name": "McrA_R2_A192_1",
+    "library_strategy": "AMPLICON",
+    "library_source": "GENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "92722",
+    "base_count": "55076868",
+    "sra_run_bytes": "27611421",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "McrA_R2_A192_1.fq",
+        "size": "60028988",
+        "date": "2019-09-18 12:33:57",
+        "md5": "10a3cdbdd72a687d1ecbbc7bf1858602",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "McrA_R2_A192_2.fq",
+        "size": "60585320",
+        "date": "2019-09-18 12:33:58",
+        "md5": "e8920d5aa5e28b3a85d9a0a291749260",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10136526",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10136526/SRR10136526",
+        "size": "27613170",
+        "date": "2019-09-18 12:34:06",
+        "md5": "e44ee35b786efa0c4f15b7bd5412c2df",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10136526.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR010/136/SRR10136526.sralite.1",
+        "size": "14041114",
+        "date": "2020-06-20 03:27:56",
+        "md5": "900b57c9daa77229345afc967e30a170",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2019-09-18 17:50:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR10136527",
+    "experiment_accession": "SRX6864613",
+    "sample_accession": "SAMN12752325",
+    "secondary_sample_accession": "SRS5402180",
+    "sample_alias": "A150_McrA",
+    "sample_title": "",
+    "scientific_name": "archaeon",
+    "tax_id": "1906665",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2016-08-01",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "mixed culture",
+        "units": ""
+      },
+      {
+        "tag": "no",
+        "value": "3",
+        "units": ""
+      },
+      {
+        "tag": "isolate",
+        "value": "A150_McrA",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "McrA gene in anaerobic digester",
+    "library_name": "McrA_R2_A150_1",
+    "library_strategy": "AMPLICON",
+    "library_source": "GENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "28014",
+    "base_count": "16640316",
+    "sra_run_bytes": "7999783",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "McrA_R2_A150_1.fq",
+        "size": "17352366",
+        "date": "2019-09-18 12:33:56",
+        "md5": "a59b773b12b01a2920360d5eb820ed11",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "McrA_R2_A150_2.fq",
+        "size": "17688534",
+        "date": "2019-09-18 12:33:55",
+        "md5": "53422f925decf190c6428b1c806f02da",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10136527",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10136527/SRR10136527",
+        "size": "8001236",
+        "date": "2019-09-18 12:34:03",
+        "md5": "7a65ed7e7f226c1fc9c2d5b81e1412c7",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10136527.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR010/136/SRR10136527.sralite.1",
+        "size": "4267432",
+        "date": "2020-06-20 03:27:35",
+        "md5": "4b9aee4d5b8adb8b557dd3dbb58534cc",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2019-09-18 17:50:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR10136528",
+    "experiment_accession": "SRX6864612",
+    "sample_accession": "SAMN12752324",
+    "secondary_sample_accession": "SRS5402179",
+    "sample_alias": "A149_McrA",
+    "sample_title": "",
+    "scientific_name": "archaeon",
+    "tax_id": "1906665",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2016-03-04",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "mixed culture",
+        "units": ""
+      },
+      {
+        "tag": "no",
+        "value": "2",
+        "units": ""
+      },
+      {
+        "tag": "isolate",
+        "value": "A149_McrA",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "McrA gene in micro-aerobic digester",
+    "library_name": "McrA_R1_A149_1",
+    "library_strategy": "AMPLICON",
+    "library_source": "GENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "91149",
+    "base_count": "53869059",
+    "sra_run_bytes": "27554260",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "McrA_R1_A149_1.fq",
+        "size": "59010716",
+        "date": "2019-09-18 12:34:01",
+        "md5": "d1a26ef97bffdba26682db50cef78a97",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "McrA_R1_A149_2.fq",
+        "size": "59284163",
+        "date": "2019-09-18 12:34:03",
+        "md5": "57bb42c7f975e4964978513d56d41fa5",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10136528",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10136528/SRR10136528",
+        "size": "27556010",
+        "date": "2019-09-18 12:34:10",
+        "md5": "75279919af34e60090490716d0ca6b02",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10136528.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR010/136/SRR10136528.sralite.1",
+        "size": "13757956",
+        "date": "2020-06-20 03:27:48",
+        "md5": "48e643345eadcd35a40893c9ab49e7c0",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2019-09-18 17:50:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR10136529",
+    "experiment_accession": "SRX6864611",
+    "sample_accession": "SAMN12752328",
+    "secondary_sample_accession": "SRS5402178",
+    "sample_alias": "A108_McrA",
+    "sample_title": "",
+    "scientific_name": "archaeon",
+    "tax_id": "1906665",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2018-01-02",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "mixed culture",
+        "units": ""
+      },
+      {
+        "tag": "no",
+        "value": "6",
+        "units": ""
+      },
+      {
+        "tag": "isolate",
+        "value": "A108_McrA",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "McrA gene in micro-aerobic digester",
+    "library_name": "McrA_R3_A108_1",
+    "library_strategy": "AMPLICON",
+    "library_source": "GENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "82037",
+    "base_count": "48565904",
+    "sra_run_bytes": "23360614",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "McrA_R3_A108_1.fq",
+        "size": "50815361",
+        "date": "2019-09-18 12:33:58",
+        "md5": "465d619ea9c41ca8b21bbfb92218f48f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "McrA_R3_A108_2.fq",
+        "size": "51471657",
+        "date": "2019-09-18 12:33:59",
+        "md5": "b5f9b9e272902918edd7192d90de05c5",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10136529",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10136529/SRR10136529",
+        "size": "23362066",
+        "date": "2019-09-18 12:34:06",
+        "md5": "0849b7e4cefa8966265ef8d3c9c3467d",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10136529.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR010/136/SRR10136529.sralite.1",
+        "size": "12382030",
+        "date": "2020-06-20 03:27:52",
+        "md5": "3f7e8093e4b332071f565dc13afc9e4c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2019-09-18 17:50:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR10136530",
+    "experiment_accession": "SRX6864610",
+    "sample_accession": "SAMN12752323",
+    "secondary_sample_accession": "SRS5402177",
+    "sample_alias": "A079_McrA",
+    "sample_title": "",
+    "scientific_name": "archaeon",
+    "tax_id": "1906665",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "anaerobic digestion",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2015-12-25",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "mixed culture",
+        "units": ""
+      },
+      {
+        "tag": "no",
+        "value": "1",
+        "units": ""
+      },
+      {
+        "tag": "isolate",
+        "value": "A079_McrA",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA565588",
+    "secondary_study_accession": "SRP222288",
+    "study_title": "anaerobic digestion",
+    "study_description": "AD of lignocellulose bimass",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "33326896"
+      }
+    ],
+    "experiment_title": "McrA gene in anaerobic digester",
+    "library_name": "McrA_R1_A79_1",
+    "library_strategy": "AMPLICON",
+    "library_source": "GENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "27960",
+    "base_count": "16580280",
+    "sra_run_bytes": "7977430",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR10136530",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10136530/SRR10136530",
+        "size": "7978883",
+        "date": "2019-09-18 12:34:07",
+        "md5": "46d11de80286425d7b47a54db3eef2af",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR10136530.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR010/136/SRR10136530.sralite.1",
+        "size": "4252867",
+        "date": "2020-06-20 03:27:50",
+        "md5": "1362eb9a7e9cbd3d2781d8378fab0b12",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "McrA_R1_A79_2.fq",
+        "size": "17598513",
+        "date": "2019-09-18 12:33:59",
+        "md5": "bdf48bdbf05539d2f3b37117d8425d1a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "McrA_R1_A79_1.fq",
+        "size": "17318913",
+        "date": "2019-09-18 12:34:00",
+        "md5": "6889bbd99d18a2771de34f87101e78da",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2019-09-18 17:50:13",
+    "run_is_public": "true"
+  }
+]

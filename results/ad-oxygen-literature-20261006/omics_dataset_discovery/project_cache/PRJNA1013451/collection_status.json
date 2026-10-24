@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1013451",
+  "checked_utc": "2026-10-24T14:09:51.125892+00:00",
+  "ena_run_count": 21,
+  "ncbi_sra_count": 21,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1013451&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:09:51.126060+00:00",
+    "raw_path": "raw/ENA/494f46666144875f24bd468834705f131cfdb30366586636407cfd63032df6ff.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1013451&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 31277,
+    "sha256": "093016f6089c62e446f4daac2100b2ce3ca82f0f280e0bd5d979d1119999f9f4",
+    "finished_utc": "2026-10-24T14:09:52.117407+00:00",
+    "measured_wall_seconds": 0.991
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1013451&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:09:52.518988+00:00",
+    "raw_path": "raw/NCBI/8bbb705b70e92d5e70a521192de47a8044835ba76554a9aa007b2f5747051413.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1013451&retmode=json&retmax=200&retstart=0",
+    "bytes": 527,
+    "sha256": "07ac64e79ed1016fb4fa5aace2fb3c02456aef86cb33be25f33f8af380f9fbe1",
+    "finished_utc": "2026-10-24T14:09:52.780087+00:00",
+    "measured_wall_seconds": 0.261
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1013451",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:07:58.113700+00:00",
+    "raw_path": "raw/ENA/5d388af0ecc3dee2682b1052552bd96e564d0ccdd79bbd3c7e16e587ae7f92f6.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1013451",
+    "bytes": 3406,
+    "sha256": "3bed47ca74a63ea5c71a8e0ca6275698b0d9a3bff6157663f60511d069ce6cb4",
+    "finished_utc": "2026-10-24T14:07:58.882054+00:00",
+    "measured_wall_seconds": 0.768
+  },
+  "project_title": "Microaeration and low frequency sound enhance microbial diversity of anaerobic digesters",
+  "project_description": "Biogas is a renewable source of energy produced by a complex community of microorganisms. Means of improving biogas production are needed both to improve agricultural waste treatment and provide farm income. Researchers studied how this community of microorganisms was affected by the addition of small amounts of air to a digestion of poultry litter as well as treatment with sound produced by underwater speakers. Both aeration and sound enhanced biogas production relative to no treatment while combining these treatments was not as effective as microaeration alone. Early in the experiment, microbial diversity was low with over 80% of microorganisms belonging to just three groups of bacteria. By week 23, the bacterial community was more diverse with many belonging to well-known degraders of plant material. There was also an increase in bacterial groups that produce compounds such as hydrogen and small organic acids that foster the growth of other microorganisms. Microbial diversity continued to increase, and by week 42 there was a great increase in the proportion of methanogens which are microorganisms that produce methane, the major component of biogas. No pronounced shift in the composition of the microbial community were observed due to either air or sound treatment. Rather, microbial diversity was enhanced relative to the control. It is likely that both treatments aid in waste breakdown and improve nutrient availability to promote growth and increase biogas production.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1013451"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP458764"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "USDA-Agricultural Research Service",
+      "value": "PRJNA1013451"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1013451&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1013451&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 21
+}

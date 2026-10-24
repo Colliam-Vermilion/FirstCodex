@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA565588",
+  "checked_utc": "2026-10-24T14:10:10.760268+00:00",
+  "ena_run_count": 16,
+  "ncbi_sra_count": 16,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA565588&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:10:10.760392+00:00",
+    "raw_path": "raw/ENA/03f07745465146f754d976a5b247308d8a937e261bcb76f3a0b84de009fe69cc.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA565588&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 20643,
+    "sha256": "d5d0377b72bbae8b856e8ad32e0028d648aa6f33af5a781a55dfebba711111de",
+    "finished_utc": "2026-10-24T14:10:10.975605+00:00",
+    "measured_wall_seconds": 0.215
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA565588&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:10:11.377421+00:00",
+    "raw_path": "raw/NCBI/c428be48456eeaec2868487c5607da1ab352971f318d43b9c11f0702ed69fb0b.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA565588&retmode=json&retmax=200&retstart=0",
+    "bytes": 456,
+    "sha256": "b6c352a93eddbe619f5cecd5538c1aa0c76184586c9337963494b35ec8fda73b",
+    "finished_utc": "2026-10-24T14:10:11.457710+00:00",
+    "measured_wall_seconds": 0.08
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA565588",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:10:12.272375+00:00",
+    "raw_path": "raw/ENA/0bba77644a586ec2c2012ed012865b63a9f62ac0e06688fff3fc1f99db0af6c2.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA565588",
+    "bytes": 3040,
+    "sha256": "42f912d135808c5880bf7619d7511f1056f8efe006ed5bcbcacd0369072a0d2b",
+    "finished_utc": "2026-10-24T14:10:12.494878+00:00",
+    "measured_wall_seconds": 0.223
+  },
+  "project_title": "anaerobic digestion",
+  "project_description": "AD of lignocellulose bimass",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA565588"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP222288"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Imperial College London",
+      "value": "PRJNA565588"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>PUBMED</DB>\n        <ID>33326896</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA565588&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA565588&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 16
+}

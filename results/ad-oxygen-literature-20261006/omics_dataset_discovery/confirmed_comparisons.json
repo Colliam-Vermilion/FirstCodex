@@ -1,0 +1,96 @@
+[
+  {
+    "comparison_id": "C-PRJNA1013451-W23-MAT-CON",
+    "project_id": "PRJNA1013451",
+    "treatment": "MAT",
+    "control": "CON",
+    "time": 23,
+    "unit": "week",
+    "treatment_runs": [
+      "SRR25925563"
+    ],
+    "control_runs": [
+      "SRR25925564"
+    ],
+    "sequenced_samples_per_group": 1,
+    "independent_reactor_replicates_per_group": 1,
+    "is_independent_study": false,
+    "caveat": "同一组反应器纵向重复；week6处理前基线另作协变量，不作氧处理比较",
+    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键"
+  },
+  {
+    "comparison_id": "C-PRJNA1013451-W23-MST-SND",
+    "project_id": "PRJNA1013451",
+    "treatment": "MST",
+    "control": "SND",
+    "time": 23,
+    "unit": "week",
+    "treatment_runs": [
+      "SRR25925547"
+    ],
+    "control_runs": [
+      "SRR25925550"
+    ],
+    "sequenced_samples_per_group": 1,
+    "independent_reactor_replicates_per_group": 1,
+    "is_independent_study": false,
+    "caveat": "同一组反应器纵向重复；week6处理前基线另作协变量，不作氧处理比较",
+    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键"
+  },
+  {
+    "comparison_id": "C-PRJNA1013451-W42-MAT-CON",
+    "project_id": "PRJNA1013451",
+    "treatment": "MAT",
+    "control": "CON",
+    "time": 42,
+    "unit": "week",
+    "treatment_runs": [
+      "SRR25925562"
+    ],
+    "control_runs": [
+      "SRR25925553"
+    ],
+    "sequenced_samples_per_group": 1,
+    "independent_reactor_replicates_per_group": 1,
+    "is_independent_study": false,
+    "caveat": "同一组反应器纵向重复；week6处理前基线另作协变量，不作氧处理比较",
+    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键"
+  },
+  {
+    "comparison_id": "C-PRJNA1013451-W42-MST-SND",
+    "project_id": "PRJNA1013451",
+    "treatment": "MST",
+    "control": "SND",
+    "time": 42,
+    "unit": "week",
+    "treatment_runs": [
+      "SRR25925546"
+    ],
+    "control_runs": [
+      "SRR25925549"
+    ],
+    "sequenced_samples_per_group": 1,
+    "independent_reactor_replicates_per_group": 1,
+    "is_independent_study": false,
+    "caveat": "同一组反应器纵向重复；week6处理前基线另作协变量，不作氧处理比较",
+    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键"
+  },
+  {
+    "comparison_id": "C-PRJNA1287080-R4-R1",
+    "project_id": "PRJNA1287080",
+    "treatment": "R4每天20mL空气",
+    "control": "R1不曝气",
+    "time": 40,
+    "unit": "day",
+    "treatment_runs": [
+      "SRR34383440"
+    ],
+    "control_runs": [
+      "SRR34383441"
+    ],
+    "sequenced_samples_per_group": 1,
+    "independent_reactor_replicates_per_group": null,
+    "caveat": "实验三平行不等于测序三重复；是否混样待核",
+    "evidence": "官方R1-M/R4-M alias与既有R11724方法/数据声明"
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA357876",
+  "checked_utc": "2026-10-24T14:10:08.501298+00:00",
+  "ena_run_count": 6,
+  "ncbi_sra_count": 6,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA357876&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:10:08.501425+00:00",
+    "raw_path": "raw/ENA/d0faf2aef491fef86f78e6d48161b1a0a9fa0020e69d368c5c1f017d3a88897d.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA357876&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 7800,
+    "sha256": "67558d3ac0f82467d5ba78966b86fcd123c15231b27da93a9eac05fc1e9676de",
+    "finished_utc": "2026-10-24T14:10:08.814467+00:00",
+    "measured_wall_seconds": 0.313
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA357876&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:10:09.215982+00:00",
+    "raw_path": "raw/NCBI/7bee5d55b0efab4fa93bfa7ffa59659255fee098346681846727033105856689.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA357876&retmode=json&retmax=200&retstart=0",
+    "bytes": 351,
+    "sha256": "494289c20cff1c67b14516afbad37689baf9ed6ba754c198f794f445f26a1f0f",
+    "finished_utc": "2026-10-24T14:10:09.331938+00:00",
+    "measured_wall_seconds": 0.116
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA357876",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:10:10.002007+00:00",
+    "raw_path": "raw/ENA/7b18936b410d910e6ec1b1bb2c351f2edd66fa5f094acaf5651ed7b18ec8a777.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA357876",
+    "bytes": 2202,
+    "sha256": "ae20f2e0145421f2ee459ff94f5b8bc18491636b006883cff185707bb7eff569",
+    "finished_utc": "2026-10-24T14:10:10.158872+00:00",
+    "measured_wall_seconds": 0.157
+  },
+  "project_title": "Microbial diversity study of a biogas reactor running under at different temperature condition",
+  "project_description": "Biogas digerter samples isolated at different operating conditions",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA357876"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP096931"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "CSIR-National Environmental Engineering Research Institute",
+      "value": "PRJNA357876"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA357876&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA357876&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 6
+}

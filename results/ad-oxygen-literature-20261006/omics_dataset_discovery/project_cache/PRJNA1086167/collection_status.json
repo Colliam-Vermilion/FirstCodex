@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1086167",
+  "checked_utc": "2026-10-24T14:09:54.385463+00:00",
+  "ena_run_count": 3,
+  "ncbi_sra_count": 3,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1086167&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:09:54.386022+00:00",
+    "raw_path": "raw/ENA/b76a4a9971ef28bf25862725f1f8e94c0659b38d0034c1d5ebb2b23fd86238ce.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1086167&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 4082,
+    "sha256": "4462a1e6552256e54d0f5546e877dc1cf89629d33e7ecc0dff15757679c853d8",
+    "finished_utc": "2026-10-24T14:09:54.797671+00:00",
+    "measured_wall_seconds": 0.412
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1086167&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:09:55.198994+00:00",
+    "raw_path": "raw/NCBI/104476bd198ef27fada09c1d02393cd462c771c6713227c736620b6975bea1c3.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1086167&retmode=json&retmax=200&retstart=0",
+    "bytes": 326,
+    "sha256": "06e41b2884fce77b8ab8d9400718ab71d6a77b2ac802686edecb4e4b997aada9",
+    "finished_utc": "2026-10-24T14:09:55.321302+00:00",
+    "measured_wall_seconds": 0.122
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1086167",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:09:55.955329+00:00",
+    "raw_path": "raw/ENA/d87f110a04fe0c7b2342397b11b1df1733e7e7432f2032e0feeb454c295adc1d.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1086167",
+    "bytes": 2105,
+    "sha256": "13e0d74b0c3a8092598c8043631181ff83f88d97ef7ea241498d25673dfaa5eb",
+    "finished_utc": "2026-10-24T14:09:56.950652+00:00",
+    "measured_wall_seconds": 0.995
+  },
+  "project_title": "Microbial sequencing of sludge",
+  "project_description": "The aim of this study was to reveal the role of microaeration in enhancing anaerobic digestion and promoting the formation of large-particle sludge flocs, and to understand microbial community evolution and metabolic status under microcosmic conditions through metagenomics data.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1086167"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP494832"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Guangzhou University",
+      "value": "PRJNA1086167"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1086167&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1086167&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 3
+}

@@ -1,0 +1,46 @@
+{
+  "accession": "PRJNA1438379",
+  "checked_utc": "2026-10-24T14:10:04.896866+00:00",
+  "ena_run_count": 0,
+  "ncbi_sra_count": 0,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1438379&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:10:04.897058+00:00",
+    "raw_path": "raw/ENA/1692bb6a47d19a6dba8a4afd0ca3c77a4d6fdec928e0f67ab3994d65e4dc4a58.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1438379&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 5,
+    "sha256": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d",
+    "finished_utc": "2026-10-24T14:10:05.066777+00:00",
+    "measured_wall_seconds": 0.17
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1438379&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:10:05.467717+00:00",
+    "raw_path": "raw/NCBI/2f802728c5705ca18aabb701c46cdf17b82bf711d26c1f7ad70ba4495ac99728.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1438379&retmode=json&retmax=200&retstart=0",
+    "bytes": 353,
+    "sha256": "e4f5b54f732e7a27e962ca3b388133ba5ef6e2e99c4598729b955ebfa153fd25",
+    "finished_utc": "2026-10-24T14:10:05.572446+00:00",
+    "measured_wall_seconds": 0.105
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1438379",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:10:05.573037+00:00",
+    "raw_path": "raw/ENA/ecbd59b7eaa1c6ef381bdbba378a68a91c0a2ad3fe709aac42d728030a6c9983.body",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found",
+    "bytes": 284,
+    "sha256": "c1c0b07f786141924cda712023daea42ee197e8b194ad68d7778a38a62c638ca",
+    "finished_utc": "2026-10-24T14:10:05.766896+00:00",
+    "measured_wall_seconds": 0.194
+  },
+  "ncbi_run_count_parsed": 0
+}
