@@ -1,0 +1,54 @@
+{
+  "id": "OR-3035DF955A54",
+  "pmid": "34409684",
+  "batch": "B001",
+  "batch_order": 17,
+  "processed_utc": "2026-10-24T03:29:54.011653+00:00",
+  "screening_stage": "全文核实",
+  "screening_decision": "符合本轮核心范围",
+  "screening_reason": "先氧化后厌氧的泥炭甲烷产量显著提高；好氧芳香碳处理与后续氢营养产甲烷相联系；研究对象/处理符合本轮较宽机制范围。 证据层级：处理对照＋产物/地球化学实测；类群代谢分工/类Fenton贡献仍含推测",
+  "research_system": "Sphagnum泥炭浆液/天然微生物群落",
+  "document_type": "期刊原始研究",
+  "exposure_scenarios": [
+    "长期供氧后转厌氧",
+    "反复补气维持氧化阶段",
+    "氧化还原转换"
+  ],
+  "reading_level": "全文相关方法/结果段落",
+  "uncertainties": "需拆分各层/各氧处理效应；Fenton作用和具体互营需同位素/干预",
+  "priority_score": 89,
+  "priority_reason": "区分氧化阶段耗碳与后续厌氧产甲烷，是剂量/时间框架的反例",
+  "source_file": "raw/pmc_fulltext/F34409684_jats.xml",
+  "source_sha256": "127f385f5738d25fa274ab9d5d607730a027ce93474220326d6eae52f9c49abf",
+  "official_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9291790/",
+  "evidence": {
+    "microbial_objects": "Sphagnum泥炭浆液/天然微生物群落",
+    "oxygen_treatment_and_control": [
+      "长期供氧后转厌氧",
+      "反复补气维持氧化阶段",
+      "氧化还原转换"
+    ],
+    "dose_original_units": "0/5/10% (v/v) O2顶空；另短期21%组；非DO",
+    "time_frequency": "98天供氧，每2–3天换顶空；之后134天厌氧，总232天",
+    "substrate": "酸性Sphagnum泥炭；分层样品",
+    "detection_methods": "CH4/H2/CO2/VFA、FT-ICR-MS/XAS、16S/宏基因组",
+    "major_response": "先氧化后厌氧的泥炭甲烷产量显著提高；好氧芳香碳处理与后续氢营养产甲烷相联系",
+    "mechanism_categories": [
+      "M3_metabolism",
+      "M6_recovery",
+      "M7_conditions"
+    ],
+    "evidence_nature": "处理对照＋产物/地球化学实测；类群代谢分工/类Fenton贡献仍含推测",
+    "limitations": "最高2000倍为特定对照/土层，不能泛化；未直接测定全部跨营养通量；pH3.7–4.2与铁化学混杂",
+    "ad_relevance_and_extrapolation_boundary": "适合讨论顺序底物活化与去氧后促进；不等于持续微曝气AD可获同倍数增益",
+    "quote": "T, AWT, and UNS) were then subjected to 0%, 5%, and 10% v/v O2 treatments, with each treatment performed in triplicate. Because preliminary treatment of ",
+    "quote_location": "/pmc-articleset/article[1]/body[1]/sec[2]/sec[2]/p[1]",
+    "quote_section": "MATERIALS AND METHODS/Incubations",
+    "oxygen_vs_ROS": "分别记录，不将H2O2效应等同分子O2；具体区分见响应与限制",
+    "DIET_evidence": "本条没有确证DIET；不得由导电材料/基因/共现推断",
+    "genetic_adaptation_evidence": "未据恢复、驯化或群落替代声称遗传适应",
+    "additional_quote": "to O2 can increase CH4 yields up to 2000‐fold during subsequent anoxic conditions relative to peat without O2 exposure. Geochemical (including ion cyclotron resonance mas",
+    "additional_quote_location": "/pmc-articleset/article[1]/front[1]/article-meta[1]/abstract[1]/p[1]",
+    "additional_quote_section": ""
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "OR-06716459121E",
+  "pmid": "29725720",
+  "batch": "B001",
+  "batch_order": 8,
+  "processed_utc": "2026-10-24T03:29:53.994910+00:00",
+  "screening_stage": "全文核实",
+  "screening_decision": "符合本轮核心范围",
+  "screening_reason": "稳定共存且FISH紧密聚集；作者认为甲烷氧化菌耗氧使产甲烷菌受保护；研究对象/处理符合本轮较宽机制范围。 证据层级：共培养与化学活性/空间成像直接观察；保护因果仍为解释",
+  "research_system": "M. barkeri与Methylocystaceae好氧甲烷氧化菌的限氧MBR共培养",
+  "document_type": "期刊原始研究",
+  "exposure_scenarios": [
+    "持续限氧供给",
+    "空间聚集"
+  ],
+  "reading_level": "全文相关方法/结果段落",
+  "uncertainties": "需拆分甲烷生成/氧化与微区O2通量；非DIET证据",
+  "priority_score": 91,
+  "priority_reason": "将耗氧保护与产物消耗权衡结合，空间观察明确",
+  "source_file": "raw/pmc_fulltext/F29725720_jats.xml",
+  "source_sha256": "6978db7a201a89971e9d619e8d3dc1cf9818cbb8c34fe465e671851f337fbb4b",
+  "official_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5999129/",
+  "evidence": {
+    "microbial_objects": "M. barkeri与Methylocystaceae好氧甲烷氧化菌的限氧MBR共培养",
+    "oxygen_treatment_and_control": [
+      "持续限氧供给",
+      "空间聚集"
+    ],
+    "dose_original_units": "初始气流5 mL/min，空气2.38 mL/min；后总10、空气2.86 mL/min；液相O2低于≤3 μM检出限，不是零",
+    "time_frequency": "两个连续稳定期各约2个月；长期运行",
+    "substrate": "乙酸26.2 mM；供入甲烷/CO2气体",
+    "detection_methods": "甲烷/乙酸/DO/细胞量；FISH空间关联；共培养运行",
+    "major_response": "稳定共存且FISH紧密聚集；作者认为甲烷氧化菌耗氧使产甲烷菌受保护",
+    "mechanism_categories": [
+      "M4_interaction",
+      "M5_spatial"
+    ],
+    "evidence_nature": "共培养与化学活性/空间成像直接观察；保护因果仍为解释",
+    "limitations": "缺少足够去除伴生菌/空间氧微剖面对照以单独证明保护；好氧菌同时耗用甲烷",
+    "ad_relevance_and_extrapolation_boundary": "AD可讨论耗氧保护与甲烷损失权衡；不能把共存直接当增加净甲烷产率",
+    "quote": "sociated with the methanogens (Fig. 5). Methanogens are most likely protected against oxygen by methanotrophs (Fig. 5).",
+    "quote_location": "/pmc-articleset/article[1]/body[1]/sec[4]/p[1]",
+    "quote_section": "Discussion",
+    "oxygen_vs_ROS": "分别记录，不将H2O2效应等同分子O2；具体区分见响应与限制",
+    "DIET_evidence": "本条没有确证DIET；不得由导电材料/基因/共现推断",
+    "genetic_adaptation_evidence": "未据恢复、驯化或群落替代声称遗传适应",
+    "additional_quote": "anogenic archaeon M. barkeri. Oxygen levels remained below the detection limit for the entire experiment. At t = 105 days, methane inflow was reduced to 1.25 mL/min to restrict methanotrophic growth. Co-cultu",
+    "additional_quote_location": "/pmc-articleset/article[1]/body[1]/sec[3]/sec[1]/p[1]",
+    "additional_quote_section": "Results/Start-up of the oxygen-limited bioreactor"
+  }
+}

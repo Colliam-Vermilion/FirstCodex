@@ -31,7 +31,7 @@ def run():
  master=list(csv.DictReader((PROJECT/'final_results/ad_oxygen_download_review_utf8.csv').open(encoding='utf-8-sig')))
  rows=[]
  for r in master:
-  rows.append({'id':r['稳定记录ID'],'title':r['完整题名'],'doi':doi(r['DOI']),'pmid':r['PMID'],'year':r['正式发表年份'],'journal':r['期刊'],'authors':r['作者'].split('; '),'abstract':r['摘要'],'source':'Original AD library','query_id':'OLD554','old_library_ids':[r['稳定记录ID']],'old_ad_classification':r['最终分类'],'old_human_classification':r.get('人工最终分类',''),'raw_path':'../final_results/ad_oxygen_download_review_utf8.csv','url':r['文献链接'],'original_fulltext_paths':r.get('当前正文全部原件路径','')})
+  rows.append({'id':r['稳定记录ID'],'title':r['完整题名'],'doi':doi(r['DOI']),'pmid':r['PMID'],'year':r['正式发表年份'],'journal':r['期刊'],'authors':r['作者'].split('; '),'abstract':r['摘要'],'source':'Original AD library','query_id':'OLD554','old_library_ids':[r['稳定记录ID']],'old_ad_classification':r['最终分类'],'old_human_classification':r.get('人工最终分类',''),'raw_path':'../final_results/ad_oxygen_download_review_utf8.csv','url':r['文献链接'],'original_fulltext_paths':r.get('当前正文全部原件路径',''),'original_document_type':r.get('文献类型','')})
  for p in sorted((ROOT/'raw/pubmed').glob('*_fetch_*.xml')):rows.extend(parse_pubmed(p))
  # Trace/targeted records are kept apart from date-limited discovery.
  for p in sorted((ROOT/'raw/trace').glob('*_fetch_*.xml')):rows.extend(parse_pubmed(p))

@@ -1,0 +1,54 @@
+{
+  "id": "OR-2205F2FD0EB7",
+  "pmid": "33147001",
+  "batch": "B001",
+  "batch_order": 15,
+  "processed_utc": "2026-10-24T03:29:54.005156+00:00",
+  "screening_stage": "摘要初筛",
+  "screening_decision": "符合本轮核心范围",
+  "screening_reason": "中心代谢转录下调，部分运输/鞭毛模块上调；适量nZVI下活性/转录接近对照；研究对象/处理符合本轮较宽机制范围。 证据层级：受控DO/恢复干预＋实测活性；能量重分配/kat-sod角色主要为作者推断",
+  "research_system": "Kuenenia stuttgartiensis富集培养（Anammox）",
+  "document_type": "期刊原始研究",
+  "exposure_scenarios": [
+    "急性氧抑制",
+    "去氧后恢复",
+    "还原剂辅助恢复"
+  ],
+  "reading_level": "仅题名/摘要",
+  "uncertainties": "补恢复时间、ROS与铁化学控制；验证所谓stringent response的干预证据",
+  "priority_score": 88,
+  "priority_reason": "有明确DO×时长与恢复处理，但推断层级需拆开",
+  "source_file": "raw/pubmed/P12_fetch_00000.xml",
+  "source_sha256": "51fb4a21e7dadea02ed22b848f88c16ace76e42dac688ee83e3160e0c3dbd004",
+  "official_url": "https://pubmed.ncbi.nlm.nih.gov/33147001/",
+  "evidence": {
+    "microbial_objects": "Kuenenia stuttgartiensis富集培养（Anammox）",
+    "oxygen_treatment_and_control": [
+      "急性氧抑制",
+      "去氧后恢复",
+      "还原剂辅助恢复"
+    ],
+    "dose_original_units": "2 mg L−1 DO；恢复nZVI 5/25 mg L−1；N2吹扫对照",
+    "time_frequency": "90 min氧暴露；恢复时间未由摘要核实",
+    "substrate": "Anammox底物；具体浓度未核实",
+    "detection_methods": "Anammox活性、转录组、N2或nZVI恢复处理",
+    "major_response": "中心代谢转录下调，部分运输/鞭毛模块上调；适量nZVI下活性/转录接近对照",
+    "mechanism_categories": [
+      "M2_detox",
+      "M6_recovery",
+      "M7_conditions"
+    ],
+    "evidence_nature": "受控DO/恢复干预＋实测活性；能量重分配/kat-sod角色主要为作者推断",
+    "limitations": "不能把kat/sod共转录当已证实ROS清除；铁的化学耗氧/生物效应未分离；全文未读",
+    "ad_relevance_and_extrapolation_boundary": "可借鉴AD恢复设计和活性-转录联合，不能将Anammox代谢结论直接套用产甲烷菌",
+    "quote": "refore, the effects of oxygen exposure (2 mg L-1 DO for 90 min) and subsequent recovery treatments [N2 purging or nano zero-valent iron (nZVI)",
+    "quote_location": "Abstract/AbstractText[1]",
+    "quote_section": "Abstract",
+    "oxygen_vs_ROS": "分别记录，不将H2O2效应等同分子O2；具体区分见响应与限制",
+    "DIET_evidence": "本条没有确证DIET；不得由导电材料/基因/共现推断",
+    "genetic_adaptation_evidence": "未据恢复、驯化或群落替代声称遗传适应",
+    "additional_quote": "ith central catabolism genes, putative reactive oxygen species (ROS) scavenger genes (kat and sod) were presumed to detoxify the anammox intermediates rather than ROS. In addition, both activity and mRNA profiles w",
+    "additional_quote_location": "Abstract/AbstractText[1]",
+    "additional_quote_section": "Abstract"
+  }
+}

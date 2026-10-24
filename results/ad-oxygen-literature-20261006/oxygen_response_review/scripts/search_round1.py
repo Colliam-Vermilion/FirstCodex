@@ -60,6 +60,9 @@ PUBMED = [
  ('P12','recovery repeated exposure','(anaerob* OR methanogen*) AND ("oxygen shock" OR "oxygen exposure" OR "oxygen pulse" OR "intermittent aeration") AND (recover* OR adapt* OR repeated)'),
  ('P13','AD mechanistic response','("anaerobic digestion" OR "methanogenic sludge") AND (microaeration OR "oxygen shock" OR "oxygen exposure") AND (microbial OR enzyme OR metabol* OR syntroph*)'),
  ('P14','fermenter metabolic switch','(Clostridium OR "fermentative bacteria" OR "strict anaerobes") AND (microoxic OR "oxygen exposure" OR "oxygen stress") AND (ferment* OR "electron flow" OR "redox balance")'),
+ ('P15','hit-driven expansion: PFOR direct oxygen damage','(Bacteroides OR Desulfovibrio OR anaerob*) AND (PFOR OR "pyruvate ferredoxin oxidoreductase" OR "pyruvate formate lyase") AND ("oxygen sensitivity" OR "oxygen damage" OR "oxygen exposure" OR "oxygen inactivation")'),
+ ('P16','hit-driven expansion: cytochrome bd oxygen protection','(methanogen* OR "gut anaerobes" OR Akkermansia OR Proteiniphilum) AND ("cytochrome bd" OR "bd-type") AND (oxygen OR microaer*)'),
+ ('P17','hit-driven expansion: selenium redox response','(methanogen* OR "hydrogenotrophic community") AND (selenoproteome OR selenocysteine) AND ("oxidative stress" OR oxygen)'),
 ]
 
 def run():

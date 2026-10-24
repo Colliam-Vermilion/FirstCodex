@@ -16,6 +16,8 @@ def run():
  decisions=[json.loads(p.read_text()) for p in sorted((ROOT/'decisions').glob('*.json'))] if (ROOT/'decisions').exists() else []
  decisions.sort(key=lambda r:r['batch_order']);dump(ROOT/'screening.json',decisions)
  cat=json.loads((ROOT/'catalog.json').read_text()); index={r['id']:r for r in cat}; evidence=[];priority=[]
+ for c in cat:
+  if not c.get('document_type'):c['document_type']=c.get('original_document_type') or '; '.join(c.get('publication_types',[])) or '来源未明确，待核实'
  for r in decisions:
   c=index[r['id']]
   for k in ['screening_stage','screening_decision','screening_reason','research_system','exposure_scenarios','reading_level','document_type','uncertainties']:
@@ -39,11 +41,18 @@ def run():
    for k in sorted(buckets):
     if buckets[k]:ids.append(buckets[k].pop(0)['id'])
   dump(order_file,[{'order':i+1,'id':rid,'mechanism_hint_not_a_decision':hint(index[rid])} for i,rid in enumerate(ids)])
+ # Hit-driven expansions can add records after a checkpoint. Append; never
+ # reorder the already frozen queue or assign a new ID to processed articles.
+ order=json.loads(order_file.read_text());known={r['id'] for r in order}
+ for r in sorted(cat,key=lambda r:r['id']):
+  if r['id'] not in known:order.append({'order':len(order)+1,'id':r['id'],'mechanism_hint_not_a_decision':hint(r),'appended_after_hit_expansion':True})
+ dump(order_file,order)
  done={r['id'] for r in decisions};queue=[]
  for o in json.loads(order_file.read_text()):
   r=index.get(o['id'])
   if r and r['id'] not in done:queue.append({**o,'title':r['title'],'year':r.get('year',''),'doi':r.get('doi',''),'pmid':r.get('pmid',''),'old_library_ids':r['old_library_ids'],'old_ad_classification':r.get('old_ad_classification',''),'new_scope_stage':'未开始','abstract_available':bool(r.get('abstract')),'source_queries':r['queries']})
  dump(ROOT/'catalog.json',cat);dump(ROOT/'mechanism_evidence.json',evidence);dump(ROOT/'priority_reading.json',sorted(priority,key=lambda r:(-r['priority_score'],r['id'])));dump(ROOT/'remaining_queue.json',queue)
+ csvout(ROOT/'batch_B001_results_utf8.csv',[{**{k:v for k,v in r.items() if k!='evidence'},'title':index[r['id']]['title'],'doi':index[r['id']].get('doi','')} for r in decisions])
  columns=['id','title','year','journal','doi','pmid','authors','sources','queries','research_system','document_type','old_library_ids','old_ad_classification','old_human_classification','screening_stage','screening_decision','screening_reason','reading_level','exposure_scenarios','early_key_study','uncertainties','abstract','url','original_fulltext_paths','provenance']
  csvout(ROOT/'literature_master_utf8.csv',cat,columns);csvout(ROOT/'mechanism_evidence_utf8.csv',evidence);csvout(ROOT/'priority_reading_utf8.csv',sorted(priority,key=lambda r:(-r['priority_score'],r['id'])));csvout(ROOT/'remaining_queue_utf8.csv',queue)
  logs=json.loads((ROOT/'search_log.json').read_text());csvout(ROOT/'search_log_utf8.csv',logs)
@@ -52,7 +61,10 @@ def run():
  for filename,records in [('oxygen_response_all_candidates.ris',cat),('oxygen_response_B001.ris',[index[r['id']] for r in decisions])]:
   ris=[]
   for r in records:
-   ris+=['TY  - JOUR','ID  - '+r['id'],'TI  - '+r['title']]
+   types=' '.join(r.get('publication_types',[])).lower()
+   oldtype=r.get('original_document_type','')
+   ty='THES' if ('dissertation' in types or '学位' in oldtype) else 'RPRT' if ('报告' in oldtype) else 'CHAP' if 'book-chapter' in types else 'GEN' if any(t in types for t in ['peer-review','posted-content','proceedings','dataset']) else 'JOUR'
+   ris+=['TY  - '+ty,'ID  - '+r['id'],'TI  - '+r['title']]
    for a in r.get('authors',[]):
     if a:ris.append('AU  - '+a)
    for k,v in [('PY',r.get('year')),('JO',r.get('journal')),('DO',r.get('doi')),('AN',r.get('pmid')),('UR',r.get('url')),('AB',r.get('abstract'))]:

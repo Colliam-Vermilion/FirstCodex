@@ -1,0 +1,51 @@
+{
+  "id": "OR-5DA7260E019E",
+  "pmid": "40057977",
+  "batch": "B001",
+  "batch_order": 19,
+  "processed_utc": "2026-10-24T03:29:54.017221+00:00",
+  "screening_stage": "全文核实",
+  "screening_decision": "符合本轮核心范围",
+  "screening_reason": "O2条件下呼吸相关信号与转录方向可分离，不能由RNA降低就判功能停滞；laminarin影响单细胞活性；研究对象/处理符合本轮较宽机制范围。 证据层级：单细胞活性代理＋组学/化学；非直接每细胞硫酸盐通量全量测定",
+  "research_system": "天然缺氧海岸沉积物单细胞群落：Chloroflexota等",
+  "document_type": "期刊原始研究",
+  "exposure_scenarios": [
+    "24 h短期氧暴露",
+    "底物×氧处理"
+  ],
+  "reading_level": "全文相关方法/结果段落",
+  "uncertainties": "核实O2原始测量和RNA重复数；探针速率到硫酸盐还原的换算前提需单列",
+  "priority_score": 86,
+  "priority_reason": "用活动代理与转录解耦提醒功能证据层级，具有方法学价值",
+  "source_file": "raw/pmc_fulltext/F40057977_jats.xml",
+  "source_sha256": "30cfadd894cefe05f06343a832e7b7d96b21cab508eeb83afa1397688a754b00",
+  "official_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11919646/",
+  "evidence": {
+    "microbial_objects": "天然缺氧海岸沉积物单细胞群落：Chloroflexota等",
+    "oxygen_treatment_and_control": [
+      "24 h短期氧暴露",
+      "底物×氧处理"
+    ],
+    "dose_original_units": "作者写25% of atmospheric oxygen，方法同时称4% total oxygen；保留原始定义，不擅自统一；1 mM laminarin",
+    "time_frequency": "24 h；沉积物1:100稀释，另time0对照",
+    "substrate": "天然沉积物＋有/无laminarin",
+    "detection_methods": "RSG电子传递探针、index-FACS、单细胞基因组、宏转录、气体/硫化物",
+    "major_response": "O2条件下呼吸相关信号与转录方向可分离，不能由RNA降低就判功能停滞；laminarin影响单细胞活性",
+    "mechanism_categories": [
+      "M3_metabolism",
+      "M7_conditions"
+    ],
+    "evidence_nature": "单细胞活性代理＋组学/化学；非直接每细胞硫酸盐通量全量测定",
+    "limitations": "RSG是电子传递代理，硫酸盐还原速率依作者估算；宏转录仅加laminarin两样有足够RNA；O2单位表述有歧义",
+    "ad_relevance_and_extrapolation_boundary": "说明AD多层证据不能互替；海水硫酸盐环境、稀释与短期培养外推受限",
+    "quote": "and outliers are displayed as diamonds. Only these two samples with added laminarin yielded enough material for sequencing in RNA extractions. The top quartile of phyla (as determined by ",
+    "quote_location": "/pmc-articleset/article[1]/body[1]/sec[3]/sec[2]/fig[3]/caption[1]",
+    "quote_section": "Results and discussion/Active anaerobic lineages present in shallow subsurface coastal marine sediment",
+    "oxygen_vs_ROS": "分别记录，不将H2O2效应等同分子O2；具体区分见响应与限制",
+    "DIET_evidence": "本条没有确证DIET；不得由导电材料/基因/共现推断",
+    "genetic_adaptation_evidence": "未据恢复、驯化或群落替代声称遗传适应",
+    "additional_quote": "f polysaccharides. There is a decoupling of respiration-related activity rates from transcription, as respiration rates increase while transcription decreases with oxygen exposure. Over",
+    "additional_quote_location": "/pmc-articleset/article[1]/front[1]/article-meta[1]/abstract[1]/p[1]",
+    "additional_quote_section": ""
+  }
+}

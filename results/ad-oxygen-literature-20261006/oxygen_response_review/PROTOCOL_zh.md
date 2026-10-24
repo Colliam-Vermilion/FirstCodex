@@ -14,7 +14,7 @@
 
 按nature-academic-search多源流程，固定工具源码b543e8b998eb2df1fd44641cc8b262c638c2b442。MCP列出16工具，但真实检索的内部errors非空；CLI一次OpenAlex429。采用官方API完成分页，保留request_log.jsonl中的URL（不含联系人/凭据）、时间、返回字节SHA和所有原始响应。失败工具不计来源成功。
 
-PubMed P01–P14：2012-01-01到2026-10-24，按产甲烷菌、酶、肠道、互营、颗粒/生物膜、沉积物、泥炭/湿地、瘤胃、氧敏感酶、微氧代谢、恢复及AD分组。完整ESearch PMID和EFetch返回，实际QueryTranslation保留。使用自动词映射而非所有词限定TIAB，可能命中运动生理等噪声；未筛记录不视为纳入。OpenAlex O01–O03用title_and_abstract.search、相同日期及cursor，三组均自然结束。Crossref C01–C03是query.bibliographic相关性检索，每组取前100，保留实际超大报告数和未取回尾部；不声称完整遍历Crossref。完整查询与实际数在search_log.json/CSV，不能将来源报告总数当实际取回数。
+PubMed P01–P17：2012-01-01到2026-10-24，前14组按产甲烷菌、酶、肠道、互营、颗粒/生物膜、沉积物、泥炭/湿地、瘤胃、氧敏感酶、微氧代谢、恢复及AD分组，P15–17按实际命中扩展PFOR/PFL、cytochrome bd和selenoproteome。完整ESearch PMID和EFetch返回，实际QueryTranslation保留。使用自动词映射而非所有词限定TIAB，可能命中运动生理等噪声；未筛记录不视为纳入。OpenAlex O01–O03用title_and_abstract.search、相同日期及cursor，三组均自然结束。Crossref C01–C03是query.bibliographic相关性检索，每组取前100，保留实际超大报告数和未取回尾部；不声称完整遍历Crossref。完整查询与实际数在search_log.json/CSV，不能将来源报告总数当实际取回数。
 
 以实际读到的B. thetaiotaomicron 2020原研究为种子，后向保存完整参考文献线索，并按原文编号核验2004纳摩尔氧生长、2001丙酮酸代谢、2008PFOR保护和2018内源超氧四项PubMed记录。前三项明确标早期文献，入待处理队列，不冒充本批全文已读。前向OpenAlex按cites:W3016413973、同日期窗完整分页，记录在forward_trace_log.json。真实命中扩展了PFOR/PFL、rubredoxin domains、cytochrome bd、selenoproteome、acetate/oleate、ORM2、laminarin等术语；扩展的原因和后续检索建议单列，不把建议当已执行查询。
 

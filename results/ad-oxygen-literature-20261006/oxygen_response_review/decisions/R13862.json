@@ -1,0 +1,52 @@
+{
+  "id": "R13862",
+  "pmid": "32515155",
+  "batch": "B001",
+  "batch_order": 7,
+  "processed_utc": "2026-10-24T03:29:53.992676+00:00",
+  "screening_stage": "全文核实",
+  "screening_decision": "符合本轮核心范围",
+  "screening_reason": "四菌体系微氧下油酸转化加速；Pseudomonas可消耗中间产物，作者提出耗氧保护和替代H2/甲酸清除；研究对象/处理符合本轮较宽机制范围。 证据层级：组合培养＋实测产物/底物；具体保护路径含推断",
+  "research_system": "S. zehnderi＋M. formicicum＋两株Pseudomonas合成共培养",
+  "document_type": "期刊原始研究",
+  "exposure_scenarios": [
+    "厌氧转微氧",
+    "低氧共培养"
+  ],
+  "reading_level": "全文相关方法/结果段落",
+  "uncertainties": "需按Table1分开连续与批次剂量；保护与中间物竞争贡献需进一步干预",
+  "priority_score": 94,
+  "priority_reason": "合成共培养与代谢物控制优于只看共现丰度",
+  "source_file": "../original_files/R13862/fulltext/fulltext__published__64e03a9beb5813a0.pdf",
+  "source_sha256": "64e03a9beb5813a0ce6d94272350217f12dac94293420969e3d2d9d7975e96e3",
+  "official_url": "https://doi.org/10.1111/1462-2920.15124",
+  "evidence": {
+    "microbial_objects": "S. zehnderi＋M. formicicum＋两株Pseudomonas合成共培养",
+    "oxygen_treatment_and_control": [
+      "厌氧转微氧",
+      "低氧共培养"
+    ],
+    "dose_original_units": "连续期供氧条件变化；摘要报告5% O2；批次组2% (v/v)顶空O2，辅助底物测试4/5%；不合并剂量",
+    "time_frequency": "连续反应器多阶段与批次；各阶段时长需结合Table1",
+    "substrate": "油酸；部分测试H2、甲酸、乙酸",
+    "detection_methods": "连续/批次共培养与组分对照；LCFA/VFA、甲烷、H2、显微镜及ORP",
+    "major_response": "四菌体系微氧下油酸转化加速；Pseudomonas可消耗中间产物，作者提出耗氧保护和替代H2/甲酸清除",
+    "mechanism_categories": [
+      "M3_metabolism",
+      "M4_interaction",
+      "M7_conditions"
+    ],
+    "evidence_nature": "组合培养＋实测产物/底物；具体保护路径含推断",
+    "limitations": "连续阶段同时改变底物/运行方式/供氧，存在混杂；部分还原剂缓冲；非DIET证明；各O2组不能合并",
+    "ad_relevance_and_extrapolation_boundary": "直接参考AD脂肪酸互营与兼性菌作用；简化四菌体系不代表复杂污泥",
+    "quote": "rogen to air (21% of oxy- toxicity, the results obtained by us strongly suggest that gen) (Table 1). When methane production dropped, Pseudomonas may act as al",
+    "quote_location": "PDF page 7",
+    "quote_section": "PDF page",
+    "oxygen_vs_ROS": "分别记录，不将H2O2效应等同分子O2；具体区分见响应与限制",
+    "DIET_evidence": "本条没有确证DIET；不得由导电材料/基因/共现推断",
+    "genetic_adaptation_evidence": "未据恢复、驯化或群落替代声称遗传适应",
+    "additional_quote": "during LCFA degradation ever, acetate production from oleate was higher in [e.g. volatile fatty acids (VFAs)], which may enable these microaerophilic conditions (5% O2) with the four bacteria to outnum",
+    "additional_quote_location": "PDF page 1",
+    "additional_quote_section": "PDF page"
+  }
+}

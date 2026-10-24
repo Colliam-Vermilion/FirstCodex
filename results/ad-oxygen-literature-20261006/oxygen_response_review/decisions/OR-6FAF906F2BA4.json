@@ -1,0 +1,51 @@
+{
+  "id": "OR-6FAF906F2BA4",
+  "pmid": "38580315",
+  "batch": "B001",
+  "batch_order": 18,
+  "processed_utc": "2026-10-24T03:29:54.014324+00:00",
+  "screening_stage": "待确认",
+  "screening_decision": "待确认：氧处理/因果归因不足",
+  "screening_reason": "高ORP组ROS缓解及硒相关蛋白变化；作者提出动态硒蛋白组帮助氧化应激适应；氧进入/氧处理对照尚不足，需具体核实。 证据层级：蛋白组/甲烷测量；氧侵入为间接推断，因果归因待确认",
+  "research_system": "H2/CO2氢营养产甲烷群落；AQDS氧化还原缓冲",
+  "document_type": "期刊原始研究",
+  "exposure_scenarios": [
+    "推断的意外空气侵入",
+    "高ORP波动"
+  ],
+  "reading_level": "全文相关方法/结果段落",
+  "uncertainties": "需要O2直接测量、无AQDS但无氧对照及硒路径干预，当前保留待确认",
+  "priority_score": 79,
+  "priority_reason": "重点读其证据边界，避免ORP或蛋白变化替代氧剂量与保护因果",
+  "source_file": "raw/pmc_fulltext/F38580315_jats.xml",
+  "source_sha256": "e04c30de7058b031bbf410dacf1c4099453ba6e94b706060f7d788a3c2927a94",
+  "official_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11025550/",
+  "evidence": {
+    "microbial_objects": "H2/CO2氢营养产甲烷群落；AQDS氧化还原缓冲",
+    "oxygen_treatment_and_control": [
+      "推断的意外空气侵入",
+      "高ORP波动"
+    ],
+    "dose_original_units": "未直接测O2；无/25 mM AQDS；ORP>50 mV推断氧侵入，禁止换算DO",
+    "time_frequency": "20/21天蛋白组取样；每日H2/CO2 80:20补至1.8 bar",
+    "substrate": "H2/CO2；有/无AQDS，未加其他还原剂",
+    "detection_methods": "ORP/pH/气压/CH4＋宏蛋白组、硫→硒质量位移检索",
+    "major_response": "高ORP组ROS缓解及硒相关蛋白变化；作者提出动态硒蛋白组帮助氧化应激适应",
+    "mechanism_categories": [
+      "M2_detox",
+      "M6_recovery"
+    ],
+    "evidence_nature": "蛋白组/甲烷测量；氧侵入为间接推断，因果归因待确认",
+    "limitations": "DO未测；AQDS可改变电子流和化学环境，并非只改变O2；硒替换因果保护未干预",
+    "ad_relevance_and_extrapolation_boundary": "与AD氢营养群落相关，但应作红氧应激机制线索，不能当定量直接氧暴露证据",
+    "quote": "en, at the entry points of the sensors. Oxygen infiltration was not measured directly as dissolved oxygen but was inferred from the increase in the ORP to over 50 mV (Figure 1A). The cu",
+    "quote_location": "/pmc-articleset/article[1]/body[1]/sec[3]/sec[1]/p[1]",
+    "quote_section": "Results and Discussion/Enrichment under Oxidative Conditions",
+    "oxygen_vs_ROS": "分别记录，不将H2O2效应等同分子O2；具体区分见响应与限制",
+    "DIET_evidence": "本条没有确证DIET；不得由导电材料/基因/共现推断",
+    "genetic_adaptation_evidence": "未据恢复、驯化或群落替代声称遗传适应",
+    "additional_quote": "stered together and exhibited higher expression levels in the H-ORP samples (Figure 2A). In addition, these functions were grouped with selenium-associated proteins and cysteine and methionine metabolism. ",
+    "additional_quote_location": "/pmc-articleset/article[1]/body[1]/sec[3]/sec[2]/p[1]",
+    "additional_quote_section": "Results and Discussion/Expression of ROS Mitigation Pathways"
+  }
+}

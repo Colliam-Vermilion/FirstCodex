@@ -1,3 +1,16 @@
+# 氧响应机制补充检索（B001，2026-10-24）
+
+本轮为独立新范围，原554条AD总库/人工判断、原件及omics/JCR结论保留。实际PubMed、Crossref、OpenAlex及引用追溯返回1147条，去重1039身份，其中57关联旧库、982为旧库外候选。累计新范围关联池1536条（含未重新命中的旧库），不是纳入数。
+
+首批20候选已逐篇保存：17核心、1离体酶学证据、2待确认。10篇实际读取相关全文段落、10篇仅摘要；全文核实9/摘要初筛9/待确认2，未把摘要初筛称全文完成。剩1516条未筛，冻结顺序从OR-A62BB0EB055B续跑。
+
+- **[累计Excel](oxygen_response_review/oxygen_response_review_cumulative.xlsx)** · [首批20结果](oxygen_response_review/batch_B001_results_utf8.csv) · [机制证据](oxygen_response_review/mechanism_evidence_utf8.csv) · **[首批EndNote RIS](oxygen_response_review/oxygen_response_B001.ris)**
+- [机制发现/外推边界/综述框架](oxygen_response_review/MECHANISM_SYNTHESIS_zh.md) · [完整交付与限制](oxygen_response_review/README.md) · [查询和原始返回/续跑协议](oxygen_response_review/PROTOCOL_zh.md) · [保护与定位验证](oxygen_response_review/validation.json)
+
+以下AD原范围、获取和组学成果不被本轮新范围筛选替代；旧AD排除记录在本轮参与查重并独立重判。
+
+---
+
 # 当前新增：宏基因组／宏转录组累计全文筛查（B010）
 
 最后26条未开始研究R13938–R13973已逐篇核查并完成：0宏基因组、0宏转录组、0新增待确认。累计333研究完成、8研究待确认、未开始0；341核验全文研究已全部进入方法筛查，待确认不计阴性。另34缺正文、51综述单列。
