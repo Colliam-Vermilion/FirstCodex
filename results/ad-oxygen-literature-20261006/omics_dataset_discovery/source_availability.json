@@ -1,0 +1,26 @@
+[
+  {
+    "database": "NCBI BioProject/SRA/PubMed/Assembly",
+    "status": "官方API实际成功；完整查询、ID分页和响应已缓存",
+    "access_test": "request_log.jsonl",
+    "raw_reads_downloaded": false
+  },
+  {
+    "database": "ENA",
+    "status": "官方search/filereport/project XML实际成功；E05官方limit=0全量1282并核count",
+    "access_test": "search_log.json",
+    "raw_reads_downloaded": false
+  },
+  {
+    "database": "GSA",
+    "status": "入口代理403；未执行平台检索，返回数未知",
+    "access_test": "search_log.json:GSA-availability",
+    "raw_reads_downloaded": false
+  },
+  {
+    "database": "ENA FASTQ文件服务器",
+    "status": "7项目抽检HEAD被环境代理403；仅核官方URL/bytes/MD5列表，文件未下载验证",
+    "access_test": "file_entry_HEAD_probes.json",
+    "raw_reads_downloaded": false
+  }
+]

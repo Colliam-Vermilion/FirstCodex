@@ -1,0 +1,304 @@
+[
+  {
+    "comparison_id": "C-PRJNA1013451-W23-MAT-CON",
+    "project_id": "PRJNA1013451",
+    "treatment": "MAT",
+    "control": "CON",
+    "time": 23,
+    "unit": "week",
+    "treatment_runs": [
+      "SRR25925563"
+    ],
+    "control_runs": [
+      "SRR25925564"
+    ],
+    "sequenced_samples_per_group": 1,
+    "independent_reactor_replicates_per_group": 1,
+    "is_independent_study": false,
+    "caveat": "同一组反应器纵向重复；week6处理前基线另作协变量，不作氧处理比较",
+    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键",
+    "design_evidence_level": "既有全文方法+官方样本映射"
+  },
+  {
+    "comparison_id": "C-PRJNA1013451-W23-MST-SND",
+    "project_id": "PRJNA1013451",
+    "treatment": "MST",
+    "control": "SND",
+    "time": 23,
+    "unit": "week",
+    "treatment_runs": [
+      "SRR25925547"
+    ],
+    "control_runs": [
+      "SRR25925550"
+    ],
+    "sequenced_samples_per_group": 1,
+    "independent_reactor_replicates_per_group": 1,
+    "is_independent_study": false,
+    "caveat": "同一组反应器纵向重复；week6处理前基线另作协变量，不作氧处理比较",
+    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键",
+    "design_evidence_level": "既有全文方法+官方样本映射"
+  },
+  {
+    "comparison_id": "C-PRJNA1013451-W42-MAT-CON",
+    "project_id": "PRJNA1013451",
+    "treatment": "MAT",
+    "control": "CON",
+    "time": 42,
+    "unit": "week",
+    "treatment_runs": [
+      "SRR25925562"
+    ],
+    "control_runs": [
+      "SRR25925553"
+    ],
+    "sequenced_samples_per_group": 1,
+    "independent_reactor_replicates_per_group": 1,
+    "is_independent_study": false,
+    "caveat": "同一组反应器纵向重复；week6处理前基线另作协变量，不作氧处理比较",
+    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键",
+    "design_evidence_level": "既有全文方法+官方样本映射"
+  },
+  {
+    "comparison_id": "C-PRJNA1013451-W42-MST-SND",
+    "project_id": "PRJNA1013451",
+    "treatment": "MST",
+    "control": "SND",
+    "time": 42,
+    "unit": "week",
+    "treatment_runs": [
+      "SRR25925546"
+    ],
+    "control_runs": [
+      "SRR25925549"
+    ],
+    "sequenced_samples_per_group": 1,
+    "independent_reactor_replicates_per_group": 1,
+    "is_independent_study": false,
+    "caveat": "同一组反应器纵向重复；week6处理前基线另作协变量，不作氧处理比较",
+    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键",
+    "design_evidence_level": "既有全文方法+官方样本映射"
+  },
+  {
+    "comparison_id": "C-PRJNA1287080-R4-R1",
+    "project_id": "PRJNA1287080",
+    "treatment": "R4每天20mL空气",
+    "control": "R1不曝气",
+    "time": 40,
+    "unit": "day",
+    "treatment_runs": [
+      "SRR34383440"
+    ],
+    "control_runs": [
+      "SRR34383441"
+    ],
+    "sequenced_samples_per_group": 1,
+    "independent_reactor_replicates_per_group": null,
+    "caveat": "实验三平行不等于测序三重复；是否混样待核",
+    "evidence": "官方R1-M/R4-M alias与既有R11724方法/数据声明",
+    "design_evidence_level": "既有全文方法+官方样本映射"
+  },
+  {
+    "comparison_id": "C-PRJDB17922-O2-before-after",
+    "project_id": "PRJDB17922",
+    "treatment": "after increase O2",
+    "control": "before increase O2（微氧基线，非严格无氧）",
+    "treatment_runs": [
+      "DRR546166",
+      "DRR546165",
+      "DRR546164"
+    ],
+    "control_runs": [
+      "DRR546163",
+      "DRR546162",
+      "DRR546161"
+    ],
+    "sequenced_samples_per_group": 3,
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "官方项目/样本元数据；完整方法及生物重复待核",
+    "caveat": "3个编号不等于3独立反应器；具体O2剂量、时间和RNA去rRNA方案待核"
+  },
+  {
+    "comparison_id": "C-PRJNA1403469-SBR1-AE-AN",
+    "project_id": "PRJNA1403469",
+    "treatment": "SBR1 aerobic phase",
+    "control": "SBR1 anaerobic phase",
+    "treatment_runs": [
+      "SRR36851619"
+    ],
+    "control_runs": [
+      "SRR36851620"
+    ],
+    "sequenced_samples_per_group": 1,
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "官方项目说明/样本别名；完整方法及生物重复待核",
+    "caveat": "阶段/时间和底物变化并存；两SBR进料不同，不作为同条件独立重复"
+  },
+  {
+    "comparison_id": "C-PRJNA1403469-SBR2-AE-AN",
+    "project_id": "PRJNA1403469",
+    "treatment": "SBR2 aerobic phase",
+    "control": "SBR2 anaerobic phase",
+    "treatment_runs": [
+      "SRR36851617"
+    ],
+    "control_runs": [
+      "SRR36851618"
+    ],
+    "sequenced_samples_per_group": 1,
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "官方项目说明/样本别名；完整方法及生物重复待核",
+    "caveat": "阶段/时间和底物变化并存；两SBR进料不同，不作为同条件独立重复"
+  },
+  {
+    "comparison_id": "C-PRJNA551662-5percent-vs-0percent-T1-pooled",
+    "project_id": "PRJNA551662",
+    "treatment": "5percent",
+    "control": "0percent-T1-pooled",
+    "treatment_runs": [
+      "SRR9617302"
+    ],
+    "control_runs": [
+      "SRR9617303"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "缓存官方全文方法+官方样本映射",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文",
+    "method_evidence_path": "reused_cached_fulltext_methods.json",
+    "method_source_page": "https://pubmed.ncbi.nlm.nih.gov/34409684/"
+  },
+  {
+    "comparison_id": "C-PRJNA551662-10percent-vs-0percent-T1-pooled",
+    "project_id": "PRJNA551662",
+    "treatment": "10percent",
+    "control": "0percent-T1-pooled",
+    "treatment_runs": [
+      "SRR9617318"
+    ],
+    "control_runs": [
+      "SRR9617303"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "缓存官方全文方法+官方样本映射",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文",
+    "method_evidence_path": "reused_cached_fulltext_methods.json",
+    "method_source_page": "https://pubmed.ncbi.nlm.nih.gov/34409684/"
+  },
+  {
+    "comparison_id": "C-PRJNA551662-5percent-vs-0percent-T5-UNS",
+    "project_id": "PRJNA551662",
+    "treatment": "5percent",
+    "control": "0percent-T5-UNS",
+    "treatment_runs": [
+      "SRR9617297",
+      "SRR9617300"
+    ],
+    "control_runs": [
+      "SRR9617304"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "缓存官方全文方法+官方样本映射",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文",
+    "method_evidence_path": "reused_cached_fulltext_methods.json",
+    "method_source_page": "https://pubmed.ncbi.nlm.nih.gov/34409684/"
+  },
+  {
+    "comparison_id": "C-PRJNA551662-10percent-vs-0percent-T5-UNS",
+    "project_id": "PRJNA551662",
+    "treatment": "10percent",
+    "control": "0percent-T5-UNS",
+    "treatment_runs": [
+      "SRR9617313",
+      "SRR9617316"
+    ],
+    "control_runs": [
+      "SRR9617304"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "缓存官方全文方法+官方样本映射",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文",
+    "method_evidence_path": "reused_cached_fulltext_methods.json",
+    "method_source_page": "https://pubmed.ncbi.nlm.nih.gov/34409684/"
+  },
+  {
+    "comparison_id": "C-PRJNA551662-5percent-vs-0percent-T5-BWT",
+    "project_id": "PRJNA551662",
+    "treatment": "5percent",
+    "control": "0percent-T5-BWT",
+    "treatment_runs": [
+      "SRR9617296",
+      "SRR9617317"
+    ],
+    "control_runs": [
+      "SRR9617301"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "缓存官方全文方法+官方样本映射",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文",
+    "method_evidence_path": "reused_cached_fulltext_methods.json",
+    "method_source_page": "https://pubmed.ncbi.nlm.nih.gov/34409684/"
+  },
+  {
+    "comparison_id": "C-PRJNA551662-10percent-vs-0percent-T5-BWT",
+    "project_id": "PRJNA551662",
+    "treatment": "10percent",
+    "control": "0percent-T5-BWT",
+    "treatment_runs": [
+      "SRR9617312",
+      "SRR9617325",
+      "SRR9617326"
+    ],
+    "control_runs": [
+      "SRR9617301"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "缓存官方全文方法+官方样本映射",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文",
+    "method_evidence_path": "reused_cached_fulltext_methods.json",
+    "method_source_page": "https://pubmed.ncbi.nlm.nih.gov/34409684/"
+  },
+  {
+    "comparison_id": "C-PRJNA347538-oxic-vs-anoxic-day15",
+    "project_id": "PRJNA347538",
+    "treatment": "oxic",
+    "control": "anoxic-day15",
+    "treatment_runs": [
+      "SRR5200665",
+      "SRR5200664",
+      "SRR5200663",
+      "SRR5200662",
+      "SRR5200661",
+      "SRR5200660",
+      "SRR5200659",
+      "SRR5200658"
+    ],
+    "control_runs": [
+      "SRR5200657",
+      "SRR5200656",
+      "SRR5200655",
+      "SRR5200654",
+      "SRR5200549",
+      "SRR5199847"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
+    "caveat": "8 vs 6 run对应4 vs 3实验；每实验2run先合并，独立培养和先前氧历史须方法核实"
+  },
+  {
+    "comparison_id": "C-PRJNA1163300-air-vs-unlabelled-air",
+    "project_id": "PRJNA1163300",
+    "treatment": "air+laminarin pooled RNA",
+    "control": "anoxic+laminarin pooled RNA",
+    "treatment_runs": [
+      "SRR30843209"
+    ],
+    "control_runs": [
+      "SRR30843208"
+    ],
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "缓存官方全文方法+官方样本映射",
+    "caveat": "1:100沉积物细胞稀释后0.2um过滤；同实验DNA未产出可用metagenome；SAG/WGA另列，8个JGI其他地点DNA不是本实验配对MG。2个混池RNA无独立文库重复",
+    "method_evidence_path": "reused_cached_fulltext_methods.json",
+    "method_source_page": "https://pubmed.ncbi.nlm.nih.gov/40057977/"
+  }
+]

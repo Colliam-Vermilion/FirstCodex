@@ -1,3 +1,5 @@
+> **当前任务已切换（2026-10-24）：[测序数据集发现与关联论文](omics_dataset_discovery/README.md)** · [累计Excel](omics_dataset_discovery/omics_dataset_discovery_cumulative.xlsx) · [项目/样本/run及文件入口](omics_dataset_discovery/data_projects_master_utf8.csv) · [续跑进度](omics_dataset_discovery/progress.json)。已复核原22篇（21MG+1MT）及9个项目号，连续审计60个新增项目；原机制综述与35篇阅读队列已暂存，以下综述进度为保留记录。原件、分类、人工判断及原综述累计表未改。
+
 > **35条队列来源与条件补充说明**：[逐篇核对](oxygen_response_review/reading_queue35/README.md)。35条不是已确认核心文献，也不是引用/JIF前35或四项全达标集；本轮已补读35条完整缓存摘要，仍未核全文。9条有2024 JIF缓存、25条未核实、1条预印本不适用；独立验证按具体主张保留未核实及已有部分支持。其余312条范围相关候选继续核实，35不是最终数量上限。
 
 # 当前进度：氧响应全池首遍初筛（2026-10-24）

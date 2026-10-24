@@ -5,7 +5,7 @@
       "PRJNA565588"
     ],
     "availability_code": 2,
-    "gap": "公开，但日标签/布局不一致，且缺厌氧MG对照",
+    "gap": "公开；本轮完整项目新增2个厌氧WGS（共4个群落WGS），但与微曝气样本取样日/布局不匹配，尚无可直接构建的匹配氧对照",
     "verbatim_statement_evidence": [
       {
         "evidence_id": "R07202-E03",
@@ -409,5 +409,413 @@
     ],
     "next_action": "核官方编号/完整样本键表或明确reads索取范围；不代联系作者",
     "author_contacted": false
+  },
+  {
+    "project_id": "PRJDB17921",
+    "availability_code": 2,
+    "gap": "R1/R2、S/L、D268及编号1–3；确切氧水平/取样位置/重复类型需论文键表",
+    "next_action": "优先：为配套RNA提供基因目录；不能假定与RNA逐样本一一配对",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJDB17921",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJDB17921/collection_status.json",
+      "project_cache/PRJDB17921/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJDB17922",
+    "availability_code": 1,
+    "gap": "6个RNA样本前/后组明确；编号1–3不直接认作3独立反应器",
+    "next_action": "优先：新增公开群落氧转换RNA；剂量、去rRNA及生物重复需补方法",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJDB17922",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJDB17922/collection_status.json",
+      "project_cache/PRJDB17922/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJDB36680",
+    "availability_code": 2,
+    "gap": "样本RNA/DNA分开；同阶段不同分子标本匹配及氧组键待核",
+    "next_action": "优先：GSA/DDBJ别名和双组学完整元数据已得；分阶段而非直接AD",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJDB36680",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJDB36680/collection_status.json",
+      "project_cache/PRJDB36680/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJEB60473",
+    "availability_code": 3,
+    "gap": "有明确研究说明，原始测序类型/文件清单尚未取得",
+    "next_action": "优先追溯论文数据声明；零run不能断言不存在/未公开",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJEB60473",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJEB60473/collection_status.json",
+      "project_cache/PRJEB60473/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJEB65123",
+    "availability_code": 2,
+    "gap": "O/SA/LA/ORIG，T1/2/3和数字保留原标签，未猜全称与时间单位；DNA/RNA归档样本不同。",
+    "next_action": "O/SA/LA/ORIG，T1/2/3和数字保留原标签，未猜全称与时间单位；DNA/RNA归档样本不同。",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJEB65123",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJEB65123/collection_status.json",
+      "project_cache/PRJEB65123/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJEB90283",
+    "availability_code": 2,
+    "gap": "需水分—红氧—时间键表；缺氧改变不能由干旱直接替代",
+    "next_action": "背景/待确认扩展，水分混杂不可忽略",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJEB90283",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJEB90283/collection_status.json",
+      "project_cache/PRJEB90283/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA1013451",
+    "availability_code": 1,
+    "gap": "12个核心样本分组/时间明确；另9个进料/初始/表面等样本单列",
+    "next_action": "缺独立处理反应器重复；week6不能当已有曝气效应；总DNA建库选择含PCR，不承诺无富集/定量偏差",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1013451",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA1013451/collection_status.json",
+      "project_cache/PRJNA1013451/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA1086167",
+    "availability_code": 2,
+    "gap": "论文SRR28311681/682/683对应Blank/Starch/Peptone，而官方alias分别protein/starch/blank；不能擅自交换",
+    "next_action": "平台/文库策略与论文不一致；先澄清编号映射；不能用初始污泥对比微氧终点隔离氧效应",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1086167",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA1086167/collection_status.json",
+      "project_cache/PRJNA1086167/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA1112840",
+    "availability_code": 2,
+    "gap": "LW_TOP_C1/C2/C3未说明四条件对应；不擅自认定这3个是3个处理或3个重复。",
+    "next_action": "LW_TOP_C1/C2/C3未说明四条件对应；不擅自认定这3个是3个处理或3个重复。",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1112840",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA1112840/collection_status.json",
+      "project_cache/PRJNA1112840/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA1128434",
+    "availability_code": 2,
+    "gap": "A30-Met/B30-Met/C30-Met未能唯一对应DW/CO2NW/O2NW；不能按排序猜测",
+    "next_action": "3个OTHER/METAGENOMIC按既有全文随机DNA建库证据确认为MG；平台差异保留",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1128434",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA1128434/collection_status.json",
+      "project_cache/PRJNA1128434/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA1163300",
+    "availability_code": 1,
+    "gap": "cDNA1加空气/cDNA2不加空气；两者均含laminarin并混池，由全文RNA抽提章节补证",
+    "next_action": "1:100沉积物细胞稀释后0.2um过滤；同实验DNA未产出可用metagenome；SAG/WGA另列，8个JGI其他地点DNA不是本实验配对MG。2个混池RNA无独立文库重复",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1163300",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA1163300/collection_status.json",
+      "project_cache/PRJNA1163300/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA1186224",
+    "availability_code": 6,
+    "gap": "组装型项目，继续追原始DNA/RNA关联号",
+    "next_action": "仅派生/背景线索；不能把文字提MT当公开RNA原件；官方Assembly已查到26条（含可能的GenBank/RefSeq同组装别名，不当独立样本）。",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1186224",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA1186224/collection_status.json",
+      "project_cache/PRJNA1186224/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA1287080",
+    "availability_code": 1,
+    "gap": "SRR34383441=R1-M厌氧；SRR34383440=R4-M曝气，官方alias与论文吻合",
+    "next_action": "稀少文库和潜在混样；OTHER/METAGENOMIC以已保存随机DNA建库方法证据复核",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1287080",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA1287080/collection_status.json",
+      "project_cache/PRJNA1287080/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA1369098",
+    "availability_code": 3,
+    "gap": "ENA和SRA本轮均返回0项，不能推定编号不存在或肯定未公开",
+    "next_action": "无公开run及有效文件清单可核；保留文中编号和原始声明",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1369098",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA1369098/collection_status.json",
+      "project_cache/PRJNA1369098/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA1403469",
+    "availability_code": 1,
+    "gap": "RNA为SBR1_AN/AE、SBR2_AN/AE；各1文库；WGS为两反应器整体，非每阶段配对DNA",
+    "next_action": "优先：明确厌氧—好氧阶段RNA比较；底物/周期与AD不同，无独立测序重复",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1403469",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA1403469/collection_status.json",
+      "project_cache/PRJNA1403469/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA1426923",
+    "availability_code": 2,
+    "gap": "4A/3C等代号缺氧处理键；现场、培养、filter和ENC/EPC/NK/PK疑似质控混在同项目，未计生物样本数。",
+    "next_action": "4A/3C等代号缺氧处理键；现场、培养、filter和ENC/EPC/NK/PK疑似质控混在同项目，未计生物样本数。",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1426923",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA1426923/collection_status.json",
+      "project_cache/PRJNA1426923/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA1438379",
+    "availability_code": 3,
+    "gap": "ENA和SRA本轮均返回0项；采样时间不能机械相乘为测序文库数",
+    "next_action": "O3不是分子O2对照；文中测序机型有差异，仍无公开reads证据",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1438379",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA1438379/collection_status.json",
+      "project_cache/PRJNA1438379/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA1447957",
+    "availability_code": 2,
+    "gap": "官方ZN/ZZ/CN/CZ×day0/21/49；温度和日期可核，但不能仅按中文代号推断N/Z分别是气泡/对照",
+    "next_action": "原论文MN/MD/PN/PD与官方代号需独立键表；可先下载但不能标成可直接氧效应比较",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1447957",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA1447957/collection_status.json",
+      "project_cache/PRJNA1447957/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA293548",
+    "availability_code": 2,
+    "gap": "control/HC/nereis/nereis_HC各replicate1–3；生物扰动与氧输入混杂，不能等同纯O2干预。",
+    "next_action": "control/HC/nereis/nereis_HC各replicate1–3；生物扰动与氧输入混杂，不能等同纯O2干预。",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA293548",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA293548/collection_status.json",
+      "project_cache/PRJNA293548/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA301899",
+    "availability_code": 6,
+    "gap": "仅组装线索，MG/MT raw不可由MAG代替",
+    "next_action": "背景基因组/关联原始项目追溯；尚未核实际组装文件；官方Assembly已查到1条（含可能的GenBank/RefSeq同组装别名，不当独立样本）。",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA301899",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA301899/collection_status.json",
+      "project_cache/PRJNA301899/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA322450",
+    "availability_code": 2,
+    "gap": "所有目标run共用同一个BioSample；实验题名多为通称，需论文SI/原文件名恢复样本键。",
+    "next_action": "所有目标run共用同一个BioSample；实验题名多为通称，需论文SI/原文件名恢复样本键。",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA322450",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA322450/collection_status.json",
+      "project_cache/PRJNA322450/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA330207",
+    "availability_code": 2,
+    "gap": "只有C2氧注入样本标签；未证实与B1实验独立或与对照的关系。",
+    "next_action": "只有C2氧注入样本标签；未证实与B1实验独立或与对照的关系。",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA330207",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA330207/collection_status.json",
+      "project_cache/PRJNA330207/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA330349",
+    "availability_code": 2,
+    "gap": "只有B1氧注入样本标签；未定位同研究厌氧对照。",
+    "next_action": "只有B1氧注入样本标签；未定位同研究厌氧对照。",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA330349",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA330349/collection_status.json",
+      "project_cache/PRJNA330349/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA347538",
+    "availability_code": 1,
+    "gap": "每个RNA实验有2run，共16实验，目标共用1BioSample；day15 oxic4个实验、anoxic3个实验。",
+    "next_action": "每个RNA实验有2run，共16实验，目标共用1BioSample；day15 oxic4个实验、anoxic3个实验。",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA347538",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA347538/collection_status.json",
+      "project_cache/PRJNA347538/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA348350",
+    "availability_code": 2,
+    "gap": "多论文/不同实验和批次混合，氧作用由宿主炎症介导，原始处理键需逐研究拆分",
+    "next_action": "背景肠道DNA/RNA/ARG参考，主集合仅shotgun子集，不用于独立供氧因果",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA348350",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA348350/collection_status.json",
+      "project_cache/PRJNA348350/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA365633",
+    "availability_code": 2,
+    "gap": "LOW/HOW和数字需原始处理—时间键表；单个子项目不当独立研究",
+    "next_action": "扩展O2梯度群落RNA；与AD产甲烷途径不同，需合并研究系列",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA365633",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA365633/collection_status.json",
+      "project_cache/PRJNA365633/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA365634",
+    "availability_code": 2,
+    "gap": "与PRJNA365633属于同一研究系列候选，具体时间/重复未核",
+    "next_action": "扩展O2梯度RNA，当前不计已明确比较",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA365634",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA365634/collection_status.json",
+      "project_cache/PRJNA365634/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA381321",
+    "availability_code": 2,
+    "gap": "3个Fast Ox与3个Slow Ox题名；F1/3/5等数字可能取样序号，未据此宣称n=3生物重复。",
+    "next_action": "3个Fast Ox与3个Slow Ox题名；F1/3/5等数字可能取样序号，未据此宣称n=3生物重复。",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA381321",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA381321/collection_status.json",
+      "project_cache/PRJNA381321/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA489848",
+    "availability_code": 2,
+    "gap": "heavy/light及放大/未放大混合，需原始样本分级键；无不同O2水平对照已核",
+    "next_action": "低氧表达参考；未去rRNA且有线性扩增偏向，不适合直接比较基因丰度",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA489848",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA489848/collection_status.json",
+      "project_cache/PRJNA489848/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA551662",
+    "availability_code": 1,
+    "gap": "0/5/10% O2和原始Time Point/Layer可核；T标签到具体日仍保留待键表，pooling按方法保留",
+    "next_action": "需区分98日供氧和之后134日厌氧恢复；T代码未强行转日，公开0% O2每比较仅1库，非平衡三重复设计；DNA不是RNA，病毒/ARG重分析需深度与组装质控",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA551662",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA551662/collection_status.json",
+      "project_cache/PRJNA551662/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA565588",
+    "availability_code": 2,
+    "gap": "4WGS中新增2个厌氧样本；microaeration/anaerobic标签可核，但A150/B79与A192/B147取样日不同，尚无匹配时间对照",
+    "next_action": "官方B79别名与B97原文件名冲突、SINGLE/PAIRED及取样日差异待论文键核；不忽略新增厌氧WGS，也不直接认定氧效应",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA565588",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA565588/collection_status.json",
+      "project_cache/PRJNA565588/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA588156",
+    "availability_code": 2,
+    "gap": "GSM/CL/CU/DL等分级/条件需GEO键表；SIP各分级不是生物重复",
+    "next_action": "可分析表达及电子受体代谢；密度富集不代表群落无偏RNA",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA588156",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA588156/collection_status.json",
+      "project_cache/PRJNA588156/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA818156",
+    "availability_code": 6,
+    "gap": "MAG项目；实际组装及同论文raw来源需继续核实",
+    "next_action": "派生序列参考；不当可下载raw reads；官方Assembly已查到12条（含可能的GenBank/RefSeq同组装别名，不当独立样本）。",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA818156",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA818156/collection_status.json",
+      "project_cache/PRJNA818156/ncbi_sra_packages.json"
+    ]
+  },
+  {
+    "project_id": "PRJNA822673",
+    "availability_code": 3,
+    "gap": "说明提供应商返回quality-controlled fas而非fastq；原始质量分值是否可得未核",
+    "next_action": "待追文件与论文；不声称已有可用FASTQ",
+    "official_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA822673",
+    "author_contacted": false,
+    "evidence_paths": [
+      "project_cache/PRJNA822673/collection_status.json",
+      "project_cache/PRJNA822673/ncbi_sra_packages.json"
+    ]
   }
 ]

@@ -1,0 +1,27 @@
+{
+  "updated_utc": "2026-10-24T15:27:32.529209+00:00",
+  "baseline_commit": "d8e4ee59577b3307a7814f6c91dd442107cb8aef",
+  "active_task": "omics_dataset_discovery",
+  "mechanism_review": "已暂存，不改分类/原判断/原件",
+  "completed_batches": [
+    "D001",
+    "D002",
+    "D003",
+    "D004",
+    "D005"
+  ],
+  "reviewed_existing_projects": 9,
+  "reviewed_new_projects": 60,
+  "remaining_projects": 418,
+  "remaining_paper_association_candidates": 2228,
+  "resume_project_order": "remaining_project_queue.json:stable_order",
+  "resume_scripts": "先collect_projects.py按项目补元数据、人工更新project_assessments/sample_annotations，再finalize_outputs.py；不重复全量检索",
+  "raw_reads_downloaded": 0,
+  "next_actions": [
+    "优先解读7项目方法/处理键，形成下载矩阵；仍不在本轮下载FASTQ",
+    "解决PRJNA1086167别名/SRR处理键冲突；1447957/1128434/1426923/EB65123分组键",
+    "追踪LakeWashington跨子项目同研究/合成群落去重",
+    "GSA入口受阻及PRJCA039809官方别名在ENA/DDBJ已识别",
+    "其余项目与关联论文从稳定队列续跑"
+  ]
+}

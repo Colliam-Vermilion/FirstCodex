@@ -1014,16 +1014,22 @@
     "oxygen_exposure": true
   },
   "SRR30843209": {
-    "treatment_label": "sediment metagenome supplemented with 25% atmospheric air (~4% oxygen)",
-    "mapping_status": "SRR30843209 cDNA1明确25% atmospheric air (~4% oxygen)；SRR30843208 cDNA2未加空气标签；laminarin交叉需全文核。",
+    "treatment_label": "air+laminarin pooled RNA",
+    "mapping_status": "已读缓存官方全文RNA抽提/培养方法+官方实验别名",
     "oxygen_exposure": true,
-    "core_comparison_eligible": true
+    "core_comparison_eligible": true,
+    "timepoint": 24,
+    "time_unit": "h",
+    "biological_replicate": "培养triplicate后RNA混池；最终每条件1文库"
   },
   "SRR30843208": {
-    "treatment_label": "sediment metagenome",
-    "mapping_status": "SRR30843209 cDNA1明确25% atmospheric air (~4% oxygen)；SRR30843208 cDNA2未加空气标签；laminarin交叉需全文核。",
+    "treatment_label": "anoxic+laminarin pooled RNA",
+    "mapping_status": "已读缓存官方全文RNA抽提/培养方法+官方实验别名",
     "oxygen_exposure": false,
-    "core_comparison_eligible": true
+    "core_comparison_eligible": true,
+    "timepoint": 24,
+    "time_unit": "h",
+    "biological_replicate": "培养triplicate后RNA混池；最终每条件1文库"
   },
   "SRR29069771": {
     "treatment_label": "LW_TOP_C3",

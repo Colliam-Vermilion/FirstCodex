@@ -1,0 +1,5 @@
+﻿database,status,access_test,raw_reads_downloaded
+NCBI BioProject/SRA/PubMed/Assembly,官方API实际成功；完整查询、ID分页和响应已缓存,request_log.jsonl,False
+ENA,官方search/filereport/project XML实际成功；E05官方limit=0全量1282并核count,search_log.json,False
+GSA,入口代理403；未执行平台检索，返回数未知,search_log.json:GSA-availability,False
+ENA FASTQ文件服务器,7项目抽检HEAD被环境代理403；仅核官方URL/bytes/MD5列表，文件未下载验证,file_entry_HEAD_probes.json,False

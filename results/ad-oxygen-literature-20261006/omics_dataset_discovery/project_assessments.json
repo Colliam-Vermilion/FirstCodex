@@ -110,12 +110,12 @@
     "availability_code": 2,
     "availability": "公开，但日标签/布局不一致，且缺厌氧MG对照",
     "rationale": "完整项目除旧文关联2个微氧WGS外，另有2个明确标为anaerobic digestion的WGS run；核心供氧/厌氧设计候选，采样日和关联论文待核。",
-    "mapping_status": "微氧Rep1/Rep2与厌氧AD_Rep1/Rep2组名明确，时间标签不同，不能确认同阶段匹配对照",
+    "mapping_status": "4WGS中新增2个厌氧样本；microaeration/anaerobic标签可核，但A150/B79与A192/B147取样日不同，尚无匹配时间对照",
     "oxygen_comparisons_confirmed": 0,
     "biological_replicates": "原实验3反应器；仅2个微氧样本DNA达标，未有厌氧对照MG",
     "confirmed_biological_specimen_count": null,
     "confirmed_experimental_units": null,
-    "limitations": "旧文只关联微氧2run；新发现AD两run不能自动归属于该论文。MA官方SINGLE与论文PE125冲突；AD run为PAIRED；不按run数推断4个独立生物重复。",
+    "limitations": "官方B79别名与B97原文件名冲突、SINGLE/PAIRED及取样日差异待论文键核；不忽略新增厌氧WGS，也不直接认定氧效应",
     "priority": "优先追溯新增厌氧raw runs的论文与时间轴，之后再建匹配氧对照"
   },
   "PRJNA1217127": {
@@ -251,7 +251,7 @@
   "PRJNA301899": {
     "tier": "C",
     "availability_code": 6,
-    "availability": "目前仅定位组装/派生型项目线索，raw未定位",
+    "availability": "仅定位公开组装/派生数据；当前项目未查到目标raw run，其他关联项目仍待追踪",
     "rationale": "产甲烷/烃代谢群落网络研究组装型BioProject；未发现该项目原始run，需继续追同论文raw归档。",
     "mapping_status": "仅组装线索，MG/MT raw不可由MAG代替",
     "oxygen_comparisons_confirmed": 0,
@@ -260,8 +260,10 @@
     "confirmed_biological_specimen_count": null,
     "confirmed_experimental_units": null,
     "priority": "背景基因组/关联原始项目追溯；尚未核实际组装文件",
-    "limitations": "背景基因组/关联原始项目追溯；尚未核实际组装文件",
-    "audit_batch": "D002"
+    "limitations": "背景基因组/关联原始项目追溯；尚未核实际组装文件；官方Assembly已查到1条（含可能的GenBank/RefSeq同组装别名，不当独立样本）。",
+    "audit_batch": "D002",
+    "derived_assemblies_official_count": 1,
+    "derived_data_evidence": "assembly_status_checks.json"
   },
   "PRJNA1304437": {
     "tier": null,
@@ -314,7 +316,7 @@
   "PRJNA818156": {
     "tier": "C",
     "availability_code": 6,
-    "availability": "目前仅定位组装/派生型项目线索，raw未定位",
+    "availability": "仅定位公开组装/派生数据；当前项目未查到目标raw run，其他关联项目仍待追踪",
     "rationale": "官方说明为从好氧/微氧二甲苯富集恢复的MAG，项目无raw run；与PRJNA745543仅扩增子区分。",
     "mapping_status": "MAG项目；实际组装及同论文raw来源需继续核实",
     "oxygen_comparisons_confirmed": 0,
@@ -323,8 +325,10 @@
     "confirmed_biological_specimen_count": null,
     "confirmed_experimental_units": null,
     "priority": "派生序列参考；不当可下载raw reads",
-    "limitations": "派生序列参考；不当可下载raw reads",
-    "audit_batch": "D002"
+    "limitations": "派生序列参考；不当可下载raw reads；官方Assembly已查到12条（含可能的GenBank/RefSeq同组装别名，不当独立样本）。",
+    "audit_batch": "D002",
+    "derived_assemblies_official_count": 12,
+    "derived_data_evidence": "assembly_status_checks.json"
   },
   "PRJNA745543": {
     "tier": null,
@@ -390,7 +394,7 @@
   "PRJNA1186224": {
     "tier": "C",
     "availability_code": 6,
-    "availability": "目前仅定位组装/派生型项目线索，raw未定位",
+    "availability": "仅定位公开组装/派生数据；当前项目未查到目标raw run，其他关联项目仍待追踪",
     "rationale": "官方标题Metagenomic assembly，项目说明有MG/MT但本项目无raw runs；热泉自然O2差异非受控供氧。",
     "mapping_status": "组装型项目，继续追原始DNA/RNA关联号",
     "oxygen_comparisons_confirmed": 0,
@@ -399,8 +403,10 @@
     "confirmed_biological_specimen_count": null,
     "confirmed_experimental_units": null,
     "priority": "仅派生/背景线索；不能把文字提MT当公开RNA原件",
-    "limitations": "仅派生/背景线索；不能把文字提MT当公开RNA原件",
-    "audit_batch": "D002"
+    "limitations": "仅派生/背景线索；不能把文字提MT当公开RNA原件；官方Assembly已查到26条（含可能的GenBank/RefSeq同组装别名，不当独立样本）。",
+    "audit_batch": "D002",
+    "derived_assemblies_official_count": 26,
+    "derived_data_evidence": "assembly_status_checks.json"
   },
   "PRJNA559245": {
     "tier": "C",
@@ -734,11 +740,11 @@
     "availability_code": 1,
     "availability": "公开且处理/实验标签明确；完整方法及独立重复仍待核",
     "rationale": "泥炭先供氧、后厌氧产甲烷；20个WGS，另34扩增子。官方%O2 Treatment和Time Point可映射。",
-    "mapping_status": "0/5/10% O2原始标签；T1/T2/T3有pooled，T5分UNS/AWT/BWT；时间单位及培养瓶独立性待方法核实。",
-    "priority": "优先DNA：氧剂量标签明确；层位和混样分层分析，不能把20run当20重复",
-    "limitations": "0/5/10% O2原始标签；T1/T2/T3有pooled，T5分UNS/AWT/BWT；时间单位及培养瓶独立性待方法核实。",
+    "mapping_status": "0/5/10% O2和原始Time Point/Layer可核；T标签到具体日仍保留待键表，pooling按方法保留",
+    "priority": "优先扩展DNA：方法证实氧输入和厌氧恢复，20WGS；按氧剂量、层位、pooling分层，探索性分析",
+    "limitations": "需区分98日供氧和之后134日厌氧恢复；T代码未强行转日，公开0% O2每比较仅1库，非平衡三重复设计；DNA不是RNA，病毒/ARG重分析需深度与组装质控",
     "oxygen_comparisons_confirmed": 6,
-    "biological_replicates": "未知；样本编号、rep标签或run数不直接等于独立生物重复",
+    "biological_replicates": "培养各处理triplicate；232日前合并重复抽提DNA、232日按重复抽提。公开20WGS是不平衡子集，不能按培养triplicate补不存在的文库",
     "confirmed_biological_specimen_count": null,
     "confirmed_experimental_units": null,
     "audit_batch": "D004",
@@ -746,7 +752,11 @@
       "project_cache/PRJNA551662/collection_status.json",
       "project_cache/PRJNA551662/ncbi_sra_packages.json",
       "project_cache/PRJNA551662/ena_runs.json"
-    ]
+    ],
+    "oxygen_delivery_and_dose_as_recorded": "0%, 5%, 10% v/v O2；95%/90% N2配气，至少6次替换headspace",
+    "oxygen_time_and_frequency": "每2–3日flush维持O2，98日后100%N2吹扫再厌氧134日，总232日；另独立短期21% O2实验不混入",
+    "temperature": "room temperature（原文未给数值）",
+    "substrate": "Sphagnum泥炭；AWT/BWT/UNS层位"
   },
   "PRJNA293548": {
     "tier": "B",
@@ -867,11 +877,11 @@
     "availability_code": 1,
     "availability": "公开且处理/实验标签明确；完整方法及独立重复仍待核",
     "rationale": "海岸厌氧沉积物瞬时空气/laminarin处理，2群落RNA文库。",
-    "mapping_status": "SRR30843209 cDNA1明确25% atmospheric air (~4% oxygen)；SRR30843208 cDNA2未加空气标签；laminarin交叉需全文核。",
-    "priority": "优先小规模RNA机制核验：每条件1文库，不能可靠估计群落差异离散度",
-    "limitations": "SRR30843209 cDNA1明确25% atmospheric air (~4% oxygen)；SRR30843208 cDNA2未加空气标签；laminarin交叉需全文核。",
+    "mapping_status": "cDNA1加空气/cDNA2不加空气；两者均含laminarin并混池，由全文RNA抽提章节补证",
+    "priority": "优先小RNA：明确24h氧输入对照，适合机制探索/效应方向，不能做有重复差异检验",
+    "limitations": "1:100沉积物细胞稀释后0.2um过滤；同实验DNA未产出可用metagenome；SAG/WGA另列，8个JGI其他地点DNA不是本实验配对MG。2个混池RNA无独立文库重复",
     "oxygen_comparisons_confirmed": 1,
-    "biological_replicates": "未知；样本编号、rep标签或run数不直接等于独立生物重复",
+    "biological_replicates": "培养triplicate，但RNA从添加laminarin的培养混池，最终每氧条件1库；不能用3个培养瓶冒充3个测序重复",
     "confirmed_biological_specimen_count": null,
     "confirmed_experimental_units": null,
     "audit_batch": "D004",
@@ -879,7 +889,11 @@
       "project_cache/PRJNA1163300/collection_status.json",
       "project_cache/PRJNA1163300/ncbi_sra_packages.json",
       "project_cache/PRJNA1163300/ena_runs.json"
-    ]
+    ],
+    "oxygen_delivery_and_dose_as_recorded": "0% vs 25% atmospheric oxygen headspace（作者换算约4% O2）；2.5ml头气置换为环境空气",
+    "oxygen_time_and_frequency": "24 h",
+    "temperature": "21°C",
+    "substrate": "1mM laminarin；只有添加laminarin样本RNA成功并pool"
   },
   "PRJNA1112840": {
     "tier": "B",

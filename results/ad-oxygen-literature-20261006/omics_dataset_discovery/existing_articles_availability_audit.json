@@ -12,7 +12,7 @@
     ],
     "omics": "宏基因组",
     "availability_code": 2,
-    "availability": "公开，但日标签/布局不一致，且缺厌氧MG对照",
+    "availability": "公开；本轮完整项目新增2个厌氧WGS（共4个群落WGS），但与微曝气样本取样日/布局不匹配，尚无可直接构建的匹配氧对照",
     "source_method_evidence_reused": "完整§2.1–2.5（PDF2–3页）：群落DNA建库、HiSeq2000 PE125、Trimmomatic/SPAdes组装、MaxBin分箱、CheckM、Prokka/KEGG/CAZy，确认新产生宏基因组。前篇16S/mcrA与单菌参考基因组比较分开；宏转录组仅未来建议。两个BioSample官方对应公开WGS/RANDOM、bioreactor metagenome，项目PRJNA565588。",
     "oxygen_supply": "ORP基线以上+25 mV间歇供氧，每隔一天；Rep1 −470 mV、Rep2 −450 mV",
     "substrate": "Napier grass（象草，木质纤维素）",
@@ -47,7 +47,12 @@
     ],
     "method_source_fulltext_previously_reviewed": true,
     "this_round_fulltext_redownloaded": false,
-    "data_generation_mode": "本研究产生"
+    "data_generation_mode": "本研究产生",
+    "prior_audit_availability": "公开，但日标签/布局不一致，且缺厌氧MG对照",
+    "new_official_runs_this_round": [
+      "SRR16980862",
+      "SRR16980863"
+    ]
   },
   {
     "paper_id": "R08462",

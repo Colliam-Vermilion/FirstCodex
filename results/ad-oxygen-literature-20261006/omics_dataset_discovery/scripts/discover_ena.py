@@ -24,18 +24,16 @@ def run():
  logs=json.loads((ROOT/'search_log.json').read_text()) if (ROOT/'search_log.json').exists() else [];register={x['accession']:x for x in json.loads((ROOT/'discovered_projects.json').read_text())} if (ROOT/'discovered_projects.json').exists() else {}
  for qid,expr in QUERIES:
   if any(x.get('query_id')==qid and x.get('complete') for x in logs):continue
-  query='('+expr+') AND '+SOURCE;event={'query_id':qid,'database':'ENA read_run','query':query,'started_utc':now(),'page_limit':1000,'pages':[],'returned_runs':0,'project_accessions':[],'complete':False};seen=set();off=0
-  while True:
-   j,m=getjson(url(BASE+'search',result='read_run',query=query,fields=FIELDS,format='json',limit=1000,offset=off),'ENA');event['pages'].append({'offset':off,'status':m.get('status'),'raw_path':m.get('raw_path'),'records':len(j) if isinstance(j,list) else None,'error':m.get('error') or m.get('parse_error')})
-   if not isinstance(j,list):event['failure']='API未返回JSON数组';break
-   ids={x['run_accession'] for x in j}
-   if ids and ids<=seen:event['failure']='分页返回重复，停止避免伪称完整';break
-   seen|=ids;event['returned_runs']+=len(j)
+  query='('+expr+') AND '+SOURCE;event={'query_id':qid,'database':'ENA read_run','query':query,'started_utc':now(),'page_limit':0,'pages':[],'returned_runs':0,'project_accessions':[],'complete':False}
+  # ENA search has no offset parameter. Official limit=0 returns all matching rows.
+  j,m=getjson(url(BASE+'search',result='read_run',query=query,fields=FIELDS,format='json',limit=0),'ENA')
+  event['pages'].append({'limit':0,'status':m.get('status'),'raw_path':m.get('raw_path'),'records':len(j) if isinstance(j,list) else None,'error':m.get('error') or m.get('parse_error')})
+  if isinstance(j,list):
+   event['returned_runs']=len(j);event['complete']=True
    for row in j:
     acc=row['study_accession'];v=register.setdefault(acc,{'accession':acc,'source_queries':[],'study_title':row['study_title'],'run_accessions_discovered':[],'raw_source_paths':[]})
     for field,value in [('source_queries',qid),('run_accessions_discovered',row['run_accession']),('raw_source_paths',m['raw_path'])]:
      if value not in v[field]:v[field].append(value)
-   if len(j)<1000:event['complete']=True;break
-   off+=1000;time.sleep(1.05)
+  else:event['failure']='API未返回JSON数组，不能声称完整'
   event['project_accessions']=sorted({x['accession'] for x in register.values() if qid in x['source_queries']});event['finished_utc']=now();logs=[x for x in logs if x.get('query_id')!=qid]+[event];dump(ROOT/'search_log.json',logs);dump(ROOT/'discovered_projects.json',list(register.values()));print(qid,'runs',event['returned_runs'],'projects',len(event['project_accessions']),'complete',event['complete'],flush=True);time.sleep(1.05)
 if __name__=='__main__':run()

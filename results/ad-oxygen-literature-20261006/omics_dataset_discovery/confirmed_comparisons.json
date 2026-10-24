@@ -162,8 +162,10 @@
       "SRR9617303"
     ],
     "independent_reactor_replicates_per_group": null,
-    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
-    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文"
+    "design_evidence_level": "缓存官方全文方法+官方样本映射",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文",
+    "method_evidence_path": "reused_cached_fulltext_methods.json",
+    "method_source_page": "https://pubmed.ncbi.nlm.nih.gov/34409684/"
   },
   {
     "comparison_id": "C-PRJNA551662-10percent-vs-0percent-T1-pooled",
@@ -177,8 +179,10 @@
       "SRR9617303"
     ],
     "independent_reactor_replicates_per_group": null,
-    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
-    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文"
+    "design_evidence_level": "缓存官方全文方法+官方样本映射",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文",
+    "method_evidence_path": "reused_cached_fulltext_methods.json",
+    "method_source_page": "https://pubmed.ncbi.nlm.nih.gov/34409684/"
   },
   {
     "comparison_id": "C-PRJNA551662-5percent-vs-0percent-T5-UNS",
@@ -193,8 +197,10 @@
       "SRR9617304"
     ],
     "independent_reactor_replicates_per_group": null,
-    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
-    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文"
+    "design_evidence_level": "缓存官方全文方法+官方样本映射",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文",
+    "method_evidence_path": "reused_cached_fulltext_methods.json",
+    "method_source_page": "https://pubmed.ncbi.nlm.nih.gov/34409684/"
   },
   {
     "comparison_id": "C-PRJNA551662-10percent-vs-0percent-T5-UNS",
@@ -209,8 +215,10 @@
       "SRR9617304"
     ],
     "independent_reactor_replicates_per_group": null,
-    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
-    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文"
+    "design_evidence_level": "缓存官方全文方法+官方样本映射",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文",
+    "method_evidence_path": "reused_cached_fulltext_methods.json",
+    "method_source_page": "https://pubmed.ncbi.nlm.nih.gov/34409684/"
   },
   {
     "comparison_id": "C-PRJNA551662-5percent-vs-0percent-T5-BWT",
@@ -225,8 +233,10 @@
       "SRR9617301"
     ],
     "independent_reactor_replicates_per_group": null,
-    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
-    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文"
+    "design_evidence_level": "缓存官方全文方法+官方样本映射",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文",
+    "method_evidence_path": "reused_cached_fulltext_methods.json",
+    "method_source_page": "https://pubmed.ncbi.nlm.nih.gov/34409684/"
   },
   {
     "comparison_id": "C-PRJNA551662-10percent-vs-0percent-T5-BWT",
@@ -242,8 +252,10 @@
       "SRR9617301"
     ],
     "independent_reactor_replicates_per_group": null,
-    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
-    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文"
+    "design_evidence_level": "缓存官方全文方法+官方样本映射",
+    "caveat": "原始%O2/Time Point/Layer明确；对照各仅1文库，pooled非生物重复；时间单位与独立性待全文",
+    "method_evidence_path": "reused_cached_fulltext_methods.json",
+    "method_source_page": "https://pubmed.ncbi.nlm.nih.gov/34409684/"
   },
   {
     "comparison_id": "C-PRJNA347538-oxic-vs-anoxic-day15",
@@ -275,8 +287,8 @@
   {
     "comparison_id": "C-PRJNA1163300-air-vs-unlabelled-air",
     "project_id": "PRJNA1163300",
-    "treatment": "air",
-    "control": "unlabelled-air",
+    "treatment": "air+laminarin pooled RNA",
+    "control": "anoxic+laminarin pooled RNA",
     "treatment_runs": [
       "SRR30843209"
     ],
@@ -284,7 +296,9 @@
       "SRR30843208"
     ],
     "independent_reactor_replicates_per_group": null,
-    "design_evidence_level": "官方实验/样本标签；完整方法及生物重复待核",
-    "caveat": "空气处理题名明确；对照/laminarin因素须完整方法再核；n=1文库，不作有重复统计"
+    "design_evidence_level": "缓存官方全文方法+官方样本映射",
+    "caveat": "1:100沉积物细胞稀释后0.2um过滤；同实验DNA未产出可用metagenome；SAG/WGA另列，8个JGI其他地点DNA不是本实验配对MG。2个混池RNA无独立文库重复",
+    "method_evidence_path": "reused_cached_fulltext_methods.json",
+    "method_source_page": "https://pubmed.ncbi.nlm.nih.gov/40057977/"
   }
 ]

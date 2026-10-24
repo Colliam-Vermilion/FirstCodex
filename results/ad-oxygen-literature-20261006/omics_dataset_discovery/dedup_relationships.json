@@ -313,5 +313,55 @@
     "alias": "R09236 + R12985",
     "canonical_project": "PRJNA1013451",
     "relation": "两论文使用同21 BioSample/同21run；同研究/数据复用，不能重复累计"
+  },
+  {
+    "type": "官方项目别名",
+    "alias": "PRJCA039809",
+    "canonical_project": "PRJDB36680",
+    "relation": "同一项目；不是新项目/新数据，官方sample属性保留于缓存"
+  },
+  {
+    "type": "同实验/队列跨项目线索",
+    "study_id": "OST-MAS17921-17922",
+    "projects": [
+      "PRJDB17921",
+      "PRJDB17922"
+    ],
+    "relation": "项目不同但不自动计独立研究；处理/物理样本一一对应仍需证据"
+  },
+  {
+    "type": "同实验/队列跨项目线索",
+    "study_id": "OST-LakeWashington-O2-series",
+    "projects": [
+      "PRJNA365633",
+      "PRJNA365634"
+    ],
+    "relation": "项目不同但不自动计独立研究；处理/物理样本一一对应仍需证据"
+  },
+  {
+    "type": "同实验/队列跨项目线索",
+    "study_id": "OST-Schloeppnerbrunnen-2010",
+    "projects": [
+      "PRJNA412436",
+      "PRJNA412438"
+    ],
+    "relation": "项目不同但不自动计独立研究；处理/物理样本一一对应仍需证据"
+  },
+  {
+    "type": "跨项目共享BioSample",
+    "BioSample": "SAMN05384256",
+    "projects": [
+      "PRJNA412436",
+      "PRJNA412438"
+    ],
+    "runs": [
+      "SRR6152564",
+      "SRR6193119",
+      "SRR5253717",
+      "SRR5253718",
+      "SRR5253720",
+      "SRR5256708"
+    ],
+    "relation": "共享归档样本；是否同一物理采样及DNA/RNA配对另核"
   }
 ]
