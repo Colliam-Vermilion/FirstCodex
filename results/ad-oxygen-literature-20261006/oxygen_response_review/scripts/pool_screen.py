@@ -65,7 +65,7 @@ def packet(offset,size,mode):
  selected=order[offset:offset+size];path=OUT/'packets'/f'{mode}_{len(done):04}_{offset:04}_{size}.json'
  for i,o in enumerate(selected,1):
   r=cat[o['id']];ab=meta[r['id']]['abstract_enriched'];sent=re.split(r'(?<=[.!?])\s+',ab);salient=sorted(enumerate(sent),key=lambda z:-(3*int(hit(EXPO,z[1]))+2*int(hit(r'mutant|result|show|found|oxygen|O2',z[1]))))[:2];snippet=' '.join(s for _,s in sorted(salient))
-  o['shown_excerpt']=snippet[:350] if mode!='clear' else snippet[:140]
+  o['shown_excerpt']=snippet[:150] if mode=='compact' else (snippet[:350] if mode!='clear' else snippet[:140])
   print(f'{i}|{r["id"]}|{r["title"]}|{o["shown_excerpt"]}')
  dump(path,selected)
  print('PACKET',str(path.relative_to(ROOT)))
