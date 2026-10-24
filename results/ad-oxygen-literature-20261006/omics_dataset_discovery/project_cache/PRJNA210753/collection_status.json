@@ -1,0 +1,72 @@
+{
+  "accession": "PRJNA210753",
+  "checked_utc": "2026-10-24T14:41:50.752523+00:00",
+  "ena_run_count": 2,
+  "ncbi_sra_count": 2,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA210753&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:50.752663+00:00",
+    "raw_path": "raw/ENA/8b83f6b4e968aa8b6df9e3daae937662847cc6c4bb33cde3e107dab8b72addde.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA210753&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 2432,
+    "sha256": "d775f1e5f751cf8b0ae20a8b029eb4a370cc2c74507352485cc9bb322318a9e8",
+    "finished_utc": "2026-10-24T14:41:51.032174+00:00",
+    "measured_wall_seconds": 0.28
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA210753&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:41:51.432896+00:00",
+    "raw_path": "raw/NCBI/db0424a618cbf6e993f851086505d223505f505547b57c1056c2e892e5cf7e12.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA210753&retmode=json&retmax=200&retstart=0",
+    "bytes": 309,
+    "sha256": "5847bf8a462b3f788548e08ab6d6d0b2f83a17fda4ebb43692cbe34eb68c3edb",
+    "finished_utc": "2026-10-24T14:41:51.511038+00:00",
+    "measured_wall_seconds": 0.078
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA210753",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:52.116696+00:00",
+    "raw_path": "raw/ENA/c697f1647128194da7b9c6bc970919a530442cc232f83b00e264578af1f82b02.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA210753",
+    "bytes": 3860,
+    "sha256": "69ec1698c1bcdf866c88b6cd9f9299bcc5662a88aa347739457dc1a983131d58",
+    "finished_utc": "2026-10-24T14:41:52.391066+00:00",
+    "measured_wall_seconds": 0.274
+  },
+  "project_title": "Response of Burkholderia cenocepacia H111 to micro-oxia",
+  "project_description": "B. cenocepacia is an opportunistic human pathogen that is particularly problematic for patients suffering from cystic fibrosis (CF). In the CF lung, bacteria grow to high densities within the viscous mucus that is limited in oxygen. Pseudomonas aeruginosa, the dominant pathogen in CF patients, is known to grow and survive under oxygen-limited to anaerobic conditions by using micro-oxic respiration, denitrification and fermentative pathways. In contrast, inspection of the genome sequences of available B. cenocepacia strains suggested that B. cenocepacia is an obligate aerobic and non-fermenting bacterium. In accordance with the bioinformatics analysis, we observed that B. cenocepacia H111 is able to grow with as little as 0.1% O2 but not under strictly anoxic conditions. Phenotypic analyses revealed that H111 produced larger amounts of biofilm, pellicle and proteases under micro-oxic conditions (0.5% - 5% O2, i.e. conditions that mimic those encountered in CF lung infection), and was more resistant to several antibiotics. RNA-Seq and shotgun proteomics analyses of cultures of B. cenocepacia H111 grown under micro-oxic and aerobic conditions showed up-regulation of genes involved in the synthesis of the exopolysaccharide (EPS) cepacian as well as several proteases, two isocitrate lyases and other genes potentially important for life in micro-oxia. Overall design: Oxygen regulation in Burkholderia cenocepacia was investigated using RNA-Seq of cells grown under aerobic or micro-oxic conditions.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA210753"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP026606"
+    },
+    {
+      "tag": "EXTERNAL_ID",
+      "namespace": "GEO",
+      "value": "GSE48585"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "University of Zürich",
+      "value": "PRJNA210753"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>PUBMED</DB>\n        <ID>24023794</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA210753&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA210753&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 2
+}

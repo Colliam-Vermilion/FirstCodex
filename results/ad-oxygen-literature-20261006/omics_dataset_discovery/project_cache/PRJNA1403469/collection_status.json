@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1403469",
+  "checked_utc": "2026-10-24T14:30:34.919485+00:00",
+  "ena_run_count": 14,
+  "ncbi_sra_count": 14,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1403469&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:34.919623+00:00",
+    "raw_path": "raw/ENA/d089c7f350cc842236faed0a9b9af04890e4b7576318899450d72a7ba5d59fff.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1403469&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 17732,
+    "sha256": "fff6da976827c52c32c9aef97b502786a6ed3c6b57ec6424e20038f09be34388",
+    "finished_utc": "2026-10-24T14:30:36.173505+00:00",
+    "measured_wall_seconds": 1.254
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1403469&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:36.575334+00:00",
+    "raw_path": "raw/NCBI/a7e685b69dfac1bf6c31fad732acdb2bd85a7c3f9c7de09eeea88ceca5e95303.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1403469&retmode=json&retmax=200&retstart=0",
+    "bytes": 450,
+    "sha256": "1dc4402438e2b5440547a146630514871725610755fea98196f197796f9825b5",
+    "finished_utc": "2026-10-24T14:30:36.654798+00:00",
+    "measured_wall_seconds": 0.079
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1403469",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:37.391168+00:00",
+    "raw_path": "raw/ENA/3a3c33445da8c6ee9246de05380705b4683cefffacecbeec3a1bd0a9a01c3944.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1403469",
+    "bytes": 5591,
+    "sha256": "d825d68b0231441aca4dc1ca3fe022574abc5012b45c9e48309f4d28a4de3597",
+    "finished_utc": "2026-10-24T14:30:37.541689+00:00",
+    "measured_wall_seconds": 0.151
+  },
+  "project_title": "16S rRNA gene sequencing, metagenomic analysis and transcriptomic analysis of Propioniciclava",
+  "project_description": "This study aimed to provide molecular biological evidence for microbial metabolic profiles of Propioniciclava. Two SBRs with the working volume of 3.0 L were operated. The cycle time was 6 h and the slow feeding stage was 90 min. Feeding stage was involved in 125 min anaerobic phase followed by 180 min aerobic phase. The total hydraulic retention time was 12 h and the sludge retention time was 10 d. The dissolved oxygen concentration (DO) was around 4 mg/L at the end of the aerobic phase. Two reactors were originally inoculated in a full-scale municipal wastewater treatment plant in Shanghai, China. The carbon source in the synthetic wastewater was 384 mg/L sodium acetate mixed with 50 mg/L glucose for SBR1, and 384 mg/L sodium acetate mixed with 30 mg/L glucose for SBR2. Phosphate concentrations in the feed of SBR1 and SBR2 were about 15 mgP/L and 10 mgP/L, respectively. Ammonia nitrogen concentrations in the feed of SBR1 and SBR2 were about 20 mgN/L and 35 mgN/L, respectively. Allyl-N thiourea was added with the concentration of 5 mg/L to inhibit nitrification. Samples for metagenomic analysis of SBR1 and SBR2 were collected at the end of the aerobic phases on day 138 and day 146, respectively.</p><p>To explore the influence of dissolved oxygen (DO) on Propioniciclava accumulation, three SBRs were operated with different DO concentrations and they were originally inoculated in a full-scale municipal WWTP in Shanghai, China. DO concentrations during aerobic stages in three SBRs (DO2, DO3 and DO4) were automatically regulated by DO controllers and DO concentrations were around 2.0 mg/L, 3.0 mg/L and 4.0 mg/L, respectively. In other tests, unless otherwise specified, DO concentrations during aerobic stages were controlled in the range of 2.5-3.0 mg/L by DO controllers. Samples for 16S rRNA gene sequencing were collected for DO2, DO3 and DO4 at the end of the aerobic phases on day 40.To evaluate the influence of carbon source on Propioniciclava enrichment, three additional SBRs were operated. The chemical oxygen demand (COD) concentrations of the three reactors were consistent with that in SBR1. For SBR-C1, 449 mg/L sodium acetate was added to the feed as the carbon source while glucose was not added; for SBR-C2, 384 mg/L sodium acetate and 50.0 mg/L glucose were used as the carbon source; for SBR-C3, 327 mg/L glucose was added while acetate was not added. To assess the effect of ATU addition on Propioniciclava accumulation, an additional SBR was operated without ATU in the feed, and its performance was subsequently compared with that of SBR-C2. Other details of SBR operation were consistent with that of SBR1. Samples for 16S rRNA gene sequencing were collected for the reactors mentioned above at the end of the aerobic phases on day 60.</p><p>Batch tests for SBR1 and SBR2 were operated on day 138 and day 146, respectively. At the end of the aerobic phase of SBR1, 1200 mL mixed liquor was collected. The mixed liquor was washed three times with deionized water and then it was divided into three equal portions (400 mL each). Three serum bottles with the volume of 500 mL were used for the batch test. Nitrogen gas was sparged into the glass jars to avoid oxygen intrusion. pH was maintained around 7.5 with 0.1 M NaOH and HCl. When sodium acetate, micro nutrients solution and NH4Cl were added to the bottles, the batch test began. The anaerobic phase lasted for 120 min and then oxygen gas was introduced to maintain aerobic condition for another 120 min. Samples for metatranscriptomic analysis were taken at 90 min (anaerobic) and 87 min (aerobic) in batch test for SBR1, and at 70 min (anaerobic) and 63 min (aerobic) in batch test for SBR2.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1403469"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP662800"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Tongji University",
+      "value": "PRJNA1403469"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1403469&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1403469&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 14
+}

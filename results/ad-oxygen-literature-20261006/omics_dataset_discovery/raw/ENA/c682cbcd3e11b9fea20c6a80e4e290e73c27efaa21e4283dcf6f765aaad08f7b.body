@@ -1,0 +1,72 @@
+<PROJECT_SET>
+<PROJECT accession="PRJDB17921" alias="PRJDB17921" center_name="Tokyo University of Agriculture and Technology" broker_name="DDBJ">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJDB17921</PRIMARY_ID>
+    <SECONDARY_ID>DRP012739</SECONDARY_ID>
+    <SUBMITTER_ID namespace="Tokyo University of Agriculture and Technology">PRJDB17921</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>bioreactor metagenome</NAME>
+  <TITLE>Metagenomic of microaerophilic activated sludge for retaining ammonia from high-strength nitrogenous wastewater</TITLE>
+  <DESCRIPTION>This project contains NGS data obtained by shotgun sequencing and nanopore sequencing. We recently developed a microaerophilic activated sludge (MAS) system for retaining ammonia while removing organic carbon with minimal N2O emissions. A comprehensive understanding of nitrogen metabolisms in the MAS system is essential to optimize a system performance. Here, we employed metagenomics and metatranscriptomics analyses to characterize the microbial community structures and activities during the transition from a microaerophilic to an aerobic condition.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT>
+      <LOCUS_TAG_PREFIX>ACY0AF</LOCUS_TAG_PREFIX>
+      <LOCUS_TAG_PREFIX>ACY0AG</LOCUS_TAG_PREFIX>
+      <LOCUS_TAG_PREFIX>ACY0IR</LOCUS_TAG_PREFIX>
+      <LOCUS_TAG_PREFIX>ACYZ5Z</LOCUS_TAG_PREFIX>
+      <LOCUS_TAG_PREFIX>ACYZ7E</LOCUS_TAG_PREFIX>
+      <LOCUS_TAG_PREFIX>ACYZ7L</LOCUS_TAG_PREFIX>
+      <LOCUS_TAG_PREFIX>ACYZ7O</LOCUS_TAG_PREFIX>
+      <LOCUS_TAG_PREFIX>ACYZ7P</LOCUS_TAG_PREFIX>
+      <LOCUS_TAG_PREFIX>ACYZ7Y</LOCUS_TAG_PREFIX>
+      <LOCUS_TAG_PREFIX>ACYZ8R</LOCUS_TAG_PREFIX>
+      <LOCUS_TAG_PREFIX>ACYZ9N</LOCUS_TAG_PREFIX>
+      <LOCUS_TAG_PREFIX>ACYZ9O</LOCUS_TAG_PREFIX>
+    </SEQUENCING_PROJECT>
+    <ORGANISM>
+      <TAXON_ID>1076179</TAXON_ID>
+      <SCIENTIFIC_NAME>bioreactor metagenome</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJDB17921&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJDB17921&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>1100807</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2024-04-18</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-07-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,63 @@
+{
+  "accession": "PRJNA822673",
+  "checked_utc": "2026-10-24T14:30:38.142875+00:00",
+  "ena_run_count": 0,
+  "ncbi_sra_count": 0,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA822673&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:38.143053+00:00",
+    "raw_path": "raw/ENA/91fd9755029bc2572b44d03f10c50cfe45386658c903cef036bb4ba020a38a4d.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA822673&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 5,
+    "sha256": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d",
+    "finished_utc": "2026-10-24T14:30:38.302393+00:00",
+    "measured_wall_seconds": 0.159
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA822673&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:38.705259+00:00",
+    "raw_path": "raw/NCBI/7c398f61d766f7aab8863f45c1ea0f4fee55fd6da25ce9b7be2c75f22cd3b795.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA822673&retmode=json&retmax=200&retstart=0",
+    "bytes": 351,
+    "sha256": "29f9ecc3d4eb679502571cb6bbbacec18cdee68878f0d5a1a63c50afe185beab",
+    "finished_utc": "2026-10-24T14:30:38.795898+00:00",
+    "measured_wall_seconds": 0.091
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA822673",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:38.796564+00:00",
+    "raw_path": "raw/ENA/b5177e3d1a50ed719ea0ba0f3b08010bd6a0060923efe0c67537ec3dd2eb646a.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA822673",
+    "bytes": 2566,
+    "sha256": "49567a672256b8c0c6adf6857fc1f5ed008175a828d067dcf357590bcf4a798f",
+    "finished_utc": "2026-10-24T14:30:38.947049+00:00",
+    "measured_wall_seconds": 0.151
+  },
+  "project_title": "Metagenome sequencing of sludge samples in a microaerobic internal aeration reactor for treating piggery wastewater with low COD/TN",
+  "project_description": "The internal microaerobic reactor was started to treat the low COD/TN pig wastewater, and the efficient denitrification of the wastewater was realized without any additional organic matter. The inoculated sludge and the sludge at the end of the DO=0.2 mg/L run phase were subjected to metagenomic sequencing to analyze the denitrification mechanism. The sequencing task was entrusted to Shanghai Sangon Company. Shanghai Shenggong Company returns the fas file after quality control instead of fastq files",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA822673"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Harbin Institute of Technology",
+      "value": "PRJNA822673"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA822673&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA822673&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 0
+}

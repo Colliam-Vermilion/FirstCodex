@@ -1,0 +1,656 @@
+[
+  {
+    "run_accession": "SRR15114426",
+    "experiment_accession": "SRX11423227",
+    "sample_accession": "SAMN20169045",
+    "secondary_sample_accession": "SRS9465206",
+    "sample_alias": "Microaerobic replicate three",
+    "sample_title": "MA3",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "Microaerobic enrichment MA3",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA745543",
+    "secondary_study_accession": "SRP328100",
+    "study_title": "Microaerobic and aerobic xylene degrading enrichment culture",
+    "study_description": "Microaerobic and aerobic xylene degrading enrichment of a decade-old petroleum hydrocarbon contaminated site where xylene is the main persisting contaminant.",
+    "study_links": [],
+    "experiment_title": "NGS of MA3",
+    "library_name": "MA3",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "30005",
+    "base_count": "15062510",
+    "sra_run_bytes": "10163827",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "MA3_S99_L001_R1_001.fastq.gz",
+        "size": "5053977",
+        "date": "2021-07-13 08:28:55",
+        "md5": "1391e9276826680ff86339c507bc99e9",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "MA3_S99_L001_R2_001.fastq.gz",
+        "size": "4382821",
+        "date": "2021-07-13 08:28:56",
+        "md5": "d22360281208fc31328eabe67b88e1a6",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR15114426",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR15114426/SRR15114426",
+        "size": "10165353",
+        "date": "2021-07-13 08:29:05",
+        "md5": "92c830cf2c763784dd0564d697c047d1",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR15114426.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR015/15114/SRR15114426/SRR15114426.lite.1",
+        "size": "3862263",
+        "date": "2022-09-10 23:59:38",
+        "md5": "fa5bbb9174082804ac3dcd75ae53509b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2021-07-13 08:31:37",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR15114427",
+    "experiment_accession": "SRX11423226",
+    "sample_accession": "SAMN20169044",
+    "secondary_sample_accession": "SRS9465205",
+    "sample_alias": "Microaerobic replicate two",
+    "sample_title": "MA2",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "Microaerobic enrichment MA2",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA745543",
+    "secondary_study_accession": "SRP328100",
+    "study_title": "Microaerobic and aerobic xylene degrading enrichment culture",
+    "study_description": "Microaerobic and aerobic xylene degrading enrichment of a decade-old petroleum hydrocarbon contaminated site where xylene is the main persisting contaminant.",
+    "study_links": [],
+    "experiment_title": "NGS of MA2",
+    "library_name": "MA2",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "954177",
+    "base_count": "477088500",
+    "sra_run_bytes": "165399663",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "MA2_FKDL202619313-1a-N706-N502_HVV5VDRXX_L1_1.fq.gz",
+        "size": "61509398",
+        "date": "2021-07-13 08:29:38",
+        "md5": "4cd69ebd442cb28013c8aa7ec1814575",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "MA2_FKDL202619313-1a-N706-N502_HVV5VDRXX_L1_2.fq.gz",
+        "size": "69439476",
+        "date": "2021-07-13 08:29:41",
+        "md5": "36aab8fe9642b3f088e4bbb09163b389",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR15114427",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR15114427/SRR15114427",
+        "size": "165401194",
+        "date": "2021-07-13 08:29:55",
+        "md5": "503b78bddb5ad6ca986d37f0305c82cd",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR15114427.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR015/15114/SRR15114427/SRR15114427.lite.1",
+        "size": "119516942",
+        "date": "2022-09-15 19:47:50",
+        "md5": "d1a48cdbb450254aa8888f5238269484",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2021-07-13 08:36:59",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR15114428",
+    "experiment_accession": "SRX11423225",
+    "sample_accession": "SAMN20169043",
+    "secondary_sample_accession": "SRS9465204",
+    "sample_alias": "Microaerobic replicate one",
+    "sample_title": "MA1",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "Microaerobic enrichment MA1",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA745543",
+    "secondary_study_accession": "SRP328100",
+    "study_title": "Microaerobic and aerobic xylene degrading enrichment culture",
+    "study_description": "Microaerobic and aerobic xylene degrading enrichment of a decade-old petroleum hydrocarbon contaminated site where xylene is the main persisting contaminant.",
+    "study_links": [],
+    "experiment_title": "NGS of MA1",
+    "library_name": "MA1",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "962048",
+    "base_count": "481024000",
+    "sra_run_bytes": "166293931",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "MA1_FKDL202619313-1a-N705-N502_HVV5VDRXX_L1_1.fq.gz",
+        "size": "54558001",
+        "date": "2021-07-13 08:29:30",
+        "md5": "b562eee6854fb1ccaa2297ef4370bf6d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "MA1_FKDL202619313-1a-N705-N502_HVV5VDRXX_L1_2.fq.gz",
+        "size": "73831082",
+        "date": "2021-07-13 08:29:31",
+        "md5": "2a8733b757230162e5c3fa59d1f76a28",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR15114428",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR15114428/SRR15114428",
+        "size": "166295457",
+        "date": "2021-07-13 08:29:40",
+        "md5": "5a2e231d00cf34fdd7781b7dfd559107",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR15114428.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR015/15114/SRR15114428/SRR15114428.lite.1",
+        "size": "120513085",
+        "date": "2022-09-15 19:48:03",
+        "md5": "4686a19df9232d2ff5d3aed2e211ff7f",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2021-07-13 08:36:59",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR15114429",
+    "experiment_accession": "SRX11423224",
+    "sample_accession": "SAMN20169042",
+    "secondary_sample_accession": "SRS9465203",
+    "sample_alias": "Aerobic replicate three",
+    "sample_title": "A3",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "Aerobic enrichment A3",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA745543",
+    "secondary_study_accession": "SRP328100",
+    "study_title": "Microaerobic and aerobic xylene degrading enrichment culture",
+    "study_description": "Microaerobic and aerobic xylene degrading enrichment of a decade-old petroleum hydrocarbon contaminated site where xylene is the main persisting contaminant.",
+    "study_links": [],
+    "experiment_title": "NGS of A3",
+    "library_name": "A3",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "1029040",
+    "base_count": "514520000",
+    "sra_run_bytes": "177900816",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A3_FKDL202619313-1a-N704-N502_HVV5VDRXX_L1_1.fq.gz",
+        "size": "57285842",
+        "date": "2021-07-13 08:29:27",
+        "md5": "c10a339489b9b551539ee722abd14522",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "A3_FKDL202619313-1a-N704-N502_HVV5VDRXX_L1_2.fq.gz",
+        "size": "77458613",
+        "date": "2021-07-13 08:29:29",
+        "md5": "e0a86edb8bf4f05740b3f808c2fcdbb0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR15114429",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR15114429/SRR15114429",
+        "size": "177902342",
+        "date": "2021-07-13 08:29:38",
+        "md5": "5ba9e605bffdbaebb544a61b227775b2",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR15114429.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR015/15114/SRR15114429/SRR15114429.lite.1",
+        "size": "128899966",
+        "date": "2022-09-10 23:59:44",
+        "md5": "6062ebf667526fba2d596e25b465d5c9",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2021-07-13 08:36:59",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR15114430",
+    "experiment_accession": "SRX11423223",
+    "sample_accession": "SAMN20169041",
+    "secondary_sample_accession": "SRS9465202",
+    "sample_alias": "Aerobic replicate two",
+    "sample_title": "A2",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "Aerobic enrichment A2",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA745543",
+    "secondary_study_accession": "SRP328100",
+    "study_title": "Microaerobic and aerobic xylene degrading enrichment culture",
+    "study_description": "Microaerobic and aerobic xylene degrading enrichment of a decade-old petroleum hydrocarbon contaminated site where xylene is the main persisting contaminant.",
+    "study_links": [],
+    "experiment_title": "NGS of A2",
+    "library_name": "A2",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "916542",
+    "base_count": "458271000",
+    "sra_run_bytes": "160960336",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR15114430.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR015/15114/SRR15114430/SRR15114430.lite.1",
+        "size": "114875310",
+        "date": "2022-09-10 23:59:43",
+        "md5": "dfb02844baee1690bcaa47047c8f7611",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR15114430",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR15114430/SRR15114430",
+        "size": "160961862",
+        "date": "2021-07-13 08:30:09",
+        "md5": "637d4c5887dad8169f43ed8101f6dd1d",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "A2_FKDL202619313-1a-N703-N502_HVV5VDRXX_L1_2.fq.gz",
+        "size": "72988353",
+        "date": "2021-07-13 08:29:58",
+        "md5": "7d9b69dc84d58f27f469936513432348",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "A2_FKDL202619313-1a-N703-N502_HVV5VDRXX_L1_1.fq.gz",
+        "size": "52745953",
+        "date": "2021-07-13 08:29:55",
+        "md5": "b7dbbf02b05a91c53f194d3740af8075",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2021-07-13 08:36:59",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR15114431",
+    "experiment_accession": "SRX11423222",
+    "sample_accession": "SAMN20169040",
+    "secondary_sample_accession": "SRS9465201",
+    "sample_alias": "Aerobic replicate one",
+    "sample_title": "A1",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "Aerobic enrichment A1",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA745543",
+    "secondary_study_accession": "SRP328100",
+    "study_title": "Microaerobic and aerobic xylene degrading enrichment culture",
+    "study_description": "Microaerobic and aerobic xylene degrading enrichment of a decade-old petroleum hydrocarbon contaminated site where xylene is the main persisting contaminant.",
+    "study_links": [],
+    "experiment_title": "NGS of A1",
+    "library_name": "A1",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "47378",
+    "base_count": "23783756",
+    "sra_run_bytes": "15707727",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A1_S100_L001_R1_001.fastq.gz",
+        "size": "6843310",
+        "date": "2021-07-13 08:29:14",
+        "md5": "6fdd2d5f30ae9f40bffcdfec3efa15be",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "A1_S100_L001_R2_001.fastq.gz",
+        "size": "7870435",
+        "date": "2021-07-13 08:29:12",
+        "md5": "de694b71120cf315a1d52f5e51465321",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR15114431",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR15114431/SRR15114431",
+        "size": "15709254",
+        "date": "2021-07-13 08:29:23",
+        "md5": "5fcbdfc57c181a3ccf76c0d8616be982",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR15114431.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR015/15114/SRR15114431/SRR15114431.lite.1",
+        "size": "6038295",
+        "date": "2022-09-10 23:59:39",
+        "md5": "46e04bf737b5f344e4f4642b9b0e2874",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2021-07-13 08:36:59",
+    "run_is_public": "true"
+  }
+]

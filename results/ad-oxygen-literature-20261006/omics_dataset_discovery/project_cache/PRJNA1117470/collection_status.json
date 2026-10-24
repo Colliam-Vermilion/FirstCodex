@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1117470",
+  "checked_utc": "2026-10-24T14:41:36.775855+00:00",
+  "ena_run_count": 42,
+  "ncbi_sra_count": 42,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1117470&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:36.776022+00:00",
+    "raw_path": "raw/ENA/3449d8ac05d1b376fc914c1c8414799250698641e464965fba76c43e0d7f5ecb.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1117470&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 62339,
+    "sha256": "08b456c4e73358140806de23a6a75b1ffeb396727e0f3f0464e9580e8077f2ec",
+    "finished_utc": "2026-10-24T14:41:37.446401+00:00",
+    "measured_wall_seconds": 0.67
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1117470&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:41:37.848832+00:00",
+    "raw_path": "raw/NCBI/61cb21f024abba8635e966680e4f073ee7e38ea76619745eda37a305a5b7aeef.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1117470&retmode=json&retmax=200&retstart=0",
+    "bytes": 758,
+    "sha256": "7d67dcf367e5b0f06239975dcc6a76b8be2ba19859bc8e8caf387c0f2229fd77",
+    "finished_utc": "2026-10-24T14:41:38.043565+00:00",
+    "measured_wall_seconds": 0.195
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1117470",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:39.181632+00:00",
+    "raw_path": "raw/ENA/90930ea02fe1cdbe54078e6ee78d3560673a39966627a112cbd43b4d6c21bfc0.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1117470",
+    "bytes": 3643,
+    "sha256": "94a4897a25cd3e1fc3ad7599b4420373d248d3e0727c8848f574159153e36542",
+    "finished_utc": "2026-10-24T14:41:39.447406+00:00",
+    "measured_wall_seconds": 0.266
+  },
+  "project_title": "Metagenomes of iron microbial mats from a freshwater terrestrial stream and wetlands. Metagenome",
+  "project_description": "Our work focuses on Tims Branch at the Savannah River Site (SRS), a tributary that flows</p><p>directly into the Savannah River in South Carolina. Macroscopic freshwater iron mats are widespread in</p><p>Tims Branch; furthermore, microscopy of these mats shows biomineral morphologies consistent with the</p><p>known FeOB genera Leptothrix and Gallionella. These factors make Tims Branch ideal for studying iron</p><p>oxidizers. This project is designed to fill research gaps surrounding the rate and controls on environmental</p><p>iron oxidation, and the metabolism of FeOB.</p><p>The research objectives are:</p><p>Objective 1: Quantify microbial iron oxidation rates in terrestrial iron mats using an integrated</p><p>field and kinetics study</p><p>Objective 2: Identify and quantify dominant iron-oxidizing microorganisms in terrestrial</p><p>iron mats using metagenomics and metatranscriptomics</p><p>Objective 3: Construct microbial metabolic models of iron oxidizers and iron mat</p><p>communities to link microbial iron oxidation to C, N and S cycling",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1117470"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP511621"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "University of Delaware",
+      "value": "PRJNA1117470"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1117470&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1117470&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 42
+}

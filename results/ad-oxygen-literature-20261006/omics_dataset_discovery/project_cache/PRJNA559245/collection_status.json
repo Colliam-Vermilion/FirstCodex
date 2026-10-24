@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA559245",
+  "checked_utc": "2026-10-24T14:30:43.199584+00:00",
+  "ena_run_count": 127,
+  "ncbi_sra_count": 127,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA559245&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:43.199799+00:00",
+    "raw_path": "raw/ENA/795dfae34fdc89630455b71ff14ee87d263f71acd553697c69bf0125bf2d8de1.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA559245&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 184210,
+    "sha256": "3d4783d16cb3da3d67f6a5ea99c25ad3ce46b4bd38ce5a5c3bf40dc661792d24",
+    "finished_utc": "2026-10-24T14:30:43.644792+00:00",
+    "measured_wall_seconds": 0.445
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA559245&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:44.049954+00:00",
+    "raw_path": "raw/NCBI/c90200c9cde4f884057a529cf98ceedf4731f94ccec1cb063504bb95152c8b14.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA559245&retmode=json&retmax=200&retstart=0",
+    "bytes": 1572,
+    "sha256": "961b9b05dd0b2a2ceef224f3370f8f0602f6cbac632c0114b8890d6a9694cb25",
+    "finished_utc": "2026-10-24T14:30:44.168331+00:00",
+    "measured_wall_seconds": 0.118
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA559245",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:47.169202+00:00",
+    "raw_path": "raw/ENA/498af21c69ab28fa7fc3c168561b7031f65a42651bb6f0be043e3009a6d01050.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA559245",
+    "bytes": 2573,
+    "sha256": "f11b64718b1492df5eb1694ae78dc51c71fa3eb54fe025c185e0f9fcb813818b",
+    "finished_utc": "2026-10-24T14:30:47.316627+00:00",
+    "measured_wall_seconds": 0.147
+  },
+  "project_title": "Mesocosm reactors under sustained double organic loading disturbance (with controls), Metagenomes and 16S rRNA gene v3-v4 amplicon Metabarcodes",
+  "project_description": "Sustained perturbations are of interest in microbial ecology as they can drive systems to alternative stable states. Here, we tested the effect of a sustained double organic loading perturbation on structure, assembly and function of activated sludge bacterial communities in sequencing batch bioreactors operated with intermittent aeration. We also focused on the effect of this perturbation in the nitrification function and nitrifiers.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA559245"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP220571"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Nanyang Technological University",
+      "value": "PRJNA559245"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA559245&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA559245&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 127
+}

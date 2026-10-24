@@ -1,0 +1,72 @@
+{
+  "accession": "PRJNA474723",
+  "checked_utc": "2026-10-24T14:42:04.330277+00:00",
+  "ena_run_count": 18,
+  "ncbi_sra_count": 18,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA474723&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:42:04.330424+00:00",
+    "raw_path": "raw/ENA/9451b4ed3078b87699954158e2b1df2fcbce7cfc76670e67c2ad3ee2d24af7e2.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA474723&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 25976,
+    "sha256": "1db24c27212b33e652b149c62e1a355b344228777523fd7f61e899675225d3c2",
+    "finished_utc": "2026-10-24T14:42:04.557631+00:00",
+    "measured_wall_seconds": 0.227
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA474723&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:42:04.959659+00:00",
+    "raw_path": "raw/NCBI/73476633a236d25374a91a68d53219f280ab69a26777be473a107547ffeb1237.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA474723&retmode=json&retmax=200&retstart=0",
+    "bytes": 474,
+    "sha256": "c571d804b4761c304654ffc6daf39a8daadd83f3a494c5d628b7ca6c80203910",
+    "finished_utc": "2026-10-24T14:42:05.041939+00:00",
+    "measured_wall_seconds": 0.082
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA474723",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:42:05.874851+00:00",
+    "raw_path": "raw/ENA/b40ae7a75b6d17ada72e477c5d8fd3553995e24a70f559b2aba3d0e29828f269.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA474723",
+    "bytes": 2986,
+    "sha256": "a091f3fa14047f179a4bbdc730d232ba7865f0b37142d4ddd8f7cad1c19b3ab7",
+    "finished_utc": "2026-10-24T14:42:06.043884+00:00",
+    "measured_wall_seconds": 0.169
+  },
+  "project_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+  "project_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3‐day‐old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA474723"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP149824"
+    },
+    {
+      "tag": "EXTERNAL_ID",
+      "namespace": "GEO",
+      "value": "GSE115372"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "La trobe University",
+      "value": "PRJNA474723"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>PUBMED</DB>\n        <ID>27859855</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA474723&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA474723&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 18
+}

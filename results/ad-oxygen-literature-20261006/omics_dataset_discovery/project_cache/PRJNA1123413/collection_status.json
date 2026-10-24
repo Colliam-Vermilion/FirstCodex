@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1123413",
+  "checked_utc": "2026-10-24T14:30:26.423084+00:00",
+  "ena_run_count": 6,
+  "ncbi_sra_count": 6,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1123413&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:26.423242+00:00",
+    "raw_path": "raw/ENA/01ba4281d9e9764f3d131510d91d8fdb3dd1df431c50e38ec085c87be84f1522.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1123413&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 8084,
+    "sha256": "733f2143668c715bd1c64a4904a4bd164b083804d5cf3bbed0d0d44b2ef14c36",
+    "finished_utc": "2026-10-24T14:30:26.671844+00:00",
+    "measured_wall_seconds": 0.249
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1123413&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:27.073231+00:00",
+    "raw_path": "raw/NCBI/aa24849ad4035499f5167032b32745c142d6170e41a4f9a459b5784cfd29bb67.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1123413&retmode=json&retmax=200&retstart=0",
+    "bytes": 359,
+    "sha256": "6f57e8cae6c4fcf03dbb6d5fa6e00263730aad050f0d817bc1f75c46a2b0cc61",
+    "finished_utc": "2026-10-24T14:30:27.150035+00:00",
+    "measured_wall_seconds": 0.077
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1123413",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:27.764096+00:00",
+    "raw_path": "raw/ENA/c232475d6c3c13fca674d6f340fdce232720d49d73512df3828d08e29efe71b1.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1123413",
+    "bytes": 3052,
+    "sha256": "c31a9ab69ae1fefd452c0365351de00f446e80f73da503a5cfdb1b381853c61c",
+    "finished_utc": "2026-10-24T14:30:27.917613+00:00",
+    "measured_wall_seconds": 0.154
+  },
+  "project_title": "Dissolved oxygen regulated gradient treatment of ammonia-rich organic wastewater from Chinese medicine residues in an anaerobic-microaerobic-aerobic process",
+  "project_description": "Resource recovery processes from Chinese medicine residues (CMRs) produce substantial refractory wastewater. Herein, to effectively treat actual ammonia-rich CMR wastewater, we optimized an anaerobic-microaerobic two-stage expanded granular sludge bed (EGSB) and moving bed sequencing batch reactor (MBSBR) combined sys-tem. By controlling dissolved oxygen (DO) levels, impressive removal efficiencies for chemical oxygen demand (COD, 99.26%), ammonia nitrogen (NH4+-N, 98.92%), and total phosphorus (TP, 96.09%) were achieved. Microaeration, contrasting with anaerobic conditions, bolstered dehydrogenase activity and electron transfer, thereby augmenting the functional microorganism community. The heightened relative abundance of Synergistetes and Proteobacteria facilitated hydrolytic acidification, fostering nitrogen and phosphorus removal. Furthermore, we examined the impact of DO concentration in MBSBR on pollutant removal and microbial metabolic activity, pinpointing 2.5 mg L-1 as the optimal DO concentration for superior removal performance and energy conservation.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1123413"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP513612"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Harbin Institute of Technology",
+      "value": "PRJNA1123413"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1123413&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1123413&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 6
+}

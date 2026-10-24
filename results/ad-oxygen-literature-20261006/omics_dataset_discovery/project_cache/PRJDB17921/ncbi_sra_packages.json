@@ -1,0 +1,599 @@
+[
+  {
+    "run_accession": "DRR546160",
+    "experiment_accession": "DRX529938",
+    "sample_accession": "SAMD00770008",
+    "secondary_sample_accession": "DRS450473",
+    "sample_alias": "SAMD00770008",
+    "sample_title": "Shotgun metagenomic data of microaerobic activated sludge in a bioreactor (Reactor2) for ammonia retention from high nitrogen wastewater at day 268 (3 of the triplicates)",
+    "scientific_name": "bioreactor metagenome",
+    "tax_id": "1076179",
+    "sample_attributes": [
+      {
+        "tag": "sample_name",
+        "value": "MAS_R2_S_D268_3",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-06-10",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Japan:Tokyo, Koganei, The sludge was collected in lab-scale bioreactor",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "bioreactor",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "35.69837 N 139.51702 E",
+        "units": ""
+      },
+      {
+        "tag": "replicate",
+        "value": "2",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJDB17921",
+    "secondary_study_accession": "DRP012739",
+    "study_title": "Metagenomic of microaerophilic activated sludge for retaining ammonia from high-strength nitrogenous wastewater",
+    "study_description": "This project contains NGS data obtained by shotgun sequencing and nanopore sequencing. We recently developed a microaerophilic activated sludge (MAS) system for retaining ammonia while removing organic carbon with minimal N2O emissions. A comprehensive understanding of nitrogen metabolisms in the MAS system is essential to optimize a system performance. Here, we employed metagenomics and metatranscriptomics analyses to characterize the microbial community structures and activities during the transition from a microaerophilic to an aerobic condition.",
+    "study_links": [],
+    "experiment_title": "DNBSEQ paired end sequencing of SAMD00770008 : MAS_R2_S_D268_3",
+    "library_name": "MAS_R2_S_D268_3",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "DNBSEQ",
+    "instrument_model": "DNBSEQ-G400",
+    "read_count": "15719863",
+    "base_count": "4715958900",
+    "sra_run_bytes": "3463558842",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DRR546160",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/DRR546160/DRR546160",
+        "size": "3463560680",
+        "date": "2025-04-15 10:33:07",
+        "md5": "fd76b733542dde8a0ebf292edc06e113",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "DRR546160.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos7/sra-pub-zq-41/DRR000/546/DRR546160/DRR546160.lite.1",
+        "size": "1355573998",
+        "date": "2025-04-15 15:06:26",
+        "md5": "02181aa02fc29132ce098c8e840dcf79",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-04-15 10:27:38",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "DRR546159",
+    "experiment_accession": "DRX529937",
+    "sample_accession": "SAMD00770007",
+    "secondary_sample_accession": "DRS450472",
+    "sample_alias": "SAMD00770007",
+    "sample_title": "Shotgun metagenomic data of microaerobic activated sludge in a bioreactor (Reactor2) for ammonia retention from high nitrogen wastewater at day 268 (2 of the triplicates)",
+    "scientific_name": "bioreactor metagenome",
+    "tax_id": "1076179",
+    "sample_attributes": [
+      {
+        "tag": "sample_name",
+        "value": "MAS_R2_S_D268_2",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-06-10",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Japan:Tokyo, Koganei, The sludge was collected in lab-scale bioreactor",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "bioreactor",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "35.69837 N 139.51702 E",
+        "units": ""
+      },
+      {
+        "tag": "replicate",
+        "value": "2",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJDB17921",
+    "secondary_study_accession": "DRP012739",
+    "study_title": "Metagenomic of microaerophilic activated sludge for retaining ammonia from high-strength nitrogenous wastewater",
+    "study_description": "This project contains NGS data obtained by shotgun sequencing and nanopore sequencing. We recently developed a microaerophilic activated sludge (MAS) system for retaining ammonia while removing organic carbon with minimal N2O emissions. A comprehensive understanding of nitrogen metabolisms in the MAS system is essential to optimize a system performance. Here, we employed metagenomics and metatranscriptomics analyses to characterize the microbial community structures and activities during the transition from a microaerophilic to an aerobic condition.",
+    "study_links": [],
+    "experiment_title": "DNBSEQ paired end sequencing of SAMD00770007 : MAS_R2_S_D268_2",
+    "library_name": "MAS_R2_S_D268_2",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "DNBSEQ",
+    "instrument_model": "DNBSEQ-G400",
+    "read_count": "15462361",
+    "base_count": "4638708300",
+    "sra_run_bytes": "3406739868",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DRR546159",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/DRR546159/DRR546159",
+        "size": "3406741705",
+        "date": "2025-04-15 10:32:38",
+        "md5": "1fa4c480bae1270623bbca079f67ba61",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "DRR546159.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos7/sra-pub-zq-41/DRR000/546/DRR546159/DRR546159.lite.1",
+        "size": "1331840958",
+        "date": "2025-04-15 15:06:20",
+        "md5": "8a40fc856038cae0f9c652c273837dbb",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-04-15 10:27:38",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "DRR546158",
+    "experiment_accession": "DRX529936",
+    "sample_accession": "SAMD00770006",
+    "secondary_sample_accession": "DRS450471",
+    "sample_alias": "SAMD00770006",
+    "sample_title": "Shotgun metagenomic data of microaerobic activated sludge in a bioreactor (Reactor2) for ammonia retention from high nitrogen wastewater at day 268 (1 of the triplicates)",
+    "scientific_name": "bioreactor metagenome",
+    "tax_id": "1076179",
+    "sample_attributes": [
+      {
+        "tag": "sample_name",
+        "value": "MAS_R2_S_D268_1",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-06-10",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Japan:Tokyo, Koganei, The sludge was collected in lab-scale bioreactor",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "bioreactor",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "35.69837 N 139.51702 E",
+        "units": ""
+      },
+      {
+        "tag": "replicate",
+        "value": "2",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJDB17921",
+    "secondary_study_accession": "DRP012739",
+    "study_title": "Metagenomic of microaerophilic activated sludge for retaining ammonia from high-strength nitrogenous wastewater",
+    "study_description": "This project contains NGS data obtained by shotgun sequencing and nanopore sequencing. We recently developed a microaerophilic activated sludge (MAS) system for retaining ammonia while removing organic carbon with minimal N2O emissions. A comprehensive understanding of nitrogen metabolisms in the MAS system is essential to optimize a system performance. Here, we employed metagenomics and metatranscriptomics analyses to characterize the microbial community structures and activities during the transition from a microaerophilic to an aerobic condition.",
+    "study_links": [],
+    "experiment_title": "DNBSEQ paired end sequencing of SAMD00770006 : MAS_R2_S_D268_1",
+    "library_name": "MAS_R2_S_D268_1",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "DNBSEQ",
+    "instrument_model": "DNBSEQ-G400",
+    "read_count": "7977327",
+    "base_count": "2393198100",
+    "sra_run_bytes": "1893448387",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DRR546158",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/DRR546158/DRR546158",
+        "size": "1893450224",
+        "date": "2025-04-15 10:28:03",
+        "md5": "346f2d1d14b0e26f6535fe2a39b12086",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "DRR546158.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos7/sra-pub-zq-41/DRR000/546/DRR546158/DRR546158.lite.1",
+        "size": "691864250",
+        "date": "2025-04-15 15:06:10",
+        "md5": "a1f0231bdf481b7984e33c48f2c727d6",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-04-15 10:27:37",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "DRR546157",
+    "experiment_accession": "DRX529935",
+    "sample_accession": "SAMD00770005",
+    "secondary_sample_accession": "DRS450470",
+    "sample_alias": "SAMD00770005",
+    "sample_title": "Nanopore sequencing data of microaerobic activated sludge in a bioreactor (Reactor1) for ammonia retention from high nitrogen wastewater at day 268",
+    "scientific_name": "bioreactor metagenome",
+    "tax_id": "1076179",
+    "sample_attributes": [
+      {
+        "tag": "sample_name",
+        "value": "MAS_R1_L_D268",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-06-10",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Japan:Tokyo, Koganei, The sludge was collected in lab-scale bioreactor",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "bioreactor",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "35.69837 N 139.51702 E",
+        "units": ""
+      },
+      {
+        "tag": "replicate",
+        "value": "1",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJDB17921",
+    "secondary_study_accession": "DRP012739",
+    "study_title": "Metagenomic of microaerophilic activated sludge for retaining ammonia from high-strength nitrogenous wastewater",
+    "study_description": "This project contains NGS data obtained by shotgun sequencing and nanopore sequencing. We recently developed a microaerophilic activated sludge (MAS) system for retaining ammonia while removing organic carbon with minimal N2O emissions. A comprehensive understanding of nitrogen metabolisms in the MAS system is essential to optimize a system performance. Here, we employed metagenomics and metatranscriptomics analyses to characterize the microbial community structures and activities during the transition from a microaerophilic to an aerobic condition.",
+    "study_links": [],
+    "experiment_title": "DNBSEQ paired end sequencing of SAMD00770005 : MAS_R1_L_D268",
+    "library_name": "MAS_R1_L_D268",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "OXFORD_NANOPORE",
+    "instrument_model": "MinION",
+    "read_count": "970718",
+    "base_count": "5805939192",
+    "sra_run_bytes": "5079225133",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DRR546157",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos7/sra-pub-run-38/DRR000/546/DRR546157/DRR546157.1",
+        "size": "5079226971",
+        "date": "2025-04-15 10:37:34",
+        "md5": "e11d12995251fd378b640305283426da",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-04-15 10:27:37",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "DRR546156",
+    "experiment_accession": "DRX529934",
+    "sample_accession": "SAMD00770004",
+    "secondary_sample_accession": "DRS450469",
+    "sample_alias": "SAMD00770004",
+    "sample_title": "Shotgun metagenomic data of microaerobic activated sludge in a bioreactor (Reactor1) for ammonia retention from high nitrogen wastewater at day 268 (3 of the triplicates)",
+    "scientific_name": "bioreactor metagenome",
+    "tax_id": "1076179",
+    "sample_attributes": [
+      {
+        "tag": "sample_name",
+        "value": "MAS_R1_S_D268_3",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-06-10",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Japan:Tokyo, Koganei, The sludge was collected in lab-scale bioreactor",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "bioreactor",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "35.69837 N 139.51702 E",
+        "units": ""
+      },
+      {
+        "tag": "replicate",
+        "value": "1",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJDB17921",
+    "secondary_study_accession": "DRP012739",
+    "study_title": "Metagenomic of microaerophilic activated sludge for retaining ammonia from high-strength nitrogenous wastewater",
+    "study_description": "This project contains NGS data obtained by shotgun sequencing and nanopore sequencing. We recently developed a microaerophilic activated sludge (MAS) system for retaining ammonia while removing organic carbon with minimal N2O emissions. A comprehensive understanding of nitrogen metabolisms in the MAS system is essential to optimize a system performance. Here, we employed metagenomics and metatranscriptomics analyses to characterize the microbial community structures and activities during the transition from a microaerophilic to an aerobic condition.",
+    "study_links": [],
+    "experiment_title": "DNBSEQ paired end sequencing of SAMD00770004 : MAS_R1_S_D268_3",
+    "library_name": "MAS_R1_S_D268_3",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "DNBSEQ",
+    "instrument_model": "DNBSEQ-G400",
+    "read_count": "13434912",
+    "base_count": "4030473600",
+    "sra_run_bytes": "2963363584",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DRR546156",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/DRR546156/DRR546156",
+        "size": "2963365423",
+        "date": "2025-04-15 10:30:08",
+        "md5": "71fb27703b801128b75b88b23ddb643f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "DRR546156.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos7/sra-pub-zq-41/DRR000/546/DRR546156/DRR546156.lite.1",
+        "size": "1158565529",
+        "date": "2025-04-15 15:06:23",
+        "md5": "05770a335b97a6499bc765deb88eaf7d",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-04-15 10:27:37",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "DRR546155",
+    "experiment_accession": "DRX529933",
+    "sample_accession": "SAMD00770003",
+    "secondary_sample_accession": "DRS450468",
+    "sample_alias": "SAMD00770003",
+    "sample_title": "Shotgun metagenomic data of microaerobic activated sludge in a bioreactor (Reactor1) for ammonia retention from high nitrogen wastewater at day 268 (2 of the triplicates)",
+    "scientific_name": "bioreactor metagenome",
+    "tax_id": "1076179",
+    "sample_attributes": [
+      {
+        "tag": "sample_name",
+        "value": "MAS_R1_S_D268_2",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-06-10",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Japan:Tokyo, Koganei, The sludge was collected in lab-scale bioreactor",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "bioreactor",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "35.69837 N 139.51702 E",
+        "units": ""
+      },
+      {
+        "tag": "replicate",
+        "value": "1",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJDB17921",
+    "secondary_study_accession": "DRP012739",
+    "study_title": "Metagenomic of microaerophilic activated sludge for retaining ammonia from high-strength nitrogenous wastewater",
+    "study_description": "This project contains NGS data obtained by shotgun sequencing and nanopore sequencing. We recently developed a microaerophilic activated sludge (MAS) system for retaining ammonia while removing organic carbon with minimal N2O emissions. A comprehensive understanding of nitrogen metabolisms in the MAS system is essential to optimize a system performance. Here, we employed metagenomics and metatranscriptomics analyses to characterize the microbial community structures and activities during the transition from a microaerophilic to an aerobic condition.",
+    "study_links": [],
+    "experiment_title": "DNBSEQ paired end sequencing of SAMD00770003 : MAS_R1_S_D268_2",
+    "library_name": "MAS_R1_S_D268_2",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "DNBSEQ",
+    "instrument_model": "DNBSEQ-G400",
+    "read_count": "13212605",
+    "base_count": "3963781500",
+    "sra_run_bytes": "2914105097",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DRR546155",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/DRR546155/DRR546155",
+        "size": "2914106933",
+        "date": "2025-04-15 10:30:03",
+        "md5": "a9c55bd780359857a495df733b3c421a",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "DRR546155.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos7/sra-pub-zq-41/DRR000/546/DRR546155/DRR546155.lite.1",
+        "size": "1138079875",
+        "date": "2025-04-15 15:06:32",
+        "md5": "5c3d0a50d5900b157ff4de253e296125",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-04-15 10:27:37",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "DRR546154",
+    "experiment_accession": "DRX529932",
+    "sample_accession": "SAMD00770002",
+    "secondary_sample_accession": "DRS450467",
+    "sample_alias": "SAMD00770002",
+    "sample_title": "Shotgun metagenomic data of microaerobic activated sludge in a bioreactor (Reactor1) for ammonia retention from high nitrogen wastewater at day 268 (1 of the triplicates)",
+    "scientific_name": "bioreactor metagenome",
+    "tax_id": "1076179",
+    "sample_attributes": [
+      {
+        "tag": "sample_name",
+        "value": "MAS_R1_S_D268_1",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-06-10",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Japan:Tokyo, Koganei, The sludge was collected in lab-scale bioreactor",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "bioreactor",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "35.69837 N 139.51702 E",
+        "units": ""
+      },
+      {
+        "tag": "replicate",
+        "value": "1",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJDB17921",
+    "secondary_study_accession": "DRP012739",
+    "study_title": "Metagenomic of microaerophilic activated sludge for retaining ammonia from high-strength nitrogenous wastewater",
+    "study_description": "This project contains NGS data obtained by shotgun sequencing and nanopore sequencing. We recently developed a microaerophilic activated sludge (MAS) system for retaining ammonia while removing organic carbon with minimal N2O emissions. A comprehensive understanding of nitrogen metabolisms in the MAS system is essential to optimize a system performance. Here, we employed metagenomics and metatranscriptomics analyses to characterize the microbial community structures and activities during the transition from a microaerophilic to an aerobic condition.",
+    "study_links": [],
+    "experiment_title": "DNBSEQ paired end sequencing of SAMD00770002 : MAS_R1_S_D268_1",
+    "library_name": "MAS_R1_S_D268_1",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "DNBSEQ",
+    "instrument_model": "DNBSEQ-G400",
+    "read_count": "8028690",
+    "base_count": "2408607000",
+    "sra_run_bytes": "1908698553",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DRR546154",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/DRR546154/DRR546154",
+        "size": "1908700387",
+        "date": "2025-04-15 10:28:31",
+        "md5": "f1e44bc40742e24d9973a01a2dfa19fd",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "DRR546154.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos7/sra-pub-zq-41/DRR000/546/DRR546154/DRR546154.lite.1",
+        "size": "696318721",
+        "date": "2025-04-15 15:06:13",
+        "md5": "42fc5ccf04d0c5bc37b3a0858a7501dd",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-04-15 10:27:37",
+    "run_is_public": "true"
+  }
+]

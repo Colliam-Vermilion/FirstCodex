@@ -1,0 +1,496 @@
+[
+  {
+    "run_accession": "SRR5366571",
+    "experiment_accession": "SRX2661838",
+    "sample_accession": "SAMN06607486",
+    "secondary_sample_accession": "SRS2063851",
+    "sample_alias": "Cell_1",
+    "sample_title": "",
+    "scientific_name": "ciliate metagenome",
+    "tax_id": "1969832",
+    "sample_attributes": [
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Santa Barbara Basin",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "multi-displacement amplification of genomic DNA from one ciliate cell",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "samp_size",
+        "value": "single cell",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "34.28 N 120.10 W",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2012-06-08",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "Santa Barbara Basin sediments",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA379456",
+    "secondary_study_accession": "SRP102302",
+    "study_title": "karyorelictid ciliate and its symbionts",
+    "study_description": "MDA amplified metagenome and amplified metatranscriptome from single or small pools of a species of karyorelictid ciliate and its intracellular prokaryotic symbionts from Santa Barbara Basin sediments",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29271011"
+      }
+    ],
+    "experiment_title": "Metagenome of karyorelictid ciliate and its prokaryotic symbionts",
+    "library_name": "Cell_1",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 550",
+    "read_count": "5966457",
+    "base_count": "1793685987",
+    "sra_run_bytes": "998043010",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR5366571.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR005/366/SRR5366571.sralite.1",
+        "size": "461214675",
+        "date": "2020-06-22 05:44:02",
+        "md5": "1a1703bf87f3d6573b94e9b831ce1ac2",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5366571",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5366571/SRR5366571",
+        "size": "998044827",
+        "date": "2017-03-22 13:11:01",
+        "md5": "507ba15391854098c4c78d4c33bfdc80",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "B1_R2.fastq.gz",
+        "size": "683859508",
+        "date": "2020-03-30 15:45:29",
+        "md5": "004c0cb211108d34dd81db58028d182f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "B1_R1.fastq.gz",
+        "size": "671873152",
+        "date": "2020-03-30 15:45:29",
+        "md5": "7348fd04dec4a9bbc0110196ca2ab062",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-01-01 00:02:01",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR5366572",
+    "experiment_accession": "SRX2661839",
+    "sample_accession": "SAMN06607490",
+    "secondary_sample_accession": "SRS2063852",
+    "sample_alias": "Cell_3",
+    "sample_title": "",
+    "scientific_name": "ciliate metagenome",
+    "tax_id": "1969832",
+    "sample_attributes": [
+      {
+        "tag": "Replicate",
+        "value": "3",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Santa Barbara Basin",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "34.28 N 120.10 W",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2012-06-08",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "Santa Barbara Basin sediments",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA379456",
+    "secondary_study_accession": "SRP102302",
+    "study_title": "karyorelictid ciliate and its symbionts",
+    "study_description": "MDA amplified metagenome and amplified metatranscriptome from single or small pools of a species of karyorelictid ciliate and its intracellular prokaryotic symbionts from Santa Barbara Basin sediments",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29271011"
+      }
+    ],
+    "experiment_title": "Metagenome of karyorelictid ciliate and its prokaryotic symbionts",
+    "library_name": "Cell_3",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 550",
+    "read_count": "6287554",
+    "base_count": "1889320616",
+    "sra_run_bytes": "1046498787",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR5366572",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5366572/SRR5366572",
+        "size": "1046500606",
+        "date": "2017-03-22 13:11:06",
+        "md5": "9c875ed6157cd96df0c168b196124203",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5366572.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR005/366/SRR5366572.sralite.1",
+        "size": "486002367",
+        "date": "2020-06-22 05:42:07",
+        "md5": "14515fa84bc376aec8096c8721415c6a",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "B3_R2.fastq.gz",
+        "size": "814445345",
+        "date": "2020-03-30 18:55:11",
+        "md5": "e6b6eaf7337fba39e8f02447a853017b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "B3_R1.fastq.gz",
+        "size": "802833811",
+        "date": "2020-03-30 18:55:11",
+        "md5": "6f9992cb4626c5be8ad117c8b80fdc31",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-01-01 00:02:01",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR5366573",
+    "experiment_accession": "SRX2661840",
+    "sample_accession": "SAMN06607489",
+    "secondary_sample_accession": "SRS2063853",
+    "sample_alias": "Cell_2",
+    "sample_title": "",
+    "scientific_name": "ciliate metagenome",
+    "tax_id": "1969832",
+    "sample_attributes": [
+      {
+        "tag": "Replicate",
+        "value": "2",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Santa Barbara Basin",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "34.28 N 120.10 W",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2012-06-08",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "Santa Barbara Basin sediments",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA379456",
+    "secondary_study_accession": "SRP102302",
+    "study_title": "karyorelictid ciliate and its symbionts",
+    "study_description": "MDA amplified metagenome and amplified metatranscriptome from single or small pools of a species of karyorelictid ciliate and its intracellular prokaryotic symbionts from Santa Barbara Basin sediments",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29271011"
+      }
+    ],
+    "experiment_title": "Metagenome of karyorelictid ciliate and its prokaryotic symbionts",
+    "library_name": "Cell_2",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 550",
+    "read_count": "6096326",
+    "base_count": "1832338645",
+    "sra_run_bytes": "1015300434",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "B2_R2.fastq.gz",
+        "size": "693042328",
+        "date": "2020-03-30 18:55:10",
+        "md5": "6c12c6dc7e8c649d86d37fbfe9eb12a9",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5366573",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5366573/SRR5366573",
+        "size": "1015302255",
+        "date": "2017-03-22 13:11:39",
+        "md5": "41a459b9a31ff0abcaf449d45ece8967",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5366573.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR005/366/SRR5366573.sralite.1",
+        "size": "471328175",
+        "date": "2020-06-22 05:44:43",
+        "md5": "293b971e586a706822f30d5337544757",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "B2_R1.fastq.gz",
+        "size": "680078834",
+        "date": "2020-03-30 16:44:05",
+        "md5": "b81d723d28589da4472e227feb0999f3",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-01-01 00:02:01",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR5366574",
+    "experiment_accession": "SRX2661841",
+    "sample_accession": "SAMN06607507",
+    "secondary_sample_accession": "SRS2063854",
+    "sample_alias": "Metatranscriptome from karyorelictid ciliate and its symbionts from Santa Barbara Basin sediiments",
+    "sample_title": "",
+    "scientific_name": "ciliate metagenome",
+    "tax_id": "1969832",
+    "sample_attributes": [
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Santa Barbara Basin",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "RNA isolated and amplified from approximately ~150 ciliate cells",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "samp_size",
+        "value": "150 cells",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "34.28 N 120.10 W",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2012-06-08",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "karyorelictid ciliate and its prokaryotic symbionts from Santa Barbara Basin sediments",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA379456",
+    "secondary_study_accession": "SRP102302",
+    "study_title": "karyorelictid ciliate and its symbionts",
+    "study_description": "MDA amplified metagenome and amplified metatranscriptome from single or small pools of a species of karyorelictid ciliate and its intracellular prokaryotic symbionts from Santa Barbara Basin sediments",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29271011"
+      }
+    ],
+    "experiment_title": "Metatranscriptome of karyorelictid ciliate and its prokaryotic symbionts",
+    "library_name": "BC_Metatranscriptome",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2500",
+    "read_count": "22594397",
+    "base_count": "2259439700",
+    "sra_run_bytes": "1366459531",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "MMETSP1317-Unknown-Unknown-.1.fastq.gz",
+        "size": "1011458622",
+        "date": "2020-03-30 17:57:48",
+        "md5": "dd19e3234a49b7a4a0db94fa7721f39a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5366574.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR005/366/SRR5366574.sralite.1",
+        "size": "615494704",
+        "date": "2020-06-22 05:50:48",
+        "md5": "d60c5d2f4cb0fad0f30e84b28d491b5c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5366574",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5366574/SRR5366574",
+        "size": "1366461873",
+        "date": "2017-03-22 13:14:31",
+        "md5": "9eea5e1becb4c10e9fc4a7388443726f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "MMETSP1317-Unknown-Unknown-.2.fastq.gz",
+        "size": "1016918839",
+        "date": "2020-03-30 16:44:06",
+        "md5": "83a54465d757ca956b300789b34e5437",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-01-01 00:02:01",
+    "run_is_public": "true"
+  }
+]

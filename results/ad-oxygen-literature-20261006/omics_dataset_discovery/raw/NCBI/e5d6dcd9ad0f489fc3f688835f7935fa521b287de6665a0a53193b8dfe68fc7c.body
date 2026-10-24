@@ -1,0 +1,1382 @@
+<?xml version="1.0" ?>
+<RecordSet><DocumentSummary uid="1483160">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJDB37862" archive="DDBJ" id="1483160"/>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>activated sludge metagenome</Name>
+            <Title>Low dissolved oxygen and low pH driven effective start-up of microaerobic activated sludge process to convert nitrogen compounds in fermentation industrial wastewater to ammonium</Title>
+            <Description>This study focuses on the microaerobic activated sludge (MAS) process developed to convert and retain ammonium in industrial fermentation wastewater. We aim to examine microbial community dynamics by amplifying 16S and 18S rRNA genes from DNA extracted from activated sludge in a continuous-flow cultivation reactor during the MAS process. Understanding these communities will shed light on mechanisms that enable efficient ammonium conversion and maintain stability under microaerobic conditions. The findings are expected to help optimize MAS performance and support sustainable nitrogen recovery in industrial fermentation wastewater treatment. Experiments were carried out under controlled conditions, with key operational parameters (e.g., dissolved oxygen concentration, pH) deliberately varied to evaluate their effects on microbial community structure and ammonium conversion efficiency.</Description>
+            <ProjectReleaseDate>2026-06-16T22:03:28Z</ProjectReleaseDate>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eTargetedLocusLoci" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="942017" taxID="942017">
+                        <OrganismName>activated sludge metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                    </Organism>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eRawSequenceReads"/>
+                </Objectives>
+                <ProjectDataTypeSet>
+                    <DataType>Targeted Locus (Loci)</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission submitted="2025-10-17">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="center">
+                <Name>Kirin Holdings Company, Limited.</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="1467839">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA1467839" archive="NCBI" id="1467839"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>Partial Nitrification and Thiocyanate-Driven Denitrification activated sludge</Name>
+            <Title>Partial Nitrification and Thiocyanate-Driven Denitrification activated sludge Genome sequencing and assembly</Title>
+            <Description>This study provides new insights into the regulatory mechanisms of SOB-driven microaerobic nitrogen removal systems and establishes a theoretical foundation for the development of efficient and sustainable treatment strategies for thiocyanate-containing wastewater.</Description>
+            <Relevance>
+                <Environmental>yes</Environmental>
+            </Relevance>
+            <LocusTagPrefix biosample_id="SAMN60262954">AC29L3</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60305223">AC3A20</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60305224">AC3A21</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60305225">AC3A22</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60305226">AC3A23</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60305227">AC3A24</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60305228">AC3A25</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60305229">AC3A26</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60305230">AC3A27</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60305231">AC3A28</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279301">AC3APO</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279302">AC3APP</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279303">AC3APQ</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279304">AC3APR</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279305">AC3APS</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279306">AC3APT</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279307">AC3APU</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279308">AC3APV</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279309">AC3APW</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279492">AC3EWE</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279493">AC3EWF</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279491">AC3EWG</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279494">AC3EWH</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279504">AC3EZ0</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279507">AC3EZ1</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279506">AC3EZ2</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN60279505">AC3EZZ</LocusTagPrefix>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="942017" taxID="942017">
+                        <OrganismName>activated sludge metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                    </Organism>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eSequence"/>
+                    <Data data_type="eAssembly"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>genome sequencing and assembly</DataType>
+                    <DataType>metagenome</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>genome sequencing and assembly</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2026-05-18" submission_id="SUB16088147" submitted="2026-05-18">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute">
+                <Name>Beijing university of technology</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB16088147-bp0"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="1361987">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJDB36680" archive="DDBJ" id="1361987"/>
+            <LocalID>PRJCA039809</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>sludge metagenome</Name>
+            <Title>wastewater sludge microbiome (PRJCA039809)</Title>
+            <Description>wastewater sludge microbiome relation with microoxic</Description>
+            <ExternalLink label="NGDC BioProject PRJCA039809">
+                <URL>https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA039809</URL>
+            </ExternalLink>
+            <ProjectReleaseDate>2025-11-13T01:43:31Z</ProjectReleaseDate>
+            <UserTerm category="" term="NGDC_release_date" units="">2025-05-12</UserTerm>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eOther" material="eOther" sample_scope="eEnvironment">
+                    <Organism species="1592332" taxID="1592332">
+                        <OrganismName>sludge metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                    </Organism>
+                </Target>
+                <Method method_type="eOther"/>
+                <Objectives>
+                    <Data data_type="eOther"/>
+                </Objectives>
+                <ProjectDataTypeSet>
+                    <DataType>Other</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission submitted="2025-08-22">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="center">
+                <Name>Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="1287080">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA1287080" archive="NCBI" id="1287080"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Title>Insight into the role of intermittent microaeration in enhancing lignocellulose-containing anaerobic digestion and humic substances formation</Title>
+            <Description>16S rRNA sequencing and metagenomic data for sludge samples from anaerobic reactors treating corn straw and waste activated sludge with intermittent microaeration</Description>
+            <Relevance>
+                <Environmental>yes</Environmental>
+            </Relevance>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eMultispecies"/>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eRawSequenceReads"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2025-07-05" submission_id="SUB15437057" submitted="2025-07-05">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute">
+                <Name>Dalian Universtiy of Technology</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB15437057-bp0"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="1186224">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA1186224" archive="NCBI" id="1186224"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Title>High-temperature filamentous microbial communities in Conch and Octopus hot springs, Yellowstone National Park Metagenomic assembly</Title>
+            <Description>Thermophilic microbial communities growing in low-oxygen environments often contain early-evolved archaea and bacteria, which hold clues regarding mechanisms of cellular respiration relevant to early life. Here, we conducted replicate metagenomic, metatranscriptomic, microscopic and geochemical analyses on two hyperthermophilic (82-84 oC) filamentous microbial communities (Conch and Octopus Springs, Yellowstone National Park, WY) to understand the role of oxygen, sulfur and arsenic in energy conservation and community composition. We report that hyperthermophiles within the Aquificota (Thermocrinis), Pyropristinus (Caldipriscus) and Thermoproteota (Pyrobaculum) are abundant in both communities; however, higher oxygen results in a greater diversity of aerobic heterotrophs. Metatranscriptomics revealed major shifts in respiratory pathways of keystone chemolithotrophs due to differences in oxygen versus sulfide. Specifically, early-evolved hyperthermophiles express high levels of high-affinity cytochrome bd and CydAA' oxidases in suboxic sulfidic environments, and low-affinity heme Cu oxidases under microaerobic conditions. These energy-conservation mechanisms using cytochrome oxidases in high-temperature, low-oxygen habitats likely played a crucial role in the early evolution of microbial life.</Description>
+            <ExternalLink label="Supplementary videos showing filamentous streamer communities">
+                <URL>https://doi.org/10.6084/m9.figshare.26367544.v1</URL>
+            </ExternalLink>
+            <Grant GrantId="1950770">
+                <Title>OPUS-CRS: Integration of Phylogenomic and Metabolic Analyses to Understand the Biodiversity of Deeply Rooted Microbial Lineages</Title>
+                <Agency abbr="NSF">National Science Foundation</Agency>
+            </Grant>
+            <Relevance>
+                <Environmental>yes</Environmental>
+            </Relevance>
+            <LocusTagPrefix biosample_id="SAMN44752209">ACO2O0</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752204">ACO2O1</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752212">ACO2O2</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752216">ACO2O3</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752200">ACO2O4</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752195">ACO2O5</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752201">ACO2O6</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752215">ACO2ON</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752194">ACO2OO</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752211">ACO2OQ</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752213">ACO2OR</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752218">ACO2OS</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752214">ACO2OT</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752196">ACO2OU</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752207">ACO2OV</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752199">ACO2OW</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752198">ACO2OX</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752219">ACO2OY</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752205">ACO2OZ</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752208">ACO2PK</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752206">ACO2PL</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752203">ACO2PM</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752217">ACO2PN</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752197">ACO2PO</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752202">ACO2PP</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN44752210">ACO2PQ</LocusTagPrefix>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eMultispecies">
+                    <Description>High-temperature filamentous microbial communities in Conch and Octopus hot springs, Yellowstone National Park</Description>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eAssembly"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>metagenomic assembly</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>Genome sequencing</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2024-11-14" submission_id="SUB14865792" submitted="2024-11-14">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute" url="https://www.montana.edu/">
+                <Name>Montana State University</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB14865792-bp0"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="1094773">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJEB60473" archive="EBI" id="1094773"/>
+            <CenterID center="EBI" id="0">ERP145536</CenterID>
+            <LocalID submission_id="5a36ddc1-acd6-4727-ae34-8475154fba13">NCKU</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>Intermittent Oxygen Supply Facilitates Co-degradation of Trichloroethene and Toluene by Anaerobic Consortia</Name>
+            <Title>Intermittent Oxygen Supply Facilitates Co-degradation of Trichloroethene and Toluene by Anaerobic Consortia</Title>
+            <Description>Biodegradation is a green microbial technology commonly used to clean up the sites with singular pollutants of trichloroethene and toluene. However, cleaning up the site using microbiological degradations, either anaerobic or aerobic, remains inefficient when the pollutants coexist. In this study, we developed a novel strategy of intermittent microaeration for anaerobic consortia to co-degrade trichloroethylene and toluene using a sequencing batch reactor. Results of batch assays and reactor pretests suggested that the oxygen inhibited the anaerobic dechlorination rate of trichloroethene to ethene by anaerobic consortia but the rate was comparable under conditions with initial dissolved oxygen of 0.2 mg/L. Repeated reactor tests showed that once intermittent microaeration (initial dissolved oxygen 0.5 mg/L every two days) was applied to achieve a fluctuation in the oxidation-reduction potential range of -146~-475 mV, the dosed trichloroethene and toluene co-degraded rapidly, although the trichloroethene degradation rate was comprised by 66% approximately. Sequencing analysis of full-length 16S rRNA gene amplicons revealed that Dehalogenimonas dominated organohalide-respiring bacterial community with an abundance of 16.0±3.5% much higher than Dehalococcoides (0.3% ± 0.2%), which corresponded with Dehalogenimonas with higher transcriptomic activities than Dehalococcoides by 10 times. Through the shotgun metagenomic analysis, we found that in addition to multiple copies of reductive dehalogenases, Dehalogenimonas and Dehalococcoides processed genes related to various oxidative stress resistance, accounting their survival in the microaeration conditions. As compared with the control reactor without oxygen supply and toluene addition, diversified facultative populations with functional genes of trichloroethene co-metabolism and aerobic and anaerobic degradations of toluene emerged while most of emerging populations contained high-affinity bd and cbb terminal oxidases, suggesting the co-degradation of trichloroethene and toluene through multiple biodegradation mechanisms in the microaerobic condition. Together, this study demonstrated the effectiveness of intermittent microaeration in facilitating the co-degradation of trichloroethene and toluene. The novel bioremediation approach can be applied for the sites with similar organic pollutants.</Description>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eMonoisolate"/>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eOther">Unspecified Objective</Data>
+                </Objectives>
+                <ProjectDataTypeSet>
+                    <DataType>Other</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2024-04-01" submitted="2024-04-01">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="center">
+                <Name>NCKU</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="1086167">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA1086167" archive="NCBI" id="1086167"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Title>Microbial sequencing of sludge</Title>
+            <Description>The aim of this study was to reveal the role of microaeration in enhancing anaerobic digestion and promoting the formation of large-particle sludge flocs, and to understand microbial community evolution and metabolic status under microcosmic conditions through metagenomics data.</Description>
+            <Relevance>
+                <Environmental>yes</Environmental>
+            </Relevance>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eMultispecies"/>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eRawSequenceReads"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2024-03-10" submission_id="SUB14292822" submitted="2024-03-10">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute">
+                <Name>Guangzhou University</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB14292822-bp0"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="1035725">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJEB68160" archive="EBI" id="1035725"/>
+            <CenterID center="EBI" id="0">ERP153146</CenterID>
+            <LocalID submission_id="5b34442d-e672-4101-996a-17391e35d2ce">Institute of Clinical Molecular Biology, University of Kiel, Germany</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>Functional host-specific adaptation of the intestinal microbiome in hominids</Name>
+            <Title>Functional host-specific adaptation of the intestinal microbiome in hominids</Title>
+            <Description>Fine-scale knowledge of the changes in composition and function of the human gut microbiome compared that of our closest relatives is critical for understanding the evolutionary processes underlying its developmental trajectory. To infer taxonomic and functional changes in the gut microbiome across hominids at different timescales, we performed high-resolution metagenomic-based analyses of the fecal microbiome from over two hundred samples including diverse human populations, as well as wild-living chimpanzees, bonobos, and gorillas. We find human-associated taxa depleted within non-human apes and patterns of host-specific gut microbiota, suggesting the widespread acquisition of novel microbial clades along the evolutionary divergence of hosts. In contrast, we reveal multiple lines of evidence for a pervasive loss of diversity in humans populations in correlation with a high Human Development Index, including evolutionarily conserved clades. Similarly, patterns of co-phylogeny are found to be disrupted in humans. Together with identifying individual microbial taxa and functional adaptations that correlate to host phylogeny, these findings offer new and exciting insights into specific candidates playing a role in the diverging trajectories of the gut microbiome of hominids, demonstrating that repeated horizontal gene transfer and gene loss, as well as the adaptation to transient microaerobic conditions appear to have played a role in the evolution of the human gut microbiome.</Description>
+            <LocusTagPrefix biosample_id="SAMEA114585347">AC8CAZ</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMEA114581768">ACT805</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMEA114587283">U5707</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMEA114588749">U5708</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMEA114588737">U5709</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMEA114588797">U5710</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMEA114581610">U5804</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMEA114586616">U8228</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMEA114586038">U8923</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMEA114585967">U8943</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMEA114585505">U8S61</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMEA114586731">U8S62</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMEA114586684">U8S73</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMEA114586420">U8S89</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMEA114586475">U8S90</LocusTagPrefix>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eMonoisolate"/>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eOther">Unspecified Objective</Data>
+                </Objectives>
+                <ProjectDataTypeSet>
+                    <DataType>Genome sequencing and assembly</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2023-11-04" submitted="2023-11-04">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="center">
+                <Name>Institute of Clinical Molecular Biology, University of Kiel, Germany</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="932312">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA932312" archive="NCBI" id="932312"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>Actived sludge</Name>
+            <Title>Actived sludge Raw sequence reads</Title>
+            <Description>Distinguished denitrifying phosphorus removal in the high-rate anoxic/microaerobic system for sewage treatment 16S and amoA clean data</Description>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="1592332" taxID="1592332">
+                        <OrganismName>sludge metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                    </Organism>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eRawSequenceReads"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2023-02-07" submission_id="SUB12791931" submitted="2023-02-07">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute">
+                <Name>Beijing normal university</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB12791931-bp0"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="822673">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA822673" archive="NCBI" id="822673"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>wastewater metagenome</Name>
+            <Title>Metagenome sequencing of sludge samples in a microaerobic internal aeration reactor for treating piggery wastewater with low COD/TN</Title>
+            <Description>The internal microaerobic reactor was started to treat the low COD/TN pig wastewater, and the efficient denitrification of the wastewater was realized without any additional organic matter. The inoculated sludge and the sludge at the end of the DO=0.2 mg/L run phase were subjected to metagenomic sequencing to analyze the denitrification mechanism. The sequencing task was entrusted to Shanghai Sangon Company. Shanghai Shenggong Company returns the fas file after quality control instead of fastq files</Description>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="527639" taxID="527639">
+                        <OrganismName>wastewater metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                    </Organism>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eSequence"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>metagenome</DataType>
+                    <DataType>metagenomic assembly</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>metagenomic assembly</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2022-04-03" submission_id="SUB11276816" submitted="2022-04-03">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute">
+                <Name>Harbin Institute of Technology</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB11276816-bp0"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="818156">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA818156" archive="NCBI" id="818156"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>groundwater metagenome</Name>
+            <Title>Aerobic and microaerobic xylene-degrading enrichment bacterial communities</Title>
+            <Description>MAGs were recovered from aerobic and microaerobic xylene-degrading enrichment bacterial communities to infer differences between the two and identify key taxa in the degradation of monoaromatic hydrocarbons.</Description>
+            <Publication date="2023-02-21T00:00:00Z" id="36752053" status="ePublished">
+                <Reference/>
+                <StructuredCitation>
+                    <Title>Combined Omics Approach Reveals Key Differences between Aerobic and Microaerobic Xylene-Degrading Enrichment Bacterial Communities: Rhodoferax-A Hitherto Unknown Player Emerges from the Microbial Dark Matter.</Title>
+                    <Journal>
+                        <JournalTitle>Environmental science &amp; technology</JournalTitle>
+                        <Year>2023</Year>
+                        <Volume>57</Volume>
+                        <Issue>7</Issue>
+                        <PagesFrom>2846</PagesFrom>
+                        <PagesTo>2855</PagesTo>
+                    </Journal>
+                    <AuthorSet>
+                        <Author>
+                            <Name>
+                                <First>András</First>
+                                <Last>Táncsics</Last>
+                            </Name>
+                            <Consortium>Department of Molecular Ecology, Institute of Aquaculture and Environmental Safety, Hungarian University of Agriculture and Life Sciences, Páter K. u. 1., 2100 Gödöllö, Hungary.</Consortium>
+                        </Author>
+                        <Author>
+                            <Name>
+                                <First>Sinchan</First>
+                                <Last>Banerjee</Last>
+                            </Name>
+                            <Consortium>Department of Molecular Ecology, Institute of Aquaculture and Environmental Safety, Hungarian University of Agriculture and Life Sciences, Páter K. u. 1., 2100 Gödöllö, Hungary.</Consortium>
+                        </Author>
+                        <Author>
+                            <Name>
+                                <First>André</First>
+                                <Last>Soares</Last>
+                            </Name>
+                            <Consortium>Group for Aquatic Microbial Ecology, Institute for Environmental Microbiology and Biotechnology, University of Duisburg-Essen, Universitätsstr. 5, 45141 Essen, Germany.</Consortium>
+                        </Author>
+                        <Author>
+                            <Name>
+                                <First>Anna</First>
+                                <Last>Bedics</Last>
+                            </Name>
+                            <Consortium>Department of Molecular Ecology, Institute of Aquaculture and Environmental Safety, Hungarian University of Agriculture and Life Sciences, Páter K. u. 1., 2100 Gödöllö, Hungary.</Consortium>
+                        </Author>
+                        <Author>
+                            <Name>
+                                <First>Balázs</First>
+                                <Last>Kriszt</Last>
+                            </Name>
+                            <Consortium>Department of Environmental Safety, Institute of Aquaculture and Environmental Safety, Hungarian University of Agriculture and Life Sciences, Páter K. u. 1., 2100 Gödöllö, Hungary.</Consortium>
+                        </Author>
+                    </AuthorSet>
+                </StructuredCitation>
+                <DbType>ePubmed</DbType>
+            </Publication>
+            <ProjectReleaseDate>2023-03-17T00:00:00Z</ProjectReleaseDate>
+            <LocusTagPrefix biosample_id="SAMN26818772">Q1J79</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN26818773">Q1J87</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN26818778">Q1J97</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN26818774">QVE94</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN26818777">QVE97</LocusTagPrefix>
+            <LocusTagPrefix biosample_id="SAMN26818775">QVF82</LocusTagPrefix>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="717931" taxID="717931">
+                        <OrganismName>groundwater metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                    </Organism>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eRawSequenceReads"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>Genome sequencing and assembly</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2022-03-21" submission_id="SUB11172025" submitted="2022-03-21">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute">
+                <Name>Duisburg-Essen University</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB11172025-bp0-iS2nXXX4DiQV"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="800401">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA800401" archive="NCBI" id="800401"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>Italy deep sulfidic aquifer field</Name>
+            <Title>Italy deep sulfidic aquifer field Metagenome</Title>
+            <Description>Deep caves in central Italy offer a unique opportunity to investigate the diversity of microoxic and anoxic microbial communities in sulfidic sedimentary aquifers 100-600 m below ground surface. This project includes metagenomic sequencing data from a sample associated with PRJNA800393. PI Jennifer L. Macalady, jlm80@psu.edu, Pennsylvania State University</Description>
+            <Grant GrantId="none">
+                <Title>Deep Carbon Observatory/Census of Deep Life</Title>
+                <Agency abbr="Sloan">Alfred P. Sloan Foundation</Agency>
+            </Grant>
+            <Relevance>
+                <Environmental>yes</Environmental>
+            </Relevance>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="1704045" taxID="1704045">
+                        <OrganismName>aquifer metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                    </Organism>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eSequence"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>metagenome</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>metagenome</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2022-01-25" submission_id="SUB10994262" submitted="2022-01-25">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute" url="http://www.mbl.edu/">
+                <Name>Marine Biological Laboratory</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB10994262-bp0"/>
+    </Submission>
+    <ProjectLinks>
+        <Link>
+            <ProjectIDRef archive="NCBI" id="800401" accession="PRJNA800401"/>
+            <Hierarchical type="TopAdmin">
+                <MemberID archive="NCBI" id="183206" accession="PRJNA183206"/>
+            </Hierarchical>
+        </Link>
+    </ProjectLinks>
+</DocumentSummary>
+
+<DocumentSummary uid="800393">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA800393" archive="NCBI" id="800393"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>Italy deep sulfidic aquifer field</Name>
+            <Title>Italy deep sulfidic aquifer field Targeted loci environmental</Title>
+            <Description>Deep caves in central Italy offer a unique opportunity to investigate the diversity of microoxic and anoxic microbial communities in sulfidic sedimentary aquifers 100-600 m below ground surface. We expect the proposed tag-enabled study to reveal the spatial distributions and redox/temperature niches of enigmatic Epsilonproteobacteria previously detected in extremely microoxic aquifer zones. We also expect to extend our understanding of a diverse anoxic aquifer community dominated by Deltaproteobacteria, Chloroflexi, and a large number of taxa in unnamed and novel clades. PI Jennifer L. Macalady, jlm80@psu.edu, Pennsylvania State University</Description>
+            <Grant GrantId="none">
+                <Title>Deep Carbon Observatory/Census of Deep Life</Title>
+                <Agency abbr="Sloan">Alfred P. Sloan Foundation</Agency>
+            </Grant>
+            <Relevance>
+                <Environmental>yes</Environmental>
+            </Relevance>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eTargetedLocusLoci" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="1704045" taxID="1704045">
+                        <OrganismName>aquifer metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                    </Organism>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eOther"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>targeted loci environmental</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>targeted loci environmental</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2022-01-25" submission_id="SUB10993826" submitted="2022-01-25">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute" url="http://www.mbl.edu/">
+                <Name>Marine Biological Laboratory</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB10993826-bp0"/>
+    </Submission>
+    <ProjectLinks>
+        <Link>
+            <ProjectIDRef archive="NCBI" id="800393" accession="PRJNA800393"/>
+            <Hierarchical type="TopAdmin">
+                <MemberID archive="NCBI" id="183206" accession="PRJNA183206"/>
+            </Hierarchical>
+        </Link>
+    </ProjectLinks>
+</DocumentSummary>
+
+<DocumentSummary uid="745574">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA745574" archive="NCBI" id="745574"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>Lake La Cruz metagenomic datasets</Name>
+            <Title>Lake La Cruz metagenomic datasets</Title>
+            <Description>Laguna de la Cruz (Lake La Cruz ) is a small karstic meromictic lake located in Central-Eastern Spain. Its biogenic meromixis (originated ca.1660) is favoured by the high relative depth and the steep doline walls. Calcium and magnesium bicarbonate are the main salts. The monimolimnion permanently spans from 18 m to the lake bottom (ca.21 m), whereas thermal stratification occurs above from April to October. Steep chemical gradients appear both at the bottom of the metalimnion (seasonally) and, permanently, at the permanent chemocline (16-18 m). Nutrients in surface waters decay as stratification advances, but deeper they are abundant. Linked to physical and chemical gradients, sharply stratified planktonic phototrophic populations develop, with the highest rates of inorganic carbon fixation occurring at the oxic-anoxic interface during the stratification period. In the oxic and microaerobic layers, the photosynthetic planktonic assemblage is dominated by picocyanobacteria, seasonally forming a deep chlorophyll maximum. Instead, photosynthetic sulphur bacteria thrive in anoxic waters. Chemolithoautotrophic bacteria, some linked to the iron cycle, show rates of dark inorganic carbon fixation that overpass the contribution of anoxygenic photosynthesis to total carbon fixation in the lake, though this is far dominated by oxygenic photosynthesis. Most of the deep primary production sinks to anoxic waters being unconsumed by the metazooplankton dominated by rotifers and the copepod Tropocyclops prasinus. Only a few species of anaerobic ciliates consume part of this sinking organic matter, which is anaerobically decomposed in the anoxic layers or reaches the lake sediments annually forming a dark layer that alternates with a white layer. This white layer results from massive precipitation of calcium carbonate (whiting ) yearly occurring in summer. Remains of organisms and minerals in Lake La Cruz sediments serve as palaeoecological archives, allowing to describe the past ecological conditions of the lake.&lt;/p&gt;&lt;p&gt;This study aims to characterize the microbiota of this meromictic lake. Samples were obtained in two seasons, winter (February) and summer (July). Winter samples were collected from 10.5 (epilimnion), 15.5 (pycnocline) and 18 m (monimolimnion). Summer samples were collected along the stratification gradient from 2, 8, 10, 11, 12, 13, 14, 15, 16.5 and 18.5 m of depth to study the microbial vertical zoning and stratification patterns of the lake. Water samples were filtered through a series of 20, 5 and 0.22 micron filters. The 0.22 micron filters were sequenced with high-throughput Shotgun sequencing. We provide a total of 13 metagenomic datasets derived from these samples.</Description>
+            <Relevance>
+                <Environmental>yes</Environmental>
+            </Relevance>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="1647806" taxID="1647806">
+                        <OrganismName>lake water metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                    </Organism>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eRawSequenceReads"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                    <DataType>metagenome</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2021-07-12" submission_id="SUB9992961" submitted="2021-07-12">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization org_id="258" role="owner" type="institute" url="http://egg.umh.es">
+                <Name abbr="UMH-EGG">Evolutionary Genomics Group</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB9992961-bp0"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="588156">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA588156" archive="NCBI" id="588156"/>
+            <CenterID center="GEO" id="0">GSE140055</CenterID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>Transcriptome-SIP of hydrocarbon degrader adaption under dual electron acceptor availability in aquifer sediments</Name>
+            <Title>Transcriptome-SIP of hydrocarbon degrader adaption under dual electron acceptor availability in aquifer sediments</Title>
+            <Description>We demonstrate the feasibility of total RNA-SIP in experiments where microbes from a hydrocarbon-contaminated aquifer were studied in microcosms with 13C-labelled-toluene to understand their adaptation to the simultaneous availability of low levels of different electron acceptors. SIP successfully resolved the involvement of microaerobic vs. aerobic and anaerobic populations. Under microoxic, nitrate-amended conditions hydrocarbon degradation was actually stimulated, but transcripts of denitrification showed no signs of 13C-labelling. The expression of distinct oxygenase-based catabolic pathways for toluene degradation was clearly apparent in 13C-labelled mRNA. We discuss how these direct insights into the gene expression and adaptation mechanisms within complex degrader communities can guide more integrated approaches in monitoring and restoration of contaminated sites. Overall design: We set up a microcosm experiment using hydrocarbon-contaminated sediment incubated under 4 redox conditions: aerobic, microoxic, microoxic with nitrate, and anoxic with nitrate. Microcosms were provided with 13C-labeled toluene as substrate, and extracted RNA was separated into heavy (labeled) and light (unlabeled) fractions, which were sequenced to determine the identity of toluene-degraders in the 4 experimental conditions.</Description>
+            <ExternalLink label="">
+                <dbXREF db="GEO">
+                    <ID>GSE140055</ID>
+                </dbXREF>
+            </ExternalLink>
+            <Relevance>
+                <Other>Unknown</Other>
+            </Relevance>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eTranscriptome" sample_scope="eMultiisolate">
+                    <Organism species="1704045" taxID="1704045">
+                        <OrganismName>aquifer metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                    </Organism>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eExpression"/>
+                </Objectives>
+                <ProjectDataTypeSet>
+                    <DataType>Transcriptome or Gene expression</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2019-11-08" submission_id="SUB6524786" submitted="2019-11-06">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute">
+                <Name>Lehrstuhl Ökologische Mikrobiologie (ÖMIK), Universitaet Bayreuth</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB6524786-gse140055"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="557333">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA557333" archive="NCBI" id="557333"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>Natural hot spring sediments (Thermopotamos)</Name>
+            <Title>Natural hot spring sediments (Thermopotamos) Raw sequence reads</Title>
+            <Description>In the frame of this project, we plan to characterize the microbial community structure and function at a thermal pond (water temperature around the year ≈ 40 ˚C, up to 60 ˚C in the deeper sediment), rich in agricultural organic material, located in Central Greece. Focus will be given on microbes and microbial networks driving the degradation of plant biomass. Thus this project has two major aims: (1) to study the bacterial, fungal and archaeal network structures in both the aerobic and microaerobic microhabitats within the sediment and comparison with samples of a geologically similar low carbon site, (2) to link microbial community structure to functional traits related to carbon turnover and degradation.</Description>
+            <Relevance>
+                <Environmental>yes</Environmental>
+            </Relevance>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="433727" taxID="433727">
+                        <OrganismName>hot springs metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                    </Organism>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eRawSequenceReads"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2019-07-30" submission_id="SUB6091651" submitted="2019-07-30">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute" url="http://www.helmholtz-muenchen.de/">
+                <Name>HelmholtzZentrum Muenchen</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB6091651-bp0"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="543979">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA543979" archive="NCBI" id="543979"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Title>Feruloyl esterase producing prokaryotes in anaerobic and microaerobic ecosystems</Title>
+            <Description>In this study we applied whole genome shotgun metagenomics and genome binning to screen prokaryotes in anaerobic and microaerobic ecosystems for possession of feruloyl esterase genes.</Description>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eMultispecies"/>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eRawSequenceReads"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2019-05-21" submission_id="SUB5638231" submitted="2019-05-21">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute">
+                <Name>Swedish University of Agricultural Sciences</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB5638231-bp0"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="489848">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA489848" archive="NCBI" id="489848"/>
+            <CenterID center="GEO" id="0">GSE119644</CenterID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota</Name>
+            <Title>Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota</Title>
+            <Description>We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.</Description>
+            <ExternalLink label="">
+                <dbXREF db="GEO">
+                    <ID>GSE119644</ID>
+                </dbXREF>
+            </ExternalLink>
+            <Publication date="2018-11-30T00:00:00Z" id="30483229" status="ePublished">
+                <Reference>30483229</Reference>
+                <DbType>ePubmed</DbType>
+            </Publication>
+            <Relevance>
+                <Other>Unknown</Other>
+            </Relevance>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eOther" sample_scope="eMultiisolate">
+                    <Organism species="1704045" taxID="1704045">
+                        <OrganismName>aquifer metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                    </Organism>
+                </Target>
+                <Method method_type="eOther"/>
+                <Objectives>
+                    <Data data_type="eOther"/>
+                </Objectives>
+                <ProjectDataTypeSet>
+                    <DataType>Other</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2018-12-06" submission_id="SUB4883681" submitted="2018-09-07">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute">
+                <Name>Institute for Groundwater Ecology, Helmholtz Zentrum München</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB4883681-gse119644"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="408028">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA408028" archive="NCBI" id="408028"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>groundwater metagenome</Name>
+            <Title>DNA-SIP of hypoxic toulene degraders</Title>
+            <Description>The degradation of aromatic hydrocarbons in contaminated subsurface environments is often limited by the availability of oxygen. At zones of limited, but sustained oxygen supply, such as in the vicinity of groundwater monitoring wells, hypoxic degradation could have an important role and genes within the subfamily I.2.C extradiol dioxygenase (C23O) could be involved. In an oxygen-limited BTEX-contaminated shallow aquifer in Hungary stable isotope probing (SIP) incubation of site sediments with 13C7-toluene was performed under microoxic conditions. A combination of 16S rRNA gene amplicon sequencing and T-RFLP fingerprinting of C23O genes from SIP gradient fractions revealed the central role of degraders within the Rhodocyclaceae in hypoxic toluene degradation. The main assimilators of 13C label were identified as members of the genera Quatrionicoccus and Zoogloea, and a yet uncultured group of the Rhodocyclaceae. In contrast, well known aerobic degraders such as Pseudomonas and Pseudoxanthomonas spp. remained unlabelled in the microcosms.</Description>
+            <Grant GrantId="01DS14037">
+                <Title>Revisiting DeHu</Title>
+                <Agency abbr="BMBF">German Ministry of Education and Research</Agency>
+            </Grant>
+            <Grant GrantId="616644">
+                <Title>POLLOX</Title>
+                <Agency abbr="ERC">European Research Council, European Union’s Seventh Framework Programme (FP7/2007-2013)</Agency>
+            </Grant>
+            <Grant GrantId="TéT_12_DE-1-2013-0007">
+                <Title>Revisiting DeHu</Title>
+                <Agency abbr="NKFIH">Hungarian National Research, Development and Innovation Office</Agency>
+            </Grant>
+            <Relevance>
+                <Environmental>yes</Environmental>
+            </Relevance>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eTargetedLocusLoci" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="717931" taxID="717931">
+                        <OrganismName>groundwater metagenome</OrganismName>
+                        <Strain>Bacteria</Strain>
+                        <Supergroup>eOther</Supergroup>
+                    </Organism>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eOther"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>targeted loci environmental</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>targeted loci environmental</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2017-09-20" submission_id="SUB3057831" submitted="2017-09-20">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute" url="https://www.helmholtz-muenchen.de/en/index.html">
+                <Name>Helmholtz Zentrum Muenchen</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB3057831-bp0"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="351834">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA351834" archive="NCBI" id="351834"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>mouse gut metagenome</Name>
+            <Title>Microbiota-derived metabolism attenuates campylobacteriosis</Title>
+            <Description>The intestinal microbiota represents a complex ecological system implicated in numerous health processes, including immunological responses, metabolic and nutritional functions as well as protection from enteric pathogens such as Clostridium difficile. Campylobacter jejuni (C. jejuni), a prevalent food born bacterial pathogen, exploits the host innate response to elicit colitis. However, the interplay between intestinal microbiota and host susceptibility to C. jejuni infection is unknown. Here we report that introduction of conventionalized microbiota (CONV-Biota) significantly alleviated C. jejuni-induced colitis in germ free (GF) Il10-/- mice, a phenomenon independent of fecal C. jejuni colonization load, but coupled with reduced mTOR activation (p-p70S6K T389). Microbiota manipulation through fecal transplantation showed that anaerobic microbiota (Anaero-Biota) protect against C. jejuni-induced colitis but not aerobic (Aero-Biota) or microaerobic microbiota (Microaero-Biota). Using 16S rDNA sequencing, we found that the bacterial genera Clostridium XI, Bifidobacterium, and Lactobacillus were enriched in mice colonized with protective Anaero-Biota compared to susceptible Aero-Biota mice. HPLC/MS analysis showed that the microbial-derived secondary bile acids sodium deoxycholate (DCA) and ursodeoxycholic acid (UDCA) remained constant in stool of Anaero-Biota mice pre- and post-infection but not in Aero-Biota mice. Supplementation of DCA, but not UDCA or lithocholic acid, reduced C. jejuni-induced colitis in Il10-/- mice. In addition, targeted depletion of secondary bile acid-producing bacteria with clindamycin promoted C. jejuni-induced colitis in SPF Il10-/- mice compared to treatment with the non-specific antibiotic nalidixic acid. Altogether, our findings identify a novel mechanism by which microbiota control susceptibility to C. jejuni infection through secondary bile acid production impacting host response.</Description>
+            <Grant GrantId="R01 DK047700">
+                <Title>Regulation of immunosuppressive molecules in IBD: REGULATION OF IMMUNOSUPPRESSIVE MOLECULES IN IBD</Title>
+                <Agency abbr="NIDDK NIH HHS">National Institute of Diabetes and Digestive and Kidney Diseases</Agency>
+                <PI affil="UNIVERSITY OF FLORIDA" auth="era" userid="7039510">
+                    <Last>Jobin</Last>
+                    <Given>Christian</Given>
+                </PI>
+            </Grant>
+            <Relevance>
+                <Medical>yes</Medical>
+            </Relevance>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="410661" taxID="410661">
+                        <OrganismName>mouse gut metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                    </Organism>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eRawSequenceReads"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                    <DataType>targeted loci</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2016-10-31" submission_id="SUB2027351" submitted="2016-10-31">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute">
+                <Name>University of North Carolina at Charlotte</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB2027351-bp0"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="343431">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA343431" archive="NCBI" id="343431"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>mine drainage metagenome</Name>
+            <Title>Mixed culture dominated by Gallionella and Sideroxydans like strains</Title>
+            <Description>Bacterial community of a sample from a pilot plant for the treatment of acid mine drainage (AMD) from the lignite mining district in Lusatia (East Germany) The acid mine drainage (AMD) sample used for the production of enrichment cultures was collected from the inflow into the treatment plant. Enrichment of microaerophilic and acidophilic iron oxidizing microorganisms was achieved using gradient tubes of semi-solid APPW-PO4 and incubation in microaerobic chambers</Description>
+            <ProjectReleaseDate>2016-11-10T00:00:00Z</ProjectReleaseDate>
+            <Relevance>
+                <Environmental>yes</Environmental>
+            </Relevance>
+            <LocusTagPrefix biosample_id="SAMN05788063">GALL</LocusTagPrefix>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="410659" taxID="410659">
+                        <OrganismName>mine drainage metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                    </Organism>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eAssembly"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>metagenomic assembly</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>Genome sequencing and assembly</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2016-09-19" submission_id="SUB1952237" submitted="2016-09-19">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute" url="http://appmibio.uni-goettingen.de/">
+                <Name>Georg-August-University Goettingen, Genomic and Applied Microbiology, Goettingen Genomics Laboratory</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Organization role="participant" type="center">
+                <Name abbr="Goettingen Genomics Laboratory">Goettingen Genomics Laboratory</Name>
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB1952237-bp0"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="300364">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA300364" archive="NCBI" id="300364"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>bioreactor metagenome</Name>
+            <Title>microaerobic bioreactor strain:Arcobacter | breed:prokaryotic Raw sequence reads</Title>
+            <Description>both differences in the phylogenetic affiliation of the most active bacterial members and the community structure contributed to the enhanced elemental sulfur production and COD removal efficiencies in the microaerophilic reactor</Description>
+            <Relevance>
+                <Environmental>yes</Environmental>
+            </Relevance>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="1076179" taxID="1076179">
+                        <OrganismName>bioreactor metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                        <BiologicalProperties>
+                            <Environment>
+                                <OptimumTemperature>C</OptimumTemperature>
+                            </Environment>
+                        </BiologicalProperties>
+                    </Organism>
+                    <Description>microbial community responds to bioreactor performance</Description>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eRawSequenceReads"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2015-10-28" submission_id="SUB1156420" submitted="2015-10-28">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute">
+                <Name>Harbin Institute of Technology</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB1156420-bp0"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="299002">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA299002" archive="NCBI" id="299002"/>
+            <LocalID>bp0</LocalID>
+            <LocalID>bp0</LocalID>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>bioreactor metagenome</Name>
+            <Title>Bioreactor Raw sequence reads</Title>
+            <Description>To investigate passive treatment as a means of remediating Sb contamination, an on-site pilot-scale bioreactor, which had been operated for one year downstream of an active antimony (Sb) mine in Southwest China, was monitored over six months. This bioreactor consisted of five treatment units, including one pre-aerobic cell, two aerobic cells, and two microaerobic cells. With the aerobic cells inoculated with indigenous mine water microflora, the bioreactor removed more than 90% of total soluble Sb and 80% of soluble Sb(III). An increase in pH and decrease of Eh was also observed along the flow direction. High-throughput sequencing of the small subunit ribosomal (SSU) rRNA gene V4 region revealed that a high degree of microbial diversity developed in the bioreactor. Metal (loid)-oxidizing bacteria including Ferrovum, Thiomonas, Gallionella, and Leptospirillum, were highly enriched in the bioreactor cells where the highest total Sb and antimonite (Sb(III)) removal occurred.</Description>
+            <Relevance>
+                <Environmental>yes</Environmental>
+            </Relevance>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="1076179" taxID="1076179">
+                        <OrganismName>bioreactor metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                        <BiologicalProperties>
+                            <Environment>
+                                <OptimumTemperature>C</OptimumTemperature>
+                            </Environment>
+                        </BiologicalProperties>
+                    </Organism>
+                    <Description>Microbial community analysis of sediments inhabiting in on site bioreactor treating antimony-rich waters</Description>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eRawSequenceReads"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>raw sequence reads</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2015-10-16" submission_id="SUB1138763" submitted="2015-10-16">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute" url="http://www.rutgers.edu/">
+                <Name>Rutgers University</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB1138763-bp0"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="212116">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA212116" archive="NCBI" id="212116"/>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>bioreactor metagenome</Name>
+            <Title>LowDO Chemostats 16S rDNA</Title>
+            <Description>Phylogenetic analysis of microaerobic nitrifying chemostats using 16S rDNA pyrosequencing</Description>
+            <Relevance>
+                <Environmental>yes</Environmental>
+            </Relevance>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eTargetedLocusLoci" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="1076179" taxID="1076179">
+                        <OrganismName>bioreactor metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                        <BiologicalProperties>
+                            <Environment>
+                                <Salinity>eNonHalophilic</Salinity>
+                                <OxygenReq>eMicroaerophilic</OxygenReq>
+                                <TemperatureRange>eMesophilic</TemperatureRange>
+                                <Habitat>eSpecialized</Habitat>
+                            </Environment>
+                        </BiologicalProperties>
+                    </Organism>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eSequence"/>
+                </Objectives>
+                <IntendedDataTypeSet>
+                    <DataType>targeted loci</DataType>
+                </IntendedDataTypeSet>
+                <ProjectDataTypeSet>
+                    <DataType>targeted loci</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission last_update="2013-07-15" submitted="2013-07-15" submission_id="SUB289220">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="institute">
+                <Name>University of Wisconsin-Madison</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Access>public</Access>
+        </Description>
+        <Action action_id="SUB289220-1"/>
+    </Submission>
+</DocumentSummary>
+
+<DocumentSummary uid="42241">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA42241" archive="NCBI" id="42241"/>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>hot springs metagenome</Name>
+            <Title>Yellowstone National Park hot spring microbial community</Title>
+            <Description>Mammoth Hot Springs (YSTONE4). &lt;p&gt; Microbial biomass was sampled (October 2, 2006) from the outflow channel of a high-carbonate geothermal spring at Mammoth Hot Springs (44° 58' 9.915&quot; N. Lat, 110° 42' 35.4&quot; W. Lon). These circumneutral (pH 6.4-6.6) springs contain significant levels of dissolved inorganic carbon (i.e. bicarbonate) and calcium, resulting in the rapid biomineralization of calcium carbonate (aragonite) along and within filamentous structures, that together form the 'streamer' community. Although these environments contain CaCO3, they are highly sulfidic and elemental sulfur rhombs are also present as a minor phase relative to aragonite needles. Consequently, it is hypothesized that the Aquificales present in these communities (temperature range of 70-72 deg C) are aerobic to microaerobic autotrophs, dependent on various forms of reduced sulfur (i.e. H2S, HS-, S0) as a source of electrons. &lt;p&gt; Sequences deposited into the Trace Archive can be found using the Project data link (GenomeProject ID #42241).</Description>
+            <ExternalLink category="NCBI Resources" label="Metagenomics Book">
+                <URL>https://www.ncbi.nlm.nih.gov/books/NBK6858/</URL>
+            </ExternalLink>
+            <ExternalLink category="NCBI Resources" label="BLAST against environmental sequences">
+                <URL>https://www.ncbi.nlm.nih.gov/sutils/blast_table.cgi?taxid=Environmental&amp;taxidinf=environ_info&amp;selectall</URL>
+            </ExternalLink>
+            <ProjectReleaseDate>2010-03-03T00:00:00Z</ProjectReleaseDate>
+            <LocusTagPrefix biosample_id="SAMN02954303">YSTONE4</LocusTagPrefix>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eEnvironment">
+                    <Organism species="433727" taxID="433727">
+                        <OrganismName>hot springs metagenome</OrganismName>
+                        <Supergroup>eOther</Supergroup>
+                        <GenomeSize units="Kb">1700.000000</GenomeSize>
+                    </Organism>
+                </Target>
+                <Method method_type="eSequencing"/>
+                <Objectives>
+                    <Data data_type="eRawSequenceReads"/>
+                </Objectives>
+                <ProjectDataTypeSet>
+                    <DataType>Genome sequencing and assembly</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission submitted="2009-12-03">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="center" url="http://www.rcn.montana.edu">
+                <Name abbr="Montana State University">Montana State University</Name>
+                <!-- Contact information has been removed -->
+            </Organization>
+            <Organization role="participant" type="center" url="http://www.jcvi.org">
+                <Name abbr="J. Craig Venter Institute">J. Craig Venter Institute</Name>
+            </Organization>
+            <Access>public</Access>
+        </Description>
+    </Submission>
+    <ProjectLinks>
+        <Link>
+            <ProjectIDRef archive="NCBI" id="42241" accession="PRJNA42241"/>
+            <Hierarchical type="TopAdmin">
+                <MemberID archive="NCBI" id="208493" accession="PRJNA208493"/>
+            </Hierarchical>
+        </Link>
+    </ProjectLinks>
+</DocumentSummary>
+
+</RecordSet>

@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA379456",
+  "checked_utc": "2026-10-24T14:41:43.400631+00:00",
+  "ena_run_count": 4,
+  "ncbi_sra_count": 4,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA379456&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:43.400982+00:00",
+    "raw_path": "raw/ENA/ef38f66f32c45b05275b83280a70e4c359f6bda43d1fc166821a9dec003251af.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA379456&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 5687,
+    "sha256": "46626fbcb14b5d892dec7d8ad0bd93676f61e0f4d989bc9007b2f75ea8e71545",
+    "finished_utc": "2026-10-24T14:41:46.003269+00:00",
+    "measured_wall_seconds": 2.602
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA379456&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:41:46.404537+00:00",
+    "raw_path": "raw/NCBI/5c5bf5776683e4eec7e8d5e9ab933afb594cae8f20d0231ee26dd83e0b065988.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA379456&retmode=json&retmax=200&retstart=0",
+    "bytes": 331,
+    "sha256": "e231320dc0aeeb4587fc8851ff2e5c4d1377459e87b9f54ead4778b8413bd577",
+    "finished_utc": "2026-10-24T14:41:46.526208+00:00",
+    "measured_wall_seconds": 0.122
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA379456",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:47.245255+00:00",
+    "raw_path": "raw/ENA/400cb7e76ef13c7875a8ce885f0b62ffeeecc47afc909f274bc51a4015d0b3fd.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA379456",
+    "bytes": 2346,
+    "sha256": "cb1fc24458538708a46bb9541df1d75141ae14cbc9258d7e502cce52b40c6b56",
+    "finished_utc": "2026-10-24T14:41:47.749421+00:00",
+    "measured_wall_seconds": 0.504
+  },
+  "project_title": "karyorelictid ciliate and its symbionts",
+  "project_description": "MDA amplified metagenome and amplified metatranscriptome from single or small pools of a species of karyorelictid ciliate and its intracellular prokaryotic symbionts from Santa Barbara Basin sediments",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA379456"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP102302"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Woods Hole Oceanographic Institution",
+      "value": "PRJNA379456"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>PUBMED</DB>\n        <ID>29271011</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA379456&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA379456&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 4
+}

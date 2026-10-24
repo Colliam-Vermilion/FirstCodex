@@ -1,0 +1,72 @@
+{
+  "accession": "PRJNA646755",
+  "checked_utc": "2026-10-24T14:41:55.283320+00:00",
+  "ena_run_count": 6,
+  "ncbi_sra_count": 6,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA646755&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:55.283709+00:00",
+    "raw_path": "raw/ENA/d3f13d26d0f6c7139ad25f616804f448f814af93b3b07e1b36ee11ae1cca519c.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA646755&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 8006,
+    "sha256": "ddcd6e569f13a852eb8c6e4d8633785b3579080834171c2d7da43e9c645e8acd",
+    "finished_utc": "2026-10-24T14:41:55.448728+00:00",
+    "measured_wall_seconds": 0.165
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA646755&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:41:55.849727+00:00",
+    "raw_path": "raw/NCBI/501886fe26bbf71bd62d67a50645c479cba739548f0ca77b60800e25c2a7c2cf.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA646755&retmode=json&retmax=200&retstart=0",
+    "bytes": 357,
+    "sha256": "e72ca4e64555cbd88e61dd15b459cb424fbd3116b391a2d41c1628ea3a4f2f44",
+    "finished_utc": "2026-10-24T14:41:55.923236+00:00",
+    "measured_wall_seconds": 0.074
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA646755",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:56.548053+00:00",
+    "raw_path": "raw/ENA/2fe8ecbccd084f6d90fee71346708e3124834bed435516c85f7c36d1ab1ab17e.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA646755",
+    "bytes": 2715,
+    "sha256": "497d690ea2a300bf251ad20e47d37dff116db0b23dbe096f81bcc2b7ccc3cd89",
+    "finished_utc": "2026-10-24T14:41:56.711454+00:00",
+    "measured_wall_seconds": 0.163
+  },
+  "project_title": "Transcriptome profiling from Arabidopsis thaliana overexpressing Jatropha curcas ERFVII2",
+  "project_description": "Gene expression analysis by high-throughtput RNA-sequencing from Arabidopsis seedlings (10 d.o.) overexpressing Jatropha curcas (Jc) ERFVII-2 in wildtype (MC) or stablized (MA) forms. Overall design: 6 samples, 1 condition (aerobic) and 2 independent biological replicates",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA646755"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP272288"
+    },
+    {
+      "tag": "EXTERNAL_ID",
+      "namespace": "GEO",
+      "value": "GSE154601"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Genetics, Kasetsart University",
+      "value": "PRJNA646755"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>PUBMED</DB>\n        <ID>32825465</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA646755&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA646755&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 6
+}

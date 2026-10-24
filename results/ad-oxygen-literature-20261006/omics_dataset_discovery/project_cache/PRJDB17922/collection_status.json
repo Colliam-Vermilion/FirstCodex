@@ -1,0 +1,67 @@
+{
+  "accession": "PRJDB17922",
+  "checked_utc": "2026-10-24T14:30:09.099578+00:00",
+  "ena_run_count": 6,
+  "ncbi_sra_count": 6,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJDB17922&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:09.099782+00:00",
+    "raw_path": "raw/ENA/c1c21e327ac369d83d9a7e765d470f3d8e541f179c6a1f0bd82cf2aa34037a56.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJDB17922&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 10622,
+    "sha256": "e6e6a363a07bd7e76e7ff79d638d74c56298f0ae5b6cd271de3266fabb8d3137",
+    "finished_utc": "2026-10-24T14:30:10.038167+00:00",
+    "measured_wall_seconds": 0.938
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJDB17922&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:10.439402+00:00",
+    "raw_path": "raw/NCBI/1a7d604b6a823191ccb0d60dde2ee1008772141454cd669b3181ab72237a96c5.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJDB17922&retmode=json&retmax=200&retstart=0",
+    "bytes": 355,
+    "sha256": "b7fd9a1d9d66098b4a4ab31dc053884d36f36f0d57f2a039d648ccb9d3944a01",
+    "finished_utc": "2026-10-24T14:30:10.534102+00:00",
+    "measured_wall_seconds": 0.095
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJDB17922",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:11.185550+00:00",
+    "raw_path": "raw/ENA/00020ab851a15ccfbf0349524e93e8a85b16d1c6a021a29700053113611e17e2.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJDB17922",
+    "bytes": 2652,
+    "sha256": "19b6b7c0b52ae15f70714e223bc6c881208c75d9cbfd0fa04908141e4ae2cdad",
+    "finished_utc": "2026-10-24T14:30:11.335682+00:00",
+    "measured_wall_seconds": 0.15
+  },
+  "project_title": "Metatranscriptomics of microaerophilic activated sludge for retaining ammonia from high-strength nitrogenous wastewater",
+  "project_description": "This project contains NGS data obtained by shotgun sequencing. We recently developed a microaerophilic activated sludge (MAS) system for retaining ammonia while removing organic carbon with minimal N2O emissions. A comprehensive understanding of nitrogen metabolisms in the MAS system is essential to optimize a system performance. Here, we employed metagenomics and metatranscriptomics analyses to characterize the microbial community structures and activities during the transition from a microaerophilic to an aerobic condition.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJDB17922"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "DRP012212"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Tokyo University of Agriculture and Technology",
+      "value": "PRJDB17922"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJDB17922&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJDB17922&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 6
+}

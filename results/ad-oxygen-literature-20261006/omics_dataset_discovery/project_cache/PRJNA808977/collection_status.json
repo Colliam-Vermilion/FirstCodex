@@ -1,0 +1,72 @@
+{
+  "accession": "PRJNA808977",
+  "checked_utc": "2026-10-24T14:41:48.350632+00:00",
+  "ena_run_count": 18,
+  "ncbi_sra_count": 16,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA808977&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:48.350781+00:00",
+    "raw_path": "raw/ENA/aee182594862dce5f585640c48d05429606a215fea42a7ebdf66e9c212807394.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA808977&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 22774,
+    "sha256": "d055232175172dde331575784c77d31bdccd710cde12bf6170f7e766edf00fbc",
+    "finished_utc": "2026-10-24T14:41:48.585472+00:00",
+    "measured_wall_seconds": 0.235
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA808977&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:41:48.986717+00:00",
+    "raw_path": "raw/NCBI/bd32f6a670f481ca0ab2e85e62c7cea318ee26704cf0a1984d78c402377913ab.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA808977&retmode=json&retmax=200&retstart=0",
+    "bytes": 470,
+    "sha256": "030110166c9eb7c9fa3cf8a222b06fa0e0ed4896bea457746ae648dcd600c7f3",
+    "finished_utc": "2026-10-24T14:41:49.140377+00:00",
+    "measured_wall_seconds": 0.154
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA808977",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:49.953840+00:00",
+    "raw_path": "raw/ENA/ec7b6b5ba680ab2d15185ed3b0711ac4eb65e5666a8b149b4485b3de299b7e49.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA808977",
+    "bytes": 4905,
+    "sha256": "4c72da598af317ae7c42273b462042e6ffdc02959675c6ae4abb98fea1fbda9b",
+    "finished_utc": "2026-10-24T14:41:50.151160+00:00",
+    "measured_wall_seconds": 0.197
+  },
+  "project_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+  "project_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth’s magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor σ70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA808977"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP360775"
+    },
+    {
+      "tag": "EXTERNAL_ID",
+      "namespace": "GEO",
+      "value": "GSE197098"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Microbiology, University of Bayreuth",
+      "value": "PRJNA808977"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>PUBMED</DB>\n        <ID>36217140</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA808977&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA808977&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 18
+}

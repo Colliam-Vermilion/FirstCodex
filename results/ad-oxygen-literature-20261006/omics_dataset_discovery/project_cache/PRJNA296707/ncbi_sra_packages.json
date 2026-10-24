@@ -1,0 +1,1538 @@
+[
+  {
+    "run_accession": "SRR2505143",
+    "experiment_accession": "SRX1282092",
+    "sample_accession": "SAMN04102721",
+    "secondary_sample_accession": "SRS1087101",
+    "sample_alias": "O2_36h_0112-12",
+    "sample_title": "",
+    "scientific_name": "Clostridium ljungdahlii",
+    "tax_id": "1538",
+    "sample_attributes": [
+      {
+        "tag": "isolate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "ATCC 55383",
+        "units": ""
+      },
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "cell culture",
+        "units": ""
+      },
+      {
+        "tag": "time_point",
+        "value": "36h",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "O2",
+        "units": ""
+      },
+      {
+        "tag": "bio_rep",
+        "value": "3",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Clostridium ljungdahlii",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA296707",
+    "secondary_study_accession": "SRP064035",
+    "study_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "study_description": "Clostridium ljungdahlii is an important synthesis gas fermenting bacterium used in the biofuels industry, and a preliminary investigation showed that it has some tolerance to oxygen when cultured in rich mixotrophic medium. Batch cultures not only continue to grow and consume H2, CO, and fructose after 8% O2 exposure, but fermentation product analysis revealed an increase in ethanol concentration and decreased acetate concentration compared to non-oxygen exposed cultures. In this study, the mechanisms for higher ethanol production and oxygen/ROS detoxification were identified using a combination of fermentation, RNAseq differential expression, and enzyme activity analyses. Results indicate that the higher ethanol and lower acetate concentration were due to the carboxylic acid reductase activity of a more highly expressed predicted aldehyde oxidoreductase (CLJU_c24130) and that C. ljungdahlii''s primary defense upon oxygen exposure is a predicted rubrerythrin (CLJU_c39340). The metabolic responses of higher ethanol production and oxygen/ROS detoxification were found to be linked by cofactor management, substrate and energy metabolism. This study contributes new insights into the physiology and metabolism of C. ljungdahlii and provides new genetic targets to generate C. ljungdahlii strains that produce more ethanol and are more tolerant to syngas contaminants.",
+    "study_links": [],
+    "experiment_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "library_name": "O2_36h_0112-12",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "12743681",
+    "base_count": "1274368100",
+    "sra_run_bytes": "749392375",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "O2_36h_0112-12.fq",
+        "size": "3141230248",
+        "date": "2020-04-21 10:38:36",
+        "md5": "71e01d243618ff6ff35dd23133b7400f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2505143",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2505143/SRR2505143",
+        "size": "749394423",
+        "date": "2015-09-24 02:55:22",
+        "md5": "a45167c6e8d73780d4ae2e1785d9f7d1",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2505143.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/505/SRR2505143/SRR2505143.sralite.1",
+        "size": "348986695",
+        "date": "2020-06-13 08:34:33",
+        "md5": "76a36a941bc744e8cb8629c87ac5afb6",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-24 11:15:33",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2505135",
+    "experiment_accession": "SRX1281907",
+    "sample_accession": "SAMN04102720",
+    "secondary_sample_accession": "SRS1087061",
+    "sample_alias": "O2_36h_0112-11",
+    "sample_title": "",
+    "scientific_name": "Clostridium ljungdahlii",
+    "tax_id": "1538",
+    "sample_attributes": [
+      {
+        "tag": "isolate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "ATCC 55383",
+        "units": ""
+      },
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "cell culture",
+        "units": ""
+      },
+      {
+        "tag": "time_point",
+        "value": "36h",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "O2",
+        "units": ""
+      },
+      {
+        "tag": "bio_rep",
+        "value": "2",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Clostridium ljungdahlii",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA296707",
+    "secondary_study_accession": "SRP064035",
+    "study_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "study_description": "Clostridium ljungdahlii is an important synthesis gas fermenting bacterium used in the biofuels industry, and a preliminary investigation showed that it has some tolerance to oxygen when cultured in rich mixotrophic medium. Batch cultures not only continue to grow and consume H2, CO, and fructose after 8% O2 exposure, but fermentation product analysis revealed an increase in ethanol concentration and decreased acetate concentration compared to non-oxygen exposed cultures. In this study, the mechanisms for higher ethanol production and oxygen/ROS detoxification were identified using a combination of fermentation, RNAseq differential expression, and enzyme activity analyses. Results indicate that the higher ethanol and lower acetate concentration were due to the carboxylic acid reductase activity of a more highly expressed predicted aldehyde oxidoreductase (CLJU_c24130) and that C. ljungdahlii''s primary defense upon oxygen exposure is a predicted rubrerythrin (CLJU_c39340). The metabolic responses of higher ethanol production and oxygen/ROS detoxification were found to be linked by cofactor management, substrate and energy metabolism. This study contributes new insights into the physiology and metabolism of C. ljungdahlii and provides new genetic targets to generate C. ljungdahlii strains that produce more ethanol and are more tolerant to syngas contaminants.",
+    "study_links": [],
+    "experiment_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "library_name": "O2_36h_0112-11",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "15318906",
+    "base_count": "1531890600",
+    "sra_run_bytes": "906462412",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR2505135",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2505135/SRR2505135",
+        "size": "906464460",
+        "date": "2015-09-24 02:55:35",
+        "md5": "1dbb737e2ea1b28c9ba2b123907a4e2f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "O2_36h_0112-11.fq",
+        "size": "3775991496",
+        "date": "2020-04-24 15:02:42",
+        "md5": "780f21da538dfab3efc5cc0d345041e9",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2505135.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/505/SRR2505135/SRR2505135.sralite.1",
+        "size": "419032325",
+        "date": "2020-06-13 08:35:11",
+        "md5": "a64e421ff08f6b90e0c31579d61b60b8",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-24 11:15:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2504544",
+    "experiment_accession": "SRX1281906",
+    "sample_accession": "SAMN04102719",
+    "secondary_sample_accession": "SRS1087060",
+    "sample_alias": "O2_36h_0112-10",
+    "sample_title": "",
+    "scientific_name": "Clostridium ljungdahlii",
+    "tax_id": "1538",
+    "sample_attributes": [
+      {
+        "tag": "isolate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "ATCC 55383",
+        "units": ""
+      },
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "cell culture",
+        "units": ""
+      },
+      {
+        "tag": "time_point",
+        "value": "36h",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "O2",
+        "units": ""
+      },
+      {
+        "tag": "bio_rep",
+        "value": "1",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Clostridium ljungdahlii",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA296707",
+    "secondary_study_accession": "SRP064035",
+    "study_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "study_description": "Clostridium ljungdahlii is an important synthesis gas fermenting bacterium used in the biofuels industry, and a preliminary investigation showed that it has some tolerance to oxygen when cultured in rich mixotrophic medium. Batch cultures not only continue to grow and consume H2, CO, and fructose after 8% O2 exposure, but fermentation product analysis revealed an increase in ethanol concentration and decreased acetate concentration compared to non-oxygen exposed cultures. In this study, the mechanisms for higher ethanol production and oxygen/ROS detoxification were identified using a combination of fermentation, RNAseq differential expression, and enzyme activity analyses. Results indicate that the higher ethanol and lower acetate concentration were due to the carboxylic acid reductase activity of a more highly expressed predicted aldehyde oxidoreductase (CLJU_c24130) and that C. ljungdahlii''s primary defense upon oxygen exposure is a predicted rubrerythrin (CLJU_c39340). The metabolic responses of higher ethanol production and oxygen/ROS detoxification were found to be linked by cofactor management, substrate and energy metabolism. This study contributes new insights into the physiology and metabolism of C. ljungdahlii and provides new genetic targets to generate C. ljungdahlii strains that produce more ethanol and are more tolerant to syngas contaminants.",
+    "study_links": [],
+    "experiment_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "library_name": "O2_36h_0112-10",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "10342417",
+    "base_count": "1034241700",
+    "sra_run_bytes": "609124788",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "O2_36h_0112-10.fq",
+        "size": "2549331561",
+        "date": "2020-04-24 15:02:42",
+        "md5": "118fccfcbef975c388b62e92bdc964c8",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2504544",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2504544/SRR2504544",
+        "size": "609126841",
+        "date": "2015-09-24 03:01:27",
+        "md5": "e10e6c36fe2149302d43429326f4e30a",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2504544.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/504/SRR2504544/SRR2504544.sralite.1",
+        "size": "283477403",
+        "date": "2020-06-23 23:26:31",
+        "md5": "87f9fc9b0cbad74758fc188ca864516a",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-24 11:15:09",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2503815",
+    "experiment_accession": "SRX1281671",
+    "sample_accession": "SAMN04102718",
+    "secondary_sample_accession": "SRS1087004",
+    "sample_alias": "O2_14h_0112-09",
+    "sample_title": "",
+    "scientific_name": "Clostridium ljungdahlii",
+    "tax_id": "1538",
+    "sample_attributes": [
+      {
+        "tag": "isolate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "ATCC 55383",
+        "units": ""
+      },
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "cell culture",
+        "units": ""
+      },
+      {
+        "tag": "time_point",
+        "value": "14h",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "O2",
+        "units": ""
+      },
+      {
+        "tag": "bio_rep",
+        "value": "3",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Clostridium ljungdahlii",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA296707",
+    "secondary_study_accession": "SRP064035",
+    "study_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "study_description": "Clostridium ljungdahlii is an important synthesis gas fermenting bacterium used in the biofuels industry, and a preliminary investigation showed that it has some tolerance to oxygen when cultured in rich mixotrophic medium. Batch cultures not only continue to grow and consume H2, CO, and fructose after 8% O2 exposure, but fermentation product analysis revealed an increase in ethanol concentration and decreased acetate concentration compared to non-oxygen exposed cultures. In this study, the mechanisms for higher ethanol production and oxygen/ROS detoxification were identified using a combination of fermentation, RNAseq differential expression, and enzyme activity analyses. Results indicate that the higher ethanol and lower acetate concentration were due to the carboxylic acid reductase activity of a more highly expressed predicted aldehyde oxidoreductase (CLJU_c24130) and that C. ljungdahlii''s primary defense upon oxygen exposure is a predicted rubrerythrin (CLJU_c39340). The metabolic responses of higher ethanol production and oxygen/ROS detoxification were found to be linked by cofactor management, substrate and energy metabolism. This study contributes new insights into the physiology and metabolism of C. ljungdahlii and provides new genetic targets to generate C. ljungdahlii strains that produce more ethanol and are more tolerant to syngas contaminants.",
+    "study_links": [],
+    "experiment_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "library_name": "O2_14h_0112-09",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "11288999",
+    "base_count": "1128899900",
+    "sra_run_bytes": "664108986",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "O2_14h_0112-09.fq",
+        "size": "2782652877",
+        "date": "2020-04-20 21:36:32",
+        "md5": "f9b53bc1f3c54377f098d79a112d3662",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2503815",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2503815/SRR2503815",
+        "size": "664111035",
+        "date": "2015-09-24 03:02:09",
+        "md5": "a9b01571d15d582fe4ed6a3bda02d3d5",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2503815.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/503/SRR2503815/SRR2503815.sralite.1",
+        "size": "309193764",
+        "date": "2020-06-23 23:26:34",
+        "md5": "09ce2859866b26eb84a4204e529b25e2",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-24 11:14:59",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2503755",
+    "experiment_accession": "SRX1281662",
+    "sample_accession": "SAMN04102717",
+    "secondary_sample_accession": "SRS1086989",
+    "sample_alias": "O2_14h_0112-08",
+    "sample_title": "",
+    "scientific_name": "Clostridium ljungdahlii",
+    "tax_id": "1538",
+    "sample_attributes": [
+      {
+        "tag": "isolate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "ATCC 55383",
+        "units": ""
+      },
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "cell culture",
+        "units": ""
+      },
+      {
+        "tag": "time_point",
+        "value": "14h",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "O2",
+        "units": ""
+      },
+      {
+        "tag": "bio_rep",
+        "value": "2",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Clostridium ljungdahlii",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA296707",
+    "secondary_study_accession": "SRP064035",
+    "study_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "study_description": "Clostridium ljungdahlii is an important synthesis gas fermenting bacterium used in the biofuels industry, and a preliminary investigation showed that it has some tolerance to oxygen when cultured in rich mixotrophic medium. Batch cultures not only continue to grow and consume H2, CO, and fructose after 8% O2 exposure, but fermentation product analysis revealed an increase in ethanol concentration and decreased acetate concentration compared to non-oxygen exposed cultures. In this study, the mechanisms for higher ethanol production and oxygen/ROS detoxification were identified using a combination of fermentation, RNAseq differential expression, and enzyme activity analyses. Results indicate that the higher ethanol and lower acetate concentration were due to the carboxylic acid reductase activity of a more highly expressed predicted aldehyde oxidoreductase (CLJU_c24130) and that C. ljungdahlii''s primary defense upon oxygen exposure is a predicted rubrerythrin (CLJU_c39340). The metabolic responses of higher ethanol production and oxygen/ROS detoxification were found to be linked by cofactor management, substrate and energy metabolism. This study contributes new insights into the physiology and metabolism of C. ljungdahlii and provides new genetic targets to generate C. ljungdahlii strains that produce more ethanol and are more tolerant to syngas contaminants.",
+    "study_links": [],
+    "experiment_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "library_name": "O2_14h_0112-08",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "14098215",
+    "base_count": "1409821500",
+    "sra_run_bytes": "830880055",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "O2_14h_0112-08.fq",
+        "size": "3475106395",
+        "date": "2020-04-24 15:02:39",
+        "md5": "b0c47e5b3053bd7488e5c603486ef612",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2503755",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2503755/SRR2503755",
+        "size": "830882103",
+        "date": "2015-09-24 03:04:39",
+        "md5": "0d4bcd9a62f215e8d3e974548c21b51a",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2503755.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/503/SRR2503755/SRR2503755.sralite.1",
+        "size": "385691883",
+        "date": "2020-06-22 11:23:00",
+        "md5": "561cbd76596d940077f74c0e970c8f5e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-24 11:14:48",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2503617",
+    "experiment_accession": "SRX1281550",
+    "sample_accession": "SAMN04102716",
+    "secondary_sample_accession": "SRS1086965",
+    "sample_alias": "O2_14h_0112-07",
+    "sample_title": "",
+    "scientific_name": "Clostridium ljungdahlii",
+    "tax_id": "1538",
+    "sample_attributes": [
+      {
+        "tag": "isolate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "ATCC 55383",
+        "units": ""
+      },
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "cell culture",
+        "units": ""
+      },
+      {
+        "tag": "time_point",
+        "value": "14h",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "O2",
+        "units": ""
+      },
+      {
+        "tag": "bio_rep",
+        "value": "1",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Clostridium ljungdahlii",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA296707",
+    "secondary_study_accession": "SRP064035",
+    "study_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "study_description": "Clostridium ljungdahlii is an important synthesis gas fermenting bacterium used in the biofuels industry, and a preliminary investigation showed that it has some tolerance to oxygen when cultured in rich mixotrophic medium. Batch cultures not only continue to grow and consume H2, CO, and fructose after 8% O2 exposure, but fermentation product analysis revealed an increase in ethanol concentration and decreased acetate concentration compared to non-oxygen exposed cultures. In this study, the mechanisms for higher ethanol production and oxygen/ROS detoxification were identified using a combination of fermentation, RNAseq differential expression, and enzyme activity analyses. Results indicate that the higher ethanol and lower acetate concentration were due to the carboxylic acid reductase activity of a more highly expressed predicted aldehyde oxidoreductase (CLJU_c24130) and that C. ljungdahlii''s primary defense upon oxygen exposure is a predicted rubrerythrin (CLJU_c39340). The metabolic responses of higher ethanol production and oxygen/ROS detoxification were found to be linked by cofactor management, substrate and energy metabolism. This study contributes new insights into the physiology and metabolism of C. ljungdahlii and provides new genetic targets to generate C. ljungdahlii strains that produce more ethanol and are more tolerant to syngas contaminants.",
+    "study_links": [],
+    "experiment_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "library_name": "O2_14h_0112-07",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "15032907",
+    "base_count": "1503290700",
+    "sra_run_bytes": "880521091",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR2503617.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/503/SRR2503617/SRR2503617.sralite.1",
+        "size": "411204153",
+        "date": "2020-06-22 11:21:42",
+        "md5": "bc6c72e27bbbbb2f2ebb7824ebcf22e9",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2503617",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2503617/SRR2503617",
+        "size": "880523146",
+        "date": "2015-09-24 03:04:37",
+        "md5": "bc047151ddccd39775d5dc895ac4925d",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "O2_14h_0112-07.fq",
+        "size": "3705499933",
+        "date": "2020-04-21 10:38:26",
+        "md5": "c2977140596d2978b48560c31e11fa83",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2015-09-24 11:14:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2503252",
+    "experiment_accession": "SRX1281435",
+    "sample_accession": "SAMN04102715",
+    "secondary_sample_accession": "SRS1086942",
+    "sample_alias": "NoO2_36h_0112-06",
+    "sample_title": "",
+    "scientific_name": "Clostridium ljungdahlii",
+    "tax_id": "1538",
+    "sample_attributes": [
+      {
+        "tag": "isolate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "ATCC 55383",
+        "units": ""
+      },
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "cell culture",
+        "units": ""
+      },
+      {
+        "tag": "time_point",
+        "value": "36h",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "NoO2",
+        "units": ""
+      },
+      {
+        "tag": "bio_rep",
+        "value": "3",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Clostridium ljungdahlii",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA296707",
+    "secondary_study_accession": "SRP064035",
+    "study_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "study_description": "Clostridium ljungdahlii is an important synthesis gas fermenting bacterium used in the biofuels industry, and a preliminary investigation showed that it has some tolerance to oxygen when cultured in rich mixotrophic medium. Batch cultures not only continue to grow and consume H2, CO, and fructose after 8% O2 exposure, but fermentation product analysis revealed an increase in ethanol concentration and decreased acetate concentration compared to non-oxygen exposed cultures. In this study, the mechanisms for higher ethanol production and oxygen/ROS detoxification were identified using a combination of fermentation, RNAseq differential expression, and enzyme activity analyses. Results indicate that the higher ethanol and lower acetate concentration were due to the carboxylic acid reductase activity of a more highly expressed predicted aldehyde oxidoreductase (CLJU_c24130) and that C. ljungdahlii''s primary defense upon oxygen exposure is a predicted rubrerythrin (CLJU_c39340). The metabolic responses of higher ethanol production and oxygen/ROS detoxification were found to be linked by cofactor management, substrate and energy metabolism. This study contributes new insights into the physiology and metabolism of C. ljungdahlii and provides new genetic targets to generate C. ljungdahlii strains that produce more ethanol and are more tolerant to syngas contaminants.",
+    "study_links": [],
+    "experiment_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "library_name": "NoO2_36h_0112-06",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "9993211",
+    "base_count": "999321100",
+    "sra_run_bytes": "593156144",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NoO2_36h_0112-06.fq",
+        "size": "2463250136",
+        "date": "2020-04-21 10:38:26",
+        "md5": "1b8bf4ebf32866e211c04b712d0f90b0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2503252",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2503252/SRR2503252",
+        "size": "593158192",
+        "date": "2015-09-24 03:03:53",
+        "md5": "ea252b557e1fff772e0cb9085c986bac",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2503252.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/503/SRR2503252/SRR2503252.sralite.1",
+        "size": "273622195",
+        "date": "2020-06-22 11:21:32",
+        "md5": "c57c63daae8b31075eb570df897bf6ec",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-24 11:14:21",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2502995",
+    "experiment_accession": "SRX1281354",
+    "sample_accession": "SAMN04102714",
+    "secondary_sample_accession": "SRS1086933",
+    "sample_alias": "NoO2_36h_0112-05",
+    "sample_title": "",
+    "scientific_name": "Clostridium ljungdahlii",
+    "tax_id": "1538",
+    "sample_attributes": [
+      {
+        "tag": "isolate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "ATCC 55383",
+        "units": ""
+      },
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "cell culture",
+        "units": ""
+      },
+      {
+        "tag": "time_point",
+        "value": "36h",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "NoO2",
+        "units": ""
+      },
+      {
+        "tag": "bio_rep",
+        "value": "2",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Clostridium ljungdahlii",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA296707",
+    "secondary_study_accession": "SRP064035",
+    "study_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "study_description": "Clostridium ljungdahlii is an important synthesis gas fermenting bacterium used in the biofuels industry, and a preliminary investigation showed that it has some tolerance to oxygen when cultured in rich mixotrophic medium. Batch cultures not only continue to grow and consume H2, CO, and fructose after 8% O2 exposure, but fermentation product analysis revealed an increase in ethanol concentration and decreased acetate concentration compared to non-oxygen exposed cultures. In this study, the mechanisms for higher ethanol production and oxygen/ROS detoxification were identified using a combination of fermentation, RNAseq differential expression, and enzyme activity analyses. Results indicate that the higher ethanol and lower acetate concentration were due to the carboxylic acid reductase activity of a more highly expressed predicted aldehyde oxidoreductase (CLJU_c24130) and that C. ljungdahlii''s primary defense upon oxygen exposure is a predicted rubrerythrin (CLJU_c39340). The metabolic responses of higher ethanol production and oxygen/ROS detoxification were found to be linked by cofactor management, substrate and energy metabolism. This study contributes new insights into the physiology and metabolism of C. ljungdahlii and provides new genetic targets to generate C. ljungdahlii strains that produce more ethanol and are more tolerant to syngas contaminants.",
+    "study_links": [],
+    "experiment_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "library_name": "NoO2_36h_0112-05",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "11143270",
+    "base_count": "1114327000",
+    "sra_run_bytes": "659301979",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NoO2_36h_0112-05.fq",
+        "size": "2746740881",
+        "date": "2020-04-21 10:38:26",
+        "md5": "78eab6727d935a5ff98a11e522eaa1e3",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2502995",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2502995/SRR2502995",
+        "size": "659304029",
+        "date": "2015-09-24 03:04:08",
+        "md5": "71f9624c27ce218edbe41252ef5ffeb8",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2502995.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/502/SRR2502995/SRR2502995.sralite.1",
+        "size": "305192513",
+        "date": "2020-06-22 11:20:10",
+        "md5": "8807167679f3b471601b57dd22a8a28b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-24 11:14:04",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2502871",
+    "experiment_accession": "SRX1281353",
+    "sample_accession": "SAMN04102713",
+    "secondary_sample_accession": "SRS1086932",
+    "sample_alias": "NoO2_36h_0112-04",
+    "sample_title": "",
+    "scientific_name": "Clostridium ljungdahlii",
+    "tax_id": "1538",
+    "sample_attributes": [
+      {
+        "tag": "isolate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "ATCC 55383",
+        "units": ""
+      },
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "cell culture",
+        "units": ""
+      },
+      {
+        "tag": "time_point",
+        "value": "36h",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "NoO2",
+        "units": ""
+      },
+      {
+        "tag": "bio_rep",
+        "value": "1",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Clostridium ljungdahlii",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA296707",
+    "secondary_study_accession": "SRP064035",
+    "study_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "study_description": "Clostridium ljungdahlii is an important synthesis gas fermenting bacterium used in the biofuels industry, and a preliminary investigation showed that it has some tolerance to oxygen when cultured in rich mixotrophic medium. Batch cultures not only continue to grow and consume H2, CO, and fructose after 8% O2 exposure, but fermentation product analysis revealed an increase in ethanol concentration and decreased acetate concentration compared to non-oxygen exposed cultures. In this study, the mechanisms for higher ethanol production and oxygen/ROS detoxification were identified using a combination of fermentation, RNAseq differential expression, and enzyme activity analyses. Results indicate that the higher ethanol and lower acetate concentration were due to the carboxylic acid reductase activity of a more highly expressed predicted aldehyde oxidoreductase (CLJU_c24130) and that C. ljungdahlii''s primary defense upon oxygen exposure is a predicted rubrerythrin (CLJU_c39340). The metabolic responses of higher ethanol production and oxygen/ROS detoxification were found to be linked by cofactor management, substrate and energy metabolism. This study contributes new insights into the physiology and metabolism of C. ljungdahlii and provides new genetic targets to generate C. ljungdahlii strains that produce more ethanol and are more tolerant to syngas contaminants.",
+    "study_links": [],
+    "experiment_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "library_name": "NoO2_36h_0112-04",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "10339373",
+    "base_count": "1033937300",
+    "sra_run_bytes": "614341489",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NoO2_36h_0112-04.fq",
+        "size": "2548580170",
+        "date": "2020-04-21 10:38:26",
+        "md5": "4d39b13bd1d6f28ff7f41e0c50c50529",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2502871.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/502/SRR2502871/SRR2502871.sralite.1",
+        "size": "283345422",
+        "date": "2021-06-15 04:50:40",
+        "md5": "fd5a89dc900d2405ccc817221d85c449",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2502871",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2502871/SRR2502871",
+        "size": "614343546",
+        "date": "2015-09-24 03:04:00",
+        "md5": "3aae4d7995925d7903bca08415ae15fc",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-24 11:13:50",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2502868",
+    "experiment_accession": "SRX1281352",
+    "sample_accession": "SAMN04102712",
+    "secondary_sample_accession": "SRS1086929",
+    "sample_alias": "NoO2_14h_0112-03",
+    "sample_title": "",
+    "scientific_name": "Clostridium ljungdahlii",
+    "tax_id": "1538",
+    "sample_attributes": [
+      {
+        "tag": "isolate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "ATCC 55383",
+        "units": ""
+      },
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "cell culture",
+        "units": ""
+      },
+      {
+        "tag": "time_point",
+        "value": "14h",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "NoO2",
+        "units": ""
+      },
+      {
+        "tag": "bio_rep",
+        "value": "3",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Clostridium ljungdahlii",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA296707",
+    "secondary_study_accession": "SRP064035",
+    "study_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "study_description": "Clostridium ljungdahlii is an important synthesis gas fermenting bacterium used in the biofuels industry, and a preliminary investigation showed that it has some tolerance to oxygen when cultured in rich mixotrophic medium. Batch cultures not only continue to grow and consume H2, CO, and fructose after 8% O2 exposure, but fermentation product analysis revealed an increase in ethanol concentration and decreased acetate concentration compared to non-oxygen exposed cultures. In this study, the mechanisms for higher ethanol production and oxygen/ROS detoxification were identified using a combination of fermentation, RNAseq differential expression, and enzyme activity analyses. Results indicate that the higher ethanol and lower acetate concentration were due to the carboxylic acid reductase activity of a more highly expressed predicted aldehyde oxidoreductase (CLJU_c24130) and that C. ljungdahlii''s primary defense upon oxygen exposure is a predicted rubrerythrin (CLJU_c39340). The metabolic responses of higher ethanol production and oxygen/ROS detoxification were found to be linked by cofactor management, substrate and energy metabolism. This study contributes new insights into the physiology and metabolism of C. ljungdahlii and provides new genetic targets to generate C. ljungdahlii strains that produce more ethanol and are more tolerant to syngas contaminants.",
+    "study_links": [],
+    "experiment_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "library_name": "NoO2_14h_0112-03",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "8998763",
+    "base_count": "899876300",
+    "sra_run_bytes": "534940100",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NoO2_14h_0112-03.fq",
+        "size": "2218124367",
+        "date": "2020-04-21 10:38:26",
+        "md5": "0273be33195e709c479e17551a836b46",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2502868.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/502/SRR2502868/SRR2502868.sralite.1",
+        "size": "246800201",
+        "date": "2020-06-13 08:33:05",
+        "md5": "f7f93628269412d8db5f7dea5be80b65",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2502868",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2502868/SRR2502868",
+        "size": "534942150",
+        "date": "2015-09-23 16:27:16",
+        "md5": "e0699955d51b7693503581fbee4c213f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-23 19:20:52",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2502762",
+    "experiment_accession": "SRX1281182",
+    "sample_accession": "SAMN04102711",
+    "secondary_sample_accession": "SRS1082277",
+    "sample_alias": "NoO2_14h_0112-02",
+    "sample_title": "",
+    "scientific_name": "Clostridium ljungdahlii",
+    "tax_id": "1538",
+    "sample_attributes": [
+      {
+        "tag": "isolate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "ATCC 55383",
+        "units": ""
+      },
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "cell culture",
+        "units": ""
+      },
+      {
+        "tag": "time_point",
+        "value": "14h",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "NoO2",
+        "units": ""
+      },
+      {
+        "tag": "bio_rep",
+        "value": "2",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Clostridium ljungdahlii",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA296707",
+    "secondary_study_accession": "SRP064035",
+    "study_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "study_description": "Clostridium ljungdahlii is an important synthesis gas fermenting bacterium used in the biofuels industry, and a preliminary investigation showed that it has some tolerance to oxygen when cultured in rich mixotrophic medium. Batch cultures not only continue to grow and consume H2, CO, and fructose after 8% O2 exposure, but fermentation product analysis revealed an increase in ethanol concentration and decreased acetate concentration compared to non-oxygen exposed cultures. In this study, the mechanisms for higher ethanol production and oxygen/ROS detoxification were identified using a combination of fermentation, RNAseq differential expression, and enzyme activity analyses. Results indicate that the higher ethanol and lower acetate concentration were due to the carboxylic acid reductase activity of a more highly expressed predicted aldehyde oxidoreductase (CLJU_c24130) and that C. ljungdahlii''s primary defense upon oxygen exposure is a predicted rubrerythrin (CLJU_c39340). The metabolic responses of higher ethanol production and oxygen/ROS detoxification were found to be linked by cofactor management, substrate and energy metabolism. This study contributes new insights into the physiology and metabolism of C. ljungdahlii and provides new genetic targets to generate C. ljungdahlii strains that produce more ethanol and are more tolerant to syngas contaminants.",
+    "study_links": [],
+    "experiment_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "library_name": "NoO2_14h_0112-02",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "11959974",
+    "base_count": "1195997400",
+    "sra_run_bytes": "705399406",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR2502762.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/502/SRR2502762/SRR2502762.sralite.1",
+        "size": "327653960",
+        "date": "2020-06-21 10:57:16",
+        "md5": "5b892893e917a37edabef46bb6a7b4a4",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2502762",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2502762/SRR2502762",
+        "size": "705401454",
+        "date": "2015-09-23 16:13:26",
+        "md5": "9fc823d6edfd154ca528927373ed8c33",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NoO2_14h_0112-02.fq",
+        "size": "2948048420",
+        "date": "2020-04-24 15:02:36",
+        "md5": "927d7f44a8dece84a067c80699cceea6",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2015-09-23 19:20:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2501749",
+    "experiment_accession": "SRX1277761",
+    "sample_accession": "SAMN04102710",
+    "secondary_sample_accession": "SRS1087125",
+    "sample_alias": "NoO2_14h_0112-01",
+    "sample_title": "",
+    "scientific_name": "Clostridium ljungdahlii",
+    "tax_id": "1538",
+    "sample_attributes": [
+      {
+        "tag": "isolate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "ATCC 55383",
+        "units": ""
+      },
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "not collected",
+        "units": ""
+      },
+      {
+        "tag": "sample_type",
+        "value": "cell culture",
+        "units": ""
+      },
+      {
+        "tag": "time_point",
+        "value": "14h",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "NoO2",
+        "units": ""
+      },
+      {
+        "tag": "bio_rep",
+        "value": "1",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Clostridium ljungdahlii",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Microbe, viral or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA296707",
+    "secondary_study_accession": "SRP064035",
+    "study_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "study_description": "Clostridium ljungdahlii is an important synthesis gas fermenting bacterium used in the biofuels industry, and a preliminary investigation showed that it has some tolerance to oxygen when cultured in rich mixotrophic medium. Batch cultures not only continue to grow and consume H2, CO, and fructose after 8% O2 exposure, but fermentation product analysis revealed an increase in ethanol concentration and decreased acetate concentration compared to non-oxygen exposed cultures. In this study, the mechanisms for higher ethanol production and oxygen/ROS detoxification were identified using a combination of fermentation, RNAseq differential expression, and enzyme activity analyses. Results indicate that the higher ethanol and lower acetate concentration were due to the carboxylic acid reductase activity of a more highly expressed predicted aldehyde oxidoreductase (CLJU_c24130) and that C. ljungdahlii''s primary defense upon oxygen exposure is a predicted rubrerythrin (CLJU_c39340). The metabolic responses of higher ethanol production and oxygen/ROS detoxification were found to be linked by cofactor management, substrate and energy metabolism. This study contributes new insights into the physiology and metabolism of C. ljungdahlii and provides new genetic targets to generate C. ljungdahlii strains that produce more ethanol and are more tolerant to syngas contaminants.",
+    "study_links": [],
+    "experiment_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+    "library_name": "NoO2_14h_0112-01",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "7996507",
+    "base_count": "799650700",
+    "sra_run_bytes": "472462268",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NoO2_14h_0112-01.fq",
+        "size": "1971078503",
+        "date": "2020-04-21 10:38:25",
+        "md5": "217a047b9aee7bab0b10103f17b12e1a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2501749",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2501749/SRR2501749",
+        "size": "472464322",
+        "date": "2015-09-23 16:00:59",
+        "md5": "7fc59f6db0995c3034b79c9989564ece",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2501749.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/501/SRR2501749/SRR2501749.sralite.1",
+        "size": "219776999",
+        "date": "2020-06-11 20:44:38",
+        "md5": "90fd1d348d2e2b4ad00f62685745f177",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-23 19:15:53",
+    "run_is_public": "true"
+  }
+]

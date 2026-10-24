@@ -1,0 +1,72 @@
+{
+  "accession": "PRJNA489848",
+  "checked_utc": "2026-10-24T14:30:20.095813+00:00",
+  "ena_run_count": 32,
+  "ncbi_sra_count": 8,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA489848&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:20.095946+00:00",
+    "raw_path": "raw/ENA/ae7a8295a7bdbe4201aacf4eb576f6e4cea3e25981b5459e7949e97621eb728f.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA489848&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 43726,
+    "sha256": "edc48d4e669536bbaac02079fff60fbce32af3dfe3047dc4b51816036ce59731",
+    "finished_utc": "2026-10-24T14:30:20.375205+00:00",
+    "measured_wall_seconds": 0.279
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA489848&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:20.776995+00:00",
+    "raw_path": "raw/NCBI/aa6e669a0a1ed54236476db7647012a603e9891b373e18cb3813914aa48b2d93.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA489848&retmode=json&retmax=200&retstart=0",
+    "bytes": 371,
+    "sha256": "67c13facff1c1a18377c219081d24029136fbf5186cd7470bc98ba0ad00c564d",
+    "finished_utc": "2026-10-24T14:30:20.894507+00:00",
+    "measured_wall_seconds": 0.118
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA489848",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:21.730944+00:00",
+    "raw_path": "raw/ENA/84bed5559efc302853975a3d6c50ef0655ed002fb8fcab6b2622d281925c05e1.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA489848",
+    "bytes": 3346,
+    "sha256": "a088fe980907e03b2b7461f2e2f22b9db2dd14522c002efd8718f82d2a1e308b",
+    "finished_utc": "2026-10-24T14:30:21.885178+00:00",
+    "measured_wall_seconds": 0.154
+  },
+  "project_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+  "project_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA489848"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP160141"
+    },
+    {
+      "tag": "EXTERNAL_ID",
+      "namespace": "GEO",
+      "value": "GSE119644"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Institute for Groundwater Ecology, Helmholtz Zentrum München",
+      "value": "PRJNA489848"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>PUBMED</DB>\n        <ID>30483229</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA489848&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA489848&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 32
+}

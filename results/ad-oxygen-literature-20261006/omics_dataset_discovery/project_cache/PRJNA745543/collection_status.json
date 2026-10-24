@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA745543",
+  "checked_utc": "2026-10-24T14:30:32.581095+00:00",
+  "ena_run_count": 6,
+  "ncbi_sra_count": 6,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA745543&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:32.581303+00:00",
+    "raw_path": "raw/ENA/5c1595f33255961e0398eff2acea7b4b20fa503496131c6b27607edee9aec2b3.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA745543&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 7493,
+    "sha256": "e05c23c66b569218532c052373d26be19fa4bf24cd1be36cda25b03b4187562a",
+    "finished_utc": "2026-10-24T14:30:32.745180+00:00",
+    "measured_wall_seconds": 0.164
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA745543&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:33.146663+00:00",
+    "raw_path": "raw/NCBI/cc1d869c4213b807fd9ee5cd81e06ccee8070a6347e6f632eaf2583be4f5eced.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA745543&retmode=json&retmax=200&retstart=0",
+    "bytes": 357,
+    "sha256": "f074f98498d27b7ce3e0990bf6b76ed14204ce9cca3eaa921e3d1b385785bec6",
+    "finished_utc": "2026-10-24T14:30:33.307757+00:00",
+    "measured_wall_seconds": 0.161
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA745543",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:34.155308+00:00",
+    "raw_path": "raw/ENA/bb6335a0e34aa04424b86feb207041eb7e22d36a624f0879f91e7890a461afa7.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA745543",
+    "bytes": 2140,
+    "sha256": "affff3f35f3faea2a903546e6b0f1fa708489cde571c97b6c29bf7bd70d370bf",
+    "finished_utc": "2026-10-24T14:30:34.318449+00:00",
+    "measured_wall_seconds": 0.163
+  },
+  "project_title": "Microaerobic and aerobic xylene degrading enrichment culture",
+  "project_description": "Microaerobic and aerobic xylene degrading enrichment of a decade-old petroleum hydrocarbon contaminated site where xylene is the main persisting contaminant.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA745543"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP328100"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Hungarian University of Agriculture and Life Sciences(Formerly Szent Istvan University)",
+      "value": "PRJNA745543"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA745543&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA745543&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 6
+}

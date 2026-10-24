@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA365634",
+  "checked_utc": "2026-10-24T14:43:08.997161+00:00",
+  "ena_run_count": 1,
+  "ncbi_sra_count": 1,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA365634&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:43:08.997306+00:00",
+    "raw_path": "raw/ENA/90ce512df140432d099e104ffa1d4354341f5b99562630836704fb5f0be72e32.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA365634&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 1700,
+    "sha256": "12f71cfe93872a5f3c83376f42c64dc5f3777a42d466b69f68dfed7fbc445d32",
+    "finished_utc": "2026-10-24T14:43:09.179552+00:00",
+    "measured_wall_seconds": 0.182
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA365634&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:43:09.580606+00:00",
+    "raw_path": "raw/NCBI/e202f5ea07ffc5afea2c057b2fafa7123ca8c765bf703a4ea47bf52e60d92fa0.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA365634&retmode=json&retmax=200&retstart=0",
+    "bytes": 301,
+    "sha256": "9a272b0c6e2420e116e74ba35b7f2441ed26d0a66b497e153679ecc569ac2746",
+    "finished_utc": "2026-10-24T14:43:09.688624+00:00",
+    "measured_wall_seconds": 0.108
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA365634",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:43:10.265030+00:00",
+    "raw_path": "raw/ENA/bfecb41b70b4af3f3752d02c1311aea47461aa26a56735d12a8dd052516eb2b4.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA365634",
+    "bytes": 2380,
+    "sha256": "377ffbcc5ea8378ea5dfe00445d40b69a770981d140e07eabe22318af41464f8",
+    "finished_utc": "2026-10-24T14:43:10.443192+00:00",
+    "measured_wall_seconds": 0.178
+  },
+  "project_title": "Freshwater sediment methanotrophic microbial communities from Lake Washington under simulated oxygen tension - Sediment Metatranscriptome 130_HOW14",
+  "project_description": "Methane oxidation as a community function: Freshwater sediment methanotrophic sample from Lake Washington under simulated oxygen tension - Sediment Metatranscriptome 130_HOW14",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA365634"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP103580"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "DOE Joint Genome Institute",
+      "value": "PRJNA365634"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA365634&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA365634&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 1
+}

@@ -1,0 +1,63 @@
+{
+  "accession": "PRJNA1186224",
+  "checked_utc": "2026-10-24T14:30:41.749597+00:00",
+  "ena_run_count": 0,
+  "ncbi_sra_count": 0,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1186224&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:41.749745+00:00",
+    "raw_path": "raw/ENA/209ed61b1d57a1701bc3941ba72c2f9743e49626b67d115bc4c6052292995212.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1186224&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 5,
+    "sha256": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d",
+    "finished_utc": "2026-10-24T14:30:41.973990+00:00",
+    "measured_wall_seconds": 0.224
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1186224&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:42.375185+00:00",
+    "raw_path": "raw/NCBI/9a8e3acd74273706475ada26e85ddc7eb6591f8a14c366876f17355e3107befa.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1186224&retmode=json&retmax=200&retstart=0",
+    "bytes": 353,
+    "sha256": "eb1f1b0c4e0c8bf958903e86cc1a5a8b5caae33db734830d2a572e47edca1132",
+    "finished_utc": "2026-10-24T14:30:42.455132+00:00",
+    "measured_wall_seconds": 0.08
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1186224",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:42.455749+00:00",
+    "raw_path": "raw/ENA/42237e8a60cb40201afd3f57ca0b3eaeae67dd25072388b2b90809932e643373.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1186224",
+    "bytes": 4530,
+    "sha256": "6d5e32ab8563fa98e14f264a83008b01835fcf97038854599cfadbf4c1a6a325",
+    "finished_utc": "2026-10-24T14:30:42.598522+00:00",
+    "measured_wall_seconds": 0.143
+  },
+  "project_title": "High-temperature filamentous microbial communities in Conch and Octopus hot springs, Yellowstone National Park Metagenomic assembly",
+  "project_description": "Thermophilic microbial communities growing in low-oxygen environments often contain early-evolved archaea and bacteria, which hold clues regarding mechanisms of cellular respiration relevant to early life. Here, we conducted replicate metagenomic, metatranscriptomic, microscopic and geochemical analyses on two hyperthermophilic (82-84 oC) filamentous microbial communities (Conch and Octopus Springs, Yellowstone National Park, WY) to understand the role of oxygen, sulfur and arsenic in energy conservation and community composition. We report that hyperthermophiles within the Aquificota (Thermocrinis), Pyropristinus (Caldipriscus) and Thermoproteota (Pyrobaculum) are abundant in both communities; however, higher oxygen results in a greater diversity of aerobic heterotrophs. Metatranscriptomics revealed major shifts in respiratory pathways of keystone chemolithotrophs due to differences in oxygen versus sulfide. Specifically, early-evolved hyperthermophiles express high levels of high-affinity cytochrome bd and CydAA' oxidases in suboxic sulfidic environments, and low-affinity heme Cu oxidases under microaerobic conditions. These energy-conservation mechanisms using cytochrome oxidases in high-temperature, low-oxygen habitats likely played a crucial role in the early evolution of microbial life.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1186224"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Montana State University",
+      "value": "PRJNA1186224"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1186224&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1186224&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 0
+}

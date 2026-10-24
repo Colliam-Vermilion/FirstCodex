@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA682552",
+  "checked_utc": "2026-10-24T14:41:33.729097+00:00",
+  "ena_run_count": 31,
+  "ncbi_sra_count": 31,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA682552&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:33.729251+00:00",
+    "raw_path": "raw/ENA/c6274f15fdd1f75be7450c291b7c0386394c3c8ce0afa9b60361be518cfe22a7.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA682552&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 45109,
+    "sha256": "0cde6dc5d54675b5a844ff420b6952440ee3ff9dd26c21ca4e675adb6f172f85",
+    "finished_utc": "2026-10-24T14:41:33.907504+00:00",
+    "measured_wall_seconds": 0.178
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA682552&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:41:34.309449+00:00",
+    "raw_path": "raw/NCBI/bd5c101f8b010e6e53eb2617206e95b188dffb2b52cb9dcbc06503e9e2d977cf.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA682552&retmode=json&retmax=200&retstart=0",
+    "bytes": 635,
+    "sha256": "8685a95b8529ad9057774d37bd850050565d0e4992545d3b941c27720641eb65",
+    "finished_utc": "2026-10-24T14:41:34.600786+00:00",
+    "measured_wall_seconds": 0.291
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA682552",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:35.556207+00:00",
+    "raw_path": "raw/ENA/54c21ede5b9e694e48def71f8f4ad5cb5940eeb20ca1083dc0678a531f19e038.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA682552",
+    "bytes": 4080,
+    "sha256": "711d725d9010f01df897cde675ca357cd42f2ef1e369d63dde5fe4b0042e0cef",
+    "finished_utc": "2026-10-24T14:41:36.173778+00:00",
+    "measured_wall_seconds": 0.618
+  },
+  "project_title": "Multi-omics of the nitrate-reducing iron(II)-oxidizing culture KS",
+  "project_description": "Nitrate-reducing iron(II)-oxidizing bacteria are widespread in the environment contribute to nitrate removal and influence the fate of the greenhouse gases nitrous oxide and carbon dioxide. The autotrophic growth of nitrate-reducing iron(II)-oxidizing bacteria is rarely investigated and poorly understood. The most prominent model system for this type of studies is enrichment culture KS, which originates from a freshwater sediment in Bremen, Germany. To gain insights in the metabolism of nitrate reduction coupled to iron(II) oxidation under in the absence of organic carbon and oxygen limited conditions, we performed metagenomic, metatranscriptomic and metaproteomic analyses of culture KS.</p><p>This dataset contains: (1) Raw sequencing data of 16S (V4 region, primers 515f and 806r) rRNA amplicon sequencing of the microbial community composition of the autotrophic NRFeOx enrichment culture KS. Illumina MiSeq sequencing (Illumina, San Diego, CA, USA) using PE 250 bp MiSeq Reagent Kit v2 (500 cycles kit) were performed at Microsynth AG (Balgach, Switzerland). (2) Raw sequencing data of shotgun metagenomics. For short reads, library was prepared with TruSeq DNA PCR-Free Kit (Illumina) and sequenced with PE 150 bp on a NovaSeq 6000 totalling 55 and 48 Gbp by CeGaT, Tuebingen, Germany. For long read sequencing, library preparation with ONT Native Ligation Kit was followed by sequencing with PromethION (Oxford Nanopore Technologies) flow cell (version 9.4.1) for 72h with standard settings (basecalling with HAC mode, bias voltage -180 mV) yielding 53 Gbp in 5 million reads by the NGS Competence Center Tuebingen (NCCT) of the University of Tuebingen, Germany. (3) Short and long reads were assembled with metaSPAdes v3.13.1 using https://github.com/nf-core/mag v1.0.0. (4) Raw sequencing data of shotgun metatranscriptomes (2 conditions, triplicates). Library preparation including bacterial ribodepletion (NuGen Universal Prokaryotic RNA-Seq kit incl. bacterial ribodepletion) and Illumina NextSeq v2.5 sequencing with PE 75 bp and 21 to 62 Mio clusters per sample were performed by Microsynth AG (Balgach, Switzerland).",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA682552"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP295852"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "University of Tuebingen",
+      "value": "PRJNA682552"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA682552&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA682552&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 31
+}

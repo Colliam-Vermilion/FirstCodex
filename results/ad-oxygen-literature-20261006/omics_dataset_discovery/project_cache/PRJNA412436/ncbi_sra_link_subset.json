@@ -1,0 +1,835 @@
+[
+  {
+    "run_accession": "SRR6152564",
+    "experiment_accession": "SRX3264549",
+    "sample_accession": "SAMN05384256",
+    "secondary_sample_accession": "SRS1577698",
+    "sample_alias": "Sb_2010_peat_soil_for_microcosms",
+    "sample_title": "Untreated peat soil, used to set up microcosm incubations",
+    "scientific_name": "peat metagenome",
+    "tax_id": "1799672",
+    "sample_attributes": [
+      {
+        "tag": "samp_vol_we_dna_ext",
+        "value": "0.3 g",
+        "units": ""
+      },
+      {
+        "tag": "samp_collect_device",
+        "value": "10 x 10 cm box-corer",
+        "units": ""
+      },
+      {
+        "tag": "sulfate_stimulated",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Sb_2010.native_soil.day_0",
+        "units": ""
+      },
+      {
+        "tag": "incubation_time_days",
+        "value": "0",
+        "units": ""
+      },
+      {
+        "tag": "env_feature",
+        "value": "long-term experimental site",
+        "units": ""
+      },
+      {
+        "tag": "microcosm_id",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "elev",
+        "value": "713 m",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "Excerpt from PMID 27015005: Peat soil microcosms were set up by mixing 30 g of fresh soil (10-20 cm depth) with 60 ml of filter-sterilized (0.2 μm) and anoxic peat water in 250 ml sterile glass bottles. Microcosms were sealed under 100 % N₂ with butyl rubber septa and incubated for 53 days in the dark at 14 °C. Microcosms were periodically amended from the first day of incubation with formate, acetate, propionate, lactate, or butyrate, or incubated without any external substrate. Half of the substrate-amended and -unamended microcosms additionally received periodic amendments of sulfate. These microcosms were initially spiked with sulfate, and, thereafter, were periodically amended with small amounts of sulfate. Triplicate microcosms were set up per incubation condition (36 microcosms in total).",
+        "units": ""
+      },
+      {
+        "tag": "ph",
+        "value": "4.1",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "50.131881 N 11.881046 E",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2010-09-21",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "env_biome",
+        "value": "fen",
+        "units": ""
+      },
+      {
+        "tag": "replicate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0.1-0.2 m",
+        "units": ""
+      },
+      {
+        "tag": "ref_biomaterial",
+        "value": "27015005",
+        "units": ""
+      },
+      {
+        "tag": "env_material",
+        "value": "peat soil",
+        "units": ""
+      },
+      {
+        "tag": "water_content_soil",
+        "value": "0.78 g/g",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Germany: Schloeppnerbrunnen fen II, Fichtel Mountains, northeastern Bavaria",
+        "units": ""
+      },
+      {
+        "tag": "amended_substrate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "samp_size",
+        "value": "1000 g",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMS.me",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.soil",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA412436",
+    "secondary_study_accession": "SRP119650",
+    "study_title": "Schlöppnerbrunnen omics: SIP pool and native soil metagenomes",
+    "study_description": "The Schlöppnerbrunnen fens are a long studied model system for peatland/wetland research. This BioProject includes data from a combined analysis of DNA pooled from heavy SIP fractions and native peat soil.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29476143"
+      },
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30755506"
+      },
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29098760"
+      },
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29467397"
+      }
+    ],
+    "experiment_title": "Metagenome from untreated peat soil, used to set up microcosm incubations [DNA sample J2]",
+    "library_name": "Sb_2010_peat_soil_DNA_J2",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "89459649",
+    "base_count": "18070849098",
+    "sra_run_bytes": "11338952003",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR6152564",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR6152564/SRR6152564",
+        "size": "11338953756",
+        "date": "2017-10-10 11:02:50",
+        "md5": "7aada13153c5a2af90508108e096dcac",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR6152564.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR006/152/SRR6152564.sralite.1",
+        "size": "4686175185",
+        "date": "2020-06-21 09:37:23",
+        "md5": "de4c98802296357c03583177dbe372ec",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "Soil_Microbs__SII2010_2_3310_L8_Read2.fastq.gz",
+        "size": "8358661610",
+        "date": "2020-03-19 17:39:18",
+        "md5": "66f8debef028fcd8f8122e26bd3820d6",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "Soil_Microbs__SII2010_2_3310_L8_Read1.fastq.gz",
+        "size": "8224530106",
+        "date": "2020-03-19 15:33:17",
+        "md5": "a207ebcd7943ba88833dddc01013ffe8",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2017-10-10 11:20:11",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR6193119",
+    "experiment_accession": "SRX3303073",
+    "sample_accession": "SAMN05384256",
+    "secondary_sample_accession": "SRS1577698",
+    "sample_alias": "Sb_2010_peat_soil_for_microcosms",
+    "sample_title": "Untreated peat soil, used to set up microcosm incubations",
+    "scientific_name": "peat metagenome",
+    "tax_id": "1799672",
+    "sample_attributes": [
+      {
+        "tag": "samp_vol_we_dna_ext",
+        "value": "0.3 g",
+        "units": ""
+      },
+      {
+        "tag": "samp_collect_device",
+        "value": "10 x 10 cm box-corer",
+        "units": ""
+      },
+      {
+        "tag": "sulfate_stimulated",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Sb_2010.native_soil.day_0",
+        "units": ""
+      },
+      {
+        "tag": "incubation_time_days",
+        "value": "0",
+        "units": ""
+      },
+      {
+        "tag": "env_feature",
+        "value": "long-term experimental site",
+        "units": ""
+      },
+      {
+        "tag": "microcosm_id",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "elev",
+        "value": "713 m",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "Excerpt from PMID 27015005: Peat soil microcosms were set up by mixing 30 g of fresh soil (10-20 cm depth) with 60 ml of filter-sterilized (0.2 μm) and anoxic peat water in 250 ml sterile glass bottles. Microcosms were sealed under 100 % N₂ with butyl rubber septa and incubated for 53 days in the dark at 14 °C. Microcosms were periodically amended from the first day of incubation with formate, acetate, propionate, lactate, or butyrate, or incubated without any external substrate. Half of the substrate-amended and -unamended microcosms additionally received periodic amendments of sulfate. These microcosms were initially spiked with sulfate, and, thereafter, were periodically amended with small amounts of sulfate. Triplicate microcosms were set up per incubation condition (36 microcosms in total).",
+        "units": ""
+      },
+      {
+        "tag": "ph",
+        "value": "4.1",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "50.131881 N 11.881046 E",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2010-09-21",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "env_biome",
+        "value": "fen",
+        "units": ""
+      },
+      {
+        "tag": "replicate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0.1-0.2 m",
+        "units": ""
+      },
+      {
+        "tag": "ref_biomaterial",
+        "value": "27015005",
+        "units": ""
+      },
+      {
+        "tag": "env_material",
+        "value": "peat soil",
+        "units": ""
+      },
+      {
+        "tag": "water_content_soil",
+        "value": "0.78 g/g",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Germany: Schloeppnerbrunnen fen II, Fichtel Mountains, northeastern Bavaria",
+        "units": ""
+      },
+      {
+        "tag": "amended_substrate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "samp_size",
+        "value": "1000 g",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMS.me",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.soil",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA412436",
+    "secondary_study_accession": "SRP119650",
+    "study_title": "Schlöppnerbrunnen omics: SIP pool and native soil metagenomes",
+    "study_description": "The Schlöppnerbrunnen fens are a long studied model system for peatland/wetland research. This BioProject includes data from a combined analysis of DNA pooled from heavy SIP fractions and native peat soil.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29476143"
+      },
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30755506"
+      },
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29098760"
+      },
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29467397"
+      }
+    ],
+    "experiment_title": "Metagenome from untreated peat soil, used to set up microcosm incubations [DNA sample J1]",
+    "library_name": "GOAT",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "Regular (DNA)",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "116043522",
+    "base_count": "34813056600",
+    "sra_run_bytes": "21428866834",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "6181.3.39403.fastq.gz",
+        "size": "25795208807",
+        "date": "2020-03-19 11:38:48",
+        "md5": "a0d11b482302408e8bd04b562cd56656",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR6193119",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR6193119/SRR6193119",
+        "size": "21428868061",
+        "date": "2017-10-20 10:29:04",
+        "md5": "6e619a988a91e1a6da9abb20eb95f54d",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR6193119.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR006/193/SRR6193119.sralite.1",
+        "size": "8726328497",
+        "date": "2020-06-22 12:16:06",
+        "md5": "d285a9c3121651dfddc5cd1b3a64fa37",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2017-10-20 12:00:16",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR6195975",
+    "experiment_accession": "SRX3305905",
+    "sample_accession": "SAMN05384255",
+    "secondary_sample_accession": "SRS2871725",
+    "sample_alias": "Sb_2007_peat_soil_microcosms_SIP_pool",
+    "sample_title": "Sulfate-stimulated peat soil microcosms, amended with formate, acetate, propionate, and lactate, incubated for 120 days (heavy SIP fractions)",
+    "scientific_name": "peat metagenome",
+    "tax_id": "1799672",
+    "sample_attributes": [
+      {
+        "tag": "sulfate_stimulated",
+        "value": "yes",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Sb_2007.SIP_pool",
+        "units": ""
+      },
+      {
+        "tag": "incubation_time_days",
+        "value": "120",
+        "units": ""
+      },
+      {
+        "tag": "env_feature",
+        "value": "long-term experimental site",
+        "units": ""
+      },
+      {
+        "tag": "microcosm_id",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "elev",
+        "value": "713 m",
+        "units": ""
+      },
+      {
+        "tag": "ph",
+        "value": "5-Apr",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "50.131881 N 11.881046 E",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "11/7/2007",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "pool_dna_extracts",
+        "value": "true;16",
+        "units": ""
+      },
+      {
+        "tag": "env_biome",
+        "value": "fen",
+        "units": ""
+      },
+      {
+        "tag": "replicate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0.1-0.2 m",
+        "units": ""
+      },
+      {
+        "tag": "ref_biomaterial",
+        "value": "20535221",
+        "units": ""
+      },
+      {
+        "tag": "env_material",
+        "value": "peat soil",
+        "units": ""
+      },
+      {
+        "tag": "water_content_soil",
+        "value": "0.78 g/g",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Germany: Schloeppnerbrunnen fen II, Fichtel Mountains, northeastern Bavaria",
+        "units": ""
+      },
+      {
+        "tag": "amended_substrate",
+        "value": "formate, acetate, propionate, and lactate",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMS.me",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.soil",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA412436",
+    "secondary_study_accession": "SRP119650",
+    "study_title": "Schlöppnerbrunnen omics: SIP pool and native soil metagenomes",
+    "study_description": "The Schlöppnerbrunnen fens are a long studied model system for peatland/wetland research. This BioProject includes data from a combined analysis of DNA pooled from heavy SIP fractions and native peat soil.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29476143"
+      },
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30755506"
+      },
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29098760"
+      },
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29467397"
+      }
+    ],
+    "experiment_title": "Metagenome from sulfate-stimulated peat soil microcosms, amended with formate, acetate, propionate, and lactate, incubated for 120 days (heavy SIP fractions)",
+    "library_name": "HBUY",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "Regular (DNA)",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "25860472",
+    "base_count": "7758141600",
+    "sra_run_bytes": "4858431851",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "6498.7.45692.TTAGGC.fastq.gz",
+        "size": "5798589857",
+        "date": "2020-03-19 11:38:48",
+        "md5": "7b7e631d4f185ae1cee8efb6458b90f1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR6195975.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR006/195/SRR6195975.sralite.1",
+        "size": "1946146823",
+        "date": "2020-06-14 00:32:01",
+        "md5": "a499417fcad8dbc513dc97c577b6ea58",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR6195975",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR6195975/SRR6195975",
+        "size": "4858433078",
+        "date": "2017-10-20 14:58:52",
+        "md5": "d1cb328d9caa713cf324eb92ca97f021",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2017-10-20 15:57:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR6195974",
+    "experiment_accession": "SRX3305906",
+    "sample_accession": "SAMN05384255",
+    "secondary_sample_accession": "SRS2871725",
+    "sample_alias": "Sb_2007_peat_soil_microcosms_SIP_pool",
+    "sample_title": "Sulfate-stimulated peat soil microcosms, amended with formate, acetate, propionate, and lactate, incubated for 120 days (heavy SIP fractions)",
+    "scientific_name": "peat metagenome",
+    "tax_id": "1799672",
+    "sample_attributes": [
+      {
+        "tag": "sulfate_stimulated",
+        "value": "yes",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "Sb_2007.SIP_pool",
+        "units": ""
+      },
+      {
+        "tag": "incubation_time_days",
+        "value": "120",
+        "units": ""
+      },
+      {
+        "tag": "env_feature",
+        "value": "long-term experimental site",
+        "units": ""
+      },
+      {
+        "tag": "microcosm_id",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "elev",
+        "value": "713 m",
+        "units": ""
+      },
+      {
+        "tag": "ph",
+        "value": "5-Apr",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "50.131881 N 11.881046 E",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "11/7/2007",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "pool_dna_extracts",
+        "value": "true;16",
+        "units": ""
+      },
+      {
+        "tag": "env_biome",
+        "value": "fen",
+        "units": ""
+      },
+      {
+        "tag": "replicate",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0.1-0.2 m",
+        "units": ""
+      },
+      {
+        "tag": "ref_biomaterial",
+        "value": "20535221",
+        "units": ""
+      },
+      {
+        "tag": "env_material",
+        "value": "peat soil",
+        "units": ""
+      },
+      {
+        "tag": "water_content_soil",
+        "value": "0.78 g/g",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Germany: Schloeppnerbrunnen fen II, Fichtel Mountains, northeastern Bavaria",
+        "units": ""
+      },
+      {
+        "tag": "amended_substrate",
+        "value": "formate, acetate, propionate, and lactate",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMS.me",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.soil",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA412436",
+    "secondary_study_accession": "SRP119650",
+    "study_title": "Schlöppnerbrunnen omics: SIP pool and native soil metagenomes",
+    "study_description": "The Schlöppnerbrunnen fens are a long studied model system for peatland/wetland research. This BioProject includes data from a combined analysis of DNA pooled from heavy SIP fractions and native peat soil.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29476143"
+      },
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30755506"
+      },
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29098760"
+      },
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "29467397"
+      }
+    ],
+    "experiment_title": "Metagenome from sulfate-stimulated peat soil microcosms, amended with formate, acetate, propionate, and lactate, incubated for 120 days (heavy SIP fractions)",
+    "library_name": "HBUY",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "Regular (DNA)",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "174786963",
+    "base_count": "52436088900",
+    "sra_run_bytes": "33466558847",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR6195974.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR006/195/SRR6195974.sralite.1",
+        "size": "13128607271",
+        "date": "2020-06-21 13:13:05",
+        "md5": "5ce4ad8d9a2df4c810b399e72503dc5a",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR6195974",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR6195974/SRR6195974",
+        "size": "33466560074",
+        "date": "2017-10-20 16:12:16",
+        "md5": "7dc64d16aabb1df8066b99e86ed2defc",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "6664.6.51146.TTAGGC.fastq.gz",
+        "size": "41072250322",
+        "date": "2020-03-18 16:48:41",
+        "md5": "5ceedd04b30764abf1448e8f066efa19",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2017-10-20 20:26:12",
+    "run_is_public": "true"
+  }
+]

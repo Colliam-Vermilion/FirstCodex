@@ -1,0 +1,72 @@
+{
+  "accession": "PRJNA293208",
+  "checked_utc": "2026-10-24T14:41:57.312750+00:00",
+  "ena_run_count": 12,
+  "ncbi_sra_count": 4,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA293208&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:57.312886+00:00",
+    "raw_path": "raw/ENA/af479a8d4f507811c8a08a56e325ab002c3b6459fb1240c91ff034366faa5787.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA293208&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 15747,
+    "sha256": "8f645eb8121ccfc19efa64924f9b3d44812890d7dd42cb44b0dbf10afceea743",
+    "finished_utc": "2026-10-24T14:41:57.549834+00:00",
+    "measured_wall_seconds": 0.237
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA293208&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:41:57.951131+00:00",
+    "raw_path": "raw/NCBI/fbd2554b5e8c694ccf7b7e6420fcf150bfb73c81379007bbcce4c8e68c35a096.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA293208&retmode=json&retmax=200&retstart=0",
+    "bytes": 331,
+    "sha256": "9795a90f36d06b2b400b48f2bad7c9a68e463f47d664e91837e6be6f2000706d",
+    "finished_utc": "2026-10-24T14:41:58.040446+00:00",
+    "measured_wall_seconds": 0.089
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA293208",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:58.706786+00:00",
+    "raw_path": "raw/ENA/8a971a044c43ddb735184445464dcbfe68d6c4117db7750bfce816fd31e767dc.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA293208",
+    "bytes": 2794,
+    "sha256": "b9e94bb8f5a70baa4aa50dc4061074a9600663eaf301f5dc15c6e66df2e15e72",
+    "finished_utc": "2026-10-24T14:41:58.854735+00:00",
+    "measured_wall_seconds": 0.148
+  },
+  "project_title": "Molecular responses and metabolic reset of apple fruit under postharvest low oxygen stress",
+  "project_description": "In the present work we report data on the application of an integrated approach on apples held under two levels of low oxygen concentrations throughout the initial 2 months of storage, when, in general, strict control of the effects of the extremely low oxygen concentration is required for a successful DCA performance. Overall design: Examination of 4 different condition. Three replicates per condition",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA293208"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP062551"
+    },
+    {
+      "tag": "EXTERNAL_ID",
+      "namespace": "GEO",
+      "value": "GSE72153"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Life Sciences, Scuola Superiore Sant'Anna",
+      "value": "PRJNA293208"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>PUBMED</DB>\n        <ID>26909091</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA293208&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA293208&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 12
+}

@@ -16,7 +16,8 @@
     "independent_reactor_replicates_per_group": 1,
     "is_independent_study": false,
     "caveat": "同一组反应器纵向重复；week6处理前基线另作协变量，不作氧处理比较",
-    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键"
+    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键",
+    "design_evidence_level": "既有全文方法+官方样本映射"
   },
   {
     "comparison_id": "C-PRJNA1013451-W23-MST-SND",
@@ -35,7 +36,8 @@
     "independent_reactor_replicates_per_group": 1,
     "is_independent_study": false,
     "caveat": "同一组反应器纵向重复；week6处理前基线另作协变量，不作氧处理比较",
-    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键"
+    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键",
+    "design_evidence_level": "既有全文方法+官方样本映射"
   },
   {
     "comparison_id": "C-PRJNA1013451-W42-MAT-CON",
@@ -54,7 +56,8 @@
     "independent_reactor_replicates_per_group": 1,
     "is_independent_study": false,
     "caveat": "同一组反应器纵向重复；week6处理前基线另作协变量，不作氧处理比较",
-    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键"
+    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键",
+    "design_evidence_level": "既有全文方法+官方样本映射"
   },
   {
     "comparison_id": "C-PRJNA1013451-W42-MST-SND",
@@ -73,7 +76,8 @@
     "independent_reactor_replicates_per_group": 1,
     "is_independent_study": false,
     "caveat": "同一组反应器纵向重复；week6处理前基线另作协变量，不作氧处理比较",
-    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键"
+    "evidence": "官方sample source_material_id + 既有R09236/R12985全文及SI键",
+    "design_evidence_level": "既有全文方法+官方样本映射"
   },
   {
     "comparison_id": "C-PRJNA1287080-R4-R1",
@@ -91,6 +95,59 @@
     "sequenced_samples_per_group": 1,
     "independent_reactor_replicates_per_group": null,
     "caveat": "实验三平行不等于测序三重复；是否混样待核",
-    "evidence": "官方R1-M/R4-M alias与既有R11724方法/数据声明"
+    "evidence": "官方R1-M/R4-M alias与既有R11724方法/数据声明",
+    "design_evidence_level": "既有全文方法+官方样本映射"
+  },
+  {
+    "comparison_id": "C-PRJDB17922-O2-before-after",
+    "project_id": "PRJDB17922",
+    "treatment": "after increase O2",
+    "control": "before increase O2（微氧基线，非严格无氧）",
+    "treatment_runs": [
+      "DRR546166",
+      "DRR546165",
+      "DRR546164"
+    ],
+    "control_runs": [
+      "DRR546163",
+      "DRR546162",
+      "DRR546161"
+    ],
+    "sequenced_samples_per_group": 3,
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "官方项目/样本元数据；完整方法及生物重复待核",
+    "caveat": "3个编号不等于3独立反应器；具体O2剂量、时间和RNA去rRNA方案待核"
+  },
+  {
+    "comparison_id": "C-PRJNA1403469-SBR1-AE-AN",
+    "project_id": "PRJNA1403469",
+    "treatment": "SBR1 aerobic phase",
+    "control": "SBR1 anaerobic phase",
+    "treatment_runs": [
+      "SRR36851619"
+    ],
+    "control_runs": [
+      "SRR36851620"
+    ],
+    "sequenced_samples_per_group": 1,
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "官方项目说明/样本别名；完整方法及生物重复待核",
+    "caveat": "阶段/时间和底物变化并存；两SBR进料不同，不作为同条件独立重复"
+  },
+  {
+    "comparison_id": "C-PRJNA1403469-SBR2-AE-AN",
+    "project_id": "PRJNA1403469",
+    "treatment": "SBR2 aerobic phase",
+    "control": "SBR2 anaerobic phase",
+    "treatment_runs": [
+      "SRR36851617"
+    ],
+    "control_runs": [
+      "SRR36851618"
+    ],
+    "sequenced_samples_per_group": 1,
+    "independent_reactor_replicates_per_group": null,
+    "design_evidence_level": "官方项目说明/样本别名；完整方法及生物重复待核",
+    "caveat": "阶段/时间和底物变化并存；两SBR进料不同，不作为同条件独立重复"
   }
 ]

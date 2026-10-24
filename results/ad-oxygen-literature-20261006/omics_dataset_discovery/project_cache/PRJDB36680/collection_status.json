@@ -1,0 +1,67 @@
+{
+  "accession": "PRJDB36680",
+  "checked_utc": "2026-10-24T14:30:11.937166+00:00",
+  "ena_run_count": 28,
+  "ncbi_sra_count": 28,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJDB36680&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:11.937380+00:00",
+    "raw_path": "raw/ENA/4050d78e1b4d3f74df5ca3a7f30c630abe4de14dcc452d0926c239b52133636b.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJDB36680&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 38133,
+    "sha256": "d4debb67960b287e4e496e0d41a2b464ff146ce0d76a1b2f05dc747bed7fcb40",
+    "finished_utc": "2026-10-24T14:30:12.207418+00:00",
+    "measured_wall_seconds": 0.27
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJDB36680&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:12.609111+00:00",
+    "raw_path": "raw/NCBI/8bf740dd6a17bda420105094ee92f9ccba306eb0382abe1b1428da98f442eb19.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJDB36680&retmode=json&retmax=200&retstart=0",
+    "bytes": 600,
+    "sha256": "1dacfd21e2a43daf184e826b693582577ff274fdcb05bb587a182c9bd27cf331",
+    "finished_utc": "2026-10-24T14:30:12.728697+00:00",
+    "measured_wall_seconds": 0.12
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJDB36680",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:13.655994+00:00",
+    "raw_path": "raw/ENA/ae4e352dd238c3c4ba5ca3114248d81d23ec130b9c551641475110f858adfbea.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJDB36680",
+    "bytes": 2146,
+    "sha256": "18477d7244ff6952e6251bffc7d1c03b5f999d8dd98fd10b35986088d6be68b9",
+    "finished_utc": "2026-10-24T14:30:14.108390+00:00",
+    "measured_wall_seconds": 0.452
+  },
+  "project_title": "wastewater sludge microbiome (PRJCA039809)",
+  "project_description": "wastewater sludge microbiome relation with microoxic",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJDB36680"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "DRP014737"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences",
+      "value": "PRJDB36680"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJDB36680&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJDB36680&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 28
+}

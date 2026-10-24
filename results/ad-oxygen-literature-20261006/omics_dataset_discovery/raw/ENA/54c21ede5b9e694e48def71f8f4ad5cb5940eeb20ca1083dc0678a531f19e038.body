@@ -1,0 +1,56 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA682552" alias="PRJNA682552" center_name="University of Tuebingen" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA682552</PRIMARY_ID>
+    <SECONDARY_ID>SRP295852</SECONDARY_ID>
+    <SUBMITTER_ID namespace="University of Tuebingen">PRJNA682552</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <TITLE>Multi-omics of the nitrate-reducing iron(II)-oxidizing culture KS</TITLE>
+  <DESCRIPTION>Nitrate-reducing iron(II)-oxidizing bacteria are widespread in the environment contribute to nitrate removal and influence the fate of the greenhouse gases nitrous oxide and carbon dioxide. The autotrophic growth of nitrate-reducing iron(II)-oxidizing bacteria is rarely investigated and poorly understood. The most prominent model system for this type of studies is enrichment culture KS, which originates from a freshwater sediment in Bremen, Germany. To gain insights in the metabolism of nitrate reduction coupled to iron(II) oxidation under in the absence of organic carbon and oxygen limited conditions, we performed metagenomic, metatranscriptomic and metaproteomic analyses of culture KS.&lt;/p>&lt;p>This dataset contains: (1) Raw sequencing data of 16S (V4 region, primers 515f and 806r) rRNA amplicon sequencing of the microbial community composition of the autotrophic NRFeOx enrichment culture KS. Illumina MiSeq sequencing (Illumina, San Diego, CA, USA) using PE 250 bp MiSeq Reagent Kit v2 (500 cycles kit) were performed at Microsynth AG (Balgach, Switzerland). (2) Raw sequencing data of shotgun metagenomics. For short reads, library was prepared with TruSeq DNA PCR-Free Kit (Illumina) and sequenced with PE 150 bp on a NovaSeq 6000 totalling 55 and 48 Gbp by CeGaT, Tuebingen, Germany. For long read sequencing, library preparation with ONT Native Ligation Kit was followed by sequencing with PromethION (Oxford Nanopore Technologies) flow cell (version 9.4.1) for 72h with standard settings (basecalling with HAC mode, bias voltage -180 mV) yielding 53 Gbp in 5 million reads by the NGS Competence Center Tuebingen (NCCT) of the University of Tuebingen, Germany. (3) Short and long reads were assembled with metaSPAdes v3.13.1 using https://github.com/nf-core/mag v1.0.0. (4) Raw sequencing data of shotgun metatranscriptomes (2 conditions, triplicates). Library preparation including bacterial ribodepletion (NuGen Universal Prokaryotic RNA-Seq kit incl. bacterial ribodepletion) and Illumina NextSeq v2.5 sequencing with PE 75 bp and 21 to 62 Mio clusters per sample were performed by Microsynth AG (Balgach, Switzerland).</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT>
+      <LOCUS_TAG_PREFIX>ACSTBY</LOCUS_TAG_PREFIX>
+    </SEQUENCING_PROJECT>
+  </SUBMISSION_PROJECT>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA682552&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA682552&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>682552</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-05-20</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2025-07-20</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1217127",
+  "checked_utc": "2026-10-24T14:29:58.185166+00:00",
+  "ena_run_count": 36,
+  "ncbi_sra_count": 36,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1217127&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:29:58.185267+00:00",
+    "raw_path": "raw/ENA/0e8680fb3fd239ceac7c9c2b4f14d5ac7e45842a89c61f06535776d04819e4dd.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1217127&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 48572,
+    "sha256": "9bdcd9d41df3244e6a88b6321f9cd77f1513b3fcad80df838b057c76af27ceab",
+    "finished_utc": "2026-10-24T14:29:59.669828+00:00",
+    "measured_wall_seconds": 1.485
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1217127&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:00.074251+00:00",
+    "raw_path": "raw/NCBI/204f04728d4866be437efca3422c9b4d6f75d439d3fcde93f5e5a6e8744a00f1.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1217127&retmode=json&retmax=200&retstart=0",
+    "bytes": 692,
+    "sha256": "d16916e3affe96b5025b2554ffed8608656c11f3a6ea806b86964a66dfbad2f5",
+    "finished_utc": "2026-10-24T14:30:00.330628+00:00",
+    "measured_wall_seconds": 0.256
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1217127",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:01.494218+00:00",
+    "raw_path": "raw/ENA/c44cc06d3a2577ca15b4ef849d12c6fa903bc3961aef36ebcf28a04fe7833bf0.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1217127",
+    "bytes": 2133,
+    "sha256": "adf9fc8a6a0557fd0b2c987553c66f527a4ff7feb18480feef5b95dd11a04cb0",
+    "finished_utc": "2026-10-24T14:30:01.985876+00:00",
+    "measured_wall_seconds": 0.492
+  },
+  "project_title": "Microaeration_anaerobic_co-digestion_microbial community",
+  "project_description": "This study evaluated the effect of ORP-based in-situ micro-aeration on the performance and stability of an Anaerobic co-digestion system compared to non-micro-aerated (anaerobic) conditions, using varying substrate ratios and organic loading rates (OLRs).",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1217127"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP560685"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "University of Southern California",
+      "value": "PRJNA1217127"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1217127&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1217127&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 36
+}

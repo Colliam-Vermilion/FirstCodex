@@ -1,0 +1,1528 @@
+[
+  {
+    "run_accession": "SRR36851609",
+    "experiment_accession": "SRX31824616",
+    "sample_accession": "SAMN54674787",
+    "secondary_sample_accession": "SRS27782262",
+    "sample_alias": "Without_ATU",
+    "sample_title": "",
+    "scientific_name": "activated sludge metagenome",
+    "tax_id": "942017",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-07-11T08:51:00Z",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Shanghai",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "31.26 N 121.53 E",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1403469",
+    "secondary_study_accession": "SRP662800",
+    "study_title": "16S rRNA gene sequencing, metagenomic analysis and transcriptomic analysis of Propioniciclava",
+    "study_description": "This study aimed to provide molecular biological evidence for microbial metabolic profiles of Propioniciclava. Two SBRs with the working volume of 3.0 L were operated. The cycle time was 6 h and the slow feeding stage was 90 min. Feeding stage was involved in 125 min anaerobic phase followed by 180 min aerobic phase. The total hydraulic retention time was 12 h and the sludge retention time was 10 d. The dissolved oxygen concentration (DO) was around 4 mg/L at the end of the aerobic phase. Two reactors were originally inoculated in a full-scale municipal wastewater treatment plant in Shanghai, China. The carbon source in the synthetic wastewater was 384 mg/L sodium acetate mixed with 50 mg/L glucose for SBR1, and 384 mg/L sodium acetate mixed with 30 mg/L glucose for SBR2. Phosphate concentrations in the feed of SBR1 and SBR2 were about 15 mgP/L and 10 mgP/L, respectively. Ammonia nitrogen concentrations in the feed of SBR1 and SBR2 were about 20 mgN/L and 35 mgN/L, respectively. Allyl-N thiourea was added with the concentration of 5 mg/L to inhibit nitrification. Samples for metagenomic analysis of SBR1 and SBR2 were collected at the end of the aerobic phases on day 138 and day 146, respectively.To explore the influence of dissolved oxygen (DO) on Propioniciclava accumulation, three SBRs were operated with different DO concentrations and they were originally inoculated in a full-scale municipal WWTP in Shanghai, China. DO concentrations during aerobic stages in three SBRs (DO2, DO3 and DO4) were automatically regulated by DO controllers and DO concentrations were around 2.0 mg/L, 3.0 mg/L and 4.0 mg/L, respectively. In other tests, unless otherwise specified, DO concentrations during aerobic stages were controlled in the range of 2.5-3.0 mg/L by DO controllers. Samples for 16S rRNA gene sequencing were collected for DO2, DO3 and DO4 at the end of the aerobic phases on day 40.To evaluate the influence of carbon source on Propioniciclava enrichment, three additional SBRs were operated. The chemical oxygen demand (COD) concentrations of the three reactors were consistent with that in SBR1. For SBR-C1, 449 mg/L sodium acetate was added to the feed as the carbon source while glucose was not added; for SBR-C2, 384 mg/L sodium acetate and 50.0 mg/L glucose were used as the carbon source; for SBR-C3, 327 mg/L glucose was added while acetate was not added. To assess the effect of ATU addition on Propioniciclava accumulation, an additional SBR was operated without ATU in the feed, and its performance was subsequently compared with that of SBR-C2. Other details of SBR operation were consistent with that of SBR1. Samples for 16S rRNA gene sequencing were collected for the reactors mentioned above at the end of the aerobic phases on day 60.Batch tests for SBR1 and SBR2 were operated on day 138 and day 146, respectively. At the end of the aerobic phase of SBR1, 1200 mL mixed liquor was collected. The mixed liquor was washed three times with deionized water and then it was divided into three equal portions (400 mL each). Three serum bottles with the volume of 500 mL were used for the batch test. Nitrogen gas was sparged into the glass jars to avoid oxygen intrusion. pH was maintained around 7.5 with 0.1 M NaOH and HCl. When sodium acetate, micro nutrients solution and NH4Cl were added to the bottles, the batch test began. The anaerobic phase lasted for 120 min and then oxygen gas was introduced to maintain aerobic condition for another 120 min. Samples for metatranscriptomic analysis were taken at 90 min (anaerobic) and 87 min (aerobic) in batch test for SBR1, and at 70 min (anaerobic) and 63 min (aerobic) in batch test for SBR2.",
+    "study_links": [],
+    "experiment_title": "sequences of bacteria",
+    "library_name": "Without_ATU",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "70203",
+    "base_count": "42262206",
+    "sra_run_bytes": "14339075",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR36851609.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR036/36851/SRR36851609/SRR36851609.lite.1",
+        "size": "10888540",
+        "date": "2026-01-15 12:20:24",
+        "md5": "fed4e3bd4134160e51154983295f3c22",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851609",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36851609/SRR36851609",
+        "size": "14341596",
+        "date": "2026-01-15 11:52:57",
+        "md5": "f31b0c2816c11522d5c6faa378713433",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "Without_ATU_R2.fastq.gz",
+        "size": "5495097",
+        "date": "2026-01-15 11:52:48",
+        "md5": "469e3ab998e3755846afe87255ecd242",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "Without_ATU_R1.fastq.gz",
+        "size": "4060468",
+        "date": "2026-01-15 11:52:47",
+        "md5": "4925b32b10c7c67f0539d976da4b23f4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2026-01-15 11:54:48",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36851610",
+    "experiment_accession": "SRX31824615",
+    "sample_accession": "SAMN54674786",
+    "secondary_sample_accession": "SRS27782261",
+    "sample_alias": "ATU",
+    "sample_title": "",
+    "scientific_name": "activated sludge metagenome",
+    "tax_id": "942017",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-07-11T08:50:00Z",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Shanghai",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "31.26 N 121.53 E",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1403469",
+    "secondary_study_accession": "SRP662800",
+    "study_title": "16S rRNA gene sequencing, metagenomic analysis and transcriptomic analysis of Propioniciclava",
+    "study_description": "This study aimed to provide molecular biological evidence for microbial metabolic profiles of Propioniciclava. Two SBRs with the working volume of 3.0 L were operated. The cycle time was 6 h and the slow feeding stage was 90 min. Feeding stage was involved in 125 min anaerobic phase followed by 180 min aerobic phase. The total hydraulic retention time was 12 h and the sludge retention time was 10 d. The dissolved oxygen concentration (DO) was around 4 mg/L at the end of the aerobic phase. Two reactors were originally inoculated in a full-scale municipal wastewater treatment plant in Shanghai, China. The carbon source in the synthetic wastewater was 384 mg/L sodium acetate mixed with 50 mg/L glucose for SBR1, and 384 mg/L sodium acetate mixed with 30 mg/L glucose for SBR2. Phosphate concentrations in the feed of SBR1 and SBR2 were about 15 mgP/L and 10 mgP/L, respectively. Ammonia nitrogen concentrations in the feed of SBR1 and SBR2 were about 20 mgN/L and 35 mgN/L, respectively. Allyl-N thiourea was added with the concentration of 5 mg/L to inhibit nitrification. Samples for metagenomic analysis of SBR1 and SBR2 were collected at the end of the aerobic phases on day 138 and day 146, respectively.To explore the influence of dissolved oxygen (DO) on Propioniciclava accumulation, three SBRs were operated with different DO concentrations and they were originally inoculated in a full-scale municipal WWTP in Shanghai, China. DO concentrations during aerobic stages in three SBRs (DO2, DO3 and DO4) were automatically regulated by DO controllers and DO concentrations were around 2.0 mg/L, 3.0 mg/L and 4.0 mg/L, respectively. In other tests, unless otherwise specified, DO concentrations during aerobic stages were controlled in the range of 2.5-3.0 mg/L by DO controllers. Samples for 16S rRNA gene sequencing were collected for DO2, DO3 and DO4 at the end of the aerobic phases on day 40.To evaluate the influence of carbon source on Propioniciclava enrichment, three additional SBRs were operated. The chemical oxygen demand (COD) concentrations of the three reactors were consistent with that in SBR1. For SBR-C1, 449 mg/L sodium acetate was added to the feed as the carbon source while glucose was not added; for SBR-C2, 384 mg/L sodium acetate and 50.0 mg/L glucose were used as the carbon source; for SBR-C3, 327 mg/L glucose was added while acetate was not added. To assess the effect of ATU addition on Propioniciclava accumulation, an additional SBR was operated without ATU in the feed, and its performance was subsequently compared with that of SBR-C2. Other details of SBR operation were consistent with that of SBR1. Samples for 16S rRNA gene sequencing were collected for the reactors mentioned above at the end of the aerobic phases on day 60.Batch tests for SBR1 and SBR2 were operated on day 138 and day 146, respectively. At the end of the aerobic phase of SBR1, 1200 mL mixed liquor was collected. The mixed liquor was washed three times with deionized water and then it was divided into three equal portions (400 mL each). Three serum bottles with the volume of 500 mL were used for the batch test. Nitrogen gas was sparged into the glass jars to avoid oxygen intrusion. pH was maintained around 7.5 with 0.1 M NaOH and HCl. When sodium acetate, micro nutrients solution and NH4Cl were added to the bottles, the batch test began. The anaerobic phase lasted for 120 min and then oxygen gas was introduced to maintain aerobic condition for another 120 min. Samples for metatranscriptomic analysis were taken at 90 min (anaerobic) and 87 min (aerobic) in batch test for SBR1, and at 70 min (anaerobic) and 63 min (aerobic) in batch test for SBR2.",
+    "study_links": [],
+    "experiment_title": "sequences of bacteria",
+    "library_name": "ATU",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "69555",
+    "base_count": "41872110",
+    "sra_run_bytes": "14456420",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "ATU_R1.fastq.gz",
+        "size": "3717879",
+        "date": "2026-01-15 11:52:48",
+        "md5": "aba538d22099eeb17a6b943889bdb16c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ATU_R2.fastq.gz",
+        "size": "5628644",
+        "date": "2026-01-15 11:52:49",
+        "md5": "b512fafad0647928b626838c3d40358e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851610",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36851610/SRR36851610",
+        "size": "14458932",
+        "date": "2026-01-15 11:52:58",
+        "md5": "a382ba65015d636f2ff100f519e82638",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851610.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR036/36851/SRR36851610/SRR36851610.lite.1",
+        "size": "10802556",
+        "date": "2026-01-15 12:20:24",
+        "md5": "19b59f93b7a688f5d6b79cf7ea28e7d4",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-01-15 11:54:48",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36851611",
+    "experiment_accession": "SRX31824614",
+    "sample_accession": "SAMN54674785",
+    "secondary_sample_accession": "SRS27782260",
+    "sample_alias": "SBR-C3",
+    "sample_title": "",
+    "scientific_name": "activated sludge metagenome",
+    "tax_id": "942017",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-09-23T08:52:00Z",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Shanghai",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "31.26 N 121.53 E",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1403469",
+    "secondary_study_accession": "SRP662800",
+    "study_title": "16S rRNA gene sequencing, metagenomic analysis and transcriptomic analysis of Propioniciclava",
+    "study_description": "This study aimed to provide molecular biological evidence for microbial metabolic profiles of Propioniciclava. Two SBRs with the working volume of 3.0 L were operated. The cycle time was 6 h and the slow feeding stage was 90 min. Feeding stage was involved in 125 min anaerobic phase followed by 180 min aerobic phase. The total hydraulic retention time was 12 h and the sludge retention time was 10 d. The dissolved oxygen concentration (DO) was around 4 mg/L at the end of the aerobic phase. Two reactors were originally inoculated in a full-scale municipal wastewater treatment plant in Shanghai, China. The carbon source in the synthetic wastewater was 384 mg/L sodium acetate mixed with 50 mg/L glucose for SBR1, and 384 mg/L sodium acetate mixed with 30 mg/L glucose for SBR2. Phosphate concentrations in the feed of SBR1 and SBR2 were about 15 mgP/L and 10 mgP/L, respectively. Ammonia nitrogen concentrations in the feed of SBR1 and SBR2 were about 20 mgN/L and 35 mgN/L, respectively. Allyl-N thiourea was added with the concentration of 5 mg/L to inhibit nitrification. Samples for metagenomic analysis of SBR1 and SBR2 were collected at the end of the aerobic phases on day 138 and day 146, respectively.To explore the influence of dissolved oxygen (DO) on Propioniciclava accumulation, three SBRs were operated with different DO concentrations and they were originally inoculated in a full-scale municipal WWTP in Shanghai, China. DO concentrations during aerobic stages in three SBRs (DO2, DO3 and DO4) were automatically regulated by DO controllers and DO concentrations were around 2.0 mg/L, 3.0 mg/L and 4.0 mg/L, respectively. In other tests, unless otherwise specified, DO concentrations during aerobic stages were controlled in the range of 2.5-3.0 mg/L by DO controllers. Samples for 16S rRNA gene sequencing were collected for DO2, DO3 and DO4 at the end of the aerobic phases on day 40.To evaluate the influence of carbon source on Propioniciclava enrichment, three additional SBRs were operated. The chemical oxygen demand (COD) concentrations of the three reactors were consistent with that in SBR1. For SBR-C1, 449 mg/L sodium acetate was added to the feed as the carbon source while glucose was not added; for SBR-C2, 384 mg/L sodium acetate and 50.0 mg/L glucose were used as the carbon source; for SBR-C3, 327 mg/L glucose was added while acetate was not added. To assess the effect of ATU addition on Propioniciclava accumulation, an additional SBR was operated without ATU in the feed, and its performance was subsequently compared with that of SBR-C2. Other details of SBR operation were consistent with that of SBR1. Samples for 16S rRNA gene sequencing were collected for the reactors mentioned above at the end of the aerobic phases on day 60.Batch tests for SBR1 and SBR2 were operated on day 138 and day 146, respectively. At the end of the aerobic phase of SBR1, 1200 mL mixed liquor was collected. The mixed liquor was washed three times with deionized water and then it was divided into three equal portions (400 mL each). Three serum bottles with the volume of 500 mL were used for the batch test. Nitrogen gas was sparged into the glass jars to avoid oxygen intrusion. pH was maintained around 7.5 with 0.1 M NaOH and HCl. When sodium acetate, micro nutrients solution and NH4Cl were added to the bottles, the batch test began. The anaerobic phase lasted for 120 min and then oxygen gas was introduced to maintain aerobic condition for another 120 min. Samples for metatranscriptomic analysis were taken at 90 min (anaerobic) and 87 min (aerobic) in batch test for SBR1, and at 70 min (anaerobic) and 63 min (aerobic) in batch test for SBR2.",
+    "study_links": [],
+    "experiment_title": "sequences of bacteria",
+    "library_name": "SBR-C3",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "62229",
+    "base_count": "37461858",
+    "sra_run_bytes": "12223212",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR36851611.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR036/36851/SRR36851611/SRR36851611.lite.1",
+        "size": "9647842",
+        "date": "2026-01-15 12:20:24",
+        "md5": "43d519d6eb3dd6a93d8095db2b48c3c8",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851611",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36851611/SRR36851611",
+        "size": "12225726",
+        "date": "2026-01-15 11:52:49",
+        "md5": "f96fde441a468ab0ce2e9eb364041c0b",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SBR-C3_R2.fastq.gz",
+        "size": "4019830",
+        "date": "2026-01-15 11:52:40",
+        "md5": "a96b5a8c3ed62a87e86aae4aee63e4b6",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SBR-C3_R1.fastq.gz",
+        "size": "3004464",
+        "date": "2026-01-15 11:52:41",
+        "md5": "0e5c541e1530f91b727a03efd6d7bdf0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2026-01-15 11:54:48",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36851612",
+    "experiment_accession": "SRX31824613",
+    "sample_accession": "SAMN54674784",
+    "secondary_sample_accession": "SRS27782259",
+    "sample_alias": "SBR-C2",
+    "sample_title": "",
+    "scientific_name": "activated sludge metagenome",
+    "tax_id": "942017",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-09-23T08:51:00Z",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Shanghai",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "31.26 N 121.53 E",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1403469",
+    "secondary_study_accession": "SRP662800",
+    "study_title": "16S rRNA gene sequencing, metagenomic analysis and transcriptomic analysis of Propioniciclava",
+    "study_description": "This study aimed to provide molecular biological evidence for microbial metabolic profiles of Propioniciclava. Two SBRs with the working volume of 3.0 L were operated. The cycle time was 6 h and the slow feeding stage was 90 min. Feeding stage was involved in 125 min anaerobic phase followed by 180 min aerobic phase. The total hydraulic retention time was 12 h and the sludge retention time was 10 d. The dissolved oxygen concentration (DO) was around 4 mg/L at the end of the aerobic phase. Two reactors were originally inoculated in a full-scale municipal wastewater treatment plant in Shanghai, China. The carbon source in the synthetic wastewater was 384 mg/L sodium acetate mixed with 50 mg/L glucose for SBR1, and 384 mg/L sodium acetate mixed with 30 mg/L glucose for SBR2. Phosphate concentrations in the feed of SBR1 and SBR2 were about 15 mgP/L and 10 mgP/L, respectively. Ammonia nitrogen concentrations in the feed of SBR1 and SBR2 were about 20 mgN/L and 35 mgN/L, respectively. Allyl-N thiourea was added with the concentration of 5 mg/L to inhibit nitrification. Samples for metagenomic analysis of SBR1 and SBR2 were collected at the end of the aerobic phases on day 138 and day 146, respectively.To explore the influence of dissolved oxygen (DO) on Propioniciclava accumulation, three SBRs were operated with different DO concentrations and they were originally inoculated in a full-scale municipal WWTP in Shanghai, China. DO concentrations during aerobic stages in three SBRs (DO2, DO3 and DO4) were automatically regulated by DO controllers and DO concentrations were around 2.0 mg/L, 3.0 mg/L and 4.0 mg/L, respectively. In other tests, unless otherwise specified, DO concentrations during aerobic stages were controlled in the range of 2.5-3.0 mg/L by DO controllers. Samples for 16S rRNA gene sequencing were collected for DO2, DO3 and DO4 at the end of the aerobic phases on day 40.To evaluate the influence of carbon source on Propioniciclava enrichment, three additional SBRs were operated. The chemical oxygen demand (COD) concentrations of the three reactors were consistent with that in SBR1. For SBR-C1, 449 mg/L sodium acetate was added to the feed as the carbon source while glucose was not added; for SBR-C2, 384 mg/L sodium acetate and 50.0 mg/L glucose were used as the carbon source; for SBR-C3, 327 mg/L glucose was added while acetate was not added. To assess the effect of ATU addition on Propioniciclava accumulation, an additional SBR was operated without ATU in the feed, and its performance was subsequently compared with that of SBR-C2. Other details of SBR operation were consistent with that of SBR1. Samples for 16S rRNA gene sequencing were collected for the reactors mentioned above at the end of the aerobic phases on day 60.Batch tests for SBR1 and SBR2 were operated on day 138 and day 146, respectively. At the end of the aerobic phase of SBR1, 1200 mL mixed liquor was collected. The mixed liquor was washed three times with deionized water and then it was divided into three equal portions (400 mL each). Three serum bottles with the volume of 500 mL were used for the batch test. Nitrogen gas was sparged into the glass jars to avoid oxygen intrusion. pH was maintained around 7.5 with 0.1 M NaOH and HCl. When sodium acetate, micro nutrients solution and NH4Cl were added to the bottles, the batch test began. The anaerobic phase lasted for 120 min and then oxygen gas was introduced to maintain aerobic condition for another 120 min. Samples for metatranscriptomic analysis were taken at 90 min (anaerobic) and 87 min (aerobic) in batch test for SBR1, and at 70 min (anaerobic) and 63 min (aerobic) in batch test for SBR2.",
+    "study_links": [],
+    "experiment_title": "sequences of bacteria",
+    "library_name": "SBR-C2",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "124893",
+    "base_count": "75185586",
+    "sra_run_bytes": "25202297",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SBR-C2_R1.fastq.gz",
+        "size": "7719519",
+        "date": "2026-01-15 11:53:00",
+        "md5": "22f0decccdcfca8f3ba1d163c7f87bab",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SBR-C2_R2.fastq.gz",
+        "size": "9832083",
+        "date": "2026-01-15 11:52:59",
+        "md5": "93f364009ce15bbc4bc0450daf9a5860",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851612",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36851612/SRR36851612",
+        "size": "25204812",
+        "date": "2026-01-15 11:53:09",
+        "md5": "b07e7979030caa35bc379a9b24dc568b",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851612.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR036/36851/SRR36851612/SRR36851612.lite.1",
+        "size": "19285576",
+        "date": "2026-01-15 12:20:24",
+        "md5": "a6d082a6c06314ac0b3b4e3b8f6492a3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-01-15 11:54:48",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36851613",
+    "experiment_accession": "SRX31824612",
+    "sample_accession": "SAMN54674783",
+    "secondary_sample_accession": "SRS27782258",
+    "sample_alias": "SBR-C1",
+    "sample_title": "",
+    "scientific_name": "activated sludge metagenome",
+    "tax_id": "942017",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-09-23T08:50:00Z",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Shanghai",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "31.26 N 121.53 E",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1403469",
+    "secondary_study_accession": "SRP662800",
+    "study_title": "16S rRNA gene sequencing, metagenomic analysis and transcriptomic analysis of Propioniciclava",
+    "study_description": "This study aimed to provide molecular biological evidence for microbial metabolic profiles of Propioniciclava. Two SBRs with the working volume of 3.0 L were operated. The cycle time was 6 h and the slow feeding stage was 90 min. Feeding stage was involved in 125 min anaerobic phase followed by 180 min aerobic phase. The total hydraulic retention time was 12 h and the sludge retention time was 10 d. The dissolved oxygen concentration (DO) was around 4 mg/L at the end of the aerobic phase. Two reactors were originally inoculated in a full-scale municipal wastewater treatment plant in Shanghai, China. The carbon source in the synthetic wastewater was 384 mg/L sodium acetate mixed with 50 mg/L glucose for SBR1, and 384 mg/L sodium acetate mixed with 30 mg/L glucose for SBR2. Phosphate concentrations in the feed of SBR1 and SBR2 were about 15 mgP/L and 10 mgP/L, respectively. Ammonia nitrogen concentrations in the feed of SBR1 and SBR2 were about 20 mgN/L and 35 mgN/L, respectively. Allyl-N thiourea was added with the concentration of 5 mg/L to inhibit nitrification. Samples for metagenomic analysis of SBR1 and SBR2 were collected at the end of the aerobic phases on day 138 and day 146, respectively.To explore the influence of dissolved oxygen (DO) on Propioniciclava accumulation, three SBRs were operated with different DO concentrations and they were originally inoculated in a full-scale municipal WWTP in Shanghai, China. DO concentrations during aerobic stages in three SBRs (DO2, DO3 and DO4) were automatically regulated by DO controllers and DO concentrations were around 2.0 mg/L, 3.0 mg/L and 4.0 mg/L, respectively. In other tests, unless otherwise specified, DO concentrations during aerobic stages were controlled in the range of 2.5-3.0 mg/L by DO controllers. Samples for 16S rRNA gene sequencing were collected for DO2, DO3 and DO4 at the end of the aerobic phases on day 40.To evaluate the influence of carbon source on Propioniciclava enrichment, three additional SBRs were operated. The chemical oxygen demand (COD) concentrations of the three reactors were consistent with that in SBR1. For SBR-C1, 449 mg/L sodium acetate was added to the feed as the carbon source while glucose was not added; for SBR-C2, 384 mg/L sodium acetate and 50.0 mg/L glucose were used as the carbon source; for SBR-C3, 327 mg/L glucose was added while acetate was not added. To assess the effect of ATU addition on Propioniciclava accumulation, an additional SBR was operated without ATU in the feed, and its performance was subsequently compared with that of SBR-C2. Other details of SBR operation were consistent with that of SBR1. Samples for 16S rRNA gene sequencing were collected for the reactors mentioned above at the end of the aerobic phases on day 60.Batch tests for SBR1 and SBR2 were operated on day 138 and day 146, respectively. At the end of the aerobic phase of SBR1, 1200 mL mixed liquor was collected. The mixed liquor was washed three times with deionized water and then it was divided into three equal portions (400 mL each). Three serum bottles with the volume of 500 mL were used for the batch test. Nitrogen gas was sparged into the glass jars to avoid oxygen intrusion. pH was maintained around 7.5 with 0.1 M NaOH and HCl. When sodium acetate, micro nutrients solution and NH4Cl were added to the bottles, the batch test began. The anaerobic phase lasted for 120 min and then oxygen gas was introduced to maintain aerobic condition for another 120 min. Samples for metatranscriptomic analysis were taken at 90 min (anaerobic) and 87 min (aerobic) in batch test for SBR1, and at 70 min (anaerobic) and 63 min (aerobic) in batch test for SBR2.",
+    "study_links": [],
+    "experiment_title": "sequences of bacteria",
+    "library_name": "SBR-C1",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "66028",
+    "base_count": "39748856",
+    "sra_run_bytes": "13457212",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR36851613.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR036/36851/SRR36851613/SRR36851613.lite.1",
+        "size": "10249829",
+        "date": "2026-01-15 12:20:24",
+        "md5": "634caf17e2bc05a645b7de2ce890887d",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851613",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36851613/SRR36851613",
+        "size": "13459729",
+        "date": "2026-01-15 11:52:48",
+        "md5": "0fcd6a179e00e9c43aae6f2347d17123",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SBR-C1_R2.fastq.gz",
+        "size": "5263136",
+        "date": "2026-01-15 11:52:38",
+        "md5": "fe463555e489744fa0664ab93117cb23",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SBR-C1_R1.fastq.gz",
+        "size": "4084121",
+        "date": "2026-01-15 11:52:39",
+        "md5": "b1b9a82ea72fc9f35b990d50e6875e54",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2026-01-15 11:54:48",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36851614",
+    "experiment_accession": "SRX31824611",
+    "sample_accession": "SAMN54674782",
+    "secondary_sample_accession": "SRS27782257",
+    "sample_alias": "DO4",
+    "sample_title": "",
+    "scientific_name": "activated sludge metagenome",
+    "tax_id": "942017",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-04-08T08:52:00Z",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Shanghai",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "31.26 N 121.53 E",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1403469",
+    "secondary_study_accession": "SRP662800",
+    "study_title": "16S rRNA gene sequencing, metagenomic analysis and transcriptomic analysis of Propioniciclava",
+    "study_description": "This study aimed to provide molecular biological evidence for microbial metabolic profiles of Propioniciclava. Two SBRs with the working volume of 3.0 L were operated. The cycle time was 6 h and the slow feeding stage was 90 min. Feeding stage was involved in 125 min anaerobic phase followed by 180 min aerobic phase. The total hydraulic retention time was 12 h and the sludge retention time was 10 d. The dissolved oxygen concentration (DO) was around 4 mg/L at the end of the aerobic phase. Two reactors were originally inoculated in a full-scale municipal wastewater treatment plant in Shanghai, China. The carbon source in the synthetic wastewater was 384 mg/L sodium acetate mixed with 50 mg/L glucose for SBR1, and 384 mg/L sodium acetate mixed with 30 mg/L glucose for SBR2. Phosphate concentrations in the feed of SBR1 and SBR2 were about 15 mgP/L and 10 mgP/L, respectively. Ammonia nitrogen concentrations in the feed of SBR1 and SBR2 were about 20 mgN/L and 35 mgN/L, respectively. Allyl-N thiourea was added with the concentration of 5 mg/L to inhibit nitrification. Samples for metagenomic analysis of SBR1 and SBR2 were collected at the end of the aerobic phases on day 138 and day 146, respectively.To explore the influence of dissolved oxygen (DO) on Propioniciclava accumulation, three SBRs were operated with different DO concentrations and they were originally inoculated in a full-scale municipal WWTP in Shanghai, China. DO concentrations during aerobic stages in three SBRs (DO2, DO3 and DO4) were automatically regulated by DO controllers and DO concentrations were around 2.0 mg/L, 3.0 mg/L and 4.0 mg/L, respectively. In other tests, unless otherwise specified, DO concentrations during aerobic stages were controlled in the range of 2.5-3.0 mg/L by DO controllers. Samples for 16S rRNA gene sequencing were collected for DO2, DO3 and DO4 at the end of the aerobic phases on day 40.To evaluate the influence of carbon source on Propioniciclava enrichment, three additional SBRs were operated. The chemical oxygen demand (COD) concentrations of the three reactors were consistent with that in SBR1. For SBR-C1, 449 mg/L sodium acetate was added to the feed as the carbon source while glucose was not added; for SBR-C2, 384 mg/L sodium acetate and 50.0 mg/L glucose were used as the carbon source; for SBR-C3, 327 mg/L glucose was added while acetate was not added. To assess the effect of ATU addition on Propioniciclava accumulation, an additional SBR was operated without ATU in the feed, and its performance was subsequently compared with that of SBR-C2. Other details of SBR operation were consistent with that of SBR1. Samples for 16S rRNA gene sequencing were collected for the reactors mentioned above at the end of the aerobic phases on day 60.Batch tests for SBR1 and SBR2 were operated on day 138 and day 146, respectively. At the end of the aerobic phase of SBR1, 1200 mL mixed liquor was collected. The mixed liquor was washed three times with deionized water and then it was divided into three equal portions (400 mL each). Three serum bottles with the volume of 500 mL were used for the batch test. Nitrogen gas was sparged into the glass jars to avoid oxygen intrusion. pH was maintained around 7.5 with 0.1 M NaOH and HCl. When sodium acetate, micro nutrients solution and NH4Cl were added to the bottles, the batch test began. The anaerobic phase lasted for 120 min and then oxygen gas was introduced to maintain aerobic condition for another 120 min. Samples for metatranscriptomic analysis were taken at 90 min (anaerobic) and 87 min (aerobic) in batch test for SBR1, and at 70 min (anaerobic) and 63 min (aerobic) in batch test for SBR2.",
+    "study_links": [],
+    "experiment_title": "sequences of bacteria",
+    "library_name": "DO4",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "68692",
+    "base_count": "41352584",
+    "sra_run_bytes": "13939206",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DO4_R1.fastq.gz",
+        "size": "3731813",
+        "date": "2026-01-15 11:52:47",
+        "md5": "2abce447a02644efd627c136970d4c69",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DO4_R2.fastq.gz",
+        "size": "5251107",
+        "date": "2026-01-15 11:52:46",
+        "md5": "4a5843f606a92f6c3f40f73e28de6b64",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851614",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36851614/SRR36851614",
+        "size": "13941129",
+        "date": "2026-01-15 11:52:56",
+        "md5": "4801d979a974d9f0fca8fc5e4926c199",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851614.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR036/36851/SRR36851614/SRR36851614.lite.1",
+        "size": "10568469",
+        "date": "2026-01-15 12:20:24",
+        "md5": "fc3781365de27ed2ef14d2bbb3b3d035",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-01-15 11:54:48",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36851615",
+    "experiment_accession": "SRX31824610",
+    "sample_accession": "SAMN54674781",
+    "secondary_sample_accession": "SRS27782256",
+    "sample_alias": "DO3",
+    "sample_title": "",
+    "scientific_name": "activated sludge metagenome",
+    "tax_id": "942017",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-04-08T08:51:00Z",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Shanghai",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "31.26 N 121.53 E",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1403469",
+    "secondary_study_accession": "SRP662800",
+    "study_title": "16S rRNA gene sequencing, metagenomic analysis and transcriptomic analysis of Propioniciclava",
+    "study_description": "This study aimed to provide molecular biological evidence for microbial metabolic profiles of Propioniciclava. Two SBRs with the working volume of 3.0 L were operated. The cycle time was 6 h and the slow feeding stage was 90 min. Feeding stage was involved in 125 min anaerobic phase followed by 180 min aerobic phase. The total hydraulic retention time was 12 h and the sludge retention time was 10 d. The dissolved oxygen concentration (DO) was around 4 mg/L at the end of the aerobic phase. Two reactors were originally inoculated in a full-scale municipal wastewater treatment plant in Shanghai, China. The carbon source in the synthetic wastewater was 384 mg/L sodium acetate mixed with 50 mg/L glucose for SBR1, and 384 mg/L sodium acetate mixed with 30 mg/L glucose for SBR2. Phosphate concentrations in the feed of SBR1 and SBR2 were about 15 mgP/L and 10 mgP/L, respectively. Ammonia nitrogen concentrations in the feed of SBR1 and SBR2 were about 20 mgN/L and 35 mgN/L, respectively. Allyl-N thiourea was added with the concentration of 5 mg/L to inhibit nitrification. Samples for metagenomic analysis of SBR1 and SBR2 were collected at the end of the aerobic phases on day 138 and day 146, respectively.To explore the influence of dissolved oxygen (DO) on Propioniciclava accumulation, three SBRs were operated with different DO concentrations and they were originally inoculated in a full-scale municipal WWTP in Shanghai, China. DO concentrations during aerobic stages in three SBRs (DO2, DO3 and DO4) were automatically regulated by DO controllers and DO concentrations were around 2.0 mg/L, 3.0 mg/L and 4.0 mg/L, respectively. In other tests, unless otherwise specified, DO concentrations during aerobic stages were controlled in the range of 2.5-3.0 mg/L by DO controllers. Samples for 16S rRNA gene sequencing were collected for DO2, DO3 and DO4 at the end of the aerobic phases on day 40.To evaluate the influence of carbon source on Propioniciclava enrichment, three additional SBRs were operated. The chemical oxygen demand (COD) concentrations of the three reactors were consistent with that in SBR1. For SBR-C1, 449 mg/L sodium acetate was added to the feed as the carbon source while glucose was not added; for SBR-C2, 384 mg/L sodium acetate and 50.0 mg/L glucose were used as the carbon source; for SBR-C3, 327 mg/L glucose was added while acetate was not added. To assess the effect of ATU addition on Propioniciclava accumulation, an additional SBR was operated without ATU in the feed, and its performance was subsequently compared with that of SBR-C2. Other details of SBR operation were consistent with that of SBR1. Samples for 16S rRNA gene sequencing were collected for the reactors mentioned above at the end of the aerobic phases on day 60.Batch tests for SBR1 and SBR2 were operated on day 138 and day 146, respectively. At the end of the aerobic phase of SBR1, 1200 mL mixed liquor was collected. The mixed liquor was washed three times with deionized water and then it was divided into three equal portions (400 mL each). Three serum bottles with the volume of 500 mL were used for the batch test. Nitrogen gas was sparged into the glass jars to avoid oxygen intrusion. pH was maintained around 7.5 with 0.1 M NaOH and HCl. When sodium acetate, micro nutrients solution and NH4Cl were added to the bottles, the batch test began. The anaerobic phase lasted for 120 min and then oxygen gas was introduced to maintain aerobic condition for another 120 min. Samples for metatranscriptomic analysis were taken at 90 min (anaerobic) and 87 min (aerobic) in batch test for SBR1, and at 70 min (anaerobic) and 63 min (aerobic) in batch test for SBR2.",
+    "study_links": [],
+    "experiment_title": "sequences of bacteria",
+    "library_name": "DO3",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "68636",
+    "base_count": "41318872",
+    "sra_run_bytes": "13859630",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DO3_R1.fastq.gz",
+        "size": "3804885",
+        "date": "2026-01-15 11:52:42",
+        "md5": "db939d5c31b1e65de215be7494740cee",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DO3_R2.fastq.gz",
+        "size": "5312502",
+        "date": "2026-01-15 11:52:41",
+        "md5": "3e1109a5759232d15d458e8571e7b2d0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851615",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36851615/SRR36851615",
+        "size": "13861552",
+        "date": "2026-01-15 11:52:51",
+        "md5": "b309917ccbcb6249c1b64cc4f7c614a7",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851615.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR036/36851/SRR36851615/SRR36851615.lite.1",
+        "size": "10562836",
+        "date": "2026-01-15 12:20:24",
+        "md5": "5ff847d45a0b2e71d0038f94e0f6c6e6",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-01-15 11:54:48",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36851616",
+    "experiment_accession": "SRX31824609",
+    "sample_accession": "SAMN54674780",
+    "secondary_sample_accession": "SRS27782255",
+    "sample_alias": "DO2",
+    "sample_title": "",
+    "scientific_name": "activated sludge metagenome",
+    "tax_id": "942017",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-04-08T08:50:00Z",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Shanghai",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "31.26 N 121.53 E",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1403469",
+    "secondary_study_accession": "SRP662800",
+    "study_title": "16S rRNA gene sequencing, metagenomic analysis and transcriptomic analysis of Propioniciclava",
+    "study_description": "This study aimed to provide molecular biological evidence for microbial metabolic profiles of Propioniciclava. Two SBRs with the working volume of 3.0 L were operated. The cycle time was 6 h and the slow feeding stage was 90 min. Feeding stage was involved in 125 min anaerobic phase followed by 180 min aerobic phase. The total hydraulic retention time was 12 h and the sludge retention time was 10 d. The dissolved oxygen concentration (DO) was around 4 mg/L at the end of the aerobic phase. Two reactors were originally inoculated in a full-scale municipal wastewater treatment plant in Shanghai, China. The carbon source in the synthetic wastewater was 384 mg/L sodium acetate mixed with 50 mg/L glucose for SBR1, and 384 mg/L sodium acetate mixed with 30 mg/L glucose for SBR2. Phosphate concentrations in the feed of SBR1 and SBR2 were about 15 mgP/L and 10 mgP/L, respectively. Ammonia nitrogen concentrations in the feed of SBR1 and SBR2 were about 20 mgN/L and 35 mgN/L, respectively. Allyl-N thiourea was added with the concentration of 5 mg/L to inhibit nitrification. Samples for metagenomic analysis of SBR1 and SBR2 were collected at the end of the aerobic phases on day 138 and day 146, respectively.To explore the influence of dissolved oxygen (DO) on Propioniciclava accumulation, three SBRs were operated with different DO concentrations and they were originally inoculated in a full-scale municipal WWTP in Shanghai, China. DO concentrations during aerobic stages in three SBRs (DO2, DO3 and DO4) were automatically regulated by DO controllers and DO concentrations were around 2.0 mg/L, 3.0 mg/L and 4.0 mg/L, respectively. In other tests, unless otherwise specified, DO concentrations during aerobic stages were controlled in the range of 2.5-3.0 mg/L by DO controllers. Samples for 16S rRNA gene sequencing were collected for DO2, DO3 and DO4 at the end of the aerobic phases on day 40.To evaluate the influence of carbon source on Propioniciclava enrichment, three additional SBRs were operated. The chemical oxygen demand (COD) concentrations of the three reactors were consistent with that in SBR1. For SBR-C1, 449 mg/L sodium acetate was added to the feed as the carbon source while glucose was not added; for SBR-C2, 384 mg/L sodium acetate and 50.0 mg/L glucose were used as the carbon source; for SBR-C3, 327 mg/L glucose was added while acetate was not added. To assess the effect of ATU addition on Propioniciclava accumulation, an additional SBR was operated without ATU in the feed, and its performance was subsequently compared with that of SBR-C2. Other details of SBR operation were consistent with that of SBR1. Samples for 16S rRNA gene sequencing were collected for the reactors mentioned above at the end of the aerobic phases on day 60.Batch tests for SBR1 and SBR2 were operated on day 138 and day 146, respectively. At the end of the aerobic phase of SBR1, 1200 mL mixed liquor was collected. The mixed liquor was washed three times with deionized water and then it was divided into three equal portions (400 mL each). Three serum bottles with the volume of 500 mL were used for the batch test. Nitrogen gas was sparged into the glass jars to avoid oxygen intrusion. pH was maintained around 7.5 with 0.1 M NaOH and HCl. When sodium acetate, micro nutrients solution and NH4Cl were added to the bottles, the batch test began. The anaerobic phase lasted for 120 min and then oxygen gas was introduced to maintain aerobic condition for another 120 min. Samples for metatranscriptomic analysis were taken at 90 min (anaerobic) and 87 min (aerobic) in batch test for SBR1, and at 70 min (anaerobic) and 63 min (aerobic) in batch test for SBR2.",
+    "study_links": [],
+    "experiment_title": "sequences of bacteria",
+    "library_name": "DO2",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "71103",
+    "base_count": "42804006",
+    "sra_run_bytes": "14364899",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DO2_R1.fastq.gz",
+        "size": "4126201",
+        "date": "2026-01-15 11:52:40",
+        "md5": "97cef0702705b42c00a5ac2c8d660e7b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DO2_R2.fastq.gz",
+        "size": "5573318",
+        "date": "2026-01-15 11:52:39",
+        "md5": "d846f0f4e43cb2e459ce89c85386967e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851616",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36851616/SRR36851616",
+        "size": "14366825",
+        "date": "2026-01-15 11:52:48",
+        "md5": "b56bb405f4617f0a9d85acd1dc2c2ff0",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851616.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR036/36851/SRR36851616/SRR36851616.lite.1",
+        "size": "10939225",
+        "date": "2026-01-15 12:20:24",
+        "md5": "406d6efab7ece0633f7c4a98b1f72ed2",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-01-15 11:54:47",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36851617",
+    "experiment_accession": "SRX31824608",
+    "sample_accession": "SAMN54674791",
+    "secondary_sample_accession": "SRS27782254",
+    "sample_alias": "SBR2_AE",
+    "sample_title": "",
+    "scientific_name": "activated sludge metagenome",
+    "tax_id": "942017",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-05-08T15:50:00Z",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Shanghai",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "31.26 N 121.53 E",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1403469",
+    "secondary_study_accession": "SRP662800",
+    "study_title": "16S rRNA gene sequencing, metagenomic analysis and transcriptomic analysis of Propioniciclava",
+    "study_description": "This study aimed to provide molecular biological evidence for microbial metabolic profiles of Propioniciclava. Two SBRs with the working volume of 3.0 L were operated. The cycle time was 6 h and the slow feeding stage was 90 min. Feeding stage was involved in 125 min anaerobic phase followed by 180 min aerobic phase. The total hydraulic retention time was 12 h and the sludge retention time was 10 d. The dissolved oxygen concentration (DO) was around 4 mg/L at the end of the aerobic phase. Two reactors were originally inoculated in a full-scale municipal wastewater treatment plant in Shanghai, China. The carbon source in the synthetic wastewater was 384 mg/L sodium acetate mixed with 50 mg/L glucose for SBR1, and 384 mg/L sodium acetate mixed with 30 mg/L glucose for SBR2. Phosphate concentrations in the feed of SBR1 and SBR2 were about 15 mgP/L and 10 mgP/L, respectively. Ammonia nitrogen concentrations in the feed of SBR1 and SBR2 were about 20 mgN/L and 35 mgN/L, respectively. Allyl-N thiourea was added with the concentration of 5 mg/L to inhibit nitrification. Samples for metagenomic analysis of SBR1 and SBR2 were collected at the end of the aerobic phases on day 138 and day 146, respectively.To explore the influence of dissolved oxygen (DO) on Propioniciclava accumulation, three SBRs were operated with different DO concentrations and they were originally inoculated in a full-scale municipal WWTP in Shanghai, China. DO concentrations during aerobic stages in three SBRs (DO2, DO3 and DO4) were automatically regulated by DO controllers and DO concentrations were around 2.0 mg/L, 3.0 mg/L and 4.0 mg/L, respectively. In other tests, unless otherwise specified, DO concentrations during aerobic stages were controlled in the range of 2.5-3.0 mg/L by DO controllers. Samples for 16S rRNA gene sequencing were collected for DO2, DO3 and DO4 at the end of the aerobic phases on day 40.To evaluate the influence of carbon source on Propioniciclava enrichment, three additional SBRs were operated. The chemical oxygen demand (COD) concentrations of the three reactors were consistent with that in SBR1. For SBR-C1, 449 mg/L sodium acetate was added to the feed as the carbon source while glucose was not added; for SBR-C2, 384 mg/L sodium acetate and 50.0 mg/L glucose were used as the carbon source; for SBR-C3, 327 mg/L glucose was added while acetate was not added. To assess the effect of ATU addition on Propioniciclava accumulation, an additional SBR was operated without ATU in the feed, and its performance was subsequently compared with that of SBR-C2. Other details of SBR operation were consistent with that of SBR1. Samples for 16S rRNA gene sequencing were collected for the reactors mentioned above at the end of the aerobic phases on day 60.Batch tests for SBR1 and SBR2 were operated on day 138 and day 146, respectively. At the end of the aerobic phase of SBR1, 1200 mL mixed liquor was collected. The mixed liquor was washed three times with deionized water and then it was divided into three equal portions (400 mL each). Three serum bottles with the volume of 500 mL were used for the batch test. Nitrogen gas was sparged into the glass jars to avoid oxygen intrusion. pH was maintained around 7.5 with 0.1 M NaOH and HCl. When sodium acetate, micro nutrients solution and NH4Cl were added to the bottles, the batch test began. The anaerobic phase lasted for 120 min and then oxygen gas was introduced to maintain aerobic condition for another 120 min. Samples for metatranscriptomic analysis were taken at 90 min (anaerobic) and 87 min (aerobic) in batch test for SBR1, and at 70 min (anaerobic) and 63 min (aerobic) in batch test for SBR2.",
+    "study_links": [],
+    "experiment_title": "sequences of bacteria",
+    "library_name": "SBR2_AE",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "RT-PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 3000",
+    "read_count": "50008576",
+    "base_count": "15002572800",
+    "sra_run_bytes": "4726551679",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR36851617.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR036/36851/SRR36851617/SRR36851617.lite.1",
+        "size": "3824202766",
+        "date": "2026-01-15 12:20:42",
+        "md5": "f1ce49c04563e02c6c7bb01ec1f0ebd3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851617",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36851617/SRR36851617",
+        "size": "4726553902",
+        "date": "2026-01-15 11:57:57",
+        "md5": "68807b3ab697850b4bfd09471cd19786",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SBR2_AE_R2.fastq.gz",
+        "size": "4151698384",
+        "date": "2026-01-15 11:57:27",
+        "md5": "cbff580e328a46f5ba70fc45878136bd",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SBR2_AE_R1.fastq.gz",
+        "size": "4237635590",
+        "date": "2026-01-15 11:57:34",
+        "md5": "e76d4cebdce183ff09ee9325f7b32708",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2026-01-15 12:01:53",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36851618",
+    "experiment_accession": "SRX31824607",
+    "sample_accession": "SAMN54674790",
+    "secondary_sample_accession": "SRS27782253",
+    "sample_alias": "SBR2_AN",
+    "sample_title": "",
+    "scientific_name": "activated sludge metagenome",
+    "tax_id": "942017",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-05-08T13:50:00Z",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Shanghai",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "31.26 N 121.53 E",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1403469",
+    "secondary_study_accession": "SRP662800",
+    "study_title": "16S rRNA gene sequencing, metagenomic analysis and transcriptomic analysis of Propioniciclava",
+    "study_description": "This study aimed to provide molecular biological evidence for microbial metabolic profiles of Propioniciclava. Two SBRs with the working volume of 3.0 L were operated. The cycle time was 6 h and the slow feeding stage was 90 min. Feeding stage was involved in 125 min anaerobic phase followed by 180 min aerobic phase. The total hydraulic retention time was 12 h and the sludge retention time was 10 d. The dissolved oxygen concentration (DO) was around 4 mg/L at the end of the aerobic phase. Two reactors were originally inoculated in a full-scale municipal wastewater treatment plant in Shanghai, China. The carbon source in the synthetic wastewater was 384 mg/L sodium acetate mixed with 50 mg/L glucose for SBR1, and 384 mg/L sodium acetate mixed with 30 mg/L glucose for SBR2. Phosphate concentrations in the feed of SBR1 and SBR2 were about 15 mgP/L and 10 mgP/L, respectively. Ammonia nitrogen concentrations in the feed of SBR1 and SBR2 were about 20 mgN/L and 35 mgN/L, respectively. Allyl-N thiourea was added with the concentration of 5 mg/L to inhibit nitrification. Samples for metagenomic analysis of SBR1 and SBR2 were collected at the end of the aerobic phases on day 138 and day 146, respectively.To explore the influence of dissolved oxygen (DO) on Propioniciclava accumulation, three SBRs were operated with different DO concentrations and they were originally inoculated in a full-scale municipal WWTP in Shanghai, China. DO concentrations during aerobic stages in three SBRs (DO2, DO3 and DO4) were automatically regulated by DO controllers and DO concentrations were around 2.0 mg/L, 3.0 mg/L and 4.0 mg/L, respectively. In other tests, unless otherwise specified, DO concentrations during aerobic stages were controlled in the range of 2.5-3.0 mg/L by DO controllers. Samples for 16S rRNA gene sequencing were collected for DO2, DO3 and DO4 at the end of the aerobic phases on day 40.To evaluate the influence of carbon source on Propioniciclava enrichment, three additional SBRs were operated. The chemical oxygen demand (COD) concentrations of the three reactors were consistent with that in SBR1. For SBR-C1, 449 mg/L sodium acetate was added to the feed as the carbon source while glucose was not added; for SBR-C2, 384 mg/L sodium acetate and 50.0 mg/L glucose were used as the carbon source; for SBR-C3, 327 mg/L glucose was added while acetate was not added. To assess the effect of ATU addition on Propioniciclava accumulation, an additional SBR was operated without ATU in the feed, and its performance was subsequently compared with that of SBR-C2. Other details of SBR operation were consistent with that of SBR1. Samples for 16S rRNA gene sequencing were collected for the reactors mentioned above at the end of the aerobic phases on day 60.Batch tests for SBR1 and SBR2 were operated on day 138 and day 146, respectively. At the end of the aerobic phase of SBR1, 1200 mL mixed liquor was collected. The mixed liquor was washed three times with deionized water and then it was divided into three equal portions (400 mL each). Three serum bottles with the volume of 500 mL were used for the batch test. Nitrogen gas was sparged into the glass jars to avoid oxygen intrusion. pH was maintained around 7.5 with 0.1 M NaOH and HCl. When sodium acetate, micro nutrients solution and NH4Cl were added to the bottles, the batch test began. The anaerobic phase lasted for 120 min and then oxygen gas was introduced to maintain aerobic condition for another 120 min. Samples for metatranscriptomic analysis were taken at 90 min (anaerobic) and 87 min (aerobic) in batch test for SBR1, and at 70 min (anaerobic) and 63 min (aerobic) in batch test for SBR2.",
+    "study_links": [],
+    "experiment_title": "sequences of bacteria",
+    "library_name": "SBR2_AN",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "RT-PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 3000",
+    "read_count": "55664032",
+    "base_count": "16699209600",
+    "sra_run_bytes": "5303534513",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SBR2_AN_R1.fastq.gz",
+        "size": "4729440297",
+        "date": "2026-01-15 12:00:26",
+        "md5": "03fb79ced599fa12032e261423a9d6e5",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SBR2_AN_R2.fastq.gz",
+        "size": "4656159598",
+        "date": "2026-01-15 12:00:34",
+        "md5": "8a56637db6cf91b5c0249a2fe0b7ac9f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851618",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36851618/SRR36851618",
+        "size": "5303536737",
+        "date": "2026-01-15 12:01:04",
+        "md5": "d1542d1014a2f16f555d9dccdd3d5bd2",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851618.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR036/36851/SRR36851618/SRR36851618.lite.1",
+        "size": "4256069761",
+        "date": "2026-01-15 12:20:47",
+        "md5": "557f191ce9239b8ed20dd46facd8428c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-01-15 12:04:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36851619",
+    "experiment_accession": "SRX31824606",
+    "sample_accession": "SAMN54674789",
+    "secondary_sample_accession": "SRS27782252",
+    "sample_alias": "SBR1_AE",
+    "sample_title": "",
+    "scientific_name": "activated sludge metagenome",
+    "tax_id": "942017",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-04-30T15:50:00Z",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Shanghai",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "31.26 N 121.53 E",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1403469",
+    "secondary_study_accession": "SRP662800",
+    "study_title": "16S rRNA gene sequencing, metagenomic analysis and transcriptomic analysis of Propioniciclava",
+    "study_description": "This study aimed to provide molecular biological evidence for microbial metabolic profiles of Propioniciclava. Two SBRs with the working volume of 3.0 L were operated. The cycle time was 6 h and the slow feeding stage was 90 min. Feeding stage was involved in 125 min anaerobic phase followed by 180 min aerobic phase. The total hydraulic retention time was 12 h and the sludge retention time was 10 d. The dissolved oxygen concentration (DO) was around 4 mg/L at the end of the aerobic phase. Two reactors were originally inoculated in a full-scale municipal wastewater treatment plant in Shanghai, China. The carbon source in the synthetic wastewater was 384 mg/L sodium acetate mixed with 50 mg/L glucose for SBR1, and 384 mg/L sodium acetate mixed with 30 mg/L glucose for SBR2. Phosphate concentrations in the feed of SBR1 and SBR2 were about 15 mgP/L and 10 mgP/L, respectively. Ammonia nitrogen concentrations in the feed of SBR1 and SBR2 were about 20 mgN/L and 35 mgN/L, respectively. Allyl-N thiourea was added with the concentration of 5 mg/L to inhibit nitrification. Samples for metagenomic analysis of SBR1 and SBR2 were collected at the end of the aerobic phases on day 138 and day 146, respectively.To explore the influence of dissolved oxygen (DO) on Propioniciclava accumulation, three SBRs were operated with different DO concentrations and they were originally inoculated in a full-scale municipal WWTP in Shanghai, China. DO concentrations during aerobic stages in three SBRs (DO2, DO3 and DO4) were automatically regulated by DO controllers and DO concentrations were around 2.0 mg/L, 3.0 mg/L and 4.0 mg/L, respectively. In other tests, unless otherwise specified, DO concentrations during aerobic stages were controlled in the range of 2.5-3.0 mg/L by DO controllers. Samples for 16S rRNA gene sequencing were collected for DO2, DO3 and DO4 at the end of the aerobic phases on day 40.To evaluate the influence of carbon source on Propioniciclava enrichment, three additional SBRs were operated. The chemical oxygen demand (COD) concentrations of the three reactors were consistent with that in SBR1. For SBR-C1, 449 mg/L sodium acetate was added to the feed as the carbon source while glucose was not added; for SBR-C2, 384 mg/L sodium acetate and 50.0 mg/L glucose were used as the carbon source; for SBR-C3, 327 mg/L glucose was added while acetate was not added. To assess the effect of ATU addition on Propioniciclava accumulation, an additional SBR was operated without ATU in the feed, and its performance was subsequently compared with that of SBR-C2. Other details of SBR operation were consistent with that of SBR1. Samples for 16S rRNA gene sequencing were collected for the reactors mentioned above at the end of the aerobic phases on day 60.Batch tests for SBR1 and SBR2 were operated on day 138 and day 146, respectively. At the end of the aerobic phase of SBR1, 1200 mL mixed liquor was collected. The mixed liquor was washed three times with deionized water and then it was divided into three equal portions (400 mL each). Three serum bottles with the volume of 500 mL were used for the batch test. Nitrogen gas was sparged into the glass jars to avoid oxygen intrusion. pH was maintained around 7.5 with 0.1 M NaOH and HCl. When sodium acetate, micro nutrients solution and NH4Cl were added to the bottles, the batch test began. The anaerobic phase lasted for 120 min and then oxygen gas was introduced to maintain aerobic condition for another 120 min. Samples for metatranscriptomic analysis were taken at 90 min (anaerobic) and 87 min (aerobic) in batch test for SBR1, and at 70 min (anaerobic) and 63 min (aerobic) in batch test for SBR2.",
+    "study_links": [],
+    "experiment_title": "sequences of bacteria",
+    "library_name": "SBR1_AE",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "RT-PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 3000",
+    "read_count": "53816385",
+    "base_count": "16144915500",
+    "sra_run_bytes": "5132013283",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR36851619.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR036/36851/SRR36851619/SRR36851619.lite.1",
+        "size": "4114638404",
+        "date": "2026-01-15 12:20:57",
+        "md5": "ec5a188eec63d449f9661b9d4a82a0fc",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851619",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36851619/SRR36851619",
+        "size": "5132015508",
+        "date": "2026-01-15 11:59:50",
+        "md5": "e879730182903fd400615ab5469a0e9a",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SBR1_AE_R2.fastq.gz",
+        "size": "4499894277",
+        "date": "2026-01-15 11:59:23",
+        "md5": "825490ee3279abc4cb23d563c608ed51",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SBR1_AE_R1.fastq.gz",
+        "size": "4550289855",
+        "date": "2026-01-15 11:59:16",
+        "md5": "91f76c6ee186f4cd5a30784cf41951c8",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2026-01-15 12:04:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36851620",
+    "experiment_accession": "SRX31824605",
+    "sample_accession": "SAMN54674788",
+    "secondary_sample_accession": "SRS27782251",
+    "sample_alias": "SBR1_AN",
+    "sample_title": "",
+    "scientific_name": "activated sludge metagenome",
+    "tax_id": "942017",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-04-30T13:50:00Z",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Shanghai",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "31.26 N 121.53 E",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1403469",
+    "secondary_study_accession": "SRP662800",
+    "study_title": "16S rRNA gene sequencing, metagenomic analysis and transcriptomic analysis of Propioniciclava",
+    "study_description": "This study aimed to provide molecular biological evidence for microbial metabolic profiles of Propioniciclava. Two SBRs with the working volume of 3.0 L were operated. The cycle time was 6 h and the slow feeding stage was 90 min. Feeding stage was involved in 125 min anaerobic phase followed by 180 min aerobic phase. The total hydraulic retention time was 12 h and the sludge retention time was 10 d. The dissolved oxygen concentration (DO) was around 4 mg/L at the end of the aerobic phase. Two reactors were originally inoculated in a full-scale municipal wastewater treatment plant in Shanghai, China. The carbon source in the synthetic wastewater was 384 mg/L sodium acetate mixed with 50 mg/L glucose for SBR1, and 384 mg/L sodium acetate mixed with 30 mg/L glucose for SBR2. Phosphate concentrations in the feed of SBR1 and SBR2 were about 15 mgP/L and 10 mgP/L, respectively. Ammonia nitrogen concentrations in the feed of SBR1 and SBR2 were about 20 mgN/L and 35 mgN/L, respectively. Allyl-N thiourea was added with the concentration of 5 mg/L to inhibit nitrification. Samples for metagenomic analysis of SBR1 and SBR2 were collected at the end of the aerobic phases on day 138 and day 146, respectively.To explore the influence of dissolved oxygen (DO) on Propioniciclava accumulation, three SBRs were operated with different DO concentrations and they were originally inoculated in a full-scale municipal WWTP in Shanghai, China. DO concentrations during aerobic stages in three SBRs (DO2, DO3 and DO4) were automatically regulated by DO controllers and DO concentrations were around 2.0 mg/L, 3.0 mg/L and 4.0 mg/L, respectively. In other tests, unless otherwise specified, DO concentrations during aerobic stages were controlled in the range of 2.5-3.0 mg/L by DO controllers. Samples for 16S rRNA gene sequencing were collected for DO2, DO3 and DO4 at the end of the aerobic phases on day 40.To evaluate the influence of carbon source on Propioniciclava enrichment, three additional SBRs were operated. The chemical oxygen demand (COD) concentrations of the three reactors were consistent with that in SBR1. For SBR-C1, 449 mg/L sodium acetate was added to the feed as the carbon source while glucose was not added; for SBR-C2, 384 mg/L sodium acetate and 50.0 mg/L glucose were used as the carbon source; for SBR-C3, 327 mg/L glucose was added while acetate was not added. To assess the effect of ATU addition on Propioniciclava accumulation, an additional SBR was operated without ATU in the feed, and its performance was subsequently compared with that of SBR-C2. Other details of SBR operation were consistent with that of SBR1. Samples for 16S rRNA gene sequencing were collected for the reactors mentioned above at the end of the aerobic phases on day 60.Batch tests for SBR1 and SBR2 were operated on day 138 and day 146, respectively. At the end of the aerobic phase of SBR1, 1200 mL mixed liquor was collected. The mixed liquor was washed three times with deionized water and then it was divided into three equal portions (400 mL each). Three serum bottles with the volume of 500 mL were used for the batch test. Nitrogen gas was sparged into the glass jars to avoid oxygen intrusion. pH was maintained around 7.5 with 0.1 M NaOH and HCl. When sodium acetate, micro nutrients solution and NH4Cl were added to the bottles, the batch test began. The anaerobic phase lasted for 120 min and then oxygen gas was introduced to maintain aerobic condition for another 120 min. Samples for metatranscriptomic analysis were taken at 90 min (anaerobic) and 87 min (aerobic) in batch test for SBR1, and at 70 min (anaerobic) and 63 min (aerobic) in batch test for SBR2.",
+    "study_links": [],
+    "experiment_title": "sequences of bacteria",
+    "library_name": "SBR1_AN",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "RT-PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 3000",
+    "read_count": "44614795",
+    "base_count": "13384438500",
+    "sra_run_bytes": "4216814626",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR36851620.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR036/36851/SRR36851620/SRR36851620.lite.1",
+        "size": "3413624481",
+        "date": "2026-01-15 12:20:43",
+        "md5": "4b9169da17287ff41ee79ab5841f5245",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851620",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36851620/SRR36851620",
+        "size": "4216816845",
+        "date": "2026-01-15 11:58:39",
+        "md5": "39343e7d3e8169999efe91a3c389186b",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SBR1_AN_R2.fastq.gz",
+        "size": "3694320052",
+        "date": "2026-01-15 11:58:13",
+        "md5": "d9a03eb28c1b6fa83943a57f3281237e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SBR1_AN_R1.fastq.gz",
+        "size": "3700522482",
+        "date": "2026-01-15 11:58:21",
+        "md5": "4e3901a13edfd1d0c10ff11661616d5a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2026-01-15 12:01:53",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36851621",
+    "experiment_accession": "SRX31824604",
+    "sample_accession": "SAMN54674779",
+    "secondary_sample_accession": "SRS27782250",
+    "sample_alias": "SBR2",
+    "sample_title": "",
+    "scientific_name": "activated sludge metagenome",
+    "tax_id": "942017",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-05-08T08:55:00Z",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Shanghai",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "31.26 N 121.53 E",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1403469",
+    "secondary_study_accession": "SRP662800",
+    "study_title": "16S rRNA gene sequencing, metagenomic analysis and transcriptomic analysis of Propioniciclava",
+    "study_description": "This study aimed to provide molecular biological evidence for microbial metabolic profiles of Propioniciclava. Two SBRs with the working volume of 3.0 L were operated. The cycle time was 6 h and the slow feeding stage was 90 min. Feeding stage was involved in 125 min anaerobic phase followed by 180 min aerobic phase. The total hydraulic retention time was 12 h and the sludge retention time was 10 d. The dissolved oxygen concentration (DO) was around 4 mg/L at the end of the aerobic phase. Two reactors were originally inoculated in a full-scale municipal wastewater treatment plant in Shanghai, China. The carbon source in the synthetic wastewater was 384 mg/L sodium acetate mixed with 50 mg/L glucose for SBR1, and 384 mg/L sodium acetate mixed with 30 mg/L glucose for SBR2. Phosphate concentrations in the feed of SBR1 and SBR2 were about 15 mgP/L and 10 mgP/L, respectively. Ammonia nitrogen concentrations in the feed of SBR1 and SBR2 were about 20 mgN/L and 35 mgN/L, respectively. Allyl-N thiourea was added with the concentration of 5 mg/L to inhibit nitrification. Samples for metagenomic analysis of SBR1 and SBR2 were collected at the end of the aerobic phases on day 138 and day 146, respectively.To explore the influence of dissolved oxygen (DO) on Propioniciclava accumulation, three SBRs were operated with different DO concentrations and they were originally inoculated in a full-scale municipal WWTP in Shanghai, China. DO concentrations during aerobic stages in three SBRs (DO2, DO3 and DO4) were automatically regulated by DO controllers and DO concentrations were around 2.0 mg/L, 3.0 mg/L and 4.0 mg/L, respectively. In other tests, unless otherwise specified, DO concentrations during aerobic stages were controlled in the range of 2.5-3.0 mg/L by DO controllers. Samples for 16S rRNA gene sequencing were collected for DO2, DO3 and DO4 at the end of the aerobic phases on day 40.To evaluate the influence of carbon source on Propioniciclava enrichment, three additional SBRs were operated. The chemical oxygen demand (COD) concentrations of the three reactors were consistent with that in SBR1. For SBR-C1, 449 mg/L sodium acetate was added to the feed as the carbon source while glucose was not added; for SBR-C2, 384 mg/L sodium acetate and 50.0 mg/L glucose were used as the carbon source; for SBR-C3, 327 mg/L glucose was added while acetate was not added. To assess the effect of ATU addition on Propioniciclava accumulation, an additional SBR was operated without ATU in the feed, and its performance was subsequently compared with that of SBR-C2. Other details of SBR operation were consistent with that of SBR1. Samples for 16S rRNA gene sequencing were collected for the reactors mentioned above at the end of the aerobic phases on day 60.Batch tests for SBR1 and SBR2 were operated on day 138 and day 146, respectively. At the end of the aerobic phase of SBR1, 1200 mL mixed liquor was collected. The mixed liquor was washed three times with deionized water and then it was divided into three equal portions (400 mL each). Three serum bottles with the volume of 500 mL were used for the batch test. Nitrogen gas was sparged into the glass jars to avoid oxygen intrusion. pH was maintained around 7.5 with 0.1 M NaOH and HCl. When sodium acetate, micro nutrients solution and NH4Cl were added to the bottles, the batch test began. The anaerobic phase lasted for 120 min and then oxygen gas was introduced to maintain aerobic condition for another 120 min. Samples for metatranscriptomic analysis were taken at 90 min (anaerobic) and 87 min (aerobic) in batch test for SBR1, and at 70 min (anaerobic) and 63 min (aerobic) in batch test for SBR2.",
+    "study_links": [],
+    "experiment_title": "sequences of bacteria",
+    "library_name": "SBR2",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "57366296",
+    "base_count": "17324621392",
+    "sra_run_bytes": "5345746019",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SBR2_R1.fastq.gz",
+        "size": "4225776042",
+        "date": "2026-01-15 12:00:05",
+        "md5": "f67f5aa528d91999bbdb31ad577ad4f7",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SBR2_R2.fastq.gz",
+        "size": "4250925723",
+        "date": "2026-01-15 11:59:56",
+        "md5": "ae84d2084760bc9ba574a4893c48059f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851621",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36851621/SRR36851621",
+        "size": "5345747939",
+        "date": "2026-01-15 12:00:36",
+        "md5": "42259dea2fdf1eb7a53c18909c8bdd18",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851621.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR036/36851/SRR36851621/SRR36851621.lite.1",
+        "size": "4408688099",
+        "date": "2026-01-15 12:20:46",
+        "md5": "3a8d9509f59714d8f8478e2c63353971",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-01-15 12:04:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36851622",
+    "experiment_accession": "SRX31824603",
+    "sample_accession": "SAMN54674778",
+    "secondary_sample_accession": "SRS27782249",
+    "sample_alias": "SBR1",
+    "sample_title": "",
+    "scientific_name": "activated sludge metagenome",
+    "tax_id": "942017",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-04-30T08:50:00Z",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Shanghai",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "31.26 N 121.53 E",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1403469",
+    "secondary_study_accession": "SRP662800",
+    "study_title": "16S rRNA gene sequencing, metagenomic analysis and transcriptomic analysis of Propioniciclava",
+    "study_description": "This study aimed to provide molecular biological evidence for microbial metabolic profiles of Propioniciclava. Two SBRs with the working volume of 3.0 L were operated. The cycle time was 6 h and the slow feeding stage was 90 min. Feeding stage was involved in 125 min anaerobic phase followed by 180 min aerobic phase. The total hydraulic retention time was 12 h and the sludge retention time was 10 d. The dissolved oxygen concentration (DO) was around 4 mg/L at the end of the aerobic phase. Two reactors were originally inoculated in a full-scale municipal wastewater treatment plant in Shanghai, China. The carbon source in the synthetic wastewater was 384 mg/L sodium acetate mixed with 50 mg/L glucose for SBR1, and 384 mg/L sodium acetate mixed with 30 mg/L glucose for SBR2. Phosphate concentrations in the feed of SBR1 and SBR2 were about 15 mgP/L and 10 mgP/L, respectively. Ammonia nitrogen concentrations in the feed of SBR1 and SBR2 were about 20 mgN/L and 35 mgN/L, respectively. Allyl-N thiourea was added with the concentration of 5 mg/L to inhibit nitrification. Samples for metagenomic analysis of SBR1 and SBR2 were collected at the end of the aerobic phases on day 138 and day 146, respectively.To explore the influence of dissolved oxygen (DO) on Propioniciclava accumulation, three SBRs were operated with different DO concentrations and they were originally inoculated in a full-scale municipal WWTP in Shanghai, China. DO concentrations during aerobic stages in three SBRs (DO2, DO3 and DO4) were automatically regulated by DO controllers and DO concentrations were around 2.0 mg/L, 3.0 mg/L and 4.0 mg/L, respectively. In other tests, unless otherwise specified, DO concentrations during aerobic stages were controlled in the range of 2.5-3.0 mg/L by DO controllers. Samples for 16S rRNA gene sequencing were collected for DO2, DO3 and DO4 at the end of the aerobic phases on day 40.To evaluate the influence of carbon source on Propioniciclava enrichment, three additional SBRs were operated. The chemical oxygen demand (COD) concentrations of the three reactors were consistent with that in SBR1. For SBR-C1, 449 mg/L sodium acetate was added to the feed as the carbon source while glucose was not added; for SBR-C2, 384 mg/L sodium acetate and 50.0 mg/L glucose were used as the carbon source; for SBR-C3, 327 mg/L glucose was added while acetate was not added. To assess the effect of ATU addition on Propioniciclava accumulation, an additional SBR was operated without ATU in the feed, and its performance was subsequently compared with that of SBR-C2. Other details of SBR operation were consistent with that of SBR1. Samples for 16S rRNA gene sequencing were collected for the reactors mentioned above at the end of the aerobic phases on day 60.Batch tests for SBR1 and SBR2 were operated on day 138 and day 146, respectively. At the end of the aerobic phase of SBR1, 1200 mL mixed liquor was collected. The mixed liquor was washed three times with deionized water and then it was divided into three equal portions (400 mL each). Three serum bottles with the volume of 500 mL were used for the batch test. Nitrogen gas was sparged into the glass jars to avoid oxygen intrusion. pH was maintained around 7.5 with 0.1 M NaOH and HCl. When sodium acetate, micro nutrients solution and NH4Cl were added to the bottles, the batch test began. The anaerobic phase lasted for 120 min and then oxygen gas was introduced to maintain aerobic condition for another 120 min. Samples for metatranscriptomic analysis were taken at 90 min (anaerobic) and 87 min (aerobic) in batch test for SBR1, and at 70 min (anaerobic) and 63 min (aerobic) in batch test for SBR2.",
+    "study_links": [],
+    "experiment_title": "sequences of bacteria",
+    "library_name": "SBR1",
+    "library_strategy": "WGS",
+    "library_source": "METAGENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "68112093",
+    "base_count": "20569852086",
+    "sra_run_bytes": "6515035486",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SBR1_R1.fastq.gz",
+        "size": "5112079238",
+        "date": "2026-01-15 11:59:09",
+        "md5": "4e795bfd05fdcd4316e530ac4b9782f9",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SBR1_R2.fastq.gz",
+        "size": "5226896634",
+        "date": "2026-01-15 11:59:18",
+        "md5": "6f93f7f8e7b43a488aa26a5f2cc01ae6",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851622",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36851622/SRR36851622",
+        "size": "6515037401",
+        "date": "2026-01-15 11:59:45",
+        "md5": "78fc99e23e3466f1233a5341a3cad5b4",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36851622.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR036/36851/SRR36851622/SRR36851622.lite.1",
+        "size": "5226448941",
+        "date": "2026-01-15 12:20:53",
+        "md5": "87a64ae126a2f158fd034f7c33f7fdc8",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-01-15 12:04:32",
+    "run_is_public": "true"
+  }
+]

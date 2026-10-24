@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA699472",
+  "checked_utc": "2026-10-24T14:41:40.048695+00:00",
+  "ena_run_count": 70,
+  "ncbi_sra_count": 70,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA699472&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:40.049044+00:00",
+    "raw_path": "raw/ENA/151a83048a735a066cacbb90ee727e9e5d6ec6d6d289f3f45a688e8fe4612687.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA699472&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 100118,
+    "sha256": "6aa46807455240333ed6657da5ea49888c284ebb98e5ec5a01accefd52316f84",
+    "finished_utc": "2026-10-24T14:41:40.297547+00:00",
+    "measured_wall_seconds": 0.249
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA699472&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:41:40.701447+00:00",
+    "raw_path": "raw/NCBI/d8af4ef66dfe7f5dcdb4fcee783be10e9c54130858adb92ff0f00ef417c54a9b.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA699472&retmode=json&retmax=200&retstart=0",
+    "bytes": 1064,
+    "sha256": "7fa05d60df462c36a2130e523277cc90c5bb2c5759a415366b63d35af3ffcd8f",
+    "finished_utc": "2026-10-24T14:41:41.082785+00:00",
+    "measured_wall_seconds": 0.381
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA699472",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:42.633116+00:00",
+    "raw_path": "raw/ENA/af68e3052113ad516f2d3ad4d95561f5d853f5c858a723bec969acaa956014eb.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA699472",
+    "bytes": 3470,
+    "sha256": "3027b7cb53b5df51f774ded16552cf20500d8c9d8da429a2bf4f1870e8d663f5",
+    "finished_utc": "2026-10-24T14:41:42.798787+00:00",
+    "measured_wall_seconds": 0.166
+  },
+  "project_title": "Active microbial community in a subzero, hypersaline Arctic spring",
+  "project_description": "Metagenome and metatranscriptome sequencing identified the active microbial community in a subzero, hypersaline Arctic spring.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA699472"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP304706"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "McGill University",
+      "value": "PRJNA699472"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>PUBMED</DB>\n        <ID>35396347</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA699472&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA699472&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 70
+}

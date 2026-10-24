@@ -1,0 +1,72 @@
+{
+  "accession": "PRJNA588156",
+  "checked_utc": "2026-10-24T14:30:17.663124+00:00",
+  "ena_run_count": 29,
+  "ncbi_sra_count": 29,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA588156&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:17.663273+00:00",
+    "raw_path": "raw/ENA/8733897974a7edcec31fbc32c95c19f35e9577071d44d70a4ca2eb15e8d845cb.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA588156&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 39711,
+    "sha256": "a98096d5d0118f845f543845ef380f074f3a3aac29f264dbf282166f38a191a5",
+    "finished_utc": "2026-10-24T14:30:17.896594+00:00",
+    "measured_wall_seconds": 0.233
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA588156&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:18.298190+00:00",
+    "raw_path": "raw/NCBI/feb78910bdee70ce7ba5c946cc5701d67585431cd1759d04b766f17824a4bcff.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA588156&retmode=json&retmax=200&retstart=0",
+    "bytes": 584,
+    "sha256": "ed6297c8d6eb97a93dbad71c3444138ab43882314b91c7c254fef8d054efd922",
+    "finished_utc": "2026-10-24T14:30:18.396432+00:00",
+    "measured_wall_seconds": 0.098
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA588156",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:19.326810+00:00",
+    "raw_path": "raw/ENA/00dbde4cda4431243db4d9fa5d8fafe1efce573ab2dadb0b9eae87b293c31a55.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA588156",
+    "bytes": 3637,
+    "sha256": "8d1c0fc4d7ba67359ca72790d5c63561afcd812364d3f949733ea23defeeb52b",
+    "finished_utc": "2026-10-24T14:30:19.494461+00:00",
+    "measured_wall_seconds": 0.168
+  },
+  "project_title": "Transcriptome-SIP of hydrocarbon degrader adaption under dual electron acceptor availability in aquifer sediments",
+  "project_description": "We demonstrate the feasibility of total RNA-SIP in experiments where microbes from a hydrocarbon-contaminated aquifer were studied in microcosms with 13C-labelled-toluene to understand their adaptation to the simultaneous availability of low levels of different electron acceptors. SIP successfully resolved the involvement of microaerobic vs. aerobic and anaerobic populations. Under microoxic, nitrate-amended conditions hydrocarbon degradation was actually stimulated, but transcripts of denitrification showed no signs of 13C-labelling. The expression of distinct oxygenase-based catabolic pathways for toluene degradation was clearly apparent in 13C-labelled mRNA. We discuss how these direct insights into the gene expression and adaptation mechanisms within complex degrader communities can guide more integrated approaches in monitoring and restoration of contaminated sites. Overall design: We set up a microcosm experiment using hydrocarbon-contaminated sediment incubated under 4 redox conditions: aerobic, microoxic, microoxic with nitrate, and anoxic with nitrate. Microcosms were provided with 13C-labeled toluene as substrate, and extracted RNA was separated into heavy (labeled) and light (unlabeled) fractions, which were sequenced to determine the identity of toluene-degraders in the 4 experimental conditions.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA588156"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP229066"
+    },
+    {
+      "tag": "EXTERNAL_ID",
+      "namespace": "GEO",
+      "value": "GSE140055"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Lehrstuhl Ökologische Mikrobiologie (ÖMIK), Universitaet Bayreuth",
+      "value": "PRJNA588156"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA588156&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA588156&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 29
+}

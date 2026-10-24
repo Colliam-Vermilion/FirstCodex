@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1304437",
+  "checked_utc": "2026-10-24T14:30:24.111142+00:00",
+  "ena_run_count": 22,
+  "ncbi_sra_count": 22,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1304437&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:24.111275+00:00",
+    "raw_path": "raw/ENA/bcff5144816610328593ed6f4ef354a016e9889fddcc26761f58c5ea989e86f1.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1304437&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 30157,
+    "sha256": "d260466c1697cd7a5149f4b33a83f3581eeda3296d0a35a51966a5f52e17684a",
+    "finished_utc": "2026-10-24T14:30:24.325054+00:00",
+    "measured_wall_seconds": 0.214
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1304437&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:24.726873+00:00",
+    "raw_path": "raw/NCBI/a5980b6132cc26a10fbdc9cfee7e1129c67f638b41dad1cfa10d43985d9c69a0.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1304437&retmode=json&retmax=200&retstart=0",
+    "bytes": 538,
+    "sha256": "9d2c107174865d2c9cf74fb0763bb98a1808c9b02b785de8bc09529c151793cf",
+    "finished_utc": "2026-10-24T14:30:24.840625+00:00",
+    "measured_wall_seconds": 0.114
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1304437",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:25.665053+00:00",
+    "raw_path": "raw/ENA/6d91d603d5dd5cfc7c9501e1ad96ac8a6bf3f1ae003942649836384806cded27.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1304437",
+    "bytes": 2972,
+    "sha256": "e732e96c7376eab65d6f7fd080bf4e70e829eb0fe5a3fb4a669251638394517a",
+    "finished_utc": "2026-10-24T14:30:25.821635+00:00",
+    "measured_wall_seconds": 0.157
+  },
+  "project_title": "Microbial community dynamics and functional potential in microaerophilic assimilation of carbohydrate rich food wastes for single cell protein production in recirculating aquaculture systems",
+  "project_description": "This project investigates the structure, interactions, and predicted functions of microbial communities involved in the conversion of carbohydrate rich food processing wastes into single cell protein (SCP) using a microaerophilic assimilation side reactor integrated with a recirculating aquaculture system (RAS). Four distinct waste types: potato starch waste, semolina, sugar waste, and wheat flour waste were used as carbon sources to drive microbial growth while recovering nutrients from aquaculture effluent. High throughput 16S rRNA gene amplicon sequencing was performed to characterize bacterial community composition under each treatment. Network and functional prediction analyses were used to identify key taxa and functional pathways involved in nutrient cycling and protein production. The findings provide insights into sustainable waste valorization strategies that simultaneously improve water quality and generate high protein microbial biomass for aquaculture feed.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1304437"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP608063"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Ben Gurion University",
+      "value": "PRJNA1304437"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1304437&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1304437&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 22
+}

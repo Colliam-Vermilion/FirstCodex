@@ -1,0 +1,1772 @@
+[
+  {
+    "run_accession": "SRR18087876",
+    "experiment_accession": "SRX14239394",
+    "sample_accession": "SAMN26135430",
+    "secondary_sample_accession": "SRS12060112",
+    "sample_alias": "GSM5908652",
+    "sample_title": "MSR1_NoMag_TSS",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908652: MSR1_NoMag_TSS; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908652",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "6899612",
+    "base_count": "434641062",
+    "sra_run_bytes": "184307412",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NoMag_TSS.fastq.gz",
+        "size": "300433415",
+        "date": "2022-02-23 11:11:28",
+        "md5": "d8df899be8be5cf89730dddd0e1063cc",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087876",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087876/SRR18087876",
+        "size": "184310205",
+        "date": "2022-02-23 11:11:41",
+        "md5": "f6a04c1b6ec6e8d5172c24e2097a67cd",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087876.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/SRR018/18087/SRR18087876/SRR18087876.lite.1",
+        "size": "126344977",
+        "date": "2022-10-21 22:29:40",
+        "md5": "9f5569362c3aef1e4e9656d38ca7e31b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087877",
+    "experiment_accession": "SRX14239394",
+    "sample_accession": "SAMN26135430",
+    "secondary_sample_accession": "SRS12060112",
+    "sample_alias": "GSM5908652",
+    "sample_title": "MSR1_NoMag_TSS",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908652: MSR1_NoMag_TSS; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908652",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "4850928",
+    "base_count": "315304571",
+    "sra_run_bytes": "133052272",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NoMag_PSS.fastq.gz",
+        "size": "214519683",
+        "date": "2022-02-23 11:10:48",
+        "md5": "0b9e7735dcb5355441b0633a6b607699",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087877",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087877/SRR18087877",
+        "size": "133055070",
+        "date": "2022-02-23 11:10:57",
+        "md5": "6bd8b6fef8b89666c4fa9a70d50cca34",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087877.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/SRR018/18087/SRR18087877/SRR18087877.lite.1",
+        "size": "91232154",
+        "date": "2022-10-21 22:29:35",
+        "md5": "44968e745551eb1e63fb017ead615103",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087878",
+    "experiment_accession": "SRX14239393",
+    "sample_accession": "SAMN26135431",
+    "secondary_sample_accession": "SRS12060111",
+    "sample_alias": "GSM5908651",
+    "sample_title": "MSR1_MaxMag_TSS",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908651: MSR1_MaxMag_TSS; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908651",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "4845478",
+    "base_count": "305240616",
+    "sra_run_bytes": "130687517",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "MaxMag_TSS.fastq.gz",
+        "size": "209074215",
+        "date": "2022-02-23 11:11:11",
+        "md5": "b01e63c7b3847527fbf2f62526bf3e4b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087878",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087878/SRR18087878",
+        "size": "130690315",
+        "date": "2022-02-23 11:11:25",
+        "md5": "8c6d625c361edfd7aa6cd7113cfad6e0",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087878.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/SRR018/18087/SRR18087878/SRR18087878.lite.1",
+        "size": "88320807",
+        "date": "2022-10-15 01:58:54",
+        "md5": "acf8e1db338d3efd23359694132c11c7",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087879",
+    "experiment_accession": "SRX14239393",
+    "sample_accession": "SAMN26135431",
+    "secondary_sample_accession": "SRS12060111",
+    "sample_alias": "GSM5908651",
+    "sample_title": "MSR1_MaxMag_TSS",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908651: MSR1_MaxMag_TSS; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908651",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "6587850",
+    "base_count": "428203934",
+    "sra_run_bytes": "181895270",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "MaxMag_PSS.fastq.gz",
+        "size": "286360084",
+        "date": "2022-02-23 11:11:36",
+        "md5": "3dd2d9222149dce1841771a7f59e7b6a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087879",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087879/SRR18087879",
+        "size": "181898066",
+        "date": "2022-02-23 11:11:47",
+        "md5": "590ba55bcc1c3fedbd4632c3d07c4320",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087879.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-820/SRR018/18087/SRR18087879/SRR18087879.lite.1",
+        "size": "123591878",
+        "date": "2022-11-05 23:44:34",
+        "md5": "b6ba04947c1b0b17c4af08afde834718",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087880",
+    "experiment_accession": "SRX14239392",
+    "sample_accession": "SAMN26135432",
+    "secondary_sample_accession": "SRS12060110",
+    "sample_alias": "GSM5908650",
+    "sample_title": "MSR1_WTSS",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908650: MSR1_WTSS; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908650",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "11683881",
+    "base_count": "876291075",
+    "sra_run_bytes": "364394897",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "WT-Pool.fastq.gz",
+        "size": "526894788",
+        "date": "2022-02-23 11:13:49",
+        "md5": "03eaa64cadb8ab818c56574aeae44e99",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087880",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087880/SRR18087880",
+        "size": "364397110",
+        "date": "2022-02-23 11:14:03",
+        "md5": "8f573bdae48b048fa2eb8b8e5827604d",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087880.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/SRR018/18087/SRR18087880/SRR18087880.lite.1",
+        "size": "246819502",
+        "date": "2022-10-15 02:01:16",
+        "md5": "590a2c6ccfacca218751d068088602b0",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087881",
+    "experiment_accession": "SRX14239391",
+    "sample_accession": "SAMN26135433",
+    "secondary_sample_accession": "SRS12060109",
+    "sample_alias": "GSM5908649",
+    "sample_title": "MSR1_Term, 3'-end",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908649: MSR1_Term, 3'-end; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908649",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "11001179",
+    "base_count": "825088425",
+    "sra_run_bytes": "350867669",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3term.fastq.gz",
+        "size": "505795889",
+        "date": "2022-02-23 11:13:48",
+        "md5": "363da3078333af8c3bd1c46b79a5a152",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087881",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087881/SRR18087881",
+        "size": "350869879",
+        "date": "2022-02-23 11:14:07",
+        "md5": "51db7d4ef2371617d7601926e88ab665",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087881.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-820/SRR018/18087/SRR18087881/SRR18087881.lite.1",
+        "size": "232079903",
+        "date": "2022-11-15 06:16:09",
+        "md5": "0fe2fe1a9216eb9c23d66195bc9deff6",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087882",
+    "experiment_accession": "SRX14239390",
+    "sample_accession": "SAMN26135434",
+    "secondary_sample_accession": "SRS12060108",
+    "sample_alias": "GSM5908648",
+    "sample_title": "MSR1_NoMag, 3",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "NoMag",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908648: MSR1_NoMag, 3; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908648",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "10691958",
+    "base_count": "801896850",
+    "sra_run_bytes": "332443511",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NoMag_3.fastq.gz",
+        "size": "489760677",
+        "date": "2022-02-23 11:13:38",
+        "md5": "6db85335e36bea50ece0807c7f411115",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087882",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087882/SRR18087882",
+        "size": "332445719",
+        "date": "2022-02-23 11:13:55",
+        "md5": "18775b8b0713fcdd44c4191c961938a5",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087882.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR018/18087/SRR18087882/SRR18087882.lite.1",
+        "size": "225766751",
+        "date": "2022-11-15 21:36:26",
+        "md5": "48e128184618c3508e327d904477b3d9",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087883",
+    "experiment_accession": "SRX14239389",
+    "sample_accession": "SAMN26135435",
+    "secondary_sample_accession": "SRS12060107",
+    "sample_alias": "GSM5908647",
+    "sample_title": "MSR1_NoMag, 2",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "NoMag",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908647: MSR1_NoMag, 2; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908647",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "10055697",
+    "base_count": "754177275",
+    "sra_run_bytes": "313677124",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NoMag_2.fastq.gz",
+        "size": "460134656",
+        "date": "2022-02-23 11:13:44",
+        "md5": "978bb714893927bbb48272f9215e1dc1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087883",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087883/SRR18087883",
+        "size": "313679338",
+        "date": "2022-02-23 11:14:00",
+        "md5": "7ba40e96f867f634ca84d8a629c241b4",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087883.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/SRR018/18087/SRR18087883/SRR18087883.lite.1",
+        "size": "212469858",
+        "date": "2022-10-15 01:48:34",
+        "md5": "7e250699e4eb5f5d37e1c7f6528cde80",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:25",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087884",
+    "experiment_accession": "SRX14239388",
+    "sample_accession": "SAMN26135436",
+    "secondary_sample_accession": "SRS12060106",
+    "sample_alias": "GSM5908646",
+    "sample_title": "MSR1_NoMag, 1",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "NoMag",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908646: MSR1_NoMag, 1; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908646",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "11057470",
+    "base_count": "829310250",
+    "sra_run_bytes": "345979483",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NoMag_1.fastq.gz",
+        "size": "505207368",
+        "date": "2022-02-23 11:13:44",
+        "md5": "35ac2aff13d0f17e02a0b1fec6fd5a5a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087884",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087884/SRR18087884",
+        "size": "345981687",
+        "date": "2022-02-23 11:14:02",
+        "md5": "2ba2ca70d52c165a57d2225c46bb1f3e",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087884.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/SRR018/18087/SRR18087884/SRR18087884.lite.1",
+        "size": "233487575",
+        "date": "2022-10-21 23:09:22",
+        "md5": "93a29e08f45de5b1484ef78af9cb5b7f",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:25",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087885",
+    "experiment_accession": "SRX14239387",
+    "sample_accession": "SAMN26135437",
+    "secondary_sample_accession": "SRS12060105",
+    "sample_alias": "GSM5908645",
+    "sample_title": "MSR1_MaxMag, 3",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "MaxMag",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908645: MSR1_MaxMag, 3; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908645",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "9866434",
+    "base_count": "739982550",
+    "sra_run_bytes": "307852610",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "MaxMag_3.fastq.gz",
+        "size": "448801257",
+        "date": "2022-02-23 11:13:06",
+        "md5": "f2aeca0daa9396bf035700f4ff03bbf1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087885",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087885/SRR18087885",
+        "size": "307854818",
+        "date": "2022-02-23 11:13:18",
+        "md5": "934b3c7f1c33ef2b8bc8a48942ec85e1",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087885.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/SRR018/18087/SRR18087885/SRR18087885.lite.1",
+        "size": "208639738",
+        "date": "2022-10-24 10:10:55",
+        "md5": "31ed8f783e2f3678319f2a393b608c4c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:25",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087886",
+    "experiment_accession": "SRX14239386",
+    "sample_accession": "SAMN26135438",
+    "secondary_sample_accession": "SRS12060104",
+    "sample_alias": "GSM5908644",
+    "sample_title": "MSR1_MaxMag, 2",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "MaxMag",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908644: MSR1_MaxMag, 2; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908644",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "9972763",
+    "base_count": "747957225",
+    "sra_run_bytes": "310917739",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "MaxMag_2.fastq.gz",
+        "size": "452289059",
+        "date": "2022-02-23 11:13:37",
+        "md5": "b9fe11343948b06a59446c9e0dfb6c2b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087886",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087886/SRR18087886",
+        "size": "310919949",
+        "date": "2022-02-23 11:13:53",
+        "md5": "4139d6669015bbe1634c55eab16d76d4",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087886.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/SRR018/18087/SRR18087886/SRR18087886.lite.1",
+        "size": "210650049",
+        "date": "2022-10-22 11:46:54",
+        "md5": "d4fa1487b4b546d692b8c5aaeb6eea35",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:25",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087887",
+    "experiment_accession": "SRX14239385",
+    "sample_accession": "SAMN26135439",
+    "secondary_sample_accession": "SRS12060103",
+    "sample_alias": "GSM5908643",
+    "sample_title": "MSR1_MaxMag, 1",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "MaxMag",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908643: MSR1_MaxMag, 1; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908643",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "9708879",
+    "base_count": "728165925",
+    "sra_run_bytes": "302812939",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "MaxMag_1.fastq.gz",
+        "size": "441913597",
+        "date": "2022-02-23 11:13:29",
+        "md5": "715c30d7b08ad1ad8e0e8d0a978b8e66",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087887",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087887/SRR18087887",
+        "size": "302815151",
+        "date": "2022-02-23 11:13:45",
+        "md5": "87cb642cfacf7f8a0a5e685360c1fc8c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087887.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR018/18087/SRR18087887/SRR18087887.lite.1",
+        "size": "205349091",
+        "date": "2022-11-17 05:10:32",
+        "md5": "102778bc2bcaf3e72cc985987a9e036a",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:25",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087888",
+    "experiment_accession": "SRX14239384",
+    "sample_accession": "SAMN26135440",
+    "secondary_sample_accession": "SRS12060102",
+    "sample_alias": "GSM5908642",
+    "sample_title": "MSR1_NoMagNO3, 3",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "NoMagNO3",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908642: MSR1_NoMagNO3, 3; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908642",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "11392739",
+    "base_count": "854455425",
+    "sra_run_bytes": "354734532",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NoMagNO3_3.fastq.gz",
+        "size": "525460209",
+        "date": "2022-02-23 11:14:51",
+        "md5": "66da82611a101b456b4fb39d71e3be5c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087888",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087888/SRR18087888",
+        "size": "354736738",
+        "date": "2022-02-23 11:15:13",
+        "md5": "9aa9eb2ef93f251960e956ab9ae8a27a",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087888.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-820/SRR018/18087/SRR18087888/SRR18087888.lite.1",
+        "size": "240477062",
+        "date": "2022-11-21 16:42:37",
+        "md5": "252d6805db2ea4b3a36e492383801089",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:25",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087889",
+    "experiment_accession": "SRX14239383",
+    "sample_accession": "SAMN26135441",
+    "secondary_sample_accession": "SRS12060101",
+    "sample_alias": "GSM5908641",
+    "sample_title": "MSR1_NoMagNO3, 2",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "NoMagNO3",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908641: MSR1_NoMagNO3, 2; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908641",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "10007301",
+    "base_count": "750547575",
+    "sra_run_bytes": "311375226",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NoMagNO3_2.fastq.gz",
+        "size": "456048688",
+        "date": "2022-02-23 11:13:34",
+        "md5": "d798356ac309474c95f55d668447f0eb",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087889",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087889/SRR18087889",
+        "size": "311377437",
+        "date": "2022-02-23 11:13:47",
+        "md5": "f1e2efc6ead102ea7cbf810747e4240a",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087889.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-820/SRR018/18087/SRR18087889/SRR18087889.lite.1",
+        "size": "211173329",
+        "date": "2022-11-21 16:42:11",
+        "md5": "7b3376f12ab648ef0d4511690e95342b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087890",
+    "experiment_accession": "SRX14239382",
+    "sample_accession": "SAMN26135442",
+    "secondary_sample_accession": "SRS12060100",
+    "sample_alias": "GSM5908640",
+    "sample_title": "MSR1_NoMagNO3, 1",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "NoMagNO3",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908640: MSR1_NoMagNO3, 1; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908640",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "10194708",
+    "base_count": "764603100",
+    "sra_run_bytes": "317632776",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NoMagNO3_1.fastq.gz",
+        "size": "465835466",
+        "date": "2022-02-23 11:13:38",
+        "md5": "bdaa33e5618fbf5f14aa9a8906c9cbe4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087890",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087890/SRR18087890",
+        "size": "317634984",
+        "date": "2022-02-23 11:13:51",
+        "md5": "ecdd73676578865a109af70b1dc3ff90",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087890.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-820/SRR018/18087/SRR18087890/SRR18087890.lite.1",
+        "size": "215371232",
+        "date": "2022-10-22 17:05:43",
+        "md5": "4c22ea3378e6b0ecc2868c5885786813",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087891",
+    "experiment_accession": "SRX14239381",
+    "sample_accession": "SAMN26135443",
+    "secondary_sample_accession": "SRS12060099",
+    "sample_alias": "GSM5908639",
+    "sample_title": "MSR1_MicroMag, 3",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "MicroMag",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908639: MSR1_MicroMag, 3; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908639",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "10493768",
+    "base_count": "787032600",
+    "sra_run_bytes": "326924951",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "MicroMag_3.fastq.gz",
+        "size": "478376578",
+        "date": "2022-02-23 11:14:12",
+        "md5": "185fdccbb1a8e1f3eebd126730e65e48",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087891",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087891/SRR18087891",
+        "size": "326927159",
+        "date": "2022-02-23 11:14:23",
+        "md5": "d565817b94c734b4eded2e10a0fee1e5",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087891.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-820/SRR018/18087/SRR18087891/SRR18087891.lite.1",
+        "size": "221760023",
+        "date": "2022-10-27 12:39:43",
+        "md5": "1b606d6b6648de6dcefcbf385dffeee8",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087892",
+    "experiment_accession": "SRX14239380",
+    "sample_accession": "SAMN26135444",
+    "secondary_sample_accession": "SRS12060098",
+    "sample_alias": "GSM5908638",
+    "sample_title": "MSR1_MicroMag, 2",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "MicroMag",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908638: MSR1_MicroMag, 2; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908638",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "10809100",
+    "base_count": "810682500",
+    "sra_run_bytes": "337667305",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "MicroMag_2.fastq.gz",
+        "size": "496347273",
+        "date": "2022-02-23 11:14:16",
+        "md5": "e92ef4c86092110b86509c71273eb2cf",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087892",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087892/SRR18087892",
+        "size": "337669507",
+        "date": "2022-02-23 11:14:34",
+        "md5": "36b388dfe2894d72f8cef2d2887690d4",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087892.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/SRR018/18087/SRR18087892/SRR18087892.lite.1",
+        "size": "228452043",
+        "date": "2022-11-17 05:11:47",
+        "md5": "f44660d443feac817bd1adc12d372a0c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR18087893",
+    "experiment_accession": "SRX14239379",
+    "sample_accession": "SAMN26135445",
+    "secondary_sample_accession": "SRS12060097",
+    "sample_alias": "GSM5908637",
+    "sample_title": "MSR1_MicroMag, 1",
+    "scientific_name": "Magnetospirillum gryphiswaldense MSR-1",
+    "tax_id": "431944",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bacteria, WT",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "MSR-1",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "wild type",
+        "units": ""
+      },
+      {
+        "tag": "condition",
+        "value": "MicroMag",
+        "units": ""
+      },
+      {
+        "tag": "type-material",
+        "value": "type strain of Magnetospirillum gryphiswaldense",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA808977",
+    "secondary_study_accession": "SRP360775",
+    "study_title": "The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization",
+    "study_description": "One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth's magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor s70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "36217140"
+      }
+    ],
+    "experiment_title": "GSM5908637: MSR1_MicroMag, 1; Magnetospirillum gryphiswaldense; RNA-Seq",
+    "library_name": "GSM5908637",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were harvested by centrifugation at 4°C and flash frozen with liquid nitrogen prior total RNA isolation. RNA isolated from biological duplicates using the mirVana RNA isolation kit (Thermo Fisher Scientific, Waltham, USA) including DNase treatment was pooled and subsequently used for library preparation.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "10346822",
+    "base_count": "776011650",
+    "sra_run_bytes": "322873559",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "MicroMag_1.fastq.gz",
+        "size": "464956910",
+        "date": "2022-02-23 11:13:17",
+        "md5": "806d390caa3381a1547f22bdf11db29d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087893",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR18087893/SRR18087893",
+        "size": "322875770",
+        "date": "2022-02-23 11:13:32",
+        "md5": "4bf399ee1235daf421c05d3b1c56bafd",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR18087893.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/SRR018/18087/SRR18087893/SRR18087893.lite.1",
+        "size": "218391526",
+        "date": "2022-10-15 05:17:14",
+        "md5": "49e2a8591d00d25b1e74ff9a21f966b3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2022-10-19 09:41:25",
+    "run_is_public": "true"
+  }
+]

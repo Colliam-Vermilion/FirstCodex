@@ -1,0 +1,638 @@
+[
+  {
+    "run_accession": "SRR12244048",
+    "experiment_accession": "SRX8752236",
+    "sample_accession": "SAMN15563019",
+    "secondary_sample_accession": "SRS7024202",
+    "sample_alias": "GSM4675283",
+    "sample_title": "WT2",
+    "scientific_name": "Arabidopsis thaliana",
+    "tax_id": "3702",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "10 d.o whole seedlings",
+        "units": ""
+      },
+      {
+        "tag": "line",
+        "value": "ecotype Col-0",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Aerobic",
+        "units": ""
+      },
+      {
+        "tag": "replicates",
+        "value": "replicate 2",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA646755",
+    "secondary_study_accession": "SRP272288",
+    "study_title": "Transcriptome profiling from Arabidopsis thaliana overexpressing Jatropha curcas ERFVII2",
+    "study_description": "Gene expression analysis by high-throughtput RNA-sequencing from Arabidopsis seedlings (10 d.o.) overexpressing Jatropha curcas (Jc) ERFVII-2 in wildtype (MC) or stablized (MA) forms. Overall design: 6 samples, 1 condition (aerobic) and 2 independent biological replicates",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "32825465"
+      }
+    ],
+    "experiment_title": "GSM4675283: WT2; Arabidopsis thaliana; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "Total RNA samples were extracted by TriZOL and subjected to DNase treatment and RNA cleanup using an RNA-mini kit (Qiagen) Three μg of total RNAs was used to generate a sequencing library using an Illumina® TruSeqTM RNA Sample Preparation Kit v2.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "44755287",
+    "base_count": "9040567974",
+    "sra_run_bytes": "2515920730",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "WT2_1.fastq.gz",
+        "size": "2198959361",
+        "date": "2020-07-16 19:44:35",
+        "md5": "ef22c54eaed99bcbab8e4fdaf7059eaf",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "WT2_2.fastq.gz",
+        "size": "2281159517",
+        "date": "2020-07-16 19:44:24",
+        "md5": "ffa869816f731ec061cf266353455848",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR12244048",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR12244048/SRR12244048",
+        "size": "2515921960",
+        "date": "2020-07-16 19:45:12",
+        "md5": "c071d284b52f7ed00a49001602eecde0",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR12244048.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR012/12244/SRR12244048/SRR12244048.lite.1",
+        "size": "2261628644",
+        "date": "2022-07-16 19:54:19",
+        "md5": "6210ff32915a8bd1d99f267a5efde96e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2020-07-18 10:20:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR12244047",
+    "experiment_accession": "SRX8752235",
+    "sample_accession": "SAMN15563020",
+    "secondary_sample_accession": "SRS7024201",
+    "sample_alias": "GSM4675282",
+    "sample_title": "WT1",
+    "scientific_name": "Arabidopsis thaliana",
+    "tax_id": "3702",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "10 d.o whole seedlings",
+        "units": ""
+      },
+      {
+        "tag": "line",
+        "value": "ecotype Col-0",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Aerobic",
+        "units": ""
+      },
+      {
+        "tag": "replicates",
+        "value": "replicate 1",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA646755",
+    "secondary_study_accession": "SRP272288",
+    "study_title": "Transcriptome profiling from Arabidopsis thaliana overexpressing Jatropha curcas ERFVII2",
+    "study_description": "Gene expression analysis by high-throughtput RNA-sequencing from Arabidopsis seedlings (10 d.o.) overexpressing Jatropha curcas (Jc) ERFVII-2 in wildtype (MC) or stablized (MA) forms. Overall design: 6 samples, 1 condition (aerobic) and 2 independent biological replicates",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "32825465"
+      }
+    ],
+    "experiment_title": "GSM4675282: WT1; Arabidopsis thaliana; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "Total RNA samples were extracted by TriZOL and subjected to DNase treatment and RNA cleanup using an RNA-mini kit (Qiagen) Three μg of total RNAs was used to generate a sequencing library using an Illumina® TruSeqTM RNA Sample Preparation Kit v2.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "40415542",
+    "base_count": "8163939484",
+    "sra_run_bytes": "2279698399",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "WT1_1.fastq.gz",
+        "size": "1986849553",
+        "date": "2020-07-16 19:45:35",
+        "md5": "00f17329a0a0bdfb7b62841e5267f89c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "WT1_2.fastq.gz",
+        "size": "2070807354",
+        "date": "2020-07-16 19:44:59",
+        "md5": "42a3d955cf0bdaf7dcf7be9d9d570b5c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR12244047",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR12244047/SRR12244047",
+        "size": "2279699625",
+        "date": "2020-07-16 19:47:18",
+        "md5": "41f0d18e4f24f7870ad1c50d205e7b84",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR12244047.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR012/12244/SRR12244047/SRR12244047.lite.1",
+        "size": "2042436933",
+        "date": "2022-07-16 03:53:11",
+        "md5": "9658400d1a6b9665405126c0ac38f8da",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2020-07-18 10:20:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR12244046",
+    "experiment_accession": "SRX8752234",
+    "sample_accession": "SAMN15563013",
+    "secondary_sample_accession": "SRS7024200",
+    "sample_alias": "GSM4675281",
+    "sample_title": "E2CL32",
+    "scientific_name": "Arabidopsis thaliana",
+    "tax_id": "3702",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "10 d.o whole seedlings",
+        "units": ""
+      },
+      {
+        "tag": "line",
+        "value": "transgenics 35S:MC-JcERFVII2 line 3 (ecotype Col-0)",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Aerobic",
+        "units": ""
+      },
+      {
+        "tag": "replicates",
+        "value": "replicate 2",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA646755",
+    "secondary_study_accession": "SRP272288",
+    "study_title": "Transcriptome profiling from Arabidopsis thaliana overexpressing Jatropha curcas ERFVII2",
+    "study_description": "Gene expression analysis by high-throughtput RNA-sequencing from Arabidopsis seedlings (10 d.o.) overexpressing Jatropha curcas (Jc) ERFVII-2 in wildtype (MC) or stablized (MA) forms. Overall design: 6 samples, 1 condition (aerobic) and 2 independent biological replicates",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "32825465"
+      }
+    ],
+    "experiment_title": "GSM4675281: E2CL32; Arabidopsis thaliana; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "Total RNA samples were extracted by TriZOL and subjected to DNase treatment and RNA cleanup using an RNA-mini kit (Qiagen) Three μg of total RNAs was used to generate a sequencing library using an Illumina® TruSeqTM RNA Sample Preparation Kit v2.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "38725269",
+    "base_count": "7822504338",
+    "sra_run_bytes": "2189586532",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "E2CL32_1.fastq.gz",
+        "size": "1905088934",
+        "date": "2020-07-16 19:43:00",
+        "md5": "fa52ce64f5ada1f35a0a3297598036ab",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "E2CL32_2.fastq.gz",
+        "size": "1992650280",
+        "date": "2020-07-16 19:42:51",
+        "md5": "f6f878f002e855c6b8b90aeb68ff3792",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR12244046",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR12244046/SRR12244046",
+        "size": "2189587760",
+        "date": "2020-07-16 19:43:54",
+        "md5": "4b41bba13ffc25ba513158cbb8c10524",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR12244046.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-820/SRR012/12244/SRR12244046/SRR12244046.lite.1",
+        "size": "1956969144",
+        "date": "2022-08-06 11:08:30",
+        "md5": "ce7fc4aebdb36dae8f2b5af230ae8894",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2020-07-18 10:20:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR12244045",
+    "experiment_accession": "SRX8752233",
+    "sample_accession": "SAMN15563014",
+    "secondary_sample_accession": "SRS7024199",
+    "sample_alias": "GSM4675280",
+    "sample_title": "E2CL31",
+    "scientific_name": "Arabidopsis thaliana",
+    "tax_id": "3702",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "10 d.o whole seedlings",
+        "units": ""
+      },
+      {
+        "tag": "line",
+        "value": "transgenics 35S:MC-JcERFVII2 line 3 (ecotype Col-0)",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Aerobic",
+        "units": ""
+      },
+      {
+        "tag": "replicates",
+        "value": "replicate 1",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA646755",
+    "secondary_study_accession": "SRP272288",
+    "study_title": "Transcriptome profiling from Arabidopsis thaliana overexpressing Jatropha curcas ERFVII2",
+    "study_description": "Gene expression analysis by high-throughtput RNA-sequencing from Arabidopsis seedlings (10 d.o.) overexpressing Jatropha curcas (Jc) ERFVII-2 in wildtype (MC) or stablized (MA) forms. Overall design: 6 samples, 1 condition (aerobic) and 2 independent biological replicates",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "32825465"
+      }
+    ],
+    "experiment_title": "GSM4675280: E2CL31; Arabidopsis thaliana; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "Total RNA samples were extracted by TriZOL and subjected to DNase treatment and RNA cleanup using an RNA-mini kit (Qiagen) Three μg of total RNAs was used to generate a sequencing library using an Illumina® TruSeqTM RNA Sample Preparation Kit v2.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "36632896",
+    "base_count": "7399844992",
+    "sra_run_bytes": "2061989574",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "E2CL31_1.fastq.gz",
+        "size": "1806943517",
+        "date": "2020-07-16 19:24:37",
+        "md5": "cec5471ad1e3643675db189aa2163b78",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "E2CL31_2.fastq.gz",
+        "size": "1871120121",
+        "date": "2020-07-16 19:25:10",
+        "md5": "6e7eec9d14a09508ca2c807e397beb1f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR12244045",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR12244045/SRR12244045",
+        "size": "2061990799",
+        "date": "2020-07-16 19:26:16",
+        "md5": "c84ffb1ad9844e150db825330a26c8da",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR12244045.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-820/SRR012/12244/SRR12244045/SRR12244045.lite.1",
+        "size": "1851303643",
+        "date": "2022-08-06 11:09:01",
+        "md5": "2cc8f4a7fd285d66810bad3bf7a6b562",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2020-07-18 10:20:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR12244044",
+    "experiment_accession": "SRX8752232",
+    "sample_accession": "SAMN15563015",
+    "secondary_sample_accession": "SRS7024198",
+    "sample_alias": "GSM4675279",
+    "sample_title": "E2AL12",
+    "scientific_name": "Arabidopsis thaliana",
+    "tax_id": "3702",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "10 d.o whole seedlings",
+        "units": ""
+      },
+      {
+        "tag": "line",
+        "value": "transgenics 35S:MA-JcERFVII2 line 1 (ecotype Col-0)",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Aerobic",
+        "units": ""
+      },
+      {
+        "tag": "replicates",
+        "value": "replicate 2",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA646755",
+    "secondary_study_accession": "SRP272288",
+    "study_title": "Transcriptome profiling from Arabidopsis thaliana overexpressing Jatropha curcas ERFVII2",
+    "study_description": "Gene expression analysis by high-throughtput RNA-sequencing from Arabidopsis seedlings (10 d.o.) overexpressing Jatropha curcas (Jc) ERFVII-2 in wildtype (MC) or stablized (MA) forms. Overall design: 6 samples, 1 condition (aerobic) and 2 independent biological replicates",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "32825465"
+      }
+    ],
+    "experiment_title": "GSM4675279: E2AL12; Arabidopsis thaliana; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "Total RNA samples were extracted by TriZOL and subjected to DNase treatment and RNA cleanup using an RNA-mini kit (Qiagen) Three μg of total RNAs was used to generate a sequencing library using an Illumina® TruSeqTM RNA Sample Preparation Kit v2.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "38491802",
+    "base_count": "7775344004",
+    "sra_run_bytes": "2170109365",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "E2AL12_1.fastq.gz",
+        "size": "1897998237",
+        "date": "2020-07-16 19:25:39",
+        "md5": "43f27f7cf99a83531564f1c3836209c0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "E2AL12_2.fastq.gz",
+        "size": "1970537174",
+        "date": "2020-07-16 19:26:07",
+        "md5": "77921dba6491c85058211f767e8464a9",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR12244044",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR12244044/SRR12244044",
+        "size": "2170110594",
+        "date": "2020-07-16 19:26:50",
+        "md5": "b6e9b0e352cf5ea9db696b203f691dde",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR12244044.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR012/12244/SRR12244044/SRR12244044.lite.1",
+        "size": "1945269878",
+        "date": "2022-07-16 03:53:06",
+        "md5": "ed028f3208d7508d9f1eac89a17ac8fb",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2020-07-18 10:20:26",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR12244043",
+    "experiment_accession": "SRX8752231",
+    "sample_accession": "SAMN15563016",
+    "secondary_sample_accession": "SRS7024197",
+    "sample_alias": "GSM4675278",
+    "sample_title": "E2AL11",
+    "scientific_name": "Arabidopsis thaliana",
+    "tax_id": "3702",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "10 d.o whole seedlings",
+        "units": ""
+      },
+      {
+        "tag": "line",
+        "value": "transgenics 35S:MA-JcERFVII2 line 1 (ecotype Col-0)",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Aerobic",
+        "units": ""
+      },
+      {
+        "tag": "replicates",
+        "value": "replicate 1",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA646755",
+    "secondary_study_accession": "SRP272288",
+    "study_title": "Transcriptome profiling from Arabidopsis thaliana overexpressing Jatropha curcas ERFVII2",
+    "study_description": "Gene expression analysis by high-throughtput RNA-sequencing from Arabidopsis seedlings (10 d.o.) overexpressing Jatropha curcas (Jc) ERFVII-2 in wildtype (MC) or stablized (MA) forms. Overall design: 6 samples, 1 condition (aerobic) and 2 independent biological replicates",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "32825465"
+      }
+    ],
+    "experiment_title": "GSM4675278: E2AL11; Arabidopsis thaliana; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "Total RNA samples were extracted by TriZOL and subjected to DNase treatment and RNA cleanup using an RNA-mini kit (Qiagen) Three μg of total RNAs was used to generate a sequencing library using an Illumina® TruSeqTM RNA Sample Preparation Kit v2.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina NovaSeq 6000",
+    "read_count": "45379742",
+    "base_count": "9166707884",
+    "sra_run_bytes": "2565804529",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "E2AL11_1.fastq.gz",
+        "size": "2225648628",
+        "date": "2020-07-16 19:43:21",
+        "md5": "07954b74d8b0cf89260459bd8e404677",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "E2AL11_2.fastq.gz",
+        "size": "2336251526",
+        "date": "2020-07-16 19:42:34",
+        "md5": "0cd51a170e6b33376623a47e49b5c31a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR12244043",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR12244043/SRR12244043",
+        "size": "2565805757",
+        "date": "2020-07-16 21:34:14",
+        "md5": "c49d67e085fd81742482f41db3c9a758",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR12244043.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR012/12244/SRR12244043/SRR12244043.lite.1",
+        "size": "2293384713",
+        "date": "2022-07-16 19:54:40",
+        "md5": "5a0d1804cde60fdbbebb9fdf368f6f8b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2020-07-18 10:20:26",
+    "run_is_public": "true"
+  }
+]

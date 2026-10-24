@@ -1,0 +1,222 @@
+[
+  {
+    "run_accession": "SRR926846",
+    "experiment_accession": "SRX318577",
+    "sample_accession": "SAMN02228106",
+    "secondary_sample_accession": "SRS472331",
+    "sample_alias": "GSM1181834",
+    "sample_title": "H111 wt micro-oxic",
+    "scientific_name": "Burkholderia cenocepacia H111",
+    "tax_id": "1055524",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bc H111 planktonic cells, micro-oxic conditions",
+        "units": ""
+      },
+      {
+        "tag": "strain/background",
+        "value": "H111",
+        "units": ""
+      },
+      {
+        "tag": "genotype/variation",
+        "value": "wild-type",
+        "units": ""
+      },
+      {
+        "tag": "growth condition",
+        "value": "micro-oxic",
+        "units": ""
+      },
+      {
+        "tag": "cell type",
+        "value": "planktonic cells, OD600 equal 0.4",
+        "units": ""
+      },
+      {
+        "tag": "medium",
+        "value": "complex medium LB",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "H111",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA210753",
+    "secondary_study_accession": "SRP026606",
+    "study_title": "Response of Burkholderia cenocepacia H111 to micro-oxia",
+    "study_description": "B. cenocepacia is an opportunistic human pathogen that is particularly problematic for patients suffering from cystic fibrosis (CF). In the CF lung, bacteria grow to high densities within the viscous mucus that is limited in oxygen. Pseudomonas aeruginosa, the dominant pathogen in CF patients, is known to grow and survive under oxygen-limited to anaerobic conditions by using micro-oxic respiration, denitrification and fermentative pathways. In contrast, inspection of the genome sequences of available B. cenocepacia strains suggested that B. cenocepacia is an obligate aerobic and non-fermenting bacterium. In accordance with the bioinformatics analysis, we observed that B. cenocepacia H111 is able to grow with as little as 0.1% O2 but not under strictly anoxic conditions. Phenotypic analyses revealed that H111 produced larger amounts of biofilm, pellicle and proteases under micro-oxic conditions (0.5% - 5% O2, i.e. conditions that mimic those encountered in CF lung infection), and was more resistant to several antibiotics. RNA-Seq and shotgun proteomics analyses of cultures of B. cenocepacia H111 grown under micro-oxic and aerobic conditions showed up-regulation of genes involved in the synthesis of the exopolysaccharide (EPS) cepacian as well as several proteases, two isocitrate lyases and other genes potentially important for life in micro-oxia. Overall design: Oxygen regulation in Burkholderia cenocepacia was investigated using RNA-Seq of cells grown under aerobic or micro-oxic conditions.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "24023794"
+      }
+    ],
+    "experiment_title": "GSM1181834: H111 wt micro-oxic; Burkholderia cenocepacia H111; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were flash frozen on dry ice, and RNA was harvested using hot phenol protocol (Pessi et al. 2007) and DNA was removed. First-strand cDNA synthesis was performed using an oligo(dT)-adapter primer and the M-MLV reverse transcriptase. The resulting cDNA was PCR-amplified to about 20-30 ng/μl using a high fidelity DNA polymerase. The cDNA was purified using the Agencourt AMPure XP kit (Beckman Coulter Genomics) and was analyzed by capillary electrophoresis. The primers used for PCR amplification were designed for TruSeq sequencing according to the instructions of Illumina. The following adapter sequences flank the cDNA inserts: TrueSeq_Sense_primer 5' ́-AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT-3'; TrueSeq_Antisense_NNNNNN_primer Barcode 5'-CAAGCAGAAGACGGCATACGAGAT-NNNNNN-GTGACTGGAGTTCAGACGTGTGCTCTTCCGATC(dT25)-3'.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "2822229",
+    "base_count": "256822839",
+    "sra_run_bytes": "168331202",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Burkholderia_cenocepacia_RNA_microaerob_M_minus_TEX.fq",
+        "size": "684369962",
+        "date": "2020-05-23 13:29:59",
+        "md5": "3ac2ff93630bec46dad148b0767abbda",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR926846",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR926846/SRR926846",
+        "size": "168332952",
+        "date": "2013-07-08 11:23:35",
+        "md5": "6fabad175bd815a20819df6c4ec69397",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR926846.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR000/926/SRR926846/SRR926846.sralite.1",
+        "size": "71165350",
+        "date": "2020-06-23 15:00:35",
+        "md5": "7d5575576aded755c9816f935612c4d5",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2013-07-15 16:18:59",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR926845",
+    "experiment_accession": "SRX318576",
+    "sample_accession": "SAMN02228109",
+    "secondary_sample_accession": "SRS455461",
+    "sample_alias": "GSM1181833",
+    "sample_title": "H111 wt aeobic",
+    "scientific_name": "Burkholderia cenocepacia H111",
+    "tax_id": "1055524",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Bc H111 planktonic cells, aerobic conditions",
+        "units": ""
+      },
+      {
+        "tag": "strain/background",
+        "value": "H111",
+        "units": ""
+      },
+      {
+        "tag": "genotype/variation",
+        "value": "wild-type",
+        "units": ""
+      },
+      {
+        "tag": "growth condition",
+        "value": "aerobic",
+        "units": ""
+      },
+      {
+        "tag": "cell type",
+        "value": "planktonic cells, OD600 equal 0.8",
+        "units": ""
+      },
+      {
+        "tag": "medium",
+        "value": "complex medium LB",
+        "units": ""
+      },
+      {
+        "tag": "strain",
+        "value": "H111",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA210753",
+    "secondary_study_accession": "SRP026606",
+    "study_title": "Response of Burkholderia cenocepacia H111 to micro-oxia",
+    "study_description": "B. cenocepacia is an opportunistic human pathogen that is particularly problematic for patients suffering from cystic fibrosis (CF). In the CF lung, bacteria grow to high densities within the viscous mucus that is limited in oxygen. Pseudomonas aeruginosa, the dominant pathogen in CF patients, is known to grow and survive under oxygen-limited to anaerobic conditions by using micro-oxic respiration, denitrification and fermentative pathways. In contrast, inspection of the genome sequences of available B. cenocepacia strains suggested that B. cenocepacia is an obligate aerobic and non-fermenting bacterium. In accordance with the bioinformatics analysis, we observed that B. cenocepacia H111 is able to grow with as little as 0.1% O2 but not under strictly anoxic conditions. Phenotypic analyses revealed that H111 produced larger amounts of biofilm, pellicle and proteases under micro-oxic conditions (0.5% - 5% O2, i.e. conditions that mimic those encountered in CF lung infection), and was more resistant to several antibiotics. RNA-Seq and shotgun proteomics analyses of cultures of B. cenocepacia H111 grown under micro-oxic and aerobic conditions showed up-regulation of genes involved in the synthesis of the exopolysaccharide (EPS) cepacian as well as several proteases, two isocitrate lyases and other genes potentially important for life in micro-oxia. Overall design: Oxygen regulation in Burkholderia cenocepacia was investigated using RNA-Seq of cells grown under aerobic or micro-oxic conditions.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "24023794"
+      }
+    ],
+    "experiment_title": "GSM1181833: H111 wt aeobic; Burkholderia cenocepacia H111; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "Cells were flash frozen on dry ice, and RNA was harvested using hot phenol protocol (Pessi et al. 2007) and DNA was removed. First-strand cDNA synthesis was performed using an oligo(dT)-adapter primer and the M-MLV reverse transcriptase. The resulting cDNA was PCR-amplified to about 20-30 ng/μl using a high fidelity DNA polymerase. The cDNA was purified using the Agencourt AMPure XP kit (Beckman Coulter Genomics) and was analyzed by capillary electrophoresis. The primers used for PCR amplification were designed for TruSeq sequencing according to the instructions of Illumina. The following adapter sequences flank the cDNA inserts: TrueSeq_Sense_primer 5' ́-AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT-3'; TrueSeq_Antisense_NNNNNN_primer Barcode 5'-CAAGCAGAAGACGGCATACGAGAT-NNNNNN-GTGACTGGAGTTCAGACGTGTGCTCTTCCGATC(dT25)-3'.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "3019150",
+    "base_count": "274742650",
+    "sra_run_bytes": "177843832",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Burkholderia_cenocepacia_RNA_aerob_A_minus_TEX.fq",
+        "size": "732127203",
+        "date": "2020-05-23 13:45:33",
+        "md5": "a20230e9ddf14dc5abae8a947c747304",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR926845",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR926845/SRR926845",
+        "size": "177845581",
+        "date": "2013-07-08 11:23:35",
+        "md5": "e20bcc11dd0c9746a3e27fc91919e623",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR926845.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR000/926/SRR926845/SRR926845.sralite.1",
+        "size": "76043826",
+        "date": "2020-06-22 03:59:42",
+        "md5": "850ecadf105b655991fc1fcd1cbde57a",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2013-07-15 16:18:59",
+    "run_is_public": "true"
+  }
+]

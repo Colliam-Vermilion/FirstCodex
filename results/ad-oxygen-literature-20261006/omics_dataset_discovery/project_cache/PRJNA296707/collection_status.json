@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA296707",
+  "checked_utc": "2026-10-24T14:41:52.992427+00:00",
+  "ena_run_count": 12,
+  "ncbi_sra_count": 12,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA296707&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:52.992560+00:00",
+    "raw_path": "raw/ENA/b5f7cf1b70c2a548f1d28bd3d7e1d393ff95f969243d3a4396e706261192a780.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA296707&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 16027,
+    "sha256": "4a95aa5c9977c29e59705e63bf21252003e14045a665cfe37bd114a7b7b18c04",
+    "finished_utc": "2026-10-24T14:41:53.295537+00:00",
+    "measured_wall_seconds": 0.303
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA296707&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:41:53.696689+00:00",
+    "raw_path": "raw/NCBI/8648b03789bdf09bd11cdb32036061d9d4cd64e1d7cf06a95d7e705753ad7d38.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA296707&retmode=json&retmax=200&retstart=0",
+    "bytes": 414,
+    "sha256": "5f8ee2544d46f9fc7d58a48ce782a67bbf0fbd0ceae79c72af2c68aa2cfef9b0",
+    "finished_utc": "2026-10-24T14:41:53.792276+00:00",
+    "measured_wall_seconds": 0.096
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA296707",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:54.536833+00:00",
+    "raw_path": "raw/ENA/015359ac8fe33d0d79a63878736f910d0160c57202a4a6b3241a48935896c86f.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA296707",
+    "bytes": 3608,
+    "sha256": "21b5ad16b3d1612738254351a8950039a9bec5b84c9c8e0c28cea49d6cc2fd7d",
+    "finished_utc": "2026-10-24T14:41:54.681727+00:00",
+    "measured_wall_seconds": 0.145
+  },
+  "project_title": "Metabolic Response of Clostridium ljungdahlii to Oxygen Exposure",
+  "project_description": "Clostridium ljungdahlii is an important synthesis gas fermenting bacterium used in the biofuels industry, and a preliminary investigation showed that it has some tolerance to oxygen when cultured in rich mixotrophic medium. Batch cultures not only continue to grow and consume H2, CO, and fructose after 8% O2 exposure, but fermentation product analysis revealed an increase in ethanol concentration and decreased acetate concentration compared to non-oxygen exposed cultures. In this study, the mechanisms for higher ethanol production and oxygen/ROS detoxification were identified using a combination of fermentation, RNAseq differential expression, and enzyme activity analyses. Results indicate that the higher ethanol and lower acetate concentration were due to the carboxylic acid reductase activity of a more highly expressed predicted aldehyde oxidoreductase (CLJU_c24130) and that C. ljungdahlii's primary defense upon oxygen exposure is a predicted rubrerythrin (CLJU_c39340). The metabolic responses of higher ethanol production and oxygen/ROS detoxification were found to be linked by cofactor management, substrate and energy metabolism. This study contributes new insights into the physiology and metabolism of C. ljungdahlii and provides new genetic targets to generate C. ljungdahlii strains that produce more ethanol and are more tolerant to syngas contaminants.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA296707"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP064035"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "North Carolina State University",
+      "value": "PRJNA296707"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA296707&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA296707&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 12
+}

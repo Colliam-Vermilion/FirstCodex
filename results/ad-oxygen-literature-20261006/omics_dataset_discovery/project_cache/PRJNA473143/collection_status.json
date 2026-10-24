@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA473143",
+  "checked_utc": "2026-10-24T14:30:47.920679+00:00",
+  "ena_run_count": 18,
+  "ncbi_sra_count": 18,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA473143&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:47.920818+00:00",
+    "raw_path": "raw/ENA/d19e562a0c19142727a7b9766906dcc4d6fde4424c57b1680dcca97b469724d1.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA473143&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 25329,
+    "sha256": "43b309d487a7cbe33e6eff6462a650d1a7140d350792e3476a3161023893155b",
+    "finished_utc": "2026-10-24T14:30:48.127531+00:00",
+    "measured_wall_seconds": 0.207
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA473143&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:48.528872+00:00",
+    "raw_path": "raw/NCBI/876e1c1bdcfa4d48e80f78b490b980aa9b49fa720fe915bde2e6ed2749736a93.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA473143&retmode=json&retmax=200&retstart=0",
+    "bytes": 474,
+    "sha256": "62a3e4786ead0b9a1f38183f970a3fdbec6e0240b198264eb8ecc0e18c3b1d49",
+    "finished_utc": "2026-10-24T14:30:48.629725+00:00",
+    "measured_wall_seconds": 0.101
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA473143",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:49.643774+00:00",
+    "raw_path": "raw/ENA/1cee93e0b642cb46143de6bf8e28c3067cea7cbcc7239e598596079c56cca1a1.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA473143",
+    "bytes": 2384,
+    "sha256": "738d1abe89d8eb54fc2ff4ccd543a5d89e4737c97d4ffc3a6c997ac567c6545c",
+    "finished_utc": "2026-10-24T14:30:49.798509+00:00",
+    "measured_wall_seconds": 0.155
+  },
+  "project_title": "Formation of soil organic matter under redox fluctuations depends on soil type",
+  "project_description": "Here, we mimicked paddy soil development in the laboratory by exposing two soil types with contrasting mineral assemblage to 8 anoxic-oxic cycles over 1 year. A second set of samples with static oxic conditions was used as control. Soils received rice straw labelled with 13C at the beginning of each cycle. Fresh bulk samples were analyzed for their microbial diversity and microbial community composition using 16S rRNA gene sequencing and revealed a strong influence of soil type on the microbial community developing under redox fluctuation.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA473143"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP148981"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "mothur",
+      "value": "PRJNA473143"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA473143&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA473143&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 18
+}

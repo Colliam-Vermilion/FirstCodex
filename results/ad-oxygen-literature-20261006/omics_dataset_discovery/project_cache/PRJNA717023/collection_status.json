@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA717023",
+  "checked_utc": "2026-10-24T14:30:02.587506+00:00",
+  "ena_run_count": 4,
+  "ncbi_sra_count": 4,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA717023&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:02.587642+00:00",
+    "raw_path": "raw/ENA/eee3ea0195de3efb7012dfd475ba89e9e201afe3e7ef0446a77b77b80da522b9.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA717023&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 5900,
+    "sha256": "cd6d5da8599b5b4286b15929941c5120961530c23a059890c5266536f924286b",
+    "finished_utc": "2026-10-24T14:30:03.791709+00:00",
+    "measured_wall_seconds": 1.204
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA717023&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:04.192668+00:00",
+    "raw_path": "raw/NCBI/805f0bb226ed5aa9824afd8dfe9093b1878a2c1afb16f0d46112026541edb9d2.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA717023&retmode=json&retmax=200&retstart=0",
+    "bytes": 335,
+    "sha256": "9ca8c77a4a1dbc872dba585c2e67bce7a0f5bd14db84fd6cbf0dc9875898f2fd",
+    "finished_utc": "2026-10-24T14:30:04.356386+00:00",
+    "measured_wall_seconds": 0.164
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA717023",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:05.041102+00:00",
+    "raw_path": "raw/ENA/a3b62936706cfc48a91140aa22d3bfa6f1217a3a8538e409a41ab395d6ddacba.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA717023",
+    "bytes": 2060,
+    "sha256": "0d1e89baaab07f538fb65ad799d89be6834a09179e71b5e19a14b22ef122e58b",
+    "finished_utc": "2026-10-24T14:30:05.616882+00:00",
+    "measured_wall_seconds": 0.576
+  },
+  "project_title": "Influence of microaeration on anaerobic digestion of aniline",
+  "project_description": "In this study, the intermittent micro aeration influence on anaerobic digestion of aniline was tested in a bench-scale reactor inoculated with anaerobic textile and petrochemical sludges.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA717023"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP312012"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Federal University of Pernambuco",
+      "value": "PRJNA717023"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA717023&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA717023&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 4
+}

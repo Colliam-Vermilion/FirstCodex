@@ -1,0 +1,4452 @@
+[
+  {
+    "run_accession": "ERR15113228",
+    "experiment_accession": "ERX14517918",
+    "sample_accession": "SAMEA118543823",
+    "secondary_sample_accession": "ERS24933687",
+    "sample_alias": "SAMEA118543823",
+    "sample_title": "sample 17",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S17",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S17",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "2633823",
+    "base_count": "795414546",
+    "sra_run_bytes": "329683372",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "17_S17_R1.fastq.gz",
+        "size": "209716943",
+        "date": "2025-11-20 04:32:51",
+        "md5": "dcc327886df0ea1c8073b121415a60e0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "17_S17_R2.fastq.gz",
+        "size": "214772745",
+        "date": "2025-11-20 04:32:53",
+        "md5": "70c285f51cfcb0cd66dd036d4ff8a5a6",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113228",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113228/ERR15113228",
+        "size": "329685885",
+        "date": "2025-11-20 04:33:04",
+        "md5": "3cbe953de7337e4951488fa46515f8a6",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113228.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113228/ERR15113228.lite.1",
+        "size": "205691593",
+        "date": "2025-11-20 05:05:35",
+        "md5": "89def7d9ccd15aaeebbac8f93faee088",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-20 00:50:38",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113221",
+    "experiment_accession": "ERX14517911",
+    "sample_accession": "SAMEA118543816",
+    "secondary_sample_accession": "ERS24933680",
+    "sample_alias": "SAMEA118543816",
+    "sample_title": "sample 10",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S10",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S10",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "5446205",
+    "base_count": "1644753910",
+    "sra_run_bytes": "677897840",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "10_S10_R1.fastq.gz",
+        "size": "375889612",
+        "date": "2025-11-20 02:55:05",
+        "md5": "995653cb442bff86aa295c4ab1190281",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "10_S10_R2.fastq.gz",
+        "size": "409396639",
+        "date": "2025-11-20 02:55:08",
+        "md5": "f5c6538b15511c63809203e582474fbb",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113221",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113221/ERR15113221",
+        "size": "677900354",
+        "date": "2025-11-20 02:55:21",
+        "md5": "5653bfbd14873707fefd7543a0dadcca",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113221.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113221/ERR15113221.lite.1",
+        "size": "424784514",
+        "date": "2025-11-20 03:02:27",
+        "md5": "c3332a7f214389d634609af37962e257",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-20 00:46:04",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113217",
+    "experiment_accession": "ERX14517907",
+    "sample_accession": "SAMEA118543812",
+    "secondary_sample_accession": "ERS24933676",
+    "sample_alias": "SAMEA118543812",
+    "sample_title": "sample 6",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S6",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S6",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "3",
+    "base_count": "906",
+    "sra_run_bytes": "60784",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "6_S6_R1.fastq.gz",
+        "url": "https://sra-pub-src-2.s3.amazonaws.com/ERR15113217/6_S6_R1.fastq.gz.1",
+        "size": "432",
+        "date": "2025-11-20 01:23:53",
+        "md5": "d79a2f0a801a40d904a3ddd590367564",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "6_S6_R2.fastq.gz",
+        "url": "https://sra-pub-src-2.s3.amazonaws.com/ERR15113217/6_S6_R2.fastq.gz.1",
+        "size": "453",
+        "date": "2025-11-20 01:23:53",
+        "md5": "f5199f147660771937ccfc7818d4ac46",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113217",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos13/sra-pub-run-1330/ERR015/15113/ERR15113217/ERR15113217.1",
+        "size": "62403",
+        "date": "2025-11-20 01:24:02",
+        "md5": "8bd0c0a7f8090fd7ac20efb250352252",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113235",
+    "experiment_accession": "ERX14517925",
+    "sample_accession": "SAMEA118543830",
+    "secondary_sample_accession": "ERS24933694",
+    "sample_alias": "SAMEA118543830",
+    "sample_title": "sample 24",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S24",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S24",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "9584035",
+    "base_count": "2894378570",
+    "sra_run_bytes": "1225166912",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "24_S24_R1.fastq.gz",
+        "size": "784139200",
+        "date": "2025-11-20 00:26:05",
+        "md5": "a311e8947265e5929e40bd5ac157fb50",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "24_S24_R2.fastq.gz",
+        "size": "796053740",
+        "date": "2025-11-20 00:26:07",
+        "md5": "b11e53f02a545eb1275834ce20bdb71c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113235",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113235/ERR15113235",
+        "size": "1225169427",
+        "date": "2025-11-20 00:26:20",
+        "md5": "0094175132ca7d902f43362fc4d5622f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113235.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113235/ERR15113235.lite.1",
+        "size": "746872751",
+        "date": "2025-11-20 01:15:07",
+        "md5": "9aa043ff6eacaa4715348936758303ac",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113236",
+    "experiment_accession": "ERX14517926",
+    "sample_accession": "SAMEA118543831",
+    "secondary_sample_accession": "ERS24933695",
+    "sample_alias": "SAMEA118543831",
+    "sample_title": "sample 25",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S25",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S25",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "10123921",
+    "base_count": "3057424142",
+    "sra_run_bytes": "1262823226",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "25_S25_R1.fastq.gz",
+        "size": "779254877",
+        "date": "2025-11-20 00:24:44",
+        "md5": "5dbc74b1f0a010b53d38cf78ca0434d0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "25_S25_R2.fastq.gz",
+        "size": "791630989",
+        "date": "2025-11-20 00:24:46",
+        "md5": "87fb27b9df0b344ceeb759be296cdc90",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113236",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113236/ERR15113236",
+        "size": "1262825742",
+        "date": "2025-11-20 00:24:58",
+        "md5": "bab97253ce9de84c2b4242ed403491fe",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113236.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113236/ERR15113236.lite.1",
+        "size": "788699390",
+        "date": "2025-11-20 01:14:59",
+        "md5": "77b0417da4f30c3b5320e0ee05e6061c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113218",
+    "experiment_accession": "ERX14517908",
+    "sample_accession": "SAMEA118543813",
+    "secondary_sample_accession": "ERS24933677",
+    "sample_alias": "SAMEA118543813",
+    "sample_title": "sample 7",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S7",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S7",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "9106503",
+    "base_count": "2750163906",
+    "sra_run_bytes": "1143671806",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "7_S7_R1.fastq.gz",
+        "size": "724650351",
+        "date": "2025-11-20 04:33:56",
+        "md5": "3edeee48ac74b909e5dcc8d016063424",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "7_S7_R2.fastq.gz",
+        "size": "742886156",
+        "date": "2025-11-20 04:33:58",
+        "md5": "d181020d8daa9a75926d3e45930d185a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113218",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113218/ERR15113218",
+        "size": "1143674326",
+        "date": "2025-11-20 04:34:09",
+        "md5": "68b26e1a6d8462fdcd10de25df0b9d4f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113218.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113218/ERR15113218.lite.1",
+        "size": "709795074",
+        "date": "2025-11-20 05:05:38",
+        "md5": "4f0c1fe8021e1194d17766bf4c75c416",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-20 00:50:38",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113231",
+    "experiment_accession": "ERX14517921",
+    "sample_accession": "SAMEA118543826",
+    "secondary_sample_accession": "ERS24933690",
+    "sample_alias": "SAMEA118543826",
+    "sample_title": "sample 20",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S20",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S20",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "2538959",
+    "base_count": "766765618",
+    "sra_run_bytes": "317049414",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "20_S20_R1.fastq.gz",
+        "size": "194056922",
+        "date": "2025-11-20 00:23:31",
+        "md5": "9aed8e504da76f6a25b676d18c8009f4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "20_S20_R2.fastq.gz",
+        "size": "199889659",
+        "date": "2025-11-20 00:23:32",
+        "md5": "772d8bdac3df56dc135cbe2572ad8174",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113231",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113231/ERR15113231",
+        "size": "317051930",
+        "date": "2025-11-20 00:23:41",
+        "md5": "fc57e938d9717126f24f1d2696bf759f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113231.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113231/ERR15113231.lite.1",
+        "size": "198332938",
+        "date": "2025-11-20 01:14:51",
+        "md5": "3decc01e0ff54a25c6151287d1af753a",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113214",
+    "experiment_accession": "ERX14517904",
+    "sample_accession": "SAMEA118543809",
+    "secondary_sample_accession": "ERS24933673",
+    "sample_alias": "SAMEA118543809",
+    "sample_title": "sample 3",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S3",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S3",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "11285310",
+    "base_count": "3408163620",
+    "sra_run_bytes": "1407857444",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3_S3_R1.fastq.gz",
+        "size": "887723612",
+        "date": "2025-11-22 05:02:12",
+        "md5": "bbd124ff613d0a839ada0a2f37a03325",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "3_S3_R2.fastq.gz",
+        "size": "899616613",
+        "date": "2025-11-22 05:02:10",
+        "md5": "ed083a2322bba395211613bf4aa9e592",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113214",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113214/ERR15113214",
+        "size": "1407859959",
+        "date": "2025-11-22 05:02:22",
+        "md5": "a97b73eb025a885357d495005298a9f2",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113214.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos13/sra-pub-zq-1307/ERR015/15113/ERR15113214/ERR15113214.lite.1",
+        "size": "878825711",
+        "date": "2025-11-22 06:50:37",
+        "md5": "0ec51a24b378b30fb45c477af4ff2036",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-20 00:39:40",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113237",
+    "experiment_accession": "ERX14517927",
+    "sample_accession": "SAMEA118543832",
+    "secondary_sample_accession": "ERS24933696",
+    "sample_alias": "SAMEA118543832",
+    "sample_title": "sample 26",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S26",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S26",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "9142499",
+    "base_count": "2761034698",
+    "sra_run_bytes": "1140922982",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "26_S26_R1.fastq.gz",
+        "size": "701808679",
+        "date": "2025-11-20 04:58:38",
+        "md5": "4b3400f9f69cd367854764c72099179b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "26_S26_R2.fastq.gz",
+        "size": "715279304",
+        "date": "2025-11-20 04:58:33",
+        "md5": "3470fa7ce23b839146ff31d08c9d111b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113237",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113237/ERR15113237",
+        "size": "1140925500",
+        "date": "2025-11-20 04:58:56",
+        "md5": "d265c995574e6b8992a5db53e028519e",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113237.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113237/ERR15113237.lite.1",
+        "size": "712529128",
+        "date": "2025-11-20 05:05:00",
+        "md5": "e4c5299e741b6d3baa0bfd6eef7481e3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-20 00:41:48",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113233",
+    "experiment_accession": "ERX14517923",
+    "sample_accession": "SAMEA118543828",
+    "secondary_sample_accession": "ERS24933692",
+    "sample_alias": "SAMEA118543828",
+    "sample_title": "sample 22",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S22",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S22",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "11570982",
+    "base_count": "3494436564",
+    "sra_run_bytes": "1452463580",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "22_S22_R1.fastq.gz",
+        "size": "919285026",
+        "date": "2025-11-20 00:57:11",
+        "md5": "6f658d4db107a3c943c811b871f4b37c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "22_S22_R2.fastq.gz",
+        "size": "925849470",
+        "date": "2025-11-20 00:57:08",
+        "md5": "b2bb84bce94e5cfd8e5370317851cdb6",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113233",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113233/ERR15113233",
+        "size": "1452466102",
+        "date": "2025-11-20 00:57:28",
+        "md5": "cb2bb89d1bbd09c08ea49c4b281d83c6",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113233.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113233/ERR15113233.lite.1",
+        "size": "901145878",
+        "date": "2025-11-20 01:15:06",
+        "md5": "c15cca62b31443b5fe00d2943edd5439",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113223",
+    "experiment_accession": "ERX14517913",
+    "sample_accession": "SAMEA118543818",
+    "secondary_sample_accession": "ERS24933682",
+    "sample_alias": "SAMEA118543818",
+    "sample_title": "sample 12",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S12",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S12",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "11776633",
+    "base_count": "3556543166",
+    "sra_run_bytes": "1463627106",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "12_S12_R1.fastq.gz",
+        "size": "884700900",
+        "date": "2025-11-19 23:56:03",
+        "md5": "7fdd6f143dd55851cddb58ce70484846",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "12_S12_R2.fastq.gz",
+        "size": "914806543",
+        "date": "2025-11-19 23:56:06",
+        "md5": "40d43b75e4f0377f44e8eee4a5b9ed94",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113223",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113223/ERR15113223",
+        "size": "1463629620",
+        "date": "2025-11-19 23:56:18",
+        "md5": "068219ddfcc5a829f5162f707768a416",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113223.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos13/sra-pub-zq-1307/ERR015/15113/ERR15113223/ERR15113223.lite.1",
+        "size": "916931580",
+        "date": "2025-11-20 00:06:32",
+        "md5": "1cb4e89d511d94f187079d69df9dc9f3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113216",
+    "experiment_accession": "ERX14517906",
+    "sample_accession": "SAMEA118543811",
+    "secondary_sample_accession": "ERS24933675",
+    "sample_alias": "SAMEA118543811",
+    "sample_title": "sample 5",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S5",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S5",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "7013692",
+    "base_count": "2118134984",
+    "sra_run_bytes": "865155168",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "5_S5_R1.fastq.gz",
+        "url": "https://sra-pub-src-2.s3.amazonaws.com/ERR15113216/5_S5_R1.fastq.gz.1",
+        "size": "516250957",
+        "date": "2025-11-20 01:25:19",
+        "md5": "4df48acf114a2af50f260a08616908a3",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "5_S5_R2.fastq.gz",
+        "url": "https://sra-pub-src-2.s3.amazonaws.com/ERR15113216/5_S5_R2.fastq.gz.1",
+        "size": "533853632",
+        "date": "2025-11-20 01:25:18",
+        "md5": "0454983fd3103b35e634f3e84b292bb0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113216",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113216/ERR15113216",
+        "size": "865157686",
+        "date": "2025-11-20 01:25:31",
+        "md5": "85fc26542a113003ddef54a52d9bd8db",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113216.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113216/ERR15113216.lite.1",
+        "size": "546832686",
+        "date": "2025-11-20 03:02:04",
+        "md5": "c53f78c9550bf87e7b47138d530e4159",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113239",
+    "experiment_accession": "ERX14517929",
+    "sample_accession": "SAMEA118543834",
+    "secondary_sample_accession": "ERS24933698",
+    "sample_alias": "SAMEA118543834",
+    "sample_title": "sample 28",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S28",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S28",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "10031338",
+    "base_count": "3029464076",
+    "sra_run_bytes": "1246858441",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "28_S28_R1.fastq.gz",
+        "size": "782284858",
+        "date": "2025-11-21 04:56:54",
+        "md5": "d4e25c750ca47a07673d34feb99cd046",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "28_S28_R2.fastq.gz",
+        "size": "789072261",
+        "date": "2025-11-21 04:56:52",
+        "md5": "d7bf47c09994bbada8e69e8fa236577c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113239",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113239/ERR15113239",
+        "size": "1246860957",
+        "date": "2025-11-21 04:57:09",
+        "md5": "4dc4063ad05d4e5ae4f7df5b8fdeb32e",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113239.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos7/sra-pub-zq-41/ERR015/15113/ERR15113239/ERR15113239.lite.1",
+        "size": "781561809",
+        "date": "2025-11-21 06:49:38",
+        "md5": "ad36e636b8af8a3a3642c8ee2b82dec5",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-20 00:39:40",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113226",
+    "experiment_accession": "ERX14517916",
+    "sample_accession": "SAMEA118543821",
+    "secondary_sample_accession": "ERS24933685",
+    "sample_alias": "SAMEA118543821",
+    "sample_title": "sample 15",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S15",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S15",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "5172212",
+    "base_count": "1562008024",
+    "sra_run_bytes": "649454807",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "15_S15_R1.fastq.gz",
+        "size": "411602137",
+        "date": "2025-11-20 04:55:13",
+        "md5": "5d511f97e5be7db18c5e2c1493e5bb9d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "15_S15_R2.fastq.gz",
+        "size": "418426681",
+        "date": "2025-11-20 04:55:14",
+        "md5": "bb549d09e3ba9c14f7cfa751f66d6e96",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113226",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113226/ERR15113226",
+        "size": "649457323",
+        "date": "2025-11-20 04:55:26",
+        "md5": "a2f97e572c7481865258260522569db4",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113226.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113226/ERR15113226.lite.1",
+        "size": "403596279",
+        "date": "2025-11-20 05:04:23",
+        "md5": "fd82ebe423f96588004bf9d9d9b7fce6",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-20 00:39:40",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113222",
+    "experiment_accession": "ERX14517912",
+    "sample_accession": "SAMEA118543817",
+    "secondary_sample_accession": "ERS24933681",
+    "sample_alias": "SAMEA118543817",
+    "sample_title": "sample 11",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S11",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S11",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "9330903",
+    "base_count": "2817932706",
+    "sra_run_bytes": "1187303353",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "11_S11_R1.fastq.gz",
+        "size": "756704234",
+        "date": "2025-11-19 23:54:37",
+        "md5": "aea7a47f4d569ef75af91dc5ba5d0876",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "11_S11_R2.fastq.gz",
+        "size": "780773868",
+        "date": "2025-11-19 23:54:35",
+        "md5": "d20b5dea96d07d470328556c01d3cf87",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113222",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113222/ERR15113222",
+        "size": "1187305867",
+        "date": "2025-11-19 23:54:49",
+        "md5": "9e3171604381df0b3f5cd59097ed037c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113222.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos13/sra-pub-zq-1307/ERR015/15113/ERR15113222/ERR15113222.lite.1",
+        "size": "727332535",
+        "date": "2025-11-20 00:06:29",
+        "md5": "43bb217348367a1114ec32f233e13c1b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113213",
+    "experiment_accession": "ERX14517903",
+    "sample_accession": "SAMEA118543808",
+    "secondary_sample_accession": "ERS24933672",
+    "sample_alias": "SAMEA118543808",
+    "sample_title": "sample 2",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S2",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S2",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "6376351",
+    "base_count": "1925658002",
+    "sra_run_bytes": "796422088",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "2_S2_R1.fastq.gz",
+        "size": "488923091",
+        "date": "2025-11-19 23:54:15",
+        "md5": "63788ee2ad81cbd78b59b80807619d4a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "2_S2_R2.fastq.gz",
+        "size": "492453460",
+        "date": "2025-11-19 23:54:17",
+        "md5": "93fbaf4cad991a3830c9a8566e0ebe93",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113213",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113213/ERR15113213",
+        "size": "796424606",
+        "date": "2025-11-19 23:54:27",
+        "md5": "ea8c140c4787aca1941c291d9126fad6",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113213.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos13/sra-pub-zq-1307/ERR015/15113/ERR15113213/ERR15113213.lite.1",
+        "size": "497385318",
+        "date": "2025-11-20 00:06:27",
+        "md5": "b20c363020fb191af0acd17d95bdfffb",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113225",
+    "experiment_accession": "ERX14517915",
+    "sample_accession": "SAMEA118543820",
+    "secondary_sample_accession": "ERS24933684",
+    "sample_alias": "SAMEA118543820",
+    "sample_title": "sample 14",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S14",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S14",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "4191943",
+    "base_count": "1265966786",
+    "sra_run_bytes": "515465673",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "14_S14_R1.fastq.gz",
+        "size": "243697772",
+        "date": "2025-11-20 00:24:07",
+        "md5": "bc9b2e31fec35954c3cfa38d9ecf4751",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "14_S14_R2.fastq.gz",
+        "size": "292259939",
+        "date": "2025-11-20 00:24:09",
+        "md5": "821075a6ba89ee9769e559868b6df7fc",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113225",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113225/ERR15113225",
+        "size": "515468195",
+        "date": "2025-11-20 00:24:18",
+        "md5": "827c3416b6722548387f5e51aac5778e",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113225.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113225/ERR15113225.lite.1",
+        "size": "327024103",
+        "date": "2025-11-20 01:14:49",
+        "md5": "6145839a6bed112dc7e1a55c88b65a6d",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113232",
+    "experiment_accession": "ERX14517922",
+    "sample_accession": "SAMEA118543827",
+    "secondary_sample_accession": "ERS24933691",
+    "sample_alias": "SAMEA118543827",
+    "sample_title": "sample 21",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S21",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S21",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "11112031",
+    "base_count": "3355833362",
+    "sra_run_bytes": "1389941109",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "21_S21_R1.fastq.gz",
+        "size": "866134608",
+        "date": "2025-11-19 23:55:05",
+        "md5": "a0f76dc156ff5b16674fb57be4edd270",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "21_S21_R2.fastq.gz",
+        "size": "873026377",
+        "date": "2025-11-19 23:55:08",
+        "md5": "31737b0121a4f6626c992d5df6e7425c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113232",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113232/ERR15113232",
+        "size": "1389943624",
+        "date": "2025-11-19 23:55:21",
+        "md5": "ab58e8e4e9bac63c65196f77c01409ab",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113232.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos13/sra-pub-zq-1307/ERR015/15113/ERR15113232/ERR15113232.lite.1",
+        "size": "865479512",
+        "date": "2025-11-20 00:06:26",
+        "md5": "69a68f32ab6bfb0716af7b2ff9fd3d89",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:35:54",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113234",
+    "experiment_accession": "ERX14517924",
+    "sample_accession": "SAMEA118543829",
+    "secondary_sample_accession": "ERS24933693",
+    "sample_alias": "SAMEA118543829",
+    "sample_title": "sample 23",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S23",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S23",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "9289248",
+    "base_count": "2805352896",
+    "sra_run_bytes": "1174917813",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "23_S23_R1.fastq.gz",
+        "size": "750285455",
+        "date": "2025-11-22 05:02:12",
+        "md5": "f88eaac683f2662894010ea61678d56e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "23_S23_R2.fastq.gz",
+        "size": "763331165",
+        "date": "2025-11-22 05:02:15",
+        "md5": "20f0f95f0d106aabe3f6d48d6b81ad3c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113234",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113234/ERR15113234",
+        "size": "1174920330",
+        "date": "2025-11-22 05:03:24",
+        "md5": "990b9f1b94e4cf21dbd40b6d7249e512",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113234.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos13/sra-pub-zq-1307/ERR015/15113/ERR15113234/ERR15113234.lite.1",
+        "size": "723919614",
+        "date": "2025-11-22 06:50:33",
+        "md5": "b386d868a68f46ff4b507dca77c8efde",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-20 00:39:40",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113229",
+    "experiment_accession": "ERX14517919",
+    "sample_accession": "SAMEA118543824",
+    "secondary_sample_accession": "ERS24933688",
+    "sample_alias": "SAMEA118543824",
+    "sample_title": "sample 18",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S18",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S18",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "6687675",
+    "base_count": "2019677850",
+    "sra_run_bytes": "835621779",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "18_S18_R1.fastq.gz",
+        "size": "529834484",
+        "date": "2025-11-19 23:54:45",
+        "md5": "2140b9926699f8dc67c6b845950ac236",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "18_S18_R2.fastq.gz",
+        "size": "538504350",
+        "date": "2025-11-19 23:54:47",
+        "md5": "2ec7120337500d4120bfd630af13eb08",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113229",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113229/ERR15113229",
+        "size": "835624295",
+        "date": "2025-11-19 23:54:58",
+        "md5": "793fe3341ea8372acae006dbc3d12549",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113229.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos13/sra-pub-zq-1307/ERR015/15113/ERR15113229/ERR15113229.lite.1",
+        "size": "521629715",
+        "date": "2025-11-20 00:06:28",
+        "md5": "f16e5f79af0b51ede1d5df613eedbf7f",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113215",
+    "experiment_accession": "ERX14517905",
+    "sample_accession": "SAMEA118543810",
+    "secondary_sample_accession": "ERS24933674",
+    "sample_alias": "SAMEA118543810",
+    "sample_title": "sample 4",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S4",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S4",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "18969751",
+    "base_count": "5728864802",
+    "sra_run_bytes": "2348740038",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "4_S4_R1.fastq.gz",
+        "size": "1498950848",
+        "date": "2025-11-20 04:36:23",
+        "md5": "090c173b81d21c365b65a2d099af4505",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "4_S4_R2.fastq.gz",
+        "size": "1505506175",
+        "date": "2025-11-20 04:36:26",
+        "md5": "a8ed302480582e5a8641fedf1c31f9ac",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113215",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113215/ERR15113215",
+        "size": "2348742553",
+        "date": "2025-11-20 04:36:42",
+        "md5": "27e38000927d81e6898ef2c22e50f1ff",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113215.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113215/ERR15113215.lite.1",
+        "size": "1476500585",
+        "date": "2025-11-20 05:05:51",
+        "md5": "9fc82f9c41ebd09c2471da54005a2f65",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-20 00:46:04",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113219",
+    "experiment_accession": "ERX14517909",
+    "sample_accession": "SAMEA118543814",
+    "secondary_sample_accession": "ERS24933678",
+    "sample_alias": "SAMEA118543814",
+    "sample_title": "sample 8",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S8",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S8",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "11911846",
+    "base_count": "3597377492",
+    "sra_run_bytes": "1502550664",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "8_S8_R1.fastq.gz",
+        "size": "947905178",
+        "date": "2025-11-20 00:23:55",
+        "md5": "d35330800691b242bc418072be8ca876",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "8_S8_R2.fastq.gz",
+        "size": "974896157",
+        "date": "2025-11-20 00:23:53",
+        "md5": "6ed8b4b35c605f9d1c5f69356931362d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113219",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113219/ERR15113219",
+        "size": "1502553187",
+        "date": "2025-11-20 00:24:09",
+        "md5": "4f9a93fcadaa981d88140fa5427b2bc3",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113219.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113219/ERR15113219.lite.1",
+        "size": "927836091",
+        "date": "2025-11-20 01:14:42",
+        "md5": "fbea31afa017a4596838c2b505858987",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:41:33",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113230",
+    "experiment_accession": "ERX14517920",
+    "sample_accession": "SAMEA118543825",
+    "secondary_sample_accession": "ERS24933689",
+    "sample_alias": "SAMEA118543825",
+    "sample_title": "sample 19",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S19",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S19",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "5330",
+    "base_count": "1609660",
+    "sra_run_bytes": "781584",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "19_S19_R1.fastq.gz",
+        "size": "443281",
+        "date": "2025-11-19 23:52:54",
+        "md5": "b54dd513a5ed1981a87b2e85f6a4125d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "19_S19_R2.fastq.gz",
+        "size": "449012",
+        "date": "2025-11-19 23:52:55",
+        "md5": "b7f866f959f6ad8b736c031e5829ca67",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113230",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113230/ERR15113230",
+        "size": "783806",
+        "date": "2025-11-19 23:53:03",
+        "md5": "9e20d40e07017d91157c59a1397df12d",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113230.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos13/sra-pub-zq-1307/ERR015/15113/ERR15113230/ERR15113230.lite.1",
+        "size": "513986",
+        "date": "2025-11-20 00:06:23",
+        "md5": "f02949536fa0b2c15929fd30859660a1",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113212",
+    "experiment_accession": "ERX14517902",
+    "sample_accession": "SAMEA118543807",
+    "secondary_sample_accession": "ERS24933671",
+    "sample_alias": "SAMEA118543807",
+    "sample_title": "sample 1",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S1",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S1",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "10806379",
+    "base_count": "3263526458",
+    "sra_run_bytes": "1337638621",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "1_S1_R1.fastq.gz",
+        "size": "813738497",
+        "date": "2025-11-19 23:56:43",
+        "md5": "3db4cf6c78b723eaca3bfd1e082bcfb9",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "1_S1_R2.fastq.gz",
+        "size": "829460461",
+        "date": "2025-11-19 23:56:45",
+        "md5": "af951fb964a1b16a21d319fd6fea8968",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113212",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113212/ERR15113212",
+        "size": "1337641139",
+        "date": "2025-11-19 23:57:01",
+        "md5": "99c57504af9031101689b1a50b03df8c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113212.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos13/sra-pub-zq-1307/ERR015/15113/ERR15113212/ERR15113212.lite.1",
+        "size": "841525959",
+        "date": "2025-11-20 00:06:31",
+        "md5": "3c279b05f50d05e98f58b87595bd17dc",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113220",
+    "experiment_accession": "ERX14517910",
+    "sample_accession": "SAMEA118543815",
+    "secondary_sample_accession": "ERS24933679",
+    "sample_alias": "SAMEA118543815",
+    "sample_title": "sample 9",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S9",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S9",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "5440239",
+    "base_count": "1642952178",
+    "sra_run_bytes": "676680846",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "9_S9_R1.fastq.gz",
+        "url": "https://sra-pub-src-2.s3.amazonaws.com/ERR15113220/9_S9_R1.fastq.gz.1",
+        "size": "328133331",
+        "date": "2025-11-20 01:25:12",
+        "md5": "ea5d42a91bd89e0c87288d6be27c9733",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "9_S9_R2.fastq.gz",
+        "url": "https://sra-pub-src-2.s3.amazonaws.com/ERR15113220/9_S9_R2.fastq.gz.1",
+        "size": "385440239",
+        "date": "2025-11-20 01:25:13",
+        "md5": "616a6fe2e56cf797a26d96cc5abe118a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113220",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113220/ERR15113220",
+        "size": "676683359",
+        "date": "2025-11-20 01:25:24",
+        "md5": "35c123fca7fb27f0a37f6e63d86b377f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113220.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113220/ERR15113220.lite.1",
+        "size": "423441819",
+        "date": "2025-11-20 03:01:53",
+        "md5": "e12c3c40fb080b140f426a2f71a0ce23",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113224",
+    "experiment_accession": "ERX14517914",
+    "sample_accession": "SAMEA118543819",
+    "secondary_sample_accession": "ERS24933683",
+    "sample_alias": "SAMEA118543819",
+    "sample_title": "sample 13",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S13",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S13",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "6758477",
+    "base_count": "2041060054",
+    "sra_run_bytes": "845327968",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "13_S13_R1.fastq.gz",
+        "size": "537603605",
+        "date": "2025-11-20 00:55:57",
+        "md5": "a1b43b98dd107d620c9857bebeaf7985",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "13_S13_R2.fastq.gz",
+        "size": "548354070",
+        "date": "2025-11-20 00:55:55",
+        "md5": "3464954a1a7e36e3b8a4a23559249c2d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113224",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113224/ERR15113224",
+        "size": "845330484",
+        "date": "2025-11-20 00:56:13",
+        "md5": "da413a064d02f8ce915d9713753c4b0e",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113224.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113224/ERR15113224.lite.1",
+        "size": "527085840",
+        "date": "2025-11-20 01:15:03",
+        "md5": "da78be86f4020f98ce9e837a845406c5",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113238",
+    "experiment_accession": "ERX14517928",
+    "sample_accession": "SAMEA118543833",
+    "secondary_sample_accession": "ERS24933697",
+    "sample_alias": "SAMEA118543833",
+    "sample_title": "sample 27",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S27",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S27",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "10858395",
+    "base_count": "3279235290",
+    "sra_run_bytes": "1352799835",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "27_S27_R1.fastq.gz",
+        "url": "https://sra-pub-src-2.s3.amazonaws.com/ERR15113238/27_S27_R1.fastq.gz.1",
+        "size": "843752718",
+        "date": "2025-11-20 01:26:19",
+        "md5": "c1b913a66d01581c50396e63f0c8d58b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "27_S27_R2.fastq.gz",
+        "url": "https://sra-pub-src-2.s3.amazonaws.com/ERR15113238/27_S27_R2.fastq.gz.1",
+        "size": "850012673",
+        "date": "2025-11-20 01:26:16",
+        "md5": "4c5826aa40bcfda3fc48bd2f6eb8dc9d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113238",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113238/ERR15113238",
+        "size": "1352802348",
+        "date": "2025-11-20 01:26:33",
+        "md5": "8efd13405dc74da82bfcf4d6a97e6ac5",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113238.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113238/ERR15113238.lite.1",
+        "size": "845874108",
+        "date": "2025-11-20 03:02:04",
+        "md5": "42b2080ff0781b643ed7e2475d507ac3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR15113227",
+    "experiment_accession": "ERX14517917",
+    "sample_accession": "SAMEA118543822",
+    "secondary_sample_accession": "ERS24933686",
+    "sample_alias": "SAMEA118543822",
+    "sample_title": "sample 16",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "ENA first public",
+        "value": "2025-11-19",
+        "units": ""
+      },
+      {
+        "tag": "INSDC center name",
+        "value": "UCPH",
+        "units": ""
+      },
+      {
+        "tag": "INSDC status",
+        "value": "public",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "S16",
+        "units": ""
+      },
+      {
+        "tag": "broad-scale environmental context",
+        "value": "polar biome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2018-08-01",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "0-0.05",
+        "units": ""
+      },
+      {
+        "tag": "elevation",
+        "value": "81",
+        "units": ""
+      },
+      {
+        "tag": "environmental medium",
+        "value": "bulk soil",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Greenland",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (latitude)",
+        "value": "69.2657",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (longitude)",
+        "value": "-53.4706",
+        "units": ""
+      },
+      {
+        "tag": "local environmental context",
+        "value": "polar tundra biome",
+        "units": ""
+      },
+      {
+        "tag": "project name",
+        "value": "PRJEB90283",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "S16",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB90283",
+    "secondary_study_accession": "ERP173298",
+    "study_title": "Arctic soil C and N cycling are linked with microbial adaptations during drought",
+    "study_description": "In many regions, climate change increases the frequency and intensity of drought events, yet the mechanisms by which microbial drought responses affect soil carbon (C) and nitrogen (N) cycling are poorly understood, especially for Arctic soils. To study these mechanisms, we conducted a microcosm experiment with a Greenlandic soil subjected to five levels of drought, reducing water content from 180% to 15% over the course of three weeks followed by rewetting, mimicking a natural drought event. We linked changes in microbial gene expression related to stress response as well as C and N cycling with greenhouse gas (GHG) emissions, extracellular enzyme activities and soil C and N status. We revealed maximum changes in gene expression at intermediate levels of drought (80% water content), characterized by acclimation of microbial physiology to drought conditions, including production of osmolytes as well as cell wall and membrane modifications. This peak in gene expression changes marked a tipping point associated with a pronounced decline in microbial respiration as well as extracellular enzyme activities under more intense drought conditions. Interestingly, C-cycling gene expression structures and the expression of specific C-cycling genes correlated with soil dissolved organic nitrogen (DON), NH4+, NO3- and PO43- contents. Moreover, N-cycling gene expression structures and expression of specific N-cycling genes correlated with PO43- contents and with the activity of laccases, key enzymes in lignin degradation. These findings highlight linkages between microbial C, N and P cycling due to stoichiometric constraints under drought. 24 h after rewetting, we found a shift in microbial expression of C usage genes towards more labile compounds, and an increase in genes related to anabolic activity and signalling, but no signatures of stress responses, suggesting that the microbial community had overcome rewetting-induced changes in osmotic pressure and allocated metabolic activity to growth. Overall, we show that microbial physiological drought responses and microbial resource usage related to C:N:P stoichiometry are key mechanisms of C and N cycling in the Arctic soil under drying and rewetting.",
+    "study_links": [],
+    "experiment_title": "NextSeq 500 paired end sequencing",
+    "library_name": "not applicable",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "3749685",
+    "base_count": "1132404870",
+    "sra_run_bytes": "463210417",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "16_S16_R1.fastq.gz",
+        "url": "https://sra-pub-src-2.s3.amazonaws.com/ERR15113227/16_S16_R1.fastq.gz.1",
+        "size": "279765198",
+        "date": "2025-11-20 01:24:55",
+        "md5": "70d95aac7be61f674439902f70fbc066",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "16_S16_R2.fastq.gz",
+        "url": "https://sra-pub-src-2.s3.amazonaws.com/ERR15113227/16_S16_R2.fastq.gz.1",
+        "size": "284599227",
+        "date": "2025-11-20 01:24:56",
+        "md5": "dce13f9a9df713505b9f5a51583e2b8e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113227",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR15113227/ERR15113227",
+        "size": "463212930",
+        "date": "2025-11-20 01:25:06",
+        "md5": "a1e2b8a3f00d80a4eea78864a4521411",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR15113227.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-818/ERR015/15113/ERR15113227/ERR15113227.lite.1",
+        "size": "292617406",
+        "date": "2025-11-20 03:01:55",
+        "md5": "2c8d671f7d69c92f0c853d8b511c20a7",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2025-11-19 21:43:44",
+    "run_is_public": "true"
+  }
+]

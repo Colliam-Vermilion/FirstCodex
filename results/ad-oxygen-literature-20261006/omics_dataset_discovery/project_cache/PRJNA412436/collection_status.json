@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA412436",
+  "checked_utc": "2026-10-24T14:41:30.766951+00:00",
+  "ena_run_count": 4,
+  "ncbi_sra_count": 4,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA412436&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:30.767240+00:00",
+    "raw_path": "raw/ENA/054921171c079947ef7952998462eb1d308643aabcb929b2cdaffc8e19e0af58.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA412436&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 6094,
+    "sha256": "409b0257389104368730997ffee0e0fe4fdea0701022a18b2bd8e677b542426d",
+    "finished_utc": "2026-10-24T14:41:31.333694+00:00",
+    "measured_wall_seconds": 0.566
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA412436&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:41:31.735041+00:00",
+    "raw_path": "raw/NCBI/f307316d25a4cb1cb89f43459c0460c4108b477b22254a4d0a634ec857624174.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA412436&retmode=json&retmax=200&retstart=0",
+    "bytes": 331,
+    "sha256": "1f921d234ddbfb3e822af1993d7e5982f2bf907d4ffc5ac84c0b47c703ebcd66",
+    "finished_utc": "2026-10-24T14:41:31.873717+00:00",
+    "measured_wall_seconds": 0.139
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA412436",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:41:32.548106+00:00",
+    "raw_path": "raw/ENA/98e032111902e304001eaaeda7bc9e684fc5a119a77930dbc46484b7fb4a9325.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA412436",
+    "bytes": 2725,
+    "sha256": "66f15768894889855936e73bb6e2a16631425b41dc31de20c6bb2c392f34ceab",
+    "finished_utc": "2026-10-24T14:41:33.127609+00:00",
+    "measured_wall_seconds": 0.58
+  },
+  "project_title": "Schlöppnerbrunnen omics: SIP pool and native soil metagenomes",
+  "project_description": "The Schlöppnerbrunnen fens are a long studied model system for peatland/wetland research. This BioProject includes data from a combined analysis of DNA pooled from heavy SIP fractions and native peat soil.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA412436"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP119650"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "University of Vienna",
+      "value": "PRJNA412436"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>PUBMED</DB>\n        <ID>29476143</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>PUBMED</DB>\n        <ID>29098760</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>PUBMED</DB>\n        <ID>29467397</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA412436&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA412436&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 4
+}

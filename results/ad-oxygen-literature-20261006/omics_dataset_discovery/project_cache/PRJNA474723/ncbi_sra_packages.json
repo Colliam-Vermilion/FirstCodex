@@ -1,0 +1,1802 @@
+[
+  {
+    "run_accession": "SRR7265438",
+    "experiment_accession": "SRX4169533",
+    "sample_accession": "SAMN09371439",
+    "secondary_sample_accession": "SRS3381478",
+    "sample_alias": "GSM3176826",
+    "sample_title": "seeds following 3 d of anaerobic germination, followed by 1 d under aerobic conditions (3dN1dA) Methyl-Seq Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 d of anaerobic germination, followed by 1 d under aerobic conditions (3dN1dA) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 3 d, the gas was then switched to air for 1 d (3dN1dA).",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176826: seeds following 3 d of anaerobic germination, followed by 1 d under aerobic conditions (3dN1dA) Methyl-Seq Replicate 3; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "72746239",
+    "base_count": "14694740278",
+    "sra_run_bytes": "6844292924",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_3N1A_48_mC.fastq",
+        "size": "38336125232",
+        "date": "2020-02-25 05:53:26",
+        "md5": "5dad843937aae033e31b4147c007af50",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265438",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265438/SRR7265438",
+        "size": "6844294151",
+        "date": "2018-06-05 16:27:21",
+        "md5": "b9691c588efa30727fbaee542d15a913",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265438.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265438.sralite.1",
+        "size": "3679334367",
+        "date": "2020-06-14 16:41:50",
+        "md5": "2672c9f28db554de99554d2f6c5a84fc",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:15",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265437",
+    "experiment_accession": "SRX4169532",
+    "sample_accession": "SAMN09371440",
+    "secondary_sample_accession": "SRS3381477",
+    "sample_alias": "GSM3176825",
+    "sample_title": "seeds following 3 d of anaerobic germination, followed by 1 d under aerobic conditions (3dN1dA) Methyl-Seq Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 d of anaerobic germination, followed by 1 d under aerobic conditions (3dN1dA) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 3 d, the gas was then switched to air for 1 d (3dN1dA).",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176825: seeds following 3 d of anaerobic germination, followed by 1 d under aerobic conditions (3dN1dA) Methyl-Seq Replicate 2; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "84759985",
+    "base_count": "17121516970",
+    "sra_run_bytes": "7978898543",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_3N1A_47_mC.fastq",
+        "size": "44667103298",
+        "date": "2020-02-24 21:27:58",
+        "md5": "8b1365ff553b2f1c5c4e41fb72849017",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265437",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265437/SRR7265437",
+        "size": "7978899769",
+        "date": "2018-06-05 16:40:52",
+        "md5": "4fcb31670261c5a2753b3145812d0fb3",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265437.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR007/265/SRR7265437.sralite.1",
+        "size": "4286926457",
+        "date": "2020-06-22 10:31:14",
+        "md5": "2bf14a712b1c5800eebb3ef64cd35134",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:15",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265436",
+    "experiment_accession": "SRX4169531",
+    "sample_accession": "SAMN09371441",
+    "secondary_sample_accession": "SRS3381475",
+    "sample_alias": "GSM3176824",
+    "sample_title": "seeds following 3 d of anaerobic germination, followed by 1 d under aerobic conditions (3dN1dA) Methyl-Seq Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 d of anaerobic germination, followed by 1 d under aerobic conditions (3dN1dA) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 3 d, the gas was then switched to air for 1 d (3dN1dA).",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176824: seeds following 3 d of anaerobic germination, followed by 1 d under aerobic conditions (3dN1dA) Methyl-Seq Replicate 1; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "72424103",
+    "base_count": "14629668806",
+    "sra_run_bytes": "6851527158",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_3N1A_46_mC.fastq",
+        "size": "38166369378",
+        "date": "2020-02-25 03:45:30",
+        "md5": "e01aa192564f3bff78aaad5d131d5b53",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265436",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265436/SRR7265436",
+        "size": "6851528384",
+        "date": "2018-06-05 16:32:18",
+        "md5": "dbc1998f7b9bb8a65b2605f15d34357e",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265436.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR007/265/SRR7265436.sralite.1",
+        "size": "3663028504",
+        "date": "2020-06-22 10:29:40",
+        "md5": "0a535dfaed65c4006abddf4cec4a028e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265435",
+    "experiment_accession": "SRX4169530",
+    "sample_accession": "SAMN09371442",
+    "secondary_sample_accession": "SRS3381476",
+    "sample_alias": "GSM3176823",
+    "sample_title": "seeds following 4 d of anaerobic germination (4dN) Methyl-Seq Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 4 d of anaerobic germination (4dN) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 4 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176823: seeds following 4 d of anaerobic germination (4dN) Methyl-Seq Replicate 3; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "101959964",
+    "base_count": "9788156544",
+    "sra_run_bytes": "4704138436",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_4dN_45_mC.fastq",
+        "size": "25846018599",
+        "date": "2020-02-25 05:35:30",
+        "md5": "04b14026afbd81d14ebf2444ccf98d72",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265435",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265435/SRR7265435",
+        "size": "4704139666",
+        "date": "2018-06-05 16:32:56",
+        "md5": "a1f8778a8842438ed62570aa4c691198",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265435.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265435.sralite.1",
+        "size": "2451573750",
+        "date": "2020-06-21 09:31:23",
+        "md5": "242b949eb30e7926fd97d0a02790425c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265434",
+    "experiment_accession": "SRX4169529",
+    "sample_accession": "SAMN09371443",
+    "secondary_sample_accession": "SRS3381474",
+    "sample_alias": "GSM3176822",
+    "sample_title": "seeds following 4 d of anaerobic germination (4dN) Methyl-Seq Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 4 d of anaerobic germination (4dN) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 4 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176822: seeds following 4 d of anaerobic germination (4dN) Methyl-Seq Replicate 2; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "106540859",
+    "base_count": "10227922464",
+    "sra_run_bytes": "4920914311",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_4dN_44_mC.fastq",
+        "size": "27007250962",
+        "date": "2020-02-25 05:48:33",
+        "md5": "763527624258a9f3f530744dbb0d3768",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265434",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265434/SRR7265434",
+        "size": "4920915540",
+        "date": "2018-06-05 16:29:34",
+        "md5": "78e19fffe2e1aa57ed3ec6a753d5dba0",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265434.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265434.sralite.1",
+        "size": "2561716576",
+        "date": "2020-06-14 16:17:34",
+        "md5": "72a866c1dcf712fadc32af55c4fbe636",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265433",
+    "experiment_accession": "SRX4169528",
+    "sample_accession": "SAMN09371444",
+    "secondary_sample_accession": "SRS3381473",
+    "sample_alias": "GSM3176821",
+    "sample_title": "seeds following 4 d of anaerobic germination (4dN) Methyl-Seq Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 4 d of anaerobic germination (4dN) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 4 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176821: seeds following 4 d of anaerobic germination (4dN) Methyl-Seq Replicate 1; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "92030761",
+    "base_count": "8834953056",
+    "sra_run_bytes": "4252848302",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_4dN_43_mC.fastq",
+        "size": "23329098336",
+        "date": "2020-02-25 03:44:59",
+        "md5": "923d96de770a7339b2b6e4d8627223d7",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265433",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265433/SRR7265433",
+        "size": "4252849529",
+        "date": "2018-06-05 16:44:37",
+        "md5": "1cab0486031d947483b5b68c409ec2ef",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265433.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265433.sralite.1",
+        "size": "2212827373",
+        "date": "2020-06-24 10:52:49",
+        "md5": "f1e5bd5ae2888a35aa4e3c63ec424aaa",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265432",
+    "experiment_accession": "SRX4169527",
+    "sample_accession": "SAMN09371445",
+    "secondary_sample_accession": "SRS3381472",
+    "sample_alias": "GSM3176820",
+    "sample_title": "seeds following 24 h of anaerobic germination (24hN) Methyl-Seq Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 24 h of anaerobic germination (24hN) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 24 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176820: seeds following 24 h of anaerobic germination (24hN) Methyl-Seq Replicate 3; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "86632078",
+    "base_count": "8316679488",
+    "sra_run_bytes": "4112220196",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_24N_27_mC_correction.fastq",
+        "size": "21960502199",
+        "date": "2020-02-24 21:32:49",
+        "md5": "5888686d9d6e325b0918f7daa2da9728",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265432",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265432/SRR7265432",
+        "size": "4112221422",
+        "date": "2018-06-05 16:20:53",
+        "md5": "78b25180edde4cd6b4a3061994687eb6",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265432.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265432.sralite.1",
+        "size": "2082918126",
+        "date": "2020-06-23 21:12:40",
+        "md5": "54db306ef4a62a4c9237cff882e0f41d",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265431",
+    "experiment_accession": "SRX4169526",
+    "sample_accession": "SAMN09371446",
+    "secondary_sample_accession": "SRS3381471",
+    "sample_alias": "GSM3176819",
+    "sample_title": "seeds following 24 h of anaerobic germination (24hN) Methyl-Seq Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 24 h of anaerobic germination (24hN) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 24 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176819: seeds following 24 h of anaerobic germination (24hN) Methyl-Seq Replicate 2; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "103936595",
+    "base_count": "9977913120",
+    "sra_run_bytes": "4937768078",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_24N_26_mC.fastq",
+        "size": "26347070819",
+        "date": "2020-02-24 21:46:26",
+        "md5": "cf5186e294b4a8b9df7307ca0c33b545",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265431",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265431/SRR7265431",
+        "size": "4937769305",
+        "date": "2018-06-05 16:58:30",
+        "md5": "32fcd068112e14047c45acdd0895e563",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265431.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265431.sralite.1",
+        "size": "2498967765",
+        "date": "2020-06-23 21:14:54",
+        "md5": "facd020d9e6aa08fc167691e1e9ca13b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265430",
+    "experiment_accession": "SRX4169525",
+    "sample_accession": "SAMN09371447",
+    "secondary_sample_accession": "SRS3381470",
+    "sample_alias": "GSM3176818",
+    "sample_title": "seeds following 24 h of anaerobic germination (24hN) Methyl-Seq Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 24 h of anaerobic germination (24hN) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 24 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176818: seeds following 24 h of anaerobic germination (24hN) Methyl-Seq Replicate 1; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "89843927",
+    "base_count": "8625016992",
+    "sra_run_bytes": "4270861102",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_24N_25_mC.fastq",
+        "size": "22774674825",
+        "date": "2020-02-25 05:54:11",
+        "md5": "0a48c2caca37883975de22b257d40fc8",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265430",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265430/SRR7265430",
+        "size": "4270862328",
+        "date": "2018-06-05 16:27:02",
+        "md5": "c2f64196790160c21bae56d583e0b955",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265430.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265430.sralite.1",
+        "size": "2160120592",
+        "date": "2020-06-23 21:11:27",
+        "md5": "5735543a8b86ff6124287b0bc77dced6",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265429",
+    "experiment_accession": "SRX4169524",
+    "sample_accession": "SAMN09371448",
+    "secondary_sample_accession": "SRS3381469",
+    "sample_alias": "GSM3176817",
+    "sample_title": "seeds following 4 d of aerobic germination (4dA) Methyl-Seq Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 4 d of aerobic germination (4dA) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 4 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176817: seeds following 4 d of aerobic germination (4dA) Methyl-Seq Replicate 3; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "94314662",
+    "base_count": "9054207552",
+    "sra_run_bytes": "4358710453",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_4dA_42_mC.fastq",
+        "size": "23907984768",
+        "date": "2020-02-25 05:40:27",
+        "md5": "592e5860709c91ad42c80d4166e4f34e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265429",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265429/SRR7265429",
+        "size": "4358711680",
+        "date": "2018-06-05 16:23:24",
+        "md5": "3e12cbbcc0c5a1ae1a186ced6f461196",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265429.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265429.sralite.1",
+        "size": "2267759660",
+        "date": "2020-06-20 09:00:06",
+        "md5": "3b3eee71f781489a9f5abf4aa6c05829",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265428",
+    "experiment_accession": "SRX4169523",
+    "sample_accession": "SAMN09371449",
+    "secondary_sample_accession": "SRS3381468",
+    "sample_alias": "GSM3176816",
+    "sample_title": "seeds following 4 d of aerobic germination (4dA) Methyl-Seq Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 4 d of aerobic germination (4dA) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 4 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176816: seeds following 4 d of aerobic germination (4dA) Methyl-Seq Replicate 2; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "87933898",
+    "base_count": "8441654208",
+    "sra_run_bytes": "4059005688",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_4dA_41_mC.fastq",
+        "size": "22290556143",
+        "date": "2020-02-25 05:40:36",
+        "md5": "2e3439d7392fd9ffce7d5c2029843c3c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265428",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265428/SRR7265428",
+        "size": "4059006917",
+        "date": "2018-06-05 16:20:10",
+        "md5": "5478c624a2ed61563ffd396cc6d6a10c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265428.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265428.sralite.1",
+        "size": "2114342417",
+        "date": "2020-06-23 21:15:53",
+        "md5": "7b494969277f883949b32368a513dfac",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265427",
+    "experiment_accession": "SRX4169522",
+    "sample_accession": "SAMN09371408",
+    "secondary_sample_accession": "SRS3381467",
+    "sample_alias": "GSM3176815",
+    "sample_title": "seeds following 4 d of aerobic germination (4dA) Methyl-Seq Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 4 d of aerobic germination (4dA) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 4 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176815: seeds following 4 d of aerobic germination (4dA) Methyl-Seq Replicate 1; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "89665840",
+    "base_count": "8607920640",
+    "sra_run_bytes": "4142056351",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_4dA_40_mC.fastq",
+        "size": "22729594704",
+        "date": "2020-02-25 05:24:09",
+        "md5": "a8506a395e0f1a78c888acb4c3467f5d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265427",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265427/SRR7265427",
+        "size": "4142057576",
+        "date": "2018-06-05 16:16:08",
+        "md5": "046842b41cac70411fded693cb3d7d5d",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265427.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265427.sralite.1",
+        "size": "2155989464",
+        "date": "2020-06-20 09:06:35",
+        "md5": "4326de29ed8bef55b6a1200a276dafb0",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265426",
+    "experiment_accession": "SRX4169521",
+    "sample_accession": "SAMN09371409",
+    "secondary_sample_accession": "SRS3381465",
+    "sample_alias": "GSM3176814",
+    "sample_title": "seeds following 24 h of aerobic germination (24hA) Methyl-Seq Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 24 h of aerobic germination (24hA) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 24 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176814: seeds following 24 h of aerobic germination (24hA) Methyl-Seq Replicate 3; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "103916450",
+    "base_count": "9975979200",
+    "sra_run_bytes": "4931477814",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_24A_24_mC.fastq",
+        "size": "26341944295",
+        "date": "2020-02-24 21:30:29",
+        "md5": "8c409108322558be83b2906ed6659d14",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265426",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265426/SRR7265426",
+        "size": "4931479043",
+        "date": "2018-06-05 16:20:24",
+        "md5": "34e21c6d6c76ebf422ec72af4e8390cc",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265426.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265426.sralite.1",
+        "size": "2498495579",
+        "date": "2020-06-23 21:18:02",
+        "md5": "048cad4f6b73cce4e2888fb94380bb56",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265425",
+    "experiment_accession": "SRX4169520",
+    "sample_accession": "SAMN09371410",
+    "secondary_sample_accession": "SRS3381464",
+    "sample_alias": "GSM3176813",
+    "sample_title": "seeds following 24 h of aerobic germination (24hA) Methyl-Seq Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 24 h of aerobic germination (24hA) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 24 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176813: seeds following 24 h of aerobic germination (24hA) Methyl-Seq Replicate 2; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "105856211",
+    "base_count": "10162196256",
+    "sra_run_bytes": "5013535051",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_24A_23_mC.fastq",
+        "size": "26833673207",
+        "date": "2020-02-25 07:41:43",
+        "md5": "7942aa1101bbc7301e06222b08865adc",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265425",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265425/SRR7265425",
+        "size": "5013536279",
+        "date": "2018-06-05 16:40:03",
+        "md5": "4d933eb6c1b6b56a33d85caed574968c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265425.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265425.sralite.1",
+        "size": "2545121467",
+        "date": "2020-06-14 16:18:09",
+        "md5": "43b9ea7d9e058b5e46560c0e857298af",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265424",
+    "experiment_accession": "SRX4169519",
+    "sample_accession": "SAMN09371411",
+    "secondary_sample_accession": "SRS3381466",
+    "sample_alias": "GSM3176812",
+    "sample_title": "seeds following 24 h of aerobic germination (24hA) Methyl-Seq Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 24 h of aerobic germination (24hA) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 24 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176812: seeds following 24 h of aerobic germination (24hA) Methyl-Seq Replicate 1; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "100082344",
+    "base_count": "9607905024",
+    "sra_run_bytes": "4740295727",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_24A_22_mC.fastq",
+        "size": "25370085790",
+        "date": "2020-02-25 05:36:52",
+        "md5": "949b3f84889d1890054d83140f6e4683",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265424",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265424/SRR7265424",
+        "size": "4740296954",
+        "date": "2018-06-05 16:39:22",
+        "md5": "d7e4bc110ac716893ad5d552855c6e3d",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265424.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR007/265/SRR7265424.sralite.1",
+        "size": "2406314170",
+        "date": "2021-06-15 12:30:57",
+        "md5": "9b611b73a94904ce2150fba992ae2410",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265423",
+    "experiment_accession": "SRX4169518",
+    "sample_accession": "SAMN09371450",
+    "secondary_sample_accession": "SRS3381462",
+    "sample_alias": "GSM3176811",
+    "sample_title": "dry seed 0 h Methyl-Seq Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "dry seed 0 h Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "Oryza sativa seeds were de-hulled and embryos were immediately extracted and snap frozen.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176811: dry seed 0 h Methyl-Seq Replicate 3; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "90870027",
+    "base_count": "18355745454",
+    "sra_run_bytes": "8586077415",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_0h_3_mC.fastq",
+        "size": "47887412228",
+        "date": "2020-02-25 05:46:25",
+        "md5": "af520f64ae1a9517fcd0c0a43182995e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265423",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265423/SRR7265423",
+        "size": "8586078644",
+        "date": "2018-06-05 16:40:15",
+        "md5": "8d8264a4c192b6c12042f98607b5acb3",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265423.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR007/265/SRR7265423.sralite.1",
+        "size": "4595889208",
+        "date": "2020-06-21 10:14:33",
+        "md5": "ed78496bd3dc5f1f37f7a24519671e28",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265422",
+    "experiment_accession": "SRX4169517",
+    "sample_accession": "SAMN09371451",
+    "secondary_sample_accession": "SRS3381463",
+    "sample_alias": "GSM3176810",
+    "sample_title": "dry seed 0 h Methyl-Seq Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "dry seed 0 h Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "Oryza sativa seeds were de-hulled and embryos were immediately extracted and snap frozen.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176810: dry seed 0 h Methyl-Seq Replicate 2; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "97829810",
+    "base_count": "19761621620",
+    "sra_run_bytes": "9216287555",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_0h_2_mC.fastq",
+        "size": "51554720478",
+        "date": "2020-02-24 21:19:11",
+        "md5": "e9bf675dfb895777449e80f2f44c9626",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265422",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265422/SRR7265422",
+        "size": "9216288783",
+        "date": "2018-06-05 17:19:52",
+        "md5": "a925e68fe14d77578cf4b251739e39e5",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265422.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265422.sralite.1",
+        "size": "4947898783",
+        "date": "2020-06-14 16:45:56",
+        "md5": "7eecca13b02447ab8d338e7c476d27f1",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265421",
+    "experiment_accession": "SRX4169516",
+    "sample_accession": "SAMN09371452",
+    "secondary_sample_accession": "SRS3381461",
+    "sample_alias": "GSM3176809",
+    "sample_title": "dry seed 0 h Methyl-Seq Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "dry seed 0 h Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "Oryza sativa seeds were de-hulled and embryos were immediately extracted and snap frozen.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474723",
+    "secondary_study_accession": "SRP149824",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (Methyl-Seq)",
+    "study_description": "methylC-seq profiling of seeds, at 0 h and 24 h after imbibition and following 4-d of growth under aerobic and anerobic conditions, as well as following re-oxygenation (3dN1dA) in rice. Overall design: gDNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 24 h and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176809: dry seed 0 h Methyl-Seq Replicate 1; Oryza sativa; Bisulfite-Seq",
+    "library_name": "",
+    "library_strategy": "Bisulfite-Seq",
+    "library_source": "GENOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "gDNA was extracted from the seeds/seedlings using the Qiagen DNeasy Plant minikit and 600ng of purified gDNA was used for MethylC-seq library preparation after spiking in 0.5% lambda DNA (N6-methyladenine-free) (New England BioLabs). MethylC-seq library preparation was carried out as described previously (Urich et al., 2015 - http://www.nature.com/nprot/journal/v10/n3/full/nprot.2014.114.html).",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "103415153",
+    "base_count": "20889860906",
+    "sra_run_bytes": "9743094223",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sample_0h_1_mC.fastq",
+        "size": "54498370924",
+        "date": "2020-02-25 03:48:53",
+        "md5": "08dda38782edb5be46c03730b848a226",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265421",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265421/SRR7265421",
+        "size": "9743095453",
+        "date": "2018-06-05 16:41:43",
+        "md5": "9d6dbb4ec8dcb493b178c6df70b663b7",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265421.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265421.sralite.1",
+        "size": "5230339605",
+        "date": "2020-06-21 09:55:49",
+        "md5": "5f0f7d0115bb57fa88c14aadcb94d499",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:14",
+    "run_is_public": "true"
+  }
+]

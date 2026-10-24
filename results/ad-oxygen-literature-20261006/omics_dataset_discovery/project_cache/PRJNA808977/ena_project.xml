@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA808977" alias="PRJNA808977" center_name="Microbiology, University of Bayreuth" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA808977</PRIMARY_ID>
+    <SECONDARY_ID>SRP360775</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE197098</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Microbiology, University of Bayreuth">PRJNA808977</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization</NAME>
+  <TITLE>The transcriptome of Magnetospirillum gryphiswaldense during magnetosome biomineralization</TITLE>
+  <DESCRIPTION>One of the most complex prokaryotic organelles are magnetosomes, which are formed by magnetotactic bacteria as sensors for navigation in the Earth’s magnetic field. In the alphaproteobacterium Magnetospirillum gryphiswaldense magnetosomes consist of chains of magnetite crystals (Fe3O4) that under suboxic conditions are biomineralized within membrane vesicles. To form such an intricate structure, the transcription of >30 specific structural genes clustered within the genomic magnetosome island (MAI) has to be coordinated with the expression of an as-yet unknown number of auxiliary genes encoding several generic metabolic functions. However, their global regulation and transcriptional organization in response to anoxic conditions most favorable for magnetite biomineralization are still unclear. Here, we compared transcriptional profiles of anaerobically grown magnetosome forming cells with those in which magnetosome biosynthesis has been suppressed by aerobic condition. Using whole transcriptome shotgun sequencing, we found that transcription of about 300 of the >4300 genes was significantly enhanced during magnetosome formation. The about 40 top upregulated genes are directly or indirectly linked to aerobic and anaerobic respiration (denitrification) or unknown functions. mam and mms gene clusters specifically controlling magnetosome biosynthesis were highly transcribed, but constitutively expressed irrespective of the growth condition. By Cappable-sequencing, we show that the transcriptional complexity of both the MAI and the entire genome decreased under anaerobic conditions optimal for magnetosome formation. In addition, predominant promoter structures were highly similar to sigma factor σ70 dependent promoters in other Alphaproteobacteria. Our transcriptome-wide analysis revealed that magnetite biomineralization relies on a complex interplay between generic metabolic processes such as aerobic and anaerobic respiration, cellular redox control, and the biosynthesis of specific magnetosome structures. In addition, we provide insights into global regulatory features that have remained uncharacterized in the widely studied model organism M. gryphiswaldense, including a comprehensive dataset of newly annotated transcription start sites and genome-wide operon detection as a community resource. Overall design: RNA-Seq of primary transcripts, whole transcriptome and 3'-ends of wild type cells</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>55518</TAXON_ID>
+      <SCIENTIFIC_NAME>Magnetospirillum gryphiswaldense</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA36055"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>36217140</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA808977&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA808977&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>808977</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-10-21</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-17</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

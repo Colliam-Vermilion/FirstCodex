@@ -1,0 +1,67 @@
+{
+  "accession": "PRJEB60473",
+  "checked_utc": "2026-10-24T14:30:14.709547+00:00",
+  "ena_run_count": 0,
+  "ncbi_sra_count": 0,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB60473&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:14.709680+00:00",
+    "raw_path": "raw/ENA/3a8d1aa65d52093f8f9467921bd4e8054e6c571a74c6f1028ad2f2bfece470e6.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB60473&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 5,
+    "sha256": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d",
+    "finished_utc": "2026-10-24T14:30:16.386357+00:00",
+    "measured_wall_seconds": 1.677
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJEB60473&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:16.787287+00:00",
+    "raw_path": "raw/NCBI/ff10f68aca31c8125b585152c03a8e074bbea4298b806ce2b14d83d11da43b14.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJEB60473&retmode=json&retmax=200&retstart=0",
+    "bytes": 349,
+    "sha256": "3acce9adba38aa7046658670a912a07b4c6361ebcb07cd919b359249bfeade9c",
+    "finished_utc": "2026-10-24T14:30:16.878126+00:00",
+    "measured_wall_seconds": 0.091
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB60473",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:16.879036+00:00",
+    "raw_path": "raw/ENA/5f8a49a0b76691eec23d4e5134179f7ce361abe3749de7b1b5b69af12414c890.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB60473",
+    "bytes": 4209,
+    "sha256": "05ea0e083d22e31405507c6ee332cb805e8e4a993023bb92fd956708226f9b09",
+    "finished_utc": "2026-10-24T14:30:17.061835+00:00",
+    "measured_wall_seconds": 0.183
+  },
+  "project_title": "Intermittent Oxygen Supply Facilitates Co-degradation of Trichloroethene and Toluene by Anaerobic Consortia",
+  "project_description": "Biodegradation is a green microbial technology commonly used to clean up the sites with singular pollutants of trichloroethene and toluene. However, cleaning up the site using microbiological degradations, either anaerobic or aerobic, remains inefficient when the pollutants coexist. In this study, we developed a novel strategy of intermittent microaeration for anaerobic consortia to co-degrade trichloroethylene and toluene using a sequencing batch reactor. Results of batch assays and reactor pretests suggested that the oxygen inhibited the anaerobic dechlorination rate of trichloroethene to ethene by anaerobic consortia but the rate was comparable under conditions with initial dissolved oxygen of 0.2 mg/L. Repeated reactor tests showed that once intermittent microaeration (initial dissolved oxygen 0.5 mg/L every two days) was applied to achieve a fluctuation in the oxidation-reduction potential range of -146~-475 mV, the dosed trichloroethene and toluene co-degraded rapidly, although the trichloroethene degradation rate was comprised by 66% approximately. Sequencing analysis of full-length 16S rRNA gene amplicons revealed that Dehalogenimonas dominated organohalide-respiring bacterial community with an abundance of 16.0±3.5% much higher than Dehalococcoides (0.3% ± 0.2%), which corresponded with Dehalogenimonas with higher transcriptomic activities than Dehalococcoides by 10 times. Through the shotgun metagenomic analysis, we found that in addition to multiple copies of reductive dehalogenases, Dehalogenimonas and Dehalococcoides processed genes related to various oxidative stress resistance, accounting their survival in the microaeration conditions. As compared with the control reactor without oxygen supply and toluene addition, diversified facultative populations with functional genes of trichloroethene co-metabolism and aerobic and anaerobic degradations of toluene emerged while most of emerging populations contained high-affinity bd and cbb terminal oxidases, suggesting the co-degradation of trichloroethene and toluene through multiple biodegradation mechanisms in the microaerobic condition. Together, this study demonstrated the effectiveness of intermittent microaeration in facilitating the co-degradation of trichloroethene and toluene. The novel bioremediation approach can be applied for the sites with similar organic pollutants.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJEB60473"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "ERP145536"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "NCKU",
+      "value": "5a36ddc1-acd6-4727-ae34-8475154fba13"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMISSION</DB>\n        <ID>ERA20758254</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB60473&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB60473&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 0
+}

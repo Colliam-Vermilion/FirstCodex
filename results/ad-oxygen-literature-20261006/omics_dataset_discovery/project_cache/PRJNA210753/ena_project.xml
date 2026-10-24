@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA210753" alias="PRJNA210753" center_name="University of Zürich" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA210753</PRIMARY_ID>
+    <SECONDARY_ID>SRP026606</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE48585</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="University of Zürich">PRJNA210753</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Burkholderia cenocepacia H111</NAME>
+  <TITLE>Response of Burkholderia cenocepacia H111 to micro-oxia</TITLE>
+  <DESCRIPTION>B. cenocepacia is an opportunistic human pathogen that is particularly problematic for patients suffering from cystic fibrosis (CF). In the CF lung, bacteria grow to high densities within the viscous mucus that is limited in oxygen. Pseudomonas aeruginosa, the dominant pathogen in CF patients, is known to grow and survive under oxygen-limited to anaerobic conditions by using micro-oxic respiration, denitrification and fermentative pathways. In contrast, inspection of the genome sequences of available B. cenocepacia strains suggested that B. cenocepacia is an obligate aerobic and non-fermenting bacterium. In accordance with the bioinformatics analysis, we observed that B. cenocepacia H111 is able to grow with as little as 0.1% O2 but not under strictly anoxic conditions. Phenotypic analyses revealed that H111 produced larger amounts of biofilm, pellicle and proteases under micro-oxic conditions (0.5% - 5% O2, i.e. conditions that mimic those encountered in CF lung infection), and was more resistant to several antibiotics. RNA-Seq and shotgun proteomics analyses of cultures of B. cenocepacia H111 grown under micro-oxic and aerobic conditions showed up-regulation of genes involved in the synthesis of the exopolysaccharide (EPS) cepacian as well as several proteases, two isocitrate lyases and other genes potentially important for life in micro-oxia. Overall design: Oxygen regulation in Burkholderia cenocepacia was investigated using RNA-Seq of cells grown under aerobic or micro-oxic conditions.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>1055524</TAXON_ID>
+      <SCIENTIFIC_NAME>Burkholderia cenocepacia H111</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA13948"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>24023794</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA210753&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA210753&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>210753</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2013-07-15</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-17</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

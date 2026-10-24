@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1320941",
+  "checked_utc": "2026-10-24T14:42:59.013764+00:00",
+  "ena_run_count": 4,
+  "ncbi_sra_count": 4,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1320941&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:42:59.014171+00:00",
+    "raw_path": "raw/ENA/ce048cee27b9aff5eed2785a6770c1b8e0771e918c14f0a16f90a4842eccd045.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1320941&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 6001,
+    "sha256": "019bcbc02982e6eed1be5782626231b2dfcd16d7ee6381307626c06c8587b165",
+    "finished_utc": "2026-10-24T14:42:59.407928+00:00",
+    "measured_wall_seconds": 0.394
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1320941&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:42:59.808944+00:00",
+    "raw_path": "raw/NCBI/cad7ec624b0eff919ae38d69cc52840913b196b95e996d3b0484f9f2b2186dd0.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1320941&retmode=json&retmax=200&retstart=0",
+    "bytes": 337,
+    "sha256": "514a8c6dcc2d020eb6acd121fee4ccde4c961f28055607ae8cc928a5d6fc7fb3",
+    "finished_utc": "2026-10-24T14:42:59.907683+00:00",
+    "measured_wall_seconds": 0.099
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1320941",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:43:00.489212+00:00",
+    "raw_path": "raw/ENA/7b0c896fa0fe970a7d848709e8526dfc8a83b90cc9848f7ef8a7fa0eeef18531.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1320941",
+    "bytes": 2727,
+    "sha256": "7fdc5910d901d6117207a550d95e9f868327a3e5883560954c5fd692c642f492",
+    "finished_utc": "2026-10-24T14:43:01.237087+00:00",
+    "measured_wall_seconds": 0.748
+  },
+  "project_title": "Metagenomics analysis of microbial community succession during natural fermentation of fruit and vegetable residues for agricultural applications",
+  "project_description": "This study investigates the microbial community dynamics and metabolic pathways during a 28-day natural fermentation process of fruit and vegetable residues in household-scale fermentation systems. Using shotgun metagenomic sequencing, we analyzed the temporal succession of microbial communities and their functional genomic characteristics to understand the formation mechanisms of bioactive compounds. The research aims to reveal the phased transformation of fruit and vegetable waste into functional agricultural products, including soil conditioners, plant growth promoters, and biocontrol agents. This work provides scientific guidance for household users to optimize fermentation timing and application strategies for sustainable agricultural practices and organic waste utilization.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1320941"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP617935"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Guizhou University",
+      "value": "PRJNA1320941"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1320941&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1320941&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 4
+}

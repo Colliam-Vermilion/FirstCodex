@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA348350",
+  "checked_utc": "2026-10-24T14:42:08.781951+00:00",
+  "ena_run_count": 1875,
+  "ncbi_sra_count": 1875,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA348350&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:42:08.782120+00:00",
+    "raw_path": "raw/ENA/8754b513d103120861909cf8d79f4605623dcbfc5bc709f0a7554aa68980589a.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA348350&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 2433615,
+    "sha256": "3c8af85653b281002686e921883856d8c9fd8a7e9875f3f1c13c24f06f517516",
+    "finished_utc": "2026-10-24T14:42:15.682025+00:00",
+    "measured_wall_seconds": 6.9
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA348350&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:42:16.128894+00:00",
+    "raw_path": "raw/NCBI/e26f0a7a7ed7d6df10a3471570982559cd96be3716957c7c9b12888ea5eda2f6.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA348350&retmode=json&retmax=200&retstart=0",
+    "bytes": 2499,
+    "sha256": "ae94fca15956e4adb3330aef873b3abe3c66685211664acfcf949ed0950bda88",
+    "finished_utc": "2026-10-24T14:42:16.242363+00:00",
+    "measured_wall_seconds": 0.113
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA348350",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:42:57.966528+00:00",
+    "raw_path": "raw/ENA/08db36f8a6987f1cbec4111bd36028de1c45063a489446e701d59c354fb87fa1.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA348350",
+    "bytes": 13534,
+    "sha256": "4b1d822bd59e7722a4ecf49a42e47c5d8e44b12bb4ca5833fd273fabb29f7c62",
+    "finished_utc": "2026-10-24T14:42:58.400089+00:00",
+    "measured_wall_seconds": 0.434
+  },
+  "project_title": "Fecal and cecal microbiome of mouse model infected with Salmonella enterica typhimurium Targeted loci",
+  "project_description": "The objective of this research is to gain insight into the normal gut microbiome's response to Salmonella induced inflammation.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA348350"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP114866"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "The Ohio State University",
+      "value": "PRJNA348350"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA348350&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA348350&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 1875
+}

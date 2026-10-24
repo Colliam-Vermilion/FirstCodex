@@ -1,0 +1,67 @@
+{
+  "accession": "PRJEB40338",
+  "checked_utc": "2026-10-24T14:30:28.518797+00:00",
+  "ena_run_count": 36,
+  "ncbi_sra_count": 36,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB40338&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:28.518936+00:00",
+    "raw_path": "raw/ENA/04eb41179fec25e705f45adeda4a0ba95ee7147d551c331b0c8699f17314833c.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB40338&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 71115,
+    "sha256": "762c4ff98e7fc7bc191afd8a3127c6cd9158774848f33c62f8f2ecb5b96384a3",
+    "finished_utc": "2026-10-24T14:30:28.843743+00:00",
+    "measured_wall_seconds": 0.325
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJEB40338&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:30:29.246102+00:00",
+    "raw_path": "raw/NCBI/e2fbc73033c64f6858b8425839e0467e7ea13448881d79f7d33325c5fad5aafe.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJEB40338&retmode=json&retmax=200&retstart=0",
+    "bytes": 688,
+    "sha256": "74f387d0b1f8fd8562ff6cff3cd221acf292ebf576aa35426e65b8c876a2c0e4",
+    "finished_utc": "2026-10-24T14:30:29.327936+00:00",
+    "measured_wall_seconds": 0.082
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB40338",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:30:30.368450+00:00",
+    "raw_path": "raw/ENA/2b42e3baadfe4ff99cfbc632640e9ee243312179c50c46787b3c839a23578977.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB40338",
+    "bytes": 4268,
+    "sha256": "2434cb92f8059680ce7c6798b54b6cb6c7a50af9e06d1cd3d58d1eacc2221ce7",
+    "finished_utc": "2026-10-24T14:30:30.535585+00:00",
+    "measured_wall_seconds": 0.167
+  },
+  "project_title": "Effect of temperature on acetate mineralization kinetics and microbial community composition in a hydrocarbon-affected microbial community during a shift from microoxic to sulfidogenic conditions",
+  "project_description": "Aquifer Thermal Energy Storage (ATES) is a sustainable alternative towards decarbonization of the heating and cooling sector, but the impacts of higher temperatures towards biodiversity and ecosystem services in the subsurface environment remain unclear. Here, we conducted a laboratory microcosm study comprising sediments from a sulfidic hydrocarbon-contaminated aquifer spiked with 13C-labelled acetate and incubated at temperatures between 12°C to 80°C to evaluate (i) the extent and rates of acetate mineralization and (ii) the resultant temperature-induced shifts in the microbial community structure. We observed biphasic mineralization curves at 12°C, 25°C, 38°C and 45°C, arising from immediate and fast aerobic mineralization due to an initial oxygen exposure, followed by slower mineralization at sulfidogenic conditions. At 60°C and several replicates at 45°C, acetate was only aerobically mineralized. At 80°C, no mineralization was observed within 178 days. Rates of acetate mineralization coupled to sulfate reduction were at 25°C and 38°C six times faster than at 12°C. Distinct microbial communities developed in oxic and strictly anoxic phases of mineralization as well as at different temperatures. Members of the Alphaproteobacteria were dominant in the oxic mineralization phase at 12–38°C, succeeded by a more diverse community in the anoxic phase composed of Deltaproteobacteria, Clostridia, Spirochaetia, Gammaproteobacteria and Anaerolinea, the abundances of which varied with temperature. In the oxic phases at 45°C and 60°C, phylotypes affiliated to spore-forming Bacilli developed. In conclusion, temperatures up to 38°C allowed aerobic and anaerobic acetate mineralization with sustained rates at increasing temperatures. The lack of sulfide production at higher temperature (>45°C) suggests the absence of thermophilic sulfate reducers. Hence, temperature may affect dissolved organic carbon mineralization rates in ATES while the variability in the microbial community composition during the transition from micro-oxic to sulfidogenic condition highlights the crucial role of electron acceptor availability when combining ATES with bioremediation.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJEB40338"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "ERP123962"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "HELMHOLTZ CENTRE FOR ENVIRONMENTAL RESEARCH - UFZ.",
+      "value": "ena-STUDY-HELMHOLTZ CENTRE FOR ENVIRONMENTAL RESEARCH - UFZ.-14-09-2020-12:19:16:621-49"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMISSION</DB>\n        <ID>ERA2876140</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB40338&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB40338&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 36
+}

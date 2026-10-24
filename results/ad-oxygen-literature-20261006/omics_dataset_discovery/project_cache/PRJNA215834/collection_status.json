@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA215834",
+  "checked_utc": "2026-10-24T14:42:06.645402+00:00",
+  "ena_run_count": 10,
+  "ncbi_sra_count": 8,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA215834&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:42:06.645614+00:00",
+    "raw_path": "raw/ENA/0c2964491cf75df39bf59438b7d2b87741cf6515488f4bfd40e510421a96a312.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA215834&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 14036,
+    "sha256": "d9d012cfa0a5a6304dfb3a8482e058e27f5298140c18c0cd9693c171338474f5",
+    "finished_utc": "2026-10-24T14:42:06.832248+00:00",
+    "measured_wall_seconds": 0.187
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA215834&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:42:07.233731+00:00",
+    "raw_path": "raw/NCBI/4ceb6883264a8747e9d7240a3b0d40703f581dacce1006bdbf2ba6a66264de8f.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA215834&retmode=json&retmax=200&retstart=0",
+    "bytes": 363,
+    "sha256": "3951f663dda35c15a0ffb939c27ff14455013a278acb2895275c79f6e144ef1e",
+    "finished_utc": "2026-10-24T14:42:07.355349+00:00",
+    "measured_wall_seconds": 0.122
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA215834",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:42:08.030604+00:00",
+    "raw_path": "raw/ENA/5acf28b25e393d74e8f87a4d5e1f304519f7fe2cfebd051fbf3005d45d4fc0d0.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA215834",
+    "bytes": 2173,
+    "sha256": "7b14dfff4d902500a8f4b1753e3a824344c56ce34e9ed56992cedb04d906e8bc",
+    "finished_utc": "2026-10-24T14:42:08.180871+00:00",
+    "measured_wall_seconds": 0.15
+  },
+  "project_title": "Flooded rice paddy Transcriptome or Gene expression",
+  "project_description": "Metatranscriptome analysis of microbial communities inhabiting different compartments of flooded rice paddy",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA215834"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP029242"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Max Planck Institute for terrestrial microbiology",
+      "value": "PRJNA215834"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA215834&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA215834&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 10
+}

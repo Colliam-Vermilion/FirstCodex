@@ -1,0 +1,3554 @@
+[
+  {
+    "run_accession": "SRR7804021",
+    "experiment_accession": "SRX4655772",
+    "sample_accession": "SAMN09990288",
+    "secondary_sample_accession": "SRS3753230",
+    "sample_alias": "GSM3380037",
+    "sample_title": "13Clamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380037: 13Clamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "4005040",
+    "base_count": "1094597306",
+    "sra_run_bytes": "504997887",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0008_S22_L001_R1_001.fastq.gz",
+        "size": "264924981",
+        "date": "2020-02-20 08:58:39",
+        "md5": "be30e34b5879b95e3ccd0314c1e810f9",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0008_S22_L001_R2_001.fastq.gz",
+        "size": "289747931",
+        "date": "2020-02-20 06:11:30",
+        "md5": "22fbfadf298cc8c07c4a45a7fb746d26",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804021.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804021/SRR7804021.sralite.1",
+        "size": "289488053",
+        "date": "2020-06-21 09:30:23",
+        "md5": "2497dc524c7bb98d99632b9baf9305fd",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804021",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804021/SRR7804021",
+        "size": "505000001",
+        "date": "2018-09-07 12:36:03",
+        "md5": "25f1bcca2d1f02d28c4da5350a0c8952",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804022",
+    "experiment_accession": "SRX4655772",
+    "sample_accession": "SAMN09990288",
+    "secondary_sample_accession": "SRS3753230",
+    "sample_alias": "GSM3380037",
+    "sample_title": "13Clamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380037: 13Clamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "4002536",
+    "base_count": "1094446823",
+    "sra_run_bytes": "504685341",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7804022",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804022/SRR7804022",
+        "size": "504687460",
+        "date": "2018-09-07 12:36:28",
+        "md5": "dd9f6f3a17445e5ad7b4ddc2a6f2a0ff",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804022.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804022/SRR7804022.sralite.1",
+        "size": "289445136",
+        "date": "2020-06-21 09:32:36",
+        "md5": "26d3b7bda6c16907c2894c90fa82ab72",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0008_S22_L002_R2_001.fastq.gz",
+        "size": "291943929",
+        "date": "2020-02-20 06:14:56",
+        "md5": "daff29a715044bca6c6ebfe5b8fb4a8b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0008_S22_L002_R1_001.fastq.gz",
+        "size": "262485580",
+        "date": "2020-02-20 08:47:33",
+        "md5": "58a1f4d435e4f09f9eaf2d55bd2054f5",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804023",
+    "experiment_accession": "SRX4655772",
+    "sample_accession": "SAMN09990288",
+    "secondary_sample_accession": "SRS3753230",
+    "sample_alias": "GSM3380037",
+    "sample_title": "13Clamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380037: 13Clamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "3827290",
+    "base_count": "1046773235",
+    "sra_run_bytes": "491987742",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0008_S22_L003_R1_001.fastq.gz",
+        "size": "261249105",
+        "date": "2020-02-20 09:07:15",
+        "md5": "3f457997c85eec533d93f7ca9cf1b7ed",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804023",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804023/SRR7804023",
+        "size": "491989862",
+        "date": "2018-09-07 12:35:38",
+        "md5": "8231d7da323e4889ca079a773fbc4dfe",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804023.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804023/SRR7804023.sralite.1",
+        "size": "276795026",
+        "date": "2020-06-14 12:06:39",
+        "md5": "d4e495c3a3bce7e83a21accd315e0647",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0008_S22_L003_R2_001.fastq.gz",
+        "size": "285570324",
+        "date": "2020-02-20 04:29:49",
+        "md5": "fdc5fbd2cfea3144481405f331724b93",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804024",
+    "experiment_accession": "SRX4655772",
+    "sample_accession": "SAMN09990288",
+    "secondary_sample_accession": "SRS3753230",
+    "sample_alias": "GSM3380037",
+    "sample_title": "13Clamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380037: 13Clamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "3820264",
+    "base_count": "1044701497",
+    "sra_run_bytes": "491462805",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7804024",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804024/SRR7804024",
+        "size": "491464921",
+        "date": "2018-09-07 12:35:59",
+        "md5": "3288713fc71dc5b133ab3019a2ec54ee",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804024.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804024/SRR7804024.sralite.1",
+        "size": "276267141",
+        "date": "2020-06-21 09:32:29",
+        "md5": "5fff784bc4a7cf2926b5e1659916010e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0008_S22_L004_R2_001.fastq.gz",
+        "size": "288397198",
+        "date": "2020-02-20 04:35:21",
+        "md5": "e7e5b223a4f9f48253930bbc737bedfd",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0008_S22_L004_R1_001.fastq.gz",
+        "size": "257681285",
+        "date": "2020-02-20 04:31:23",
+        "md5": "f6685ca5465afa6615667b9e8c54c2ad",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804017",
+    "experiment_accession": "SRX4655771",
+    "sample_accession": "SAMN09990289",
+    "secondary_sample_accession": "SRS3753229",
+    "sample_alias": "GSM3380036",
+    "sample_title": "13CHamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380036: 13CHamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "5963799",
+    "base_count": "1593054711",
+    "sra_run_bytes": "735704120",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0007_S21_L001_R1_001.fastq.gz",
+        "size": "342432892",
+        "date": "2020-02-20 08:11:09",
+        "md5": "e48351a515a4574a664e3e8bec3c2313",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0007_S21_L001_R2_001.fastq.gz",
+        "size": "381863908",
+        "date": "2020-02-20 01:01:17",
+        "md5": "0053cc0ad9669f11174d2e211c6c07d7",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804017",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804017/SRR7804017",
+        "size": "735706236",
+        "date": "2018-09-07 12:37:09",
+        "md5": "57e3c03e0b02efc0cccd8ef421b97588",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804017.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804017/SRR7804017.sralite.1",
+        "size": "422065132",
+        "date": "2020-06-21 09:31:10",
+        "md5": "7cc573094078603307278c166527013b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804018",
+    "experiment_accession": "SRX4655771",
+    "sample_accession": "SAMN09990289",
+    "secondary_sample_accession": "SRS3753229",
+    "sample_alias": "GSM3380036",
+    "sample_title": "13CHamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380036: 13CHamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "5979647",
+    "base_count": "1598594283",
+    "sra_run_bytes": "737804437",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0007_S21_L002_R1_001.fastq.gz",
+        "size": "340015484",
+        "date": "2020-02-20 04:54:45",
+        "md5": "009f95758ccd4d92a512e1663b53fca5",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0007_S21_L002_R2_001.fastq.gz",
+        "size": "386334290",
+        "date": "2020-02-19 23:28:31",
+        "md5": "4f67c5546eb50806aec6e69db8075562",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804018",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804018/SRR7804018",
+        "size": "737806556",
+        "date": "2018-09-07 12:36:43",
+        "md5": "9cad1b4a684a2705c6caed4d255b1ea8",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804018.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804018/SRR7804018.sralite.1",
+        "size": "423521412",
+        "date": "2020-06-21 09:36:03",
+        "md5": "64554e3f3a4958ee36d77afd8b468837",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804019",
+    "experiment_accession": "SRX4655771",
+    "sample_accession": "SAMN09990289",
+    "secondary_sample_accession": "SRS3753229",
+    "sample_alias": "GSM3380036",
+    "sample_title": "13CHamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380036: 13CHamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "5714730",
+    "base_count": "1527979519",
+    "sra_run_bytes": "718656295",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0007_S21_L003_R1_001.fastq.gz",
+        "size": "340846871",
+        "date": "2020-02-20 08:48:42",
+        "md5": "cb2a29cf831be8add066671ca1124bf8",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0007_S21_L003_R2_001.fastq.gz",
+        "size": "379177944",
+        "date": "2020-02-19 21:11:21",
+        "md5": "4e6fb8e7e4fd7da058f1f64ff00c9fe5",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804019",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804019/SRR7804019",
+        "size": "718658411",
+        "date": "2018-09-07 12:38:35",
+        "md5": "a53f6edf6d1aa28af8c6ed3c2348674c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804019.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804019/SRR7804019.sralite.1",
+        "size": "404746435",
+        "date": "2020-06-22 10:34:12",
+        "md5": "1d618a91fbd8f6e6aaa6209273192dee",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804020",
+    "experiment_accession": "SRX4655771",
+    "sample_accession": "SAMN09990289",
+    "secondary_sample_accession": "SRS3753229",
+    "sample_alias": "GSM3380036",
+    "sample_title": "13CHamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380036: 13CHamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "5705133",
+    "base_count": "1525084954",
+    "sra_run_bytes": "717819692",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0007_S21_L004_R1_001.fastq.gz",
+        "size": "335491073",
+        "date": "2020-02-19 22:07:24",
+        "md5": "c1668785ed71b282ca0be021d47b42db",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0007_S21_L004_R2_001.fastq.gz",
+        "size": "383377625",
+        "date": "2020-02-20 06:14:58",
+        "md5": "681b6dca08edce7e6161fcea72982e2f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804020",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804020/SRR7804020",
+        "size": "717821808",
+        "date": "2018-09-07 12:38:01",
+        "md5": "3109e496b12d74a039df8125c664f515",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804020.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804020/SRR7804020.sralite.1",
+        "size": "404015396",
+        "date": "2020-06-22 10:34:35",
+        "md5": "d13f268de9ba06e34a9ad2d689d336b3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804013",
+    "experiment_accession": "SRX4655770",
+    "sample_accession": "SAMN09990290",
+    "secondary_sample_accession": "SRS3753226",
+    "sample_alias": "GSM3380035",
+    "sample_title": "12CLamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380035: 12CLamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "7620131",
+    "base_count": "1985926284",
+    "sra_run_bytes": "908233942",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0006_S20_L001_R1_001.fastq.gz",
+        "size": "441353695",
+        "date": "2020-02-20 06:11:46",
+        "md5": "cf18f496464d3ff5034903acb80b6a41",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804013",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804013/SRR7804013",
+        "size": "908236061",
+        "date": "2018-09-07 12:38:14",
+        "md5": "ddc1a46acdef9bd6f6e079b947945489",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804013.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804013/SRR7804013.sralite.1",
+        "size": "527547189",
+        "date": "2020-06-22 10:35:47",
+        "md5": "616d9012176c8cef7549423e9c3b3796",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0006_S20_L001_R2_001.fastq.gz",
+        "size": "488841144",
+        "date": "2020-02-20 02:35:05",
+        "md5": "5f737d7bb8b4d8ef96bc4b96c1e031d3",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804014",
+    "experiment_accession": "SRX4655770",
+    "sample_accession": "SAMN09990290",
+    "secondary_sample_accession": "SRS3753226",
+    "sample_alias": "GSM3380035",
+    "sample_title": "12CLamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380035: 12CLamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "7626690",
+    "base_count": "1988858390",
+    "sra_run_bytes": "909723796",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7804014",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804014/SRR7804014",
+        "size": "909725912",
+        "date": "2018-09-07 12:38:35",
+        "md5": "5aced0a4ab61a07ee436582a7f428bbe",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0006_S20_L002_R2_001.fastq.gz",
+        "size": "493822762",
+        "date": "2020-02-20 05:49:29",
+        "md5": "c1d3317a50284db7c4518a0a3560bd62",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0006_S20_L002_R1_001.fastq.gz",
+        "size": "438290427",
+        "date": "2020-02-19 21:11:22",
+        "md5": "8d1e5ca8a6d9b27585a8844acaa9645e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804014.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804014/SRR7804014.sralite.1",
+        "size": "528314056",
+        "date": "2020-06-22 10:37:47",
+        "md5": "15931571956361125b30574906e1c060",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804015",
+    "experiment_accession": "SRX4655770",
+    "sample_accession": "SAMN09990290",
+    "secondary_sample_accession": "SRS3753226",
+    "sample_alias": "GSM3380035",
+    "sample_title": "12CLamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380035: 12CLamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "7338333",
+    "base_count": "1914024684",
+    "sra_run_bytes": "892038470",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0006_S20_L003_R1_001.fastq.gz",
+        "size": "440622673",
+        "date": "2020-02-20 02:41:03",
+        "md5": "f8390e63313033ab4931e2dc8ea78ff6",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804015.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804015/SRR7804015.sralite.1",
+        "size": "508358546",
+        "date": "2020-06-23 21:41:19",
+        "md5": "dc5451aa4bd0966365e7ac46e86dff26",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804015",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804015/SRR7804015",
+        "size": "892040590",
+        "date": "2018-09-07 12:39:34",
+        "md5": "46666c4b7f92e0cf5d5a2fc4780b5b47",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0006_S20_L003_R2_001.fastq.gz",
+        "size": "486442112",
+        "date": "2020-02-20 02:37:30",
+        "md5": "2df1640bb27919477d8a80e6dd250694",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804016",
+    "experiment_accession": "SRX4655770",
+    "sample_accession": "SAMN09990290",
+    "secondary_sample_accession": "SRS3753226",
+    "sample_alias": "GSM3380035",
+    "sample_title": "12CLamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380035: 12CLamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "7310036",
+    "base_count": "1905930994",
+    "sra_run_bytes": "889541588",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0006_S20_L004_R1_001.fastq.gz",
+        "size": "433279478",
+        "date": "2020-02-20 09:01:41",
+        "md5": "4470f6cb8bcb5a77c9596e4b21d16d95",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0006_S20_L004_R2_001.fastq.gz",
+        "size": "490765037",
+        "date": "2020-02-20 09:11:28",
+        "md5": "4cd7f1b3ff911696ab3792b96c77f7d0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804016",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804016/SRR7804016",
+        "size": "889543704",
+        "date": "2018-09-07 12:37:52",
+        "md5": "33d49755239b839f39df8709ddd57cca",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804016.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804016/SRR7804016.sralite.1",
+        "size": "506258880",
+        "date": "2020-06-22 10:36:28",
+        "md5": "cbbc75117956d924b8237cb278f74582",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804009",
+    "experiment_accession": "SRX4655769",
+    "sample_accession": "SAMN09990291",
+    "secondary_sample_accession": "SRS3753228",
+    "sample_alias": "GSM3380034",
+    "sample_title": "12CHamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380034: 12CHamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "13724803",
+    "base_count": "3612422712",
+    "sra_run_bytes": "1665885380",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0005_S19_L001_R1_001.fastq.gz",
+        "size": "814397436",
+        "date": "2020-02-20 09:11:10",
+        "md5": "83cf52047d4d9f29e084c6c06f5c9793",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0005_S19_L001_R2_001.fastq.gz",
+        "size": "902138599",
+        "date": "2020-02-19 21:13:15",
+        "md5": "5a2caea377cba45adb7b87f7f31ee254",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804009",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804009/SRR7804009",
+        "size": "1665887496",
+        "date": "2018-09-07 12:42:24",
+        "md5": "5585ef2976f686dcd6a5cc2474e89969",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804009.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804009/SRR7804009.sralite.1",
+        "size": "958186044",
+        "date": "2020-06-20 09:34:40",
+        "md5": "d124da3714abdea415611fc4cecf4bea",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804010",
+    "experiment_accession": "SRX4655769",
+    "sample_accession": "SAMN09990291",
+    "secondary_sample_accession": "SRS3753228",
+    "sample_alias": "GSM3380034",
+    "sample_title": "12CHamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380034: 12CHamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "13687884",
+    "base_count": "3605231792",
+    "sra_run_bytes": "1661910430",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0005_S19_L002_R1_001.fastq.gz",
+        "size": "805266117",
+        "date": "2020-02-20 03:27:30",
+        "md5": "d7f69a1c9ec9253f480f073d52b28a37",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0005_S19_L002_R2_001.fastq.gz",
+        "size": "906958585",
+        "date": "2020-02-19 22:07:29",
+        "md5": "c6be0415fc07415e499f9fd96e30e436",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804010",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804010/SRR7804010",
+        "size": "1661912551",
+        "date": "2018-09-07 12:41:56",
+        "md5": "51d88d78624125cbbbca7e4b05c8163f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804010.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804010/SRR7804010.sralite.1",
+        "size": "956258639",
+        "date": "2020-06-20 09:33:30",
+        "md5": "3a106d19b05e8a986accd81619344a3e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804011",
+    "experiment_accession": "SRX4655769",
+    "sample_accession": "SAMN09990291",
+    "secondary_sample_accession": "SRS3753228",
+    "sample_alias": "GSM3380034",
+    "sample_title": "12CHamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380034: 12CHamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "13113672",
+    "base_count": "3454511115",
+    "sra_run_bytes": "1622756621",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7804011",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804011/SRR7804011",
+        "size": "1622758735",
+        "date": "2018-09-07 12:41:47",
+        "md5": "0485bf2edb0eb259acbf41a72360ad7b",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804011.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804011/SRR7804011.sralite.1",
+        "size": "916143803",
+        "date": "2020-06-20 09:33:40",
+        "md5": "2309eaf72d96225d53c22df2fb6089ae",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0005_S19_L003_R2_001.fastq.gz",
+        "size": "891326679",
+        "date": "2020-02-19 22:04:42",
+        "md5": "76754bbb7d97fc1656ad52ec5e9e4d04",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0005_S19_L003_R1_001.fastq.gz",
+        "size": "806085311",
+        "date": "2020-02-20 02:34:48",
+        "md5": "812a31b0b9c92a24839aca0088ed7606",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804012",
+    "experiment_accession": "SRX4655769",
+    "sample_accession": "SAMN09990291",
+    "secondary_sample_accession": "SRS3753228",
+    "sample_alias": "GSM3380034",
+    "sample_title": "12CHamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "Linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380034: 12CHamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "13060044",
+    "base_count": "3440112235",
+    "sra_run_bytes": "1617652106",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0005_S19_L004_R1_001.fastq.gz",
+        "size": "792837199",
+        "date": "2020-02-20 09:08:54",
+        "md5": "c5b05eb4222d3fc173d604c83e7f96fc",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804012",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804012/SRR7804012",
+        "size": "1617654219",
+        "date": "2018-09-07 12:42:40",
+        "md5": "b9f740531c85a4a30eb390c712953735",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804012.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804012/SRR7804012.sralite.1",
+        "size": "912390915",
+        "date": "2020-06-20 09:28:29",
+        "md5": "66ca9e66b078cddedaf5330d3dead228",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0005_S19_L004_R2_001.fastq.gz",
+        "size": "898536294",
+        "date": "2020-02-19 22:07:30",
+        "md5": "b40c10b0e7f7ec943ae0357a721ddbc2",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804005",
+    "experiment_accession": "SRX4655768",
+    "sample_accession": "SAMN09990292",
+    "secondary_sample_accession": "SRS3753227",
+    "sample_alias": "GSM3380033",
+    "sample_title": "13CLunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380033: 13CLunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "9571345",
+    "base_count": "2653306769",
+    "sra_run_bytes": "1233556078",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0004_S18_L001_R1_001.fastq.gz",
+        "size": "654468783",
+        "date": "2020-02-20 02:34:49",
+        "md5": "c05b08a896d81aa46b4c2a10265e29f2",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804005",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804005/SRR7804005",
+        "size": "1233558193",
+        "date": "2018-09-07 12:39:45",
+        "md5": "c31e7aa5388999bec5bbbaee131b0d71",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804005.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804005/SRR7804005.sralite.1",
+        "size": "700579853",
+        "date": "2020-06-23 21:44:11",
+        "md5": "4b7d0005c4acac801bcef424918570fd",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0004_S18_L001_R2_001.fastq.gz",
+        "size": "704346113",
+        "date": "2020-02-19 21:13:43",
+        "md5": "eaa8f779a75b71bd6202f8859128df06",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804006",
+    "experiment_accession": "SRX4655768",
+    "sample_accession": "SAMN09990292",
+    "secondary_sample_accession": "SRS3753227",
+    "sample_alias": "GSM3380033",
+    "sample_title": "13CLunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380033: 13CLunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "9507382",
+    "base_count": "2636571252",
+    "sra_run_bytes": "1226731128",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7804006",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804006/SRR7804006",
+        "size": "1226733244",
+        "date": "2018-09-07 12:39:33",
+        "md5": "8a6b05f2e418bb25f36b6aa57f0649df",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804006.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804006/SRR7804006.sralite.1",
+        "size": "696188968",
+        "date": "2020-06-23 21:42:10",
+        "md5": "4b6c53f5c2aed33b51b9a62f111f122c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0004_S18_L002_R2_001.fastq.gz",
+        "size": "704807057",
+        "date": "2020-02-20 04:24:44",
+        "md5": "246223ffdb6c503eecca4927ed8f52ea",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0004_S18_L002_R1_001.fastq.gz",
+        "size": "647485101",
+        "date": "2020-02-19 20:59:12",
+        "md5": "06536f935dd9c43b4dc427c472d3d43b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804007",
+    "experiment_accession": "SRX4655768",
+    "sample_accession": "SAMN09990292",
+    "secondary_sample_accession": "SRS3753227",
+    "sample_alias": "GSM3380033",
+    "sample_title": "13CLunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380033: 13CLunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "9093330",
+    "base_count": "2523416256",
+    "sra_run_bytes": "1194866475",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0004_S18_L003_R1_001.fastq.gz",
+        "size": "641057335",
+        "date": "2020-02-20 09:07:48",
+        "md5": "d74c15840e8c2e888f4ead3a41bcbd62",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804007",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804007/SRR7804007",
+        "size": "1194868593",
+        "date": "2018-09-07 12:40:31",
+        "md5": "629eded7e5ea2a7fbae52edf7609ed89",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804007.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804007/SRR7804007.sralite.1",
+        "size": "666190225",
+        "date": "2020-06-23 21:42:01",
+        "md5": "452b056e7754804af56343ae1452189c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0004_S18_L003_R2_001.fastq.gz",
+        "size": "692531044",
+        "date": "2020-02-20 05:01:00",
+        "md5": "cb6d1f80d4a640bf56546bb9dff51181",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804008",
+    "experiment_accession": "SRX4655768",
+    "sample_accession": "SAMN09990292",
+    "secondary_sample_accession": "SRS3753227",
+    "sample_alias": "GSM3380033",
+    "sample_title": "13CLunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380033: 13CLunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "9047543",
+    "base_count": "2510522752",
+    "sra_run_bytes": "1190289913",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7804008",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804008/SRR7804008",
+        "size": "1190292031",
+        "date": "2018-09-07 12:39:07",
+        "md5": "f6fd45459286ea163f78fcaeaad9e1fc",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804008.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804008/SRR7804008.sralite.1",
+        "size": "662831623",
+        "date": "2020-06-23 21:45:56",
+        "md5": "a673e7315cc45506cfdf2b156328b1ef",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0004_S18_L004_R2_001.fastq.gz",
+        "size": "696335383",
+        "date": "2020-02-20 04:55:01",
+        "md5": "a22d8cf02042b321ec6da88250a81218",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0004_S18_L004_R1_001.fastq.gz",
+        "size": "630782917",
+        "date": "2020-02-19 21:13:20",
+        "md5": "f5782e7a156f894249a55a36e60f9c10",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804001",
+    "experiment_accession": "SRX4655767",
+    "sample_accession": "SAMN09990293",
+    "secondary_sample_accession": "SRS3753223",
+    "sample_alias": "GSM3380032",
+    "sample_title": "13CHunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380032: 13CHunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "11939293",
+    "base_count": "3400363717",
+    "sra_run_bytes": "1577754047",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0003_S17_L001_R2_001.fastq.gz",
+        "size": "803417504",
+        "date": "2020-02-19 22:07:33",
+        "md5": "bad791ff5306adceaa668f50550886b4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804001",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804001/SRR7804001",
+        "size": "1577756163",
+        "date": "2018-09-07 12:41:47",
+        "md5": "b5901e927983dd1d6d1f3de4871af7a3",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804001.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804001/SRR7804001.sralite.1",
+        "size": "893829075",
+        "date": "2020-06-20 09:35:25",
+        "md5": "d38f02adb6e88b774a6c3ed25bd05199",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0003_S17_L001_R1_001.fastq.gz",
+        "size": "742944670",
+        "date": "2020-02-20 01:53:20",
+        "md5": "91180ffc78d74e6985788640e73b23d2",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804002",
+    "experiment_accession": "SRX4655767",
+    "sample_accession": "SAMN09990293",
+    "secondary_sample_accession": "SRS3753223",
+    "sample_alias": "GSM3380032",
+    "sample_title": "13CHunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380032: 13CHunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "11893682",
+    "base_count": "3388575024",
+    "sra_run_bytes": "1573107781",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7804002",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804002/SRR7804002",
+        "size": "1573109901",
+        "date": "2018-09-07 12:40:50",
+        "md5": "d1bf4b623990803e8aceed50d99f2840",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804002.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804002/SRR7804002.sralite.1",
+        "size": "890706801",
+        "date": "2020-06-20 09:35:32",
+        "md5": "4d6cf5493e8f9472cc0c66bc9378e499",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0003_S17_L002_R2_001.fastq.gz",
+        "size": "807502540",
+        "date": "2020-02-20 08:09:22",
+        "md5": "7ab8900ee94360353d9d614aea186a3f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0003_S17_L002_R1_001.fastq.gz",
+        "size": "735910493",
+        "date": "2020-02-20 01:55:38",
+        "md5": "1d1b712d41bb6f7fd7cbecd0c3c774c0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804003",
+    "experiment_accession": "SRX4655767",
+    "sample_accession": "SAMN09990293",
+    "secondary_sample_accession": "SRS3753223",
+    "sample_alias": "GSM3380032",
+    "sample_title": "13CHunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380032: 13CHunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "11374319",
+    "base_count": "3241501356",
+    "sra_run_bytes": "1531652535",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7804003",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804003/SRR7804003",
+        "size": "1531654652",
+        "date": "2018-09-07 12:42:06",
+        "md5": "2a6fac8b20896b1cf1499a2b99d69c2d",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804003.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804003/SRR7804003.sralite.1",
+        "size": "851946560",
+        "date": "2020-06-20 09:27:44",
+        "md5": "740a1a640e61669c5fe049aa13722c5b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0003_S17_L003_R2_001.fastq.gz",
+        "size": "797169531",
+        "date": "2020-02-19 20:52:31",
+        "md5": "b538dd626796ab1bb0f684fd4142668d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0003_S17_L003_R1_001.fastq.gz",
+        "size": "734300951",
+        "date": "2020-02-19 21:11:10",
+        "md5": "2ba3977477c4f030c29b2665005eacbf",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804004",
+    "experiment_accession": "SRX4655767",
+    "sample_accession": "SAMN09990293",
+    "secondary_sample_accession": "SRS3753223",
+    "sample_alias": "GSM3380032",
+    "sample_title": "13CHunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Labeled (13C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380032: 13CHunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "11336748",
+    "base_count": "3230218167",
+    "sra_run_bytes": "1527296523",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0003_S17_L004_R1_001.fastq.gz",
+        "size": "721112513",
+        "date": "2020-02-19 20:56:00",
+        "md5": "a428d398ac4ae8690dd47c3044d16ad3",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0003_S17_L004_R2_001.fastq.gz",
+        "size": "803530839",
+        "date": "2020-02-19 20:57:17",
+        "md5": "da002514d4b3d55dc6d9a06218c25695",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804004",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804004/SRR7804004",
+        "size": "1527298643",
+        "date": "2018-09-07 12:40:31",
+        "md5": "8d3f1fd1eb6d07e6120797400b8cd0f8",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804004.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804004/SRR7804004.sralite.1",
+        "size": "849059571",
+        "date": "2020-06-23 21:45:51",
+        "md5": "9fccb4db713910d6705c273bd44b409a",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:14",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7803997",
+    "experiment_accession": "SRX4655766",
+    "sample_accession": "SAMN09990294",
+    "secondary_sample_accession": "SRS3753224",
+    "sample_alias": "GSM3380031",
+    "sample_title": "12CLunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380031: 12CLunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "10867155",
+    "base_count": "3015757819",
+    "sra_run_bytes": "1399359861",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7803997",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7803997/SRR7803997",
+        "size": "1399361979",
+        "date": "2018-09-07 12:40:34",
+        "md5": "448f8c4c3d6f7cfc3d507d70a3275651",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7803997.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/803/SRR7803997/SRR7803997.sralite.1",
+        "size": "795993503",
+        "date": "2020-06-23 21:45:03",
+        "md5": "d90eba8e2ff263487559162114a1b0d9",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0002_S16_L001_R2_001.fastq.gz",
+        "size": "742497966",
+        "date": "2020-02-20 05:58:07",
+        "md5": "7928ed5462cf1ca37d42aafcfb415f8f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0002_S16_L001_R1_001.fastq.gz",
+        "size": "680249825",
+        "date": "2020-02-20 08:11:19",
+        "md5": "20bb6671e48acdfc06934485be045993",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7803998",
+    "experiment_accession": "SRX4655766",
+    "sample_accession": "SAMN09990294",
+    "secondary_sample_accession": "SRS3753224",
+    "sample_alias": "GSM3380031",
+    "sample_title": "12CLunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380031: 12CLunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "10901542",
+    "base_count": "3026892262",
+    "sra_run_bytes": "1405887312",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0002_S16_L002_R1_001.fastq.gz",
+        "size": "678560286",
+        "date": "2020-02-20 08:50:42",
+        "md5": "2945402f40bee843537eacb5e6c6f0c5",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7803998",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7803998/SRR7803998",
+        "size": "1405889430",
+        "date": "2018-09-07 12:40:56",
+        "md5": "23d1409c89be3d77a955ef5cfd170830",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7803998.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/803/SRR7803998/SRR7803998.sralite.1",
+        "size": "798932606",
+        "date": "2020-06-20 09:28:02",
+        "md5": "55b2b5ed99c3b865a6e4f1b58f7f92dd",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0002_S16_L002_R2_001.fastq.gz",
+        "size": "752625364",
+        "date": "2020-02-20 05:59:18",
+        "md5": "6693fb0c822c5638da5ba20f6abe7a8b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7803999",
+    "experiment_accession": "SRX4655766",
+    "sample_accession": "SAMN09990294",
+    "secondary_sample_accession": "SRS3753224",
+    "sample_alias": "GSM3380031",
+    "sample_title": "12CLunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380031: 12CLunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "10382834",
+    "base_count": "2883781782",
+    "sra_run_bytes": "1363400163",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7803999",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7803999/SRR7803999",
+        "size": "1363402278",
+        "date": "2018-09-07 12:40:09",
+        "md5": "40049607c874dd76d62482edba8639bc",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7803999.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/803/SRR7803999/SRR7803999.sralite.1",
+        "size": "761058074",
+        "date": "2020-06-23 21:41:40",
+        "md5": "7f9b1fb8029b339971fa40d0be812483",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0002_S16_L003_R2_001.fastq.gz",
+        "size": "738324574",
+        "date": "2020-02-19 20:52:13",
+        "md5": "719b8a0a5387ba029736e13b354ac3fd",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0002_S16_L003_R1_001.fastq.gz",
+        "size": "673151444",
+        "date": "2020-02-19 20:52:29",
+        "md5": "89f82228fe59d394ce02a7499eb8d417",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7804000",
+    "experiment_accession": "SRX4655766",
+    "sample_accession": "SAMN09990294",
+    "secondary_sample_accession": "SRS3753224",
+    "sample_alias": "GSM3380031",
+    "sample_title": "12CLunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Light",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380031: 12CLunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "10380053",
+    "base_count": "2882706870",
+    "sra_run_bytes": "1364497554",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7804000",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7804000/SRR7804000",
+        "size": "1364499674",
+        "date": "2018-09-07 12:40:23",
+        "md5": "fdbdd975b894549a4f641b6e673cf8ef",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7804000.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/804/SRR7804000/SRR7804000.sralite.1",
+        "size": "760841450",
+        "date": "2020-06-23 21:47:08",
+        "md5": "1b2990aa37986cf46b77eafb9be5f8b5",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0002_S16_L004_R2_001.fastq.gz",
+        "size": "747348856",
+        "date": "2020-02-20 05:50:05",
+        "md5": "e2945e01896eea919a75929c7af64412",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0002_S16_L004_R1_001.fastq.gz",
+        "size": "663552990",
+        "date": "2020-02-20 08:04:03",
+        "md5": "634f70434247442bfbf4be39d7c16c9b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7803993",
+    "experiment_accession": "SRX4655765",
+    "sample_accession": "SAMN09990275",
+    "secondary_sample_accession": "SRS3753225",
+    "sample_alias": "GSM3380030",
+    "sample_title": "12CHunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380030: 12CHunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "7749724",
+    "base_count": "2169337779",
+    "sra_run_bytes": "1003438462",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7803993",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7803993/SRR7803993",
+        "size": "1003440581",
+        "date": "2018-09-07 12:37:50",
+        "md5": "f023c5af0da2a4402fddddfe47b66441",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7803993.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/803/SRR7803993/SRR7803993.sralite.1",
+        "size": "571788601",
+        "date": "2020-06-22 10:35:20",
+        "md5": "62136c9c9cd6d5c7dd2c811886086893",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0001_S15_L001_R2_001.fastq.gz",
+        "size": "530533644",
+        "date": "2020-02-20 06:08:01",
+        "md5": "c465a89b55867549e4502f79af323c85",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0001_S15_L001_R1_001.fastq.gz",
+        "size": "492964331",
+        "date": "2020-02-20 06:22:35",
+        "md5": "7baa035ed6b4dbcc0f377c6c9fa54b93",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7803994",
+    "experiment_accession": "SRX4655765",
+    "sample_accession": "SAMN09990275",
+    "secondary_sample_accession": "SRS3753225",
+    "sample_alias": "GSM3380030",
+    "sample_title": "12CHunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380030: 12CHunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "7761332",
+    "base_count": "2173396004",
+    "sra_run_bytes": "1006279641",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7803994",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7803994/SRR7803994",
+        "size": "1006281759",
+        "date": "2018-09-07 12:37:41",
+        "md5": "722f0e96896e7518a16f1d8ac334663b",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7803994.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/803/SRR7803994/SRR7803994.sralite.1",
+        "size": "572854679",
+        "date": "2020-06-21 09:35:13",
+        "md5": "7be5f3571e357adb1a476e4966866af4",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0001_S15_L002_R2_001.fastq.gz",
+        "size": "536438853",
+        "date": "2020-02-20 04:44:36",
+        "md5": "425d4c79cd5281569c6d4181e7184ba5",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0001_S15_L002_R1_001.fastq.gz",
+        "size": "491073430",
+        "date": "2020-02-19 20:52:42",
+        "md5": "064f01bcdb9478a2a19a535891891685",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7803995",
+    "experiment_accession": "SRX4655765",
+    "sample_accession": "SAMN09990275",
+    "secondary_sample_accession": "SRS3753225",
+    "sample_alias": "GSM3380030",
+    "sample_title": "12CHunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380030: 12CHunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "7417046",
+    "base_count": "2077423553",
+    "sra_run_bytes": "979255441",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "NG-136-0001_S15_L003_R2_001.fastq.gz",
+        "size": "528178921",
+        "date": "2020-02-20 03:03:05",
+        "md5": "98cb5ce032171f675a8103cfc00948da",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7803995",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7803995/SRR7803995",
+        "size": "979257558",
+        "date": "2018-09-07 12:38:09",
+        "md5": "c4ed04f58e9e20401f41b039fef2746f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7803995.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/803/SRR7803995/SRR7803995.sralite.1",
+        "size": "547497190",
+        "date": "2020-06-22 10:35:07",
+        "md5": "f37db727d7e3dfebe5581cd0d8d61893",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0001_S15_L003_R1_001.fastq.gz",
+        "size": "488525189",
+        "date": "2020-02-20 04:29:21",
+        "md5": "2452dc4e5eba19ba407dbca6c5477269",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7803996",
+    "experiment_accession": "SRX4655765",
+    "sample_accession": "SAMN09990275",
+    "secondary_sample_accession": "SRS3753225",
+    "sample_alias": "GSM3380030",
+    "sample_title": "12CHunamp",
+    "scientific_name": "aquifer metagenome",
+    "tax_id": "1704045",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Aquifer sediment (Environmental microbial community)",
+        "units": ""
+      },
+      {
+        "tag": "geographic location",
+        "value": "Hungary: Siklos",
+        "units": ""
+      },
+      {
+        "tag": "treatment",
+        "value": "No linear amplification",
+        "units": ""
+      },
+      {
+        "tag": "density",
+        "value": "Heavy",
+        "units": ""
+      },
+      {
+        "tag": "microcosm set",
+        "value": "Control (12C-toluene)",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA489848",
+    "secondary_study_accession": "SRP160141",
+    "study_title": "Transcriptome-stable isotope probing provides targeted functional and taxonomic insights into hypoxic pollutant-degrading aquifer microbiota",
+    "study_description": "We investigated a contaminant-degrading microbial community by sequencing total RNA (without rRNA depletion) from microcosms containing sediment from a hypoxic contaminated aquifer fed with isotopically labeled toluene. Overall design: Microcosms were made using sediment from a hypoxic, hydrocarbon-contaminated aquifer in Siklos, Hungary. They were incubated under hypoxic/microoxic conditions and provided with isotopically-labeled toluene as a substrate. RNA was extracted and subjected to isopycnic centrifugation to separated heavy (isotopically labeled) and light (unlabeled) RNA, representing microbes which did or did not metabolize toluene, respectively. Total RNA was sequenced to provide both taxonimic (16S) and functional (mRNA) data on this microbiota, the first instance of total-RNA-stable isotope probing used to investigate a contaminated environment.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "30483229"
+      }
+    ],
+    "experiment_title": "GSM3380030: 12CHunamp; aquifer metagenome; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "RNA was extracted with the Powersoil RNA isolation kit from QIAgen. Heavy (representing microbes that metabolized toluene) and light (microbes that did not metabolize toluene) RNA was separated by isopycnic centrifugation. Additionally, subsamples of RNA from Heavy and Light fractions underwent linear amplification with the MessageAmp II Bacteria kit from Thermofisher to compare the effects of amplification against unamplified samples. Libraries were produced according to manufacturer instruction using the Illumina TruSeq® Stranded mRNA HT kit.",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "7404228",
+    "base_count": "2073804609",
+    "sra_run_bytes": "978438622",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7803996",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7803996/SRR7803996",
+        "size": "978440742",
+        "date": "2018-09-07 12:38:22",
+        "md5": "361c4b7dc6c13d1f5bcb14b665eedaf9",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7803996.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR007/803/SRR7803996/SRR7803996.sralite.1",
+        "size": "546569646",
+        "date": "2020-06-22 10:37:25",
+        "md5": "083069c8b13e944623e6c0988c492cfa",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0001_S15_L004_R2_001.fastq.gz",
+        "size": "533175473",
+        "date": "2020-02-19 20:54:13",
+        "md5": "05e87fe61d8e6b8e1caa3264c568b89b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "NG-136-0001_S15_L004_R1_001.fastq.gz",
+        "size": "481091930",
+        "date": "2020-02-20 05:57:12",
+        "md5": "87b293f57fe136e11b5cb1befb565b59",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-09-25 18:20:13",
+    "run_is_public": "true"
+  }
+]

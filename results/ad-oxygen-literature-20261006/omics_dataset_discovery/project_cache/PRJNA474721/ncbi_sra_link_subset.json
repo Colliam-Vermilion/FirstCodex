@@ -1,0 +1,4791 @@
+[
+  {
+    "run_accession": "SRR7265373",
+    "experiment_accession": "SRX4169468",
+    "sample_accession": "SAMN09371438",
+    "secondary_sample_accession": "SRS3381414",
+    "sample_alias": "GSM3176761",
+    "sample_title": "dry seed 0 h Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "dry seed 0 h Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "Oryza sativa seeds were de-hulled and embryos were immediately extracted and snap frozen.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176761: dry seed 0 h Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "21847418",
+    "base_count": "2097352128",
+    "sra_run_bytes": "828102238",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "0h_1_RNA_AGTCAA_L005_R1_001.fastq.gz",
+        "size": "1460607659",
+        "date": "2020-02-25 03:44:58",
+        "md5": "16328b4bc476549bad12f87d6cc23a0a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265373.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265373.sralite.1",
+        "size": "525448873",
+        "date": "2020-06-22 10:01:44",
+        "md5": "e30059b378a02c45c3f60710c1e1d889",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265373",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265373/SRR7265373",
+        "size": "828103465",
+        "date": "2018-06-05 15:56:42",
+        "md5": "f41ee5324cad1df346de57d71dfc700d",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265374",
+    "experiment_accession": "SRX4169469",
+    "sample_accession": "SAMN09371437",
+    "secondary_sample_accession": "SRS3381413",
+    "sample_alias": "GSM3176762",
+    "sample_title": "dry seed 0 h Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "dry seed 0 h Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "Oryza sativa seeds were de-hulled and embryos were immediately extracted and snap frozen.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176762: dry seed 0 h Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "23564668",
+    "base_count": "2262208128",
+    "sra_run_bytes": "891656826",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "0h_2_RNA_AGTTCC_L005_R1_001.fastq.gz",
+        "size": "1574456070",
+        "date": "2020-02-25 05:32:44",
+        "md5": "cf058f5514afab465436fe4746965b15",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265374.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265374.sralite.1",
+        "size": "566733972",
+        "date": "2020-06-23 20:54:30",
+        "md5": "3109c758a3f9e229cb75429e243e0c0f",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265374",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265374/SRR7265374",
+        "size": "891658052",
+        "date": "2018-06-05 15:58:12",
+        "md5": "9bc48fd443762f38951e9240b95dc47b",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265375",
+    "experiment_accession": "SRX4169470",
+    "sample_accession": "SAMN09371436",
+    "secondary_sample_accession": "SRS3381415",
+    "sample_alias": "GSM3176763",
+    "sample_title": "dry seed 0 h Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "dry seed 0 h Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "Oryza sativa seeds were de-hulled and embryos were immediately extracted and snap frozen.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176763: dry seed 0 h Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "27812538",
+    "base_count": "2670003648",
+    "sra_run_bytes": "1080397528",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "0h_3_RNA_ATGTCA_L004_R1_001.fastq.gz",
+        "size": "1846691678",
+        "date": "2020-02-25 05:33:08",
+        "md5": "f9049802c0a29cd7cb43b3d711f94db4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265375.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265375.sralite.1",
+        "size": "668782418",
+        "date": "2020-06-20 08:46:22",
+        "md5": "20089c108aee98ba45a9b93a90d1f968",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265375",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265375/SRR7265375",
+        "size": "1080398754",
+        "date": "2018-06-05 16:04:01",
+        "md5": "b157c960d5176d062645cc7eceed9861",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265376",
+    "experiment_accession": "SRX4169471",
+    "sample_accession": "SAMN09371435",
+    "secondary_sample_accession": "SRS3381420",
+    "sample_alias": "GSM3176764",
+    "sample_title": "seeds following 1 h of aerobic germination (1hA) Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 1 h of aerobic germination (1hA) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 1 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176764: seeds following 1 h of aerobic germination (1hA) Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "23595242",
+    "base_count": "2265143232",
+    "sra_run_bytes": "896558015",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "1A_4_RNA_CGATGT_L008_R1_001.fastq.gz",
+        "size": "1576853748",
+        "date": "2020-02-25 04:01:45",
+        "md5": "94c00ce786a4d1351564d27409623be8",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265376.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265376.sralite.1",
+        "size": "567323324",
+        "date": "2020-06-20 08:46:55",
+        "md5": "ccea1799589134c72cf4d7cde03edafb",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265376",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265376/SRR7265376",
+        "size": "896559244",
+        "date": "2018-06-05 16:00:59",
+        "md5": "d0740827574ab5eea281f3e3b1d37a05",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265377",
+    "experiment_accession": "SRX4169472",
+    "sample_accession": "SAMN09371434",
+    "secondary_sample_accession": "SRS3381416",
+    "sample_alias": "GSM3176765",
+    "sample_title": "seeds following 1 h of aerobic germination (1hA) Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 1 h of aerobic germination (1hA) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 1 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176765: seeds following 1 h of aerobic germination (1hA) Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "22428104",
+    "base_count": "2153097984",
+    "sra_run_bytes": "854081701",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "1A_5_RNA_TGACCA_L008_R1_001.fastq.gz",
+        "size": "1502100848",
+        "date": "2020-02-24 21:13:45",
+        "md5": "d7367d2611c2613cc33dc9f88fe292df",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265377",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265377/SRR7265377",
+        "size": "854082928",
+        "date": "2018-06-05 16:02:32",
+        "md5": "54969bcbd49e8be0d00ffc6600be9777",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265377.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265377.sralite.1",
+        "size": "539264092",
+        "date": "2020-06-23 20:53:08",
+        "md5": "70ece4d9a296a32e611465f6c5d69ff0",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265378",
+    "experiment_accession": "SRX4169473",
+    "sample_accession": "SAMN09371433",
+    "secondary_sample_accession": "SRS3381417",
+    "sample_alias": "GSM3176766",
+    "sample_title": "seeds following 1 h of aerobic germination (1hA) Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 1 h of aerobic germination (1hA) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 1 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176766: seeds following 1 h of aerobic germination (1hA) Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "41911629",
+    "base_count": "4023516384",
+    "sra_run_bytes": "1771997382",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "1A_6_RNA_ACAGTG_L003_R1_001.fastq.gz",
+        "size": "3031841561",
+        "date": "2020-02-25 03:45:03",
+        "md5": "b570818e78f2e561927392e018873240",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265378.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265378.sralite.1",
+        "size": "1007850962",
+        "date": "2020-06-23 20:58:32",
+        "md5": "fcdacf85579e597f44b7e15be43eed1b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265378",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265378/SRR7265378",
+        "size": "1771998610",
+        "date": "2018-06-05 16:05:51",
+        "md5": "e9d5e7986f7574786134cdf0d2c3899d",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265379",
+    "experiment_accession": "SRX4169474",
+    "sample_accession": "SAMN09371432",
+    "secondary_sample_accession": "SRS3381418",
+    "sample_alias": "GSM3176767",
+    "sample_title": "seeds following 1 h of anaerobic germination (1hN) Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 1 h of anaerobic germination (1hN) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 1 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176767: seeds following 1 h of anaerobic germination (1hN) Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "36617962",
+    "base_count": "3515324352",
+    "sra_run_bytes": "1542905230",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "1N_7_RNA_GCCAAT_L003_R1_001.fastq.gz",
+        "size": "2643286374",
+        "date": "2020-02-25 05:48:28",
+        "md5": "5b0ddd4929a388fbf1470206aea74ddd",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265379",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265379/SRR7265379",
+        "size": "1542906459",
+        "date": "2018-06-05 16:02:58",
+        "md5": "47dd4b574243bf77a1643c3661278245",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265379.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265379.sralite.1",
+        "size": "880565887",
+        "date": "2020-06-22 10:02:29",
+        "md5": "ec41f12e35d75d82d501d7388e14e988",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265380",
+    "experiment_accession": "SRX4169475",
+    "sample_accession": "SAMN09371431",
+    "secondary_sample_accession": "SRS3381419",
+    "sample_alias": "GSM3176768",
+    "sample_title": "seeds following 1 h of anaerobic germination (1hN) Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 1 h of anaerobic germination (1hN) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 1 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176768: seeds following 1 h of anaerobic germination (1hN) Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "21123254",
+    "base_count": "2027832384",
+    "sra_run_bytes": "806127568",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7265380",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265380/SRR7265380",
+        "size": "806128794",
+        "date": "2018-06-05 15:58:28",
+        "md5": "00dadd786856c3f6488232682dc10d3f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265380.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR007/265/SRR7265380.sralite.1",
+        "size": "507902082",
+        "date": "2020-06-20 08:45:12",
+        "md5": "38abcbf047f5cdeea2ecfdaba1f85043",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "1N_8_RNA_CAGATC_L008_R1_001.fastq.gz",
+        "size": "1416337396",
+        "date": "2020-02-25 03:44:47",
+        "md5": "6ebed9ed2dc94138d3a4ccdcc48323d5",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265381",
+    "experiment_accession": "SRX4169476",
+    "sample_accession": "SAMN09371430",
+    "secondary_sample_accession": "SRS3381421",
+    "sample_alias": "GSM3176769",
+    "sample_title": "seeds following 1 h of anaerobic germination (1hN) Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 1 h of anaerobic germination (1hN) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 1 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176769: seeds following 1 h of anaerobic germination (1hN) Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "42752769",
+    "base_count": "4104265824",
+    "sra_run_bytes": "1806501181",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "1N_9_RNA_CTTGTA_L003_R1_001.fastq.gz",
+        "size": "3090484422",
+        "date": "2020-02-25 03:44:57",
+        "md5": "c745f09ea757f54d95dc7df9f8600847",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265381",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265381/SRR7265381",
+        "size": "1806502410",
+        "date": "2018-06-05 16:04:26",
+        "md5": "8e81e845d97867508642b30a87573a90",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265381.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265381.sralite.1",
+        "size": "1028071558",
+        "date": "2020-06-21 09:11:04",
+        "md5": "143c3d2a94a62893d0b7f070e2116f44",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265382",
+    "experiment_accession": "SRX4169477",
+    "sample_accession": "SAMN09371429",
+    "secondary_sample_accession": "SRS3381423",
+    "sample_alias": "GSM3176770",
+    "sample_title": "seeds following 3 h of aerobic germination (3hA) Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 h of aerobic germination (3hA) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 3 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176770: seeds following 3 h of aerobic germination (3hA) Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "23393217",
+    "base_count": "2245748832",
+    "sra_run_bytes": "888830561",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3A_10_RNA_AGTCAA_L008_R1_001.fastq.gz",
+        "size": "1567228457",
+        "date": "2020-02-25 05:39:03",
+        "md5": "2d5219e9f9635dea62f4242ed2188182",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265382.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR007/265/SRR7265382.sralite.1",
+        "size": "562446928",
+        "date": "2020-06-22 10:00:13",
+        "md5": "33bc0fed369562c50d1d3cb1d7b938d3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265382",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265382/SRR7265382",
+        "size": "888831788",
+        "date": "2018-06-05 15:59:48",
+        "md5": "67613a2279d20dc6c16eb9dfc66fe13e",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265383",
+    "experiment_accession": "SRX4169478",
+    "sample_accession": "SAMN09371428",
+    "secondary_sample_accession": "SRS3381422",
+    "sample_alias": "GSM3176771",
+    "sample_title": "seeds following 3 h of aerobic germination (3hA) Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 h of aerobic germination (3hA) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 3 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176771: seeds following 3 h of aerobic germination (3hA) Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "22269308",
+    "base_count": "2137853568",
+    "sra_run_bytes": "842988644",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7265383",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265383/SRR7265383",
+        "size": "842989873",
+        "date": "2018-06-05 16:05:08",
+        "md5": "d288140102b5cd88ef0186fbeda88c75",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "3A_11_RNA_AGTTCC_L008_R1_001.fastq.gz",
+        "size": "1488269422",
+        "date": "2020-02-24 21:34:34",
+        "md5": "9990e7181cacbadb4fcc6f32ba924527",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265383.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265383.sralite.1",
+        "size": "535430653",
+        "date": "2020-06-23 20:55:56",
+        "md5": "da0aa6623a5d9d5fc54b33e0a33f172a",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265384",
+    "experiment_accession": "SRX4169479",
+    "sample_accession": "SAMN09371427",
+    "secondary_sample_accession": "SRS3381425",
+    "sample_alias": "GSM3176772",
+    "sample_title": "seeds following 3 h of aerobic germination (3hA) Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 h of aerobic germination (3hA) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 3 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176772: seeds following 3 h of aerobic germination (3hA) Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "33299114",
+    "base_count": "3196714944",
+    "sra_run_bytes": "1402293778",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7265384.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265384.sralite.1",
+        "size": "800751733",
+        "date": "2020-06-14 15:54:40",
+        "md5": "75ea3af99824583baef4e57c3226647c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265384",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265384/SRR7265384",
+        "size": "1402295005",
+        "date": "2018-06-05 16:01:06",
+        "md5": "2e607871c73daa499f2c6f395b49ccb5",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "3A_12_RNA_ATGTCA_L003_R1_001.fastq.gz",
+        "size": "2405389185",
+        "date": "2020-02-25 03:44:53",
+        "md5": "a11d89abf664ce33418481268941518b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265385",
+    "experiment_accession": "SRX4169480",
+    "sample_accession": "SAMN09371426",
+    "secondary_sample_accession": "SRS3381424",
+    "sample_alias": "GSM3176773",
+    "sample_title": "seeds following 3 h of anaerobic germination (3hN) Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 h of anaerobic germination (3hN) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 3 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176773: seeds following 3 h of anaerobic germination (3hN) Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "20860684",
+    "base_count": "2002625664",
+    "sra_run_bytes": "797721680",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3N_13_RNA_CCGTCC_L008_R1_001.fastq.gz",
+        "size": "1403446577",
+        "date": "2020-02-25 05:29:49",
+        "md5": "94d38838c1857db462161c7236af1182",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265385",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265385/SRR7265385",
+        "size": "797722909",
+        "date": "2018-06-05 15:57:39",
+        "md5": "c2fa0b5c25057c7224ce29dc88a175b8",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265385.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265385.sralite.1",
+        "size": "501573565",
+        "date": "2020-06-23 20:53:52",
+        "md5": "429641c5164c990c633181214f22bd2e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265386",
+    "experiment_accession": "SRX4169481",
+    "sample_accession": "SAMN09371425",
+    "secondary_sample_accession": "SRS3381426",
+    "sample_alias": "GSM3176774",
+    "sample_title": "seeds following 3 h of anaerobic germination (3hN) Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 h of anaerobic germination (3hN) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 3 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176774: seeds following 3 h of anaerobic germination (3hN) Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "35924238",
+    "base_count": "3448726848",
+    "sra_run_bytes": "1522743527",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7265386.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR007/265/SRR7265386.sralite.1",
+        "size": "863880589",
+        "date": "2020-06-20 08:48:17",
+        "md5": "9be37518434ce6ec3cb1d39d4fd16781",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265386",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265386/SRR7265386",
+        "size": "1522744753",
+        "date": "2018-06-05 16:09:14",
+        "md5": "7d5d1fc31598bdfcef779af97b4fcf6f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "3N_14_RNA_GTCCGC_L003_R1_001.fastq.gz",
+        "size": "2603009245",
+        "date": "2020-02-25 05:52:11",
+        "md5": "f9131c44d4328c611992f218a6c69a26",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265387",
+    "experiment_accession": "SRX4169482",
+    "sample_accession": "SAMN09371424",
+    "secondary_sample_accession": "SRS3381429",
+    "sample_alias": "GSM3176775",
+    "sample_title": "seeds following 3 h of anaerobic germination (3hN) Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 h of anaerobic germination (3hN) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 3 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176775: seeds following 3 h of anaerobic germination (3hN) Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "37071229",
+    "base_count": "3558837984",
+    "sra_run_bytes": "1563211642",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3N_15_RNA_GTGAAA_L003_R1_001.fastq.gz",
+        "size": "2674923391",
+        "date": "2020-02-25 05:48:59",
+        "md5": "14adc2a29c1050cfd84e40bbc6a1d143",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265387.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265387.sralite.1",
+        "size": "891482412",
+        "date": "2020-06-21 09:09:09",
+        "md5": "232b742665e3a7268ed2fe081a37ba16",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265387",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265387/SRR7265387",
+        "size": "1563212868",
+        "date": "2018-06-05 16:02:55",
+        "md5": "b094eec2ea87a4bf5d4d1d37d4dc02e8",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265388",
+    "experiment_accession": "SRX4169483",
+    "sample_accession": "SAMN09371423",
+    "secondary_sample_accession": "SRS3381427",
+    "sample_alias": "GSM3176776",
+    "sample_title": "seeds following 12 h of aerobic germination (12hA) Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 12 h of aerobic germination (12hA) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 12 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176776: seeds following 12 h of aerobic germination (12hA) Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "24912022",
+    "base_count": "2391554112",
+    "sra_run_bytes": "938409136",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "12A_16_RNA_CGATGT_L007_R1_001.fastq.gz",
+        "size": "1660444425",
+        "date": "2020-02-25 03:56:19",
+        "md5": "937d7930eb946d0e27a915e0b80b1ad7",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265388",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265388/SRR7265388",
+        "size": "938410364",
+        "date": "2018-06-05 16:07:18",
+        "md5": "055e1eff0ff9188dba94ad347b6579da",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265388.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265388.sralite.1",
+        "size": "599063600",
+        "date": "2020-06-20 08:48:30",
+        "md5": "c532258df6599acdd41f3941e8e2720f",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265389",
+    "experiment_accession": "SRX4169484",
+    "sample_accession": "SAMN09371422",
+    "secondary_sample_accession": "SRS3381428",
+    "sample_alias": "GSM3176777",
+    "sample_title": "seeds following 12 h of aerobic germination (12hA) Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 12 h of aerobic germination (12hA) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 12 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176777: seeds following 12 h of aerobic germination (12hA) Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "25772517",
+    "base_count": "2474161632",
+    "sra_run_bytes": "972135035",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7265389.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR007/265/SRR7265389.sralite.1",
+        "size": "619742894",
+        "date": "2020-06-14 15:54:24",
+        "md5": "c48ccbafa19bc906b6d82fb91d7e994c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265389",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265389/SRR7265389",
+        "size": "972136262",
+        "date": "2018-06-05 15:58:35",
+        "md5": "0e0ebd160b90db7b2ce8486e3f388ab1",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "12A_17_RNA_TGACCA_L007_R1_001.fastq.gz",
+        "size": "1719579305",
+        "date": "2020-02-25 03:51:15",
+        "md5": "0aef5113344846275338fa3d4a7e6034",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265390",
+    "experiment_accession": "SRX4169485",
+    "sample_accession": "SAMN09371421",
+    "secondary_sample_accession": "SRS3381430",
+    "sample_alias": "GSM3176778",
+    "sample_title": "seeds following 12 h of aerobic germination (12hA) Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 12 h of aerobic germination (12hA) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 12 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176778: seeds following 12 h of aerobic germination (12hA) Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "28446979",
+    "base_count": "2730909984",
+    "sra_run_bytes": "1089204094",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7265390",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265390/SRR7265390",
+        "size": "1089205320",
+        "date": "2018-06-05 15:59:23",
+        "md5": "71c7b2d5da1936dbfd91bc26de9bdd80",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265390.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR007/265/SRR7265390.sralite.1",
+        "size": "684001916",
+        "date": "2020-06-20 08:49:05",
+        "md5": "90fc5023c21ae8e118a5163c610ab21c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "12A_18_RNA_ACAGTG_L006_R1_001.fastq.gz",
+        "size": "1917030578",
+        "date": "2020-02-25 05:57:36",
+        "md5": "3267dfc28bfea132973d3e77df5ee521",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265391",
+    "experiment_accession": "SRX4169486",
+    "sample_accession": "SAMN09371420",
+    "secondary_sample_accession": "SRS3381431",
+    "sample_alias": "GSM3176779",
+    "sample_title": "seeds following 12 h of anaerobic germination (12hN) Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 12 h of anaerobic germination (12hN) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 12 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176779: seeds following 12 h of anaerobic germination (12hN) Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "23765632",
+    "base_count": "2281500672",
+    "sra_run_bytes": "912131024",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "12N_19_RNA_GCCAAT_L006_R1_001.fastq.gz",
+        "size": "1604224061",
+        "date": "2020-02-25 05:39:03",
+        "md5": "94d161ff5a12416d69abbe50508964a8",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265391.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265391.sralite.1",
+        "size": "571465135",
+        "date": "2020-06-23 20:55:39",
+        "md5": "33a0bcfc1e0d5a8cd97a116593d9a83e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265391",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265391/SRR7265391",
+        "size": "912132251",
+        "date": "2018-06-05 15:58:01",
+        "md5": "c6e023e20559a447589e5644e5e2f786",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265392",
+    "experiment_accession": "SRX4169487",
+    "sample_accession": "SAMN09371419",
+    "secondary_sample_accession": "SRS3381432",
+    "sample_alias": "GSM3176780",
+    "sample_title": "seeds following 12 h of anaerobic germination (12hN) Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 12 h of anaerobic germination (12hN) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 12 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176780: seeds following 12 h of anaerobic germination (12hN) Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "24455960",
+    "base_count": "2347772160",
+    "sra_run_bytes": "932113251",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7265392",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265392/SRR7265392",
+        "size": "932114478",
+        "date": "2018-06-05 15:59:07",
+        "md5": "c5801aa5adb61e4ed7adde42602d1789",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265392.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265392.sralite.1",
+        "size": "588107790",
+        "date": "2020-06-14 15:49:42",
+        "md5": "ff94eae2f8e01a15fd5c87bdd88469fd",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "12N_20_RNA_CAGATC_L007_R1_001.fastq.gz",
+        "size": "1641397704",
+        "date": "2020-02-24 21:12:42",
+        "md5": "3875dc4e97c9ce521f554bedce80df62",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265393",
+    "experiment_accession": "SRX4169488",
+    "sample_accession": "SAMN09371418",
+    "secondary_sample_accession": "SRS3381433",
+    "sample_alias": "GSM3176781",
+    "sample_title": "seeds following 12 h of anaerobic germination (12hN) Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 12 h of anaerobic germination (12hN) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 12 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176781: seeds following 12 h of anaerobic germination (12hN) Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "25469481",
+    "base_count": "2445070176",
+    "sra_run_bytes": "981495241",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "12N_21_RNA_CTTGTA_L006_R1_001.fastq.gz",
+        "size": "1722361435",
+        "date": "2020-02-25 05:54:44",
+        "md5": "f79b39f6f5081c65f6b916d768c81a95",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265393",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265393/SRR7265393",
+        "size": "981496469",
+        "date": "2018-06-05 15:58:20",
+        "md5": "91762c97a169d064affad9eba076946d",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265393.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265393.sralite.1",
+        "size": "612433461",
+        "date": "2020-06-23 20:52:34",
+        "md5": "6e0acfee427d4be72c718203304624f9",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265394",
+    "experiment_accession": "SRX4169489",
+    "sample_accession": "SAMN09371417",
+    "secondary_sample_accession": "SRS3381434",
+    "sample_alias": "GSM3176782",
+    "sample_title": "seeds following 24 h of aerobic germination (24hA) Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 24 h of aerobic germination (24hA) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 24 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176782: seeds following 24 h of aerobic germination (24hA) Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "18386511",
+    "base_count": "1765105056",
+    "sra_run_bytes": "698333929",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "24A_22_RNA_AGTCAA_L007_R1_001.fastq.gz",
+        "size": "1234215473",
+        "date": "2020-02-24 21:15:47",
+        "md5": "8cd79b88937ac97fdccf2e62e52a72e8",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265394",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265394/SRR7265394",
+        "size": "698335156",
+        "date": "2018-06-05 15:58:06",
+        "md5": "e88a7c97e69850fcd771e386697f5a1e",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265394.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265394.sralite.1",
+        "size": "442162756",
+        "date": "2020-06-23 20:51:21",
+        "md5": "9227658192dcc075875d911ebb423784",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265395",
+    "experiment_accession": "SRX4169490",
+    "sample_accession": "SAMN09371416",
+    "secondary_sample_accession": "SRS3381435",
+    "sample_alias": "GSM3176783",
+    "sample_title": "seeds following 24 h of aerobic germination (24hA) Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 24 h of aerobic germination (24hA) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 24 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176783: seeds following 24 h of aerobic germination (24hA) Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "23331960",
+    "base_count": "2239868160",
+    "sra_run_bytes": "881692044",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "24A_23_RNA_AGTTCC_L007_R1_001.fastq.gz",
+        "size": "1559553354",
+        "date": "2020-02-24 21:12:42",
+        "md5": "d97667b082f62b5e4dc44869cbef4b01",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265395.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265395.sralite.1",
+        "size": "561067899",
+        "date": "2020-06-22 09:59:56",
+        "md5": "63cd427167329ecde7ca42bf0f907bd3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265395",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265395/SRR7265395",
+        "size": "881693271",
+        "date": "2018-06-05 16:00:31",
+        "md5": "f91f862703a16a2290aa116fd48213c2",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:12",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265396",
+    "experiment_accession": "SRX4169491",
+    "sample_accession": "SAMN09371415",
+    "secondary_sample_accession": "SRS3381436",
+    "sample_alias": "GSM3176784",
+    "sample_title": "seeds following 24 h of aerobic germination (24hA) Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 24 h of aerobic germination (24hA) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 24 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176784: seeds following 24 h of aerobic germination (24hA) Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "23091464",
+    "base_count": "2216780544",
+    "sra_run_bytes": "884134117",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "24A_24_RNA_ATGTCA_L006_R1_001.fastq.gz",
+        "size": "1557432475",
+        "date": "2020-02-25 05:33:27",
+        "md5": "ffab7352d991eb87265dddba7f0f4d56",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265396",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265396/SRR7265396",
+        "size": "884135341",
+        "date": "2018-06-05 16:01:24",
+        "md5": "1054b89c1f07a4ba4f74cc6a30139154",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265396.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265396.sralite.1",
+        "size": "555248757",
+        "date": "2020-06-20 08:48:02",
+        "md5": "8725cafa16e6390f752536ff6e43e17a",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265397",
+    "experiment_accession": "SRX4169492",
+    "sample_accession": "SAMN09371414",
+    "secondary_sample_accession": "SRS3381437",
+    "sample_alias": "GSM3176785",
+    "sample_title": "seeds following 24 h of anaerobic germination (24hN) Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 24 h of anaerobic germination (24hN) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 24 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176785: seeds following 24 h of anaerobic germination (24hN) Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "22068958",
+    "base_count": "2118619968",
+    "sra_run_bytes": "841523505",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7265397",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265397/SRR7265397",
+        "size": "841524732",
+        "date": "2018-06-05 15:57:45",
+        "md5": "d4c6abc9c9b93c09b0331b6871ae2d28",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "24N_25_RNA_CCGTCC_L007_R1_001.fastq.gz",
+        "size": "1483796957",
+        "date": "2020-02-25 05:46:48",
+        "md5": "f6d56251ce6c9499343bd30dd96488c6",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265397.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265397.sralite.1",
+        "size": "530704004",
+        "date": "2020-06-23 20:56:23",
+        "md5": "4aa39ce645a05460fb5bd626df9b420c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265398",
+    "experiment_accession": "SRX4169493",
+    "sample_accession": "SAMN09371413",
+    "secondary_sample_accession": "SRS3381438",
+    "sample_alias": "GSM3176786",
+    "sample_title": "seeds following 24 h of anaerobic germination (24hN) Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 24 h of anaerobic germination (24hN) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 24 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176786: seeds following 24 h of anaerobic germination (24hN) Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "23469892",
+    "base_count": "2253109632",
+    "sra_run_bytes": "905546604",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7265398",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265398/SRR7265398",
+        "size": "905547832",
+        "date": "2018-06-05 15:59:00",
+        "md5": "fc726220fa75d25961b8b0e4ca5f1e85",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265398.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265398.sralite.1",
+        "size": "564347608",
+        "date": "2020-06-20 08:47:56",
+        "md5": "dca120bb0621689b103a95f3660619f9",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "24N_26_RNA_GTCCGC_L006_R1_001.fastq.gz",
+        "size": "1590177475",
+        "date": "2020-02-25 03:45:09",
+        "md5": "cbfeaade39cf1ca59d912a3748f4643d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265399",
+    "experiment_accession": "SRX4169494",
+    "sample_accession": "SAMN09371412",
+    "secondary_sample_accession": "SRS3381439",
+    "sample_alias": "GSM3176787",
+    "sample_title": "seeds following 24 h of anaerobic germination (24hN) Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "germinating embryos",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 24 h of anaerobic germination (24hN) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 24 h.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176787: seeds following 24 h of anaerobic germination (24hN) Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "25241252",
+    "base_count": "2423160192",
+    "sra_run_bytes": "969785826",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "24N_27_RNA_GTGAAA_L006_R1_001.fastq.gz",
+        "size": "1703771643",
+        "date": "2020-02-24 21:12:45",
+        "md5": "6b92608906ce023c79cee7473330f182",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265399.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265399.sralite.1",
+        "size": "606946201",
+        "date": "2020-06-14 15:52:27",
+        "md5": "8a98d3506048d2df0c60e1f2d30ecf11",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265399",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265399/SRR7265399",
+        "size": "969787053",
+        "date": "2018-06-05 16:00:06",
+        "md5": "d24fa1d65e03e395b3f71d8090cef49e",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265400",
+    "experiment_accession": "SRX4169495",
+    "sample_accession": "SAMN09371481",
+    "secondary_sample_accession": "SRS3381440",
+    "sample_alias": "GSM3176788",
+    "sample_title": "seeds following 2 d of aerobic germination (2dA) Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 2 d of aerobic germination (2dA) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 2 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176788: seeds following 2 d of aerobic germination (2dA) Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "37137262",
+    "base_count": "3565177152",
+    "sra_run_bytes": "1599012903",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR7265400",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265400/SRR7265400",
+        "size": "1599014128",
+        "date": "2018-06-05 16:02:24",
+        "md5": "e163a5bd073cdb5bcabfa97c27591745",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265400.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265400.sralite.1",
+        "size": "892693644",
+        "date": "2020-06-22 10:03:07",
+        "md5": "f59765ba755ce310d2261b6f2b1fce39",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "2dA_28_RNA_CGATGT_L004_R1_001.fastq.gz",
+        "size": "2732019217",
+        "date": "2020-02-24 21:45:15",
+        "md5": "30b3382793a04ee62edd415aba428531",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265401",
+    "experiment_accession": "SRX4169496",
+    "sample_accession": "SAMN09371480",
+    "secondary_sample_accession": "SRS3381441",
+    "sample_alias": "GSM3176789",
+    "sample_title": "seeds following 2 d of aerobic germination (2dA) Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 2 d of aerobic germination (2dA) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 2 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176789: seeds following 2 d of aerobic germination (2dA) Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "41696575",
+    "base_count": "4002871200",
+    "sra_run_bytes": "1798612644",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "2dA_29_RNA_TGACCA_L004_R1_001.fastq.gz",
+        "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR7265401/2dA_29_RNA_TGACCA_L004_R1_001.fastq.gz.1",
+        "size": "3071200060",
+        "date": "2020-02-24 21:36:33",
+        "md5": "2eeca3f3b731412c4433ef5fd95c3695",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265401.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265401.sralite.1",
+        "size": "1002267802",
+        "date": "2020-06-22 10:03:42",
+        "md5": "2df7337fa49075561c39b272d33e53de",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265402",
+    "experiment_accession": "SRX4169497",
+    "sample_accession": "SAMN09371479",
+    "secondary_sample_accession": "SRS3381442",
+    "sample_alias": "GSM3176790",
+    "sample_title": "seeds following 2 d of aerobic germination (2dA) Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 2 d of aerobic germination (2dA) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 2 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176790: seeds following 2 d of aerobic germination (2dA) Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "31720791",
+    "base_count": "3045195936",
+    "sra_run_bytes": "1315663353",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "2dA_30_RNA_ACAGTG_L005_R1_001.fastq.gz",
+        "size": "2267416340",
+        "date": "2020-02-25 06:00:04",
+        "md5": "46b91d30404ac01182fec887e8ed4957",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265402",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265402/SRR7265402",
+        "size": "1315664581",
+        "date": "2018-06-05 16:04:25",
+        "md5": "93bb3ed3af576ad47b3fe0ce7151d2a6",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265402.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265402.sralite.1",
+        "size": "762774461",
+        "date": "2020-06-23 20:57:56",
+        "md5": "6b8cf91aab6c5a17be48bbfbac3a7a77",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265403",
+    "experiment_accession": "SRX4169498",
+    "sample_accession": "SAMN09371478",
+    "secondary_sample_accession": "SRS3381443",
+    "sample_alias": "GSM3176791",
+    "sample_title": "seeds following 2 d of anaerobic germination (2dN) Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 2 d of anaerobic germination (2dN) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 2 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176791: seeds following 2 d of anaerobic germination (2dN) Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "35162790",
+    "base_count": "3375627840",
+    "sra_run_bytes": "1457505866",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "2dN_31_RNA_GCCAAT_L005_R1_001.fastq.gz",
+        "size": "2511187659",
+        "date": "2020-02-25 05:42:45",
+        "md5": "99b46d17a15efa71de2a7928e67b02e9",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265403",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265403/SRR7265403",
+        "size": "1457507090",
+        "date": "2018-06-05 16:07:59",
+        "md5": "ea3f7dcfcc49989edeb3c8bad16098df",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265403.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265403.sralite.1",
+        "size": "845536006",
+        "date": "2020-06-20 08:51:53",
+        "md5": "92ffaa5453b571927c535eb57055d635",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265404",
+    "experiment_accession": "SRX4169499",
+    "sample_accession": "SAMN09371477",
+    "secondary_sample_accession": "SRS3381444",
+    "sample_alias": "GSM3176792",
+    "sample_title": "seeds following 2 d of anaerobic germination (2dN) Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 2 d of anaerobic germination (2dN) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 2 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176792: seeds following 2 d of anaerobic germination (2dN) Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "36493968",
+    "base_count": "3503420928",
+    "sra_run_bytes": "1588673922",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "2dN_32_RNA_CAGATC_L004_R1_001.fastq.gz",
+        "size": "2702940277",
+        "date": "2020-02-25 05:55:14",
+        "md5": "395bf454a0e308489c224df3655128d8",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265404",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265404/SRR7265404",
+        "size": "1588675147",
+        "date": "2018-06-05 16:02:06",
+        "md5": "ce8bce51a25b070bd869a96a2ee3ead2",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265404.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265404.sralite.1",
+        "size": "877248235",
+        "date": "2020-06-22 10:04:37",
+        "md5": "ec021ea57979f20b785f4eef53df5919",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265405",
+    "experiment_accession": "SRX4169500",
+    "sample_accession": "SAMN09371476",
+    "secondary_sample_accession": "SRS3381445",
+    "sample_alias": "GSM3176793",
+    "sample_title": "seeds following 2 d of anaerobic germination (2dN) Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 2 d of anaerobic germination (2dN) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 2 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176793: seeds following 2 d of anaerobic germination (2dN) Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "40019955",
+    "base_count": "3841915680",
+    "sra_run_bytes": "1667364254",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "2dN_33_RNA_CTTGTA_L005_R1_001.fastq.gz",
+        "size": "2864152403",
+        "date": "2020-02-25 06:02:44",
+        "md5": "661a47e4e0d450d1ae3e880a8d3ab21a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265405",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265405/SRR7265405",
+        "size": "1667365481",
+        "date": "2018-06-05 16:16:36",
+        "md5": "9f363ee8b2cca705f007a6e9c659dfd5",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265405.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265405.sralite.1",
+        "size": "962338673",
+        "date": "2020-06-20 08:54:39",
+        "md5": "255b488f9f07be9b041175ceeedc945c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265406",
+    "experiment_accession": "SRX4169501",
+    "sample_accession": "SAMN09371475",
+    "secondary_sample_accession": "SRS3381446",
+    "sample_alias": "GSM3176794",
+    "sample_title": "seeds following 3 d of aerobic germination (3dA) Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 d of aerobic germination (3dA) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 3 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176794: seeds following 3 d of aerobic germination (3dA) Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "36613508",
+    "base_count": "3514896768",
+    "sra_run_bytes": "1588301212",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3dA_34_RNA_AGTCAA_L004_R1_001.fastq.gz",
+        "size": "2707863265",
+        "date": "2020-02-25 05:49:17",
+        "md5": "ff57f2661d3add1de5dbfcf0cbeb209b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265406",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265406/SRR7265406",
+        "size": "1588302440",
+        "date": "2018-06-05 16:04:58",
+        "md5": "1e3778f58d0841822a2840b7eeaba962",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265406.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265406.sralite.1",
+        "size": "880103912",
+        "date": "2020-06-22 10:03:30",
+        "md5": "137cf442bd6bea68f40fbce21a3acaf3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265407",
+    "experiment_accession": "SRX4169502",
+    "sample_accession": "SAMN09371474",
+    "secondary_sample_accession": "SRS3381447",
+    "sample_alias": "GSM3176795",
+    "sample_title": "seeds following 3 d of aerobic germination (3dA) Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 d of aerobic germination (3dA) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 3 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176795: seeds following 3 d of aerobic germination (3dA) Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "45407037",
+    "base_count": "4359075552",
+    "sra_run_bytes": "1969051893",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3dA_35_RNA_AGTTCC_L004_R1_001.fastq.gz",
+        "size": "3355714235",
+        "date": "2020-02-25 05:42:53",
+        "md5": "cca1d50ddb9e047ddd7d7f5e64bcbf87",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265407",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265407/SRR7265407",
+        "size": "1969053120",
+        "date": "2018-06-05 16:07:48",
+        "md5": "587781debaf5de414fe5004fb524618f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265407.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR007/265/SRR7265407.sralite.1",
+        "size": "1091458944",
+        "date": "2020-06-20 08:55:05",
+        "md5": "3cfced52cb13bb78af4c7dbfc9949895",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265408",
+    "experiment_accession": "SRX4169503",
+    "sample_accession": "SAMN09371473",
+    "secondary_sample_accession": "SRS3381448",
+    "sample_alias": "GSM3176796",
+    "sample_title": "seeds following 3 d of aerobic germination (3dA) Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 d of aerobic germination (3dA) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 3 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176796: seeds following 3 d of aerobic germination (3dA) Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "41352124",
+    "base_count": "3969803904",
+    "sra_run_bytes": "1763674943",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3dA_36_RNA_ATGTCA_L005_R1_001.fastq.gz",
+        "size": "3003694810",
+        "date": "2020-02-24 21:28:59",
+        "md5": "33dd8ef4f062998ce352a71950ecab54",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265408",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265408/SRR7265408",
+        "size": "1763676169",
+        "date": "2018-06-05 16:13:46",
+        "md5": "fda033f8bfef2bfce72e0c6f2d82232f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265408.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265408.sralite.1",
+        "size": "994410405",
+        "date": "2020-06-22 10:08:35",
+        "md5": "4d5cc72faa262a6e5b9ff6516d5f51be",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265409",
+    "experiment_accession": "SRX4169504",
+    "sample_accession": "SAMN09371472",
+    "secondary_sample_accession": "SRS3381449",
+    "sample_alias": "GSM3176797",
+    "sample_title": "seeds following 3 d of anaerobic germination (3dN) Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 d of anaerobic germination (3dN) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 3 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176797: seeds following 3 d of anaerobic germination (3dN) Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "33885939",
+    "base_count": "3253050144",
+    "sra_run_bytes": "1475231637",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3dN_37_RNA_CCGTCC_L004_R1_001.fastq.gz",
+        "size": "2511660720",
+        "date": "2020-02-25 05:51:11",
+        "md5": "4d6432d03ce8f0473098a2e5afecf5e4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265409",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265409/SRR7265409",
+        "size": "1475232865",
+        "date": "2018-06-05 16:05:03",
+        "md5": "a81b96f88c3016ab09ae6b5bf17617af",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265409.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265409.sralite.1",
+        "size": "814543613",
+        "date": "2020-06-23 21:00:35",
+        "md5": "b85ae4c4eafa71fd33282752c5cc5da4",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265410",
+    "experiment_accession": "SRX4169505",
+    "sample_accession": "SAMN09371471",
+    "secondary_sample_accession": "SRS3381450",
+    "sample_alias": "GSM3176798",
+    "sample_title": "seeds following 3 d of anaerobic germination (3dN) Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 d of anaerobic germination (3dN) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 3 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176798: seeds following 3 d of anaerobic germination (3dN) Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "36880068",
+    "base_count": "3540486528",
+    "sra_run_bytes": "1541019815",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3dN_38_RNA_GTCCGC_L005_R1_001.fastq.gz",
+        "size": "2645628011",
+        "date": "2020-02-25 05:48:43",
+        "md5": "04d489cfdd9039c8efedd410edba88ce",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265410",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265410/SRR7265410",
+        "size": "1541021040",
+        "date": "2018-06-05 16:04:15",
+        "md5": "e8d3659b80d0543d8acba80af265b2b7",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265410.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265410.sralite.1",
+        "size": "886834168",
+        "date": "2020-06-23 20:56:24",
+        "md5": "5d154e760d49d4cbf35448bba0be69c3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265411",
+    "experiment_accession": "SRX4169506",
+    "sample_accession": "SAMN09371470",
+    "secondary_sample_accession": "SRS3381451",
+    "sample_alias": "GSM3176799",
+    "sample_title": "seeds following 3 d of anaerobic germination (3dN) Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 d of anaerobic germination (3dN) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 3 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176799: seeds following 3 d of anaerobic germination (3dN) Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "39552923",
+    "base_count": "3797080608",
+    "sra_run_bytes": "1645602598",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3dN_39_RNA_GTGAAA_L005_R1_001.fastq.gz",
+        "size": "2827460490",
+        "date": "2020-02-25 05:27:26",
+        "md5": "00fbb848c4dc96138c9492d47de1a180",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265411",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265411/SRR7265411",
+        "size": "1645603824",
+        "date": "2018-06-05 16:03:31",
+        "md5": "ce54a747a3425a23b4b241471435561e",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265411.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265411.sralite.1",
+        "size": "951107176",
+        "date": "2020-06-20 08:51:14",
+        "md5": "b35723b37e6673c1b8d0d6ffeb7f8cdd",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265412",
+    "experiment_accession": "SRX4169507",
+    "sample_accession": "SAMN09371469",
+    "secondary_sample_accession": "SRS3381452",
+    "sample_alias": "GSM3176800",
+    "sample_title": "seeds following 4 d of aerobic germination (4dA) Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 4 d of aerobic germination (4dA) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 4 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176800: seeds following 4 d of aerobic germination (4dA) Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "26078445",
+    "base_count": "2503530720",
+    "sra_run_bytes": "1014143169",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "4dA_40_RNA_CGATGT_L005_R1_001.fastq.gz",
+        "size": "1774175273",
+        "date": "2020-02-25 05:44:00",
+        "md5": "d95fbb0e527513ecd44ed96f6a4a4f73",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265412",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265412/SRR7265412",
+        "size": "1014144395",
+        "date": "2018-06-05 16:00:53",
+        "md5": "af655f38e09b211ff25388d1a31f8695",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265412.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265412.sralite.1",
+        "size": "627203215",
+        "date": "2020-06-23 20:55:05",
+        "md5": "b541ec2162b2899245227105759a2a89",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265413",
+    "experiment_accession": "SRX4169508",
+    "sample_accession": "SAMN09371468",
+    "secondary_sample_accession": "SRS3381453",
+    "sample_alias": "GSM3176801",
+    "sample_title": "seeds following 4 d of aerobic germination (4dA) Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 4 d of aerobic germination (4dA) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 4 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176801: seeds following 4 d of aerobic germination (4dA) Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "20316716",
+    "base_count": "1950404736",
+    "sra_run_bytes": "767674460",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "4dA_41_RNA_TGACCA_L005_R1_001.fastq.gz",
+        "size": "1358061676",
+        "date": "2020-02-24 21:24:10",
+        "md5": "6d3710aca5f5aa6c8b256612d9c13eec",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265413",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265413/SRR7265413",
+        "size": "767675687",
+        "date": "2018-06-05 16:04:17",
+        "md5": "9fa7c1b42e3446b223a8750eddc452e8",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265413.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265413.sralite.1",
+        "size": "488631391",
+        "date": "2020-06-22 10:01:24",
+        "md5": "3a9ff20c15d2278c20ff143533ccb103",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265414",
+    "experiment_accession": "SRX4169509",
+    "sample_accession": "SAMN09371467",
+    "secondary_sample_accession": "SRS3381456",
+    "sample_alias": "GSM3176802",
+    "sample_title": "seeds following 4 d of aerobic germination (4dA) Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 4 d of aerobic germination (4dA) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with air (aerobic-A) at 30 C in the dark for 4 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176802: seeds following 4 d of aerobic germination (4dA) Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "20577465",
+    "base_count": "1975436640",
+    "sra_run_bytes": "790405928",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "4dA_42_RNA_ACAGTG_L004_R1_001.fastq.gz",
+        "size": "1389711394",
+        "date": "2020-02-24 21:27:17",
+        "md5": "65fff6a3856e7b4676dbd765a251d650",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265414",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265414/SRR7265414",
+        "size": "790407155",
+        "date": "2018-06-05 16:01:00",
+        "md5": "1740bf83b6bb3e55f92cf22a2a83f6aa",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265414.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR007/265/SRR7265414.sralite.1",
+        "size": "494830155",
+        "date": "2020-06-23 20:53:26",
+        "md5": "7e459d5367e103be407a90a79b8a7d38",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265415",
+    "experiment_accession": "SRX4169510",
+    "sample_accession": "SAMN09371466",
+    "secondary_sample_accession": "SRS3381454",
+    "sample_alias": "GSM3176803",
+    "sample_title": "seeds following 4 d of anaerobic germination (4dN) Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 4 d of anaerobic germination (4dN) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 4 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176803: seeds following 4 d of anaerobic germination (4dN) Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "19628898",
+    "base_count": "1884374208",
+    "sra_run_bytes": "748334703",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "4dN_43_RNA_GCCAAT_L004_R1_001.fastq.gz",
+        "size": "1318463970",
+        "date": "2020-02-24 21:20:23",
+        "md5": "4394b3f356525fc9218eb19984e2672d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265415",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265415/SRR7265415",
+        "size": "748335931",
+        "date": "2018-06-05 16:01:54",
+        "md5": "bfad5783a2ce438a3026c670d6a2541c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265415.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR007/265/SRR7265415.sralite.1",
+        "size": "472030131",
+        "date": "2020-06-22 09:58:07",
+        "md5": "90a574e25c6739afb924a3d5952e03f3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265416",
+    "experiment_accession": "SRX4169511",
+    "sample_accession": "SAMN09371465",
+    "secondary_sample_accession": "SRS3381455",
+    "sample_alias": "GSM3176804",
+    "sample_title": "seeds following 4 d of anaerobic germination (4dN) Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 4 d of anaerobic germination (4dN) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 4 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176804: seeds following 4 d of anaerobic germination (4dN) Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "21247088",
+    "base_count": "2039720448",
+    "sra_run_bytes": "809934673",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "4dN_44_RNA_CAGATC_L005_R1_001.fastq.gz",
+        "size": "1425828131",
+        "date": "2020-02-25 03:45:01",
+        "md5": "f7b9650c79f1f0fca8ecb1061d09747b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265416",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265416/SRR7265416",
+        "size": "809935902",
+        "date": "2018-06-05 16:01:39",
+        "md5": "104d3b465c286a3904591311176b2378",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265416.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR007/265/SRR7265416.sralite.1",
+        "size": "511016122",
+        "date": "2020-06-21 09:01:28",
+        "md5": "99c5d64e654bc7aeab5dc33c77868375",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265417",
+    "experiment_accession": "SRX4169512",
+    "sample_accession": "SAMN09371464",
+    "secondary_sample_accession": "SRS3381458",
+    "sample_alias": "GSM3176805",
+    "sample_title": "seeds following 4 d of anaerobic germination (4dN) Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 4 d of anaerobic germination (4dN) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 4 d.",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176805: seeds following 4 d of anaerobic germination (4dN) Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "23850471",
+    "base_count": "2289645216",
+    "sra_run_bytes": "918466707",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "4dN_45_RNA_CTTGTA_L004_R1_001.fastq.gz",
+        "size": "1609675901",
+        "date": "2020-02-24 21:31:37",
+        "md5": "e3e3b7440295e76f760cda78c411f82b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265417",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265417/SRR7265417",
+        "size": "918467933",
+        "date": "2018-06-05 16:00:00",
+        "md5": "9c036f19e82b0a80cf298bf30a17d831",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265417.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR007/265/SRR7265417.sralite.1",
+        "size": "573540505",
+        "date": "2020-06-14 15:51:23",
+        "md5": "97436644df10e9395eff929584022c37",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265418",
+    "experiment_accession": "SRX4169513",
+    "sample_accession": "SAMN09371463",
+    "secondary_sample_accession": "SRS3381457",
+    "sample_alias": "GSM3176806",
+    "sample_title": "seeds following 3 d of anaerobic germination, followed by 1 d under aerobic conditions (3dN1dA) Replicate 1",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 d of anaerobic germination and 1 d under aerobic conditions (3dN1dA) Replicate 1",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 3 d, the gas was then switched to air for 1 d (3dN1dA).",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176806: seeds following 3 d of anaerobic germination, followed by 1 d under aerobic conditions (3dN1dA) Replicate 1; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "25287542",
+    "base_count": "2427604032",
+    "sra_run_bytes": "964093410",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3N1A_46_RNA_CCGTCC_L005_R1_001.fastq.gz",
+        "size": "1698963752",
+        "date": "2020-02-25 05:44:24",
+        "md5": "0dfbf73f0e7b66a4d4eae67b613e9e89",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265418",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265418/SRR7265418",
+        "size": "964094638",
+        "date": "2018-06-05 16:01:45",
+        "md5": "b5972220c22a77c82d081b5db971fb45",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265418.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1216/SRR007/265/SRR7265418.sralite.1",
+        "size": "608158830",
+        "date": "2020-06-21 09:08:46",
+        "md5": "7a9988de015ae7ac06bf07e04eb94214",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265419",
+    "experiment_accession": "SRX4169514",
+    "sample_accession": "SAMN09371462",
+    "secondary_sample_accession": "SRS3381459",
+    "sample_alias": "GSM3176807",
+    "sample_title": "seeds following 3 d of anaerobic germination, followed by 1 d under aerobic conditions (3dN1dA) Replicate 2",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 d of anaerobic germination and 1 d under aerobic conditions (3dN1dA) Replicate 2",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 3 d, the gas was then switched to air for 1 d (3dN1dA).",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176807: seeds following 3 d of anaerobic germination, followed by 1 d under aerobic conditions (3dN1dA) Replicate 2; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "21756323",
+    "base_count": "2088607008",
+    "sra_run_bytes": "836722917",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3N1A_47_RNA_GTCCGC_L004_R1_001.fastq.gz",
+        "size": "1470587418",
+        "date": "2020-02-25 05:24:25",
+        "md5": "c10fc06c209008277fdc6687486f27b3",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265419",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265419/SRR7265419",
+        "size": "836724145",
+        "date": "2018-06-05 15:59:01",
+        "md5": "b91a1ee8ed956e03bff249bbe602cabd",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265419.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265419.sralite.1",
+        "size": "523166945",
+        "date": "2020-06-20 08:44:26",
+        "md5": "6f9c1d0feec57d21896d7dfb79cfa0fa",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR7265420",
+    "experiment_accession": "SRX4169515",
+    "sample_accession": "SAMN09371461",
+    "secondary_sample_accession": "SRS3381460",
+    "sample_alias": "GSM3176808",
+    "sample_title": "seeds following 3 d of anaerobic germination, followed by 1 d under aerobic conditions (3dN1dA) Replicate 3",
+    "scientific_name": "Oryza sativa",
+    "tax_id": "4530",
+    "sample_attributes": [
+      {
+        "tag": "source_name",
+        "value": "Rice coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "tissue",
+        "value": "coleoptile",
+        "units": ""
+      },
+      {
+        "tag": "genotype",
+        "value": "WT(Oryza sativa cv Amaroo)",
+        "units": ""
+      },
+      {
+        "tag": "age",
+        "value": "seeds following 3 d of anaerobic germination and 1 d under aerobic conditions (3dN1dA) Replicate 3",
+        "units": ""
+      },
+      {
+        "tag": "treatment/conditions",
+        "value": "De-hulled sterilised seeds were grown in MES culture medium bubbled with nitrogen gas (anaerobic-N) at 30 C in the dark for 3 d, the gas was then switched to air for 1 d (3dN1dA).",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA474721",
+    "secondary_study_accession": "SRP149823",
+    "study_title": "RNA-seq and DNA methylomes of germinating rice and developing coleoptiles (RNA-Seq)",
+    "study_description": "RNAseq profiling of seeds and 7 time points during germination in rice under aerobic and anerobic conditions, as well as following re-oxygenation. Overall design: Total RNA was extracted from samples collected at each time point in triplicate. The time points were: 0 h (dry seed), 1 h, 3 h, 12 h, 24 h, 2 days, 3 days and 4 days under aerobic (A) and anaerobic (N) conditions, as well as 3-day-old seedlings grown under anaerobic conditions that were switched to air for 1 day.",
+    "study_links": [
+      {
+        "content": "pubmed"
+      },
+      {
+        "content": "27859855"
+      }
+    ],
+    "experiment_title": "GSM3176808: seeds following 3 d of anaerobic germination, followed by 1 d under aerobic conditions (3dN1dA) Replicate 3; Oryza sativa; RNA-Seq",
+    "library_name": "",
+    "library_strategy": "RNA-Seq",
+    "library_source": "TRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "RNA isolation was carried out using the Sigma Spectrum Plant Total RNA kit. TruSeq Stranded Total RNA with Ribo‐Zero Plant Sample Prep Kits were used to generate the libraries, according to manufacturer's instructions (Illumina). rRNAs removed, random fragmentation, stranded library",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1500",
+    "read_count": "25667195",
+    "base_count": "2464050720",
+    "sra_run_bytes": "981998192",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3N1A_48_RNA_GTGAAA_L004_R1_001.fastq.gz",
+        "size": "1727111704",
+        "date": "2020-02-25 05:52:29",
+        "md5": "c856e29235e80a7399a869860d87fd81",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265420",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7265420/SRR7265420",
+        "size": "981999419",
+        "date": "2018-06-05 16:00:27",
+        "md5": "d5ec36ab295450cf199130a3c723aac0",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR7265420.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR007/265/SRR7265420.sralite.1",
+        "size": "617202991",
+        "date": "2020-06-21 09:06:00",
+        "md5": "243f829fb33726b21b374b5418d7d49b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2018-06-12 16:06:13",
+    "run_is_public": "true"
+  }
+]

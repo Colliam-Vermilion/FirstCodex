@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1004913",
+  "checked_utc": "2026-10-24T14:43:04.627861+00:00",
+  "ena_run_count": 12,
+  "ncbi_sra_count": 12,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1004913&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:43:04.628153+00:00",
+    "raw_path": "raw/ENA/53669c61a9e0ea2398990ab1f3c714862b58ba7c3de53598846f8ed6f260d3d0.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1004913&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 17426,
+    "sha256": "dbbb9d4e5a22c7485276e0aa670ac11e35dec41f99e91623f3fbac329cd49325",
+    "finished_utc": "2026-10-24T14:43:04.821502+00:00",
+    "measured_wall_seconds": 0.193
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1004913&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:43:05.222751+00:00",
+    "raw_path": "raw/NCBI/7f7411790b0ae4fe47a29cf0e4c7a2adf127131fab302464d332438a662679f5.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1004913&retmode=json&retmax=200&retstart=0",
+    "bytes": 428,
+    "sha256": "8baf4d3733683b14e7440a2fa301b8fb57b87c2176b79d8f2379fc44a0005dd5",
+    "finished_utc": "2026-10-24T14:43:05.353897+00:00",
+    "measured_wall_seconds": 0.131
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1004913",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:43:06.246156+00:00",
+    "raw_path": "raw/ENA/55d2a970aa5e34159c32bb153080b81637c0328e4fb7e3cccb0c274f56738215.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1004913",
+    "bytes": 1980,
+    "sha256": "13ff9959489aa963e1a17c131f158478c1ff1f018a5cfdbf5852ed982a071c1c",
+    "finished_utc": "2026-10-24T14:43:06.380688+00:00",
+    "measured_wall_seconds": 0.135
+  },
+  "project_title": "Solar Lake shallow-water flat mat sediments (summer)",
+  "project_description": "Illumina shotgun sequencing of shallow-water flat mat sediments collected from the Solar Lake, Sinai, Egypt.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1004913"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP454785"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "The American University in Cairo",
+      "value": "PRJNA1004913"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1004913&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1004913&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 12
+}
