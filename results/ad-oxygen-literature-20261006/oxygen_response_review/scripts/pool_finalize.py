@@ -125,5 +125,8 @@ def run():
  wb.save(ROOT/'oxygen_response_review_cumulative.xlsx');wb.close()
  summary=json.loads((ROOT/'summary.json').read_text());summary.update(all_pool_provisional_priority=len(priority),all_pool_pending_confirmation=len(pending),all_pool_focus_fulltext=len(focus),next_stage='重点候选全文及待确认记录补读完整摘要；不重检索');dump(ROOT/'summary.json',summary)
  with (OUT/'finalize_timing.jsonl').open('a') as f:f.write(json.dumps({'at_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'measured_export_seconds':round(time.monotonic()-started,3)})+'\n')
+ if (ROOT/'reading_queue35/assessments.json').exists():
+  from queue35_audit import refresh
+  refresh()
  print(json.dumps(progress,ensure_ascii=False))
 if __name__=='__main__':run()
