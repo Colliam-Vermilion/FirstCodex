@@ -19,3 +19,5 @@ python results/ad-oxygen-literature-20261006/method_audit/validate.py
 protected_sources.json记录3146个已有非Markdown结果/响应/脚本等文件的基准SHA，不包含原论文PDF；没有为了本次方法整理重复下载或核哈希论文原件。Markdown更新限方法、导航及旧阶段报告顶部指引。
 
 本次查清了Europe PMC旧摘要与后续成功响应并存、原17范围与原17推荐不完全同集，以及论文续跑队列残留12篇旧22已审计记录。后者的原2228队列保持不变，问题及可定位ID在数据方法中明确。Crossref尾部、未保存的模型输入片段/选择细节、未核独立支持和被阻断文件传输继续作为真实缺口，不补造理想执行记录。
+
+[GitHub交付文档独立读回](remote_readback.json)：9份当前README、详细方法和查询附表通过官方Git Blobs API重新获取，解码后大小/SHA256及逐字节一致；此操作没有重新请求文献或数据平台。
