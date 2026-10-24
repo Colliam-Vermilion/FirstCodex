@@ -62,4 +62,8 @@ def run():
   assert original.strip()==archived.strip(),str(f)
  result={'checked_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'passed':True,'new_database_queries':0,'new_screening_decisions':0,'protected_existing_result_files_unchanged':len(protected),'current_relative_links_resolved':links,'external_links_policy':'仅记录/核语法；本轮不重新请求数据库或出版商。GitHub文档另以认证API读回核验。','external_link_count':len(external),'mechanism_executed_queries':25,'dataset_executed_queries':28,'GSA_unexecuted_entry_test':1,'mechanism_returned_input_rows':1147,'ENA_returned_rows_with_cross_query_repeats':4291,'set_membership_verified':True,'saved_dataset_queue_overlap_old22':12,'existing_result_tables_and_progress_not_rewritten':True,'historical_READMEs':'原内容在相同文件折叠保留，相对链接不因搬迁改变；历史外链未重测'}
  (A/'validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(json.dumps(result,ensure_ascii=False))
-if __name__=='__main__':run()
+if __name__=='__main__':
+ if 'id="stage-1"' in (P/'README.md').read_text():
+  import runpy
+  runpy.run_path(str(A/'readme_restoration/validate.py'),run_name='__main__')
+ else:run()

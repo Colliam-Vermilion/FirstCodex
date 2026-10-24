@@ -1,23 +1,32 @@
-# 本次方法审计的范围与复核
+# 方法审计及README恢复记录
 
-本次只将两条工作线的现存证据解释成当前方法说明，不执行新学术/数据平台查询，不重新筛选，不重写原Excel、CSV、JSON或进度。基准为提交0f9eeec20bc23a421165c8cff352137ba68fac48。
+2026-10-25先从保存材料重建了两条扩展工作线的方法，随后按用户要求恢复全项目介绍：**主体方法不整体折叠、不用最新任务替代前面阶段。** 原文献数据、分类、人工判断、原件、累计表和进度均不因文档变更而修改。
 
-- [项目入口](../README.md)
+## 当前研究介绍
+
+[完整项目七阶段](../README.md) · [仓库入口](../../../README.md) · [章节恢复对照](readme_restoration/chapter_map.md) · [旧成果路径索引](readme_restoration/source_link_index.md) · [运行历史附录](../HISTORY.md) · [本次恢复校验](readme_restoration/validation.json)
+
+最初AD检索和校正用methods/01–11，原件/JCR以方法21及各自清单说明，MG/MT全文筛查保留B001–B010；两条扩展线继续用下列已补充的方法。历史数字注明阶段，不移除主体研究介绍。
+
+## 上轮方法审计成果保持
+
 - [机制详细方法](../oxygen_response_review/methods/METHODS.md) · [机制检索附表](../oxygen_response_review/methods/QUERY_APPENDIX.md)
 - [数据详细方法](../omics_dataset_discovery/methods/METHODS.md) · [数据检索附表](../omics_dataset_discovery/methods/QUERY_APPENDIX.md)
-- [离线集合审计](audit_summary.json) · [关键提交的原摘要快照](stage_history.json) · [本次校验](validation.json)
+- [离线集合审计](audit_summary.json) · [阶段提交快照](stage_history.json) · [上轮校验](validation.json) · [上轮9文档独立读回](remote_readback.json)
 
-从仓库根目录可离线执行：
+上轮明确了Europe PMC旧摘要与后续3次成功正文并存、原17范围与原17推荐不完全同集、原2228论文队列漏排12篇旧22已审计记录。Crossref尾部、未保存的模型输入/选择细节、未核独立支持和文件传输限制继续保留。本次不重写原队列或筛选来掩盖这些问题。
+
+## 离线命令及避免再次覆盖首页
+
+从仓库根目录：
 
 ```bash
-python results/ad-oxygen-literature-20261006/method_audit/rebuild_appendices.py
 python results/ad-oxygen-literature-20261006/method_audit/validate.py
+python results/ad-oxygen-literature-20261006/method_audit/update_readme_navigation.py
 ```
 
-第一条只读已有材料/本地Git对象，写两条工作线methods内的查询附表、来源/集合/选择审计及本目录的复核记录。第二条核原结果未变、实际数量及当前本地链接。两者不调用原检索、筛选或导出脚本。update_readme_navigation.py仅整合README导航，原README留在同文件历史折叠区。
+validate.py识别当前七阶段布局并转入readme_restoration/validate.py，校验章节、锚点、链接和Git差异范围，不重新读回或核哈希论文。update_readme_navigation.py已改为**只检查、不写README**；旧的整体折叠生成器仅留在9208历史中，不应再执行旧版本。
 
-protected_sources.json记录3146个已有非Markdown结果/响应/脚本等文件的基准SHA，不包含原论文PDF；没有为了本次方法整理重复下载或核哈希论文原件。Markdown更新限方法、导航及旧阶段报告顶部指引。
+rebuild_appendices.py仍是只读已有材料/本地Git对象、重建methods附表的离线工具，不会发起新数据库查询；本次恢复没有运行它，也没有重写上轮详细方法/附表。protected_sources.json与上轮validation记录3146个非Markdown结果文件的当时保护验证，不表示本次重新核验了原件。
 
-本次查清了Europe PMC旧摘要与后续成功响应并存、原17范围与原17推荐不完全同集，以及论文续跑队列残留12篇旧22已审计记录。后者的原2228队列保持不变，问题及可定位ID在数据方法中明确。Crossref尾部、未保存的模型输入片段/选择细节、未核独立支持和被阻断文件传输继续作为真实缺口，不补造理想执行记录。
-
-[GitHub交付文档独立读回](remote_readback.json)：9份当前README、详细方法和查询附表通过官方Git Blobs API重新获取，解码后大小/SHA256及逐字节一致；此操作没有重新请求文献或数据平台。
+今后新增工作直接补入相应阶段或新增章节，先明确集合/日期/阅读深度，保留前阶段动机、方法、成果和限制。不要恢复“仅展示最新两条工作线”的首页生成方式。

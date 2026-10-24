@@ -1,3 +1,5 @@
+> **流程快照与现行清单：**下文工具步骤来自2026-10-15，不代表所有旧数量仍有效。2026-10-23本地/云端原件已合并进[规范Git原件目录](../original_files/)，现有[38条缺目标全文](../manual_review/current_environment_need_fulltext_utf8.csv)与[统一文件清单](../inventory/merge_20261023/unified_files_utf8.csv)优先；337/317等旧队列和“私有包尚未连接”只属原阶段。复用验证/限流/回填规则，先按现行ID和SHA对账，不直接照旧数量全量重下。Windows实跑状态仍按原文如实限定。
+
 # Windows：下载、全部关联附件、解析及按ID回填
 
 从GitHub克隆/更新**原结果分支**，从`results/ad-oxygen-literature-20261006`目录运行。数据根建议`D:\AD-Library`，不放进Git工作区。现有original_files保持原位置；metadata映射读取，不重复复制。Python核心流程已在Linux真实执行并测试；PowerShell包装脚本经过静态检查，当前环境无Windows/PowerShell，不能声称已在Windows执行。
