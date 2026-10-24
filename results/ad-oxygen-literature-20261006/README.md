@@ -1,3 +1,14 @@
+# 氧响应综述：新增优先精读评价（2026-10-24）
+
+已在同一累计Excel新增优先精读、机制验证关联及评价口径三表，原六表和全部检索/筛选不变。先评价已筛20篇，推荐17篇：6核心、4基础、7重要补充/边界；其中8篇仅摘要、标暂定，另3篇补证后再评。20篇引用数统一OpenAlex；11篇可复用2024 JIF/JCR，其余留空。
+
+- **[累计Excel](oxygen_response_review/oxygen_response_review_cumulative.xlsx)** · **[精读集EndNote RIS](oxygen_response_review/reading_priority/priority_reading_set.ris)** · [逐篇评价CSV](oxygen_response_review/reading_priority/priority_reading_utf8.csv)
+- [建议先读哪些/各自主张与边界](oxygen_response_review/reading_priority/README.md) · [机制验证关联](oxygen_response_review/reading_priority/mechanism_validation_links_utf8.csv) · [方法及进度](oxygen_response_review/reading_priority/progress.json)
+
+AD相关性/证据直接性优先，独立验证按原始研究和具体主张核对；引用或期刊指标不改变范围纳入。没有将共享团队、跨类群支持或综述反复引用当作同对象严格独立复制。以下既有B001、AD原库、获取、omics与JCR成果保留。
+
+---
+
 # 氧响应机制补充检索（B001，2026-10-24）
 
 本轮为独立新范围，原554条AD总库/人工判断、原件及omics/JCR结论保留。实际PubMed、Crossref、OpenAlex及引用追溯返回1147条，去重1039身份，其中57关联旧库、982为旧库外候选。累计新范围关联池1536条（含未重新命中的旧库），不是纳入数。

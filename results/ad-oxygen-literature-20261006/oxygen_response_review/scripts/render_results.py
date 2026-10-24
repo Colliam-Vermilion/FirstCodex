@@ -92,6 +92,11 @@ def run():
   for row in ws.iter_rows(min_row=2):
    for cell in row:cell.alignment=Alignment(vertical='top',wrap_text=True)
  wb.save(ROOT/'oxygen_response_review_cumulative.xlsx')
+ # Reading evaluations are independent of screening. Retain their added sheets
+ # on future batch renders, without fetching metrics or inventing assessments.
+ if (ROOT/'reading_priority/evaluations.json').exists():
+  from build_reading_priority import attach_sheets
+  attach_sheets(ROOT)
  summary={'date_utc':'2026-10-24','catalog_records':len(cat),'completed_first_batch_candidates':len(decisions),'evidence_rows':len(evidence),'screening_stages':dict(collections.Counter(r['screening_stage'] for r in decisions)),'decisions':dict(collections.Counter(r['screening_decision'] for r in decisions)),'reading_levels':dict(collections.Counter(r['reading_level'] for r in decisions)),'remaining_unscreened_records':len(queue),'next_id':queue[0]['id'] if queue else None,'mechanism_counts_nonexclusive':dict(collections.Counter(m for e in evidence for m in e['mechanism_categories'])),'source_scope':'Unscreened records remain candidates, not included studies; original AD classifications untouched'}
  dump(ROOT/'summary.json',summary);print(json.dumps(summary,ensure_ascii=False))
 

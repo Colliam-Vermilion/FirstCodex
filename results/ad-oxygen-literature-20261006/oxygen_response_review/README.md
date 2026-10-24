@@ -1,3 +1,14 @@
+# 新增：优先精读五维评价（2026-10-24）
+
+已先评价B001全部20篇，保留所有既有检索/筛选/队列及原六表。新增“优先精读”“机制验证关联”“评价口径”三个工作表；推荐17篇（6核心、4基础、7边界），8篇仅摘要支持并标暂定，3篇暂缓而非范围排除。20篇统一OpenAlex引用数据；11篇有可复用2024 JIF/JCR，缺失留空。没有用指标抵消证据不足。
+
+- **[同一累计Excel](oxygen_response_review_cumulative.xlsx)** · **[精读集RIS17](reading_priority/priority_reading_set.ris)** · [逐篇五维CSV](reading_priority/priority_reading_utf8.csv)
+- [推荐理由/适用边界/独立验证说明](reading_priority/README.md) · [26行具体机制验证关联](reading_priority/mechanism_validation_links_utf8.csv) · [评价口径](reading_priority/evaluation_policy_utf8.csv) · [评价进度](reading_priority/progress.json)
+
+不同团队跨类群支持与同对象严格独立复制分开；本轮未确认后者，不代表文献中不存在。原“重点阅读”粗排保留，本次优先级以新增工作表为准。后续新增已筛文章再增量评价，不重检索或推进未筛队列。
+
+---
+
 # 厌氧微生物氧响应机制：B001完成（2026-10-24）
 
 从最新远端`2c4aa35daca259bdc311cd54d720e5627ada5ba0`读取README、554条133列总库、既有检索和原件。此为独立新范围，包含非AD机制研究；旧AD分类、53条人工判断、原件、omics和JCR结果保持原字节，不沿用128条旧AD排除作为本轮排除。完整保护核验见[validation.json](validation.json)。

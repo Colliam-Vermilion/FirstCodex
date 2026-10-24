@@ -1,0 +1,80 @@
+{
+  "validation": "passed",
+  "date_Asia_Shanghai": "2026-10-24",
+  "protected_review_file_checks": {
+    "screening.json": true,
+    "catalog.json": true,
+    "mechanism_evidence.json": true,
+    "remaining_queue.json": true,
+    "processing_order.json": true,
+    "search_log.json": true,
+    "priority_reading.json": true,
+    "oxygen_response_B001.ris": true,
+    "oxygen_response_all_candidates.ris": true
+  },
+  "original_AD_file_checks": {
+    "final_results/ad_oxygen_download_review_utf8.csv": true,
+    "final_results/ad_oxygen_download_review_20261006.xlsx": true,
+    "methods/manual_classification_20261007_original.csv": true,
+    "methods/manual_classification_pending36_20261007_original.csv": true,
+    "omics_screening/screening_records.json": true,
+    "inventory/assets.json": true
+  },
+  "all_B001_ids_assessed_without_reclassification": true,
+  "evaluations": 20,
+  "recommended": 17,
+  "held": 3,
+  "recommendation_primary_tiers": {
+    "基础理论文献": 4,
+    "核心机制文献": 6,
+    "重要补充与边界文献": 7,
+    "暂缓推荐": 3
+  },
+  "tentative_recommendations": 8,
+  "citations_matched_to_DOI": 20,
+  "verified_annualized_calculations": 20,
+  "jif2024_available": 11,
+  "raw_API_snapshots_sha_checked": 6,
+  "claim_relation_rows": 26,
+  "exact_support_abstract_excerpts_checked": 17,
+  "fulltext_excerpts_checked": 5,
+  "original_workbook_cells_preserved": true,
+  "workbook_sheets": {
+    "文献总表": {
+      "retained_cell_values": true,
+      "rows": 1536
+    },
+    "机制证据": {
+      "retained_cell_values": true,
+      "rows": 20
+    },
+    "重点阅读": {
+      "retained_cell_values": true,
+      "rows": 20
+    },
+    "检索日志": {
+      "retained_cell_values": true,
+      "rows": 25
+    },
+    "引文追溯": {
+      "retained_cell_values": true,
+      "rows": 85
+    },
+    "续跑队列": {
+      "retained_cell_values": true,
+      "rows": 1516
+    },
+    "优先精读": {
+      "rows": 20
+    },
+    "机制验证关联": {
+      "rows": 26
+    },
+    "评价口径": {
+      "rows": 13
+    }
+  },
+  "ris_records": 17,
+  "old_screening_queue_unchanged": true,
+  "strict_independent_replication_not_inferred_from_citations": true
+}
