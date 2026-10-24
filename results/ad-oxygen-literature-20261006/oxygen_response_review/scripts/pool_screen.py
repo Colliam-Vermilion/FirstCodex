@@ -60,10 +60,12 @@ def init():
 def packet(offset,size,mode):
  cat={r['id']:r for r in json.loads((OUT/'baseline_catalog.json').read_text())};meta={r['id']:r for r in json.loads((OUT/'metadata_enrichment.json').read_text())};done={p.stem for p in (OUT/'decisions').glob('*.json')} if (OUT/'decisions').exists() else set();order=[r for r in json.loads((OUT/'review_order_v2.json').read_text()) if r['id'] not in done]
  if mode=='clear':order=sorted(order,key=lambda o:(not hit(NONMIC,cat[o['id']]['title']),o['order']))
- selected=order[offset:offset+size];path=OUT/'packets'/f'{mode}_{offset:04}_{size}.json';dump(path,selected)
+ selected=order[offset:offset+size];path=OUT/'packets'/f'{mode}_{len(done):04}_{offset:04}_{size}.json'
  for i,o in enumerate(selected,1):
   r=cat[o['id']];ab=meta[r['id']]['abstract_enriched'];sent=re.split(r'(?<=[.!?])\s+',ab);salient=sorted(enumerate(sent),key=lambda z:-(3*int(hit(EXPO,z[1]))+2*int(hit(r'mutant|result|show|found|oxygen|O2',z[1]))))[:2];snippet=' '.join(s for _,s in sorted(salient))
-  print(f'{i}|{r["id"]}|{r["title"]}|{snippet[:350] if mode!="clear" else snippet[:140]}')
+  o['shown_excerpt']=snippet[:350] if mode!='clear' else snippet[:140]
+  print(f'{i}|{r["id"]}|{r["title"]}|{o["shown_excerpt"]}')
+ dump(path,selected)
  print('PACKET',str(path.relative_to(ROOT)))
 def apply(path):
  packet_data=json.loads(Path(path).read_text());byid={r['id']:r for r in json.loads((OUT/'baseline_catalog.json').read_text())};meta={r['id']:r for r in json.loads((OUT/'metadata_enrichment.json').read_text())};routing={r['id']:r for r in json.loads((OUT/'computational_prescreen.json').read_text())};start=now();count=0
@@ -73,12 +75,12 @@ def apply(path):
   rid=item['id'];dest=OUT/'decisions'/f'{rid}.json'
   if dest.exists():continue
   r=byid[rid];h=routing[rid];decision=item['decision'];reason=item['reason'];ab=meta[rid]['abstract_enriched']
-  obj={'id':rid,'batch':item['batch'],'batch_order':h.get('scientific_hint_score',0),'screening_stage':'排除' if decision=='排除' else ('待确认' if decision=='待全文确认' else '摘要初筛'),'screening_decision':decision,'screening_reason':reason,'reading_level':'题名及摘要关键句语义审阅（未阅读全文）' if ab else '题名语义审阅；缺摘要','review_method':'助手逐项语义审阅；区别于计算辅助预筛','title':r['title'],'doi':r.get('doi',''),'year':r.get('year',''),'journal':r.get('journal',''),'research_system':item.get('objects') or h['microbial_objects_hint'] or '摘要未明确识别；不编造物种','AD_relationship':item.get('ad_relation') or ('潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关' if h['AD_relation_hint_level']>=2 else '与AD对象对应未核实，仅机制/方法类比候选'),'AD_hint_level_not_verified':h['AD_relation_hint_level'],'mechanism_themes':h['mechanism_themes_hint'],'potential_evidence_type':h['evidence_type_hint'],'evidence_not_confirmed':'题名/摘要线索，不代表因果机制已证实或已独立验证','source_abstract_available':bool(ab),'abstract_evidence_excerpt':item.get('excerpt') or (ab[:450] if ab else r['title']),'source_provenance':r.get('provenance',[]),'processed_Asia_Shanghai':now(),'fulltext_verified_this_round':False,'independent_validation':'未核实；本轮不逐篇无限追溯'}
+  obj={'id':rid,'batch':item['batch'],'batch_order':h.get('scientific_hint_score',0),'screening_stage':'排除' if decision=='排除' else ('待确认' if decision=='待全文确认' else '摘要初筛'),'screening_decision':decision,'screening_reason':reason,'reading_level':'题名及摘要关键句语义审阅（未阅读全文）' if ab else '题名语义审阅；缺摘要','review_method':'助手逐项语义审阅；区别于计算辅助预筛','title':r['title'],'doi':r.get('doi',''),'year':r.get('year',''),'journal':r.get('journal',''),'research_system':item.get('objects') or h['microbial_objects_hint'] or '摘要未明确识别；不编造物种','AD_relationship':item.get('ad_relation') or ('潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关' if h['AD_relation_hint_level']>=2 else '与AD对象对应未核实，仅机制/方法类比候选'),'AD_hint_level_not_verified':h['AD_relation_hint_level'],'mechanism_themes':h['mechanism_themes_hint'],'potential_evidence_type':h['evidence_type_hint'],'evidence_not_confirmed':'题名/摘要线索，不代表因果机制已证实或已独立验证','source_abstract_available':bool(ab),'abstract_evidence_excerpt':item.get('excerpt') or item.get('shown_excerpt') or (ab[:450] if ab else r['title']),'source_provenance':r.get('provenance',[]),'processed_Asia_Shanghai':now(),'fulltext_verified_this_round':False,'independent_validation':'未核实；本轮不逐篇无限追溯'}
   dump(dest,obj);count+=1
  checkpoint={'batch':packet_data[0]['batch'] if packet_data else '', 'new_records':count,'total_new_semantic_reviews':len(list((OUT/'decisions').glob('*.json'))),'started_Asia_Shanghai':start,'finished_Asia_Shanghai':now()};dump(OUT/'checkpoints'/f'{checkpoint["batch"]}.json',checkpoint);print(json.dumps(checkpoint,ensure_ascii=False))
  render()
 def render():
- began=time.monotonic();base=json.loads((OUT/'baseline_catalog.json').read_text());prior=json.loads((OUT/'baseline_screening.json').read_text());new=[json.loads(p.read_text()) for p in sorted((OUT/'decisions').glob('*.json'))] if (OUT/'decisions').exists() else [];done={r['id']:r for r in prior+new};meta={r['id']:r for r in json.loads((OUT/'metadata_enrichment.json').read_text())};routed={r['id']:r for r in json.loads((OUT/'computational_prescreen.json').read_text())};newids={r['id'] for r in new};priority=[]
+ began=time.monotonic();base=json.loads((OUT/'baseline_catalog.json').read_text());prior=json.loads((OUT/'baseline_screening.json').read_text());new=[json.loads(p.read_text()) for p in sorted((OUT/'decisions').glob('*.json'))] if (OUT/'decisions').exists() else [];done={r['id']:r for r in prior+new};meta={r['id']:r for r in json.loads((OUT/'metadata_enrichment.json').read_text())};routed={r['id']:r for r in json.loads((OUT/'computational_prescreen.json').read_text())};newids={r['id'] for r in new};priority=[];prior_eval={r['文献ID']:r for r in json.loads((ROOT/'reading_priority/evaluations.json').read_text())}
  for r in base:
   m=meta[r['id']];r.update({'citation_count':m['citation_count'],'citation_source':m['citation_source'],'citation_query_date':m['citation_query_date'],'jif2024':m['jif2024'],'jcr2024_categories':m['jcr2024_categories'],'journal_metric_status':m['journal_metric_status'],'abstract':m['abstract_enriched'] or r.get('abstract','')})
   if r['id'] in newids:
@@ -86,8 +88,9 @@ def render():
   r['semantic_screening_complete']=r['id'] in done
   if r['id'] in done:
    s=done[r['id']];dec=s['screening_decision'];h=routed.get(r['id']) or classify_hint(r,m)
-   if dec in ['核心候选','机制背景'] or dec.startswith('符合本轮') or dec.startswith('机制原始'):
-    groups=h['mechanism_themes_hint'];e=h['evidence_type_hint'];ad=h['AD_relation_hint_level'];tier='AD机制优先候选（暂定）' if ad>=3 and e else ('基础机制候选（暂定）' if any('遗传' in x or '酶学' in x for x in e) else '补充/边界/综述候选（暂定）')
+   if (dec in ['核心候选','机制背景'] or dec.startswith('符合本轮') or dec.startswith('机制原始')) and (r['id'] not in prior_eval or prior_eval[r['id']]['正式精读推荐']):
+    groups=h['mechanism_themes_hint'];e=h['evidence_type_hint'];ad=h['AD_relation_hint_level'];tier='AD机制优先候选（暂定）' if ad>=3 and e else ('基础机制候选（暂定）' if any('遗传' in x or '酶学' in x for x in e) else '补充/边界候选（暂定）')
+    if dec=='机制背景':tier='理论/综述/模型背景（暂定）'
     priority.append({'id':r['id'],'title':r['title'],'year':r.get('year'),'doi':r.get('doi'),'journal':r.get('journal'),'tier':tier,'mechanism_themes':groups,'objects':s.get('research_system'),'AD_relation':s.get('AD_relationship') or s.get('evidence',{}).get('ad_relevance_and_extrapolation_boundary'),'potential_evidence':e,'screening_reason':s['screening_reason'],'citation_count':m['citation_count'],'citation_query_date':m['citation_query_date'],'jif2024':m['jif2024'],'jcr2024_categories':m['jcr2024_categories'],'reading_basis':s['reading_level'],'recommendation_status':'全池题名/摘要暂定推荐；未新增全文核实/独立验证','previous20_detailed_evaluation_retained':r['id'] not in newids,'scientific_sort_score':h['scientific_hint_score']})
  priority.sort(key=lambda r:(-r['scientific_sort_score'],r['id']))
  # Scientific scores define strata; citation/JIF are only displayed auxiliary
