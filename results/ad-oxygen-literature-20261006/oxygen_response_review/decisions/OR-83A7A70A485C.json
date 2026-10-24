@@ -1,0 +1,48 @@
+{
+  "id": "OR-83A7A70A485C",
+  "pmid": "24222618",
+  "batch": "B001",
+  "batch_order": 2,
+  "processed_utc": "2026-10-24T03:29:36.079242+00:00",
+  "screening_stage": "摘要初筛",
+  "screening_decision": "符合本轮核心范围",
+  "screening_reason": "提高H2O2耐受，却不提高O2耐受，不能把催化酶能力等同于整体耐氧；研究对象/处理符合本轮较宽机制范围。 证据层级：遗传干预＋实测生长/酶活；目前依据摘要",
+  "research_system": "产甲烷古菌纯培养：Methanosarcina acetivorans",
+  "document_type": "期刊原始研究",
+  "exposure_scenarios": [
+    "氧暴露",
+    "独立H2O2对照"
+  ],
+  "reading_level": "仅题名/摘要",
+  "uncertainties": "核实O2/H2O2剂量、时间与诱导对照；NCBI XML只有front，非正文",
+  "priority_score": 98,
+  "priority_reason": "强干预且阴性O2结果对综述边界关键",
+  "source_file": "raw/pubmed/P01_fetch_00000.xml",
+  "source_sha256": "51c9b5aa22198c181b0c060106a5e02d7d1c808060f41df0850786709a9acd4b",
+  "official_url": "https://pubmed.ncbi.nlm.nih.gov/24222618/",
+  "evidence": {
+    "microbial_objects": "产甲烷古菌纯培养：Methanosarcina acetivorans",
+    "oxygen_treatment_and_control": [
+      "氧暴露",
+      "独立H2O2对照"
+    ],
+    "dose_original_units": "O2/H2O2具体挑战浓度未从摘要核实；催化酶活约100倍、H2O2耐受约10倍为响应而非氧剂量",
+    "time_frequency": "摘要未核实处理时长",
+    "substrate": "摘要未核实",
+    "detection_methods": "染色体诱导表达E. coli EcKatG；未诱导细胞作对照；生长及催化酶活",
+    "major_response": "提高H2O2耐受，却不提高O2耐受，不能把催化酶能力等同于整体耐氧",
+    "mechanism_categories": [
+      "M1_damage",
+      "M2_detox"
+    ],
+    "evidence_nature": "遗传干预＋实测生长/酶活；目前依据摘要",
+    "limitations": "未读取正文方法；H2O2与O2分别处理；单菌结论不代表全部产甲烷菌",
+    "ad_relevance_and_extrapolation_boundary": "直接帮助讨论AD产甲烷菌防御谱的类群差异，反对单酶普遍化",
+    "quote": "dies revealed that EcKatG-induced cells did not exhibit increased tolerance to O2 compared with uninduced cells. These results support the lack of catalase in th",
+    "quote_location": "Abstract/AbstractText[1]",
+    "quote_section": "Abstract",
+    "oxygen_vs_ROS": "分别记录，不将H2O2效应等同分子O2；具体区分见响应与限制",
+    "DIET_evidence": "本条没有确证DIET；不得由导电材料/基因/共现推断",
+    "genetic_adaptation_evidence": "未据恢复、驯化或群落替代声称遗传适应"
+  }
+}

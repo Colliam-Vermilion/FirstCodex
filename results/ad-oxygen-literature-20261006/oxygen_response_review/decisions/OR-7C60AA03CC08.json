@@ -1,0 +1,52 @@
+{
+  "id": "OR-7C60AA03CC08",
+  "pmid": "25706146",
+  "batch": "B001",
+  "batch_order": 4,
+  "processed_utc": "2026-10-24T03:29:36.082497+00:00",
+  "screening_stage": "全文核实",
+  "screening_decision": "符合本轮核心范围",
+  "screening_reason": "适应株保持产甲烷与生长，首次暴露对照被抑制；ROS探针信号下降并伴多种防御与生物膜表型；研究对象/处理符合本轮较宽机制范围。 证据层级：重复暴露的生理/生化实测；防御机制多项关联",
+  "research_system": "产甲烷古菌纯培养：M. acetivorans C2A",
+  "document_type": "期刊原始研究",
+  "exposure_scenarios": [
+    "反复低氧暴露",
+    "长期表型适应",
+    "更高氧挑战"
+  ],
+  "reading_level": "全文相关方法/结果段落",
+  "uncertainties": "需区分选择、可逆生理调节和遗传变化；不将2%生物膜观察作为扩散直接证据",
+  "priority_score": 95,
+  "priority_reason": "直接比较首次暴露与长期驯化，适合分开叙述两种情境",
+  "source_file": "raw/pmc_fulltext/F25706146_jats.xml",
+  "source_sha256": "48768614e23d390f4230a6c33b086ddf295f1dbebce4060c1bddb88e9a390212",
+  "official_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4338226/",
+  "evidence": {
+    "microbial_objects": "产甲烷古菌纯培养：M. acetivorans C2A",
+    "oxygen_treatment_and_control": [
+      "反复低氧暴露",
+      "长期表型适应",
+      "更高氧挑战"
+    ],
+    "dose_original_units": "0.4% O2/16 μmol总O2：乙酸培养每次2 mL空气；1%/41 μmol：甲醇每次5 mL空气；另2%挑战；均不换算DO",
+    "time_frequency": "至少6个月培养；乙酸第6/10天、甲醇第2/4天脉冲；每14/6天转接；3个月后增加起始脉冲",
+    "substrate": "100 mM乙酸或70 mM甲醇；培养基Cys/硫化物",
+    "detection_methods": "甲烷与蛋白、GC/Clark电极、抗氧化酶、转录、硫醇/聚磷酸、生物膜",
+    "major_response": "适应株保持产甲烷与生长，首次暴露对照被抑制；ROS探针信号下降并伴多种防御与生物膜表型",
+    "mechanism_categories": [
+      "M2_detox",
+      "M5_spatial",
+      "M6_recovery",
+      "M7_conditions"
+    ],
+    "evidence_nature": "重复暴露的生理/生化实测；防御机制多项关联",
+    "limitations": "没有遗传遗传性/重测序证据，不能称进化适应；ROS探针并非特定ROS定量；还原剂影响实际暴露",
+    "ad_relevance_and_extrapolation_boundary": "可用于AD驯化和反复微曝气讨论；高盐纯培养与实际污泥差异大",
+    "quote": "nst oxidative stress in M. acetivorans, two pulses of 2 ml of sterile air (0.4% O2 or 16 μmol total O2) at days 6 and 10 for acetate-cultures; or two pul",
+    "quote_location": "/pmc-articleset/article[1]/body[1]/sec[4]/sec[2]/p[1]",
+    "quote_section": "Methods/4.2 Generation of air-adapted cells",
+    "oxygen_vs_ROS": "分别记录，不将H2O2效应等同分子O2；具体区分见响应与限制",
+    "DIET_evidence": "本条没有确证DIET；不得由导电材料/基因/共现推断",
+    "genetic_adaptation_evidence": "未据恢复、驯化或群落替代声称遗传适应"
+  }
+}

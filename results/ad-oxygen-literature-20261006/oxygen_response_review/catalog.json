@@ -9027,9 +9027,9 @@
       }
     ],
     "old_library_ids": [],
-    "screening_stage": "未开始",
-    "screening_decision": "未判断",
-    "screening_reason": "新范围尚未逐篇判断；旧AD排除结论不继承",
+    "screening_stage": "全文核实",
+    "screening_decision": "符合本轮核心范围",
+    "screening_reason": "小暴露整体降解速率影响有限；较大冲击后Pseudomonas扩增、ORM2下降、产甲烷苯降解长期停滞后恢复；研究对象/处理符合本轮较宽机制范围。 证据层级：受控处理＋化学活性和绝对丰度时间序列；群落机制关联",
     "title": "Transient Oxygen Exposure Causes Profound and Lasting Changes to a Benzene-Degrading Methanogenic Community.",
     "doi": "10.1021/acs.est.2c02624",
     "pmid": "36083837",
@@ -9058,7 +9058,21 @@
     ],
     "url": "https://pubmed.ncbi.nlm.nih.gov/36083837/",
     "raw_path": "raw/pubmed/P01_fetch_00000.xml",
-    "early_key_study": false
+    "early_key_study": false,
+    "research_system": "污染沉积物来源的产甲烷苯降解富集群落（ORM2）",
+    "exposure_scenarios": [
+      "短暂空气侵入",
+      "更大氧冲击",
+      "去氧后长期恢复"
+    ],
+    "reading_level": "全文相关方法/结果段落",
+    "document_type": "期刊原始研究",
+    "uncertainties": "追踪辅助菌从保护到竞争/替代的条件，不预设耗氧伴生菌总是有利",
+    "processed_batch": "B001",
+    "processed_utc": "2026-10-24T03:29:36.084773+00:00",
+    "evidence_ids": [
+      "OR-30A5634DFFB8.E01"
+    ]
   },
   {
     "id": "OR-30C473F441F1",
@@ -15863,9 +15877,9 @@
       }
     ],
     "old_library_ids": [],
-    "screening_stage": "未开始",
-    "screening_decision": "未判断",
-    "screening_reason": "新范围尚未逐篇判断；旧AD排除结论不继承",
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制原始证据：离体酶学",
+    "screening_reason": "选择性还原O2，NO还原弱约100倍；结构域突变显著降低/消除O2与H2O2还原；研究对象/处理符合本轮较宽机制范围。 证据层级：离体酶学＋定点突变；非完整细胞氧暴露试验",
     "title": "The flavodiiron protein from Syntrophomonas wolfei has five domains and acts both as an NADH:O2 or an NADH:H2 O2 oxidoreductase.",
     "doi": "10.1111/febs.17040",
     "pmid": "38129989",
@@ -15890,7 +15904,20 @@
     ],
     "url": "https://pubmed.ncbi.nlm.nih.gov/38129989/",
     "raw_path": "raw/pubmed/P02_fetch_00000.xml",
-    "early_key_study": false
+    "early_key_study": false,
+    "research_system": "互营菌Syntrophomonas wolfei来源的离体FDP_H蛋白",
+    "exposure_scenarios": [
+      "离体分子O2反应",
+      "离体H2O2对照"
+    ],
+    "reading_level": "仅题名/摘要",
+    "document_type": "期刊原始研究",
+    "uncertainties": "核实完整细胞氧耐受、酶表达及生理电子供体是否另有证据",
+    "processed_batch": "B001",
+    "processed_utc": "2026-10-24T03:29:36.080200+00:00",
+    "evidence_ids": [
+      "OR-5793389585C4.E01"
+    ]
   },
   {
     "id": "OR-57B8292B8981",
@@ -22862,9 +22889,9 @@
       }
     ],
     "old_library_ids": [],
-    "screening_stage": "未开始",
-    "screening_decision": "未判断",
-    "screening_reason": "新范围尚未逐篇判断；旧AD排除结论不继承",
+    "screening_stage": "全文核实",
+    "screening_decision": "符合本轮核心范围",
+    "screening_reason": "适应株保持产甲烷与生长，首次暴露对照被抑制；ROS探针信号下降并伴多种防御与生物膜表型；研究对象/处理符合本轮较宽机制范围。 证据层级：重复暴露的生理/生化实测；防御机制多项关联",
     "title": "Air-adapted Methanosarcina acetivorans shows high methane production and develops resistance against oxygen stress.",
     "doi": "10.1371/journal.pone.0117331",
     "pmid": "25706146",
@@ -22896,7 +22923,21 @@
     ],
     "url": "https://pubmed.ncbi.nlm.nih.gov/25706146/",
     "raw_path": "raw/pubmed/P01_fetch_00000.xml",
-    "early_key_study": false
+    "early_key_study": false,
+    "research_system": "产甲烷古菌纯培养：M. acetivorans C2A",
+    "exposure_scenarios": [
+      "反复低氧暴露",
+      "长期表型适应",
+      "更高氧挑战"
+    ],
+    "reading_level": "全文相关方法/结果段落",
+    "document_type": "期刊原始研究",
+    "uncertainties": "需区分选择、可逆生理调节和遗传变化；不将2%生物膜观察作为扩散直接证据",
+    "processed_batch": "B001",
+    "processed_utc": "2026-10-24T03:29:36.082497+00:00",
+    "evidence_ids": [
+      "OR-7C60AA03CC08.E01"
+    ]
   },
   {
     "id": "OR-7C6A4F84089F",
@@ -24374,9 +24415,9 @@
       }
     ],
     "old_library_ids": [],
-    "screening_stage": "未开始",
-    "screening_decision": "未判断",
-    "screening_reason": "新范围尚未逐篇判断；旧AD排除结论不继承",
+    "screening_stage": "摘要初筛",
+    "screening_decision": "符合本轮核心范围",
+    "screening_reason": "提高H2O2耐受，却不提高O2耐受，不能把催化酶能力等同于整体耐氧；研究对象/处理符合本轮较宽机制范围。 证据层级：遗传干预＋实测生长/酶活；目前依据摘要",
     "title": "Expression of a bacterial catalase in a strictly anaerobic methanogen significantly increases tolerance to hydrogen peroxide but not oxygen.",
     "doi": "10.1099/mic.0.070763-0",
     "pmid": "24222618",
@@ -24406,7 +24447,20 @@
     ],
     "url": "https://pubmed.ncbi.nlm.nih.gov/24222618/",
     "raw_path": "raw/pubmed/P01_fetch_00000.xml",
-    "early_key_study": false
+    "early_key_study": false,
+    "research_system": "产甲烷古菌纯培养：Methanosarcina acetivorans",
+    "exposure_scenarios": [
+      "氧暴露",
+      "独立H2O2对照"
+    ],
+    "reading_level": "仅题名/摘要",
+    "document_type": "期刊原始研究",
+    "uncertainties": "核实O2/H2O2剂量、时间与诱导对照；NCBI XML只有front，非正文",
+    "processed_batch": "B001",
+    "processed_utc": "2026-10-24T03:29:36.079242+00:00",
+    "evidence_ids": [
+      "OR-83A7A70A485C.E01"
+    ]
   },
   {
     "id": "OR-83DECF6D122E",
@@ -37078,9 +37132,9 @@
       }
     ],
     "old_library_ids": [],
-    "screening_stage": "未开始",
-    "screening_decision": "未判断",
-    "screening_reason": "新范围尚未逐篇判断；旧AD排除结论不继承",
+    "screening_stage": "全文核实",
+    "screening_decision": "符合本轮核心范围",
+    "screening_reason": "PFOR对O2直接失活，改变超氧/过氧化氢水平不改变其失活率；丙酮酸流受阻；研究对象/处理符合本轮较宽机制范围。 证据层级：遗传干预＋直接酶活；分离O2与ROS效应",
     "title": "Do reactive oxygen species or does oxygen itself confer obligate anaerobiosis? The case of Bacteroides thetaiotaomicron.",
     "doi": "10.1111/mmi.14516",
     "pmid": "32301184",
@@ -37105,7 +37159,19 @@
     ],
     "url": "https://pubmed.ncbi.nlm.nih.gov/32301184/",
     "raw_path": "raw/pubmed/P10_fetch_00000.xml",
-    "early_key_study": false
+    "early_key_study": false,
+    "research_system": "严格厌氧肠道菌纯培养：Bacteroides thetaiotaomicron",
+    "exposure_scenarios": [
+      "急性氧暴露"
+    ],
+    "reading_level": "全文相关方法/结果段落",
+    "document_type": "期刊原始研究",
+    "uncertainties": "需与2018超氧原研究合读；AD关键酶需独立验证",
+    "processed_batch": "B001",
+    "processed_utc": "2026-10-24T03:29:36.077651+00:00",
+    "evidence_ids": [
+      "OR-C8E113321FD5.E01"
+    ]
   },
   {
     "id": "OR-C9ADA63F6DF3",
