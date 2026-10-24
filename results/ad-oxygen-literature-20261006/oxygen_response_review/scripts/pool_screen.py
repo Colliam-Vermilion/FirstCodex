@@ -60,6 +60,8 @@ def init():
 def packet(offset,size,mode):
  cat={r['id']:r for r in json.loads((OUT/'baseline_catalog.json').read_text())};meta={r['id']:r for r in json.loads((OUT/'metadata_enrichment.json').read_text())};done={p.stem for p in (OUT/'decisions').glob('*.json')} if (OUT/'decisions').exists() else set();order=[r for r in json.loads((OUT/'review_order_v2.json').read_text()) if r['id'] not in done]
  if mode=='clear':order=sorted(order,key=lambda o:(not hit(NONMIC,cat[o['id']]['title']),o['order']))
+ if mode=='molecular':
+  order.sort(key=lambda o:-(8*int(hit(r'mutant|knockout|deletion|complement|enzyme|hydrogenase|rubrerythrin|flavodiiron|superoxide|PFOR|pyruvate|iron.sul|Fe.S|catalase|peroxidase',cat[o['id']]['title']))+3*int(hit(EXPO,cat[o['id']]['title']))))
  selected=order[offset:offset+size];path=OUT/'packets'/f'{mode}_{len(done):04}_{offset:04}_{size}.json'
  for i,o in enumerate(selected,1):
   r=cat[o['id']];ab=meta[r['id']]['abstract_enriched'];sent=re.split(r'(?<=[.!?])\s+',ab);salient=sorted(enumerate(sent),key=lambda z:-(3*int(hit(EXPO,z[1]))+2*int(hit(r'mutant|result|show|found|oxygen|O2',z[1]))))[:2];snippet=' '.join(s for _,s in sorted(salient))
