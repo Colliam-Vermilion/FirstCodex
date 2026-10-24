@@ -1107,6 +1107,42 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-028010D4CCBF",
+    "batch": "P007",
+    "batch_order": 3,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "蛋白结构数据集而非独立论文",
+    "reading_level": "题名语义审阅；缺摘要",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Rubrerythrin from B. pseudomallei: manganese-bound",
+    "doi": "10.2210/pdb8fxd/pdb",
+    "year": "2023",
+    "journal": "Worldwide Protein Data Bank",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M2 解毒"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": false,
+    "abstract_evidence_excerpt": "Rubrerythrin from B. pseudomallei: manganese-bound",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C02",
+        "raw_path": "raw/crossref/C02_search.json",
+        "source_pmid": "",
+        "source_doi": "10.2210/pdb8fxd/pdb"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.301641+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-02B2504B3D21",
     "batch": "P002",
     "batch_order": 17,
@@ -1182,6 +1218,91 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-054408EFC7AB",
+    "batch": "P007",
+    "batch_order": 9,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "转基因山茱萸耐热属植物生理，源基因来自古菌不等于微生物响应",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Enhancing Heat Tolerance of the Little Dogwood Cornus canadensis L. f. with Introduction of a Superoxide Reductase Gene from the Hyperthermophilic Archaeon Pyrococcus furiosus.",
+    "doi": "10.3389/fpls.2016.00026",
+    "year": "2016",
+    "journal": "Frontiers in plant science",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M2 解毒",
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Production of reactive oxygen species (ROS) can be accelerated under various biotic and abiotic stresses causing lipid peroxidation, protein degradation, enzyme inactivation, and DNA damage. Our results indicate that the expression of the P.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P02",
+        "raw_path": "raw/pubmed/P02_fetch_00000.xml",
+        "source_pmid": "26858741",
+        "source_doi": "10.3389/fpls.2016.00026"
+      },
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "26858741",
+        "source_doi": "10.3389/fpls.2016.00026"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.304527+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-067209C6FAFC",
+    "batch": "P007",
+    "batch_order": 12,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "藻类HYDA1铜/缺氧转录研究，主要反向氧变化，相关基础背景",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Differential expression of the Chlamydomonas [FeFe]-hydrogenase-encoding HYDA1 gene is regulated by the copper response regulator1.",
+    "doi": "10.1104/pp.112.200162",
+    "year": "2012",
+    "journal": "Plant physiology",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M3 代谢",
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [
+      "遗传干预线索",
+      "组学/群落线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "HYDA1 transcript and hydrogenase protein accumulate in the absence of oxygen or copper (Cu). In this study, we report on the isolation of a Chlamydomonas mutant strain impaired in HYDA1 gene expression by screening an insertional mutagenesis library for HYDA1 promoter activity using the arylsulfatase-encoding ARYLSULFATASE2 gene as a selection mark",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "22669892",
+        "source_doi": "10.1104/pp.112.200162"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.304454+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-071CAFC18C32",
     "batch": "P003",
     "batch_order": 21,
@@ -1220,6 +1341,44 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:46:52.798362+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-08FCB914BC65",
+    "batch": "P007",
+    "batch_order": 8,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "酵母Rli1氧化应激靶点为FeS生物化学背景，不是直接厌氧微生物O2实验",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "The essential iron-sulfur protein Rli1 is an important target accounting for inhibition of cell growth by reactive oxygen species.",
+    "doi": "10.1091/mbc.e12-05-0413",
+    "year": "2012",
+    "journal": "Molecular biology of the cell",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Oxidative stress mediated by reactive oxygen species (ROS) is linked to degenerative conditions in humans and damage to an array of cellular components. In addition to being essential, Rli1p activity (in nuclear ribosomal-subunit export) was shown to be impaired by mild oxidative stress in yeast.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "22855532",
+        "source_doi": "10.1091/mbc.e12-05-0413"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.305937+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -1547,6 +1706,43 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:49:41.217423+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-14D32C795670",
+    "batch": "P007",
+    "batch_order": 8,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "Suf/FeS生物发生与氧的综述，框架并需追原始研究",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Interplay between oxygen and Fe-S cluster biogenesis: insights from the Suf pathway.",
+    "doi": "10.1021/bi500488r",
+    "year": "2014",
+    "journal": "Biochemistry",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Intriguingly, Fe-S cluster-dependent metabolism is sensitive to disruption by oxygen because of the decreased bioavailability of ferric iron as well as direct oxidation of sulfur trafficking intermediates and Fe-S clusters by reactive oxygen species. This fact, coupled with the ubiquity of Fe-S clusters in aerobic organisms, suggests that organisms",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "25153801",
+        "source_doi": "10.1021/bi500488r"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.306232+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -1912,6 +2108,47 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-2520688A7CD2",
+    "batch": "P007",
+    "batch_order": 11,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "FeS调控因子与低氧/铁需求相关的遗传机制背景，宿主毒力不等于AD直接氧响应",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "IscR-mediated sensing of iron-sulfur cluster demand coordinates virulence gene expression in Yersinia pseudotuberculosis.",
+    "doi": "10.1101/2025.10.16.682990",
+    "year": "2025",
+    "journal": "bioRxiv : the preprint server for biology",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢",
+      "M4 互作"
+    ],
+    "potential_evidence_type": [
+      "遗传干预线索",
+      "组学/群落线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "We previously showed that the iron-sulfur (Fe-S) cluster-coordinating transcription factor IscR controls expression of LcrF, the master regulator of the Yersinia T3SS and the YadA adhesin. Here, we show that mutating the lcrF promoter to allow only [2Fe-2S]-IscR binding ( lcrF pTypeI ) results in hyperexpression of LcrF, the T3SS, and YadA during l",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00000.xml",
+        "source_pmid": "41279696",
+        "source_doi": "10.1101/2025.10.16.682990"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.301190+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-25216FD2C95D",
     "batch": "P006",
     "batch_order": 16,
@@ -2071,6 +2308,44 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-2AA6F062604C",
+    "batch": "P007",
+    "batch_order": 9,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "脱氢酶无氧水分子羟基化可作代谢背景，但不是分子O2进入实验",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Characterisation of the redox centers of ethylbenzene dehydrogenase.",
+    "doi": "10.1007/s00775-021-01917-0",
+    "year": "2022",
+    "journal": "Journal of biological inorganic chemistry : JBIC : a publication of the Society of Biological Inorganic Chemistry",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Ethylbenzene is hydroxylated by a water molecule in an oxygen-independent manner at the Mo-bis-MGD cofactor, which is reduced from the MoVI to the MoIV state in two subsequent one-electron steps. We compare the results with the data on related enzymes and interpret their significance for the function of EbDH.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00000.xml",
+        "source_pmid": "34843002",
+        "source_doi": "10.1007/s00775-021-01917-0"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.304599+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-2ABF1479FD62",
     "batch": "P004",
     "batch_order": -30,
@@ -2188,6 +2463,44 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-2B63BAB82D75",
+    "batch": "P007",
+    "batch_order": 8,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "鸽MagR铁硫位点耐热工程，非厌氧微生物氧进入响应",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "The rational design of iron-sulfur cluster binding site for prolonged stability in magnetoreceptor MagR.",
+    "doi": "10.3389/fmolb.2022.1051943",
+    "year": "2022",
+    "journal": "Frontiers in molecular biosciences",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "The stability of iron-sulfur clusters varies significantly between anaerobic and aerobic conditions due to their intrinsic sensitivity to oxygen. One such mutation, T57C in pigeon MagR, showed improved iron-sulfur binding efficiency and higher iron content, as well as prolonged thermostability.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00000.xml",
+        "source_pmid": "36438652",
+        "source_doi": "10.3389/fmolb.2022.1051943"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.306318+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-2DB242C5AD4C",
     "batch": "P005",
     "batch_order": 20,
@@ -2263,6 +2576,86 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:53:50.590265+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-2DCAC6EAD0FF",
+    "batch": "P007",
+    "batch_order": 8,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "FeS/Moco生物合成调控是基础背景，未见本研究O2进入处理",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Shared functions of Fe-S cluster assembly and Moco biosynthesis.",
+    "doi": "10.1016/j.bbamcr.2024.119731",
+    "year": "2024",
+    "journal": "Biochimica et biophysica acta. Molecular cell research",
+    "research_system": [
+      "desulfurase IscS"
+    ],
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤"
+    ],
+    "potential_evidence_type": [
+      "组学/群落线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Molybdenum cofactor (Moco) biosynthesis is a complex process that involves the coordinated function of several proteins. Second, the expression of the moaABCDE and moeAB operons is regulated by FNR, which senses the availability of oxygen via a functional [4Fe-4S] cluster.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00000.xml",
+        "source_pmid": "38631442",
+        "source_doi": "10.1016/j.bbamcr.2024.119731"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.306542+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-2E28F037F547",
+    "batch": "P007",
+    "batch_order": 8,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "研究结论为无氧铜毒性且不需O2，不是氧暴露机制；留存查重",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Anaerobic Copper Toxicity and Iron-Sulfur Cluster Biogenesis in Escherichia coli.",
+    "doi": "10.1128/aem.00867-17",
+    "year": "2017",
+    "journal": "Applied and environmental microbiology",
+    "research_system": [
+      "desulfurase"
+    ],
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Previous studies have shown that iron-sulfur proteins are among the primary targets of copper toxicity in Escherichia coli under aerobic conditions. The results suggest that the copper-mediated inhibition of iron-sulfur proteins does not require oxygen and that iron-sulfur cluster biogenesis is the primary target of anaerobic copper toxicity in cel",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "28576762",
+        "source_doi": "10.1128/aem.00867-17"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.306640+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -2422,6 +2815,45 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:47:23.403339+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-36E64CA376F6",
+    "batch": "P007",
+    "batch_order": 9,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "厌氧原虫FDP及超氧中间体与暂时氧耐受，直接解毒酶学候选",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Biochemical characterization of a flavodiiron protein from bird parasite Histomonas meleagridis: superoxide as a reaction intermediate.",
+    "doi": "10.1016/j.jbc.2025.110685",
+    "year": "2025",
+    "journal": "The Journal of biological chemistry",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M2 解毒",
+      "M6 恢复",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "meleagridis can survive transient exposure to oxygen (O2) while little is known about the mechanisms that allow this organism to cope with exposure to varying O2 levels. meleagridis genome revealed that this organism possesses two flavodiiron proteins (FDPs) belonging to classes A and F, which are known in other organisms to reduce O2 to H2O.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P02",
+        "raw_path": "raw/pubmed/P02_fetch_00000.xml",
+        "source_pmid": "40914251",
+        "source_doi": "10.1016/j.jbc.2025.110685"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.304669+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -3087,6 +3519,85 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-453DA48DBB69",
+    "batch": "P007",
+    "batch_order": 11,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "耐氧脱芳构酶生化表征可作厌氧代谢靶点边界，非完整细胞暴露证明",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Identification and characterization of 2-naphthoyl-coenzyme A reductase, the prototype of a novel class of dearomatizing reductases.",
+    "doi": "10.1111/mmi.12238",
+    "year": "2013",
+    "journal": "Molecular microbiology",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "直接酶学线索",
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "The oxygen-tolerant enzyme dearomatized the non-activated ring of 2-naphthoyl-CoA by a four-electron reduction to 5,6,7,8-tetrahydro-2-naphthoyl-CoA. The dimeric 150 kDa enzyme complex was composed of a 72 kDa subunit showing sequence similarity to members of the flavin-containing 'old yellow enzyme' family.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "23646996",
+        "source_doi": "10.1111/mmi.12238"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.301899+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-454A09DABEFE",
+    "batch": "P007",
+    "batch_order": 9,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "Fusobacterium从丁酰CoA氧化到FDP还原O2的直接电子链，是新代谢/解毒候选",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "New Electron-Transfer Chain to a Flavodiiron Protein in Fusobacterium nucleatum Couples Butyryl-CoA Oxidation to O2 Reduction.",
+    "doi": "10.1021/acs.biochem.4c00279",
+    "year": "2024",
+    "journal": "Biochemistry",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M2 解毒",
+      "M3 代谢",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "polymorphum ATCC 10953 genome reveals that it encodes a flavodiiron protein (FDP; FNP2073) that is known in other organisms to reduce NO to N2O and/or O2 to H2O. We show that BCR and the FDP form an α4β4 heterotetramic complex and use butyryl-CoA to selectively reduce O2 to H2O.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P02",
+        "raw_path": "raw/pubmed/P02_fetch_00000.xml",
+        "source_pmid": "39206807",
+        "source_doi": "10.1021/acs.biochem.4c00279"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.305066+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-462DFA77749A",
     "batch": "P004",
     "batch_order": -30,
@@ -3201,6 +3712,42 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-491B3B3124E7",
+    "batch": "P007",
+    "batch_order": 3,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "蛋白结构数据集而非独立论文",
+    "reading_level": "题名语义审阅；缺摘要",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Rubrerythrin from B. pseudomallei: iron-bound",
+    "doi": "10.2210/pdb8fvv/pdb",
+    "year": "2023",
+    "journal": "Worldwide Protein Data Bank",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M2 解毒"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": false,
+    "abstract_evidence_excerpt": "Rubrerythrin from B. pseudomallei: iron-bound",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C02",
+        "raw_path": "raw/crossref/C02_search.json",
+        "source_pmid": "",
+        "source_doi": "10.2210/pdb8fvv/pdb"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.301777+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-4CD9748D90DD",
     "batch": "P004",
     "batch_order": -30,
@@ -3231,6 +3778,85 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:47:23.403612+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-4F9E043E6DCF",
+    "batch": "P007",
+    "batch_order": 11,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "Clostridium氧敏感FeS酶自由基机制，可作氧靶点基础，但并非菌群氧冲击",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Substrate-induced radical formation in 4-hydroxybutyryl coenzyme A dehydratase from Clostridium aminobutyricum.",
+    "doi": "10.1128/aem.03099-14",
+    "year": "2015",
+    "journal": "Applied and environmental microbiology",
+    "research_system": [
+      "Clostridium aminobutyricum"
+    ],
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤"
+    ],
+    "potential_evidence_type": [
+      "直接酶学线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "4HBD is an oxygen-sensitive homotetrameric enzyme with one [4Fe-4S](2+) cluster and one flavin adenine dinucleotide (FAD) in each subunit. The results suggest that upon the addition of a substrate, Y296 is deprotonated by E455 and reduces FAD to FADH·, aided by protonation from E257 via T190.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "25452282",
+        "source_doi": "10.1128/aem.03099-14"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.302297+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-51E44B2C2895",
+    "batch": "P007",
+    "batch_order": 11,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "人工FeS蛋白厌氧制备方法，基础技术背景，不是厌氧菌生理应激",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Anaerobic Expression and Purification of Holo-CCIS, an Artificial Iron-sulfur Protein.",
+    "doi": "10.21769/bioprotoc.4169",
+    "year": "2021",
+    "journal": "Bio-protocol",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢"
+    ],
+    "potential_evidence_type": [
+      "直接酶学线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Iron-sulfur proteins are ubiquitous among all living organisms and are indispensable for almost all metabolic pathways ranging from photosynthesis, respiration, nitrogen, and carbon dioxide cycles. These iron-sulfur proteins, especially with [4Fe-4S] clusters, are highly sensitive to molecular oxygen, and it would be advantageous if the de novo pro",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00000.xml",
+        "source_pmid": "34692918",
+        "source_doi": "10.21769/bioprotoc.4169"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.302626+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -3313,6 +3939,46 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-559CBCDD9586",
+    "batch": "P007",
+    "batch_order": 9,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "含Clostridium耐氧氢化酶的光系统工程纳米构建，为纯酶迁移背景非原位AD",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Light-induced H2 generation in a photosystem I-O2-tolerant [FeFe] hydrogenase nanoconstruct.",
+    "doi": "10.1073/pnas.2400267121",
+    "year": "2024",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "research_system": [
+      "Clostridium beijerinckii"
+    ],
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "While both [FeFe] and [NiFe] hydrogenases have been used successfully, they tend to be limited due to either O2 sensitivity, binding specificity, or H2 production rates. In this study, we fuse a peripheral (stromal) subunit of Photosystem I (PS I), PsaE, to an O2-tolerant [FeFe] hydrogenase from Clostridium beijerinckii using a flexible [GGS]4 link",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00000.xml",
+        "source_pmid": "39136990",
+        "source_doi": "10.1073/pnas.2400267121"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.305300+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-560DFD1BEA9E",
     "batch": "P002",
     "batch_order": 15,
@@ -3385,6 +4051,42 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:47:23.404765+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-572C9B5B8886",
+    "batch": "P007",
+    "batch_order": 3,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "蛋白结构数据集而非独立论文",
+    "reading_level": "题名语义审阅；缺摘要",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Rubrerythrin from B. pseudomallei: apo form",
+    "doi": "10.2210/pdb8fuh/pdb",
+    "year": "2023",
+    "journal": "Worldwide Protein Data Bank",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M2 解毒"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": false,
+    "abstract_evidence_excerpt": "Rubrerythrin from B. pseudomallei: apo form",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C02",
+        "raw_path": "raw/crossref/C02_search.json",
+        "source_pmid": "",
+        "source_doi": "10.2210/pdb8fuh/pdb"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.301990+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -3541,6 +4243,46 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-5F76AD0F8B43",
+    "batch": "P007",
+    "batch_order": 8,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "无氧DMSO还原酶折叠成熟机制，非本轮直接O2暴露原始证据",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Biogenesis of Escherichia coli DMSO Reductase: A Network of Participants for Protein Folding and Complex Enzyme Maturation.",
+    "doi": "10.1007/978-3-319-23603-2_12",
+    "year": "2015",
+    "journal": "Advances in experimental medicine and biology",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢",
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Protein folding and structure have been of interest since the dawn of protein chemistry. One class of proteins that allow survival under anoxic conditions are anaerobic respiratory oxidoreductases, which utilize many different compounds other than oxygen as its final electron acceptor.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "26621470",
+        "source_doi": "10.1007/978-3-319-23603-2_12"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.306710+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-5FAC7ADCB4FE",
     "batch": "P005",
     "batch_order": 8,
@@ -3579,6 +4321,45 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-60C133ABCBCE",
+    "batch": "P007",
+    "batch_order": 8,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "IscAFeS簇受O2裂解和还原偶联，直接簇化学基础，不作AD细胞响应",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Spectroscopic and functional characterization of iron-sulfur cluster-bound forms of Azotobacter vinelandii (Nif)IscA.",
+    "doi": "10.1021/bi3006658",
+    "year": "2012",
+    "journal": "Biochemistry",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "The results show that (Nif)IscA can rapidly and reversibly cycle between forms containing one [2Fe-2S](2+) and one [4Fe-4S](2+) cluster per homodimer via DTT-induced two-electron reductive coupling of two [2Fe-2S](2+) clusters and O(2)-induced [4Fe-4S](2+) oxidative cleavage. This unique type of cluster interconversion in response to cellular redox",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "23003323",
+        "source_doi": "10.1021/bi3006658"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.306781+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-611B8560256F",
     "batch": "P002",
     "batch_order": 17,
@@ -3611,6 +4392,44 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:44:29.215336+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-618B6472684F",
+    "batch": "P007",
+    "batch_order": 11,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "厌氧B12合成的FeS酶/底物氧敏感为基础代谢参照，无明确完整细胞氧处理",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Characterization of the enzyme CbiH60 involved in anaerobic ring contraction of the cobalamin (vitamin B12) biosynthetic pathway.",
+    "doi": "10.1074/jbc.m112.422535",
+    "year": "2013",
+    "journal": "The Journal of biological chemistry",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤"
+    ],
+    "potential_evidence_type": [
+      "直接酶学线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "The anaerobic pathway for the biosynthesis of cobalamin (vitamin B(12)) has remained poorly characterized because of the sensitivity of the pathway intermediates to oxygen and the low activity of enzymes. CbiH(60) was characterized by electron paramagnetic resonance and shown to contain a [4Fe-4S] center.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "23155054",
+        "source_doi": "10.1074/jbc.m112.422535"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.303075+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -3696,6 +4515,46 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-667EF5E5BD60",
+    "batch": "P007",
+    "batch_order": 11,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "WhiB7药物抗性遗传研究，O2进入或氧应激机制尚未核实",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "WhiB7, an Fe-S-dependent transcription factor that activates species-specific repertoires of drug resistance determinants in actinobacteria.",
+    "doi": "10.1074/jbc.m113.516385",
+    "year": "2013",
+    "journal": "The Journal of biological chemistry",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢"
+    ],
+    "potential_evidence_type": [
+      "直接酶学线索",
+      "组学/群落线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Gene disruption experiments showed that three different Actinobacteria (Mycobacterium smegmatis, Streptomyces lividans, and Rhodococcus jostii) each exhibited a different whiB7-dependent resistance profile. Heterologous expression of whiB7 genes showed these resistance profiles reflected the host's repertoire of endogenous whiB7-dependent genes.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "24126912",
+        "source_doi": "10.1074/jbc.m113.516385"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.303528+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-66A902B60953",
     "batch": "P002",
     "batch_order": 21,
@@ -3734,6 +4593,47 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:44:29.218660+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-674C3287EC81",
+    "batch": "P007",
+    "batch_order": 11,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "FeS对O2/NO反应感应综述，可组织损伤/调控框架",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Iron-sulfur clusters as biological sensors: the chemistry of reactions with molecular oxygen and nitric oxide.",
+    "doi": "10.1021/ar5002507",
+    "year": "2014",
+    "journal": "Accounts of chemical research",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "直接酶学线索",
+      "组学/群落线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Transcriptional regulators that utilize iron-sulfur clusters are a growing group that exploit the redox and coordination properties of the clusters to act as sensors of environmental conditions including O2, oxidative and nitrosative stress, and metabolic nutritional status. Nevertheless, and as discussed in this Account, significant progress has b",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "25262769",
+        "source_doi": "10.1021/ar5002507"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.303896+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -3780,6 +4680,48 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-698FFA4847F7",
+    "batch": "P007",
+    "batch_order": 9,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "光催化AnammoxROS防护，需确认独立O2进入对照与材料/光混杂",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "A photocatalytic Anammox@LC-COF biohybrid overcomes oxidative stress defense for resilient nitrogen removal.",
+    "doi": "10.1016/j.biortech.2026.136058",
+    "year": "2026",
+    "journal": "Bioresource technology",
+    "research_system": [
+      "Anammox"
+    ],
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M2 解毒",
+      "M3 代谢",
+      "M6 恢复",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Anaerobic ammonium oxidation (anammox) is central to low-carbon nitrogen removal, but its engineering application remains vulnerable to environmentally induced oxidative stress, whereby excessive reactive oxygen species (ROS) accumulation damages functional proteins and disrupts proteostasis. Results showed that Anammox@LC-COF exhibited broad toler",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P02",
+        "raw_path": "raw/pubmed/P02_fetch_00000.xml",
+        "source_pmid": "42863710",
+        "source_doi": "10.1016/j.biortech.2026.136058"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.305401+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-6C5DAEC41114",
     "batch": "P006",
     "batch_order": 16,
@@ -3820,6 +4762,42 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-6C900BE828A4",
+    "batch": "P007",
+    "batch_order": 3,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "蛋白结构数据集而非独立论文",
+    "reading_level": "题名语义审阅；缺摘要",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "near-apo rubrerythrin",
+    "doi": "10.2210/pdb9onm/pdb",
+    "year": "2025",
+    "journal": "Worldwide Protein Data Bank",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M2 解毒"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": false,
+    "abstract_evidence_excerpt": "near-apo rubrerythrin",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C02",
+        "raw_path": "raw/crossref/C02_search.json",
+        "source_pmid": "",
+        "source_doi": "10.2210/pdb9onm/pdb"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.302067+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-6D00DC189CB1",
     "batch": "P005",
     "batch_order": 9,
@@ -3856,6 +4834,45 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:49:41.214410+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-6DDED1EB984B",
+    "batch": "P007",
+    "batch_order": 9,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "甘氨酰自由基酶综述提供氧损伤框架，不计独立验证",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Glycyl radical enzymes and their impact on microbial physiology.",
+    "doi": "10.1016/bs.ampbs.2026.05.001",
+    "year": "2026",
+    "journal": "Advances in microbial physiology",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢",
+      "M4 互作",
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Glycyl radical enzymes (GRE) use radical-based biochemistry to catalyze the cleavage or formation of the carbon-carbon and carbon-heteroatom bonds found in organic molecules. These evolutionarily ancient enzymes are highly oxygen-sensitive but widespread in obligate as well as facultative anaerobes.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00000.xml",
+        "source_pmid": "42618145",
+        "source_doi": "10.1016/bs.ampbs.2026.05.001"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.305473+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -4105,6 +5122,45 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-78EE9D8D2A9F",
+    "batch": "P007",
+    "batch_order": 11,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "PqqE的FeS簇结构/辅簇功能参照，但缺明确氧进入处理",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Characterization of auxiliary iron-sulfur clusters in a radical S-adenosylmethionine enzyme PqqE from Methylobacterium extorquens AM1.",
+    "doi": "10.1002/2211-5463.12314",
+    "year": "2017",
+    "journal": "FEBS open bio",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤"
+    ],
+    "potential_evidence_type": [
+      "遗传干预线索",
+      "直接酶学线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Biochemical and Mössbauer spectral analyses of as-purified and reconstituted mutant enzymes confirmed the presence of three Fe-S clusters in PqqE: one [4Fe-4S]2+ cluster at the N-terminal region that is essential for the reductive homolytic cleavage of SAM into methionine and 5'-deoxyadenosyl radical, and one each [4Fe-4S]2+ and [2Fe-2S]2+ auxiliar",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "29226074",
+        "source_doi": "10.1002/2211-5463.12314"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.304131+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-79572DB0EBB3",
     "batch": "P006",
     "batch_order": 12,
@@ -4329,6 +5385,44 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-7E923C7808EC",
+    "batch": "P007",
+    "batch_order": 8,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "复杂FeS酶装配/伴侣方法背景，原厌氧到有氧处理未建立",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Assembly pathway of a bacterial complex iron sulfur molybdoenzyme.",
+    "doi": "10.1515/bmc-2017-0011",
+    "year": "2017",
+    "journal": "Biomolecular concepts",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Protein folding and assembly into macromolecule complexes within the living cell are complex processes requiring intimate coordination. The biogenesis of complex iron sulfur molybdoenzymes (CISM) requires use of a system specific chaperone - a redox enzyme maturation protein (REMP) - to help mediate final folding and assembly.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "28688222",
+        "source_doi": "10.1515/bmc-2017-0011"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.307264+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-81B738B20350",
     "batch": "P002",
     "batch_order": 22,
@@ -4485,6 +5579,79 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:47:23.405214+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-85453D6AF50B",
+    "batch": "P007",
+    "batch_order": 3,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "蛋白结构数据集而非独立论文",
+    "reading_level": "题名语义审阅；缺摘要",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Mn-bound B. pseudomallei rubrerythrin",
+    "doi": "10.2210/pdb9onq/pdb",
+    "year": "2025",
+    "journal": "Worldwide Protein Data Bank",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M2 解毒"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": false,
+    "abstract_evidence_excerpt": "Mn-bound B. pseudomallei rubrerythrin",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C02",
+        "raw_path": "raw/crossref/C02_search.json",
+        "source_pmid": "",
+        "source_doi": "10.2210/pdb9onq/pdb"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.302397+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-8A7B2ECF4888",
+    "batch": "P007",
+    "batch_order": 2,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "缺摘要；植物叶生物膜ROS野外测量是否体现厌氧背景与氧进入未确认",
+    "reading_level": "题名语义审阅；缺摘要",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Superoxide radical production and influencing factors in leaf biofilms of different submerged macrophytes: Field sampling experiments in a rural pond",
+    "doi": "10.1016/j.jece.2025.116573",
+    "year": "2025",
+    "journal": "Journal of environmental chemical engineering",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M2 解毒",
+      "M5 空间"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": false,
+    "abstract_evidence_excerpt": "Superoxide radical production and influencing factors in leaf biofilms of different submerged macrophytes: Field sampling experiments in a rural pond",
+    "source_provenance": [
+      {
+        "source": "OpenAlex",
+        "query_id": "F01",
+        "raw_path": "raw/openalex/F01_page_000.json",
+        "source_pmid": "",
+        "source_doi": "10.1016/j.jece.2025.116573"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.304057+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -4691,6 +5858,42 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:53:50.595808+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-8E55E5BFDC80",
+    "batch": "P007",
+    "batch_order": 3,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "蛋白结构数据集而非独立论文",
+    "reading_level": "题名语义审阅；缺摘要",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "B. pseudomallei rubrerythrin room temperature structure",
+    "doi": "10.2210/pdb9p19/pdb",
+    "year": "2025",
+    "journal": "Worldwide Protein Data Bank",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M2 解毒"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": false,
+    "abstract_evidence_excerpt": "B. pseudomallei rubrerythrin room temperature structure",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C02",
+        "raw_path": "raw/crossref/C02_search.json",
+        "source_pmid": "",
+        "source_doi": "10.2210/pdb9p19/pdb"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.302730+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -4933,6 +6136,46 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-9D5714E35A1C",
+    "batch": "P007",
+    "batch_order": 9,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "NO还原化学复合物为氮化应激基础，不当O2暴露证据",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Reduction of NO by diiron complexes in relation to flavodiiron nitric oxide reductases.",
+    "doi": "10.1039/d1cc03149j",
+    "year": "2021",
+    "journal": "Chemical communications (Cambridge, England)",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M2 解毒",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Reduction of nitric oxide (NO) to nitrous oxide (N2O) is associated with immense biological and health implications. Flavodiiron nitric oxide reductases (FNORs) are diiron containing enzymes that catalyze the two electron reduction of NO to N2O and help certain pathogenic bacteria to survive under \"nitrosative stress\" in anaerobic growth conditions",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P02",
+        "raw_path": "raw/pubmed/P02_fetch_00000.xml",
+        "source_pmid": "34373873",
+        "source_doi": "10.1039/d1cc03149j"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.305541+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-9D7032EF172C",
     "batch": "P006",
     "batch_order": 8,
@@ -5006,6 +6249,45 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-A017347D8C01",
+    "batch": "P007",
+    "batch_order": 11,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "PFL激活酶相互作用提供厌氧代谢靶点背景，不是O2损伤/修复直接实验",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Pyruvate formate-lyase and its activation by pyruvate formate-lyase activating enzyme.",
+    "doi": "10.1074/jbc.m113.496877",
+    "year": "2014",
+    "journal": "The Journal of biological chemistry",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M4 互作"
+    ],
+    "potential_evidence_type": [
+      "直接酶学线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Surface plasmon resonance experiments were performed under anaerobic conditions on the oxygen-sensitive PFL-AE to determine the kinetics and equilibrium constant for its interaction with PFL. These experiments show that the interaction is very slow and rate-limited by large conformational changes.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "24338017",
+        "source_doi": "10.1074/jbc.m113.496877"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.304212+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-A1BD26065B28",
     "batch": "P004",
     "batch_order": -30,
@@ -5039,6 +6321,82 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:47:23.405530+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-A2E9A7DF9DF7",
+    "batch": "P007",
+    "batch_order": 8,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "细菌FeS调控蛋白综述，只作为基础机制框架",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Bacterial iron-sulfur regulatory proteins as biological sensor-switches.",
+    "doi": "10.1089/ars.2012.4511",
+    "year": "2012",
+    "journal": "Antioxidants & redox signaling",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢",
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [
+      "组学/群落线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "SIGNIFICANCE: In recent years, bacterial iron-sulfur cluster proteins that function as regulators of gene transcription have emerged as a major new group. The sensitivity of these ancient cofactors to small molecule reactive oxygen and nitrogen species, in particular, makes them ideally suited to function as sensors.",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "22239203",
+        "source_doi": "10.1089/ars.2012.4511"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.307331+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-A311B5A4E92D",
+    "batch": "P007",
+    "batch_order": 3,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "蛋白结构数据集而非独立论文",
+    "reading_level": "题名语义审阅；缺摘要",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Fe-bound B. pseudomallei rubrerythrin",
+    "doi": "10.2210/pdb9ono/pdb",
+    "year": "2025",
+    "journal": "Worldwide Protein Data Bank",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M2 解毒"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": false,
+    "abstract_evidence_excerpt": "Fe-bound B. pseudomallei rubrerythrin",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C02",
+        "raw_path": "raw/crossref/C02_search.json",
+        "source_pmid": "",
+        "source_doi": "10.2210/pdb9ono/pdb"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.302974+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -5356,6 +6714,42 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-AC26DA1B77C6",
+    "batch": "P007",
+    "batch_order": 3,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "蛋白结构数据集而非独立论文",
+    "reading_level": "题名语义审阅；缺摘要",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Co-bound B. pseudomallei Rubrerythrin",
+    "doi": "10.2210/pdb9onn/pdb",
+    "year": "2025",
+    "journal": "Worldwide Protein Data Bank",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M2 解毒"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": false,
+    "abstract_evidence_excerpt": "Co-bound B. pseudomallei Rubrerythrin",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C02",
+        "raw_path": "raw/crossref/C02_search.json",
+        "source_pmid": "",
+        "source_doi": "10.2210/pdb9onn/pdb"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.303159+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-AC6F8944D0D8",
     "batch": "P004",
     "batch_order": -30,
@@ -5543,6 +6937,45 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:47:23.400616+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-B7BDC2F173F5",
+    "batch": "P007",
+    "batch_order": 8,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "Desulfovibrio蛋白FeS结构/簇稳定性是硫还原菌基础，非完整细胞氧暴露证明",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "The small iron-sulfur protein from the ORP operon binds a [2Fe-2S] cluster.",
+    "doi": "10.1016/j.bbabio.2016.05.006",
+    "year": "2016",
+    "journal": "Biochimica et biophysica acta",
+    "research_system": [
+      "Desulfovibrio desulfuricans"
+    ],
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M5 空间"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "A linear cluster formulated as [S2MoS2CuS2MoS2](3-), a unique heterometallic cluster found in biological systems, was identified in a small monomeric protein (named as Orange Protein). The data suggests that Dde_3197 can harbor one or two [2Fe-2S] clusters, one being stable and the other labile, with quite identical spectroscopic properties, but st",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "27240719",
+        "source_doi": "10.1016/j.bbabio.2016.05.006"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.307440+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -5831,6 +7264,167 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-C5DEB439E603",
+    "batch": "P007",
+    "batch_order": 8,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "tRNA酶依赖FeS的功能背景，无明确O2进入干预",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "An ancient type of MnmA protein is an iron-sulfur cluster-dependent sulfurtransferase for tRNA anticodons.",
+    "doi": "10.1261/rna.072066.119",
+    "year": "2020",
+    "journal": "RNA (New York, N.Y.)",
+    "research_system": [
+      "Clostridium"
+    ],
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M6 恢复"
+    ],
+    "potential_evidence_type": [
+      "组学/群落线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Transfer RNA (tRNA) is an adaptor molecule indispensable for assigning amino acids to codons on mRNA during protein synthesis. Here, we report the identification of novel-type MnmA homologs containing three conserved Cys residues, which could support Fe-S cluster binding and catalysis, in a broad range of bacteria, including thermophiles, Cyanobact",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00000.xml",
+        "source_pmid": "31801798",
+        "source_doi": "10.1261/rna.072066.119"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.307515+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-C5EF2C990D58",
+    "batch": "P007",
+    "batch_order": 3,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "蛋白结构数据集而非独立论文",
+    "reading_level": "题名语义审阅；缺摘要",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "B. pseudomallei rubrerythrin room temperature structure from LEAP-X device",
+    "doi": "10.2210/pdb9p1a/pdb",
+    "year": "2025",
+    "journal": "Worldwide Protein Data Bank",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M2 解毒"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": false,
+    "abstract_evidence_excerpt": "B. pseudomallei rubrerythrin room temperature structure from LEAP-X device",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C02",
+        "raw_path": "raw/crossref/C02_search.json",
+        "source_pmid": "",
+        "source_doi": "10.2210/pdb9p1a/pdb"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.303419+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-C602CF08D213",
+    "batch": "P007",
+    "batch_order": 9,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "C.difficile SOR/ROS体外功能与氧应激，候选防御机制但须分开宿主ROS",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Defense arsenal of the strict anaerobe Clostridioides difficile against reactive oxygen species encountered during its infection cycle.",
+    "doi": "10.1128/mbio.03753-24",
+    "year": "2025",
+    "journal": "mBio",
+    "research_system": [
+      "Clostridioides difficile"
+    ],
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M2 解毒",
+      "M6 恢复",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "This enteropathogen must adapt to oxidative stress mediated by reactive oxygen species (ROS), notably those released by the neutrophils and macrophages recruited to the site of infection or those endogenously produced upon high oxygen (O2) exposure. We showed that Sor has a superoxide reductase activity in vitro and protects the bacterium from expo",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P02",
+        "raw_path": "raw/pubmed/P02_fetch_00000.xml",
+        "source_pmid": "40111048",
+        "source_doi": "10.1128/mbio.03753-24"
+      },
+      {
+        "source": "OpenAlex",
+        "query_id": "O02",
+        "raw_path": "raw/openalex/O02_page_000.json",
+        "source_pmid": "40111048",
+        "source_doi": "10.1128/mbio.03753-24"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.305607+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-C72B73F02584",
+    "batch": "P007",
+    "batch_order": 4,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "人体动脉粥样硬化ROS标志研究，不是微生物氧进入",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "\"Evaluation of Enzymes Involved in the Production of Endogenous Reactive Oxygen Species and Role of Long-term Oxidative Stress in Pathobiology of Atherosclerosis with Common Oxidative Stress Markers\"",
+    "doi": "10.31031/cojnh.2021.07.000652",
+    "year": "2021",
+    "journal": "COJ Nursing &amp; Healthcare",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Free radicals are molecules with an unpaired electron; thus, they are highly reactive.The human body deals with the pathological effects of free radicals by utilizing antioxidant system.The concentration and location of ROS are the main determinants of their effect.Although there are several sources of vascular free radicals, the enzyme NADPH oxida",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C01",
+        "raw_path": "raw/crossref/C01_search.json",
+        "source_pmid": "",
+        "source_doi": "10.31031/cojnh.2021.07.000652"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.306885+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-C8B74B89A768",
     "batch": "P006",
     "batch_order": 13,
@@ -6031,6 +7625,80 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-D2061F0DE78F",
+    "batch": "P007",
+    "batch_order": 3,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "蛋白突变结构数据集而非独立论文",
+    "reading_level": "题名语义审阅；缺摘要",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "rubrerythrin- E53A E124A",
+    "doi": "10.2210/pdb9onr/pdb",
+    "year": "2025",
+    "journal": "Worldwide Protein Data Bank",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M2 解毒"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": false,
+    "abstract_evidence_excerpt": "rubrerythrin- E53A E124A",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C02",
+        "raw_path": "raw/crossref/C02_search.json",
+        "source_pmid": "",
+        "source_doi": "10.2210/pdb9onr/pdb"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.303769+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-D2F58EF5FCFE",
+    "batch": "P007",
+    "batch_order": 9,
+    "screening_stage": "待确认",
+    "screening_decision": "待全文确认",
+    "screening_reason": "硫酸盐-铁-磷生物地球化学，原厌氧菌氧进入处理未确认",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Sulfate-driven phosphorus mobilization in river sediments: Fe-S-P coupling modulated by sediment geochemistry.",
+    "doi": "10.1016/j.jenvman.2026.129853",
+    "year": "2026",
+    "journal": "Journal of environmental management",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M6 恢复",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Sulfate-driven mobilization of endogenous phosphorus (P) in sediments drives eutrophication, but its biogeochemical mechanisms and environmental regulators remain incompletely understood. Results showed that sulfate reduction mobilizes sediment P via iron-sulfur-phosphorus (Fe-S-P) coupling, involving both biogenic sulfide-driven reductive dissolut",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P07",
+        "raw_path": "raw/pubmed/P07_fetch_00000.xml",
+        "source_pmid": "42085983",
+        "source_doi": "10.1016/j.jenvman.2026.129853"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.305687+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-D555CC8AFA83",
     "batch": "P001",
     "batch_order": 24,
@@ -6077,6 +7745,43 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:41:41.511396+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-D5DF33BBF659",
+    "batch": "P007",
+    "batch_order": 13,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "合成金属聚合物仿酶产氢，非微生物氧响应原始研究",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "[FeFe]-Hydrogenase Mimetic Metallopolymers with Enhanced Catalytic Activity for Hydrogen Production in Water.",
+    "doi": "10.1002/anie.201804661",
+    "year": "2018",
+    "journal": "Angewandte Chemie (International ed. in English)",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M3 代谢",
+      "M5 空间"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Electrocatalytic [FeFe]-hydrogenase mimics for the hydrogen evolution reaction (HER) generally suffer from low activity, high overpotential, aggregation, oxygen sensitivity, and low solubility in water. Furthermore, unlike the hydrogenases, these systems are insensitive to oxygen during catalysis, with turnover numbers on the order of 40 000 under ",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00000.xml",
+        "source_pmid": "30053346",
+        "source_doi": "10.1002/anie.201804661"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.304377+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -6161,6 +7866,46 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:47:23.402992+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-D96D32700ED8",
+    "batch": "P007",
+    "batch_order": 8,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "DNA修复UvrC含O2敏感FeS辅因子可作损伤/修复基础，但原厌氧生理外推未核实",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "UvrC Coordinates an O2-Sensitive [4Fe4S] Cofactor.",
+    "doi": "10.1021/jacs.0c01671",
+    "year": "2020",
+    "journal": "Journal of the American Chemical Society",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "与AD对象对应未核实，仅机制/方法类比候选",
+    "AD_hint_level_not_verified": 1,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M5 空间",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "组学/群落线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Recent advances have led to numerous landmark discoveries of [4Fe4S] clusters coordinated by essential enzymes in repair, replication, and transcription across all domains of life. The characteristics of UvrC are consistent with [4Fe4S] coordination with 60-70% cofactor incorporation, and additionally, we show that, bound to UvrC, the [4Fe4S] cofac",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00000.xml",
+        "source_pmid": "32470300",
+        "source_doi": "10.1021/jacs.0c01671"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.307584+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -6367,6 +8112,43 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:41:41.514484+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-E05033DBC651",
+    "batch": "P007",
+    "batch_order": 9,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "核心候选",
+    "screening_reason": "厌氧CODH的O2通道/FeS保护突变工程，直接氧敏感靶点机制候选",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Fortification of FeS Clusters Reshapes Anaerobic CO Dehydrogenase into an Air-Viable Enzyme Through Multilayered Sealing of O2 Tunnels.",
+    "doi": "10.1002/anie.202508565",
+    "year": "2025",
+    "journal": "Angewandte Chemie (International ed. in English)",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "The inherent O2 sensitivity of Ni─Fe carbon monoxide dehydrogenases (CODHs), crucial for rapid CO to CO2 interconversion, presents substantial challenges for industrial application. Transforming CO/CO2, a prevalent anthropogenic air pollutant, into valuable carbon chemicals either directly or through intermediate steps via biocatalytic methods offe",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00000.xml",
+        "source_pmid": "40465391",
+        "source_doi": "10.1002/anie.202508565"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.305757+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -6591,6 +8373,45 @@
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
   {
+    "id": "OR-E64FF1DBCE8D",
+    "batch": "P007",
+    "batch_order": 12,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "CODH耐氧工程研究的评论/争议，适合反例追踪；非另一独立实验",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Correspondence on \"Fortification of FeS Clusters Reshapes Anaerobic CO Dehydrogenase Into an Air-Viable Enzyme Through Multilayered Sealing of O2 Tunnels\".",
+    "doi": "10.1002/anie.1942100",
+    "year": "2026",
+    "journal": "Angewandte Chemie (International ed. in English)",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M3 代谢",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "遗传干预线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "In their recent communication in Angewandte Chemie (10.1002/anie.202508565), Suk Min Kim and coworkers have described the effect of modifying the gas channels of the CO dehydrogenase II from Carboxydothermus hydrogenoformans, an enzyme that oxidizes reversibly CO into CO2. Their goal was to use mutagenesis to slow down the arrival of O2 at the acti",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00000.xml",
+        "source_pmid": "42175862",
+        "source_doi": "10.1002/anie.1942100"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.304958+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
     "id": "OR-E6B6461E251A",
     "batch": "P003",
     "batch_order": 21,
@@ -6671,6 +8492,48 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:46:52.800274+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-E92F30D63D38",
+    "batch": "P007",
+    "batch_order": 9,
+    "screening_stage": "摘要初筛",
+    "screening_decision": "机制背景",
+    "screening_reason": "酵母异源PFL在好氧下功能，基础酶保护/电子供体参照，不是AD原菌群",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Functional pyruvate formate lyase pathway expressed with two different electron donors in Saccharomyces cerevisiae at aerobic growth.",
+    "doi": "10.1093/femsyr/fov024",
+    "year": "2015",
+    "journal": "FEMS yeast research",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M1 损伤",
+      "M3 代谢",
+      "M4 互作",
+      "M7 条件"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索",
+      "组学/群落线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "Pyruvate formate lyase (PFL) is characterized as an enzyme functional at anaerobic conditions, since the radical in the enzyme's active form is sensitive to oxygen. PFL was expressed with two different electron donors, reduced ferredoxin or reduced flavodoxin, respectively, and it was found that the coexpression of either of these electron donors h",
+    "source_provenance": [
+      {
+        "source": "PubMed",
+        "query_id": "P10",
+        "raw_path": "raw/pubmed/P10_fetch_00100.xml",
+        "source_pmid": "25979691",
+        "source_doi": "10.1093/femsyr/fov024"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.305822+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -7169,6 +9032,42 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:47:23.405595+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "OR-FF6FD008C4B5",
+    "batch": "P007",
+    "batch_order": 3,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "蛋白结构数据集而非独立论文",
+    "reading_level": "题名语义审阅；缺摘要",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "The structure of Rubrerythrin from Burkholderia pseudomallei",
+    "doi": "10.2210/pdb4di0/pdb",
+    "year": "2012",
+    "journal": "",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 2,
+    "mechanism_themes": [
+      "M2 解毒"
+    ],
+    "potential_evidence_type": [],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": false,
+    "abstract_evidence_excerpt": "The structure of Rubrerythrin from Burkholderia pseudomallei",
+    "source_provenance": [
+      {
+        "source": "Crossref",
+        "query_id": "C02",
+        "raw_path": "raw/crossref/C02_search.json",
+        "source_pmid": "",
+        "source_doi": "10.2210/pdb4di0/pdb"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.303980+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
@@ -11819,6 +13718,44 @@
       }
     ],
     "processed_Asia_Shanghai": "2026-10-24T18:49:41.219105+08:00",
+    "fulltext_verified_this_round": false,
+    "independent_validation": "未核实；本轮不逐篇无限追溯"
+  },
+  {
+    "id": "R13846",
+    "batch": "P007",
+    "batch_order": 10,
+    "screening_stage": "排除",
+    "screening_decision": "排除",
+    "screening_reason": "真菌/酶加碱预处理AD，无明确分子氧干预；不得把加真菌自动视供氧",
+    "reading_level": "题名及摘要关键句语义审阅（未阅读全文）",
+    "review_method": "助手逐项语义审阅；区别于计算辅助预筛",
+    "title": "Improving the methane yield of maize straw: Focus on the effects of pretreatment with fungi and their secreted enzymes combined with sodium hydroxide.",
+    "doi": "10.1016/j.biortech.2017.09.160",
+    "year": "2018",
+    "journal": "Bioresource technology",
+    "research_system": "摘要未明确识别；不编造物种",
+    "AD_relationship": "潜在同功能/特定靶点可比，须精读确认；不以分类层级单独判高度相关",
+    "AD_hint_level_not_verified": 3,
+    "mechanism_themes": [
+      "M3 代谢"
+    ],
+    "potential_evidence_type": [
+      "生理/代谢实测线索"
+    ],
+    "evidence_not_confirmed": "题名/摘要线索，不代表因果机制已证实或已独立验证",
+    "source_abstract_available": true,
+    "abstract_evidence_excerpt": "In order to improve the methane yield, the alkaline and biological pretreatments on anaerobic digestion (AD) were investigated. Three treatments were tested: NaOH, biological (enzyme and fungi), and combined NaOH with biological.",
+    "source_provenance": [
+      {
+        "source": "Original AD library",
+        "query_id": "OLD554",
+        "raw_path": "../final_results/ad_oxygen_download_review_utf8.csv",
+        "source_pmid": "29174897",
+        "source_doi": "10.1016/j.biortech.2017.09.160"
+      }
+    ],
+    "processed_Asia_Shanghai": "2026-10-24T18:56:24.307181+08:00",
     "fulltext_verified_this_round": false,
     "independent_validation": "未核实；本轮不逐篇无限追溯"
   },
