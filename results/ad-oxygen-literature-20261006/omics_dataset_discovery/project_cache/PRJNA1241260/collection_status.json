@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1241260",
+  "checked_utc": "2026-10-24T14:53:10.675251+00:00",
+  "ena_run_count": 56,
+  "ncbi_sra_count": 56,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1241260&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:10.675440+00:00",
+    "raw_path": "raw/ENA/592d0132266317e17d3807cd86481bef0c37c967a8f1430b10fdf4b39545257c.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1241260&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 72503,
+    "sha256": "bc09389c46ca7fd23b4478bc62cced48f6ed98bbc498394b6bb02c9ed0a37faa",
+    "finished_utc": "2026-10-24T14:53:10.979462+00:00",
+    "measured_wall_seconds": 0.304
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1241260&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:53:11.381768+00:00",
+    "raw_path": "raw/NCBI/c1e148826f4f802f4afcd8b3fe40a8dfbb9959594cec3c20b1731f43297d1aa0.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1241260&retmode=json&retmax=200&retstart=0",
+    "bytes": 912,
+    "sha256": "f14091ab316190bf34b92c67d0b7e6ec3e08ddb192eb9a02c3b38d945d0f4732",
+    "finished_utc": "2026-10-24T14:53:11.472585+00:00",
+    "measured_wall_seconds": 0.091
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1241260",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:12.817019+00:00",
+    "raw_path": "raw/ENA/20fbfe464352a18c2e96a67eba3a92f152574dc740bdd3f3ff446dd1177af261.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1241260",
+    "bytes": 2674,
+    "sha256": "8a6d93b56e7a1c0fa5254a40d2bd4935a7dd316ebe5f25e457552bbb5fac35cc",
+    "finished_utc": "2026-10-24T14:53:12.980224+00:00",
+    "measured_wall_seconds": 0.163
+  },
+  "project_title": "Oxygen fluctuation legacy alters the methane-driven interaction network",
+  "project_description": "This study investigates how fluctuating oxygen levels, driven by environmental and biological factors, affect aerobic methane-oxidizing bacteria (methanotrophs) and their microbial partners. While methanotrophs typically thrive at oxic-anoxic interfaces, their ability to adapt to dynamic oxygen shifts (e.g., hypoxia or transient anoxia) remains poorly understood. Using molecular tools like stable isotope probing and network analysis, we explore their metabolic resilience, interactions with surrounding microbes, and role in methane cycling under oxygen-variable conditions. By uncovering how these microbes persist and function in fluctuating environments, our work sheds light on their ecological impact and potential for mitigating methane emissions in natural habitats like wetlands and soils.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1241260"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP572702"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "University of Sao Paulo",
+      "value": "PRJNA1241260"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1241260&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1241260&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 56
+}

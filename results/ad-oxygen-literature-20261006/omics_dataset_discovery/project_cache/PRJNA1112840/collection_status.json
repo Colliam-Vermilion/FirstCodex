@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1112840",
+  "checked_utc": "2026-10-24T14:53:41.434481+00:00",
+  "ena_run_count": 3,
+  "ncbi_sra_count": 3,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1112840&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:41.434641+00:00",
+    "raw_path": "raw/ENA/dc6b5db648acf1268a05b84de8035347d7dfa4629766ae24eb0f62ebe18d9f03.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1112840&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 3800,
+    "sha256": "6d809fdfc787c15fe35de7ec80af8d4e6e78bc45f27152352118c6383729e554",
+    "finished_utc": "2026-10-24T14:53:41.597742+00:00",
+    "measured_wall_seconds": 0.163
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1112840&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:53:41.999313+00:00",
+    "raw_path": "raw/NCBI/92d4fbf1832fde8fecfc2331bdd799678344607c6056f6c0d887fa6cb9457af2.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1112840&retmode=json&retmax=200&retstart=0",
+    "bytes": 326,
+    "sha256": "de99c92a2de49e13f21991f1b8c77151f8bed86acdae3d2dc5c3094f052e7eaf",
+    "finished_utc": "2026-10-24T14:53:42.187941+00:00",
+    "measured_wall_seconds": 0.189
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1112840",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:42.806832+00:00",
+    "raw_path": "raw/ENA/7f0cba2f0793d7d2b29a821a1231ea43cfb854204b91e991136e81dc30707d26.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1112840",
+    "bytes": 2720,
+    "sha256": "ea6f44aa658f84fa5f29efcfb215d8d026e7057e8dd0fde65afd5edb1a7a3424",
+    "finished_utc": "2026-10-24T14:53:42.962025+00:00",
+    "measured_wall_seconds": 0.155
+  },
+  "project_title": "Wetland soil incubation treated with sulfate and oxygen",
+  "project_description": "Greenhouse gas (GHG) emissions from wetland ecosystems will be severely perturbed by climate-change-induced stressors like drought and seawater intrusion. It remains a challenge to accurately predict ecosystem feedback to these stressors individually and in combination. In this study, we aim to characterize and model systemic responses of a wetland community to increased availabilities of oxygen and sulfate in potential future climate scenarios. The laboratory microcosms were constructed from field lacustrine wetland soils and were incubated in a control anaerobic condition, an aerobic condition, a sulfate addition condition, and an aerobic sulfate addition condition. The geochemical and proteogenomic measurements of the lab microcosms were used to construct an integrated stoichiometric model of the key metabolic processes in the wetland soil community.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1112840"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP508399"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "University of Oklahoma",
+      "value": "PRJNA1112840"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1112840&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1112840&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 3
+}

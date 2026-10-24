@@ -1,0 +1,656 @@
+[
+  {
+    "run_accession": "SRR5429576",
+    "experiment_accession": "SRX2719607",
+    "sample_accession": "SAMN06674011",
+    "secondary_sample_accession": "SRS2110145",
+    "sample_alias": "3_1_R1_fastq",
+    "sample_title": "Fast Ox 1 forward",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "humid tropical forest soil",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2012-06",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Puerto Rico: Luquillo Critical Zone, Bisley",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "18.30 N 65.80 W",
+        "units": ""
+      },
+      {
+        "tag": "index",
+        "value": "1",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA381321",
+    "secondary_study_accession": "SRP103306",
+    "study_title": "Oxygenation rate during Fe redox-cycling affects humid tropical forest soil metatranscriptome",
+    "study_description": "Soils were collected from the Bisley Watershed, Luquillo Critical Zone Observatory, Puerto Rico. These humid tropical forest soils are hypothesized to impact global carbon and greenhouse gas cycling through Fe biogeochemical reactions during redox-oscillating conditions. This study used a laboratory incubation of these soils to investigate the effects of oxygenation rate on iron mineral transformations and microbial iron(III)-reducer gene expression (RNAseq) during alternating anoxic:oxic conditions.",
+    "study_links": [],
+    "experiment_title": "RNAseq of Soil from tropical forest: Fast Ox F 1",
+    "library_name": "3_1_126382-25437440_F",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "13165955",
+    "base_count": "3448562351",
+    "sra_run_bytes": "1649121074",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3_1_R1_fastq",
+        "size": "4173321964",
+        "date": "2020-03-28 22:33:37",
+        "md5": "19d098860a547caa3bb95c5b8dffd4f4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "3_1_R2_fastq",
+        "size": "4177100106",
+        "date": "2020-03-28 21:45:58",
+        "md5": "0108d31cab7d7f36cb321cdb5a17e40e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5429576",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5429576/SRR5429576",
+        "size": "1649122894",
+        "date": "2017-04-07 22:58:43",
+        "md5": "a2c3e4fd2dfaf261e9f552703fff2103",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5429576.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR005/429/SRR5429576.sralite.1",
+        "size": "912388762",
+        "date": "2021-06-16 09:29:10",
+        "md5": "221bc0f739dfeb05c23d996213fc8ae6",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2017-04-07 23:02:06",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR5429574",
+    "experiment_accession": "SRX2719605",
+    "sample_accession": "SAMN06674013",
+    "secondary_sample_accession": "SRS2110143",
+    "sample_alias": "3_2_R1_fastq",
+    "sample_title": "Fast Ox 2 forward",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "humid tropical forest soil",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2012-06",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Puerto Rico: Luquillo Critical Zone, Bisley",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "18.30 N 65.80 W",
+        "units": ""
+      },
+      {
+        "tag": "index",
+        "value": "3",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA381321",
+    "secondary_study_accession": "SRP103306",
+    "study_title": "Oxygenation rate during Fe redox-cycling affects humid tropical forest soil metatranscriptome",
+    "study_description": "Soils were collected from the Bisley Watershed, Luquillo Critical Zone Observatory, Puerto Rico. These humid tropical forest soils are hypothesized to impact global carbon and greenhouse gas cycling through Fe biogeochemical reactions during redox-oscillating conditions. This study used a laboratory incubation of these soils to investigate the effects of oxygenation rate on iron mineral transformations and microbial iron(III)-reducer gene expression (RNAseq) during alternating anoxic:oxic conditions.",
+    "study_links": [],
+    "experiment_title": "RNAseq of Soil from tropical forest: Fast Ox F 3",
+    "library_name": "3_2_126382-25437441_F",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "17363895",
+    "base_count": "4682422391",
+    "sra_run_bytes": "2247656045",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3_2_R1_fastq",
+        "size": "5641422518",
+        "date": "2020-03-28 18:46:35",
+        "md5": "09d6a0f4818393c265faac69a91d03e3",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "3_2_R2_fastq",
+        "size": "5640110024",
+        "date": "2020-03-28 18:45:56",
+        "md5": "8a32edff40ff7221050cb15c8f72ea85",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5429574",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5429574/SRR5429574",
+        "size": "2247657866",
+        "date": "2017-04-07 22:51:05",
+        "md5": "2638d84dd34c8d11e96dc96c59dd722b",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5429574.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR005/429/SRR5429574.sralite.1",
+        "size": "1235615082",
+        "date": "2020-06-23 18:53:12",
+        "md5": "a21af4513416ace4bb2c7bbbb0439b37",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2017-04-07 22:57:09",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR5429572",
+    "experiment_accession": "SRX2719603",
+    "sample_accession": "SAMN06674015",
+    "secondary_sample_accession": "SRS2110141",
+    "sample_alias": "3_3_R1_fastq",
+    "sample_title": "Fast Ox 3 forward",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "humid tropical forest soil",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2012-06",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Puerto Rico: Luquillo Critical Zone, Bisley",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "18.30 N 65.80 W",
+        "units": ""
+      },
+      {
+        "tag": "index",
+        "value": "5",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA381321",
+    "secondary_study_accession": "SRP103306",
+    "study_title": "Oxygenation rate during Fe redox-cycling affects humid tropical forest soil metatranscriptome",
+    "study_description": "Soils were collected from the Bisley Watershed, Luquillo Critical Zone Observatory, Puerto Rico. These humid tropical forest soils are hypothesized to impact global carbon and greenhouse gas cycling through Fe biogeochemical reactions during redox-oscillating conditions. This study used a laboratory incubation of these soils to investigate the effects of oxygenation rate on iron mineral transformations and microbial iron(III)-reducer gene expression (RNAseq) during alternating anoxic:oxic conditions.",
+    "study_links": [],
+    "experiment_title": "RNAseq of Soil from tropical forest: Fast Ox F 5",
+    "library_name": "3_3_126382-25437442_F",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "14588475",
+    "base_count": "3825245948",
+    "sra_run_bytes": "1822372197",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3_3_R1_fastq",
+        "size": "4629666736",
+        "date": "2020-03-28 21:54:01",
+        "md5": "d9584b9c424e6a00b18c321325cc0cc1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5429572.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR005/429/SRR5429572.sralite.1",
+        "size": "1011972608",
+        "date": "2021-06-15 12:06:36",
+        "md5": "3ff7e63daa820def4846f4cec942b4c6",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5429572",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5429572/SRR5429572",
+        "size": "1822374020",
+        "date": "2017-04-07 22:48:43",
+        "md5": "977a0634fd1857c7ed99b9b2d8c0d6e4",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "3_3_R2_fastq",
+        "size": "4631177160",
+        "date": "2020-03-28 22:33:34",
+        "md5": "80166929be77445eacf02bcfb0dfd5f0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2017-04-07 22:51:21",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR5429570",
+    "experiment_accession": "SRX2719601",
+    "sample_accession": "SAMN06674017",
+    "secondary_sample_accession": "SRS2110139",
+    "sample_alias": "1_1_R1_fastq",
+    "sample_title": "Slow Ox 1 forward",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "humid tropical forest soil",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2012-06",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Puerto Rico: Luquillo Critical Zone, Bisley",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "18.30 N 65.80 W",
+        "units": ""
+      },
+      {
+        "tag": "index",
+        "value": "7",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA381321",
+    "secondary_study_accession": "SRP103306",
+    "study_title": "Oxygenation rate during Fe redox-cycling affects humid tropical forest soil metatranscriptome",
+    "study_description": "Soils were collected from the Bisley Watershed, Luquillo Critical Zone Observatory, Puerto Rico. These humid tropical forest soils are hypothesized to impact global carbon and greenhouse gas cycling through Fe biogeochemical reactions during redox-oscillating conditions. This study used a laboratory incubation of these soils to investigate the effects of oxygenation rate on iron mineral transformations and microbial iron(III)-reducer gene expression (RNAseq) during alternating anoxic:oxic conditions.",
+    "study_links": [],
+    "experiment_title": "RNAseq of Soil from tropical forest: Slow Ox F 7",
+    "library_name": "1_1_126382-25437437_F",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "13320934",
+    "base_count": "3414331826",
+    "sra_run_bytes": "1623115275",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR5429570.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR005/429/SRR5429570.sralite.1",
+        "size": "904724787",
+        "date": "2021-06-15 15:54:04",
+        "md5": "64bdd7217e766b2080295874695aa62c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5429570",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5429570/SRR5429570",
+        "size": "1623117095",
+        "date": "2017-04-07 22:51:24",
+        "md5": "9190c542e79908164ae06ceec594b24c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "1_1_R2_fastq",
+        "size": "4151348131",
+        "date": "2020-03-28 21:33:22",
+        "md5": "2f9d0781ae28819b4f53ecfc5fd6d0c0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "1_1_R1_fastq",
+        "size": "4147748447",
+        "date": "2020-03-28 20:31:11",
+        "md5": "f001984fcc99544a3a6c9853aca760f0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2017-04-07 22:56:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR5429568",
+    "experiment_accession": "SRX2719599",
+    "sample_accession": "SAMN06674019",
+    "secondary_sample_accession": "SRS2110137",
+    "sample_alias": "1_2_R1_fastq",
+    "sample_title": "Slow Ox 2 forward",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "humid tropical forest soil",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2012-06",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Puerto Rico: Luquillo Critical Zone, Bisley",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "18.30 N 65.80 W",
+        "units": ""
+      },
+      {
+        "tag": "index",
+        "value": "9",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA381321",
+    "secondary_study_accession": "SRP103306",
+    "study_title": "Oxygenation rate during Fe redox-cycling affects humid tropical forest soil metatranscriptome",
+    "study_description": "Soils were collected from the Bisley Watershed, Luquillo Critical Zone Observatory, Puerto Rico. These humid tropical forest soils are hypothesized to impact global carbon and greenhouse gas cycling through Fe biogeochemical reactions during redox-oscillating conditions. This study used a laboratory incubation of these soils to investigate the effects of oxygenation rate on iron mineral transformations and microbial iron(III)-reducer gene expression (RNAseq) during alternating anoxic:oxic conditions.",
+    "study_links": [],
+    "experiment_title": "RNAseq of Soil from tropical forest: Slow Ox F 9",
+    "library_name": "1_2_126382-25437438_F",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "13671060",
+    "base_count": "3667903384",
+    "sra_run_bytes": "1755217548",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR5429568",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5429568/SRR5429568",
+        "size": "1755219364",
+        "date": "2017-04-07 22:48:05",
+        "md5": "faa98bd47a24752d001a68e83444f833",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5429568.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR005/429/SRR5429568.sralite.1",
+        "size": "968492400",
+        "date": "2020-06-23 18:45:04",
+        "md5": "435387c951cbcb7f324433ef26c99c9e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "1_2_R2_fastq",
+        "size": "4423498962",
+        "date": "2020-03-28 21:55:57",
+        "md5": "523ceb1ae5c733cfd29388a919108f7d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "1_2_R1_fastq",
+        "size": "4421388258",
+        "date": "2020-03-28 21:33:26",
+        "md5": "692f5dfcd5a860542b3f6daad7571194",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2017-04-07 22:51:21",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR5429566",
+    "experiment_accession": "SRX2719597",
+    "sample_accession": "SAMN06674021",
+    "secondary_sample_accession": "SRS2110135",
+    "sample_alias": "1_3_R1_fastq",
+    "sample_title": "Slow Ox 3 forward",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "humid tropical forest soil",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2012-06",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "Puerto Rico: Luquillo Critical Zone, Bisley",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "18.30 N 65.80 W",
+        "units": ""
+      },
+      {
+        "tag": "index",
+        "value": "11",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA381321",
+    "secondary_study_accession": "SRP103306",
+    "study_title": "Oxygenation rate during Fe redox-cycling affects humid tropical forest soil metatranscriptome",
+    "study_description": "Soils were collected from the Bisley Watershed, Luquillo Critical Zone Observatory, Puerto Rico. These humid tropical forest soils are hypothesized to impact global carbon and greenhouse gas cycling through Fe biogeochemical reactions during redox-oscillating conditions. This study used a laboratory incubation of these soils to investigate the effects of oxygenation rate on iron mineral transformations and microbial iron(III)-reducer gene expression (RNAseq) during alternating anoxic:oxic conditions.",
+    "study_links": [],
+    "experiment_title": "RNAseq of Soil from tropical forest: Slow Ox F 11",
+    "library_name": "1_3_126382-25437439_F",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 500",
+    "read_count": "13013905",
+    "base_count": "3363313591",
+    "sra_run_bytes": "1597550314",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "1_3_R1_fastq",
+        "size": "4079519677",
+        "date": "2020-03-28 22:47:58",
+        "md5": "ae651802236bf77258e386921359e3bf",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "1_3_R2_fastq",
+        "size": "4083649835",
+        "date": "2020-03-28 18:46:38",
+        "md5": "b74a20fa9e4c9665b22b102a197fc1e2",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5429566",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5429566/SRR5429566",
+        "size": "1597552134",
+        "date": "2017-04-07 22:47:17",
+        "md5": "96060d5982084915533e43150e14ab21",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR5429566.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR005/429/SRR5429566.sralite.1",
+        "size": "890796842",
+        "date": "2020-06-22 08:59:01",
+        "md5": "faeb12a7b4385cb097905ab91af1ff9b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2017-04-07 22:51:08",
+    "run_is_public": "true"
+  }
+]

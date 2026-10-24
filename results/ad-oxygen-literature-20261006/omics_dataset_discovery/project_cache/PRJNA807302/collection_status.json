@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA807302",
+  "checked_utc": "2026-10-24T14:52:54.487206+00:00",
+  "ena_run_count": 35,
+  "ncbi_sra_count": 35,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA807302&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:52:54.487352+00:00",
+    "raw_path": "raw/ENA/c1395fc33aa6c33daf1d851f56ca734bfd840ef3dcbdeaf1c0ba635a51af8a30.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA807302&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 58140,
+    "sha256": "2a25fb293ad4b2f8342b95e7b9c73e39c91196cd051e73d0682f63fc4e399a12",
+    "finished_utc": "2026-10-24T14:52:54.722537+00:00",
+    "measured_wall_seconds": 0.235
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA807302&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:52:55.124367+00:00",
+    "raw_path": "raw/NCBI/957bb475d33753bd9ef917c3ac6a4afca2c9ed83a8fbd982d65b37921f95de8e.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA807302&retmode=json&retmax=200&retstart=0",
+    "bytes": 679,
+    "sha256": "c96db108bc7debb023825c7ed4f31bd03745495ec8a833e517e39aa8ef6640d9",
+    "finished_utc": "2026-10-24T14:52:55.232081+00:00",
+    "measured_wall_seconds": 0.108
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA807302",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:52:56.325651+00:00",
+    "raw_path": "raw/ENA/17d590e957de5b60f549f5dae3eddaf478b7d812ba79e95049847bb2f2700dde.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA807302",
+    "bytes": 2926,
+    "sha256": "abd80f0cbc0b786232c34283ef69911646fa267e65ed907e564ed107b7275caf",
+    "finished_utc": "2026-10-24T14:52:56.495301+00:00",
+    "measured_wall_seconds": 0.17
+  },
+  "project_title": "Oxygen tolerance testing of DGG-B, a methanogenic benzene-degrading enrichment culture",
+  "project_description": "DGG-B is a strictly anaerobic methanogenic benzene-degrading enrichment culture originally derived decades ago from oil-contaminated sediment. A 1,200-day study was performed to test how small amounts of oxygen would affect degradation rates and impact its microbial community composition. The culture includes a benzene fermenter from Deltaproteobacteria Candidate clade Sva0485 (referred to as ORM2) and methanogenic archaea. Adding oxygen caused drastic perturbation of the microbial community. A benzene-degrading Pseudomonas became highly enriched and consumed all available oxygen. The number of ORM2 cells plummeted during this time and re-growth and associated recovery of methanogenic benzene degradation took almost one year. These results have quite profound implications when considering impact of transient oxygen exposure in field environments. Moreover, the methanogenic benzene degrading pathway is fundamentally different from reported aerobic pathways, carried out by distinct microbial communities, and without oxygen involvement.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA807302"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP360083"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "University of Toronto",
+      "value": "PRJNA807302"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA807302&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA807302&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 35
+}

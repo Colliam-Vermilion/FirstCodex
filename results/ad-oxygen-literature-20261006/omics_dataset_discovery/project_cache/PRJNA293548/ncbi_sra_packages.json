@@ -1,0 +1,1695 @@
+[
+  {
+    "run_accession": "SRR2177835",
+    "experiment_accession": "SRX1161750",
+    "sample_accession": "SAMN04005489",
+    "secondary_sample_accession": "SRS1042643",
+    "sample_alias": "sediment_control_replicate1",
+    "sample_title": "",
+    "scientific_name": "marine sediment metagenome",
+    "tax_id": "412755",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "marine sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2011-11-13",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "France",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "48.553847 N 4.535771 W",
+        "units": ""
+      },
+      {
+        "tag": "samp_collect_device",
+        "value": "sediment trapping device",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA293548",
+    "secondary_study_accession": "SRP062708",
+    "study_title": "identification of the microbial genes and pathway induced in response to petroleum and oxygen oscillations in marine coastal sediments",
+    "study_description": "Identification of the genes induced in response to petroleum by metatranscriptomic approach: this characterization will be performed on simplified microbial communities focusing on anaerobic prokaryotes inhabiting the hydrocarbon compounds (HC)-degrading bacterial communities with special interest on the sulfate reducing prokaryotes (SRP). These bacterial communities will be characterized by metatranscriptomic approaches in order to characterize the specific genes induced according the crucial adaptative steps to pollutant and redox conditions.We perform the analysis at whole community and functional groups levels, an innovative approach that allows understanding the overall assembly and functioning of the bacterial communities. Although the partners have a long experience on determining gene diversity and expression level, the challenge is to combine the information obtained at several organization levels from several bacterial communities. Thus, through the main structuring groups, their relationships and their behavior against oxygen and redox oscillations, we will be able to describe the global functioning of sediments’ bacterial communities. Furthermore the comparisons of the behavior of the different bacterial communities will provide valuable information to understand the structuring of microbial communities exposed to petroleum under oxygen and redox oscillations.",
+    "study_links": [],
+    "experiment_title": "metatranscriptomic study of marine coastal sediment : negative control",
+    "library_name": "T1",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "14893001",
+    "base_count": "2978600200",
+    "sra_run_bytes": "1981571463",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "T2-1_TAGCTT_L003_R1.fastq.bz2",
+        "size": "869037384",
+        "date": "2020-04-24 15:25:04",
+        "md5": "32727e3880a7c55acc3c9b48cb489763",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "T2-1_TAGCTT_L003_R2.fastq.bz2",
+        "size": "886967215",
+        "date": "2020-04-24 15:25:04",
+        "md5": "d66ff1f522dc6e81b39a670b8a244777",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177835",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2177835/SRR2177835",
+        "size": "1981573209",
+        "date": "2015-08-21 13:31:27",
+        "md5": "a87937c47a87942ba0ca58f46b2f9489",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177835.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/177/SRR2177835/SRR2177835.sralite.1",
+        "size": "779408916",
+        "date": "2020-06-23 21:11:01",
+        "md5": "5daaf572d05129781370d6018e3be3d2",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-15 00:00:00",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2177834",
+    "experiment_accession": "SRX1161749",
+    "sample_accession": "SAMN04005783",
+    "secondary_sample_accession": "SRS1042639",
+    "sample_alias": "sediment_nereis_HC_replicate1",
+    "sample_title": "",
+    "scientific_name": "marine sediment metagenome",
+    "tax_id": "412755",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "coastal marine sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2011-11-13",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "France",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "48.553847 N 4.535771 W",
+        "units": ""
+      },
+      {
+        "tag": "ref_biomaterial",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "samp_collect_device",
+        "value": "sediment trapping device",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "adding both hydrocarbon compounds and Nereis diversicolor",
+        "units": ""
+      },
+      {
+        "tag": "samp_size",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "replicate_id",
+        "value": "1",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA293548",
+    "secondary_study_accession": "SRP062708",
+    "study_title": "identification of the microbial genes and pathway induced in response to petroleum and oxygen oscillations in marine coastal sediments",
+    "study_description": "Identification of the genes induced in response to petroleum by metatranscriptomic approach: this characterization will be performed on simplified microbial communities focusing on anaerobic prokaryotes inhabiting the hydrocarbon compounds (HC)-degrading bacterial communities with special interest on the sulfate reducing prokaryotes (SRP). These bacterial communities will be characterized by metatranscriptomic approaches in order to characterize the specific genes induced according the crucial adaptative steps to pollutant and redox conditions.We perform the analysis at whole community and functional groups levels, an innovative approach that allows understanding the overall assembly and functioning of the bacterial communities. Although the partners have a long experience on determining gene diversity and expression level, the challenge is to combine the information obtained at several organization levels from several bacterial communities. Thus, through the main structuring groups, their relationships and their behavior against oxygen and redox oscillations, we will be able to describe the global functioning of sediments’ bacterial communities. Furthermore the comparisons of the behavior of the different bacterial communities will provide valuable information to understand the structuring of microbial communities exposed to petroleum under oxygen and redox oscillations.",
+    "study_links": [],
+    "experiment_title": "metatranscriptomic study of marine coastal sediment : sediment with both petroleum and nereis added",
+    "library_name": "HCN1",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "15037705",
+    "base_count": "3007541000",
+    "sra_run_bytes": "2007053958",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3-1_ATCACG_L003_R1.fastq.bz2",
+        "size": "888935120",
+        "date": "2020-04-24 15:25:04",
+        "md5": "aad7aa6bfb90b5c482212a61cb37625a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "3-1_ATCACG_L003_R2.fastq.bz2",
+        "size": "902280416",
+        "date": "2020-04-24 15:25:04",
+        "md5": "36b3b9d6774a4a339c1a504159f0d28f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177834",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2177834/SRR2177834",
+        "size": "2007055709",
+        "date": "2015-08-21 13:29:11",
+        "md5": "9812ef894a5e191533d1a8c59a09e539",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177834.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/177/SRR2177834/SRR2177834.sralite.1",
+        "size": "786950969",
+        "date": "2020-06-23 21:09:31",
+        "md5": "acf5423e008c7f189f0b17e26b4ebf51",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-15 00:00:00",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2177833",
+    "experiment_accession": "SRX1161748",
+    "sample_accession": "SAMN04005782",
+    "secondary_sample_accession": "SRS1042640",
+    "sample_alias": "sediment_nereis_replicate3",
+    "sample_title": "",
+    "scientific_name": "marine sediment metagenome",
+    "tax_id": "412755",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "coastal marine sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2011-11-13",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "France",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "48.553847 N 4.535771 W",
+        "units": ""
+      },
+      {
+        "tag": "ref_biomaterial",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "samp_collect_device",
+        "value": "sediment trapping device",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "adding Nereis diversicolor",
+        "units": ""
+      },
+      {
+        "tag": "samp_size",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "replicate_id",
+        "value": "3",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA293548",
+    "secondary_study_accession": "SRP062708",
+    "study_title": "identification of the microbial genes and pathway induced in response to petroleum and oxygen oscillations in marine coastal sediments",
+    "study_description": "Identification of the genes induced in response to petroleum by metatranscriptomic approach: this characterization will be performed on simplified microbial communities focusing on anaerobic prokaryotes inhabiting the hydrocarbon compounds (HC)-degrading bacterial communities with special interest on the sulfate reducing prokaryotes (SRP). These bacterial communities will be characterized by metatranscriptomic approaches in order to characterize the specific genes induced according the crucial adaptative steps to pollutant and redox conditions.We perform the analysis at whole community and functional groups levels, an innovative approach that allows understanding the overall assembly and functioning of the bacterial communities. Although the partners have a long experience on determining gene diversity and expression level, the challenge is to combine the information obtained at several organization levels from several bacterial communities. Thus, through the main structuring groups, their relationships and their behavior against oxygen and redox oscillations, we will be able to describe the global functioning of sediments’ bacterial communities. Furthermore the comparisons of the behavior of the different bacterial communities will provide valuable information to understand the structuring of microbial communities exposed to petroleum under oxygen and redox oscillations.",
+    "study_links": [],
+    "experiment_title": "metatranscriptomic study of marine coastal sediment : sediment with nereis added",
+    "library_name": "N3",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "21802526",
+    "base_count": "4360505200",
+    "sra_run_bytes": "2905745975",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TN1-4_GTGGCC_L003_R1.fastq.bz2",
+        "size": "1281841749",
+        "date": "2020-04-24 15:25:04",
+        "md5": "ff18b4c4fa4a680abf62cc7abaf3352b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TN1-4_GTGGCC_L003_R2.fastq.bz2",
+        "size": "1307448284",
+        "date": "2020-04-24 15:25:04",
+        "md5": "5b0b0a2f64b5e073cf2a6e127dd3c49c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177833",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2177833/SRR2177833",
+        "size": "2905747721",
+        "date": "2015-08-21 13:30:31",
+        "md5": "af28f7e59767cfa9415aadbfdb4a4bcc",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177833.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/177/SRR2177833/SRR2177833.sralite.1",
+        "size": "1139412942",
+        "date": "2020-06-23 21:15:14",
+        "md5": "df9914264ff3516986251d5eb180480e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-15 00:00:00",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2177832",
+    "experiment_accession": "SRX1161747",
+    "sample_accession": "SAMN04005781",
+    "secondary_sample_accession": "SRS1042638",
+    "sample_alias": "sediment_nereis_replicate2",
+    "sample_title": "",
+    "scientific_name": "marine sediment metagenome",
+    "tax_id": "412755",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "coastal marine sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2011-11-13",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "France",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "48.553847 N 4.535771 W",
+        "units": ""
+      },
+      {
+        "tag": "ref_biomaterial",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "samp_collect_device",
+        "value": "sediment trapping device",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "adding Nereis diversicolor",
+        "units": ""
+      },
+      {
+        "tag": "samp_size",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "replicate_id",
+        "value": "2",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA293548",
+    "secondary_study_accession": "SRP062708",
+    "study_title": "identification of the microbial genes and pathway induced in response to petroleum and oxygen oscillations in marine coastal sediments",
+    "study_description": "Identification of the genes induced in response to petroleum by metatranscriptomic approach: this characterization will be performed on simplified microbial communities focusing on anaerobic prokaryotes inhabiting the hydrocarbon compounds (HC)-degrading bacterial communities with special interest on the sulfate reducing prokaryotes (SRP). These bacterial communities will be characterized by metatranscriptomic approaches in order to characterize the specific genes induced according the crucial adaptative steps to pollutant and redox conditions.We perform the analysis at whole community and functional groups levels, an innovative approach that allows understanding the overall assembly and functioning of the bacterial communities. Although the partners have a long experience on determining gene diversity and expression level, the challenge is to combine the information obtained at several organization levels from several bacterial communities. Thus, through the main structuring groups, their relationships and their behavior against oxygen and redox oscillations, we will be able to describe the global functioning of sediments’ bacterial communities. Furthermore the comparisons of the behavior of the different bacterial communities will provide valuable information to understand the structuring of microbial communities exposed to petroleum under oxygen and redox oscillations.",
+    "study_links": [],
+    "experiment_title": "metatranscriptomic study of marine coastal sediment : sediment with nereis added",
+    "library_name": "N2",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "18817552",
+    "base_count": "3763510400",
+    "sra_run_bytes": "2522634000",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TN1-3_GTCCGC_L003_R1.fastq.bz2",
+        "size": "1101281222",
+        "date": "2020-04-24 15:25:04",
+        "md5": "0fa8fb28ca03c340082e34f5bb799f7a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TN1-3_GTCCGC_L003_R2.fastq.bz2",
+        "size": "1121456853",
+        "date": "2020-04-24 15:25:04",
+        "md5": "f9b86224055474291569e4dd9fb3d9b7",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177832",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2177832/SRR2177832",
+        "size": "2522635749",
+        "date": "2015-08-21 13:28:18",
+        "md5": "030200db322c22344a18d05e6a36dc68",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177832.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/177/SRR2177832/SRR2177832.sralite.1",
+        "size": "984003999",
+        "date": "2020-06-23 21:13:08",
+        "md5": "959e31512164d118da88b0807fce43ce",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-15 00:00:00",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2177831",
+    "experiment_accession": "SRX1161746",
+    "sample_accession": "SAMN04005780",
+    "secondary_sample_accession": "SRS1042637",
+    "sample_alias": "sediment_nereis_replicate1",
+    "sample_title": "",
+    "scientific_name": "marine sediment metagenome",
+    "tax_id": "412755",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "coastal marine sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2011-11-13",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "France",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "48.553847 N 4.535771 W",
+        "units": ""
+      },
+      {
+        "tag": "ref_biomaterial",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "samp_collect_device",
+        "value": "sediment trapping device",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "adding Nereis diversicolor",
+        "units": ""
+      },
+      {
+        "tag": "samp_size",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "replicate_id",
+        "value": "1",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA293548",
+    "secondary_study_accession": "SRP062708",
+    "study_title": "identification of the microbial genes and pathway induced in response to petroleum and oxygen oscillations in marine coastal sediments",
+    "study_description": "Identification of the genes induced in response to petroleum by metatranscriptomic approach: this characterization will be performed on simplified microbial communities focusing on anaerobic prokaryotes inhabiting the hydrocarbon compounds (HC)-degrading bacterial communities with special interest on the sulfate reducing prokaryotes (SRP). These bacterial communities will be characterized by metatranscriptomic approaches in order to characterize the specific genes induced according the crucial adaptative steps to pollutant and redox conditions.We perform the analysis at whole community and functional groups levels, an innovative approach that allows understanding the overall assembly and functioning of the bacterial communities. Although the partners have a long experience on determining gene diversity and expression level, the challenge is to combine the information obtained at several organization levels from several bacterial communities. Thus, through the main structuring groups, their relationships and their behavior against oxygen and redox oscillations, we will be able to describe the global functioning of sediments’ bacterial communities. Furthermore the comparisons of the behavior of the different bacterial communities will provide valuable information to understand the structuring of microbial communities exposed to petroleum under oxygen and redox oscillations.",
+    "study_links": [],
+    "experiment_title": "metatranscriptomic study of marine coastal sediment : sediment with nereis added",
+    "library_name": "N1",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "13641649",
+    "base_count": "2728329800",
+    "sra_run_bytes": "1816804528",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TN1-1_ATGTCA_L003_R1.fastq.bz2",
+        "size": "798525445",
+        "date": "2020-04-24 15:25:04",
+        "md5": "3189fd7b09e2bd2d51a94310ec1cacbc",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TN1-1_ATGTCA_L003_R2.fastq.bz2",
+        "size": "815794406",
+        "date": "2020-04-24 15:25:04",
+        "md5": "bbc428ea8c1d8c9e4644ff2fa4034e4b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177831",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2177831/SRR2177831",
+        "size": "1816806278",
+        "date": "2015-08-21 13:18:10",
+        "md5": "92793c8176959a4540f7a3affb637b19",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177831.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/177/SRR2177831/SRR2177831.sralite.1",
+        "size": "714103257",
+        "date": "2020-06-23 21:06:42",
+        "md5": "af4e4cc787ba6fd3d74478a1bce9e367",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-15 00:00:00",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2177830",
+    "experiment_accession": "SRX1161745",
+    "sample_accession": "SAMN04005779",
+    "secondary_sample_accession": "SRS1042636",
+    "sample_alias": "sediment_HC_replicate3",
+    "sample_title": "",
+    "scientific_name": "marine sediment metagenome",
+    "tax_id": "412755",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "coastal marine sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2011-11-13",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "France",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "48.553847 N 4.535771 W",
+        "units": ""
+      },
+      {
+        "tag": "ref_biomaterial",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "samp_collect_device",
+        "value": "sediment trapping device",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "adding hydrocarbon compounds",
+        "units": ""
+      },
+      {
+        "tag": "samp_size",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "replicate_id",
+        "value": "3",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA293548",
+    "secondary_study_accession": "SRP062708",
+    "study_title": "identification of the microbial genes and pathway induced in response to petroleum and oxygen oscillations in marine coastal sediments",
+    "study_description": "Identification of the genes induced in response to petroleum by metatranscriptomic approach: this characterization will be performed on simplified microbial communities focusing on anaerobic prokaryotes inhabiting the hydrocarbon compounds (HC)-degrading bacterial communities with special interest on the sulfate reducing prokaryotes (SRP). These bacterial communities will be characterized by metatranscriptomic approaches in order to characterize the specific genes induced according the crucial adaptative steps to pollutant and redox conditions.We perform the analysis at whole community and functional groups levels, an innovative approach that allows understanding the overall assembly and functioning of the bacterial communities. Although the partners have a long experience on determining gene diversity and expression level, the challenge is to combine the information obtained at several organization levels from several bacterial communities. Thus, through the main structuring groups, their relationships and their behavior against oxygen and redox oscillations, we will be able to describe the global functioning of sediments’ bacterial communities. Furthermore the comparisons of the behavior of the different bacterial communities will provide valuable information to understand the structuring of microbial communities exposed to petroleum under oxygen and redox oscillations.",
+    "study_links": [],
+    "experiment_title": "metatranscriptomic study of marine coastal sediment : sediment with petroleum added",
+    "library_name": "HC3",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "14207519",
+    "base_count": "2841503800",
+    "sra_run_bytes": "1881571502",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "H1-4_ACTTGA_L003_R1.fastq.bz2",
+        "size": "806435610",
+        "date": "2020-04-24 15:25:04",
+        "md5": "9e439be6e7fcf3572980d7ea0a5a2268",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "H1-4_ACTTGA_L003_R2.fastq.bz2",
+        "size": "810160112",
+        "date": "2020-04-24 15:25:04",
+        "md5": "09e722c04ed5955ecdb1c0bbb84d69d9",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177830",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2177830/SRR2177830",
+        "size": "1881573252",
+        "date": "2015-08-21 13:17:44",
+        "md5": "b8a68bed5d686ca0fc4765d207b53b03",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177830.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/177/SRR2177830/SRR2177830.sralite.1",
+        "size": "743623774",
+        "date": "2020-06-22 10:09:23",
+        "md5": "3bb564b62636a25d8620043a86feef61",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-15 00:00:00",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2177829",
+    "experiment_accession": "SRX1161744",
+    "sample_accession": "SAMN04005778",
+    "secondary_sample_accession": "SRS1042635",
+    "sample_alias": "sediment_HC_replicate2",
+    "sample_title": "",
+    "scientific_name": "marine sediment metagenome",
+    "tax_id": "412755",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "coastal marine sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2011-11-13",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "France",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "48.553847 N 4.535771 W",
+        "units": ""
+      },
+      {
+        "tag": "ref_biomaterial",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "samp_collect_device",
+        "value": "sediment trapping device",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "adding hydrocarbon compounds",
+        "units": ""
+      },
+      {
+        "tag": "samp_size",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "replicate_id",
+        "value": "2",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA293548",
+    "secondary_study_accession": "SRP062708",
+    "study_title": "identification of the microbial genes and pathway induced in response to petroleum and oxygen oscillations in marine coastal sediments",
+    "study_description": "Identification of the genes induced in response to petroleum by metatranscriptomic approach: this characterization will be performed on simplified microbial communities focusing on anaerobic prokaryotes inhabiting the hydrocarbon compounds (HC)-degrading bacterial communities with special interest on the sulfate reducing prokaryotes (SRP). These bacterial communities will be characterized by metatranscriptomic approaches in order to characterize the specific genes induced according the crucial adaptative steps to pollutant and redox conditions.We perform the analysis at whole community and functional groups levels, an innovative approach that allows understanding the overall assembly and functioning of the bacterial communities. Although the partners have a long experience on determining gene diversity and expression level, the challenge is to combine the information obtained at several organization levels from several bacterial communities. Thus, through the main structuring groups, their relationships and their behavior against oxygen and redox oscillations, we will be able to describe the global functioning of sediments’ bacterial communities. Furthermore the comparisons of the behavior of the different bacterial communities will provide valuable information to understand the structuring of microbial communities exposed to petroleum under oxygen and redox oscillations.",
+    "study_links": [],
+    "experiment_title": "metatranscriptomic study of marine coastal sediment : sediment with petroleum added",
+    "library_name": "HC2",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "26004362",
+    "base_count": "5200872400",
+    "sra_run_bytes": "3435561685",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "H1-3_CAGATC_L003_R1.fastq.bz2",
+        "size": "1482787435",
+        "date": "2020-04-24 15:25:04",
+        "md5": "294d780090fd87eb1249b2f9f8eb98e5",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "H1-3_CAGATC_L003_R2.fastq.bz2",
+        "size": "1495675035",
+        "date": "2020-04-24 15:25:04",
+        "md5": "c724572b0619f73e6b5591358fd9dc93",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177829",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2177829/SRR2177829",
+        "size": "3435563431",
+        "date": "2015-08-21 13:23:19",
+        "md5": "1654976927461f58aea1197c2ef6bed0",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177829.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/177/SRR2177829/SRR2177829.sralite.1",
+        "size": "1357867883",
+        "date": "2020-06-23 21:14:56",
+        "md5": "5d0c415ae84a57464135a4ef19bc1fc3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-15 00:00:00",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2177828",
+    "experiment_accession": "SRX1161743",
+    "sample_accession": "SAMN04005777",
+    "secondary_sample_accession": "SRS1042634",
+    "sample_alias": "sediment_HC_replicate1",
+    "sample_title": "",
+    "scientific_name": "marine sediment metagenome",
+    "tax_id": "412755",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "coastal marine sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2011-11-13",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "France",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "48.553847 N 4.535771 W",
+        "units": ""
+      },
+      {
+        "tag": "ref_biomaterial",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "samp_collect_device",
+        "value": "sediment trapping device",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "adding hydrocarbon compounds",
+        "units": ""
+      },
+      {
+        "tag": "samp_size",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "replicate_id",
+        "value": "1",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA293548",
+    "secondary_study_accession": "SRP062708",
+    "study_title": "identification of the microbial genes and pathway induced in response to petroleum and oxygen oscillations in marine coastal sediments",
+    "study_description": "Identification of the genes induced in response to petroleum by metatranscriptomic approach: this characterization will be performed on simplified microbial communities focusing on anaerobic prokaryotes inhabiting the hydrocarbon compounds (HC)-degrading bacterial communities with special interest on the sulfate reducing prokaryotes (SRP). These bacterial communities will be characterized by metatranscriptomic approaches in order to characterize the specific genes induced according the crucial adaptative steps to pollutant and redox conditions.We perform the analysis at whole community and functional groups levels, an innovative approach that allows understanding the overall assembly and functioning of the bacterial communities. Although the partners have a long experience on determining gene diversity and expression level, the challenge is to combine the information obtained at several organization levels from several bacterial communities. Thus, through the main structuring groups, their relationships and their behavior against oxygen and redox oscillations, we will be able to describe the global functioning of sediments’ bacterial communities. Furthermore the comparisons of the behavior of the different bacterial communities will provide valuable information to understand the structuring of microbial communities exposed to petroleum under oxygen and redox oscillations.",
+    "study_links": [],
+    "experiment_title": "metatranscriptomic study of marine coastal sediment : sediment with petroleum added",
+    "library_name": "HC1",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "24098926",
+    "base_count": "4819785200",
+    "sra_run_bytes": "3194568109",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "H1-1_GCCAAT_L003_R1.fastq.bz2",
+        "size": "1368831029",
+        "date": "2020-04-24 15:25:04",
+        "md5": "375d790d482b3e4da9c055e7f3a1513e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "H1-1_GCCAAT_L003_R2.fastq.bz2",
+        "size": "1372952209",
+        "date": "2020-04-24 15:25:04",
+        "md5": "2d9baeaae83e9deb9828cb01a1949b28",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177828",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2177828/SRR2177828",
+        "size": "3194569858",
+        "date": "2015-08-21 13:23:07",
+        "md5": "61012b89b69ad0dd4ee69efb583753b8",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177828.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/177/SRR2177828/SRR2177828.sralite.1",
+        "size": "1258837776",
+        "date": "2020-06-23 21:21:21",
+        "md5": "02501e9f9f80ee18b41bf346444d8834",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-15 00:00:00",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2177827",
+    "experiment_accession": "SRX1161742",
+    "sample_accession": "SAMN04005776",
+    "secondary_sample_accession": "SRS1042633",
+    "sample_alias": "sediment_control_replicate3",
+    "sample_title": "",
+    "scientific_name": "marine sediment metagenome",
+    "tax_id": "412755",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "coastal marine sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2011-11-13",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "France",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "48.553847 N 4.535771 W",
+        "units": ""
+      },
+      {
+        "tag": "ref_biomaterial",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "samp_collect_device",
+        "value": "sediment trapping device",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "nothing",
+        "units": ""
+      },
+      {
+        "tag": "samp_size",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "replicate_id",
+        "value": "3",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA293548",
+    "secondary_study_accession": "SRP062708",
+    "study_title": "identification of the microbial genes and pathway induced in response to petroleum and oxygen oscillations in marine coastal sediments",
+    "study_description": "Identification of the genes induced in response to petroleum by metatranscriptomic approach: this characterization will be performed on simplified microbial communities focusing on anaerobic prokaryotes inhabiting the hydrocarbon compounds (HC)-degrading bacterial communities with special interest on the sulfate reducing prokaryotes (SRP). These bacterial communities will be characterized by metatranscriptomic approaches in order to characterize the specific genes induced according the crucial adaptative steps to pollutant and redox conditions.We perform the analysis at whole community and functional groups levels, an innovative approach that allows understanding the overall assembly and functioning of the bacterial communities. Although the partners have a long experience on determining gene diversity and expression level, the challenge is to combine the information obtained at several organization levels from several bacterial communities. Thus, through the main structuring groups, their relationships and their behavior against oxygen and redox oscillations, we will be able to describe the global functioning of sediments’ bacterial communities. Furthermore the comparisons of the behavior of the different bacterial communities will provide valuable information to understand the structuring of microbial communities exposed to petroleum under oxygen and redox oscillations.",
+    "study_links": [],
+    "experiment_title": "metatranscriptomic study of marine coastal sediment : negative control",
+    "library_name": "T3",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "15378996",
+    "base_count": "3075799200",
+    "sra_run_bytes": "2038049638",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "T2-4_GATCAG_L003_R1.fastq.bz2",
+        "size": "885665254",
+        "date": "2020-04-24 15:25:04",
+        "md5": "75fad1bf21407371e64b33ec37b6dd36",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "T2-4_GATCAG_L003_R2.fastq.bz2",
+        "size": "889868458",
+        "date": "2020-04-24 15:25:04",
+        "md5": "93e3229a9d5ba61ddff9d3004abb8de9",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177827",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2177827/SRR2177827",
+        "size": "2038051383",
+        "date": "2015-08-21 13:05:02",
+        "md5": "f83a622d0a386801462c98c165ad7f81",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177827.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/177/SRR2177827/SRR2177827.sralite.1",
+        "size": "804753904",
+        "date": "2021-06-16 09:47:30",
+        "md5": "368abcb39f6edb26ce74607ce8d95847",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-15 00:00:00",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2177826",
+    "experiment_accession": "SRX1161740",
+    "sample_accession": "SAMN04005785",
+    "secondary_sample_accession": "SRS1042631",
+    "sample_alias": "sediment_nereis_HC_replicate3",
+    "sample_title": "",
+    "scientific_name": "marine sediment metagenome",
+    "tax_id": "412755",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "coastal marine sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2011-11-13",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "France",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "48.553847 N 4.535771 W",
+        "units": ""
+      },
+      {
+        "tag": "ref_biomaterial",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "samp_collect_device",
+        "value": "sediment trapping device",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "adding both hydrocarbon compounds and Nereis diversicolor",
+        "units": ""
+      },
+      {
+        "tag": "samp_size",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "replicate_id",
+        "value": "3",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA293548",
+    "secondary_study_accession": "SRP062708",
+    "study_title": "identification of the microbial genes and pathway induced in response to petroleum and oxygen oscillations in marine coastal sediments",
+    "study_description": "Identification of the genes induced in response to petroleum by metatranscriptomic approach: this characterization will be performed on simplified microbial communities focusing on anaerobic prokaryotes inhabiting the hydrocarbon compounds (HC)-degrading bacterial communities with special interest on the sulfate reducing prokaryotes (SRP). These bacterial communities will be characterized by metatranscriptomic approaches in order to characterize the specific genes induced according the crucial adaptative steps to pollutant and redox conditions.We perform the analysis at whole community and functional groups levels, an innovative approach that allows understanding the overall assembly and functioning of the bacterial communities. Although the partners have a long experience on determining gene diversity and expression level, the challenge is to combine the information obtained at several organization levels from several bacterial communities. Thus, through the main structuring groups, their relationships and their behavior against oxygen and redox oscillations, we will be able to describe the global functioning of sediments’ bacterial communities. Furthermore the comparisons of the behavior of the different bacterial communities will provide valuable information to understand the structuring of microbial communities exposed to petroleum under oxygen and redox oscillations.",
+    "study_links": [],
+    "experiment_title": "metatranscriptomic study of marine coastal sediment : sediment with both petroleum and nereis added",
+    "library_name": "HCN3",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "19467065",
+    "base_count": "3893413000",
+    "sra_run_bytes": "2567784116",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3-3_ACAGTG_L003_R1.fastq.bz2",
+        "size": "1104663896",
+        "date": "2020-04-24 15:25:04",
+        "md5": "7465adfad3f91b5efbcaa4e2777f999c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "3-3_ACAGTG_L003_R2.fastq.bz2",
+        "size": "1107959616",
+        "date": "2020-04-24 15:25:04",
+        "md5": "18dc801a012344a9566a348d52e87da5",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177826",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2177826/SRR2177826",
+        "size": "2567785861",
+        "date": "2015-08-21 13:02:47",
+        "md5": "066202bb38c7776f720ba1b1ae6e71b6",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177826.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/177/SRR2177826/SRR2177826.sralite.1",
+        "size": "1017873220",
+        "date": "2021-06-16 03:20:39",
+        "md5": "bf8973a15be7409e15a44c6bd166e80b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-15 00:00:00",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2177825",
+    "experiment_accession": "SRX1161739",
+    "sample_accession": "SAMN04005784",
+    "secondary_sample_accession": "SRS1042630",
+    "sample_alias": "sediment_nereis_HC_replicate2",
+    "sample_title": "",
+    "scientific_name": "marine sediment metagenome",
+    "tax_id": "412755",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "coastal marine sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2011-11-13",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "France",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "48.553847 N 4.535771 W",
+        "units": ""
+      },
+      {
+        "tag": "ref_biomaterial",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "samp_collect_device",
+        "value": "sediment trapping device",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "adding both hydrocarbon compounds and Nereis diversicolor",
+        "units": ""
+      },
+      {
+        "tag": "samp_size",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "replicate_id",
+        "value": "2",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA293548",
+    "secondary_study_accession": "SRP062708",
+    "study_title": "identification of the microbial genes and pathway induced in response to petroleum and oxygen oscillations in marine coastal sediments",
+    "study_description": "Identification of the genes induced in response to petroleum by metatranscriptomic approach: this characterization will be performed on simplified microbial communities focusing on anaerobic prokaryotes inhabiting the hydrocarbon compounds (HC)-degrading bacterial communities with special interest on the sulfate reducing prokaryotes (SRP). These bacterial communities will be characterized by metatranscriptomic approaches in order to characterize the specific genes induced according the crucial adaptative steps to pollutant and redox conditions.We perform the analysis at whole community and functional groups levels, an innovative approach that allows understanding the overall assembly and functioning of the bacterial communities. Although the partners have a long experience on determining gene diversity and expression level, the challenge is to combine the information obtained at several organization levels from several bacterial communities. Thus, through the main structuring groups, their relationships and their behavior against oxygen and redox oscillations, we will be able to describe the global functioning of sediments’ bacterial communities. Furthermore the comparisons of the behavior of the different bacterial communities will provide valuable information to understand the structuring of microbial communities exposed to petroleum under oxygen and redox oscillations.",
+    "study_links": [],
+    "experiment_title": "metatranscriptomic study of marine coastal sediment : sediment with both petroleum and nereis added",
+    "library_name": "HCN2",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "17023831",
+    "base_count": "3404766200",
+    "sra_run_bytes": "2246113088",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "3-2_CGATGT_L003_R1.fastq.bz2",
+        "size": "982274343",
+        "date": "2020-04-24 15:25:04",
+        "md5": "bf76c98193a4beaf88772f527e28ffbd",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "3-2_CGATGT_L003_R2.fastq.bz2",
+        "size": "987475649",
+        "date": "2020-04-24 15:25:04",
+        "md5": "33d9ff971a56035b900324bd4f8683eb",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177825",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2177825/SRR2177825",
+        "size": "2246114837",
+        "date": "2015-08-21 13:02:20",
+        "md5": "eed1b8e3aca818f9fc8b57cb38c02355",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177825.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/177/SRR2177825/SRR2177825.sralite.1",
+        "size": "890548444",
+        "date": "2021-06-15 22:58:38",
+        "md5": "b5a1b9a911bd8d2ec16a71468828c112",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-15 00:00:00",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR2177824",
+    "experiment_accession": "SRX1161738",
+    "sample_accession": "SAMN04005775",
+    "secondary_sample_accession": "SRS1042629",
+    "sample_alias": "sediment_control_replicate2",
+    "sample_title": "",
+    "scientific_name": "marine sediment metagenome",
+    "tax_id": "412755",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "coastal marine sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2011-11-13",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "France",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "48.553847 N 4.535771 W",
+        "units": ""
+      },
+      {
+        "tag": "ref_biomaterial",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "samp_collect_device",
+        "value": "sediment trapping device",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "nothing",
+        "units": ""
+      },
+      {
+        "tag": "samp_size",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "source_material_id",
+        "value": "not applicable",
+        "units": ""
+      },
+      {
+        "tag": "replicate_id",
+        "value": "2",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA293548",
+    "secondary_study_accession": "SRP062708",
+    "study_title": "identification of the microbial genes and pathway induced in response to petroleum and oxygen oscillations in marine coastal sediments",
+    "study_description": "Identification of the genes induced in response to petroleum by metatranscriptomic approach: this characterization will be performed on simplified microbial communities focusing on anaerobic prokaryotes inhabiting the hydrocarbon compounds (HC)-degrading bacterial communities with special interest on the sulfate reducing prokaryotes (SRP). These bacterial communities will be characterized by metatranscriptomic approaches in order to characterize the specific genes induced according the crucial adaptative steps to pollutant and redox conditions.We perform the analysis at whole community and functional groups levels, an innovative approach that allows understanding the overall assembly and functioning of the bacterial communities. Although the partners have a long experience on determining gene diversity and expression level, the challenge is to combine the information obtained at several organization levels from several bacterial communities. Thus, through the main structuring groups, their relationships and their behavior against oxygen and redox oscillations, we will be able to describe the global functioning of sediments’ bacterial communities. Furthermore the comparisons of the behavior of the different bacterial communities will provide valuable information to understand the structuring of microbial communities exposed to petroleum under oxygen and redox oscillations.",
+    "study_links": [],
+    "experiment_title": "metatranscriptomic study of marine coastal sediment : negative control",
+    "library_name": "T2",
+    "library_strategy": "RNA-Seq",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "cDNA",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 2000",
+    "read_count": "15096737",
+    "base_count": "3019347400",
+    "sra_run_bytes": "2015382001",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "T2-2_GGCTAC_L003_R1.fastq.bz2",
+        "size": "881337180",
+        "date": "2020-04-24 15:25:04",
+        "md5": "bfea00a216c79f50e28990b560e3bbb2",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "T2-2_GGCTAC_L003_R2.fastq.bz2",
+        "size": "893962353",
+        "date": "2020-04-24 15:25:04",
+        "md5": "bdc553b3eb4f5fdaeeba4f47e432b47b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177824",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR2177824/SRR2177824",
+        "size": "2015383753",
+        "date": "2015-08-21 13:00:10",
+        "md5": "6ce11eaa8284ca118fd7f3aa03dc5c8e",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR2177824.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1211/SRR002/177/SRR2177824/SRR2177824.sralite.1",
+        "size": "790048037",
+        "date": "2021-06-15 15:22:12",
+        "md5": "6c21f45933e76e264fa3f6559be42a5e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2015-09-15 00:00:00",
+    "run_is_public": "true"
+  }
+]

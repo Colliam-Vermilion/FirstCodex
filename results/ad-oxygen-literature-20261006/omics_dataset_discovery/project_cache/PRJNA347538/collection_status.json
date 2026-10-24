@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA347538",
+  "checked_utc": "2026-10-24T14:53:20.889321+00:00",
+  "ena_run_count": 94,
+  "ncbi_sra_count": 94,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA347538&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:20.889488+00:00",
+    "raw_path": "raw/ENA/a3cdaa49412f99158cf3184e1b00ce9e509e960a5feee128cc7d3cfa8ab1a836.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA347538&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 129600,
+    "sha256": "059aca664dd919181857bdf52835e8dd71b84bf3047e1875bdd8cfae3237c6a9",
+    "finished_utc": "2026-10-24T14:53:21.185159+00:00",
+    "measured_wall_seconds": 0.296
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA347538&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:53:21.589250+00:00",
+    "raw_path": "raw/NCBI/a14be315e84547425bd30a46f4088fc88826205ac326eb32ecde2ddebc56c1c2.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA347538&retmode=json&retmax=200&retstart=0",
+    "bytes": 1234,
+    "sha256": "3a48d31e522fe92b06c2fdae793f59ae0c82cbd3fa423387e619ca80f2cfefc9",
+    "finished_utc": "2026-10-24T14:53:21.694695+00:00",
+    "measured_wall_seconds": 0.105
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA347538",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:23.624324+00:00",
+    "raw_path": "raw/ENA/834e0da6eea28895a2ebe95654627af65b5cef946b02d792ef2b02ebf35edc2c.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA347538",
+    "bytes": 2095,
+    "sha256": "0117cc139b30b61accb69a686dd8242885772c58c8fc6e50797e3ef5723de94a",
+    "finished_utc": "2026-10-24T14:53:24.335420+00:00",
+    "measured_wall_seconds": 0.711
+  },
+  "project_title": "Time series oxygenation of sediment surface",
+  "project_description": "Times series of oxygenation of low oxygen sediment (up to 15 days). 16S rRNA gene data and RNA-seq data.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA347538"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP091322"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Linnaeus University",
+      "value": "PRJNA347538"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA347538&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA347538&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 94
+}

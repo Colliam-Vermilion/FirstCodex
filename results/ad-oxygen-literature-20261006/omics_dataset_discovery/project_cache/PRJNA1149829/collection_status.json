@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1149829",
+  "checked_utc": "2026-10-24T14:52:41.245419+00:00",
+  "ena_run_count": 11,
+  "ncbi_sra_count": 11,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1149829&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:52:41.245519+00:00",
+    "raw_path": "raw/ENA/60d2cfa6fe1636f56b935eb8d03374a4a1ceb9f181734f48b862572becbb519c.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1149829&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 15651,
+    "sha256": "f89411041d496ae8655414dd0d512a2c6a4e1294550f3678c13b47f3dd58c3a3",
+    "finished_utc": "2026-10-24T14:52:42.457295+00:00",
+    "measured_wall_seconds": 1.212
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1149829&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:52:42.861634+00:00",
+    "raw_path": "raw/NCBI/413e43abac14ab48780e44a6ffb2930d56faf0cd9abd2e6f68f986436c5551b7.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1149829&retmode=json&retmax=200&retstart=0",
+    "bytes": 417,
+    "sha256": "f3f0e5c869ec9bdc855b9a93428f7e10677b607efde4e66f879c220ee3085e44",
+    "finished_utc": "2026-10-24T14:52:43.073962+00:00",
+    "measured_wall_seconds": 0.212
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1149829",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:52:43.858895+00:00",
+    "raw_path": "raw/ENA/44aa51c33e1c4b489630923301ac822d076207f06cc7aa7c240c7df7ff3987bf.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1149829",
+    "bytes": 2088,
+    "sha256": "26555785bcf690c6365d02e85385fd6ba347c3a3e2bdacb1482f5bf437ac8a3a",
+    "finished_utc": "2026-10-24T14:52:44.680012+00:00",
+    "measured_wall_seconds": 0.821
+  },
+  "project_title": "Micro-aeration for Hydrogen Sulfide Reduction in Full-Scale Anaerobic Digesters with Limited Headspace",
+  "project_description": "The goal of this study was to evaluate the biogas desulfurization efficiency at very short biogas RT to evaluate the efficacy of using micro-aeration in digesters with limited headspace.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1149829"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP527388"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "University of Michigan",
+      "value": "PRJNA1149829"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1149829&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1149829&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 11
+}

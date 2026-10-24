@@ -1,0 +1,3883 @@
+[
+  {
+    "run_accession": "SRR25555005",
+    "experiment_accession": "SRX21284062",
+    "sample_accession": "SAMN36851048",
+    "secondary_sample_accession": "SRS18534346",
+    "sample_alias": "BD21CK",
+    "sample_title": "BD21CK",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "10",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD21CK",
+    "library_name": "BD21CK",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "93974",
+    "base_count": "46987000",
+    "sra_run_bytes": "15047176",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D21_CK.raw_1.fq.gz",
+        "size": "5224189",
+        "date": "2023-08-07 21:07:31",
+        "md5": "88545f0370ffaddf47529e84e7527940",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D21_CK.raw_2.fq.gz",
+        "size": "4960312",
+        "date": "2023-08-07 21:07:34",
+        "md5": "65f24700e72678c53343c8b393fc3d39",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555005",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555005/SRR25555005",
+        "size": "15049089",
+        "date": "2023-08-07 21:07:44",
+        "md5": "00efa9ada4e380b3e0f1d17c2647e6cf",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555005.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555005/SRR25555005.lite.1",
+        "size": "11926257",
+        "date": "2023-08-12 22:27:39",
+        "md5": "57af9ae242dbc01c9f2426be73114bdf",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555006",
+    "experiment_accession": "SRX21284061",
+    "sample_accession": "SAMN36851047",
+    "secondary_sample_accession": "SRS18534348",
+    "sample_alias": "BD13B",
+    "sample_title": "BD13B",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "9",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD13AP",
+    "library_name": "BD13B",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "86004",
+    "base_count": "43002000",
+    "sra_run_bytes": "13776627",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D13_T8_B.raw_1.fq.gz",
+        "size": "4630112",
+        "date": "2023-08-07 20:37:18",
+        "md5": "993e5c67d78a809edc857274e5d4375d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D13_T8_B.raw_2.fq.gz",
+        "size": "4391084",
+        "date": "2023-08-07 20:37:15",
+        "md5": "6d0fff3b8fa5dc253a4fd9115aba7d13",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555006",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555006/SRR25555006",
+        "size": "13778543",
+        "date": "2023-08-07 20:37:29",
+        "md5": "fe2f49c269ce7c75a1fd011fe1dc1992",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555006.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555006/SRR25555006.lite.1",
+        "size": "10878927",
+        "date": "2023-08-12 21:10:10",
+        "md5": "8f5cd0bdeeeabb379c1dd9d42c4672f9",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555007",
+    "experiment_accession": "SRX21284060",
+    "sample_accession": "SAMN36851046",
+    "secondary_sample_accession": "SRS18534345",
+    "sample_alias": "BD13M",
+    "sample_title": "BD13M",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "8",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD13MP",
+    "library_name": "BD13M",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "88224",
+    "base_count": "44112000",
+    "sra_run_bytes": "14182725",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D13_T9_M.raw_1.fq.gz",
+        "size": "5165568",
+        "date": "2023-08-07 20:37:04",
+        "md5": "a6037fffcc81213b532f25b13946ccad",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D13_T9_M.raw_2.fq.gz",
+        "size": "4934583",
+        "date": "2023-08-07 20:37:07",
+        "md5": "f0074f60b06d5dd34826d39ed242433d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555007",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555007/SRR25555007",
+        "size": "14184647",
+        "date": "2023-08-07 20:37:17",
+        "md5": "60e76a3d5dc37e1d6563ff649efe99b6",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555007.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555007/SRR25555007.lite.1",
+        "size": "11159435",
+        "date": "2023-08-12 21:10:10",
+        "md5": "571fe4bd7ed019941cd4bcd070bc6d6c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555008",
+    "experiment_accession": "SRX21284059",
+    "sample_accession": "SAMN36851045",
+    "secondary_sample_accession": "SRS18534344",
+    "sample_alias": "BD13F",
+    "sample_title": "BD13F",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "7",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD13PP",
+    "library_name": "BD13F",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "83144",
+    "base_count": "41572000",
+    "sra_run_bytes": "13312525",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D13_T10_F.raw_1.fq.gz",
+        "size": "4724706",
+        "date": "2023-08-07 20:36:25",
+        "md5": "fa4a28b1f895fb0839e0ea075fa5622a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D13_T10_F.raw_2.fq.gz",
+        "size": "4535033",
+        "date": "2023-08-07 20:36:22",
+        "md5": "6ce9090442458e0641013c4bbd7fc6ae",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555008",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555008/SRR25555008",
+        "size": "13314450",
+        "date": "2023-08-07 20:36:50",
+        "md5": "3a6e6762c516cc87e135990527bcc1b7",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555008.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555008/SRR25555008.lite.1",
+        "size": "10544946",
+        "date": "2023-08-12 21:10:11",
+        "md5": "e404b0ce1ec4b55360cb0d8dc87f7c6b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555009",
+    "experiment_accession": "SRX21284058",
+    "sample_accession": "SAMN36851044",
+    "secondary_sample_accession": "SRS18534342",
+    "sample_alias": "BD13CK",
+    "sample_title": "BD13CK",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "6",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD13CK",
+    "library_name": "BD13CK",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "87653",
+    "base_count": "43826500",
+    "sra_run_bytes": "14199873",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D13_CK.raw_1.fq.gz",
+        "size": "4992780",
+        "date": "2023-08-07 21:07:40",
+        "md5": "7719ef33a35cc29361bb8a9364861cd2",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D13_CK.raw_2.fq.gz",
+        "size": "4702300",
+        "date": "2023-08-07 21:07:37",
+        "md5": "68dd4259b14010c10e8ca12c6d47ef78",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555009",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555009/SRR25555009",
+        "size": "14201794",
+        "date": "2023-08-07 21:07:50",
+        "md5": "4e76c6a497e830481546f421f1588e4f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555009.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555009/SRR25555009.lite.1",
+        "size": "11113930",
+        "date": "2023-08-12 22:27:41",
+        "md5": "3cfc037be63d982c35679c2a48cee058",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555010",
+    "experiment_accession": "SRX21284057",
+    "sample_accession": "SAMN36851043",
+    "secondary_sample_accession": "SRS18534340",
+    "sample_alias": "BD0B",
+    "sample_title": "BD0B",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "5",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD0AP",
+    "library_name": "BD0B",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "82947",
+    "base_count": "41473500",
+    "sra_run_bytes": "13263578",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D4_T8_B.raw_1.fq.gz",
+        "size": "4460823",
+        "date": "2023-08-07 21:07:22",
+        "md5": "0d343db7363972d50006bf36cc781379",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D4_T8_B.raw_2.fq.gz",
+        "size": "4313268",
+        "date": "2023-08-07 21:07:24",
+        "md5": "cbafb07e42e28e0c6e3f439e5410f7b1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555010",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555010/SRR25555010",
+        "size": "13265500",
+        "date": "2023-08-07 21:07:34",
+        "md5": "400ffa81979565867595e4f9e4dd3da5",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555010.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555010/SRR25555010.lite.1",
+        "size": "10520260",
+        "date": "2023-08-12 22:27:40",
+        "md5": "7c69999dc146a045fbe03b963058b469",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555011",
+    "experiment_accession": "SRX21284056",
+    "sample_accession": "SAMN36851072",
+    "secondary_sample_accession": "SRS18534343",
+    "sample_alias": "AD35B",
+    "sample_title": "AD35B",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "34",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD35AP",
+    "library_name": "AD35B",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "79235",
+    "base_count": "39617500",
+    "sra_run_bytes": "13179082",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D35_T8_B.raw_1.fq.gz",
+        "size": "4405243",
+        "date": "2023-08-07 20:37:08",
+        "md5": "1dd852a3d04dcdaf4a7e44326448763b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D35_T8_B.raw_2.fq.gz",
+        "size": "3840300",
+        "date": "2023-08-07 20:37:05",
+        "md5": "8ad6d4f0d8491e8f1c679ed1aae40ecb",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555011",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555011/SRR25555011",
+        "size": "13181303",
+        "date": "2023-08-07 20:37:18",
+        "md5": "15a239d0d671b2cedd0d4500da7a20db",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555011.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555011/SRR25555011.lite.1",
+        "size": "10003871",
+        "date": "2023-08-12 21:10:13",
+        "md5": "4467f4e47a68695d89c2f37bf5a4488c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555012",
+    "experiment_accession": "SRX21284055",
+    "sample_accession": "SAMN36851071",
+    "secondary_sample_accession": "SRS18534341",
+    "sample_alias": "AD35M",
+    "sample_title": "AD35M",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "33",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD35MP",
+    "library_name": "AD35M",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "83954",
+    "base_count": "41977000",
+    "sra_run_bytes": "13873762",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D35_T9_M.raw_1.fq.gz",
+        "size": "4578755",
+        "date": "2023-08-07 20:37:06",
+        "md5": "82d36c88228feb3989796665fbc8d1ed",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D35_T9_M.raw_2.fq.gz",
+        "size": "3955375",
+        "date": "2023-08-07 20:37:09",
+        "md5": "92e805be29d8643cf71c397464dd8328",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555012",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555012/SRR25555012",
+        "size": "13875979",
+        "date": "2023-08-07 20:37:20",
+        "md5": "636ff592f16cb95e4816ccc0541ddadd",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555012.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555012/SRR25555012.lite.1",
+        "size": "10561895",
+        "date": "2023-08-12 21:10:11",
+        "md5": "fd9be04a2c545a18a64ddfd24450a816",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555013",
+    "experiment_accession": "SRX21284054",
+    "sample_accession": "SAMN36851070",
+    "secondary_sample_accession": "SRS18534339",
+    "sample_alias": "AD35F",
+    "sample_title": "AD35F",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "32",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD35PP",
+    "library_name": "AD35F",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "90021",
+    "base_count": "45010500",
+    "sra_run_bytes": "15070660",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D35_T10_F.raw_1.fq.gz",
+        "size": "4980011",
+        "date": "2023-08-07 21:07:34",
+        "md5": "8c851be41baf86f357b9d673fa6f2c4d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D35_T10_F.raw_2.fq.gz",
+        "size": "4448775",
+        "date": "2023-08-07 21:07:32",
+        "md5": "e8def06ef3deff3ded228206cf7d6381",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555013",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555013/SRR25555013",
+        "size": "15072879",
+        "date": "2023-08-07 21:07:44",
+        "md5": "2d279661fc30a386c49b73e9130fd79d",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555013.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555013/SRR25555013.lite.1",
+        "size": "11356875",
+        "date": "2023-08-12 22:27:39",
+        "md5": "892462ad510c75c42de379a85f93b5bc",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555014",
+    "experiment_accession": "SRX21284053",
+    "sample_accession": "SAMN36851069",
+    "secondary_sample_accession": "SRS18534336",
+    "sample_alias": "AD35CK",
+    "sample_title": "AD35CK",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "31",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD35CK",
+    "library_name": "AD35CK",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "96160",
+    "base_count": "48080000",
+    "sra_run_bytes": "15902722",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D35_CK.raw_1.fq.gz",
+        "size": "5350418",
+        "date": "2023-08-07 20:36:59",
+        "md5": "f69ae69784a95704dacb0610133620f0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D35_CK.raw_2.fq.gz",
+        "size": "4656865",
+        "date": "2023-08-07 20:36:55",
+        "md5": "f7afd95c4331d7dffd38e08ceba52e22",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555014",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555014/SRR25555014",
+        "size": "15904937",
+        "date": "2023-08-07 20:37:10",
+        "md5": "bb0821678a4ce70d903ca278d82b39b7",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555014.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555014/SRR25555014.lite.1",
+        "size": "12137613",
+        "date": "2023-08-12 21:10:11",
+        "md5": "3c10662373408c75d0811a693929b1ec",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555015",
+    "experiment_accession": "SRX21284052",
+    "sample_accession": "SAMN36851042",
+    "secondary_sample_accession": "SRS18534338",
+    "sample_alias": "BD0M",
+    "sample_title": "BD0M",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "4",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD0MP",
+    "library_name": "BD0M",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "88660",
+    "base_count": "44330000",
+    "sra_run_bytes": "14245489",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D4_T9_M.raw_1.fq.gz",
+        "size": "5030870",
+        "date": "2023-08-07 20:36:57",
+        "md5": "3a716f5ec8a71380e5def5decfec2311",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D4_T9_M.raw_2.fq.gz",
+        "size": "4820564",
+        "date": "2023-08-07 20:36:55",
+        "md5": "f53757438c13e154d668da23dcc95227",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555015",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555015/SRR25555015",
+        "size": "14247407",
+        "date": "2023-08-07 20:37:08",
+        "md5": "6e8cdfb1f808aebfbe24a574d1bdfa83",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555015.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555015/SRR25555015.lite.1",
+        "size": "11235303",
+        "date": "2023-08-12 21:10:11",
+        "md5": "17b851b880b56d96d93c79881f8efb65",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555016",
+    "experiment_accession": "SRX21284051",
+    "sample_accession": "SAMN36851068",
+    "secondary_sample_accession": "SRS18534337",
+    "sample_alias": "AD21B",
+    "sample_title": "AD21B",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "30",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD21AP",
+    "library_name": "AD21B",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "91796",
+    "base_count": "45898000",
+    "sra_run_bytes": "15408966",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D21_T8_B.raw_1.fq.gz",
+        "size": "5206262",
+        "date": "2023-08-07 20:37:07",
+        "md5": "78469b054dd190d6775e03dce0ddccfe",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D21_T8_B.raw_2.fq.gz",
+        "size": "4447874",
+        "date": "2023-08-07 20:37:05",
+        "md5": "a1f9e6f67e4797429769a25d58a2b57e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555016",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555016/SRR25555016",
+        "size": "15411187",
+        "date": "2023-08-07 20:37:18",
+        "md5": "de6e0cbd5ad901d49918806298bb8b79",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555016.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555016/SRR25555016.lite.1",
+        "size": "11603311",
+        "date": "2023-08-12 21:10:12",
+        "md5": "d15a21934cf6c8328342b8736647cdbc",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555017",
+    "experiment_accession": "SRX21284050",
+    "sample_accession": "SAMN36851067",
+    "secondary_sample_accession": "SRS18534335",
+    "sample_alias": "AD21M",
+    "sample_title": "AD21M",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "29",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD21MP",
+    "library_name": "AD21M",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "79973",
+    "base_count": "39986500",
+    "sra_run_bytes": "13349994",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D21_T9_M.raw_1.fq.gz",
+        "size": "4457870",
+        "date": "2023-08-07 20:37:11",
+        "md5": "434c2bd34760951dc38dd7d8d89d0d19",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D21_T9_M.raw_2.fq.gz",
+        "size": "3853268",
+        "date": "2023-08-07 20:37:13",
+        "md5": "54ddb22b8d35fa2bc88a8028ade17f0b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555017",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555017/SRR25555017",
+        "size": "13352211",
+        "date": "2023-08-07 20:37:24",
+        "md5": "51c32b02a5837fdc49803bfd205919bb",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555017.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555017/SRR25555017.lite.1",
+        "size": "10082851",
+        "date": "2023-08-12 21:10:12",
+        "md5": "2172fcfe138893051e7db8b50a58f62b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555018",
+    "experiment_accession": "SRX21284049",
+    "sample_accession": "SAMN36851066",
+    "secondary_sample_accession": "SRS18534334",
+    "sample_alias": "AD21F",
+    "sample_title": "AD21F",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "28",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD21PP",
+    "library_name": "AD21F",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "84100",
+    "base_count": "42050000",
+    "sra_run_bytes": "14179360",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D21_T10_F.raw_1.fq.gz",
+        "size": "4678516",
+        "date": "2023-08-07 20:37:01",
+        "md5": "8e552e1ded4e713740f94b256e811f87",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D21_T10_F.raw_2.fq.gz",
+        "size": "4217442",
+        "date": "2023-08-07 20:36:54",
+        "md5": "615c6cd9e9229e1e74ef1137d0ec1427",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555018",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555018/SRR25555018",
+        "size": "14181579",
+        "date": "2023-08-07 20:37:16",
+        "md5": "b626907b631d05cbd918e65555ac60b4",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555018.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555018/SRR25555018.lite.1",
+        "size": "10592835",
+        "date": "2023-08-12 21:10:26",
+        "md5": "c6ccf52fd052da9e3eb88a0a52643b5a",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555019",
+    "experiment_accession": "SRX21284048",
+    "sample_accession": "SAMN36851065",
+    "secondary_sample_accession": "SRS18534333",
+    "sample_alias": "AD21CK",
+    "sample_title": "AD21CK",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "27",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD21CK",
+    "library_name": "AD21CK",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "90616",
+    "base_count": "45308000",
+    "sra_run_bytes": "15140999",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D21_CK.raw_1.fq.gz",
+        "size": "5115112",
+        "date": "2023-08-07 21:07:28",
+        "md5": "c38aeef6f1d4ddebcafa6c1e32febefe",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D21_CK.raw_2.fq.gz",
+        "size": "4376451",
+        "date": "2023-08-07 21:07:30",
+        "md5": "e4931ca159796a2e81c25c64616ade4f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555019",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555019/SRR25555019",
+        "size": "15143219",
+        "date": "2023-08-07 21:07:40",
+        "md5": "c6116d335f02c73e0045a486f8c285e6",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555019.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555019/SRR25555019.lite.1",
+        "size": "11470095",
+        "date": "2023-08-12 22:27:40",
+        "md5": "aede8fa321acdfc14312faefcd3519b0",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555020",
+    "experiment_accession": "SRX21284047",
+    "sample_accession": "SAMN36851064",
+    "secondary_sample_accession": "SRS18534332",
+    "sample_alias": "AD13B",
+    "sample_title": "AD13B",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "26",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD13AP",
+    "library_name": "AD13B",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "84589",
+    "base_count": "42294500",
+    "sra_run_bytes": "14527202",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D13_T8_B.raw_1.fq.gz",
+        "size": "4627178",
+        "date": "2023-08-07 21:07:15",
+        "md5": "2a16afcfee176203506dcd3c54e52781",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D13_T8_B.raw_2.fq.gz",
+        "size": "4696203",
+        "date": "2023-08-07 21:07:17",
+        "md5": "c9a8ea7d12c4ce7b43fcbb3810754614",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555020",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555020/SRR25555020",
+        "size": "14529420",
+        "date": "2023-08-07 21:07:26",
+        "md5": "12643c567e3b6130690bcd2c11dd9579",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555020.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555020/SRR25555020.lite.1",
+        "size": "10726068",
+        "date": "2023-08-12 22:27:40",
+        "md5": "2f7907b8d17bb2eb535fbb02bd616805",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555021",
+    "experiment_accession": "SRX21284046",
+    "sample_accession": "SAMN36851063",
+    "secondary_sample_accession": "SRS18534331",
+    "sample_alias": "AD13M",
+    "sample_title": "AD13M",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "25",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD13MP",
+    "library_name": "AD13M",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "84623",
+    "base_count": "42311500",
+    "sra_run_bytes": "14146490",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D13_T9_M.raw_1.fq.gz",
+        "size": "4868965",
+        "date": "2023-08-07 20:36:53",
+        "md5": "836edc24cec0ce3a93f368ab4930a7a1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D13_T9_M.raw_2.fq.gz",
+        "size": "4008539",
+        "date": "2023-08-07 20:36:49",
+        "md5": "6b39f80a008384f44373b66db5284c79",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555021",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555021/SRR25555021",
+        "size": "14148710",
+        "date": "2023-08-07 20:37:06",
+        "md5": "1ab2df97c76b5faa3c6d961db649948a",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555021.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555021/SRR25555021.lite.1",
+        "size": "10680658",
+        "date": "2023-08-12 21:10:11",
+        "md5": "0bb9537a54a957f6f55c25802799ce3e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555022",
+    "experiment_accession": "SRX21284045",
+    "sample_accession": "SAMN36851062",
+    "secondary_sample_accession": "SRS18534330",
+    "sample_alias": "AD13F",
+    "sample_title": "AD13F",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "24",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD13PP",
+    "library_name": "AD13F",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "84719",
+    "base_count": "42359500",
+    "sra_run_bytes": "14141772",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D13_T10_F.raw_1.fq.gz",
+        "size": "4764790",
+        "date": "2023-08-07 20:37:02",
+        "md5": "fde538be9de2ea79d3515487717b6e01",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D13_T10_F.raw_2.fq.gz",
+        "size": "4086864",
+        "date": "2023-08-07 20:36:57",
+        "md5": "74b3d71601df7be2e9d737c7083fbaa2",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555022",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555022/SRR25555022",
+        "size": "14144000",
+        "date": "2023-08-07 20:37:13",
+        "md5": "dc0d06468b97d10f8dfd2d1f791477f4",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555022.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555022/SRR25555022.lite.1",
+        "size": "10728264",
+        "date": "2023-08-12 21:10:12",
+        "md5": "5097462218f852cc15496c175ec42db3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555023",
+    "experiment_accession": "SRX21284044",
+    "sample_accession": "SAMN36851061",
+    "secondary_sample_accession": "SRS18534329",
+    "sample_alias": "AD13CK",
+    "sample_title": "AD13CK",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "23",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD13CK",
+    "library_name": "AD13CK",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "79603",
+    "base_count": "39801500",
+    "sra_run_bytes": "13274418",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D13_CK.raw_1.fq.gz",
+        "size": "4443097",
+        "date": "2023-08-07 20:36:39",
+        "md5": "6b56657d2b6daac501f36d65704214de",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D13_CK.raw_2.fq.gz",
+        "size": "3852330",
+        "date": "2023-08-07 20:36:42",
+        "md5": "3db4d74f5e18e026bea89cfee47f4231",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555023",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555023/SRR25555023",
+        "size": "13276641",
+        "date": "2023-08-07 20:36:52",
+        "md5": "91c4778efb3671f9998cd0225845e6cf",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555023.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555023/SRR25555023.lite.1",
+        "size": "10071341",
+        "date": "2023-08-12 21:10:13",
+        "md5": "b311ba3e8961800f0191a1279d7f816e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555024",
+    "experiment_accession": "SRX21284043",
+    "sample_accession": "SAMN36851060",
+    "secondary_sample_accession": "SRS18534328",
+    "sample_alias": "AD0B",
+    "sample_title": "AD0B",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "22",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD0AP",
+    "library_name": "AD0B",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "88128",
+    "base_count": "44064000",
+    "sra_run_bytes": "14619626",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D4_T8_B.raw_1.fq.gz",
+        "size": "4873257",
+        "date": "2023-08-07 20:36:56",
+        "md5": "aaa61475f116c6349c513ab88462e9a5",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D4_T8_B.raw_2.fq.gz",
+        "size": "4163225",
+        "date": "2023-08-07 20:36:53",
+        "md5": "04b2129742778ab73a6e1d5ab181e63a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555024",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555024/SRR25555024",
+        "size": "14621847",
+        "date": "2023-08-07 20:37:09",
+        "md5": "8bbe80fbcca5750980e501f3aded23eb",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555024.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555024/SRR25555024.lite.1",
+        "size": "11157207",
+        "date": "2023-08-12 21:10:13",
+        "md5": "d86df6e729ce629d85278a073fe6dc4c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555025",
+    "experiment_accession": "SRX21284042",
+    "sample_accession": "SAMN36851059",
+    "secondary_sample_accession": "SRS18534327",
+    "sample_alias": "AD0M",
+    "sample_title": "AD0M",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "21",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD0MP",
+    "library_name": "AD0M",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "82965",
+    "base_count": "41482500",
+    "sra_run_bytes": "13904260",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D4_T9_M.raw_1.fq.gz",
+        "size": "4740086",
+        "date": "2023-08-07 21:07:28",
+        "md5": "cd391f3eb8df60e5973c7442976813ec",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D4_T9_M.raw_2.fq.gz",
+        "size": "4037261",
+        "date": "2023-08-07 21:07:25",
+        "md5": "f5f00dc8125cca740afdf46f455acc50",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555025",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555025/SRR25555025",
+        "size": "13906479",
+        "date": "2023-08-07 21:07:39",
+        "md5": "ab2435b143e2d78ed387719e55c75e0c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555025.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555025/SRR25555025.lite.1",
+        "size": "10514215",
+        "date": "2023-08-12 22:27:41",
+        "md5": "68d16cf4b8c604ed3f7742595f02ffc4",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555026",
+    "experiment_accession": "SRX21284041",
+    "sample_accession": "SAMN36851041",
+    "secondary_sample_accession": "SRS18534325",
+    "sample_alias": "BD0F",
+    "sample_title": "BD0F",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "3",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD0PP",
+    "library_name": "BD0F",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "87027",
+    "base_count": "43513500",
+    "sra_run_bytes": "14053733",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D4_T10_F.raw_1.fq.gz",
+        "size": "4878206",
+        "date": "2023-08-07 20:37:03",
+        "md5": "b6111be64427594b56c83969ec1ea560",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D4_T10_F.raw_2.fq.gz",
+        "size": "4565622",
+        "date": "2023-08-07 20:36:45",
+        "md5": "73d572eeeeaa2ae011567349bc85554a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555026",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555026/SRR25555026",
+        "size": "14055654",
+        "date": "2023-08-07 20:37:14",
+        "md5": "3077c2ee6c1289539758f55945a63e9e",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555026.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555026/SRR25555026.lite.1",
+        "size": "11053710",
+        "date": "2023-08-12 21:10:13",
+        "md5": "39207ad41bca3c7c4500884b198c9c77",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555027",
+    "experiment_accession": "SRX21284040",
+    "sample_accession": "SAMN36851058",
+    "secondary_sample_accession": "SRS18534324",
+    "sample_alias": "AD0F",
+    "sample_title": "AD0F",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "20",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD0PP",
+    "library_name": "AD0F",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "83884",
+    "base_count": "41942000",
+    "sra_run_bytes": "14141214",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D4_T10_F.raw_1.fq.gz",
+        "size": "4770762",
+        "date": "2023-08-07 20:37:07",
+        "md5": "84a5c4663dab0e0af2865db34b525714",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D4_T10_F.raw_2.fq.gz",
+        "size": "4198971",
+        "date": "2023-08-07 20:37:04",
+        "md5": "b163e3ce5ed75c82471d556f6c25c43d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555027",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555027/SRR25555027",
+        "size": "14143431",
+        "date": "2023-08-07 20:37:17",
+        "md5": "74746d3c06171a85b521475f4331eeba",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555027.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555027/SRR25555027.lite.1",
+        "size": "10656055",
+        "date": "2023-08-12 21:10:14",
+        "md5": "0c082b7f1d5b308dd95dbd8ff5232041",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555028",
+    "experiment_accession": "SRX21284039",
+    "sample_accession": "SAMN36851057",
+    "secondary_sample_accession": "SRS18534323",
+    "sample_alias": "AD0CK",
+    "sample_title": "AD0CK",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "19",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD0CK",
+    "library_name": "AD0CK",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "83505",
+    "base_count": "41752500",
+    "sra_run_bytes": "13857902",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D4_CK.raw_1.fq.gz",
+        "size": "4686473",
+        "date": "2023-08-07 20:36:44",
+        "md5": "5e7dd8fb64877fec21ca4a0093054b9e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D4_CK.raw_2.fq.gz",
+        "size": "4031695",
+        "date": "2023-08-07 20:36:47",
+        "md5": "915222071dee046d0c9700fe2eda0711",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555028",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555028/SRR25555028",
+        "size": "13860125",
+        "date": "2023-08-07 20:36:58",
+        "md5": "0b153111c93bc7602be0b721008f8609",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555028.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555028/SRR25555028.lite.1",
+        "size": "10599209",
+        "date": "2023-08-12 21:10:14",
+        "md5": "6c5fdf5a7c421c1d0ba80d16afadae06",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555029",
+    "experiment_accession": "SRX21284038",
+    "sample_accession": "SAMN36851056",
+    "secondary_sample_accession": "SRS18534322",
+    "sample_alias": "AMixture",
+    "sample_title": "AMixture",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "18",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "AD0Mixture",
+    "library_name": "AD0Mixture",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "88558",
+    "base_count": "44279000",
+    "sra_run_bytes": "14872144",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D0_mixture.raw_1.fq.gz",
+        "size": "4916175",
+        "date": "2023-08-07 20:36:45",
+        "md5": "40bfb5590d6c62fcdf9ab200a391eca7",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000277-1a_L1_D0_mixture.raw_2.fq.gz",
+        "size": "4329447",
+        "date": "2023-08-07 20:36:42",
+        "md5": "a7e4d88edcdb11a6cd0ca006a044b468",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555029",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555029/SRR25555029",
+        "size": "14874364",
+        "date": "2023-08-07 20:36:57",
+        "md5": "90848c3a60a3034e515156f8a66bb520",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555029.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555029/SRR25555029.lite.1",
+        "size": "11188664",
+        "date": "2023-08-12 21:10:14",
+        "md5": "605939c7641eb80df7b52f68eb8ed34d",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555030",
+    "experiment_accession": "SRX21284037",
+    "sample_accession": "SAMN36851055",
+    "secondary_sample_accession": "SRS18534318",
+    "sample_alias": "BD35B",
+    "sample_title": "BD35B",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "17",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD35AP",
+    "library_name": "BD35B",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "95411",
+    "base_count": "47705500",
+    "sra_run_bytes": "15309788",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D35_T8_B.raw_1.fq.gz",
+        "size": "5272032",
+        "date": "2023-08-07 20:37:07",
+        "md5": "87348cf016cb9e4886071c719db1292e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D35_T8_B.raw_2.fq.gz",
+        "size": "5090543",
+        "date": "2023-08-07 20:37:09",
+        "md5": "1474520483b4a640e6ffd023eddb4386",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555030",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555030/SRR25555030",
+        "size": "15311704",
+        "date": "2023-08-07 20:37:21",
+        "md5": "c2ae7d304fd12ef79f22739fb8523b32",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555030.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555030/SRR25555030.lite.1",
+        "size": "12108180",
+        "date": "2023-08-12 21:10:15",
+        "md5": "b5ef13f5692f45a0094f68adc4b6c2ce",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555031",
+    "experiment_accession": "SRX21284036",
+    "sample_accession": "SAMN36851054",
+    "secondary_sample_accession": "SRS18534326",
+    "sample_alias": "BD35M",
+    "sample_title": "BD35M",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "16",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD35MP",
+    "library_name": "BD35M",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "85917",
+    "base_count": "42958500",
+    "sra_run_bytes": "13743385",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D35_T9_M.raw_1.fq.gz",
+        "size": "4792161",
+        "date": "2023-08-07 20:36:49",
+        "md5": "185578b9bf2ffb7c9f27e4b3a9e431ad",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D35_T9_M.raw_2.fq.gz",
+        "size": "4611582",
+        "date": "2023-08-07 20:36:53",
+        "md5": "26a21aeced11e6214e922cd1b35f9dd7",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555031",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555031/SRR25555031",
+        "size": "13745308",
+        "date": "2023-08-07 20:37:04",
+        "md5": "aa86ebd7001a882c8506987c2b60c917",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555031.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555031/SRR25555031.lite.1",
+        "size": "10901872",
+        "date": "2023-08-12 21:10:15",
+        "md5": "a01ec208d5d11b6d606ffd62d3002a00",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555032",
+    "experiment_accession": "SRX21284035",
+    "sample_accession": "SAMN36851053",
+    "secondary_sample_accession": "SRS18534316",
+    "sample_alias": "BD35F",
+    "sample_title": "BD35F",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "15",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD35PP",
+    "library_name": "BD35F",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "85983",
+    "base_count": "42991500",
+    "sra_run_bytes": "13854544",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D35_T10_F.raw_1.fq.gz",
+        "size": "4767108",
+        "date": "2023-08-07 20:36:58",
+        "md5": "fe798bf97b297469bb27027af1601280",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D35_T10_F.raw_2.fq.gz",
+        "size": "4508168",
+        "date": "2023-08-07 20:37:01",
+        "md5": "ab6183c2795f634ddf6833733a3a52c2",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555032",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555032/SRR25555032",
+        "size": "13856461",
+        "date": "2023-08-07 20:37:11",
+        "md5": "70eb6a543509231316af5963330fc882",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555032.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555032/SRR25555032.lite.1",
+        "size": "10921937",
+        "date": "2023-08-12 21:10:15",
+        "md5": "bfb611e2a5e45e3bc159d279677b93f6",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555033",
+    "experiment_accession": "SRX21284034",
+    "sample_accession": "SAMN36851052",
+    "secondary_sample_accession": "SRS18534320",
+    "sample_alias": "BD35CK",
+    "sample_title": "BD35CK",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "14",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD35CK",
+    "library_name": "BD35CK",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "81516",
+    "base_count": "40758000",
+    "sra_run_bytes": "13117387",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D35_CK.raw_1.fq.gz",
+        "size": "4711821",
+        "date": "2023-08-07 20:36:44",
+        "md5": "4ba8c83ecc82c2bf637709333317d7e4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D35_CK.raw_2.fq.gz",
+        "size": "4502772",
+        "date": "2023-08-07 20:36:43",
+        "md5": "089dcb2b834c708865b4a114fbd6c0fd",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555033",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555033/SRR25555033",
+        "size": "13119303",
+        "date": "2023-08-07 20:36:54",
+        "md5": "220aa7369a3e051f5b528ceaffb70729",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555033.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555033/SRR25555033.lite.1",
+        "size": "10347015",
+        "date": "2023-08-12 21:10:15",
+        "md5": "737083c50fc222177e4dceb7f6122db6",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555034",
+    "experiment_accession": "SRX21284033",
+    "sample_accession": "SAMN36851051",
+    "secondary_sample_accession": "SRS18534319",
+    "sample_alias": "BD21B",
+    "sample_title": "BD21B",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "samp_mat_process",
+        "value": "s",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "13",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD21AP",
+    "library_name": "BD21B",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "93765",
+    "base_count": "46882500",
+    "sra_run_bytes": "15060483",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR25555034.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555034/SRR25555034.lite.1",
+        "size": "11896565",
+        "date": "2023-08-12 21:10:16",
+        "md5": "081b90115f620ea518b4fc3877efc23b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555034",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555034/SRR25555034",
+        "size": "15062401",
+        "date": "2023-08-07 20:37:00",
+        "md5": "a5e47a7ff6f3432338dda336460de7b0",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D21_T8_B.raw_2.fq.gz",
+        "size": "4912145",
+        "date": "2023-08-07 20:36:49",
+        "md5": "f92d4553f9b6da8bdf8e51c3e4a7d08a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D21_T8_B.raw_1.fq.gz",
+        "size": "5185453",
+        "date": "2023-08-07 20:36:46",
+        "md5": "20c19ac95f644ec606886836c4f197ff",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555035",
+    "experiment_accession": "SRX21284032",
+    "sample_accession": "SAMN36851050",
+    "secondary_sample_accession": "SRS18534321",
+    "sample_alias": "BD21M",
+    "sample_title": "BD21M",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "12",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD21MP",
+    "library_name": "BD21M",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "93462",
+    "base_count": "46731000",
+    "sra_run_bytes": "15088806",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR25555035.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555035/SRR25555035.lite.1",
+        "size": "11850819",
+        "date": "2023-08-12 21:10:15",
+        "md5": "7fa1c3cbe5df2414f9180d9c55e50d5c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555035",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555035/SRR25555035",
+        "size": "15090731",
+        "date": "2023-08-07 20:37:22",
+        "md5": "cf813a8538317e2c997857632ef9b448",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D21_T9_M.raw_2.fq.gz",
+        "size": "4987426",
+        "date": "2023-08-07 20:37:07",
+        "md5": "8836373c8e8edd0df06293bb5ee6095f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D21_T9_M.raw_1.fq.gz",
+        "size": "5302707",
+        "date": "2023-08-07 20:37:11",
+        "md5": "8bf78e5ab4ae4c0de53397109841c758",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555036",
+    "experiment_accession": "SRX21284031",
+    "sample_accession": "SAMN36851049",
+    "secondary_sample_accession": "SRS18534317",
+    "sample_alias": "BD21F",
+    "sample_title": "BD21F",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "11",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD21PP",
+    "library_name": "BD21F",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "81644",
+    "base_count": "40822000",
+    "sra_run_bytes": "13149946",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D21_T10_F.raw_1.fq.gz",
+        "size": "4471714",
+        "date": "2023-08-07 20:37:02",
+        "md5": "7f9dd09e07ad6cce9f5824f077fbfc91",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D21_T10_F.raw_2.fq.gz",
+        "size": "4183699",
+        "date": "2023-08-07 20:37:05",
+        "md5": "a710ca5eb3deb2c6dd8c7eb250248651",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555036",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555036/SRR25555036",
+        "size": "13151865",
+        "date": "2023-08-07 20:37:15",
+        "md5": "359d3b91bd715e900e94e1bbadc4418a",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555036.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555036/SRR25555036.lite.1",
+        "size": "10371589",
+        "date": "2023-08-12 21:10:15",
+        "md5": "e350c93a762132ae185f57f82ccc7d61",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555037",
+    "experiment_accession": "SRX21284030",
+    "sample_accession": "SAMN36851040",
+    "secondary_sample_accession": "SRS18534313",
+    "sample_alias": "BD0CK",
+    "sample_title": "BD0CK",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "2",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD0CK",
+    "library_name": "BD0CK",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "81181",
+    "base_count": "40590500",
+    "sra_run_bytes": "13135735",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D4_CK.raw_1.fq.gz",
+        "size": "4717582",
+        "date": "2023-08-07 20:37:02",
+        "md5": "e515f44aec690b92a64be2a35d67ddad",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D4_CK.raw_2.fq.gz",
+        "size": "4488109",
+        "date": "2023-08-07 20:37:05",
+        "md5": "5f265e914ba4a0595da4cb7de61e7e0e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555037",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555037/SRR25555037",
+        "size": "13137657",
+        "date": "2023-08-07 20:37:16",
+        "md5": "52830f40ff996024248b73bd888ca316",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555037.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555037/SRR25555037.lite.1",
+        "size": "10306933",
+        "date": "2023-08-12 21:10:15",
+        "md5": "5cef754ac196a4d9fd60ab4b401c4e5e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR25555038",
+    "experiment_accession": "SRX21284029",
+    "sample_accession": "SAMN36851039",
+    "secondary_sample_accession": "SRS18534315",
+    "sample_alias": "Mixture",
+    "sample_title": "Mixture",
+    "scientific_name": "anaerobic digester metagenome",
+    "tax_id": "1263854",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2021-08-20",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "missing",
+        "units": ""
+      },
+      {
+        "tag": "rank",
+        "value": "1",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1002618",
+    "secondary_study_accession": "SRP453809",
+    "study_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+    "study_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+    "study_links": [],
+    "experiment_title": "BD0Mixture",
+    "library_name": "BD0Mixture",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiniSeq",
+    "read_count": "76295",
+    "base_count": "38147500",
+    "sra_run_bytes": "12344206",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D0_mixture.raw_1.fq.gz",
+        "size": "4212658",
+        "date": "2023-08-07 20:36:50",
+        "md5": "cc5637d0cdea661c7915396fc3ee0fda",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "FDMP22H000057-1a_L1_D0_mixture.raw_2.fq.gz",
+        "size": "3916524",
+        "date": "2023-08-07 20:36:52",
+        "md5": "aea6ff6b1a0c1f3e7e9b753909b01516",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555038",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR25555038/SRR25555038",
+        "size": "12346124",
+        "date": "2023-08-07 20:37:03",
+        "md5": "5278fcab311ed3369f5b10cbb1976714",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR25555038.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/SRR025/25555/SRR25555038/SRR25555038.lite.1",
+        "size": "9694848",
+        "date": "2023-08-12 21:10:17",
+        "md5": "d1b52f33fe392efe0c0ee79122703703",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-11-30 00:03:44",
+    "run_is_public": "true"
+  }
+]

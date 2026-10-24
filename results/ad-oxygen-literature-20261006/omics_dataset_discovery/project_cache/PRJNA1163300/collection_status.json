@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1163300",
+  "checked_utc": "2026-10-24T14:53:35.198418+00:00",
+  "ena_run_count": 2,
+  "ncbi_sra_count": 2,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1163300&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:35.198787+00:00",
+    "raw_path": "raw/ENA/64f8e78e3cdd2b1590e73e2597cb3c93b299e44ac776db656297c75dbc349a84.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1163300&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 3011,
+    "sha256": "1a84f52ebb95ca415038aac73595c72e344923652ce886037b4fbb787c9f4a89",
+    "finished_utc": "2026-10-24T14:53:35.920754+00:00",
+    "measured_wall_seconds": 0.722
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1163300&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:53:36.321722+00:00",
+    "raw_path": "raw/NCBI/edbd2cfb89ac1383cfadae13e8c18f17df016ad98183284e9c720b5ee8df14a3.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1163300&retmode=json&retmax=200&retstart=0",
+    "bytes": 315,
+    "sha256": "2331fa56990aec367685974dd283a1cdcfeb28911f5688ca865156829b861252",
+    "finished_utc": "2026-10-24T14:53:36.447715+00:00",
+    "measured_wall_seconds": 0.126
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1163300",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:37.052469+00:00",
+    "raw_path": "raw/ENA/71241bb4d767938f15e121ae47803aaf0f4e05fb2c24f1950fdfb251613c8dba.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1163300",
+    "bytes": 32238,
+    "sha256": "cf02850ba68f70fd7e801acd0c692c2807347b2dfa77953364875191c74327bb",
+    "finished_utc": "2026-10-24T14:53:37.568320+00:00",
+    "measured_wall_seconds": 0.516
+  },
+  "project_title": "Laminarin stimulates single cell rates of sulfate reduction while oxygen inhibits transcriptomic activity in coastal marine sediment",
+  "project_description": "A vital part of benthic ecology are the chemical cycles carried out by bacteria and archaea living in coastal sediments. Within these ecosystems, the availability of carbon and sources of reducing and oxidizing power that fuel these sediment microbes can be subject to physical disruption, which may allow for increased respiration and consumption of complex carbon molecules - thereby impacting the cycling of nutrients in this environment often thought to be a terminal resting place. Here we describe the use of the redox-enzyme sensitive probe RedoxSensorTM Green to measure rates of electron transfer physiology in individual sulfate reducer cells that reside in anoxic sediment, which are subjected to transient exposure to oxygen and laminarin. We demonstrate a decoupling of respiration-related activity rates from transcription-derived activity, as oxygen exposure causes an increase in per cell respiration rate while overall decreasing the amount of RNA transcripts extractable from this anoxic community. Overall, we reveal an active community comprised primarily of respiring Chloroflexota and non-respiratory Patescibacteria that cycles sulfate and complex polysaccharides, important microbial aspects of this coastal sediment ecosystem.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1163300"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP535804"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Bigelow Laboratory For Ocean Sciences",
+      "value": "PRJNA1163300"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1163300&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1163300&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 2
+}

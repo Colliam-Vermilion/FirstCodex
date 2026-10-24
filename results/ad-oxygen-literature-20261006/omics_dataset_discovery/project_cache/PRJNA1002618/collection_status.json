@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1002618",
+  "checked_utc": "2026-10-24T14:52:49.043962+00:00",
+  "ena_run_count": 34,
+  "ncbi_sra_count": 34,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1002618&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:52:49.044152+00:00",
+    "raw_path": "raw/ENA/1f542c60e6405300a2bd848f7dd02c129d3eb5676a3da846d2d58efe88e4040d.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1002618&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 43319,
+    "sha256": "208e9b3e76d394261c116e4bb42630b690f46ec8e15f8ea01a9ddf644cd12304",
+    "finished_utc": "2026-10-24T14:52:49.297382+00:00",
+    "measured_wall_seconds": 0.253
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1002618&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:52:49.699202+00:00",
+    "raw_path": "raw/NCBI/f41eb1ea3eb4c23c2bee17c98fab733dcb3cce00310e0f37006646a4e5856d58.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1002618&retmode=json&retmax=200&retstart=0",
+    "bytes": 670,
+    "sha256": "82285fb9117babb234bab0c5a5df60198bb03deb47966ae8e35d13e9abd5c70a",
+    "finished_utc": "2026-10-24T14:52:49.927501+00:00",
+    "measured_wall_seconds": 0.228
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1002618",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:52:50.972556+00:00",
+    "raw_path": "raw/ENA/ccebbb074defd4b473a380ae42e3138270b2ac979998c50fd43f5afebc15fb00.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1002618",
+    "bytes": 2154,
+    "sha256": "70ce3845690e6f62ce0072bb56204be1b1d89a486f1dd9227086a2736f28acfc",
+    "finished_utc": "2026-10-24T14:52:51.185190+00:00",
+    "measured_wall_seconds": 0.213
+  },
+  "project_title": "bcteria in anaerobic digestion of dood waste assisted with micro-aeration",
+  "project_description": "the batch AD process can be further classified into three stages: prophase, metaphase, and anaphase. In this study, the underlying mechanisms of micro-aeration regimes on food waste to regulate the performance of high-solid anaerobic digestion (AD) were investigated.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1002618"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP453809"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "China Agricultural University",
+      "value": "PRJNA1002618"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1002618&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1002618&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 34
+}

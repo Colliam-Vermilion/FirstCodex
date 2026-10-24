@@ -1,0 +1,3764 @@
+[
+  {
+    "run_accession": "SRR39190647",
+    "experiment_accession": "SRX33933857",
+    "sample_accession": "SAMN60939718",
+    "secondary_sample_accession": "SRS29574951",
+    "sample_alias": "DA7SauceyJanA10_S175_L001_R1_001.fastq.gz",
+    "sample_title": "DA7 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DA7",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DA7SauceyJanA10",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "49063",
+    "base_count": "24629626",
+    "sra_run_bytes": "14142507",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR39190647.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190647/SRR39190647.sralite.1",
+        "size": "5961223",
+        "date": "2026-06-16 18:38:02",
+        "md5": "1b523a2bc1740c37459062c562dbadb0",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190647",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190647/SRR39190647",
+        "size": "14144425",
+        "date": "2026-06-16 18:37:54",
+        "md5": "6ec8eabbb5e1881a44ff254c4e3e4111",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "DA7SauceyJanA10_S175_L001_R2_001.fastq.gz",
+        "size": "7193537",
+        "date": "2026-06-16 18:37:56",
+        "md5": "ca8f2903bd079fce33b4b0b2229edc26",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DA7SauceyJanA10_S175_L001_R1_001.fastq.gz",
+        "size": "6603050",
+        "date": "2026-06-16 18:37:56",
+        "md5": "4b5468bafcf065093a7b485b6fe2bb3e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:18",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190648",
+    "experiment_accession": "SRX33933856",
+    "sample_accession": "SAMN60939717",
+    "secondary_sample_accession": "SRS29574950",
+    "sample_alias": "DA6SauceyJanA09_S168_L001_R1_001.fastq.gz",
+    "sample_title": "DA6 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DA6",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DA6SauceyJanA09",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "171547",
+    "base_count": "86116594",
+    "sra_run_bytes": "46420866",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR39190648.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190648/SRR39190648.sralite.1",
+        "size": "19646527",
+        "date": "2026-06-16 18:38:22",
+        "md5": "3fd781ff5b15cf247600b906dd4e1ba7",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190648",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190648/SRR39190648",
+        "size": "46422786",
+        "date": "2026-06-16 18:38:16",
+        "md5": "f7bd1e6c07b60c13b24539f8b03ee5bd",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "DA6SauceyJanA09_S168_L001_R2_001.fastq.gz",
+        "size": "21111101",
+        "date": "2026-06-16 18:38:17",
+        "md5": "4071061692ef528571c176cfad0de168",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DA6SauceyJanA09_S168_L001_R1_001.fastq.gz",
+        "size": "17264221",
+        "date": "2026-06-16 18:38:17",
+        "md5": "1b31743a2c4395fcdf5975e32199861b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190649",
+    "experiment_accession": "SRX33933855",
+    "sample_accession": "SAMN60939716",
+    "secondary_sample_accession": "SRS29574949",
+    "sample_alias": "DA5SauceyJanA08_S161_L001_R1_001.fastq.gz",
+    "sample_title": "DA5 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DA5",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DA5SauceyJanA08",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "211645",
+    "base_count": "106245790",
+    "sra_run_bytes": "54438517",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DA5SauceyJanA08_S161_L001_R1_001.fastq.gz",
+        "size": "20090428",
+        "date": "2026-06-16 18:38:21",
+        "md5": "5113e86be3d53103ff47e1f7e2c412ed",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DA5SauceyJanA08_S161_L001_R2_001.fastq.gz",
+        "size": "23257308",
+        "date": "2026-06-16 18:38:22",
+        "md5": "2a0fd0547a0eb4cb397066ee8ec4cb92",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190649",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190649/SRR39190649",
+        "size": "54440434",
+        "date": "2026-06-16 18:38:19",
+        "md5": "a574f0c79eb9a71c7541b10ee65bc10c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190649.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190649/SRR39190649.sralite.1",
+        "size": "23151793",
+        "date": "2026-06-16 18:38:28",
+        "md5": "960f25ff6ac2fd2d00063f0af22cf603",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190650",
+    "experiment_accession": "SRX33933854",
+    "sample_accession": "SAMN60939715",
+    "secondary_sample_accession": "SRS29574948",
+    "sample_alias": "DA4SauceyJanA07_S154_L001_R1_001.fastq.gz",
+    "sample_title": "DA4 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DA4",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DA4SauceyJanA07",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "285",
+    "base_count": "143070",
+    "sra_run_bytes": "170481",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR39190650.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190650/SRR39190650.sralite.1",
+        "size": "112998",
+        "date": "2026-06-16 18:38:12",
+        "md5": "48a579d020813c60063ca4f97a731120",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190650",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190650/SRR39190650",
+        "size": "172404",
+        "date": "2026-06-16 18:38:05",
+        "md5": "8596bdc6504333867b7fb9f4e2285f62",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "DA4SauceyJanA07_S154_L001_R2_001.fastq.gz",
+        "size": "56525",
+        "date": "2026-06-16 18:38:07",
+        "md5": "e130ae774f7db8515a8197e1c2be9ca4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DA4SauceyJanA07_S154_L001_R1_001.fastq.gz",
+        "size": "55870",
+        "date": "2026-06-16 18:38:08",
+        "md5": "2a45fe5b4fbfedd1f43f085d73ef843a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:18",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190651",
+    "experiment_accession": "SRX33933853",
+    "sample_accession": "SAMN60939714",
+    "secondary_sample_accession": "SRS29574947",
+    "sample_alias": "DA3SauceyJanA06_S147_L001_R1_001.fastq.gz",
+    "sample_title": "DA3 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DA3",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DA3SauceyJanA06",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "3128",
+    "base_count": "1570256",
+    "sra_run_bytes": "1008712",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DA3SauceyJanA06_S147_L001_R1_001.fastq.gz",
+        "size": "449236",
+        "date": "2026-06-16 18:38:37",
+        "md5": "c84945834b9f6c9af617761e75a19429",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DA3SauceyJanA06_S147_L001_R2_001.fastq.gz",
+        "size": "487234",
+        "date": "2026-06-16 18:38:38",
+        "md5": "1ed36bda39c10c4be6abb95d35cea449",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190651",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190651/SRR39190651",
+        "size": "1010631",
+        "date": "2026-06-16 18:38:36",
+        "md5": "ec19136bce8ba10b5ea5732921e66df5",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190651.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190651/SRR39190651.sralite.1",
+        "size": "459421",
+        "date": "2026-06-16 18:38:44",
+        "md5": "75ae8d333142693f05d639748729b6df",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190652",
+    "experiment_accession": "SRX33933852",
+    "sample_accession": "SAMN60939713",
+    "secondary_sample_accession": "SRS29574946",
+    "sample_alias": "DA2SauceyJanA05_S140_L001_R1_001.fastq.gz",
+    "sample_title": "DA2 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DA2",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DA2SauceyJanA05",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "6197",
+    "base_count": "3110894",
+    "sra_run_bytes": "1703748",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR39190652.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190652/SRR39190652.sralite.1",
+        "size": "748295",
+        "date": "2026-06-16 18:38:40",
+        "md5": "8a7e1bec0ae64afa8423bb5885c0ba77",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190652",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190652/SRR39190652",
+        "size": "1705667",
+        "date": "2026-06-16 18:38:34",
+        "md5": "7ba5fb46dcc29934ad47b4fbaa4502ba",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "DA2SauceyJanA05_S140_L001_R2_001.fastq.gz",
+        "size": "747305",
+        "date": "2026-06-16 18:38:35",
+        "md5": "4dfc25f196b420aa06cefc431edc611c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DA2SauceyJanA05_S140_L001_R1_001.fastq.gz",
+        "size": "695367",
+        "date": "2026-06-16 18:38:35",
+        "md5": "03cdcc3d1800472c2a67f276e5c3af5e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190653",
+    "experiment_accession": "SRX33933851",
+    "sample_accession": "SAMN60939741",
+    "secondary_sample_accession": "SRS29574945",
+    "sample_alias": "DC10SauceyJanC09_S170_L001_R1_001.fastq.gz",
+    "sample_title": "DC10 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DC10",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DC10SauceyJanC09",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "191240",
+    "base_count": "96002480",
+    "sra_run_bytes": "50862491",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DC10SauceyJanC09_S170_L001_R1_001.fastq.gz",
+        "size": "18009601",
+        "date": "2026-06-16 18:38:20",
+        "md5": "acf986277791dcff0d2d99bddc66d936",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DC10SauceyJanC09_S170_L001_R2_001.fastq.gz",
+        "size": "22842057",
+        "date": "2026-06-16 18:38:21",
+        "md5": "3a4e8033ff01ca71c6a66ae5713b77d4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190653",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190653/SRR39190653",
+        "size": "50864406",
+        "date": "2026-06-16 18:38:19",
+        "md5": "16c48995723e357123f0665fd66a58b8",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190653.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190653/SRR39190653.sralite.1",
+        "size": "21161975",
+        "date": "2026-06-16 18:38:26",
+        "md5": "75a6f4bd45c7f579bb995d896175a2b5",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190654",
+    "experiment_accession": "SRX33933850",
+    "sample_accession": "SAMN60939740",
+    "secondary_sample_accession": "SRS29574944",
+    "sample_alias": "DC9SauceyJanC08_S163_L001_R1_001.fastq.gz",
+    "sample_title": "DC9 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DC9",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DC9SauceyJanC08",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "94865",
+    "base_count": "47622230",
+    "sra_run_bytes": "26172477",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DC9SauceyJanC08_S163_L001_R1_001.fastq.gz",
+        "size": "10997564",
+        "date": "2026-06-16 18:38:22",
+        "md5": "d238a5b309b0834cd1e8978a0bc454f1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DC9SauceyJanC08_S163_L001_R2_001.fastq.gz",
+        "size": "12415861",
+        "date": "2026-06-16 18:38:24",
+        "md5": "6303c3e22293c5b45c153bb2e613f556",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190654",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190654/SRR39190654",
+        "size": "26174398",
+        "date": "2026-06-16 18:38:21",
+        "md5": "e9b868a26faa7be21a96408e41542bba",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190654.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190654/SRR39190654.sralite.1",
+        "size": "11075981",
+        "date": "2026-06-16 18:38:29",
+        "md5": "ef7422a11fba344a336ceec045a21cb5",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190655",
+    "experiment_accession": "SRX33933849",
+    "sample_accession": "SAMN60939739",
+    "secondary_sample_accession": "SRS29574943",
+    "sample_alias": "DC8SauceyJanC07_S156_L001_R1_001.fastq.gz",
+    "sample_title": "DC8 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DC8",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DC8SauceyJanC07",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "135068",
+    "base_count": "67804136",
+    "sra_run_bytes": "34908475",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DC8SauceyJanC07_S156_L001_R1_001.fastq.gz",
+        "size": "12648301",
+        "date": "2026-06-16 18:38:23",
+        "md5": "eef1322115c548fde6bd282c3a85037b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DC8SauceyJanC07_S156_L001_R2_001.fastq.gz",
+        "size": "14838017",
+        "date": "2026-06-16 18:38:24",
+        "md5": "bdaa9b8574815065009d7f497db43bd0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190655",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190655/SRR39190655",
+        "size": "34910392",
+        "date": "2026-06-16 18:38:22",
+        "md5": "53c3d947b1073e327a2459af81c32034",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190655.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190655/SRR39190655.sralite.1",
+        "size": "15025333",
+        "date": "2026-06-16 18:38:30",
+        "md5": "95cf9d13082281679cc4cedda87c2115",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190656",
+    "experiment_accession": "SRX33933848",
+    "sample_accession": "SAMN60939712",
+    "secondary_sample_accession": "SRS29574942",
+    "sample_alias": "DA1SauceyJanA04_S133_L001_R1_001.fastq.gz",
+    "sample_title": "DA1 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DA1",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DA1SauceyJanA04",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "454",
+    "base_count": "227908",
+    "sra_run_bytes": "221560",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DA1SauceyJanA04_S133_L001_R1_001.fastq.gz",
+        "size": "79299",
+        "date": "2026-06-16 18:38:37",
+        "md5": "e25d6db4de41138a8d1a27f5a501d227",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DA1SauceyJanA04_S133_L001_R2_001.fastq.gz",
+        "size": "84177",
+        "date": "2026-06-16 18:38:36",
+        "md5": "232d5129ef73cf10b93c85a0c6a51999",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190656",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190656/SRR39190656",
+        "size": "223479",
+        "date": "2026-06-16 18:38:34",
+        "md5": "3e08f990a707a9cbe7d725c6de348fd5",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190656.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190656/SRR39190656.sralite.1",
+        "size": "135239",
+        "date": "2026-06-16 18:38:42",
+        "md5": "ebba233f8730b759c9d6ee0c70dceb47",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190657",
+    "experiment_accession": "SRX33933847",
+    "sample_accession": "SAMN60939738",
+    "secondary_sample_accession": "SRS29574941",
+    "sample_alias": "DC7SauceyJanC06_S149_L001_R1_001.fastq.gz",
+    "sample_title": "DC7 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DC7",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DC7SauceyJanC06",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "158451",
+    "base_count": "79542402",
+    "sra_run_bytes": "40708318",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR39190657.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190657/SRR39190657.sralite.1",
+        "size": "17210391",
+        "date": "2026-06-16 18:38:47",
+        "md5": "f443698bc05e1b3d2d869ef895d4c068",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190657",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190657/SRR39190657",
+        "size": "40710231",
+        "date": "2026-06-16 18:38:39",
+        "md5": "2cd2b90b22f2e913b5e702b898bf32ad",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "DC7SauceyJanC06_S149_L001_R2_001.fastq.gz",
+        "size": "17770066",
+        "date": "2026-06-16 18:38:42",
+        "md5": "3a5198d51a8d655606de2435497b5248",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DC7SauceyJanC06_S149_L001_R1_001.fastq.gz",
+        "size": "14744986",
+        "date": "2026-06-16 18:38:40",
+        "md5": "2e88f55178c7adc353eef079fa783569",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190658",
+    "experiment_accession": "SRX33933846",
+    "sample_accession": "SAMN60939737",
+    "secondary_sample_accession": "SRS29574940",
+    "sample_alias": "DC6SauceyJanC05_S142_L001_R1_001.fastq.gz",
+    "sample_title": "DC6 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DC6",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DC6SauceyJanC05",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "6977",
+    "base_count": "3502454",
+    "sra_run_bytes": "1837105",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DC6SauceyJanC05_S142_L001_R1_001.fastq.gz",
+        "size": "690169",
+        "date": "2026-06-16 18:38:00",
+        "md5": "0fc1136a5938fa7619213f6fb2d54a22",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DC6SauceyJanC05_S142_L001_R2_001.fastq.gz",
+        "size": "770644",
+        "date": "2026-06-16 18:37:58",
+        "md5": "678e29c8a42a0e227cb6fd5a6b83f092",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190658",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190658/SRR39190658",
+        "size": "1839024",
+        "date": "2026-06-16 18:37:56",
+        "md5": "90fb8bc940dc0b8f514fa910145e0247",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190658.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190658/SRR39190658.sralite.1",
+        "size": "803865",
+        "date": "2026-06-16 18:38:06",
+        "md5": "589fe420fa5601dcdfae0768c03b6996",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190659",
+    "experiment_accession": "SRX33933845",
+    "sample_accession": "SAMN60939736",
+    "secondary_sample_accession": "SRS29574939",
+    "sample_alias": "DC5SauceyJanC04_S135_L001_R1_001.fastq.gz",
+    "sample_title": "DC5 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DC5",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DC5SauceyJanC04",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "45292",
+    "base_count": "22736584",
+    "sra_run_bytes": "11752428",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DC5SauceyJanC04_S135_L001_R1_001.fastq.gz",
+        "size": "4307233",
+        "date": "2026-06-16 18:38:07",
+        "md5": "a19ce2f2df9ee535ed9f9cc33ed41ea8",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DC5SauceyJanC04_S135_L001_R2_001.fastq.gz",
+        "size": "5124325",
+        "date": "2026-06-16 18:38:08",
+        "md5": "739ba03ae2a8ab1ed4ba6259492126e3",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190659",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190659/SRR39190659",
+        "size": "11754350",
+        "date": "2026-06-16 18:38:05",
+        "md5": "da5bb12cea47a7f08f7063f5952fd6bb",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190659.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190659/SRR39190659.sralite.1",
+        "size": "4939649",
+        "date": "2026-06-16 18:38:13",
+        "md5": "17b1cc85d7d218c557b6448aa01d7652",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190660",
+    "experiment_accession": "SRX33933844",
+    "sample_accession": "SAMN60939735",
+    "secondary_sample_accession": "SRS29574938",
+    "sample_alias": "DC4SauceyJanC03_S128_L001_R1_001.fastq.gz",
+    "sample_title": "DC4 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DC4",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DC4SauceyJanC03",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "246",
+    "base_count": "123492",
+    "sra_run_bytes": "152412",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DC4SauceyJanC03_S128_L001_R1_001.fastq.gz",
+        "size": "42632",
+        "date": "2026-06-16 18:38:17",
+        "md5": "1bb7ebe690109196eadfadd79fc70e84",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DC4SauceyJanC03_S128_L001_R2_001.fastq.gz",
+        "size": "44998",
+        "date": "2026-06-16 18:38:18",
+        "md5": "ed7cc1e11e959f972a12105e0cab4cbd",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190660",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190660/SRR39190660",
+        "size": "154332",
+        "date": "2026-06-16 18:38:16",
+        "md5": "f8a2a6fe8d7b1833a63c346170c77825",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190660.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190660/SRR39190660.sralite.1",
+        "size": "107652",
+        "date": "2026-06-16 18:38:23",
+        "md5": "f15e6a7a4f545a207b584ca52311fe41",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190661",
+    "experiment_accession": "SRX33933843",
+    "sample_accession": "SAMN60939734",
+    "secondary_sample_accession": "SRS29574937",
+    "sample_alias": "DC3SauceyJanC02_S121_L001_R1_001.fastq.gz",
+    "sample_title": "DC3 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DC3",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DC3SauceyJanC02",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "96",
+    "base_count": "48192",
+    "sra_run_bytes": "107430",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DC3SauceyJanC02_S121_L001_R1_001.fastq.gz",
+        "size": "21141",
+        "date": "2026-06-16 18:38:16",
+        "md5": "cc906a5416c00fe42920e6239678b2f5",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DC3SauceyJanC02_S121_L001_R2_001.fastq.gz",
+        "size": "22336",
+        "date": "2026-06-16 18:38:17",
+        "md5": "d9ed7612a6be4e45a66df7490153e4b3",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190661",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190661/SRR39190661",
+        "size": "109350",
+        "date": "2026-06-16 18:38:14",
+        "md5": "bba7988a076c82dc25cc8e73f01c7b17",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190661.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190661/SRR39190661.sralite.1",
+        "size": "88075",
+        "date": "2026-06-16 18:38:21",
+        "md5": "222dd93565361cc4f55c692a83df5d30",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190662",
+    "experiment_accession": "SRX33933842",
+    "sample_accession": "SAMN60939733",
+    "secondary_sample_accession": "SRS29574936",
+    "sample_alias": "DC2SauceyJanC01_S113_L001_R1_001.fastq.gz",
+    "sample_title": "DC2 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DC2",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DC2SauceyJanC01",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "212",
+    "base_count": "106424",
+    "sra_run_bytes": "147210",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DC2SauceyJanC01_S113_L001_R1_001.fastq.gz",
+        "size": "41916",
+        "date": "2026-06-16 18:38:35",
+        "md5": "7e5bb064195fcfad48476227366ffbf1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DC2SauceyJanC01_S113_L001_R2_001.fastq.gz",
+        "size": "45195",
+        "date": "2026-06-16 18:38:36",
+        "md5": "792b26da23e80fd3726ba43a621a9b66",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190662",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190662/SRR39190662",
+        "size": "149132",
+        "date": "2026-06-16 18:38:34",
+        "md5": "b85a1112775ce2e9b7a9e64457152415",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190662.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190662/SRR39190662.sralite.1",
+        "size": "104388",
+        "date": "2026-06-16 18:38:39",
+        "md5": "27648b90b1921ca5a01c5aacefe7cbba",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:18",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190663",
+    "experiment_accession": "SRX33933841",
+    "sample_accession": "SAMN60939732",
+    "secondary_sample_accession": "SRS29574935",
+    "sample_alias": "DC1SauceyJanB12_S190_L001_R1_001.fastq.gz",
+    "sample_title": "DC1 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DC1",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DC1SauceyJanB12",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "588",
+    "base_count": "295176",
+    "sra_run_bytes": "273265",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DC1SauceyJanB12_S190_L001_R1_001.fastq.gz",
+        "size": "107133",
+        "date": "2026-06-16 18:38:36",
+        "md5": "2d6218712c03726e5064a9dff5947430",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DC1SauceyJanB12_S190_L001_R2_001.fastq.gz",
+        "size": "120909",
+        "date": "2026-06-16 18:38:37",
+        "md5": "e91511c3dbeb7661ae9eb83812228e49",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190663",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190663/SRR39190663",
+        "size": "275186",
+        "date": "2026-06-16 18:38:36",
+        "md5": "46e056e868dea61135edfaf72bf7b3cd",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190663.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190663/SRR39190663.sralite.1",
+        "size": "153234",
+        "date": "2026-06-16 18:38:40",
+        "md5": "45a965b0baac7562b1b86255e96faa1d",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190664",
+    "experiment_accession": "SRX33933840",
+    "sample_accession": "SAMN60939731",
+    "secondary_sample_accession": "SRS29574934",
+    "sample_alias": "DB10SauceyJanB11_S183_L001_R1_001.fastq.gz",
+    "sample_title": "DB10 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DB10",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DB10SauceyJanB11",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "25976",
+    "base_count": "13039952",
+    "sra_run_bytes": "8346978",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DB10SauceyJanB11_S183_L001_R1_001.fastq.gz",
+        "size": "4507522",
+        "date": "2026-06-16 18:37:58",
+        "md5": "b56f9fc43ddfdc67d3d0db88f6ce17ee",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DB10SauceyJanB11_S183_L001_R2_001.fastq.gz",
+        "size": "4769063",
+        "date": "2026-06-16 18:37:57",
+        "md5": "5b09b70db79d562db258528e352b4104",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190664",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190664/SRR39190664",
+        "size": "8348896",
+        "date": "2026-06-16 18:37:56",
+        "md5": "81c8fa3c926cc0897095bb832e032297",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190664.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190664/SRR39190664.sralite.1",
+        "size": "3356763",
+        "date": "2026-06-16 18:38:01",
+        "md5": "6304579265f6c20e64f2f7f4264ba2e9",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:18",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190665",
+    "experiment_accession": "SRX33933839",
+    "sample_accession": "SAMN60939730",
+    "secondary_sample_accession": "SRS29574933",
+    "sample_alias": "DB9SauceyJanB10_S176_L001_R1_001.fastq.gz",
+    "sample_title": "DB9 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DB9",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DB9SauceyJanB10",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "8373",
+    "base_count": "4203246",
+    "sra_run_bytes": "2719528",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DB9SauceyJanB10_S176_L001_R1_001.fastq.gz",
+        "size": "1456557",
+        "date": "2026-06-16 18:37:57",
+        "md5": "9a297d59d4f784b0fe80d25fe2425146",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DB9SauceyJanB10_S176_L001_R2_001.fastq.gz",
+        "size": "1541706",
+        "date": "2026-06-16 18:37:57",
+        "md5": "229dc64feeaa39bcbaa6112e09114408",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190665",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190665/SRR39190665",
+        "size": "2721448",
+        "date": "2026-06-16 18:37:56",
+        "md5": "824de15d3cfcb1a08533a72a6604910f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190665.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190665/SRR39190665.sralite.1",
+        "size": "1132884",
+        "date": "2026-06-16 18:38:01",
+        "md5": "602905aa7cb154351068dcf3d285c8f8",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190666",
+    "experiment_accession": "SRX33933838",
+    "sample_accession": "SAMN60939729",
+    "secondary_sample_accession": "SRS29574932",
+    "sample_alias": "DB8SauceyJanB09_S169_L001_R1_001.fastq.gz",
+    "sample_title": "DB8 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DB8",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DB8SauceyJanB09",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "8620",
+    "base_count": "4327240",
+    "sra_run_bytes": "2864311",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DB8SauceyJanB09_S169_L001_R1_001.fastq.gz",
+        "size": "1494343",
+        "date": "2026-06-16 18:37:54",
+        "md5": "06becb18193a1e1efd2737cece860316",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DB8SauceyJanB09_S169_L001_R2_001.fastq.gz",
+        "size": "1643872",
+        "date": "2026-06-16 18:37:55",
+        "md5": "b7a82c293c9d1e8acc32d655087ea0cf",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190666",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190666/SRR39190666",
+        "size": "2866230",
+        "date": "2026-06-16 18:37:54",
+        "md5": "0a134ad15458b8c5480b68c7e7806f25",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190666.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190666/SRR39190666.sralite.1",
+        "size": "1172403",
+        "date": "2026-06-16 18:37:57",
+        "md5": "4e7a3d10ab52d8bb93adaf984b7028be",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190667",
+    "experiment_accession": "SRX33933837",
+    "sample_accession": "SAMN60939711",
+    "secondary_sample_accession": "SRS29574931",
+    "sample_alias": "Con3OctSauceyJanA03_S126_L001_R1_001.fastq.gz",
+    "sample_title": "48-50 cm Control 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "Control 3",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "Con3OctSauceyJanA03",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "21",
+    "base_count": "10542",
+    "sra_run_bytes": "79090",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Con3OctSauceyJanA03_S126_L001_R1_001.fastq.gz",
+        "size": "5293",
+        "date": "2026-06-16 18:38:17",
+        "md5": "48d5b32cebdb259e5379f74e025b55fc",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "Con3OctSauceyJanA03_S126_L001_R2_001.fastq.gz",
+        "size": "5638",
+        "date": "2026-06-16 18:38:19",
+        "md5": "5211f5f7792103f5e41369f5a036d89d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190667",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190667/SRR39190667",
+        "size": "80705",
+        "date": "2026-06-16 18:38:16",
+        "md5": "75e789183a821111357c15dbc19a8482",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190667.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190667/SRR39190667.sralite.1",
+        "size": "75494",
+        "date": "2026-06-16 18:38:23",
+        "md5": "97ef16544108c3937295a2ed19c4dcaf",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190668",
+    "experiment_accession": "SRX33933836",
+    "sample_accession": "SAMN60939728",
+    "secondary_sample_accession": "SRS29574930",
+    "sample_alias": "DB7SauceyJanB08_S162_L001_R1_001.fastq.gz",
+    "sample_title": "DB7 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DB7",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DB7SauceyJanB08",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "33321",
+    "base_count": "16727142",
+    "sra_run_bytes": "10723038",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DB7SauceyJanB08_S162_L001_R1_001.fastq.gz",
+        "size": "5765418",
+        "date": "2026-06-16 18:38:00",
+        "md5": "e40504748a8c1fdfc1cf485c98aa3893",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DB7SauceyJanB08_S162_L001_R2_001.fastq.gz",
+        "size": "6175367",
+        "date": "2026-06-16 18:38:00",
+        "md5": "0c6391752f3a7d3af58f8888426f9270",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190668",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190668/SRR39190668",
+        "size": "10724953",
+        "date": "2026-06-16 18:37:59",
+        "md5": "062621e0a711aa2d4111d236a5bb7239",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190668.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190668/SRR39190668.sralite.1",
+        "size": "4287080",
+        "date": "2026-06-16 18:38:04",
+        "md5": "099e3daa55871de31bcb2050def23025",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190669",
+    "experiment_accession": "SRX33933835",
+    "sample_accession": "SAMN60939727",
+    "secondary_sample_accession": "SRS29574929",
+    "sample_alias": "DB6SauceyJanB07_S155_L001_R1_001.fastq.gz",
+    "sample_title": "DB6 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DB6",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DB6SauceyJanB07",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "4956",
+    "base_count": "2487912",
+    "sra_run_bytes": "1652242",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR39190669.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190669/SRR39190669.sralite.1",
+        "size": "702758",
+        "date": "2026-06-16 18:38:01",
+        "md5": "ad7b518935ea78c4d1a88631a161c547",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190669",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190669/SRR39190669",
+        "size": "1654163",
+        "date": "2026-06-16 18:37:56",
+        "md5": "ab88bcb7e94722f57bbe6a97f02b73e1",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "DB6SauceyJanB07_S155_L001_R2_001.fastq.gz",
+        "size": "910461",
+        "date": "2026-06-16 18:37:57",
+        "md5": "c615e724f27469a35a8e6991b7e5ae47",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DB6SauceyJanB07_S155_L001_R1_001.fastq.gz",
+        "size": "864400",
+        "date": "2026-06-16 18:37:57",
+        "md5": "b1903c1a3ee4d137667351213e2d1386",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190670",
+    "experiment_accession": "SRX33933834",
+    "sample_accession": "SAMN60939726",
+    "secondary_sample_accession": "SRS29574928",
+    "sample_alias": "DB5SauceyJanB06_S148_L001_R1_001.fastq.gz",
+    "sample_title": "DB5 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DB5",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DB5SauceyJanB06",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "21316",
+    "base_count": "10700632",
+    "sra_run_bytes": "6871988",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DB5SauceyJanB06_S148_L001_R1_001.fastq.gz",
+        "size": "3747410",
+        "date": "2026-06-16 18:38:01",
+        "md5": "c6f09416af32765b65fa98f05a54ad57",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DB5SauceyJanB06_S148_L001_R2_001.fastq.gz",
+        "size": "3958283",
+        "date": "2026-06-16 18:38:01",
+        "md5": "355e5bb2c9e12ba58464d1581d13dfe8",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190670",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190670/SRR39190670",
+        "size": "6873911",
+        "date": "2026-06-16 18:37:59",
+        "md5": "ef07a92306433c85276a4f6983d711b2",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190670.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190670/SRR39190670.sralite.1",
+        "size": "2781020",
+        "date": "2026-06-16 18:38:06",
+        "md5": "ec23f4565a69ddb09868066f90d829be",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:18",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190671",
+    "experiment_accession": "SRX33933833",
+    "sample_accession": "SAMN60939725",
+    "secondary_sample_accession": "SRS29574927",
+    "sample_alias": "DB4SauceyJanB05_S141_L001_R1_001.fastq.gz",
+    "sample_title": "DB4 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DB4",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DB4SauceyJanB05",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "10921",
+    "base_count": "5482342",
+    "sra_run_bytes": "3501702",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DB4SauceyJanB05_S141_L001_R1_001.fastq.gz",
+        "size": "1900005",
+        "date": "2026-06-16 18:37:57",
+        "md5": "dbaab41439fe8f885314b57a07c4a37d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DB4SauceyJanB05_S141_L001_R2_001.fastq.gz",
+        "size": "1957193",
+        "date": "2026-06-16 18:37:58",
+        "md5": "a7c63f3cbea27eb48781ddebde91aad1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190671",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190671/SRR39190671",
+        "size": "3503623",
+        "date": "2026-06-16 18:37:56",
+        "md5": "ee894eada061415fd41da60207f6a057",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190671.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190671/SRR39190671.sralite.1",
+        "size": "1448316",
+        "date": "2026-06-16 18:38:01",
+        "md5": "eb072571a3d801db770ecd749a4954e9",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:18",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190672",
+    "experiment_accession": "SRX33933832",
+    "sample_accession": "SAMN60939724",
+    "secondary_sample_accession": "SRS29574926",
+    "sample_alias": "DB3SauceyJanB04_S134_L001_R1_001.fastq.gz",
+    "sample_title": "DB3 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DB3",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DB3SauceyJanB04",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "1075",
+    "base_count": "539650",
+    "sra_run_bytes": "422207",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DB3SauceyJanB04_S134_L001_R1_001.fastq.gz",
+        "size": "187597",
+        "date": "2026-06-16 18:37:34",
+        "md5": "60659bea74b2b93f674b10b0572a1178",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DB3SauceyJanB04_S134_L001_R2_001.fastq.gz",
+        "size": "203833",
+        "date": "2026-06-16 18:37:34",
+        "md5": "c1ca4032267a4b7399a9ac69abe2e72b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190672",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190672/SRR39190672",
+        "size": "424131",
+        "date": "2026-06-16 18:37:34",
+        "md5": "c847c1d3eeb670450c62c29db3736f14",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190672.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190672/SRR39190672.sralite.1",
+        "size": "212946",
+        "date": "2026-06-16 18:37:36",
+        "md5": "ca48e92a040b4356ca6a1cb44ab4562f",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190673",
+    "experiment_accession": "SRX33933831",
+    "sample_accession": "SAMN60939723",
+    "secondary_sample_accession": "SRS29574925",
+    "sample_alias": "DB2SauceyJanB03_S127_L001_R1_001.fastq.gz",
+    "sample_title": "DB2 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DB2",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DB2SauceyJanB03",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "4149",
+    "base_count": "2082798",
+    "sra_run_bytes": "1369156",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DB2SauceyJanB03_S127_L001_R1_001.fastq.gz",
+        "size": "713002",
+        "date": "2026-06-16 18:37:59",
+        "md5": "029226777349c208eed1f5040db39a03",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DB2SauceyJanB03_S127_L001_R2_001.fastq.gz",
+        "size": "752461",
+        "date": "2026-06-16 18:37:58",
+        "md5": "56c97c680d8b1081dc91adb59815e0a3",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190673",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190673/SRR39190673",
+        "size": "1371077",
+        "date": "2026-06-16 18:37:57",
+        "md5": "85cbbbbd3b516b8cad08bb0066b11fca",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190673.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190673/SRR39190673.sralite.1",
+        "size": "599453",
+        "date": "2026-06-16 18:38:02",
+        "md5": "4813d9e916a8702f373d0274e2555d01",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190674",
+    "experiment_accession": "SRX33933830",
+    "sample_accession": "SAMN60939722",
+    "secondary_sample_accession": "SRS29574924",
+    "sample_alias": "DB1SauceyJanB02_S120_L001_R1_001.fastq.gz",
+    "sample_title": "DB1 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DB1",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DB1SauceyJanB02",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "403",
+    "base_count": "202306",
+    "sra_run_bytes": "206960",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR39190674.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190674/SRR39190674.sralite.1",
+        "size": "127814",
+        "date": "2026-06-16 18:37:38",
+        "md5": "093d9806b242c6ce382150e86dd9658b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190674",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190674/SRR39190674",
+        "size": "208882",
+        "date": "2026-06-16 18:37:34",
+        "md5": "148c293d21638959c264fd83dff14393",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "DB1SauceyJanB02_S120_L001_R2_001.fastq.gz",
+        "size": "79402",
+        "date": "2026-06-16 18:37:35",
+        "md5": "3dc54fa159166fc5c09a58528d61a5ed",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DB1SauceyJanB02_S120_L001_R1_001.fastq.gz",
+        "size": "74466",
+        "date": "2026-06-16 18:37:35",
+        "md5": "f17189f638c4c59fe97a1951170e74f1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190675",
+    "experiment_accession": "SRX33933829",
+    "sample_accession": "SAMN60939721",
+    "secondary_sample_accession": "SRS29574923",
+    "sample_alias": "DA10SauceyJanB01_S112_L001_R1_001.fastq.gz",
+    "sample_title": "DA10 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DA10",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DA10SauceyJanB01",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "122787",
+    "base_count": "61639074",
+    "sra_run_bytes": "32213100",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DA10SauceyJanB01_S112_L001_R1_001.fastq.gz",
+        "size": "11680903",
+        "date": "2026-06-16 18:38:38",
+        "md5": "b8890d687ace4c5520f1960bf46df40d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DA10SauceyJanB01_S112_L001_R2_001.fastq.gz",
+        "size": "14261685",
+        "date": "2026-06-16 18:38:38",
+        "md5": "edd038e8be387de555e7d3ad5a5a9a8d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190675",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190675/SRR39190675",
+        "size": "32215014",
+        "date": "2026-06-16 18:38:37",
+        "md5": "eb24a3b27ee58a0629070917ad23bad1",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190675.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190675/SRR39190675.sralite.1",
+        "size": "13620448",
+        "date": "2026-06-16 18:38:42",
+        "md5": "474d3ca36a033be552296e337a38661b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190676",
+    "experiment_accession": "SRX33933828",
+    "sample_accession": "SAMN60939720",
+    "secondary_sample_accession": "SRS29574922",
+    "sample_alias": "DA9SauceyJanA12_S189_L001_R1_001.fastq.gz",
+    "sample_title": "DA9 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DA9",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DA9SauceyJanA12",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "249622",
+    "base_count": "125310244",
+    "sra_run_bytes": "67351877",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR39190676.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190676/SRR39190676.sralite.1",
+        "size": "27928459",
+        "date": "2026-06-16 18:38:59",
+        "md5": "fa5710a3e77935d767a4bcead4d87640",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190676",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190676/SRR39190676",
+        "size": "67353787",
+        "date": "2026-06-16 18:38:51",
+        "md5": "31ad74557282d5729613e50700044927",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "DA9SauceyJanA12_S189_L001_R2_001.fastq.gz",
+        "size": "30403051",
+        "date": "2026-06-16 18:38:53",
+        "md5": "d00d6751a3bf7d73ccc7179dfa17d4a7",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DA9SauceyJanA12_S189_L001_R1_001.fastq.gz",
+        "size": "23743746",
+        "date": "2026-06-16 18:38:54",
+        "md5": "f6cd3dcdeac93a907ebdd4641d006c4d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190677",
+    "experiment_accession": "SRX33933827",
+    "sample_accession": "SAMN60939719",
+    "secondary_sample_accession": "SRS29574921",
+    "sample_alias": "DA8SauceyJanA11_S182_L001_R1_001.fastq.gz",
+    "sample_title": "DA8 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "DA8",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "DA8SauceyJanA11",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "154203",
+    "base_count": "77409906",
+    "sra_run_bytes": "39388622",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "DA8SauceyJanA11_S182_L001_R1_001.fastq.gz",
+        "size": "14488091",
+        "date": "2026-06-16 18:38:52",
+        "md5": "e8e8ecf9c0fc0640921bd82b78275718",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "DA8SauceyJanA11_S182_L001_R2_001.fastq.gz",
+        "size": "17013707",
+        "date": "2026-06-16 18:38:53",
+        "md5": "9ff05c5d06db80db798bb0a54dbf3942",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190677",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190677/SRR39190677",
+        "size": "39390544",
+        "date": "2026-06-16 18:38:51",
+        "md5": "a08e0a71071ee57232610f21e9a0e53d",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190677.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190677/SRR39190677.sralite.1",
+        "size": "16465553",
+        "date": "2026-06-16 18:38:57",
+        "md5": "7110afd8c20f6a3a97deb870f6b0d820",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:18",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190678",
+    "experiment_accession": "SRX33933826",
+    "sample_accession": "SAMN60939710",
+    "secondary_sample_accession": "SRS29574920",
+    "sample_alias": "Con2OctSauceyJanA02_S119_L001_R1_001.fastq.gz",
+    "sample_title": "38-40 cm Control 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "Control 2",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "Con2OctSauceyJanA02",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "223",
+    "base_count": "111946",
+    "sra_run_bytes": "151614",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Con2OctSauceyJanA02_S119_L001_R1_001.fastq.gz",
+        "size": "43956",
+        "date": "2026-06-16 18:37:59",
+        "md5": "0c98568586fead57a48de4b2d063da82",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "Con2OctSauceyJanA02_S119_L001_R2_001.fastq.gz",
+        "size": "46303",
+        "date": "2026-06-16 18:37:59",
+        "md5": "0e9fa15797c0e401b0dea5c5370d2320",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190678",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190678/SRR39190678",
+        "size": "153536",
+        "date": "2026-06-16 18:37:58",
+        "md5": "52f44e15e255129e3ad4fb6dceec2bc5",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190678.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190678/SRR39190678.sralite.1",
+        "size": "105362",
+        "date": "2026-06-16 18:38:03",
+        "md5": "a07a35ed565bcf3aa4fc192d5cd967a2",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:20",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR39190679",
+    "experiment_accession": "SRX33933825",
+    "sample_accession": "SAMN60939709",
+    "secondary_sample_accession": "SRS29574919",
+    "sample_alias": "Con1OctSauceyJanA01_S111_L001_R1_001.fastq.gz",
+    "sample_title": "12-14 cm Control 30 Days",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "isolation_source",
+        "value": "Coastal Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-11-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Broadkill River, Delaware",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "38.80216 N 75.20326 W",
+        "units": ""
+      },
+      {
+        "tag": "rel_to_oxygen",
+        "value": "anaerobe",
+        "units": ""
+      },
+      {
+        "tag": "Isolate",
+        "value": "Control 1",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1479055",
+    "secondary_study_accession": "SRP710139",
+    "study_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+    "study_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+    "study_links": [],
+    "experiment_title": "16S rRNA amplicon sequencing of coastal marine sediment",
+    "library_name": "Con1OctSauceyJanA01",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "76",
+    "base_count": "38152",
+    "sra_run_bytes": "98329",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SRR39190679",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR39190679/SRR39190679",
+        "size": "99951",
+        "date": "2026-06-16 18:37:40",
+        "md5": "c2207d188bd0f33c16fa5b597067c67c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR39190679.sralite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR039/39190/SRR39190679/SRR39190679.sralite.1",
+        "size": "83756",
+        "date": "2026-06-16 18:37:47",
+        "md5": "e155b49469e47f84eec1caf44f7a58a9",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "Con1OctSauceyJanA01_S111_L001_R2_001.fastq.gz",
+        "size": "17183",
+        "date": "2026-06-16 18:37:41",
+        "md5": "ed9a38417fc583ace2c01e3194521382",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "Con1OctSauceyJanA01_S111_L001_R1_001.fastq.gz",
+        "size": "16143",
+        "date": "2026-06-16 18:37:42",
+        "md5": "c0c788deee16e054733f78fd207248ad",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2026-06-16 18:42:18",
+    "run_is_public": "true"
+  }
+]

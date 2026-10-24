@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1405076",
+  "checked_utc": "2026-10-24T14:52:45.281308+00:00",
+  "ena_run_count": 20,
+  "ncbi_sra_count": 20,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1405076&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:52:45.281443+00:00",
+    "raw_path": "raw/ENA/8a579f1dcddb2554a3217e19c50c793e1c443557c374aa5a62df785fedf59813.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1405076&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 31043,
+    "sha256": "617dac0a3569d5aa724f9feb78a1f7404704a8e030142a88049932a063b06e4b",
+    "finished_utc": "2026-10-24T14:52:46.081599+00:00",
+    "measured_wall_seconds": 0.8
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1405076&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:52:46.482850+00:00",
+    "raw_path": "raw/NCBI/194fb8a96ade5f134dcb523603b39aceb3229cfa9adf365bef1221092e2598c6.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1405076&retmode=json&retmax=200&retstart=0",
+    "bytes": 516,
+    "sha256": "463b36bad95171db59b4d450b283cffcd6fc498c2cb3e30de67126cbec6bc987",
+    "finished_utc": "2026-10-24T14:52:46.611248+00:00",
+    "measured_wall_seconds": 0.128
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1405076",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:52:47.518632+00:00",
+    "raw_path": "raw/ENA/5f83644296205bb428bad212273880c68dd050b1d457386e2d2b103850b34c67.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1405076",
+    "bytes": 3231,
+    "sha256": "6cb770c30ccb0281b06bd43cae6e7259a7223d722dd3cfcb47715bc56d19dc0c",
+    "finished_utc": "2026-10-24T14:52:48.442443+00:00",
+    "measured_wall_seconds": 0.924
+  },
+  "project_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+  "project_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1405076"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP664476"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Beijing University of Technology",
+      "value": "PRJNA1405076"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1405076&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1405076&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 20
+}

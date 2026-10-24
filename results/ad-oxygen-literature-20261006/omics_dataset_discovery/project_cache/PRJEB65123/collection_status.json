@@ -1,0 +1,67 @@
+{
+  "accession": "PRJEB65123",
+  "checked_utc": "2026-10-24T14:53:29.199634+00:00",
+  "ena_run_count": 28,
+  "ncbi_sra_count": 28,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB65123&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:29.199990+00:00",
+    "raw_path": "raw/ENA/bef07b425c831011cb6e06f227fc350afc11032fca431488ac8958fbf530c7db.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB65123&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 42405,
+    "sha256": "9bd615e21bc6fa8ae053a597718a14ee048413379df46c9c28bcd88c37c0cb82",
+    "finished_utc": "2026-10-24T14:53:30.005547+00:00",
+    "measured_wall_seconds": 0.806
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJEB65123&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:53:30.407867+00:00",
+    "raw_path": "raw/NCBI/e9c7e03e0e13689712dc069fe1fd5af1d2fb69659ad73ba9d2cccfa76f4af49e.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJEB65123&retmode=json&retmax=200&retstart=0",
+    "bytes": 600,
+    "sha256": "c7fd5ff6bfd42f6c2b4de1aa1afab9c394858e5a5f8745e3828def3aa582c9f2",
+    "finished_utc": "2026-10-24T14:53:30.512216+00:00",
+    "measured_wall_seconds": 0.104
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB65123",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:31.472945+00:00",
+    "raw_path": "raw/ENA/c0de1d7f9d681dadfba1a968c5621f72398ec078ceb1c64fa441f2bcf8d073c7.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB65123",
+    "bytes": 2606,
+    "sha256": "0517dba2032898f4ed75f38e78b9242008c4b0ea477f352e1b47a572bccd5216",
+    "finished_utc": "2026-10-24T14:53:31.649874+00:00",
+    "measured_wall_seconds": 0.177
+  },
+  "project_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+  "project_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJEB65123"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "ERP150268"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "norwegian university of life sciences",
+      "value": "1caf4b04-8da6-4c1a-8f42-40ba38ce631d"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMISSION</DB>\n        <ID>ERA26755669</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB65123&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB65123&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 28
+}

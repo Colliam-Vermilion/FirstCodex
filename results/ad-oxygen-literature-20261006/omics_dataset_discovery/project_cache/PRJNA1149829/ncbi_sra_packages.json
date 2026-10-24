@@ -1,0 +1,1333 @@
+[
+  {
+    "run_accession": "SRR30299188",
+    "experiment_accession": "SRX25759677",
+    "sample_accession": "SAMN43261000",
+    "secondary_sample_accession": "SRS22398826",
+    "sample_alias": "biofilm sulfur",
+    "sample_title": "",
+    "scientific_name": "sludge metagenome",
+    "tax_id": "1592332",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "Homo sapiens",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "sludge",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-05-11",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Washington, Pierce county",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "47 N 122 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1149829",
+    "secondary_study_accession": "SRP527388",
+    "study_title": "Micro-aeration for Hydrogen Sulfide Reduction in Full-Scale Anaerobic Digesters with Limited Headspace",
+    "study_description": "The goal of this study was to evaluate the biogas desulfurization efficiency at very short biogas RT to evaluate the efficacy of using micro-aeration in digesters with limited headspace.",
+    "study_links": [],
+    "experiment_title": "16SrRNA gene of biofilm",
+    "library_name": "BS",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "40296",
+    "base_count": "20228592",
+    "sra_run_bytes": "11243919",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "BfSulfur_S53_L001_R1_001.fastq.gz",
+        "size": "4056257",
+        "date": "2024-08-19 18:15:37",
+        "md5": "dd9cfc17541132dc2e507c5f00607ca4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "BfSulfur_S53_L001_R2_001.fastq.gz",
+        "size": "6187359",
+        "date": "2024-08-19 18:15:38",
+        "md5": "f990ad259861593689d5f673965467c4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299188",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR30299188/SRR30299188",
+        "size": "11245843",
+        "date": "2024-08-19 18:15:48",
+        "md5": "9509b7bfad2f193c0209c2177016a99c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299188.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR030/30299/SRR30299188/SRR30299188.lite.1",
+        "size": "4938941",
+        "date": "2024-08-19 18:54:33",
+        "md5": "17244e4b6947c7189a41b0db95c9143e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-30 00:12:38",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR30299189",
+    "experiment_accession": "SRX25759676",
+    "sample_accession": "SAMN43260999",
+    "secondary_sample_accession": "SRS22398825",
+    "sample_alias": "digestate sulfur",
+    "sample_title": "",
+    "scientific_name": "sludge metagenome",
+    "tax_id": "1592332",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "Homo sapiens",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "sludge",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-05-10",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Washington, Pierce county",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "47 N 122 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1149829",
+    "secondary_study_accession": "SRP527388",
+    "study_title": "Micro-aeration for Hydrogen Sulfide Reduction in Full-Scale Anaerobic Digesters with Limited Headspace",
+    "study_description": "The goal of this study was to evaluate the biogas desulfurization efficiency at very short biogas RT to evaluate the efficacy of using micro-aeration in digesters with limited headspace.",
+    "study_links": [],
+    "experiment_title": "16SrRNA gene of digestate",
+    "library_name": "DS",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "42419",
+    "base_count": "21294338",
+    "sra_run_bytes": "12385292",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "Sbot_S54_L001_R1_001.fastq.gz",
+        "size": "5478279",
+        "date": "2024-08-19 18:15:57",
+        "md5": "30f76e1d8b67d77f5305ab42629da6a3",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "Sbot_S54_L001_R2_001.fastq.gz",
+        "size": "7511305",
+        "date": "2024-08-19 18:15:55",
+        "md5": "c228f450b9b5ec83fe6a6e760a3959dd",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299189",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR30299189/SRR30299189",
+        "size": "12387213",
+        "date": "2024-08-19 18:16:09",
+        "md5": "4267619bd8944fe198e3f0bdb05b9891",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299189.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR030/30299/SRR30299189/SRR30299189.lite.1",
+        "size": "5353581",
+        "date": "2024-08-19 18:54:34",
+        "md5": "780a84a4f577b1eebf1454e86bdb16d3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-30 00:12:38",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR30299190",
+    "experiment_accession": "SRX25759675",
+    "sample_accession": "SAMN43260998",
+    "secondary_sample_accession": "SRS22398824",
+    "sample_alias": "secondary sludge",
+    "sample_title": "",
+    "scientific_name": "sludge metagenome",
+    "tax_id": "1592332",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "Homo sapiens",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "sludge",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-05-09",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Washington, Pierce county",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "47 N 122 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1149829",
+    "secondary_study_accession": "SRP527388",
+    "study_title": "Micro-aeration for Hydrogen Sulfide Reduction in Full-Scale Anaerobic Digesters with Limited Headspace",
+    "study_description": "The goal of this study was to evaluate the biogas desulfurization efficiency at very short biogas RT to evaluate the efficacy of using micro-aeration in digesters with limited headspace.",
+    "study_links": [],
+    "experiment_title": "16SrRNA gene of secondary sludge",
+    "library_name": "SS",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "26405",
+    "base_count": "13255310",
+    "sra_run_bytes": "7900517",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "SS_S52_L001_R1_001.fastq.gz",
+        "size": "4395779",
+        "date": "2024-08-19 18:15:47",
+        "md5": "9d7c09d28b9438da88b87017124c0c68",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SS_S52_L001_R2_001.fastq.gz",
+        "size": "5408585",
+        "date": "2024-08-19 18:15:46",
+        "md5": "82af25c332e52f73ba3e9977251b765c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299190",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR30299190/SRR30299190",
+        "size": "7902435",
+        "date": "2024-08-19 18:15:58",
+        "md5": "993aaa192fd737656e60f8e0835255ec",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299190.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR030/30299/SRR30299190/SRR30299190.lite.1",
+        "size": "3394448",
+        "date": "2024-08-19 18:54:33",
+        "md5": "df348bba046521588784b9981581b7e3",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-30 00:12:38",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR30299191",
+    "experiment_accession": "SRX25759674",
+    "sample_accession": "SAMN43260997",
+    "secondary_sample_accession": "SRS22398823",
+    "sample_alias": "primary sludge",
+    "sample_title": "",
+    "scientific_name": "sludge metagenome",
+    "tax_id": "1592332",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "Homo sapiens",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "sludge",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-05-08",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Washington, Pierce county",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "47 N 122 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1149829",
+    "secondary_study_accession": "SRP527388",
+    "study_title": "Micro-aeration for Hydrogen Sulfide Reduction in Full-Scale Anaerobic Digesters with Limited Headspace",
+    "study_description": "The goal of this study was to evaluate the biogas desulfurization efficiency at very short biogas RT to evaluate the efficacy of using micro-aeration in digesters with limited headspace.",
+    "study_links": [],
+    "experiment_title": "16SrRNA gene of primary sludge",
+    "library_name": "PS",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "30172",
+    "base_count": "15146344",
+    "sra_run_bytes": "9139977",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "PS_S51_L001_R1_001.fastq.gz",
+        "size": "4959946",
+        "date": "2024-08-19 18:15:55",
+        "md5": "7bc8d0f66dcbd2e288ef4216f1b7c902",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "PS_S51_L001_R2_001.fastq.gz",
+        "size": "5800682",
+        "date": "2024-08-19 18:15:53",
+        "md5": "4d539267eb730639dd24b89a78bc852e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299191",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR30299191/SRR30299191",
+        "size": "9141895",
+        "date": "2024-08-19 18:16:07",
+        "md5": "eb64f653c9cd6c3feb0e7f35b4483633",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299191.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR030/30299/SRR30299191/SRR30299191.lite.1",
+        "size": "3847532",
+        "date": "2024-08-19 18:54:34",
+        "md5": "7ed40ae63ff4fb2f7f625b24d628b35c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-30 00:12:38",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR30299192",
+    "experiment_accession": "SRX25759673",
+    "sample_accession": "SAMN43260996",
+    "secondary_sample_accession": "SRS22398822",
+    "sample_alias": "digestate event 6",
+    "sample_title": "",
+    "scientific_name": "sludge metagenome",
+    "tax_id": "1592332",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "Homo sapiens",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "sludge",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2022-09-08",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Washington, Pierce county",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "47 N 122 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1149829",
+    "secondary_study_accession": "SRP527388",
+    "study_title": "Micro-aeration for Hydrogen Sulfide Reduction in Full-Scale Anaerobic Digesters with Limited Headspace",
+    "study_description": "The goal of this study was to evaluate the biogas desulfurization efficiency at very short biogas RT to evaluate the efficacy of using micro-aeration in digesters with limited headspace.",
+    "study_links": [],
+    "experiment_title": "16SrRNA gene of digestate: Event 6",
+    "library_name": "DE6",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "143742",
+    "base_count": "72158484",
+    "sra_run_bytes": "44187750",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "D4F_S133_L001_R1_001.fastq.gz",
+        "size": "13161976",
+        "date": "2024-08-19 18:16:44",
+        "md5": "1b1d0c9d89e5c4a307ab7b2840da8f32",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D4F_S133_L001_R2_001.fastq.gz",
+        "size": "16669310",
+        "date": "2024-08-19 18:16:46",
+        "md5": "735dddf39033056dff37a5789577cafd",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D5F_S139_L001_R1_001.fastq.gz",
+        "size": "8332322",
+        "date": "2024-08-19 18:16:42",
+        "md5": "1e1e3bad60381666c244ad8f91ae1424",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D5F_S139_L001_R2_001.fastq.gz",
+        "size": "10626122",
+        "date": "2024-08-19 18:16:40",
+        "md5": "cf53f17ff9a964e7bf39bbea00c284eb",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299192",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR30299192/SRR30299192",
+        "size": "44190266",
+        "date": "2024-08-19 18:16:58",
+        "md5": "cdd22944a52a528a5775f295bc75b1bc",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299192.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR030/30299/SRR30299192/SRR30299192.lite.1",
+        "size": "18294068",
+        "date": "2024-08-19 18:54:36",
+        "md5": "d3052b158cdaa534d4b6e9e6ded9e76c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-30 00:12:38",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR30299193",
+    "experiment_accession": "SRX25759672",
+    "sample_accession": "SAMN43260995",
+    "secondary_sample_accession": "SRS22398821",
+    "sample_alias": "digestate event 5",
+    "sample_title": "",
+    "scientific_name": "sludge metagenome",
+    "tax_id": "1592332",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "Homo sapiens",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "sludge",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2022-09-06",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Washington, Pierce county",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "47 N 122 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1149829",
+    "secondary_study_accession": "SRP527388",
+    "study_title": "Micro-aeration for Hydrogen Sulfide Reduction in Full-Scale Anaerobic Digesters with Limited Headspace",
+    "study_description": "The goal of this study was to evaluate the biogas desulfurization efficiency at very short biogas RT to evaluate the efficacy of using micro-aeration in digesters with limited headspace.",
+    "study_links": [],
+    "experiment_title": "16SrRNA gene of digestate: Event 5",
+    "library_name": "DE5",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "92358",
+    "base_count": "46363716",
+    "sra_run_bytes": "28193572",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "D4E_S132_L001_R1_001.fastq.gz",
+        "size": "6366815",
+        "date": "2024-08-19 18:16:39",
+        "md5": "7a2181ae8698737a8c7ac3717d009453",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D4E_S132_L001_R2_001.fastq.gz",
+        "size": "7852827",
+        "date": "2024-08-19 18:16:33",
+        "md5": "cbf129925f838571806b38636122181f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D5E_S138_L001_R1_001.fastq.gz",
+        "size": "7469693",
+        "date": "2024-08-19 18:16:42",
+        "md5": "ebee1d9a3b90ef89a95c1a0ba18cc136",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D5E_S138_L001_R2_001.fastq.gz",
+        "size": "9444977",
+        "date": "2024-08-19 18:16:36",
+        "md5": "e72b855593e4bd306fc6f35d0604058e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299193",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR30299193/SRR30299193",
+        "size": "28196093",
+        "date": "2024-08-19 18:16:54",
+        "md5": "ed26f06dbccbd7aeb307b30596598a41",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299193.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR030/30299/SRR30299193/SRR30299193.lite.1",
+        "size": "11703277",
+        "date": "2024-08-19 18:54:35",
+        "md5": "b71087d6bdd6121e327388bd9d144211",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-30 00:12:38",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR30299194",
+    "experiment_accession": "SRX25759671",
+    "sample_accession": "SAMN43260994",
+    "secondary_sample_accession": "SRS22398820",
+    "sample_alias": "digestate event 4",
+    "sample_title": "",
+    "scientific_name": "sludge metagenome",
+    "tax_id": "1592332",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "Homo sapiens",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "sludge",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2022-09-01",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Washington, Pierce county",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "47 N 122 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1149829",
+    "secondary_study_accession": "SRP527388",
+    "study_title": "Micro-aeration for Hydrogen Sulfide Reduction in Full-Scale Anaerobic Digesters with Limited Headspace",
+    "study_description": "The goal of this study was to evaluate the biogas desulfurization efficiency at very short biogas RT to evaluate the efficacy of using micro-aeration in digesters with limited headspace.",
+    "study_links": [],
+    "experiment_title": "16SrRNA gene of digestate: Event 4",
+    "library_name": "DE4",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "192709",
+    "base_count": "96739918",
+    "sra_run_bytes": "58864223",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "D4D_S131_L001_R1_001.fastq.gz",
+        "size": "16303439",
+        "date": "2024-08-19 18:15:57",
+        "md5": "9ade38dec2442920649be69eff74e74b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D4D_S131_L001_R2_001.fastq.gz",
+        "size": "20653337",
+        "date": "2024-08-19 18:15:55",
+        "md5": "b7377382d46701e2a5ed3a8752e462c1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D5D_S137_L001_R1_001.fastq.gz",
+        "size": "12484951",
+        "date": "2024-08-19 18:15:56",
+        "md5": "caeb530e2d7f253cdabb750ff0821c0c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D5D_S137_L001_R2_001.fastq.gz",
+        "size": "15611967",
+        "date": "2024-08-19 18:15:58",
+        "md5": "bf952774d11e7d973ae8749718d6b41a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299194",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR30299194/SRR30299194",
+        "size": "58866738",
+        "date": "2024-08-19 18:16:07",
+        "md5": "4cb4dca189199f6960da67b6a9cb1ea3",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299194.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR030/30299/SRR30299194/SRR30299194.lite.1",
+        "size": "24528013",
+        "date": "2024-08-19 18:54:37",
+        "md5": "46738bc4c1bf582f549b257ba1aa6a01",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-30 00:12:38",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR30299195",
+    "experiment_accession": "SRX25759670",
+    "sample_accession": "SAMN43260993",
+    "secondary_sample_accession": "SRS22398819",
+    "sample_alias": "digestate event 3",
+    "sample_title": "",
+    "scientific_name": "sludge metagenome",
+    "tax_id": "1592332",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "Homo sapiens",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "sludge",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2022-08-29",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Washington, Pierce county",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "47 N 122 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1149829",
+    "secondary_study_accession": "SRP527388",
+    "study_title": "Micro-aeration for Hydrogen Sulfide Reduction in Full-Scale Anaerobic Digesters with Limited Headspace",
+    "study_description": "The goal of this study was to evaluate the biogas desulfurization efficiency at very short biogas RT to evaluate the efficacy of using micro-aeration in digesters with limited headspace.",
+    "study_links": [],
+    "experiment_title": "16SrRNA gene of digestate: Event 3",
+    "library_name": "DE3",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "87690",
+    "base_count": "44020380",
+    "sra_run_bytes": "26522509",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "D4C_S130_L001_R1_001.fastq.gz",
+        "size": "10104456",
+        "date": "2024-08-19 18:16:42",
+        "md5": "85545c4eca6c235935bb000f864bc823",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D4C_S130_L001_R2_001.fastq.gz",
+        "size": "12533474",
+        "date": "2024-08-19 18:16:35",
+        "md5": "2841d0f50e8f58540f04a5aebfac88be",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D5C_S136_L001_R1_001.fastq.gz",
+        "size": "2984995",
+        "date": "2024-08-19 18:16:37",
+        "md5": "ffe3bc6ae359f81a08f058610f029834",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D5C_S136_L001_R2_001.fastq.gz",
+        "size": "3694032",
+        "date": "2024-08-19 18:16:40",
+        "md5": "35694a95f59fae657b83456673511528",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299195",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR30299195/SRR30299195",
+        "size": "26525028",
+        "date": "2024-08-19 18:16:55",
+        "md5": "60002919505dadb6b3bd1b9dc36045af",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299195.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR030/30299/SRR30299195/SRR30299195.lite.1",
+        "size": "11118735",
+        "date": "2024-08-19 18:54:35",
+        "md5": "89b8d9802aa56844fbaef3423128fe6b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-30 00:12:38",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR30299196",
+    "experiment_accession": "SRX25759669",
+    "sample_accession": "SAMN43261001",
+    "secondary_sample_accession": "SRS22398818",
+    "sample_alias": "digestate control",
+    "sample_title": "",
+    "scientific_name": "sludge metagenome",
+    "tax_id": "1592332",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "Homo sapiens",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "sludge",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2023-05-12",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Washington, Pierce county",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "47 N 122 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1149829",
+    "secondary_study_accession": "SRP527388",
+    "study_title": "Micro-aeration for Hydrogen Sulfide Reduction in Full-Scale Anaerobic Digesters with Limited Headspace",
+    "study_description": "The goal of this study was to evaluate the biogas desulfurization efficiency at very short biogas RT to evaluate the efficacy of using micro-aeration in digesters with limited headspace.",
+    "study_links": [],
+    "experiment_title": "16SrRNA gene of control",
+    "library_name": "control",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "175",
+    "base_count": "87850",
+    "sra_run_bytes": "113801",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "WaterNegCtrl-RT_S56_L001_R1_001.fastq.gz",
+        "size": "28637",
+        "date": "2024-08-19 18:15:28",
+        "md5": "5d3e42758a9a4158e0d8a2406cb5adc4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "WaterNegCtrl-RT_S56_L001_R2_001.fastq.gz",
+        "size": "35383",
+        "date": "2024-08-19 18:15:26",
+        "md5": "01810cd14566f5996b76cd16b37516b3",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299196",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR30299196/SRR30299196",
+        "size": "115718",
+        "date": "2024-08-19 18:15:39",
+        "md5": "519ab90ccc113c734da073bc7ae7ad12",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299196.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR030/30299/SRR30299196/SRR30299196.lite.1",
+        "size": "84462",
+        "date": "2024-08-19 18:54:35",
+        "md5": "e2369f495bb592c558e72f0468e21b66",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-30 00:12:38",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR30299197",
+    "experiment_accession": "SRX25759668",
+    "sample_accession": "SAMN43260992",
+    "secondary_sample_accession": "SRS22398817",
+    "sample_alias": "digestate event 2",
+    "sample_title": "",
+    "scientific_name": "sludge metagenome",
+    "tax_id": "1592332",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "Homo sapiens",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "sludge",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2022-08-25",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Washington, Pierce county",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "47 N 122 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1149829",
+    "secondary_study_accession": "SRP527388",
+    "study_title": "Micro-aeration for Hydrogen Sulfide Reduction in Full-Scale Anaerobic Digesters with Limited Headspace",
+    "study_description": "The goal of this study was to evaluate the biogas desulfurization efficiency at very short biogas RT to evaluate the efficacy of using micro-aeration in digesters with limited headspace.",
+    "study_links": [],
+    "experiment_title": "16SrRNA gene of digestate: Event 2",
+    "library_name": "DE2",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "256691",
+    "base_count": "128858882",
+    "sra_run_bytes": "78011112",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "D4B_S129_L001_R1_001.fastq.gz",
+        "size": "16700576",
+        "date": "2024-08-19 18:17:01",
+        "md5": "a4d78c78ca0bc9ac4e13b20896d62711",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D4B_S129_L001_R2_001.fastq.gz",
+        "size": "20447266",
+        "date": "2024-08-19 18:17:03",
+        "md5": "a33912068717fe93c6677d34d2e7c81b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D5B_S135_L001_R1_001.fastq.gz",
+        "size": "21783747",
+        "date": "2024-08-19 18:17:05",
+        "md5": "7cdbeda882b7e47f8bc6f358b49c1ff4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D5B_S135_L001_R2_001.fastq.gz",
+        "size": "27362855",
+        "date": "2024-08-19 18:16:59",
+        "md5": "6ea30c3ce705425a91ebe7f5c162dbe9",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299197",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR30299197/SRR30299197",
+        "size": "78013625",
+        "date": "2024-08-19 18:17:18",
+        "md5": "cbfcedb9bd35b6570b1d778ea5eae162",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299197.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR030/30299/SRR30299197/SRR30299197.lite.1",
+        "size": "32692673",
+        "date": "2024-08-19 18:54:38",
+        "md5": "b0377317e74f801b61e1c19874885f18",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-30 00:12:38",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR30299198",
+    "experiment_accession": "SRX25759667",
+    "sample_accession": "SAMN43260991",
+    "secondary_sample_accession": "SRS22398816",
+    "sample_alias": "digestate event 1",
+    "sample_title": "",
+    "scientific_name": "sludge metagenome",
+    "tax_id": "1592332",
+    "sample_attributes": [
+      {
+        "tag": "host",
+        "value": "Homo sapiens",
+        "units": ""
+      },
+      {
+        "tag": "isolation_source",
+        "value": "sludge",
+        "units": ""
+      },
+      {
+        "tag": "collection_date",
+        "value": "2022-08-22",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Washington, Pierce county",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "47 N 122 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "Metagenome or environmental",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1149829",
+    "secondary_study_accession": "SRP527388",
+    "study_title": "Micro-aeration for Hydrogen Sulfide Reduction in Full-Scale Anaerobic Digesters with Limited Headspace",
+    "study_description": "The goal of this study was to evaluate the biogas desulfurization efficiency at very short biogas RT to evaluate the efficacy of using micro-aeration in digesters with limited headspace.",
+    "study_links": [],
+    "experiment_title": "16SrRNA gene of digestate: Event 1",
+    "library_name": "DE1",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "168877",
+    "base_count": "84776254",
+    "sra_run_bytes": "51515242",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "D4A_S128_L001_R1_001.fastq.gz",
+        "size": "11009033",
+        "date": "2024-08-19 18:16:38",
+        "md5": "6a12044a89d8efa82649f5c71f16bf9b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D4A_S128_L001_R2_001.fastq.gz",
+        "size": "13558959",
+        "date": "2024-08-19 18:16:42",
+        "md5": "8c70354cb0a4adddf5b08b0600ae10e1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D5A_S134_L001_R1_001.fastq.gz",
+        "size": "14514602",
+        "date": "2024-08-19 18:16:40",
+        "md5": "186b982201fed7a1ef32bdaa0a3b5a9b",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "D5A_S134_L001_R2_001.fastq.gz",
+        "size": "17878604",
+        "date": "2024-08-19 18:16:37",
+        "md5": "ad4fcc2d9a13b574201f77ff418dee4a",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299198",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR30299198/SRR30299198",
+        "size": "51517758",
+        "date": "2024-08-19 18:16:54",
+        "md5": "cde608561641fd96d85ea49acbf5d3df",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30299198.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos10/sra-pub-zq-1002/SRR030/30299/SRR30299198/SRR30299198.lite.1",
+        "size": "21461032",
+        "date": "2024-08-19 18:54:36",
+        "md5": "d072ac713f3ad1ad5c205b333fae88b7",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-06-30 00:12:38",
+    "run_is_public": "true"
+  }
+]

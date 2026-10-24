@@ -15,7 +15,10 @@ def csvout(name,rows):
   for r in rows:w.writerow({k:json.dumps(v,ensure_ascii=False) if isinstance(v,(list,dict)) else v for k,v in r.items()})
 def cls(x,known,settings):
  if settings.get('assay_exclusion'):return settings['assay_exclusion']
+ if settings.get('assay_special'):return settings['assay_special']
  strategy=(x.get('library_strategy') or '').upper();source=(x.get('library_source') or '').upper();sci=(x.get('scientific_name') or '').lower()
+ if 'SINGLE CELL' in source:return '特殊：单细胞基因组/WGA'
+ if 'VIRAL' in source or 'viral metagenome' in sci or 'virome' in sci:return '特殊：病毒富集/病毒组'
  if strategy=='AMPLICON':return '非目标：扩增子'
  if x['run_accession'] in known:return '群落宏基因组：既有全文方法及官方run联合确认'
  if source=='METATRANSCRIPTOMIC' and strategy in ['RNA-SEQ','OTHER','WGS']:return '群落宏转录组候选'

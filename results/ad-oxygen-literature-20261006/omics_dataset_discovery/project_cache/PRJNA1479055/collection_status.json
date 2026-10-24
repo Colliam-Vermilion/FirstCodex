@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1479055",
+  "checked_utc": "2026-10-24T14:53:43.563722+00:00",
+  "ena_run_count": 33,
+  "ncbi_sra_count": 33,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1479055&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:43.563888+00:00",
+    "raw_path": "raw/ENA/3d10d639a8df26d4a5c81af6d796f4f44bfbcd14b041e881130a5e98719a1913.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1479055&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 42347,
+    "sha256": "dbd2eae80cff8eab94c08006bc4b25c15ba52ae154b6af409ff8ea0f615b9f3b",
+    "finished_utc": "2026-10-24T14:53:43.776502+00:00",
+    "measured_wall_seconds": 0.213
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1479055&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:53:44.178947+00:00",
+    "raw_path": "raw/NCBI/3079457709f316269335524d7d437478f55910bfd83bcf998527939a69e32794.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1479055&retmode=json&retmax=200&retstart=0",
+    "bytes": 659,
+    "sha256": "1cef11478e7c0e106b7c32e21769cbf2de8c895fc49df7cd9b6e2df178505f9d",
+    "finished_utc": "2026-10-24T14:53:44.310309+00:00",
+    "measured_wall_seconds": 0.131
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1479055",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:45.202090+00:00",
+    "raw_path": "raw/ENA/ce3794c173ca0698653ada02eb0391fdfc29b09b88bb9b69f9245a8bb98e278c.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1479055",
+    "bytes": 2143,
+    "sha256": "6d7e0bce31f65a205f1dd9ad6a5a46214b15c801284ed6583cd13e6a6de0b319",
+    "finished_utc": "2026-10-24T14:53:45.615173+00:00",
+    "measured_wall_seconds": 0.413
+  },
+  "project_title": "Redox Influence on Microbial Communities in Anaerobic Coastal Sediments",
+  "project_description": "We inoculated anaerobic sediments from 3 different depths using two different reducing agents (sodium dithionite and titanium (III) citrate) at varied redoxes (-150, -300, -340, -380, and -570mV) over 150 days to assess longterm affects on microbial community composition.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1479055"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP710139"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "University of Delaware",
+      "value": "PRJNA1479055"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1479055&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1479055&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 33
+}

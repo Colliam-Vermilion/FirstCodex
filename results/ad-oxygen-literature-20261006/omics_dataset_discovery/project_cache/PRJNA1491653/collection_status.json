@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1491653",
+  "checked_utc": "2026-10-24T14:52:51.786771+00:00",
+  "ena_run_count": 30,
+  "ncbi_sra_count": 30,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1491653&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:52:51.786916+00:00",
+    "raw_path": "raw/ENA/254246dca1a573930b9df6cdfbb267d5284e32ac72ad3c78561010b810f66d2a.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1491653&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 39827,
+    "sha256": "642ba83776ebdb9652ea05f4411c06cbe2dacf65e1af2fba3465fe09921dec8f",
+    "finished_utc": "2026-10-24T14:52:52.180569+00:00",
+    "measured_wall_seconds": 0.394
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1491653&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:52:52.582146+00:00",
+    "raw_path": "raw/NCBI/5279c9c2b3fe5a7debdb62b0c0418041cce965b5515503372de63abd03240ed4.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1491653&retmode=json&retmax=200&retstart=0",
+    "bytes": 626,
+    "sha256": "5323d35d87a10b4669d8c083afd3138b60c072861ceb12cd461d52e63a0a8d58",
+    "finished_utc": "2026-10-24T14:52:52.702441+00:00",
+    "measured_wall_seconds": 0.12
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1491653",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:52:53.633022+00:00",
+    "raw_path": "raw/ENA/50a4bac79b1794413f79dfee8082b201f87cb48fb15587b8200c7cf03bac4507.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1491653",
+    "bytes": 2927,
+    "sha256": "af6aa326c820b724f788c463b4dca41fc7dbfe943903538f4c6b4d682a4c7deb",
+    "finished_utc": "2026-10-24T14:52:53.885808+00:00",
+    "measured_wall_seconds": 0.253
+  },
+  "project_title": "Microbial community dynamics during anaerobic digestion of high-ammonia livestock wastewater under different aeration pretreatments",
+  "project_description": "This BioProject contains Illumina 16S rRNA gene amplicon sequencing data generated to characterize bacterial and archaeal community dynamics during anaerobic digestion of high-ammonia livestock wastewater.</p><p>Three pretreatment strategies were investigated, including nanobubble aeration pretreatment, conventional aeration pretreatment, and non-aerated control. Samples were collected from anaerobic digestion systems at different incubation stages.</p><p>The V3-V4 region of bacterial 16S rRNA genes and archaeal 16S rRNA genes were amplified and sequenced separately. Sequencing data were used to investigate microbial succession, nitrogen transformation-related microorganisms, methanogenic archaea, and their relationships with methane production performance during anaerobic digestion.</p><p>This dataset provides raw sequencing reads for studying microbial mechanisms involved in anaerobic treatment of livestock wastewater under different aeration strategies.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1491653"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP716217"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Henan Agricultural University",
+      "value": "PRJNA1491653"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1491653&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1491653&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 30
+}

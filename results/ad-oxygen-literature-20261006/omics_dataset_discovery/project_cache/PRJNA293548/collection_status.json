@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA293548",
+  "checked_utc": "2026-10-24T14:53:13.581903+00:00",
+  "ena_run_count": 12,
+  "ncbi_sra_count": 12,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA293548&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:13.582101+00:00",
+    "raw_path": "raw/ENA/0bddf5c11c89bfb11ce484642d929dbf815b84c80d19ff55152960349c74a909.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA293548&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 18214,
+    "sha256": "e092e126ceb9d1b5376953a830f2f3a20f5acf4ec21ffd1ddef5b06f5a5ed57f",
+    "finished_utc": "2026-10-24T14:53:13.765703+00:00",
+    "measured_wall_seconds": 0.184
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA293548&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:53:14.167001+00:00",
+    "raw_path": "raw/NCBI/3e5ff22223c894d68484a52a09a2fcedb6d161e84d5c807d9ffffc252a06c6af.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA293548&retmode=json&retmax=200&retstart=0",
+    "bytes": 414,
+    "sha256": "d43abaa1b75d58d434da0957aa8f65a2ab189954a83cb9c3546eaa184ab748c4",
+    "finished_utc": "2026-10-24T14:53:14.279339+00:00",
+    "measured_wall_seconds": 0.112
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA293548",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:14.959512+00:00",
+    "raw_path": "raw/ENA/8ec3f93f74f6046d6bb7bf4d3fa3c07411791c60a5996c9035829a6741b6ea9f.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA293548",
+    "bytes": 3545,
+    "sha256": "f05ba3b39f54ff19b639aa18e2b144ce5ba8341a478f7b317cdb570283ba58d8",
+    "finished_utc": "2026-10-24T14:53:15.119473+00:00",
+    "measured_wall_seconds": 0.16
+  },
+  "project_title": "identification of the microbial genes and pathway induced in response to petroleum and oxygen oscillations in marine coastal sediments",
+  "project_description": "Identification of the genes induced in response to petroleum by metatranscriptomic approach: this characterization will be performed on simplified microbial communities focusing on anaerobic prokaryotes inhabiting the hydrocarbon compounds (HC)-degrading bacterial communities with special interest on the sulfate reducing prokaryotes (SRP). These bacterial communities will be characterized by metatranscriptomic approaches in order to characterize the specific genes induced according the crucial adaptative steps to pollutant and redox conditions.</p><p>We perform the analysis at whole community and functional groups levels, an innovative approach that allows understanding the overall assembly and functioning of the bacterial communities. Although the partners have a long experience on determining gene diversity and expression level, the challenge is to combine the information obtained at several organization levels from several bacterial communities. Thus, through the main structuring groups, their relationships and their behavior against oxygen and redox oscillations, we will be able to describe the global functioning of sediments’ bacterial communities. Furthermore the comparisons of the behavior of the different bacterial communities will provide valuable information to understand the structuring of microbial communities exposed to petroleum under oxygen and redox oscillations.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA293548"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP062708"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Mediterranean Institute of Oceanography",
+      "value": "PRJNA293548"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA293548&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA293548&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 12
+}

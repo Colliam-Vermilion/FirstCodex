@@ -1,0 +1,2865 @@
+[
+  {
+    "run_accession": "ERR11905717",
+    "experiment_accession": "ERX11290004",
+    "sample_accession": "SAMEA114301792",
+    "secondary_sample_accession": "ERS16291015",
+    "sample_alias": "SAMEA114301792",
+    "sample_title": "A2_T1_O2_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "A2_T1_O2_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "A2_T1_O2_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "13799248",
+    "base_count": "2207879680",
+    "sra_run_bytes": "960936168",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A2_T1_O2_se_reads.fastq.gz",
+        "size": "1088492184",
+        "date": "2023-10-07 05:08:47",
+        "md5": "cf263ad793d5fcad6b23d1844f103b31",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905717",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905717/ERR11905717",
+        "size": "960938394",
+        "date": "2023-10-07 05:09:10",
+        "md5": "273e07011905c815a2499a57245ba788",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905717.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR011/11905/ERR11905717/ERR11905717.lite.1",
+        "size": "584909822",
+        "date": "2023-10-27 21:37:12",
+        "md5": "f56595e9a7c2df542369b9b867622d8d",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-25 16:12:17",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905728",
+    "experiment_accession": "ERX11290015",
+    "sample_accession": "SAMEA114306361",
+    "secondary_sample_accession": "ERS16295434",
+    "sample_alias": "SAMEA114306361",
+    "sample_title": "JC003_LA3_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "JC003_LA3_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "JC003_LA3_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 paired end sequencing",
+    "library_name": "O2_LEGACY_DNA",
+    "library_strategy": "OTHER",
+    "library_source": "METAGENOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "10645641",
+    "base_count": "2150419482",
+    "sra_run_bytes": "1392319046",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "JC003_LA3_reads_F.fastq.gz",
+        "size": "804101897",
+        "date": "2023-09-28 08:53:22",
+        "md5": "c5ac7fd392635562c1d21dde0913c0c7",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "JC003_LA3_reads_R.fastq.gz",
+        "size": "805213293",
+        "date": "2023-09-28 08:53:13",
+        "md5": "310051d3aa12e947490a9256d8907ee0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905728",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905728/ERR11905728",
+        "size": "1392321267",
+        "date": "2023-09-28 08:53:47",
+        "md5": "8cd9d102a7d73ca5032a8804cb739269",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905728.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/ERR011/11905/ERR11905728/ERR11905728.lite.1",
+        "size": "577942327",
+        "date": "2023-10-03 15:13:57",
+        "md5": "cb4458db9109b5194e018ecef8ce85f1",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-25 16:12:17",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905705",
+    "experiment_accession": "ERX11289992",
+    "sample_accession": "SAMEA114301804",
+    "secondary_sample_accession": "ERS16291027",
+    "sample_alias": "SAMEA114301804",
+    "sample_title": "A14_T3_SA2_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "A14_T3_SA2_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "A14_T3_SA2_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "11075556",
+    "base_count": "1772088960",
+    "sra_run_bytes": "767416495",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A14_T3_SA2_se_reads.fastq.gz",
+        "size": "834252199",
+        "date": "2023-10-07 04:56:53",
+        "md5": "4a0ef4436c59c7143a6335c305137caa",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905705",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905705/ERR11905705",
+        "size": "767418716",
+        "date": "2023-10-07 04:57:27",
+        "md5": "c4e62e14167487cec467431a6615190c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905705.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR011/11905/ERR11905705/ERR11905705.lite.1",
+        "size": "469831832",
+        "date": "2023-10-27 21:27:32",
+        "md5": "0d32b73e8f692eb439272b7096204480",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-24 19:29:46",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905721",
+    "experiment_accession": "ERX11290008",
+    "sample_accession": "SAMEA114306368",
+    "secondary_sample_accession": "ERS16295441",
+    "sample_alias": "SAMEA114306368",
+    "sample_title": "JC010_ORIG1_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "JC010_ORIG1_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "JC010_ORIG1_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 paired end sequencing",
+    "library_name": "O2_LEGACY_DNA",
+    "library_strategy": "OTHER",
+    "library_source": "METAGENOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "10832963",
+    "base_count": "2188258526",
+    "sra_run_bytes": "1431742043",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "JC010_ORIG1_reads_F.fastq.gz",
+        "size": "827588149",
+        "date": "2023-09-28 08:46:56",
+        "md5": "4b44d6e175d925e15db52591df5cb1d6",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "JC010_ORIG1_reads_R.fastq.gz",
+        "size": "827957380",
+        "date": "2023-09-28 08:47:00",
+        "md5": "f839ecf96f5b57044799fa26c83183a4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905721",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905721/ERR11905721",
+        "size": "1431744265",
+        "date": "2023-09-28 08:47:15",
+        "md5": "1ffbb7d211a7001d0782e0b49c6f5916",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905721.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/ERR011/11905/ERR11905721/ERR11905721.lite.1",
+        "size": "588268319",
+        "date": "2023-10-03 13:24:00",
+        "md5": "09cd824e685043d2151f560b5b73530c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-25 15:35:07",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905716",
+    "experiment_accession": "ERX11290003",
+    "sample_accession": "SAMEA114301793",
+    "secondary_sample_accession": "ERS16291016",
+    "sample_alias": "SAMEA114301793",
+    "sample_title": "A3_T1_SA1_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "A3_T1_SA1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "A3_T1_SA1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "12784281",
+    "base_count": "2045484960",
+    "sra_run_bytes": "892336207",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A3_T1_SA1_se_reads.fastq.gz",
+        "url": "https://sra-pub-src-1.s3.amazonaws.com/ERR11905716/A3_T1_SA1_se_reads.fastq.gz.1",
+        "size": "1001758349",
+        "date": "2023-10-27 20:41:32",
+        "md5": "2cd28d76cbad8f2fd50e8732e85ad6bd",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905716",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905716/ERR11905716",
+        "size": "892338436",
+        "date": "2023-10-27 20:41:48",
+        "md5": "fc6aa90f3cc49a95ec6b0d9a51da5e53",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905716.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/ERR011/11905/ERR11905716/ERR11905716.lite.1",
+        "size": "541953168",
+        "date": "2023-11-01 20:57:15",
+        "md5": "c0191c8cbf8ca4df881d01a1b0511542",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-25 16:38:21",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905715",
+    "experiment_accession": "ERX11290002",
+    "sample_accession": "SAMEA114301794",
+    "secondary_sample_accession": "ERS16291017",
+    "sample_alias": "SAMEA114301794",
+    "sample_title": "A4_T1_LA1_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "A4_T1_LA1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "A4_T1_LA1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "12490942",
+    "base_count": "1998550720",
+    "sra_run_bytes": "876460297",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A4_T1_LA1_se_reads.fastq.gz",
+        "size": "1030347241",
+        "date": "2023-10-07 05:19:01",
+        "md5": "9a4aab737a07c58a3ab75024c11e4e55",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905715",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905715/ERR11905715",
+        "size": "876462522",
+        "date": "2023-10-07 05:19:24",
+        "md5": "e5477946e1659b6fe2851a33f31419ae",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905715.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR011/11905/ERR11905715/ERR11905715.lite.1",
+        "size": "529498742",
+        "date": "2023-10-27 21:39:49",
+        "md5": "e8b035a7a0ad5994f987258c42cf6ab5",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-25 16:51:34",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905710",
+    "experiment_accession": "ERX11289997",
+    "sample_accession": "SAMEA114301799",
+    "secondary_sample_accession": "ERS16291022",
+    "sample_alias": "SAMEA114301799",
+    "sample_title": "A9_T2_LA1_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "A9_T2_LA1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "A9_T2_LA1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "12503351",
+    "base_count": "2000536160",
+    "sra_run_bytes": "868402651",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A9_T2_LA1_se_reads.fastq.gz",
+        "size": "1016674859",
+        "date": "2023-10-07 05:16:35",
+        "md5": "27181576125b6ef977253061c22c2d14",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905710",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905710/ERR11905710",
+        "size": "868404876",
+        "date": "2023-10-07 05:16:56",
+        "md5": "2b055a7b03c250f27bf21426032d0fb7",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905710.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR011/11905/ERR11905710/ERR11905710.lite.1",
+        "size": "530033820",
+        "date": "2023-10-27 21:38:52",
+        "md5": "adf68317ef8d05eb89a7e1a8fd5f005b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-25 16:38:21",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905720",
+    "experiment_accession": "ERX11290007",
+    "sample_accession": "SAMEA114306369",
+    "secondary_sample_accession": "ERS16295442",
+    "sample_alias": "SAMEA114306369",
+    "sample_title": "JC011_ORIG2_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "JC011_ORIG2_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "JC011_ORIG2_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 paired end sequencing",
+    "library_name": "O2_LEGACY_DNA",
+    "library_strategy": "OTHER",
+    "library_source": "METAGENOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "10301103",
+    "base_count": "2080822806",
+    "sra_run_bytes": "1361436735",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "JC011_ORIG2_reads_F.fastq.gz",
+        "url": "https://sra-pub-src-2.s3.amazonaws.com/ERR11905720/JC011_ORIG2_reads_F.fastq.gz.1",
+        "size": "783925033",
+        "date": "2023-09-28 05:28:10",
+        "md5": "db82c1624dc2d1ae04f5d1bd2904dded",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "JC011_ORIG2_reads_R.fastq.gz",
+        "url": "https://sra-pub-src-2.s3.amazonaws.com/ERR11905720/JC011_ORIG2_reads_R.fastq.gz.1",
+        "size": "787464996",
+        "date": "2023-09-28 05:28:01",
+        "md5": "8137c13a5441d69aa7f5ad0a2a8bf8e0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905720",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905720/ERR11905720",
+        "size": "1361438956",
+        "date": "2023-09-28 05:28:35",
+        "md5": "9d13507d7d422e82157f2c07143ab501",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905720.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/ERR011/11905/ERR11905720/ERR11905720.lite.1",
+        "size": "559466380",
+        "date": "2023-10-03 10:31:28",
+        "md5": "0ace2c19c81894a8d6cdbb76618ed0b0",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-24 19:18:05",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905712",
+    "experiment_accession": "ERX11289999",
+    "sample_accession": "SAMEA114301797",
+    "secondary_sample_accession": "ERS16291020",
+    "sample_alias": "SAMEA114301797",
+    "sample_title": "A7_T2_SA1_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "A7_T2_SA1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "A7_T2_SA1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "12672845",
+    "base_count": "2027655200",
+    "sra_run_bytes": "870346557",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A7_T2_SA1_se_reads.fastq.gz",
+        "size": "930155476",
+        "date": "2023-09-28 08:47:25",
+        "md5": "4843af8ebe6e209544c75d2e7af649b1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905712",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905712/ERR11905712",
+        "size": "870348782",
+        "date": "2023-09-28 08:47:44",
+        "md5": "5da1e5edcd3e9721f5cf35d916e06ed9",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905712.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/ERR011/11905/ERR11905712/ERR11905712.lite.1",
+        "size": "537403834",
+        "date": "2023-10-03 13:24:21",
+        "md5": "04644794a2f030b48d14a1f4d9ce5b80",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-25 15:52:02",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905708",
+    "experiment_accession": "ERX11289995",
+    "sample_accession": "SAMEA114301801",
+    "secondary_sample_accession": "ERS16291024",
+    "sample_alias": "SAMEA114301801",
+    "sample_title": "A11_T3_O1_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "A11_T3_O1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "A11_T3_O1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "11709824",
+    "base_count": "1873571840",
+    "sra_run_bytes": "816230698",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "ERR11905708.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR011/11905/ERR11905708/ERR11905708.lite.1",
+        "size": "496610376",
+        "date": "2023-10-27 21:06:31",
+        "md5": "048ff9508f0b69ba74c2d0af757541e9",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905708",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905708/ERR11905708",
+        "size": "816232924",
+        "date": "2023-10-07 04:25:01",
+        "md5": "60dadd829c0f0a3b874005e5032f587a",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "A11_T3_O1_se_reads.fastq.gz",
+        "size": "926946357",
+        "date": "2023-10-07 04:24:40",
+        "md5": "f66a11b65520e94dd82c26ace81012f9",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2023-09-24 18:32:23",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905729",
+    "experiment_accession": "ERX11290016",
+    "sample_accession": "SAMEA114306360",
+    "secondary_sample_accession": "ERS16295433",
+    "sample_alias": "SAMEA114306360",
+    "sample_title": "JC002_LA2_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "JC002_LA2_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "JC002_LA2_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 paired end sequencing",
+    "library_name": "O2_LEGACY_DNA",
+    "library_strategy": "OTHER",
+    "library_source": "METAGENOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "9825168",
+    "base_count": "1984683936",
+    "sra_run_bytes": "1281749698",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "JC002_LA2_reads_F.fastq.gz",
+        "size": "742117455",
+        "date": "2023-09-29 03:02:32",
+        "md5": "d9dc24470b964b50a11327baf993341c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "JC002_LA2_reads_R.fastq.gz",
+        "size": "740035217",
+        "date": "2023-09-29 03:02:34",
+        "md5": "a7a6907c32f6de7ddc2113e6d7fe7f04",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905729",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905729/ERR11905729",
+        "size": "1281751915",
+        "date": "2023-09-29 03:02:45",
+        "md5": "74606fedf31a49218632d51c5c677116",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905729.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/ERR011/11905/ERR11905729/ERR11905729.lite.1",
+        "size": "533484364",
+        "date": "2023-10-04 09:19:27",
+        "md5": "2ce689a427680d9c5ecfef1d84abcb1c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-25 17:44:54",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905711",
+    "experiment_accession": "ERX11289998",
+    "sample_accession": "SAMEA114301798",
+    "secondary_sample_accession": "ERS16291021",
+    "sample_alias": "SAMEA114301798",
+    "sample_title": "A8_T2_SA2_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "A8_T2_SA2_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "A8_T2_SA2_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "11185870",
+    "base_count": "1789739200",
+    "sra_run_bytes": "771416098",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "ERR11905711.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR011/11905/ERR11905711/ERR11905711.lite.1",
+        "size": "474451330",
+        "date": "2023-10-27 21:08:52",
+        "md5": "4080615cb92e559c018276f9449a52f8",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905711",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905711/ERR11905711",
+        "size": "771418322",
+        "date": "2023-10-07 04:33:07",
+        "md5": "700acf00d2c33a80364712e850c77764",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "A8_T2_SA2_se_reads.fastq.gz",
+        "size": "848094201",
+        "date": "2023-10-07 04:32:46",
+        "md5": "49aa90fc817e93e3ed504dd4395b64cf",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2023-09-24 19:08:59",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905709",
+    "experiment_accession": "ERX11289996",
+    "sample_accession": "SAMEA114301800",
+    "secondary_sample_accession": "ERS16291023",
+    "sample_alias": "SAMEA114301800",
+    "sample_title": "A10_T2_LA2_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "A10_T2_LA2_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "A10_T2_LA2_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "12204268",
+    "base_count": "1952682880",
+    "sra_run_bytes": "850351403",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A10_T2_LA2_se_reads.fastq.gz",
+        "url": "https://sra-pub-src-1.s3.amazonaws.com/ERR11905709/A10_T2_LA2_se_reads.fastq.gz.1",
+        "size": "991254324",
+        "date": "2023-10-27 20:35:43",
+        "md5": "234eb4c1e94a2bd9a9d3e1ee2f711005",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905709",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905709/ERR11905709",
+        "size": "850353630",
+        "date": "2023-10-27 20:35:58",
+        "md5": "0cbb94ecf53f0e46234cb99995ec2c4a",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905709.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/ERR011/11905/ERR11905709/ERR11905709.lite.1",
+        "size": "517468298",
+        "date": "2023-11-01 20:55:18",
+        "md5": "5afd31e368009bda846f0a156fc98c3e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-24 19:29:46",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905704",
+    "experiment_accession": "ERX11289991",
+    "sample_accession": "SAMEA114301805",
+    "secondary_sample_accession": "ERS16291028",
+    "sample_alias": "SAMEA114301805",
+    "sample_title": "A15_T3_LA1_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "A15_T3_LA1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "A15_T3_LA1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "9147201",
+    "base_count": "1463552160",
+    "sra_run_bytes": "632688162",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A15_T3_LA1_se_reads.fastq.gz",
+        "size": "716216710",
+        "date": "2023-10-07 05:11:29",
+        "md5": "c49a7a5d49e88b0a0a6c5d83d763ddd5",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905704",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905704/ERR11905704",
+        "size": "632690388",
+        "date": "2023-10-07 05:12:24",
+        "md5": "f3af6f85c0abadc0f0dad84933db352a",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905704.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR011/11905/ERR11905704/ERR11905704.lite.1",
+        "size": "388243872",
+        "date": "2023-10-27 21:38:21",
+        "md5": "13a6f40c40c692ac265fe5e03ed61f2e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-25 16:25:09",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905723",
+    "experiment_accession": "ERX11290010",
+    "sample_accession": "SAMEA114306366",
+    "secondary_sample_accession": "ERS16295439",
+    "sample_alias": "SAMEA114306366",
+    "sample_title": "JC008_SA2_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "JC008_SA2_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "JC008_SA2_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 paired end sequencing",
+    "library_name": "O2_LEGACY_DNA",
+    "library_strategy": "OTHER",
+    "library_source": "METAGENOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "8788658",
+    "base_count": "1775308916",
+    "sra_run_bytes": "1152701932",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "JC008_SA2_reads_F.fastq.gz",
+        "size": "663432642",
+        "date": "2023-10-07 05:25:17",
+        "md5": "21217430d930207d352f6ded6882de8d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "JC008_SA2_reads_R.fastq.gz",
+        "size": "666954276",
+        "date": "2023-10-07 05:25:20",
+        "md5": "b89edccf561d689e5c11a8c6a78cacd1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905723",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905723/ERR11905723",
+        "size": "1152704154",
+        "date": "2023-10-07 05:25:36",
+        "md5": "273a29bdc7c88128b8f303a373e8c76a",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905723.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR011/11905/ERR11905723/ERR11905723.lite.1",
+        "size": "477338787",
+        "date": "2023-10-27 21:41:49",
+        "md5": "6088046f1ecfa5244f74dc996b79457c",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-25 17:59:09",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905724",
+    "experiment_accession": "ERX11290011",
+    "sample_accession": "SAMEA114306365",
+    "secondary_sample_accession": "ERS16295438",
+    "sample_alias": "SAMEA114306365",
+    "sample_title": "JC007_SA1_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "JC007_SA1_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "JC007_SA1_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 paired end sequencing",
+    "library_name": "O2_LEGACY_DNA",
+    "library_strategy": "OTHER",
+    "library_source": "METAGENOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "5448373",
+    "base_count": "1100571346",
+    "sra_run_bytes": "713088463",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "ERR11905724.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/ERR011/11905/ERR11905724/ERR11905724.lite.1",
+        "size": "296189435",
+        "date": "2023-10-04 12:45:47",
+        "md5": "22a3a2828d57f4a6d1c20d92bdf31eef",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905724",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905724/ERR11905724",
+        "size": "713090683",
+        "date": "2023-09-29 02:58:51",
+        "md5": "509511f0ac353ed6380ddced406611df",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "JC007_SA1_reads_R.fastq.gz",
+        "size": "414051399",
+        "date": "2023-09-29 02:58:35",
+        "md5": "825d7161a8ec86b81ffc8f627106d745",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "JC007_SA1_reads_F.fastq.gz",
+        "size": "412241673",
+        "date": "2023-09-29 02:58:38",
+        "md5": "34e3739ff3c98067ba94267a30e1b2ce",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2023-09-24 18:08:25",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905718",
+    "experiment_accession": "ERX11290005",
+    "sample_accession": "SAMEA114301791",
+    "secondary_sample_accession": "ERS16291014",
+    "sample_alias": "A1_T1_O1_se_reads",
+    "sample_title": "A1_T1_O1_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "organism",
+        "value": "soil metagenome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "12126636",
+    "base_count": "1940261760",
+    "sra_run_bytes": "841123139",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A1_T1_O1_se_reads.fastq.gz",
+        "url": "https://sra-pub-src-2.s3.amazonaws.com/ERR11905718/A1_T1_O1_se_reads.fastq.gz.1",
+        "size": "947832698",
+        "date": "2023-09-28 05:27:33",
+        "md5": "b1bfb0a76ae51274ad870a0f0a025509",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905718",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905718/ERR11905718",
+        "size": "841125361",
+        "date": "2023-09-28 05:27:46",
+        "md5": "089973b030a085873a82811b698d7017",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905718.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/ERR011/11905/ERR11905718/ERR11905718.lite.1",
+        "size": "514189533",
+        "date": "2023-10-03 10:31:07",
+        "md5": "46d53826d363b3a28ca4b43f0481b6fa",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-24 19:29:46",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905725",
+    "experiment_accession": "ERX11290012",
+    "sample_accession": "SAMEA114306364",
+    "secondary_sample_accession": "ERS16295437",
+    "sample_alias": "SAMEA114306364",
+    "sample_title": "JC006_O3_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "JC006_O3_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "JC006_O3_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 paired end sequencing",
+    "library_name": "O2_LEGACY_DNA",
+    "library_strategy": "OTHER",
+    "library_source": "METAGENOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "9744642",
+    "base_count": "1968417684",
+    "sra_run_bytes": "1268665905",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "JC006_O3_reads_F.fastq.gz",
+        "size": "730826618",
+        "date": "2023-10-07 04:57:19",
+        "md5": "d2e713a6df2338fd3e10c6b2f86ec4c4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "JC006_O3_reads_R.fastq.gz",
+        "size": "734374076",
+        "date": "2023-10-07 04:57:11",
+        "md5": "4fa7fb6bf971049736105ccee21fceba",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905725",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905725/ERR11905725",
+        "size": "1268668125",
+        "date": "2023-10-07 04:58:27",
+        "md5": "b04b84fd03eaf2c56fcb5539bb6997c5",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905725.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR011/11905/ERR11905725/ERR11905725.lite.1",
+        "size": "529082959",
+        "date": "2023-10-27 21:23:11",
+        "md5": "53cc94cfffb4faef9b6763bfa522b3f6",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-24 19:29:46",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905706",
+    "experiment_accession": "ERX11289993",
+    "sample_accession": "SAMEA114301803",
+    "secondary_sample_accession": "ERS16291026",
+    "sample_alias": "SAMEA114301803",
+    "sample_title": "A13_T3_SA1_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "A13_T3_SA1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "A13_T3_SA1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "12573235",
+    "base_count": "2011717600",
+    "sra_run_bytes": "869757027",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A13_T3_SA1_se_reads.fastq.gz",
+        "size": "987228396",
+        "date": "2023-09-28 08:44:45",
+        "md5": "b53dc23b542fe48c9f81d77375e61de3",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905706",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905706/ERR11905706",
+        "size": "869759251",
+        "date": "2023-09-28 08:44:56",
+        "md5": "67cae5bc453d92f95e7ed1ba3c76f076",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905706.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/ERR011/11905/ERR11905706/ERR11905706.lite.1",
+        "size": "533005511",
+        "date": "2023-10-03 15:26:05",
+        "md5": "1f5e5e9bb487e4de0702c59da158f1e8",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-25 15:35:07",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905730",
+    "experiment_accession": "ERX11290017",
+    "sample_accession": "SAMEA114306359",
+    "secondary_sample_accession": "ERS16295432",
+    "sample_alias": "SAMEA114306359",
+    "sample_title": "JC001_LA1_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "JC001_LA1_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "JC001_LA1_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 paired end sequencing",
+    "library_name": "O2_LEGACY_DNA",
+    "library_strategy": "OTHER",
+    "library_source": "METAGENOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "10281238",
+    "base_count": "2076810076",
+    "sra_run_bytes": "1342394655",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "JC001_LA1_reads_F.fastq.gz",
+        "size": "775846260",
+        "date": "2023-10-07 05:12:54",
+        "md5": "156a2e43a7cd166cfc3b9d5dbc6a5132",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "JC001_LA1_reads_R.fastq.gz",
+        "size": "778757826",
+        "date": "2023-10-07 05:13:14",
+        "md5": "27c87d4b2aad97ff1686b7de8505fd9c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905730",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905730/ERR11905730",
+        "size": "1342396883",
+        "date": "2023-10-07 05:13:34",
+        "md5": "b3b4158380a4b87d263c9edfc029d4d0",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905730.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR011/11905/ERR11905730/ERR11905730.lite.1",
+        "size": "558320649",
+        "date": "2023-10-27 21:36:33",
+        "md5": "86b695df447cf4f0abb415d89e1968f2",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-25 15:39:41",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905727",
+    "experiment_accession": "ERX11290014",
+    "sample_accession": "SAMEA114306362",
+    "secondary_sample_accession": "ERS16295435",
+    "sample_alias": "SAMEA114306362",
+    "sample_title": "JC004_O1_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "JC004_O1_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "JC004_O1_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 paired end sequencing",
+    "library_name": "O2_LEGACY_DNA",
+    "library_strategy": "OTHER",
+    "library_source": "METAGENOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "9192706",
+    "base_count": "1856926612",
+    "sra_run_bytes": "1203165041",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "JC004_O1_reads_F.fastq.gz",
+        "size": "695324853",
+        "date": "2023-10-27 20:43:02",
+        "md5": "dd2138235542b90918205aecfd7081b7",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "JC004_O1_reads_R.fastq.gz",
+        "size": "697699808",
+        "date": "2023-10-27 20:42:53",
+        "md5": "6bb45ab4b4b297cd77b436bf1bf43067",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905727",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905727/ERR11905727",
+        "size": "1203167263",
+        "date": "2023-10-27 20:43:29",
+        "md5": "e6955529fe43c30635a3dd90718e0b07",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905727.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/ERR011/11905/ERR11905727/ERR11905727.lite.1",
+        "size": "499286324",
+        "date": "2023-11-01 20:57:57",
+        "md5": "12b4207873ff0745b08ae6c4f09e4e01",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-25 17:33:37",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905703",
+    "experiment_accession": "ERX11289990",
+    "sample_accession": "SAMEA114301806",
+    "secondary_sample_accession": "ERS16291029",
+    "sample_alias": "SAMEA114301806",
+    "sample_title": "A16_T3_LA2_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "A16_T3_LA2_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "A16_T3_LA2_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "11841958",
+    "base_count": "1894713280",
+    "sra_run_bytes": "828033905",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A16_T3_LA2_se_reads.fastq.gz",
+        "size": "947513434",
+        "date": "2023-09-29 03:03:46",
+        "md5": "b639a19e0f70e6cab1473b8e0f60598e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905703",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905703/ERR11905703",
+        "size": "828036131",
+        "date": "2023-09-29 03:04:10",
+        "md5": "f5ca7ce44fbaee6a5c4043451b589ad5",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905703.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/ERR011/11905/ERR11905703/ERR11905703.lite.1",
+        "size": "502192647",
+        "date": "2023-10-04 08:22:12",
+        "md5": "890cc28e07db1eae521770fcf9203eb0",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-25 17:41:09",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905713",
+    "experiment_accession": "ERX11290000",
+    "sample_accession": "SAMEA114301796",
+    "secondary_sample_accession": "ERS16291019",
+    "sample_alias": "SAMEA114301796",
+    "sample_title": "A6_T2_O2_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "A6_T2_O2_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "A6_T2_O2_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "11907289",
+    "base_count": "1905166240",
+    "sra_run_bytes": "827775471",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A6_T2_O2_se_reads.fastq.gz",
+        "size": "936985310",
+        "date": "2023-09-28 08:47:49",
+        "md5": "1e7b72a30f45fcf1bd2705afdc814ce1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905713",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905713/ERR11905713",
+        "size": "827777696",
+        "date": "2023-09-28 08:48:12",
+        "md5": "a7fe5bd9d01027e89a1e95a66d9fc472",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905713.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/ERR011/11905/ERR11905713/ERR11905713.lite.1",
+        "size": "504973120",
+        "date": "2023-10-03 15:26:02",
+        "md5": "129bab068ef73b2a3c38ce68fd36e3cc",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-25 15:52:02",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905707",
+    "experiment_accession": "ERX11289994",
+    "sample_accession": "SAMEA114301802",
+    "secondary_sample_accession": "ERS16291025",
+    "sample_alias": "SAMEA114301802",
+    "sample_title": "A12_T3_O2_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "A12_T3_O2_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "A12_T3_O2_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "12982127",
+    "base_count": "2077140320",
+    "sra_run_bytes": "900488135",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A12_T3_O2_se_reads.fastq.gz",
+        "size": "1013607189",
+        "date": "2023-09-28 05:19:51",
+        "md5": "cf79e131ea45526b6fbae7e3b32c2460",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905707",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905707/ERR11905707",
+        "size": "900490362",
+        "date": "2023-09-28 05:20:03",
+        "md5": "f9761c57b1fd87b255a9b18d5e3699e6",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905707.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/ERR011/11905/ERR11905707/ERR11905707.lite.1",
+        "size": "550528342",
+        "date": "2023-10-03 10:29:15",
+        "md5": "e69b0566e2481a9654641025845995b8",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-24 18:49:18",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905719",
+    "experiment_accession": "ERX11290006",
+    "sample_accession": "SAMEA114306370",
+    "secondary_sample_accession": "ERS16295443",
+    "sample_alias": "SAMEA114306370",
+    "sample_title": "JC012_ORIG3_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "JC012_ORIG3_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "JC012_ORIG3_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 paired end sequencing",
+    "library_name": "O2_LEGACY_DNA",
+    "library_strategy": "OTHER",
+    "library_source": "METAGENOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "9614709",
+    "base_count": "1942171218",
+    "sra_run_bytes": "1258160225",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "JC012_ORIG3_reads_F.fastq.gz",
+        "size": "727091359",
+        "date": "2023-09-29 02:58:41",
+        "md5": "c73009d039dbc2406921bd7413155ba0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "JC012_ORIG3_reads_R.fastq.gz",
+        "size": "728900033",
+        "date": "2023-09-29 02:58:50",
+        "md5": "fbcb8cbea5f764e98cdfa72c8479967d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905719",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905719/ERR11905719",
+        "size": "1258162449",
+        "date": "2023-09-29 02:59:12",
+        "md5": "5000e39e53fdbd3576fefbb76dacf17c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905719.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/ERR011/11905/ERR11905719/ERR11905719.lite.1",
+        "size": "522166047",
+        "date": "2023-10-04 09:17:54",
+        "md5": "e95a6527d5ba106f08a9baf9c7986d34",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-24 17:39:43",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905714",
+    "experiment_accession": "ERX11290001",
+    "sample_accession": "SAMEA114301795",
+    "secondary_sample_accession": "ERS16291018",
+    "sample_alias": "SAMEA114301795",
+    "sample_title": "A5_T2_O1_se_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "A5_T2_O1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "A5_T2_O1_se_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 sequencing",
+    "library_name": "O2_LEGACY_RNA",
+    "library_strategy": "OTHER",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "SINGLE",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "12617328",
+    "base_count": "2018772480",
+    "sra_run_bytes": "874745108",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "A5_T2_O1_se_reads.fastq.gz",
+        "size": "997190518",
+        "date": "2023-10-27 19:35:01",
+        "md5": "1e0a31413e4b4f30ddcd4cbf44859a87",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905714",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905714/ERR11905714",
+        "size": "874747336",
+        "date": "2023-10-27 19:35:33",
+        "md5": "8e3bba9a9d57eb53764435af77d8b6fe",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905714.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-924/ERR011/11905/ERR11905714/ERR11905714.lite.1",
+        "size": "534927192",
+        "date": "2023-11-01 19:59:31",
+        "md5": "7fd48225052554cbe40f7a7a8df914f0",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-24 17:39:43",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905722",
+    "experiment_accession": "ERX11290009",
+    "sample_accession": "SAMEA114306367",
+    "secondary_sample_accession": "ERS16295440",
+    "sample_alias": "JC009_SA3_reads",
+    "sample_title": "JC009_SA3_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "organism",
+        "value": "soil metagenome",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 paired end sequencing",
+    "library_name": "O2_LEGACY_DNA",
+    "library_strategy": "OTHER",
+    "library_source": "METAGENOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "9696970",
+    "base_count": "1958787940",
+    "sra_run_bytes": "1269063190",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "JC009_SA3_reads_F.fastq.gz",
+        "size": "729599742",
+        "date": "2023-09-28 05:20:26",
+        "md5": "9dadeda42e4c934c623482b018e79f8d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "JC009_SA3_reads_R.fastq.gz",
+        "size": "733835728",
+        "date": "2023-09-28 05:20:37",
+        "md5": "98ced864c73ff3e867fa9980eb1c689c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905722",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905722/ERR11905722",
+        "size": "1269065417",
+        "date": "2023-09-28 05:21:16",
+        "md5": "9fcf8908cc5f892eb309288590f94709",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905722.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/ERR011/11905/ERR11905722/ERR11905722.lite.1",
+        "size": "526423545",
+        "date": "2023-10-03 10:29:01",
+        "md5": "4b1463014e82c75aa5b4bb41c4123cf9",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2023-09-24 18:32:23",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "ERR11905726",
+    "experiment_accession": "ERX11290013",
+    "sample_accession": "SAMEA114306363",
+    "secondary_sample_accession": "ERS16295436",
+    "sample_alias": "SAMEA114306363",
+    "sample_title": "JC005_O2_reads",
+    "scientific_name": "soil metagenome",
+    "tax_id": "410658",
+    "sample_attributes": [
+      {
+        "tag": "INSDC center name",
+        "value": "Norwegian University of Life Sciences",
+        "units": ""
+      },
+      {
+        "tag": "Submitter Id",
+        "value": "JC005_O2_reads",
+        "units": ""
+      },
+      {
+        "tag": "collection date",
+        "value": "2021",
+        "units": ""
+      },
+      {
+        "tag": "geographic location (country and/or sea)",
+        "value": "Norway",
+        "units": ""
+      },
+      {
+        "tag": "sample name",
+        "value": "JC005_O2_reads",
+        "units": ""
+      },
+      {
+        "tag": "scientific_name",
+        "value": "soil metagenome",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJEB65123",
+    "secondary_study_accession": "ERP150268",
+    "study_title": "Determining how oxygen legacy affects the trajectories of denitrifier function and structure in soil",
+    "study_description": "Denitrification, a key microbial metabolism in the global nitrogen cycle and a main source of the greenhouse gas N2O, is intricately controlled by oxygen. While the regulatory biology during the transition from aerobic respiration to denitrification is comprehensively studied, the understanding of how denitrifiers manage cyclic shifts between oxic and anoxic conditions – prevalent in most natural and engineered environments – remains limited. In a four-week experiment, grassland soil samples were subjected to frequent short anoxic spells, prolonged anoxic spells, or consistently oxic conditions, followed by a final anoxic incubation where denitrification kinetics and meta-genomics/transcriptomics were analyzed.",
+    "study_links": [],
+    "experiment_title": "Illumina HiSeq 1000 paired end sequencing",
+    "library_name": "O2_LEGACY_DNA",
+    "library_strategy": "OTHER",
+    "library_source": "METAGENOMIC",
+    "library_selection": "unspecified",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina HiSeq 1000",
+    "read_count": "9666879",
+    "base_count": "1952709558",
+    "sra_run_bytes": "1264296095",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "ERR11905726.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos9/sra-pub-zq-922/ERR011/11905/ERR11905726/ERR11905726.lite.1",
+        "size": "525104261",
+        "date": "2023-10-03 10:30:42",
+        "md5": "f56ec30b7569dc7c655837e36c53fcf6",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "ERR11905726",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR11905726/ERR11905726",
+        "size": "1264298318",
+        "date": "2023-09-28 05:25:08",
+        "md5": "9217433f253cdd97684193f936250a87",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "JC005_O2_reads_R.fastq.gz",
+        "url": "https://sra-pub-src-2.s3.amazonaws.com/ERR11905726/JC005_O2_reads_R.fastq.gz.1",
+        "size": "733272820",
+        "date": "2023-09-28 05:24:45",
+        "md5": "735e6adda5cc5439f08202b403a11c2f",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "JC005_O2_reads_F.fastq.gz",
+        "url": "https://sra-pub-src-2.s3.amazonaws.com/ERR11905726/JC005_O2_reads_F.fastq.gz.1",
+        "size": "731029804",
+        "date": "2023-09-28 05:24:36",
+        "md5": "622c40af8f47b2b28b09cc4245ab91fc",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      }
+    ],
+    "run_published": "2023-09-24 19:13:08",
+    "run_is_public": "true"
+  }
+]

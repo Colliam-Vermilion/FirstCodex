@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA551662",
+  "checked_utc": "2026-10-24T14:53:06.809202+00:00",
+  "ena_run_count": 54,
+  "ncbi_sra_count": 54,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA551662&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:06.809536+00:00",
+    "raw_path": "raw/ENA/7d6f66b4f67de229933cf04837c94d7560df5cc713e713e72fe00490beaef3bf.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA551662&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 77008,
+    "sha256": "c22b01026e533d1bd1a114ae5fcb64d005f0ef92996663eadc2fe704754d7d30",
+    "finished_utc": "2026-10-24T14:53:08.058538+00:00",
+    "measured_wall_seconds": 1.249
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA551662&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:53:08.461191+00:00",
+    "raw_path": "raw/NCBI/a1930faf91277240e21892829a685e4e360c5c0bf883a5f75654432f20f2d935.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA551662&retmode=json&retmax=200&retstart=0",
+    "bytes": 834,
+    "sha256": "ce72e279cb47f822f9d7874acefcadc5eecd0c2eef33a6cd17cf3cadbef9e43b",
+    "finished_utc": "2026-10-24T14:53:08.586672+00:00",
+    "measured_wall_seconds": 0.126
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA551662",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:09.878515+00:00",
+    "raw_path": "raw/ENA/08a2174f4f8a848ece46edc34a4caaa584172febef7eb689dda974da99ac78ef.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA551662",
+    "bytes": 2785,
+    "sha256": "79221f58a941ec7ecd859c2faafdef38dcf1e7de7f9b86ab661ce9656d8aeece",
+    "finished_utc": "2026-10-24T14:53:10.073993+00:00",
+    "measured_wall_seconds": 0.195
+  },
+  "project_title": "The role of oxygen in stimulating methane production in wetlands",
+  "project_description": "Emissions of the potent greenhouse gas methane by wetland peats are a key uncertainty in the modern methane budget. Recent observations indicating wetland regions exposed to oxygen (O2) are large CH4 sources pose a paradox as methanogenesis is an anaerobic process. Here, we use incubations of Sphagnum peat to directly demonstrate that peat exposed to O2 dramatically increases its CH4 yields (~20-2000 fold) during subsequent anoxic incubation compared to peat remaining anoxic. O2 initiates efficient degradation of peat polyphenolic constituents by microbial aromatic oxygenases, which enhances peat carbon lability during later anaerobic microbial processing, yielding additional methanogenic precursors that stimulate methane production. The results indicate a critical role for spatiotemporal oxic-anoxic transitions in modulating wetland CH4 production, with implications for carbon-climate feedbacks and wetland management.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA551662"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP212436"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Princeton University",
+      "value": "PRJNA551662"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA551662&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA551662&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 54
+}

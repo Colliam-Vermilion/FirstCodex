@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA1426923",
+  "checked_utc": "2026-10-24T14:53:24.937022+00:00",
+  "ena_run_count": 55,
+  "ncbi_sra_count": 55,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1426923&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:24.937184+00:00",
+    "raw_path": "raw/ENA/0dc6a6fd2ae508d3b5e781cd7b3621e11ab88877db97525051323ae9c1f4620c.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1426923&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 71187,
+    "sha256": "c02def1ea9849d6739afc6a5f35334b87cd8ebc5521c157e12af02e3d3295511",
+    "finished_utc": "2026-10-24T14:53:26.007710+00:00",
+    "measured_wall_seconds": 1.071
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1426923&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:53:26.410519+00:00",
+    "raw_path": "raw/NCBI/cecde7ae11233bffcf256409361fe3586c69fa813150864f2057c1101b6188f9.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1426923&retmode=json&retmax=200&retstart=0",
+    "bytes": 901,
+    "sha256": "d6bf8dc97e6ce80cc57027d38de4ebd722a3dc0940bdd3357fa7501bf53d2507",
+    "finished_utc": "2026-10-24T14:53:26.543319+00:00",
+    "measured_wall_seconds": 0.133
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1426923",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:28.057473+00:00",
+    "raw_path": "raw/ENA/59d5ef4e6c732eb0aed79864168db5992d699cdfd7c37ce8c1afb10b4e6a4c43.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA1426923",
+    "bytes": 2594,
+    "sha256": "933589446d10a1f8158986c63e1031dbe0d4de863544ab60c51cdc6dfc4bf95a",
+    "finished_utc": "2026-10-24T14:53:28.597377+00:00",
+    "measured_wall_seconds": 0.54
+  },
+  "project_title": "Shotgun metagenomic sequencing of anoxic and reoxygenated marine sediments from Paddehavet (Norway)",
+  "project_description": "Artificial oxygenation can be used to restore oxygen-depleted coastal basins, yet key microbial responses and oxygen-consumption pathways remain poorly understood. The aim of this study was to investigate the initial consumption of oxygen and sulfides in Paddehavet during a reoxygenation experiment. Shotgun metagenomic sequencing was performed both on samples from a laboratory based oxygenation experiment, on samples from Paddehavet prior to oxygenation and after 4 months of oxygenation. Paddehavet is located in the Oslofjord (Norway). The project was carried out in collaboration with The Norwegian Institute for Water Research (NIVA) and funded by Hafslund.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA1426923"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP678656"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Norwegian University of Life Sciences",
+      "value": "PRJNA1426923"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1426923&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1426923&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 55
+}

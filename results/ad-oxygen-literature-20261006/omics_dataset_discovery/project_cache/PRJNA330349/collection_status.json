@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA330349",
+  "checked_utc": "2026-10-24T14:53:46.216837+00:00",
+  "ena_run_count": 1,
+  "ncbi_sra_count": 1,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA330349&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:46.217019+00:00",
+    "raw_path": "raw/ENA/4124de8d086fb45c10218cc808a2b8ef0c8a417e8267883d703427c813b953c2.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA330349&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 1441,
+    "sha256": "b74183eea1fe3aba1a1d8d6d127ae767194f268d9f44e3ab5216c535bd9b9fc3",
+    "finished_utc": "2026-10-24T14:53:46.387283+00:00",
+    "measured_wall_seconds": 0.17
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA330349&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:53:46.789289+00:00",
+    "raw_path": "raw/NCBI/849d087ee9deec343fb3b8092bcade12cd0cc54f844a92a0742092bc531520af.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA330349&retmode=json&retmax=200&retstart=0",
+    "bytes": 301,
+    "sha256": "57ee422454b376f4a52806251a42f17b98fe2a0b886c8b660adbe713b09c5384",
+    "finished_utc": "2026-10-24T14:53:46.877706+00:00",
+    "measured_wall_seconds": 0.088
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA330349",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:47.409773+00:00",
+    "raw_path": "raw/ENA/ff31ec20537162bee05bb0d7bed6a71677837e1e1638e23676654652b91e5992.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA330349",
+    "bytes": 2200,
+    "sha256": "3b083cbb63731d6c300f541db54976aa559f2cfc2f094b93f3015f0cc410d433",
+    "finished_utc": "2026-10-24T14:53:47.621073+00:00",
+    "measured_wall_seconds": 0.211
+  },
+  "project_title": "Soil microbial communities from Rifle, Colorado - Rifle Oxygen_injection B1 metagenome",
+  "project_description": "Soil microbial communities from Rifle, Colorado - Rifle Oxygen_injection B1 metagenome",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA330349"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP080480"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "DOE Joint Genome Institute",
+      "value": "PRJNA330349"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA330349&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA330349&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 1
+}

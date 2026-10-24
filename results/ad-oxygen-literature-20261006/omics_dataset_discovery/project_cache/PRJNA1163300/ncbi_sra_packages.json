@@ -1,0 +1,260 @@
+[
+  {
+    "run_accession": "SRR30843209",
+    "experiment_accession": "SRX26242090",
+    "sample_accession": "SAMN43889405",
+    "secondary_sample_accession": "SRS22783357",
+    "sample_alias": "cDNA1",
+    "sample_title": "",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2021-03-04",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "20 CM",
+        "units": ""
+      },
+      {
+        "tag": "elev",
+        "value": "-20 CM",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "Marine",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "Intertidal Zone",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Maine",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "43.994827 N 69.6486 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMS.me",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.sediment",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1163300",
+    "secondary_study_accession": "SRP535804",
+    "study_title": "Laminarin stimulates single cell rates of sulfate reduction while oxygen inhibits transcriptomic activity in coastal marine sediment",
+    "study_description": "A vital part of benthic ecology are the chemical cycles carried out by bacteria and archaea living in coastal sediments. Within these ecosystems, the availability of carbon and sources of reducing and oxidizing power that fuel these sediment microbes can be subject to physical disruption, which may allow for increased respiration and consumption of complex carbon molecules - thereby impacting the cycling of nutrients in this environment often thought to be a terminal resting place. Here we describe the use of the redox-enzyme sensitive probe RedoxSensorTM Green to measure rates of electron transfer physiology in individual sulfate reducer cells that reside in anoxic sediment, which are subjected to transient exposure to oxygen and laminarin. We demonstrate a decoupling of respiration-related activity rates from transcription-derived activity, as oxygen exposure causes an increase in per cell respiration rate while overall decreasing the amount of RNA transcripts extractable from this anoxic community. Overall, we reveal an active community comprised primarily of respiring Chloroflexota and non-respiratory Patescibacteria that cycles sulfate and complex polysaccharides, important microbial aspects of this coastal sediment ecosystem.",
+    "study_links": [],
+    "experiment_title": "sediment metagenome supplemented with 25% atmospheric air (~4% oxygen)",
+    "library_name": "cDNA1",
+    "library_strategy": "WGS",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 2000",
+    "read_count": "71207924",
+    "base_count": "18912879803",
+    "sra_run_bytes": "6098433381",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "cDNA1-A01_R1.fastq.gz",
+        "size": "3556930142",
+        "date": "2024-10-01 09:11:56",
+        "md5": "b3b4e2699e24469647d05e94e0030518",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "cDNA1-A01_R2.fastq.gz",
+        "size": "2697949339",
+        "date": "2024-10-01 09:11:33",
+        "md5": "f96c17656df18c750be1616e87e69383",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30843209",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR30843209/SRR30843209",
+        "size": "6098436490",
+        "date": "2024-10-01 09:12:59",
+        "md5": "d4d26fcc1f6266d8f7eea8d4c3a308df",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30843209.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-820/SRR030/30843/SRR30843209/SRR30843209.lite.1",
+        "size": "4243662082",
+        "date": "2024-10-01 09:55:02",
+        "md5": "990e8be71ba31c71085a97bb13abdaa8",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2024-10-01 09:22:22",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR30843208",
+    "experiment_accession": "SRX26242091",
+    "sample_accession": "SAMN43889406",
+    "secondary_sample_accession": "SRS22784187",
+    "sample_alias": "cDNA2",
+    "sample_title": "",
+    "scientific_name": "sediment metagenome",
+    "tax_id": "749907",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2021-03-04",
+        "units": ""
+      },
+      {
+        "tag": "depth",
+        "value": "20 CM",
+        "units": ""
+      },
+      {
+        "tag": "elev",
+        "value": "-20 CM",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "Marine",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "Intertidal Zone",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "Marine Sediment",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "USA: Maine",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "43.994827 N 69.6486 W",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMS.me",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.sediment",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1163300",
+    "secondary_study_accession": "SRP535804",
+    "study_title": "Laminarin stimulates single cell rates of sulfate reduction while oxygen inhibits transcriptomic activity in coastal marine sediment",
+    "study_description": "A vital part of benthic ecology are the chemical cycles carried out by bacteria and archaea living in coastal sediments. Within these ecosystems, the availability of carbon and sources of reducing and oxidizing power that fuel these sediment microbes can be subject to physical disruption, which may allow for increased respiration and consumption of complex carbon molecules - thereby impacting the cycling of nutrients in this environment often thought to be a terminal resting place. Here we describe the use of the redox-enzyme sensitive probe RedoxSensorTM Green to measure rates of electron transfer physiology in individual sulfate reducer cells that reside in anoxic sediment, which are subjected to transient exposure to oxygen and laminarin. We demonstrate a decoupling of respiration-related activity rates from transcription-derived activity, as oxygen exposure causes an increase in per cell respiration rate while overall decreasing the amount of RNA transcripts extractable from this anoxic community. Overall, we reveal an active community comprised primarily of respiring Chloroflexota and non-respiratory Patescibacteria that cycles sulfate and complex polysaccharides, important microbial aspects of this coastal sediment ecosystem.",
+    "study_links": [],
+    "experiment_title": "sediment metagenome",
+    "library_name": "cDNA2",
+    "library_strategy": "WGS",
+    "library_source": "METATRANSCRIPTOMIC",
+    "library_selection": "RANDOM",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "NextSeq 2000",
+    "read_count": "19964423",
+    "base_count": "6029255746",
+    "sra_run_bytes": "2127300460",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "cDNA2-A01_R1.fastq.gz",
+        "size": "1160569291",
+        "date": "2024-09-30 17:21:22",
+        "md5": "aba0cf889485c084b87a28a68fe40832",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "cDNA2-A01_R2.fastq.gz",
+        "size": "1144877187",
+        "date": "2024-09-30 17:21:26",
+        "md5": "aac05b107d045a7e477e9d86f5835197",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30843208",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR30843208/SRR30843208",
+        "size": "2127302378",
+        "date": "2024-09-30 17:21:43",
+        "md5": "2944e259d9d30c5b50c060979a4b7934",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR30843208.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos11/sra-pub-zq-1140/SRR030/30843/SRR30843208/SRR30843208.lite.1",
+        "size": "1477794778",
+        "date": "2024-09-30 17:52:48",
+        "md5": "714acf045a22049b631366aba2b1efa7",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2024-09-30 17:57:36",
+    "run_is_public": "true"
+  }
+]

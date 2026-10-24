@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA381321",
+  "checked_utc": "2026-10-24T14:53:32.251429+00:00",
+  "ena_run_count": 6,
+  "ncbi_sra_count": 6,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA381321&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:32.251578+00:00",
+    "raw_path": "raw/ENA/02fcb3056a54872e06a66412bf187ddeac8aca139e07a74c17f5883e5bcfc622.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA381321&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 8240,
+    "sha256": "77a299c5d6a6830ae0c7c45ffccbbc1e47097b190acc489e7265dcb2051f2089",
+    "finished_utc": "2026-10-24T14:53:32.740442+00:00",
+    "measured_wall_seconds": 0.489
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA381321&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:53:33.141619+00:00",
+    "raw_path": "raw/NCBI/efec27ddd8cc24a0bc087a4f1747b794630b19a880c476289dbdf4b818e503bb.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA381321&retmode=json&retmax=200&retstart=0",
+    "bytes": 351,
+    "sha256": "7fbb04dbc3a86b7b43e004e18c3824494b470432155e7886837f38e0ca80a99f",
+    "finished_utc": "2026-10-24T14:53:33.301126+00:00",
+    "measured_wall_seconds": 0.16
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA381321",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:33.991878+00:00",
+    "raw_path": "raw/ENA/2674f617943c1e8969a5039eb7c7fdf558ce481573e6a1affe63c8c0110582a4.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA381321",
+    "bytes": 2389,
+    "sha256": "6f5ac2774ca53375e4603bf7b258876d24c2c42ebcc47b2b69f8bdb280a45090",
+    "finished_utc": "2026-10-24T14:53:34.597081+00:00",
+    "measured_wall_seconds": 0.605
+  },
+  "project_title": "Oxygenation rate during Fe redox-cycling affects humid tropical forest soil metatranscriptome",
+  "project_description": "Soils were collected from the Bisley Watershed, Luquillo Critical Zone Observatory, Puerto Rico. These humid tropical forest soils are hypothesized to impact global carbon and greenhouse gas cycling through Fe biogeochemical reactions during redox-oscillating conditions. This study used a laboratory incubation of these soils to investigate the effects of oxygenation rate on iron mineral transformations and microbial iron(III)-reducer gene expression (RNAseq) during alternating anoxic:oxic conditions.",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA381321"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP103306"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "University of Georgia",
+      "value": "PRJNA381321"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA381321&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA381321&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 6
+}

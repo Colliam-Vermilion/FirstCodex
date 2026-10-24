@@ -1,0 +1,2567 @@
+[
+  {
+    "run_accession": "SRR36885023",
+    "experiment_accession": "SRX31856767",
+    "sample_accession": "SAMN54734152",
+    "secondary_sample_accession": "SRS27813658",
+    "sample_alias": "TS10_day45",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-08-24",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "0.030 ± 0.038",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS10_day45_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "80130",
+    "base_count": "35248074",
+    "sra_run_bytes": "11322445",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS10_day45_R1",
+        "size": "40737717",
+        "date": "2026-01-19 08:50:27",
+        "md5": "70ec6040122c8a1bec45014e8e680986",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS10_day45_R2",
+        "size": "40731365",
+        "date": "2026-01-19 08:50:25",
+        "md5": "dc4695b9f34b1e541026d53d0301a8b5",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885023",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885023/SRR36885023",
+        "size": "11325258",
+        "date": "2026-01-19 08:50:39",
+        "md5": "5601f6e5bc7e442a14a98d0464c64f0f",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885023.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885023/SRR36885023.lite.1",
+        "size": "8916358",
+        "date": "2026-01-19 10:00:39",
+        "md5": "5d2a40dc57e70d7e1714836b931bbe87",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885024",
+    "experiment_accession": "SRX31856766",
+    "sample_accession": "SAMN54734151",
+    "secondary_sample_accession": "SRS27813656",
+    "sample_alias": "TS10_day27",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-08-06",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "0.42",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS10_day27_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "89406",
+    "base_count": "39332014",
+    "sra_run_bytes": "12510670",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS10_day27_R1",
+        "size": "45456165",
+        "date": "2026-01-19 08:50:31",
+        "md5": "6e299b4cf1a21d36c699149fa6fabbde",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS10_day27_R2",
+        "size": "45451093",
+        "date": "2026-01-19 08:50:32",
+        "md5": "740d4a87e631f9d3659761f539051860",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885024",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885024/SRR36885024",
+        "size": "12513478",
+        "date": "2026-01-19 08:50:42",
+        "md5": "47533d762e0b456700e18ad73c6c8f39",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885024.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885024/SRR36885024.lite.1",
+        "size": "9905390",
+        "date": "2026-01-19 10:00:39",
+        "md5": "9a210b6ba21eb665c1cf3617df201010",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885025",
+    "experiment_accession": "SRX31856765",
+    "sample_accession": "SAMN54734150",
+    "secondary_sample_accession": "SRS27813655",
+    "sample_alias": "TS10_day16",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-07-26",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "0.15 ± 0.037",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS10_day16_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "80963",
+    "base_count": "35621601",
+    "sra_run_bytes": "11464459",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS10_day16_R1",
+        "size": "41164952",
+        "date": "2026-01-19 08:50:58",
+        "md5": "e57a13a68c519ec7d11bd5d57c050169",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS10_day16_R2",
+        "size": "41164530",
+        "date": "2026-01-19 08:50:57",
+        "md5": "385f09a6c5d66ca9b29f9ac5d36e6559",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885025",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885025/SRR36885025",
+        "size": "11466976",
+        "date": "2026-01-19 08:51:09",
+        "md5": "be41fb280cdc9f0bfee2174d8b13cc1a",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885025.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885025/SRR36885025.lite.1",
+        "size": "9013464",
+        "date": "2026-01-19 10:00:40",
+        "md5": "3be91371ee1f0d06aef7d3bb7f494758",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885026",
+    "experiment_accession": "SRX31856764",
+    "sample_accession": "SAMN54734149",
+    "secondary_sample_accession": "SRS27813654",
+    "sample_alias": "TS10_day3",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-07-13",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "1.49 ± 0.35",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS10_day3_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "85133",
+    "base_count": "37454098",
+    "sra_run_bytes": "11957021",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS10_day3_R1",
+        "size": "43285519",
+        "date": "2026-01-19 08:50:54",
+        "md5": "e6e42f6db058edf47452c86220040e82",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS10_day3_R2",
+        "size": "43281979",
+        "date": "2026-01-19 08:50:53",
+        "md5": "3508e3cc08cd84bc2d3c22d40c648bad",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885026",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885026/SRR36885026",
+        "size": "11959533",
+        "date": "2026-01-19 08:51:05",
+        "md5": "4882790d4816ad15479c92ece017fc56",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885026.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885026/SRR36885026.lite.1",
+        "size": "9432081",
+        "date": "2026-01-19 10:00:53",
+        "md5": "8979945311668bcfbf192bb0a27b05ec",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885027",
+    "experiment_accession": "SRX31856763",
+    "sample_accession": "SAMN54734148",
+    "secondary_sample_accession": "SRS27813652",
+    "sample_alias": "TS10_day0",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-07-10",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "11.37 ± 0.19",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS10_day0_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "84041",
+    "base_count": "36976377",
+    "sra_run_bytes": "11855800",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS10_day0_R1",
+        "size": "42730916",
+        "date": "2026-01-19 08:50:40",
+        "md5": "7479a684d78b2fef03cc475a4c7c5898",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS10_day0_R2",
+        "size": "42730050",
+        "date": "2026-01-19 08:50:40",
+        "md5": "4db00737b7baea72beed81107c616e90",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885027",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885027/SRR36885027",
+        "size": "11858308",
+        "date": "2026-01-19 08:50:48",
+        "md5": "ebf69bee2a3a0a7d7cb9af3a16c9c591",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885027.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885027/SRR36885027.lite.1",
+        "size": "9304824",
+        "date": "2026-01-19 10:00:40",
+        "md5": "96613c40ccd436e4ae0b41d51a28bbc2",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885028",
+    "experiment_accession": "SRX31856762",
+    "sample_accession": "SAMN54734147",
+    "secondary_sample_accession": "SRS27813653",
+    "sample_alias": "TS7_day45",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-08-24",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "0.03 ± 0.0090",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS7_day45_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "83760",
+    "base_count": "36849237",
+    "sra_run_bytes": "11874542",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS7_day45_R1",
+        "size": "42587791",
+        "date": "2026-01-19 08:50:46",
+        "md5": "5cd85ae16595a16cefa11478018ff563",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS7_day45_R2",
+        "size": "42580177",
+        "date": "2026-01-19 08:50:45",
+        "md5": "9fab6c280dc86f94a9055306eb77f554",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885028",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885028/SRR36885028",
+        "size": "11877059",
+        "date": "2026-01-19 08:50:55",
+        "md5": "31265cff793b2fcb74ca5926bcebbe7e",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885028.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885028/SRR36885028.lite.1",
+        "size": "9328643",
+        "date": "2026-01-19 10:00:40",
+        "md5": "9064e5490494b4702f0200561593beb2",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885029",
+    "experiment_accession": "SRX31856761",
+    "sample_accession": "SAMN54734146",
+    "secondary_sample_accession": "SRS27813651",
+    "sample_alias": "TS7_day27",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-08-06",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "0.38 ± 0.13",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS7_day27_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "79421",
+    "base_count": "34943610",
+    "sra_run_bytes": "11130074",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS7_day27_R1",
+        "size": "40381793",
+        "date": "2026-01-19 08:50:45",
+        "md5": "580988d856aab97800c1dcd72edb2bb4",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS7_day27_R2",
+        "size": "40381185",
+        "date": "2026-01-19 08:50:46",
+        "md5": "d750dcccb3748ceed1263de00066e360",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885029",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885029/SRR36885029",
+        "size": "11132886",
+        "date": "2026-01-19 08:50:55",
+        "md5": "e4dbc5e14cf800e7730f5c72b64934d4",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885029.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885029/SRR36885029.lite.1",
+        "size": "8808386",
+        "date": "2026-01-19 10:00:40",
+        "md5": "5c1bfd01ee6bbbfdc919bb74b9b1f2d8",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885030",
+    "experiment_accession": "SRX31856760",
+    "sample_accession": "SAMN54734145",
+    "secondary_sample_accession": "SRS27813650",
+    "sample_alias": "TS7_day16",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-07-26",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "0.33 ± 0.12",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS7_day16_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "86509",
+    "base_count": "38061572",
+    "sra_run_bytes": "12230109",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS7_day16_R1",
+        "size": "43984232",
+        "date": "2026-01-19 08:50:47",
+        "md5": "857ec94e5dbdd8009979f70c816ba904",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS7_day16_R2",
+        "size": "43984412",
+        "date": "2026-01-19 08:50:46",
+        "md5": "bad5a8cc92d91c0bceaa72c05eb0970d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885030",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885030/SRR36885030",
+        "size": "12232626",
+        "date": "2026-01-19 08:50:56",
+        "md5": "a15aab4240693ef878e0db66a4d2ea13",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885030.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885030/SRR36885030.lite.1",
+        "size": "9623602",
+        "date": "2026-01-19 10:00:40",
+        "md5": "3e3007cfc8645eb07d0c6601db1ffbd7",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885031",
+    "experiment_accession": "SRX31856759",
+    "sample_accession": "SAMN54734162",
+    "secondary_sample_accession": "SRS27813649",
+    "sample_alias": "TS16_day45",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-08-24",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "0.41 ± 0.00082",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS16_day45_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "84042",
+    "base_count": "36929454",
+    "sra_run_bytes": "11777042",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS16_day45_R1",
+        "size": "42718538",
+        "date": "2026-01-19 08:50:52",
+        "md5": "054d0ea1a938b17709e7cfe3b0b5ccd0",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS16_day45_R2",
+        "size": "42648346",
+        "date": "2026-01-19 08:50:53",
+        "md5": "1a7d589e05c8e13bd4be446052936663",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885031",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885031/SRR36885031",
+        "size": "11780451",
+        "date": "2026-01-19 08:51:02",
+        "md5": "ed7dca7355f0d513781abcc0f87eb039",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885031.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885031/SRR36885031.lite.1",
+        "size": "9183227",
+        "date": "2026-01-19 10:00:40",
+        "md5": "0e78dd2e9d4bceb1407ba5ae5bcfc8d5",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885032",
+    "experiment_accession": "SRX31856758",
+    "sample_accession": "SAMN54734161",
+    "secondary_sample_accession": "SRS27813647",
+    "sample_alias": "TS16_day27",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-08-06",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "2.53 ± 0.83",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS16_day27_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "90899",
+    "base_count": "39992436",
+    "sra_run_bytes": "12872038",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS16_day27_R1",
+        "size": "46218296",
+        "date": "2026-01-19 08:50:47",
+        "md5": "9ce3c9a979af1839092e7584c344c131",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS16_day27_R2",
+        "size": "46213188",
+        "date": "2026-01-19 08:50:48",
+        "md5": "beae3e1a68040b828e28df5d4d030b3c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885032",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885032/SRR36885032",
+        "size": "12874554",
+        "date": "2026-01-19 08:50:57",
+        "md5": "f82724f68730016c84664894c3c91429",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885032.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885032/SRR36885032.lite.1",
+        "size": "10115594",
+        "date": "2026-01-19 10:00:40",
+        "md5": "3f8f080b7d8b768076b47acac2419d77",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885033",
+    "experiment_accession": "SRX31856757",
+    "sample_accession": "SAMN54734160",
+    "secondary_sample_accession": "SRS27813648",
+    "sample_alias": "TS16_day16",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-07-26",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "3.02 ± 0.92",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS16_day16_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "93348",
+    "base_count": "41069258",
+    "sra_run_bytes": "13201218",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS16_day16_R1",
+        "size": "47462574",
+        "date": "2026-01-19 08:50:48",
+        "md5": "7559075d68cbb1df0249eb0d896be5ac",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS16_day16_R2",
+        "size": "47458658",
+        "date": "2026-01-19 08:50:49",
+        "md5": "ffa4d030c08ca27841bf7236101c8525",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885033",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885033/SRR36885033",
+        "size": "13203735",
+        "date": "2026-01-19 08:50:58",
+        "md5": "1a5dc1969ec2dbccb1d9f88e625e01c1",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885033.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885033/SRR36885033.lite.1",
+        "size": "10374675",
+        "date": "2026-01-19 10:00:46",
+        "md5": "7702d7301bc4db90c595d29bd487d60b",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885034",
+    "experiment_accession": "SRX31856756",
+    "sample_accession": "SAMN54734159",
+    "secondary_sample_accession": "SRS27813646",
+    "sample_alias": "TS16_day3",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-07-13",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "2.22 ± 0.66",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS16_day3_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "84193",
+    "base_count": "37038520",
+    "sra_run_bytes": "12017558",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS16_day3_R1",
+        "size": "42804598",
+        "date": "2026-01-19 08:50:51",
+        "md5": "54e4f703c30b0211ec69b7f8a0f276da",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS16_day3_R2",
+        "size": "42800622",
+        "date": "2026-01-19 08:50:52",
+        "md5": "ddefc4408997d121e252703722b2c556",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885034",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885034/SRR36885034",
+        "size": "12020370",
+        "date": "2026-01-19 08:51:01",
+        "md5": "9e1e4e635faf6a4e322a6386f743d862",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885034.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885034/SRR36885034.lite.1",
+        "size": "9390838",
+        "date": "2026-01-19 10:00:41",
+        "md5": "b4e244cafe0ef96c583049f1c7357eb1",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885035",
+    "experiment_accession": "SRX31856755",
+    "sample_accession": "SAMN54734158",
+    "secondary_sample_accession": "SRS27813645",
+    "sample_alias": "TS16_day0",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-07-10",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "13.06 ± 0.02",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS16_day0_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "84041",
+    "base_count": "36976377",
+    "sra_run_bytes": "11855800",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS16_day0_R1",
+        "size": "42730916",
+        "date": "2026-01-19 08:51:03",
+        "md5": "7479a684d78b2fef03cc475a4c7c5898",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS16_day0_R2",
+        "size": "42730050",
+        "date": "2026-01-19 08:51:01",
+        "md5": "4db00737b7baea72beed81107c616e90",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885035",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885035/SRR36885035",
+        "size": "11858308",
+        "date": "2026-01-19 08:51:13",
+        "md5": "7e4428ee54d776b153b36a16b759280b",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885035.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885035/SRR36885035.lite.1",
+        "size": "9304824",
+        "date": "2026-01-19 10:00:43",
+        "md5": "2f8dc07300cc1c83a965b85a1217f9dc",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885036",
+    "experiment_accession": "SRX31856754",
+    "sample_accession": "SAMN54734157",
+    "secondary_sample_accession": "SRS27813644",
+    "sample_alias": "TS13_day45",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-08-24",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "0.70 ± 0.0032",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS13_day45_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "53794",
+    "base_count": "23543064",
+    "sra_run_bytes": "7744883",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS13_day45_R1",
+        "size": "27308583",
+        "date": "2026-01-19 08:50:42",
+        "md5": "edb3889138766afe90e9eaa2f83bd677",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS13_day45_R2",
+        "size": "27143535",
+        "date": "2026-01-19 08:50:43",
+        "md5": "7214c59c365866e7ad0914606f8ae74d",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885036",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885036/SRR36885036",
+        "size": "7748296",
+        "date": "2026-01-19 08:50:52",
+        "md5": "52fb89c014e8e4eb7faa87b221cb9f61",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885036.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885036/SRR36885036.lite.1",
+        "size": "5922024",
+        "date": "2026-01-19 10:00:41",
+        "md5": "f32e5a88e09fa2b203843c3c75e24a1e",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885037",
+    "experiment_accession": "SRX31856753",
+    "sample_accession": "SAMN54734156",
+    "secondary_sample_accession": "SRS27813642",
+    "sample_alias": "TS13_day27",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-08-06",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "3.35 ± 0.18",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS13_day27_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "92749",
+    "base_count": "40805706",
+    "sra_run_bytes": "12970717",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS13_day27_R1",
+        "size": "47158515",
+        "date": "2026-01-19 08:51:03",
+        "md5": "81714df8e8cf2cf84d355eea884c799e",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS13_day27_R2",
+        "size": "47154231",
+        "date": "2026-01-19 08:51:04",
+        "md5": "c3ef3474c2d5520bad82112224ada1a1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885037",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885037/SRR36885037",
+        "size": "12973231",
+        "date": "2026-01-19 08:51:15",
+        "md5": "91f45dd593f20de41aa4855f0a019c4c",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885037.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885037/SRR36885037.lite.1",
+        "size": "10270883",
+        "date": "2026-01-19 10:00:42",
+        "md5": "807b885a21b2f262536ba7a108550c0d",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:31",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885038",
+    "experiment_accession": "SRX31856752",
+    "sample_accession": "SAMN54734155",
+    "secondary_sample_accession": "SRS27813643",
+    "sample_alias": "TS13_day16",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-07-26",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "3.12 ± 0.35",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS13_day16_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "81827",
+    "base_count": "35997637",
+    "sra_run_bytes": "11616607",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS13_day16_R1",
+        "size": "41600624",
+        "date": "2026-01-19 08:51:02",
+        "md5": "3a3a300ec9f892cd5c4f58aa4a89b3aa",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS13_day16_R2",
+        "size": "41598770",
+        "date": "2026-01-19 08:51:01",
+        "md5": "0c36b196de41e61b2cbd0992d93260c9",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885038",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885038/SRR36885038",
+        "size": "11619120",
+        "date": "2026-01-19 08:51:14",
+        "md5": "a38cd8829fe00d1735994f421c166862",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885038.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885038/SRR36885038.lite.1",
+        "size": "9095304",
+        "date": "2026-01-19 10:00:42",
+        "md5": "57d3b0dfb299e54c2933e950a102d0c8",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:32",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885039",
+    "experiment_accession": "SRX31856751",
+    "sample_accession": "SAMN54734154",
+    "secondary_sample_accession": "SRS27813641",
+    "sample_alias": "TS13_day3",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-07-13",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "2.24 ± 0.72",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS13_day3_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "88545",
+    "base_count": "38951236",
+    "sra_run_bytes": "12482448",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS13_day3_R1",
+        "size": "45019819",
+        "date": "2026-01-19 08:51:03",
+        "md5": "dd9cb403b6739b09d943650f2ac18f3c",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS13_day3_R2",
+        "size": "45007787",
+        "date": "2026-01-19 08:51:01",
+        "md5": "75afd9bba6909e752e990e2ade7e5198",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885039",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885039/SRR36885039",
+        "size": "12484964",
+        "date": "2026-01-19 08:51:13",
+        "md5": "cd10855454398cd3a586e9cd5eaf5232",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885039.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885039/SRR36885039.lite.1",
+        "size": "9854956",
+        "date": "2026-01-19 10:00:41",
+        "md5": "ebe6a8cc24d7b0129b900199d734499f",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:31",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885040",
+    "experiment_accession": "SRX31856750",
+    "sample_accession": "SAMN54734153",
+    "secondary_sample_accession": "SRS27813640",
+    "sample_alias": "TS13_day0",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-07-10",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "10.91 ± 0.25",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS13_day0_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "84041",
+    "base_count": "36976377",
+    "sra_run_bytes": "11855800",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS13_day0_R1",
+        "size": "42730916",
+        "date": "2026-01-19 08:51:00",
+        "md5": "7479a684d78b2fef03cc475a4c7c5898",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS13_day0_R2",
+        "size": "42730050",
+        "date": "2026-01-19 08:51:01",
+        "md5": "4db00737b7baea72beed81107c616e90",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885040",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885040/SRR36885040",
+        "size": "11858308",
+        "date": "2026-01-19 08:51:12",
+        "md5": "2dd53c3127754d7e0180626a5c454822",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885040.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885040/SRR36885040.lite.1",
+        "size": "9304824",
+        "date": "2026-01-19 10:00:42",
+        "md5": "3ddbec8154c05afbdf56d0d1cd4aaa69",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:31",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885041",
+    "experiment_accession": "SRX31856749",
+    "sample_accession": "SAMN54734144",
+    "secondary_sample_accession": "SRS27813638",
+    "sample_alias": "TS7_day3",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-07-13",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "0.62 ± 0.015",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS7_day3_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "87859",
+    "base_count": "38654897",
+    "sra_run_bytes": "12376778",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS7_day3_R1",
+        "size": "44671345",
+        "date": "2026-01-19 08:51:04",
+        "md5": "f7d1d0369a927c104608d5e80463e465",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS7_day3_R2",
+        "size": "44670087",
+        "date": "2026-01-19 08:51:02",
+        "md5": "18cb5b32de09858ad0a149ac4a9910f1",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885041",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885041/SRR36885041",
+        "size": "12379297",
+        "date": "2026-01-19 08:51:14",
+        "md5": "d7edf282a42643c4e355d877b34d4997",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885041.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885041/SRR36885041.lite.1",
+        "size": "9740905",
+        "date": "2026-01-19 10:00:43",
+        "md5": "ddf2a70bd82a1bd529187f06655801b4",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:31",
+    "run_is_public": "true"
+  },
+  {
+    "run_accession": "SRR36885042",
+    "experiment_accession": "SRX31856748",
+    "sample_accession": "SAMN54734143",
+    "secondary_sample_accession": "SRS27813639",
+    "sample_alias": "TS7_day0",
+    "sample_title": "",
+    "scientific_name": "metagenome",
+    "tax_id": "256318",
+    "sample_attributes": [
+      {
+        "tag": "collection_date",
+        "value": "2022-07-10",
+        "units": ""
+      },
+      {
+        "tag": "env_broad_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_local_scale",
+        "value": "anaerobic bioreactor [ENVO:00002124]",
+        "units": ""
+      },
+      {
+        "tag": "env_medium",
+        "value": "anaerobic digester sludge [ENVO:00003965]",
+        "units": ""
+      },
+      {
+        "tag": "geo_loc_name",
+        "value": "China: Beijing",
+        "units": ""
+      },
+      {
+        "tag": "lat_lon",
+        "value": "40.0080 N 116.3050 E",
+        "units": ""
+      },
+      {
+        "tag": "alkalinity",
+        "value": "11.15 ± 0.11",
+        "units": ""
+      },
+      {
+        "tag": "temp",
+        "value": "35 ± 1 °C",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIMARKS.survey",
+        "units": ""
+      },
+      {
+        "tag": "BioSampleModel",
+        "value": "MIGS/MIMS/MIMARKS.wastewater",
+        "units": ""
+      }
+    ],
+    "study_accession": "PRJNA1405076",
+    "secondary_study_accession": "SRP664476",
+    "study_title": "Modulation of methanogenic pathways by total solids in micro-aerated anaerobic digestion of food waste: Performance and microbial community dynamics",
+    "study_description": "This project focuses on the micro-aerated anaerobic digestion (AD) of food waste, investigating how total solids (TS) contents (7%, 10%, 13%, 16%) modulate methane production, microbial community dynamics, and methanogenic pathways. Sequencing batch AD reactors were operated with a staged micro-aeration strategy, and process performance was evaluated via methane yield monitoring, intermediate metabolite analysis, and kinetic modeling. High-throughput sequencing of bacterial and archaeal 16S rRNA genes was conducted to characterize microbial community structure, while PICRUSt2 was used to predict functional metabolic pathways related to acidogenesis, acetogenesis, methanogenesis, and oxidative stress response. Results reveal that moderate TS (10%) enhances microbial synergy and acetoclastic methanogenesis (dominated by Methanosaeta) for optimal methane yield and system stability, whereas high TS (13%, 16%) leads to accumulation of inhibitory intermediates (volatile fatty acids, ammonium nitrogen) and a metabolic shift toward methylotrophic methanogenesis. This study provides insights for optimizing TS content to improve the performance of food waste micro-aerated AD systems, supporting sustainable waste management and renewable energy recovery.",
+    "study_links": [],
+    "experiment_title": "16S rRNA sequencing of anaerobic digestion metagenome: micro-aerated food waste anaerobic digestion under different total solids contents",
+    "library_name": "TS7_day0_lib",
+    "library_strategy": "AMPLICON",
+    "library_source": "METAGENOMIC",
+    "library_selection": "PCR",
+    "library_layout": "PAIRED",
+    "library_construction_protocol": "",
+    "instrument_platform": "ILLUMINA",
+    "instrument_model": "Illumina MiSeq",
+    "read_count": "84041",
+    "base_count": "36976377",
+    "sra_run_bytes": "11855800",
+    "sra_files": [
+      {
+        "cluster": "public",
+        "filename": "TS7_day0_R1",
+        "size": "42730916",
+        "date": "2026-01-19 08:51:03",
+        "md5": "7479a684d78b2fef03cc475a4c7c5898",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "TS7_day0_R2",
+        "size": "42730050",
+        "date": "2026-01-19 08:51:02",
+        "md5": "4db00737b7baea72beed81107c616e90",
+        "version": "1",
+        "semantic_name": "fastq",
+        "supertype": "Original",
+        "sratoolkit": "0"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885042",
+        "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR36885042/SRR36885042",
+        "size": "11858308",
+        "date": "2026-01-19 08:51:14",
+        "md5": "42d56355a8b4dc60395e611d807cd2f8",
+        "version": "1",
+        "semantic_name": "SRA Normalized",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      },
+      {
+        "cluster": "public",
+        "filename": "SRR36885042.lite",
+        "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos12/sra-pub-zq-1214/SRR036/36885/SRR36885042/SRR36885042.lite.1",
+        "size": "9304824",
+        "date": "2026-01-19 10:00:43",
+        "md5": "9259147f2f3dd9a5e27147cfe5519eb7",
+        "version": "1",
+        "semantic_name": "SRA Lite",
+        "supertype": "Primary ETL",
+        "sratoolkit": "1"
+      }
+    ],
+    "run_published": "2026-07-31 00:26:31",
+    "run_is_public": "true"
+  }
+]

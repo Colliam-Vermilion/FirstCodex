@@ -1,0 +1,67 @@
+{
+  "accession": "PRJNA322450",
+  "checked_utc": "2026-10-24T14:53:15.720695+00:00",
+  "ena_run_count": 165,
+  "ncbi_sra_count": 165,
+  "ena_request": {
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA322450&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:15.720853+00:00",
+    "raw_path": "raw/ENA/578d3605d6c1e00ee04cea4b15d0b368d05b7c305dd51070965a66f48726e862.body",
+    "status": 200,
+    "content_type": "application/json",
+    "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA322450&result=read_run&fields=run_accession%2Cstudy_accession%2Csecondary_study_accession%2Csample_accession%2Csecondary_sample_accession%2Cexperiment_accession%2Cstudy_title%2Csample_title%2Csample_description%2Cexperiment_title%2Cexperiment_alias%2Csample_alias%2Cscientific_name%2Ctax_id%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cinstrument_platform%2Cinstrument_model%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_bytes%2Cfastq_md5%2Csubmitted_ftp%2Csubmitted_format%2Csubmitted_bytes%2Csubmitted_md5%2Csra_ftp%2Csra_bytes%2Csra_md5%2Cfirst_public%2Clast_updated%2Ccenter_name&format=json&download=false",
+    "bytes": 246035,
+    "sha256": "bafabc31b99b449f22a6127a36816ada638fec6ef5dceb1d4443729911c67877",
+    "finished_utc": "2026-10-24T14:53:16.068093+00:00",
+    "measured_wall_seconds": 0.347
+  },
+  "ncbi_search_request": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA322450&retmode=json&retmax=200&retstart=0",
+    "source": "NCBI",
+    "started_utc": "2026-10-24T14:53:16.474211+00:00",
+    "raw_path": "raw/NCBI/c1523e0fc949673dd2f337f86019f24c57082e2bee30210938f5ac167d5985e6.body",
+    "status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA322450&retmode=json&retmax=200&retstart=0",
+    "bytes": 1947,
+    "sha256": "538bcdbc7fb6c7bc42fa28bd2cfb47bd544b688287b6746d7939f1ac3ec6e6f6",
+    "finished_utc": "2026-10-24T14:53:16.564398+00:00",
+    "measured_wall_seconds": 0.09
+  },
+  "ncbi_all_search_ids_retrieved": true,
+  "ena_project_xml_request": {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA322450",
+    "source": "ENA",
+    "started_utc": "2026-10-24T14:53:20.098582+00:00",
+    "raw_path": "raw/ENA/8ffd71ef3e0f21a63988f9bfe970d3fa55d6f9839629e77616441038607eb22b.body",
+    "status": 200,
+    "content_type": "application/xml",
+    "final_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJNA322450",
+    "bytes": 2137,
+    "sha256": "59965a24df7a9365f5d3717291ab8fdc2fb8feaf6ef2bca2479463868f1bb943",
+    "finished_utc": "2026-10-24T14:53:20.286807+00:00",
+    "measured_wall_seconds": 0.188
+  },
+  "project_title": "Oxygenation of sediment surface, changes in microbial community and functions",
+  "project_description": "Changes in microbial community and functions due to induced oxygen transitions in the bottom water",
+  "project_identifiers": [
+    {
+      "tag": "PRIMARY_ID",
+      "value": "PRJNA322450"
+    },
+    {
+      "tag": "SECONDARY_ID",
+      "value": "SRP075534"
+    },
+    {
+      "tag": "SUBMITTER_ID",
+      "namespace": "Linnaeus University",
+      "value": "PRJNA322450"
+    }
+  ],
+  "project_publication_fields": [
+    "<PROJECT_LINKS>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-FASTQ-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA322450&amp;result=read_run&amp;fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n    <PROJECT_LINK>\n      <XREF_LINK>\n        <DB>ENA-SUBMITTED-FILES</DB>\n        <ID>https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA322450&amp;result=read_run&amp;fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format</ID>\n      </XREF_LINK>\n    </PROJECT_LINK>\n  </PROJECT_LINKS>\n  "
+  ],
+  "ncbi_run_count_parsed": 165
+}
