@@ -30,3 +30,5 @@ validate.py识别当前七阶段布局并转入readme_restoration/validate.py，
 rebuild_appendices.py仍是只读已有材料/本地Git对象、重建methods附表的离线工具，不会发起新数据库查询；本次恢复没有运行它，也没有重写上轮详细方法/附表。protected_sources.json与上轮validation记录3146个非Markdown结果文件的当时保护验证，不表示本次重新核验了原件。
 
 今后新增工作直接补入相应阶段或新增章节，先明确集合/日期/阅读深度，保留前阶段动机、方法、成果和限制。不要恢复“仅展示最新两条工作线”的首页生成方式。
+
+[本次介绍恢复的GitHub独立读回](readme_restoration/remote_readback.json)：根/项目/两个子README及历史、Windows说明、章节对照和旧链接索引共8份文档逐字节一致；七个阶段直接可见，论文原件未重下或重核SHA。
