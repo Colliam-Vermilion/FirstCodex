@@ -13,6 +13,9 @@ def hint(r):
  return next((m for m,pat in groups if re.search(pat,t)),'unassigned')
 
 def run():
+ if (ROOT/'all_pool/progress.json').exists():
+  from pool_screen import render
+  render();return
  decisions=[json.loads(p.read_text()) for p in sorted((ROOT/'decisions').glob('*.json'))] if (ROOT/'decisions').exists() else []
  decisions.sort(key=lambda r:r['batch_order']);dump(ROOT/'screening.json',decisions)
  cat=json.loads((ROOT/'catalog.json').read_text()); index={r['id']:r for r in cat}; evidence=[];priority=[]
