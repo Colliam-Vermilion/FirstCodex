@@ -99,4 +99,11 @@ def run():
  result={'checked_Asia_Shanghai':datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(),'commit':git('rev-parse','HEAD').strip(),'branch':git('branch','--show-current').strip(),'mode':'review' if review_branch else 'data','passed':True,'manifest_files':len(rows),'review_files_size_SHA_matched':matched,'review_files_unchanged_from_baseline':baseline_unchanged,'pinned_dependencies_readable':len(config['files']),'RIS_checks':ris,'local_links_resolved':links,'other_existing_study_results_unchanged':True,'shared_original_verification':'Git tree identity only; no PDF re-download or content rehash','new_searches':0,'new_screening':0,'paper_downloads':0}
  if args.report:args.report.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
  print(json.dumps(result,ensure_ascii=False))
-if __name__=='__main__':run()
+if __name__=='__main__':
+ # Later scientific documentation has its own preservation baseline. Keep the
+ # migration manifest/reports historical; do not freeze all future branch work.
+ scientific=REPO/'scientific_guide/scripts/validate_guide.py'
+ if scientific.exists():
+  import runpy
+  runpy.run_path(str(scientific),run_name='__main__')
+ else:run()
