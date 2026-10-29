@@ -21,7 +21,7 @@ def run():
  rows=list(csv.DictReader((HERE/'exclusive_files_utf8.csv').open(encoding='utf-8-sig')))
  expected={r['path'] for r in rows};assert len(rows)==len(expected)==1872
  # ls-tree reads only Git tree metadata, never shared paper contents.
- tracked=set(git('ls-tree','-r','--name-only','HEAD').splitlines())
+ tracked=set(git('ls-files').splitlines())
  review_branch=REVIEW.exists();matched=0;baseline_unchanged=0
  if review_branch:
   assert {p for p in tracked if p.startswith(PREFIX+'oxygen_response_review/')}==expected
@@ -63,7 +63,7 @@ def run():
  for f in config['files']:review_bytes(f)
  # Existing study tables, decisions, originals and progress outside the removed
  # directory must not have changed. This compares Git object identity, not PDFs.
- changed=git('diff','--name-only',BASE,'HEAD').splitlines()
+ changed=git('diff','--name-only',BASE).splitlines()
  allowed={
   'README.md',PREFIX+'README.md',PREFIX+'method_audit/README.md',
   PREFIX+'method_audit/validate.py',PREFIX+'method_audit/update_readme_navigation.py',
