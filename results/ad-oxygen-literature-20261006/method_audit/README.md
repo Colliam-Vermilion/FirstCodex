@@ -1,5 +1,7 @@
 # 方法审计及README恢复记录
 
+**迁移后入口（2026-10-29）：**机制工作线已独立到[review/oxygen-response-mechanisms](https://github.com/Colliam-Vermilion/FirstCodex/tree/review/oxygen-response-mechanisms)，本目录保留双线历史审计。下文恢复记录和旧validation是2026-10-25快照；当前`validate.py`及导航检查均转入[只读迁移核验](../branch_migration/oxygen_response_mechanisms_20261029/validate_migration.py)，不重算旧结果。`rebuild_appendices.py`在缺少综述目录时停止，不创建新目录。
+
 2026-10-25先从保存材料重建了两条扩展工作线的方法，随后按用户要求恢复全项目介绍：**主体方法不整体折叠、不用最新任务替代前面阶段。** 原文献数据、分类、人工判断、原件、累计表和进度均不因文档变更而修改。
 
 ## 当前研究介绍
@@ -27,7 +29,7 @@ python results/ad-oxygen-literature-20261006/method_audit/update_readme_navigati
 
 validate.py识别当前七阶段布局并转入readme_restoration/validate.py，校验章节、锚点、链接和Git差异范围，不重新读回或核哈希论文。update_readme_navigation.py已改为**只检查、不写README**；旧的整体折叠生成器仅留在9208历史中，不应再执行旧版本。
 
-rebuild_appendices.py仍是只读已有材料/本地Git对象、重建methods附表的离线工具，不会发起新数据库查询；本次恢复没有运行它，也没有重写上轮详细方法/附表。protected_sources.json与上轮validation记录3146个非Markdown结果文件的当时保护验证，不表示本次重新核验了原件。
+rebuild_appendices.py是读取已有材料/本地Git对象并写入methods附表的历史离线工具，不会发起新数据库查询；本次恢复没有运行它，也没有重写上轮详细方法/附表。protected_sources.json与上轮validation记录3146个非Markdown结果文件的当时保护验证，不表示本次重新核验了原件。
 
 今后新增工作直接补入相应阶段或新增章节，先明确集合/日期/阅读深度，保留前阶段动机、方法、成果和限制。不要恢复“仅展示最新两条工作线”的首页生成方式。
 

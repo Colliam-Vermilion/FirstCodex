@@ -1,3 +1,4 @@
+from review_dependency import review_json
 """Project-publication and PubMed-SRA links, retaining exact official evidence."""
 import json,re,time,xml.etree.ElementTree as ET,urllib.parse
 from common import ROOT,dump,now,fetch,getjson,url
@@ -6,7 +7,7 @@ BASE='https://eutils.ncbi.nlm.nih.gov/entrez/eutils/'
 def txt(e,path):
  n=e.find(path);return ' '.join(' '.join(n.itertext()).split()) if n is not None else ''
 def run():
- candidates=json.loads((ROOT/'paper_discovery_candidates.json').read_text());links=json.loads((ROOT/'existing_project_links.json').read_text());cmap={x['pmid']:x for x in candidates};oldcat=json.loads((ROOT.parent/'oxygen_response_review/catalog.json').read_text());dmap={x.get('doi','').lower():x['id'] for x in oldcat if x.get('doi')};pmap={x.get('pmid'):x['id'] for x in oldcat if x.get('pmid')};existingids={x['paper_id'] for x in json.loads((ROOT/'existing_articles_availability_audit.json').read_text())};registered=json.loads((ROOT/'NCBI_BioProject_discovery_records.json').read_text());relationships=[];project_meta=[];pmid_needed=set()
+ candidates=json.loads((ROOT/'paper_discovery_candidates.json').read_text());links=json.loads((ROOT/'existing_project_links.json').read_text());cmap={x['pmid']:x for x in candidates};oldcat=review_json('catalog.json');dmap={x.get('doi','').lower():x['id'] for x in oldcat if x.get('doi')};pmap={x.get('pmid'):x['id'] for x in oldcat if x.get('pmid')};existingids={x['paper_id'] for x in json.loads((ROOT/'existing_articles_availability_audit.json').read_text())};registered=json.loads((ROOT/'NCBI_BioProject_discovery_records.json').read_text());relationships=[];project_meta=[];pmid_needed=set()
  for folder in sorted((ROOT/'project_cache').iterdir()):
   acc=folder.name;previous=[x for x in registered if x['accession']==acc];b=None;m={}
   if previous:

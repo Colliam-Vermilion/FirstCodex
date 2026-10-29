@@ -1,10 +1,11 @@
+from review_dependency import review_json
 import json,re,xml.etree.ElementTree as ET
 from common import ROOT,dump
 
 def txt(e,path):
  n=e.find(path);return ' '.join(' '.join(n.itertext()).split()) if n is not None else ''
 def run():
- logs=json.loads((ROOT/'search_log.json').read_text());register={x['accession']:x for x in json.loads((ROOT/'discovered_projects.json').read_text())};bioproject=[];papers={};oldcat=json.loads((ROOT.parent/'oxygen_response_review/catalog.json').read_text());dmap={x.get('doi','').lower():x['id'] for x in oldcat if x.get('doi')};pmap={x.get('pmid'):x['id'] for x in oldcat if x.get('pmid')};existingpapers={x['paper_id'] for x in json.loads((ROOT/'existing_articles_availability_audit.json').read_text())}
+ logs=json.loads((ROOT/'search_log.json').read_text());register={x['accession']:x for x in json.loads((ROOT/'discovered_projects.json').read_text())};bioproject=[];papers={};oldcat=review_json('catalog.json');dmap={x.get('doi','').lower():x['id'] for x in oldcat if x.get('doi')};pmap={x.get('pmid'):x['id'] for x in oldcat if x.get('pmid')};existingpapers={x['paper_id'] for x in json.loads((ROOT/'existing_articles_availability_audit.json').read_text())}
  for log in logs:
   qid=log['query_id']
   if not qid.startswith(('N','P')):continue

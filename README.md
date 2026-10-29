@@ -1,21 +1,25 @@
-# FirstCodex
+# 厌氧微生物氧暴露／氧冲击机制综述
 
-本仓库保存微曝气厌氧消化（AD）综述的文献、原件与分析准备成果。项目从主动氧/空气输入的工艺研究检索起步，经过筛选与用户校正、全文/补充材料整理、期刊统计和组学方法核验，再扩展到厌氧微生物氧响应机制及可复用测序数据。各阶段保留稳定文献ID、判断依据和来源，文献数、文件数、项目数与run数分别统计。
+本分支 **`review/oxygen-response-mechanisms`** 专门继续氧响应机制综述，为微曝气厌氧消化（AD）解释氧敏感靶点、ROS损伤、耐氧防御、代谢转换、微生物互作、空间保护及恢复。允许纯培养、共培养、酶学和其他厌氧环境；急性氧冲击、持续微氧、反复暴露与去氧恢复分别判断，H₂O₂处理不冒充直接分子氧暴露。
 
-**[完整项目介绍与全部成果导航](results/ad-oxygen-literature-20261006/README.md)**
+**[机制综述完整入口](results/ad-oxygen-literature-20261006/oxygen_response_review/README.md)** · [详细方法](results/ad-oxygen-literature-20261006/oxygen_response_review/methods/METHODS.md) · [完整检索式附表](results/ad-oxygen-literature-20261006/oxygen_response_review/methods/QUERY_APPENDIX.md) · [累计Excel](results/ad-oxygen-literature-20261006/oxygen_response_review/oxygen_response_review_cumulative.xlsx)
 
-本页及完整介绍位于结果分支 `results/ad-oxygen-literature-20261006`，介绍修复日期为2026-10-25（Asia/Shanghai）。没有因这次文档修复重新检索、筛选、修改人工判断/进度或下载论文原件。
+## 已取得什么，阅读到什么深度
 
-|研究阶段|为什么做、实际做了什么、结果与限制|
-|---|---|
-|[1. 微曝气AD文献检索](results/ad-oxygen-literature-20261006/README.md#stage-1)|围绕主动供氧的位置/阶段检索2012年至2026-10-06/07研究；Nature学术技能配合官方API、人工分类同步、43综述追溯、漏检审计及补检形成554条库。保存的宽词返回仍未筛尽，不能声称绝对完整。|
-|[2. 正文与补充材料](results/ad-oxygen-literature-20261006/README.md#stage-2)|用Nature Downloader、ScanSci和公开/授权来源获取，再按身份、版本及SHA合并本地/云端文件。2026-10-23清单为388篇全文、154原格式SI，规范对象665；缺目标正文38，附件归属及合并后全量索引仍待补。|
-|[3. 期刊与JCR统计](results/ad-oxygen-literature-20261006/README.md#stage-3)|核刊名/ISSN/载体，统一2024指标年/2025发布版；386目标期刊论文核实272条，缺114。逐学科分区、来源和部分覆盖限制保留，不将缺失视为非Q1。|
-|[4. MG/MT全文方法筛查](results/ad-oxygen-literature-20261006/README.md#stage-4)|从426范围任务逐篇查方法、建库及数据声明，排除16S等扩增子/预测功能。B001–B010确认21MG+1MT，341研究均进入方法筛查但8仍待确认；文章确认不等于原始reads公开。|
-|[5. 氧暴露机制扩展](results/ad-oxygen-literature-20261006/README.md#stage-5)|从AD拓展到纯/共培养、酶学、沉积物与肠道等可迁移机制；1536关联池完成首遍分层初筛，35篇后读完整缓存摘要，仍未全文核实。引用/JIF辅助，严格独立支持未确认，Crossref尾部等缺口明示。|
-|[6. 测序数据与关联论文](results/ad-oxygen-literature-20261006/README.md#stage-6)|复用旧22篇后双向查询ENA/BioProject/SRA/PubMed，核项目—样本—run及处理键。审计69项目，38有公开群落reads清单；设计缺口、技术重复及未下载FASTQ分别记录，不能据公开项目数推断独立实验数。|
-|[7. 成果导航与续跑](results/ad-oxygen-literature-20261006/README.md#stage-7)|集中提供各阶段Excel、RIS、原件、方法和队列；未完成工作按阶段保留。新增工作应追加相应章节，不用最新任务覆盖整体介绍。|
+保存的首轮PubMed、Crossref、OpenAlex及有限引用追溯共1,147行返回，映射为1,039个身份；与原AD库554条关联后全池1,536。首20篇中10篇读相关全文段落、10篇仅摘要；其余1,516条完成题名／摘要关键句初筛。364为暂定优先，479待确认。35篇是从347个新增机制候选中选择的优先阅读队列，随后读了完整缓存摘要，**不是35篇全文确认核心文献，也不是最终纳入上限**；其余312候选继续保留。
 
-常用入口：[AD总Excel](results/ad-oxygen-literature-20261006/final_results/ad_oxygen_download_review_20261006.xlsx) · [规范原件](results/ad-oxygen-literature-20261006/original_files/) · [JCR Excel](results/ad-oxygen-literature-20261006/final_results/journal_jcr_statistics_20261023.xlsx) · [组学筛查Excel](results/ad-oxygen-literature-20261006/omics_screening/omics_screening_cumulative.xlsx) · [机制Excel](results/ad-oxygen-literature-20261006/oxygen_response_review/oxygen_response_review_cumulative.xlsx) · [数据发现Excel](results/ad-oxygen-literature-20261006/omics_dataset_discovery/omics_dataset_discovery_cumulative.xlsx)
+范围与机制证据优先；引用和2024年JIF仅辅助排序，不用高被引替代独立验证。现存全文证据、判断和指标快照原样保留。跨团队、跨类群支持与严格同对象独立复制分别记录，不能称已全面验证。
 
-[章节恢复对照](results/ad-oxygen-literature-20261006/method_audit/readme_restoration/chapter_map.md)与[运行历史附录](results/ad-oxygen-literature-20261006/HISTORY.md)说明原内容的去向。主要研究阶段在首页正常可见；只有逐轮环境、网络和执行回执单独归档。
+## 接下来怎样继续
+
+从[全池进度](results/ad-oxygen-literature-20261006/oxygen_response_review/all_pool/progress.json)、[35篇来源与阅读深度](results/ad-oxygen-literature-20261006/oxygen_response_review/reading_queue35/README.md)、[其余312队列](results/ad-oxygen-literature-20261006/oxygen_response_review/reading_queue35/other_in_scope_continuation_queue.json)和[479待确认](results/ad-oxygen-literature-20261006/oxygen_response_review/all_pool/pending_confirmation_queue.json)续跑；补读摘要／必要全文及核实具体主张，不重新检索或重置已处理状态。Crossref尾部、缺摘要、身份／版本冲突、严格独立支持仍未解决，详见方法。
+
+## 分支边界与共享依赖
+
+2026-10-29从原结果分支基准 `2f952089deb28b2112ec90d0534dc7dff7e5e316` 建立。继承其历史及AD文献库、原件、JCR、组学资料；此次隔离后续工作，不删改继承的数据分析资料。综述路径保持不变，脚本仍以自身位置定位。共享文件是建立分支时的快照，后续不会自动同步。
+
+- [原分支：AD与组学数据分析](https://github.com/Colliam-Vermilion/FirstCodex/tree/results/ad-oxygen-literature-20261006) · [数据集发现](https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/omics_dataset_discovery/README.md) · [组学全文筛查](https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/omics_screening/README.md)
+- 原分支的[AD总库](https://github.com/Colliam-Vermilion/FirstCodex/blob/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/final_results/ad_oxygen_download_review_utf8.csv)、[共享原件](https://github.com/Colliam-Vermilion/FirstCodex/tree/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/original_files)、[JCR缓存](https://github.com/Colliam-Vermilion/FirstCodex/tree/results/ad-oxygen-literature-20261006/results/ad-oxygen-literature-20261006/inventory/merge_20261023)是后续更新入口。本检出也继承它们的基准版本，综述已有证据路径可直接解析。
+- [迁移清单、共享依赖与核验](results/ad-oxygen-literature-20261006/branch_migration/oxygen_response_mechanisms_20261029/README.md) · [继承的全项目七阶段介绍](results/ad-oxygen-literature-20261006/README.md)
+
+本轮仅迁移、文档及必要路径配置；未重新检索、筛选、下载论文或更改判断。

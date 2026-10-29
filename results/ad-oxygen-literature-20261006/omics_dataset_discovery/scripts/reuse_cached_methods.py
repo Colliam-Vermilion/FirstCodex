@@ -1,10 +1,11 @@
 """Reuse two already archived official JATS files; no new paper download."""
+from review_dependency import review_bytes
 import json,xml.etree.ElementTree as ET
 from common import ROOT,dump,now
 def run():
  ass=json.loads((ROOT/'project_assessments.json').read_text());papers=json.loads((ROOT/'new_associated_papers.json').read_text());comp=json.loads((ROOT/'confirmed_comparisons.json').read_text());notes=[]
  for acc,pid,pmid,filename,titles in [('PRJNA551662','OR-3035DF955A54','34409684','F34409684_jats.xml',['Incubations','Nucleic acid extraction, 16S rRNA gene amplicon and metagenomic sequence analyses','DATA AVAILABILITY STATEMENT']),('PRJNA1163300','OR-5DA7260E019E','40057977','F40057977_jats.xml',['Sediment community cell extraction and experimental incubations for single amplified genome experiments','Deoxyribonucleic acid and ribonucleic acid extraction and sequencing','Data availability'])]:
-  path=ROOT.parent/'oxygen_response_review/raw/pmc_fulltext'/filename;tree=ET.parse(path);root=tree.getroot();secrows=[]
+  root=ET.fromstring(review_bytes('raw/pmc_fulltext/'+filename));secrows=[]
   for sec in root.findall('.//sec'):
    title=' '.join(sec.find('title').itertext()) if sec.find('title') is not None else ''
    if title in titles:secrows.append({'section':title,'xml_section_id':sec.get('id'),'verbatim':' '.join(' '.join(sec.itertext()).split())})

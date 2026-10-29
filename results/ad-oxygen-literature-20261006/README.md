@@ -1,5 +1,7 @@
 # 微曝气厌氧消化文献库、全文资源与后续研究
 
+**分支边界（2026-10-29）：本检出为 `review/oxygen-response-mechanisms`，机制综述从本分支继续。下文其余阶段是继承的共享项目介绍；AD／组学后续维护请到[原结果分支](https://github.com/Colliam-Vermilion/FirstCodex/tree/results/ad-oxygen-literature-20261006)。本次未删除继承的组学资料；[迁移清单与依赖](branch_migration/oxygen_response_mechanisms_20261029/README.md)。**
+
 本项目从“**主动向厌氧消化（AD）系统引入少量氧气或空气，会怎样改变过程表现和微生物功能**”出发，逐步形成可追溯文献库、正文与补充材料原件库、期刊统计和群落测序方法审计，再扩展到跨体系氧响应机制与可复用测序数据发现。最初工艺检索与后来的机制/数据工作线范围不同，不能用后者的结果数量替代原AD库，也不能把文献数、原件文件数、项目数或测序run数混算。
 
 **介绍整理日期：2026-10-25（Asia/Shanghai）。** 本次只恢复介绍与导航，没有新检索、重筛、修改人工判断/进度或重新下载/核哈希论文原件。以下每阶段标明对应结果快照，原方法、审计证据和新增详细方法均保留。阅读本页不需要展开任何折叠块。[仓库入口](../../README.md) · [章节恢复对照](method_audit/readme_restoration/chapter_map.md) · [运行历史附录](HISTORY.md)

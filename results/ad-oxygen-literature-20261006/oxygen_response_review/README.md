@@ -1,8 +1,10 @@
 # 厌氧微生物氧暴露／氧冲击机制文献
 
+**后续工作分支：`review/oxygen-response-mechanisms`（2026-10-29迁移）。** [原分支AD／组学入口](https://github.com/Colliam-Vermilion/FirstCodex/tree/results/ad-oxygen-literature-20261006) · [迁移清单与共享依赖](../branch_migration/oxygen_response_mechanisms_20261029/README.md)。本分支从 `2f952089deb28b2112ec90d0534dc7dff7e5e316` 继承完整项目历史与共享文件；此次不清理继承的组学资料。综述目录及累计表、证据和队列路径保持不变，判断与进度未改。
+
 本工作线为微曝气AD综述解释损伤、防御、代谢、互作、空间和恢复机制，允许非AD的纯培养、酶学及自然环境研究。它与原AD库关联，但不继承旧AD排除结论；没有要求omics。原分类和用户判断保留，新范围筛选是助手模型判断。
 
-**先读：[详细方法（范围、逐阶段判断、四个真实案例、局限）](methods/METHODS.md)**。复现实际查询看[检索式附表](methods/QUERY_APPENDIX.md)；核数量关系看[逐ID集合表](methods/flow_membership_utf8.csv)。本次是方法整理，不新增检索或重筛；整合前报告在页底折叠。
+**先读：[详细方法（范围、逐阶段判断、四个真实案例、局限）](methods/METHODS.md)**。复现实际查询看[检索式附表](methods/QUERY_APPENDIX.md)；核数量关系看[逐ID集合表](methods/flow_membership_utf8.csv)。详细方法及附表保留实际执行记录；本轮迁移不新增检索或重筛。
 
 ## 实际过程
 
@@ -52,3 +54,13 @@ flowchart LR
 |35来源/完整摘要|[逐篇来源与条件](reading_queue35/README.md)|仅完整缓存摘要，仍是优先阅读队列；其余候选继续核实|
 
 逐轮过期“下一步/未筛”回执可由[历史附录](../HISTORY.md)及[9208原文快照](https://github.com/Colliam-Vermilion/FirstCodex/blob/9208deddd624e99b1314bac359c22349c8554c64/results/ad-oxygen-literature-20261006/oxygen_response_review/README.md)核对。本页不再用整体折叠隐藏研究介绍，既有筛选、评价和全文证据没有重写。
+
+## 迁移后的续跑与检查
+
+从仓库根运行只读检查（不启动搜索或改写累计表）：
+
+```bash
+python results/ad-oxygen-literature-20261006/branch_migration/oxygen_response_mechanisms_20261029/validate_migration.py
+```
+
+先读`all_pool/progress.json`和`reading_queue35/source_conditions_audit.json`，按稳定ID复用已处理状态，再补读具体记录；历史`processing_order.json`等首次批次文件保留作证据，不把早期队列当作当前未处理量。`render_results.py`、`build_catalog.py`、`bootstrap`类脚本会改写结果，不是无副作用的续跑命令。历史验证器绑定当时基准和范围，不用于认定迁移后失败或重置数据；本轮只读核验入口如上。外部邮箱配置路径仍按原脚本要求放在仓库外，迁移没有安装工具或验证API可用性。

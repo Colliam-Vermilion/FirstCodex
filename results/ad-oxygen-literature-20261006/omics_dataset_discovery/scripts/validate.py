@@ -1,4 +1,5 @@
 """Check cumulative deliverables and protected progress, without rereading paper originals."""
+from review_dependency import review_bytes
 import json,csv,re,hashlib
 from openpyxl import load_workbook
 from common import ROOT,dump,now
@@ -6,7 +7,7 @@ def load(n):return json.loads((ROOT/n).read_text())
 def run():
  checks=[]
  for p in load('baseline.json')['protected_sources']:
-  assert hashlib.sha256((ROOT.parent/p['path']).read_bytes()).hexdigest()==p['sha256'],p['path']
+  assert hashlib.sha256(review_bytes(p['path'].removeprefix('oxygen_response_review/')) if p['path'].startswith('oxygen_response_review/') else (ROOT.parent/p['path']).read_bytes()).hexdigest()==p['sha256'],p['path']
  checks.append('8 protected prior omics/mechanism files unchanged; originals untouched by git diff')
  ps=load('data_projects_master.json');rs=load('samples_runs_mapping.json');papers=load('associated_papers.json');summary=load('summary.json');pp={p['project_id']:p for p in ps};rr={r['run_accession']:r for r in rs}
  assert len(pp)==len(ps) and all(re.fullmatch(r'PRJ(?:NA|EB|DB)\d+',p) for p in pp)
