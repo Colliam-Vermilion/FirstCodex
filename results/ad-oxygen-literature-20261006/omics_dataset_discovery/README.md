@@ -58,3 +58,9 @@ ARG/MGE/病毒分析还需评估总DNA偏向、深度、宿主污染和组装；
 |方法审计发现|[详细方法](methods/METHODS.md)、[队列身份重叠](methods/queue_identity_audit.json)|原2228队列残留12篇已审计旧文，本次仍未改队列|
 
 [原始结果说明的9208快照](https://github.com/Colliam-Vermilion/FirstCodex/blob/9208deddd624e99b1314bac359c22349c8554c64/results/ad-oxygen-literature-20261006/omics_dataset_discovery/README.md)与[运行历史](../HISTORY.md)保留具体回执；研究范围、结果入口和限制在本页及完整方法正常可见，不再整体折叠。
+
+## 与机制综述分支的共享证据
+
+2026-10-29机制综述迁往独立分支，数据发现继续在`results/ad-oxygen-literature-20261006`。既有关联论文／证据记录中的`../oxygen_response_review/...`是生成时的历史路径，不再要求本分支有同名目录；[迁移配置与固定提交映射](../branch_migration/oxygen_response_mechanisms_20261029/dependency_sources.json)给出来源与SHA。[机制入口](https://github.com/Colliam-Vermilion/FirstCodex/tree/review/oxygen-response-mechanisms)可查后续进度，数据分析复现则读取固定快照，避免新综述判断影响既有ID。
+
+`scripts/review_dependency.py`通过本地Git历史读回原身份库、两份已用JATS及四个启动保护快照，验证SHA后交给相关脚本；不重新下载原文，不改写旧证据记录。只读检查命令：`python results/ad-oxygen-literature-20261006/omics_dataset_discovery/scripts/review_dependency.py`。浅克隆缺历史的处理见[迁移说明](../branch_migration/oxygen_response_mechanisms_20261029/README.md)。不要为了续跑重新执行历史bootstrap或整轮搜索。

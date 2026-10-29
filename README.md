@@ -4,6 +4,8 @@
 
 **[完整项目介绍与全部成果导航](results/ad-oxygen-literature-20261006/README.md)**
 
+**2026-10-29分支分工：**[氧暴露机制综述](https://github.com/Colliam-Vermilion/FirstCodex/tree/review/oxygen-response-mechanisms)已独立；本分支继续AD资源与组学数据分析，其他阶段介绍正常可见。
+
 本页及完整介绍位于结果分支 `results/ad-oxygen-literature-20261006`，介绍修复日期为2026-10-25（Asia/Shanghai）。没有因这次文档修复重新检索、筛选、修改人工判断/进度或下载论文原件。
 
 |研究阶段|为什么做、实际做了什么、结果与限制|
@@ -12,10 +14,10 @@
 |[2. 正文与补充材料](results/ad-oxygen-literature-20261006/README.md#stage-2)|用Nature Downloader、ScanSci和公开/授权来源获取，再按身份、版本及SHA合并本地/云端文件。2026-10-23清单为388篇全文、154原格式SI，规范对象665；缺目标正文38，附件归属及合并后全量索引仍待补。|
 |[3. 期刊与JCR统计](results/ad-oxygen-literature-20261006/README.md#stage-3)|核刊名/ISSN/载体，统一2024指标年/2025发布版；386目标期刊论文核实272条，缺114。逐学科分区、来源和部分覆盖限制保留，不将缺失视为非Q1。|
 |[4. MG/MT全文方法筛查](results/ad-oxygen-literature-20261006/README.md#stage-4)|从426范围任务逐篇查方法、建库及数据声明，排除16S等扩增子/预测功能。B001–B010确认21MG+1MT，341研究均进入方法筛查但8仍待确认；文章确认不等于原始reads公开。|
-|[5. 氧暴露机制扩展](results/ad-oxygen-literature-20261006/README.md#stage-5)|从AD拓展到纯/共培养、酶学、沉积物与肠道等可迁移机制；1536关联池完成首遍分层初筛，35篇后读完整缓存摘要，仍未全文核实。引用/JIF辅助，严格独立支持未确认，Crossref尾部等缺口明示。|
+|[5. 氧暴露机制（迁移入口）](results/ad-oxygen-literature-20261006/README.md#stage-5)|专属结果、方法、证据与队列已移至[review/oxygen-response-mechanisms](https://github.com/Colliam-Vermilion/FirstCodex/tree/review/oxygen-response-mechanisms)；后续综述在新分支，组学工作留在本分支。|
 |[6. 测序数据与关联论文](results/ad-oxygen-literature-20261006/README.md#stage-6)|复用旧22篇后双向查询ENA/BioProject/SRA/PubMed，核项目—样本—run及处理键。审计69项目，38有公开群落reads清单；设计缺口、技术重复及未下载FASTQ分别记录，不能据公开项目数推断独立实验数。|
 |[7. 成果导航与续跑](results/ad-oxygen-literature-20261006/README.md#stage-7)|集中提供各阶段Excel、RIS、原件、方法和队列；未完成工作按阶段保留。新增工作应追加相应章节，不用最新任务覆盖整体介绍。|
 
-常用入口：[AD总Excel](results/ad-oxygen-literature-20261006/final_results/ad_oxygen_download_review_20261006.xlsx) · [规范原件](results/ad-oxygen-literature-20261006/original_files/) · [JCR Excel](results/ad-oxygen-literature-20261006/final_results/journal_jcr_statistics_20261023.xlsx) · [组学筛查Excel](results/ad-oxygen-literature-20261006/omics_screening/omics_screening_cumulative.xlsx) · [机制Excel](results/ad-oxygen-literature-20261006/oxygen_response_review/oxygen_response_review_cumulative.xlsx) · [数据发现Excel](results/ad-oxygen-literature-20261006/omics_dataset_discovery/omics_dataset_discovery_cumulative.xlsx)
+常用入口：[AD总Excel](results/ad-oxygen-literature-20261006/final_results/ad_oxygen_download_review_20261006.xlsx) · [规范原件](results/ad-oxygen-literature-20261006/original_files/) · [JCR Excel](results/ad-oxygen-literature-20261006/final_results/journal_jcr_statistics_20261023.xlsx) · [组学筛查Excel](results/ad-oxygen-literature-20261006/omics_screening/omics_screening_cumulative.xlsx) · [机制Excel](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/oxygen_response_review_cumulative.xlsx) · [数据发现Excel](results/ad-oxygen-literature-20261006/omics_dataset_discovery/omics_dataset_discovery_cumulative.xlsx)
 
 [章节恢复对照](results/ad-oxygen-literature-20261006/method_audit/readme_restoration/chapter_map.md)与[运行历史附录](results/ad-oxygen-literature-20261006/HISTORY.md)说明原内容的去向。主要研究阶段在首页正常可见；只有逐轮环境、网络和执行回执单独归档。

@@ -1,10 +1,11 @@
+from review_dependency import review_json
 """Complete bounded official publication backlinks and assembly checks; no read download."""
 import json,re,time,xml.etree.ElementTree as ET
 from common import ROOT,dump,now,fetch,getjson,url
 from parse_discovery import txt
 BASE='https://eutils.ncbi.nlm.nih.gov/entrez/eutils/'
 def run():
- ass=json.loads((ROOT/'project_assessments.json').read_text());rel=json.loads((ROOT/'project_publication_relations.json').read_text());old=json.loads((ROOT.parent/'oxygen_response_review/catalog.json').read_text());dm={x.get('doi','').lower():x['id'] for x in old if x.get('doi')};pm={str(x.get('pmid')):x['id'] for x in old if x.get('pmid')};existing={x['paper_id'] for x in json.loads((ROOT/'existing_articles_availability_audit.json').read_text())};papers={p['pmid']:p for p in json.loads((ROOT/'paper_discovery_candidates_enriched.json').read_text()) if p.get('pmid')};linked={p['paper_id']:p for p in json.loads((ROOT/'new_associated_papers.json').read_text())};logs=json.loads((ROOT/'search_log.json').read_text());checks=[]
+ ass=json.loads((ROOT/'project_assessments.json').read_text());rel=json.loads((ROOT/'project_publication_relations.json').read_text());old=review_json('catalog.json');dm={x.get('doi','').lower():x['id'] for x in old if x.get('doi')};pm={str(x.get('pmid')):x['id'] for x in old if x.get('pmid')};existing={x['paper_id'] for x in json.loads((ROOT/'existing_articles_availability_audit.json').read_text())};papers={p['pmid']:p for p in json.loads((ROOT/'paper_discovery_candidates_enriched.json').read_text()) if p.get('pmid')};linked={p['paper_id']:p for p in json.loads((ROOT/'new_associated_papers.json').read_text())};logs=json.loads((ROOT/'search_log.json').read_text());checks=[]
  # Fetch twenty PRJNA records in one call; full response saved by fetch().
  ids=[a[5:] for a in ass if a.startswith('PRJNA') and ass[a].get('audit_batch')=='D004']
  b,m=fetch(url(BASE+'efetch.fcgi',db='bioproject',id=','.join(ids),retmode='xml'),'NCBI');time.sleep(.4)

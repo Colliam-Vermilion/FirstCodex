@@ -118,6 +118,8 @@ def history():
    desc=subprocess.check_output(['git','show','-s','--format=%H%n%cI%n%s',sha],cwd=P.parents[1],text=True).splitlines();rows.append({'workstream':work,'commit':desc[0],'committed_at':desc[1],'subject':desc[2],'summary_as_saved':data})
  dump(A/'stage_history.json',rows)
 def main():
+ if not M.exists():
+  raise SystemExit("机制综述已迁移；不要在原分支运行双线历史重建器。使用branch_migration中的只读核验，综述方法到新分支维护。")
  for r in [M,D]:(r/'methods').mkdir(exist_ok=True)
  protected=A/'protected_sources.json'
  if not protected.exists():

@@ -6,9 +6,9 @@
 
 |原入口说明|原相对位置|现在的可达位置/处理|
 |---|---|---|
-|oxygen_response_review|`oxygen_response_review/README.md`|[oxygen_response_review](../../oxygen_response_review/README.md)；原文件保留；日期/口径依对应阶段|
-|详细方法与真实案例|`oxygen_response_review/methods/METHODS.md`|[详细方法与真实案例](../../oxygen_response_review/methods/METHODS.md)；原文件保留；日期/口径依对应阶段|
-|完整检索式附表|`oxygen_response_review/methods/QUERY_APPENDIX.md`|[完整检索式附表](../../oxygen_response_review/methods/QUERY_APPENDIX.md)；原文件保留；日期/口径依对应阶段|
+|oxygen_response_review|`oxygen_response_review/README.md`|[oxygen_response_review](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/README.md)；原文件保留；日期/口径依对应阶段|
+|详细方法与真实案例|`oxygen_response_review/methods/METHODS.md`|[详细方法与真实案例](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/methods/METHODS.md)；原文件保留；日期/口径依对应阶段|
+|完整检索式附表|`oxygen_response_review/methods/QUERY_APPENDIX.md`|[完整检索式附表](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/methods/QUERY_APPENDIX.md)；原文件保留；日期/口径依对应阶段|
 |omics_dataset_discovery|`omics_dataset_discovery/README.md`|[omics_dataset_discovery](../../omics_dataset_discovery/README.md)；原文件保留；日期/口径依对应阶段|
 |详细方法与真实案例|`omics_dataset_discovery/methods/METHODS.md`|[详细方法与真实案例](../../omics_dataset_discovery/methods/METHODS.md)；原文件保留；日期/口径依对应阶段|
 |完整检索式附表|`omics_dataset_discovery/methods/QUERY_APPENDIX.md`|[完整检索式附表](../../omics_dataset_discovery/methods/QUERY_APPENDIX.md)；原文件保留；日期/口径依对应阶段|
@@ -22,23 +22,23 @@
 |累计Excel|`omics_dataset_discovery/omics_dataset_discovery_cumulative.xlsx`|[累计Excel](../../omics_dataset_discovery/omics_dataset_discovery_cumulative.xlsx)；原文件保留；日期/口径依对应阶段|
 |项目/样本/run及文件入口|`omics_dataset_discovery/data_projects_master_utf8.csv`|[项目/样本/run及文件入口](../../omics_dataset_discovery/data_projects_master_utf8.csv)；原文件保留；日期/口径依对应阶段|
 |续跑进度|`omics_dataset_discovery/progress.json`|[续跑进度](../../omics_dataset_discovery/progress.json)；原文件保留；日期/口径依对应阶段|
-|逐篇核对|`oxygen_response_review/reading_queue35/README.md`|[逐篇核对](../../oxygen_response_review/reading_queue35/README.md)；原文件保留；日期/口径依对应阶段|
-|同一累计Excel|`oxygen_response_review/oxygen_response_review_cumulative.xlsx`|[同一累计Excel](../../oxygen_response_review/oxygen_response_review_cumulative.xlsx)；原文件保留；日期/口径依对应阶段|
-|全池进度与阅读边界|`oxygen_response_review/all_pool/README.md`|[全池进度与阅读边界](../../oxygen_response_review/all_pool/README.md)；原文件保留；日期/口径依对应阶段|
-|全池暂定优先CSV|`oxygen_response_review/all_pool/provisional_priorities_utf8.csv`|[全池暂定优先CSV](../../oxygen_response_review/all_pool/provisional_priorities_utf8.csv)；原文件保留；日期/口径依对应阶段|
-|优先集RIS|`oxygen_response_review/all_pool/provisional_priority_set.ris`|[优先集RIS](../../oxygen_response_review/all_pool/provisional_priority_set.ris)；原文件保留；日期/口径依对应阶段|
-|下一阶段35条|`oxygen_response_review/all_pool/next_stage_queue_utf8.csv`|[下一阶段35条](../../oxygen_response_review/all_pool/next_stage_queue_utf8.csv)；原文件保留；日期/口径依对应阶段|
-|精读集EndNote RIS|`oxygen_response_review/reading_priority/priority_reading_set.ris`|[精读集EndNote RIS](../../oxygen_response_review/reading_priority/priority_reading_set.ris)；原文件保留；日期/口径依对应阶段|
-|逐篇评价CSV|`oxygen_response_review/reading_priority/priority_reading_utf8.csv`|[逐篇评价CSV](../../oxygen_response_review/reading_priority/priority_reading_utf8.csv)；原文件保留；日期/口径依对应阶段|
-|建议先读哪些/各自主张与边界|`oxygen_response_review/reading_priority/README.md`|[建议先读哪些/各自主张与边界](../../oxygen_response_review/reading_priority/README.md)；原文件保留；日期/口径依对应阶段|
-|机制验证关联|`oxygen_response_review/reading_priority/mechanism_validation_links_utf8.csv`|[机制验证关联](../../oxygen_response_review/reading_priority/mechanism_validation_links_utf8.csv)；原文件保留；日期/口径依对应阶段|
-|方法及进度|`oxygen_response_review/reading_priority/progress.json`|[方法及进度](../../oxygen_response_review/reading_priority/progress.json)；原文件保留；日期/口径依对应阶段|
-|首批20结果|`oxygen_response_review/batch_B001_results_utf8.csv`|[首批20结果](../../oxygen_response_review/batch_B001_results_utf8.csv)；原文件保留；日期/口径依对应阶段|
-|机制证据|`oxygen_response_review/mechanism_evidence_utf8.csv`|[机制证据](../../oxygen_response_review/mechanism_evidence_utf8.csv)；原文件保留；日期/口径依对应阶段|
-|首批EndNote RIS|`oxygen_response_review/oxygen_response_B001.ris`|[首批EndNote RIS](../../oxygen_response_review/oxygen_response_B001.ris)；原文件保留；日期/口径依对应阶段|
-|机制发现/外推边界/综述框架|`oxygen_response_review/MECHANISM_SYNTHESIS_zh.md`|[机制发现/外推边界/综述框架](../../oxygen_response_review/MECHANISM_SYNTHESIS_zh.md)；原文件保留；日期/口径依对应阶段|
-|查询和原始返回/续跑协议|`oxygen_response_review/PROTOCOL_zh.md`|[查询和原始返回/续跑协议](../../oxygen_response_review/PROTOCOL_zh.md)；原文件保留；日期/口径依对应阶段|
-|保护与定位验证|`oxygen_response_review/validation.json`|[保护与定位验证](../../oxygen_response_review/validation.json)；原文件保留；日期/口径依对应阶段|
+|逐篇核对|`oxygen_response_review/reading_queue35/README.md`|[逐篇核对](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/reading_queue35/README.md)；原文件保留；日期/口径依对应阶段|
+|同一累计Excel|`oxygen_response_review/oxygen_response_review_cumulative.xlsx`|[同一累计Excel](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/oxygen_response_review_cumulative.xlsx)；原文件保留；日期/口径依对应阶段|
+|全池进度与阅读边界|`oxygen_response_review/all_pool/README.md`|[全池进度与阅读边界](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/all_pool/README.md)；原文件保留；日期/口径依对应阶段|
+|全池暂定优先CSV|`oxygen_response_review/all_pool/provisional_priorities_utf8.csv`|[全池暂定优先CSV](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/all_pool/provisional_priorities_utf8.csv)；原文件保留；日期/口径依对应阶段|
+|优先集RIS|`oxygen_response_review/all_pool/provisional_priority_set.ris`|[优先集RIS](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/all_pool/provisional_priority_set.ris)；原文件保留；日期/口径依对应阶段|
+|下一阶段35条|`oxygen_response_review/all_pool/next_stage_queue_utf8.csv`|[下一阶段35条](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/all_pool/next_stage_queue_utf8.csv)；原文件保留；日期/口径依对应阶段|
+|精读集EndNote RIS|`oxygen_response_review/reading_priority/priority_reading_set.ris`|[精读集EndNote RIS](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/reading_priority/priority_reading_set.ris)；原文件保留；日期/口径依对应阶段|
+|逐篇评价CSV|`oxygen_response_review/reading_priority/priority_reading_utf8.csv`|[逐篇评价CSV](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/reading_priority/priority_reading_utf8.csv)；原文件保留；日期/口径依对应阶段|
+|建议先读哪些/各自主张与边界|`oxygen_response_review/reading_priority/README.md`|[建议先读哪些/各自主张与边界](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/reading_priority/README.md)；原文件保留；日期/口径依对应阶段|
+|机制验证关联|`oxygen_response_review/reading_priority/mechanism_validation_links_utf8.csv`|[机制验证关联](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/reading_priority/mechanism_validation_links_utf8.csv)；原文件保留；日期/口径依对应阶段|
+|方法及进度|`oxygen_response_review/reading_priority/progress.json`|[方法及进度](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/reading_priority/progress.json)；原文件保留；日期/口径依对应阶段|
+|首批20结果|`oxygen_response_review/batch_B001_results_utf8.csv`|[首批20结果](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/batch_B001_results_utf8.csv)；原文件保留；日期/口径依对应阶段|
+|机制证据|`oxygen_response_review/mechanism_evidence_utf8.csv`|[机制证据](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/mechanism_evidence_utf8.csv)；原文件保留；日期/口径依对应阶段|
+|首批EndNote RIS|`oxygen_response_review/oxygen_response_B001.ris`|[首批EndNote RIS](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/oxygen_response_B001.ris)；原文件保留；日期/口径依对应阶段|
+|机制发现/外推边界/综述框架|`oxygen_response_review/MECHANISM_SYNTHESIS_zh.md`|[机制发现/外推边界/综述框架](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/MECHANISM_SYNTHESIS_zh.md)；原文件保留；日期/口径依对应阶段|
+|查询和原始返回/续跑协议|`oxygen_response_review/PROTOCOL_zh.md`|[查询和原始返回/续跑协议](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/PROTOCOL_zh.md)；原文件保留；日期/口径依对应阶段|
+|保护与定位验证|`oxygen_response_review/validation.json`|[保护与定位验证](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/validation.json)；原文件保留；日期/口径依对应阶段|
 |同一累计Excel|`omics_screening/omics_screening_cumulative.xlsx`|[同一累计Excel](../../omics_screening/omics_screening_cumulative.xlsx)；原文件保留；日期/口径依对应阶段|
 |26篇逐篇结论/证据/限制|`omics_screening/README.md`|[26篇逐篇结论/证据/限制](../../omics_screening/README.md)；原文件保留；日期/口径依对应阶段|
 |本批CSV|`omics_screening/batch_B010_results_utf8.csv`|[本批CSV](../../omics_screening/batch_B010_results_utf8.csv)；原文件保留；日期/口径依对应阶段|

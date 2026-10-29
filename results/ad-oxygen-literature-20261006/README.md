@@ -4,6 +4,8 @@
 
 **介绍整理日期：2026-10-25（Asia/Shanghai）。** 本次只恢复介绍与导航，没有新检索、重筛、修改人工判断/进度或重新下载/核哈希论文原件。以下每阶段标明对应结果快照，原方法、审计证据和新增详细方法均保留。阅读本页不需要展开任何折叠块。[仓库入口](../../README.md) · [章节恢复对照](method_audit/readme_restoration/chapter_map.md) · [运行历史附录](HISTORY.md)
 
+**分支分工（2026-10-29）：**氧暴露机制综述已迁至[`review/oxygen-response-mechanisms`](https://github.com/Colliam-Vermilion/FirstCodex/tree/review/oxygen-response-mechanisms)。本分支继续原AD文献库、原件/JCR、组学全文筛查及数据集发现；[迁移清单与已通过的新分支读回](branch_migration/oxygen_response_mechanisms_20261029/README.md)记录共享依赖。下述阶段1–4、6及其成果保持，阶段5仅保留迁移入口。
+
 ## 目录
 
 1. [最初的微曝气AD检索、校正、追溯与补检](#stage-1)
@@ -120,19 +122,11 @@ B001–B010连续按批、按篇保存并推送。B010于2026-10-24（UTC+8）�
 [累计Excel](omics_screening/omics_screening_cumulative.xlsx) · [逐篇判断](omics_screening/screening_records_utf8.csv) · [530条原文证据](omics_screening/evidence.json) · [项目/样本关联](omics_screening/data_projects_samples.json) · [批次](omics_screening/batches.json) · [8条及其他疑点](omics_screening/pending_related.json) · [B010核验/读回](omics_screening/batches/B010/remote_readback.json)。全文方法筛查不是所有文章从头到尾通读，也没有下载原始reads或联系作者。后续仍需解决8篇策略不明及附件身份，不能因为“未开始0”称全部确定。
 
 <a id="stage-5"></a>
-## 5. 厌氧环境氧暴露机制：从AD工艺扩展到机制证据
+## 5. 厌氧环境氧暴露机制：已迁至独立分支
 
-仅靠AD性能/组学可能不足以解释氧损伤、清除、防御与互作，因此2026-10-24增加独立机制范围：产甲烷/互营/发酵培养、严格厌氧菌、沉积物/湿地/土壤以及有可迁移机制的肠道等体系。原AD库排除的非AD研究也参与新范围判断。急性冲击、持续微氧、反复暴露和去氧恢复分别标记；分子O2与独立H2O2/ROS、化学调ORP分开，不能把不同情境合并解释。
+机制综述用于解释微曝气AD的微生物损伤、防御、代谢与互作；检索、筛选、评价、原文证据和续跑队列已完整移至 **[`review/oxygen-response-mechanisms`](https://github.com/Colliam-Vermilion/FirstCodex/tree/review/oxygen-response-mechanisms)**。后续补读与机制判断在该分支继续，本分支不再保留其专属目录。
 
-实际执行PubMed 17组、Crossref 3组、OpenAlex 3组，并以2020年Bacteroides原研究为种子做有限前/后向追溯。完整过程、命中驱动扩词、阅读与判断方式、4个真实案例，以及Crossref各前100未补齐等限制，均在本次保留的[详细方法](oxygen_response_review/methods/METHODS.md)和[完整查询附表](oxygen_response_review/methods/QUERY_APPENDIX.md)。早期技能/MCP失败与官方API成功分开，不能与最初AD检索的成功验证混为同一次调用。
-
-1,147是含重复返回行，映射为1,039个返回身份，其中57与原库重叠、982新增；原554全部保留，所以新范围池1,536，并非纳入数。[逐ID集合关系](oxygen_response_review/methods/flow_membership_utf8.csv)与原始返回可追溯，不凭数字相减猜来源。14项身份冲突与11组可能版本仍待核，不能视为独立研究。
-
-首20按机制/体系分层选择，10读相关全文段落、10只读摘要；后来对其做五维精读评价，17推荐（其中8摘要暂定）、3暂缓。“范围符合17”与“推荐17”只重叠16，离体酶学与DAMO暂缓的区别已说明。原20以外1,516条完成的是**题名/摘要关键句初筛**：347候选、477待确认、336背景、356排除，不是完整摘要审阅；230条仍缺摘要。原17推荐与347新候选组成364暂定优先，累计待确认479；另1条DAMO范围相关但精读暂缓保留。
-
-从347里按具体靶点/潜在干预和主题覆盖选择35篇阅读队列，后来补读了完整缓存摘要，但新增全文核实/严格独立验证均为0。它们不是指标前35、终选上限或已确认核心，其余312候选仍需核。AD相关性和具体证据优先，引用与JIF只辅助；同团队跟进、不同团队跨类群支持、反例与同对象严格复制分开，不能用被引量或综述重复引用替代独立验证。
-
-[同一累计Excel](oxygen_response_review/oxygen_response_review_cumulative.xlsx) · [原20五维评价](oxygen_response_review/reading_priority/README.md) · [35逐篇来源/条件](oxygen_response_review/reading_queue35/README.md) · [主张验证关联](oxygen_response_review/reading_priority/mechanism_validation_links_utf8.csv) · [全池进度](oxygen_response_review/all_pool/progress.json)。这条线因切换数据发现已暂存；P001/P002当时显示片段未保存、P012错位更正、Europe PMC旧摘要与后来3篇成功正文并存等审计发现继续保留。后续应补具体摘要/方法与主张，不重复主题检索或把未核实说成无证据。
+[完整机制介绍](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/README.md) · [方法与检索式](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/methods/METHODS.md) · [累计Excel](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/oxygen_response_review_cumulative.xlsx) · [迁移清单／读回](branch_migration/oxygen_response_mechanisms_20261029/README.md)。共享AD原件与组学关联记录继续保留，未因文献重合而删除。
 
 <a id="stage-6"></a>
 ## 6. 可复用测序数据与关联论文：从文章名单走向分析设计
@@ -162,7 +156,7 @@ GSA只测试入口而被阻断，未执行数据库检索；FASTQ入口HEAD抽�
 |原件与补材|[665规范对象](original_files/) · [库存Excel](inventory/unified_library_inventory.xlsx) · [原件清单](inventory/merge_20261023/unified_files_utf8.csv) · [来源映射](inventory/merge_20261023/source_path_mapping_utf8.csv)|[合并/核验方法21](methods/21_local_merge_and_jcr_20261023_zh.md) · [38缺目标全文](manual_review/current_environment_need_fulltext_utf8.csv) · [Windows回填](windows/README_zh.md)|
 |期刊/JCR|[统计Excel](final_results/journal_jcr_statistics_20261023.xlsx) · [JCR统计JSON](inventory/merge_20261023/jcr_summary.json)|[缺指标/载体疑点](inventory/merge_20261023/jcr_pending_utf8.csv) · [方法21](methods/21_local_merge_and_jcr_20261023_zh.md)|
 |MG/MT全文方法审计|[累计Excel](omics_screening/omics_screening_cumulative.xlsx) · [结论](omics_screening/screening_records.json) · [证据](omics_screening/evidence.json)|[B001–B010过程](omics_screening/README.md) · [批次/进度](omics_screening/batches.json) · [8待确认及相关线索](omics_screening/pending_related.json)|
-|氧响应机制|[累计Excel](oxygen_response_review/oxygen_response_review_cumulative.xlsx) · [364暂定优先CSV](oxygen_response_review/all_pool/provisional_priorities_utf8.csv)|[详细方法](oxygen_response_review/methods/METHODS.md) · [查询附表](oxygen_response_review/methods/QUERY_APPENDIX.md) · [35来源与阅读深度](oxygen_response_review/reading_queue35/README.md) · [其余312候选](oxygen_response_review/reading_queue35/other_in_scope_continuation_queue.json)|
+|氧响应机制（已迁移）|[独立分支入口](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/README.md)|[迁移清单与读回](branch_migration/oxygen_response_mechanisms_20261029/README.md)，后续在`review/oxygen-response-mechanisms`继续|
 |测序数据/关联论文|[累计Excel](omics_dataset_discovery/omics_dataset_discovery_cumulative.xlsx) · [项目表](omics_dataset_discovery/data_projects_master_utf8.csv) · [文件入口](omics_dataset_discovery/raw_file_entry_manifest_utf8.csv)|[详细方法](omics_dataset_discovery/methods/METHODS.md) · [查询附表](omics_dataset_discovery/methods/QUERY_APPENDIX.md) · [下载准备](omics_dataset_discovery/download_preparation_priority_utf8.csv) · [续跑](omics_dataset_discovery/progress.json)|
 |方法与运行证据|[上轮方法审计](method_audit/README.md) · [本次章节对照](method_audit/readme_restoration/chapter_map.md)|[有日期的运行历史](HISTORY.md) · [历史成果链接索引](method_audit/readme_restoration/source_link_index.md)|
 
@@ -170,13 +164,13 @@ GSA只测试入口而被阻断，未执行数据库检索；FASTQ入口HEAD抽�
 
 原554条可用六个期刊分类RIS加学位/报告及其他非期刊共8个互斥分区；类别5仅审计，类别6为空。[期刊原始研究合并RIS](final_results/confirmed_original_research.ris)为类别1–3的替代方案；[追溯58](final_results/new_from_review_chase.ris)、[补检30](final_results/supplement_confirmed_new.ris)、[续检49](final_results/continuation_confirmed_new.ris)均已含总库，不与全量重复导入。期刊RIS的历史载体标签与JCR规范分母不同，详见第3节。
 
-机制线[原17精读RIS](oxygen_response_review/reading_priority/priority_reading_set.ris)、[364暂定优先RIS](oxygen_response_review/all_pool/provisional_priority_set.ris)、[35新候选RIS](oxygen_response_review/all_pool/new_focus_set.ris)彼此有重叠，不是3个互斥集合。数据线[群落关联RIS](omics_dataset_discovery/community_dataset_papers.ris)与[全部关联候选RIS](omics_dataset_discovery/associated_papers.ris)也为替代子集；后者含特殊/待筛关联，不是全纳入。EndNote选择Reference Manager (RIS)及Unicode UTF-8，保留稳定ID并去重；没有声称已在用户Windows实际导入。
+机制RIS及子集重叠说明见[独立综述分支](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/README.md)。数据线[群落关联RIS](omics_dataset_discovery/community_dataset_papers.ris)与[全部关联候选RIS](omics_dataset_discovery/associated_papers.ris)也为替代子集；后者含特殊/待筛关联，不是全纳入。EndNote选择Reference Manager (RIS)及Unicode UTF-8，保留稳定ID并去重；没有声称已在用户Windows实际导入。
 
 ### 尚未完成的工作
 
 - **原AD检索覆盖：**10,107返回身份未处理、98范围候选、部分综述引用和新综述追溯仍有缺口。保存材料能定位55条旧误排，但另3条未匹配的检出原因无法确定。
 - **原件与解析：**38个ID缺目标全文，附件归属清单在库存/后续审计间尚需对齐；合并后未重建全部全文索引，旧扫描/自动表格未逐项人工校正。原始文件不能由提取文本替代。
 - **期刊与组学：**JCR缺114条及完整学科信息；8篇测序策略待确认，缺正文/综述不计阴性。22目标论文不保证都有公开或可匹配分组的reads。
-- **机制与数据：**35仍是阅读队列，479待确认及其余候选未核完，严格独立复制未确认；418项目未审计，2,228论文队列含12旧文重复，7项目下载准备也不等于有充分生物重复或FASTQ已取回。
+- **数据发现：**418项目未审计，2,228论文队列含12旧文重复，7项目下载准备不等于有充分生物重复或FASTQ已取回。机制待办及全部候选在上述独立分支续跑。
 
 **维护规则：**以后新增工作追加到对应研究阶段或新增章节，保留已有方法、用户判断和成果入口；不再把首页替换为最新任务或整体折叠原介绍。数量必须同时说明日期、集合和完成深度。方法/论文/原件变更分开记录，结果分支正常提交，不因介绍修复修改主分支、重筛或重下原件。

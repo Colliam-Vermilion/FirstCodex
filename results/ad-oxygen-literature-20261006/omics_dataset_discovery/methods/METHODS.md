@@ -215,7 +215,7 @@ ARG/MGE需要群落总DNA、足够深度和可追溯分组，仍须核提取/扩
 
 ### B方向、全文补证改变分析含义：PRJNA1163300
 
-由ENA E05/E14命中；关联论文OR-5DA7260E019E复用既有机制库ID。官方source为METATRANSCRIPTOMIC而strategy为WGS，不能据WGS把它当DNA。读[既存官方全文](../../oxygen_response_review/raw/pmc_fulltext/F40057977_jats.xml)培养和RNA章节后确认：24h、21°C，空气条件作者换算约4% O2；只有加laminarin样本RNA成功，随后混池成2库。
+由ENA E05/E14命中；关联论文OR-5DA7260E019E复用既有机制库ID。官方source为METATRANSCRIPTOMIC而strategy为WGS，不能据WGS把它当DNA。读[既存官方全文](https://github.com/Colliam-Vermilion/FirstCodex/blob/review/oxygen-response-mechanisms/results/ad-oxygen-literature-20261006/oxygen_response_review/raw/pmc_fulltext/F40057977_jats.xml)培养和RNA章节后确认：24h、21°C，空气条件作者换算约4% O2；只有加laminarin样本RNA成功，随后混池成2库。
 
 官方题名支持cDNA1加空气、cDNA2不加；[原文位置](../reused_cached_fulltext_methods.json)支持两者都含laminarin，状态1、B。可作探索性氧响应RNA比较，但无独立文库重复；本实验DNA未得到可用metagenome，其他地点JGI DNA不是配对MG；SAG/WGA另列。不是“论文有MG/MT字样就保证有配对数据”。
 
