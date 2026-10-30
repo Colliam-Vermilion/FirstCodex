@@ -69,5 +69,27 @@
     "condition": "65/104 L桶；20–25°C；沼气停留30–40 min附近的最大率",
     "source_locator": "PDF p8 Table1",
     "not_equal_to": "不是Deff、kLa、kf，也不是无反应物理气体通量"
+  },
+  {
+    "id": "R06227",
+    "title": "Using air instead of biogas for mixing and its effect on anaerobic digestion of animal wastewater with high suspended solids",
+    "doi": "10.1016/j.biortech.2020.124047",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "相同功率下摘要报告均匀混合时间由10 min缩短到1.5 min，甲烷及水解改善",
+    "limits": "氧输入和对流同时改变；62.9%/37.1%的贡献分摊方法需正文核；混合时间不是Deff、kf或kLa",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "R06227",
+        "identity_field": "id"
+      }
+    ],
+    "symbol": "bulk homogeneous mixing time",
+    "value_original": "10 versus 1.5",
+    "unit_original": "min",
+    "acquisition": "摘要报告同功率混合试验；示踪/拟合细节待全文",
+    "condition": "机械混合vs空气混合；动物废水AD",
+    "source_locator": "完整缓存摘要",
+    "not_equal_to": "不是聚集体内部Deff或细胞间距离"
   }
 ]

@@ -43,6 +43,51 @@
     "EPS_pore_flow_measured": false
   },
   {
+    "id": "ODS-PMID18405985",
+    "title": "Correlative light/electron microscopy for the investigation of microbial mats from Black Sea Cold Seeps.",
+    "doi": "10.1016/j.mimet.2008.02.020",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "黑海冷泉微生物席用树脂切片和荧光/胶体金凝集素定位EPS，比较光学与电镜图",
+    "limits": "是切片相关显微，并非已核实整颗粒三维重建；EPS黏附/矿化作用不等于氧屏障或孔隙流量",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID18405985",
+        "identity_field": "paper_id"
+      }
+    ],
+    "method": "树脂切片，光/电镜相关成像＋凝集素标记EPS",
+    "targets": [
+      "EPS",
+      "细菌/古菌聚集"
+    ],
+    "true_3D_verified": false,
+    "EPS_pore_flow_measured": false
+  },
+  {
+    "id": "ODS-PMID29150508",
+    "title": "Community Composition and Ultrastructure of a Nitrate-Dependent Anaerobic Methane-Oxidizing Enrichment Culture.",
+    "doi": "10.1128/aem.02186-17",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "FISH/免疫金/电子断层揭示Ca.Methanoperedens细胞约1.5 μm、管状突出和候选细胞接触结构",
+    "limits": "电子断层方法由摘要明确；本轮未读正文确认重建体积/分辨率；细胞接触功能未证，不能认定导电或气体通道",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID29150508",
+        "identity_field": "paper_id"
+      }
+    ],
+    "method": "含electron tomography的光/电镜、FISH、免疫金",
+    "three_D_method_reported_in_abstract": true,
+    "fulltext_3D_verified": false,
+    "whole_aggregate_3D_verified": false,
+    "targets": [
+      "古菌细胞/候选接触结构"
+    ],
+    "EPS_pore_flow_measured": false
+  },
+  {
     "id": "ODS-PMID32994285",
     "title": "Size Shapes the Active Microbiome of Methanogenic Granules, Corroborating a Biofilm Life Cycle.",
     "doi": "10.1128/msystems.00323-20",
@@ -57,6 +102,40 @@
       }
     ],
     "method": "粒径分级＋活性与扩增子；非三维结构测量",
+    "true_3D_verified": false
+  },
+  {
+    "id": "ODS-PMID35699440",
+    "title": "Stimulating Effect of Trichococcus flocculiformis on a Coculture of Syntrophomonas wolfei and Methanospirillum hungatei .",
+    "doi": "10.1128/aem.00391-22",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "Trichococcus加入Syntrophomonas—产甲烷菌共培养后丁酸消费和甲烷率升高；SEM见共聚集倾向",
+    "limits": "功能提高可能涉及信号调节或酶表达，不证明距离缩短导致H2/甲酸通量提高；非真三维成像",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID35699440",
+        "identity_field": "paper_id"
+      }
+    ],
+    "method": "SEM表面形态，未核实三维重建",
+    "true_3D_verified": false
+  },
+  {
+    "id": "ODS-PMID40222284",
+    "title": "Facilitating anaerobic digestion of kitchen waste through diatomite-mediated spatial ecological niches construction.",
+    "doi": "10.1016/j.wasman.2025.114792",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "10 g/L硅藻土使甲烷提高11.76%；发酵菌偏紧密附着，产乙酸型与氢营养古菌富集于悬浮组",
+    "limits": "群落分级不是三维细胞坐标，电子传递/互营解释未测H2/甲酸通量；载体吸附与缓冲亦可能参与",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID40222284",
+        "identity_field": "paper_id"
+      }
+    ],
+    "method": "群落分级/生物膜和EPS；三维位置未核实",
     "true_3D_verified": false
   },
   {
@@ -76,6 +155,45 @@
     "method": "FISH；未核实三维堆栈",
     "true_3D_verified": false,
     "EPS_pore_flow_measured": false
+  },
+  {
+    "id": "OR-1925EF467A30",
+    "title": "Microbial stratification protects denitrifying anaerobic methane oxidation archaea and bacteria from external oxygen shock in membrane biofilm reactor.",
+    "doi": "10.1016/j.biortech.2023.129966",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "DO0.2 mg/L时目标类群显著下降，0.5 mg/L出现硝酸盐积累；作者提出外层替代保护内层",
+    "limits": "仅摘要未确认氧微剖面或因果保护；不是产甲烷AD；功能基因下降非速率",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-1925EF467A30",
+        "identity_field": "id"
+      },
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "OR-1925EF467A30",
+        "identity_field": "paper_id"
+      }
+    ],
+    "method": "分层保护来自作者解释；三维/局部DO测量待正文",
+    "true_3D_verified": false
+  },
+  {
+    "id": "OR-52E6BA12BEDD",
+    "title": "Spatial distribution and viability of nitrifying, denitrifying and ANAMMOX bacteria in biofilms of sponge media retrieved from a full-scale biological nutrient removal plant.",
+    "doi": "10.1007/s00449-012-0701-9",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "FISH与离子微电极显示侧面/中心菌群不同，生物量随深度减而存活率不表现同样空间变化，Anammox贯穿深度",
+    "limits": "空间位置不等于相同DO，非产甲烷菌；摘要FISH不自动算3D体重建",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-52E6BA12BEDD",
+        "identity_field": "id"
+      }
+    ],
+    "method": "FISH与NH4/NO3微电极；三维未核实",
+    "true_3D_verified": false
   },
   {
     "id": "OR-8E58C5BBDB53",
@@ -99,6 +217,23 @@
     ],
     "true_3D_verified": false,
     "EPS_pore_flow_measured": false
+  },
+  {
+    "id": "OR-B0B72D22FA67",
+    "title": "Biofilm development in a pilot-scale gravity sewer: Physical characteristics, microstructure, and microbial communities.",
+    "doi": "10.1016/j.envres.2021.110838",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "45 d厚约1.2 mm，局部ORP−105 mV及约0.1 μmol/L硫化物；结构和类群变化相关",
+    "limits": "负ORP不是直接DO证明；微电极种类要分清，不把ORP剖面写为氧剖面",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-B0B72D22FA67",
+        "identity_field": "id"
+      }
+    ],
+    "method": "微结构分析＋微电极；三维方法未核实",
+    "true_3D_verified": false
   },
   {
     "id": "OR-F8559A118DBF",

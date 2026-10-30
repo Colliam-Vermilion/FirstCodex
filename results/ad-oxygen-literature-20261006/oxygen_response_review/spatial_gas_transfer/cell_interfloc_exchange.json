@@ -22,6 +22,51 @@
     "cell_distance_measured": false
   },
   {
+    "id": "ODS-PMID35699440",
+    "title": "Stimulating Effect of Trichococcus flocculiformis on a Coculture of Syntrophomonas wolfei and Methanospirillum hungatei .",
+    "doi": "10.1128/aem.00391-22",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "Trichococcus加入Syntrophomonas—产甲烷菌共培养后丁酸消费和甲烷率升高；SEM见共聚集倾向",
+    "limits": "功能提高可能涉及信号调节或酶表达，不证明距离缩短导致H2/甲酸通量提高；非真三维成像",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID35699440",
+        "identity_field": "paper_id"
+      }
+    ],
+    "carrier": [
+      "H2/formate（互营背景，具体分摊未实测）"
+    ],
+    "evidence": "加入伙伴干预＋速率和SEM，交换路径仍待证",
+    "interfloc_exchange_measured": false,
+    "cell_distance_measured": false
+  },
+  {
+    "id": "ODS-PMID35918706",
+    "title": "Integrating metagenomic binning with flux balance analysis to unravel syntrophies in anaerobic CO 2 methanation.",
+    "doi": "10.1186/s40168-022-01311-1",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "4个外置沼气升级反应器扩散装置上的生物膜，基因组/通量平衡预测甲酸和氨基酸交换网络",
+    "limits": "共同出现和FBA不是物质通量/细胞间距离实测；不把名称flux balance当已经测到通量",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID35918706",
+        "identity_field": "paper_id"
+      }
+    ],
+    "carrier": [
+      "H2",
+      "CO2",
+      "formate",
+      "amino acids"
+    ],
+    "evidence": "基因组重建＋通量平衡模型",
+    "interfloc_exchange_measured": false,
+    "cell_distance_measured": false
+  },
+  {
     "id": "ODS-PMID36374033",
     "title": "Interspecies Formate Exchange Drives Syntrophic Growth of Syntrophotalea carbinolica and Methanococcus maripaludis.",
     "doi": "10.1128/aem.01159-22",
