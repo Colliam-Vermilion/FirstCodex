@@ -12,12 +12,13 @@ Q=json.loads((T/'local_followup_baseline.json').read_text())
 C={r['id']:r for r in json.loads((T/'candidate_records.json').read_text())}
 NOTES={}
 PREV={r['id']:r for r in json.loads((T/'followup_screening.json').read_text())} if (T/'followup_screening.json').exists() else {}
-def add(i,tier,reason,finding,limits,quote=None,depth='A',imaging=None,control=None,parameters=None,exchange=None,scales=()):
+def add(i,tier,reason,finding,limits,quote=None,depth='A',imaging=None,control=None,parameters=None,exchange=None,scales=(),excerpt_range=None):
  rid=Q[i-1]['id'];c=C[rid]
  if quote:assert quote in (c.get('abstract') or ''),(i,quote)
  n={'id':rid,'baseline_queue_order':i,'priority_tier':tier,'reading_depth':'完整缓存摘要；正文方法/参数仍待核实' if depth=='A' else '仅题名初筛；本轮未读摘要或正文','screening_stage':'完整缓存摘要初筛' if depth=='A' else '题名初筛','scope_decision':'本专题不优先' if tier=='范围外' else '待确认' if depth=='T' or tier.startswith('待核') else '专题相关（摘要层面）','decision_reason':reason,'actual_finding':finding,'author_interpretation_and_alternatives':limits,'evidence_quote':quote,'evidence_locator':'候选记录完整缓存摘要' if depth=='A' else '候选记录题名','transfer_compartments':list(scales),'structure_evidence':imaging,'control_evidence':control,'parameters':parameters or [],'exchange_evidence':exchange,'status':'摘要初筛' if depth=='A' else '题名初筛待摘要','new_external_fulltext_downloaded':False,'old_scope_judgment_changed':False,'screened_at_utc':datetime.now(timezone.utc).isoformat(),'source_links':c['source_links']}
+ if depth=='S':n.update(reading_depth='缓存摘要/正文片段初筛；非完整摘要或全文核实',screening_stage='缓存片段初筛',status='片段初筛',evidence_locator='缓存abstract字段中的已读片段',read_excerpt_char_range=excerpt_range,scope_decision='本专题不优先' if tier=='范围外' else '待确认')
  n['screened_at_utc']=PREV.get(rid,{}).get('screened_at_utc') or n['screened_at_utc']
- n['abstract_completeness']='已读缓存abstract字段全部文字；未逐篇核实其与正式完整摘要相同，混入正文/致谢等会在局限单列' if depth=='A' else '未读摘要'
+ n['abstract_completeness']='已读缓存abstract字段全部文字；未逐篇核实其与正式完整摘要相同，混入正文/致谢等会在局限单列' if depth=='A' else '只读缓存片段；原文完整摘要未核实' if depth=='S' else '未读摘要'
  n['reading_updated_at_utc']=PREV.get(rid,{}).get('reading_updated_at_utc') if PREV.get(rid,{}).get('screening_stage')==n['screening_stage'] and PREV.get(rid,{}).get('reading_updated_at_utc') else datetime.now(timezone.utc).isoformat()
  NOTES[rid]=n
  (T/'followup_screening.json').write_text(json.dumps(list(NOTES.values()),ensure_ascii=False,indent=2)+'\n')
@@ -241,3 +242,51 @@ add(93,'C 光颗粒分层','藻-硝化-Anammox光颗粒长期光照','外藻层�
 add(95,'C 土柱空间/氧损伤边界','低渗透TCE土柱电动修复28–138天','后期脱氯降，氧损伤需再接种；电极室有好氧途径','电迁移/电子受体及氧共变；柱尺度空间非菌间气体D，直接损伤和取样暴露需全文核')
 add(97,'C Anammox恢复/化学混杂','0.2/2mg/L DO后nZVI/FeII/N2恢复','2mg/L DO后5mg/L nZVI恢复63±8.2%、FeII41±8%、N2 39±4%；高剂量抑制','EPS缓冲pH非EPS阻氧；ROS适量有益是might，氧清除与铁/ROS效应未单独分离')
 add(100,'C 土壤团聚/扩散参照','20年肥料，湿筛团聚体/PLFA','堆肥增大团聚体并使土壤O2 diffusion coefficient降低，OC及PLFA指标改变','摘要无D值/测量程序/材料状态；M/B是生物标志代理，非直接厌氧代谢或AD颗粒参数',scales=['土壤氧扩散（参数值待全文）'])
+
+add(101,'C 膜材料O2扩散参数','PVA弹性体/水凝胶分隔沉积MFC，比较氧扩散','PVA-E O2扩散系数0.42×10^-4cm²/s，约PVA-H的36.7%；减少阴极向阳极氧漏','这是人工膜D不是活性AD颗粒Deff，测量温度/程序待全文；质子迁移率另列不混',parameters=[{'symbol':'D,O2(PVA-E)','value_original':'0.42 × 10^-4','unit_original':'cm² s^-1','relative_to_other_material':'36.7% of PVA-H','acquisition':'摘要报告；实测/拟合细节待全文','condition':'PVA弹性体分隔膜，非污泥；温度未核','source_locator':'缓存摘要字段','not_equal_to':'非颗粒Deff、kLa或H2扩散'}],scales=['人工膜O2扩散'])
+add(102,'C 颗粒/生物膜氮过程','主流亚硝化/厌氧侧流，选择排泥','90%生物量在膜、10%悬浮颗粒，作者称深度梯度与厌氧侧流抑制NOB','gradient为suggested，不是摘要已证O2剖面/3D；颗粒/膜SRT差异可能参与')
+add(104,'导航综述','Pseudomonas低氧膜适应综述','概述厌氧代谢/吩嗪/Anr-Dnr等','非原始空间或传质测定，用于方法引用追溯而非AD机制独立验证')
+add(105,'C 界面3D表面图方法','Vibrio气液壁/全浸界面、氧/温度/培养基比较','全浸膜更异质塔状，界面膜细胞数高；显微及three-dimensional surface plots','三维表面图不必等于体积细胞/孔隙重建，需全文分辨；氧扩散促进为suggestion',imaging={'method':'显微＋three-dimensional surface plot（摘要），非已核体重建','true_3D_verified':False,'whole_aggregate_3D_verified':False})
+add(108,'C 反应器氧分区参照','上下固定膜/污泥两阶段，不回流','上区DO0.1–0.7、下区0.3–3.6mg/L，Anammox上区富集','反应器分区DO不是膜内氧剖面，硫循环互作仍potential；非产甲烷AD',scales=['反应器分区DO'])
+add(109,'C 全规模载体保留','污水厂混合SRT载体保留Anammox','活性/15N支持Anammox约占TN20–30%，载体膜相富集','O2梯度与保留作用为作者解释，未从摘要核局部氧测量；不换为AD古菌保护')
+add(110,'C 抗氧化个体机制背景','Anammox/光催化COF复合95天氧化胁迫','ROS/酶活/蛋白稳态指标与活性提高','无空间或气体参数直接证据，SOD/SOR等机制需正文干预核，不当已在AD验证')
+add(111,'范围外','Shewanella纳米电极提升电流','ATO材料促胞膜细胞色素/黄素和TCA，电流最高约115倍','电流/电导与气体通量无同一性；未直接回答本专题空间/气体传质')
+add(112,'范围外','ArnR铁硫簇/NO感应的蛋白实验','4Fe4S簇对O2降解慢、NO改变DNA结合','有价值单蛋白背景，但未测空间/聚集体或气体传质；本专题不优先')
+add(113,'C 分隔共培养方法','产黏液垂直扩散肠道模型','两种厌氧共生菌对EPEC黏附/炎症影响不同且依赖黏液细胞','模型名diffusion不等于实测D或氧微剖面；功能是感染保护，AD外推有限')
+add(114,'C Anammox定位方法','纯生物膜过程与絮体/混合对比','FISH+共聚焦称Anammox分布较均匀，N2O微电极辅助','pure biofilm非纯培养；均匀定位不必均匀暴氧，共聚焦维度/重建体积待全文',imaging={'method':'FISH+CLSM（缓存FISH-CLAM表述）；3D待核','true_3D_verified':False})
+add(116,'B 产甲烷氧化应答背景','H2/CO2富集无还原剂与AQDS红氧缓冲比较','高红氧下产甲烷维持，蛋白组提示ROS缓解及硒代半胱氨酸动态','AQDS电位干预非纯O2处理；不知实际氧/聚集体空间，不能当DO剂量或保护层测量')
+add(117,'B 电子扩散与物质扩散边界','Geobacter两共培养在微电极阵列上的光谱/电化学','Raman/FTIR/栅控支持细胞色素介导红氧梯度电子输运','diffusion-controlled指电子/氧化还原传播，不是气体分子D；无产甲烷/絮体间H2实测',scales=['细胞间电子传递（非气体物质传质）'])
+add(118,'C 下游膜氧扩散参照','UASB联主流Anammox移动膜，改变DO/暂缺氧','悬浮相流失影响亚硝化；作者称膜氧扩散比AOB/NOB亲和差异更决定转化','结论属于下游MBBR，氧扩散方法/参数待全文；不直接当上游AD氧暴露')
+add(119,'C 氧敏靶点与膜功能','Pseudomonas II/III类RNR与静态/流动膜生长','缺失/调控支持RNR对厌氧分裂/膜成熟的重要性','氧分层模型不等于本文实测DO/3D；不能直接表述成AD古菌同机制')
+
+add(121,'C 远端受体/可溶介体','Pseudomonas膜PYO还原状态控制＋缺失/添加对照','−400相对Ag/AgCl使CFU比+100mV低100倍，phenazine缺失株无电位效应、补PYO再敏感','电极固定电位不是ORP曝气；PYO毒性/EET阻断均可解释，不将远端O2作用写成O2分子穿透',exchange={'carrier':['pyocyanin'],'evidence':'电位干预＋缺失/外加PYO；非H2通量','cell_distance_measured':False,'interfloc_exchange_measured':False})
+add(122,'C 凝胶与颗粒扩散直接比较','PVA-SA固定Anammox与自然颗粒，微电极直接测De','凝胶De约颗粒3倍，底物更深/均匀，活性遍及凝胶而颗粒偏外层，与FISH对应','摘要未明De的探测溶质/绝对值/温度/活性材料状态；不能称为H2或O2 Deff，更不套AD',parameters=[{'symbol':'De (probe species not verified)','value_original':'3-fold','unit_original':'relative to granular biomass','acquisition':'摘要明确microelectrodes directly determined','condition':'PVA-SA包埋Anammox vs自然聚集颗粒；溶质、温度、失活与否待全文','source_locator':'缓存摘要字段','not_equal_to':'尚不能填为H2/O2或活性AD颗粒的绝对Deff'}],imaging={'method':'FISH＋微电极反应/扩散比较，真3D未核','true_3D_verified':False},scales=['凝胶/颗粒内部有效扩散'])
+add(123,'待核实','沿岸烃生态学位资料，缓存末尾自身有省略号','已读片段比较海湾氧/硫酸盐/CH4与群落，并述微宇宙烃转甲烷潜力','缓存源本身截断，不能声称完整摘要；尚无已读三维或气体传质参数',depth='S')
+add(125,'C 腐蚀氧供给边界','镀锌管电化学/矿物/6月实验管网','电化学提示O2扩散限速、可支持局部厌氧，BART检出SRB','氧限速与腐蚀，不是直接微生物3D/AD Deff；EDS硫矿物也有替代来源')
+add(127,'A 产甲烷耗氧保护/反例','十六烷/气相O2/不同底物，比较供氧模式','5%顶空O2下乙醇组仍有显著甲烷率，H2/CO2或乙酸组近抑制；不同曝气ORP相似，十六烷促降解未证','底物供给促进耗氧的保护与空间屏蔽分开；气相比例不换DO，反应器运行不稳不能声称已提高烃甲烷化')
+add(129,'导航综述','Anammox跨尺度氧悖论综述','整合供亚硝酸盐需O2与AnAOB抑制、EPS/颗粒/反馈','综述非AD原始机制或统一DO窗口的依据，待回原始研究')
+add(130,'C 生物膜DO分层参照','藻-硝化-Anammox膜240天，显微/FISH/DO梯度','0–0.48mm产氧，0.48–0.86mm耗氧，>0.86mm Anammox无氧区','需全文核微传感器/光照/边界，不能把这几层当AD通用深度或单凭FISH说3D',parameters=[{'symbol':'O2 functional-zone depth','value_original':'0–0.48; 0.48–0.86; >0.86','unit_original':'mm','acquisition':'摘要称DO gradient，具体仪器/反演待全文','condition':'藻PN/Anammox膜，光照、膜厚等待核；非AD','source_locator':'缓存摘要字段','not_equal_to':'不是Deff或AD通用氧穿透深度'}],imaging={'method':'显微/FISH＋DO梯度；3D未核','true_3D_verified':False},scales=['生物膜内部O2梯度'])
+add(133,'B 阴阳极氧串扰','少量阴极O2增强电动势但可向厌氧阳极漏','阳极微氧改变群落/竞争并抑制DMF降解，阴极电子受体有益','两极效应不能合并为氧总促进；通量/空间DO方法待全文，电子流不等于气体D',scales=['隔区氧扩散（待核）'])
+add(135,'C 直接DO/N2O微电极','5个独立SBBR慢性Ag-NP暴露','高剂量表面积银，DO/N2O微电极与同位素支持无氧区和亚硝酸还原N2O增强','Ag毒性/物理/呼吸可能共变；非AD且不提统一Deff，结构机制需正文核',scales=['生物膜内部DO/N2O剖面'])
+add(136,'C 耗氧后转代谢参照','Shewanella先呼吸耗氧再EET驱动聚合','开/闭容器不预除O2可聚合，反复氧挑战仍能运行','物理环境氧表象与实际耗氧不同；反应非AD，未给空间氧剖面或扩散系数')
+add(137,'C 浓度—交叉营养直接参照','甲烷膜生物反应器，微电极/15N/悬浮培养干预','NO2局部积累处NH4增加；15N示NO3转NH4支持Anammox，亚硝酸应激触发DNRA','氮中间产物剖面不是H2/CH4气体交换；基因表达与同位素证据层次分开，非产甲烷AD',scales=['膜内氮物质浓度','细胞间交叉营养'])
+add(138,'C 天然水平氧梯度','火山酸岩排水源头至下游','DO0.40–6.06mg/L沿河类群替代，缺氧源头疑似SRB，氧化下游铁氧化菌','低pH/金属/底物共变，非再氧实验；河流梯度非颗粒内部微剖面')
+add(139,'范围外','医学CH4/N2O内源生理/生物标志观点，不是厌氧微生物结构传质','前1700字符说明人源非微生物气体、氧化应激临床用途','仅读前1700字符，不能称读完整摘要/全文；未提取任何研究参数',depth='S',excerpt_range=[0,1700])
+add(140,'C 沉积界面氧恢复待核','NO3-LDH缓释硝酸盐处理沉积物','摘要报DO1.05升3.39mg/L，四环素去除/ARG变化','硝酸盐缓释与O2恢复的物理来源需正文核实，不把NO3直接说成产氧；ROS与供氧区分')
+add(142,'C 多因素脱氮控制','MBBR间歇/低DO/游离氨/HCO3组合','较高HCO3增强NOB抑制并Anammox富集','供氧控制与碳酸盐/抑制共变，未给直接空间/气体参数；非AD')
+add(143,'C DO闭环与上层调度','固定DO点，按出水氨/NOx改变好/缺氧时长','中试总TIN去除75±15%，Anammox抛光约11%','可同时有DO内环与营养盐外层调度，不能只命名ORP控制；DO数值/逻辑待全文',control={'type':'固定DO设定＋出水NH4/NOx调节曝气时长','setpoint':'固定DO值未在摘要列出','logic':'好氧/缺氧时长依氨与NOx调整','oxygen_input':'未核','DO':'固定设定点，细节待正文','reference_electrode':'未核','spatial_oxygen_profile':'未核','locator':'缓存摘要字段'})
+add(144,'B 多研究学位资料边界','CO2甲烷化优化与H2O2/光抑制甲烷的学位论文','第一线是文献模型/实验优化，另线H2O2+光维持VFA、EPS变化','H2O2不是分子氧，论文含多个研究勿按一独立试验计数；EPS保护为likely，非实测阻氧')
+add(150,'C 颗粒大小与实测O2穿透','消化上清ELAN脱氮SBR，0.4与3mg/L DO启动','7月颗粒约1.1与3.2mm；微电极示大颗粒在DO8mg/L才全穿透，小颗粒1mg/L即全穿透','粒径/菌层/生物量同时变化，保护不能只归粒径；不是产甲烷AD，也不能换统一深度',parameters=[{'symbol':'bulk DO for complete O2 penetration (study comparison)','value_original':'8 vs 1','unit_original':'mg O2 L^-1','acquisition':'氧微电极剖面，摘要报告','condition':'ELAN大约3.2mm/小约1.1mm颗粒；启动DO3.0/0.4mg/L，非AD','source_locator':'缓存摘要字段','not_equal_to':'这是主体浓度条件，不是8mm/1mm穿透深度或Deff'}],scales=['颗粒内部氧微剖面'])
+add(153,'C 生物膜/絮体与时间控制','150L MBBR与5L SBR，30min曝气20min缺氧','SBR DO0.5–0.6mg/L，Anammox在膜比絮体高；SBR后期丢失','相对丰度与N去除分开，时序+DO观测不证明DO反馈；非AD')
+add(154,'导航综述','C.difficile氧耐受综述','介绍孢子/生物膜/代谢改道、rubrerythrin/FDP及σB/PerR','本文非AD或三维气体传质原始实验证据；应回原始遗传研究')
+add(155,'C 非产甲烷活性微区','UBFA Anammox粒径分级/微电极','Anammox主活性0–1500µm、峰200–400µm，深1500–2500µm反硝化/N2O为主','NH4/氮微剖面不是O2/H2传质，multidimensional不代表三维成像',scales=['颗粒局部反应分布'])
+add(156,'范围外','FeoC铁硫簇蛋白光谱/氧反应','4Fe4S迅速衰变为2Fe2S，半衰期约20s','是蛋白化学时间不是颗粒氧穿透/群落恢复；有价值个体机制但本专题不优先')
+add(157,'范围外','牙菌斑精氨酸/pH/菌群干预','pH微电极及活菌数支持酸化下降','不是氧微剖面/目标气体传质；pH测定不能写成DO暴露')
+add(158,'C 聚集体DO/ORP及局部活性方法','SBR除磷污泥聚集体三种微电极','测ORP/DO/磷，低COD使快速吸磷区缩至表面，深>1800µm可二次放磷','局部净反应率mg/(cm³h)不是扩散系数；非产甲烷AD',scales=['聚集体浓度/电位微剖面','局部磷反应'])
+add(160,'范围外','炼厂含烃污泥硝酸盐生物刺激','N补充促降烃并改变DO/ORP和群落','DO降而ORP升也说明两者不可直接互换；非空间/气体传质直接实验')
+add(162,'C 颗粒时序/结构参照','部分硝化颗粒不同缺氧:曝气比','1:1/2:1较稳，1:2后期性能变差，EPS与结构不同','三维荧光光谱不是3D细胞/孔隙成像；曝气时间比不是实际氧剂量/DO反馈')
+add(167,'待核实/导航','水厂能源自给长文，只读开头1700字符','开头介绍处理碳分配、氧需求与传质效率','未读其余缓存文字或全文，不抽取AD微区/统一气体参数',depth='S',excerpt_range=[0,1700])
+add(182,'待核实/导航','微生物电化学Viewpoint，只读开头1700字符','开头讨论电极/膜/膜生物量、氧串入和扩散障碍','未读余文；观点不是新气体传质实测，不能从diffusion barriers提取D',depth='S',excerpt_range=[0,1700])
+
+add(167,'导航综述','水厂能源自给长缓存全文字段已读','介绍细气泡/水深/压缩功权衡、碳分流AD及Anammox节氧','缓存abstract字段实际像长文，不能称正式完整摘要或全文核实；通用能耗数不是本轮原始气体传质实测')
+add(182,'导航综述','微生物电化学Viewpoint缓存字段已读','提出膜—电极—膜生物量协同优化、氧串入及规模化权衡','观点/跨研究汇总不是新参数实测；全文身份/出处完整性未核，不作为AD气体机制直接验证')

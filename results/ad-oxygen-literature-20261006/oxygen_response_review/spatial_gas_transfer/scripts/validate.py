@@ -6,6 +6,19 @@ from prepare import T,M,P,R,read
 def main():
  rows=read(T/'literature_master.json');ids=[r['id'] for r in rows];assert len(ids)==len(set(ids))
  progress=read(T/'progress.json');done=[r for r in rows if r['status']!='未开始'];assert len(done)==progress['processed']
+ assert sum(progress.get(k,0) for k in ['related_fulltext_or_existing_fulltext_evidence_reused','abstract_only_processed','fragment_only_processed','title_only_processed'])==len(done)
+ if (T/'followup_screening.json').exists():
+  follow=read(T/'followup_screening.json');base=read(T/'local_followup_baseline.json');assert len({r['id'] for r in follow})==len(follow)
+  assert {r['id'] for r in follow}<={r['id'] for r in base}
+  candidates={r['id']:r for r in read(T/'candidate_records.json')}
+  for r in follow:
+   assert not r['old_scope_judgment_changed'] and not r['new_external_fulltext_downloaded']
+   if r.get('evidence_quote'):assert r['evidence_quote'] in candidates[r['id']]['abstract']
+  prior=json.loads(subprocess.check_output(['git','show','4692a8906cbc9ec028f21bc39b57104710baccf0:'+str((T/'literature_master.json').relative_to(R))],cwd=R))
+  current={r['id']:r for r in rows}
+  for r in prior:
+   if r['status']!='未开始':
+    for k in ['reading_depth','decision_reason','actual_finding','author_interpretation_and_alternatives']:assert r[k]==current[r['id']][k],(r['id'],k)
  assert len(rows)==progress['candidates'] and progress['processed']+progress['remaining']==len(rows)
  old={r['id']:r for r in read(M/'catalog.json')}
  for r in rows:

@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-10-30T10:53:12.454Z",
+  "environment_id": "ccarenv_b64_Y2NhcmVudl81OTE5MDI5OTA0MTg4MTkxOGUyMTBkNTk0Yjk3MzEyNA",
+  "source_config_version_id": "bd6676b3-45e1-45d1-bdcc-dc8dabdef71e~cecfgver_6ad0403a5d808199906b88ff112dab46",
+  "spec_revision": "1",
+  "observed_spec_revision": "1",
+  "observations_current": true,
+  "network_state": "enforced",
+  "domains": [
+    {
+      "host": "api.crossref.org",
+      "effective_allowed": false
+    },
+    {
+      "host": "eutils.ncbi.nlm.nih.gov",
+      "effective_allowed": false
+    },
+    {
+      "host": "api.openalex.org",
+      "effective_allowed": false
+    },
+    {
+      "host": "www.ebi.ac.uk",
+      "effective_allowed": false
+    }
+  ],
+  "retained_diagnostic_capture_status": "metadata query returned not_found; no logs requested",
+  "interpretation": "No second API probe unless a relevant effective-policy or instance observation changes."
+}

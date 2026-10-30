@@ -89,6 +89,29 @@
     "not_equal_to": "非AD通用深度/Deff或kLa"
   },
   {
+    "id": "OR-44AA178A2EA7",
+    "title": "Simultaneous enhancement of copper removal and power production using a sediment microbial fuel cell with oxygen separation membranes",
+    "doi": "10.1016/j.eti.2022.102369",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "PVA-E O2扩散系数0.42×10^-4cm²/s，约PVA-H的36.7%；减少阴极向阳极氧漏",
+    "limits": "这是人工膜D不是活性AD颗粒Deff，测量温度/程序待全文；质子迁移率另列不混",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-44AA178A2EA7",
+        "identity_field": "id"
+      }
+    ],
+    "symbol": "D,O2(PVA-E)",
+    "value_original": "0.42 × 10^-4",
+    "unit_original": "cm² s^-1",
+    "relative_to_other_material": "36.7% of PVA-H",
+    "acquisition": "摘要报告；实测/拟合细节待全文",
+    "condition": "PVA弹性体分隔膜，非污泥；温度未核",
+    "source_locator": "缓存摘要字段",
+    "not_equal_to": "非颗粒Deff、kLa或H2扩散"
+  },
+  {
     "id": "OR-6A3D9B1E5D73",
     "title": "Oxygenation of Hypoxic Coastal Baltic Sea Sediments Impacts on Chemistry, Microbial Community Composition, and Metabolism.",
     "doi": "10.3389/fmicb.2017.02453",
@@ -115,6 +138,50 @@
     "source_locator": "Results/Chemical fluxes；既有evidence_sources定位"
   },
   {
+    "id": "OR-84BE51E22B78",
+    "title": "Rapid and successful start-up of anammox process by immobilizing the minimal quantity of biomass in PVA-SA gel beads.",
+    "doi": "10.1016/j.watres.2015.04.024",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "凝胶De约颗粒3倍，底物更深/均匀，活性遍及凝胶而颗粒偏外层，与FISH对应",
+    "limits": "摘要未明De的探测溶质/绝对值/温度/活性材料状态；不能称为H2或O2 Deff，更不套AD",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-84BE51E22B78",
+        "identity_field": "id"
+      }
+    ],
+    "symbol": "De (probe species not verified)",
+    "value_original": "3-fold",
+    "unit_original": "relative to granular biomass",
+    "acquisition": "摘要明确microelectrodes directly determined",
+    "condition": "PVA-SA包埋Anammox vs自然聚集颗粒；溶质、温度、失活与否待全文",
+    "source_locator": "缓存摘要字段",
+    "not_equal_to": "尚不能填为H2/O2或活性AD颗粒的绝对Deff"
+  },
+  {
+    "id": "OR-9440AF0B4A4B",
+    "title": "Characterizing algal-bacterial symbiotic biofilms: Insights into coexistence of algae and anaerobic microorganisms.",
+    "doi": "10.1016/j.biortech.2024.130966",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "0–0.48mm产氧，0.48–0.86mm耗氧，>0.86mm Anammox无氧区",
+    "limits": "需全文核微传感器/光照/边界，不能把这几层当AD通用深度或单凭FISH说3D",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-9440AF0B4A4B",
+        "identity_field": "id"
+      }
+    ],
+    "symbol": "O2 functional-zone depth",
+    "value_original": "0–0.48; 0.48–0.86; >0.86",
+    "unit_original": "mm",
+    "acquisition": "摘要称DO gradient，具体仪器/反演待全文",
+    "condition": "藻PN/Anammox膜，光照、膜厚等待核；非AD",
+    "source_locator": "缓存摘要字段",
+    "not_equal_to": "不是Deff或AD通用氧穿透深度"
+  },
+  {
     "id": "OR-D6DD506C208B",
     "title": "Sustainable modulation of anaerobic malodorous black water: The interactive effect of oxygen-loaded porous material and submerged macrophyte.",
     "doi": "10.1016/j.watres.2019.05.045",
@@ -135,6 +202,28 @@
     "condition": "载氧火山石覆盖厌氧沉积物；非AD",
     "source_locator": "完整缓存摘要",
     "not_equal_to": "不是3.75mm、Deff或kLa"
+  },
+  {
+    "id": "OR-DF12A9229928",
+    "title": "Influence of dissolved oxygen concentration on the start-up of the anammox-based process: ELAN®.",
+    "doi": "10.2166/wst.2015.233",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "7月颗粒约1.1与3.2mm；微电极示大颗粒在DO8mg/L才全穿透，小颗粒1mg/L即全穿透",
+    "limits": "粒径/菌层/生物量同时变化，保护不能只归粒径；不是产甲烷AD，也不能换统一深度",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-DF12A9229928",
+        "identity_field": "id"
+      }
+    ],
+    "symbol": "bulk DO for complete O2 penetration (study comparison)",
+    "value_original": "8 vs 1",
+    "unit_original": "mg O2 L^-1",
+    "acquisition": "氧微电极剖面，摘要报告",
+    "condition": "ELAN大约3.2mm/小约1.1mm颗粒；启动DO3.0/0.4mg/L，非AD",
+    "source_locator": "缓存摘要字段",
+    "not_equal_to": "这是主体浓度条件，不是8mm/1mm穿透深度或Deff"
   },
   {
     "id": "R03161",

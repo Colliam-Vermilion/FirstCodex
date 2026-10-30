@@ -32210,7 +32210,7 @@
     "year": "2019",
     "journal": "The Science of the total environment",
     "doi": "10.1016/j.scitotenv.2018.09.184",
-    "author_year": "作者待核对等，2019",
+    "author_year": "Fu等，2019",
     "part": "Part 1",
     "proposition_id": "P1c",
     "proposition_question": "氧等气体通过哪些串联环节到达或离开细胞？",
@@ -32237,7 +32237,7 @@
     "year": "2024",
     "journal": "Journal of visualized experiments : JoVE",
     "doi": "10.3791/67191",
-    "author_year": "作者待核对等，2024",
+    "author_year": "Beals等，2024",
     "part": "Part 1",
     "proposition_id": "P1c",
     "proposition_question": "氧等气体通过哪些串联环节到达或离开细胞？",
@@ -32264,7 +32264,7 @@
     "year": "2016",
     "journal": "Biotechnology and bioengineering",
     "doi": "10.1002/bit.25866",
-    "author_year": "作者待核对等，2016",
+    "author_year": "Chen等，2016",
     "part": "Part 1",
     "proposition_id": "P1c",
     "proposition_question": "氧等气体通过哪些串联环节到达或离开细胞？",
@@ -32308,6 +32308,168 @@
       {
         "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
         "id": "OR-1E3E423A9EFE",
+        "identity_field": "id"
+      }
+    ]
+  },
+  {
+    "id": "ODS-PMID23143533",
+    "title": "Co-digestion of manure and whey for in situ biogas upgrading by the addition of H(2): process performance and microbial insights.",
+    "year": "2013",
+    "journal": "Applied microbiology and biotechnology",
+    "doi": "10.1007/s00253-012-4547-5",
+    "author_year": "Luo等，2013",
+    "part": "Part 1",
+    "proposition_id": "P1c",
+    "proposition_question": "氧等气体通过哪些串联环节到达或离开细胞？",
+    "study_object": "A 产甲烷气液传质（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "扩散器/混合影响H2气液交换与沼气组成；150rpm陶瓷扩散器表现最好；单用粪便加H2后pH>8，乳清共消化可缓冲",
+    "boundary": "摘要未给kLa或颗粒内D；搅拌/孔径改善不是内部扩散证明；pH效应需分开",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": null,
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID23143533.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID23143533",
+        "identity_field": "paper_id"
+      }
+    ]
+  },
+  {
+    "id": "OR-3C0E505B4E2A",
+    "title": "Evaluation of the impact of dissolved oxygen concentration on biofilm microbial community in sequencing batch biofilm reactor.",
+    "year": "2018",
+    "journal": "Journal of bioscience and bioengineering",
+    "doi": "10.1016/j.jbiosc.2017.11.007",
+    "author_year": "Wang等，2018",
+    "part": "Part 1",
+    "proposition_id": "P1c",
+    "proposition_question": "氧等气体通过哪些串联环节到达或离开细胞？",
+    "study_object": "C 生物膜实测O2穿透参照（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "主体DO1.5到5.5mg/L时氧穿透1.0到2.7mm，反硝化随氧增加受抑",
+    "boundary": "非产甲烷AD；摘要各处DO水平表述不同待正文，不提供统一穿透深度或Deff",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": "待全文确认",
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-3C0E505B4E2A.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-3C0E505B4E2A",
+        "identity_field": "id"
+      }
+    ]
+  },
+  {
+    "id": "OR-44AA178A2EA7",
+    "title": "Simultaneous enhancement of copper removal and power production using a sediment microbial fuel cell with oxygen separation membranes",
+    "year": "2022",
+    "journal": "Environmental Technology &amp; Innovation",
+    "doi": "10.1016/j.eti.2022.102369",
+    "author_year": "Liu等，2022",
+    "part": "Part 1",
+    "proposition_id": "P1c",
+    "proposition_question": "氧等气体通过哪些串联环节到达或离开细胞？",
+    "study_object": "C 膜材料O2扩散参数（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "PVA-E O2扩散系数0.42×10^-4cm²/s，约PVA-H的36.7%；减少阴极向阳极氧漏",
+    "boundary": "这是人工膜D不是活性AD颗粒Deff，测量温度/程序待全文；质子迁移率另列不混",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": "待全文确认",
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-44AA178A2EA7.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-44AA178A2EA7",
+        "identity_field": "id"
+      }
+    ]
+  },
+  {
+    "id": "OR-84BE51E22B78",
+    "title": "Rapid and successful start-up of anammox process by immobilizing the minimal quantity of biomass in PVA-SA gel beads.",
+    "year": "2015",
+    "journal": "Water research",
+    "doi": "10.1016/j.watres.2015.04.024",
+    "author_year": "Ali等，2015",
+    "part": "Part 1",
+    "proposition_id": "P1c",
+    "proposition_question": "氧等气体通过哪些串联环节到达或离开细胞？",
+    "study_object": "C 凝胶与颗粒扩散直接比较（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "凝胶De约颗粒3倍，底物更深/均匀，活性遍及凝胶而颗粒偏外层，与FISH对应",
+    "boundary": "摘要未明De的探测溶质/绝对值/温度/活性材料状态；不能称为H2或O2 Deff，更不套AD",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": "待全文确认",
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-84BE51E22B78.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-84BE51E22B78",
+        "identity_field": "id"
+      }
+    ]
+  },
+  {
+    "id": "OR-DF12A9229928",
+    "title": "Influence of dissolved oxygen concentration on the start-up of the anammox-based process: ELAN®.",
+    "year": "2015",
+    "journal": "Water science and technology : a journal of the International Association on Water Pollution Research",
+    "doi": "10.2166/wst.2015.233",
+    "author_year": "Morales等，2015",
+    "part": "Part 1",
+    "proposition_id": "P1c",
+    "proposition_question": "氧等气体通过哪些串联环节到达或离开细胞？",
+    "study_object": "C 颗粒大小与实测O2穿透（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "7月颗粒约1.1与3.2mm；微电极示大颗粒在DO8mg/L才全穿透，小颗粒1mg/L即全穿透",
+    "boundary": "粒径/菌层/生物量同时变化，保护不能只归粒径；不是产甲烷AD，也不能换统一深度",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": "核心候选",
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-DF12A9229928.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-DF12A9229928",
+        "identity_field": "id"
+      }
+    ]
+  },
+  {
+    "id": "R13840",
+    "title": "Coupling of membrane-based bubbleless micro-aeration for 2,4-dinitrophenol degradation in a hydrolysis acidification reactor.",
+    "year": "2022",
+    "journal": "Water research",
+    "doi": "10.1016/j.watres.2022.118119",
+    "author_year": "Zhang等，2022",
+    "part": "Part 1",
+    "proposition_id": "P1c",
+    "proposition_question": "氧等气体通过哪些串联环节到达或离开细胞？",
+    "study_object": "B 水解酸化膜供氧（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "0.5–5mL air/min下膜组降解84.43–97.28%，气泡82.41–94.71%；作者分别解释逆/同向扩散",
+    "boundary": "传质方向为构型解释，尚未核O2微剖面/气膜D或kLa；非产甲烷AD空间直接证据",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": "核心候选",
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R13840.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "R13840",
         "identity_field": "id"
       }
     ]
@@ -32529,6 +32691,60 @@
       {
         "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
         "id": "R13833",
+        "identity_field": "id"
+      }
+    ]
+  },
+  {
+    "id": "R04899",
+    "title": "Intermittent micro-aeration: New strategy to control volatile fatty acid accumulation in high organic loading anaerobic digestion",
+    "year": "2019",
+    "journal": "Water Research",
+    "doi": "10.1016/j.watres.2019.115080",
+    "author_year": "Nguyen等，2019",
+    "part": "Part 1",
+    "proposition_id": "P1d",
+    "proposition_question": "ORP反馈、DO反馈和固定供氧分别控制什么，哪些暴露仍未知？",
+    "study_object": "A AD ORP反馈（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": "间歇ORP反馈（摘要）",
+    "finding": "每24h ORP−470mV时控制，VFA9.2降至3.0gHAc/L并恢复稳定",
+    "boundary": "与R07202每隔一天及R13944可能同研究链，勿当独立验证；参考电极/启停/累计O2待全文",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": "核心候选",
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R04899.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "R04899",
+        "identity_field": "id"
+      }
+    ]
+  },
+  {
+    "id": "OR-8B7804C5D4FE",
+    "title": "Exploring the effects of microaeration on the conversion of hexadecane to methane",
+    "year": "2018",
+    "journal": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+    "doi": "",
+    "author_year": "Bruno Henrique dos Santos Morais等，2018",
+    "part": "Part 1",
+    "proposition_id": "P1d",
+    "proposition_question": "ORP反馈、DO反馈和固定供氧分别控制什么，哪些暴露仍未知？",
+    "study_object": "A 产甲烷耗氧保护/反例（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "5%顶空O2下乙醇组仍有显著甲烷率，H2/CO2或乙酸组近抑制；不同曝气ORP相似，十六烷促降解未证",
+    "boundary": "底物供给促进耗氧的保护与空间屏蔽分开；气相比例不换DO，反应器运行不稳不能声称已提高烃甲烷化",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": "核心候选",
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-8B7804C5D4FE.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-8B7804C5D4FE",
         "identity_field": "id"
       }
     ]
@@ -32895,7 +33111,7 @@
     "year": "2024",
     "journal": "Water research",
     "doi": "10.1016/j.watres.2024.121107",
-    "author_year": "作者待核对等，2024",
+    "author_year": "Yuan等，2024",
     "part": "Part 3",
     "proposition_id": "P3c",
     "proposition_question": "哪些成像真正给出三维结构，细胞、EPS与孔隙是否被分别定位？",
@@ -32913,6 +33129,195 @@
         "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
         "id": "ODS-PMID38218075",
         "identity_field": "paper_id"
+      }
+    ]
+  },
+  {
+    "id": "ODS-PMID23435898",
+    "title": "Activated zeolite--suitable carriers for microorganisms in anaerobic digestion processes?",
+    "year": "2013",
+    "journal": "Applied microbiology and biotechnology",
+    "doi": "10.1007/s00253-013-4691-6",
+    "author_year": "Weiß等，2013",
+    "part": "Part 3",
+    "proposition_id": "P3c",
+    "proposition_question": "哪些成像真正给出三维结构，细胞、EPS与孔隙是否被分别定位？",
+    "study_object": "A AD载体成像（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "观察载体生物膜；优势群包括Clostridium、Pseudomonas和Methanoculleus，结合水解酶分析",
+    "boundary": "摘要写CLSM不等于确认z-stack体重建；没有微氧/气体通量证据",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": null,
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID23435898.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID23435898",
+        "identity_field": "paper_id"
+      }
+    ]
+  },
+  {
+    "id": "ODS-PMID25462775",
+    "title": "Application of eco-compatible biochar in anaerobic digestion to relieve acid stress and promote the selective colonization of functional microbes.",
+    "year": "2015",
+    "journal": "Water research",
+    "doi": "10.1016/j.watres.2014.10.052",
+    "author_year": "Luo等，2015",
+    "part": "Part 3",
+    "proposition_id": "P3c",
+    "proposition_question": "哪些成像真正给出三维结构，细胞、EPS与孔隙是否被分别定位？",
+    "study_object": "A AD附着分级（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "0.5–1mm与75µm生物炭改善时滞/速率；Methanosarcina偏紧密结合，Methanosaeta分布受粒径和结合组分影响",
+    "boundary": "分级/指纹不是细胞3D坐标；吸附缓冲与选择定殖共变，不能独归H2距离",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": null,
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID25462775.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID25462775",
+        "identity_field": "paper_id"
+      }
+    ]
+  },
+  {
+    "id": "ODS-PMID31278352",
+    "title": "Methane-fuelled biofilms predominantly composed of methanotrophic ANME-1 in Arctic gas hydrate-related sediments.",
+    "year": "2019",
+    "journal": "Scientific reports",
+    "doi": "10.1038/s41598-019-46209-5",
+    "author_year": "Gründger等，2019",
+    "part": "Part 3",
+    "proposition_id": "P3c",
+    "proposition_question": "哪些成像真正给出三维结构，细胞、EPS与孔隙是否被分别定位？",
+    "study_object": "C 天然生物膜结构（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "CLSM显示ANME-1多细胞束/斑块与SRB松散相伴，而非紧密聚集",
+    "boundary": "方法明确CLSM但3D堆栈/重建未全文核；松散关联不是量得絮体间交换",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": null,
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID31278352.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID31278352",
+        "identity_field": "paper_id"
+      }
+    ]
+  },
+  {
+    "id": "ODS-PMID34132588",
+    "title": "The Oligosaccharyltransferase AglB Supports Surface-Associated Growth and Iron Oxidation in Methanococcus maripaludis.",
+    "year": "2021",
+    "journal": "Applied and environmental microbiology",
+    "doi": "10.1128/aem.00995-21",
+    "author_year": "Holten等，2021",
+    "part": "Part 3",
+    "proposition_id": "P3c",
+    "proposition_question": "哪些成像真正给出三维结构，细胞、EPS与孔隙是否被分别定位？",
+    "study_object": "A 产甲烷附着遗传机制（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "JJ株aglB缺失取消S层糖基化和表面生长，Fe0氧化率下降；菌毛与FlaK缺失效应不同",
+    "boundary": "遗传干预支持附着所需机制，但Fe氧化下降归于附着仍有presumably；不是氧损伤或气体通量证明",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": null,
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID34132588.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID34132588",
+        "identity_field": "paper_id"
+      }
+    ]
+  },
+  {
+    "id": "ODS-PMID39110235",
+    "title": "Impact of additives on syntrophic propionate and acetate enrichments under high-ammonia conditions.",
+    "year": "2024",
+    "journal": "Applied microbiology and biotechnology",
+    "doi": "10.1007/s00253-024-13263-7",
+    "author_year": "Pinela等，2024",
+    "part": "Part 3",
+    "proposition_id": "P3c",
+    "proposition_question": "哪些成像真正给出三维结构，细胞、EPS与孔隙是否被分别定位？",
+    "study_object": "A 产甲烷絮凝/近邻（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "合成营养伙伴在絮凝群落丰度/拷贝数高；铁氧化物与沸石上有生物膜、磷酸盐，石墨烯无",
+    "boundary": "絮凝与速率支持近邻收益，但未量细胞距离/交换通量；非导电载体也有效，不强归DIET",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": null,
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID39110235.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID39110235",
+        "identity_field": "paper_id"
+      }
+    ]
+  },
+  {
+    "id": "OR-14B9C58DBFD7",
+    "title": "Fe(III) oxides protect fermenter-methanogen syntrophy against interruption by elemental sulfur via stiffening of Fe(II) sulfides produced by sulfur respiration.",
+    "year": "2014",
+    "journal": "Extremophiles : life under extreme conditions",
+    "doi": "10.1007/s00792-013-0620-y",
+    "author_year": "Igarashi等，2014",
+    "part": "Part 3",
+    "proposition_id": "P3c",
+    "proposition_question": "哪些成像真正给出三维结构，细胞、EPS与孔隙是否被分别定位？",
+    "study_object": "A 产甲烷人工互营结构（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "胞外多糖聚集，细胞直接或鞭毛桥连接；Fe(II)硫化物硬化网络可屏蔽S0干扰而海砂无效",
+    "boundary": "连接促进H2是作者解释，未量距离/扩散通量；硫屏障不是氧屏障；非所有AD对象",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": "机制背景",
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-14B9C58DBFD7.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-14B9C58DBFD7",
+        "identity_field": "id"
+      }
+    ]
+  },
+  {
+    "id": "R13836",
+    "title": "Enhancement of surfactant biodegradation with an anaerobic membrane bioreactor by introducing microaeration.",
+    "year": "2018",
+    "journal": "Chemosphere",
+    "doi": "10.1016/j.chemosphere.2018.06.001",
+    "author_year": "Cheng等，2018",
+    "part": "Part 3",
+    "proposition_id": "P3c",
+    "proposition_question": "哪些成像真正给出三维结构，细胞、EPS与孔隙是否被分别定位？",
+    "study_object": "B AD分子聚集/成像边界（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "表活/SCOD下降，SEC显示大分子团聚解体，属群变化",
+    "boundary": "3D-EEM是三维激发发射光谱，不是微生物三维成像；分子聚集不能当污泥微团聚体结构",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": "待全文确认",
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R13836.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "R13836",
+        "identity_field": "id"
       }
     ]
   },
@@ -33003,7 +33408,7 @@
     "year": "2022",
     "journal": "Microbiome",
     "doi": "10.1186/s40168-022-01311-1",
-    "author_year": "作者待核对等，2022",
+    "author_year": "De Bernardini等，2022",
     "part": "Part 4",
     "proposition_id": "P4d",
     "proposition_question": "距离、混合和载体选择如何改变H2/甲酸交换与产甲烷？",
@@ -33057,7 +33462,7 @@
     "year": "2009",
     "journal": "FEMS microbiology ecology",
     "doi": "10.1111/j.1574-6941.2009.00680.x",
-    "author_year": "作者待核对等，2009",
+    "author_year": "Sousa等，2009",
     "part": "Part 4",
     "proposition_id": "P4d",
     "proposition_question": "距离、混合和载体选择如何改变H2/甲酸交换与产甲烷？",
@@ -33111,7 +33516,7 @@
     "year": "2026",
     "journal": "Bioresource technology",
     "doi": "10.1016/j.biortech.2026.135209",
-    "author_year": "作者待核对等，2026",
+    "author_year": "Zhu等，2026",
     "part": "Part 4",
     "proposition_id": "P4d",
     "proposition_question": "距离、混合和载体选择如何改变H2/甲酸交换与产甲烷？",
@@ -33129,6 +33534,60 @@
         "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
         "id": "ODS-PMID42323140",
         "identity_field": "paper_id"
+      }
+    ]
+  },
+  {
+    "id": "ODS-PMID39110235",
+    "title": "Impact of additives on syntrophic propionate and acetate enrichments under high-ammonia conditions.",
+    "year": "2024",
+    "journal": "Applied microbiology and biotechnology",
+    "doi": "10.1007/s00253-024-13263-7",
+    "author_year": "Pinela等，2024",
+    "part": "Part 4",
+    "proposition_id": "P4d",
+    "proposition_question": "距离、混合和载体选择如何改变H2/甲酸交换与产甲烷？",
+    "study_object": "A 产甲烷絮凝/近邻（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "合成营养伙伴在絮凝群落丰度/拷贝数高；铁氧化物与沸石上有生物膜、磷酸盐，石墨烯无",
+    "boundary": "絮凝与速率支持近邻收益，但未量细胞距离/交换通量；非导电载体也有效，不强归DIET",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": null,
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID39110235.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID39110235",
+        "identity_field": "paper_id"
+      }
+    ]
+  },
+  {
+    "id": "OR-14B9C58DBFD7",
+    "title": "Fe(III) oxides protect fermenter-methanogen syntrophy against interruption by elemental sulfur via stiffening of Fe(II) sulfides produced by sulfur respiration.",
+    "year": "2014",
+    "journal": "Extremophiles : life under extreme conditions",
+    "doi": "10.1007/s00792-013-0620-y",
+    "author_year": "Igarashi等，2014",
+    "part": "Part 4",
+    "proposition_id": "P4d",
+    "proposition_question": "距离、混合和载体选择如何改变H2/甲酸交换与产甲烷？",
+    "study_object": "A 产甲烷人工互营结构（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "胞外多糖聚集，细胞直接或鞭毛桥连接；Fe(II)硫化物硬化网络可屏蔽S0干扰而海砂无效",
+    "boundary": "连接促进H2是作者解释，未量距离/扩散通量；硫屏障不是氧屏障；非所有AD对象",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": "机制背景",
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "范围/方法支持或限制，不等于独立验证；P4e行仅用于界定证据尺度",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-14B9C58DBFD7.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-14B9C58DBFD7",
+        "identity_field": "id"
       }
     ]
   },
@@ -33192,7 +33651,7 @@
     "year": "2022",
     "journal": "Microbiome",
     "doi": "10.1186/s40168-022-01311-1",
-    "author_year": "作者待核对等，2022",
+    "author_year": "De Bernardini等，2022",
     "part": "Part 4",
     "proposition_id": "P4e",
     "proposition_question": "哪些证据来自细胞间或絮体内，哪些真正测量了絮体间交换？",
@@ -33237,6 +33696,60 @@
         "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
         "id": "ODS-PMID35699440",
         "identity_field": "paper_id"
+      }
+    ]
+  },
+  {
+    "id": "ODS-PMID39110235",
+    "title": "Impact of additives on syntrophic propionate and acetate enrichments under high-ammonia conditions.",
+    "year": "2024",
+    "journal": "Applied microbiology and biotechnology",
+    "doi": "10.1007/s00253-024-13263-7",
+    "author_year": "Pinela等，2024",
+    "part": "Part 4",
+    "proposition_id": "P4e",
+    "proposition_question": "哪些证据来自细胞间或絮体内，哪些真正测量了絮体间交换？",
+    "study_object": "A 产甲烷絮凝/近邻（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "合成营养伙伴在絮凝群落丰度/拷贝数高；铁氧化物与沸石上有生物膜、磷酸盐，石墨烯无",
+    "boundary": "絮凝与速率支持近邻收益，但未量细胞距离/交换通量；非导电载体也有效，不强归DIET",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": null,
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "指出该研究不能单独证明絮体间交换，不据此断言领域不存在证据",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID39110235.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID39110235",
+        "identity_field": "paper_id"
+      }
+    ]
+  },
+  {
+    "id": "OR-14B9C58DBFD7",
+    "title": "Fe(III) oxides protect fermenter-methanogen syntrophy against interruption by elemental sulfur via stiffening of Fe(II) sulfides produced by sulfur respiration.",
+    "year": "2014",
+    "journal": "Extremophiles : life under extreme conditions",
+    "doi": "10.1007/s00792-013-0620-y",
+    "author_year": "Igarashi等，2014",
+    "part": "Part 4",
+    "proposition_id": "P4e",
+    "proposition_question": "哪些证据来自细胞间或絮体内，哪些真正测量了絮体间交换？",
+    "study_object": "A 产甲烷人工互营结构（详见actual_finding和decision_reason；具体条件未核字段留空）",
+    "oxygen_treatment": null,
+    "finding": "胞外多糖聚集，细胞直接或鞭毛桥连接；Fe(II)硫化物硬化网络可屏蔽S0干扰而海砂无效",
+    "boundary": "连接促进H2是作者解释，未量距离/扩散通量；硫屏障不是氧屏障；非所有AD对象",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "prior_screening_decision": "机制背景",
+    "mapping_status": "专题新增科学关联；未修改既有范围判断",
+    "support_role": "指出该研究不能单独证明絮体间交换，不据此断言领域不存在证据",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-14B9C58DBFD7.md",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-14B9C58DBFD7",
+        "identity_field": "id"
       }
     ]
   },
@@ -33362,42 +33875,6 @@
       {
         "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
         "id": "ODS-PMID22200642",
-        "identity_field": "paper_id"
-      }
-    ]
-  },
-  {
-    "id": "ODS-PMID23143533",
-    "title": "Co-digestion of manure and whey for in situ biogas upgrading by the addition of H(2): process performance and microbial insights.",
-    "year": "2013",
-    "journal": "Applied microbiology and biotechnology",
-    "doi": "10.1007/s00253-012-4547-5",
-    "proposition_id": null,
-    "mapping_status": "尚未建立命题关联；专题初筛状态：摘要初筛",
-    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
-    "topical_scope_decision": "专题相关（摘要层面）",
-    "source_links": [
-      {
-        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
-        "id": "ODS-PMID23143533",
-        "identity_field": "paper_id"
-      }
-    ]
-  },
-  {
-    "id": "ODS-PMID23435898",
-    "title": "Activated zeolite--suitable carriers for microorganisms in anaerobic digestion processes?",
-    "year": "2013",
-    "journal": "Applied microbiology and biotechnology",
-    "doi": "10.1007/s00253-013-4691-6",
-    "proposition_id": null,
-    "mapping_status": "尚未建立命题关联；专题初筛状态：摘要初筛",
-    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
-    "topical_scope_decision": "专题相关（摘要层面）",
-    "source_links": [
-      {
-        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
-        "id": "ODS-PMID23435898",
         "identity_field": "paper_id"
       }
     ]
@@ -33542,24 +34019,6 @@
       {
         "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
         "id": "ODS-PMID25393146",
-        "identity_field": "paper_id"
-      }
-    ]
-  },
-  {
-    "id": "ODS-PMID25462775",
-    "title": "Application of eco-compatible biochar in anaerobic digestion to relieve acid stress and promote the selective colonization of functional microbes.",
-    "year": "2015",
-    "journal": "Water research",
-    "doi": "10.1016/j.watres.2014.10.052",
-    "proposition_id": null,
-    "mapping_status": "尚未建立命题关联；专题初筛状态：摘要初筛",
-    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
-    "topical_scope_decision": "专题相关（摘要层面）",
-    "source_links": [
-      {
-        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
-        "id": "ODS-PMID25462775",
         "identity_field": "paper_id"
       }
     ]
@@ -33871,24 +34330,6 @@
     ]
   },
   {
-    "id": "ODS-PMID31278352",
-    "title": "Methane-fuelled biofilms predominantly composed of methanotrophic ANME-1 in Arctic gas hydrate-related sediments.",
-    "year": "2019",
-    "journal": "Scientific reports",
-    "doi": "10.1038/s41598-019-46209-5",
-    "proposition_id": null,
-    "mapping_status": "尚未建立命题关联；专题初筛状态：摘要初筛",
-    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
-    "topical_scope_decision": "专题相关（摘要层面）",
-    "source_links": [
-      {
-        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
-        "id": "ODS-PMID31278352",
-        "identity_field": "paper_id"
-      }
-    ]
-  },
-  {
     "id": "ODS-PMID32038509",
     "title": "A Methanogenic Consortium Was Active and Exhibited Long-Term Survival in an Extremely Acidified Thermophilic Bioreactor.",
     "year": "2019",
@@ -33974,24 +34415,6 @@
       {
         "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
         "id": "ODS-PMID33295079",
-        "identity_field": "paper_id"
-      }
-    ]
-  },
-  {
-    "id": "ODS-PMID34132588",
-    "title": "The Oligosaccharyltransferase AglB Supports Surface-Associated Growth and Iron Oxidation in Methanococcus maripaludis.",
-    "year": "2021",
-    "journal": "Applied and environmental microbiology",
-    "doi": "10.1128/aem.00995-21",
-    "proposition_id": null,
-    "mapping_status": "尚未建立命题关联；专题初筛状态：摘要初筛",
-    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
-    "topical_scope_decision": "专题相关（摘要层面）",
-    "source_links": [
-      {
-        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
-        "id": "ODS-PMID34132588",
         "identity_field": "paper_id"
       }
     ]
@@ -34190,24 +34613,6 @@
       {
         "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
         "id": "ODS-PMID38876277",
-        "identity_field": "paper_id"
-      }
-    ]
-  },
-  {
-    "id": "ODS-PMID39110235",
-    "title": "Impact of additives on syntrophic propionate and acetate enrichments under high-ammonia conditions.",
-    "year": "2024",
-    "journal": "Applied microbiology and biotechnology",
-    "doi": "10.1007/s00253-024-13263-7",
-    "proposition_id": null,
-    "mapping_status": "尚未建立命题关联；专题初筛状态：摘要初筛",
-    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
-    "topical_scope_decision": "专题相关（摘要层面）",
-    "source_links": [
-      {
-        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
-        "id": "ODS-PMID39110235",
         "identity_field": "paper_id"
       }
     ]

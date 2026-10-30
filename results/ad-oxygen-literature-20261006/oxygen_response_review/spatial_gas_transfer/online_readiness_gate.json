@@ -1,0 +1,46 @@
+{
+  "network_diagnostics": "raw/preflight/20261030_retest/README.md",
+  "updated_utc": "2026-10-30T11:00:08.290790+00:00",
+  "source_status": [
+    {
+      "source": "crossref",
+      "hostname": "api.crossref.org",
+      "started_utc": "2026-10-30T10:34:16.956670+00:00",
+      "failure_layer": "proxy_CONNECT",
+      "proxy_connect_status": 403,
+      "target_http_status": null,
+      "valid_target_JSON_XML": false
+    },
+    {
+      "source": "pubmed",
+      "hostname": "eutils.ncbi.nlm.nih.gov",
+      "started_utc": "2026-10-30T10:34:16.964701+00:00",
+      "failure_layer": "proxy_CONNECT",
+      "proxy_connect_status": 403,
+      "target_http_status": null,
+      "valid_target_JSON_XML": false
+    },
+    {
+      "source": "openalex",
+      "hostname": "api.openalex.org",
+      "started_utc": "2026-10-30T10:34:16.970070+00:00",
+      "failure_layer": "proxy_CONNECT",
+      "proxy_connect_status": 403,
+      "target_http_status": null,
+      "valid_target_JSON_XML": false
+    },
+    {
+      "source": "europepmc",
+      "hostname": "www.ebi.ac.uk",
+      "started_utc": "2026-10-30T10:34:16.975489+00:00",
+      "failure_layer": "proxy_CONNECT",
+      "proxy_connect_status": 403,
+      "target_http_status": null,
+      "valid_target_JSON_XML": false
+    }
+  ],
+  "completed_topic_online_queries": 0,
+  "queued_topic_online_queries": 12,
+  "seed_metadata_pending": 4,
+  "next_action": "Apply existing configuration via supported UI; recheck effective policy. Probe each newly available source and resume it independently; preserve blocked sources without repeated CONNECT requests. Merge returned identities with current 233-record registry."
+}

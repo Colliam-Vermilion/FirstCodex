@@ -13,6 +13,14 @@ GROUPS={
  'P4d':('Part 4','距离、混合和载体选择如何改变H2/甲酸交换与产甲烷？',['ODS-PMID36374033','ODS-PMID26147299','ODS-PMID35699440','ODS-PMID35918706','ODS-PMID17905889','ODS-PMID19490126','R13833','ODS-PMID42323140']),
  'P4e':('Part 4','哪些证据来自细胞间或絮体内，哪些真正测量了絮体间交换？',['ODS-PMID36374033','ODS-PMID26147299','ODS-PMID35918706','ODS-PMID35699440']),
 }
+EXTRA={
+ 'P1c':['ODS-PMID23143533','OR-3C0E505B4E2A','OR-44AA178A2EA7','OR-84BE51E22B78','OR-DF12A9229928','R13840'],
+ 'P1d':['R04899','OR-8B7804C5D4FE'],
+ 'P3c':['ODS-PMID23435898','ODS-PMID25462775','ODS-PMID31278352','ODS-PMID34132588','ODS-PMID39110235','OR-14B9C58DBFD7','R13836'],
+ 'P4d':['ODS-PMID39110235','OR-14B9C58DBFD7'],
+ 'P4e':['ODS-PMID39110235','OR-14B9C58DBFD7'],
+}
+for _pid,_ids in EXTRA.items():GROUPS[_pid][2].extend(_ids)
 def mlink(path,origin=R):return Path(path).relative_to(origin).as_posix()
 def label(r):return ((r.get('authors') or ['作者待核对'])[0].split(',')[0]+'等，'+str(r.get('year') or '年份待核'))
 def card(r):return T/'evidence'/(r['id']+'.md')
@@ -38,7 +46,7 @@ def main():
    data=read(pdf);lines += [f'- [本轮页码文本]({pdf.name})；[现有PDF原件](../../../{data["source_path"]})。抽取有缺字时以原PDF为准；R01414阈值负号经页面图像核验。']
   if (M/'evidence_sources'/(r['id']+'.json')).exists():lines += [f'- [既有原文位置](../../evidence_sources/{r["id"]}.json)。']
   if r.get('locator'):lines += ['', '已核位置：'+r['locator']+'。']
-  lines += ['', '## 完整缓存摘要（来源材料，不等于阅读全文）','', '> '+r.get('abstract','').replace('\n','\n> '),'']
+  lines += ['', '## 缓存abstract字段（不保证等同原文完整摘要；不等于阅读全文）','', '> '+r.get('abstract','').replace('\n','\n> '),'']
   card(r).write_text('\n'.join(x.rstrip() for x in '\n'.join(lines).splitlines()).rstrip()+'\n')
  base_map=json.loads(old('scientific_guide/literature_proposition_map.json'));base_props=json.loads(old('scientific_guide/propositions.json'));relations=[];props=[]
  for pid,(part,q,ids) in GROUPS.items():
@@ -73,6 +81,12 @@ def main():
 - **控制：**ORP反馈维持的是电位；DO反馈维持测点溶解氧；固定流量／比例／脉冲供气控制的是输入。三者均不能单独说明所有细胞的实际暴露。R01414为−310 mV开阀、−290 mV关阀；开阀氧流量0.14 mL/s。R07202则以各自厌氧基线+25 mV控制，不能借用同一绝对阈值。参考电极未核清时，不换算标准氢电极电位，更不换算DO。
 - **低DO并非零输入：**共培养反应器持续供空气，但主体DO低于约3 μM检出限；这既不是零氧证明，也不是DO闭环。DO设定0.5 mg/L的另一实例是脱氮颗粒系统，属于方法参照，不能当作产甲烷AD最适值。
 
+**继续阅读后的补充（仍为缓存摘要层面）：**H₂加到粪便／乳清AD时，扩散器孔径和搅拌改变气液交换与出气组成；150 rpm陶瓷扩散器表现较好，但摘要未给可核kLa。另一种条件是H₂过量耗尽CO₂、升高pH，不能把这种抑制都归为传质不足。氧传感方面，脱氮生物膜微电极研究报告主体DO从1.5升至5.5 mg/L时，氧穿透由1.0增至2.7 mm；ELAN颗粒研究则显示不同粒径／菌层所需完全穿透条件不同。这些结果说明暴露由结构和反应共同决定，均不是AD通用深度。
+
+参数也要先认材料和溶质：PVA-E人工分隔膜摘要报告O₂扩散系数0.42×10⁻⁴ cm²/s，不能并入污泥颗粒Deff；Anammox凝胶研究报告有效扩散约为自然颗粒的3倍，但摘要未明确所测探针溶质，不能填成H₂或O₂的绝对值。控制上，R04899摘要为每24 h、ORP −470 mV，须与R07202的每隔一天区别；另一份十六烷研究在不同供氧模式下测得相似ORP，进一步提示同一电位不保证同一暴露。这些新读内容仍待相关方法／图表核实。
+
+{table(['ODS-PMID23143533','OR-3C0E505B4E2A','OR-84BE51E22B78','R04899'],C)}
+
 {table(['ODS-PMID17905889','R01414','OR-06716459121E','R03161','R06080'],C)}
 
 [参数与剖面]({prefix}/gas_transfer_parameters_utf8.csv) · [控制逐项核对]({prefix}/oxygen_control_evidence_utf8.csv) · [完整专题与未完成查询]({prefix}/README.md) · [尺度阅读导图](scientific_guide/spatial_reading_map.md)
@@ -89,6 +103,10 @@ def main():
 
 **也不预设古菌总在中心。** Satoh的特定颗粒有内层产乙酸型古菌；硅藻土AD研究的摘要则将发酵菌与产甲烷菌分别关联到紧密附着和悬浮群落。后者不是颗粒内坐标，但提示聚集体内层、载体附着及主体悬浮是不同尺度，不能套用一张统一层状示意图。粒径分级下活性不同，也可能反映群落和生物膜年龄，而非唯一证明内部扩散限制。
 
+**天然结构并不只有紧密球形团块。**北极冷泉沉积物中的ANME-1生物膜，缓存摘要的CLSM观察为多细胞丝束／斑块，与SRB松散相伴；未全文核实堆栈与体重建，故不称完整三维重建。AD沸石上的SEM／CLSM可观察附着微生物，但要再查成像方法。另有M. maripaludis的遗传干预：aglB缺失取消表层糖基化及表面生长，支持特定菌株附着所需的分子条件；它没有证明氧被屏蔽。还应排除术语误导：R13836的“3D-EEM”是激发—发射荧光光谱，不能列为细胞／孔隙三维成像。
+
+{table(['ODS-PMID31278352','ODS-PMID23435898','ODS-PMID34132588'],C)}
+
 {table(['ODS-PMID29150508','ODS-PMID18405985','ODS-PMID40222284','ODS-PMID32994285'],C)}
 
 [结构与定位证据]({prefix}/structure_localization_evidence_utf8.csv)逐项保留方法、对象和阅读深度；保护性空间机制仍需氧分布及结构干预配套证据。
@@ -102,6 +120,10 @@ Day等（2022）的共培养研究用H₂／甲酸代谢突变株比较，支持
 
 **细胞间／絮体内不能写成絮体间。** 已读资料尚未提供本轮已核实的“两个不同絮体间距离—H₂/甲酸通量”直接测量。跨絮体还经过各自内部、表面液膜及主体混合，必须说明尺寸、间距、流场与测量／模型边界。这个缺口只描述本轮已读材料，不说明领域不存在此类研究。导电材料或EET相关基因也不等于已测气体物质交换。
 
+**载体和聚集的收益是否真由交换距离解释？**高氨互营富集的载体试验发现，铁氧化物和非导电沸石均有生物膜／絮凝及更快酸降解，伙伴在絮凝组分较多，而石墨烯上未见同样定殖。这支持近邻／附着值得研究，也说明不能只归DIET；细胞距离和H₂／甲酸通量尚未核实。另一人工共培养在68°C形成胞外多糖聚集和鞭毛桥，铁硫化物网络帮助抵御元素硫干扰；电镜接触并不独立证明H₂传递速率，硫屏蔽也不是氧屏蔽。对应[结构问题](#part-3)与功能需要配套阅读。
+
+{table(['ODS-PMID39110235','OR-14B9C58DBFD7'],C)}
+
 {table(['ODS-PMID36374033','ODS-PMID26147299','ODS-PMID35699440','ODS-PMID35918706'],C)}
 
 [细胞间／絮体间证据]({prefix}/cell_interfloc_exchange_utf8.csv) · [种子核对及具体缺口]({prefix}/seed_audit_utf8.csv) · [同一累计Excel]({prefix}/spatial_gas_transfer_cumulative.xlsx) · [相关文献RIS]({prefix}/spatial_gas_transfer_reviewed.ris)
@@ -114,7 +136,7 @@ Day等（2022）的共培养研究用H₂／甲酸代谢突变株比较，支持
   assert anchor in home
   home=home.replace(anchor,f'<!-- SPATIAL_{name}_BEGIN -->\n'+block+f'<!-- SPATIAL_{name}_END -->\n\n'+anchor,1)
  notice=f'''<!-- SPATIAL_navigation_BEGIN -->
-**2026-10-30专题增补口径：**下方原有42篇／1,536条等数字保留首版日期与范围；新增空间专题为233条已有资料命中，已处理40篇，其中其余193条仍待专题判断。统一文献—命题表现在覆盖{summary['expanded_map_unique_ids']}个已有身份（含95条复用的组学关联候选），不表示都已读或新检索取得。新增5个问题与{len(relations)}条关联见[专题命题表](scientific_guide/spatial_gas_proposition_links_utf8.csv)，[阅读导图](scientific_guide/spatial_reading_map.md)区分结构、传质、控制和互营；本轮在线检索仍未完成。
+**2026-10-30专题增补口径：**下方原有42篇／1,536条等数字保留首版日期与范围；空间专题233条已有资料均已有不同深度的初筛，新增193条判断见[现行进度]({prefix}/progress.json)。只读题名、缓存片段、完整缓存字段与相关全文段落分别标记，不代表233篇全文已核实。统一文献—命题表现在覆盖{summary['expanded_map_unique_ids']}个已有身份（含95条复用的组学关联候选），不表示都已逐项建立科学命题或新检索取得。新增5个问题与{len(relations)}条关联见[专题命题表](scientific_guide/spatial_gas_proposition_links_utf8.csv)，[阅读导图](scientific_guide/spatial_reading_map.md)区分结构、传质、控制和互营；**在线补检尚未完成，12组查询仍待执行**，不能把本地筛完当在线检索完成。
 <!-- SPATIAL_navigation_END -->
 
 '''

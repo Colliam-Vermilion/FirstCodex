@@ -29,7 +29,10 @@ def main():
   assert not git('diff',BASE,'--',str((M/f).relative_to(R))),f
  # Validate complete matrix and workbook without hashing/retrieving old PDFs.
  assert len({r['id'] for r in current})==1631
- assert len(read(G/'spatial_gas_proposition_links.json'))==49
+ relations=read(G/'spatial_gas_proposition_links.json')
+ prior_relations=json.loads(git('show','4692a8906cbc9ec028f21bc39b57104710baccf0:scientific_guide/spatial_gas_proposition_links.json'))
+ assert {(r['id'],r['proposition_id']) for r in prior_relations}<={(r['id'],r['proposition_id']) for r in relations}
+ assert len(relations)==read(G/'summary.json')['spatial_proposition_links']
  wb=load_workbook(G/'scientific_reading_guide.xlsx',read_only=True)
  assert sum(1 for _ in wb['全部文献—命题'].iter_rows())==len(current)+1
  assert sum(1 for _ in wb['空间传质专题'].iter_rows())==check['processed']+1
@@ -54,7 +57,7 @@ def main():
  for f in [*G.glob('scripts/*.py'),*T.glob('scripts/*.py')]:ast.parse(f.read_text())
  summary=read(T/'summary.json')
  assert summary['processed']+summary['remaining']==233 and summary['new_external_queries_completed']==0
- result={'checked_Asia_Shanghai':datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(),'commit':git('rev-parse','HEAD').decode().strip(),'branch':git('branch','--show-current').decode().strip(),'passed':True,'baseline':BASE,'old_homepage_entire_text_preserved':True,'old_1587_map_rows_and_ten_propositions_preserved':True,'old_review_scope_priorities_evidence_originals_and_progress_unchanged':True,'topical_candidates':233,'processed':summary['processed'],'remaining':summary['remaining'],'old_review_related_fulltext_or_evidence_reused':5,'abstract_only_processed':summary['abstract_only_processed'],'title_only_processed':summary.get('title_only_processed',0),'abstract_pending_after_title':summary.get('abstract_pending_after_title',0),'verified_new_external_articles':0,'external_queries_completed':0,'saved_backward_reference_leads':42,'local_file_links_verified':links,'shared_targets_checked_by_Git_tree_only':tracked_only,'topic_workbook_opened':True,'scientific_guide_workbook_opened':True,'expanded_guide_ids':1631,'new_proposition_links':49,'true_whole_AD_granule_3D_fulltext_verifications_added':0,'abstract_explicit_electron_tomography_leads':1,'direct_interfloc_distance_or_flux_confirmed':0,'shared_PDF_redownloads_or_rehashes':0}
+ result={'checked_Asia_Shanghai':datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(),'commit':git('rev-parse','HEAD').decode().strip(),'branch':git('branch','--show-current').decode().strip(),'passed':True,'baseline':BASE,'old_homepage_entire_text_preserved':True,'old_1587_map_rows_and_ten_propositions_preserved':True,'old_review_scope_priorities_evidence_originals_and_progress_unchanged':True,'topical_candidates':233,'processed':summary['processed'],'remaining':summary['remaining'],'old_review_related_fulltext_or_evidence_reused':5,'abstract_only_processed':summary['abstract_only_processed'],'fragment_only_processed':summary.get('fragment_only_processed',0),'title_only_processed':summary.get('title_only_processed',0),'abstract_pending_after_title':summary.get('abstract_pending_after_title',0),'verified_new_external_articles':0,'external_queries_completed':0,'saved_backward_reference_leads':42,'local_file_links_verified':links,'shared_targets_checked_by_Git_tree_only':tracked_only,'topic_workbook_opened':True,'scientific_guide_workbook_opened':True,'expanded_guide_ids':1631,'new_proposition_links':len(relations),'true_whole_AD_granule_3D_fulltext_verifications_added':0,'abstract_explicit_electron_tomography_leads':1,'direct_interfloc_distance_or_flux_confirmed':0,'shared_PDF_redownloads_or_rehashes':0}
  if a.report:a.report.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
  print(json.dumps(result,ensure_ascii=False))
 if __name__=='__main__':main()

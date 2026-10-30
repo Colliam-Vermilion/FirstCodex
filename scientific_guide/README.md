@@ -1,7 +1,7 @@
 # 科学首页的文献关系与证据边界
 
 <!-- SPATIAL_GUIDE_NAV -->
-**2026-10-30空间/传质专题已增补：**[尺度阅读导图](spatial_reading_map.md) · [49条新命题关联](spatial_gas_proposition_links_utf8.csv) · [专题累计表与网络缺口](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/README.md)。下文保留2026-10-29首版42篇／93条说明；当前统一文献表为增补视图，并不把未处理候选算作已读。在线新检索尚因403未完成。
+**2026-10-30空间/传质专题已继续增补：**[尺度阅读导图](spatial_reading_map.md) · [68条专题命题关联](spatial_gas_proposition_links_utf8.csv) · [专题累计表与网络诊断](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/README.md)。本地233条已初筛，其中5条相关全文／旧证据、220条读完整缓存字段、2条片段、6条仅题名；这些深度不能互称。下文保留2026-10-29首版42篇／93条说明。**在线补检尚未完成，12组查询未执行。**当前生效策略缺少四域名、单次请求均代理CONNECT 403，草稿已有域名但不是生效证明，不把草稿保存状态当唯一故障诊断。
 
 
 本页说明2026-10-29科学首页怎样利用已有材料，不是新一轮检索或范围筛选。面向科研读者的正文在[仓库首页](../README.md)；原方法和运行介绍完整保留在[技术说明](../technical/README.md)，另有[逐字节旧首页](../technical/root_README_original_20261029.txt)。

@@ -5,6 +5,7 @@
 ## 已确认
 
 - 任务绑定实例、配置版本、草稿ID/修订见[安全状态快照](environment_snapshot.json)。实例running，`observations_current=true`；`spec_revision=observed_spec_revision=1`，网络`restricted/enforced`。这指本任务关联环境，不是从旧会话猜测实例。
+- 执行器启动文件本身不含实例ID，不能只凭`/workspace`路径独立证明它与状态接口实例的物理同一性；两处网络策略内容一致，四个实际请求结果也一致。
 - 当前生效的`effective_allowed_hosts`及执行器`/etc/codex/network-policy.json`均不含以下四个域名。自定义`allowed_hosts=[]`，仍有包管理/GitHub预置许可。
 - 草稿revision 7已有这四个域名，草稿base版本等于实例当前来源配置版本。草稿存在不能证明已经发布或应用。此处结论来自**运行策略、草稿与实际请求三者**，不单凭旧保存回执`requires_publish=true`。
 
@@ -29,3 +30,5 @@
 - 只有响应通过来源特定JSON字段验证，才称接口恢复；TCP连接成功或HTTP200登录页均不足。
 
 当前四来源都未恢复，故12组在线查询与四个待核种子保留未完成；本地候选继续独立初筛。完整错误已最小化保存，没有凭据、代理认证头或全量进程环境。
+
+18:53（北京时间）的[再次状态核对](policy_recheck.json)仍是相同实例与配置版本、revision 1/current/enforced，四域名仍不允许；因此未重复四次相同失败请求。平台留存诊断的元数据接口返回`history_status=not_found`，不能从没有留存日志推断平台健康；本轮单次请求记录仍可供平台复现。尚未出现“确认配置应用但CONNECT仍拒绝”的条件。
