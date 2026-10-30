@@ -1,0 +1,33 @@
+{
+  "observed_date_Asia_Shanghai": "2026-10-30",
+  "exact_request_timestamp_not_saved": true,
+  "requests": [
+    {
+      "host": "www.ebi.ac.uk",
+      "purpose": "exact seed DOI metadata preflight",
+      "outcome": "URLError: Tunnel connection failed: 403 Forbidden",
+      "upstream_response_obtained": false
+    },
+    {
+      "host": "api.crossref.org",
+      "purpose": "exact seed DOI metadata preflight",
+      "outcome": "URLError: Tunnel connection failed: 403 Forbidden",
+      "upstream_response_obtained": false
+    },
+    {
+      "host": "eutils.ncbi.nlm.nih.gov",
+      "purpose": "exact seed DOI metadata preflight",
+      "outcome": "URLError: Tunnel connection failed: 403 Forbidden",
+      "upstream_response_obtained": false
+    },
+    {
+      "host": "api.openalex.org",
+      "purpose": "exact seed DOI metadata preflight",
+      "outcome": "URLError: Tunnel connection failed: 403 Forbidden",
+      "upstream_response_obtained": false
+    }
+  ],
+  "tool_inventory": "Nature b543e8b998eb2df1fd44641cc8b262c638c2b442: stdio initialized with 16 tools and offline input validation passed after retry outside local process sandbox; scholarly API hosts still CONNECT 403",
+  "configuration": "Existing academic domain draft preserved; journals.asm.org added; save confirmed, requires_publish=true; not runtime application",
+  "new_external_discovery_records": 0
+}

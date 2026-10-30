@@ -1,0 +1,126 @@
+[
+  {
+    "query_id": "L01",
+    "database": "已保存官方/旧库记录的本地并集；不是新外部数据库查询",
+    "theme": "空间与三维",
+    "fields": [
+      "title",
+      "abstract"
+    ],
+    "query_verbatim": "REGEX(anaerob|methanogen|syntroph|sludge) AND REGEX(granul|floc|biofilm|aggregat) AND REGEX(spatial|layer|imag|confocal|microelectrod|diffus|poros|three.?dimension|tomograph|micro.?ct)",
+    "case_insensitive": true,
+    "time_filter": "无新时间过滤；覆盖受先前保存材料限制",
+    "date_utc": "2026-10-30T07:24:42.567949+00:00",
+    "pagination": "完整本地遍历，无截断",
+    "returned_records": 77,
+    "raw_path": "raw/local/L01.json",
+    "execution_state": "completed_local"
+  },
+  {
+    "query_id": "L02",
+    "database": "已保存官方/旧库记录的本地并集；不是新外部数据库查询",
+    "theme": "传质与互营",
+    "fields": [
+      "title",
+      "abstract"
+    ],
+    "query_verbatim": "REGEX(anaerob|methanogen|syntroph) AND REGEX(mass transfer|diffus|boundary layer|interspecies distance|hydrogen transfer|formate transfer)",
+    "case_insensitive": true,
+    "time_filter": "无新时间过滤；覆盖受先前保存材料限制",
+    "date_utc": "2026-10-30T07:24:42.858385+00:00",
+    "pagination": "完整本地遍历，无截断",
+    "returned_records": 81,
+    "raw_path": "raw/local/L02.json",
+    "execution_state": "completed_local"
+  },
+  {
+    "query_id": "L03",
+    "database": "已保存官方/旧库记录的本地并集；不是新外部数据库查询",
+    "theme": "ORP控制",
+    "fields": [
+      "title",
+      "abstract"
+    ],
+    "query_verbatim": "REGEX(\\bORP\\b|oxidation.reduction potential|redox potential) AND REGEX(micro.?aerat|oxygen|aeration) AND REGEX(digest|methanogen|biogas)",
+    "case_insensitive": true,
+    "time_filter": "无新时间过滤；覆盖受先前保存材料限制",
+    "date_utc": "2026-10-30T07:24:43.055389+00:00",
+    "pagination": "完整本地遍历，无截断",
+    "returned_records": 22,
+    "raw_path": "raw/local/L03.json",
+    "execution_state": "completed_local"
+  },
+  {
+    "query_id": "L04",
+    "database": "已保存官方/旧库记录的本地并集；不是新外部数据库查询",
+    "theme": "DO控制或记录",
+    "fields": [
+      "title",
+      "abstract"
+    ],
+    "query_verbatim": "REGEX(dissolved oxygen|\\bDO\\b) AND REGEX(control|feedback|setpoint|uptake|mass transfer) AND REGEX(anaerob|digest)",
+    "case_insensitive": true,
+    "time_filter": "无新时间过滤；覆盖受先前保存材料限制",
+    "date_utc": "2026-10-30T07:24:43.208954+00:00",
+    "pagination": "完整本地遍历，无截断",
+    "returned_records": 38,
+    "raw_path": "raw/local/L04.json",
+    "execution_state": "completed_local"
+  },
+  {
+    "query_id": "L05",
+    "database": "已保存官方/旧库记录的本地并集；不是新外部数据库查询",
+    "theme": "可借鉴的氧传递",
+    "fields": [
+      "title",
+      "abstract"
+    ],
+    "query_verbatim": "REGEX(sediment|biofilm) AND REGEX(oxygen) AND REGEX(mass transfer|penetration|gradient|diffus)",
+    "case_insensitive": true,
+    "time_filter": "无新时间过滤；覆盖受先前保存材料限制",
+    "date_utc": "2026-10-30T07:24:43.341352+00:00",
+    "pagination": "完整本地遍历，无截断",
+    "returned_records": 55,
+    "raw_path": "raw/local/L05.json",
+    "execution_state": "completed_local"
+  },
+  {
+    "query_id": "L06",
+    "database": "已保存官方/旧库记录的本地并集；不是新外部数据库查询",
+    "theme": "距离及中间产物交换",
+    "fields": [
+      "title",
+      "abstract"
+    ],
+    "query_verbatim": "REGEX(syntroph|co.?cultur) AND REGEX(hydrogen|formate) AND REGEX(distance|spatial|aggregate|floc)",
+    "case_insensitive": true,
+    "time_filter": "无新时间过滤；覆盖受先前保存材料限制",
+    "date_utc": "2026-10-30T07:24:43.500701+00:00",
+    "pagination": "完整本地遍历，无截断",
+    "returned_records": 10,
+    "raw_path": "raw/local/L06.json",
+    "execution_state": "completed_local"
+  },
+  {
+    "query_id": "L07",
+    "database": "已保存记录精确ID取回",
+    "theme": "用户指定记录与已保存全文索引/导读线索",
+    "query_verbatim": [
+      "OR-8E58C5BBDB53",
+      "OR-06716459121E",
+      "OR-9AE95458315B",
+      "OR-6A3D9B1E5D73",
+      "R01414",
+      "R03161",
+      "R13833"
+    ],
+    "fields": [
+      "id"
+    ],
+    "date_utc": "2026-10-30T07:24:43.501275+00:00",
+    "pagination": "7个指定ID，完整返回",
+    "returned_records": 7,
+    "raw_path": "raw/local/L07.json",
+    "execution_state": "completed_local"
+  }
+]

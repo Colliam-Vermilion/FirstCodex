@@ -1,0 +1,75 @@
+{
+  "backward_seed": "ODS-PMID17905889",
+  "backward_source": "保存的PubMed完整ReferenceList",
+  "backward_returned": 42,
+  "backward_truncated": false,
+  "forward_source": "search.sqlite，历史全文/附件索引",
+  "index_chunks": 60327,
+  "index_record_ids": 101,
+  "index_asset_ids": 146,
+  "forward_queries": [
+    {
+      "seed_key": "S01",
+      "sql": "SELECT record_id,asset_id,source_filename,canonical_source,location,text FROM chunks WHERE lower(text) LIKE ? OR lower(text) LIKE ?",
+      "parameters": [
+        "%10.1128/aem.00563-24%",
+        "%nondestructive and three-dimensional visualization by identifying elements %"
+      ],
+      "rows_returned": 0,
+      "pagination": "完整SQL结果，无LIMIT",
+      "source": "既有search.sqlite；不覆盖其建立后全部新合并原件",
+      "date_utc": "2026-10-30T07:21:57.324714+00:00"
+    },
+    {
+      "seed_key": "S02",
+      "sql": "SELECT record_id,asset_id,source_filename,canonical_source,location,text FROM chunks WHERE lower(text) LIKE ? OR lower(text) LIKE ?",
+      "parameters": [
+        "%10.1128/aem.01426-07%",
+        "%layered structure of bacterial and archaeal communities and their in situ a%"
+      ],
+      "rows_returned": 0,
+      "pagination": "完整SQL结果，无LIMIT",
+      "source": "既有search.sqlite；不覆盖其建立后全部新合并原件",
+      "date_utc": "2026-10-30T07:21:57.378235+00:00"
+    },
+    {
+      "seed_key": "S03",
+      "sql": "SELECT record_id,asset_id,source_filename,canonical_source,location,text FROM chunks WHERE lower(text) LIKE ? OR lower(text) LIKE ?",
+      "parameters": [
+        "%10.1007/s00253-012-4616-9%",
+        "%interspecies distances between propionic acid degraders and methanogens in %"
+      ],
+      "rows_returned": 0,
+      "pagination": "完整SQL结果，无LIMIT",
+      "source": "既有search.sqlite；不覆盖其建立后全部新合并原件",
+      "date_utc": "2026-10-30T07:21:57.434423+00:00"
+    },
+    {
+      "seed_key": "S04",
+      "sql": "SELECT record_id,asset_id,source_filename,canonical_source,location,text FROM chunks WHERE lower(text) LIKE ? OR lower(text) LIKE ?",
+      "parameters": [
+        "%10.1016/j.jenvman.2005.01.022%",
+        "%size-dependent anaerobic digestion rates of flocculated activated sludge: r%"
+      ],
+      "rows_returned": 0,
+      "pagination": "完整SQL结果，无LIMIT",
+      "source": "既有search.sqlite；不覆盖其建立后全部新合并原件",
+      "date_utc": "2026-10-30T07:21:57.488770+00:00"
+    },
+    {
+      "seed_key": "S05",
+      "sql": "SELECT record_id,asset_id,source_filename,canonical_source,location,text FROM chunks WHERE lower(text) LIKE ? OR lower(text) LIKE ?",
+      "parameters": [
+        "%10.1002/bit.260330612%",
+        "%control of interspecies electron transfer flow during anaerobic digestion: %"
+      ],
+      "rows_returned": 0,
+      "pagination": "完整SQL结果，无LIMIT",
+      "source": "既有search.sqlite；不覆盖其建立后全部新合并原件",
+      "date_utc": "2026-10-30T07:21:57.543522+00:00"
+    }
+  ],
+  "forward_rows_returned": 0,
+  "online_forward_backward_graph_queries": "尚未执行，API当前403阻断；未将本地结果当作完整前向引文库",
+  "other_four_seed_reference_lists": "尚未取得，不从题名补造参考文献"
+}

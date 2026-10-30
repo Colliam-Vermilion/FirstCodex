@@ -1,0 +1,122 @@
+[
+  {
+    "query_id": "Q01",
+    "database": "PubMed",
+    "query_verbatim": "((anaerobic granule*[Title/Abstract] OR methanogenic granule*[Title/Abstract]) AND (three-dimensional[Title/Abstract] OR tomography[Title/Abstract] OR confocal[Title/Abstract] OR micro-CT[Title/Abstract]))",
+    "date_end": "2026-10-30",
+    "date_start": null,
+    "state": "not_executed_network_policy_block",
+    "planned_pagination": "PubMed: count then full ID pages, EFetch batches100; OpenAlex: cursor/per-page200 until end, no arbitrary result cap",
+    "note": "OpenAlex为普通文本相关检索，不把空格当严格Boolean AND；若过宽按对象/概念拆分，保存每页"
+  },
+  {
+    "query_id": "Q02",
+    "database": "PubMed",
+    "query_verbatim": "((anaerobic granule*[Title/Abstract] OR anaerobic biofilm*[Title/Abstract]) AND (spatial distribution[Title/Abstract] OR FISH[Title/Abstract] OR CLSM[Title/Abstract] OR pore*[Title/Abstract] OR channel*[Title/Abstract]))",
+    "date_end": "2026-10-30",
+    "date_start": null,
+    "state": "not_executed_network_policy_block",
+    "planned_pagination": "PubMed: count then full ID pages, EFetch batches100; OpenAlex: cursor/per-page200 until end, no arbitrary result cap",
+    "note": "OpenAlex为普通文本相关检索，不把空格当严格Boolean AND；若过宽按对象/概念拆分，保存每页"
+  },
+  {
+    "query_id": "Q03",
+    "database": "PubMed",
+    "query_verbatim": "((anaerobic sludge[Title/Abstract] OR methanogenic sludge[Title/Abstract] OR sludge floc*[Title/Abstract]) AND (effective diffusivity[Title/Abstract] OR diffusion coefficient[Title/Abstract] OR mass transfer resistance[Title/Abstract] OR liquid film[Title/Abstract]))",
+    "date_end": "2026-10-30",
+    "date_start": null,
+    "state": "not_executed_network_policy_block",
+    "planned_pagination": "PubMed: count then full ID pages, EFetch batches100; OpenAlex: cursor/per-page200 until end, no arbitrary result cap",
+    "note": "OpenAlex为普通文本相关检索，不把空格当严格Boolean AND；若过宽按对象/概念拆分，保存每页"
+  },
+  {
+    "query_id": "Q04",
+    "database": "PubMed",
+    "query_verbatim": "((syntroph*[Title/Abstract] OR methanogen*[Title/Abstract]) AND (interspecies distance*[Title/Abstract] OR interspecies hydrogen transfer[Title/Abstract] OR formate transfer[Title/Abstract]))",
+    "date_end": "2026-10-30",
+    "date_start": null,
+    "state": "not_executed_network_policy_block",
+    "planned_pagination": "PubMed: count then full ID pages, EFetch batches100; OpenAlex: cursor/per-page200 until end, no arbitrary result cap",
+    "note": "OpenAlex为普通文本相关检索，不把空格当严格Boolean AND；若过宽按对象/概念拆分，保存每页"
+  },
+  {
+    "query_id": "Q05",
+    "database": "PubMed",
+    "query_verbatim": "((interfloc[Title/Abstract] OR inter-floc[Title/Abstract] OR intrafloc[Title/Abstract] OR intra-floc[Title/Abstract]) AND (hydrogen[Title/Abstract] OR methane[Title/Abstract] OR diffusion[Title/Abstract] OR anaerobic[Title/Abstract]))",
+    "date_end": "2026-10-30",
+    "date_start": null,
+    "state": "not_executed_network_policy_block",
+    "planned_pagination": "PubMed: count then full ID pages, EFetch batches100; OpenAlex: cursor/per-page200 until end, no arbitrary result cap",
+    "note": "OpenAlex为普通文本相关检索，不把空格当严格Boolean AND；若过宽按对象/概念拆分，保存每页"
+  },
+  {
+    "query_id": "Q06",
+    "database": "PubMed",
+    "query_verbatim": "((anaerobic digest*[Title/Abstract] OR biogas[Title/Abstract]) AND (ORP[Title/Abstract] OR redox feedback[Title/Abstract] OR oxidation reduction potential[Title/Abstract]) AND (oxygen[Title/Abstract] OR aeration[Title/Abstract]))",
+    "date_end": "2026-10-30",
+    "date_start": null,
+    "state": "not_executed_network_policy_block",
+    "planned_pagination": "PubMed: count then full ID pages, EFetch batches100; OpenAlex: cursor/per-page200 until end, no arbitrary result cap",
+    "note": "OpenAlex为普通文本相关检索，不把空格当严格Boolean AND；若过宽按对象/概念拆分，保存每页"
+  },
+  {
+    "query_id": "Q07",
+    "database": "PubMed",
+    "query_verbatim": "((anaerobic digest*[Title/Abstract] OR methanogenic[Title/Abstract]) AND (oxygen uptake rate[Title/Abstract] OR oxygen transfer rate[Title/Abstract] OR DO control[Title/Abstract] OR dissolved oxygen control[Title/Abstract]))",
+    "date_end": "2026-10-30",
+    "date_start": null,
+    "state": "not_executed_network_policy_block",
+    "planned_pagination": "PubMed: count then full ID pages, EFetch batches100; OpenAlex: cursor/per-page200 until end, no arbitrary result cap",
+    "note": "OpenAlex为普通文本相关检索，不把空格当严格Boolean AND；若过宽按对象/概念拆分，保存每页"
+  },
+  {
+    "query_id": "Q08",
+    "database": "PubMed",
+    "query_verbatim": "((anaerobic granule*[Title/Abstract] OR methanogenic biofilm*[Title/Abstract]) AND (microsensor*[Title/Abstract] OR microprofile*[Title/Abstract] OR penetration depth[Title/Abstract]) AND (hydrogen[Title/Abstract] OR methane[Title/Abstract] OR sulfide[Title/Abstract] OR oxygen[Title/Abstract]))",
+    "date_end": "2026-10-30",
+    "date_start": null,
+    "state": "not_executed_network_policy_block",
+    "planned_pagination": "PubMed: count then full ID pages, EFetch batches100; OpenAlex: cursor/per-page200 until end, no arbitrary result cap",
+    "note": "OpenAlex为普通文本相关检索，不把空格当严格Boolean AND；若过宽按对象/概念拆分，保存每页"
+  },
+  {
+    "query_id": "Q09",
+    "database": "OpenAlex",
+    "query_verbatim": "anaerobic granular sludge three dimensional tomography porosity",
+    "date_end": "2026-10-30",
+    "date_start": null,
+    "state": "not_executed_network_policy_block",
+    "planned_pagination": "PubMed: count then full ID pages, EFetch batches100; OpenAlex: cursor/per-page200 until end, no arbitrary result cap",
+    "note": "OpenAlex为普通文本相关检索，不把空格当严格Boolean AND；若过宽按对象/概念拆分，保存每页"
+  },
+  {
+    "query_id": "Q10",
+    "database": "OpenAlex",
+    "query_verbatim": "methanogenic floc hydrogen diffusion reaction model",
+    "date_end": "2026-10-30",
+    "date_start": null,
+    "state": "not_executed_network_policy_block",
+    "planned_pagination": "PubMed: count then full ID pages, EFetch batches100; OpenAlex: cursor/per-page200 until end, no arbitrary result cap",
+    "note": "OpenAlex为普通文本相关检索，不把空格当严格Boolean AND；若过宽按对象/概念拆分，保存每页"
+  },
+  {
+    "query_id": "Q11",
+    "database": "OpenAlex",
+    "query_verbatim": "anaerobic granules effective diffusivity methane hydrogen",
+    "date_end": "2026-10-30",
+    "date_start": null,
+    "state": "not_executed_network_policy_block",
+    "planned_pagination": "PubMed: count then full ID pages, EFetch batches100; OpenAlex: cursor/per-page200 until end, no arbitrary result cap",
+    "note": "OpenAlex为普通文本相关检索，不把空格当严格Boolean AND；若过宽按对象/概念拆分，保存每页"
+  },
+  {
+    "query_id": "Q12",
+    "database": "OpenAlex",
+    "query_verbatim": "microaeration ORP control dissolved oxygen transfer",
+    "date_end": "2026-10-30",
+    "date_start": null,
+    "state": "not_executed_network_policy_block",
+    "planned_pagination": "PubMed: count then full ID pages, EFetch batches100; OpenAlex: cursor/per-page200 until end, no arbitrary result cap",
+    "note": "OpenAlex为普通文本相关检索，不把空格当严格Boolean AND；若过宽按对象/概念拆分，保存每页"
+  }
+]
