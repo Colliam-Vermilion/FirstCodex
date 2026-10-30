@@ -1,0 +1,19 @@
+{
+  "source": "PubMed",
+  "name": "Q06_count",
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+  "parameters_without_contact": {
+    "db": "pubmed",
+    "term": "((anaerobic digest*[Title/Abstract] OR biogas[Title/Abstract]) AND (ORP[Title/Abstract] OR redox feedback[Title/Abstract] OR oxidation reduction potential[Title/Abstract]) AND (oxygen[Title/Abstract] OR aeration[Title/Abstract]))",
+    "retmode": "json",
+    "retmax": 0,
+    "tool": "SpatialGasTransferReview"
+  },
+  "started_utc": "2026-10-30T11:50:22.290351+00:00",
+  "status": 200,
+  "raw_path": "raw/online/PubMed/Q06_count_6263c040f0deeb8749fe.json",
+  "content_type": "application/json; charset=UTF-8",
+  "bytes": 414,
+  "sha256": "095abb183fa853a96955079da39f8ad118185a78ee45ba53d06978d705e40e5f",
+  "finished_utc": "2026-10-30T11:50:22.445133+00:00"
+}

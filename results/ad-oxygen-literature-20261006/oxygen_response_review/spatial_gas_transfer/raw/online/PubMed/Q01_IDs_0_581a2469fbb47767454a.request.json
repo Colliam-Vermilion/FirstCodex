@@ -1,0 +1,20 @@
+{
+  "source": "PubMed",
+  "name": "Q01_IDs_0",
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+  "parameters_without_contact": {
+    "db": "pubmed",
+    "term": "((anaerobic granule*[Title/Abstract] OR methanogenic granule*[Title/Abstract]) AND (three-dimensional[Title/Abstract] OR tomography[Title/Abstract] OR confocal[Title/Abstract] OR micro-CT[Title/Abstract]))",
+    "retmode": "json",
+    "retmax": 1000,
+    "tool": "SpatialGasTransferReview",
+    "retstart": 0
+  },
+  "started_utc": "2026-10-30T11:50:12.062793+00:00",
+  "status": 200,
+  "raw_path": "raw/online/PubMed/Q01_IDs_0_581a2469fbb47767454a.json",
+  "content_type": "application/json; charset=UTF-8",
+  "bytes": 439,
+  "sha256": "e67deb07e5d13abc11afba6d77a8de3d3538aa1ab31f6ba09c06ebe6c7f28f61",
+  "finished_utc": "2026-10-30T11:50:12.344585+00:00"
+}

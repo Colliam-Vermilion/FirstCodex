@@ -1,0 +1,18 @@
+{
+  "source": "PubMed",
+  "name": "S04_doi_lookup",
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+  "parameters_without_contact": {
+    "db": "pubmed",
+    "term": "10.1016/j.jenvman.2005.01.022[AID]",
+    "retmode": "json",
+    "retmax": 100
+  },
+  "started_utc": "2026-10-30T11:51:31.642208+00:00",
+  "status": 200,
+  "raw_path": "raw/online/PubMed/S04_doi_lookup_db46c34c713005aa1c1f.json",
+  "content_type": "application/json; charset=UTF-8",
+  "bytes": 215,
+  "sha256": "8de0a0eb4b79f43696b5d7d58e1550ceb52cbc913b3e7003902b01c2a7372a15",
+  "finished_utc": "2026-10-30T11:51:31.822514+00:00"
+}

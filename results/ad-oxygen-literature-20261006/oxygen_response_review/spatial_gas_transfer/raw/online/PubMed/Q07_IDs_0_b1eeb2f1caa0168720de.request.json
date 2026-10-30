@@ -1,0 +1,20 @@
+{
+  "source": "PubMed",
+  "name": "Q07_IDs_0",
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+  "parameters_without_contact": {
+    "db": "pubmed",
+    "term": "((anaerobic digest*[Title/Abstract] OR methanogenic[Title/Abstract]) AND (oxygen uptake rate[Title/Abstract] OR oxygen transfer rate[Title/Abstract] OR DO control[Title/Abstract] OR dissolved oxygen control[Title/Abstract]))",
+    "retmode": "json",
+    "retmax": 1000,
+    "tool": "SpatialGasTransferReview",
+    "retstart": 0
+  },
+  "started_utc": "2026-10-30T11:50:24.993675+00:00",
+  "status": 200,
+  "raw_path": "raw/online/PubMed/Q07_IDs_0_b1eeb2f1caa0168720de.json",
+  "content_type": "application/json; charset=UTF-8",
+  "bytes": 570,
+  "sha256": "0d85ca748aaaa86309ab0866884a38bfc4cdba61adbcaf7b9e69983b17c1638f",
+  "finished_utc": "2026-10-30T11:50:25.165198+00:00"
+}

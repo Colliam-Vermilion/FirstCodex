@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T11:01:14.457778+00:00",
+  "updated_utc": "2026-10-30T11:52:42.895319+00:00",
   "candidates": 233,
   "processed": 233,
   "remaining": 0,
@@ -7,7 +7,7 @@
   "other_existing_paper_ids_reused": 95,
   "new_external_articles_discovered": 0,
   "new_bibliographic_leads_from_saved_seed_references": 42,
-  "new_external_queries_completed": 0,
+  "new_external_queries_completed": 12,
   "local_queries_completed": 7,
   "related_fulltext_or_existing_fulltext_evidence_reused": 5,
   "abstract_only_processed": 220,
@@ -16,10 +16,10 @@
   "parameter_or_profile_records": 12,
   "control_records": 17,
   "direct_interfloc_distance_or_flux_measurements_verified": 0,
-  "network_state": "current enforced policy excludes all four API hosts; all four minimal requests proxy CONNECT 403; saved draft includes hosts but is not evidence of application",
-  "online_status": "必须网络生效后重测并执行，不能把本地遍历当作新外部检索完成",
+  "network_state": "current enforced restricted policy includes all four hosts; four minimal queries HTTP200",
+  "online_status": "12 original topical queries complete; dedup/screening/full-text extraction in progress",
   "seed_metadata_independently_available_from_saved_sources": 1,
-  "seed_metadata_unverified": 4,
+  "seed_metadata_unverified": 0,
   "fragment_only_processed": 2,
   "title_only_processed": 6,
   "abstract_pending_after_title": 1,
@@ -497,7 +497,7 @@
     "R13970"
   ],
   "next_id": null,
-  "resume": "优先abstract_pending_queue补摘要，再fulltext_pending补证；网络按raw/preflight/20261030_retest重测，12组在线尚未执行。题名初筛不等于全文核实。",
+  "resume": "Keep 233 prior initial screens; parse online results, dedup globally, read seed methods/results and citations",
   "checkpoint_files": [
     "B001.json",
     "B002.json",
@@ -511,5 +511,6 @@
     "L160.json",
     "L180.json",
     "L193_final.json"
-  ]
+  ],
+  "seed_metadata_verified_online": 5
 }

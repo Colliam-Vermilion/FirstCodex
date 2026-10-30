@@ -1,0 +1,20 @@
+{
+  "source": "PubMed",
+  "name": "Q08_IDs_0",
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+  "parameters_without_contact": {
+    "db": "pubmed",
+    "term": "((anaerobic granule*[Title/Abstract] OR methanogenic biofilm*[Title/Abstract]) AND (microsensor*[Title/Abstract] OR microprofile*[Title/Abstract] OR penetration depth[Title/Abstract]) AND (hydrogen[Title/Abstract] OR methane[Title/Abstract] OR sulfide[Title/Abstract] OR oxygen[Title/Abstract]))",
+    "retmode": "json",
+    "retmax": 1000,
+    "tool": "SpatialGasTransferReview",
+    "retstart": 0
+  },
+  "started_utc": "2026-10-30T11:50:26.788716+00:00",
+  "status": 200,
+  "raw_path": "raw/online/PubMed/Q08_IDs_0_040ae47521e4873566e3.json",
+  "content_type": "application/json; charset=UTF-8",
+  "bytes": 508,
+  "sha256": "1d70beb82c18a2a1a18ad2f7bebfef5a374aa246072a8bf82a5b901e92728255",
+  "finished_utc": "2026-10-30T11:50:26.935542+00:00"
+}

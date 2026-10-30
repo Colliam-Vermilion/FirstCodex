@@ -1,0 +1,19 @@
+{
+  "source": "PubMed",
+  "name": "Q05_count",
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+  "parameters_without_contact": {
+    "db": "pubmed",
+    "term": "((interfloc[Title/Abstract] OR inter-floc[Title/Abstract] OR intrafloc[Title/Abstract] OR intra-floc[Title/Abstract]) AND (hydrogen[Title/Abstract] OR methane[Title/Abstract] OR diffusion[Title/Abstract] OR anaerobic[Title/Abstract]))",
+    "retmode": "json",
+    "retmax": 0,
+    "tool": "SpatialGasTransferReview"
+  },
+  "started_utc": "2026-10-30T11:50:20.473856+00:00",
+  "status": 200,
+  "raw_path": "raw/online/PubMed/Q05_count_6d176f9b1916ce378714.json",
+  "content_type": "application/json; charset=UTF-8",
+  "bytes": 422,
+  "sha256": "b42055e5eca19ef215a62493748079785416ac9a2fbf98a055ef7a4a818356bf",
+  "finished_utc": "2026-10-30T11:50:20.698049+00:00"
+}

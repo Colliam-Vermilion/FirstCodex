@@ -1,0 +1,19 @@
+{
+  "source": "PubMed",
+  "name": "Q02_count",
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+  "parameters_without_contact": {
+    "db": "pubmed",
+    "term": "((anaerobic granule*[Title/Abstract] OR anaerobic biofilm*[Title/Abstract]) AND (spatial distribution[Title/Abstract] OR FISH[Title/Abstract] OR CLSM[Title/Abstract] OR pore*[Title/Abstract] OR channel*[Title/Abstract]))",
+    "retmode": "json",
+    "retmax": 0,
+    "tool": "SpatialGasTransferReview"
+  },
+  "started_utc": "2026-10-30T11:50:13.422753+00:00",
+  "status": 200,
+  "raw_path": "raw/online/PubMed/Q02_count_ac3a0e59f989cbbe38d0.json",
+  "content_type": "application/json; charset=UTF-8",
+  "bytes": 405,
+  "sha256": "6d583a6128ab35af3453599aeff64f7074e29f326c9f543ee843ab547a7b56f2",
+  "finished_utc": "2026-10-30T11:50:13.646439+00:00"
+}

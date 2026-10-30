@@ -1,0 +1,20 @@
+{
+  "source": "PubMed",
+  "name": "Q04_IDs_0",
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+  "parameters_without_contact": {
+    "db": "pubmed",
+    "term": "((syntroph*[Title/Abstract] OR methanogen*[Title/Abstract]) AND (interspecies distance*[Title/Abstract] OR interspecies hydrogen transfer[Title/Abstract] OR formate transfer[Title/Abstract]))",
+    "retmode": "json",
+    "retmax": 1000,
+    "tool": "SpatialGasTransferReview",
+    "retstart": 0
+  },
+  "started_utc": "2026-10-30T11:50:18.097797+00:00",
+  "status": 200,
+  "raw_path": "raw/online/PubMed/Q04_IDs_0_410da765f63f6ecd1685.json",
+  "content_type": "application/json; charset=UTF-8",
+  "bytes": 1469,
+  "sha256": "d07e194af4d11c72f6a9d8c2b6d896af92bc8cd330e72206867b93dfcf807d95",
+  "finished_utc": "2026-10-30T11:50:18.264334+00:00"
+}

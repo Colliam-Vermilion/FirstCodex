@@ -1,0 +1,18 @@
+{
+  "source": "PubMed",
+  "name": "S01_doi_lookup",
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+  "parameters_without_contact": {
+    "db": "pubmed",
+    "term": "10.1128/aem.00563-24[AID]",
+    "retmode": "json",
+    "retmax": 100
+  },
+  "started_utc": "2026-10-30T11:51:26.630945+00:00",
+  "status": 200,
+  "raw_path": "raw/online/PubMed/S01_doi_lookup_380da2721d4d6bbea19b.json",
+  "content_type": "application/json; charset=UTF-8",
+  "bytes": 206,
+  "sha256": "1e28dc031884e2cc39e1b2139d984554e5303fe37958d72dfcb5c2d226627bac",
+  "finished_utc": "2026-10-30T11:51:26.804480+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "source": "PubMed",
+  "name": "Q03_IDs_0",
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+  "parameters_without_contact": {
+    "db": "pubmed",
+    "term": "((anaerobic sludge[Title/Abstract] OR methanogenic sludge[Title/Abstract] OR sludge floc*[Title/Abstract]) AND (effective diffusivity[Title/Abstract] OR diffusion coefficient[Title/Abstract] OR mass transfer resistance[Title/Abstract] OR liquid film[Title/Abstract]))",
+    "retmode": "json",
+    "retmax": 1000,
+    "tool": "SpatialGasTransferReview",
+    "retstart": 0
+  },
+  "started_utc": "2026-10-30T11:50:16.126426+00:00",
+  "status": 200,
+  "raw_path": "raw/online/PubMed/Q03_IDs_0_57836dbbb6c1463de4b7.json",
+  "content_type": "application/json; charset=UTF-8",
+  "bytes": 573,
+  "sha256": "8e97f690905975ac1b3a6ca2b3a4384c857ef66006107f1d4b8ab3847ef071f4",
+  "finished_utc": "2026-10-30T11:50:16.313237+00:00"
+}

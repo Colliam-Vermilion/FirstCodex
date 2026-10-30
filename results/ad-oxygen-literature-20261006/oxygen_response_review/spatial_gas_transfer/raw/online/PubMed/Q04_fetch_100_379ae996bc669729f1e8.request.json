@@ -1,0 +1,18 @@
+{
+  "source": "PubMed",
+  "name": "Q04_fetch_100",
+  "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+  "parameters_without_contact": {
+    "db": "pubmed",
+    "id": "15511",
+    "retmode": "xml",
+    "tool": "SpatialGasTransferReview"
+  },
+  "started_utc": "2026-10-30T11:50:19.794401+00:00",
+  "status": 200,
+  "raw_path": "raw/online/PubMed/Q04_fetch_100_379ae996bc669729f1e8.xml",
+  "content_type": "text/xml; charset=UTF-8",
+  "bytes": 8775,
+  "sha256": "0f692f15d0fe491ac49746901f8439f6aa102a802fbd8dbd4125bbba611d4d3e",
+  "finished_utc": "2026-10-30T11:50:20.072108+00:00"
+}
