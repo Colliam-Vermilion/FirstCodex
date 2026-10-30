@@ -1,5 +1,51 @@
 [
   {
+    "id": "ODS-PMID37187373",
+    "title": "Multi-parameter control-based operation strategy for mainstream deammonification in an integrated anaerobic biofilm reactor-step feed MBR.",
+    "doi": "10.1016/j.chemosphere.2023.138941",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "AnBR去除>85%COD并产甲烷，B段AOB选择与Anammox协同",
+    "limits": "DO控制发生段位须全文核，不能把下游脱氮DO叫AD内氧暴露",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID37187373",
+        "identity_field": "paper_id"
+      }
+    ],
+    "type": "COD分配、DO、SRT多参数联合控制；具体段位/设定值待全文",
+    "setpoint": "摘要未列",
+    "logic": "联合选择AOB压制NOB",
+    "DO": "有DO控制表述但设定值与位置待核",
+    "oxygen_input": "未核",
+    "reference_electrode": "未核",
+    "spatial_oxygen_profile": "未核",
+    "locator": "完整缓存摘要"
+  },
+  {
+    "id": "ODS-PMID42567290",
+    "title": "Hydrodynamic control of oxygen intrusion and shear stabilizes functional zonation for nitrogen removal in an integrated UASB.",
+    "doi": "10.1016/j.biortech.2026.135585",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "CFD显示曝气上部暴露和回流下携气泡/剪切；回流比15与约2mg/L DO下TN去除90%",
+    "limits": "UASB命名非产甲烷AD；CFD氧区/基因潜力非实测细胞氧剖面，DO控制细节待全文",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID42567290",
+        "identity_field": "paper_id"
+      }
+    ],
+    "type": "曝气—回流耦合，是否DO反馈待全文",
+    "setpoint": "摘要报告约2mg/L对应最佳曝气，非已核闭环设定值",
+    "logic": "回流比15；具体启停/控制器未核",
+    "DO": "报告主体约2mg/L",
+    "spatial_oxygen_profile": "CFD推断；实测剖面未核",
+    "oxygen_input": "未核",
+    "reference_electrode": "不适用/未核",
+    "locator": "完整缓存摘要"
+  },
+  {
     "id": "OR-06716459121E",
     "title": "Co-cultivation of the strictly anaerobic methanogen Methanosarcina barkeri with aerobic methanotrophs in an oxygen-limited membrane bioreactor.",
     "doi": "10.1007/s00253-018-9038-x",
@@ -22,6 +68,75 @@
     "spatial_oxygen_profile": "未报告本轮核实的局部剖面",
     "reference_electrode": "不适用DO记录",
     "locator": "Materials and methods/Reactor set-up; Results/Start-up; FISH microscopy"
+  },
+  {
+    "id": "OR-2B20BAEA8F73",
+    "title": "Intermittent aeration enhances biological nitrogen removal from low C/N synthetic domestic wastewater.",
+    "doi": "10.1016/j.jenvman.2026.130462",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "probe控较定时更稳并降产泥；有DO/ORP/氨/硝酸/pH在线探针",
+    "limits": "探针组合不自动等于ORP单反馈或DO单反馈；具体阈值/逻辑待正文，非AD",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-2B20BAEA8F73",
+        "identity_field": "id"
+      }
+    ],
+    "type": "定时IA与多探针IA比较",
+    "setpoint": "摘要未列DO/ORP阈值",
+    "logic": "连续→定时→探针控制三阶段",
+    "oxygen_input": "未核",
+    "DO": "在线监测",
+    "reference_electrode": "未核",
+    "spatial_oxygen_profile": "未核",
+    "locator": "缓存摘要字段"
+  },
+  {
+    "id": "R00516",
+    "title": "Aeration and pH Combined Regulation for the Phase Separation of Anaerobic Digestion",
+    "doi": "",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "水解相pH<6.5，每8h曝气且≥1L air/L容器可抑制水解相甲烷",
+    "limits": "气量按容器体积非液量，pH与氧混杂；投气间隔控制而非已核ORP/DO反馈",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "R00516",
+        "identity_field": "id"
+      }
+    ],
+    "type": "固定间隔/体积供气＋pH调节",
+    "setpoint": "pH<6.5；水解相每8h≥1L air/L容器",
+    "logic": "每日3次，未核闭环",
+    "oxygen_input": "空气剂量，不换算为DO",
+    "DO": "未核",
+    "reference_electrode": "未核",
+    "spatial_oxygen_profile": "未核",
+    "locator": "缓存摘要字段"
+  },
+  {
+    "id": "R00608",
+    "title": "Comparative Study of Micro-aerobic and Anaerobic Hydrolysis Acidifications of Petrochemical Wastewater",
+    "doi": "",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "微氧DO约0.5mg/L、厌氧ORP<-300mV；微氧酸产量较低，硫酸盐还原受抑",
+    "limits": "两个指标属不同反应器，不能互换；是否DO反馈而非仅监测待全文",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "R00608",
+        "identity_field": "id"
+      }
+    ],
+    "type": "微氧DO约0.5mg/L，控制器反馈尚未核",
+    "setpoint": "DO观测约0.5mg/L；厌氧对照ORP<-300mV",
+    "logic": "未核",
+    "oxygen_input": "未核",
+    "DO": "摘要报告主体DO",
+    "reference_electrode": "未核",
+    "spatial_oxygen_profile": "未核",
+    "locator": "缓存摘要字段"
   },
   {
     "id": "R01414",
@@ -71,6 +186,29 @@
     "spatial_oxygen_profile": "未测",
     "reference_electrode": "不适用",
     "locator": "PDF p3–4 Methods；p7–8结果与Table1"
+  },
+  {
+    "id": "R04899",
+    "title": "Intermittent micro-aeration: New strategy to control volatile fatty acid accumulation in high organic loading anaerobic digestion",
+    "doi": "10.1016/j.watres.2019.115080",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "每24h ORP−470mV时控制，VFA9.2降至3.0gHAc/L并恢复稳定",
+    "limits": "与R07202每隔一天及R13944可能同研究链，勿当独立验证；参考电极/启停/累计O2待全文",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "R04899",
+        "identity_field": "id"
+      }
+    ],
+    "type": "间歇ORP反馈（摘要）",
+    "setpoint": "−470mV",
+    "logic": "每24h；具体开关/气流待全文",
+    "oxygen_input": "未核累计/瞬时量",
+    "DO": "未核",
+    "reference_electrode": "未核",
+    "spatial_oxygen_profile": "未核",
+    "locator": "缓存摘要字段"
   },
   {
     "id": "R06080",
@@ -126,6 +264,80 @@
     "locator": "PDF p2 Materials and methods §2.1"
   },
   {
+    "id": "R11693",
+    "title": "In-situ intermittent micro-aeration in food waste and sewage sludge anaerobic co-digestion: Performance, stability, and microbial dynamics",
+    "doi": "10.1016/j.biortech.2025.132398",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "60:40 VS比时比沼气/甲烷提高21.1%/13.1%，单污泥高固/黏度运行不稳",
+    "limits": "组成/黏度与负荷混杂；ORP设定/参考电极/气体量待全文，不能断定传质唯一原因",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "R11693",
+        "identity_field": "id"
+      }
+    ],
+    "type": "ORP-based间歇微曝气，细节待全文",
+    "setpoint": "摘要未给",
+    "logic": "in-situ intermittent，周期/阈值待核",
+    "oxygen_input": "未核",
+    "DO": "未核",
+    "reference_electrode": "未核",
+    "spatial_oxygen_profile": "未核",
+    "locator": "缓存摘要字段"
+  },
+  {
+    "id": "R13274",
+    "title": "Micro-aeration enhances lactic acid production in food waste fermentation",
+    "doi": "10.1016/j.biortech.2025.133807",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "327mL air/(gVS·L)乳酸提高35.5%，872负荷反降",
+    "limits": "原始空气负荷单位保留，不当mgO2/L/d；DO上限不是已核DO反馈；转录非通量",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "R13274",
+        "identity_field": "id"
+      },
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "R13274",
+        "identity_field": "paper_id"
+      }
+    ],
+    "type": "比较固定空气负荷，DO低值观测；是否闭环待全文",
+    "setpoint": "DO<0.5mg/L（不是已核反馈点）",
+    "logic": "0/109/327/872mL air/(gVS·L)，时间基准待全文",
+    "oxygen_input": "保留原始单位，不擅加每日",
+    "DO": "<0.5mg/L",
+    "reference_electrode": "未核",
+    "spatial_oxygen_profile": "未核",
+    "locator": "缓存摘要字段"
+  },
+  {
+    "id": "R13882",
+    "title": "Practical approaches for retrofitting plug flow digester and process control to maximize hydrolysis and methane yield from piggery waste",
+    "doi": "10.1016/j.jece.2021.105620",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "ORP−420±10mV水解较高，45°C预水解+推流等配置甲烷较原提高20.4%；过氧化丢碳",
+    "limits": "多措施增益不可归ORP单独；电极参比/启停/累计氧与局部剖面待全文",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "R13882",
+        "identity_field": "id"
+      }
+    ],
+    "type": "ORP调节预水解＋温度分阶段",
+    "setpoint": "−420±10mV",
+    "logic": "具体启停/反馈器待核",
+    "oxygen_input": "未核",
+    "DO": "未核",
+    "reference_electrode": "未核",
+    "spatial_oxygen_profile": "未核",
+    "locator": "缓存摘要字段"
+  },
+  {
     "id": "R13944",
     "title": "Oxidation-Reduction Potential-Based Micro-Aeration Control System for Anaerobic Digestion.",
     "doi": "",
@@ -148,5 +360,28 @@
     "spatial_oxygen_profile": "未核",
     "reference_electrode": "未核",
     "locator": "原库完整摘要"
+  },
+  {
+    "id": "R13959",
+    "title": "Influence of Temperature and Oxidation-Reduction Potential on Hydrolysis of Swine Manure Wastewater",
+    "doi": "10.18178/ijesd.2020.11.3.1241",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "ORP−300/−420mV下水解提高10.1%/21.3%，长时微曝气失去有机酸",
+    "limits": "设定电位非DO，24h水解结果不是甲烷终产率；与R13882研究线可能共享，未核独立性",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "R13959",
+        "identity_field": "id"
+      }
+    ],
+    "type": "受控ORP微曝气预处理",
+    "setpoint": "−300及−420mV",
+    "logic": "具体控制器/开关未核",
+    "oxygen_input": "未核",
+    "DO": "未核",
+    "reference_electrode": "未核",
+    "spatial_oxygen_profile": "未核",
+    "locator": "缓存摘要字段"
   }
 ]

@@ -23,6 +23,72 @@
     "source_locator": "保存的PubMed完整摘要"
   },
   {
+    "id": "ODS-PMID40153957",
+    "title": "Methane cycling in typical emerging proglacial lakes on the Tibetan Plateau: Insights into the metabolic mechanisms mediated by microorganisms.",
+    "doi": "10.1016/j.watres.2025.123533",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "三湖报告32.39±11.66µmol/m²/d扩散排放并有同位素/群落分析",
+    "limits": "环境表观逸出J不是颗粒Deff/kLa；网络推测互作未测；具体通量取得法待全文",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID40153957",
+        "identity_field": "paper_id"
+      }
+    ],
+    "symbol": "CH4 diffusive emission flux",
+    "value_original": "32.39 ± 11.66",
+    "unit_original": "µmol m^-2 d^-1",
+    "acquisition": "摘要报告扩散排放；仪器/计算方法未核",
+    "condition": "青藏高原约5500m冰前湖，夏季；非AD",
+    "source_locator": "完整缓存摘要",
+    "not_equal_to": "不是颗粒Deff、kLa或细胞间通量"
+  },
+  {
+    "id": "ODS-PMID42916424",
+    "title": "Drivers of Seasonal Variations of Greenhouse Gas Fluxes from Sediment-Water and Water-Atmosphere Interfaces in Different Fish Culture Ponds.",
+    "doi": "10.1021/acs.est.6c05696",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "SWI的CH4平均139.1±120.98µmol/m²/h，约WAI20倍",
+    "limits": "界面排放/转化/储存不同，作者用production措辞不将净扩散通量等同于纯产甲烷速率；方法待核",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID42916424",
+        "identity_field": "paper_id"
+      }
+    ],
+    "symbol": "CH4 sediment-water diffusive flux",
+    "value_original": "139.1 ± 120.98",
+    "unit_original": "µmol m^-2 h^-1",
+    "acquisition": "摘要报告界面通量；测定/计算方法待全文",
+    "condition": "四类亚热带鱼塘，季节/日变化；非AD",
+    "source_locator": "完整缓存摘要",
+    "not_equal_to": "非颗粒Deff/kLa，也非纯反应产率"
+  },
+  {
+    "id": "OR-3C0E505B4E2A",
+    "title": "Evaluation of the impact of dissolved oxygen concentration on biofilm microbial community in sequencing batch biofilm reactor.",
+    "doi": "10.1016/j.jbiosc.2017.11.007",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "主体DO1.5到5.5mg/L时氧穿透1.0到2.7mm，反硝化随氧增加受抑",
+    "limits": "非产甲烷AD；摘要各处DO水平表述不同待正文，不提供统一穿透深度或Deff",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-3C0E505B4E2A",
+        "identity_field": "id"
+      }
+    ],
+    "symbol": "O2 penetration depth",
+    "value_original": "1.0 to 2.7",
+    "unit_original": "mm",
+    "acquisition": "摘要明确微电极浓度剖面",
+    "condition": "SND SBBR主体DO1.5→5.5mg/L；正文需核DO组别/膜厚等",
+    "source_locator": "完整缓存摘要",
+    "not_equal_to": "非AD通用深度/Deff或kLa"
+  },
+  {
     "id": "OR-6A3D9B1E5D73",
     "title": "Oxygenation of Hypoxic Coastal Baltic Sea Sediments Impacts on Chemistry, Microbial Community Composition, and Metabolism.",
     "doi": "10.3389/fmicb.2017.02453",
@@ -47,6 +113,28 @@
     "acquisition": "氧微探针直接浓度剖面",
     "condition": "第5、9、15天；n=3/3/4；上覆水曝气约10 mg/L DO",
     "source_locator": "Results/Chemical fluxes；既有evidence_sources定位"
+  },
+  {
+    "id": "OR-D6DD506C208B",
+    "title": "Sustainable modulation of anaerobic malodorous black water: The interactive effect of oxygen-loaded porous material and submerged macrophyte.",
+    "doi": "10.1016/j.watres.2019.05.045",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "火山石增界面DO/穿透深度，联植物41天DO约6.8mg/L、CH4产量降85.82%",
+    "limits": "O2释放与光合/植物/底物共同变化；穿透3.75倍为相对效应非绝对毫米值或D；非AD通用",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/catalog.json",
+        "id": "OR-D6DD506C208B",
+        "identity_field": "id"
+      }
+    ],
+    "symbol": "relative O2 penetration depth",
+    "value_original": "3.75-fold",
+    "unit_original": "relative to untreated",
+    "acquisition": "摘要报告；具体微剖面/计算法待全文",
+    "condition": "载氧火山石覆盖厌氧沉积物；非AD",
+    "source_locator": "完整缓存摘要",
+    "not_equal_to": "不是3.75mm、Deff或kLa"
   },
   {
     "id": "R03161",
