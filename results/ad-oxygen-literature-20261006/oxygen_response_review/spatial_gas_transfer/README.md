@@ -53,3 +53,5 @@ Nature源码提交`b543e8b998eb2df1fd44641cc8b262c638c2b442`已安装；本轮st
 脚本：`prepare.py`只建立本地查询视图，`trace_saved.py`提取已存引文及检索旧全文索引，`curation.py`保留逐篇科学判断，`render.py`更新同一累计表。继续时先读`progress.json`，跳过已处理ID；网络先实测成功再执行在线查询，取回记录后与同一身份索引去重。不要把这次网络阻断的0新增误写成专题没有其他文献。
 
 原科学首页和命题将原文保留并追加专题说明；[首页](../../../../README.md)、[科学导读](../../../../scientific_guide/README.md)与本表关联。阶段检查见`checkpoints/`，后续读回报告单独保存，不覆盖原文献数据。
+
+在线续跑入口：`python results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/scripts/online_search.py --list-only`只列任务，已离线验证；网络生效后用`--run`，完整保存每页和失败状态。在线路径当前未验证成功。它不自动筛选、写旧库或取得全文；返回后仍需身份合并、日期/版本核实和阅读。经典来源队列见[citation_followup_queue.json](citation_followup_queue.json)。

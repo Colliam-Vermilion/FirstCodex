@@ -211,3 +211,11 @@ Wilmoth的泥炭被打浆；Lindsay的沉积物被提取、稀释后处理。二
 '''
 (ROOT/'README.md').write_text(home,encoding='utf-8')
 print('Homepage written:',len(home),'characters.')
+
+# Preserve the later spatial-transfer additions when regenerating the first guide.
+if __name__=='__main__':
+ import runpy,sys
+ spatial=ROOT/'results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/scripts/update_guide.py'
+ if spatial.exists():
+  sys.path.insert(0,str(spatial.parent))
+  runpy.run_path(str(spatial),run_name='__main__')

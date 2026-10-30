@@ -1,5 +1,9 @@
 # 科学首页的文献关系与证据边界
 
+<!-- SPATIAL_GUIDE_NAV -->
+**2026-10-30空间/传质专题已增补：**[尺度阅读导图](spatial_reading_map.md) · [49条新命题关联](spatial_gas_proposition_links_utf8.csv) · [专题累计表与网络缺口](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/README.md)。下文保留2026-10-29首版42篇／93条说明；当前统一文献表为增补视图，并不把未处理候选算作已读。在线新检索尚因403未完成。
+
+
 本页说明2026-10-29科学首页怎样利用已有材料，不是新一轮检索或范围筛选。面向科研读者的正文在[仓库首页](../README.md)；原方法和运行介绍完整保留在[技术说明](../technical/README.md)，另有[逐字节旧首页](../technical/root_README_original_20261029.txt)。
 
 ## 怎样使用文献—命题表

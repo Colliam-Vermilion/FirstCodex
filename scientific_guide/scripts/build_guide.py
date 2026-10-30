@@ -148,3 +148,11 @@ def main():
  dump(OUT/'summary.json',{'editorial_baseline_commit':BASE,'date_Asia_Shanghai':'2026-10-29','existing_catalog_records_preserved':len(cat),'articles_discussed':len(articles),'proposition_relations_reviewed_for_guide':len(relations),'catalog_ids_represented_in_full_map':len({r['id'] for r in fullmap}),'full_map_rows':len(fullmap),'other_records_without_new_proposition_judgment':len(cat)-len(articles),'natural_and_boundary_records':len(natural),'cached_fulltext_articles_rechecked_for_guide':len(full_read),'existing_fulltext_extracts_reused_without_new_original_reading':sum(a['id'] in E and a['id'] not in full_read and E[a['id']].get('screening_stage')=='全文核实' for a in articles),'network_searches':0,'new_paper_downloads':0,'old_screening_changes':0,'old_priority_or_progress_changes':0,'original_root_README_sha256':hashlib.sha256((ROOT/'technical/root_README_original_20261029.txt').read_bytes()).hexdigest()})
  print(json.dumps(load(OUT/'summary.json'),ensure_ascii=False))
 if __name__=='__main__':main()
+
+# Preserve the later spatial-transfer additions when regenerating the first guide.
+if __name__=='__main__':
+ import runpy,sys
+ spatial=ROOT/'results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/scripts/update_guide.py'
+ if spatial.exists():
+  sys.path.insert(0,str(spatial.parent))
+  runpy.run_path(str(spatial),run_name='__main__')

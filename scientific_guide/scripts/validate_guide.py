@@ -87,4 +87,9 @@ def run():
  result={'checked_Asia_Shanghai':datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(),'commit':git('rev-parse','HEAD').decode().strip(),'branch':git('branch','--show-current').decode().strip(),'passed':True,'editorial_baseline':BASE,'old_README_preserved_byte_for_byte':True,'technical_copy_all_old_content_preserved_links_rebased':True,'existing_tracked_files_preserved_except_root_and_validation_dispatch':len(preserved),'old_review_catalog_screening_evidence_priority_workbook_RIS_and_progress_unchanged':True,'articles_discussed':42,'proposition_links':93,'all_existing_ids_represented':1536,'other_records_without_new_proposition_claim':1494,'natural_and_boundary_records':25,'workbook_sheets_rows_verified':expected,'local_file_and_anchor_links_resolved':links,'links_checked_by_Git_tree_without_retrieving_shared_payload':tracked_only,'external_links_values_preserved_not_publisher_HTTP_retested':external,'new_searches':0,'new_scope_screening':0,'new_paper_downloads':0,'shared_original_PDF_rehashes':0}
  if args.report:args.report.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
  print(json.dumps(result,ensure_ascii=False))
-if __name__=='__main__':run()
+if __name__=='__main__':
+ spatial=ROOT/'scientific_guide/scripts/validate_spatial.py'
+ if spatial.exists():
+  import runpy
+  runpy.run_path(str(spatial),run_name='__main__')
+ else:run()

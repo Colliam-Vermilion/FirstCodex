@@ -40,6 +40,8 @@ def main():
   if not item.get('authors') and item.get('pmid') in authors:item['authors']=authors[item['pmid']]['authors'];item['author_metadata_source']=authors[item['pmid']]['source_path']
   if note:
    item.update({k:context.get(rid,{}).get(k) for k in ['system','substrate','temperature','aggregate_or_biofilm_size','reactor_structure','methods','locator']})
+   if not item['locator']:item['locator']='完整缓存摘要；具体正文位置尚待核实'
+   if not item['system']:item['system']=note['priority_tier']+'（详见actual_finding和decision_reason；具体条件未核字段留空）'
    item['context_not_reported_or_unchecked']='空值表示本轮尚未核实，不能推断原文未报告'
   item['old_review_id']=rid if rid in old else None;item['other_existing_id']=rid if rid not in old else None
   item['source_role']='复用机制库' if rid in old else '复用组学关联论文候选；本专题首次处理，不改原数据工作线'

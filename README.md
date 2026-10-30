@@ -47,6 +47,30 @@
 |Guo等，2022：氧冲击后产甲烷苯降解近一年恢复|油污染沉积物来源、长期传代的ORM2产甲烷富集群落|30 mL培养液先加0.1 mL空气，随后部分瓶暴露约10 mL空气|小暴露对苯降解率无可测影响；较大暴露后Pseudomonas扩增、ORM2数量下降，产甲烷苯降解近一年才恢复；不同瓶经历不同暴露历程，不能当统一单次剂量；qPCR不等于活细胞；不是原位天然群落|P1b, P3a, P4c|相关全文段落已核实|[10.1021/acs.est.2c02624](https://doi.org/10.1021/acs.est.2c02624) · [证据/已存原文](scientific_guide/evidence/OR-30A5634DFFB8.md)|
 |Barcellos等，2025：氧脉冲时长改变铁还原与甲烷|热带森林表层土壤，经历厌氧—有氧交替|6 d厌氧后8/24/72 h氧化期；非永久厌氧湿地|摘要报告8 h相较72 h氧化期铁还原率更高（0.26 vs 0.12 mmol/kg/h），累计CH4更低（12.7 vs 44.0 μmol/kg）；有13C氨基酸DNA证据；这些是处理/测定周期的摘要汇总；不能写成氧化期正在产甲烷或所有湿地适用|P1b, P4a, P4b|仅摘要；全文待核|[10.1021/acs.est.4c12329](https://doi.org/10.1021/acs.est.4c12329) · [证据/已存原文](scientific_guide/evidence/OR-E551A6ADF474.md)|
 
+<!-- SPATIAL_exposure_BEGIN -->
+### 专题增补：P1c—P1d · 气体怎样到达细胞，控制器又控制了什么？
+
+先把**气液交换 → 主体混合 → 聚集体表面液膜 → 内部溶解态扩散 → 细胞反应**分开；气泡的存在、液相中H₂／CH₄分子的移动和气体经过膜的扩散也不同。加大混合可能减少外液膜阻力，同时改变颗粒剪切和气液交换，不能只归为一种机制。**2026-10-30本专题基于已保存资料处理40篇；在线补检仍受网络阻断，不能视为完整文献覆盖。**
+
+物理上，扩散是分子沿浓度差净移动。简单一维条件下可写为 $J=-D_{eff}\,dC/dx$：$J$是面积通量，$D_{eff}$是聚集体的有效扩散系数。外液膜常以 $J=k_f(C_b-C_s)$ 表示主体与表面间的浓度落差；气液交换的单位液体体积速率常写成 $k_La(C^*-C_b)$。三者的单位、面积／体积基准和适用条件不同，不能互填。活性颗粒内浓度还由反应消耗／产生决定；稳态扩散—反应模型可写为 $0=\nabla\cdot(D_{eff}\nabla C)-r(C)$，其中反应项和边界条件需要独立说明。液相CO₂、H₂S还受酸碱物种分布影响。
+
+- **颗粒内：**Satoh等（2007）摘要报告H₂有效扩散系数2.66×10⁻⁵ cm²/s，约水中的57%。还须核正文的活性／失活材料、温度、尺寸和参数取得方法；它不是活性颗粒的净反应速率，也不能套用于氧或其他污泥。
+- **界面：**Mulbry等的液面／润湿面积干预显示脱硫能力随面积提高，但可同时改变生物膜量／活性。g S/(m²·d)是表观反应去除率，不应填入kLa或Deff栏。
+- **控制：**ORP反馈维持的是电位；DO反馈维持测点溶解氧；固定流量／比例／脉冲供气控制的是输入。三者均不能单独说明所有细胞的实际暴露。R01414为−310 mV开阀、−290 mV关阀；开阀氧流量0.14 mL/s。R07202则以各自厌氧基线+25 mV控制，不能借用同一绝对阈值。参考电极未核清时，不换算标准氢电极电位，更不换算DO。
+- **低DO并非零输入：**共培养反应器持续供空气，但主体DO低于约3 μM检出限；这既不是零氧证明，也不是DO闭环。DO设定0.5 mg/L的另一实例是脱氮颗粒系统，属于方法参照，不能当作产甲烷AD最适值。
+
+|代表研究与阅读深度|对象／证据|结果及限制|DOI与证据|
+|---|---|---|---|
+|Satoh等，2007；仅缓存摘要|Layered structure of bacterial and archaeal communities and their in situ activities in anaerobic granules.；用户种子S02；厌氧颗粒类群定位与H2/CH4微剖面直接相关|FISH显示外/中/内层类群差异；H2产生在外上部、消耗及CH4产生在更深部；摘要报告H2有效扩散系数2.66×10^-5 cm²/s，为水中的57%。不能把这个颗粒的分层当所有古菌都在中心；有效扩散测量对象是否失活、温度、标定/拟合方法和边界层尚未从正文核实；FISH不是自动三维重建|[10.1128/aem.01426-07](https://doi.org/10.1128/aem.01426-07) · [证据卡](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID17905889.md)|
+|Nghiem等，2014；相关全文段落/原证据|Oxidation reduction potential as a parameter to regulate micro-oxygen injection into anaerobic digester for reducing hydrogen sulphide concentration in biogas；用户复用记录；核查真正ORP反馈逻辑与输入|50 L液体/20 L顶空、35°C；ORP−310 mV开阀、−290 mV关阀；开阀时纯氧0.14 mL/s从底部陶瓷扩散器进入；H2S由>6000降至约30 ppm。−320到−270 mV是运行变化范围而非开/关阈值；DO与局部O2剖面未核实；参考电极型号未在已读正文中找到；开阀流量不是累计投氧/OUR|[10.1016/j.biortech.2014.09.052](https://doi.org/10.1016/j.biortech.2014.09.052) · [证据卡](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R01414.md)|
+|In 't Zandt等，2018；相关全文段落/原证据|Co-cultivation of the strictly anaerobic methanogen Methanosarcina barkeri with aerobic methanotrophs in an oxygen-limited membrane bioreactor.；用户复用记录；核查供氧、DO观测、混合与聚集|1.5 L工作体积、150 rpm；气流先5后10 mL/min，空气2.38后2.86 mL/min；DO持续低于约3 μM检出限，同时供入氧并维持共培养。原文是调节气体组成、连续监测DO，并非DO设定点闭环曝气；FISH聚集不等于局部氧保护已直接测得；气流分项之和与总量的原文表述保留，不自行补齐|[10.1007/s00253-018-9038-x](https://doi.org/10.1007/s00253-018-9038-x) · [证据卡](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-06716459121E.md)|
+|Mulbry等，2017；相关全文段落/原证据|Effect of liquid surface area on hydrogen sulfide oxidation during micro-aeration in dairy manure digesters；从旧全文索引线索复用，直接操纵液面/润湿表面积|65/104 L脱硫单元；65 L桶液面0.099与0.150 m²；20–25°C，连续空气为沼气流量5%；改变润湿面积时H2S氧化提高。面积效应含生物膜增长/活性，不能全归物理kLa；40–100 g S/m²/d为表观反应去除率，非气体分子扩散系数或纯物理通量|[10.1371/journal.pone.0185738](https://doi.org/10.1371/journal.pone.0185738) · [证据卡](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R03161.md)|
+|Bekele等，2020；仅缓存摘要|Sensor‐mediated granular sludge reactor for nitrogen removal and reduced aeration demand using a dilute wastewater；DO反馈与ORP反馈的实物对照，但非产甲烷AD|DO设定0.5 mg/L，结合残余氨控制和好氧/缺氧周期维持短程脱氮。进水模拟AD出水，不等于反应器自身是产甲烷AD；局部颗粒DO未由摘要核实|[10.1002/wer.1296](https://doi.org/10.1002/wer.1296) · [证据卡](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R06080.md)|
+
+[参数与剖面](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/gas_transfer_parameters_utf8.csv) · [控制逐项核对](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/oxygen_control_evidence_utf8.csv) · [完整专题与未完成查询](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/README.md) · [尺度阅读导图](scientific_guide/spatial_reading_map.md)
+
+<!-- SPATIAL_exposure_END -->
+
 <a id="part-2"></a>
 ## Part 2. Individual-cell response：单个细胞如何受到影响，又如何应对？
 
@@ -120,6 +144,26 @@
 |Lv等，2024：DAMO—Anammox生物膜的氧冲击|厌氧甲烷氧化—厌氧氨氧化耦合膜生物膜|DO升至0.2/0.5 mg/L的不同阶段|0.2 mg/L时主要目标类群降至5%以下，部分功能基因下降；0.5 mg/L时出现硝酸盐积累；作者提出外层替代保护内层，但仅摘要不能确认直接氧微剖面；基因变化非通量|P3a, P3b, P4b|仅摘要；全文待核|[10.1016/j.biortech.2023.129966](https://doi.org/10.1016/j.biortech.2023.129966) · [证据/已存原文](scientific_guide/evidence/OR-1925EF467A30.md)|
 |Sun等，2014：厌氧下水道生物膜的硫酸盐还原—产甲烷分层|约800 μm厚厌氧下水道生物膜|摘要未报告氧冲击；微电极测量对象须分清|硫化物主要在外0–300 μm产生；硫酸盐还原菌偏外层，产甲烷古菌偏内层；结合成像及模型；摘要有微电极但不能认定测了氧分布；没有氧干预的证据不能作为氧防护直接验证|P3b, P4a|仅摘要；全文待核|[10.1128/aem.02146-14](https://doi.org/10.1128/aem.02146-14) · [证据/已存原文](scientific_guide/evidence/OR-8E58C5BBDB53.md)|
 
+<!-- SPATIAL_structure_BEGIN -->
+### 专题增补：P3c · 看到了二维切片、细胞三维结构，还是整颗粒的孔隙？
+
+**需要按成像对象和体积辨别。** FISH可定位类群，但单张图、冷冻切片、共聚焦图像堆栈与真正三维重建不能互称。CT的密度／元素对比、总细胞染色、特异性FISH和EPS染色各自识别不同对象；看到空腔，不等于量到了孔道连通性、流量或气体通量。
+
+现有缓存摘要中，Gambelli等（2018）明确使用了**电子断层成像**，观察厌氧甲烷氧化富集中的细胞和候选管状接触结构；它是三维方法线索，尚未在本轮全文核对重建体积／分辨率，且不是整颗产甲烷AD颗粒CT。Wrede等（2008）采用的是同切片光／电镜与凝集素标记EPS，不能升格为体重建。用户提供的同步辐射微CT种子10.1128/aem.00563-24尚未独立取回核对，故不据题名写孔隙发现。
+
+**也不预设古菌总在中心。** Satoh的特定颗粒有内层产乙酸型古菌；硅藻土AD研究的摘要则将发酵菌与产甲烷菌分别关联到紧密附着和悬浮群落。后者不是颗粒内坐标，但提示聚集体内层、载体附着及主体悬浮是不同尺度，不能套用一张统一层状示意图。粒径分级下活性不同，也可能反映群落和生物膜年龄，而非唯一证明内部扩散限制。
+
+|代表研究与阅读深度|对象／证据|结果及限制|DOI与证据|
+|---|---|---|---|
+|Gambelli等，2018；仅缓存摘要|Community Composition and Ultrastructure of a Nitrate-Dependent Anaerobic Methane-Oxidizing Enrichment Culture.；摘要明确采用电子断层成像，提供真正3D方法线索但不是完整AD颗粒CT|FISH/免疫金/电子断层揭示Ca.Methanoperedens细胞约1.5 μm、管状突出和候选细胞接触结构。电子断层方法由摘要明确；本轮未读正文确认重建体积/分辨率；细胞接触功能未证，不能认定导电或气体通道|[10.1128/aem.02186-17](https://doi.org/10.1128/aem.02186-17) · [证据卡](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID29150508.md)|
+|Wrede等，2008；仅缓存摘要|Correlative light/electron microscopy for the investigation of microbial mats from Black Sea Cold Seeps.；同一切片的光/电子显微相关成像，可区分EPS与细胞|黑海冷泉微生物席用树脂切片和荧光/胶体金凝集素定位EPS，比较光学与电镜图。是切片相关显微，并非已核实整颗粒三维重建；EPS黏附/矿化作用不等于氧屏障或孔隙流量|[10.1016/j.mimet.2008.02.020](https://doi.org/10.1016/j.mimet.2008.02.020) · [证据卡](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID18405985.md)|
+|Li等，2025；仅缓存摘要|Facilitating anaerobic digestion of kitchen waste through diatomite-mediated spatial ecological niches construction.；附着/悬浮分级与菌群生态位，反对套用古菌总在中心的统一图式|10 g/L硅藻土使甲烷提高11.76%；发酵菌偏紧密附着，产乙酸型与氢营养古菌富集于悬浮组。群落分级不是三维细胞坐标，电子传递/互营解释未测H2/甲酸通量；载体吸附与缓冲亦可能参与|[10.1016/j.wasman.2025.114792](https://doi.org/10.1016/j.wasman.2025.114792) · [证据卡](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID40222284.md)|
+|Trego等，2020；仅缓存摘要|Size Shapes the Active Microbiome of Methanogenic Granules, Corroborating a Biofilm Life Cycle.；按颗粒粒径分组并测比产甲烷活性，直接关联尺寸与功能|不同粒径级中，H2底物产甲烷活性高于VFA底物；中等粒径群落最活跃，粒径对活跃群落组成影响大于底物。粒径相关不自动证明扩散限制；同时可能反映生物膜年龄、群落和底物利用差异；16S转录不是全部通量|[10.1128/msystems.00323-20](https://doi.org/10.1128/msystems.00323-20) · [证据卡](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID32994285.md)|
+
+[结构与定位证据](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/structure_localization_evidence_utf8.csv)逐项保留方法、对象和阅读深度；保护性空间机制仍需氧分布及结构干预配套证据。
+
+<!-- SPATIAL_structure_END -->
+
 <a id="part-4"></a>
 ## Part 4. Community function：群落内部的分工与整体功能如何变化？
 
@@ -161,6 +205,26 @@
 |Nauer等，2023：渗透沉积物中碳脉冲比氧暴露更易引起H2积累|渗透性海洋沉积物；野外调查、水槽和室内实验|室内比较氧暴露、扰动和有机物输入；具体剂量待全文|氧暴露对H2积累影响小；碳输入或剧烈摇动可使发酵与呼吸短暂脱耦，作者推测群落可快速恢复；H2是生产—消费净结果，不是每条代谢通路都不受氧影响；缺恢复精确时标|P4a, P4c|仅摘要；全文待核|[10.1002/lno.12411](https://doi.org/10.1002/lno.12411) · [证据/已存原文](scientific_guide/evidence/OR-631665AE20A2.md)|
 |Guo等，2022：氧冲击后产甲烷苯降解近一年恢复|油污染沉积物来源、长期传代的ORM2产甲烷富集群落|30 mL培养液先加0.1 mL空气，随后部分瓶暴露约10 mL空气|小暴露对苯降解率无可测影响；较大暴露后Pseudomonas扩增、ORM2数量下降，产甲烷苯降解近一年才恢复；不同瓶经历不同暴露历程，不能当统一单次剂量；qPCR不等于活细胞；不是原位天然群落|P1b, P3a, P4c|相关全文段落已核实|[10.1021/acs.est.2c02624](https://doi.org/10.1021/acs.est.2c02624) · [证据/已存原文](scientific_guide/evidence/OR-30A5634DFFB8.md)|
 |Liu等，2022：空气与氮气干燥后的产甲烷恢复无显著差别|厌氧消化器来源的不同产甲烷群落|反复在空气或氮气下干燥，再复湿|每次复湿后甲烷较快恢复；空气与氮气干燥影响无显著差异，多次后产甲烷率下降；氧效应与失水/底物共同作用；不是干湿交替天然土壤，未提供精确恢复小时数|P1b, P4c|仅摘要；全文待核|[10.1038/s41598-022-20448-5](https://doi.org/10.1038/s41598-022-20448-5) · [证据/已存原文](scientific_guide/evidence/OR-A8CEEF69FB67.md)|
+
+<!-- SPATIAL_function_BEGIN -->
+### 专题增补：P4d—P4e · 交换发生在两个细胞、一个絮体内部，还是两个絮体之间？
+
+**近距离可以缩短扩散路径，但载体、热力学和混合同样重要。** 在给定浓度差、扩散系数与几何条件下，路径较短可降低物质交换的扩散阻力；这不是不加条件的最优距离，也不能据此提供一个通用微米数值。用户给出的2012年丙酸互营菌间距离种子和1991年动态絮体模型仍待独立核对，不能先照写其距离或参数。
+
+Day等（2022）的共培养研究用H₂／甲酸代谢突变株比较，支持**甲酸交换占优势**；搅拌促使H₂向顶空损失时，能用甲酸者优势更大。因此H₂和甲酸不宜只视为等效的“电子传递”。Hamilton等（2015）与CO₂甲烷化的通量平衡研究属于预测交换的模型；Doloman等的第三菌加入试验同时看到聚集和速率提高，但信号／酶调节也是替代解释。它们均不自动证明某个细胞间距离决定了通量。
+
+**细胞间／絮体内不能写成絮体间。** 已读资料尚未提供本轮已核实的“两个不同絮体间距离—H₂/甲酸通量”直接测量。跨絮体还经过各自内部、表面液膜及主体混合，必须说明尺寸、间距、流场与测量／模型边界。这个缺口只描述本轮已读材料，不说明领域不存在此类研究。导电材料或EET相关基因也不等于已测气体物质交换。
+
+|代表研究与阅读深度|对象／证据|结果及限制|DOI与证据|
+|---|---|---|---|
+|Day等，2022；仅缓存摘要|Interspecies Formate Exchange Drives Syntrophic Growth of Syntrophotalea carbinolica and Methanococcus maripaludis.；Syntrophotalea—Methanococcus共培养的遗传证据可区分H2与甲酸|H2/甲酸代谢突变株竞争说明甲酸交换占优势；搅拌促进H2向顶空损失时，能利用甲酸的菌株优势更大。证明载体选择与搅拌相关，不是给出了菌间距离、絮体内外通量；不将甲酸等同H2气泡|[10.1128/aem.01159-22](https://doi.org/10.1128/aem.01159-22) · [证据卡](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID36374033.md)|
+|Hamilton等，2015；仅缓存摘要|Thermodynamics and H2 Transfer in a Methanogenic, Syntrophic Community.；互营菌Syntrophobacter与Methanospirillum的模型，区分热力学与传质|模型能预测H2与甲酸交换及其完全消费的条件。代谢网络/热力学模型，不是实测细胞间距离、Deff或絮体间kf；不能将预测交换当已测物质通量|[10.1371/journal.pcbi.1004364](https://doi.org/10.1371/journal.pcbi.1004364) · [证据卡](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID26147299.md)|
+|Doloman等，2022；仅缓存摘要|Stimulating Effect of Trichococcus flocculiformis on a Coculture of Syntrophomonas wolfei and Methanospirillum hungatei .；加入第三菌后功能与聚集观察，但不把聚集当传质证明|Trichococcus加入Syntrophomonas—产甲烷菌共培养后丁酸消费和甲烷率升高；SEM见共聚集倾向。功能提高可能涉及信号调节或酶表达，不证明距离缩短导致H2/甲酸通量提高；非真三维成像|[10.1128/aem.00391-22](https://doi.org/10.1128/aem.00391-22) · [证据卡](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID35699440.md)|
+|作者待核对等，2022；仅缓存摘要|Integrating metagenomic binning with flux balance analysis to unravel syntrophies in anaerobic CO 2 methanation.；基因组模型预测H2/CO2及甲酸交换，不直接等于扩散参数|4个外置沼气升级反应器扩散装置上的生物膜，基因组/通量平衡预测甲酸和氨基酸交换网络。共同出现和FBA不是物质通量/细胞间距离实测；不把名称flux balance当已经测到通量|[10.1186/s40168-022-01311-1](https://doi.org/10.1186/s40168-022-01311-1) · [证据卡](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID35918706.md)|
+
+[细胞间／絮体间证据](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/cell_interfloc_exchange_utf8.csv) · [种子核对及具体缺口](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/seed_audit_utf8.csv) · [同一累计Excel](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/spatial_gas_transfer_cumulative.xlsx) · [相关文献RIS](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/spatial_gas_transfer_reviewed.ris)
+
+<!-- SPATIAL_function_END -->
 
 <a id="natural-communities"></a>
 ## 现有库中，哪些研究观察了天然厌氧群落再接触氧后的变化？
@@ -241,6 +305,10 @@ Wilmoth的泥炭被打浆；Lindsay的沉积物被提取、稀释后处理。二
 **覆盖与阅读的边界：**sediment、peat、wetland、flooded soil、reoxygenation、oxygen exposure和redox fluctuation都出现在已执行的上述组合中；有相关返回，也已有部分摘要和相关全文段落阅读，四者不是一回事。尚无按生态系统完成的全面全文核实；根系供氧、生物灌溉、干湿循环及季节再氧合未作为独立专题系统补搜。本轮保留这些缺口，不把建议词写成已经执行。
 
 ## 完整文献关系、阅读入口与方法
+
+<!-- SPATIAL_navigation_BEGIN -->
+**2026-10-30专题增补口径：**下方原有42篇／1,536条等数字保留首版日期与范围；新增空间专题为233条已有资料命中，已处理40篇，其中其余193条仍待专题判断。统一文献—命题表现在覆盖1631个已有身份（含95条复用的组学关联候选），不表示都已读或新检索取得。新增5个问题与49条关联见[专题命题表](scientific_guide/spatial_gas_proposition_links_utf8.csv)，[阅读导图](scientific_guide/spatial_reading_map.md)区分结构、传质、控制和互营；本轮在线检索仍未完成。
+<!-- SPATIAL_navigation_END -->
 
 - **[科学阅读Excel](scientific_guide/scientific_reading_guide.xlsx)** · [完整文献—命题对应CSV](scientific_guide/literature_proposition_map_utf8.csv) · [JSON](scientific_guide/literature_proposition_map.json)。逐项说明42篇文章与10个命题的93条关联；总表仍覆盖原有1,536个文献ID。其余1,494篇只保留原标签导航并明确“未逐项建立命题”，不是本轮已全部读完或再次筛选。
 - [天然群落与边界CSV](scientific_guide/natural_communities_utf8.csv)保存本页25项设计说明，包含背景和反例，**不是25项均为天然群落直接供氧试验**。[七类机制到四部分的对应](scientific_guide/seven_to_four_mapping_utf8.csv)只增加组织方式，一篇可跨部分，原分类未改。

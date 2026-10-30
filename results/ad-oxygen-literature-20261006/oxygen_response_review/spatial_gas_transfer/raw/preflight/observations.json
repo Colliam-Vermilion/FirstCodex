@@ -6,25 +6,29 @@
       "host": "www.ebi.ac.uk",
       "purpose": "exact seed DOI metadata preflight",
       "outcome": "URLError: Tunnel connection failed: 403 Forbidden",
-      "upstream_response_obtained": false
+      "upstream_response_obtained": false,
+      "requested_url_without_credentials": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1128/aem.00563-24&format=json"
     },
     {
       "host": "api.crossref.org",
       "purpose": "exact seed DOI metadata preflight",
       "outcome": "URLError: Tunnel connection failed: 403 Forbidden",
-      "upstream_response_obtained": false
+      "upstream_response_obtained": false,
+      "requested_url_without_credentials": "https://api.crossref.org/works/10.1128/aem.00563-24"
     },
     {
       "host": "eutils.ncbi.nlm.nih.gov",
       "purpose": "exact seed DOI metadata preflight",
       "outcome": "URLError: Tunnel connection failed: 403 Forbidden",
-      "upstream_response_obtained": false
+      "upstream_response_obtained": false,
+      "requested_url_without_credentials": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=10.1128%2Faem.00563-24&retmode=json"
     },
     {
       "host": "api.openalex.org",
       "purpose": "exact seed DOI metadata preflight",
       "outcome": "URLError: Tunnel connection failed: 403 Forbidden",
-      "upstream_response_obtained": false
+      "upstream_response_obtained": false,
+      "requested_url_without_credentials": "https://api.openalex.org/works/https://doi.org/10.1128/aem.00563-24"
     }
   ],
   "tool_inventory": "Nature b543e8b998eb2df1fd44641cc8b262c638c2b442: stdio initialized with 16 tools and offline input validation passed after retry outside local process sandbox; scholarly API hosts still CONNECT 403",
