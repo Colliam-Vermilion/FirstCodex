@@ -1,0 +1,82 @@
+[
+  {
+    "query_id": "IDX01",
+    "source": "search.sqlite历史全文/附件FTS5索引",
+    "purpose": "辅助定位已保存证据，不当作新的书目库查询或新文章",
+    "query_verbatim": "\"interspecies distance\"",
+    "sql": "select record_id,asset_id,source_filename,canonical_source,location,text from chunks where chunks match ?",
+    "parameters": [
+      "\"interspecies distance\""
+    ],
+    "initial_exploration": "最初limit12仅导航，现无LIMIT保存完整当前结果；不重下载原件",
+    "returned_chunks": 0,
+    "returned_record_ids": 0,
+    "date_utc": "2026-10-30T07:53:54.587150+00:00",
+    "raw_path": "raw/local/IDX01.json",
+    "pagination": "完整SQL返回，无LIMIT"
+  },
+  {
+    "query_id": "IDX02",
+    "source": "search.sqlite历史全文/附件FTS5索引",
+    "purpose": "辅助定位已保存证据，不当作新的书目库查询或新文章",
+    "query_verbatim": "\"effective diffusivity\"",
+    "sql": "select record_id,asset_id,source_filename,canonical_source,location,text from chunks where chunks match ?",
+    "parameters": [
+      "\"effective diffusivity\""
+    ],
+    "initial_exploration": "最初limit12仅导航，现无LIMIT保存完整当前结果；不重下载原件",
+    "returned_chunks": 0,
+    "returned_record_ids": 0,
+    "date_utc": "2026-10-30T07:53:54.587320+00:00",
+    "raw_path": "raw/local/IDX02.json",
+    "pagination": "完整SQL返回，无LIMIT"
+  },
+  {
+    "query_id": "IDX03",
+    "source": "search.sqlite历史全文/附件FTS5索引",
+    "purpose": "辅助定位已保存证据，不当作新的书目库查询或新文章",
+    "query_verbatim": "\"three dimensional\"",
+    "sql": "select record_id,asset_id,source_filename,canonical_source,location,text from chunks where chunks match ?",
+    "parameters": [
+      "\"three dimensional\""
+    ],
+    "initial_exploration": "最初limit12仅导航，现无LIMIT保存完整当前结果；不重下载原件",
+    "returned_chunks": 5,
+    "returned_record_ids": 3,
+    "date_utc": "2026-10-30T07:53:54.587848+00:00",
+    "raw_path": "raw/local/IDX03.json",
+    "pagination": "完整SQL返回，无LIMIT"
+  },
+  {
+    "query_id": "IDX04",
+    "source": "search.sqlite历史全文/附件FTS5索引",
+    "purpose": "辅助定位已保存证据，不当作新的书目库查询或新文章",
+    "query_verbatim": "\"diffusion coefficient\"",
+    "sql": "select record_id,asset_id,source_filename,canonical_source,location,text from chunks where chunks match ?",
+    "parameters": [
+      "\"diffusion coefficient\""
+    ],
+    "initial_exploration": "最初limit12仅导航，现无LIMIT保存完整当前结果；不重下载原件",
+    "returned_chunks": 2,
+    "returned_record_ids": 2,
+    "date_utc": "2026-10-30T07:53:54.588318+00:00",
+    "raw_path": "raw/local/IDX04.json",
+    "pagination": "完整SQL返回，无LIMIT"
+  },
+  {
+    "query_id": "IDX05",
+    "source": "search.sqlite历史全文/附件FTS5索引",
+    "purpose": "辅助定位已保存证据，不当作新的书目库查询或新文章",
+    "query_verbatim": "\"micro oxygen\"",
+    "sql": "select record_id,asset_id,source_filename,canonical_source,location,text from chunks where chunks match ?",
+    "parameters": [
+      "\"micro oxygen\""
+    ],
+    "initial_exploration": "最初limit12仅导航，现无LIMIT保存完整当前结果；不重下载原件",
+    "returned_chunks": 37,
+    "returned_record_ids": 12,
+    "date_utc": "2026-10-30T07:53:54.589969+00:00",
+    "raw_path": "raw/local/IDX05.json",
+    "pagination": "完整SQL返回，无LIMIT"
+  }
+]
