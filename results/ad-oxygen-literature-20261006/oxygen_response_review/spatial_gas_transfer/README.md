@@ -77,3 +77,5 @@ Nature源码提交`b543e8b998eb2df1fd44641cc8b262c638c2b442`已安装；本轮st
 在线续跑入口：`python results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/scripts/online_search.py --list-only`只列任务，已离线验证；网络生效后用`--run`，完整保存每页和失败状态。在线路径当前未验证成功。它不自动筛选、写旧库或取得全文；返回后仍需身份合并、日期/版本核实和阅读。经典来源队列见[citation_followup_queue.json](citation_followup_queue.json)。
 
 辅助全文定位另存[FTS查询日志](fulltext_index_navigation_log.json)：5个短语查询均保存无LIMIT的完整索引返回，初次前12条导航已明确区分；这些是既有全文索引的证据定位，不增加书目命中数。
+
+本次接续的[远端独立读回](remote_readback_20261030_followup.json)针对提交`67d1ed9b87b3af52a9ec0f0e1976508b0488a59e`的116个变更文件逐字节／SHA256比对，并在另一检出位置打开累计Excel、核查初筛状态及314个仓库文件链接；26个共享目标按Git树核查存在，不重复获取未改动论文原件。旧40条专题判断及原1,536条范围／优先级／证据／进度均保留。随后提交仅增加此读回报告和网络诊断措辞。
