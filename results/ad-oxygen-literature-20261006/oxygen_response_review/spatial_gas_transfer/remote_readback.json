@@ -1,0 +1,792 @@
+{
+  "checked_Asia_Shanghai": "2026-10-30T15:56:39.129440+08:00",
+  "commit": "38c67fb88a2e3ab6e2cc3f4d3d289d9aa5288ccb",
+  "branch": "review/oxygen-response-mechanisms",
+  "passed": true,
+  "baseline": "fcd0ad3119900af9f75c9b9220575b8ff79a0170",
+  "old_homepage_entire_text_preserved": true,
+  "old_1587_map_rows_and_ten_propositions_preserved": true,
+  "old_review_scope_priorities_evidence_originals_and_progress_unchanged": true,
+  "topical_candidates": 233,
+  "processed": 40,
+  "remaining": 193,
+  "old_review_related_fulltext_or_evidence_reused": 5,
+  "abstract_only_processed": 35,
+  "verified_new_external_articles": 0,
+  "external_queries_completed": 0,
+  "saved_backward_reference_leads": 42,
+  "local_file_links_verified": 260,
+  "shared_targets_checked_by_Git_tree_only": 13,
+  "topic_workbook_opened": true,
+  "scientific_guide_workbook_opened": true,
+  "expanded_guide_ids": 1631,
+  "new_proposition_links": 49,
+  "true_whole_AD_granule_3D_fulltext_verifications_added": 0,
+  "abstract_explicit_electron_tomography_leads": 1,
+  "direct_interfloc_distance_or_flux_confirmed": 0,
+  "shared_PDF_redownloads_or_rehashes": 0,
+  "independent_clone": true,
+  "verified_content_commit": "38c67fb88a2e3ab6e2cc3f4d3d289d9aa5288ccb",
+  "independent_readback_changed_files": 126,
+  "readbacks": [
+    {
+      "path": "README.md",
+      "bytes": 77590,
+      "sha256": "329cfc3b0b320cc71eb94d84895e59dc1b810eb5a2e2fd0c38b607b80ab69161",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/.gitignore",
+      "bytes": 19,
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/README.md",
+      "bytes": 8109,
+      "sha256": "da63bb03b81cc87f411b99826eb6fff6c499a6b4559a5619a2ea7e965a4f130b",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/backward_citation_trace.json",
+      "bytes": 33079,
+      "sha256": "7289a8bae10e6c841e60008dfbc9f298a1337b68eb844d16d466ce3bba42bd62",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/baseline.json",
+      "bytes": 599,
+      "sha256": "1722b187000e44c109dd73389dc629e0a7c0eb1aa46aa7639b054cd50fb0cae5",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/candidate_records.json",
+      "bytes": 593759,
+      "sha256": "bd3ce109282b00f9d7d179d3db92778485adbefa9ba0d19ebb6a5af1535a1ad8",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/cell_interfloc_exchange.json",
+      "bytes": 3919,
+      "sha256": "b3c4cc6d973ac40d4dd2f8dd48697b675bf82892deb4e39573e3cd3d0fd7e8a8",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/cell_interfloc_exchange_utf8.csv",
+      "bytes": 2940,
+      "sha256": "214ba0052a559c3533899368eedf2fa27b596829f20ee05ee43d989250b6ab71",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/checkpoints/B001.json",
+      "bytes": 1532,
+      "sha256": "1bff6fbf1590d6ab3f2346c25293bcc77c51f6e1044864c872418aab188b8c6d",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/checkpoints/B002.json",
+      "bytes": 1957,
+      "sha256": "fd8fd4ca93bd3a41feb4a14d10890f8ab7ce95783770426af3f576ff82d63931",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/citation_followup_queue.json",
+      "bytes": 42058,
+      "sha256": "a51d7ec097af54487e32c589055bf829fcfdf0c735195f2d4545f020733eb6c0",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/citation_trace_log.json",
+      "bytes": 3474,
+      "sha256": "73b7dbd966dfad0ba03fd1e8d19041fde880a69a3dfa7e807b76bf032465131e",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/citation_trace_utf8.csv",
+      "bytes": 23551,
+      "sha256": "56d21df223da24f3e0ae8694f42a258a30413df1cab93a26f7c4793449a2abf0",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID17547018.md",
+      "bytes": 2520,
+      "sha256": "12ddc1eb61f3fbecebf163c131865fd10fe9ef7ae83d6fb1d9ae8fa8c5532a2b",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID17905889.md",
+      "bytes": 3090,
+      "sha256": "1afdcffbe754794495303a05ec0828caf6e970ad30b89633482a8a7573cf376b",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID18405985.md",
+      "bytes": 2680,
+      "sha256": "2d498ac2054bbbb3e3b21f5dc56e3814faec105c9b7d21fc816aedfc44c4a741",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID19490126.md",
+      "bytes": 2435,
+      "sha256": "eb79d7401c38e5f0c128d48f8abf8c5acd2c9e2071c7d8ad3fe778fc158bfcc2",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID26147299.md",
+      "bytes": 2983,
+      "sha256": "26cd7d445d604b62cb8bc785d40e583ca66a1eb2ae022c063677bbcd80efe688",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID26498000.md",
+      "bytes": 3199,
+      "sha256": "8d7773086040596fa1e12925e94a4ea130751a7335b18607880affb5dcbf5eb8",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID29150508.md",
+      "bytes": 4008,
+      "sha256": "22549c76c4bfd63501dad25eaa072eacb997cc090e398ec4553fbc229fd75d2f",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID30236845.md",
+      "bytes": 2402,
+      "sha256": "b16eec06e175e6bbebdcad05deff5d2620480959ee7380bc84da285fd82f6fac",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID32994285.md",
+      "bytes": 4296,
+      "sha256": "6656cf4db398b122f37c116e3df1935bdcfaf0303f8b100081607c45d11deb8b",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID35699440.md",
+      "bytes": 3937,
+      "sha256": "20aa9a0d6eefc8cb3995b2ee61e946a3ac2c80c7dfb5fbbea117ac6540ef0e78",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID35918706.md",
+      "bytes": 3649,
+      "sha256": "3911a97615804dd535eddf2f87087a0213cf65a1956156bf95740842a9e9b74f",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID36374033.md",
+      "bytes": 3685,
+      "sha256": "0a90731345c2768aa30e12be820668101a9cc642a8591613a2fe94f62750c59e",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID38218075.md",
+      "bytes": 3004,
+      "sha256": "6b6e85cdbb2045fc3f40011b8b77b8558dbf0794ba17ae43aaa9840e8d4a3897",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID39311608.md",
+      "bytes": 2318,
+      "sha256": "5eb83a827bdc2287bf7660a478d996f7275b466e6758779e3513bc8f461d6c32",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID40222284.md",
+      "bytes": 2862,
+      "sha256": "c16c9dfac8d922ab3c2ac973b19496d4cacad87cc8e7676b3713e1bc57acea37",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID42323140.md",
+      "bytes": 2803,
+      "sha256": "547af4b4d761e25d32f867a7c6fdd2fb00ad6ecab2d670d83da9f15db8af9243",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-06716459121E.md",
+      "bytes": 2534,
+      "sha256": "e5ef1c1115a6f776ff6f32f137cab9d6dea38bda3ecfc2eb6ef7a6950cde0bf7",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-1925EF467A30.md",
+      "bytes": 2416,
+      "sha256": "b50be83d042a6b415bcdc7610d9bead727ce75c12750a597844f7a73649c6726",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-1E3E423A9EFE.md",
+      "bytes": 2674,
+      "sha256": "5979f3bc4b706ea0daeb03a485aff1ac24e1a501921d1f917bc799a037970137",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-52E6BA12BEDD.md",
+      "bytes": 2536,
+      "sha256": "5c300a335dab9d139053c3495affef15dc9756b2c41865127923301381e1950c",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-6A3D9B1E5D73.md",
+      "bytes": 2953,
+      "sha256": "db7571f3ff054ffd5dbf32a42222d4bb11105322f4e5baaa4d1a64fc481ee4f0",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-8E15795B9DD4.md",
+      "bytes": 1907,
+      "sha256": "5690cdef983ac9a07f825c5a5243adfa4bfa68f50a812df302599f19a5122114",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-8E58C5BBDB53.md",
+      "bytes": 2838,
+      "sha256": "2f35d78abfd0ddc1479124dd358e3318c774cbf42c79de87d26bd6baf937790c",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-9AE95458315B.md",
+      "bytes": 2338,
+      "sha256": "fd1c50a775d24b3842610303c65082038250cfca499bb01673183b470f48dcd9",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-B0B72D22FA67.md",
+      "bytes": 2618,
+      "sha256": "367142c7852e308b588999392d6d89884733747f5092adce62270413d0c179f1",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/OR-F8559A118DBF.md",
+      "bytes": 2527,
+      "sha256": "0026b94a7de8cfdc49b02ffc2830c21154f240471f5ab4c5d31b2e27c0cd73c8",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R00915_pdf_pages.json",
+      "bytes": 78729,
+      "sha256": "f04a143100c9d8fb5e002fbac41735410a9c747834c55ae4b394dd5b61d4fe9e",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R01133.md",
+      "bytes": 2768,
+      "sha256": "42fcab080db693ce6296c56cabe21ab971ff900431629e65fc3b08025024778a",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R01414.md",
+      "bytes": 2347,
+      "sha256": "1df02885b8627587c230f04242c2fd355b2703ac41d9838d19bcc48ecde6c759",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R01414_pdf_pages.json",
+      "bytes": 36032,
+      "sha256": "5b0821176c36069fdb41fc6e7305ffc037c4a94d6211c1d4a2db6db1a2517718",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R03161.md",
+      "bytes": 2624,
+      "sha256": "5c852999f8c519de447d9ada535cc218f984051ff69f6df790cab9c258581234",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R03161_pdf_pages.json",
+      "bytes": 51312,
+      "sha256": "7caee29049c2bf242e0bf68d67008c8022be48f262c515b50e8658e0cedad499",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R05611.md",
+      "bytes": 2157,
+      "sha256": "4de045c2f2118b6f48c5e603caac5b62d9a93e89a1bff6ee387dcb7d31f6f688",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R06080.md",
+      "bytes": 2635,
+      "sha256": "36a5cb25e69cc55cb7dcc97eb7d1e9f4b2e63b9685a9e680ae149c56bf99fe04",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R06227.md",
+      "bytes": 2048,
+      "sha256": "fec8fcbbcbab6c8d3ff7dd3f8c3c49f52e07367339c6fbd62f59570a5f332820",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R07202.md",
+      "bytes": 3676,
+      "sha256": "bb9674a51a54b24557b8644cb2b27374b7ba0854648a95a9672ce9d4cf380e28",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R07202_pdf_pages.json",
+      "bytes": 87969,
+      "sha256": "d96614c8ee5ec68cb7c6acba230fb3d6ac747e47378ad7074a4818cf00b02809",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R08069.md",
+      "bytes": 2193,
+      "sha256": "8f77850d8231d5cd761f835b72621247fdcb7b0e85b8ee8d1669862111d55544",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R09240.md",
+      "bytes": 2929,
+      "sha256": "5994d961710914a08b57c39b3ce04efd821e10f0a9a7afb36b1a24d8688e6f76",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R13280.md",
+      "bytes": 2199,
+      "sha256": "7cd5eab49e30b834606eac86b18fc6ba5867ae69788b68dea06b93e21aefd613",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R13832.md",
+      "bytes": 1828,
+      "sha256": "dd579eaf7af459d67541ae7e18be32d8342efede5ef130b69f1cf6100916d0f8",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R13833.md",
+      "bytes": 2907,
+      "sha256": "52562b9229dd0248b94f6215df3153df8135eef5e5d31b842da94b62dac717c2",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R13833_pdf_pages.json",
+      "bytes": 88697,
+      "sha256": "e27855307acfb6332a985484d14a12c435fac5eb4d3ce51646f9cfeae3fc985a",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R13923.md",
+      "bytes": 2518,
+      "sha256": "be303f4a3d6e534d3f70d2c64c188ed1a6465becac2dd5d4ce69c5d0651f8fba",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/R13944.md",
+      "bytes": 2462,
+      "sha256": "50bf506d91dc4c65bea8ac62388e70cb87c87c73261596ff63d153640e038e27",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/forward_local_citation_trace.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/fulltext_index_navigation_log.json",
+      "bytes": 3599,
+      "sha256": "20b9eec9967115a7cca49f31f42b1522f3babaf9707f6e996d6ac3e59cb1736d",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/fulltext_pending.json",
+      "bytes": 20403,
+      "sha256": "2b19d30139c33c0ae542641de2e02e059b3d1979d1f5b0729332e5c8d4acf961",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/fulltext_pending_utf8.csv",
+      "bytes": 15419,
+      "sha256": "8f19a3582af16ac37021bd9a5edd0d777cc734e765ac768753d7a1cfd4f7f326",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/gas_transfer_parameters.json",
+      "bytes": 4982,
+      "sha256": "7f4f639dd3add0993a7759fd2040ef39ed434fcb4ce7e6f7c33ef7a28e288ec4",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/gas_transfer_parameters_utf8.csv",
+      "bytes": 3867,
+      "sha256": "db0ed9bff52e25a596b1742c29c238386d66bcee488bce4808bbdaf7c7e22100",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/literature_master.json",
+      "bytes": 732751,
+      "sha256": "99021f4c7da4dd27f02b6dcd59836025261e8b7c1417853137a7fba72c920d33",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/literature_master_utf8.csv",
+      "bytes": 608778,
+      "sha256": "136d7d2fa2d2f613d0eb5b43d0c59dea2e1d669d6adc412656dc2281828794a2",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/local_identity_conflicts.json",
+      "bytes": 2493,
+      "sha256": "3d675708eed6f267d4f4fca494a75a6e5f3678d5ac6fde78e957bf3f055d16b7",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/local_identity_registry.json",
+      "bytes": 1789646,
+      "sha256": "84b003961cb4dfc0954a15f0015f4eb041f660bf665f17eefbb2186ca7feaf0f",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/local_input_mapping.json",
+      "bytes": 968003,
+      "sha256": "ea40e50f81a3da95139ce7d021391e19cae37327679e81dad35b777c25de10b3",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/online_citation_queue.json",
+      "bytes": 2564,
+      "sha256": "447a28b430e3dafb936e9e3d26ac14196e864d2881d0902272fa5504be799d30",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/online_query_queue.json",
+      "bytes": 7714,
+      "sha256": "0516190803653e2300f2e327f84ac79052fd224537688b9c26e577246cc101ae",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/oxygen_control_evidence.json",
+      "bytes": 8014,
+      "sha256": "27728ba81b41abf88426532ef5e26c165e9c4ff0b3475419332a3c682da3e8de",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/oxygen_control_evidence_utf8.csv",
+      "bytes": 6002,
+      "sha256": "178eccb4309d32c6cc49b06aec4c4723ed4bf0b4cd4196aa7d555616e09bb127",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/progress.json",
+      "bytes": 2027,
+      "sha256": "599b3bef6e0ed8cf219cfa88c644da11257077a7c1c12d2bba5591d6a8505116",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/local/IDX01.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/local/IDX02.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/local/IDX03.json",
+      "bytes": 7053,
+      "sha256": "207c836bd8be2c39381a4f88da36eca8acccbdd3f7d838c99ac042a5674c9a61",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/local/IDX04.json",
+      "bytes": 1763,
+      "sha256": "1c42bd7ae9c4d8721466d0d0e210bbb21bdd558799b469c461690e70e6d3247d",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/local/IDX05.json",
+      "bytes": 77200,
+      "sha256": "6a0ec998e48659b98712ef27ab221032ec16e9a9396f7b2810ff2465d593270c",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/local/L01.json",
+      "bytes": 186224,
+      "sha256": "ac261baabfce91b26fadfdb13378e92820ca5eeaae07cce85b5474057024622e",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/local/L02.json",
+      "bytes": 214412,
+      "sha256": "8d7b4ff83c449173537773bb2688abdb55135ff7584e6db719c968b93772c2e1",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/local/L03.json",
+      "bytes": 50024,
+      "sha256": "aa0cc666df215bf44bf6e2bfa05ea569f8dfdc858d9986f7b6004036a7736195",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/local/L04.json",
+      "bytes": 123404,
+      "sha256": "0af05358d4ff73eccf70d460cdb38c0012d3071d16a93c57f29684c5f0fab70a",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/local/L05.json",
+      "bytes": 139655,
+      "sha256": "f560bc3b10b7eac5889f252cc9c8911d6a23b081818928a09f73d8e34d6dd11d",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/local/L06.json",
+      "bytes": 27812,
+      "sha256": "ced9a680617f0aa3d0f3ac076318120543c71da1854c887dea6de23c123115f4",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/local/L07.json",
+      "bytes": 14793,
+      "sha256": "1fb183832b77b80ab70546304d42fe1afaf1201a342e1a30f2132d7b162df61d",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/preflight/nature_stdio_validation.json",
+      "bytes": 1616,
+      "sha256": "97fc9a9f94fba1b4129c5dafdfd29d3d74049a096b283f80d6c9aa36b86f81fd",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/preflight/observations.json",
+      "bytes": 1895,
+      "sha256": "f4f25f88970e431a25673abecead0f1fb7bb4214e43636e258242800912511f8",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/preflight/runtime_policy_recheck.json",
+      "bytes": 451,
+      "sha256": "98fd8d692353bec3c17cbf39ef0635408fba7e90675dba68ebe6d22f85a319f2",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/reading_log.json",
+      "bytes": 18651,
+      "sha256": "9ea6098a09f76beb4cc633fc889d977c9c18f1d45422ea365716392bdd2ffb32",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/reading_log_utf8.csv",
+      "bytes": 11656,
+      "sha256": "357a2f1d2da5604a0902e901ba5eb14122f59ba84f8e0910761ad56c87274c8d",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/remaining_queue.json",
+      "bytes": 62448,
+      "sha256": "dcd97a13f1b070bc19dc5b6f0632c7c15327a58516b80d255fc2359c5460db56",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/remaining_queue_utf8.csv",
+      "bytes": 45162,
+      "sha256": "863ae972b0ff3e99c1b78b1e24083cbfe9902f26fab75d3cf61042adea23e4da",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/saved_author_sources.json",
+      "bytes": 3210,
+      "sha256": "f05157d6b02e91eae56f68883ecc9749a00e82f7a019f30499b55be143cbd030",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/scripts/curation.py",
+      "bytes": 22465,
+      "sha256": "6437fd706856fda1ac6b2947aa5ea63b52a7cb660b9da310d38eef528c510895",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/scripts/online_search.py",
+      "bytes": 8740,
+      "sha256": "bc7f9a3d7403b475b68ee67b10def772ebb49cb11ae399e430f249557256a09d",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/scripts/prepare.py",
+      "bytes": 11306,
+      "sha256": "363048354553376d555e31472e4867ac665d18675f65a1a4223031b9c2855b2f",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/scripts/render.py",
+      "bytes": 10619,
+      "sha256": "cf303e8a7e17ef86441a1d0bba34279da1a9bf8bf2357b4627b81005381c3aa3",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/scripts/trace_saved.py",
+      "bytes": 3410,
+      "sha256": "37c0eccecb18973480b5cfc93e84f59155ae9d9b6ae98a35eff1f4dedfdf7c4a",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/scripts/update_guide.py",
+      "bytes": 15513,
+      "sha256": "a21df17d6fe42f1419a2e2c2e5b95b7bb59052138858cb238ec726f665326d79",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/scripts/validate.py",
+      "bytes": 2433,
+      "sha256": "7e6455d9ee82d24f3ad90fb3372c5e2524e309013c6e7e1033d3cc0fc51eff3d",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/search_log.json",
+      "bytes": 4710,
+      "sha256": "d955a6bc58c25eb58222a03074de3992e252a9555e9b2f284e3969989fe96e27",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/search_log_utf8.csv",
+      "bytes": 2969,
+      "sha256": "9a737fe4669ec76c8c91c686884b0aa7d7a1bf41fa016538a3678cdcabb52b9c",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/seed_audit.json",
+      "bytes": 3040,
+      "sha256": "fd4c66441cec82263a230f2c47869a1e172aba632b836e9529affe744319a336",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/seed_audit_utf8.csv",
+      "bytes": 1778,
+      "sha256": "479443ca29c71d4c5a4fc99ea0f02cf6b1b4ff2acfb53de57066f9c1dbb8b14f",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/spatial_gas_transfer_candidates.ris",
+      "bytes": 539633,
+      "sha256": "b9c6ed8866db2ded13c6d99fa38516e3f3ea5c477c1565364c6d8f3b203762a3",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/spatial_gas_transfer_cumulative.xlsx",
+      "bytes": 285539,
+      "sha256": "4ea133aeb9214d29efa6a1bec81452694af1904048d4411e35952bff1993ddea",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/spatial_gas_transfer_reviewed.ris",
+      "bytes": 83648,
+      "sha256": "14c8b4f99a0d5695539932f387caf3d083ccfad737d386b6b79b02497b0bbaff",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/structure_localization_evidence.json",
+      "bytes": 13256,
+      "sha256": "4c4276cc8718be805d201a56e8575e1fce3074445e8f52dd1a666602c56125e1",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/structure_localization_evidence_utf8.csv",
+      "bytes": 10253,
+      "sha256": "d8b67e2483487a7b3a61528bd24ddc0f4282a8760ca59369c367b7e685b480fa",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/summary.json",
+      "bytes": 971,
+      "sha256": "361064de379e3c855714cf23e5b282c6e7ab667509a2c18c2eb25837cceea1dc",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "scientific_guide/README.md",
+      "bytes": 6068,
+      "sha256": "079dcff40c7a60eee773ded4ef1ab12a838d684d2ef489dd579c6837e1b82d53",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "scientific_guide/literature_proposition_map.json",
+      "bytes": 1456629,
+      "sha256": "01da54721ae754bd1b81756178277982e44ec30cb0960150704ed179af46e255",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "scientific_guide/literature_proposition_map_utf8.csv",
+      "bytes": 948327,
+      "sha256": "7796521b1421a4f394c90b51c485154af39f88f5e5f514eea1b38edff50dc3bb",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "scientific_guide/propositions.json",
+      "bytes": 3840,
+      "sha256": "7c24300599cde85257cf7484a159e457fcf3ee769faeab5734e6e4f7e4201d23",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "scientific_guide/propositions_utf8.csv",
+      "bytes": 2518,
+      "sha256": "9d377aa80f8feae150cf8112f07c59a9ca437688bc854aa7c17ef8bc41f35fbd",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "scientific_guide/scientific_reading_guide.xlsx",
+      "bytes": 411681,
+      "sha256": "4218a4e0758e31b627d334958c21fa58f67710bc90e4cccfbd917c88e11cbbc3",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "scientific_guide/scripts/build_guide.py",
+      "bytes": 16255,
+      "sha256": "df7b8140284b21558209a512388b9abc67934720d518f7053a14efe8eeda7fea",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "scientific_guide/scripts/validate_guide.py",
+      "bytes": 7309,
+      "sha256": "e76f8c59ff9413a158f81c654192dfd16ecf6699fca4c3d39f74f264baf87f68",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "scientific_guide/scripts/validate_spatial.py",
+      "bytes": 5570,
+      "sha256": "17b7051626ba8104db077a5b4ebf5957208a394d2525efab3c2b624669800a0c",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "scientific_guide/scripts/write_homepage.py",
+      "bytes": 26801,
+      "sha256": "1c59bc15d7ba859e1219c28bf1309bbdfbc3e4eff644dc7d9abf5ef3526b48a4",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "scientific_guide/spatial_gas_proposition_links.json",
+      "bytes": 76490,
+      "sha256": "197e2c44c3d91b8e61fad85031df8ef5df980880c18388d61cf87b3710bfd36c",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "scientific_guide/spatial_gas_proposition_links_utf8.csv",
+      "bytes": 54670,
+      "sha256": "65c735709673305b088b992a5007ae27f0c13bfed68b4441a0c69a043dc9ddeb",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "scientific_guide/spatial_reading_map.md",
+      "bytes": 5299,
+      "sha256": "95e78580a31073e45b81995fa1c965e067e8758f380e6d5c2fd00a3acd06c719",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "scientific_guide/spatial_validation.json",
+      "bytes": 1135,
+      "sha256": "067afaf4fe3ec9e5a313ca1868443f5ae7e3aff9edca27909e1d622a2b29d959",
+      "matches_independent_readback": true
+    },
+    {
+      "path": "scientific_guide/summary.json",
+      "bytes": 1076,
+      "sha256": "6beb5a7e62976243b69391a9aca9a80f905c41850cb34f8a3c3f9ec5a41cbe9e",
+      "matches_independent_readback": true
+    }
+  ],
+  "processed_old_review_records": 24,
+  "processed_other_existing_records": 16,
+  "network_block_not_resolved": true
+}
