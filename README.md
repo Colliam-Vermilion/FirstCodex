@@ -95,6 +95,8 @@
 [Chu等，2005（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-7E776DC9CBE3.md)报告絮凝后中心O₂响应时间约为原来的5倍，同时有效扩散系数却约增至2.3倍。尺寸、材料与反应项必须共同解释；目前仅读完整正式摘要，绝对尺寸、温度及拟合程序待正文。外液膜证据也单列：[液膜DO边界层微电极研究（返回摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-2DCD3D787125.md)操纵流速等条件，不能把内部Deff、外部kf与气液kLa当同一参数。
 
 ORP反馈服务于具体目标。[Khanal与Huang，2003（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-D84CF676664B.md)在UAF中把自然ORP约−290 mV提高25 mV：高硫进水时消硫改善甲烷，低硫时甲烷产率反而下降。另一个[ORP供氧实验（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-E3EDCB94A4B6.md)使用−230/−180 mV并发现异养耗COD竞争。这些是硫化物控制情景，不能推出跨反应器的通用安全ORP或局部DO。完整供氧迟滞、参比、输入量、耗氧和局部剖面仍待全文。
+
+[局部ORP—DO微电极研究（返回摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-3281766B8B59.md)在主体DO 1.7 mg/L时仍测到ORP从表面+362到基底−166 mV，50 µm界面内从+194降至−77 mV。这是非AD生物膜的局部测量，不是ORP供氧反馈。[H2升级模型学位论文（返回摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-0269FB002A30.md)扫描的kLa=60–1000 d⁻¹是情景输入，不能列作本轮实测系数范围。
 <!-- 20261030_online_Part1 END -->
 
 ## Part 2. Individual-cell response：单个细胞如何受到影响，又如何应对？
@@ -143,6 +145,8 @@ ORP反馈服务于具体目标。[Khanal与Huang，2003（正式摘要）](resul
 [Chu等，2005（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-7E776DC9CBE3.md)提供聚集体中心O₂响应的证据；它没有在本轮已读材料中把每个细胞的实际O₂暴露、胞内ROS或耐氧阈值一并测出。[活性污泥O₂剖面研究（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-A509A75F5507.md)还显示，大絮体可出现近零O₂中心，小絮体却可能出现模型不能再现的非零平台。该体系不是产甲烷AD，只作传质方法参照。
 
 因此，本轮给Individual-cell response增加的是**暴露解释的限制**：投氧量、主体DO和单点ORP不能直接替代细胞附近的浓度—时间历程。未用这些空间研究新增“某古菌在某DO下耐氧”的生理结论；这仍需细胞级测量或受控暴露实验。
+
+[SRB定位与活性微区研究（返回摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-3BC770D9042F.md)中细胞在含氧表面也可检出，但高硫还原活性在150–300 µm缺氧带；检出、存活和当地产生活性须分开。
 <!-- 20261030_online_Part2 END -->
 
 ## Part 3. Community structure：群落成员和空间组织如何改变？
@@ -214,6 +218,8 @@ ORP反馈服务于具体目标。[Khanal与Huang，2003（正式摘要）](resul
 这项方法的边界同样关键：**Os信号同时含细胞和EPS；gold-ISH未提供可检测的CT菌群特异信号**。样品经固定、脱水和树脂包埋，不是活体灌流。作者未观察到孔洞间连接通道，并指出许多小通道可能低于体素尺度；图像也不能区分孔中的水、气或其他轻元素物质。孔洞面积/体积不等于O₂流量、扩散系数或通透性。
 
 [Satoh等，2007（全文方法/结果）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID17905889.md)则是20 µm切片CLSM/FISH与不同颗粒上的微剖面相互参照，不能称为同一颗粒的完整三维共注册。[Rocheleau等，1999（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-7226DB9C69DF.md)显示蛋白进水颗粒可以不分层，而甲醇富集颗粒出现分层；结构取决于底物和来源。[3D-FISH制样方法（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-5BF06DB69D22.md)也提醒固定/制样可能改变相对细胞位置。
+
+[Sekiguchi等，1999（全文方法/结果）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-2DE3F410358B.md)把35/55°C UASB颗粒制成10–15 µm石蜡切片，看到约50 µm外层细菌与内部甲烷古菌/候选互营细胞。热嗜Methanobacterium最初不被探针检出，冻融提高通透性后才显影，说明阴性图像并不自动等于没有细胞。本文未测气体剖面。另有[CT造影方法比较（返回摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-87DC873D0B11.md)发现造影注入可造成生物膜脱落/位移；其超过50%的体积分数差异不能用来给所有CT结果统一校正。
 <!-- 20261030_online_Part3 END -->
 
 ## Part 4. Community function：群落内部的分工与整体功能如何变化？
@@ -293,6 +299,8 @@ Day等（2022）的共培养研究用H₂／甲酸代谢突变株比较，支持
 [de Bok等，2002（全文方法/结果）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-28F1C544B55F.md)在丙酸双菌培养中结合酶活、重组培养和气体时序支持甲酸的重要性。它采用**假定10 µm距离**与表面浓度计算H₂通量2.5 nmol ml⁻¹ min⁻¹（另一浓度情景0.3），再与乙酸生成对应的H₂当量18.6比较；这些不是三项同类实测通量。常规培养/酶测37°C、H₂监测试验30°C也不能混写。相反，[H₂摄取传质限制研究（返回摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-1411D1E4576E.md)在不同动力学/传质假设下得出H₂扩散可承担所需电子通量，仍未排除甲酸。[动态扩散—反应絮体模型（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-69FE36B49E26.md)也应作为模型证据阅读。
 
 这些结果支持“距离、载体、底物、温度与动力学共同约束互营”，不支持“H₂总不足”或“甲酸总主导”的通则。本轮仍未核实到不同絮体之间的距离—通量直接测量，也没有由聚集/甲烷产率变化直接证明氧保护区。
+
+[PDMS膜供H2/CO2反应器（返回摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-2544205CF8CD.md)给出最高24.3 L·m⁻²·d⁻¹产甲烷表现。这是面积归一化反应器产率，既不是H2渗透率，也不是气液kLa；气体体积标况、膜面积基准与微量元素干预须查正文后再比较。
 <!-- 20261030_online_Part4 END -->
 
 ## 现有库中，哪些研究观察了天然厌氧群落再接触氧后的变化？

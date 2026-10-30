@@ -35,7 +35,7 @@ def main():
   original=read(Path('/workspace/ad-oxygen-review/merged.json'));global_old=[{k:r.get(k) for k in ['id','doi','pmid','title']} for r in original];dump(snapshot,global_old)
  registry=read(T/'local_identity_registry.json');oldrows=read(T/'literature_master.json');oldids={x['id'] for x in oldrows}
  # repeated run must retain baseline 233 identities, independent of appended online rows
- baseline=read(T/'progress.json')['completed_initial_screen_ids'];oldids=set(baseline)
+ baseline=[x['id'] for x in read(T/'checkpoints/pre_online_233_master.json')] if (T/'checkpoints/pre_online_233_master.json').exists() else read(T/'progress.json')['completed_initial_screen_ids'];oldids=set(baseline)
  identity={};index={};conflicts=[]
  for r in global_old+registry:
   identity[r['id']]=r
@@ -51,7 +51,7 @@ def main():
     conflicts.append({'incoming':r,'candidate_id':candidate,'reason':'same normalized title, conflicting DOI; do not merge by title'});continue
    target=candidate;basis=k;break
   if target is None:
-   key=r.get('doi') or r.get('pmid') or title(r['title']);target='SG-'+hashlib.sha256(key.encode()).hexdigest()[:12].upper();basis='new deterministic DOI/PMID/title hash'
+   key=r.get('doi') or r.get('pmid') or title(r['title']) or r.get('oa_id');assert key,'record lacks a stable identity';target='SG-'+hashlib.sha256(key.encode()).hexdigest()[:12].upper();basis='new deterministic DOI/PMID/title hash'
   item=merged.setdefault(target,{'id':target,**{k:v for k,v in r.items() if k!='source'},'online_source_links':[],'existed_in_global_library':target in identity,'already_spatial_initial_screened':target in oldids})
   if r['source'] not in item['online_source_links']:item['online_source_links'].append(r['source'])
   # Prefer official PubMed complete abstract over OpenAlex when both available.

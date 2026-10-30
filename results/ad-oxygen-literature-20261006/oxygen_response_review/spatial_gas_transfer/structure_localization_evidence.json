@@ -856,7 +856,20 @@
     "limits": "未观察到连接孔洞的通道；小通道可低于体素尺度，故不能断言不存在通道。不能区分孔中水、气或其他轻元素物质；固定包埋结构不等于活体灌流；气体释放/浮泥是解释，非直接通量测量",
     "spatial_scale": "原始pixel/voxel 0.1988 µm（198.8 nm）；3D viewer 0.7952 µm；体素大小不等同经独立验证的空间分辨率",
     "three_dimensional_measured": true,
-    "evidence_update": "20261030_online"
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "Q01",
+        "raw_path": "raw/online/PubMed/Q01_fetch_0_c06b1883f8791d40930a.xml",
+        "record_locator": "PubmedArticle[PMID=39023264]"
+      },
+      {
+        "origin": "S01",
+        "raw_path": "raw/online/PubMed/S01_metadata_1e89c1a41a8cafae72b4.xml",
+        "record_locator": "PubmedArticle[PMID=39023264]"
+      }
+    ],
+    "source_locator": "PMC11337819 #s2 Results and discussion / Three-dimensional internal structure；Fig3；#s3 Methods / SR X-ray μCT scanning and image analysis"
   },
   {
     "id": "ODS-PMID17905889",
@@ -867,7 +880,25 @@
     "limits": "颗粒纯氯仿失活10 min后冲洗，非活性颗粒净扩散反应系数。CH4有效扩散系数假设沿用H2相对水比57%，非独立测量。CH4探头可能压缩颗粒；不能以H2定位直接指定所有产氢菌/氢营养古菌功能",
     "spatial_scale": "FISH为20 µm厚切片CLSM；不是完整颗粒三维重建。不同化学种剖面在不同颗粒上测，非同一颗粒逐像素共注册",
     "three_dimensional_measured": false,
-    "evidence_update": "20261030_online"
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "Q02",
+        "raw_path": "raw/online/PubMed/Q02_fetch_0_e206783671b5d963f6ff.xml",
+        "record_locator": "PubmedArticle[PMID=17905889]"
+      },
+      {
+        "origin": "Q11",
+        "raw_path": "raw/online/OpenAlex/Q11_numbered_1_1ccedabfcedcb6e7d761.json",
+        "record_locator": "https://openalex.org/W2146671368"
+      },
+      {
+        "origin": "S02",
+        "raw_path": "raw/online/PubMed/S02_metadata_703c0e4d50cecdbb438a.xml",
+        "record_locator": "PubmedArticle[PMID=17905889]"
+      }
+    ],
+    "source_locator": "PMC2168234 #sec1 Methods: Microsensor measurements, Estimation of Deff；#sec12 Results Fig3–6；#sec17 Discussion"
   },
   {
     "id": "SG-28F1C544B55F",
@@ -878,7 +909,39 @@
     "limits": "不把10 µm写成实测菌间距。细胞表面浓度取文献假设；未计弱絮凝。结果不能证明所有互营均以甲酸为主，也不是DIET证据",
     "spatial_scale": "菌间模型，非颗粒/絮体间三维通量图",
     "three_dimensional_measured": false,
-    "evidence_update": "20261030_online"
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "Q04",
+        "raw_path": "raw/online/PubMed/Q04_fetch_0_ea76d5b345153acb5378.xml",
+        "record_locator": "PubmedArticle[PMID=12200272]"
+      }
+    ],
+    "source_locator": "PMC124120 Methods/Organisms and cultivation；Results/Growth and Tables1–3；Discussion末段Fick计算"
+  },
+  {
+    "id": "SG-2DE3F410358B",
+    "title": "Fluorescence In Situ Hybridization Using 16S rRNA-Targeted Oligonucleotides Reveals Localization of Methanogens and Selected Uncultured Bacteria in Mesophilic and Thermophilic Sludge Granules",
+    "doi": "10.1128/aem.65.3.1280-1288.1999",
+    "reading_depth": "全文方法、结果及讨论；Fig2–6及Table1图注/表文；未独立复核原图像",
+    "finding": "中/高温颗粒外约50 µm以细菌为主，内部Methanosaeta占优势；古菌亚群分布不同，疑似互营细胞与氢营养古菌紧邻。热嗜Methanobacterium最初无法FISH检出，冻融后显著改善",
+    "limits": "无荧光可因探针未进入、低rRNA/失活/矿物等，不能直接判无细胞或空孔；冻融也可能损伤弱细胞。邻近并未直接测H2/甲酸通量；未研究微曝气氧暴露",
+    "spatial_scale": "切片中类群定位；并未完整重建一颗粒3D，也未测气体剖面或扩散通量",
+    "three_dimensional_measured": false,
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "S01_backward",
+        "raw_path": "raw/online/OpenAlex/S01_references_0_12ae95b81e5a43010c8d.json",
+        "record_locator": "https://openalex.org/W1819951161"
+      },
+      {
+        "origin": "S02_backward",
+        "raw_path": "raw/online/OpenAlex/S02_references_0_538a07a3f79aca3badeb.json",
+        "record_locator": "https://openalex.org/W1819951161"
+      }
+    ],
+    "source_locator": "PMC91175 Methods/Fixation and sectioning/In situ hybridization；Results/Overall structure/Fig2–6；Discussion/probe penetration与功能推断"
   },
   {
     "id": "SG-52CE8A5581BA",
@@ -889,7 +952,20 @@
     "limits": "距离来自图像；通量为计算上限、不是实测通量或絮体间交换；只有摘要/出版社摘要页",
     "spatial_scale": "摘要层；具体成像范围待正文",
     "three_dimensional_measured": "3D距离/制样需正文",
-    "evidence_update": "20261030_online"
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "Q04",
+        "raw_path": "raw/online/PubMed/Q04_fetch_0_ea76d5b345153acb5378.xml",
+        "record_locator": "PubmedArticle[PMID=23233207]"
+      },
+      {
+        "origin": "S03",
+        "raw_path": "raw/online/PubMed/S03_metadata_269d3e42236f1f76d9e1.xml",
+        "record_locator": "PubmedArticle[PMID=23233207]"
+      }
+    ],
+    "source_locator": "See online_source_links and the complete returned abstract"
   },
   {
     "id": "SG-7226DB9C69DF",
@@ -900,7 +976,15 @@
     "limits": "直接反例：不把所有厌氧颗粒统一为细菌外层/古菌核心",
     "spatial_scale": "摘要层；具体成像范围待正文",
     "three_dimensional_measured": false,
-    "evidence_update": "20261030_online"
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "Q01",
+        "raw_path": "raw/online/PubMed/Q01_fetch_0_c06b1883f8791d40930a.xml",
+        "record_locator": "PubmedArticle[PMID=10224023]"
+      }
+    ],
+    "source_locator": "See online_source_links and the complete returned abstract"
   },
   {
     "id": "SG-5BF06DB69D22",
@@ -911,7 +995,15 @@
     "limits": "方法章节而非AD气体参数原始研究；正文协议待取得",
     "spatial_scale": "摘要层；具体成像范围待正文",
     "three_dimensional_measured": "3D距离/制样需正文",
-    "evidence_update": "20261030_online"
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "Q02",
+        "raw_path": "raw/online/PubMed/Q02_fetch_0_e206783671b5d963f6ff.xml",
+        "record_locator": "PubmedArticle[PMID=24838887]"
+      }
+    ],
+    "source_locator": "See online_source_links and the complete returned abstract"
   },
   {
     "id": "SG-16B4E8D37756",
@@ -922,6 +1014,14 @@
     "limits": "完整正式摘要；层深/活性不是独立测得的Deff，正文条件待核",
     "spatial_scale": "摘要层；具体成像范围待正文",
     "three_dimensional_measured": false,
-    "evidence_update": "20261030_online"
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "Q02",
+        "raw_path": "raw/online/PubMed/Q02_fetch_0_e206783671b5d963f6ff.xml",
+        "record_locator": "PubmedArticle[PMID=22643406]"
+      }
+    ],
+    "source_locator": "See online_source_links and the complete returned abstract"
   }
 ]

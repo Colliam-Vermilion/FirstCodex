@@ -35160,6 +35160,54 @@
     ]
   },
   {
+    "id": "SG-0269FB002A30",
+    "title": "Optimization of Anaerobic Digestion through In-situ Hydrogen Biomethanation and Machine Learning Prediction of Methane Production",
+    "year": 2026,
+    "journal": "uO Research (University of Ottawa)",
+    "doi": "10.20381/ruor-32226",
+    "part": "Part 1",
+    "proposition_id": "P1c",
+    "proposition_question": "氧等气体通过哪些串联环节到达或离开细胞？",
+    "finding": "学位模型将H2/CO2/CH4气体特异kLa纳入ADM1并扫描60–1000 d^-1",
+    "boundary": "kLa是模型情景输入/缩放值；不是新测得的现场系数；模拟产率不能作实测",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
+    "mapping_status": "在线补证；不改变旧全库范围判断",
+    "support_role": "范围、测量与限制；不是全部命题的独立机制验证",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-0269FB002A30.md",
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "Q11",
+        "raw_path": "raw/online/OpenAlex/Q11_numbered_1_1ccedabfcedcb6e7d761.json",
+        "record_locator": "https://openalex.org/W7212409027"
+      }
+    ]
+  },
+  {
+    "id": "SG-2544205CF8CD",
+    "title": "Membrane biofilm reactor (MBfR) enabling optimal H2 delivery and supporting minimal nutrient supplementation to hydrogenotrophic biofilms",
+    "year": 2026,
+    "journal": "Water Research X",
+    "doi": "10.1016/j.wroa.2026.100507",
+    "part": "Part 1",
+    "proposition_id": "P1c",
+    "proposition_question": "氧等气体通过哪些串联环节到达或离开细胞？",
+    "finding": "PDMS膜直接供H2/CO2、热嗜膜生物膜约95%CH4，最高24.3 L m^-2 d^-1产甲烷",
+    "boundary": "该值是面积归一化产率，不是H2渗透率或kLa；摘要435/437天不一致，微量元素亦改变功能",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
+    "mapping_status": "在线补证；不改变旧全库范围判断",
+    "support_role": "范围、测量与限制；不是全部命题的独立机制验证",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-2544205CF8CD.md",
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "Q11",
+        "raw_path": "raw/online/OpenAlex/Q11_numbered_2_3aaf054d17b8ada458cb.json",
+        "record_locator": "https://openalex.org/W7127957050"
+      }
+    ]
+  },
+  {
     "id": "SG-A87DE61E8FAB",
     "title": "Online oxygen control for sulfide oxidation in anaerobic treatment of high-sulfate wastewater.",
     "year": "2006",
@@ -35232,6 +35280,30 @@
     ]
   },
   {
+    "id": "SG-3281766B8B59",
+    "title": "Stratification and Oxidation–Reduction Potential Change in an Aerobic and Sulfate‐Reducing Biofilm Studied Using Microelectrodes",
+    "year": 2001,
+    "journal": "Water Environment Research",
+    "doi": "10.2175/106143001x139399",
+    "part": "Part 1",
+    "proposition_id": "P1d",
+    "proposition_question": "ORP反馈、DO反馈和固定供氧分别控制什么，哪些暴露仍未知？",
+    "finding": "主体DO1.7 mg/L时，局部ORP+362至-166 mV，界面50 µm内+194到-77；氧化层约0.55 mm",
+    "boundary": "好氧/硫还原非AD；只是测量，无供氧反馈；参比与方法待正文",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
+    "mapping_status": "在线补证；不改变旧全库范围判断",
+    "support_role": "范围、测量与限制；不是全部命题的独立机制验证",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-3281766B8B59.md",
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "S04_backward",
+        "raw_path": "raw/online/OpenAlex/S04_references_0_8757e60bb86488d17ea0.json",
+        "record_locator": "https://openalex.org/W2465672937"
+      }
+    ]
+  },
+  {
     "id": "SG-7E776DC9CBE3",
     "title": "Size-dependent anaerobic digestion rates of flocculated activated sludge: role of intrafloc mass transfer resistance.",
     "year": "2005",
@@ -35286,6 +35358,30 @@
         "origin": "Q05",
         "raw_path": "raw/online/PubMed/Q05_fetch_0_0a5f39e6e6e0421159e4.xml",
         "record_locator": "PubmedArticle[PMID=17489272]"
+      }
+    ]
+  },
+  {
+    "id": "SG-3BC770D9042F",
+    "title": "Analyses of Spatial Distributions of Sulfate-Reducing Bacteria and Their Activity in Aerobic Wastewater Biofilms",
+    "year": 1999,
+    "journal": "Applied and Environmental Microbiology",
+    "doi": "10.1128/aem.65.11.5107-5116.1999",
+    "part": "Part 2",
+    "proposition_id": "P2d",
+    "proposition_question": "聚集体的氧响应能否代表单细胞实际氧剂量？",
+    "finding": "好氧膜中SRB遍布含氧表面，但高硫还原活性集中150–300 µm缺氧带",
+    "boundary": "关键方法参照：存在/丰度与活性区不同；不是所有厌氧菌在氧中活跃",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
+    "mapping_status": "在线补证；不改变旧全库范围判断",
+    "support_role": "范围、测量与限制；不是全部命题的独立机制验证",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-3BC770D9042F.md",
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "S02_backward",
+        "raw_path": "raw/online/OpenAlex/S02_references_0_538a07a3f79aca3badeb.json",
+        "record_locator": "https://openalex.org/W2104541222"
       }
     ]
   },
@@ -35430,6 +35526,59 @@
     ]
   },
   {
+    "id": "SG-2DE3F410358B",
+    "title": "Fluorescence In Situ Hybridization Using 16S rRNA-Targeted Oligonucleotides Reveals Localization of Methanogens and Selected Uncultured Bacteria in Mesophilic and Thermophilic Sludge Granules",
+    "year": 1999,
+    "journal": "Applied and Environmental Microbiology",
+    "doi": "10.1128/aem.65.3.1280-1288.1999",
+    "part": "Part 3",
+    "proposition_id": "P3c",
+    "proposition_question": "哪些成像真正给出三维结构，细胞、EPS与孔隙是否被分别定位？",
+    "finding": "中/高温颗粒外约50 µm以细菌为主，内部Methanosaeta占优势；古菌亚群分布不同，疑似互营细胞与氢营养古菌紧邻。热嗜Methanobacterium最初无法FISH检出，冻融后显著改善",
+    "boundary": "无荧光可因探针未进入、低rRNA/失活/矿物等，不能直接判无细胞或空孔；冻融也可能损伤弱细胞。邻近并未直接测H2/甲酸通量；未研究微曝气氧暴露",
+    "reading_depth": "全文方法、结果及讨论；Fig2–6及Table1图注/表文；未独立复核原图像",
+    "mapping_status": "在线补证；不改变旧全库范围判断",
+    "support_role": "范围、测量与限制；不是全部命题的独立机制验证",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-2DE3F410358B.md",
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "S01_backward",
+        "raw_path": "raw/online/OpenAlex/S01_references_0_12ae95b81e5a43010c8d.json",
+        "record_locator": "https://openalex.org/W1819951161"
+      },
+      {
+        "origin": "S02_backward",
+        "raw_path": "raw/online/OpenAlex/S02_references_0_538a07a3f79aca3badeb.json",
+        "record_locator": "https://openalex.org/W1819951161"
+      }
+    ]
+  },
+  {
+    "id": "SG-87DC873D0B11",
+    "title": "Biofilm imaging in porous media by laboratory X-Ray tomography: Combining a non-destructive contrast agent with propagation-based phase-contrast imaging tools",
+    "year": 2017,
+    "journal": "PLoS ONE",
+    "doi": "10.1371/journal.pone.0180374",
+    "part": "Part 3",
+    "proposition_id": "P3c",
+    "proposition_question": "哪些成像真正给出三维结构，细胞、EPS与孔隙是否被分别定位？",
+    "finding": "铁硫酸盐造影+相位衬度CT；对比BaSO4注入会改变/脱落生物膜",
+    "boundary": "方法参照：摘要称BaSO4使体积分数减超50%，警示制样偏差，不作普遍修正系数",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
+    "mapping_status": "在线补证；不改变旧全库范围判断",
+    "support_role": "范围、测量与限制；不是全部命题的独立机制验证",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-87DC873D0B11.md",
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "S01_backward",
+        "raw_path": "raw/online/OpenAlex/S01_references_0_12ae95b81e5a43010c8d.json",
+        "record_locator": "https://openalex.org/W2737870114"
+      }
+    ]
+  },
+  {
     "id": "SG-52CE8A5581BA",
     "title": "Interspecies distances between propionic acid degraders and methanogens in syntrophic consortia for optimal hydrogen transfer.",
     "year": "2013",
@@ -35537,6 +35686,59 @@
         "origin": "S05_forward",
         "raw_path": "raw/online/OpenAlex/S05_citing_numbered_1_dd497a6c737a16868abe.json",
         "record_locator": "https://openalex.org/W2129821878"
+      }
+    ]
+  },
+  {
+    "id": "SG-2DE3F410358B",
+    "title": "Fluorescence In Situ Hybridization Using 16S rRNA-Targeted Oligonucleotides Reveals Localization of Methanogens and Selected Uncultured Bacteria in Mesophilic and Thermophilic Sludge Granules",
+    "year": 1999,
+    "journal": "Applied and Environmental Microbiology",
+    "doi": "10.1128/aem.65.3.1280-1288.1999",
+    "part": "Part 4",
+    "proposition_id": "P4d",
+    "proposition_question": "距离、混合和载体选择如何改变H2/甲酸交换与产甲烷？",
+    "finding": "中/高温颗粒外约50 µm以细菌为主，内部Methanosaeta占优势；古菌亚群分布不同，疑似互营细胞与氢营养古菌紧邻。热嗜Methanobacterium最初无法FISH检出，冻融后显著改善",
+    "boundary": "无荧光可因探针未进入、低rRNA/失活/矿物等，不能直接判无细胞或空孔；冻融也可能损伤弱细胞。邻近并未直接测H2/甲酸通量；未研究微曝气氧暴露",
+    "reading_depth": "全文方法、结果及讨论；Fig2–6及Table1图注/表文；未独立复核原图像",
+    "mapping_status": "在线补证；不改变旧全库范围判断",
+    "support_role": "范围、测量与限制；不是全部命题的独立机制验证",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-2DE3F410358B.md",
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "S01_backward",
+        "raw_path": "raw/online/OpenAlex/S01_references_0_12ae95b81e5a43010c8d.json",
+        "record_locator": "https://openalex.org/W1819951161"
+      },
+      {
+        "origin": "S02_backward",
+        "raw_path": "raw/online/OpenAlex/S02_references_0_538a07a3f79aca3badeb.json",
+        "record_locator": "https://openalex.org/W1819951161"
+      }
+    ]
+  },
+  {
+    "id": "SG-2544205CF8CD",
+    "title": "Membrane biofilm reactor (MBfR) enabling optimal H2 delivery and supporting minimal nutrient supplementation to hydrogenotrophic biofilms",
+    "year": 2026,
+    "journal": "Water Research X",
+    "doi": "10.1016/j.wroa.2026.100507",
+    "part": "Part 4",
+    "proposition_id": "P4d",
+    "proposition_question": "距离、混合和载体选择如何改变H2/甲酸交换与产甲烷？",
+    "finding": "PDMS膜直接供H2/CO2、热嗜膜生物膜约95%CH4，最高24.3 L m^-2 d^-1产甲烷",
+    "boundary": "该值是面积归一化产率，不是H2渗透率或kLa；摘要435/437天不一致，微量元素亦改变功能",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
+    "mapping_status": "在线补证；不改变旧全库范围判断",
+    "support_role": "范围、测量与限制；不是全部命题的独立机制验证",
+    "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-2544205CF8CD.md",
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "Q11",
+        "raw_path": "raw/online/OpenAlex/Q11_numbered_2_3aaf054d17b8ada458cb.json",
+        "record_locator": "https://openalex.org/W7127957050"
       }
     ]
   },
@@ -37299,8 +37501,8 @@
     "doi": "10.1016/j.ibiod.2024.105986",
     "year": 2024,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -37409,8 +37611,8 @@
     "doi": "10.3390/microorganisms13071452",
     "year": 2025,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -37499,8 +37701,8 @@
     "doi": "10.31390/gradschool_theses.172",
     "year": 2014,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -37569,8 +37771,8 @@
     "doi": "10.1016/j.ese.2024.100480",
     "year": 2024,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -37959,8 +38161,8 @@
     "doi": "",
     "year": 2007,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -38319,8 +38521,8 @@
     "doi": "10.1111/1758-2229.12524",
     "year": 2017,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -38409,8 +38611,8 @@
     "doi": "10.1128/aem.59.11.3803-3815.1993",
     "year": 1993,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -38539,8 +38741,8 @@
     "doi": "10.5772/intechopen.1007305",
     "year": 2024,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -38559,8 +38761,8 @@
     "doi": "10.1038/s41396-019-0575-9",
     "year": 2020,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；片段待正式摘要",
+    "reading_depth": "返回片段，缺开头；未核正式摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -38569,8 +38771,8 @@
     "doi": "",
     "year": 2012,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -38629,8 +38831,8 @@
     "doi": "10.25165/j.ijabe.20181105.4255",
     "year": 2018,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -39149,8 +39351,8 @@
     "doi": "10.3389/fmicb.2020.614227",
     "year": 2020,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -39159,8 +39361,8 @@
     "doi": "10.3390/su17177667",
     "year": 2025,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -39419,8 +39621,8 @@
     "doi": "",
     "year": 2012,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -39469,8 +39671,8 @@
     "doi": "",
     "year": 2011,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -39579,8 +39781,8 @@
     "doi": "10.51415/10321/3551",
     "year": 2020,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -39609,8 +39811,8 @@
     "doi": "10.3390/bioengineering10091084",
     "year": 2023,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -40159,8 +40361,8 @@
     "doi": "10.32657/10356/12177",
     "year": 2008,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；来源字段异常待摘要",
+    "reading_depth": "完整返回字段（致谢/目录，非摘要）",
     "evidence_update": "20261030_online"
   },
   {
@@ -40499,8 +40701,8 @@
     "doi": "10.70675/cd258b6fza45dz4d1cz9738zacb51af8cd7f",
     "year": 2017,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -40789,8 +40991,8 @@
     "doi": "10.1126/sciadv.adw4289",
     "year": 2025,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -43354,16 +43556,6 @@
     "evidence_update": "20261030_online"
   },
   {
-    "id": "SG-0269FB002A30",
-    "title": "Optimization of Anaerobic Digestion through In-situ Hydrogen Biomethanation and Machine Learning Prediction of Methane Production",
-    "doi": "10.20381/ruor-32226",
-    "year": 2026,
-    "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
-    "evidence_update": "20261030_online"
-  },
-  {
     "id": "SG-D0F00626292A",
     "title": "Microbial and environmental aspects of anaerobic oxidation of methane",
     "doi": "",
@@ -43569,8 +43761,8 @@
     "doi": "",
     "year": 2012,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -44089,8 +44281,8 @@
     "doi": "10.3390/ijms24054442",
     "year": 2023,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -44609,8 +44801,8 @@
     "doi": "10.1007/s10295-019-02219-w",
     "year": 2019,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -44819,8 +45011,8 @@
     "doi": "",
     "year": 2014,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -44949,8 +45141,8 @@
     "doi": "10.11575/prism/24657",
     "year": 2014,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -45119,8 +45311,8 @@
     "doi": "10.3390/su172411216",
     "year": 2025,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -45434,16 +45626,6 @@
     "evidence_update": "20261030_online"
   },
   {
-    "id": "SG-2544205CF8CD",
-    "title": "Membrane biofilm reactor (MBfR) enabling optimal H2 delivery and supporting minimal nutrient supplementation to hydrogenotrophic biofilms",
-    "doi": "10.1016/j.wroa.2026.100507",
-    "year": 2026,
-    "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
-    "evidence_update": "20261030_online"
-  },
-  {
     "id": "R04659",
     "title": "Development of Upflow Aerobic Granular Sludge Bioreactor (UAGSBR) for Treatment of High-strength Organic Wastewater",
     "doi": "10.11575/prism/36342",
@@ -45639,8 +45821,8 @@
     "doi": "10.1038/s41522-025-00719-5",
     "year": 2025,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -48269,8 +48451,8 @@
     "doi": "",
     "year": 2009,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；来源字段异常待摘要",
+    "reading_depth": "完整返回字段（致谢/目录，非摘要）",
     "evidence_update": "20261030_online"
   },
   {
@@ -49979,8 +50161,8 @@
     "doi": "",
     "year": 2006,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -54694,16 +54876,6 @@
     "evidence_update": "20261030_online"
   },
   {
-    "id": "SG-2DE3F410358B",
-    "title": "Fluorescence In Situ Hybridization Using 16S rRNA-Targeted Oligonucleotides Reveals Localization of Methanogens and Selected Uncultured Bacteria in Mesophilic and Thermophilic Sludge Granules",
-    "doi": "10.1128/aem.65.3.1280-1288.1999",
-    "year": 1999,
-    "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
-    "evidence_update": "20261030_online"
-  },
-  {
     "id": "SG-24046157112A",
     "title": "A NEW STAINING METHOD (OTO) FOR ENHANCING CONTRAST OF LIPID-CONTAINING MEMBRANES AND DROPLETS IN OSMIUM TETROXIDE-FIXED TISSUE WITH OSMIOPHILIC THIOCARBOHYDRAZIDE (TCH)",
     "doi": "10.1083/jcb.30.2.424",
@@ -54809,8 +54981,8 @@
     "doi": "10.1016/j.watres.2018.01.059",
     "year": 2018,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -54829,8 +55001,8 @@
     "doi": "10.1116/1.4930239",
     "year": 2015,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -54888,16 +55060,6 @@
     "title": "Yet-to-be Cultured Microorganisms Relevant to Methane Fermentation Processes",
     "doi": "10.1264/jsme2.21.1",
     "year": 2006,
-    "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
-    "evidence_update": "20261030_online"
-  },
-  {
-    "id": "SG-87DC873D0B11",
-    "title": "Biofilm imaging in porous media by laboratory X-Ray tomography: Combining a non-destructive contrast agent with propagation-based phase-contrast imaging tools",
-    "doi": "10.1371/journal.pone.0180374",
-    "year": 2017,
     "proposition_id": null,
     "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
     "reading_depth": "未读；仅取回元数据/摘要",
@@ -55019,8 +55181,8 @@
     "doi": "10.1111/jmi.12718",
     "year": 2018,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -55239,8 +55401,8 @@
     "doi": "10.1128/aem.65.7.3182-3191.1999",
     "year": 1999,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -55304,16 +55466,6 @@
     "evidence_update": "20261030_online"
   },
   {
-    "id": "SG-3BC770D9042F",
-    "title": "Analyses of Spatial Distributions of Sulfate-Reducing Bacteria and Their Activity in Aerobic Wastewater Biofilms",
-    "doi": "10.1128/aem.65.11.5107-5116.1999",
-    "year": 1999,
-    "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
-    "evidence_update": "20261030_online"
-  },
-  {
     "id": "SG-7DBC41D7CD5A",
     "title": "Hydrogen Concentration Profiles at the Oxic-Anoxic Interface: a Microsensor Study of the Hindgut of the Wood-Feeding Lower Termite Reticulitermes flavipes (Kollar)",
     "doi": "10.1128/aem.63.10.4039-4046.1997",
@@ -55339,8 +55491,8 @@
     "doi": "10.1128/aem.65.10.4618-4629.1999",
     "year": 1999,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -55379,8 +55531,8 @@
     "doi": "10.1016/s0043-1354(00)00412-7",
     "year": 2001,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -55439,8 +55591,8 @@
     "doi": "10.1016/0956-5663(91)80011-l",
     "year": 1991,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -55529,8 +55681,8 @@
     "doi": "10.3389/fmicb.2016.01366",
     "year": 2016,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -55699,8 +55851,8 @@
     "doi": "10.1038/ismej.2013.40",
     "year": 2013,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -55879,8 +56031,8 @@
     "doi": "10.1016/j.jclepro.2020.125393",
     "year": 2020,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -56169,8 +56321,8 @@
     "doi": "10.1016/j.bej.2015.12.010",
     "year": 2015,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -56269,8 +56421,8 @@
     "doi": "10.1007/s00253-013-5003-x",
     "year": 2013,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -56729,8 +56881,8 @@
     "doi": "10.1016/j.biombioe.2005.11.010",
     "year": 2006,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -56829,8 +56981,8 @@
     "doi": "10.1128/aem.66.8.3608-3615.2000",
     "year": 2000,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -56899,8 +57051,8 @@
     "doi": "10.1128/aem.54.6.1354-1359.1988",
     "year": 1988,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -56929,8 +57081,8 @@
     "doi": "10.1007/bf00874137",
     "year": 1995,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -56969,8 +57121,8 @@
     "doi": "10.1016/0032-9592(92)85013-r",
     "year": 1992,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -57109,8 +57261,8 @@
     "doi": "10.1016/s0273-1223(99)00368-6",
     "year": 1999,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -57379,8 +57531,8 @@
     "doi": "10.1016/j.biortech.2017.08.065",
     "year": 2017,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -57689,8 +57841,8 @@
     "doi": "10.1016/j.ceja.2026.101333",
     "year": 2026,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -57849,8 +58001,8 @@
     "doi": "10.1128/aem.62.12.4641-4647.1996",
     "year": 1996,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -57869,8 +58021,8 @@
     "doi": "10.1128/aem.58.4.1164-1174.1992",
     "year": 1992,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -57889,8 +58041,8 @@
     "doi": "10.1016/j.watres.2003.11.019",
     "year": 2004,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -57969,8 +58121,8 @@
     "doi": "10.1016/s0273-1223(99)00166-3",
     "year": 1999,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -57979,18 +58131,8 @@
     "doi": "10.2166/wst.1999.0357",
     "year": 1999,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
-    "evidence_update": "20261030_online"
-  },
-  {
-    "id": "SG-3281766B8B59",
-    "title": "Stratification and Oxidation–Reduction Potential Change in an Aerobic and Sulfate‐Reducing Biofilm Studied Using Microelectrodes",
-    "doi": "10.2175/106143001x139399",
-    "year": 2001,
-    "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -57999,8 +58141,8 @@
     "doi": "10.1016/s0021-9797(03)00682-9",
     "year": 2003,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -58009,8 +58151,8 @@
     "doi": "10.2166/wst.2002.0479",
     "year": 2002,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -58029,8 +58171,8 @@
     "doi": "10.1016/0043-1354(89)90011-0",
     "year": 1989,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -58039,8 +58181,8 @@
     "doi": "10.1021/la960566u",
     "year": 1997,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -58079,8 +58221,8 @@
     "doi": "10.2166/wst.1994.0565",
     "year": 1994,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -58369,8 +58511,8 @@
     "doi": "10.1007/s00253-007-0847-6",
     "year": 2007,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -58539,8 +58681,8 @@
     "doi": "10.1016/s0921-8831(08)60913-9",
     "year": 2008,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -58709,8 +58851,8 @@
     "doi": "10.1128/aem.50.3.595-601.1985",
     "year": 1985,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -58729,8 +58871,8 @@
     "doi": "10.1128/aem.49.6.1530-1531.1985",
     "year": 1985,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -59009,8 +59151,8 @@
     "doi": "10.1002/(sici)1097-0290(19980805)59:3<261::aid-bit1>3.0.co;2-9",
     "year": 1998,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -59089,8 +59231,8 @@
     "doi": "10.1016/s0043-1354(99)00078-0",
     "year": 1999,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -59109,8 +59251,8 @@
     "doi": "10.1002/(sici)1097-0290(19961105)52:3<404::aid-bit6>3.0.co;2-o",
     "year": 2000,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -59129,8 +59271,8 @@
     "doi": "10.1007/bf02540221",
     "year": 1991,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -59139,8 +59281,8 @@
     "doi": "10.1016/j.cej.2013.12.085",
     "year": 2014,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {
@@ -59149,8 +59291,8 @@
     "doi": "10.1002/bit.260391110",
     "year": 1992,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -59169,8 +59311,8 @@
     "doi": "10.1080/05384680.1996.11904063",
     "year": 1996,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；摘要初筛",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
     "evidence_update": "20261030_online"
   },
   {
@@ -59179,8 +59321,8 @@
     "doi": "10.1016/0043-1354(95)00197-2",
     "year": 1996,
     "proposition_id": null,
-    "mapping_status": "在线结果尚无命题关联；未开始在线结果筛选",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "mapping_status": "在线结果尚无命题关联；题名已阅待摘要",
+    "reading_depth": "仅题名；未返回摘要",
     "evidence_update": "20261030_online"
   },
   {

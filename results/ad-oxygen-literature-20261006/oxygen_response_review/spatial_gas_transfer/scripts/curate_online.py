@@ -70,6 +70,9 @@ def main():
  extra={22:('CO2微泡间歇鼓泡使甲烷产速约增倍','同时改变混合、气液交换和热力学；摘要无kLa/Deff数值；复用R02368身份'),23:('白蚁后肠H2/O2微剖面，增氧加深穿透并抑制H2生成','非AD生态方法参照；不能从约-200 mV推普适氧暴露'),29:('生物膜液膜DO边界层用微电极测定，流速/粗糙度等影响外阻','非产甲烷AD方法参照；完整返回摘要而非正文'),35:('避免内部传质限制后H2摄取半饱和常数比既往低两个数量级；扩散模型支持H2足以传电子','与甲酸主导案例形成条件依赖对照；不排除甲酸且非独立测得所有细胞距离')}
  for i,n in extra.items():
   r=gas[i];rows.append({'id':r['id'],'gas_packet_index':i,'title':r['title'],'screened_utc':now(),'status':'摘要初筛','reading_depth':'完整返回OpenAlex重建摘要；未核正文','scope_decision':'方法参照' if i in [23,29] else '专题相关（摘要层面）','actual_finding':n[0],'author_interpretation_and_alternatives':n[1],'abstract_completeness':'已读返回字段全部文字；与正式原摘要一致性未逐字核对','source_links':r['online_source_links'],'reviewer':'model reading'})
+ for extra_file in ['followup_online_screening.json','classic_fulltext_initial_screening.json']:
+  if (T/extra_file).exists():rows.extend(read(T/extra_file))
+ assert len({r['id'] for r in rows})==len(rows)
  dump(T/'online_screening.json',rows)
- print('screened',len(rows),'abstract',len(NOTES)+len(extra),'title only',len(a)-len(NOTES))
+ print('screened',len(rows),'abstract',sum(r['status']=='摘要初筛' for r in rows),'title only',sum(r['status']=='题名已阅待摘要' for r in rows))
 if __name__=='__main__':main()

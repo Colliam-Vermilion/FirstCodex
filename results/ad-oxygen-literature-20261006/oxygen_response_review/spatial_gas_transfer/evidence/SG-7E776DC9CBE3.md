@@ -13,4 +13,3 @@
 
 [本轮原始元数据/摘要](../raw/online/PubMed/S04_metadata_160b833dc3b2aa2089f6.xml)，定位 `PubmedArticle[PMID=15932786]`。
 <!-- 20261030_online END -->
-

@@ -56,8 +56,7 @@ python scientific_guide/scripts/validate_guide.py
 <!-- 20261030_online START -->
 ## 2026-10-30 在线专题补证
 
-原12组查询已完整取回，5篇种子双源核对，3篇读取了正文方法/结果。新增19条带阅读深度的命题关系；Part2新增P2d，仅界定细胞暴露解释的边界。旧文献与命题全部保留，未关联的在线命中仍标“尚无命题关联”，不计正式纳入。
+原12组查询已完整取回，5篇种子双源核对，4篇读取了正文方法/结果。新增27条带阅读深度的命题关系；Part2新增P2d，仅界定细胞暴露解释的边界。旧文献与命题全部保留，未关联的在线命中仍标“尚无命题关联”，不计正式纳入。
 
 [最新专题进度](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/README.md) · [当前累计Excel](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/spatial_gas_transfer_cumulative.xlsx) · [新全文证据](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/online_fulltext_evidence.json)。
 <!-- 20261030_online END -->
-

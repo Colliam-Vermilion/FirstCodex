@@ -415,7 +415,15 @@
     "finding": "UAF用ORP调周期供氧，高硫条件-265 mV时甲烷产率改善46%",
     "limits": "正式摘要；水层/微量金属促进非生物硫氧化，低DO不等于零氧输入",
     "type": "ORP反馈供氧；正式摘要证据，局部DO与完整控制逻辑待全文",
-    "evidence_update": "20261030_online"
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "Q06",
+        "raw_path": "raw/online/PubMed/Q06_fetch_0_8fb231477ae010c9206a.xml",
+        "record_locator": "PubmedArticle[PMID=16749308]"
+      }
+    ],
+    "source_locator": "See online_source_links and the complete returned abstract"
   },
   {
     "id": "SG-D84CF676664B",
@@ -425,7 +433,15 @@
     "finding": "自然ORP约-290 mV，供氧调高25 mV；低硫时甲烷反而降15.5%/6.2%",
     "limits": "目标是硫化物控制而非跨体系通用安全ORP；局部DO、参比电极/迟滞待全文",
     "type": "ORP反馈供氧；正式摘要证据，局部DO与完整控制逻辑待全文",
-    "evidence_update": "20261030_online"
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "Q06",
+        "raw_path": "raw/online/PubMed/Q06_fetch_0_8fb231477ae010c9206a.xml",
+        "record_locator": "PubmedArticle[PMID=12926687]"
+      }
+    ],
+    "source_locator": "See online_source_links and the complete returned abstract"
   },
   {
     "id": "SG-E3EDCB94A4B6",
@@ -435,7 +451,33 @@
     "finding": "将ORP自-280提高到-230/-180 mV，高硫时消硫/增甲烷，低硫时供氧分流COD",
     "limits": "化能异养耗COD可达66.3%；设定值不能等同单细胞氧剂量",
     "type": "ORP反馈供氧；正式摘要证据，局部DO与完整控制逻辑待全文",
-    "evidence_update": "20261030_online"
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "Q06",
+        "raw_path": "raw/online/PubMed/Q06_fetch_0_8fb231477ae010c9206a.xml",
+        "record_locator": "PubmedArticle[PMID=12691890]"
+      }
+    ],
+    "source_locator": "See online_source_links and the complete returned abstract"
+  },
+  {
+    "id": "SG-3281766B8B59",
+    "title": "Stratification and Oxidation–Reduction Potential Change in an Aerobic and Sulfate‐Reducing Biofilm Studied Using Microelectrodes",
+    "doi": "10.2175/106143001x139399",
+    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
+    "finding": "主体DO1.7 mg/L时，局部ORP+362至-166 mV，界面50 µm内+194到-77；氧化层约0.55 mm",
+    "limits": "好氧/硫还原非AD；只是测量，无供氧反馈；参比与方法待正文",
+    "type": "局部ORP/DO实测，非反馈控制；非产甲烷AD",
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "S04_backward",
+        "raw_path": "raw/online/OpenAlex/S04_references_0_8757e60bb86488d17ea0.json",
+        "record_locator": "https://openalex.org/W2465672937"
+      }
+    ],
+    "source_locator": "See online_source_links and the complete returned abstract"
   },
   {
     "id": "ODS-PMID17905889",
@@ -444,6 +486,24 @@
     "finding": "流动池约-200 mV，铂微电极对Ag/AgCl；不是ORP供氧设定点",
     "limits": "实验N2鼓泡+还原剂维持厌氧，无O2剖面或DO控制",
     "type": "ORP测量，非氧反馈控制",
-    "evidence_update": "20261030_online"
+    "evidence_update": "20261030_online",
+    "source_links": [
+      {
+        "origin": "Q02",
+        "raw_path": "raw/online/PubMed/Q02_fetch_0_e206783671b5d963f6ff.xml",
+        "record_locator": "PubmedArticle[PMID=17905889]"
+      },
+      {
+        "origin": "Q11",
+        "raw_path": "raw/online/OpenAlex/Q11_numbered_1_1ccedabfcedcb6e7d761.json",
+        "record_locator": "https://openalex.org/W2146671368"
+      },
+      {
+        "origin": "S02",
+        "raw_path": "raw/online/PubMed/S02_metadata_703c0e4d50cecdbb438a.xml",
+        "record_locator": "PubmedArticle[PMID=17905889]"
+      }
+    ],
+    "source_locator": "PMC2168234 #sec1 Methods: Microsensor measurements, Estimation of Deff；#sec12 Results Fig3–6；#sec17 Discussion"
   }
 ]

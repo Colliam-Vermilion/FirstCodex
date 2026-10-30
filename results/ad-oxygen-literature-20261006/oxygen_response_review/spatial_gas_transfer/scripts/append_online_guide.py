@@ -11,9 +11,10 @@ def append_block(path,key,block,before=None):
  if start in s:s=re.sub(re.escape(start)+r'.*?'+re.escape(end)+r'\n*',lambda m:insert,s,flags=re.S)
  elif before:s=s.replace(before,insert+before,1)
  else:s=s.rstrip()+'\n\n'+insert
- path.write_text(s)
+ path.write_text(s.rstrip()+'\n')
 def main():
  C={r['id']:r for r in read(T/'literature_master.json')};F={r['id']:r for r in read(T/'online_fulltext_evidence.json')}
+ LINKS['P1c']+=['SG-0269FB002A30','SG-2544205CF8CD'];LINKS['P1d']+=['SG-3281766B8B59'];LINKS['P2d']+=['SG-3BC770D9042F'];LINKS['P3c']+=['SG-2DE3F410358B','SG-87DC873D0B11'];LINKS['P4d']+=['SG-2DE3F410358B','SG-2544205CF8CD']
  ids=set(sum(LINKS.values(),[]));originals=[]
  for rid in ids:
   r=C[rid];path=T/'evidence'/(rid+'.md')
@@ -21,7 +22,7 @@ def main():
   f=F.get(rid);text='## 2026-10-30 在线补证\n\n阅读深度：**'+r['reading_depth']+'**。\n\n'+r['actual_finding']+'。\n\n边界：'+r['author_interpretation_and_alternatives']+'。\n'
   if f:
    text+='\n对象及状态：'+f['system']+'。\n\n尺度：'+f['spatial_scale']+'。\n\n方法：'+f['methods']+'。\n\n温度和尺寸：'+f['temperature']+'；'+f['size']+'。\n\n参数：'+f['quantitative']+'。\n\n取得方式：'+f['measurement_class']+'。\n\n应用：'+f['applicability']+'。\n\n定位：'+f['locator']+'。\n\n[官方HTML原始返回](../'+f['source_path']+') · [正文分节文本](../'+f['sections_path']+')。\n'
-   pmcid={'SG-822165E8E403':'PMC11337819','ODS-PMID17905889':'PMC2168234','SG-28F1C544B55F':'PMC124120'}[rid]
+   pmcid={'SG-822165E8E403':'PMC11337819','ODS-PMID17905889':'PMC2168234','SG-28F1C544B55F':'PMC124120','SG-2DE3F410358B':'PMC91175'}[rid]
    dest=M/'raw/pmc_fulltext'/(pmcid+'_spatial_online.html');dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(T/f['source_path'],dest)
    originals.append({'id':rid,'pmcid':pmcid,'path':dest.relative_to(R).as_posix(),'sha256':hashlib.sha256(dest.read_bytes()).hexdigest(),'raw_response':PREFIX+'/'+f['source_path'],'reading_depth':f['depth']})
    text+='\n[规范原件目录中的HTML](../../raw/pmc_fulltext/'+dest.name+')。原件为公开正文HTML，本轮没有将前置XML或验证页算作全文，也未声称下载了PDF。\n'
@@ -65,6 +66,10 @@ ORP反馈服务于具体目标。{cite('SG-D84CF676664B','Khanal与Huang，2003�
 '''}
  root=R/'README.md'
  append_block(root,MARK+'_status','> **2026-10-30在线补证已恢复：**原12组专题查询已完整分页取回，5篇种子均核对。以下保留的较早专题段落是当时阅读深度的历史说明；各部分新增的“在线补证”及[现行专题进度]('+PREFIX+'/README.md)记录最新条件。取回完成不等于筛选或全文核实全部完成。',before='## Part 1.')
+ blocks['Part1']+='\n'+cite('SG-3281766B8B59','局部ORP—DO微电极研究（返回摘要）')+'在主体DO 1.7 mg/L时仍测到ORP从表面+362到基底−166 mV，50 µm界面内从+194降至−77 mV。这是非AD生物膜的局部测量，不是ORP供氧反馈。'+cite('SG-0269FB002A30','H2升级模型学位论文（返回摘要）')+'扫描的kLa=60–1000 d⁻¹是情景输入，不能列作本轮实测系数范围。\n'
+ blocks['Part2']+='\n'+cite('SG-3BC770D9042F','SRB定位与活性微区研究（返回摘要）')+'中细胞在含氧表面也可检出，但高硫还原活性在150–300 µm缺氧带；检出、存活和当地产生活性须分开。\n'
+ blocks['Part3']+='\n'+cite('SG-2DE3F410358B','Sekiguchi等，1999（全文方法/结果）')+'把35/55°C UASB颗粒制成10–15 µm石蜡切片，看到约50 µm外层细菌与内部甲烷古菌/候选互营细胞。热嗜Methanobacterium最初不被探针检出，冻融提高通透性后才显影，说明阴性图像并不自动等于没有细胞。本文未测气体剖面。另有'+cite('SG-87DC873D0B11','CT造影方法比较（返回摘要）')+'发现造影注入可造成生物膜脱落/位移；其超过50%的体积分数差异不能用来给所有CT结果统一校正。\n'
+ blocks['Part4']+='\n'+cite('SG-2544205CF8CD','PDMS膜供H2/CO2反应器（返回摘要）')+'给出最高24.3 L·m⁻²·d⁻¹产甲烷表现。这是面积归一化反应器产率，既不是H2渗透率，也不是气液kLa；气体体积标况、膜面积基准与微量元素干预须查正文后再比较。\n'
  for k,b in blocks.items():
   before={'Part1':'## Part 2.','Part2':'## Part 3.','Part3':'## Part 4.','Part4':'## 现有库中，哪些研究'}[k]
   append_block(root,MARK+'_'+k,b,before)
@@ -88,8 +93,8 @@ ORP反馈服务于具体目标。{cite('SG-D84CF676664B','Khanal与Huang，2003�
   for r in data:ws.append([json.dumps(r.get(k),ensure_ascii=False) if isinstance(r.get(k),(list,dict)) else r.get(k) for k in keys])
   ws.freeze_panes='A2';ws.auto_filter.ref=ws.dimensions
  wb.save(G/'scientific_reading_guide.xlsx')
- summary=read(G/'summary.json');summary.update(spatial_external_discovery_completed=True,spatial_screening_completed=False,spatial_online_queries_completed=12,spatial_online_fulltext_verified=3,spatial_candidates=len(C),spatial_online_new_links=len(relations),spatial_proposition_links=len(sp),expanded_map_rows=len(mp),expanded_map_unique_ids=len({r['id'] for r in mp}));dump(G/'summary.json',summary)
- append_block(G/'README.md',MARK,'## 2026-10-30 在线专题补证\n\n原12组查询已完整取回，5篇种子双源核对，3篇读取了正文方法/结果。新增'+str(len(relations))+'条带阅读深度的命题关系；Part2新增P2d，仅界定细胞暴露解释的边界。旧文献与命题全部保留，未关联的在线命中仍标“尚无命题关联”，不计正式纳入。\n\n[最新专题进度](../'+PREFIX+'/README.md) · [当前累计Excel](../'+PREFIX+'/spatial_gas_transfer_cumulative.xlsx) · [新全文证据](../'+PREFIX+'/online_fulltext_evidence.json)。')
+ summary=read(G/'summary.json');summary.update(spatial_external_discovery_completed=True,spatial_screening_completed=False,spatial_online_queries_completed=12,spatial_online_fulltext_verified=len(F),spatial_candidates=len(C),spatial_online_new_links=len(relations),spatial_proposition_links=len(sp),expanded_map_rows=len(mp),expanded_map_unique_ids=len({r['id'] for r in mp}));dump(G/'summary.json',summary)
+ append_block(G/'README.md',MARK,'## 2026-10-30 在线专题补证\n\n原12组查询已完整取回，5篇种子双源核对，'+str(len(F))+'篇读取了正文方法/结果。新增'+str(len(relations))+'条带阅读深度的命题关系；Part2新增P2d，仅界定细胞暴露解释的边界。旧文献与命题全部保留，未关联的在线命中仍标“尚无命题关联”，不计正式纳入。\n\n[最新专题进度](../'+PREFIX+'/README.md) · [当前累计Excel](../'+PREFIX+'/spatial_gas_transfer_cumulative.xlsx) · [新全文证据](../'+PREFIX+'/online_fulltext_evidence.json)。')
  dump(T/'guide_online_update.json',{'updated_utc':now(),'new_proposition_links':len(relations),'homepage_locations':['Part1末尾 在线补证','Part2末尾 P2d','Part3末尾 在线补证','Part4末尾 在线补证'],'old_homepage_content_preserved':True,'proposition_map_rows':len(mp)})
  print('new dated proposition links',len(relations))
 if __name__=='__main__':main()

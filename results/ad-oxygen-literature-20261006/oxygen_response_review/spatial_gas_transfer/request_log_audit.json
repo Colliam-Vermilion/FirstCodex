@@ -1,0 +1,37 @@
+{
+  "successful_original12_pages_retained": true,
+  "first_generation_successful_citation_pages_retained": true,
+  "known_initial_error_body_omissions": [
+    {
+      "name": "S05_public",
+      "status": 403,
+      "target_error_body_retained": false,
+      "note": "initial runner saved status/error but no response body; do not invent target body"
+    },
+    {
+      "name": "PMC1317437_fullTextXML",
+      "status": 500,
+      "target_error_body_retained": false,
+      "note": "initial runner saved status/error but no response body; do not invent target body"
+    },
+    {
+      "name": "PMC7440799_fullTextXML",
+      "status": 500,
+      "target_error_body_retained": false,
+      "note": "initial runner saved status/error but no response body; do not invent target body"
+    },
+    {
+      "name": "PMC91616_fullTextXML",
+      "status": 500,
+      "target_error_body_retained": false,
+      "note": "initial runner saved status/error but no response body; do not invent target body"
+    },
+    {
+      "name": "PMC91175_fullTextXML",
+      "status": 500,
+      "target_error_body_retained": false,
+      "note": "initial runner saved status/error but no response body; do not invent target body"
+    }
+  ],
+  "later_get_implementation": "HTTPError body and SHA256 now retained automatically; URLError CONNECT has no target response body"
+}

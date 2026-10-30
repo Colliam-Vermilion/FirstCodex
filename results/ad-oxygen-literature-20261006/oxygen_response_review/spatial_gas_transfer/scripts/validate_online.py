@@ -43,7 +43,7 @@ def main():
  for path in ['scientific_guide/literature_proposition_map.json','scientific_guide/propositions.json']:
   before=json.loads(old(path));after=read(R/path);aset={json.dumps(x,ensure_ascii=False,sort_keys=True) for x in after};checks[path+'_old_entries_preserved']=all(json.dumps(x,ensure_ascii=False,sort_keys=True) in aset for x in before)
  checks['all_seeds_verified']=len(read(T/'seed_audit.json'))==5 and all(x['external_verification_state']=='verified' and x['title_normalized_matches'] for x in read(T/'seed_audit.json'))
- checks['three_read_fulltexts_have_real_methods_and_results']=len(read(T/'online_fulltext_evidence.json'))==3 and all(any('METHOD' in (s['heading'] or '').upper() for s in read(T/f['sections_path'])) and any('RESULT' in (s['heading'] or '').upper() for s in read(T/f['sections_path'])) for f in read(T/'online_fulltext_evidence.json'))
+ checks['all_read_fulltexts_have_real_methods_and_results']=len(read(T/'online_fulltext_evidence.json'))==read(T/'online_increment_summary.json')['new_fulltexts_methods_results_verified'] and all(any('METHOD' in (s['heading'] or '').upper() for s in read(T/f['sections_path'])) and any('RESULT' in (s['heading'] or '').upper() for s in read(T/f['sections_path'])) for f in read(T/'online_fulltext_evidence.json'))
  for r in read(T/'online_original_file_register.json'):
   checks[r['pmcid']+'_canonical_original_hash_matches']=hashlib.sha256((R/r['path']).read_bytes()).hexdigest()==r['sha256']
  # Check only new local links; pre-existing sparse paths verified by tree membership.
@@ -58,6 +58,6 @@ def main():
    if rel not in tree:bad.append({'file':str(file.relative_to(R)),'target':target})
  checks['checked_markdown_links_resolve']=not bad
  errors=[k for k,v in checks.items() if not v];issues+=errors
- report={'updated_utc':now(),'base_commit':BASE,'checks':checks,'query_details':qrows,'citation_details':traces,'ris_counts':counts,'link_errors':bad,'issues':issues,'passed':not issues,'limits':'Does not substitute for scientific peer review or certify unreviewed 2,235 records. Original scope decisions preserved; S02 reading/parameter depth upgraded with provenance.'}
+ report={'updated_utc':now(),'base_commit':BASE,'checks':checks,'query_details':qrows,'citation_details':traces,'ris_counts':counts,'link_errors':bad,'issues':issues,'passed':not issues,'limits':'Does not substitute for scientific peer review or certify all unreviewed records. Original scope decisions preserved; S02 reading/parameter depth upgraded with provenance.'}
  dump(T/'online_validation.json',report);print(json.dumps(report,ensure_ascii=False));raise SystemExit(0 if report['passed'] else 1)
 if __name__=='__main__':main()
