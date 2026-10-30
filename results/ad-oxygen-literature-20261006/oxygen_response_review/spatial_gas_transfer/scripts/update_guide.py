@@ -25,7 +25,7 @@ def table(ids,C):
   out.append('|'+ '|'.join(str(x).replace('|','&#124;').replace('\n','<br>') for x in vals)+'|')
  return '\n'.join(out)
 def main():
- master=read(T/'literature_master.json');done=[r for r in master if r['status']!='未开始'];C={r['id']:r for r in master};assert {r['id'] for r in done}<=set().union(*(set(x[2]) for x in GROUPS.values()))
+ master=read(T/'literature_master.json');done_all=[r for r in master if r['status']!='未开始'];C={r['id']:r for r in master};mapped=set().union(*(set(x[2]) for x in GROUPS.values()));assert mapped<=set(C);done=[r for r in done_all if r['id'] in mapped]
  # Evidence cards keep the original source/quote, and make missing measurements
  # explicit rather than treating them as negative findings.
  for r in done:
@@ -48,23 +48,23 @@ def main():
  current=list(base_map)+relations;oldids={r['id'] for r in base_map};newmapped={r['id'] for r in relations}
  for r in master:
   if r['id'] not in oldids and r['id'] not in newmapped:
-   current.append({'id':r['id'],'title':r['title'],'year':r.get('year'),'journal':r.get('journal'),'doi':r.get('doi'),'proposition_id':None,'mapping_status':'空间专题从其他已保存资料发现的复用记录，尚未完成专题判断','reading_depth':r['reading_depth'],'source_links':r['source_links']})
+   current.append({'id':r['id'],'title':r['title'],'year':r.get('year'),'journal':r.get('journal'),'doi':r.get('doi'),'proposition_id':None,'mapping_status':'尚未建立命题关联；专题初筛状态：'+r['status'],'reading_depth':r['reading_depth'],'topical_scope_decision':r['scope_decision'],'source_links':r['source_links']})
  dump(G/'spatial_gas_proposition_links.json',relations);csvout(G/'spatial_gas_proposition_links_utf8.csv',relations)
  dump(G/'literature_proposition_map.json',current);csvout(G/'literature_proposition_map_utf8.csv',current)
  dump(G/'propositions.json',base_props+props);csvout(G/'propositions_utf8.csv',base_props+props)
  wb=load_workbook(io.BytesIO(old('scientific_guide/scientific_reading_guide.xlsx')))
- for name,data in [('全部文献—命题',current),('科学命题',base_props+props),('空间传质专题',done),('空间专题关联',relations)]:
+ for name,data in [('全部文献—命题',current),('科学命题',base_props+props),('空间传质专题',done_all),('空间专题关联',relations)]:
   if name in wb.sheetnames:del wb[name]
   ws=wb.create_sheet(name);keys=list(dict.fromkeys(k for r in data for k in r));ws.append(keys)
   for r in data:ws.append([json.dumps(r.get(k),ensure_ascii=False) if isinstance(r.get(k),(list,dict)) else r.get(k) for k in keys])
   ws.freeze_panes='A2';ws.auto_filter.ref=ws.dimensions
  wb.save(G/'scientific_reading_guide.xlsx')
- summary=json.loads(old('scientific_guide/summary.json'));summary.update(spatial_date='2026-10-30',spatial_processed=len(done),spatial_candidates=len(master),spatial_proposition_links=len(relations),spatial_external_discovery_completed=False,expanded_map_rows=len(current),expanded_map_unique_ids=len({r['id'] for r in current}),current_propositions=len(base_props+props),old_42_article_93_link_snapshot_preserved=True)
+ summary=json.loads(old('scientific_guide/summary.json'));summary.update(spatial_date='2026-10-30',spatial_processed=len(done_all),spatial_candidates=len(master),spatial_proposition_links=len(relations),spatial_external_discovery_completed=False,expanded_map_rows=len(current),expanded_map_unique_ids=len({r['id'] for r in current}),current_propositions=len(base_props+props),old_42_article_93_link_snapshot_preserved=True)
  dump(G/'summary.json',summary)
  prefix=mlink(T)
  b1=f'''### 专题增补：P1c—P1d · 气体怎样到达细胞，控制器又控制了什么？
 
-先把**气液交换 → 主体混合 → 聚集体表面液膜 → 内部溶解态扩散 → 细胞反应**分开；气泡的存在、液相中H₂／CH₄分子的移动和气体经过膜的扩散也不同。加大混合可能减少外液膜阻力，同时改变颗粒剪切和气液交换，不能只归为一种机制。**2026-10-30本专题基于已保存资料处理40篇；在线补检仍受网络阻断，不能视为完整文献覆盖。**
+先把**气液交换 → 主体混合 → 聚集体表面液膜 → 内部溶解态扩散 → 细胞反应**分开；气泡的存在、液相中H₂／CH₄分子的移动和气体经过膜的扩散也不同。加大混合可能减少外液膜阻力，同时改变颗粒剪切和气液交换，不能只归为一种机制。**2026-10-30本专题已对保存材料中的{len(done_all)}篇开展初筛／相关段落阅读；题名、摘要和全文深度在表中分别标明。在线补检尚未完成，不能视为完整文献覆盖。**
 
 物理上，扩散是分子沿浓度差净移动。简单一维条件下可写为 $J=-D_{{eff}}\\,dC/dx$：$J$是面积通量，$D_{{eff}}$是聚集体的有效扩散系数。外液膜常以 $J=k_f(C_b-C_s)$ 表示主体与表面间的浓度落差；气液交换的单位液体体积速率常写成 $k_La(C^*-C_b)$。三者的单位、面积／体积基准和适用条件不同，不能互填。活性颗粒内浓度还由反应消耗／产生决定；稳态扩散—反应模型可写为 $0=\\nabla\\cdot(D_{{eff}}\\nabla C)-r(C)$，其中反应项和边界条件需要独立说明。液相CO₂、H₂S还受酸碱物种分布影响。
 

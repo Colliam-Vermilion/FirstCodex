@@ -46,3 +46,12 @@ add('ODS-PMID40222284','A 产甲烷AD载体',A,'附着/悬浮分级与菌群生�
 add('ODS-PMID35918706','A CO2甲烷化生物膜',A,'基因组模型预测H2/CO2及甲酸交换，不直接等于扩散参数','4个外置沼气升级反应器扩散装置上的生物膜，基因组/通量平衡预测甲酸和氨基酸交换网络','共同出现和FBA不是物质通量/细胞间距离实测；不把名称flux balance当已经测到通量',['细胞间交换（模型）'],exchange={'carrier':['H2','CO2','formate','amino acids'],'evidence':'基因组重建＋通量平衡模型','interfloc_exchange_measured':False,'cell_distance_measured':False})
 add('ODS-PMID42323140','B 界面电子传递背景',A,'用于区分电子传递与气体物质传质，不据导电材料推气体通道','膜固定nZVI使生物量贴近并改善去除/甲烷；EET标记随铁状态变化，含非生物/基质贡献','未提供本轮已核实H2/甲酸物质通量/距离；电子传递研究不能自动算物质传质证据',['界面电子传递（非气体传质证明）'])
 add('ODS-PMID26498000','C DAMO/Anammox模型',A,'生物膜厚度、CH4供给及DO共存窗口的模型对照','模型在特定氮负荷和底物比下计算出约0.17 g/m³主体DO时脱氮最佳','这是模型条件下结果，不是实测通用DO最佳值；模型参数来源、校准范围待全文',['扩散—反应模型（非产甲烷）'])
+
+# Resume annotations are separate from the original forty; never replace them.
+import json as _json
+from pathlib import Path as _Path
+_followup=_Path(__file__).resolve().parents[1]/'followup_screening.json'
+if _followup.exists():
+ for _n in _json.loads(_followup.read_text()):
+  assert _n['id'] not in NOTES,_n['id']
+  NOTES[_n['id']]=_n

@@ -43,6 +43,23 @@
     "EPS_pore_flow_measured": false
   },
   {
+    "id": "ODS-PMID18378658",
+    "title": "Biogeochemistry and community composition of iron- and sulfur-precipitating microbial mats at the Chefren mud volcano (Nile Deep Sea Fan, Eastern Mediterranean).",
+    "doi": "10.1128/aem.01751-07",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "白席含硫丝和Arcobacter探针阳性细胞；下方SR与AOM活性，硫化物在席内耗尽",
+    "limits": "显微/FISH和活性支持界面分工；未核三维体成像、O2剖面或流速，流型是解释",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID18378658",
+        "identity_field": "paper_id"
+      }
+    ],
+    "method": "显微及FISH，方法维度待全文",
+    "true_3D_verified": false
+  },
+  {
     "id": "ODS-PMID18405985",
     "title": "Correlative light/electron microscopy for the investigation of microbial mats from Black Sea Cold Seeps.",
     "doi": "10.1016/j.mimet.2008.02.020",
@@ -63,6 +80,146 @@
     ],
     "true_3D_verified": false,
     "EPS_pore_flow_measured": false
+  },
+  {
+    "id": "ODS-PMID21899440",
+    "title": "Sulfur-oxidizing chemolithotrophic proteobacteria dominate the microbiota in high arctic thermal springs on Svalbard.",
+    "doi": "10.1089/ast.2010.0551",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "元素能谱检出细胞硫颗粒，丝状与浮游群落以硫氧化菌为主",
+    "limits": "细胞内硫颗粒不是孔隙或溶解气体通量；产甲烷菌仅检出，不作AD定位结论",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID21899440",
+        "identity_field": "paper_id"
+      }
+    ],
+    "method": "丝状生物量/能谱元素分析",
+    "true_3D_verified": false
+  },
+  {
+    "id": "ODS-PMID23435898",
+    "title": "Activated zeolite--suitable carriers for microorganisms in anaerobic digestion processes?",
+    "doi": "10.1007/s00253-013-4691-6",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "观察载体生物膜；优势群包括Clostridium、Pseudomonas和Methanoculleus，结合水解酶分析",
+    "limits": "摘要写CLSM不等于确认z-stack体重建；没有微氧/气体通量证据",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID23435898",
+        "identity_field": "paper_id"
+      }
+    ],
+    "method": "SEM及CLSM（摘要）；堆栈/三维重建待全文",
+    "targets": [
+      "附着微生物",
+      "生物膜"
+    ],
+    "true_3D_verified": false
+  },
+  {
+    "id": "ODS-PMID23446836",
+    "title": "Archaeal and anaerobic methane oxidizer communities in the Sonora Margin cold seeps, Guaymas Basin (Gulf of California).",
+    "doi": "10.1038/ismej.2013.18",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "ANME-2c在浅层硫酸盐丰富处与细菌相伴，ANME-1深层伴生方式不同，ANME-3为不伴细菌的小聚集体",
+    "limits": "不同ANME/层位关联，不是产甲烷AD；未量距离和交换通量，不能统一成所有古菌居中",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID23446836",
+        "identity_field": "paper_id"
+      }
+    ],
+    "method": "FISH＋深度分层分子分析；维度待核",
+    "true_3D_verified": false
+  },
+  {
+    "id": "ODS-PMID23843725",
+    "title": "Deposition of biogenic iron minerals in a methane oxidizing microbial mat.",
+    "doi": "10.1155/2013/102972",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "观察胞内外铁硫化物与细胞裂解后链状颗粒",
+    "limits": "不是孔隙流量或导电互作证明；矿化与气体传质区分",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID23843725",
+        "identity_field": "paper_id"
+      }
+    ],
+    "method": "微生物席/矿物显微形态，维度待核",
+    "true_3D_verified": false
+  },
+  {
+    "id": "ODS-PMID25462775",
+    "title": "Application of eco-compatible biochar in anaerobic digestion to relieve acid stress and promote the selective colonization of functional microbes.",
+    "doi": "10.1016/j.watres.2014.10.052",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "0.5–1mm与75µm生物炭改善时滞/速率；Methanosarcina偏紧密结合，Methanosaeta分布受粒径和结合组分影响",
+    "limits": "分级/指纹不是细胞3D坐标；吸附缓冲与选择定殖共变，不能独归H2距离",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID25462775",
+        "identity_field": "paper_id"
+      }
+    ],
+    "method": "附着强弱分级＋指纹/测序，非三维坐标",
+    "true_3D_verified": false
+  },
+  {
+    "id": "ODS-PMID26079858",
+    "title": "Selective Enrichment Establishes a Stable Performing Community for Microbial Electrosynthesis of Acetate from CO₂.",
+    "doi": "10.1021/es506149d",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "乙酸电子回收58±5%，H2副产物30±10%；电化学/共聚焦提示阴极生物膜参与",
+    "limits": "作者称likely H2，未证气体交换通量或特异空间机制；阴极面积反应率非kLa",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID26079858",
+        "identity_field": "paper_id"
+      }
+    ],
+    "method": "共聚焦（摘要），3D重建未核",
+    "true_3D_verified": false
+  },
+  {
+    "id": "ODS-PMID27065954",
+    "title": "Methane Seep in Shallow-Water Permeable Sediment Harbors High Diversity of Anaerobic Methanotrophic Communities, Elba, Italy.",
+    "doi": "10.3389/fmicb.2016.00374",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "20–50cm深且厚至40cm的AOM区，作者解释为渗透砂对流供给；聚集形态多样",
+    "limits": "对流解释尚非本轮核实流速/通量；不能直接套进污泥Deff",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID27065954",
+        "identity_field": "paper_id"
+      }
+    ],
+    "method": "原位杂交＋群落/活性（摘要）",
+    "true_3D_verified": false
+  },
+  {
+    "id": "ODS-PMID28235661",
+    "title": "Hollow fiber membrane bioreactor affects microbial community and morphology of the DAMO and Anammox co-culture system.",
+    "doi": "10.1016/j.biortech.2017.02.048",
+    "reading_depth": "完整缓存摘要；正文方法/参数仍待核实",
+    "finding": "膜内薄层偏DAMO/Anammox细菌，外层100–200µm颗粒偏DAMO古菌，与既有模拟位置不同",
+    "limits": "甲烷氧化而非产甲烷AD；位置观察不自动3D，也不量H2/絮体间交换",
+    "source_links": [
+      {
+        "path": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/paper_discovery_candidates_enriched.json",
+        "id": "ODS-PMID28235661",
+        "identity_field": "paper_id"
+      }
+    ],
+    "method": "两层膜/颗粒和群落定位；3D待核",
+    "true_3D_verified": false
   },
   {
     "id": "ODS-PMID29150508",
