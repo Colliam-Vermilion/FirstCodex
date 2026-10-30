@@ -5,7 +5,9 @@ from prepare import T,read,dump,now
 q=read(T/'online_query_queue.json');logs=read(T/'online_search_log.json')
 # Standard page endpoint is tested once; no key creation or credential changes.
 for n in [9,10,11]:
- row=logs[n]; row['continuation_attempt_started_utc']=now(); blocked.clear()
+ row=logs[n]
+ if row.get('status')=='completed':continue
+ row['continuation_attempt_started_utc']=now(); blocked.clear()
  page=2 if n==9 else 1
  try:
   while True:

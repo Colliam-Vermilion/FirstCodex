@@ -16,6 +16,10 @@
 **怎样理解本页的证据强度？**“相关全文段落已核实”只表示已读到相应方法／结果，不表示逐页通读；“仅摘要”表示结论仍须核对正文中的处理、对照和测定。本页每篇均有原文片段或完整缓存摘要入口。转录变化不等于通量，基因潜力不等于实际活性，共现不等于互作，聚集不等于已证明阻氧。
 
 <a id="part-1"></a>
+<!-- 20261030_online_status START -->
+> **2026-10-30在线补证已恢复：**原12组专题查询已完整分页取回，5篇种子均核对。以下保留的较早专题段落是当时阅读深度的历史说明；各部分新增的“在线补证”及[现行专题进度](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/README.md)记录最新条件。取回完成不等于筛选或全文核实全部完成。
+<!-- 20261030_online_status END -->
+
 ## Part 1. Oxygen exposure：谁实际接触到了氧？
 
 氧可随空气投加、含氧进水和回流污泥进入反应器；天然环境还通过上覆水扩散、渗流、再悬浮、动物扰动及植物根际输氧形成界面。本库对这些途径的覆盖不均，不能把它们都说成已经专门检索或验证。供氧后，微生物、还原性硫／铁和有机物可能先消耗氧，混合、颗粒和界面又决定氧能到达哪里。
@@ -83,6 +87,16 @@
 <!-- SPATIAL_exposure_END -->
 
 <a id="part-2"></a>
+<!-- 20261030_online_Part1 START -->
+### 在线补证 · 2026-10-30：系数、尺度与控制目标要一起读
+
+[Satoh等，2007（全文方法/结果）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID17905889.md)把此前的H₂系数条件补齐：约2 mm颗粒先经纯氯仿失活10 min、冲洗，再于35°C用中心H₂微电极记录阶跃响应并拟合，得到 **(2.66±0.13)×10⁻⁵ cm²/s**（n=3；水中值的57±3%）。它是失活材料中的拟合扩散参数。活性颗粒的H₂/CH₄剖面另行测量；CH₄的相对扩散比57%是沿用H₂的假设，生成/释放速率由剖面反演。不能将这些值直接写成O₂的扩散或细胞暴露剂量。
+
+[Chu等，2005（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-7E776DC9CBE3.md)报告絮凝后中心O₂响应时间约为原来的5倍，同时有效扩散系数却约增至2.3倍。尺寸、材料与反应项必须共同解释；目前仅读完整正式摘要，绝对尺寸、温度及拟合程序待正文。外液膜证据也单列：[液膜DO边界层微电极研究（返回摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-2DCD3D787125.md)操纵流速等条件，不能把内部Deff、外部kf与气液kLa当同一参数。
+
+ORP反馈服务于具体目标。[Khanal与Huang，2003（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-D84CF676664B.md)在UAF中把自然ORP约−290 mV提高25 mV：高硫进水时消硫改善甲烷，低硫时甲烷产率反而下降。另一个[ORP供氧实验（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-E3EDCB94A4B6.md)使用−230/−180 mV并发现异养耗COD竞争。这些是硫化物控制情景，不能推出跨反应器的通用安全ORP或局部DO。完整供氧迟滞、参比、输入量、耗氧和局部剖面仍待全文。
+<!-- 20261030_online_Part1 END -->
+
 ## Part 2. Individual-cell response：单个细胞如何受到影响，又如何应对？
 
 细胞遇氧后的限制可能在于关键酶被破坏，也可能是活性氧增多、修复成本上升或还原力被重新分配。纯培养、分离蛋白和遗传干预可以把这些环节拆开，但它们与混合污泥中的净效应不是同一个问题。
@@ -123,6 +137,14 @@
 |Jasso-Chávez等，2015：长期空气培养与初次暴露的产甲烷差异|Methanosarcina acetivorans C2A纯培养|至少6个月培养，乙酸组0.4%、甲醇组1% O2空气注入；另2%挑战|长期培养细胞在相应供氧下维持生长与甲烷；初次暴露对照甲烷降低约40%；伴多种抗氧系统及生物膜表型；实验含还原性物质；没有遗传稳定性或重测序证据，不能称进化适应；并非恒定实测DO|P1b, P2c, P3b, P4c|相关全文段落已核实|[10.1371/journal.pone.0117331](https://doi.org/10.1371/journal.pone.0117331) · [证据/已存原文](scientific_guide/evidence/OR-7C60AA03CC08.md)|
 
 <a id="part-3"></a>
+<!-- 20261030_online_Part2 START -->
+### 在线补证 · P2d：颗粒的氧响应能代表单细胞剂量吗？
+
+[Chu等，2005（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-7E776DC9CBE3.md)提供聚集体中心O₂响应的证据；它没有在本轮已读材料中把每个细胞的实际O₂暴露、胞内ROS或耐氧阈值一并测出。[活性污泥O₂剖面研究（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-A509A75F5507.md)还显示，大絮体可出现近零O₂中心，小絮体却可能出现模型不能再现的非零平台。该体系不是产甲烷AD，只作传质方法参照。
+
+因此，本轮给Individual-cell response增加的是**暴露解释的限制**：投氧量、主体DO和单点ORP不能直接替代细胞附近的浓度—时间历程。未用这些空间研究新增“某古菌在某DO下耐氧”的生理结论；这仍需细胞级测量或受控暴露实验。
+<!-- 20261030_online_Part2 END -->
+
 ## Part 3. Community structure：群落成员和空间组织如何改变？
 
 氧可能使原来少见的兼性／好氧成员扩增，抑制部分严格厌氧成员，也可能只改变某些类群而不明显改变整体组成。生物膜、颗粒和天然沉积物还有空间分层：外部测到氧，不意味着内部同样暴露。这里讨论谁在哪里；这些组织方式如何影响底物和最终产物，接到[Part 4](#part-4)。
@@ -184,6 +206,16 @@
 <!-- SPATIAL_structure_END -->
 
 <a id="part-4"></a>
+<!-- 20261030_online_Part3 START -->
+### 在线补证 · 2026-10-30：已有真正三维重建，但没有测到孔隙通量
+
+[Urasaki等，2024（全文方法/结果）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-822165E8E403.md)通过双能量同步辐射μCT重建厌氧颗粒孔洞。原始体素/像素为0.1988 µm，3D显示为0.7952 µm；体素不等同独立验证的成像分辨率。孔洞截面平均面积随深度为3.8±0.67至42±8.7 µm²，截面面积占比0.29±0.11%至12±4.2%；n=3指截取柱段，不能改写成3个独立生物重复。
+
+这项方法的边界同样关键：**Os信号同时含细胞和EPS；gold-ISH未提供可检测的CT菌群特异信号**。样品经固定、脱水和树脂包埋，不是活体灌流。作者未观察到孔洞间连接通道，并指出许多小通道可能低于体素尺度；图像也不能区分孔中的水、气或其他轻元素物质。孔洞面积/体积不等于O₂流量、扩散系数或通透性。
+
+[Satoh等，2007（全文方法/结果）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID17905889.md)则是20 µm切片CLSM/FISH与不同颗粒上的微剖面相互参照，不能称为同一颗粒的完整三维共注册。[Rocheleau等，1999（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-7226DB9C69DF.md)显示蛋白进水颗粒可以不分层，而甲醇富集颗粒出现分层；结构取决于底物和来源。[3D-FISH制样方法（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-5BF06DB69D22.md)也提醒固定/制样可能改变相对细胞位置。
+<!-- 20261030_online_Part3 END -->
+
 ## Part 4. Community function：群落内部的分工与整体功能如何变化？
 
 氧输入后，不能只问“产甲烷菌还在不在”。氧可能改变水解和发酵产物、氢／甲酸去向、硫循环及碳的最终归宿。整体功能也可能在成员尚未恢复时恢复，或在总体组成变化很小时受损。空间组织见[Part 3](#part-3)，这里重点讨论代谢后果。
@@ -253,6 +285,16 @@ Day等（2022）的共培养研究用H₂／甲酸代谢突变株比较，支持
 <!-- SPATIAL_function_END -->
 
 <a id="natural-communities"></a>
+<!-- 20261030_online_Part4 START -->
+### 在线补证 · 2026-10-30：距离实测、可能通量与真实交换要分开
+
+[Felchner-Zwirello等，2013（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-52CE8A5581BA.md)的正式摘要报告FISH加3D图像所得菌间距离从5.30降至0.29 µm，而“最大可能H₂通量”从1.1升至10.3 nmol ml⁻¹ min⁻¹。前者是摘要所述图像距离，后者是**计算上限**，不是直接测得的菌间或絮体间通量；温度、距离定义和模型边界尚未从正文核实。该文目前不能标为全文确认。
+
+[de Bok等，2002（全文方法/结果）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-28F1C544B55F.md)在丙酸双菌培养中结合酶活、重组培养和气体时序支持甲酸的重要性。它采用**假定10 µm距离**与表面浓度计算H₂通量2.5 nmol ml⁻¹ min⁻¹（另一浓度情景0.3），再与乙酸生成对应的H₂当量18.6比较；这些不是三项同类实测通量。常规培养/酶测37°C、H₂监测试验30°C也不能混写。相反，[H₂摄取传质限制研究（返回摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-1411D1E4576E.md)在不同动力学/传质假设下得出H₂扩散可承担所需电子通量，仍未排除甲酸。[动态扩散—反应絮体模型（正式摘要）](results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/SG-69FE36B49E26.md)也应作为模型证据阅读。
+
+这些结果支持“距离、载体、底物、温度与动力学共同约束互营”，不支持“H₂总不足”或“甲酸总主导”的通则。本轮仍未核实到不同絮体之间的距离—通量直接测量，也没有由聚集/甲烷产率变化直接证明氧保护区。
+<!-- 20261030_online_Part4 END -->
+
 ## 现有库中，哪些研究观察了天然厌氧群落再接触氧后的变化？
 
 **有直接相关研究，但不是同一种实验。** 下表逐篇列出本轮依据已存正文／摘要能说明设计和结果的研究，并把不属于直接天然群落氧干预的边界记录一并列清。没有展开重新筛选整个文献库，因此不宣称其余条目都已排除或这里已穷尽所有天然体系文献。原筛选标签不因这些说明而修改；“仅摘要”不能升格为全文确认。

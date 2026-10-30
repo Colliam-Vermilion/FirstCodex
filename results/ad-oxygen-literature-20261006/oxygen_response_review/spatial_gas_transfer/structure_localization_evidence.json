@@ -846,5 +846,82 @@
     ],
     "method": "摘要测序/膜壁定位描述；三维成像未核实",
     "true_3D_verified": false
+  },
+  {
+    "id": "SG-822165E8E403",
+    "title": "Nondestructive and three-dimensional visualization by identifying elements using synchrotron radiation microscale X-ray CT reveals microbial and cavity distributions in anaerobic granular sludge.",
+    "doi": "10.1128/aem.00563-24",
+    "reading_depth": "全文方法、结果与讨论；已读图1–4图注，未播放补充视频或复核附件原图",
+    "finding": "真正的三维孔洞重建；Os显影包含微生物和EPS；gold-ISH虽标记但未产生可检测CT对比，不能声称定位到特定菌群",
+    "limits": "未观察到连接孔洞的通道；小通道可低于体素尺度，故不能断言不存在通道。不能区分孔中水、气或其他轻元素物质；固定包埋结构不等于活体灌流；气体释放/浮泥是解释，非直接通量测量",
+    "spatial_scale": "原始pixel/voxel 0.1988 µm（198.8 nm）；3D viewer 0.7952 µm；体素大小不等同经独立验证的空间分辨率",
+    "three_dimensional_measured": true,
+    "evidence_update": "20261030_online"
+  },
+  {
+    "id": "ODS-PMID17905889",
+    "title": "Layered structure of bacterial and archaeal communities and their in situ activities in anaerobic granules.",
+    "doi": "10.1128/aem.01426-07",
+    "reading_depth": "全文方法、结果、讨论；Fig3–6图注；未重新读取补充标定原图",
+    "finding": "外层约250 µm以细菌为主，内层古菌较多；>400 µm信号弱。H2生成在100 µm附近、消耗及CH4生成更深。12 mM NaHCO3下H2降至检出限1 µM以下；无NaHCO3时约100 µm处峰26 µM",
+    "limits": "颗粒纯氯仿失活10 min后冲洗，非活性颗粒净扩散反应系数。CH4有效扩散系数假设沿用H2相对水比57%，非独立测量。CH4探头可能压缩颗粒；不能以H2定位直接指定所有产氢菌/氢营养古菌功能",
+    "spatial_scale": "FISH为20 µm厚切片CLSM；不是完整颗粒三维重建。不同化学种剖面在不同颗粒上测，非同一颗粒逐像素共注册",
+    "three_dimensional_measured": false,
+    "evidence_update": "20261030_online"
+  },
+  {
+    "id": "SG-28F1C544B55F",
+    "title": "Biochemical evidence for formate transfer in syntrophic propionate-oxidizing cocultures of Syntrophobacter fumaroxidans and Methanospirillum hungatei.",
+    "doi": "10.1128/aem.68.9.4247-4252.2002",
+    "reading_depth": "全文方法、结果及讨论；Tables1–3与Fig1图注",
+    "finding": "合成培养FDH活性升高、重组培养速率与FDH相关，支持甲酸为主要载体；H2转移未被排除",
+    "limits": "不把10 µm写成实测菌间距。细胞表面浓度取文献假设；未计弱絮凝。结果不能证明所有互营均以甲酸为主，也不是DIET证据",
+    "spatial_scale": "菌间模型，非颗粒/絮体间三维通量图",
+    "three_dimensional_measured": false,
+    "evidence_update": "20261030_online"
+  },
+  {
+    "id": "SG-52CE8A5581BA",
+    "title": "Interspecies distances between propionic acid degraders and methanogens in syntrophic consortia for optimal hydrogen transfer.",
+    "doi": "10.1007/s00253-012-4616-9",
+    "reading_depth": "完整正式PubMed摘要",
+    "finding": "3D-FISH摘要报告菌间距5.30降至0.29 µm，最大可能H2通量1.1升至10.3 nmol ml^-1 min^-1",
+    "limits": "距离来自图像；通量为计算上限、不是实测通量或絮体间交换；只有摘要/出版社摘要页",
+    "spatial_scale": "摘要层；具体成像范围待正文",
+    "three_dimensional_measured": "3D距离/制样需正文",
+    "evidence_update": "20261030_online"
+  },
+  {
+    "id": "SG-7226DB9C69DF",
+    "title": "Differentiation of methanosaeta concilii and methanosarcina barkeri in anaerobic mesophilic granular sludge by fluorescent In situ hybridization and confocal scanning laser microscopy.",
+    "doi": "10.1128/aem.65.5.2222-2229.1999",
+    "reading_depth": "完整正式PubMed摘要",
+    "finding": "蛋白底物颗粒的Methanosaeta随机分布；甲醇富集颗粒有分层",
+    "limits": "直接反例：不把所有厌氧颗粒统一为细菌外层/古菌核心",
+    "spatial_scale": "摘要层；具体成像范围待正文",
+    "three_dimensional_measured": false,
+    "evidence_update": "20261030_online"
+  },
+  {
+    "id": "SG-5BF06DB69D22",
+    "title": "3D-fluorescence in situ hybridization of intact, anaerobic biofilm.",
+    "doi": "10.1007/978-1-4939-0554-6_13",
+    "reading_depth": "完整正式PubMed摘要",
+    "finding": "描述保持厌氧双菌生物膜三维构型的3D-FISH制样方法",
+    "limits": "方法章节而非AD气体参数原始研究；正文协议待取得",
+    "spatial_scale": "摘要层；具体成像范围待正文",
+    "three_dimensional_measured": "3D距离/制样需正文",
+    "evidence_update": "20261030_online"
+  },
+  {
+    "id": "SG-16B4E8D37756",
+    "title": "Characterization of microbial community structures and their activities in single anaerobic granules by beta imaging, microsensors and fluorescence in situ hybridization.",
+    "doi": "10.2166/wst.2012.117",
+    "reading_depth": "完整正式PubMed摘要",
+    "finding": "FISH+beta imaging+微传感器：葡萄糖摄取峰50 µm、丙酸200 µm，H2生成100–200 µm",
+    "limits": "完整正式摘要；层深/活性不是独立测得的Deff，正文条件待核",
+    "spatial_scale": "摘要层；具体成像范围待正文",
+    "three_dimensional_measured": false,
+    "evidence_update": "20261030_online"
   }
 ]

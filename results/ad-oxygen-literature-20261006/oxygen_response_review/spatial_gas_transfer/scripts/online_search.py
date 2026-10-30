@@ -26,7 +26,8 @@ def get(base,params,source,name):
    body=response.read();row.update(status=response.status,content_type=response.headers.get('content-type'))
   dest.write_bytes(body);row.update(bytes=len(body),sha256=hashlib.sha256(body).hexdigest())
  except urllib.error.HTTPError as exc:
-  row.update(status=exc.code,error_class=type(exc).__name__)
+  error_body=exc.read();error_path=dest.with_suffix('.error.body');error_path.write_bytes(error_body)
+  row.update(status=exc.code,error_class=type(exc).__name__,error_body_path=str(error_path.relative_to(T)),error_body_sha256=hashlib.sha256(error_body).hexdigest())
   if exc.code in [401,403,429]:blocked.add(host)
   if exc.code==429:row['retry_after_as_sent']=exc.headers.get('Retry-After')
   raise Blocked(str(row)) from exc
