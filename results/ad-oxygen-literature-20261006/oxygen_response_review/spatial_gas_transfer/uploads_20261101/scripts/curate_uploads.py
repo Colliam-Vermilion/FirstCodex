@@ -1,0 +1,86 @@
+import json,hashlib,re,unicodedata,html
+from pathlib import Path
+R=Path('/workspace/FirstCodex');T=R/'results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer';P=T/'uploads_20261101'
+def dump(p,x):p.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n')
+def norm(x):return ''.join(c for c in unicodedata.normalize('NFKD',html.unescape(x)).lower() if c.isalnum())
+def doi(x):return re.sub(r'^https?://(?:dx\.)?doi.org/','',x or '',flags=re.I).lower().strip().rstrip('.')
+I=json.load(open(P/'file_inventory.json'));M=json.load(open(T/'literature_master.json'))
+# Only structured article rows qualify: references, PDF mentions and raw response references do not.
+records=[]
+for f in R.rglob('*.json'):
+ if any(s in f.parts for s in ['.git','.agents','raw','texts','checkpoints','uploads_20261101']):continue
+ try:z=json.load(open(f))
+ except Exception:continue
+ def walk(x):
+  if isinstance(x,dict):
+   if x.get('title') and (x.get('id') or x.get('paper_id')) and not any(k in x for k in ['reference_as_returned','trace_id']):records.append((str(f.relative_to(R)),x))
+   for k,v in x.items():
+    if k not in ['reference','references']:walk(v)
+  elif isinstance(x,list):
+   for v in x:walk(v)
+ walk(z)
+D=[
+('10.1016/j.watres.2006.11.035','Chiu et al., 2007','Oxygen diffusion in active layer of aerobic granule with step change in surrounding oxygen levels','可迁移的非AD方法证据',
+'活性苯酚/乙酸好氧颗粒；O₂从主体液相经外膜进入颗粒活性层。CLSM五重染色定位细胞/蛋白/多糖，60 µm冷冻切片，10×/20×物镜；没有已报告的光学点扩散分辨率。O₂电极尖端10 µm、定位优于20 µm、响应<3 s、10 s采样（PDF p2–3 §2；Fig1）。',
+'苯酚颗粒1.7 mm、乙酸颗粒3.1 mm；上流约2.4–2.5 mm/s。苯酚体系主体250–270或120–150 µM；乙酸300–310或90–100 µM。约100–300 s达到另一个稳态；图2/5展示约1800 s阶跃。模型用20°C水的Sc，实验绝对温度未独立明示，不能把该模型常数写成培养温度（p3、5、8）。',
+'直接O₂剖面显示活性表层消耗使低DO难以进入内部；苯酚体系高DO时约200 µm以下近零、降低外DO后125 µm即近零。乙酸体系也随外DO/时间改变活性层。没有通用“临界粒径”（p3–6 Fig2–7）。',
+'一维平板活性层、一级反应；仅稳态不能独立识别Dapp和k，加入瞬态拟合才约束参数。p8讨论及结论给乙酸Dapp=(9.5±3.5)e−10 m²/s、苯酚=(3.5±1.0)e−10；k分别0.04±0.03、0.055±0.025 s−1。kc约1.73e−5/1.54e−5 m/s来自Sherwood经验式，不是独立实测（Eq1–9、Fig8）。',
+'EPS与细胞共定位，没有EPS去除/恢复干预；低氧不能独归EPS。摘要将前一D值也写成phenol-fed，与p8及结论冲突，以正文对应为准。薄层平板近似和一级反应只适用于本文条件，非AD参数。', 'PDF p3–8；Fig2/5（动态DO）、Fig4/7（结构）、Fig8（参数非唯一性）'),
+('10.1016/j.chemosphere.2016.10.137','Fan et al., 2017','Oxygen transfer dynamics and activated sludge floc structure under different sludge retention times at low dissolved oxygen concentrations','可迁移的非AD方法证据',
+'活性污泥絮体，非AD；氧微电极剖面、激光粒度、2D显微图像分形维数、热提EPS。二维紧凑度不是3D孔隙度；10 µm深度间隔不是独立成像分辨率（§2–3）。',
+'SRT 10/17.5/25/35 d；长期低DO约0.5 mg/L条件至少三个SRT；用于剖面比较的250–300 µm絮体置于1.5–2 mg/L DO，不能误写成在0.5 mg/L测到无氧核（p6 §3.2）。',
+'Fig3/§3.2显示表面约1.75–1.76 mg/L，中心附近1.47–1.57 mg/L；作者明确未出现anoxic zone。长SRT的单位MLSS EPS由0.289降至0.101 mg/mg，MLSS升高，粒径分布和菌量同时变化（Table2、Fig3–4）。',
+'文中oxygen diffusion rate 0.0023–0.0032 mg/(µm·L)是浓度梯度量纲，不是m²/s扩散系数，也非kLa。2D分形维数1.23/1.25/1.31/1.30，SVI等为结构/沉降指标，无独立Deff拟合（p7、9 Fig5–6）。',
+'作者用we speculate描述EPS阻力解释；没有单独EPS操纵或分开耗氧反应。p7关于depletion随SRT增强的文字与给出的0.30→0.18数值相反，p9关于分形/粒径方向也有矛盾；不照抄方向。Table2若干组分/归一化字段需原数据澄清。', 'PDF p6–9；Fig3、Table2、Fig4–6'),
+('10.1016/j.jenvman.2005.01.022','Chu et al., 2005','Size-dependent anaerobic digestion rates of flocculated activated sludge: Role of intrafloc mass transfer resistance','AD直接证据（消化表现）；O₂仅示踪方法',
+'废活性污泥经阳离子聚丙烯酰胺T3052絮凝；35°C批次AD产甲烷与另行O₂阶跃试验；FISH/CLSM为3%PFA固定样品、10×固定深度图像，不是活体整颗粒3D（p2）。',
+'消化原絮体平均60 µm，聚合物5/15/40 g/kg DS，最大400 µm；DO试验比较100/300 µm颗粒，外液约210↔80 µM；电极10 µm、定位优于20 µm、响应1–3 s。DO测试温度、失活与耗氧控制未清楚独立报告（p2–4）。',
+'大絮体后期产甲烷减少，Table1追踪粒径/甲烷；即使D增加，r²/D仍可因粒径增加而上升。Fig1内部弱荧光作者承认可能是深部光消光，不能判无细胞（p3–5）。',
+'球形无反应阶跃解析式拟合中心响应（Fig2–3 p4–5），不是O₂浓度完整径向剖面。正文D=2.9e−10与1.97e−9 m²/s，比值约6.79；但摘要/正文/结论又称2.3倍，不能当作一致验证的倍数。正文响应12–20 s与原样约10 s也不同于摘要5倍概括。',
+'未独立分离耗氧、聚合物覆盖和粒径；O₂不是消化中水解有机底物的直接扩散测定。保留作者r²/D解释及聚合物覆盖替代解释，不能由甲烷下降唯一反推传质因果。', 'PDF p2–6；Table1、Fig1–3、§3.4'),
+('10.1002/bit.1044','González-Gil et al., 2001','Kinetics and mass-transfer phenomena in anaerobic granular sludge','AD直接证据（乙酸转化/反应扩散）',
+'啤酒废水EGSB产甲烷颗粒，筛分完整颗粒和搅碎<200 µm污泥；非O₂研究。在线甲烷产气与乙酸GC用于拟合；无颗粒内气体直接微剖面，无EPS独立操纵（p2–3）。',
+'30±1°C、pH6.8–7.2、乙酸初始2 g COD/L、连续四次投料；粒径2.39±0.09/2.88±0.26/3.52±0.28 mm，Vup 3/10/15 m/h组合（p2–3、6–7 TableII）。',
+'增大粒径提高表观Ks，增大Vup在测试范围内无显著改善；碎样Ks=32±10，完整约3.5 mm颗粒208±35 g COD/m³（p5–6 Fig2、4–5）。外膜不是所有系统都可忽略，模型低kf或低流速仍可能受限（p7–8）。',
+'球形径向Fick+Monod动态模型，初始活性均一、固定粒径、常数D。乙酸水D=0.00013 m²/d借Flora；相对有效D α=0.3±0.1或0.4±0.2由产甲烷曲线拟合；kf经验式算得。CH₄内剖面Fig9是假设DCH4=Dacetate且完全转化计算，不是实测CH₄扩散（p4–9 TableI–III）。',
+'本文常数α可解释多条件数据，未见气泡对流增强证据；这不证明所有AD颗粒无内部对流。作者亦指出小颗粒/低活性下动力学可能主导。不可把其乙酸α当O₂/H₂/CH₄系数，或把Fig9当显微气泡证据。', 'PDF p5–9；Fig4–9、TableI–III、模型假设p4'),
+('10.1002/bit.27522','van den Berg et al., 2020','Heterogeneous diffusion in aerobic granular sludge','可迁移的非AD方法证据',
+'三个全规模及两个实验室好氧颗粒源，1–3 mm；自来水清洗、4°C保存最长2个月，非固定、未作灭活实验。PFG-STE NMR实测水分子自扩散；MSME MRI T2图反映水环境而非直接氧浓度（p2–3）。',
+'室温约20°C；每NMR管约20–30颗、三重复；扩散时间40 ms。MRI方法写39×39×200 µm，而Fig2图注写39×39×100 µm，保留差异，不擅定真实z分辨率（p3/5）。',
+'水主要可动组分D=1.32–1.44e−9 m²/s，约自由水0.65–0.71；约5%较慢组分与细胞内水解释相关。结构T2异质性与D无明确相关，ADC空间图因短T2信号丢失未成功（Table2、Fig2–3、p7–8）。',
+'COMSOL二维轴对称稳态O₂模型：半径0.55 mm、外DO2 g/m³、Monod参数借benchmark；D均值1.4e−9、相对SD10%，无对流。Fig4/§3.3报告各场景通量差<5%，摘要/结论写<1%，两种表述不一致；不能只写<1%为全场景硬界限（p4–6、9）。',
+'水自扩散不是直接O₂有效扩散，扩散率也非含排除体积的扩散渗透性。恒均值、小异质性模型不能否认强分层、表面低D或对流孔道的效应；EPS、细胞与无机物共同影响，T2非EPS专一量。补充FigS1–S8未随上传提供。', 'PDF p2–9；Table2、Fig2–4、§4.1–4.3'),
+('10.2175/106143006x111835','Daigger et al., 2007','Diffusion of Oxygen Through Activated Sludge Flocs: Experimental Measurement, Modeling, and Implications for Simultaneous Nitrification and Denitrification','可迁移的非AD方法证据',
+'全规模活性污泥六个活性絮体剖面、四次样本；直接Clark O₂微电极10–40 µm，定位步长5/10 µm，响应0.1–20 s；步长不是尖端分辨率。没有EPS量/分子组成或微生物FISH定位（p2–3）。',
+'22±2°C，流速0.8 cm/min，平衡50 min后测；Table5半径0.5–2.0 mm、主体DO0.74–6.1 mg/L，甲醇/氨为特定合成供料。正文概述的0.25–3 mm粒径与Table5范围不完全一致，引用具体实验须以Table5列值标明（p3/7）。',
+'大絮体DO可近零，小絮体约1–1.1 mm在较高外DO下中心出现非零平台，球模型无法再现；D样本内部亦有失配。低DO核不是絮体必然属性（Fig5–10；p8–11）。',
+'球形多底物反应扩散模型，忽略边界层，D主要借文献（Table2 O₂=1.025 cm²/d）；只调异养菌浓度拟合，不能把借入D或拟合菌量称独立实测。模型只用O₂剖面验证，脱氮通量未直接验证（p1–4）。',
+'重复插入会造通道改变剖面，故仅首次插入；小絮体平台可来自结构/密度、额外传输或电极扰动，作者未判定唯一机制。不能把模型失配直接认定孔道对流，也无EPS因果证据。', 'PDF p2–3、7–12；Table2/5、Fig5–10'),
+('10.1128/aem.66.9.4037-4044.2000','Sabra et al., 2000','Effect of Oxygen on Formation and Structure of Azotobacter vinelandii Alginate and Its Role in Protecting Nitrogenase','特定单菌/荚膜机制参照',
+'A. vinelandii磷限制无氮连续培养；细胞荚膜与释放海藻酸，非污泥聚集体。尾气O₂/CO₂衡算呼吸，GPC测相对分子量，组成分析，TEM表面和120 nm固定脱水树脂切片；切片厚度非实际显微分辨率（p2）。',
+'2.5 L工作体积、2 L/min供气、pO₂约1–20%空气饱和、D0.08–0.26 h−1；通常500 rpm，剪切实验300–1000 rpm、pO₂5%、D0.15 h−1。不能把空气饱和百分比当气相O₂百分比；本轮未核定培养温度（p2–3）。',
+'高pO₂下呼吸率不再同步增加，而海藻酸分子量/G含量及荚膜致密程度改变；2.5%与20%空气饱和TEM形态不同。总量不随pO₂单调增大（Fig1–7）。',
+'没有独立测得荚膜O₂ D/kf、胞内O₂或纯EPS氧通量。Fig8为作者提出的保护模型，呼吸衡算不是细胞内浓度测量（p4–7）。',
+'氧/搅拌操纵伴随生长、荚膜和传质共同改变，无去荚膜/恢复或遗传救援来独立识别EPS效应。作者p7明确仍需胞内O₂测量，也承认高pO₂下保护可能失效及营养阻碍；不能推广为所有AD EPS阻氧定律。', 'PDF p2–7；Fig1–5（量与质）、Fig6–7（形态）、Fig8（假说）'),
+('10.1128/aem.01426-07','Satoh et al., 2007','Layered Structure of Bacterial and Archaeal Communities and Their In Situ Activities in Anaerobic Granules','AD直接空间/气体证据；无供氧处理',
+'奶粉培养UASB约2 mm颗粒；20 µm固定冷冻切片FISH+CLSM与活性CH₄/H₂/pH/ORP剖面。CH₄尖端50–100 µm、响应约200 s、300 µm步进；H₂尖端约10 µm、响应<2 s。不同溶质在不同颗粒测，并非同一颗粒全化学3D（p2–3/7）。',
+'35°C、N₂持续鼓泡+100 mg/L硫乙醇酸、约5 mm/s流动、ORP约−200 mV相对Ag/AgCl；平衡至少6 h。用于D测定的颗粒纯氯仿10 min失活、冲洗后平衡≥30 min（p2–3）。',
+'外层细菌、中层Firmicutes、内层乙酸裂解产甲烷古菌Methanosaeta；H₂净生成约100 µm层，更深H₂消耗与CH₄生成。不是“产乙酸古菌”，亦未凭探针定位所有氢营养产甲烷者（p4–7 Fig3–5）。',
+'失活颗粒中心H₂瞬态拟合Deff=(2.66±0.13)e−5 cm²/s，约水中57±3%；CH₄相对D57%是假定借用。活性净生成/消耗和向外释放由Fick剖面计算，不是独立微通量仪测量（Fig4–6）。',
+'CH₄大尖端可压缩颗粒，中心低古菌密度处仍算得活性，作者保留测量问题。FISH邻近不直接证明特定菌对间H₂通量，无O₂暴露或EPS因果干预。补充标定图未随上传提供，旧HTML正文关系保留。', 'PDF p2–7；Fig3（位置）、Fig4（浓度）、Fig5（计算活性）、Fig6（失活D）'),
+('10.1128/mbio.00992-14','Wessel et al., 2014','Oxygen Limitation within a Bacterial Aggregate','特定单菌/模型材料机制参照',
+'单克隆P. aeruginosa在3D打印多孔明胶微笼内生长；CLSM z系列/Imaris定位GFP低氧报告。制造层步长0.50 µm不等于成像分辨率；63×NA1.4，未给独立PSF测定（p6–7）。',
+'先37°C培养约7 h，再约25°C成像7–16 h；密度约10¹² cells/mL。约10 pL无明显报告，贴底55 pL有报告，同体积架高暴露底面后报告消失。微笼可随生长伸展，体积非固定阈值（Fig2/4）。',
+'直接几何干预显示可扩散表面积/体积和附着不透氧边界影响局部低氧；低氧报告cbb3-2::gfp响应存在约1 h延迟，GFP成熟需O₂，不能判定零氧核心（p4–5/7）。',
+'零级耗氧球模型Rmin=√(6DeSo/k0)；De=1.12e−5 cm²/s借文献，外O₂=8.24 mg/L取25°C纯水饱和假定，k0=46 mg/(L·s)由生长/密度和借入产率推算，非直接OUR测量。3D有限元加入玻璃底无通量；模拟最低DO与报告阈值有失配（Fig3–4 p3–7）。',
+'作者承认真实培养基溶解度、均一且不依赖DO的耗氧假定可能造成失配。报告信号不是定量O₂微剖面，非天然EPS因果证据。适合解释几何/边界，不能把55 pL或35 µm阈值移用于AD；FigS1–S3未上传。', 'PDF p2–7；Fig2（密度）、Fig3（模型）、Fig4（几何干预）')]
+E=[]
+for i,(d,a,title,role,method,conditions,finding,parameters,boundary,loc) in enumerate(D):
+ matches=[(f,r) for f,r in records if doi(r.get('doi'))==d or norm(r.get('title',''))==norm(title)]
+ ids=list(dict.fromkeys(str(r.get('id')or r.get('paper_id')) for f,r in matches));known=next((r for r in M if doi(r.get('doi'))==d),None)
+ rid=known['id'] if known else ids[0] if ids else 'SG-'+hashlib.sha256(d.encode()).hexdigest()[:12].upper()
+ z=I[i];z.update(id=rid,doi=d,title=title,author_year=a,identity_basis='正文首页题名/作者/年份；DOI在首页或与正式元数据核对',independent_article=True,version='publisher full article',prior_record_ids=ids,prior_record_sources=list(dict.fromkeys(f for f,r in matches)),existed_before_upload_review=bool(ids),page_sequence='连续页码与末页参考文献已核；无明显缺页',supplements='目录没有独立补充文件；文中引用附件不计已读')
+ e={'id':rid,'doi':d,'title':title,'author_year':a,'role':role,'methods_and_resolution':method,'conditions':conditions,'finding':finding,'parameters_and_inference':parameters,'boundary':boundary,'locator':loc,'reading_depth':'全文方法、结果、讨论与关键图表；附件未提供','original_path':z['canonical_path'],'text_path':z['text_path'],'sha256':z['sha256'],'previous_record':bool(ids),'propositions':['P1a','P1c','P3b']}
+ E.append(e)
+dump(P/'file_inventory.json',I);dump(P/'fulltext_evidence.json',E)
+print([(e['id'],e['previous_record'])for e in E])

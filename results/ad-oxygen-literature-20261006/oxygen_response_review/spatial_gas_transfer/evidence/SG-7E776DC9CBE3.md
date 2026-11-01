@@ -1,3 +1,5 @@
+> **2026-11-01更新：**[上传全文精读卡](../uploads_20261101/evidence/SG-7E776DC9CBE3.md)已核实方法、结果、讨论和关键图表；以下为原有阅读深度的历史记录，原判断保留。
+
 # Size-dependent anaerobic digestion rates of flocculated activated sludge: role of intrafloc mass transfer resistance.
 
 文献ID：`SG-7E776DC9CBE3`。

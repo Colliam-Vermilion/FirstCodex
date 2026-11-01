@@ -1,0 +1,134 @@
+[
+  {
+    "key": "SG-66E719E38CD9",
+    "tool": "get_paper_by_id",
+    "arguments": {
+      "id": "14975658",
+      "id_type": "pmid"
+    },
+    "purpose": "现有候选补摘要",
+    "started_utc": "2026-11-01T10:40:57.944192+00:00",
+    "date_range": "无起始下限；执行日2026-11-01；出版日需逐条核实",
+    "source": "nature-academic-search local MCP",
+    "raw_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/SG-66E719E38CD9.json",
+    "status": "returned"
+  },
+  {
+    "key": "SG-6E33DBD11D46",
+    "tool": "get_paper_by_id",
+    "arguments": {
+      "id": "23000719",
+      "id_type": "pmid"
+    },
+    "purpose": "现有候选补摘要",
+    "started_utc": "2026-11-01T10:40:58.640128+00:00",
+    "date_range": "无起始下限；执行日2026-11-01；出版日需逐条核实",
+    "source": "nature-academic-search local MCP",
+    "raw_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/SG-6E33DBD11D46.json",
+    "status": "returned"
+  },
+  {
+    "key": "SG-47E08464D7E8",
+    "tool": "get_paper_by_id",
+    "arguments": {
+      "id": "17294183",
+      "id_type": "pmid"
+    },
+    "purpose": "现有候选补摘要",
+    "started_utc": "2026-11-01T10:40:59.179148+00:00",
+    "date_range": "无起始下限；执行日2026-11-01；出版日需逐条核实",
+    "source": "nature-academic-search local MCP",
+    "raw_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/SG-47E08464D7E8.json",
+    "status": "returned"
+  },
+  {
+    "key": "REF0",
+    "tool": "get_paper_by_id",
+    "arguments": {
+      "id": "10.1002/bit.20862",
+      "id_type": "doi"
+    },
+    "purpose": "上传正文参考文献追溯：Berg或Wessel或Sabra",
+    "started_utc": "2026-11-01T10:40:59.731802+00:00",
+    "date_range": "无起始下限；执行日2026-11-01；出版日需逐条核实",
+    "source": "nature-academic-search local MCP",
+    "raw_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/REF0.json",
+    "status": "returned"
+  },
+  {
+    "key": "REF1",
+    "tool": "get_paper_by_id",
+    "arguments": {
+      "id": "10.1128/JB.185.5.1485-1491.2003",
+      "id_type": "doi"
+    },
+    "purpose": "上传正文参考文献追溯：Berg或Wessel或Sabra",
+    "started_utc": "2026-11-01T10:41:00.514471+00:00",
+    "date_range": "无起始下限；执行日2026-11-01；出版日需逐条核实",
+    "source": "nature-academic-search local MCP",
+    "raw_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/REF1.json",
+    "status": "returned"
+  },
+  {
+    "key": "REF2",
+    "tool": "get_paper_by_id",
+    "arguments": {
+      "id": "10.1128/jb.178.24.7322-7325.1996",
+      "id_type": "doi"
+    },
+    "purpose": "上传正文参考文献追溯：Berg或Wessel或Sabra",
+    "started_utc": "2026-11-01T10:41:01.030676+00:00",
+    "date_range": "无起始下限；执行日2026-11-01；出版日需逐条核实",
+    "source": "nature-academic-search local MCP",
+    "raw_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/REF2.json",
+    "status": "returned"
+  },
+  {
+    "key": "REF3",
+    "tool": "get_paper_by_id",
+    "arguments": {
+      "id": "10.1016/j.ces.2005.02.063",
+      "id_type": "doi"
+    },
+    "purpose": "上传正文参考文献追溯：Berg或Wessel或Sabra",
+    "started_utc": "2026-11-01T10:41:01.584508+00:00",
+    "date_range": "无起始下限；执行日2026-11-01；出版日需逐条核实",
+    "source": "nature-academic-search local MCP",
+    "raw_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/REF3.json",
+    "status": "returned"
+  },
+  {
+    "key": "Q1",
+    "tool": "search_papers",
+    "arguments": {
+      "query": "((biofilm[Title/Abstract] OR granule*[Title/Abstract]) AND (\"diffusive permeability\"[Title/Abstract] OR \"diffusion relaxation\"[Title/Abstract]))",
+      "sources": [
+        "pubmed"
+      ],
+      "rows": 100
+    },
+    "purpose": "针对水扩散/渗透性与EPS因果缺口；不设起始年",
+    "started_utc": "2026-11-01T10:41:02.016178+00:00",
+    "date_range": "无起始下限；执行日2026-11-01；出版日需逐条核实",
+    "source": "nature-academic-search local MCP",
+    "raw_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/Q1.json",
+    "status": "returned"
+  },
+  {
+    "key": "Q2",
+    "tool": "search_papers",
+    "arguments": {
+      "query": "((\"activated sludge\"[Title/Abstract]) AND (\"oxygen penetration\"[Title/Abstract] OR \"microelectrode\"[Title/Abstract]) AND (EPS[Title/Abstract] OR \"extracellular polymeric\"[Title/Abstract]))",
+      "sources": [
+        "pubmed"
+      ],
+      "rows": 100
+    },
+    "purpose": "针对水扩散/渗透性与EPS因果缺口；不设起始年",
+    "started_utc": "2026-11-01T10:41:02.923853+00:00",
+    "date_range": "无起始下限；执行日2026-11-01；出版日需逐条核实",
+    "source": "nature-academic-search local MCP",
+    "raw_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/Q2.json",
+    "status": "returned"
+  }
+]

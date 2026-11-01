@@ -1790,14 +1790,6 @@
     "status": "待全文/补证"
   },
   {
-    "id": "SG-7E776DC9CBE3",
-    "doi": "10.1016/j.jenvman.2005.01.022",
-    "title": "Size-dependent anaerobic digestion rates of flocculated activated sludge: role of intrafloc mass transfer resistance.",
-    "next_action": "正文方法/结果、参数条件和空间尺度核实",
-    "specific_gap": "摘要层证据：尺寸增大可使总阻力增大；温度/尺寸/绝对Deff与方法待正文",
-    "status": "待全文/补证"
-  },
-  {
     "id": "SG-69FE36B49E26",
     "doi": "10.1002/bit.260330612",
     "title": "Control of interspecies electron transfer flow during anaerobic digestion: Dynamic diffusion reaction models for hydrogen gas transfer in microbial flocs",
@@ -2115,14 +2107,6 @@
     "title": "Control of Interspecies Electron Flow during Anaerobic Digestion: Significance of Formate Transfer versus Hydrogen Transfer during Syntrophic Methanogenesis in Flocs.",
     "next_action": "正文方法/结果、参数条件和空间尺度核实",
     "specific_gap": "特定底物/共培养，不普遍否定H2；旧扫描正文尚未读取",
-    "status": "待全文/补证"
-  },
-  {
-    "id": "SG-A509A75F5507",
-    "doi": "10.2175/106143006x111835",
-    "title": "Diffusion of oxygen through activated sludge flocs: experimental measurement, modeling, and implications for simultaneous nitrification and denitrification.",
-    "next_action": "正文方法/结果、参数条件和空间尺度核实",
-    "specific_gap": "非AD；模型对小絮体失配，不能一律套均质球扩散",
     "status": "待全文/补证"
   },
   {
@@ -2588,5 +2572,59 @@
     "next_action": "正文方法/结果、参数条件和空间尺度核实",
     "specific_gap": "天然沉积物背景，不代表AD颗粒参数已核",
     "status": "待全文/补证"
+  },
+  {
+    "id": "SG-F50088B1CF31",
+    "title": "Oxygen diffusion in active layer of aerobic granule with step change in surrounding oxygen levels",
+    "status": "正文已读；仅剩附件或原文矛盾澄清",
+    "next_action": "EPS与细胞共定位，没有EPS去除/恢复干预；低氧不能独归EPS。摘要将前一D值也写成phenol-fed，与p8及结论冲突，以正文对应为准。薄层平板近似和一级反应只适用于本文条件，非AD参数。"
+  },
+  {
+    "id": "SG-5A7F7394666B",
+    "title": "Oxygen transfer dynamics and activated sludge floc structure under different sludge retention times at low dissolved oxygen concentrations",
+    "status": "正文已读；仅剩附件或原文矛盾澄清",
+    "next_action": "作者用we speculate描述EPS阻力解释；没有单独EPS操纵或分开耗氧反应。p7关于depletion随SRT增强的文字与给出的0.30→0.18数值相反，p9关于分形/粒径方向也有矛盾；不照抄方向。Table2若干组分/归一化字段需原数据澄清。"
+  },
+  {
+    "id": "SG-7E776DC9CBE3",
+    "title": "Size-dependent anaerobic digestion rates of flocculated activated sludge: Role of intrafloc mass transfer resistance",
+    "status": "正文已读；仅剩附件或原文矛盾澄清",
+    "next_action": "未独立分离耗氧、聚合物覆盖和粒径；O₂不是消化中水解有机底物的直接扩散测定。保留作者r²/D解释及聚合物覆盖替代解释，不能由甲烷下降唯一反推传质因果。"
+  },
+  {
+    "id": "SG-3FC896322929",
+    "title": "Kinetics and mass-transfer phenomena in anaerobic granular sludge",
+    "status": "正文已读；仅剩附件或原文矛盾澄清",
+    "next_action": "本文常数α可解释多条件数据，未见气泡对流增强证据；这不证明所有AD颗粒无内部对流。作者亦指出小颗粒/低活性下动力学可能主导。不可把其乙酸α当O₂/H₂/CH₄系数，或把Fig9当显微气泡证据。"
+  },
+  {
+    "id": "SG-BB2BC527534B",
+    "title": "Heterogeneous diffusion in aerobic granular sludge",
+    "status": "正文已读；仅剩附件或原文矛盾澄清",
+    "next_action": "水自扩散不是直接O₂有效扩散，扩散率也非含排除体积的扩散渗透性。恒均值、小异质性模型不能否认强分层、表面低D或对流孔道的效应；EPS、细胞与无机物共同影响，T2非EPS专一量。补充FigS1–S8未随上传提供。"
+  },
+  {
+    "id": "SG-A509A75F5507",
+    "title": "Diffusion of Oxygen Through Activated Sludge Flocs: Experimental Measurement, Modeling, and Implications for Simultaneous Nitrification and Denitrification",
+    "status": "正文已读；仅剩附件或原文矛盾澄清",
+    "next_action": "重复插入会造通道改变剖面，故仅首次插入；小絮体平台可来自结构/密度、额外传输或电极扰动，作者未判定唯一机制。不能把模型失配直接认定孔道对流，也无EPS因果证据。"
+  },
+  {
+    "id": "SG-94C5A948A56B",
+    "title": "Effect of Oxygen on Formation and Structure of Azotobacter vinelandii Alginate and Its Role in Protecting Nitrogenase",
+    "status": "正文已读；仅剩附件或原文矛盾澄清",
+    "next_action": "氧/搅拌操纵伴随生长、荚膜和传质共同改变，无去荚膜/恢复或遗传救援来独立识别EPS效应。作者p7明确仍需胞内O₂测量，也承认高pO₂下保护可能失效及营养阻碍；不能推广为所有AD EPS阻氧定律。"
+  },
+  {
+    "id": "ODS-PMID17905889",
+    "title": "Layered Structure of Bacterial and Archaeal Communities and Their In Situ Activities in Anaerobic Granules",
+    "status": "正文已读；仅剩附件或原文矛盾澄清",
+    "next_action": "CH₄大尖端可压缩颗粒，中心低古菌密度处仍算得活性，作者保留测量问题。FISH邻近不直接证明特定菌对间H₂通量，无O₂暴露或EPS因果干预。补充标定图未随上传提供，旧HTML正文关系保留。"
+  },
+  {
+    "id": "SG-F2E37D6B3A6E",
+    "title": "Oxygen Limitation within a Bacterial Aggregate",
+    "status": "正文已读；仅剩附件或原文矛盾澄清",
+    "next_action": "作者承认真实培养基溶解度、均一且不依赖DO的耗氧假定可能造成失配。报告信号不是定量O₂微剖面，非天然EPS因果证据。适合解释几何/边界，不能把55 pL或35 µm阈值移用于AD；FigS1–S3未上传。"
   }
 ]

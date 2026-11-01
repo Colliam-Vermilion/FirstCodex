@@ -2,7 +2,7 @@
 
 这是帮助比较研究尺度的示意，不是某个反应器已经测得的统一结构。[回科学首页](../README.md) · [专题累计Excel](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/spatial_gas_transfer_cumulative.xlsx) · [专题文献—命题表](spatial_gas_proposition_links_utf8.csv)
 
-**接续状态：**233条本地候选均有初筛（5相关全文／旧证据、220整个缓存字段、2片段、6仅题名）；原始字段不一定等于正式完整摘要。专题关联由49增至68条，原49条关联保留。**在线补检尚未完成，12组查询未执行**；[运行策略与单次复测](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/raw/preflight/20261030_retest/README.md)显示四域名未在生效表，CONNECT拒绝发生在代理层。
+**现行状态（2026-11-01）：**原12组查询已在2026-10-30完整分页取回。9篇上传正文已读方法/结果/讨论和关键图表，附件缺口与未筛队列单列。[统一精读入口](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/README.md)；旧网络失败状态见[历史快照](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/history/scientific_guide_spatial_reading_map.md)。
 
 ## 先辨传质经过哪里，再看谁在那里
 
@@ -21,8 +21,8 @@ flowchart LR
 
 |先读的问题|首选材料及当前证据|不能跨越的解释|
 |---|---|---|
-|分层和产氢／产甲烷发生在哪里？|Satoh等2007；FISH＋H2/CH4/pH/ORP微剖面，**本轮仅缓存摘要**，[证据](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID17905889.md)|特定颗粒有内层产乙酸古菌，不代表古菌总在中心；局部浓度剖面不是三维细胞坐标。|
-|三维成像究竟重建了什么？|Gambelli等2018摘要明确电子断层；Wrede等2008为同切片光/电镜和EPS标记；[结构表](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/structure_localization_evidence_utf8.csv)|细胞电子断层、切片、共聚焦堆栈和整颗粒CT不能互称。CT种子尚未独立核实，不照抄题名结论。|
+|分层和产氢／产甲烷发生在哪里？|Satoh等2007；FISH＋H2/CH4/pH/ORP微剖面，**上传全文方法/结果/讨论核实**，[证据](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/evidence/ODS-PMID17905889.md)|特定颗粒有内层乙酸裂解产甲烷古菌，不代表古菌总在中心；局部浓度剖面不是三维细胞坐标。|
+|三维成像究竟重建了什么？|Gambelli等2018摘要明确电子断层；Wrede等2008为同切片光/电镜和EPS标记；[结构表](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/structure_localization_evidence_utf8.csv)|细胞电子断层、切片、共聚焦堆栈和整颗粒CT不能互称。CT种子已于2026-10-30核实正文；体素不是活体通量或类群定位。|
 |表面积变化是否支持气液/润湿界面限制？|R03161改变桶放置/润湿面积并测H2S氧化；已读相关原文，p3–4/7–8|生物膜量、活性与面积共变；反应去除率不是纯物理kLa或扩散系数。|
 |ORP、DO、固定输入分别控制什么？|R01414为ORP开关；R07202为相对基线ORP；R06080为非产甲烷颗粒DO反馈；[控制表](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/oxygen_control_evidence_utf8.csv)|测了DO不等于DO反馈；气相O2不等于液相DO；ORP电极基准不清时不能比较绝对值。|
 |H2和甲酸是否一样？|Day等2022的代谢突变株竞争与搅拌；Hamilton等2015为模型；[交换表](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/cell_interfloc_exchange_utf8.csv)|遗传证据可区分载体，模型可提出条件；二者都不自动给出距离—通量测量。|
@@ -52,4 +52,14 @@ Fick定律把浓度梯度与扩散通量联系起来：一维、连续介质近�
 
 ## 本轮仍需哪些证据
 
-网络恢复后优先独立核对五篇种子；S02已有旧官方元数据和42条完整参考文献，其他4篇仍未独立取回。重点补三维CT原图/分割方法、经典H2距离研究、絮体动态模型，以及扩散参数的活性/失活材料和温度。现在[本地未开始队列](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/remaining_queue.json)为空；后续应从[摘要源缺口](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/abstract_pending_queue.json)、[全文／疑点](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/fulltext_pending.json)及[12组在线查询](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/online_query_queue.json)继续。不能把初筛结束写成全文或在线补检完成，也不把外部0新增视为检索无结果。
+原五篇种子已在2026-10-30独立核对，S01为整颗粒μCT、S02为颗粒微剖面全文；本轮另有9篇上传全文逐篇核实。继续从[统一精读表](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/README.md)的“后续必须回答”、[摘要缺口](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/abstract_pending_queue.json)、[全文疑点](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/fulltext_pending.json)及[未筛队列](../results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/remaining_queue.json)接续。前向引用173条仅取回元数据，不是已读或纳入；其原始页和分页状态在本轮citation_trace_log.json。不能重跑旧渲染脚本覆盖全文增量。
+
+## 先看哪篇、哪张图
+
+- **外部DO为什么不等于内部DO？**先看Daigger的Fig5–9，再对比Fan的Fig3：两类核心状态均有条件性实测，非普适粒径阈值。
+- **稳态为什么不足以反推D？**看Chiu 2007 Fig8的可行参数对与瞬态约束。
+- **空间结构是否一定导致更大阻力？**看Berg Table2及Fig2–4，分开水自扩散实测和O₂模型；强分层/对流不在其小异质性模型结论内。
+- **几何能否独立改变低氧？**看Wessel Fig4架高实验；生物报告不能判零氧。
+- **AD中谁在何处产气？**看Satoh Fig3–6，位置、浓度、计算活性和失活扩散试验分开；看González-Gil Fig4–9区分乙酸动力学拟合与计算CH₄剖面。
+
+完整9篇题名、ID、问题、图表、边界、阅读深度和全文入口集中在上述统一精读表。

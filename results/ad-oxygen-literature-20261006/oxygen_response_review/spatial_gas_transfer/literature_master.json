@@ -263,11 +263,11 @@
     ],
     "abstract": "The microbial community structure and spatial distribution of microorganisms and their in situ activities in anaerobic granules were investigated by 16S rRNA gene-based molecular techniques and microsensors for CH(4), H(2), pH, and the oxidation-reduction potential (ORP). The 16S rRNA gene-cloning analysis revealed that the clones related to the phyla Alphaproteobacteria (detection frequency, 51%), Firmicutes (20%), Chloroflexi (9%), and Betaproteobacteria (8%) dominated the bacterial clone library, and the predominant clones in the archaeal clone library were affiliated with Methanosaeta (73%). In situ hybridization with oligonucleotide probes at the phylum level revealed that these microorganisms were numerically abundant in the granule. A layered structure of microorganisms was found in the granule, where Chloroflexi and Betaproteobacteria were present in the outer shell of the granule, Firmicutes were found in the middle layer, and aceticlastic Archaea were restricted to the inner layer. Microsensor measurements for CH(4), H(2), pH, and ORP revealed that acid and H(2) production occurred in the upper part of the granule, below which H(2) consumption and CH(4) production were detected. Direct comparison of the in situ activity distribution with the spatial distribution of the microorganisms implied that Chloroflexi contributed to the degradation of complex organic compounds in the outermost layer, H(2) was produced mainly by Firmicutes in the middle layer, and Methanosaeta produced CH(4) in the inner layer. We determined the effective diffusion coefficient for H(2) in the anaerobic granules to be 2.66 x 10(-5) cm(2) s(-1), which was 57% in water.",
     "priority_tier": "A 产甲烷直接",
-    "reading_depth": "全文方法、结果、讨论；Fig3–6图注；未重新读取补充标定原图",
+    "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
     "scope_decision": "专题相关",
     "decision_reason": "用户种子S02；厌氧颗粒类群定位与H2/CH4微剖面直接相关",
-    "actual_finding": "外层约250 µm以细菌为主，内层古菌较多；>400 µm信号弱。H2生成在100 µm附近、消耗及CH4生成更深。12 mM NaHCO3下H2降至检出限1 µM以下；无NaHCO3时约100 µm处峰26 µM",
-    "author_interpretation_and_alternatives": "颗粒纯氯仿失活10 min后冲洗，非活性颗粒净扩散反应系数。CH4有效扩散系数假设沿用H2相对水比57%，非独立测量。CH4探头可能压缩颗粒；不能以H2定位直接指定所有产氢菌/氢营养古菌功能",
+    "actual_finding": "外层细菌、中层Firmicutes、内层乙酸裂解产甲烷古菌Methanosaeta；H₂净生成约100 µm层，更深H₂消耗与CH₄生成。不是“产乙酸古菌”，亦未凭探针定位所有氢营养产甲烷者（p4–7 Fig3–5）。",
+    "author_interpretation_and_alternatives": "CH₄大尖端可压缩颗粒，中心低古菌密度处仍算得活性，作者保留测量问题。FISH邻近不直接证明特定菌对间H₂通量，无O₂暴露或EPS因果干预。补充标定图未随上传提供，旧HTML正文关系保留。",
     "transfer_compartments": [
       "聚集体内部扩散",
       "局部浓度剖面"
@@ -298,7 +298,7 @@
       }
     ],
     "exchange_evidence": null,
-    "status": "全文相关方法/结果核实",
+    "status": "全文方法/结果/讨论核实；附件缺口单列",
     "new_external_fulltext_downloaded": true,
     "old_scope_judgment_changed": false,
     "author_metadata_source": "results/ad-oxygen-literature-20261006/omics_dataset_discovery/raw/NCBI/cfc7af329ca2b6a6948e25003e2b6ddc6f91b2e2dc3e867e63108f407191f658.body",
@@ -308,7 +308,7 @@
     "aggregate_or_biofilm_size": "微传感器/扩散实验选择直径约2 mm颗粒；流动池4 L，液速约5 mm/s",
     "reactor_structure": null,
     "methods": "H2极谱微电极：tip约10 µm、t90<2 s、检出限约1 µM；CH4生物传感器tip50–100 µm、t90约200 s、300 µm步长；ORP相对Ag/AgCl；Deff用失活颗粒中心H2瞬态与模型拟合",
-    "locator": "PMC2168234 #sec1 Methods: Microsensor measurements, Estimation of Deff；#sec12 Results Fig3–6；#sec17 Discussion",
+    "locator": "PDF p2–7；Fig3（位置）、Fig4（浓度）、Fig5（计算活性）、Fig6（失活D）",
     "context_not_reported_or_unchecked": "空值表示本轮尚未核实，不能推断原文未报告",
     "old_review_id": null,
     "other_existing_id": "ODS-PMID17905889",
@@ -356,6 +356,44 @@
       "title": "Layered structure of bacterial and archaeal communities and their in situ activities in anaerobic granules.",
       "recorded_utc": "2026-10-30T12:20:33.090480+00:00",
       "newly_read_online_fulltext": true
+    },
+    "before_upload_review_20261101": {
+      "reading_depth": "全文方法、结果、讨论；Fig3–6图注；未重新读取补充标定原图",
+      "status": "全文相关方法/结果核实",
+      "actual_finding": "外层约250 µm以细菌为主，内层古菌较多；>400 µm信号弱。H2生成在100 µm附近、消耗及CH4生成更深。12 mM NaHCO3下H2降至检出限1 µM以下；无NaHCO3时约100 µm处峰26 µM",
+      "author_interpretation_and_alternatives": "颗粒纯氯仿失活10 min后冲洗，非活性颗粒净扩散反应系数。CH4有效扩散系数假设沿用H2相对水比57%，非独立测量。CH4探头可能压缩颗粒；不能以H2定位直接指定所有产氢菌/氢营养古菌功能",
+      "locator": "PMC2168234 #sec1 Methods: Microsensor measurements, Estimation of Deff；#sec12 Results Fig3–6；#sec17 Discussion"
+    },
+    "upload_review_20261101": {
+      "id": "ODS-PMID17905889",
+      "doi": "10.1128/aem.01426-07",
+      "title": "Layered Structure of Bacterial and Archaeal Communities and Their In Situ Activities in Anaerobic Granules",
+      "author_year": "Satoh et al., 2007",
+      "role": "AD直接空间/气体证据；无供氧处理",
+      "methods_and_resolution": "奶粉培养UASB约2 mm颗粒；20 µm固定冷冻切片FISH+CLSM与活性CH₄/H₂/pH/ORP剖面。CH₄尖端50–100 µm、响应约200 s、300 µm步进；H₂尖端约10 µm、响应<2 s。不同溶质在不同颗粒测，并非同一颗粒全化学3D（p2–3/7）。",
+      "conditions": "35°C、N₂持续鼓泡+100 mg/L硫乙醇酸、约5 mm/s流动、ORP约−200 mV相对Ag/AgCl；平衡至少6 h。用于D测定的颗粒纯氯仿10 min失活、冲洗后平衡≥30 min（p2–3）。",
+      "finding": "外层细菌、中层Firmicutes、内层乙酸裂解产甲烷古菌Methanosaeta；H₂净生成约100 µm层，更深H₂消耗与CH₄生成。不是“产乙酸古菌”，亦未凭探针定位所有氢营养产甲烷者（p4–7 Fig3–5）。",
+      "parameters_and_inference": "失活颗粒中心H₂瞬态拟合Deff=(2.66±0.13)e−5 cm²/s，约水中57±3%；CH₄相对D57%是假定借用。活性净生成/消耗和向外释放由Fick剖面计算，不是独立微通量仪测量（Fig4–6）。",
+      "boundary": "CH₄大尖端可压缩颗粒，中心低古菌密度处仍算得活性，作者保留测量问题。FISH邻近不直接证明特定菌对间H₂通量，无O₂暴露或EPS因果干预。补充标定图未随上传提供，旧HTML正文关系保留。",
+      "locator": "PDF p2–7；Fig3（位置）、Fig4（浓度）、Fig5（计算活性）、Fig6（失活D）",
+      "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
+      "original_path": "scientific_guide/NewPart1Articles/satoh-et-al-2007-layered-structure-of-bacterial-and-archaeal-communities-and-their-in-situ-activities-in-anaerobic.pdf",
+      "text_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/texts/114cab7fb49f5f47.json",
+      "sha256": "114cab7fb49f5f47abbeb737733eed3c66d8f53a2fb33c6a3aad01421a004cba",
+      "previous_record": true,
+      "propositions": [
+        "P1a",
+        "P1c",
+        "P3b"
+      ],
+      "authors": [
+        "Hisashi Satoh",
+        "Yuki Miura",
+        "Ikuo Tsushima",
+        "Satoshi Okabe"
+      ],
+      "year": "2007",
+      "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/evidence/ODS-PMID17905889.md"
     }
   },
   {
@@ -16889,9 +16927,9 @@
       "raw_path": "raw/online/PubMed/S04_metadata_160b833dc3b2aa2089f6.xml",
       "record_locator": "PubmedArticle[PMID=15932786]"
     },
-    "status": "摘要初筛",
+    "status": "全文方法/结果/讨论核实；附件缺口单列",
     "scope_decision": "专题相关（摘要层面）",
-    "reading_depth": "完整正式PubMed摘要",
+    "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
     "source_role": "在线结果；新身份待筛选",
     "old_scope_judgment_changed": false,
     "source_links": [
@@ -16913,10 +16951,49 @@
     ],
     "packet_index": 37,
     "screened_utc": "2026-10-30T12:20:32.895898+00:00",
-    "actual_finding": "絮凝后中心O2响应时间约5倍、O2有效扩散系数约2.3倍",
-    "author_interpretation_and_alternatives": "摘要层证据：尺寸增大可使总阻力增大；温度/尺寸/绝对Deff与方法待正文",
+    "actual_finding": "大絮体后期产甲烷减少，Table1追踪粒径/甲烷；即使D增加，r²/D仍可因粒径增加而上升。Fig1内部弱荧光作者承认可能是深部光消光，不能判无细胞（p3–5）。",
+    "author_interpretation_and_alternatives": "未独立分离耗氧、聚合物覆盖和粒径；O₂不是消化中水解有机底物的直接扩散测定。保留作者r²/D解释及聚合物覆盖替代解释，不能由甲烷下降唯一反推传质因果。",
     "abstract_completeness": "已读官方AbstractText字段全部文字；不等于正文",
-    "reviewer": "model reading; not independent dual-human screening"
+    "reviewer": "model reading; not independent dual-human screening",
+    "before_upload_review_20261101": {
+      "reading_depth": "完整正式PubMed摘要",
+      "status": "摘要初筛",
+      "actual_finding": "絮凝后中心O2响应时间约5倍、O2有效扩散系数约2.3倍",
+      "author_interpretation_and_alternatives": "摘要层证据：尺寸增大可使总阻力增大；温度/尺寸/绝对Deff与方法待正文",
+      "locator": null
+    },
+    "upload_review_20261101": {
+      "id": "SG-7E776DC9CBE3",
+      "doi": "10.1016/j.jenvman.2005.01.022",
+      "title": "Size-dependent anaerobic digestion rates of flocculated activated sludge: Role of intrafloc mass transfer resistance",
+      "author_year": "Chu et al., 2005",
+      "role": "AD直接证据（消化表现）；O₂仅示踪方法",
+      "methods_and_resolution": "废活性污泥经阳离子聚丙烯酰胺T3052絮凝；35°C批次AD产甲烷与另行O₂阶跃试验；FISH/CLSM为3%PFA固定样品、10×固定深度图像，不是活体整颗粒3D（p2）。",
+      "conditions": "消化原絮体平均60 µm，聚合物5/15/40 g/kg DS，最大400 µm；DO试验比较100/300 µm颗粒，外液约210↔80 µM；电极10 µm、定位优于20 µm、响应1–3 s。DO测试温度、失活与耗氧控制未清楚独立报告（p2–4）。",
+      "finding": "大絮体后期产甲烷减少，Table1追踪粒径/甲烷；即使D增加，r²/D仍可因粒径增加而上升。Fig1内部弱荧光作者承认可能是深部光消光，不能判无细胞（p3–5）。",
+      "parameters_and_inference": "球形无反应阶跃解析式拟合中心响应（Fig2–3 p4–5），不是O₂浓度完整径向剖面。正文D=2.9e−10与1.97e−9 m²/s，比值约6.79；但摘要/正文/结论又称2.3倍，不能当作一致验证的倍数。正文响应12–20 s与原样约10 s也不同于摘要5倍概括。",
+      "boundary": "未独立分离耗氧、聚合物覆盖和粒径；O₂不是消化中水解有机底物的直接扩散测定。保留作者r²/D解释及聚合物覆盖替代解释，不能由甲烷下降唯一反推传质因果。",
+      "locator": "PDF p2–6；Table1、Fig1–3、§3.4",
+      "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
+      "original_path": "scientific_guide/NewPart1Articles/1-s2.0-S0301479705000988-main.pdf",
+      "text_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/texts/cf51f26f6b262188.json",
+      "sha256": "cf51f26f6b262188f8176069fa24b94f163a65c531b184ee757dc33117b22371",
+      "previous_record": true,
+      "propositions": [
+        "P1a",
+        "P1c",
+        "P3b"
+      ],
+      "authors": [
+        "C.P. Chu",
+        "D.G. Tsai",
+        "D.J. Lee",
+        "J.H. Tay"
+      ],
+      "year": "2005",
+      "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/evidence/SG-7E776DC9CBE3.md"
+    },
+    "locator": "PDF p2–6；Table1、Fig1–3、§3.4"
   },
   {
     "id": "SG-0707F230B2EA",
@@ -20927,7 +21004,7 @@
     },
     "status": "摘要初筛",
     "scope_decision": "专题相关（摘要层面）",
-    "reading_depth": "完整正式PubMed摘要",
+    "reading_depth": "复用完整缓存摘要字段；正文未读",
     "source_role": "在线结果；新身份待筛选",
     "old_scope_judgment_changed": false,
     "source_links": [
@@ -20947,7 +21024,22 @@
     "actual_finding": "3D-FISH摘要报告菌间距5.30降至0.29 µm，最大可能H2通量1.1升至10.3 nmol ml^-1 min^-1",
     "author_interpretation_and_alternatives": "距离来自图像；通量为计算上限、不是实测通量或絮体间交换；只有摘要/出版社摘要页",
     "abstract_completeness": "已读官方AbstractText字段全部文字；不等于正文",
-    "reviewer": "model reading; not independent dual-human screening"
+    "reviewer": "model reading; not independent dual-human screening",
+    "before_rescreen_20261101": {
+      "reading_depth": "完整正式PubMed摘要",
+      "status": "摘要初筛"
+    },
+    "rescreen_20261101": {
+      "id": "SG-52CE8A5581BA",
+      "title": "Interspecies distances between propionic acid degraders and methanogens in syntrophic consortia for optimal hydrogen transfer.",
+      "basis": "复用完整缓存摘要字段",
+      "abstract": "A mixed culture from an anaerobic biowaste digester was enriched on propionate and used to investigate interspecies hydrogen transfer in dependence of spatial distances between propionate degraders and methanogens. From 20.3 mM propionate, 20.8 mM acetate and 15.5 mM methane were formed. Maximum specific propionate oxidation and methane formation rates were 49 and 23 mmol mg(-1) day(-1), respectively. Propionate oxidation was inhibited by only 20 mM acetate by about 50 %. Intermediate formate formation during inhibited methanogensis was observed. The spatial distribution and the biovolume fraction of propionate degraders and of methanogens in relation to the total population during aggregate formation were determined. Measurements of interbacterial distances were conducted with fluorescence in situ hybridization by application of group-specific 16S rRNA-targeted probes and 3D image analyses. With increasing incubation time, floc formation and growth up to 54 μm were observed. Propionate degraders and methanogens were distributed randomly in the flocs. The methanogenic biovolume fraction was high at the beginning and remained constant over 42 days, whereas the fraction of propionate degraders increased with time during propionate feeding. Interbacterial distances between propionate degraders and methanogens decreased with time from 5.30 to 0.29 μm, causing an increase of the maximum possible hydrogen flux from 1.1 to 10.3 nmol ml(-1) min(-1). The maximum possible hydrogen flux was always higher than the hydrogen formation and consumption rate, indicating that reducing the interspecies distance by aggregation is advantageous in complex ecosystems.",
+      "finding": "3D FISH菌间距5.30→0.29 µm；H₂最大可能通量1.1→10.3为计算上限",
+      "boundary": "完整正式摘要复用；不是实测菌间流量，温度/3D距离定义待正文。",
+      "source_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/literature_master.json",
+      "decision": "AD互营距离证据",
+      "prior_scope_preserved": "专题相关（摘要层面）"
+    }
   },
   {
     "id": "SG-625DB329D53B",
@@ -24162,9 +24254,9 @@
       "raw_path": "raw/online/PubMed/Q05_fetch_0_0a5f39e6e6e0421159e4.xml",
       "record_locator": "PubmedArticle[PMID=17489272]"
     },
-    "status": "摘要初筛",
+    "status": "全文方法/结果/讨论核实；附件缺口单列",
     "scope_decision": "方法参照",
-    "reading_depth": "完整正式PubMed摘要",
+    "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
     "source_role": "在线结果；新身份待筛选",
     "old_scope_judgment_changed": false,
     "source_links": [
@@ -24176,10 +24268,48 @@
     ],
     "packet_index": 143,
     "screened_utc": "2026-10-30T12:20:32.896060+00:00",
-    "actual_finding": "6个活性污泥絮体的O2剖面；大颗粒中心可近零，小颗粒可非零平台",
-    "author_interpretation_and_alternatives": "非AD；模型对小絮体失配，不能一律套均质球扩散",
+    "actual_finding": "大絮体DO可近零，小絮体约1–1.1 mm在较高外DO下中心出现非零平台，球模型无法再现；D样本内部亦有失配。低DO核不是絮体必然属性（Fig5–10；p8–11）。",
+    "author_interpretation_and_alternatives": "重复插入会造通道改变剖面，故仅首次插入；小絮体平台可来自结构/密度、额外传输或电极扰动，作者未判定唯一机制。不能把模型失配直接认定孔道对流，也无EPS因果证据。",
     "abstract_completeness": "已读官方AbstractText字段全部文字；不等于正文",
-    "reviewer": "model reading; not independent dual-human screening"
+    "reviewer": "model reading; not independent dual-human screening",
+    "before_upload_review_20261101": {
+      "reading_depth": "完整正式PubMed摘要",
+      "status": "摘要初筛",
+      "actual_finding": "6个活性污泥絮体的O2剖面；大颗粒中心可近零，小颗粒可非零平台",
+      "author_interpretation_and_alternatives": "非AD；模型对小絮体失配，不能一律套均质球扩散",
+      "locator": null
+    },
+    "upload_review_20261101": {
+      "id": "SG-A509A75F5507",
+      "doi": "10.2175/106143006x111835",
+      "title": "Diffusion of Oxygen Through Activated Sludge Flocs: Experimental Measurement, Modeling, and Implications for Simultaneous Nitrification and Denitrification",
+      "author_year": "Daigger et al., 2007",
+      "role": "可迁移的非AD方法证据",
+      "methods_and_resolution": "全规模活性污泥六个活性絮体剖面、四次样本；直接Clark O₂微电极10–40 µm，定位步长5/10 µm，响应0.1–20 s；步长不是尖端分辨率。没有EPS量/分子组成或微生物FISH定位（p2–3）。",
+      "conditions": "22±2°C，流速0.8 cm/min，平衡50 min后测；Table5半径0.5–2.0 mm、主体DO0.74–6.1 mg/L，甲醇/氨为特定合成供料。正文概述的0.25–3 mm粒径与Table5范围不完全一致，引用具体实验须以Table5列值标明（p3/7）。",
+      "finding": "大絮体DO可近零，小絮体约1–1.1 mm在较高外DO下中心出现非零平台，球模型无法再现；D样本内部亦有失配。低DO核不是絮体必然属性（Fig5–10；p8–11）。",
+      "parameters_and_inference": "球形多底物反应扩散模型，忽略边界层，D主要借文献（Table2 O₂=1.025 cm²/d）；只调异养菌浓度拟合，不能把借入D或拟合菌量称独立实测。模型只用O₂剖面验证，脱氮通量未直接验证（p1–4）。",
+      "boundary": "重复插入会造通道改变剖面，故仅首次插入；小絮体平台可来自结构/密度、额外传输或电极扰动，作者未判定唯一机制。不能把模型失配直接认定孔道对流，也无EPS因果证据。",
+      "locator": "PDF p2–3、7–12；Table2/5、Fig5–10",
+      "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
+      "original_path": "scientific_guide/NewPart1Articles/Water Environment Research - 2007 - Daigger - Diffusion of Oxygen Through Activated Sludge Flocs  Experimental Measurement .pdf",
+      "text_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/texts/8ee5dd02b91d3f7e.json",
+      "sha256": "8ee5dd02b91d3f7ef9f3e717bde9f5c57266a792a63d96de6aff7753a99b9c20",
+      "previous_record": true,
+      "propositions": [
+        "P1a",
+        "P1c",
+        "P3b"
+      ],
+      "authors": [
+        "Glen T. Daigger",
+        "Craig D. Adams",
+        "Holley Kaempfer Steller"
+      ],
+      "year": "2007",
+      "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/evidence/SG-A509A75F5507.md"
+    },
+    "locator": "PDF p2–3、7–12；Table2/5、Fig5–10"
   },
   {
     "id": "R12793",
@@ -82498,7 +82628,7 @@
     "already_spatial_initial_screened": false,
     "status": "未开始在线结果筛选",
     "scope_decision": "尚未判断，数据库命中不等于相关/纳入",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "reading_depth": "复用完整缓存摘要字段；正文未读",
     "source_role": "在线结果；新身份待筛选",
     "old_scope_judgment_changed": false,
     "source_links": [
@@ -82507,7 +82637,22 @@
         "id": "https://openalex.org/W2901610196",
         "identity_field": "record_locator"
       }
-    ]
+    ],
+    "before_rescreen_20261101": {
+      "reading_depth": "未读；仅取回元数据/摘要",
+      "status": "未开始在线结果筛选"
+    },
+    "rescreen_20261101": {
+      "id": "SG-17EA4C20E788",
+      "title": "Nuclear magnetic resonance studies of biofilm - porous media systems",
+      "basis": "复用完整缓存摘要字段",
+      "abstract": "Nuclear magnetic resonance (NMR) allows for in-situ non-invasive studies of opaque systems over a wide range of length and time scales, making the method uniquely suited to studies of biofilms and porous media. The research comprising this thesis uses NMR to explore biophysical, chemical, and transport properties within heterogeneous porous media systems at both a macro- and micro-scale. The macro-scale projects validate a low-field borehole NMR instrument to monitor field-scale environmental engineering applications like subsurface biofilms and microbially-induced calcite precipitation (MICP). Subsurface biofilms are central to bioremediation of chemical contaminants in soil and groundwater whereby micro-organisms degrade or sequester environmental pollutants like nitrate, hydrocarbons, chlorinated solvents and heavy metals. When composed of ureolytic microbes, subsurface biofilms can also induce calcite precipitation. MICP has engineering applications that include soil stabilization and subsurface barriers, as well as sealing of cap rocks and well-bore regions for carbon dioxide sequestration. To meet the design goals of these beneficial applications, subsurface biofilms and MICP must be monitored over space and time - a challenging task with traditional methods. The low-field borehole NMR tool recorded changes in the T 2 relaxation distribution where enhanced relaxation indicated biofilm accumulation in a sand bioreactor and in subsurface soil. Additionally, the tool was able to detect MICP in a sand bioreactor. The changed mineral surface of the sand lead to an increase in T 2 relaxation times. The complementary high-field NMR project investigated micro-scale internal structures and mass transport within biofilm granules used for wastewater treatment. Granular sludge, composed of spherical aggregates of biofilm grown without a carrier, is an innovative biological treatment method with the potential to vastly reduce the cost of wastewater treatment without sacrificing efficiency. Large gaps remain, however, in our understanding of the fundamental formation mechanisms and the factors that control granule activity and stability. Magnetic resonance imaging (MRI) identified heterogeneous internal structures within aerobic granular sludge where relaxation rates and diffusion coefficients vary. Ultimately, these results will help improve modeling for optimization of granular sludge wastewater treatment process design.",
+      "finding": "NMR学位论文涵盖颗粒MRI及传输，保留作为方法背景",
+      "boundary": "摘要覆盖多种尺度，不是直接O₂微剖面或EPS独立干预；论文全文未读。",
+      "source_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/literature_master.json",
+      "decision": "可迁移方法证据",
+      "prior_scope_preserved": "尚未判断，数据库命中不等于相关/纳入"
+    }
   },
   {
     "id": "SG-02ADBEC6ACD0",
@@ -296434,7 +296579,7 @@
     "already_spatial_initial_screened": false,
     "status": "题名已阅待摘要",
     "scope_decision": "待正式摘要",
-    "reading_depth": "仅题名；未返回摘要",
+    "reading_depth": "完整官方摘要；正文未读",
     "source_role": "在线结果；新身份待筛选",
     "old_scope_judgment_changed": false,
     "source_links": [
@@ -296449,7 +296594,22 @@
     "actual_finding": "题名为活性污泥絮体微电极剖面",
     "author_interpretation_and_alternatives": "无返回摘要；方法参照待核",
     "abstract_completeness": "无正式完整摘要可核；继续补齐",
-    "reviewer": "model reading; not independent dual-human screening"
+    "reviewer": "model reading; not independent dual-human screening",
+    "before_rescreen_20261101": {
+      "reading_depth": "仅题名；未返回摘要",
+      "status": "题名已阅待摘要"
+    },
+    "rescreen_20261101": {
+      "id": "SG-66E719E38CD9",
+      "title": "Micro-profiles of activated sludge floc determined using microelectrodes",
+      "basis": "完整官方摘要",
+      "abstract": "The microbial activity within activated sludge floc is a key factor in the performance of the activated sludge process. In this study, the microenvironment of activated sludge flocs from two wastewater treatment plants (Mill Creek Wastewater Treatment Plant and Muddy Creek Wastewater Treatment Plant, with aeration tank influent CODs of 60-120 and 15-35 mg/L, respectively) were studied by using microelectrodes. Due to microbial oxygen utilization, the aerobic region in the activated sludge floc was limited to the surface layer (0.1-0.2mm) of the sludge aggregate at the Mill Creek plant. The presence of an anoxic zone inside the sludge floc under aerobic conditions was confirmed in this study. When the dissolved oxygen (DO) in the bulk liquid was higher than 4.0mg/L, the anoxic zone inside the activated sludge floc disappeared, which is helpful for biodegradation. At the Muddy Creek plant, with its lower wastewater pollutant concentrations, the redox potential and DO inside the sludge aggregates were higher than those at the Mill Creek plant. The contaminant concentration in the bulk wastewater correlates with the oxygen utilization rate, which directly influences the oxygen penetration inside the activated sludge floc, and results in redox potential changes within the floc. The measured microprofiles revealed the continuous decrease of nitrate concentration inside the activated sludge floc, even though significant nitrification was observed in the bulk wastewater. The oxygen consumption and nitrification rate analyses reveal that the increase of ammonia flux under aerobic conditions correlates with nitrification. Due to the metabolic mechanisms of the microorganisms in activated sludge floc, which varies from one treatment plant to another, the oxygen flux inside the sludge floc changes accordingly.",
+      "finding": "主体DO>4 mg/L时无氧区消失，0.1–0.2 mm有氧表层依赖进水COD及耗氧；跨厂不能固定穿透深度",
+      "boundary": "直接微电极的正式摘要；粒径/温度/电极细节待正文。",
+      "source_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/SG-66E719E38CD9.json",
+      "decision": "可迁移方法证据",
+      "prior_scope_preserved": "待正式摘要"
+    }
   },
   {
     "id": "SG-F7C778FA2DFF",
@@ -300588,7 +300748,7 @@
     "already_spatial_initial_screened": false,
     "status": "未开始在线结果筛选",
     "scope_decision": "尚未判断，数据库命中不等于相关/纳入",
-    "reading_depth": "未读；仅取回元数据/摘要",
+    "reading_depth": "完整官方摘要；正文未读",
     "source_role": "在线结果；新身份待筛选",
     "old_scope_judgment_changed": false,
     "source_links": [
@@ -300597,7 +300757,22 @@
         "id": "https://openalex.org/W2066211142",
         "identity_field": "record_locator"
       }
-    ]
+    ],
+    "before_rescreen_20261101": {
+      "reading_depth": "未读；仅取回元数据/摘要",
+      "status": "未开始在线结果筛选"
+    },
+    "rescreen_20261101": {
+      "id": "SG-6E33DBD11D46",
+      "title": "Micro-environment characteristics and microbial communities in activated sludge flocs of different particle size",
+      "basis": "完整官方摘要",
+      "abstract": "Microorganisms in activated sludge flocs (ASF) play important roles in the wastewater treatment process. However, the interplay between micro-environmental variation and microbial responses within ASF is poorly understood. In this study, microelectrodes and molecular culture-independent techniques were applied to detect the internal environment, microbial composition, and distribution in flocs with different particle size. Results showed dissolved oxygen (DO) concentrations within the center of the flocs were less than at the surface, and the DO concentration distributions were distinct in flocs of different particle size. With floc particle size increasing from 100 to 250 μm, the DO concentrations in the floc centers decreased 10-55%, respectively, while no distinct change was observed in flocs of less than 100 μm. Similar phenomenon occurred for the distributions of NH(4)(+) and NO(3)(-) in flocs. Microbial structure indicated bacterial compositions and distributions were heterogeneous and responded to micro-environment variation in flocs of different particle size.",
+      "finding": "粒径100→250 µm中心DO下降10–55%，<100 µm未见明显变化；组成和环境异质性相关",
+      "boundary": "正式摘要支持；不能把粒径相关全部归EPS。",
+      "source_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/SG-6E33DBD11D46.json",
+      "decision": "可迁移方法证据",
+      "prior_scope_preserved": "尚未判断，数据库命中不等于相关/纳入"
+    }
   },
   {
     "id": "SG-603EEF6F3B46",
@@ -302877,7 +303052,7 @@
     "already_spatial_initial_screened": false,
     "status": "题名已阅待摘要",
     "scope_decision": "待正式摘要",
-    "reading_depth": "仅题名；未返回摘要",
+    "reading_depth": "完整官方摘要；正文未读",
     "source_role": "在线结果；新身份待筛选",
     "old_scope_judgment_changed": false,
     "source_links": [
@@ -302892,7 +303067,22 @@
     "actual_finding": "题名为异质活性好氧颗粒氧扩散/耗氧",
     "author_interpretation_and_alternatives": "无返回摘要，非产甲烷AD；保持待核",
     "abstract_completeness": "无正式完整摘要可核；继续补齐",
-    "reviewer": "model reading; not independent dual-human screening"
+    "reviewer": "model reading; not independent dual-human screening",
+    "before_rescreen_20261101": {
+      "reading_depth": "仅题名；未返回摘要",
+      "status": "题名已阅待摘要"
+    },
+    "rescreen_20261101": {
+      "id": "SG-47E08464D7E8",
+      "title": "Oxygen diffusion and consumption in active aerobic granules of heterogeneous structure",
+      "basis": "完整官方摘要",
+      "abstract": "The interior structure of aerobic granules is highly heterogeneous, hence, affecting the transport and reaction processes in the granules. The granule structure and the dissolved oxygen profiles were probed at the same granule in the current work for possible estimation of transport and kinetic parameters in the granule. With the tested granules fed by phenol or acetate as carbon source, most inflow oxygen was consumed by an active layer thickness of less than 125 microm on the granule surface. The confocal laser scanning microscopy scans also revealed a surface layer thickness of approximately 100 microm consisting of cells. The diffusivities of oxygen transport and the kinetic constant of oxygen consumption in the active layers only were evaluated. The theoretical models adopted in literature that ignored the contributions of the layered structure of aerobic granule could have overlooked the possible limitations on oxygen transport.",
+      "finding": "活性表层<125 µm消耗大部分O₂，CLSM细胞层约100 µm；强调分层模型",
+      "boundary": "同作者同期相似体系，非独立跨实验室重复；DOI不同，不能并成上传Chiu文章。",
+      "source_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/SG-47E08464D7E8.json",
+      "decision": "可迁移方法证据",
+      "prior_scope_preserved": "待正式摘要"
+    }
   },
   {
     "id": "SG-E21DFE74003F",
@@ -310815,7 +311005,7 @@
     "already_spatial_initial_screened": false,
     "status": "摘要初筛",
     "scope_decision": "综述/观点导航",
-    "reading_depth": "完整返回OpenAlex重建摘要；未核正文",
+    "reading_depth": "完整官方PubMed摘要；正文未读",
     "source_role": "在线结果；新身份待筛选",
     "old_scope_judgment_changed": false,
     "source_links": [
@@ -310830,7 +311020,18 @@
     "actual_finding": "综述区分有效扩散渗透率和瞬态非反应性扩散系数，并按溶质/密度分类",
     "author_interpretation_and_alternatives": "相对比0.56/0.43/0.29为跨文献类别均值，不给任意AD颗粒直接赋常数",
     "abstract_completeness": "完整已返回字段已读；重建来源不保证等同正式完整摘要",
-    "reviewer": "model reading; not independent dual-human screening"
+    "reviewer": "model reading; not independent dual-human screening",
+    "rescreen_20261101": {
+      "id": "SG-7F5A16A6C6BB",
+      "title": "A review of experimental measurements of effective diffusive permeabilities and effective diffusion coefficients in biofilms",
+      "basis": "完整官方PubMed摘要",
+      "abstract": "Experimental measurements of effective diffusive permeabilities and effective diffusion coefficients in biofilms are reviewed. Effective diffusive permeabilities, the parameter appropriate to the analysis of reaction-diffusion interactions, depend on solute type and biofilm density. Three categories of solute physical chemistry with distinct diffusive properties were distinguished by the present analysis. In order of descending mean relative effective diffusive permeability (De/Daq) these were inorganic anions or cations (0.56), nonpolar solutes with molecular weights of 44 or less (0.43), and organic solutes of molecular weight greater than 44 (0.29). Effective diffusive permeabilities decrease sharply with increasing biomass volume fraction suggesting a serial resistance model of diffusion in biofilms as proposed by Hinson and Kocher (1996). A conceptual model of biofilm structure is proposed in which each cell is surrounded by a restricted permeability envelope. Effective diffusion coefficients, which are appropriate to the analysis of transient penetration of nonreactive solutes, are generally similar to effective diffusive permeabilities in biofilms of similar composition. In three studies that examine diffusion of very large molecular weight solutes (>5000) in biofilms, the average ratio of the relative effective diffusion coefficient of the large solute to the relative effective diffusion coefficient of either sucrose or fluorescein was 0.64, 0.61, and 0.36. It is proposed that large solutes are effectively excluded from microbial cells, that small solutes partition into and diffuse within cells, and that ionic solutes are excluded from cells but exhibit increased diffusive permeability (but decreased effective diffusion coefficients) due to sorption to the biofilm matrix.",
+      "finding": "有效扩散渗透性用于反应扩散、有效扩散系数用于非反应瞬态；参数依溶质类别与密度而变",
+      "boundary": "综述汇总并非单次AD O₂实测；0.43等平均值不能套用微曝气AD",
+      "source_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/Q1.json",
+      "decision": "可迁移理论参照",
+      "prior_scope_preserved": "综述/观点导航"
+    }
   },
   {
     "id": "SG-FEBDD95EA925",
@@ -314361,5 +314562,469 @@
         "identity_field": "record_locator"
       }
     ]
+  },
+  {
+    "id": "SG-F50088B1CF31",
+    "title": "Oxygen diffusion in active layer of aerobic granule with step change in surrounding oxygen levels",
+    "doi": "10.1016/j.watres.2006.11.035",
+    "authors": [
+      "Z.C. Chiu",
+      "M.Y. Chen",
+      "D.J. Lee",
+      "C.H. Wang",
+      "J.Y. Lai"
+    ],
+    "year": "2007",
+    "journal": "Water Research",
+    "status": "全文方法/结果/讨论核实；附件缺口单列",
+    "scope_decision": "可迁移的非AD方法证据",
+    "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
+    "source_role": "用户上传全文补建记录",
+    "old_scope_judgment_changed": false,
+    "upload_review_20261101": {
+      "id": "SG-F50088B1CF31",
+      "doi": "10.1016/j.watres.2006.11.035",
+      "title": "Oxygen diffusion in active layer of aerobic granule with step change in surrounding oxygen levels",
+      "author_year": "Chiu et al., 2007",
+      "role": "可迁移的非AD方法证据",
+      "methods_and_resolution": "活性苯酚/乙酸好氧颗粒；O₂从主体液相经外膜进入颗粒活性层。CLSM五重染色定位细胞/蛋白/多糖，60 µm冷冻切片，10×/20×物镜；没有已报告的光学点扩散分辨率。O₂电极尖端10 µm、定位优于20 µm、响应<3 s、10 s采样（PDF p2–3 §2；Fig1）。",
+      "conditions": "苯酚颗粒1.7 mm、乙酸颗粒3.1 mm；上流约2.4–2.5 mm/s。苯酚体系主体250–270或120–150 µM；乙酸300–310或90–100 µM。约100–300 s达到另一个稳态；图2/5展示约1800 s阶跃。模型用20°C水的Sc，实验绝对温度未独立明示，不能把该模型常数写成培养温度（p3、5、8）。",
+      "finding": "直接O₂剖面显示活性表层消耗使低DO难以进入内部；苯酚体系高DO时约200 µm以下近零、降低外DO后125 µm即近零。乙酸体系也随外DO/时间改变活性层。没有通用“临界粒径”（p3–6 Fig2–7）。",
+      "parameters_and_inference": "一维平板活性层、一级反应；仅稳态不能独立识别Dapp和k，加入瞬态拟合才约束参数。p8讨论及结论给乙酸Dapp=(9.5±3.5)e−10 m²/s、苯酚=(3.5±1.0)e−10；k分别0.04±0.03、0.055±0.025 s−1。kc约1.73e−5/1.54e−5 m/s来自Sherwood经验式，不是独立实测（Eq1–9、Fig8）。",
+      "boundary": "EPS与细胞共定位，没有EPS去除/恢复干预；低氧不能独归EPS。摘要将前一D值也写成phenol-fed，与p8及结论冲突，以正文对应为准。薄层平板近似和一级反应只适用于本文条件，非AD参数。",
+      "locator": "PDF p3–8；Fig2/5（动态DO）、Fig4/7（结构）、Fig8（参数非唯一性）",
+      "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
+      "original_path": "scientific_guide/NewPart1Articles/1-s2.0-S0043135406006440-main.pdf",
+      "text_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/texts/ccc449e5f3b63f3b.json",
+      "sha256": "ccc449e5f3b63f3bc26fb131b4787728ed0f9569ac81d43b57ce5c99b3884e12",
+      "previous_record": false,
+      "propositions": [
+        "P1a",
+        "P1c",
+        "P3b"
+      ],
+      "authors": [
+        "Z.C. Chiu",
+        "M.Y. Chen",
+        "D.J. Lee",
+        "C.H. Wang",
+        "J.Y. Lai"
+      ],
+      "year": "2007",
+      "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/evidence/SG-F50088B1CF31.md"
+    },
+    "actual_finding": "直接O₂剖面显示活性表层消耗使低DO难以进入内部；苯酚体系高DO时约200 µm以下近零、降低外DO后125 µm即近零。乙酸体系也随外DO/时间改变活性层。没有通用“临界粒径”（p3–6 Fig2–7）。",
+    "author_interpretation_and_alternatives": "EPS与细胞共定位，没有EPS去除/恢复干预；低氧不能独归EPS。摘要将前一D值也写成phenol-fed，与p8及结论冲突，以正文对应为准。薄层平板近似和一级反应只适用于本文条件，非AD参数。",
+    "locator": "PDF p3–8；Fig2/5（动态DO）、Fig4/7（结构）、Fig8（参数非唯一性）"
+  },
+  {
+    "id": "SG-5A7F7394666B",
+    "title": "Oxygen transfer dynamics and activated sludge floc structure under different sludge retention times at low dissolved oxygen concentrations",
+    "doi": "10.1016/j.chemosphere.2016.10.137",
+    "authors": [
+      "Haitao Fan",
+      "Xiuhong Liu",
+      "Hao Wang",
+      "Yunping Han",
+      "Lu Qi",
+      "Hongchen Wang"
+    ],
+    "year": "2017",
+    "journal": "Chemosphere",
+    "status": "全文方法/结果/讨论核实；附件缺口单列",
+    "scope_decision": "可迁移的非AD方法证据",
+    "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
+    "source_role": "用户上传全文补建记录",
+    "old_scope_judgment_changed": false,
+    "upload_review_20261101": {
+      "id": "SG-5A7F7394666B",
+      "doi": "10.1016/j.chemosphere.2016.10.137",
+      "title": "Oxygen transfer dynamics and activated sludge floc structure under different sludge retention times at low dissolved oxygen concentrations",
+      "author_year": "Fan et al., 2017",
+      "role": "可迁移的非AD方法证据",
+      "methods_and_resolution": "活性污泥絮体，非AD；氧微电极剖面、激光粒度、2D显微图像分形维数、热提EPS。二维紧凑度不是3D孔隙度；10 µm深度间隔不是独立成像分辨率（§2–3）。",
+      "conditions": "SRT 10/17.5/25/35 d；长期低DO约0.5 mg/L条件至少三个SRT；用于剖面比较的250–300 µm絮体置于1.5–2 mg/L DO，不能误写成在0.5 mg/L测到无氧核（p6 §3.2）。",
+      "finding": "Fig3/§3.2显示表面约1.75–1.76 mg/L，中心附近1.47–1.57 mg/L；作者明确未出现anoxic zone。长SRT的单位MLSS EPS由0.289降至0.101 mg/mg，MLSS升高，粒径分布和菌量同时变化（Table2、Fig3–4）。",
+      "parameters_and_inference": "文中oxygen diffusion rate 0.0023–0.0032 mg/(µm·L)是浓度梯度量纲，不是m²/s扩散系数，也非kLa。2D分形维数1.23/1.25/1.31/1.30，SVI等为结构/沉降指标，无独立Deff拟合（p7、9 Fig5–6）。",
+      "boundary": "作者用we speculate描述EPS阻力解释；没有单独EPS操纵或分开耗氧反应。p7关于depletion随SRT增强的文字与给出的0.30→0.18数值相反，p9关于分形/粒径方向也有矛盾；不照抄方向。Table2若干组分/归一化字段需原数据澄清。",
+      "locator": "PDF p6–9；Fig3、Table2、Fig4–6",
+      "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
+      "original_path": "scientific_guide/NewPart1Articles/1-s2.0-S0045653516315284-main.pdf",
+      "text_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/texts/eddfd30b2e265ac5.json",
+      "sha256": "eddfd30b2e265ac5e3d7b2e8273f7ecf20807158644b48c4b0204c27c930de4b",
+      "previous_record": false,
+      "propositions": [
+        "P1a",
+        "P1c",
+        "P3b"
+      ],
+      "authors": [
+        "Haitao Fan",
+        "Xiuhong Liu",
+        "Hao Wang",
+        "Yunping Han",
+        "Lu Qi",
+        "Hongchen Wang"
+      ],
+      "year": "2017",
+      "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/evidence/SG-5A7F7394666B.md"
+    },
+    "actual_finding": "Fig3/§3.2显示表面约1.75–1.76 mg/L，中心附近1.47–1.57 mg/L；作者明确未出现anoxic zone。长SRT的单位MLSS EPS由0.289降至0.101 mg/mg，MLSS升高，粒径分布和菌量同时变化（Table2、Fig3–4）。",
+    "author_interpretation_and_alternatives": "作者用we speculate描述EPS阻力解释；没有单独EPS操纵或分开耗氧反应。p7关于depletion随SRT增强的文字与给出的0.30→0.18数值相反，p9关于分形/粒径方向也有矛盾；不照抄方向。Table2若干组分/归一化字段需原数据澄清。",
+    "locator": "PDF p6–9；Fig3、Table2、Fig4–6"
+  },
+  {
+    "id": "SG-3FC896322929",
+    "title": "Kinetics and mass-transfer phenomena in anaerobic granular sludge",
+    "doi": "10.1002/bit.1044",
+    "authors": [
+      "G. Gonzalez‐Gil",
+      "L. Seghezzo",
+      "G. Lettinga",
+      "R. Kleerebezem"
+    ],
+    "year": "2001",
+    "journal": "Biotechnology and Bioengineering",
+    "status": "全文方法/结果/讨论核实；附件缺口单列",
+    "scope_decision": "AD直接证据（乙酸转化/反应扩散）",
+    "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
+    "source_role": "用户上传全文补建记录",
+    "old_scope_judgment_changed": false,
+    "upload_review_20261101": {
+      "id": "SG-3FC896322929",
+      "doi": "10.1002/bit.1044",
+      "title": "Kinetics and mass-transfer phenomena in anaerobic granular sludge",
+      "author_year": "González-Gil et al., 2001",
+      "role": "AD直接证据（乙酸转化/反应扩散）",
+      "methods_and_resolution": "啤酒废水EGSB产甲烷颗粒，筛分完整颗粒和搅碎<200 µm污泥；非O₂研究。在线甲烷产气与乙酸GC用于拟合；无颗粒内气体直接微剖面，无EPS独立操纵（p2–3）。",
+      "conditions": "30±1°C、pH6.8–7.2、乙酸初始2 g COD/L、连续四次投料；粒径2.39±0.09/2.88±0.26/3.52±0.28 mm，Vup 3/10/15 m/h组合（p2–3、6–7 TableII）。",
+      "finding": "增大粒径提高表观Ks，增大Vup在测试范围内无显著改善；碎样Ks=32±10，完整约3.5 mm颗粒208±35 g COD/m³（p5–6 Fig2、4–5）。外膜不是所有系统都可忽略，模型低kf或低流速仍可能受限（p7–8）。",
+      "parameters_and_inference": "球形径向Fick+Monod动态模型，初始活性均一、固定粒径、常数D。乙酸水D=0.00013 m²/d借Flora；相对有效D α=0.3±0.1或0.4±0.2由产甲烷曲线拟合；kf经验式算得。CH₄内剖面Fig9是假设DCH4=Dacetate且完全转化计算，不是实测CH₄扩散（p4–9 TableI–III）。",
+      "boundary": "本文常数α可解释多条件数据，未见气泡对流增强证据；这不证明所有AD颗粒无内部对流。作者亦指出小颗粒/低活性下动力学可能主导。不可把其乙酸α当O₂/H₂/CH₄系数，或把Fig9当显微气泡证据。",
+      "locator": "PDF p5–9；Fig4–9、TableI–III、模型假设p4",
+      "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
+      "original_path": "scientific_guide/NewPart1Articles/Biotech   Bioengineering - 2001 - Gonzalez‐Gil - Kinetics and mass‐transfer phenomena in anaerobic granular sludge.pdf",
+      "text_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/texts/58251172202e3743.json",
+      "sha256": "58251172202e3743de2966d96e36a4206b828590f2c6eeedc17f8ade7835b72f",
+      "previous_record": false,
+      "propositions": [
+        "P1a",
+        "P1c",
+        "P3b"
+      ],
+      "authors": [
+        "G. Gonzalez‐Gil",
+        "L. Seghezzo",
+        "G. Lettinga",
+        "R. Kleerebezem"
+      ],
+      "year": "2001",
+      "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/evidence/SG-3FC896322929.md"
+    },
+    "actual_finding": "增大粒径提高表观Ks，增大Vup在测试范围内无显著改善；碎样Ks=32±10，完整约3.5 mm颗粒208±35 g COD/m³（p5–6 Fig2、4–5）。外膜不是所有系统都可忽略，模型低kf或低流速仍可能受限（p7–8）。",
+    "author_interpretation_and_alternatives": "本文常数α可解释多条件数据，未见气泡对流增强证据；这不证明所有AD颗粒无内部对流。作者亦指出小颗粒/低活性下动力学可能主导。不可把其乙酸α当O₂/H₂/CH₄系数，或把Fig9当显微气泡证据。",
+    "locator": "PDF p5–9；Fig4–9、TableI–III、模型假设p4"
+  },
+  {
+    "id": "SG-BB2BC527534B",
+    "title": "Heterogeneous diffusion in aerobic granular sludge",
+    "doi": "10.1002/bit.27522",
+    "authors": [
+      "Lenno van den Berg",
+      "Catherine M. Kirkland",
+      "Joseph D. Seymour",
+      "Sarah L. Codd",
+      "Mark C. M. van Loosdrecht",
+      "Merle K. de Kreuk"
+    ],
+    "year": "2020",
+    "journal": "Biotechnology and Bioengineering",
+    "status": "全文方法/结果/讨论核实；附件缺口单列",
+    "scope_decision": "可迁移的非AD方法证据",
+    "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
+    "source_role": "用户上传全文补建记录",
+    "old_scope_judgment_changed": false,
+    "upload_review_20261101": {
+      "id": "SG-BB2BC527534B",
+      "doi": "10.1002/bit.27522",
+      "title": "Heterogeneous diffusion in aerobic granular sludge",
+      "author_year": "van den Berg et al., 2020",
+      "role": "可迁移的非AD方法证据",
+      "methods_and_resolution": "三个全规模及两个实验室好氧颗粒源，1–3 mm；自来水清洗、4°C保存最长2个月，非固定、未作灭活实验。PFG-STE NMR实测水分子自扩散；MSME MRI T2图反映水环境而非直接氧浓度（p2–3）。",
+      "conditions": "室温约20°C；每NMR管约20–30颗、三重复；扩散时间40 ms。MRI方法写39×39×200 µm，而Fig2图注写39×39×100 µm，保留差异，不擅定真实z分辨率（p3/5）。",
+      "finding": "水主要可动组分D=1.32–1.44e−9 m²/s，约自由水0.65–0.71；约5%较慢组分与细胞内水解释相关。结构T2异质性与D无明确相关，ADC空间图因短T2信号丢失未成功（Table2、Fig2–3、p7–8）。",
+      "parameters_and_inference": "COMSOL二维轴对称稳态O₂模型：半径0.55 mm、外DO2 g/m³、Monod参数借benchmark；D均值1.4e−9、相对SD10%，无对流。Fig4/§3.3报告各场景通量差<5%，摘要/结论写<1%，两种表述不一致；不能只写<1%为全场景硬界限（p4–6、9）。",
+      "boundary": "水自扩散不是直接O₂有效扩散，扩散率也非含排除体积的扩散渗透性。恒均值、小异质性模型不能否认强分层、表面低D或对流孔道的效应；EPS、细胞与无机物共同影响，T2非EPS专一量。补充FigS1–S8未随上传提供。",
+      "locator": "PDF p2–9；Table2、Fig2–4、§4.1–4.3",
+      "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
+      "original_path": "scientific_guide/NewPart1Articles/Biotech   Bioengineering - 2020 - Berg - Heterogeneous diffusion in aerobic granular sludge.pdf",
+      "text_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/texts/0a76a089236d69b4.json",
+      "sha256": "0a76a089236d69b497e98d8b712adfd40500b8f204824770dfe763d3835a9cbb",
+      "previous_record": false,
+      "propositions": [
+        "P1a",
+        "P1c",
+        "P3b"
+      ],
+      "authors": [
+        "Lenno van den Berg",
+        "Catherine M. Kirkland",
+        "Joseph D. Seymour",
+        "Sarah L. Codd",
+        "Mark C. M. van Loosdrecht",
+        "Merle K. de Kreuk"
+      ],
+      "year": "2020",
+      "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/evidence/SG-BB2BC527534B.md"
+    },
+    "actual_finding": "水主要可动组分D=1.32–1.44e−9 m²/s，约自由水0.65–0.71；约5%较慢组分与细胞内水解释相关。结构T2异质性与D无明确相关，ADC空间图因短T2信号丢失未成功（Table2、Fig2–3、p7–8）。",
+    "author_interpretation_and_alternatives": "水自扩散不是直接O₂有效扩散，扩散率也非含排除体积的扩散渗透性。恒均值、小异质性模型不能否认强分层、表面低D或对流孔道的效应；EPS、细胞与无机物共同影响，T2非EPS专一量。补充FigS1–S8未随上传提供。",
+    "locator": "PDF p2–9；Table2、Fig2–4、§4.1–4.3"
+  },
+  {
+    "id": "SG-94C5A948A56B",
+    "title": "Effect of Oxygen on Formation and Structure of Azotobacter vinelandii Alginate and Its Role in Protecting Nitrogenase",
+    "doi": "10.1128/aem.66.9.4037-4044.2000",
+    "authors": [
+      "W. Sabra",
+      "A.-P. Zeng",
+      "H. Lünsdorf",
+      "W.-D. Deckwer"
+    ],
+    "year": "2000",
+    "journal": "Applied and Environmental Microbiology",
+    "status": "全文方法/结果/讨论核实；附件缺口单列",
+    "scope_decision": "特定单菌/荚膜机制参照",
+    "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
+    "source_role": "用户上传全文补建记录",
+    "old_scope_judgment_changed": false,
+    "upload_review_20261101": {
+      "id": "SG-94C5A948A56B",
+      "doi": "10.1128/aem.66.9.4037-4044.2000",
+      "title": "Effect of Oxygen on Formation and Structure of Azotobacter vinelandii Alginate and Its Role in Protecting Nitrogenase",
+      "author_year": "Sabra et al., 2000",
+      "role": "特定单菌/荚膜机制参照",
+      "methods_and_resolution": "A. vinelandii磷限制无氮连续培养；细胞荚膜与释放海藻酸，非污泥聚集体。尾气O₂/CO₂衡算呼吸，GPC测相对分子量，组成分析，TEM表面和120 nm固定脱水树脂切片；切片厚度非实际显微分辨率（p2）。",
+      "conditions": "2.5 L工作体积、2 L/min供气、pO₂约1–20%空气饱和、D0.08–0.26 h−1；通常500 rpm，剪切实验300–1000 rpm、pO₂5%、D0.15 h−1。不能把空气饱和百分比当气相O₂百分比；本轮未核定培养温度（p2–3）。",
+      "finding": "高pO₂下呼吸率不再同步增加，而海藻酸分子量/G含量及荚膜致密程度改变；2.5%与20%空气饱和TEM形态不同。总量不随pO₂单调增大（Fig1–7）。",
+      "parameters_and_inference": "没有独立测得荚膜O₂ D/kf、胞内O₂或纯EPS氧通量。Fig8为作者提出的保护模型，呼吸衡算不是细胞内浓度测量（p4–7）。",
+      "boundary": "氧/搅拌操纵伴随生长、荚膜和传质共同改变，无去荚膜/恢复或遗传救援来独立识别EPS效应。作者p7明确仍需胞内O₂测量，也承认高pO₂下保护可能失效及营养阻碍；不能推广为所有AD EPS阻氧定律。",
+      "locator": "PDF p2–7；Fig1–5（量与质）、Fig6–7（形态）、Fig8（假说）",
+      "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
+      "original_path": "scientific_guide/NewPart1Articles/sabra-et-al-2000-effect-of-oxygen-on-formation-and-structure-ofazotobacter-vinelandii-alginate-and-its-role-in.pdf",
+      "text_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/texts/2054401518af7565.json",
+      "sha256": "2054401518af75655ede3c81a2b0a81fbb1f08b359d9fc3f7f00e142bdbe43bc",
+      "previous_record": false,
+      "propositions": [
+        "P1a",
+        "P1c",
+        "P3b"
+      ],
+      "authors": [
+        "W. Sabra",
+        "A.-P. Zeng",
+        "H. Lünsdorf",
+        "W.-D. Deckwer"
+      ],
+      "year": "2000",
+      "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/evidence/SG-94C5A948A56B.md"
+    },
+    "actual_finding": "高pO₂下呼吸率不再同步增加，而海藻酸分子量/G含量及荚膜致密程度改变；2.5%与20%空气饱和TEM形态不同。总量不随pO₂单调增大（Fig1–7）。",
+    "author_interpretation_and_alternatives": "氧/搅拌操纵伴随生长、荚膜和传质共同改变，无去荚膜/恢复或遗传救援来独立识别EPS效应。作者p7明确仍需胞内O₂测量，也承认高pO₂下保护可能失效及营养阻碍；不能推广为所有AD EPS阻氧定律。",
+    "locator": "PDF p2–7；Fig1–5（量与质）、Fig6–7（形态）、Fig8（假说）"
+  },
+  {
+    "id": "SG-F2E37D6B3A6E",
+    "title": "Oxygen Limitation within a Bacterial Aggregate",
+    "doi": "10.1128/mbio.00992-14",
+    "authors": [
+      "Aimee K. Wessel",
+      "Talha A. Arshad",
+      "Mignon Fitzpatrick",
+      "Jodi L. Connell",
+      "Roger T. Bonnecaze",
+      "Jason B. Shear",
+      "Marvin Whiteley"
+    ],
+    "year": "2014",
+    "journal": "mBio",
+    "status": "全文方法/结果/讨论核实；附件缺口单列",
+    "scope_decision": "特定单菌/模型材料机制参照",
+    "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
+    "source_role": "用户上传全文补建记录",
+    "old_scope_judgment_changed": false,
+    "upload_review_20261101": {
+      "id": "SG-F2E37D6B3A6E",
+      "doi": "10.1128/mbio.00992-14",
+      "title": "Oxygen Limitation within a Bacterial Aggregate",
+      "author_year": "Wessel et al., 2014",
+      "role": "特定单菌/模型材料机制参照",
+      "methods_and_resolution": "单克隆P. aeruginosa在3D打印多孔明胶微笼内生长；CLSM z系列/Imaris定位GFP低氧报告。制造层步长0.50 µm不等于成像分辨率；63×NA1.4，未给独立PSF测定（p6–7）。",
+      "conditions": "先37°C培养约7 h，再约25°C成像7–16 h；密度约10¹² cells/mL。约10 pL无明显报告，贴底55 pL有报告，同体积架高暴露底面后报告消失。微笼可随生长伸展，体积非固定阈值（Fig2/4）。",
+      "finding": "直接几何干预显示可扩散表面积/体积和附着不透氧边界影响局部低氧；低氧报告cbb3-2::gfp响应存在约1 h延迟，GFP成熟需O₂，不能判定零氧核心（p4–5/7）。",
+      "parameters_and_inference": "零级耗氧球模型Rmin=√(6DeSo/k0)；De=1.12e−5 cm²/s借文献，外O₂=8.24 mg/L取25°C纯水饱和假定，k0=46 mg/(L·s)由生长/密度和借入产率推算，非直接OUR测量。3D有限元加入玻璃底无通量；模拟最低DO与报告阈值有失配（Fig3–4 p3–7）。",
+      "boundary": "作者承认真实培养基溶解度、均一且不依赖DO的耗氧假定可能造成失配。报告信号不是定量O₂微剖面，非天然EPS因果证据。适合解释几何/边界，不能把55 pL或35 µm阈值移用于AD；FigS1–S3未上传。",
+      "locator": "PDF p2–7；Fig2（密度）、Fig3（模型）、Fig4（几何干预）",
+      "reading_depth": "全文方法、结果、讨论与关键图表；附件未提供",
+      "original_path": "scientific_guide/NewPart1Articles/wessel-et-al-2014-oxygen-limitation-within-a-bacterial-aggregate.pdf",
+      "text_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/texts/8063318de3424d9c.json",
+      "sha256": "8063318de3424d9c2481a402fa3dcd8c167866d985e316fe9cf82031f2b020b1",
+      "previous_record": false,
+      "propositions": [
+        "P1a",
+        "P1c",
+        "P3b"
+      ],
+      "authors": [
+        "Aimee K. Wessel",
+        "Talha A. Arshad",
+        "Mignon Fitzpatrick",
+        "Jodi L. Connell",
+        "Roger T. Bonnecaze",
+        "Jason B. Shear",
+        "Marvin Whiteley"
+      ],
+      "year": "2014",
+      "evidence_card": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/evidence/SG-F2E37D6B3A6E.md"
+    },
+    "actual_finding": "直接几何干预显示可扩散表面积/体积和附着不透氧边界影响局部低氧；低氧报告cbb3-2::gfp响应存在约1 h延迟，GFP成熟需O₂，不能判定零氧核心（p4–5/7）。",
+    "author_interpretation_and_alternatives": "作者承认真实培养基溶解度、均一且不依赖DO的耗氧假定可能造成失配。报告信号不是定量O₂微剖面，非天然EPS因果证据。适合解释几何/边界，不能把55 pL或35 µm阈值移用于AD；FigS1–S3未上传。",
+    "locator": "PDF p2–7；Fig2（密度）、Fig3（模型）、Fig4（几何干预）"
+  },
+  {
+    "title": "Structural, physicochemical and microbial properties of flocs and biofilms in integrated fixed-film activated sludge (IFFAS) systems.",
+    "authors": [
+      "Mahendran Basuvaraj",
+      "Lishman Lori",
+      "Liss Steven N"
+    ],
+    "year": 2012,
+    "pmid": "22832219",
+    "doi": "10.1016/j.watres.2012.05.058",
+    "journal": "Water research",
+    "abstract": "Integrated fixed-film activated sludge systems (IFFAS) may achieve year-round nitrification or gain additional treatment capacity due to the presence of both flocs and biofilms, and the potential for multiple redox states and long solids retention time. Flocs and biofilms are distinctive microbial structures and characterization of the physicochemical and structural properties of these may provide insight into their respective roles in wastewater treatment and contaminant removal in IFFAS. Flocs and biofilms were examined from five different pilot media systems being evaluated for potential full scale implementation at a large municipal wastewater treatment plant. Flocs and biofilms within the same system possessed different surface characteristics; flocs were found to have a higher negative surface charge (-0.35 to -0.65 meq./g VSS) and are more hydrophobic (60%-75%) than biofilms (-0.05 to -0.07 meq/g VSS; 19-34%). The EPS content of flocs was significantly higher (range of 2.1-4.5 folds) than that of biofilms. In floc-derived extracellular polymeric substances (EPS), protein (PN) was clearly dominant; whereas in biofilm-derived EPS, PN and polysaccharide (PS) were present in approximately equal proportions. Biofilm EPS had a higher proportion of DNA when compared to flocs. Biofilm growth was preferential on the protected internal surfaces of the media. Colonization of the external surfaces of the media was evident by the presence of small microcolonies. The structural heterogeneity of the biofilms examined was supported by observed differences in biomass content, thickness and roughness of biofilm surface. The biofilm on the interior surface of media was found to be patchy with clusters of cells connected by an irregular arrangement of interconnecting EPS projections. Biofilm thickness ranged between 139 μm and 253 μm. The pattern of oxygen penetration is expected to be complex. Nitrifiers and denitrifiers were predominantly associated with the biofilms, and the latter were found to be dispersed throughout the film and arranged in micro-clusters, suggesting partial oxygen penetration.",
+    "source": "pubmed",
+    "id": "SG-BD8B091F3B4D",
+    "status": "完整摘要补筛",
+    "reading_depth": "完整返回摘要；未读正文",
+    "scope_decision": "可迁移方法/材料参照（摘要层）",
+    "source_role": "本轮定向检索/参考文献追溯",
+    "source_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/Q2.json",
+    "old_scope_judgment_changed": false,
+    "author_interpretation_and_alternatives": "IFFAS絮体/附着膜比较；摘要仅suggesting partial penetration，未确认直接氧剖面，不据类群位置反推氧保护"
+  },
+  {
+    "title": "Diffusivity of oxygen in aerobic granules",
+    "authors": [
+      "Z.C. Chiu",
+      "M.Y. Chen",
+      "D.J. Lee",
+      "S.T.‐L. Tay",
+      "J.H. Tay",
+      "K.Y. Show"
+    ],
+    "year": 2006,
+    "doi": "10.1002/bit.20862",
+    "journal": "Biotechnology and Bioengineering",
+    "source": "crossref",
+    "citation_count": 44,
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>This work for the first time estimated apparent oxygen diffusivity (<jats:italic>D</jats:italic><jats:sub>app</jats:sub>) of two types of aerobic granules, acetate‐fed and phenol‐fed, by probing the dissolved oxygen (DO) level at the granule center with a sudden change in the DO of the bulk liquid. With a high enough flow velocity across the granule to minimize the effects of external mass transfer resistance, the diffusivity coefficients of the two types of granules were estimated with reference to a one‐dimensional diffusion model. The carbon source has a considerable effect on the granule diameter (<jats:italic>d</jats:italic>) and the oxygen diffusivity. The diffusivity coefficients were noted 1.24–2.28 × 10<jats:sup>−9</jats:sup> m<jats:sup>2</jats:sup>/s of 1.28–2.50 mm acetate‐fed granules, and 2.50–7.65 × 10<jats:sup>−10</jats:sup> m<jats:sup>2</jats:sup>/s of 0.42–0.78 mm phenol‐fed granules. Oxygen diffusivity declined with decreasing granule diameter, in particular, the diffusivity of acetate‐fed granules is proportional to the size, whereas the diffusivity of phenol‐fed granules is proportional to the square of granule diameter. The existence of large pores in granule, evidenced by FISH‐CLSM imaging, was proposed to correspond to the noted size‐dependent oxygen diffusivity. The phenol‐fed granules exhibited a higher excellular polymer (ECP) content than the acetate‐fed granules, hence yielding a lower oxygen diffusivity. © 2006 Wiley Periodicals, Inc.</jats:p>",
+    "volume": "94",
+    "issue": "3",
+    "pages": "505-513",
+    "publisher": "Wiley",
+    "type": "journal-article",
+    "references_count": 52,
+    "url": "https://doi.org/10.1002/bit.20862",
+    "id": "SG-BB022853FBE3",
+    "status": "完整摘要补筛",
+    "reading_depth": "完整返回摘要；未读正文",
+    "scope_decision": "可迁移方法/材料参照（摘要层）",
+    "source_role": "本轮定向检索/参考文献追溯",
+    "source_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/REF0.json",
+    "old_scope_judgment_changed": false,
+    "author_interpretation_and_alternatives": "中心阶跃+一维拟合，ECP/孔隙为解释，非EPS单独因果；不能与活性层D混用"
+  },
+  {
+    "title": "Diffusion in Biofilms",
+    "authors": [
+      "Philip S. Stewart"
+    ],
+    "year": 2003,
+    "doi": "10.1128/jb.185.5.1485-1491.2003",
+    "journal": "Journal of Bacteriology",
+    "source": "crossref",
+    "citation_count": 1106,
+    "abstract": "",
+    "volume": "185",
+    "issue": "5",
+    "pages": "1485-1491",
+    "publisher": "American Society for Microbiology",
+    "type": "journal-article",
+    "references_count": 42,
+    "url": "https://doi.org/10.1128/jb.185.5.1485-1491.2003",
+    "id": "SG-379752EB5676",
+    "status": "题名线索待摘要",
+    "reading_depth": "仅元数据/题名",
+    "scope_decision": "待判断",
+    "source_role": "本轮定向检索/参考文献追溯",
+    "source_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/REF1.json",
+    "old_scope_judgment_changed": false,
+    "author_interpretation_and_alternatives": "基础扩散理论入口，Crossref无摘要，未据题名纳入"
+  },
+  {
+    "title": "Anaerobic production of alginate by Pseudomonas aeruginosa: alginate restricts diffusion of oxygen",
+    "authors": [
+      "D J Hassett"
+    ],
+    "year": 1996,
+    "doi": "10.1128/jb.178.24.7322-7325.1996",
+    "journal": "Journal of Bacteriology",
+    "source": "crossref",
+    "citation_count": 103,
+    "abstract": "<jats:p>Pseudomonas aeruginosa produced alginate and elevated algD (encoding GDPmannose 6-dehydrogenase) transcription under strict anaerobic conditions, especially when using nitrate as a terminal electron acceptor. Purified alginate added to bacterial suspensions caused a decrease in growth, suggesting that alginate contributes to oxygen limitation for the organism and likely for patients afflicted with the inherited autosomal disease cystic fibrosis.</jats:p>",
+    "volume": "178",
+    "issue": "24",
+    "pages": "7322-7325",
+    "publisher": "American Society for Microbiology",
+    "type": "journal-article",
+    "references_count": 26,
+    "url": "https://doi.org/10.1128/jb.178.24.7322-7325.1996",
+    "id": "SG-B87C98DE3C1D",
+    "status": "完整摘要补筛",
+    "reading_depth": "完整返回摘要；未读正文",
+    "scope_decision": "可迁移方法/材料参照（摘要层）",
+    "source_role": "本轮定向检索/参考文献追溯",
+    "source_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/REF2.json",
+    "old_scope_judgment_changed": false,
+    "author_interpretation_and_alternatives": "纯化alginate添加是材料干预，但增长下降不等于直接氧D实测；须核正文区分黏度/传质/其他效应"
+  },
+  {
+    "title": "Modeling mass transport and microbial activity in stratified biofilms",
+    "authors": [
+      "Haluk Beyenal",
+      "Zbigniew Lewandowski"
+    ],
+    "year": 2005,
+    "doi": "10.1016/j.ces.2005.02.063",
+    "journal": "Chemical Engineering Science",
+    "source": "crossref",
+    "citation_count": 40,
+    "abstract": "",
+    "volume": "60",
+    "issue": "15",
+    "pages": "4337-4348",
+    "publisher": "Elsevier BV",
+    "type": "journal-article",
+    "references_count": 35,
+    "url": "https://doi.org/10.1016/j.ces.2005.02.063",
+    "id": "SG-225C4DE457CF",
+    "status": "题名线索待摘要",
+    "reading_depth": "仅元数据/题名",
+    "scope_decision": "待判断",
+    "source_role": "本轮定向检索/参考文献追溯",
+    "source_path": "results/ad-oxygen-literature-20261006/oxygen_response_review/spatial_gas_transfer/uploads_20261101/raw/REF3.json",
+    "old_scope_judgment_changed": false,
+    "author_interpretation_and_alternatives": "分层模型反例入口，无摘要，待全文或正式摘要"
   }
 ]

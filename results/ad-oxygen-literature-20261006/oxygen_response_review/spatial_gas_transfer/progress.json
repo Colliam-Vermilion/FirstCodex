@@ -1,8 +1,8 @@
 {
   "updated_utc": "2026-10-30T12:25:06.740629+00:00",
-  "candidates": 2653,
+  "candidates": 2664,
   "processed": 498,
-  "remaining": 2155,
+  "remaining": 2153,
   "original_review_ids_reused": 138,
   "other_existing_paper_ids_reused": 95,
   "new_external_articles_discovered": 2255,
@@ -22,7 +22,7 @@
   "seed_metadata_unverified": 0,
   "fragment_only_processed": 2,
   "title_only_processed": 151,
-  "abstract_pending_after_title": 149,
+  "abstract_pending_after_title": 147,
   "locally_available_unread_abstract_queue": 0,
   "topical_not_prioritized": 29,
   "local_followup_new_initial_screenings": 193,
@@ -1027,7 +1027,7 @@
     "SG-7B6774684A66"
   ],
   "next_id": "SG-49E2C349F9A1",
-  "resume": "Do not rerun prepare/render/update_guide. Use render_online for this increment; continue remaining_queue and abstract_pending; 233 initial decisions preserved in checkpoints/pre_online_233_master.json",
+  "resume": "uploads_20261101/README.md：附件、原文矛盾、前向引文和剩余队列；不运行旧渲染覆盖本轮",
   "checkpoint_files": [
     "B001.json",
     "B002.json",
@@ -1549,5 +1549,21 @@
   ],
   "new_fragment_or_source_field_gaps": 3,
   "new_external_bibliographic_identities": 2255,
-  "external_count_unit": "provisional bibliographic identities including unverified types; not inclusions"
+  "external_count_unit": "provisional bibliographic identities including unverified types; not inclusions",
+  "upload_continuation_20261101": {
+    "date": "2026-11-01",
+    "baseline_commit": "591097727502b81b0e0a5bfa11d5ae07f05c7ca2",
+    "uploaded_files": 9,
+    "independent_articles": 9,
+    "fulltext_methods_results_discussion": 9,
+    "uploaded_existing_records": 3,
+    "uploaded_new_records": 6,
+    "local_candidates_rescreened": 6,
+    "online_new_abstract_inclusions": 3,
+    "online_new_title_leads": 2,
+    "online_duplicates": 2,
+    "forward_metadata_unread": 173,
+    "cumulative": 2664,
+    "next": "uploads_20261101/README.md 后续必须回答；剩余队列不重置"
+  }
 }
